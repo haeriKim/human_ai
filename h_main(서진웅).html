@@ -5,18 +5,23 @@
     <meta name="viewport" content=" width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
     <title>Human&Ai</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/notosanskr.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
     <style type="text/css">
-    body    {
-        overflow-y: hidden;
-    }
     #wrap  {
       width: 100%;
       min-width: 1280px;
-      height: 100px
+      height: 100%;
       position: relative;
+      overflow-y: hidden;
       margin: 0 auto;
+    }
+    #container    {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
     }
     .main_content {
       overflow: hidden;
@@ -33,24 +38,25 @@
         width: 100%;
         overflow: hidden;
     }
-    .main_content li {
+    .main_content ul li {
       width: 50%;
       float: left;
     }
-    .img_area_01  {
+    .main_content .img_area_01  {
       width: 100%;
       height: 1200px;
-      background: url(img/main_bg1.jpg) no-repeat 50% / 100%;
+      background: url(img/main_bg1.jpg) no-repeat 50% 0;
       position: relative;
     }
-    .img_area_02  {
+    .main_content .img_area_02  {
       width: 100%;
       height: 1200px;
-      background: url(img/main_bg2.jpg) no-repeat 45%;
+      background: url(img/main_bg2.jpg) no-repeat 50% 0;
       position: relative;
     }
-    .img_area_01 p,
-    .img_area_02 p{
+
+    .main_content .img_area_01 p,
+    .main_content .img_area_02 p{
       color:#fff;
       font-size:60px;
       position: absolute;
@@ -62,25 +68,34 @@
       text-shadow: 0 1px #fff, 3px 3px 0 rgb(0,0,0,0.3);
     }
 
-    .img_area .technology_text  {
+    .main_content .img_area .technology_text  {
       width: 150%;
       right:0;
       text-align: center;
     }
-    .img_area_hover {
-      width: 50%;
-      height: 1200px;
-      position: absolute;
-      top:0;
-      background-color: rgba(0,0,0,0.8);
-      color:#fff;
-      opacity: 0;
 
+    .main_content .sec{
+        width: 50%;
+        height: 1200px;
+        display: inline-block;
+        position: absolute;
+        top: 1200px;
+        box-sizing: border-box;
+        background-color: rgba(0,0,0,0.8);
+        color:#ccc;
+        text-align: center;
+        transition: all 1s ease;
     }
-    .img_area_hover:hover {
-      opacity: 1;
+    .main_content .left_detail{
+        left: 0;
     }
-    .img_area_hover p,span {
+    .main_content .right_detail{
+        right: 0;
+    }
+    .main_content ul li:hover .sec{
+        top:0;
+    }
+    .main_content .sec p,span {
       font-size: 22px;
       position: absolute;
       top:430px;
@@ -88,25 +103,23 @@
       text-align: center;
       width: 100%;
     }
-    .img_area_hover a {
-      text-align: center;
-      width: 100%;
-      display: block;
-      position: absolute;
-      bottom:500px;
-      display: inline-block;
+    .main_content .sec a{
+        display: inline-block;
+        padding-top: 60%;
     }
+
     .footer {
-      position: absolute;
+      position: fixed;;
       height: 122px;
       background: rgba(0,0,0,0.8);
       width: 100%;
       bottom:0;
     }
     .footer img {
+      width: 8%;
       position: absolute;
       margin-left: 33px;
-      margin-top: 15px;
+      margin-top: 30px;
     }
     .footer p   {
       color:#fff;
@@ -130,7 +143,7 @@
             <div class="img_area_01">
               <p>회사 소개</p>
             </div>
-            <div class="img_area_hover">
+            <div class="left_detail sec">
               <p>WHAT IS LOREM IPSUM?</p>
               <span>
                 WHAT IS LOREM IPSUM?<br/>
@@ -145,7 +158,7 @@
             <div class="img_area_02">
               <p class=technology_text>기술 소개</p>
             </div>
-            <div class="img_area_hover">
+            <div class="right_detail sec">
               <p>WHAT IS LOREM IPSUM?</p>
               <span>
                 WHAT IS LOREM IPSUM?<br/>
