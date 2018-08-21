@@ -1,7 +1,7 @@
 #wrap    {
     width: 100%;
     height: 100%;
-    overflow:hidden;
+    position: relative;
 }
 
 #header{
@@ -9,11 +9,9 @@
     height: 100%;
     position: relative;
     background: #111;
-    float:left;
 }
 
 #header h1 {
-
     text-align: center;
 }
 
@@ -26,28 +24,33 @@
     text-align: center;
 }
 
-#header ul li a p{
+#header nav ul li{
+    width: 234px;
+    background-color: #111;
     line-height: 250px;
-    width: 35px;
-    display: inline;
+}
+#header nav ul li .underbar{
+    width: 100%;
+    height: 250px;
+    border:1px solid red;
+    display:inline-block;
+    background: url(img/underline.jpg) no-repeat 0;
+}
+
+#header nav ul li:hover{
+    background-color:#efefef;
 }
 
 #header ul li a{
     color:#fff;
-    font-size:30px;
-    font-weight: 500;
-    width: 100%;
-}
-#header ul li a span{
-    width: ;
-    border-bottom: 2px solid #fff;
-    display:inline-block;
-    text-align: center;
+    font-size:25px;
+    font-weight: bold;
 }
 
 #header ul li a:hover{
-    background: #efefef;
+    color:#222;
 }
+
 
 
 /*map*/
