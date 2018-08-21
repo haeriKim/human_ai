@@ -49,6 +49,18 @@
     background-color:#efefef;
 }
 
+#header nav ul li:active{
+  background-color:#efefef;
+}
+
+#header nav ul li:nth-child(3){
+  background-color:#efefef;
+}
+
+#header nav ul li:nth-child(3) a{
+  color:#111;
+}
+
 #header ul li a{
     color:#fff;
     font-size:25px;
@@ -72,6 +84,19 @@
 .map_fence{
   margin-left:20%;
   margin-top:12%;
+}
+
+.contact_title{
+  position:absolute;
+  left:53%;
+  top:110px;
+  width:150px;
+}
+
+.contact_underline{
+  position:absolute;
+  left:55%;
+  top:155px;
 }
 
 .contact_inner{
