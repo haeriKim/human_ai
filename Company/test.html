@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+
+ <meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1">
+ <link rel="stylesheet" href="">
+ <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+
+ <title>Doucument</title>
+
+   <style>
+
+    body{margin:0 auto;
+      width:100%;
+      background:#262626;
+      overflow-x:hidden;
+      font-family: 'Noto Sans',sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format('woff2'),
+      url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format('woff'),
+      url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format('opentype');
+      }
+
+    .logo{}
+    .logo img{
+      position:absolute;
+      width:19%;
+      left:40.8%;
+      top:30px;
+      z-index:1000;
+      }
+
+    .company{
+      position:absolute;
+      font-weight:bold;
+      color:#fff;
+      font-size:60px;
+      text-shadow:1px 1px 1px #000;
+      left:20%;
+      top:250px;
+      z-index:1000;
+      text-align:center;
+      }
+
+    .solution{
+      position:absolute;
+      font-weight:bold;
+      color:#fff;
+      font-size:60px;
+      text-shadow:1px 1px 1px #000;
+      right:20%;
+      top:250px;
+      z-index:1000;
+      }
+
+
+    .a{
+      width:50%;
+      height:962px;
+      background-color:#00f;
+      background:url(images/main_bg1.jpg) no-repeat 50% 0;
+      background-size:cover;
+      float:left;
+      }
+
+    .a:hover .a_hidden{display:block;}
+
+    .b{
+      width:50%;
+      height:962px;
+      background-color:#0ff;
+      background:url(images/main_bg2.jpg) no-repeat 50% 0;
+      background-size:cover;
+      float:right;
+      }
+
+    .b:hover .b_hidden{display:block;}
+
+    .a_hidden{
+      width:100%;
+      height:850px;
+      background:#000;
+      opacity:0.5;
+      display:none;
+      }
+
+    .a_hidden .text{
+      position:absolute;
+      color:#fff;
+      text-align:center;
+      left:11.5%;
+      top:350px;
+      line-height:0.8em;
+      }
+
+    .text h1{
+      font-size:35px;
+      font-weight:bold;
+      margin-bottom:40px;
+      }
+
+    .text img{margin-top:50px;}
+
+    .b_hidden{
+      width:100%;
+      height:850px;
+      background:#000;
+      opacity:0.5;
+      display:none;
+      }
+
+    .b_hidden .text2{
+      position:absolute;
+      color:#fff;
+      text-align:center;
+      right:11%;
+      top:350px;
+      line-height:0.8em;
+      }
+
+    .text2 h1{
+      font-size:35px;
+      font-weight:bold;
+      margin-bottom:40px;
+      }
+
+    .text2 img{margin-top:50px;}
+
+    .footer{
+      position:absolute;
+      top:850px;
+      background-color:#000;
+      width:100%;
+      height:112.5px;
+      display:block;
+      opacity:0.9;
+      }
+
+    .footer_logo img{
+      position:absolute;
+      width:180px;
+      height:100px;
+      float:left;
+      color:#fff;
+      margin-left:30px;
+      margin-top:10px;
+      }
+
+    .footer .address{
+      color:#fff;
+      text-align:center;
+      margin-top:30px;
+      font-size:13px;
+      }
+
+    .footer p{
+      color:#fff;
+      text-align:center;
+      font-size:13px;
+      }
+
+   </style>
+ </head>
+
+<body>
+  <div id="wrap" class="background">
+
+    <div class="logo"><img src="images/main_logo.png" alt="로고"></div>
+
+
+
+
+    <div class="a">
+      <div class="company">회사소개</div>
+    <div class="a_hidden">
+
+    <div class="text">
+    <h1>WHAT IS LOREM IPSUM?</h1>
+
+        <p>LOREM IPSUM IS SIMPLY DUMMY TEXT OF THE PRINTING AND TYPESETTING</p>
+        <p>INDUSTRY LOREM LPSM HAS BEEN THE INDUSTRYSS</p>
+        <p>TANIDARD DUMMY TEXT EVER SINCE THE 1500S</p>
+        <p>WHEN AN UNKNOWN PRINTER TOOK A GALLEY OF</p>
+
+        <p><a href="#"><img src="images/arrow.png" alt="화살표"></a></p>
+    </div>
+    </div>
+    </div>
+
+    <div class="b">
+      <div class="solution">기술소개</div>
+    <div class="b_hidden">
+      <div class="text2">
+      <h1>WHAT IS LOREM IPSUM?</h1>
+
+          <p>LOREM IPSUM IS SIMPLY DUMMY TEXT OF THE PRINTING AND TYPESETTING</p>
+          <p>INDUSTRY LOREM LPSM HAS BEEN THE INDUSTRYSS</p>
+          <p>TANIDARD DUMMY TEXT EVER SINCE THE 1500S</p>
+          <p>WHEN AN UNKNOWN PRINTER TOOK A GALLEY OF</p>
+
+          <p><a href="#"><img src="images/arrow.png" alt="화살표"></a></p>
+    </div>
+    </div>
+    </div>
+
+  </div>
+
+ <div class="footer">
+
+  <div class="footer_logo"><img src="logo.png" alt="푸터로고"></div>
+  <p class="address">서울특별시 서초구 신반포로 326-10 305호 (주)휴먼앤에이아이 TEL: 02-2269-8777 FAX: 070-7543-0023</p>
+  <p>사업자등록번호:310-501-1231 ⓒ 2018 Human & AI</p>
+  </div>
+</body>
+</html>
