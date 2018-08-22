@@ -1,0 +1,236 @@
+#wrap    {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow-y: hidden;
+}
+#container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#header{
+    width: 234px;
+    height: 100%;
+    position: relative;
+    background: #222;
+    z-index: 10;
+    box-shadow: 0 1px 13px rgba(0,0,0,.3);
+}
+
+#header h1 {
+    text-align: center;
+}
+
+#header img{
+    margin: 30px 0;
+    width: 60%;
+}
+
+#header nav{
+    text-align: center;
+}
+
+#header nav ul li{
+    width: 234px;
+    line-height: 250px;
+}
+#header nav ul li .underbar{
+    width: 100%;
+    height: 250px;
+    border:1px solid red;
+    display:inline-block;
+    background: url(img/underline.jpg) no-repeat 0;
+}
+
+#header nav ul li:hover{
+    background-color:#efefef;
+}
+
+#header ul li a{
+    color:#fff;
+    font-size:25px;
+    font-weight: bold;
+}
+
+#header ul li a:hover{
+    color:#222;
+}
+
+
+
+/*map*/
+
+.sub{
+  height:900px;
+  padding-left: 234px;
+  margin: 0 auto;
+}
+
+.map_fence{
+  margin-left:20%;
+  margin-top:12%;
+}
+
+.contact_inner{
+  margin:0 auto;
+  width:425px;
+  height:445px;
+  background-color:#111111;
+  color:#fff;
+  float:left;
+}
+
+.contact_inner h1{
+  font-size:35px;
+  margin-top:50px;
+  margin-left:30px;
+  margin-bottom:40px;
+}
+
+.contact_inner span{
+  font-size:14px;
+  font-weight:bold;
+}
+
+.contact_inner ul{
+  width:335px;
+  height:50px;
+  float:left;
+  margin-bottom:20px;
+  margin-left:30px;
+}
+
+.contact_inner ul img{
+  margin-left:-20px;
+  padding-left:20px;
+  padding-top:10px;
+  float:left;
+  width:25px;
+  height:25px;
+}
+
+.contact_inner .text1{
+  list-style:none;
+  width:300px;
+  height:50px;
+  margin-left:10px;
+  float:left;
+  line-height:20px;
+}
+
+.contact_inner .text2{
+  list-style:none;
+  width:300px;
+  height:50px;
+  margin-left:10px;
+  float:left;
+  line-height:20px;
+}
+
+.contact_inner .text3{
+  list-style:none;
+  width:300px;
+  height:50px;
+  margin-top:10px;
+  margin-left:10px;
+  float:left;
+  line-height:20px;
+}
+
+.contact_inner .text4{
+  list-style:none;
+  width:300px;
+  height:50px;
+  margin-top:10px;
+  margin-left:10px;
+  float:left;
+  line-height:20px;
+}
+
+.map{float:left;}
+
+/*기술소개*/
+.technology_inner{
+    margin-top:5%;
+    text-align: center;
+}
+.technology_inner h2{
+    font-size:30px;
+    color:#222;
+    margin-bottom:20px;
+}
+
+.technology_inner ul{
+    overflow: hidden;
+    text-align: center;
+    width: 800px;
+    display: inline-block;
+    margin-bottom:30px;
+}
+.technology_inner ul li{
+    float: left;
+    width: 50%;
+}
+.technology_inner ul li a{
+    color:#222;
+    margin-bottom:2px;
+    font-weight: bold;
+    font-size:20px;
+    padding-bottom:2px;
+    display: inline-block;
+}
+
+.technology_inner ul li:first-child a{
+    border-bottom:2px solid #222;
+}
+.technology_inner .ai_tech_content{
+    position: relative;
+    color:#fff;
+    width: 100%;
+}
+.technology_inner .ai_tech_content img{
+    width: 100%;
+}
+.technology_inner .ai_tech_content p{
+    font-size:50px;
+    bottom:150px;
+    position: relative;
+    text-align: center;
+}
+.technology_inner .ai_tech_content span{
+    font-size:25px;
+    position:relative;
+    text-align: center;
+    bottom:130px;
+}
+
+/*footer*/
+.sub .footer {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 70px;
+  background-color: #000;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 13px;
+  opacity: .8;
+  overflow: hidden;
+}
+.sub .footer img {
+  float: left;
+  width: 75px;
+}
+.sub .footer p{
+  display: block;
+  text-align: center;
+}
+.sub .footer p a{
+  color: #fff;
+  text-decoration: underline;
+}
