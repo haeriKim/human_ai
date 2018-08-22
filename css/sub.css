@@ -88,6 +88,7 @@
 
 .contact_title{
   position:absolute;
+  font-size:30px;
   left:53%;
   top:110px;
   width:150px;
@@ -108,7 +109,7 @@
   float:left;
 }
 
-.contact_inner h1{
+.contact_inner h3{
   font-size:35px;
   margin-top:50px;
   margin-left:30px;
