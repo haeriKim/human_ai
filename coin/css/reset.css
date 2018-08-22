@@ -1,0 +1,23 @@
+html{margin:0;padding:0;font-family: 'Noto Sans KR', sans-serif;height:100%;}
+body{margin:0;padding:0;font-family: 'Noto Sans KR', sans-serif;height:100%; letter-spacing: -0.5px;color: #333;background-color: #efefef;}
+table{width:100%;
+    text-align: center;}
+table,tr,td{border-collapse:collapse;border-spacing:0;}
+*{margin:0;padding:0}
+li{list-style:none;}
+a{outline:none;}
+a:link, a:visited{text-decoration:none;color:#000;}
+input[type="text"],input[type="password"],input[type="email"],input[type="tel"],input[type="submit"],input[type="reset"],input[type="file"], textarea, input[type="button"]{
+    -webkit-appearance:none;
+    -webkit-border-radius:0;
+    outline: none;
+}
+input, textarea{
+    outline:none;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){
+    a img{
+        border:none
+    }
+}
