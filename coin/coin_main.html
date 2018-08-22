@@ -16,8 +16,44 @@
     <div id="wrap">
         <!-- container -->
         <div id="container">
-            <?php include "nav.php";?>
-            <?php include "header.php";?>
+
+            <!-- nav_wrap -->
+            <div id="nav_wrap">
+                <!-- nav  -->
+                <div class="nav">
+                    <h1><img src='' alt='로고'></h1>
+                    <ul class='nav_list'>
+                        <li><a href='#'><img src='' alt=''>거래하기</a></li>
+                        <li><a href='#'><img src='' alt=''>차트보기</a></li>
+                        <li><a href='#'><img src='' alt=''>내자산관리</a></li>
+                        <li><a href='#'><img src='' alt=''>고객센터</a></li>
+                        <li><a href='#'><img src='' alt=''>코인정보</a></li>
+                    </ul>
+                </div>  <!-- nav End-->
+            </div><!-- nav_wrap End-->
+
+            <!-- header_wrap -->
+            <div id ="header_wrap">
+                <!-- header -->
+                <div class="header">
+                    <!-- current_coin -->
+                    <div class="current_coin">
+                        <ul class='bitcoin'>
+                            <li><img src='' alt='비트코인캐시'><p>비트코인캐시</p></li>
+                            <li><p>현재가 : <span class='coin_data_01'></span></p></li>
+                            <li><p>최고가 : <span class='coin_data_02'></span></p></li>
+                            <li><p>최저가 : <span class='coin_data_03'></span></p></li>
+                            <li><p>거래량 : <span class='coin_data_04'></span></p></li>
+                            <li><p>체결액 : <span class='coin_data_05'></span></p></li>
+                        </ul>
+                    </div><!-- current_coin End-->
+                    <form class='join_login_part' action="#" method="post">
+                        <input type="button" name="로그인" value="로그인"/>
+                        <input type="button" name="회원가입" value="회원가입"/>
+                    </form>
+                </div> <!-- header End-->
+            </div><!-- header_wrap End-->
+
             <!-- content_wrap -->
             <div class="content_wrap">
                 <!-- main_content -->
@@ -58,7 +94,24 @@
 
                 </div><!-- main_content End-->
             </div><!-- content_wrap End-->
-            <?php include "footer.php";?>
+
+            <!-- footer_wrap -->
+            <div id="footer_wrap">
+                <!-- footer -->
+                <div class="footer">
+                    <ul class="footer_menu">
+                        <li><a href='#'>회사소개</a></li>
+                        <li><a href='#'>개인정보처리방침</a></li>
+                        <li><a href='#'>공지사항</a></li>
+                        <li><a href='#'>이용안내</a></li>
+                        <li><a href='#'>FAQ</a></li>
+                        <li><a href='#'>불편사항접수</a></li>
+                    </ul>
+                    <p class='address'>서울특별시 서초구 신반포로 326-10 대종빌딩 305호 (주)휴먼앤에이아이 대표 홍길동 사업자등록번호 000-00-00000 Copyright&copy;All rights reserved</p>
+                </div><!-- footer End-->
+            </div>
+            <!-- footer_wrap End-->
+
         </div><!-- container End -->
     </div><!-- wrap End -->
 
