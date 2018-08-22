@@ -49,6 +49,17 @@
     background-color:#efefef;
 }
 
+#header nav ul li:active{
+  background-color:#efefef;
+}
+
+#header nav ul li:nth-child(2){
+  background-color:#efefef;
+}
+
+#header nav ul li:nth-child(2) a{
+  color:#111;
+}
 #header ul li a{
     color:#fff;
     font-size:25px;
@@ -154,7 +165,7 @@
 
 /*기술소개*/
 .technology_inner{
-    margin-top:5%;
+    margin-top:110px;
     text-align: center;
 }
 .technology_inner h2{
@@ -228,7 +239,7 @@
 }
 .sub .footer p{
   display: block;
-  text-align: center;
+  text-align: right;
 }
 .sub .footer p a{
   color: #fff;
