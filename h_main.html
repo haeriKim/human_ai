@@ -34,6 +34,9 @@
       z-index: 3;
       text-align: center;
     }
+    .main_content h1 img {
+      width: 300px;
+    }
     .main_content ul {
         width: 100%;
         overflow: hidden;
@@ -54,19 +57,18 @@
       background: url(img/main_bg2.jpg) no-repeat 50% 0;
       position: relative;
     }
-
-    .main_content .img_area_01 h2,
-    .main_content .img_area_02 h2{
+    .main_content .img_sec h2 {
       color:#fff;
-      font-size:60px;
+      font-size:55px;
       position: absolute;
       top:300px;
       left:0;
       text-align: center;
       width: 100%;
-      z-index: 10;
-      text-shadow: 0 1px #fff, 3px 3px 0 rgb(0,0,0,0.3);
-      font-weight: 500;
+      z-index: 5;
+      text-shadow: 0 1px #fff, 4px 4px 0 rgb(0,0,0,0.5);
+      font-weight: 600;
+      opacity: .8;
     }
 
     .main_content .img_area .technology_text  {
@@ -96,13 +98,18 @@
     .main_content ul li:hover .sec{
         top:0;
     }
-    .main_content .sec p,span {
-      font-size: 22px;
+    .main_content .sec h3,.main_content .sec p {
+      font-size: 25px;
       position: absolute;
-      top:430px;
+      top:420px;
       left: 0;
       text-align: center;
       width: 100%;
+    }
+    .main_content .sec p {
+      font-size: 16px;
+      top:470px;
+      line-height: 25px;
     }
     .main_content .sec a{
       display: inline-block;
@@ -148,32 +155,31 @@
         <h1><img src="img/main_logo.png" alt="회사로고"></h1>
         <ul>
           <li class="company_intro">
-            <div class="img_area_01">
+            <div class="img_sec img_area_01">
               <h2>회사 소개</h2>
             </div>
             <div class="left_detail sec">
-              <p>WHAT IS LOREM IPSUM?</p>
-              <span>
-                WHAT IS LOREM IPSUM?<br/>
-                WHAT IS LOREM IPSUM?<br/>
-                WHAT IS LOREM IPSUM?<br/>
-                WHAT IS LOREM IPSUM?<br/>
-              </span>
+              <h3>Human과 AI과 함께하는 회사</h3>
+              <p>
+              ㈜휴먼앤에이아이(Huaman&AI)사는 사람과 인공지능이 공존하는<br/>
+              4차 산업혁명시대에 인공지능의 장점을 살려 인간의 삶에 도움을 주는 <br/>
+              제품을 개발, 생산, 판매하는 회사입니다.
+            </p>
               <a href="#"><img src='img/arrow.png' alt='바로가기'></a>
             </div>
           </li>
           <li class="technology_into">
-            <div class="img_area_02">
+            <div class="img_sec img_area_02">
               <h2 class=technology_text>기술 소개</h2>
             </div>
             <div class="right_detail sec">
-              <p>WHAT IS LOREM IPSUM?</p>
-              <span>
+              <h3>WHAT IS LOREM IPSUM?</h3>
+              <p>
                 WHAT IS LOREM IPSUM?<br/>
                 WHAT IS LOREM IPSUM?<br/>
                 WHAT IS LOREM IPSUM?<br/>
                 WHAT IS LOREM IPSUM?<br/>
-              </span>
+              </p>
               <a href="#"><img src='img/arrow.png' alt='바로가기'></a>
             </div>
           </li>
