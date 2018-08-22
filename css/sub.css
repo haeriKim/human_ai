@@ -126,9 +126,10 @@
 }
 
 .contact_inner ul img{
-  margin-left:-20px;
+  margin-left:-25px;
   padding-left:20px;
-  padding-top:10px;
+  padding-top:5px;
+  padding-right:10px;
   float:left;
   width:25px;
   height:25px;
@@ -159,7 +160,7 @@
   margin-top:10px;
   margin-left:10px;
   float:left;
-  line-height:20px;
+  line-height:30px;
 }
 
 .contact_inner .text4{
@@ -169,7 +170,7 @@
   margin-top:10px;
   margin-left:10px;
   float:left;
-  line-height:20px;
+  line-height:30px;
 }
 
 .map{float:left;}
