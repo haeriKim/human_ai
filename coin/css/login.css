@@ -1,0 +1,102 @@
+.login_content #login_area{
+    position: relative;
+}
+
+.login_content #login_area form h3{
+    color:#071f45;
+    font-size:25px;
+    padding-bottom:30px;
+}
+
+.login_content #login_area input{
+    border-style:none;
+    border-bottom:1px solid #2a3e5f;
+    font-size:15px;
+    padding-bottom:5px;
+    padding-left:5px;
+    display: block;
+    width: 95%;
+    margin-bottom:25px;
+}
+
+.login_content #login_area .login_button{
+    color:#fff;
+    font-size:20px;
+    font-weight: bold;
+    background: #071f45;
+    border:none;
+    background:#071f45
+    font-size:25px;
+    border-radius:5px;
+    padding:5px 0;
+    cursor: pointer;
+}
+
+.login_content #login_area .wrong_info{
+    color:red;
+    font-size:15px;
+    margin-bottom: 15px;
+}
+
+.login_content #login_area .login_info{
+    overflow: hidden;
+}
+
+.login_content #login_area .login_info a{
+    color:#757575;
+    font-size:13px;
+    float: left;
+}
+
+.login_content #login_area .login_info ul{
+    display: inline-block;
+    margin-left:70px;
+    width: 200px;
+}
+
+.login_content #login_area .login_info ul li{
+    float: right;
+}
+
+.login_content #login_area .login_info ul li:nth-child(2){
+    margin-right:10px;
+    border-right:1px solid #6c6c6c;
+    padding-right:10px;
+
+}
+
+.login_content #login_area .login_info .e_mail_find{
+    color:#fff;
+    background-color:#eaaf69;
+    font-size:15px;
+    font-weight: bold;
+    position: absolute;
+    top:290px;
+    left:30px;
+    display:none;
+    width: 300px;
+    text-align: center;
+    padding:10px 0;
+    line-height: 1.5;
+    border-radius: 5px;
+
+}
+/*'i'아이콘*/
+/*.login_content #login_area .login_info .notify_icon::before{
+    content:'i';
+    font-size:13px;
+    color:#eaaf69;
+    background-color:#fff;
+    border-radius:10px;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    position: absolute;
+    left:5px;
+    top:12px;
+
+
+}*/
+.login_content #login_area .login_info ul li:hover .e_mail_find{
+    display:block;
+}

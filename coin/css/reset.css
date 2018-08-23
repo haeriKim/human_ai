@@ -21,3 +21,15 @@ input, textarea{
         border:none
     }
 }
+
+/*레이블 skip*/
+.skip_label{
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    font-size:0;
+    line-height:0;
+    visibility:hidden;
+    position:absolute;
+    left:-999px;
+}
