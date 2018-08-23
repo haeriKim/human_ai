@@ -17,6 +17,7 @@
   }
 
 .nav_bt{
+  padding-bottom:10px;
   border-bottom:1px solid #495a6e;
   height:30px;
 }
@@ -54,6 +55,7 @@
   text-align:center;
   line-height:4em;
   font-size:20px;
+  font-weight:600;
 }
 
 .nav_list a{
