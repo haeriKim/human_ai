@@ -14,6 +14,15 @@
     left:0;
     top:0;
 }
+#container:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.content_wrap{
+  overflow: auto;
+    margin-left: 190px;
+}
 /* 박스 스타일 */
 .box{
     box-shadow: 0 1px 2px rgba(100,100,100,.2);
@@ -24,6 +33,6 @@
 /* content 넓이(가운데정렬) */
 .con_410 {
     width:410px;
-    margin: 10% auto;
+    margin: 15% auto;
     padding: 20px 30px;
 }

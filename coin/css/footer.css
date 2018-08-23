@@ -1,0 +1,58 @@
+#footer_wrap{
+    height:35px;
+    position: absolute;
+    bottom:0;
+    background: #e1e1e1;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-weight: 600;
+}
+#footer{
+    height:inherit;
+    padding-left: 190px;
+}
+#footer:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.footer_menu{
+    height:35px;
+    width: auto;
+    display: inline-block;
+}
+.footer_menu ul{
+    height:35px;
+}
+.footer_menu ul:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.footer_menu ul li{
+    height:inherit;
+    float: left;
+    padding:0 18px;
+    box-sizing: border-box;
+}
+.footer_menu ul li a{
+    color: #666;
+    font-size:13px;
+    display: inline-block;
+    height: 100%;
+    line-height: 35px;
+}
+.compnay_info {
+    float: right;
+    color: #666;
+    margin-top:10px;
+    margin-right:20px;
+    text-align: right;
+    font-size: 10px;
+    letter-spacing: -0.6px;
+    font-size: 13px;
+}
+#footer .bar{
+    padding: 0 5px;
+}

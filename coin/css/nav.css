@@ -3,12 +3,13 @@
 
 #nav_wrap{
   margin:0 auto;
-  position:fixed;
+  position:absolute;
   float:left;
   width:190px;
   height:100%;
   background-color:#1b2f4a;
-  z-index:1000;
+  z-index:2;
+  box-shadow: 0 15px 15px rgba(100,100,100,0.7);
   }
 
 #nav h1 img{
@@ -17,7 +18,7 @@
   }
 
 .nav_bt{
-  padding-bottom:10px;
+  padding-bottom:20px;
   border-bottom:1px solid #495a6e;
   height:30px;
 }
@@ -53,11 +54,12 @@
   height:80px;
   border-bottom:1px solid #495a6e;
   text-align:center;
-  line-height:4em;
-  font-size:20px;
+  line-height:4.5em;
+  font-size:18px;
   font-weight:600;
 }
 
 .nav_list a{
   color:#fff;
+  display: block;
 }
