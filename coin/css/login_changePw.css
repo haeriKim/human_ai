@@ -1,0 +1,53 @@
+.login_content #login_change_pw{
+    position: relative;
+}
+
+.login_content #login_change_pw form h3{
+    color:#071f45;
+    font-size:25px;
+    padding-bottom:30px;
+}
+
+
+.login_content #login_change_pw p{
+    color:red;
+    font-size:13px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.login_content #login_change_pw input{
+    border-style:none;
+    border-bottom:1px solid #2a3e5f;
+    font-size:15px;
+    padding-bottom:5px;
+    padding-left:5px;
+    display: block;
+    width: 95%;
+    margin-bottom:25px;
+}
+
+.login_content #login_change_pw p.notfiy_info{
+    display: block;
+}
+
+.login_content #login_change_pw p.notfiy_info_again{
+    display: none;
+}
+
+.login_content #login_change_pw p.notfiy_info_wrong{
+    display: none;
+}
+
+.login_content #login_change_pw .button_box{
+    color:#fff;
+    font-size:20px;
+    font-weight: bold;
+    background: #071f45;
+    border:none;
+    font-size:25px;
+    border-radius:5px;
+    padding:7px 0;
+    cursor: pointer;
+    width: 98%;
+}

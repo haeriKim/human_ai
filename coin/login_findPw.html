@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=" width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+    <title>Human&Ai</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/login_findPw.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <script src="js/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+    <!-- wrap -->
+    <div id="wrap">
+        <!-- container -->
+        <div id="container">
+            <!-- nav_wrap -->
+            <div id="nav_wrap">
+                <!-- nav  -->
+                <div class="nav">
+                    <h1><img src='' alt='로고'></h1>
+                    <ul class='nav_list'>
+                        <li><a href='#'><img src='' alt=''>거래하기</a></li>
+                        <li><a href='#'><img src='' alt=''>차트보기</a></li>
+                        <li><a href='#'><img src='' alt=''>내자산관리</a></li>
+                        <li><a href='#'><img src='' alt=''>고객센터</a></li>
+                        <li><a href='#'><img src='' alt=''>코인정보</a></li>
+                    </ul>
+                </div>  <!-- nav End-->
+            </div><!-- nav_wrap End-->
+
+            <!-- header_wrap -->
+            <div id ="header_wrap">
+                <!-- header -->
+                <div class="header">
+                    <!-- current_coin -->
+                    <div class="current_coin">
+                        <ul class='bitcoin'>
+                            <li><img src='' alt='비트코인캐시'><p>비트코인캐시</p></li>
+                            <li><p>현재가 : <span class='coin_data_01'></span></p></li>
+                            <li><p>최고가 : <span class='coin_data_02'></span></p></li>
+                            <li><p>최저가 : <span class='coin_data_03'></span></p></li>
+                            <li><p>거래량 : <span class='coin_data_04'></span></p></li>
+                            <li><p>체결액 : <span class='coin_data_05'></span></p></li>
+                        </ul>
+                    </div><!-- current_coin End-->
+                    <form class='join_login_part' action="#" method="post">
+                        <input type="button" name="로그인" value="로그인"/>
+                        <input type="button" name="회원가입" value="회원가입"/>
+                    </form>
+                </div> <!-- header End-->
+            </div><!-- header_wrap End-->
+
+            <!-- content_wrap -->
+            <div class="content_wrap">
+                <!-- main_content -->
+                <div class="content login_content">
+                  <div class="box con_410">
+                    <!-- 로그인폼 -->
+                    <div id="login_find_pw">
+                        <form class="" action="#" method="post">
+                            <h3>비밀번호 복구</h3>
+                            <label for="e_mail" class='skip_label'>이메일주소</label>
+                            <input type="email" name="e_mail" value="" placeholder="이메일 주소를 입력하세요." id='e_mail' required autocomplete="off">
+                            <p class='notfiy_info'>
+                                <img src="img/icon_ex.png" alt="알림">
+                                입력한 주소로 이메일이 발송되었습니다.<br/>
+                                메일의 링크를 통해 비밀번호 변경을 완료해주세요.
+                            </p>
+                            <input type="submit" name="submit" value="메일 보내기" class='button_box send_email_button'>
+                            <input type="button" name="button" value="로그인 하기" class='button_box go_login'>
+                            <!-- login_info -->
+                        </form>
+                    </div><!-- login_find_pw END -->
+                  </div><!-- con_410 End-->
+                </div><!-- login_content End-->
+            </div><!-- content_wrap End-->
+
+            <!-- footer_wrap -->
+            <div id="footer_wrap">
+                <!-- footer -->
+                <div class="footer">
+                    <ul class="footer_menu">
+                        <li><a href='#'>회사소개</a></li>
+                        <li><a href='#'>개인정보처리방침</a></li>
+                        <li><a href='#'>공지사항</a></li>
+                        <li><a href='#'>이용안내</a></li>
+                        <li><a href='#'>FAQ</a></li>
+                        <li><a href='#'>불편사항접수</a></li>
+                    </ul>
+                    <p class='address'>서울특별시 서초구 신반포로 326-10 대종빌딩 305호 (주)휴먼앤에이아이 대표 홍길동 사업자등록번호 000-00-00000 Copyright&copy;All rights reserved</p>
+                </div><!-- footer End-->
+            </div>
+            <!-- footer_wrap End-->
+
+        </div><!-- container End -->
+    </div><!-- wrap End -->
+
+</body>
+</html>
