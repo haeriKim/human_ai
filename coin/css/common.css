@@ -39,7 +39,8 @@
 /*버튼 스타일*/
 .login_content #login_area .button_box,
 .login_content #login_change_pw .button_box,
-.login_content #login_find_pw .button_box {
+.login_content #login_find_pw .button_box,
+.login_content #login_c_change_pw .button_box {
     color:#fff;
     font-size:20px;
     font-weight: 600;
