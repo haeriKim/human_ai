@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/slide.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/slide.js"></script>
 </head>
 <body>
     <!-- wrap -->
@@ -109,7 +110,6 @@
                       <li class="banner1 banner"></li>
                       <li class="banner2 banner"></li>
                       <li class="banner3 banner"></li>
-
                     </ul>
 
                     <a href="#" class="nextBtn">&gt;</a>
@@ -118,47 +118,9 @@
                     <div class="slideshow-indicator"></div>
                   </div><!-- rolling_ad_img End-->
 
-                  <!--rolling_ad_img script-->
-                  <script>
-                  $(document).ready(function(){
-                    var nowNum = 0;
-                    var st;
-                    var bannerObj = $('.slideUl li');
-                    var maxLength = bannerObj.length;
-                    var timer = 7000;
-                    var autoRun = setInterval(function(){rollingFn('right');},timer);
-                    bannerObj.eq(nowNum).fadeIn();
-                    $('.nextBtn').on('click',function(){
-                      rollingFn('right');
-                    });
-                    $('.prevBtn').on('click',function(){
-                      rollingFn('left');
-                    });
+                  <!-- bitcoin_card -->
+                  <div class="bitcoin_card_wrap">
 
-                    function rollingFn(direction){
-                      if(direction=='right'){
-                        nowNum = nowNum+1;
-                        if(nowNum>maxLength-1){
-                          nowNum = 0;
-                        }
-                      }else{
-                        nowNum = nowNum-1;
-                        if(nowNum<0){
-                          nowNum = maxLength-1;
-                        }
-                      }
-                      bannerObj.hide().eq(nowNum).fadeIn();
-                    }
-
-                  });
-                  /*  $('.banner').hover(function(){
-                      $(this).stop()
-                  }); */
-
-                  </script>
-                  <!--rolling_ad_img script End-->
-
-                    <!-- bitcoin_card -->
                     <div class="bitcoin_card">
                         <ul class="bitcoin_card_inner">
                           <!--bitcoin Card-->
@@ -238,9 +200,29 @@
 
                           </ul>
                     </div>
-                    <!-- bitcoin_card End-->
+                  </div>
+                  <!-- bitcoin_card End-->
 
-                    <!-- use_guide -->
+                  <!--Notice-->
+                    <div class="notice_wrap">
+                      <div class="notice">
+                        <h4>공지사항<a href="#"><img src="" alt=""></a></h4>
+                          <ul>
+                            <li>[공지] 이더리움 입출금 지연 안내</li>
+                            <li>[공지] CCE 홈페이지 리뉴얼기념 이벤트</li>
+                            <li>[정보] 2018 하반기 비트코인 상승세 정보뉴스</li>
+                            <li>[공지] 이오스 입출금 지연 안내</li>
+                            <li>[공지] 휴먼앤에이아이 CCE와 함께 걷다.</li>
+                            <li>[정보] 비트코인캐시 시장현황</li>
+                          </ul>
+                      </div>
+
+                    </div>
+
+
+                    <!--Notice End-->
+
+                  <!-- use_guide -->
                     <div class="use_guide">
                         <a href="#">
                             <img src='' alt='이용안내'>
