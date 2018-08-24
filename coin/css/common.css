@@ -34,5 +34,19 @@
 .con_410 {
     width:410px;
     margin: 15% auto;
-    padding: 20px 30px;
+    padding: 40px 30px 30px 30px;
+}
+/*버튼 스타일*/
+.login_content #login_area .button_box,
+.login_content #login_change_pw .button_box,
+.login_content #login_find_pw .button_box {
+    color:#fff;
+    font-size:20px;
+    font-weight: 600;
+    background: #071f45;
+    border:none;
+    border-radius:5px;
+    padding:8px 0;
+    cursor: pointer;
+    width: 98%;
 }

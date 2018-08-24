@@ -13,7 +13,6 @@
     color:red;
     font-size:13px;
     margin-bottom: 20px;
-    display: block;
 }
 
 .login_content #login_change_pw input{
@@ -37,17 +36,4 @@
 
 .login_content #login_change_pw p.notfiy_info_wrong{
     display: none;
-}
-
-.login_content #login_change_pw .button_box{
-    color:#fff;
-    font-size:20px;
-    font-weight: bold;
-    background: #071f45;
-    border:none;
-    font-size:25px;
-    border-radius:5px;
-    padding:7px 0;
-    cursor: pointer;
-    width: 98%;
 }

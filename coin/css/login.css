@@ -19,27 +19,16 @@
     margin-bottom:25px;
 }
 
-.login_content #login_area .login_button{
-    color:#fff;
-    font-size:20px;
-    font-weight: bold;
-    background: #071f45;
-    border:none;
-    background:#071f45
-    font-size:25px;
-    border-radius:5px;
-    padding:5px 0;
-    cursor: pointer;
-}
-
 .login_content #login_area .wrong_info{
     color:red;
-    font-size:15px;
+    font-size:13px;
     margin-bottom: 15px;
+
 }
 
 .login_content #login_area .login_info{
     overflow: hidden;
+    margin-bottom:10px;
 }
 
 .login_content #login_area .login_info a{
@@ -50,7 +39,7 @@
 
 .login_content #login_area .login_info ul{
     display: inline-block;
-    margin-left:70px;
+    margin-left:95px;
     width: 200px;
 }
 
@@ -71,8 +60,8 @@
     font-size:15px;
     font-weight: bold;
     position: absolute;
-    top:290px;
-    left:30px;
+    top:300px;
+    left:50px;
     display:none;
     width: 300px;
     text-align: center;
