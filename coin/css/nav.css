@@ -56,7 +56,9 @@
   font-size:18px;
   font-weight:600;
 }
-
+.nav_list li:hover {
+  background: linear-gradient(to left, #4C5D71,#1b2f4a 35%);
+}
 .nav_list a{
   color:#fff;
   display: block;
