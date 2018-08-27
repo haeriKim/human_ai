@@ -33,7 +33,7 @@
   width:100%;
   height:inherit;
   text-align:center;
-  border-radius:10px;
+  border-radius:5px;
 }
 
 .slideUl li.banner1{
@@ -111,7 +111,7 @@
   height: 270px;
   position: absolute;
   top: 460px;
-  border-radius: 5px;
+
 }
 .main_content .bitcoin_card_wrap .bitcoin_card{
     width:1300px;
@@ -119,6 +119,7 @@
     overflow: hidden;
     position: relative;
     background-color:#fff;
+    border-radius:5px;
 }
 
 .main_content ul.bitcoin_card_inner{
