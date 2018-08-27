@@ -21,7 +21,9 @@
 }
 .content_wrap{
   overflow: auto;
-    margin-left: 190px;
+  margin-left: 190px;
+  height:100%;
+  position: relative;
 }
 /* 박스 스타일 */
 .box{
