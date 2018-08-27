@@ -5,9 +5,16 @@ $(document).ready(function(){
   var st;
   var bannerObj = $('.slideUl li');
   var maxLength = bannerObj.length;
-  var timer = 7000;
-  var autoRun = setInterval(function(){rollingFn('right');},timer);
+
+  // 자동슬라이드
+  function autoSlide(){
+    autoRun = setInterval(function() {
+      rollingFn('right');
+    },7000);
+  }
   bannerObj.eq(nowNum).fadeIn();
+
+ // 버튼 눌렀을 때 슬라이드
   $('.nextBtn').on('click',function(){
     rollingFn('right');
   });
@@ -29,8 +36,10 @@ $(document).ready(function(){
     }
     bannerObj.hide().eq(nowNum).fadeIn();
   }
-
+  $('.banner').mouseover(function(){
+     clearInterval(autoRun);
+   }).mouseout(function(){
+      autoSlide();
+   });
+  autoSlide();
 });
-/*  $('.banner').hover(function(){
-    $(this).stop()
-}); */
