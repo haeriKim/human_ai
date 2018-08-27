@@ -2,19 +2,16 @@
 
 .notice_wrap{
   position:relative;
-
+  width:700px;
+  height:140px;
+  background-color:#c95b74;
+  padding:5px 0 10px 20px;
+  color:#fff;
+  top:50px;
+  left:500px;
 }
 
 .notice{
-  position:absolute;
-  width:700px;
-  height:150px;
-  background-color:#c95b74;
-  top:100px;
-  left:26%;
-  padding:10px 0 10px 20px;
-  color:#fff;
-
 }
 
 .notice h4{
@@ -28,7 +25,6 @@
   list-style-position: inside;
   font-size:12px;
   padding-left:5px;
-
 }
 
 .notice li:hover{
@@ -36,11 +32,8 @@
   cursor: pointer;
 }
 
-.notice li span{
-  text-align:right;
-}
 
-.notice .firstline{
+.notice .fristline{
   width:320px;
   height:80px;
   padding:10px 0 10px 0;
@@ -48,9 +41,14 @@
   margin-right:30px;
 }
 
-.notice .firstline li{
+.notice .fristline li{
   float:left;
   line-height:30px;
+  width:320px;
+}
+
+.fristline li span{
+  float:right;
 }
 
 .notice .secondline{
@@ -63,4 +61,9 @@
 .notice .secondline li{
   float:left;
   line-height:30px;
+  width:320px;
+}
+
+.secondline li span{
+  float:right;
 }

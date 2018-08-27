@@ -13,7 +13,6 @@
 
 .slideWrap{
   position:absolute;
-  height:300px;
   top:150px;
   left:500px;
 
@@ -25,6 +24,7 @@
   top:0;
   left:0;
   width:1000px;
+  height:300px;
 
 }
 
@@ -35,21 +35,24 @@
   top:0;
   left:0;
   width:100%;
-  height:120px;
+  height:100px;
   padding:10% 5%;
   text-align:center;
 }
 
 .slideUl li.banner1{
-  background:url(../img/banner01.jpg) no-repeat 0 0; background-size:cover;
+  background:url(../img/banner01.jpg) no-repeat 0 0;
+  background-size:cover;
 }
 
 .slideUl li.banner2{
-  background:url(../img/banner02.jpg) no-repeat 0 0; background-size:cover;
+  background:url(../img/banner02.jpg) no-repeat 0 0;
+  background-size:cover;
 }
 
 .slideUl li.banner3{
-  background:url(../img/banner03.jpg) no-repeat 0 0; background-size:cover;
+  background:url(../img/banner03.jpg) no-repeat 0 0;
+  background-size:cover;
 }
 
 .prevBtn,.nextBtn{
