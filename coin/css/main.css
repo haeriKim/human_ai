@@ -162,7 +162,7 @@
 .main_content ul.bitcoin_card_inner .buy_sell_button a{
     text-align: center;
     display: inline-block;
-    width: 50%;
+    width: 49%;
     box-sizing: border-box;
     height: 45px;
     font-weight: 600;
@@ -235,7 +235,7 @@
   width:680px;
   border-bottom:1px solid white;
   padding-top:5px;
-  padding-bottom:5px;
+  padding-bottom:10px;
 }
 
 .notice h4 img{
@@ -245,53 +245,60 @@
   float:right;
 }
 
-.notice li{
-  list-style:disc;
-  list-style-position: inside;
-  font-size:12px;
-  padding-left:5px;
-}
-
-.notice li:hover{
-  text-decoration:underline;
-  cursor: pointer;
-}
-
-
-.notice .fristline{
-  width:320px;
+.notice ul{
+  width:45%;
   height:80px;
   padding:10px 0 10px 0;
   float:left;
   margin-right:30px;
 }
 
-.notice .fristline li{
+.notice ul li{
   float:left;
-  line-height:30px;
+  line-height:25px;
   width:320px;
+  padding-left:5px;
+  overflow: hidden;
 }
 
-.fristline li span{
-  float:right;
+.notice ul li:hover b{
+  text-decoration:underline;
 }
 
-.notice .secondline{
-  width:320px;
-  height:80px;
-  padding:10px 0 10px 0;
+.notice ul li a {
+  width: inherit;
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.notice ul li b {
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  float: left;
+  width: 80%;
+}
+
+.notice ul li b:before {
+   content: '';
+   display: inline-block;
+   width: 5px;
+   height: 5px;
+   border-radius: 50%;
+   background-color: #fff;
+   margin-right: 10px;
+   vertical-align: 2px;
+}
+
+.notice ul li span{
   float:left;
+  display: block;
+  text-align: right;
+  width: 20%;
 }
 
-.notice .secondline li{
-  float:left;
-  line-height:30px;
-  width:320px;
-}
-
-.secondline li span{
-  float:right;
-}
 
 /*use_guide*/
 
