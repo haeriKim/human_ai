@@ -100,57 +100,41 @@
 }
 
 /*코인현황*/
-.main_content .rolling_ad {
-    display: none;
-}
 
 .main_content .bitcoin_card_wrap   {
-    width: 1200px;
+  width: 1300px;
   text-align: center;
   border-radius: 5px;
   height: 270px;
-  position: absolute;
+  position: relative;
   top: 460px;
+  background-color:#fff;
 
 }
 .main_content .bitcoin_card_wrap .bitcoin_card{
-    width:1300px;
-    height: 270px;
+    width: 1200px;
+    height: 250px;
     overflow: hidden;
     position: relative;
-    background-color:#fff;
-    border-radius:5px;
+    margin: 0 auto;
+    top:23px;
 }
 
 .main_content ul.bitcoin_card_inner{
-  padding: 23px 0;
   width: 2000px;
   position: absolute;
   top: 0;
-  box-sizing: border-box;
   left: 0;
 }
 
 .main_content ul.bitcoin_card_inner li{
     float: left;
     width: 200px;
-    margin:0 16px;
+    margin:0 20px;
     padding-top:15px;
     background:#efefef;
 }
 
-.main_content ul.bitcoin_card_inner li span{
-  font-weight:bold;
-  margin-left:2px;
-}
-
-.main_content ul.bitcoin_card_inner li:first-child{
-    margin-left:80px;
-}
-
-.main_content ul.bitcoin_card_inner li:nth-child(5){
-    margin-right:80px;
-}
 
 .main_content ul.bitcoin_card_inner li p{
     color:#333;
@@ -166,7 +150,7 @@
     color:#e9463f;
 }
 .main_content ul.bitcoin_card_inner li p.percent_down{
-    color:#015aff;
+    color:#0090ff;
 }
 
 .main_content ul.bitcoin_card_inner .buy_sell_button{
@@ -180,7 +164,7 @@
     display: inline-block;
     width: 49%;
     box-sizing: border-box;
-    height: 50px;
+    height: 45px;
     font-weight: 600;
 }
 
@@ -198,14 +182,14 @@
 }
 
 .main_content ul.bitcoin_card_inner .buy_sell_button .sell_button{
-    border-top:3px solid #015aff;
-    color:#015aff;
+    border-top:3px solid #0090ff;
+    color:#0090ff;
 }
 
 .main_content ul.bitcoin_card_inner .buy_sell_button .sell_button:hover{
-    border-top:3px solid #015aff;
+    border-top:3px solid #0090ff;
     color:#fff;
-    background:#015aff;
+    background:#0090ff;
 }
 
 .main_content .bitcoin_card_btn .prev{
@@ -217,14 +201,23 @@
 .main_content .bitcoin_card_btn .next{
     position: absolute;
     top:110px;
-    right:-70px;
+    right: 20px;
 }
+.main_content .bitcoin_card_btn a img{
+    width: 32px;
+    height: 32px;
+}
+.coin_ADA{
+    width: 31px;
+    height: 31px;
+}
+
 
 /*Notice*/
 
 .notice_wrap{
   position:relative;
-  top:741px;
+  top:470px;
 }
 
 .notice{
