@@ -10,11 +10,32 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/slide.css">
-    <link rel="stylesheet" href="css/notice.css">
+    <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/slide.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            var Number=1;
+            $('.prev').click(function(e){
+                e.preventDefault()
+                $('.bitcoin_card_inner').prepend($('.bitcoin_card_inner li:last-child'))
+                Number--;
+                if(Number<1){
+                    Number=7;
+                }
+            })
+            $('.next').click(function(e){
+                e.preventDefault()
+                $('.bitcoin_card_inner').append($('.bitcoin_card_inner li:first-child'))
+                Number++;
+                if(Number>7){
+                    Number=1;
+                }
+            })
+        })
+    </script>
+
 </head>
 <body>
     <!-- wrap -->
@@ -122,89 +143,114 @@
                   </div><!-- rolling_ad_img End-->
 
                   <!-- bitcoin_card -->
+                  <!-- bitcoin_card_wrap  -->
                   <div class="bitcoin_card_wrap">
-
-                    <div class="bitcoin_card">
-                        <ul class="bitcoin_card_inner">
-                          <!--bitcoin Card-->
-                            <li>
-                              <ul>
-                                <li>
+                      <!-- bitcoin_card -->
+                      <div class="bitcoin_card">
+                          <ul class="bitcoin_card_inner">
+                            <!--bitcoin Card-->
+                              <li>
                                   <p><img src="img/bitcoin.png" alt="비트코인아이콘"></p>
                                   <p>비트코인(BTC)</p>
-                                  <p>+7.5%</p>
+                                  <p class='up_down_data percent_up'>+7.5%</p>
                                   <p>450,000원</p>
                                   <p>거래량 260,000원</p>
-                                  <span class="masu">매수</span><span class="mado">매도</span>
-                                </li>
-                              </ul>
-                            </li>
-                          <!--bitcoin Card End-->
+                                  <div class="buy_sell_button">
+                                      <a href='#' class="buy_button">매수</a><a href='#' class="sell_button">매도</a>
+                                  </div>
 
-                          <!--bitcoincash Card-->
-                            <li>
-                              <ul>
-                                <li>
-                                  <p><img src="img/bitcoincash.png" alt="비트코인캐시아이콘"></p>
-                                  <p>비트코인캐시(BCH)</p>
-                                  <p>-10.5%</p>
-                                  <p>70,000원</p>
-                                  <p>거래량 260,000원</p>
-                                  <span class="masu">매수</span><span class="mado">매도</span>
-                                </li>
-                              </ul>
-                            </li>
-                          <!--bitcoincash Card End-->
+                              </li>
+                            <!--bitcoin Card End-->
 
-                          <!--eth Card-->
-                            <li>
-                              <ul>
-                                <li>
-                                  <p><img src="img/eth.png" alt="이더리움아이콘"></p>
-                                  <p>이더리움(ETH)</p>
-                                  <p>-10.5%</p>
-                                  <p>70,000원</p>
-                                  <p>거래량 260,000원</p>
-                                  <span class="masu">매수</span><span class="mado">매도</span>
-                                </li>
-                              </ul>
-                            </li>
-                            <!--eth Card End-->
-
-                            <!--etc Card-->
+                            <!--bitcoincash Card-->
                               <li>
-                                <ul>
-                                  <li>
-                                    <p><img src="img/etc.png" alt="이더리움클래식아이콘"></p>
-                                    <p>이더리움클래식(ETC)</p>
-                                    <p>-10.5%</p>
+                                    <p><img src="img/bitcoincash.png" alt="비트코인캐시아이콘"></p>
+                                    <p>비트코인캐시(BCH)</p>
+                                    <p class='up_down_data percent_down'>-10.5%</p>
                                     <p>70,000원</p>
                                     <p>거래량 260,000원</p>
-                                    <span class="masu">매수</span><span class="mado">매도</span>
-                                  </li>
-                                </ul>
+                                    <div class="buy_sell_button">
+                                        <a href='#' class="buy_button">매수</a><a href='#' class="sell_button">매도</a>
+                                    </div>
                               </li>
-                              <!--etc Card End-->
+                            <!--bitcoincash Card End-->
 
-                              <!--iost Card-->
+                            <!--eth Card-->
+                              <li>
+                                    <p><img src="img/eth.png" alt="이더리움아이콘"></p>
+                                    <p>이더리움(ETH)</p>
+                                    <p class='up_down_data percent_down'>-10.5%</p>
+                                    <p>70,000원</p>
+                                    <p>거래량 260,000원</p>
+                                    <div class="buy_sell_button">
+                                        <a href='#' class="buy_button">매수</a><a href='#' class="sell_button">매도</a>
+                                    </div>
+                              </li>
+                              <!--eth Card End-->
+
+                              <!--etc Card-->
                                 <li>
-                                  <ul>
-                                    <li>
-                                      <p><img src="img/iost.png" alt="이오스트아이콘"></p>
-                                      <p>이오스트(IOST)</p>
-                                      <p>-10.5%</p>
+                                      <p><img src="img/etc.png" alt="이더리움클래식아이콘"></p>
+                                      <p>이더리움클래식(ETC)</p>
+                                      <p class='up_down_data percent_down'>-10.5%</p>
                                       <p>70,000원</p>
                                       <p>거래량 260,000원</p>
-                                      <span class="masu">매수</span><span class="mado">매도</span>
-                                    </li>
-                                  </ul>
+                                      <div class="buy_sell_button">
+                                          <a href='#' class="buy_button">매수</a><a href='#' class="sell_button">매도</a>
+                                      </div>
                                 </li>
-                                <!--iost Card End-->
+                                <!--etc Card End-->
 
-                          </ul>
+                                <!--EOS Card-->
+                                  <li>
+                                        <p><img src="img/eos.png" alt="이오스아이콘"></p>
+                                        <p>이오스(EOS)</p>
+                                        <p class='up_down_data percent_down'>-10.5%</p>
+                                        <p>70,000원</p>
+                                        <p>거래량 260,000원</p>
+                                        <div class="buy_sell_button">
+                                            <a href='#' class="buy_button">매수</a><a href='#' class="sell_button">매도</a>
+                                        </div>
+                                  </li>
+                                  <!--EOS Card End-->
+
+                                  <!--리플(XRP) Card-->
+                                    <li>
+                                          <p><img src="img/reaple.png" alt="리플아이콘"></p>
+                                          <p>리플(XRP)</p>
+                                          <p class='up_down_data percent_down'>-10.5%</p>
+                                          <p>70,000원</p>
+                                          <p>거래량 260,000원</p>
+                                          <div class="buy_sell_button">
+                                              <a href='#' class="buy_button">매수</a><a href='#' class="sell_button">매도</a>
+                                          </div>
+                                    </li>
+                                    <!--리플(XRP) Card End-->
+
+                                    <!--에이다(ADA) Card-->
+                                      <li>
+                                            <p><img src="img/ada.png" alt="에이다아이콘" width="31px" height="31px"></p>
+                                            <p>에이다(ADA)</p>
+                                            <p class='up_down_data percent_down'>-10.5%</p>
+                                            <p>70,000원</p>
+                                            <p>거래량 260,000원</p>
+                                            <div class="buy_sell_button">
+                                                <a href='#' class="buy_button">매수</a><a href='#' class="sell_button">매도</a>
+                                            </div>
+                                      </li>
+                                      <!--에이다(ADA) Card End-->
+                            </ul>
+                        </div>
+                        <!-- bitcoin_card End-->
+
+                        <!-- bitcoin_card_btn -->
+                        <div class="bitcoin_card_btn">
+                            <a href="#" class='prev'><img src="img/arrow_black_prev.png" alt="이전버튼" width="32px" height="32px"></a>
+                            <a href="#" class='next'><img src="img/arrow_black_next.png" alt="다음버튼" width="32px" height="32px"></a>
+                        </div>
+                        <!-- bitcoin_card_btn End -->
                     </div>
-                  </div>
-                  <!-- bitcoin_card End-->
+                    <!-- bitcoin_card_wrap  End-->
 
                   <!--Notice-->
                     <div class="notice_wrap">

@@ -1,0 +1,327 @@
+/*코인현황*/
+.main_content .rolling_ad {
+    display: none;
+}
+
+.main_content .bitcoin_card_wrap   {
+    width: 1200px;
+    margin: 10% auto;
+    text-align: center;
+    border-radius:5px;
+    height: 270px;
+    position: relative;
+}
+
+.main_content .bitcoin_card_wrap .bitcoin_card{
+    width:1300px;
+    height: 270px;
+    overflow: hidden;
+    position: relative;
+    background-color:#fff;
+
+}
+
+.main_content ul.bitcoin_card_inner{
+    padding:23px 0;
+    width:2000px;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+.main_content ul.bitcoin_card_inner li{
+    float: left;
+    width: 200px;
+    margin:0 16px;
+    padding-top:15px;
+    background:#efefef;
+}
+
+.main_content ul.bitcoin_card_inner li:first-child{
+    margin-left:80px;
+}
+
+.main_content ul.bitcoin_card_inner li:nth-child(5){
+    margin-right:80px;
+}
+
+.main_content ul.bitcoin_card_inner li p{
+    color:#333;
+    font-weight: 600;
+    margin-bottom:8px;
+}
+
+.main_content ul.bitcoin_card_inner li p:nth-child(3){
+    margin-bottom:0;
+}
+
+.main_content ul.bitcoin_card_inner li p.percent_up{
+    color:#e9463f;
+}
+.main_content ul.bitcoin_card_inner li p.percent_down{
+    color:#015aff;
+}
+
+.main_content ul.bitcoin_card_inner .buy_sell_button{
+    height: 45px;
+    line-height: 45px;
+    margin-top:20px;
+}
+
+.main_content ul.bitcoin_card_inner .buy_sell_button a{
+    text-align: center;
+    display: inline-block;
+    width: 49%;
+    box-sizing: border-box;
+    height: 50px;
+    font-weight: 600;
+}
+
+.main_content ul.bitcoin_card_inner .buy_sell_button .buy_button{
+    border-top:3px solid #e9463f;
+    color:#e9463f;
+    border-right:1px solid #fff;
+}
+
+.main_content ul.bitcoin_card_inner .buy_sell_button .buy_button:hover{
+    border-top:3px solid #e9463f;
+    color:#fff;
+    background:#e9463f;
+    border-right:none;
+}
+
+.main_content ul.bitcoin_card_inner .buy_sell_button .sell_button{
+    border-top:3px solid #015aff;
+    color:#015aff;
+}
+
+.main_content ul.bitcoin_card_inner .buy_sell_button .sell_button:hover{
+    border-top:3px solid #015aff;
+    color:#fff;
+    background:#015aff;
+}
+
+.main_content .bitcoin_card_btn .prev{
+    position: absolute;
+    top:110px;
+    left:20px;
+}
+
+.main_content .bitcoin_card_btn .next{
+    position: absolute;
+    top:110px;
+    right:-70px;
+}
+
+/*Notice*/
+
+.notice_wrap{
+  position:relative;
+  width:700px;
+  height:140px;
+  background-color:#c95b74;
+  padding:5px 0 10px 20px;
+  color:#fff;
+  top:50px;
+  left:500px;
+  border-radius:10px;
+  float:left;
+}
+
+.notice{
+}
+
+.notice h4{
+  width:680px;
+  border-bottom:1px solid white;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
+.notice h4 img{
+  padding-top:5px;
+  width:15px;
+  height:15px;
+  float:right;
+}
+
+.notice li{
+  list-style:disc;
+  list-style-position: inside;
+  font-size:12px;
+  padding-left:5px;
+}
+
+.notice li:hover{
+  text-decoration:underline;
+  cursor: pointer;
+}
+
+
+.notice .fristline{
+  width:320px;
+  height:80px;
+  padding:10px 0 10px 0;
+  float:left;
+  margin-right:30px;
+}
+
+.notice .fristline li{
+  float:left;
+  line-height:30px;
+  width:320px;
+}
+
+.fristline li span{
+  float:right;
+}
+
+.notice .secondline{
+  width:320px;
+  height:80px;
+  padding:10px 0 10px 0;
+  float:left;
+}
+
+.notice .secondline li{
+  float:left;
+  line-height:30px;
+  width:320px;
+}
+
+.secondline li span{
+  float:right;
+}
+
+/*use_guide*/
+
+.use_guide{
+  position:relative;
+  width:350px;
+  height:150px;
+  left:1250px;
+  top:50px;
+  border-radius:10px;
+  background-color:#fff;
+
+}
+
+.use_guide ul{
+  position:absolute;
+}
+
+.use_guide ul p{
+  font-weight:600;
+  margin-top:10px;
+}
+
+.use_guide li{
+  float:left;
+  margin-left:20px;
+  padding-left:50px;
+  padding-top:30px;
+}
+
+/* slideul */
+
+.slideWrap a{
+  font-size:14px;
+  color:#000;
+  text-decoration:none;
+}
+
+.slideWrap a:visited{
+  color:#000;
+  text-decoration:none;
+}
+
+.slideWrap{
+  position:absolute;
+  top:150px;
+  left:500px;
+
+
+}
+
+.slideUl{
+  position:relative;
+  z-index:2;
+  top:0;
+  left:0;
+  width:1000px;
+  height:300px;
+
+
+}
+
+.slideUl li{
+  display:none;
+  position:absolute;
+  z-index:2;
+  top:0;
+  left:0;
+  width:100%;
+  height:100px;
+  padding:10% 5%;
+  text-align:center;
+  border-radius:10px;
+}
+
+.slideUl li.banner1{
+  background:url(../img/banner01.jpg) no-repeat 0 0;
+  background-size:cover;
+}
+
+.slideUl li.banner2{
+  background:url(../img/banner02.jpg) no-repeat 0 0;
+  background-size:cover;
+}
+
+.slideUl li.banner3{
+  background:url(../img/banner03.jpg) no-repeat 0 0;
+  background-size:cover;
+}
+
+.prevBtn,.nextBtn{
+  position:absolute;
+  z-index:3;
+  font-size:30px;
+  font-weight:bold;
+  color:#880000
+}
+
+.prevBtn{
+  left:1%;bottom:50%;
+  width:30px;
+  height:30px;
+  background:url(../img/arrow_white_prev.png) no-repeat 0 0;
+  background-size:cover;
+  display:inline-block;
+}
+
+.prevBtn:hover{
+  left:1%;bottom:50%;
+  width:30px;
+  height:30px;
+  background:url(../img/arrow_black_prev.png) no-repeat 0 0;
+  background-size:cover;
+  display:inline-block;
+}
+
+.nextBtn{
+  right:-9%;bottom:50%;
+  width:30px;
+  height:30px;
+  background:url(../img/arrow_white_next.png) no-repeat 0 0;
+  background-size:cover;
+  display:inline-block;
+}
+
+.nextBtn:hover{
+  right:-9%;bottom:50%;
+  width:30px;
+  height:30px;
+  background:url(../img/arrow_black_next.png) no-repeat 0 0;
+  background-size:cover;
+  display:inline-block;
+}
