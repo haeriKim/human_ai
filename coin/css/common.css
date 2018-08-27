@@ -23,9 +23,7 @@
   overflow: auto;
   margin-left: 190px;
   height:100%;
-  background:url(../img/pattern.jpg) repeat-x 0 10px;
-  background-position: bottom;
-  background-size:60%;
+
 }
 .content {
     width: 1300px;
