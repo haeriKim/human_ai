@@ -9,15 +9,25 @@
   color:#fff;
   top:50px;
   left:500px;
+  border-radius:10px;
+  float:left;
 }
 
 .notice{
 }
 
 .notice h4{
-  width:650px;
+  width:680px;
   border-bottom:1px solid white;
+  padding-top:5px;
   padding-bottom:5px;
+}
+
+.notice h4 img{
+  padding-top:5px;
+  width:15px;
+  height:15px;
+  float:right;
 }
 
 .notice li{
@@ -66,4 +76,33 @@
 
 .secondline li span{
   float:right;
+}
+
+/*use_guide*/
+
+.use_guide{
+  position:relative;
+  width:350px;
+  height:150px;
+  left:1250px;
+  top:50px;
+  border-radius:10px;
+  background-color:#fff;
+
+}
+
+.use_guide ul{
+  position:absolute;
+}
+
+.use_guide ul p{
+  font-weight:600;
+  margin-top:10px;
+}
+
+.use_guide li{
+  float:left;
+  margin-left:20px;
+  padding-left:50px;
+  padding-top:30px;
 }

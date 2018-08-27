@@ -16,6 +16,7 @@
   top:150px;
   left:500px;
 
+
 }
 
 .slideUl{
@@ -25,6 +26,7 @@
   left:0;
   width:1000px;
   height:300px;
+
 
 }
 
@@ -38,6 +40,7 @@
   height:100px;
   padding:10% 5%;
   text-align:center;
+  border-radius:10px;
 }
 
 .slideUl li.banner1{
@@ -65,8 +68,36 @@
 
 .prevBtn{
   left:1%;bottom:50%;
+  width:30px;
+  height:30px;
+  background:url(../img/arrow_white_prev.png) no-repeat 0 0;
+  background-size:cover;
+  display:inline-block;
+}
+
+.prevBtn:hover{
+  left:1%;bottom:50%;
+  width:30px;
+  height:30px;
+  background:url(../img/arrow_black_prev.png) no-repeat 0 0;
+  background-size:cover;
+  display:inline-block;
 }
 
 .nextBtn{
   right:-9%;bottom:50%;
+  width:30px;
+  height:30px;
+  background:url(../img/arrow_white_next.png) no-repeat 0 0;
+  background-size:cover;
+  display:inline-block;
+}
+
+.nextBtn:hover{
+  right:-9%;bottom:50%;
+  width:30px;
+  height:30px;
+  background:url(../img/arrow_black_next.png) no-repeat 0 0;
+  background-size:cover;
+  display:inline-block;
 }
