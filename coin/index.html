@@ -13,29 +13,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/slide.js"></script>
-    <script type="text/javascript">
-    $(document).ready(function(){
-        //카드현황 이전버튼
-        $('.prev').on('click',function(){
-            if($('.bitcoin_card_inner').is(':animated')==false){
-                $('.bitcoin_card_inner').animate({left:'-240px'},1000,function(){
-                    $('.bitcoin_card_inner').append($('.bitcoin_card_inner li:first'));
-                    $('.bitcoin_card_inner').css('left','0px');
-                })
-            }
-        })
-        //카드현황 다음버튼
-        $('.next').on('click',function(){
-            if($('.bitcoin_card_inner').is(':animated')==false){
-                $('.bitcoin_card_inner').prepend($('.bitcoin_card_inner li:last'));
-                $('.bitcoin_card_inner').css('left','-240px');
-                $('.bitcoin_card_inner').animate({left:'0px'},1000)
-            }
-        })
-    })
-</script>
-
+    <script src="js/common.js"></script>
 </head>
 <body>
     <!-- wrap -->
@@ -47,10 +25,10 @@
             <div id="nav_wrap">
                 <!-- nav  -->
                 <div id="nav">
-                    <h1><a href="index.html"><img src='img/logo.png' alt='로고'></a></h1>
+                    <h1><img src='img/logo.png' alt='로고'></h1>
 
                     <ul class='nav_bt'>
-                        <li><a href='login.html' class="login_bt">로그인</a><span>|&nbsp;</span><a href="#" class="join_bt">회원가입</a></li>
+                        <li><a href='#' class="login_bt">로그인</a><span>|&nbsp;</span><a href="#" class="join_bt">회원가입</a></li>
                     </ul>
 
                     <ul class='nav_list'>
