@@ -1,0 +1,72 @@
+/*  코인선택 영역(coinSelect_area) */
+.coin_select{
+    padding: 0;
+    width: 350px;
+    border-radius: 5px;
+}
+
+.coinSelect_area {
+    width: 350px;
+    box-sizing: border-box;
+}
+.coinSelect_area .coinSelect {
+  width: 350px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.coinSelect_area .coinSelect dt, .coinSelect_area .coinSelect dd{
+    width:100%;
+    height: 45px;
+    line-height: 45px;
+    letter-spacing:1px;
+    cursor:pointer;
+    font-weight: 600;
+    color: #2b2b2b;
+}
+.coinSelect_area .coinSelect dt {
+    background: url("../img/arrow_down_dg.png") no-repeat right 17px;
+    background-size: 10px;
+    letter-spacing: -0.5px;
+    vertical-align: center;
+}
+.coinSelect_area .coinSelect dd a{
+    display: block;
+    text-align: right;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+ #header .country_select dt a{
+    display:block;
+    width:18px;
+    line-height:23px;
+    text-align:right;
+    float:left;
+    margin-right: 7px;
+    margin-left:15px;
+}
+.coinSelect_area .coinSelect dt a img {
+  max-width: 23px;
+  margin-right: 10px;
+  vertical-align: -5px;
+}
+.coinSelect_area .coinSelect dd a img {
+  max-width: 20px;
+  height: auto;
+  vertical-align: -4px;
+}
+.coinSelect_area .coinSelect dt span {
+  display: inline-block;
+  line-height: 35px;
+}
+.coinSelect_area .coinSelect dd span{
+  vertical-align: 2px;
+  max-width: 100%;
+}
+.coinSelect_area .coinSelect dd{
+    display:none;
+    letter-spacing: -0.5px;
+    background: none;
+    font-size: 15px;
+}

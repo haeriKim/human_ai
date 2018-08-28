@@ -65,6 +65,45 @@ $(document).ready(function(){
     })
 })
 
+//코인선택
+$(document).ready(function(){
+var coun_f=0; // 코인선택 탭 클릭을 확인하는값
+$(".coinSelect dt").click(function(){
+    if(coun_f===0){
+        $(this).siblings().show();
+        $(this).parent().css({"backgroundColor":"#fff"});
+
+        // 코인별탭 마우스이벤트
+        $(".coinSelect dd").mouseover(function(){
+            $(this).css({"backgroundColor":"#c8eefb"});
+        }).mouseout(function(){
+            $(this).css({"background":"none"});
+        });
+        // 코인별탭 클릭이벤트
+        $(".coinSelect dd").click(function() {
+            var selectC = $(this).children().children("img").attr("src");
+            var selectCName = $(this).text();
+            $(".coinSelect dt a").children("img").attr("src", selectC);
+            $(".coinSelect dt span").text(selectCName);
+            $(".coinSelect dd").hide();
+            $(".coinSelect").css({"background-color":"#fff"});
+            coun_f=0;
+            return false;
+        });
+        coun_f=1;
+        return false;
+    }else{
+        // dt한번 더 클릭시 이벤트
+        $(".coinSelect dd").hide();
+        $(".coinSelect").css({"background":"#fff"});
+        coun_f=0;
+        return false;
+    }
+});
+})
+
+
+
 //팝업
 $(document).ready(function(){
     function closePopup(){
