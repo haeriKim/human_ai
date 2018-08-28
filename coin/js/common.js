@@ -46,8 +46,8 @@ $(document).ready(function(){
 
 //메인_카드현황
 $(document).ready(function(){
-    //카드현황 이전버튼
-    $('.prev').on('click',function(){
+    //카드현황 다음버튼
+    $('.next').on('click',function(){
         if($('.bitcoin_card_inner').is(':animated')==false){
             $('.bitcoin_card_inner').animate({left:'-240px'},1000,function(){
                 $('.bitcoin_card_inner').append($('.bitcoin_card_inner li:first'));
@@ -55,12 +55,36 @@ $(document).ready(function(){
             })
         }
     })
-    //카드현황 다음버튼
-    $('.next').on('click',function(){
+    //카드현황 이전버튼
+    $('.prev').on('click',function(){
         if($('.bitcoin_card_inner').is(':animated')==false){
             $('.bitcoin_card_inner').prepend($('.bitcoin_card_inner li:last'));
             $('.bitcoin_card_inner').css('left','-240px');
             $('.bitcoin_card_inner').animate({left:'0px'},1000)
         }
+    })
+})
+
+//팝업
+$(document).ready(function(){
+    function closePopup(){
+        $('#full_content').hide();
+        $('#shadow').hide();
+    }
+    function modalpopup(){
+        $('#shadow').css({
+            'width':'100%',
+            'height':'50%',
+            'position':'fixed'
+        })
+        $('#shadow').show();
+        $('#full_content').css({
+            'position':'fixed'
+        });
+        $('#full_content').show();
+    }
+    $('.close_btn').on('click',function(e){
+        e.preventDefault();
+        closePopup();
     })
 })
