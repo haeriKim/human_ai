@@ -99,7 +99,7 @@
 
                         <li><img src="img/bitcoin.png" alt="드랍비트코인아이콘"/></li>
                         <li><h3>비트코인</h3></li>
-                        <li><b>BTC/KRW</b><span class="drop_arrow">▼</span></li>
+                        <li class="drop_box_won"><b>BTC/KRW</b><span class="drop_arrow">▼</span></li>
 
                       </ul>
 
@@ -110,36 +110,57 @@
 
                       <ul class="coin_money_inner">
 
-                        <li><img src="img/bitcoin_big.png" alt="비트코인아이콘" class="bitcoin_icon"><img src="img/mulumpyo.png" alt="물음표" class="question"></li>
+                        <li><img src="img/bitcoin_big.png" alt="비트코인아이콘" class="bitcoin_icon"><span class="question">&#63;</span></li>
                         <li><span><strong>비트코인</strong><b class="coin_word">BTC/KRW</b></span></li>
                         <li><span class="price">7,400,000<b class="won">KRW</b></span></li>
-                        <li><b>전일대비</b><span class="prepare">-0.31%</span><span class="updownarrow">▼23,000</span></li>
+                        <li class="coin_prepare"><b>전일대비</b><span class="prepare">-0.31%</span><span class="updownarrow">▼23,000</span></li>
 
                       </ul>
 
                       <ul class="coin_money_prepare">
 
-                        <li>고가<span class="price_up">7,400,000</span><b class="won">KRW</b></li>
-                        <li>저가<span class="price_down">7,391,000</span><b class="won">KRW</b></li>
+                        <li class="high_price">고가<span class="price_up">7,400,000</span><b class="won">KRW</b></li>
+                        <li class="low_price">저가<span class="price_down">7,391,000</span><b class="won">KRW</b></li>
 
                       </ul>
 
                       <ul class="coin_money_volume">
 
-                        <li>거래량<small>(24H)</small><span class="volume">3,225.800</span><b class="coin_word_2">BTC</b></li>
-                        <li>거래대금<small>(24H)</small><span class="trading_volume">23,800,800,800</span><b class="won">KRW</b></li>
+                        <li class="coin_volume">거래량<small>(24H)</small><span class="volume">3,225.800</span><b class="coin_word_2">BTC</b></li>
+                        <li class="coin_trading_volume">거래대금<small>(24H)</small><span class="trading_volume">23,800,800,800</span><b class="won">KRW</b></li>
 
                       </ul>
 
                     </div><!--coin_money End-->
 
+                    <script>
+
+                    $(document).ready(function(){
+
+                      var detail = 0;
+                      $(".question").click(function(){
+                        if(detail==0){
+                        $(".coin_money_detail").fadeIn(300);
+                        detail=1;
+                        }else{
+                      $(".coin_money_detail").fadeOut(300);
+                        detail=0;
+                        }
+                        console.log(detail);
+                        return false;
+                      });
+                    });
+
+                    </script>
+
                     <!--coin_money_detail-->
+
                     <div class="box coin_money_detail">
                       <div class="coin_name"><h4>Bitcoin</h4></div>
                       <p>(정보기준일:2018.08.28)</p>
 
                       <ul class="coin_money_detail_title">
-                        <li>최초발행</li>
+                        <li class="detail_frist">최초발행</li>
                         <li>코인/토큰</li>
                         <li>시총순위</li>
                         <li>시가총액</li>
@@ -148,11 +169,11 @@
                         <li>총발행한도</li>
                         <li>채굴봉상량</li>
                         <li>국가</li>
-                        <li>공식홈페이지</li>
+                        <li class="detail_end">공식홈페이지</li>
                       </ul>
 
                       <ul class="coin_money_detail_story">
-                        <li>2009년 1월</li>
+                        <li class="detail_frist">2009년 1월</li>
                         <li>코인</li>
                         <li>1위</li>
                         <li>48.8조원(18.08.27 기준)</li>
@@ -161,9 +182,10 @@
                         <li>21,000,000</li>
                         <li>각 코인 정보 기재</li>
                         <li>각 코인 정보 기재</li>
-                        <li><a href=https://www.bitcoin.com>https://www.bitcoin.com</a></li>
+                        <li class="detail_end"><a href=https://www.bitcoin.com>https://www.bitcoin.com</a></li>
                       </ul>
                                                             <span><a href="#">상세보기</a></span>
+                                                            <img src="img/detail_arrow.png" alt="디테일화살표"/>
 
                     </div><!--coin_money_detail End-->
 
