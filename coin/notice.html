@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=" width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script><!--//배너 슬라이더-->
+    <title>Human&Ai</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/notice.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/common.js"></script>
+</head>
+<body>
+    <!-- wrap -->
+    <div id="wrap">
+        <!-- container -->
+        <div id="container">
+
+            <!-- nav_wrap -->
+            <div id="nav_wrap">
+                <!-- nav  -->
+                <div id="nav">
+                    <h1><a href="#"><img src='img/logo.png' alt='로고'></a></h1>
+
+                    <ul class='nav_bt'>
+                        <li><a href='login.html' class="login_bt">로그인</a><span>|&nbsp;</span><a href="#" class="join_bt">회원가입</a></li>
+                    </ul>
+
+                    <ul class='nav_list'>
+                        <li><a href='#'><img src='' alt=''>거래하기</a></li>
+                        <li><a href='#'><img src='' alt=''>차트보기</a></li>
+                        <li><a href='#'><img src='' alt=''>내자산관리</a></li>
+                        <li><a href='#'><img src='' alt=''>고객센터</a></li>
+                        <li><a href='#'><img src='' alt=''>코인정보</a></li>
+                    </ul>
+                </div>  <!-- nav End-->
+            </div><!-- nav_wrap End-->
+
+            <!-- header_wrap -->
+            <div id ="header_wrap">
+                <!-- header -->
+                <div id="header">
+                    <!-- current_coin -->
+                    <div class="current_coin">
+                      <ul>
+                        <li class='btc'>
+                            <span>비트코인(BTC)</span>
+                            <p><span class="current_pri">7,595,000</span> KRW</p>
+                            <b class="up"><span class="current_per">+ 3.98</span> %</b>
+                        </li>
+                        <li class='bth'>
+                          <span>비트코인캐시(BCH)</span>
+                          <p><span class="current_pri">7,595,000</span> KRW</p>
+                          <b class="down"><span class="current_per">- 3.98</span> %</b>
+                        </li>
+                        <li class='eth'>
+                          <span>이더리움(ETH)</span>
+                          <p><span class="current_pri">7,595,000</span> KRW</p>
+                          <b class="up"><span class="current_per">+ 3.98</span> %</b>
+                        </li>
+                        <li class='etc'>
+                          <span>이더리움클래식(ETC)</span>
+                          <p><span class="current_pri">7,595,000</span> KRW</p>
+                          <b class="down"><span class="current_per">- 3.98</span> %</b>
+                        </li>
+                        <li class='eos'>
+                          <span>이오스(EOS)</span>
+                          <p><span class="current_pri">7,595,000</span> KRW</p>
+                          <b class="down"><span class="current_per">- 3.98</span> %</b>
+                        </li>
+                        <li class='xrp'>
+                          <span>리플(XRP)</span>
+                          <p><span class="current_pri">7,595,000</span> KRW</p>
+                          <b class="up"><span class="current_per">+ 3.98</span> %</b>
+                        </li>
+                        <li class='ada'>
+                          <span>에이다(ADA)</span>
+                          <p><span class="current_pri">7,595,000</span> KRW</p>
+                          <b class="up"><span class="current_per">+ 3.98</span> %</b>
+                        </li>
+                      </ul>
+                    </div><!-- current_coin End-->
+                </div> <!-- header End-->
+            </div><!-- header_wrap End-->
+
+            <!-- content_wrap -->
+            <div class="content_wrap">
+                <!-- main_content -->
+                <div class="content notice_content con_1000">
+
+                  <div class="box notice_area">
+                    <h3 class="title">공지사항</h3>
+                    <div class="n_list">
+                      <p class="search">
+                          <input type="text" title="검색영역" placeholder="찾고자하는 내용을 입력하세요."/>
+                          <a class="search_btn" href="#" title="검색버튼"><img src="img/search.png" alt="검색버튼"/></a>
+                      </p>
+                      <table class="notice_list" id="notice_list">
+                          <colgroup>
+                              <col width="10%">
+                              <col width="70%">
+                              <col width="20%">
+                          </colgroup>
+                          <thead>
+                            <tr>
+                              <th class="num">번호</th>
+                              <th class="title">제목</th>
+                              <th class="date">작성일</th>
+                            </th>
+                          </thead>
+                          <tbody>
+                            <tr>
+                                <td class="important"><img src="img/notice.png" alt="확성기아이콘"/</td>
+                                <td class="title">[안내] 개인정보 처리방침 변경 안내</td>
+                                <td class="date">2018-10-17</td>
+                            </tr>
+                            <tr>
+                                <td class="new">NEW</td>
+                                <td class="title">[안내] 개인정보 처리방침 변경 안내</td>
+                                <td class="date">2018-10-17</td>
+                            </tr>
+                          <tr>
+                              <td class="hot">HOT</td>
+                              <td class="title">[이벤트] IOST 상장 기념 입금 이벤트 (당첨자 안내)</td>
+                              <td class="date">2018-10-17</td>
+                          </tr>
+                          <tr>
+                              <td class="num">100</td>
+                              <td class="title">[입출금] 월렛 업그레이드 8차 완료 (입금 주소 신규 발급 필수) - 전체 작업 완료</td>
+                              <td class="date">2018-10-17</td>
+                          </tr>
+                          <tr>
+                              <td class="num">99</td>
+                              <td class="title">[입출금] 월렛 업그레이드 7차 완료 (입금 주소 신규 발급 필수)</td>
+                              <td class="date">2018-10-17</td>
+                          </tr>
+                          <tr>
+                              <td class="num">98</td>
+                              <td class="title">[거래] 원화 마켓 신규 상장 (리퍼리움 RFR, 디마켓 DMT)</td>
+                              <td class="date">2018-10-17</td>
+                          </tr>
+                          <tr>
+                              <td class="num">97</td>
+                              <td class="title">[입출금] 월렛 업그레이드 6차 완료 (신규 입금 주소 발급 필요한 암호화폐 확인 필수)</td>
+                              <td class="date">2018-10-17</td>
+                          </tr>
+                          <tr>
+                              <td class="num">96</td>
+                              <td class="title">[입출금] 월렛 업그레이드 8차 완료 (입금 주소 신규 발급 필수) - 전체 작업 완료</td>
+                              <td class="date">2018-10-17</td>
+                          </tr>
+                          <tr>
+                              <td class="num">95</td>
+                              <td class="title">[안내] 암호화폐 및 예금 실사 보고서 결과를 공개합니다료</td>
+                              <td class="date">2018-10-17</td>
+                          </tr>
+                          <tr>
+                              <td class="num">95</td>
+                              <td class="title">[안내] 암호화폐 및 예금 실사 보고서 결과를 공개합니다</td>
+                              <td class="date">2018-10-17</td>
+                          </tr>
+                          <tr>
+                              <td class="num">95</td>
+                              <td class="title">[입출금] 월렛 업그레이드 6차 완료 (신규 입금 주소 발급 필요한 암호화폐 확인 필수)</td>
+                              <td class="date">2018-10-17</td>
+                          </tr>
+                          </tbody>
+                      </table><!-- 공지사항 리스트 END -->
+                    </div><!-- n_list END -->
+
+                    <div class="contentBottom">
+                        <div class="paging">
+                            <a href="#" title="prev"><img src="img/p_first.png"></a>
+                            <a href="#" title="prev"><img src="img/p_prev.png"></a>
+                            <a href="#" title="1page" class="selected">1</a>
+                            <a href="#" title="2page">2</a>
+                            <a href="#" title="3page">3</a>
+                            <a href="#" title="4page">4</a>
+                            <a href="#" title="5page">5</a>
+                            <a href="#" title="6page" class="m_hide">6</a>
+                            <a href="#" title="7page" class="m_hide">7</a>
+                            <a href="#" title="next"><img src="img/p_next.png"></a>
+                            <a href="#" title="next"><img src="img/p_end.png"></a>
+                        </div>
+                    </div><!-- 페이징 -->
+                  </div><!--coinInfo_area End-->
+
+                </div><!-- coninInfo_content End-->
+            </div><!-- content_wrap End-->
+
+            <!-- footer_wrap -->
+            <div id="footer_wrap">
+                <div id="footer">
+                    <div class="footer_menu">
+                        <ul>
+                            <li><a href="#">회사소개</a></li>
+                            <li><a href="#">개인정보처리방침</a></li>
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">이용안내</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">불편사항접수</a></li>
+                        </ul>
+                    </div>
+                    <div class="compnay_info">
+                        서울특별시 서초구 신반포로 326-10 305호&nbsp;&nbsp;
+                        (주)휴먼앤에이아이 &nbsp;&nbsp;
+                        대표 홍길동 &nbsp;&nbsp;
+                        사업자등록번호 <span>000-00-00000</span> &nbsp;&nbsp;
+                        Copyright@All rights reserved.
+                    </div>
+                </div><!-- footerEnd-->
+            </div>
+            <!-- footer_wrap End-->
+
+        </div><!-- container End -->
+    </div><!-- wrap End -->
+
+</body>
+</html>

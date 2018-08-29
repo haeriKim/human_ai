@@ -37,15 +37,6 @@
     margin-right: 10px;
     margin-left: 10px;
 }
- #header .country_select dt a{
-    display:block;
-    width:18px;
-    line-height:23px;
-    text-align:right;
-    float:left;
-    margin-right: 7px;
-    margin-left:15px;
-}
 .coinSelect_area .coinSelect dt a img {
   max-width: 23px;
   margin-right: 10px;

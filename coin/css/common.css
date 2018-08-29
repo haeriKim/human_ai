@@ -40,6 +40,14 @@
     background-color: #fff;
     box-sizing: border-box;
 }
+.box h3.title {
+  display: block;
+  background-color: #1b2f4a;
+  color: #fff;
+  padding: 17px 25px;
+  border-radius: 5px 5px 0 0;
+  box-sizing: border-box;
+}
 /* content 넓이(가운데정렬) */
 .con_350 {
   width:350px;
@@ -50,6 +58,16 @@
   width:410px;
   margin: 15% auto;
   padding: 40px 30px 30px 30px;
+}
+.con_1000 {
+  width: 1000px;
+  margin: 10% auto;
+  height: auto;
+}
+.con_1250 {
+  width: 1250px;
+  margin: 12% auto;
+  height: auto;
 }
 /*버튼 스타일*/
 .login_content #login_area .button_box,
