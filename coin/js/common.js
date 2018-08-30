@@ -153,9 +153,10 @@ $(document).ready(function(){
   $(".question").click(function(){
     if(click_val===0) {
       $(".coin_money_detail").fadeIn(300);
+      click_val=1;
+    }else {
+      $(".coin_money_detail").fadeOut(300);
+      click_val=0;
     }
-
-  }).mouseout(function(){
-    $(".coin_money_detail").fadeOut(300)
   });
 });
