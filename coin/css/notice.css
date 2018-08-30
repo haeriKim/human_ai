@@ -1,11 +1,14 @@
 /* 검색 영역 */
-    .notice_area .search{
+.notice_area .search{
     text-align: right;
     position: relative;
     margin-bottom: 20px;
 }
+.notice_area .n_list {
+  padding: 20px 25px;
+}
 .notice_area .search input {
-    width: 200px;
+    width: 220px;
     height: 30px;
     border: none;
     border-bottom: 2px solid #1b2f4a;
@@ -14,9 +17,7 @@
 }
 .notice_area .search a.search_btn{
     display:block;
-    width:44px;
-    height:32px;
-    line-height:28px;
+    width:45px;
     text-align:center;
     position:absolute;
     right:0;
@@ -24,12 +25,51 @@
 }
 
 .notice_area .notice_list {
-
+  border-top: 1px solid #1b2f4a;
+  font-size: 15px;
+}
+.notice_area .notice_list thead {
+  background-color: #efefef;
+  height: 50px;
+  line-height: 50px;
 }
 .notice_area .notice_list tr td{
-    height:50px;
-    line-height: 50px;
-    border-bottom:1px solid #dadef1;
+    height:45px;
+    line-height: 45px;
+    border-bottom:1px solid #efefef;
     box-sizing:border-box;
     cursor:pointer;
+}
+.notice_area .notice_list tr td.title {
+  text-align: left;
+}
+.notice_area .notice_list tr td.important_text {
+  font-weight: 600;
+}
+.notice_area .notice_list tr td.hot {
+  color: #ff0000;
+  font-weight: 600;
+}
+.notice_area .notice_list tr td.new {
+  color: #0000ff;
+  font-weight: 600;
+}
+.notice_area .contentBottom {
+  text-align: center;
+  padding-bottom:20px;
+  margin:0 auto;
+}
+.notice_area .contentBottom .paging a {
+    display:inline-block;
+    width:20px;
+    height:20px;
+    text-align:center;
+    font-size:14px;
+    font-weight:400;
+    margin-top:5px;
+    text-align: center;
+}
+.contentBottom .paging a img {
+  width: 7px;
+  vertical-align: middle;
 }

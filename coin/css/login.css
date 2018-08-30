@@ -71,14 +71,14 @@
     border-radius: 5px;
 }
 .login_content #login_area .login_info .e_mail_find:after {
-    content: "";
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 7px;
-    border-style: solid;
-    border-color:  transparent transparent #eaaf69 transparent;
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 7px;
+  border-style: solid;
+  border-color:  transparent transparent #eaaf69 transparent;
 }
 /*'i'아이콘*/
 /*.login_content #login_area .login_info .notify_icon::before{

@@ -67,9 +67,9 @@ $(document).ready(function(){
 
 //코인선택
 $(document).ready(function(){
-var coun_f=0; // 코인선택 탭 클릭을 확인하는값
+var coin_s=0; // 코인선택 탭 클릭을 확인하는값
 $(".coinSelect dt").click(function(){
-    if(coun_f===0){
+    if(coin_s===0){
         $(this).siblings().show();
         $(this).parent().css({"backgroundColor":"#fff"});
 
@@ -87,16 +87,16 @@ $(".coinSelect dt").click(function(){
             $(".coinSelect dt span").text(selectCName);
             $(".coinSelect dd").hide();
             $(".coinSelect").css({"background-color":"#fff"});
-            coun_f=0;
+            coin_s=0;
             return false;
         });
-        coun_f=1;
+        coin_s=1;
         return false;
     }else{
         // dt한번 더 클릭시 이벤트
         $(".coinSelect dd").hide();
         $(".coinSelect").css({"background":"#fff"});
-        coun_f=0;
+        coin_s=0;
         return false;
     }
 });
@@ -145,5 +145,17 @@ $(document).ready(function(){
       $(".buy_tab_content").hide();
       $(".sell_tab_content").show();
       return false;
+  });
+});
+
+$(document).ready(function(){
+  var click_val=0;
+  $(".question").click(function(){
+    if(click_val===0) {
+      $(".coin_money_detail").fadeIn(300);
+    }
+
+  }).mouseout(function(){
+    $(".coin_money_detail").fadeOut(300)
   });
 });
