@@ -2,7 +2,6 @@
 .con_435{
     width:435px;
     margin: 15% auto;
-    position: relative;
 }
 
 #buy_sell_tab .buy_sell_tab_title{
@@ -19,15 +18,13 @@
 #buy_sell_tab .sell_tab_content{
     padding:30px 20px 20px 20px;
     width: 395px;
-    position: absolute;
-    top:40px;
     background: #fff;
 }
 .buy_tab_content{
-    display: none;
+    display: block;
 }
 .sell_tab_content{
-    display: block;
+    display: none;
 }
 
 #buy_sell_tab .buy_tab_content .buy_tab_content_row,
@@ -125,8 +122,7 @@
 
 #buy_sell_tab .buy_all_amount p{
     text-align: right;
-    padding:0 5px;
-
+    padding:0 12px;
 }
 
 #buy_sell_tab .buy_all_amount p span.up_down_data{
@@ -138,14 +134,14 @@
     color:#002dae;
 }
 
-#buy_sell_tab .buy_tab_content .buy_tab_content_row:nth-child(4){
+#buy_sell_tab .buy_tab_content .buy_tab_content_row.total_price{
     height: 50px;
     line-height: 50px;
 }
 
 #buy_sell_tab .sub_text{
     display: inline-block;
-    margin:10px 0 20px 0;
+    margin:10px 0 15px 0;
     font-size: 11px;
     float: left;
     margin-left: 117px;
@@ -193,20 +189,23 @@
 #buy_sell_tab .buy_sell_tab_title li h3 a{
     padding:8px 0;
     display: block;
-    color:#333;
+    color:#777;
     background: #f4f5f9;
 }
-#buy_sell_tab .buy_sell_tab_title li.buy_tab .on a{
+#buy_sell_tab .buy_sell_tab_title .buy_tab h3.on a{
     color:#ff2323;
     display: block;
     border-top:3px solid #ff2323;
     padding:8px 0;
+    background-color: #fff;
+    border-radius: 5px 0 0 0;
 }
 
-#buy_sell_tab .buy_sell_tab_title li.sell_tab .on a{
+#buy_sell_tab .buy_sell_tab_title .sell_tab h3.on a{
     color:#002dae;
     display: block;
     border-top:3px solid #002dae;
     padding:8px 0;
-    background: #fff;
+    background-color: #fff;
+    border-radius: 0 5px 0 0;
 }
