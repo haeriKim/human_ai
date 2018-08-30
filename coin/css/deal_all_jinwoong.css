@@ -45,6 +45,8 @@
 
 #deal_all tbody p{
     font-size:13px;
+    color:#2b2b2b;
+    font-weight: 500;
 }
 
 #deal_all tbody tr td:first-child{
@@ -52,7 +54,7 @@
 }
 
 #deal_all tbody tr td:first-child span{
-    color:#6a6a6a;
+    color:#9e9e9e;
 }
 
 #deal_all .money_up{
