@@ -102,8 +102,6 @@ $(".coinSelect dt").click(function(){
 });
 })
 
-
-
 //팝업
 $(document).ready(function(){
     function closePopup(){
@@ -127,3 +125,25 @@ $(document).ready(function(){
         closePopup();
     })
 })
+
+//거래소-매수매도탭
+$(document).ready(function(){
+  $(".sell_tab_content").hide();
+  $(".buy_tab_content").show();
+  $(".buy_sell_tab_title .buy_tab h3").addClass("on");
+
+  $(".buy_sell_tab_title .buy_tab h3").click(function () {
+      $(".sell_tab_content").hide();
+      $(".buy_sell_tab_title .sell_tab h3").removeClass("on");
+      $(".buy_sell_tab_title .buy_tab h3").addClass("on");
+      $(".buy_tab_content").show();
+      return false;
+  });
+  $(".buy_sell_tab_title .sell_tab").click(function () {
+      $(".buy_sell_tab_title .buy_tab h3").removeClass("on");
+      $(".buy_sell_tab_title .sell_tab h3").addClass("on");
+      $(".buy_tab_content").hide();
+      $(".sell_tab_content").show();
+      return false;
+  });
+});
