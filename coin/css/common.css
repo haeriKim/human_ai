@@ -32,6 +32,7 @@
     min-height: 200px;
     margin: 0 auto;
     position: relative;
+
 }
 /* 박스 스타일 */
 .box{
@@ -67,6 +68,11 @@
 .con_1250 {
   width: 1250px;
   margin: 12% auto;
+  height: auto;
+}
+.con_1290 {
+  width: 1290px;
+  margin: 10% auto;
   height: auto;
 }
 /*버튼 스타일*/
