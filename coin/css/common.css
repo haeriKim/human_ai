@@ -90,3 +90,21 @@
     cursor: pointer;
     width: 98%;
 }
+/*거래소 등 h3 스타일*/
+.exchange_h3{
+    border-bottom: 3px solid #1b2f4a;
+    text-align: left;
+    padding: 15px 20px 10px 20px;
+    font-size: 1.17em;
+    font-weight: 600;
+    color: #1b2f4a;
+}
+/*thead 부분 서식 스타일*/
+.thead_deco {
+    background-color:#f4f5f9;
+}
+
+.thead_deco a{
+    color:#666;
+    font-size:15px;
+}

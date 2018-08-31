@@ -7,6 +7,14 @@
 .notice_area .n_list {
   padding: 20px 25px;
 }
+.notice_area .n_list #look_method{
+    border: 1px solid #444;
+    width: 82px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 5px;
+    text-indent: 9px;
+    }
 .notice_area .search input {
     width: 220px;
     height: 30px;
