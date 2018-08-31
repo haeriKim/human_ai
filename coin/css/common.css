@@ -74,6 +74,7 @@
   width: 1290px;
   margin: 10% auto;
   height: auto;
+  overflow: hidden;
 }
 /*버튼 스타일*/
 .login_content #login_area .button_box,

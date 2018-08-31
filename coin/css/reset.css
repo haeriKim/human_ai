@@ -12,7 +12,7 @@ input[type="text"],input[type="password"],input[type="email"],input[type="tel"],
     -webkit-border-radius:0;
     outline: none;
 }
-input, textarea{
+input, textarea, select{
     outline:none;
     font-family: 'Noto Sans KR', sans-serif;
 }
