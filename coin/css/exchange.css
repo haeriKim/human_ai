@@ -3,7 +3,7 @@
 #left_coin_menu{
   float:left;
   width:350px;
-
+  position: fixed;
 }
 
 .coin_select{
