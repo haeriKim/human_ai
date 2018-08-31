@@ -263,14 +263,25 @@
   width:300px;
   height:400px;
   position:absolute;
-  left:370px;
-  top:105px;
+  left:470px;
+  top:20px;
   display:none;
-  z-index:10;
-
-
 }
 
+#detail_all{
+  padding:10px 25px;
+}
+
+.coin_money_detail::after {
+  content: "";
+  position: absolute;
+  top: 18%;
+  left: -9%;
+  margin-left: -5px;
+  border-width: 17px;
+  border-style: solid;
+  border-color: transparent #fff transparent transparent;
+}
 .coin_name{
   width:300px;
   height:50px;
@@ -290,7 +301,7 @@
 
 .coin_money_detail p{
 
-  margin-left:10px;
+
   text-align:right;
   width:260px;
   font-size:12px;
@@ -301,12 +312,13 @@
 
 }
 
-.coin_money_detail_title .detail_frist{
-  border-top:2px solid #1b2f4a;
+.detail_line{
+border-top:2px solid #1b2f4a;
+border-bottom:2px solid #1b2f4a;
+float:left;
+
 }
-.coin_money_detail_story .detail_frist{
-  border-top:2px solid #1b2f4a;
-}
+
 
 .coin_money_detail_title{
   float:left;
@@ -315,7 +327,6 @@
 .coin_money_detail_title li{
   width:100px;
   border-bottom:1px solid #a1a1a1;
-  margin-left:25px;
   padding:5px 0 5px 0;
   font-size:13px;
   color:#1b2f4a;
@@ -340,21 +351,14 @@
   color:#9b9b9b;
 }
 
-.coin_money_detail_title .detail_end{
-  border-bottom:2px solid #1b2f4a;
-}
-.coin_money_detail_story .detail_end{
-  border-bottom:2px solid #1b2f4a;
-}
+
 
 .coin_money_detail span{
   float:right;
   margin-top:5px;
-  margin-right:20px;
   text-align:right;
   width:260px;
   font-size:12px;
-  padding:5px;
   font-weight:600;
 }
 
@@ -366,11 +370,10 @@
   text-decoration:underline;
 }
 
-.coin_money_detail img{
-  position:absolute;
-  left:-35px;
-  top:55px;
 
+
+#detail_end{
+  border:none;
 }
 
 /*deal_orgin_transaction*/
@@ -504,7 +507,6 @@
   margin-top:20px;
   width:920px;
 
-
 }
 
 .bid_price{
@@ -516,35 +518,38 @@
 
 .bid_price table{
   width:450px;
-  border-collapse: collapse;
-  font-size:14px;
+  border:1px solid #efefef;
+  font-size:13px;
 }
 
 .bid_price td{
   width:80px;
   padding:5px;
-  border:1px hidden #f4f5f9;
+  border:1px solid #efefef
 
 }
 
 .bid_price tr{
   position:relative;
+  height:35px;
 }
 
 .bid_price th{
   background-color:#f4f5f9;
   padding:5px;
-  border:1px hidden #f4f5f9;
-  font-size:15px;
+  border:1px solid #efefef;
+  font-size:13px;
+  color:#333333;
 }
 
 
 .table_h3{
   border-bottom:3px solid #1b2f4a;
   text-align:left;
-  padding: 15px 20px 10px 20px;
+  padding: 10px 20px;
   font-size:1.17em;
   font-weight:600;
+  color:#2b2b2b;
 }
 
 .mado_amount{
@@ -592,6 +597,8 @@
 
 .orderbg1{
   background-color:#cbd5f0;
+
+
 }
 
 .orderbg2{
@@ -600,10 +607,11 @@
 
 .upprice{
   color:#f00;
+
 }
 
 .downprice{
-  color:#00f;
+  color:#1b2f4a;
 }
 
 .bid_price table tbody tr td{
