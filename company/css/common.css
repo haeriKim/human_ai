@@ -1,0 +1,15 @@
+#wrap  {
+  width: 100%;
+  min-width: 1280px;
+  height: 100%;
+  position: relative;
+  overflow-y: hidden;
+  margin: 0 auto;
+}
+#container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 2px;
+}

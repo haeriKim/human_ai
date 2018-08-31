@@ -1,0 +1,123 @@
+/* 메인페이지 */
+.main_content {
+  overflow: hidden;
+}
+.main_content h1  {
+  position: absolute;
+  top:30px;
+  left:0;
+  width: 100%;
+  z-index: 3;
+  text-align: center;
+}
+.main_content h1 img {
+  width: 300px;
+}
+.main_content ul {
+    width: 100%;
+    overflow: hidden;
+}
+.main_content ul li {
+  width: 50%;
+  float: left;
+}
+.main_content .img_area_01  {
+  width: 100%;
+  height: 1200px;
+  background: url(../img/main_bg1.jpg) no-repeat 50% 0;
+  position: relative;
+}
+.main_content .img_area_02  {
+  width: 100%;
+  height: 1200px;
+  background: url(../img/main_bg2.jpg) no-repeat 50% 0;
+  position: relative;
+}
+.main_content .img_sec h2 {
+  color:#fff;
+  font-size:55px;
+  position: absolute;
+  top:300px;
+  left:0;
+  text-align: center;
+  width: 100%;
+  z-index: 5;
+  text-shadow: 0 1px #fff, 4px 4px 0 rgb(0,0,0,0.5);
+  font-weight: 600;
+  opacity: .8;
+}
+
+.main_content .img_area .technology_text  {
+  width: 150%;
+  right:0;
+  text-align: center;
+}
+
+.main_content .sec{
+    width: 50%;
+    height: 1200px;
+    display: inline-block;
+    position: absolute;
+    top: 1200px;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.8);
+    color:#ccc;
+    text-align: center;
+    transition: all 1s ease;
+}
+.main_content .left_detail{
+    left: 0;
+}
+.main_content .right_detail{
+    right: 0;
+}
+.main_content ul li:hover .sec{
+    top:0;
+}
+.main_content .sec h3,.main_content .sec p {
+  font-size: 25px;
+  position: absolute;
+  top:420px;
+  left: 0;
+  text-align: center;
+  width: 100%;
+}
+.main_content .sec p {
+  font-size: 16px;
+  top:470px;
+  line-height: 25px;
+}
+.main_content .sec a{
+  display: inline-block;
+  /* padding-top: 60%; */
+  position: absolute;
+  bottom: 45%;
+  left: 45%;
+}
+
+.main_content .footer {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 70px;
+  background-color: #000;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 13px;
+  opacity: .8;
+  overflow: hidden;
+}
+.main_content .footer img {
+  float: left;
+  width: 75px;
+}
+.main_content .footer p{
+  display: block;
+  text-align: center;
+}
+.main_content .footer p a{
+  color: #fff;
+  text-decoration: underline;
+}

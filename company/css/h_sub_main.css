@@ -8,117 +8,37 @@
   background-color:#efefef;
 }
 
-#header nav ul li:nth-child(2){
+#header nav ul li:nth-child(1){
   background-color:#efefef;
 }
 
-#header nav ul li:nth-child(2) a{
+#header nav ul li:nth-child(1) a{
   color:#111;
 }
 
+#sub_wrap{
+  overflow-y: visible;
+}
+#sub_wrap #header {
+  position: fixed;
+}
+
 /*상단배경*/
-#wrap{
-  background: url(../img/sub1_bg1.JPG) no-repeat top right;
+#sub_wrap #container {
+  /* background: url(../img/sub1_bg1.JPG) no-repeat top right; */
 }
-
-/*map*/
-
-.sub{
-  height:900px;
-  padding-left: 234px;
-  margin: 0 auto;
-}
-
-.map_fence{
-  margin-left:20%;
-  margin-top:12%;
-}
-
-.contact_inner{
-  margin:0 auto;
-  width:425px;
-  height:445px;
-  background-color:#111111;
-  color:#fff;
-  float:left;
-}
-
-.contact_inner h1{
-  font-size:35px;
-  margin-top:50px;
-  margin-left:30px;
-  margin-bottom:40px;
-}
-
-.contact_inner span{
-  font-size:14px;
-  font-weight:bold;
-}
-
-.contact_inner ul{
-  width:335px;
-  height:50px;
-  float:left;
-  margin-bottom:20px;
-  margin-left:30px;
-}
-
-.contact_inner ul img{
-  margin-left:-20px;
-  padding-left:20px;
-  padding-top:10px;
-  float:left;
-  width:25px;
-  height:25px;
-}
-
-.contact_inner .text1{
-  list-style:none;
-  width:300px;
-  height:50px;
-  margin-left:10px;
-  float:left;
-  line-height:20px;
-}
-
-.contact_inner .text2{
-  list-style:none;
-  width:300px;
-  height:50px;
-  margin-left:10px;
-  float:left;
-  line-height:20px;
-}
-
-.contact_inner .text3{
-  list-style:none;
-  width:300px;
-  height:50px;
-  margin-top:10px;
-  margin-left:10px;
-  float:left;
-  line-height:20px;
-}
-
-.contact_inner .text4{
-  list-style:none;
-  width:300px;
-  height:50px;
-  margin-top:10px;
-  margin-left:10px;
-  float:left;
-  line-height:20px;
-}
-
-.map{float:left;}
 
 /*회사소개*/
 .intro_inner{
-    margin-top:110px;
     text-align: center;
+    margin-left: 234px;
 }
-
+.intro_inner .bg_area {
+  background: url(../img/sub1_bg1.JPG) no-repeat top right;
+  background-size: 100% 1400px;
+}
 .intro_inner h2{
+    padding-top:110px;
     font-size:30px;
     color:#222;
     margin-bottom:20px;
