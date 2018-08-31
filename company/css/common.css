@@ -1,3 +1,4 @@
+/* 메인페이지 */
 #wrap  {
   width: 100%;
   min-width: 1280px;
@@ -12,4 +13,12 @@
     position: absolute;
     left: 0;
     top: 2px;
+}
+
+/* 서브페이지 */
+#sub_wrap{
+  overflow-y: visible;
+}
+#sub_wrap #header {
+  position: fixed;
 }

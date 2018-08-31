@@ -16,12 +16,6 @@
   color:#111;
 }
 
-#sub_wrap{
-  overflow-y: visible;
-}
-#sub_wrap #header {
-  position: fixed;
-}
 
 /*상단배경*/
 #sub_wrap #container {
@@ -75,23 +69,26 @@
   text-align: left;
 
 }
-.intro_inner .titleColor{
+.intro_inner .co_intro .titleColor{
   color:#000443;
 }
-.intro_inner .first_title1{
+.intro_inner .co_intro p{
   font: 600 80px/80px 'Noto Sans KR', sans-serif;
 }
-.intro_inner .first_title2{
+.intro_inner .co_intro b{
   font: 600 40px/70px 'Noto Sans KR', sans-serif;
+  display: block;
 }
-.intro_inner .first_title3{
-  color:#000000;
-  font: 500 30px/75px 'Noto Sans KR', sans-serif;
-  margin-bottom: 10px;
+.intro_inner .co_intro strong{
+  display: block;
+  color:#000;
+  font-size: 26px;
+  font-weight: 600;
+  margin: 30px 0;
 }
-.intro_inner .first_title4{
-  color:#666666;
-  font: 500 20px/20px 'Noto Sans KR', sans-serif;
+.intro_inner .co_intro span{
+  color:#666;
+  font-size: 18px;
 }
 .co_intro_intro .second_title1{
   color:white;
@@ -102,15 +99,14 @@
 }
 
 .co_intro_frame{
-  width: 1000px;
-  padding:60px 120px;
-  background-color: white;
+  width: 1200px;
+  padding: 60px 100px;
+  background-color: #fff;
   margin: 0 auto;
-  margin-bottom:200px;
+  margin-bottom: 200px;
+  box-sizing: border-box;
 }
 .co_intro_content {
-  width:1030px;
-  margin:0 auto;
   word-break: break-all;
   font-size: 16px;
   line-height: 24px;
@@ -123,10 +119,10 @@
 
 .co_intro_title{
   font-size: 30px;
-  font-weight: 500;
   text-align: left;
   padding-left: 300px;
   margin-bottom: 60px;
+  font-weight: 600;
 }
 .first_indent{
   margin-left:-300px;
