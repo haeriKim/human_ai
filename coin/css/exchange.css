@@ -100,9 +100,12 @@
   width:80px;
   height:80px;
   float:left;
-
 }
-
+#deal_all .deal_all_thead{
+    background-color: #f4f5f9;
+    position: absolute;
+    width: 418px;
+}
 .coin_money_inner ul{
   float:left;
   width:220px;
@@ -1009,15 +1012,6 @@ float:left;
     margin-left:2px;
 }
 
-/*deal_all*/
-
-.con_435{
-    width:435px;
-    margin:20px 0;
-    height: 400px;
-}
-
-
 #buy_sell_tab .buy_sell_tab_title li h3 a{
     border-radius: 5px 0 0 0;
     padding:8px 0 11px 0;
@@ -1045,7 +1039,11 @@ float:left;
 
 /*deal_all*/
 
-
+.con_435{
+    width:435px;
+    margin:20px 0;
+    height: 428px;
+}
 #deal_all{
   overflow-y: hidden;
   float:left;
@@ -1053,7 +1051,7 @@ float:left;
 }
 #deal_all .deal_table_scroll{
     overflow-y: scroll;
-    height:350px;
+    height:380px;
 }
 #deal_all thead tr th.deal_time{
     text-align: left;
@@ -1075,11 +1073,13 @@ float:left;
     font-size:13px;
     border-bottom:1px solid #efefef;
 }
-#deal_all thead tr th{
+#deal_all thead tr th:not(.deal_time){
     text-align: right;
-    padding-right:14px;
+    padding-left: 28px;
 }
-
+#deal_all .deal_price_KRW{
+    padding-left;
+}
 #deal_all tbody tr{
     height: 35px;
     border-bottom:1px solid #efefef;
@@ -1097,18 +1097,30 @@ float:left;
     font-weight: 500;
 }
 
-#deal_all tbody tr td:first-child{
-    padding-left:17px;
-}
-
-#deal_all tbody tr td:first-child span{
-    color:#9e9e9e;
-}
-
 #deal_all .money_up{
     color:#ff2323;
 }
 
 #deal_all .money_down{
     color:#002dae;
+}
+#deal_all .deal_table_tbody{
+    display: block;
+    margin-top: 36px;
+}
+#deal_all .deal_table_tbody .deal_time{
+    padding-left:29px;
+}
+#deal_all .deal_table_tbody .deal_time span{
+    color:#9e9e9e;
+}
+#deal_all .deal_table_tbody td:not(.deal_time){
+    padding-left:35px;
+}
+#deal_all .deal_table_tbody td.deal_price_KRW_data{
+    padding-left:48px;
+}
+#deal_all .deal_table_tbody td.deal_amount_data{
+    padding-left: 21px;
+    padding-right: 13px;
 }
