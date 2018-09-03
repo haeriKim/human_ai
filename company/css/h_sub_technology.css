@@ -16,99 +16,13 @@
   color:#111;
 }
 
-
-
-
-/*map*/
-
+#container{
+    overflow-y: scroll;
+}
 .sub{
-  height:900px;
   padding-left: 234px;
   margin: 0 auto;
 }
-
-.map_fence{
-  margin-left:20%;
-  margin-top:12%;
-}
-
-.contact_inner{
-  margin:0 auto;
-  width:425px;
-  height:445px;
-  background-color:#111111;
-  color:#fff;
-  float:left;
-}
-
-.contact_inner h1{
-  font-size:35px;
-  margin-top:50px;
-  margin-left:30px;
-  margin-bottom:40px;
-}
-
-.contact_inner span{
-  font-size:14px;
-  font-weight:bold;
-}
-
-.contact_inner ul{
-  width:335px;
-  height:50px;
-  float:left;
-  margin-bottom:20px;
-  margin-left:30px;
-}
-
-.contact_inner ul img{
-  margin-left:-20px;
-  padding-left:20px;
-  padding-top:10px;
-  float:left;
-  width:25px;
-  height:25px;
-}
-
-.contact_inner .text1{
-  list-style:none;
-  width:300px;
-  height:50px;
-  margin-left:10px;
-  float:left;
-  line-height:20px;
-}
-
-.contact_inner .text2{
-  list-style:none;
-  width:300px;
-  height:50px;
-  margin-left:10px;
-  float:left;
-  line-height:20px;
-}
-
-.contact_inner .text3{
-  list-style:none;
-  width:300px;
-  height:50px;
-  margin-top:10px;
-  margin-left:10px;
-  float:left;
-  line-height:20px;
-}
-
-.contact_inner .text4{
-  list-style:none;
-  width:300px;
-  height:50px;
-  margin-top:10px;
-  margin-left:10px;
-  float:left;
-  line-height:20px;
-}
-
-.map{float:left;}
 
 /*기술소개*/
 .technology_inner{
@@ -121,7 +35,7 @@
     margin-bottom:20px;
 }
 
-.technology_inner ul{
+/* .technology_inner ul{
     overflow: hidden;
     text-align: center;
     width: 800px;
@@ -143,7 +57,7 @@
 
 .technology_inner ul li:first-child a{
     border-bottom:2px solid #222;
-}
+} */
 .technology_inner .ai_tech_content{
     position: relative;
     color:#fff;
@@ -165,6 +79,72 @@
     bottom:130px;
 }
 
+
+/*기술소개*/
+.technology_inner .tech_content_wrap{
+    position: relative;
+}
+.technology_inner .tech_content_wrap ul{
+    left: 299px;
+    overflow: hidden;
+    background: #fff;
+    display: inline-block;
+    padding: 30px 50px;
+    position: absolute;
+    top: 118px;
+    z-index: 2;
+    opacity: 0.9;
+}
+.technology_inner .tech_content_wrap ul li{
+    display: table;
+    text-align: left;
+    line-height: 1.4;
+    font-size: 17px;
+    margin-top: 12px;
+    width: 215px;
+}
+.technology_inner .tech_content_wrap ul li a{
+    color:#222;
+    font-weight: 500;
+}
+.technology_inner .tech_content_wrap ul li a:hover{
+    color:#1b5ea9;
+    font-weight: 600;
+}
+.technology_inner .tech_content_wrap ul li.on a{
+    color:#1b5ea9;
+    font-size: 18px;
+    font-weight: 600;
+}
+.technology_inner .tech_content_wrap .tech_content{
+    border: 1px solid red;
+    width: 1200px;
+    height: 600px;
+    position: absolute;
+    left: 15%;
+}
+.technology_inner .tech_content_wrap .tech_content::before{
+    content:"";
+    position: absolute;
+    top:0;
+    left: 0;
+    right:0;
+    bottom:0;
+    background:rgba(0, 0, 0, 0.7);
+}
+.technology_inner .tech_content_wrap .tech_content img{
+    width: 1200px;
+    height: 600px;
+}
+.technology_inner .tech_content_wrap .tech_content p{
+    color: #fff;
+    position: absolute;
+    bottom: 81px;
+    text-align: left;
+    right: 72px;
+    font-size: 19px;
+    word-break: keep-all;
+}
 /*footer*/
 .sub .footer {
   width: 100%;
@@ -179,6 +159,7 @@
   font-size: 13px;
   opacity: .8;
   overflow: hidden;
+  z-index: 9;
 }
 .sub .footer img {
   float: left;
