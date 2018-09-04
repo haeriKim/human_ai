@@ -9,9 +9,8 @@
   float:left;
 }
 
-.mycoin_tab{
-  width:900px;
-  float:left;
+.mycoin_tab ul {
+  overflow: hidden;
 }
 
 .mycoin_tab li{
@@ -24,16 +23,13 @@
   font-weight:600;
   cursor:pointer;
   background-color:#f4f5f8;
-  overflow:hidden;
-  position:relative;
 }
 
-.tabs li:nth-child(1){
-  color:#1b2f4a;
-  background:#fff;
-  border-top:2px solid #1b2f4a;
+.mycoin_tab li.active {
+  color: #1b2f4a;
+  border-top: 3px solid #1b2f4a;
+  background-color:#fff;
 }
-
 
 /*tab1*/
 

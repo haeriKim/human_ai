@@ -148,6 +148,7 @@ $(document).ready(function(){
   });
 });
 
+//거래소-코인정보 상세보기
 $(document).ready(function(){
   var click_val=0;
   $(".question").click(function(){
@@ -160,6 +161,37 @@ $(document).ready(function(){
     }
   });
 });
+
+//내 자산관리 탭
+$(function () {
+    $(".tab_content").hide();
+    $(".tab_content:first").show();
+
+    $("ul.tabs li").click(function () {
+        $("ul.tabs li").removeClass("active");
+        $(this).addClass("active");
+        $(".tab_content").hide()
+        var activeTab = $(this).attr("rel");
+        $("#" + activeTab).show()
+    });
+});
+
+// 체결,미체결 표
+$(function () {
+
+    $(".tab_content2").hide();
+    $(".tab_content2:first").show();
+
+    $("ul.tabs2 li").click(function () {
+        $("ul.tabs2 li").removeClass("active2").css({"color": "#1b2f4a","border":"1px solid #1b2f4a","background":"#fff"});
+        //$(this).addClass("active").css({"color": "darkred","font-weight": "bolder"});
+        $(this).addClass("active2").css({"color": "#fff","border":"1px solid #1b2f4a","background":"#1b2f4a"});
+        $(".tab_content2").hide()
+        var activeTab = $(this).attr("rel");
+        $("#" + activeTab).show()
+    });
+});
+
 
 /*fixed_menu 플로팅메뉴*/
 
@@ -232,9 +264,3 @@ $(document).ready(function(){
   // 	}).scroll();
   //
   // });
-
-  $(document).ready(function() {
-
-    $('#left_coin_menu').scrollTop($('#left_coin_menu').prop('scrollHeight'));
-
-   } );
