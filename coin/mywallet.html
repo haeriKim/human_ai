@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=" width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script><!--//배너 슬라이더-->
+    <title>Human&Ai</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/mywallet1.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/common.js"></script>
+</head>
+<body>
+  <!-- wrap -->
+  <div id="wrap">
+    <!-- container -->
+  <div id="container">
+    <!-- nav_wrap -->
+    <div id="nav_wrap">
+      <!-- nav  -->
+      <div id="nav">
+          <h1><a href="index.html"><img src='img/logo.png' alt='로고'></a></h1>
+
+          <ul class='nav_bt'>
+            <li><a href='login.html' class="login_bt">로그인</a><span>|&nbsp;</span><a href="#" class="join_bt">회원가입</a></li>
+          </ul>
+          <ul class='nav_list'>
+            <li class='active'><a href='#'><img src='' alt=''>거래하기</a></li>
+            <li><a href='#'><img src='' alt=''>차트보기</a></li>
+            <li><a href='#'><img src='' alt=''>내자산관리</a></li>
+            <li><a href='#'><img src='' alt=''>고객센터</a></li>
+            <li><a href='coin_info.html'><img src='' alt=''>코인정보</a></li>
+          </ul>
+      </div>  <!-- nav End-->
+    </div><!-- nav_wrap End-->
+      <!-- header_wrap -->
+      <div id ="header_wrap">
+          <!-- header -->
+        <div id="header">
+            <!-- current_coin -->
+            <div class="current_coin">
+              <ul>
+                <li class='btc'>
+                    <span>비트코인(BTC)</span>
+                    <p><span class="current_pri">7,595,000</span> KRW</p>
+                    <b class="up"><span class="current_per">+ 3.98</span> %</b>
+                </li>
+                <li class='bth'>
+                  <span>비트코인캐시(BCH)</span>
+                  <p><span class="current_pri">7,595,000</span> KRW</p>
+                  <b class="down"><span class="current_per">- 3.98</span> %</b>
+                </li>
+                <li class='eth'>
+                  <span>이더리움(ETH)</span>
+                  <p><span class="current_pri">7,595,000</span> KRW</p>
+                  <b class="up"><span class="current_per">+ 3.98</span> %</b>
+                </li>
+                <li class='etc'>
+                  <span>이더리움클래식(ETC)</span>
+                  <p><span class="current_pri">7,595,000</span> KRW</p>
+                  <b class="down"><span class="current_per">- 3.98</span> %</b>
+                </li>
+                <li class='eos'>
+                  <span>이오스(EOS)</span>
+                  <p><span class="current_pri">7,595,000</span> KRW</p>
+                  <b class="down"><span class="current_per">- 3.98</span> %</b>
+                </li>
+                <li class='xrp'>
+                  <span>리플(XRP)</span>
+                  <p><span class="current_pri">7,595,000</span> KRW</p>
+                  <b class="up"><span class="current_per">+ 3.98</span> %</b>
+                </li>
+                <li class='ada'>
+                  <span>에이다(ADA)</span>
+                  <p><span class="current_pri">7,595,000</span> KRW</p>
+                  <b class="up"><span class="current_per">+ 3.98</span> %</b>
+                </li>
+              </ul>
+            </div><!-- current_coin End-->
+        </div> <!-- header End-->
+      </div><!-- header_wrap End-->
+
+      <!-- content_wrap -->
+      <div class="content_wrap">
+        <!-- main_content -->
+        <div class="content exchange_content con_1290">
+          <!--right_all_menu-->
+          <div id="left_all_menu">
+            <!--right_coin_menu2-->
+            <div id="left_coin_menu2">
+
+            <!-- mywallet_tab -->
+              <div id="mywallet_tab">
+                <form class="buy_tab_form" action="#" method="post" name='buy_tab_form'>
+                  <ul class='mywallet_tab_title'>
+                      <li class='mycoin_tab'>
+                          <h3><a href='#'>보유코인</a></h3>
+                      </li>
+                      <li class='trans-info'>
+                          <h3><a href='#'>거래내역</a></h3>
+                      </li>
+                      <li class='ledger_tab'>
+                          <h3><a href='#'>입출금내역</a></h3>
+                      </li>
+                  </ul>
+                    <!-- buy_tab_content -->
+                  <div class="mycoin_tab_content box">
+                      <p class='mycoin_notice'>* 매수평균가, 평가금액, 평가손익, 수익률은 모두 KRW로 환산한 추정값으로 참고용입니다.</p>
+                      <div class="mywallet_myinfo cb">내용 수정 가능</div>
+                      <table class='mycoin_table' summary='보유코인,보유수량,매수평균가,매수금액,평가금액,평가손익,입출금 버튼,준비중 상태확인 '>
+                        <colgroup>
+                            <col width='20%'/>
+                            <col width='10%'/>
+                            <col width='10%'/>
+                            <col width='10%'/>
+                            <col width='10%'/>
+                            <col width='10%'/>
+                            <col width='18%'/>
+                        </colgroup>
+                        <thead class='mycoin_thead_deco'>
+                            <tr>
+                                <th class='mycoin_kor fl'><a href="#">보유코인</a></th>
+                                <th class='mycoin_eng' style='display:none;'><a href="#">영문명</a></th>
+                                <th><a href="#">보유수량</a></th>
+                                <th><a href="#">매수평균가</a></th>
+                                <th><a href="#">매수금액</a></th>
+                                <th><a href="#">평가금액</a></th>
+                                <th><a href="#">평가손익</a></th>
+                                <th><a href="#">&nbsp;</a></th>
+                            </tr>
+                        </thead>
+                        <tbody class="mycoin_tbody_deco">
+                          <tr>
+                            <td class="mycoin_name">
+                              <img src="img/bitcoin.png" alt="비트코인아이콘">
+                              <p>
+                                <strong class="color_bk fl">비트코인</strong><br />
+                                <span style='display:none;'>Bitcoin</span>
+                                <span class='color_bk fl'>BTC</span>
+                              </p>
+                            </td>
+                            <td><span class='mycoin_data fr'>0KRW</td>
+                            <td><span class='mycoin_data fr'>0KRW</td>
+                            <td><span class='mycoin_data fr'>0KRW</td>
+                            <td><span class='mycoin_data fr'>0KRW</td>
+                            <td><span class='mycoin_data fr'>0KRW</td>
+                            <td><span class='mycoin_data '><input type="button" value='버튼'/><span class='mycoin_data'><input type="button" value='버튼'/></td>
+                          </tr>
+                          <tr>
+                            <td class="mycoin_name">
+                              <img src="img/bitcoin.png" alt="비트코인캐시아이콘">
+                              <p>
+                                <strong class="color_bk fl">비트코인캐시</strong><br />
+                                <span style='display:none;'>bitcoincash</span>
+                                <span class='color_bk fl'>BCH</span>
+                              </p>
+                            </td>
+                            <td><span class='mycoin_data fr'>0KRW</td>
+                            <td><span class='mycoin_data fr'>0KRW</td>
+                            <td><span class='mycoin_data fr'>0KRW</td>
+                            <td><span class='mycoin_data fr'>0KRW</td>
+                            <td><span class='mycoin_data fr'>0.00%</td>
+                              <td><span class='mycoin_data'><input type="button" value='버튼'/><span class='mycoin_data'></td>
+                          </tr>
+                          <tr>
+                            <td class="mycoin_name">
+                              <img src="img/bitcoin.png" alt="이더리움아이콘">
+                              <p>
+                                <strong class="color_bk fl">이더리움</strong><br />
+                                <span style='display:none;'>Ethereum</span>
+                                <span class='color_bk fl'>ETH</span>
+                              </p>
+                            </td>
+                            <td><span class='mycoin_data fr'>0KRW</td>
+                            <td><span class='mycoin_data fr'>0KRW</td>
+                            <td><span class='mycoin_data fr'>0KRW</td>
+                            <td><span class='mycoin_data fr'>0KRW</td>
+                            <td><span class='mycoin_data fr'>0.00%</td>
+                            <td><span class='mycoin_data'><input type="button" value='버튼'/><span class='mycoin_data'></td>
+                          </tr>
+                          <tr>
+                            <td class="mycoin_name">
+                              <img src="img/bitcoin.png" alt="이더리움 클래식 아이콘">
+                              <p>
+                                <strong class="color_bk fl">이더리움 클래식</strong><br />
+                                <span style='display:none;'>Ethereum Classic</span>
+                                <span class='color_bk fl'>ETC</span>
+                              </p>
+                            </td>
+                            <td><span class='mycoin_data fr'>0KRW</td>
+                            <td><span class='mycoin_data fr'>0KRW</td>
+                            <td><span class='mycoin_data fr'>0KRW</td>
+                            <td><span class='mycoin_data fr'>0KRW</td>
+                            <td><span class='mycoin_data fr'>0.00%</td>
+                            <td><span class='ready_data'>입출금 준비중</span></td>
+                          </tr>
+                          <tr>
+                            <td class="mycoin_name">
+                              <img src="img/bitcoin.png" alt="리플 아이콘">
+                              <p>
+                                <strong class="color_bk fl">리플</strong><br />
+                                <span style='display:none;'>Ripple</span>
+                                <span class='color_bk fl'>XRP</span>
+                              </p>
+                            </td>
+                            <td><span class='mycoin_data fr'>0KRW</td>
+                            <td><span class='mycoin_data fr'>0KRW</td>
+                            <td><span class='mycoin_data fr'>0KRW</td>
+                            <td><span class='mycoin_data fr'>0KRW</td>
+                            <td><span class='mycoin_data fr'>0.00%</td>
+                            <td><span class='ready_data'>입출금 준비중</span></td>
+                          </tr>
+                          <tr>
+                            <td class="mycoin_name">
+                              <img src="img/bitcoin.png" alt="에이다 아이콘">
+                              <p>
+                                <strong class="color_bk fl">에이다</strong><br />
+                                <span style='display:none;'>Ada</span>
+                                <span class='color_bk fl'>ADA</span>
+                              </p>
+                            </td>
+                            <td><span class='mycoin_data fr'>0KRW</td>
+                            <td><span class='mycoin_data fr'>0KRW</td>
+                            <td><span class='mycoin_data fr'>0KRW</td>
+                            <td><span class='mycoin_data fr'>0KRW</td>
+                            <td><span class='mycoin_data fr'>0.00%</td>
+                            <td><span class='ready_data'>입출금 준비중</span></td>
+                          </tr>
+                          <tr>
+                            <td class="mycoin_name">
+                              <img src="img/bitcoin.png" alt="이오스 아이콘">
+                              <p>
+                                <strong class="color_bk fl">이오스</strong><br />
+                                <span style='display:none;'>EOS</span>
+                                <span class='color_bk fl'>EOS</span>
+                              </p>
+                            </td>
+                            <td><span class='mycoin_data fr'>0KRW</td>
+                            <td><span class='mycoin_data fr'>0KRW</td>
+                            <td><span class='mycoin_data fr'>0KRW</td>
+                            <td><span class='mycoin_data fr'>0KRW</td>
+                            <td><span class='mycoin_data fr'>0.00%</td>
+                            <td><span class='ready_data'>입출금 준비중</span></td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                  </div><!-- buy_tab_content End-->
+                </form>
+              </div><!-- mywallet_tab End-->
+            </div><!--left_coin_menu2 End-->
+          </div><!--left_all_menu-->
+
+          <!--left_coin_menu-->
+          <div id="right_coin_menu">
+            <div class="box coin_select">
+            </div>
+            <div class="box" id='deal_orgin_transaction'>
+                <h3 class='exchange_h3'>원화거래</h3>
+                <table class='deal_table' summary='코인명,현재가,전일대비,거래대금 정보를 알 수 있는 창'>
+                  <colgroup>
+                      <col width='34%'/>
+                      <col width='24%'/>
+                      <col width='21%'/>
+                      <col width='20%'/>
+                  </colgroup>
+                  <thead class='thead_deco'>
+                      <tr>
+                          <th class='coin_kor'><a href="#">코인명</a></th>
+                          <th class='coin_eng' style='display:none;'><a href="#">영문명</a></th>
+                          <th><a href="#">현재가</a></th>
+                          <th><a href="#">전일대비</a></th>
+                          <th><a href="#">거래대금</a></th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td>
+                              <p>비트코인</p>
+                              <p style='display:none;'>Bitcoin</p>
+                              <span class='unit'>BTC/KRW</span>
+                          </td>
+                          <td><span class='up_down_data money_up'>7,500,000</td>
+                          <td><span class='up_down_data money_up'>+1.20%</td>
+                          <td><span class='up_down_data'>74,000,000</td>
+                      </tr>
+                      <tr>
+                          <td class='coin_kor'>
+                              <p>비트코인캐시</p>
+                              <p style='display:none;'>Bitcoin Cash</p>
+                              <span class='unit'>BCH/KRW</span>
+                          </td>
+                          <td><span class='up_down_data money_up'>599,000</td>
+                          <td><span class='up_down_data money_up'>+0.00%</td>
+                          <td><span class='up_down_data'>7,000,000</td>
+                      </tr>
+                      <tr>
+                          <td class='coin_kor'>
+                              <p>이더리움</p>
+                              <p style='display:none;'>Ethereum</p>
+                              <span class='unit'>ETH/KRW</span>
+                          </td>
+                          <td><span class='up_down_data money_up'>800,000</td>
+                          <td><span class='up_down_data money_up'>+1.20%</td>
+                          <td><span class='up_down_data'>700,000</td>
+                      </tr>
+                      <tr>
+                          <td class='coin_kor'>
+                              <p>이더리움클래식</p>
+                              <p style='display:none;'>Ethereum Classic</p>
+                              <span class='unit'>ETC/KRW</span>
+                          </td>
+                          <td><span class='up_down_data money_nochange'>800,000</td>
+                          <td><span class='up_down_data'>+0.00%</span></td>
+                          <td><span class='up_down_data'>700,000</td>
+                      </tr>
+                      <tr>
+                          <td class='coin_kor'>
+                              <p>리플</p>
+                              <p style='display:none;'>Ripple</p>
+                              <span class='unit'>XRP/KRW</span>
+                          </td>
+                          <td><span class='up_down_data money_down'>900,000</td>
+                          <td><span class='up_down_data money_down'>-1.20%</td>
+                          <td><span class='up_down_data'>700,000</td>
+                      </tr>
+                      <tr>
+                          <td class='coin_kor'>
+                              <p>에이다</p>
+                              <p style='display:none;'>Ada</p>
+                              <span class='unit'>ADA/KRW</span>
+                          </td>
+                          <td><span class='up_down_data money_down'>7,500,000</td>
+                          <td><span class='up_down_data money_down'>-1.20%</td>
+                          <td><span class='up_down_data'>700,000</td>
+                      </tr>
+                      <tr>
+                          <td class='coin_kor'>
+                              <p>이오스</p>
+                              <p style='display:none;'>EOS</p>
+                              <span class='unit'>EOS/KRW</span>
+                          </td>
+                          <td><span class='up_down_data money_down'>600,000</td>
+                          <td><span class='up_down_data money_down'>-1.20%</td>
+                          <td><span class='up_down_data'>700,000</td>
+                      </tr>
+                  </tbody>
+                </table>
+            </div><!-- con_410 End-->
+          </div><!--right_coin_menu End-->
+        </div><!-- exchange_content End-->
+      </div><!-- content_wrap End-->
+
+      <!-- footer_wrap -->
+      <div id="footer_wrap">
+        <div id="footer">
+            <div class="footer_menu">
+              <ul>
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="notice.html">공지사항</a></li>
+                <li><a href="#">이용안내</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">불편사항접수</a></li>
+              </ul>
+            </div>
+            <div class="compnay_info">
+              서울특별시 서초구 신반포로 326-10 305호&nbsp;&nbsp;
+              (주)휴먼앤에이아이 &nbsp;&nbsp;
+              대표 홍길동 &nbsp;&nbsp;
+              사업자등록번호 <span>000-00-00000</span> &nbsp;&nbsp;
+              Copyright@All rights reserved.
+            </div>
+      </div><!-- footerEnd-->
+    </div>
+    <!-- footer_wrap End-->
+  </div><!-- container End -->
+  </div><!-- wrap End -->
+</body>
+</html>
