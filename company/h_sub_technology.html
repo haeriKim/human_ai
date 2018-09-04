@@ -8,22 +8,9 @@
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/h_sub_technology.css">
-
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript">
-    $(document).ready(function(){
-  	$('.tech_content:gt(0)').hide();
-  	$('.tech_content_wrap > ul > li > a').on('click',function(e){
-        e.preventDefault();
-        num=$(this).parent().index();
-  		$('.tech_content_wrap > ul > li.on').removeClass('on');
-  		$(this).parent().addClass('on');
-        $('.tech_content:visible').hide();
-  		$('.tech_content:eq('+(num)+')').stop().fadeOut(400).fadeIn(400);
-  		})
-    })
-    </script>
+    <script src="js/common.js"></script>
 </head>
 <body>
 <div id="wrap">
