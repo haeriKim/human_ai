@@ -81,18 +81,18 @@
 }
 .technology_inner .tech_intro img.image_01{
   width: 330px;
-  height: 310px;
+  height: 330px;
   position: absolute;
   bottom: 28px;
   z-index: 3;
   right: 235px;
 }
 .technology_inner .tech_intro img.image_02{
-  width: 473px;
-  height: 732px;
-  position: absolute;
-  top: -50px;
-  right: 0;
+    width: 486px;
+    height: 732px;
+    position: absolute;
+    top: -50px;
+    right: -65px;
 }
 
 
@@ -123,6 +123,23 @@
     position: relative;
     height: 800px;
 }
+.technology_inner .tech_content_wrap h3{
+    color: #fff;
+    position: absolute;
+    top: 98px;
+    text-align: right;
+    right: 300px;
+    z-index: 5;
+}
+.technology_inner .tech_content_wrap h3 p{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.technology_inner .tech_content_wrap h3 span{
+    font-size:22px;
+}
+
 .technology_inner .tech_content_wrap ul{
     left: 299px;
     overflow: hidden;

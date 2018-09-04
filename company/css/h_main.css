@@ -94,7 +94,15 @@
   bottom: 45%;
   left: 45%;
 }
-
+.main_content .right_detail h3,
+.main_content .right_detail p{
+    width: 100%;
+    position: absolute;
+    left:5px;
+}
+.main_content .right_detail a{
+    left:47%;
+}
 .main_content .footer {
   width: 100%;
   position: fixed;
