@@ -121,26 +121,28 @@
                               <!--tab2_header-->
                               <div class="tab2_header">
                                 <ul class="tabs2"><!--che_gyul_tab-->
-                                  <li class="active" rel="chegyeol_tab">체결</li>
-                                  <li rel="michegyeol_tab">미체결</li>
+                                  <li class="active2 chegyeol_bt" rel="chegyeol">체결</li>
+                                  <li class="michegyeol_bt" rel="michegyeol">미체결</li>
                                 </ul>
                                         <div class="days">
                                           <p>기간</p>
 
-                                          <div><input type="text" value="2018-07-29"><img src="img/cal.png" alt="달력아이콘"></div>
+                                          <div><input type="date" value="2018-07-29"></div>
                                           <span>~</span>
-                                          <div><input type="text" value="2018-08-29"><img src="img/cal.png" al=t"달력아이콘"></div>
+                                          <div><input type="date" value="2018-08-29"></div>
 
                                           <input type="submit" name="search" value="조회" class='search_btn'>
                                         </div>
+                              </div><!--tab2_header End-->
+
                                   <!--체결-->
-                                  <div class="chegyeol">
+                                  <div id="chegyeol" class="chegyeol tab_content2">
                                     <table class="chegyeol_table" summary="주무시간,코인,거래종류,거래수량,거래단가,거래금액,수수료,정산금액">
                                       <colgroup>
                                           <col width='12%'/>
-                                          <col width='8%'/>
+                                          <col width='10%'/>
                                           <col width='12%'/>
-                                          <col width='15%'/>
+                                          <col width='13%'/>
                                           <col width='15%'/>
                                           <col width='12%'/>
                                           <col width='13%'/>
@@ -160,36 +162,202 @@
                                       </thead>
                                       <tbody>
                                         <tr>
-                                          <td><span>과거 거래내역이 없습니다.</span></td>
+                                          <td>2018-08-31</td>
+                                          <td>비트코인</td>
+                                          <td>원화거래</td>
+                                          <td>0</td>
+                                          <td>0KRW</td>
+                                          <td>0KRW</td>
+                                          <td>0KRW</td>
+                                          <td>0KRW</td>
                                         </tr>
 
                                         <tr>
-                                          <td><span></span></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
                                         </tr>
 
                                         <tr>
-                                          <td><span></span></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
                                         </tr>
 
                                         <tr>
-                                          <td><span></span></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
                                         </tr>
 
                                         <tr>
-                                          <td><span></span></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
                                         </tr>
 
                                         <tr>
-                                          <td><span></span></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
                                         </tr>
 
                                         <tr>
-                                          <td><span></span></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
+                                          <td></td>
                                         </tr>
 
                                       </tbody>
 
                                     </table>
+                                    </div><!--체결 End-->
+
+
+                                    <!--미체결-->
+                                    <div id="michegyeol" class="michegyeol tab_content2">
+                                      <table class="chegyeol_table" summary="주무시간,코인,거래종류,거래수량,거래단가,거래금액,수수료,정산금액">
+                                        <colgroup>
+                                            <col width='15%'/>
+                                            <col width='12%'/>
+                                            <col width='13%'/>
+                                            <col width='15%'/>
+                                            <col width='16%'/>
+                                            <col width='15%'/>
+                                            <col width='14%'/>
+                                        </colgroup>
+                                        <thead class='chegyeol_header'>
+                                            <tr>
+                                                <th><a href="#">시간</a></th>
+                                                <th><a href="#">마켓명</a></th>
+                                                <th><a href="#">거래종류</a></th>
+                                                <th><a href="#">주문가격</a></th>
+                                                <th><a href="#">주문수량</a></th>
+                                                <th><a href="#">체결수량</a></th>
+                                                <th><a href="#">미체결수량</a></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td>2018-08-31</td>
+                                            <td>비트코인</td>
+                                            <td>원화거래</td>
+                                            <td>0</td>
+                                            <td>0KRW</td>
+                                            <td>0KRW</td>
+                                            <td>0KRW</td>
+                                            <td>0KRW</td>
+                                          </tr>
+
+                                          <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                          </tr>
+
+                                          <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                          </tr>
+
+                                          <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                          </tr>
+
+                                          <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                          </tr>
+
+                                          <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                          </tr>
+
+                                        </tbody>
+
+                                      </table>
+
+                                    </div><!--미체결 End-->
+
+                                    <script>
+                                    $(function () {
+
+                                        $(".tab_content2").hide();
+                                        $(".tab_content2:first").show();
+
+                                        $("ul.tabs2 li").click(function () {
+                                            $("ul.tabs2 li").removeClass("active2").css({"color": "#1b2f4a","border":"1px solid #1b2f4a","background":"#fff"});
+                                            //$(this).addClass("active").css({"color": "darkred","font-weight": "bolder"});
+                                            $(this).addClass("active2").css({"color": "#fff","border":"1px solid #1b2f4a","background":"#1b2f4a"});
+                                            $(".tab_content2").hide()
+                                            var activeTab = $(this).attr("rel");
+                                            $("#" + activeTab).show()
+                                        });
+                                    });
+                                    </script>
+
+
 
                                     <div class="contentBottom">
                                         <div class="paging">
@@ -197,22 +365,19 @@
                                             <a href="#" title="prev"><img src="img/p_prev.png"></a>
 
                                             <a href="#" title="1page" class="selected">1</a>
+                                            <a href="#" title="2page">2</a>
+                                            <a href="#" title="3page">3</a>
+                                            <a href="#" title="4page">4</a>
+                                            <a href="#" title="5page">5</a>
+                                            <a href="#" title="6page" class="m_hide">6</a>
+                                            <a href="#" title="7page" class="m_hide">7</a>
 
                                             <a href="#" title="next"><img src="img/p_next.png"></a>
                                             <a href="#" title="next"><img src="img/p_end.png"></a>
                                         </div>
                                     </div><!-- 페이징 -->
 
-                                  </div><!--체결 End-->
 
-                                  <!--미체결-->
-                                  <div class="michegyeol">
-
-                                  </div><!--미체결 End-->
-
-
-
-                              </div><!--tab2_header End-->
                             </div><!--#tab2 거래내역 End-->
 <!---------------------------------------------------------------------------------------------------------------------------------------------->
                             <!-- #tab3 입출금-->
@@ -224,7 +389,25 @@
 
                 </div>
                 </div><!--left_mywallet End-->
-              </div><!-- exchange_content End-->
+
+                <script>
+                $(function () {
+
+                    $(".tab_content").hide();
+                    $(".tab_content:first").show();
+
+
+                    $("ul.tabs li").click(function () {
+                        $("ul.tabs li").removeClass("active").css({"color": "#7e7e7f","border":"none","background":"#f4f5f8"});
+                        //$(this).addClass("active").css({"color": "darkred","font-weight": "bolder"});
+                        $(this).addClass("active").css({"color": "#1b2f4a","border-top":"2px solid #1b2f4a","background":"#fff"});
+                        $(".tab_content").hide()
+                        var activeTab = $(this).attr("rel");
+                        $("#" + activeTab).show()
+                    });
+                });
+                </script>
+
 
               <!--Right_mywallet-->
               <div id="right_mywallet">
@@ -323,6 +506,7 @@
                 </div><!-- con_410 End-->
 
               </div><!--Right_mywallet End-->
+              </div><!-- exchange_content End-->
 
 
 
