@@ -216,19 +216,25 @@ $(document).ready(function(){
 
 //플로팅배너 다른예제
 
+  // $(document).ready(function() {
+  // 	var floatPosition = parseInt($("#left_coin_menu").css('top'));
+  //
+  //
+  // 	$(window).scroll(function() {
+  //
+  // 		var scrollTop = $(window).scrollTop();
+  // 		var newPosition = scrollTop + floatPosition + "px";
+  //
+  // 		$("#left_coin_menu").stop().animate({
+  // 			"top" : newPosition
+  // 		}, 500);
+  //
+  // 	}).scroll();
+  //
+  // });
+
   $(document).ready(function() {
-  	var floatPosition = parseInt($("#left_coin_menu").css('top'));
 
+    $('#left_coin_menu').scrollTop($('#left_coin_menu').prop('scrollHeight'));
 
-  	$(window).scroll(function() {
-
-  		var scrollTop = $(window).scrollTop();
-  		var newPosition = scrollTop + floatPosition + "px";
-
-  		$("#left_coin_menu").stop().animate({
-  			"top" : newPosition
-  		}, 500);
-
-  	}).scroll();
-
-  });
+   } );

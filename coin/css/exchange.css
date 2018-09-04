@@ -3,6 +3,9 @@
 #left_coin_menu{
   float:left;
   width:350px;
+  /* position: fixed; */
+}
+#left_coin_menu.scroll_fixed {
   position: fixed;
 }
 
@@ -76,7 +79,7 @@
 /*coin_money*/
 
 .coin_money{
-
+  position: relative;
   width:350px;
   padding: 20px;
   margin: 75px 0 20px 0;
@@ -84,14 +87,7 @@
 }
 
 .coin_money_inner{
-
-  /* width: 320px; */
-  /* height: 100px; */
-  /* margin: 0 10px 0 10px; */
-  /* float: left; */
-  /* margin-top: 30px; */
   overflow: hidden;
-  position: relative;
   margin-bottom:10px;
 
 }
@@ -135,13 +131,15 @@
   color:#4c4c4c;
 }
 
-.coin_money_inner li:nth-child(3){
+.coin_money_inner .coin_prepare{
   font-size:15px;
   width:220px;
   color:#8b8b8b;
 
 }
-
+.coin_money_inner .coin_prepare b {
+  margin-right: 10px;
+}
 .coin_money_inner .coin_prepare .prepare{
   font-size:20px;
   font-weight:500;
@@ -156,14 +154,15 @@
 }
 
 .coin_money_inner .question{
-  position:absolute;
-  left:290px;
-  width:15px;
-  height:22px;
-  cursor:pointer;
-  font-size:23px;
-  font-weight:600;
-  color:#8b8b8b;
+  position: absolute;
+  left: 325px;
+  top: 10px;
+  width: 15px;
+  height: 22px;
+  cursor: pointer;
+  font-size: 23px;
+  font-weight: 600;
+  color: #1b2f4a;
 }
 
 
@@ -266,8 +265,8 @@
   width:300px;
   height:400px;
   position:absolute;
-  left:470px;
-  top:20px;
+  left:375px;
+  top:12px;
   display:none;
 }
 
@@ -354,8 +353,6 @@ float:left;
   color:#9b9b9b;
 }
 
-
-
 .coin_money_detail span{
   float:right;
   margin-top:5px;
@@ -374,7 +371,6 @@ float:left;
 }
 
 
-
 #detail_end{
   border:none;
 }
@@ -386,12 +382,6 @@ float:left;
     padding: 0;
     float:left;
 
-}
-
-#deal_orgin_transaction h3{
-    color:#2b2b2b;
-    border-bottom:3px solid #1b2f4a;
-    padding:15px 20px 10px 20px;
 }
 
 #deal_orgin_transaction table{
@@ -1057,12 +1047,6 @@ float:left;
     text-align: left;
     padding-left:28px;
 }
-#deal_all h3{
-    color:#2b2b2b;
-    border-bottom:3px solid #1b2f4a;
-    padding:10px 20px;
-}
-
 #deal_all table{
     font-size:13px;
 }
