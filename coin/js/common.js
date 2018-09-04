@@ -160,3 +160,75 @@ $(document).ready(function(){
     }
   });
 });
+
+/*fixed_menu 플로팅메뉴*/
+
+/*$(function(){
+
+  var floatbannerHeight = $("#left_coin_menu").outerHeight(true); //배너 길이
+  var firstPosition = $(".qqq").offset().top; //처음기준 (제일높은기준)
+  var lastPosition = $(".aaa").offset().top; //마지막 기준 (제일낮은기준)
+
+  var floatPosition = firstPosition ;
+
+    $(window).scroll(function() {
+      // 현재 스크롤 위치를 가져온다.
+      var windowHeight = $(window).height();
+      var scrollTop = $(window).scrollTop();
+      var positionTop = $("#left_coin_menu").position().top;
+      var newPosition = (scrollTop + positionTop) - floatbannerHeight + "px";
+
+      //console.log('플로팅배너 높이' + floatbannerHeight);
+      //console.log('처음기준' + firstPosition);
+      //console.log('마지막기준' + lastPosition);
+      //console.log('배너 처음 위치' + floatPosition);
+      //console.log('윈도우스크롤' + scrollTop);
+      //console.log('새로운위치' + newPosition);
+
+      if( floatPosition > scrollTop){ //처음 위치값 보다 윈도우 스크롤이 작을때
+        console.log('작을때');
+        $("#left_coin_menu").stop().animate({
+          "top" : '0',
+        }, 500);
+      }else if( floatPosition < scrollTop ){ //처음 위치값 보다 윈도우 스크롤이 클때
+        console.log('클때');
+        $("#left_coin_menu").stop().animate({
+          "top" : newPosition ,
+        }, 500);
+      }
+
+
+      if( ($(document).height() - $("#footer").height())  <= scrollTop + windowHeight  ){
+
+        console.log('마지막위치');
+
+        $("#left_coin_menu").stop().animate({
+          "top" : lastPosition - floatbannerHeight*1.3 + "px"
+        }, 500);
+
+      }
+
+
+    }).scroll();
+
+  });*/
+
+
+//플로팅배너 다른예제
+
+  $(document).ready(function() {
+  	var floatPosition = parseInt($("#left_coin_menu").css('top'));
+
+
+  	$(window).scroll(function() {
+
+  		var scrollTop = $(window).scrollTop();
+  		var newPosition = scrollTop + floatPosition + "px";
+
+  		$("#left_coin_menu").stop().animate({
+  			"top" : newPosition
+  		}, 500);
+
+  	}).scroll();
+
+  });
