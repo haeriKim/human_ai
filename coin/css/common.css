@@ -92,7 +92,8 @@
     width: 98%;
 }
 /*거래소 등 h3 스타일*/
-.exchange_h3{
+.exchange_h3,
+.mywallet_h3{
     border-bottom: 3px solid #1b2f4a;
     text-align: left;
     padding: 15px 20px 10px 20px;

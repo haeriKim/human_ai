@@ -1,0 +1,81 @@
+
+/*mywallet_havecoin*/
+
+#mywallet_havecoin{
+    overflow-y:auto;
+    padding: 0;
+    float:left;
+
+}
+
+#mywallet_havecoin h3{
+    color:#1b2f4a;
+    border-bottom:3px solid #1b2f4a;
+    padding:15px 20px 10px 20px;
+}
+
+#mywallet_havecoin table{
+    font-size:13px;
+}
+
+#mywallet_havecoin thead tr{
+    height: 35px;
+    color:#666;
+}
+#mywallet_havecoin .coin_name{
+    padding-left: 38px;
+    text-align: left;
+}
+#mywallet_havecoin tbody img{
+    float: left;
+    width: 26px;
+    height: 26px;
+    padding-top: 5px;
+    margin-left: 6px;
+}
+#mywallet_havecoin tbody tr{
+    height: 50px;
+}
+
+#mywallet_havecoin tbody tr:hover{
+    background: #c8eefb;
+    cursor: pointer;
+}
+
+#mywallet_havecoin tbody p,
+#mywallet_havecoin tbody span{
+    text-align: right;
+}
+#mywallet_havecoin .coin_kor p,
+#mywallet_havecoin .coin_kor span{
+    text-align: left;
+    margin-left: 38px;
+}
+
+#mywallet_havecoin .unit{
+    color: #666;
+    font-size: 14px;
+    display: block;
+}
+#mywallet_havecoin .style_bold{
+    font-weight: 600;
+    color: #2b2b2b;
+    font-size: 14px;
+}
+#mywallet_havecoin .unit_style{
+    font-size: 12px;
+    color: #666;
+    font-weight: 600;
+    margin: 0 6px;
+}
+#mywallet_havecoin .have_coin_amount p{
+    font-weight: 600;
+    margin-right: 7px;
+}
+
+#mywallet_havecoin .krw_change{
+    background:#1b2f4a;
+    border-radius: 5px;
+    color:#fff;
+    padding: 5px 2px;
+}
