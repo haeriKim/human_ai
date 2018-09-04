@@ -2,9 +2,10 @@
 /*mywallet_havecoin*/
 
 #mywallet_havecoin{
-    overflow-y:auto;
+    overflow-y:scroll;
     padding: 0;
     float:left;
+    position: relative;
 
 }
 
@@ -13,7 +14,16 @@
     border-bottom:3px solid #1b2f4a;
     padding:15px 20px 10px 20px;
 }
-
+#mywallet_havecoin form{
+    display: inline-block;
+    float: right;
+    position: absolute;
+    top: 14px;
+    right: 9px;
+}
+#mywallet_havecoin form label{
+    font-size: 14px;
+}
 #mywallet_havecoin table{
     font-size:13px;
 }
@@ -73,9 +83,58 @@
     margin-right: 7px;
 }
 
-#mywallet_havecoin .krw_change{
+#mywallet_havecoin .button_hover{
+    margin-right:3px;
+    border:1px solid #1b2f4a;
+    border-radius: 5px;
+    color:#1b2f4a;
+    padding: 5px 2px;
+}
+
+#mywallet_havecoin .button_hover:hover{
     background:#1b2f4a;
     border-radius: 5px;
     color:#fff;
     padding: 5px 2px;
+}
+
+/*체크박스*/
+#mywallet_havecoin input[type='checkbox']{    /*진짜 체크박스 지우기*/
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip:rect(0,0,0,0);
+    border: 0;
+}
+#mywallet_havecoin input[type='checkbox'] + label{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+#mywallet_havecoin input[type='checkbox'] + label:before{ /*가짜체크박스*/
+    content: ' ';
+    display: inline-block;
+    width: 15px; /* 체크박스의 너비를 지정 */
+    height: 15px; /* 체크박스의 높이를 지정 */
+    line-height: 21px; /* 세로정렬을 위해 높이값과 일치 */
+    margin: -2px 8px 0 0;
+    text-align: center;
+    vertical-align: middle;
+    background: #fff;
+    border: 1px solid #cacece;
+}
+#mywallet_havecoin input[type='checkbox']:checked + label:before{ /* 체크박스를 체크했을때 */
+    content: "\2713";  /* 체크모양 */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    font-size: 14px;
+    font-weight:800;
+    color: #1b2f4a;
+    text-align: center;
+    line-height: 15px;
 }
