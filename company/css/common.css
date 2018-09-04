@@ -5,7 +5,9 @@
   height: 100%;
   position: relative;
   overflow-y: hidden;
+  overflow-x: hidden;
   margin: 0 auto;
+
 }
 #container {
     height: 100%;
