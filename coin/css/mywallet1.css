@@ -3,60 +3,81 @@
 .fr{float:right}
 .fl{float:left}
 .cb{clear: both;}
+.cf:after{content: ''; clear:both; display:block; visibility:hidden; height:0;}
 .color_bk{color:black;}
+
 #right_coin_menu{
   float:left;
   width:350px;
-  /* position: fixed; */
 }
 
 
 
 /*my wallet*/
-.mywallet_myinfo{
-    box-sizing:border-box;
-    width:840px;
-    padding:95px 20px;
-    border-radius: 5px;
-    border:1px solid #1b2f4a;
-    background-color: #efefef;
-}
-/* #deal_orgin_transaction thead tr th.coin_kor,
-#deal_orgin_transaction thead tr th.coin_eng{
-    text-align: left;
-    padding-left:20px;
-    padding-right:0;
-    background: url(../img/side_arrow.png) no-repeat 70px 13px;
-} */
-.mycoin_tab_content .mycoin_notice{
-  margin-bottom: 10px;
-  float:right;
-}
-
 .mycoin_tab_content .mywallet_myinfo{
+  box-sizing:border-box;
+  width:800px;
+  padding:20px 20px;
+  border-radius: 5px;
+  border:1px solid #1b2f4a;
+  background-color: #efefef;
+  margin:0 auto;
   margin-bottom: 20px;
 }
+.mywallet_myinfo>div {
+  width:240px;
+  margin-left: 0px;
+}
+.mywallet_myinfo .white-box{
+  box-sizing:border-box;
+  width:240px;
+  background-color: white;
+  padding:10px;
+  margin-bottom:2px;
+}
+.mycoin_tab_content .mycoin_notice{
+  margin-bottom: 10px;
+  margin-right: 30px;
+  float:right;
+}
+.mycoin_tab_content p img{
+  vertical-align: -2px;
+}
 
+table{
+  width: 800px;
+  margin: 0 auto;
+}
+table .mycoin_thead_deco{
+  background-color: #e8eaed;
 
-.mycoin_thead_deco th a{
+}
+table .mycoin_thead_deco tr{
+  border-bottom: 3px solid #1b2f4a;
+}
+table .mycoin_thead_deco th{
+  padding:10px 8px;
+}
+table .mycoin_thead_deco th a{
   float:right;
   font-weight: lighter;}
-.mycoin_thead_deco th.mycoin_kor a{
-  margin-left:20px;
+
+table .mycoin_thead_deco th.mycoin_kor a{
+  margin-left:10px;
 }
-.mycoin_tbody_deco tr{
-  border-bottom: 1px solid #666;
+table .mycoin_tbody_deco tr{
+  border-bottom: 1px solid #efefef;
 }
-.mycoin_tbody_deco>tr>td>img{
+table .mycoin_tbody_deco>tr>td>img{
   float:left;
-  margin: 5px;
+  margin: 2px;
   margin-right:10px;
 }
-.mycoin_tbody_title{
+table .mycoin_tbody_title{
   font-weight: bold; color:black;
 }
 .mycoin_name{
-  padding: 10px 10px;
+  padding: 3px 10px;
 }
 
 .ready_data{
@@ -173,7 +194,7 @@
 }
 
 #mywallet_tab .mywallet_tab_title{
-    width: 880px;
+    width: 900px;
     overflow: hidden;
 
 }
