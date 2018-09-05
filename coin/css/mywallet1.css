@@ -17,23 +17,12 @@
 .mycoin_tab_content .mywallet_myinfo{
   box-sizing:border-box;
   width:800px;
-  padding:20px 20px;
+  padding:10px;
   border-radius: 5px;
   border:1px solid #1b2f4a;
   background-color: #efefef;
   margin:0 auto;
   margin-bottom: 20px;
-}
-.mywallet_myinfo>div {
-  width:240px;
-  margin-left: 0px;
-}
-.mywallet_myinfo .white-box{
-  box-sizing:border-box;
-  width:240px;
-  background-color: white;
-  padding:10px;
-  margin-bottom:2px;
 }
 .mycoin_tab_content .mycoin_notice{
   margin-bottom: 10px;
@@ -41,8 +30,60 @@
   float:right;
 }
 .mycoin_tab_content p img{
-  vertical-align: -2px;
+  vertical-align: -4px;
 }
+
+.mycoin_tab_content .font_style_gray{
+    color:#666;
+    font-weight: 600;
+}
+.mycoin_tab_content .mywallet_box1{
+    color: #2b2b2b;
+    padding: 15px 0 0 10px;
+    width: 220px;
+}
+.mycoin_tab_content .mywallet_box1 strong{
+    font-size:22px;
+}
+
+.mycoin_tab_content .mywallet_box2{
+    overflow: hidden;
+    padding-left: 17px;
+}
+.mycoin_tab_content .mywallet_box2 ul{
+    float: left;
+    width: 259px;
+    background: #fff;
+}
+.mycoin_tab_content .mywallet_box2 ul.list_1{
+    margin-right:9px;
+}
+.mycoin_tab_content .mywallet_box2 ul li{
+    padding: 5px 5px 10px 5px;
+    border-bottom: 1px solid #efefef;
+    width: 90%;
+    margin: 0 auto;
+}
+.mycoin_tab_content .mywallet_box2 ul li.border_bottom_none{
+    border-bottom:none;
+}
+.mycoin_tab_content .mywallet_box2 ul li span{
+    font-size:15px;
+    padding-left:4px;
+}
+.mycoin_tab_content .mywallet_box2 ul li .mywallet_amount{
+    text-align: right;
+    color: #2b2b2b;
+    font-size: 22px;
+    font-weight: 600;
+    padding-right: 3px;
+}
+/*my wallet End*/
+
+
+
+
+
 
 table{
   width: 800px;
