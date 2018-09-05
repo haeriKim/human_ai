@@ -25,7 +25,6 @@
 }
 #mywallet_havecoin table{
     font-size:13px;
-    overflow-y: scroll;
 }
 
 #mywallet_havecoin thead tr{
@@ -152,5 +151,8 @@
 #mywallet_havecoin .mywallet_havecoin_thead{
     position: absolute;
     width: 393px;
+}
+#mywallet_havecoin .deal_table_scroll{
+    overflow-y:scroll;
 }
 /*mywallet_havecoin 끝*/
