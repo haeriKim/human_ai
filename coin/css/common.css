@@ -109,3 +109,43 @@
 .thead_deco a{
     color:#333;
 }
+/*체크박스*/
+input[type='checkbox']{    /*진짜 체크박스 지우기*/
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip:rect(0,0,0,0);
+    border: 0;
+}
+input[type='checkbox'] + label{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+input[type='checkbox'] + label:before{ /*가짜체크박스*/
+    content: ' ';
+    display: inline-block;
+    width: 16px; /* 체크박스의 너비를 지정 */
+    height: 16px; /* 체크박스의 높이를 지정 */
+    line-height: 21px; /* 세로정렬을 위해 높이값과 일치 */
+    margin: -2px 8px 0 0;
+    text-align: center;
+    vertical-align: middle;
+    background: #fff;
+    border: 1px solid #cacece;
+}
+input[type='checkbox']:checked + label:before{ /* 체크박스를 체크했을때 */
+    content: "\2713";  /* 체크모양 */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    font-size: 14px;
+    font-weight:800;
+    color: #1b2f4a;
+    text-align: center;
+    line-height: 15px;
+}
