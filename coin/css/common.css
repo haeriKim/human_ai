@@ -149,3 +149,26 @@ input[type='checkbox']:checked + label:before{ /* 체크박스를 체크했을�
     text-align: center;
     line-height: 15px;
 }
+
+/* 페이징(공지사항, 체결/미체결) */
+.contentBottom{
+  float:left;
+  width:900px;
+  padding:20px 0;
+  text-align:center;
+  display:block;
+}
+.contentBottom .paging a {
+    display:inline-block;
+    width:20px;
+    height:20px;
+    text-align:center;
+    font-size:14px;
+    font-weight:400;
+    margin-top:5px;
+    text-align: center;
+}
+.contentBottom .paging a img {
+  width: 7px;
+  vertical-align: middle;
+}

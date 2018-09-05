@@ -125,23 +125,25 @@
                                   <li class="michegyeol_bt" rel="michegyeol">미체결</li>
                                 </ul>
                                         <div class="days">
-                                          <p>기간</p>
-
-                                          <div><input type="date" value="2018-07-29"></div>
+                                          <div>
+                                            <input type="date" value="2018-07-29">
+                                          </div>
                                           <span>~</span>
-                                          <div><input type="date" value="2018-08-29"></div>
+                                          <div>
+                                            <input type="date" value="2018-08-29">
+                                          </div>
 
                                           <input type="submit" name="search" value="조회" class='search_btn'>
                                         </div>
                               </div><!--tab2_header End-->
 
                                   <!--체결-->
-                                  <div id="chegyeol" class="chegyeol tab_content2">
+                                  <div id="chegyeol" class="chegyeol conclu_table">
                                     <table class="chegyeol_table" summary="주무시간,코인,거래종류,거래수량,거래단가,거래금액,수수료,정산금액">
                                       <colgroup>
                                           <col width='12%'/>
-                                          <col width='10%'/>
                                           <col width='12%'/>
+                                          <col width='10%'/>
                                           <col width='13%'/>
                                           <col width='15%'/>
                                           <col width='12%'/>
@@ -150,37 +152,46 @@
                                       </colgroup>
                                       <thead class='chegyeol_header'>
                                           <tr>
-                                              <th><a href="#">주문시간</a></th>
-                                              <th><a href="#">코인</a></th>
-                                              <th><a href="#">거래종류</a></th>
-                                              <th><a href="#">거래수량</a></th>
-                                              <th><a href="#">거래단가</a></th>
-                                              <th><a href="#">거래금액</a></th>
-                                              <th><a href="#">수수료</a></th>
-                                              <th><a href="#">정산금액</a></th>
+                                              <th>거래시간</th>
+                                              <th>코인</th>
+                                              <th>
+                                                <select title="거래전체" >
+                                                    <option value="거래전체" selected="selected" disabled >거래전체</option>
+                                                    <option value="매수">매수</option>
+                                                    <option value="매도">매도</option>
+                                                </select>
+                                              </th>
+                                              <th>거래수량</th>
+                                              <th>거래단가</th>
+                                              <th>거래금액</th>
+                                              <th>수수료</th>
+                                              <th>정산금액</th>
                                           </tr>
                                       </thead>
                                       <tbody>
                                         <tr>
-                                          <td>2018-08-31</td>
+                                          <td>2018-09-05<br/>
+                                            11 : 23 : 45
+                                          </br/></td>
                                           <td>비트코인</td>
-                                          <td>원화거래</td>
+                                          <td class="buying">매수</td>
                                           <td>0</td>
-                                          <td>0KRW</td>
-                                          <td>0KRW</td>
-                                          <td>0KRW</td>
-                                          <td>0KRW</td>
+                                          <td><span>0</span>KRW</td>
+                                          <td><span>0</span>KRW</td>
+                                          <td><span>0</span>KRW</td>
+                                          <td><span>0</span>KRW</td>
                                         </tr>
 
                                         <tr>
-                                          <td></td>
-                                          <td></td>
-                                          <td></td>
-                                          <td></td>
-                                          <td></td>
-                                          <td></td>
-                                          <td></td>
-                                          <td></td>
+                                          <td>2018-08-31<br/>
+                                            08 : 47 : 26</td>
+                                          <td>이더리움</td>
+                                          <td class="sell">매도</td>
+                                          <td>0</td>
+                                          <td><span>0</span>KRW</td>
+                                          <td><span>0</span>KRW</td>
+                                          <td><span>0</span>KRW</td>
+                                          <td><span>0</span>KRW</td>
                                         </tr>
 
                                         <tr>
@@ -278,38 +289,95 @@
 
 
                                     <!--미체결-->
-                                    <div id="michegyeol" class="michegyeol tab_content2">
+                                    <div id="michegyeol" class="michegyeol conclu_table">
                                       <table class="chegyeol_table" summary="주무시간,코인,거래종류,거래수량,거래단가,거래금액,수수료,정산금액">
                                         <colgroup>
-                                            <col width='15%'/>
+                                            <col width='11%'/>
                                             <col width='12%'/>
-                                            <col width='13%'/>
-                                            <col width='15%'/>
-                                            <col width='16%'/>
+                                            <col width='10%'/>
                                             <col width='15%'/>
                                             <col width='14%'/>
+                                            <col width='14%'/>
+                                            <col width='14%'/>
+                                            <col width='9%'/>
                                         </colgroup>
                                         <thead class='chegyeol_header'>
                                             <tr>
-                                                <th><a href="#">시간</a></th>
-                                                <th><a href="#">마켓명</a></th>
-                                                <th><a href="#">거래종류</a></th>
-                                                <th><a href="#">주문가격</a></th>
-                                                <th><a href="#">주문수량</a></th>
-                                                <th><a href="#">체결수량</a></th>
-                                                <th><a href="#">미체결수량</a></th>
+                                                <th>거래시간</th>
+                                                <th>마켓명</th>
+                                                <th>
+                                                  <select title="거래전체" >
+                                                      <option value="거래전체" selected="selected" disabled >거래전체</option>
+                                                      <option value="매수">매수</option>
+                                                      <option value="매도">매도</option>
+                                                  </select>
+                                                </th>
+                                                <th>주문가격</th>
+                                                <th>주문수량</th>
+                                                <th>체결수량</th>
+                                                <th>미체결수량</th>
+                                                <th>
+                                                </th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                           <tr>
-                                            <td>2018-08-31</td>
+                                            <td>2018-08-31<br/>
+                                              09 : 34 : 30</td>
                                             <td>비트코인</td>
-                                            <td>원화거래</td>
+                                            <td class="buying">매수</td>
                                             <td>0</td>
-                                            <td>0KRW</td>
-                                            <td>0KRW</td>
-                                            <td>0KRW</td>
-                                            <td>0KRW</td>
+                                            <td><span>0</span>KRW</td>
+                                            <td><span>0</span>KRW</td>
+                                            <td><span>0</span>KRW</td>
+                                            <td>
+                                              <input type="submit" value="취소" />
+                                            </td>
+                                          </tr>
+
+                                          <tr>
+                                            <td>2018-08-15<br/>
+                                              18 : 38 : 24</td>
+                                            <td>원화</td>
+                                            <td class="sell">매도</td>
+                                            <td>0</td>
+                                            <td><span>0</span>KRW</td>
+                                            <td><span>0</span>KRW</td>
+                                            <td><span>0</span>KRW</td>
+                                            <td><input type="submit" value="취소" /></td>
+                                          </tr>
+
+                                          <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                          </tr>
+
+                                          <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                          </tr>
+
+                                          <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
                                           </tr>
 
                                           <tr>

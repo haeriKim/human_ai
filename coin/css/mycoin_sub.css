@@ -30,19 +30,21 @@
   border-top: 3px solid #1b2f4a;
   background-color:#fff;
 }
+/* 공통 */
+.tab_content {
+  padding: 30px 50px;
+  overflow: hidden;
+}
 
 /*tab1*/
 
 
 
 /*tab2*/
-
-.tab2_header{
-  float:left;
-  width:800px;
-  margin:20px 50px;
+.tab2_header {
+  overflow: hidden;
+  margin-bottom: 30px;
 }
-
 .tab2_header ul{
   float:left;
 }
@@ -50,7 +52,6 @@
 .tab2_header ul li{
   float:left;
   width:150px;
-  margin-right:20px;
   border-radius:5px;
   font-size:15px;
   text-align:center;
@@ -58,114 +59,99 @@
   font-weight:600;
   cursor:pointer;
 }
-
+.tab2_header ul li + li {
+  margin-left: 20px;
+}
 .tab2_header ul li.chegyeol_bt{
-
   border:1px solid #1b2f4a;
   background-color:#1b2f4a;
   color:#fff;
 }
 
 .tab2_header ul li.michegyeol_bt{
-
   border:1px solid #1b2f4a;
   color:#1b2f4a;
 
 }
 
-.days{
+.tab2_header .days{
   float:right;
-  margin-left:10px;
-  padding:10px 0;
-  font-size:12px;
+  font-size:15px;
+  padding: 5px 0;
 }
 
-.days input{
-  font-size:12px;
+.tab2_header .days input{
+  font-size:14px;
+  height: 30px;
+  text-indent: 3px;
 }
 
-.days p{
-  float:left;
-  margin-right:10px;
-  line-height:1.5em;
-
-}
-.days span{
+.tab2_header .days span{
   float:left;
   margin:0 5px;
-  line-height:1.5em;
+  line-height:32px;
+  font-weight: 600;
+  color: #1b2f4a;
 }
-.days div{
+.tab2_header .days div{
   float:left;
 }
 
-.search_btn{
+.tab2_header .days .search_btn{
   width:50px;
-  height:20px;
+  height:35px;
   margin-left:10px;
   background-color:#1b2f4a;
   color:#fff;
   font-weight:600;
   border:none;
+  border-radius: 5px;
   cursor:pointer;
-
-
 }
 
 /*chegyeol & michegyeol*/
 
-.chegyeol{
+.conclu_table{
   float:left;
   width:800px;
   font-size:12px;
-  padding:20px 50px;
 }
 
-.chegyeol thead{
-  background-color:#f4f5f8;
-
-
-}
-
-
-.chegyeol thead th{
+.conclu_table thead th{
   padding:10px 0;
   border-bottom:2px solid #1b2f4a;
-
+  background-color:#f4f5f8;
+  font-size: 14px;
+  color: #1b2f4a;
 }
-
-.chegyeol tbody tr td{
-  width:800px;
+.conclu_table thead th select {
+  height: 30px;
+    border-radius: 5px;
+    border: 1px solid #1b2f4a;
+    color: #1b2f4a;
+    font-weight: 600;
+    font-size: 14px;
+}
+.conclu_table tbody tr td{
   height:40px;
   border-bottom:1px solid #f4f5f8;
+}
+.conclu_table tbody tr td.buying {
+  color: #ff2323;
+}
+.conclu_table tbody tr td.sell {
+  color: #002dae;
+}
+.conclu_table tbody tr td input[type="submit"] {
+  border: none;
+  width: 40px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: #1b2f4a;
+  color: #fff;
+  cursor: pointer;
 
 }
-
-.contentBottom{
-  float:left;
-  width:900px;
-  padding:20px 0;
-  text-align:center;
-  display:block;
-
-}
-
-.contentBottom .paging a {
-    display:inline-block;
-    width:20px;
-    height:20px;
-    text-align:center;
-    font-size:14px;
-    font-weight:400;
-    margin-top:5px;
-    text-align: center;
-}
-
-.contentBottom .paging a img {
-  width: 7px;
-  vertical-align: middle;
-}
-
 
 /*tab3*/
 
