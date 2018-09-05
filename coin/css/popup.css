@@ -70,3 +70,81 @@
     height: 100%;
     z-index: 999;
 }
+
+/*내 자산관리 물음표 클릭시*/
+
+#question_mark_active{
+    width: 900px;
+    background: #fff;
+    z-index: 9999;
+    padding: 20px;
+    position: fixed;
+    left: 43%;
+    top: 11%;
+    margin-left: -265px;
+    display: none;
+}
+.question_mark_active_inner{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#question_mark_active h2{
+    color:#071f45;
+    text-align: center;
+    padding-top:20px;
+    padding-bottom:15px;
+    border-bottom: 2px solid #071f45;
+    margin: 0 auto;
+}
+
+#question_mark_active p{
+    color: #222;
+    font-size: 15px;
+    margin: 15px 0;
+    line-height: 23px;
+    padding-bottom: 20px;
+}
+
+#question_mark_active ul{
+    background-color:#e7e7e7;
+    padding:10px;
+    border-radius: 5px;
+}
+
+#question_mark_active ul li{
+    margin:10px 0;
+    line-height: 1.4;
+    color:#222;
+    background: url('../img/check.png') no-repeat 0 3px / 20px ;
+    padding-left:25px;
+    font-weight:600;
+}
+
+#question_mark_active form{
+    display: inline-block;
+    float: left;
+    margin-top: 3px;
+}
+#question_mark_active .close_btn{
+    background: #1b2f4a;
+    text-align: center;
+    padding: 5px 20px;
+    width: 70px;
+    color: #fff;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+#qustion_mark_active_full #shadow{
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: #000;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    display: none;
+
+}

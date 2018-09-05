@@ -102,7 +102,7 @@ $(".coinSelect dt").click(function(){
 });
 })
 
-//팝업
+//메인 팝업
 $(document).ready(function(){
     function closePopup(){
         $('#full_content').hide();
@@ -126,6 +126,33 @@ $(document).ready(function(){
     })
 })
 
+//자산관리 물음표 클릭시 팝업
+$(document).ready(function(){
+    function close_question_popup(){
+        $('#question_mark_active').hide();
+        $('#shadow').hide();
+    }
+    function question_mark_click(){
+        $('#shadow').css({
+            'width':'100%',
+            'height':'100%',
+            'position':'fixed'
+        })
+        $('#shadow').show();
+        $('#question_mark_active').css({
+            'position':'fixed'
+        });
+        $('#question_mark_active').show();
+    }
+    $('.question_mark').on('click',function(e){
+        e.preventDefault();
+        question_mark_click();
+    })
+    $('.close_btn').on('click',function(e){
+        e.preventDefault();
+        close_question_popup();
+    })
+})
 //거래소-매수매도탭
 $(document).ready(function(){
   $(".sell_tab_content").hide();
