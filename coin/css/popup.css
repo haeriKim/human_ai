@@ -53,10 +53,12 @@
 }
 #full_content .close_btn{
     float: right;
-    background:#e7e7e7;
+    background: #1b2f4a;
     text-align: center;
-    padding:5px 0;
+    padding: 5px 0;
     width: 70px;
+    color: #fff;
+    border-radius: 5px;
 }
 #shadow{
     position: absolute;
