@@ -42,16 +42,16 @@
     color: #fff;
     border-radius: 5px;
     background-color: #1b2f4a;
-    padding: 2px 5px;
+    padding: 5px 10px;
     font-size: 14px;
-    margin-top: 60px ;
+    margin-top: 50px ;
 }
 .notice_detail .notice_detail_inner .notice_detail_footer .notice_preview{
     margin-top:90px;
 }
 .notice_detail .notice_detail_inner .notice_detail_footer .notice_preview li{
-    border-top:1px solid #939393;
-    border-bottom:1px solid #939393;
+    border-top:1px solid #1b2f4a;
+    border-bottom:1px solid #1b2f4a;
 }
 .notice_detail .notice_detail_inner .notice_detail_footer .notice_preview li p{
     display: inline-block;
@@ -75,4 +75,4 @@
     margin-left: 31px;
     text-align: left;
 }
-/*공지사항 세부내용 End*/ 
+/*공지사항 세부내용 End*/
