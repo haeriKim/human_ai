@@ -10,7 +10,6 @@
 
 .mycoin_fence{
   width:900px;
-  height:700px;
   float:left;
 }
 
@@ -134,10 +133,54 @@
     padding-left: 4px;
     color: #666;
 }
+#input_KRW div.account_table_wrap{
+    overflow: hidden;
+}
+#input_KRW div.account_table_wrap > div{
+    width: 48%;
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+#input_KRW div.account_table_wrap > div > p{
+    color: #1b2f4a;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+#input_KRW div.account_table_wrap > div table{
+    text-align: left;
+}
+#input_KRW div.account_table_wrap > div table tbody {
 
+}
+#input_KRW div.account_table_wrap > div table tbody tr{
+    border: 1px solid #efefef;
+    border-left: none;
+}
+#input_KRW div.account_table_wrap > div table tbody th{
+    background-color: #f4f5f9;
+    border-left: 2px solid #1b2f4a;
+    padding: 5px 20px 5px 6px;
+    color: #2b2b2b;
+    font-size: 14px;
+    font-weight: 600;
+}
+#input_KRW div.account_table_wrap > div table tbody td{
+    font-size: 13px;
+    padding-left: 30px;
+}
+#input_KRW div.send_info_01{
 
+}
+#input_KRW div.send_info_01 p{
 
+}
+#input_KRW div.send_info_01 span.temporary_name{
 
+}
+#input_KRW div.send_info_01 span.caution{
+
+}
   /*보유코인 콘텐츠 시작*/
 
   #mywallet_havecoin{
