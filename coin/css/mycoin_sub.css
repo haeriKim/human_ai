@@ -85,13 +85,7 @@
   height: 30px;
   text-indent: 3px;
 }
-::-webkit-inner-spin-button {
-    height: 30px;
-}
-::-webkit-calendar-picker-indicator {
-    background: url(../img/cal.png) no-repeat 100% / 100%;
-    color:rgba(0,0,0,0);
-}
+
 .tab2_header .days span{
   float:left;
   margin:0 5px;
@@ -115,10 +109,10 @@
   cursor:pointer;
 }
 
-
 /*chegyeol & michegyeol*/
 
 .conclu_table{
+  float:left;
   width:800px;
   font-size:12px;
 }
@@ -137,11 +131,12 @@
     color: #1b2f4a;
     font-weight: 600;
     font-size: 14px;
+    background-color:#f4f5f8; 
 }
 .conclu_table tbody tr td{
   height:40px;
   border-bottom:1px solid #f4f5f8;
-  font-size:14px
+  font-size: 14px;ss
 }
 .conclu_table tbody tr td.buying {
   color: #ff2323;
