@@ -325,7 +325,7 @@
 
                                                 <div class="send_info_02">
                                                     <label for="send_money">입금금액</label>
-                                                    <input type="text" name="send_money" id='send_money' placeholder="0">
+                                                    <input type="text" name="send_money" id='send_money' placeholder="0" required>
                                                         <span class='unit_KRW_fixed'>KRW</span>
                                                     </input>
                                                     <span class='caution'>최소 입금 금액 : 5,000원</span>
@@ -349,14 +349,14 @@
                                                         <input type="checkbox" id='number_05' class="agree_check">
                                                         <label for='number_05'>원화 입금 후 첫 출금은 주말 제외 72시간 이후 가능함을 알고 있습니다.</label>
 
-                                                        <input type="checkbox" id='number_06'>
-                                                        <label for='number_06' class='all_agree' id="allAgree">위의 입금시 주의사항에 모두 동의합니다.</label>
+                                                        <input type="checkbox" id='number_06' class="allAgree">
+                                                        <label for='number_06' class='all_agree'>위의 입금시 주의사항에 모두 동의합니다.</label>
                                                     </div>
 
                                                     <div class="cancel_or_apply">
                                                         <input type="reset" name="reset" value="취소" class='cancel_btn'/>
-                                                        <span class='if_you_not_all_agree'>입금신청</span>
-                                                        <input type="submit" name="submit" value="입금신청" class='if_you_all_agree'/>
+                                                        <span class='agree_btn if_you_not_all_agree'>입금신청</span>
+                                                        <input type="submit" name="submit" value="입금신청" class='agree_btn if_you_all_agree'/>
                                                     </div>
 
                                                 </div><!-- before_send_money_wrap End-->
