@@ -1,0 +1,135 @@
+/* 인증레벨 */
+.certification_area .cer_center {
+  padding: 40px 45px;
+}
+.cer_center .cer_level {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.cer_center .cer_level li {
+  float: left;
+  width: 165px;
+  text-align: center;
+  padding: 25px 0;
+  position: relative;
+}
+.cer_center .cer_level li + li {
+  margin-left: 20px;
+}
+.cer_center .cer_level li .img_area{
+  background-color: #F4F5F9;
+  width: 130px;
+  height: 130px;
+  text-align: center;
+  box-shadow: 0px 6px 7px #657385;
+  margin: 0 auto;
+  line-height: 180px;
+  margin-bottom: 10px;
+}
+.cer_center .cer_level li > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.cer_center .cer_level li strong {
+  color:#1B2F4A;
+  display: block;
+  font-size: 16px;
+  margin: 7px 0;
+  font-weight: 600;
+}
+.cer_center .cer_level li span {
+  font-size: 12px;
+  color: #666;
+  font-weight: 600;
+}
+
+.cer_center .center_bottom {
+  overflow: hidden;
+}
+.cer_center .center_bottom .cText_left {
+  float: left;
+  border-right: 1px solid #1B2F4A;
+  width: 51%;
+  margin-right: 3%;
+}
+.cer_center .center_bottom .cText_left .current_level {
+  margin-bottom: 100px;
+}
+.cer_center .center_bottom .cText_left .current_level b {
+  color: #1B2F4A;
+  font-size: 20px;
+}
+.cer_center .center_bottom .cText_left .current_level b .user_level {
+  color: #c95b74;
+}
+.cer_center .center_bottom .cText_left strong {
+  color: #1B2F4A;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.cer_center .center_bottom .cText_left p {
+  font-size: 13px;
+  color: #666;
+  font-weight: 600;
+  line-height: 28px;
+}
+.cer_center .center_bottom .cText_left p.important {
+  color: #c95b74;
+}
+.cer_center .center_bottom .cText_right {
+  float: left;
+  width: 45%;
+  padding: 10px 0;
+}
+.cer_center .center_bottom .cText_right li + li {
+  margin-top: 30px;
+}
+.cer_center .center_bottom .cText_right li img {
+  width: 40px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.cer_center .center_bottom .cText_right li p {
+  display: inline-block;
+  color: #1B2F4A;
+  font-weight: 600;
+}
+.cer_center .center_bottom .cText_right li p span {
+  color: #c95b74;
+  font-size: 12px;
+  margin-left: 5px;
+}
+.cer_center .center_bottom .cText_right li p span.recommend {
+  color: #2a6972;
+}
+.cer_center .center_bottom .cText_right li .c_btn {
+  display: inline-block;
+  width: 100px;
+  padding: 7px 0;
+  box-sizing: border-box;
+  color: #fff;
+  background-color: #1B2F4A;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  float: right;
+  vertical-align: middle;
+}
+.cer_center .center_bottom .cText_right li a.ing {
+  cursor: pointer;
+}
+.cer_center .center_bottom .cText_right li span.c_complete {
+  background-color: #666;
+}
+/* 비활성화 */
+.cer_center .cer_level li img.account_on,
+.cer_center .cer_level li img.otp_on,
+.cer_center .cer_level li img.lv4_on,
+.cer_center .cer_level li img.lv5_on,
+.cer_center .center_bottom .cText_right li .complete,
+.cer_center .center_bottom .cText_right li .disable {
+  display: none;
+}
