@@ -124,9 +124,9 @@ table .mycoin_tbody_title{
 .mycoin_thead_deco .first_chart_icon{
    background: url(../img/side_arrow.png) no-repeat center right;
 }
-/* .mycoin_thead_deco .second_chart_icon{
+.mycoin_thead_deco .second_chart_icon{
    background: url(../img/up_down_default.png) no-repeat center right;
-} */
+}
 .mycoin_thead_deco .third_chart_icon{
    background: url(../img/up_down_default.png) no-repeat center right;
 }
