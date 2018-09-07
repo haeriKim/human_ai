@@ -195,3 +195,53 @@ input[type='checkbox']:checked + label:before{ /* 체크박스를 체크했을�
   background: #ADADAD;
   -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.5);
 }
+
+<<<<<<< HEAD
+/*말풍선*/
+
+#malpungsun{
+  color:#fff;
+  background-color:#eaaf69;
+  font-size:15px;
+  font-weight: bold;
+  position: absolute;
+  display:none;
+  top:720px;
+  left:750px;
+  width: 300px;
+  text-align: center;
+  padding:10px 0;
+  line-height: 1.5;
+  border-radius: 5px;
+}
+#malpungsun::after{
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 83%;
+  margin-left: -5px;
+  border-width: 7px;
+  border-style: solid;
+  border-color:  transparent transparent #eaaf69 transparent;
+=======
+/*내 자산관리 표 디자인*/
+table.left_thick_table{
+    text-align: left;
+}
+table.left_thick_table tbody tr{
+    border: 1px solid #efefef;
+    border-left: none;
+}
+table.left_thick_table tbody th{
+    background-color: #f4f5f9;
+    border-left: 2px solid #1b2f4a;
+    padding: 5px 20px 5px 6px;
+    color: #2b2b2b;
+    font-size: 14px;
+    font-weight: 600;
+}
+table.left_thick_table tbody td{
+    font-size: 13px;
+    padding-left: 30px;
+>>>>>>> 94ac8dcc4f8fc01dcd3107310356ef69455a5613
+}

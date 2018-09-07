@@ -257,6 +257,7 @@
 }
 #input_KRW div.before_send_money_wrap{
     margin-left: 12px;
+    margin-top: 50px;
 }
 #input_KRW div.before_send_money_wrap p{
     color: #1b2f4a;
@@ -285,33 +286,29 @@
     background: #fff;
     border: 1px solid #1b2f4a;
     border-radius: 5px;
-    padding: 5px 20px;
+    padding: 7px 30px;
     color: #1b2f4a;
     font-weight: 600;
     margin-left: 20px;
-    font-size: 14px;
+    font-size: 16px;
     cursor: pointer;
+}
+#input_KRW div.before_send_money_wrap .agree_btn {
+  border-radius: 5px;
+  padding: 7px 30px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  box-sizing: border-box;
 }
 #input_KRW div.before_send_money_wrap .if_you_not_all_agree{
-    background: #666;
     border: 1px solid #666;
-    border-radius: 5px;
-    padding: 5px 20px;
-    color: #fff;
-    font-weight: 600;
-    font-size: 14px;
-    cursor: auto;
+    background-color: #666;
 }
 #input_KRW div.before_send_money_wrap .if_you_all_agree{
-    background: #1b2f4a;
-    border: 1px solid #1b2f4a;
-    border-radius: 5px;
-    padding: 5px 20px;
-    color: #fff;
-    font-weight: 600;
-    font-size: 14px;
-    cursor: pointer;
-    display: none;
+  border: 1px solid #1b2f4a;
+  background-color: #1b2f4a;
+  cursor: pointer;
 }
 
   /*보유코인 콘텐츠 시작*/
