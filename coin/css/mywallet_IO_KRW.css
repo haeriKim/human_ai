@@ -89,6 +89,9 @@
 }
 
 /*원화입금*/
+#input_KRW{
+    width: 800px;
+}
 #input_KRW .recharge_coin{
     font-size: 15px;
     font-weight: 600;
@@ -173,10 +176,17 @@
 
 }
 #input_KRW div.send_info_01 p{
-
+    font-size: 16px;
+    color: #666;
+    font-weight: 600;
 }
 #input_KRW div.send_info_01 span.temporary_name{
-
+    border-radius: 5px;
+    background: #f4f5f9;
+    color: #1b2f4a;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 89px;
 }
 #input_KRW div.send_info_01 span.caution{
 
