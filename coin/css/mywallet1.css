@@ -14,13 +14,12 @@
 /*my wallet*/
 .mycoin_tab_content .mywallet_myinfo{
     box-sizing: border-box;
-    width: 800px;
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #1b2f4a;
     background-color: rgba(27,47,74,.2);
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 }
 .mycoin_tab_content .mycoin_notice{
   margin-bottom: 10px;
@@ -84,28 +83,36 @@
 /*my wallet End*/
 
 table.mycoin_table{
-  width: 800px;
   margin: 0 auto;
-  font-size:12px;
+  font-size:14px;
 }
 table .mycoin_thead_deco{
   background-color: #e8eaed;
 }
 table .mycoin_thead_deco tr{
-  border-bottom: 3px solid #1b2f4a;
+  border-bottom: 2px solid #1b2f4a;
+  background-color:#f4f5f8;
+
 }
 table .mycoin_thead_deco th{
-  padding:10px 8px;
+  padding:15px 8px;
 }
 table .mycoin_thead_deco th a{
   float:right;
-  font-weight: lighter;}
-
+  font-weight: lighter;
+  font-weight: 600;
+  font-size:14px;
+  color: #1b2f4a;
+}
 table .mycoin_thead_deco th.mycoin_kor a{
   margin-left:10px;
 }
 table .mycoin_tbody_deco tr{
   border-bottom: 1px solid #efefef;
+  height:45px;
+}
+table .mycoin_tbody_deco td{
+
 }
 table .mycoin_tbody_deco>tr>td>img{
   float:left;
@@ -254,7 +261,7 @@ table .mycoin_tbody_title{
 
 #mywallet_tab .mycoin_tab_content,
 #mywallet_tab .mytrans_tab_content{
-    padding:30px 20px 20px 20px;
+    padding:30px 50px;
     /* width: 435px; */
     background: #fff;
     border-radius:0 0 5px 5px;
