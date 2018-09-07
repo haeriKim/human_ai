@@ -118,11 +118,40 @@
   float: right;
   vertical-align: middle;
 }
-.cer_center .center_bottom .cText_right li a.ing {
+.cer_center .center_bottom .cText_right li a.lv4_ing,
+.cer_center .center_bottom .cText_right li a.lv5_ing {
   cursor: pointer;
 }
 .cer_center .center_bottom .cText_right li span.c_complete {
   background-color: #666;
+}
+.cer_center .center_bottom .cText_right li span.disable {
+  background-color: #dfdfdf;
+}
+#malpungsun{
+  color:#fff;
+  background-color:#eaaf69;
+  font-size:15px;
+  font-weight: bold;
+  position: absolute;
+  display:none;
+  top:720px;
+  left:750px;
+  width: 300px;
+  text-align: center;
+  padding:10px 0;
+  line-height: 1.5;
+  border-radius: 5px;
+}
+#malpungsun::after{
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 83%;
+  margin-left: -5px;
+  border-width: 7px;
+  border-style: solid;
+  border-color:  transparent transparent #eaaf69 transparent;
 }
 /* 비활성화 */
 .cer_center .cer_level li img.account_on,
@@ -130,6 +159,6 @@
 .cer_center .cer_level li img.lv4_on,
 .cer_center .cer_level li img.lv5_on,
 .cer_center .center_bottom .cText_right li .complete,
-.cer_center .center_bottom .cText_right li .disable {
+.cer_center .center_bottom .cText_right li .lv5_ing {
   display: none;
 }
