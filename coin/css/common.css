@@ -197,6 +197,7 @@ input[type='checkbox']:checked + label:before{ /* 체크박스를 체크했을�
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*말풍선*/
 
 #malpungsun{
@@ -224,6 +225,8 @@ input[type='checkbox']:checked + label:before{ /* 체크박스를 체크했을�
   border-style: solid;
   border-color:  transparent transparent #eaaf69 transparent;
 =======
+=======
+>>>>>>> 94ac8dcc4f8fc01dcd3107310356ef69455a5613
 /*내 자산관리 표 디자인*/
 table.left_thick_table{
     text-align: left;
@@ -243,5 +246,8 @@ table.left_thick_table tbody th{
 table.left_thick_table tbody td{
     font-size: 13px;
     padding-left: 30px;
+<<<<<<< HEAD
+>>>>>>> 94ac8dcc4f8fc01dcd3107310356ef69455a5613
+=======
 >>>>>>> 94ac8dcc4f8fc01dcd3107310356ef69455a5613
 }
