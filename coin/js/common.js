@@ -221,16 +221,16 @@ $(function () {
 
 //내 자산관리-의사항 전체 동의
 $(document).ready(function(){
-    $("#input_KRW div.before_send_money_wrap .if_you_all_agree").hide();
+    $("div.before_send_money_wrap .if_you_all_agree").hide();
     $(".allAgree").click(function(){
         if($(".allAgree").prop("checked")) {
             $(".agree_check").prop("checked",true);
-            $("#input_KRW div.before_send_money_wrap .if_you_all_agree").show();
-            $("#input_KRW div.before_send_money_wrap .if_you_not_all_agree").hide();
+            $("div.before_send_money_wrap .if_you_all_agree").show();
+            $("div.before_send_money_wrap .if_you_not_all_agree").hide();
         }else {
             $(".agree_check").prop("checked",false);
-            $("#input_KRW div.before_send_money_wrap .if_you_all_agree").hide();
-            $("#input_KRW div.before_send_money_wrap .if_you_not_all_agree").show();
+            $("div.before_send_money_wrap .if_you_all_agree").hide();
+            $("div.before_send_money_wrap .if_you_not_all_agree").show();
         }
     });
 
@@ -238,12 +238,12 @@ $(document).ready(function(){
         var chk = $("input[type='checkbox'].agree_check");
         if(chk.length == chk.filter(":checked").length){
           $(".allAgree").prop("checked",true);
-            $("#input_KRW div.before_send_money_wrap .if_you_all_agree").show();
-            $("#input_KRW div.before_send_money_wrap .if_you_not_all_agree").hide();
+            $("div.before_send_money_wrap .if_you_all_agree").show();
+            $("div.before_send_money_wrap .if_you_not_all_agree").hide();
         }else {
           $(".allAgree").prop("checked",false);
-          $("#input_KRW div.before_send_money_wrap .if_you_all_agree").hide();
-          $("#input_KRW div.before_send_money_wrap .if_you_not_all_agree").show();
+          $("div.before_send_money_wrap .if_you_all_agree").hide();
+          $("div.before_send_money_wrap .if_you_not_all_agree").show();
         }
     });
 });
