@@ -1,0 +1,195 @@
+/* 인증레벨 */
+.certification_area .cer_center {
+  padding: 40px 45px;
+}
+.cer_center .cer_level {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.cer_center .cer_level li {
+  float: left;
+  width: 165px;
+  text-align: center;
+  padding: 25px 0;
+  position: relative;
+}
+.cer_center .cer_level li + li {
+  margin-left: 20px;
+}
+.cer_center .cer_level li .img_area{
+  background-color: #F4F5F9;
+  width: 130px;
+  height: 130px;
+  text-align: center;
+  box-shadow: 0px 6px 7px #657385;
+  margin: 0 auto;
+  line-height: 180px;
+  margin-bottom: 10px;
+}
+.cer_center .cer_level li > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.cer_center .cer_level li strong {
+  color:#1B2F4A;
+  display: block;
+  font-size: 16px;
+  margin: 7px 0;
+  font-weight: 600;
+}
+.cer_center .cer_level li span {
+  font-size: 12px;
+  color: #666;
+  font-weight: 600;
+}
+
+/*center_bottom*/
+
+
+/*left*/
+.cer_center .center_bottom {
+  overflow: hidden;
+}
+.cer_center .center_bottom .cText_left {
+  float: left;
+  border-right: 1px solid #1B2F4A;
+  width: 51%;
+  margin-right: 3%;
+  height:350px;
+}
+.center_bottom .cText_left strong{
+  font-size:15px;
+  color:#1b2f4a;
+  margin-bottom:20px;
+  display:block;
+}
+.center_bottom .cText_left strong span{
+  font-size:25px;
+}
+.cText_left ul li{
+  font-size:15px;
+  font-weight:600;
+  line-height:2em;
+}
+.cText_left ul li.account_line{
+  padding-bottom:20px;
+  width:300px;
+  border-bottom:1px solid #efefef;
+}
+.cText_left .account_agree{
+  margin-top:20px;
+}
+
+/*right*/
+
+.cer_center .center_bottom .cText_right {
+  float: left;
+  width: 45%;
+
+}
+
+.cer_center .center_bottom .cText_right strong{
+  font-size:15px;
+  color:#1b2f4a;
+  margin-bottom:20px;
+  display:block;
+}
+.center_bottom .cText_right strong span{
+  font-size:25px;
+}
+.cText_right ul li{
+  font-size:15px;
+  font-weight:600;
+  line-height:2.5em;
+  color:#1b2f4a;
+}
+.cText_right .account{
+  height:80px;
+}
+.cText_right .bankname{
+  float:left;
+  padding: 2px 0;
+}
+.cText_right .bank_inner{
+  float:left;
+  padding: 0 10px;
+}
+.bank_inner #bankselect{
+  width:250px;
+  color:#b1b1b1;
+  border:none;
+  border-bottom:1px solid #1b2f4a;
+  padding: 7px 0;
+}
+.cText_right .account_number{
+  width:250px;
+  color:#b1b1b1;
+  border:none;
+  border-bottom:1px solid #1b2f4a;
+  padding: 7px 0;
+  overflow:hidden;
+}
+.cText_right p{
+  float:left;
+  width:400px;
+  font-size:15px;
+  font-weight:600;
+  color:#c95b74;
+  margin-top:6px;
+  overflow:hidden;
+
+}
+#bank_complete{
+  width:350px;
+  text-align:center;
+}
+.bank_complete{
+  display: inline-block;
+  width: 100px;
+  padding: 7px 0;
+  box-sizing: border-box;
+  color: #fff;
+  background-color: #666;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  vertical-align: middle;
+  margin-top:20px;
+}
+
+#account_malpungsun{
+  color:#fff;
+  background-color:#eaaf69;
+  font-size:15px;
+  font-weight: bold;
+  position: absolute;
+  display:none;
+  top:720px;
+  left:750px;
+  width: 300px;
+  text-align: center;
+  padding:10px 0;
+  line-height: 1.5;
+  border-radius: 5px;
+}
+#account_malpungsun::after{
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 83%;
+  margin-left: -5px;
+  border-width: 7px;
+  border-style: solid;
+  border-color:  transparent transparent #eaaf69 transparent;
+}
+/* 비활성화 */
+.cer_center .cer_level li img.account_on,
+.cer_center .cer_level li img.otp_on,
+.cer_center .cer_level li img.lv4_on,
+.cer_center .cer_level li img.lv5_on,
+.cer_center .center_bottom .cText_right li .complete,
+.cer_center .center_bottom .cText_right li .lv5_ing {
+  display: none;
+}
