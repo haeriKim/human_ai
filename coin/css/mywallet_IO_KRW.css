@@ -7,16 +7,13 @@
 }
 
 /*tab*/
-
 .mycoin_fence{
   width:900px;
   float:left;
 }
-
 .mycoin_tab ul {
   overflow: hidden;
 }
-
 .mycoin_tab li{
   float:left;
   width:300px;
@@ -28,18 +25,17 @@
   cursor:pointer;
   background-color:#f4f5f8;
 }
-
 .mycoin_tab li.active {
   color: #1b2f4a;
   border-top: 3px solid #1b2f4a;
   background-color:#fff;
 }
+
 /* 공통 */
 .tab_content {
   padding: 30px 50px;
   overflow: hidden;
 }
-
 
 /*tab3*/
 .tab3_header {
@@ -49,7 +45,6 @@
 .tab3_header ul{
   float:left;
 }
-
 .tab3_header ul li{
   float:left;
   width:150px;
@@ -68,20 +63,16 @@
   background-color:#1b2f4a;
   color:#fff;
 }
-
 .tab3_header ul li.output_KRW_btn,
 .tab3_header ul li.input_output_history_btn{
   border:1px solid #1b2f4a;
   color:#1b2f4a;
-
 }
-
 .tab3_header .days{
   float:right;
   font-size:15px;
   padding: 5px 0;
 }
-
 .tab3_header .days input{
   font-size:14px;
   height: 30px;
@@ -93,7 +84,7 @@
     width: 800px;
 }
 #input_KRW .recharge_coin{
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 600;
     color: #2b2b2b;
     margin-bottom: 11px;
@@ -142,7 +133,7 @@
 #input_KRW div.account_table_wrap > div{
     width: 48%;
     float: left;
-    margin-left: 15px;
+    margin-left: 12px;
     margin-bottom: 15px;
 }
 #input_KRW div.account_table_wrap > div > p{
@@ -172,13 +163,19 @@
     font-size: 13px;
     padding-left: 30px;
 }
-#input_KRW div.send_info_01{
-
+#input_KRW div.send_info_01,
+#input_KRW div.send_info_02{
+    width: 60%;
+    margin: 10px 25%;
+    overflow: hidden;
 }
 #input_KRW div.send_info_01 p{
     font-size: 16px;
     color: #666;
     font-weight: 600;
+    float: left;
+    line-height: 50px;
+    height: 50px;
 }
 #input_KRW div.send_info_01 span.temporary_name{
     border-radius: 5px;
@@ -186,34 +183,157 @@
     color: #1b2f4a;
     font-weight: 600;
     font-size: 20px;
-    padding: 10px 89px;
+    padding: 10px 90px;
+    margin-left: 20px;
+    float: left;
 }
 #input_KRW div.send_info_01 span.caution{
-
+    float: left;
+    font-size: 12px;
+    margin-left: 24px;
+    margin-top: 8px;
+    color: #ff2323;
 }
-  /*보유코인 콘텐츠 시작*/
+#input_KRW div.send_info_01 span.caution:before{
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: red;
+    margin-right: 10px;
+    vertical-align: 2px;
+}
+#input_KRW .send_info_02 label{
+    font-size: 16px;
+    color: #666;
+    font-weight: 600;
+    float: left;
+    line-height: 40px;
+    height: 76px;
+}
+#input_KRW .send_info_02 input[type='text']{
+    margin-left: 20px;
+    margin-bottom: 8px;
+    border: none;
+    border-bottom: 2px solid #1b2f4a;
+    color: #1b2f4a;
+    font-size: 20px;
+    text-align: right;
+    width: 229px;
+    font-weight: 600;
+    float: left;
+    padding: 3px 5px;
+    padding-right: 50px;
+}
+#input_KRW .send_info_02 .unit_KRW_fixed{
+    position: relative;
+    color: #666;
+    right: 38px;
+    top: 7px;
+    font-weight: 600;
+    font-size: 15px;
+}
+#input_KRW .send_info_02 span.caution{
+    float: left;
+    font-size: 12px;
+    margin-left: 24px;
+    width: 184px;
+    padding-bottom: 2px;
+}
+#input_KRW .send_info_02 span.sub_02,
+#input_KRW .send_info_02 span.sub_04{
+    margin-left: -35px;
+}
+#input_KRW div.send_info_02 span.caution:before{
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #666;
+    margin-right: 10px;
+    vertical-align: 2px;
+}
+#input_KRW div.before_send_money_wrap{
+    margin-left: 12px;
+}
+#input_KRW div.before_send_money_wrap p{
+    color: #1b2f4a;
+    font-weight: 600;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #1b2f4a;
+    padding-bottom: 8px;
+}
+#input_KRW div.before_send_money_wrap label{
+    display: block;
+    padding-left: 25px;
+    margin-bottom: 3px;
+    font-size: 13px;
+    color: #666;
+    font-weight: 600;
+}
+#input_KRW div.before_send_money_wrap label.all_agree{
+    padding-top: 20px;
+    border-top: 1px solid #efefef;
+    margin: 16px 0 25px 0;
+}
+#input_KRW div.before_send_money_wrap .cancel_or_apply{
+    text-align: center;
+}
+#input_KRW div.before_send_money_wrap .cancel_btn{
+    background: #fff;
+    border: 1px solid #1b2f4a;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: #1b2f4a;
+    font-weight: 600;
+    margin-left: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+#input_KRW div.before_send_money_wrap .if_you_not_all_agree{
+    background: #666;
+    border: 1px solid #666;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: auto;
+}
+#input_KRW div.before_send_money_wrap .if_you_all_agree{
+    background: #1b2f4a;
+    border: 1px solid #1b2f4a;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    display: none;
+}
 
-  #mywallet_havecoin{
+  /*보유코인 콘텐츠 시작*/
+#mywallet_havecoin{
       padding: 0;
       float:left;
       position: relative;
       margin:0 30px 0 0;
-
-  }
-
-  #mywallet_havecoin h3{
+}
+#mywallet_havecoin h3{
       color:#1b2f4a;
       border-bottom:3px solid #1b2f4a;
       padding:15px 20px 10px 20px;
-  }
-  #mywallet_havecoin form{
+}
+#mywallet_havecoin form{
       display: inline-block;
       float: right;
       position: absolute;
       top: 14px;
       right: 9px;
-  }
-  #mywallet_havecoin form label{
+}
+#mywallet_havecoin form label{
       font-size: 14px;
   }
   #mywallet_havecoin table{
@@ -234,7 +354,6 @@
   #mywallet_havecoin .coin_condition{
       padding-left: 62px;
   }
-
   #mywallet_havecoin tbody img{
       float: left;
       width: 26px;
@@ -245,11 +364,9 @@
   #mywallet_havecoin tbody tr{
       height: 50px;
   }
-
   #mywallet_havecoin tbody tr:hover{
       background: #c8eefb;
   }
-
   #mywallet_havecoin tbody p,
   #mywallet_havecoin tbody span{
       text-align: right;
@@ -259,7 +376,6 @@
       text-align: left;
       margin-left: 38px;
   }
-
   #mywallet_havecoin .unit{
       color: #666;
       font-size: 14px;
@@ -280,7 +396,6 @@
       font-weight: 600;
       margin: 0 16px;
   }
-
   #mywallet_havecoin .button_hover{
       margin-right:3px;
       border:1px solid #1b2f4a;
@@ -288,7 +403,6 @@
       color:#1b2f4a;
       padding: 5px 2px;
   }
-
   #mywallet_havecoin .button_hover:hover{
       background:#1b2f4a;
       border-radius: 5px;
