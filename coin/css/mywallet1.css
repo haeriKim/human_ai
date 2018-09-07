@@ -83,18 +83,13 @@
 }
 /*my wallet End*/
 
-
-
-
-
-
 table.mycoin_table{
   width: 800px;
   margin: 0 auto;
+  font-size:12px;
 }
 table .mycoin_thead_deco{
   background-color: #e8eaed;
-
 }
 table .mycoin_thead_deco tr{
   border-bottom: 3px solid #1b2f4a;
@@ -123,9 +118,26 @@ table .mycoin_tbody_title{
 .mycoin_name{
   padding: 3px 10px;
 }
-
 .ready_data{
   color:red;
+}
+.mycoin_thead_deco .first_chart_icon{
+   background: url(../img/side_arrow.png) no-repeat center right;
+}
+/* .mycoin_thead_deco .second_chart_icon{
+   background: url(../img/up_down_default.png) no-repeat center right;
+} */
+.mycoin_thead_deco .third_chart_icon{
+   background: url(../img/up_down_default.png) no-repeat center right;
+}
+.mycoin_thead_deco .fourth_chart_icon{
+   background: url(../img/up_down_down.png) no-repeat center right;
+}
+.mycoin_thead_deco .fifth_chart_icon{
+   background: url(../img/up_down_up.png) no-repeat center right;
+}
+.mycoin_thead_deco .sixth_chart_icon{
+   background: url(../img/up_down_default.png) no-repeat center right;
 }
 
 /*deal_orgin_transaction*/
