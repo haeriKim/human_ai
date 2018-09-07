@@ -91,6 +91,19 @@
     cursor: pointer;
     width: 98%;
 }
+/*동일 버튼 영역*/
+.btn_small{
+  padding: 2px 10px;
+  margin:0 2px;
+  background-color: white;
+  color:#1b2f4a; border: 1px solid #1b2f4a;
+  cursor:pointer;
+}
+.btn_small:hover{
+  color:white;
+  background-color: #1b2f4a;
+}
+
 /*거래소 등 h3 스타일*/
 .exchange_h3,
 .mywallet_h3{
