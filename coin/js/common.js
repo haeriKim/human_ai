@@ -248,6 +248,13 @@ $(document).ready(function(){
     });
 });
 
+//자산관리 - 인증센터 말풍선
+$(document).ready(function(){
+  $("#malpungsun").hide();
+  $(".cText_right .disable").click(function(){
+      $("#malpungsun").show();
+  });
+});
 /*fixed_menu 플로팅메뉴*/
 
 /*$(function(){

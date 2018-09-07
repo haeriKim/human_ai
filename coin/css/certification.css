@@ -131,10 +131,10 @@
 #malpungsun{
   color:#fff;
   background-color:#eaaf69;
-  font-size:15px;
+  font-size:13px;
   font-weight: bold;
   position: absolute;
-  display:none;
+  /* display:none; */
   top:720px;
   left:750px;
   width: 300px;
