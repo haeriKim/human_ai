@@ -38,6 +38,9 @@
   margin: 7px 0;
   font-weight: 600;
 }
+.cer_center .cer_level li strong.gray_title{
+  color:#666;
+}
 .cer_center .cer_level li span {
   font-size: 12px;
   color: #666;
@@ -51,67 +54,67 @@
 .cer_center .center_bottom {
   overflow: hidden;
 }
-.cer_center .center_bottom .cText_left {
+.cer_center .center_bottom .cText_left2 {
   float: left;
   border-right: 1px solid #1B2F4A;
   width: 51%;
   margin-right: 3%;
   height:350px;
 }
-.center_bottom .cText_left strong{
+.center_bottom .cText_left2 strong{
   font-size:15px;
   color:#1b2f4a;
   margin-bottom:20px;
   display:block;
 }
-.center_bottom .cText_left strong span{
+.center_bottom .cText_left2 strong span{
   font-size:25px;
 }
-.cText_left ul li{
+.cText_left2 ul li{
   font-size:15px;
   font-weight:600;
   line-height:2em;
 }
-.cText_left ul li.account_line{
+.cText_left2 ul li.account_line{
   padding-bottom:20px;
   width:300px;
   border-bottom:1px solid #efefef;
 }
-.cText_left .account_agree{
+.cText_left2 .account_agree{
   margin-top:20px;
 }
 
 /*right*/
 
-.cer_center .center_bottom .cText_right {
+.cer_center .center_bottom .cText_right2 {
   float: left;
   width: 45%;
 
 }
 
-.cer_center .center_bottom .cText_right strong{
+.cer_center .center_bottom .cText_right2 strong{
   font-size:15px;
   color:#1b2f4a;
   margin-bottom:20px;
   display:block;
 }
-.center_bottom .cText_right strong span{
+.center_bottom .cText_right2 strong span{
   font-size:25px;
 }
-.cText_right ul li{
+.cText_right2 ul li{
   font-size:15px;
   font-weight:600;
   line-height:2.5em;
   color:#1b2f4a;
 }
-.cText_right .account{
+.cText_right2 .account{
   height:80px;
 }
-.cText_right .bankname{
+.cText_right2 .bankname{
   float:left;
   padding: 2px 0;
 }
-.cText_right .bank_inner{
+.cText_right2 .bank_inner{
   float:left;
   padding: 0 10px;
 }
@@ -122,7 +125,7 @@
   border-bottom:1px solid #1b2f4a;
   padding: 7px 0;
 }
-.cText_right .account_number{
+.cText_right2 .account_number{
   width:250px;
   color:#b1b1b1;
   border:none;
@@ -130,7 +133,7 @@
   padding: 7px 0;
   overflow:hidden;
 }
-.cText_right p{
+.cText_right2 p{
   float:left;
   width:400px;
   font-size:15px;
