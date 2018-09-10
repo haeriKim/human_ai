@@ -64,7 +64,7 @@
 .center_bottom .cText_left2 strong{
   font-size:15px;
   color:#1b2f4a;
-  margin-bottom:20px;
+  margin-bottom:25px;
   display:block;
 }
 .center_bottom .cText_left2 strong span{
@@ -73,10 +73,11 @@
 .cText_left2 ul li{
   font-size:15px;
   font-weight:600;
-  line-height:2em;
+  line-height:2.5em;
 }
 .cText_left2 ul li.account_line{
   padding-bottom:20px;
+  margin-bottom:20px;
   width:300px;
   border-bottom:1px solid #efefef;
 }
@@ -120,7 +121,7 @@
 }
 .bank_inner #bankselect{
   width:250px;
-  color:#b1b1b1;
+  color:#a1a1a1;
   border:none;
   border-bottom:1px solid #1b2f4a;
   padding: 7px 0;

@@ -326,3 +326,21 @@ $(document).ready(function(){
   // 	}).scroll();
   //
   // });
+
+  /*계좌등록체크박스*/
+
+  $(document).ready(function(){
+
+    var account = 0;
+    $(".account_agree").click(function(){
+      if(account==0){
+      $(".bank_complete").css({background:"#1b2f4a" cursor:"pointer"});
+      account=1;
+      }else{
+    $(".bank_complete").css({background:"#666"});
+      account=0;
+      }
+      console.log(account);
+
+    });
+  });
