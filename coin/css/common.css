@@ -231,17 +231,18 @@ table.left_thick_table{
 table.left_thick_table tbody tr{
     border: 1px solid #efefef;
     border-left: none;
+    height: 40px;
 }
 table.left_thick_table tbody th{
     background-color: #f4f5f9;
     border-left: 2px solid #1b2f4a;
-    padding: 5px 20px 5px 6px;
+    padding: 5px 20px 5px 10px;
     color: #2b2b2b;
     font-size: 14px;
     font-weight: 600;
 }
 table.left_thick_table tbody td{
-    font-size: 13px;
+    font-size: 14px;
     padding-left: 30px;
 }
 /*내자산관리 보유 현황 표 디자인(뒷배경 옅은 남색에 border-radius 들어간 것)*/
@@ -290,8 +291,9 @@ div.my_coin_state ul li span{
     color: #666;
 }
 
+
 /*입금신청,출금신청 주의사항*/
-div.before_send_money_wrap .agree_btn {
+div.cancel_or_apply .agree_btn {
   border-radius: 5px;
   padding: 7px 30px;
   color: #fff;
@@ -299,12 +301,23 @@ div.before_send_money_wrap .agree_btn {
   font-size: 16px;
   box-sizing: border-box;
 }
-div.before_send_money_wrap .if_you_not_all_agree{
+div.cancel_or_apply .if_you_not_all_agree{
     border: 1px solid #666;
     background-color: #666;
 }
-div.before_send_money_wrap .if_you_all_agree{
+div.cancel_or_apply .if_you_all_agree{
   border: 1px solid #1b2f4a;
   background-color: #1b2f4a;
   cursor: pointer;
+}
+ div.cancel_or_apply .cancel_btn{
+    background: #fff;
+    border: 1px solid #1b2f4a;
+    border-radius: 5px;
+    padding: 7px 30px;
+    color: #1b2f4a;
+    font-weight: 600;
+    margin-left: 20px;
+    font-size: 16px;
+    cursor: pointer;
 }
