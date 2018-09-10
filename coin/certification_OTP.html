@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/certification_account.css">
+    <link rel="stylesheet" href="css/certification_OTP.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/common.js"></script>
@@ -144,52 +144,45 @@
                       </ul>
 
                       <div class="center_bottom">
-                        <div class="cText_left2">
+                        <div class="cText_left3">
 
-                            <strong><span>1</span>. 개인정보 수집 및 이용 동의(필수)</strong>
+                            <strong><span>1</span>. OTP앱을 스마트폰에 다운로드 받으세요.</strong>
+                            <ul class="android">
+                              <li><img src="img/android_app.png" alt="안드로이드구글OTP"></li>
+                              <li class="android_app_text">play 스토어에서 'Google OTP'를 검색하신 후 다운로드 받으세요.</li>
+                              <li>안드로이드 휴대폰 Google OTP</li>
+                            </ul>
+
+                            <ul class="apple">
+                              <li><img src="img/apple_app.png" alt="애플구글OTP"></li>
+                              <li class="apple_app_text">App Store에서 'Google Authenticator'를 검색하신 후 다운로드 받으세요.</li>
+                              <li>아이폰 휴대폰 Google Authenticator</li>
+                            </ul>
+
+                        </div>
+
+                      <div class="cText_right3">
+                          <div class="qr_code">
+                            <strong><span>2</span>. 다운로드 받은 앱에 QR코드를 스캔하거나 비밀키를 입력해주세요.</strong>
+
                             <ul>
-                              <li>- 목적 : 원화(KRW) 거래를 위한 본인 확인</li>
-                              <li class="account_line">- 항목 : 계좌번호,은행명</li>
-
-                            <li><input type="checkbox" id="account_yes" class="all_agree account_agree" >
-                            <label for="account_yes">
-                             개인 정보 수집 및 이용에 동의 합니다.</li>
-                             </ul>
-                             <p id="account_malpungsun">
-                               개인정보 수집 및 이용에 체크해주세요.
-                             </p>
-
-                        </div>
-
-
-                        <div class="cText_right2">
-
-                          <strong><span>2</span>. 출금 계좌등록</strong>
-                          <div class="account">
-                            <ul class="bankname">
-                              <li>은행명</li>
-                              <li>계좌번호</li>
+                              <li>QR 코드</li>
+                              <li><img src="img/qr_code.png" alt="qr코드"></li>
                             </ul>
 
-                            <ul class="bank_inner">
-                              <li>
-                                <select name="bankselect" id="bankselect">
-                                  <option value="국민은행">국민은행</option>
-                                  <option value="농협은행">농협은행</option>
-                                  <option value="신한은행">신한은행</option>
-                                  <option value="우리은행">우리은행</option>
-                                  <option value="기업은행">기업은행</option>
-                                </select>
-                              </li>
-
-                              <li><input type="text" placeholder="숫자만 입력해주세요." class="account_number"></li>
+                            <ul>
+                              <li>비밀키</li>
+                              <li>NRSLK7JWICMZLXBAWEZ</li>
                             </ul>
+
                           </div>
-                            <p>※ 본인명의 계좌만 등록 가능</p>
-                            <div id="bank_complete">
-                            <input type="submit" class="bank_complete" value="등록완료">        
-                          </div>
+
+                        <div class="OTP_code">
+                          <strong><span>2</span>. '2단계'완료 후 OTP 인증 앱에 표시된 인증번호(6자리)와 SMS
+                          로 발송된 보안코드를 입력해주세요.</strong>
                         </div>
+
+                      </div>
 
                       </div>
                     </div>

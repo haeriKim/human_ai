@@ -54,79 +54,76 @@
 .cer_center .center_bottom {
   overflow: hidden;
 }
-.cer_center .center_bottom .cText_left2 {
+.cer_center .center_bottom .cText_left3 {
   float: left;
   border-right: 1px solid #1B2F4A;
   width: 51%;
   margin-right: 3%;
   height:350px;
 }
-.center_bottom .cText_left2 strong{
+.center_bottom .cText_left3 strong{
   font-size:15px;
   color:#1b2f4a;
-  margin-bottom:25px;
+  margin-bottom:20px;
   display:block;
 }
-.center_bottom .cText_left2 strong span{
+.center_bottom .cText_left3 strong span{
   font-size:25px;
 }
-.cText_left2 ul li{
+.cText_left3 ul li{
   font-size:15px;
   font-weight:600;
-  line-height:2.5em;
+  line-height:2em;
 }
-.cText_left2 ul li.account_line{
-  padding-bottom:20px;
-  margin-bottom:20px;
-  width:300px;
-  border-bottom:1px solid #efefef;
+
+.cText_left3 .android{
+  
 }
-.cText_left2 .account_agree{
-  margin-top:20px;
-}
+
+
 
 /*right*/
 
-.cer_center .center_bottom .cText_right2 {
+.cer_center .center_bottom .cText_right3 {
   float: left;
   width: 45%;
 
 }
 
-.cer_center .center_bottom .cText_right2 strong{
+.cer_center .center_bottom .cText_right3 strong{
   font-size:15px;
   color:#1b2f4a;
   margin-bottom:20px;
   display:block;
 }
-.center_bottom .cText_right2 strong span{
+.center_bottom .cText_right3 strong span{
   font-size:25px;
 }
-.cText_right2 ul li{
+.cText_right3 ul li{
   font-size:15px;
   font-weight:600;
   line-height:2.5em;
   color:#1b2f4a;
 }
-.cText_right2 .account{
+.cText_right3 .account{
   height:80px;
 }
-.cText_right2 .bankname{
+.cText_right3 .bankname{
   float:left;
   padding: 2px 0;
 }
-.cText_right2 .bank_inner{
+.cText_right3 .bank_inner{
   float:left;
   padding: 0 10px;
 }
 .bank_inner #bankselect{
   width:250px;
-  color:#a1a1a1;
+  color:#b1b1b1;
   border:none;
   border-bottom:1px solid #1b2f4a;
   padding: 7px 0;
 }
-.cText_right2 .account_number{
+.cText_right3 .account_number{
   width:250px;
   color:#b1b1b1;
   border:none;
@@ -134,7 +131,7 @@
   padding: 7px 0;
   overflow:hidden;
 }
-.cText_right2 p{
+.cText_right3 p{
   float:left;
   width:400px;
   font-size:15px;
@@ -161,34 +158,9 @@
   letter-spacing: 0.5px;
   vertical-align: middle;
   margin-top:20px;
-  border:none;
 }
 
-#account_malpungsun{
-  color:#fff;
-  background-color:#eaaf69;
-  font-size:15px;
-  font-weight: bold;
-  position: absolute;
-  display:none;
-  top:720px;
-  left:750px;
-  width: 300px;
-  text-align: center;
-  padding:10px 0;
-  line-height: 1.5;
-  border-radius: 5px;
-}
-#account_malpungsun::after{
-  content: "";
-  position: absolute;
-  bottom: 100%;
-  left: 83%;
-  margin-left: -5px;
-  border-width: 7px;
-  border-style: solid;
-  border-color:  transparent transparent #eaaf69 transparent;
-}
+
 /* 비활성화 */
 .cer_center .cer_level li img.account_on,
 .cer_center .cer_level li img.otp_on,
