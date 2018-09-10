@@ -70,13 +70,10 @@
 #output_KRW{
     width: 800px;
 }
-
-
 #output_KRW div.account_table_wrap{
     overflow: hidden;
 }
 #output_KRW div.account_table_wrap > div{
-    width: 48%;
     float: left;
     margin-left: 12px;
     margin-bottom: 15px;
@@ -86,97 +83,12 @@
     font-weight: 600;
     margin-bottom: 15px;
 }
-#output_KRW div.send_info_01,
-#output_KRW div.send_info_02{
-    width: 60%;
-    margin: 10px 25%;
-    overflow: hidden;
+#output_KRW .left_thick_table tbody th{
+    padding: 9px 20px 9px 16px;
 }
-#output_KRW div.send_info_01 p{
-    font-size: 16px;
-    color: #666;
-    font-weight: 600;
-    float: left;
-    line-height: 50px;
-    height: 50px;
-}
-#output_KRW div.send_info_01 span.temporary_name{
-    border-radius: 5px;
-    background: #f4f5f9;
-    color: #1b2f4a;
-    font-weight: 600;
-    font-size: 20px;
-    padding: 10px 90px;
-    margin-left: 20px;
-    float: left;
-}
-#output_KRW div.send_info_01 span.caution{
-    float: left;
-    font-size: 12px;
-    margin-left: 24px;
-    margin-top: 8px;
-    color: #ff2323;
-}
-#output_KRW div.send_info_01 span.caution:before{
-    content: '';
-    display: inline-block;
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background-color: red;
-    margin-right: 10px;
-    vertical-align: 2px;
-}
-#output_KRW .send_info_02 label{
-    font-size: 16px;
-    color: #666;
-    font-weight: 600;
-    float: left;
-    line-height: 40px;
-    height: 76px;
-}
-#output_KRW .send_info_02 input[type='text']{
-    margin-left: 20px;
-    margin-bottom: 8px;
-    border: none;
-    border-bottom: 2px solid #1b2f4a;
-    color: #1b2f4a;
-    font-size: 20px;
-    text-align: right;
-    width: 229px;
-    font-weight: 600;
-    float: left;
-    padding: 3px 5px;
-    padding-right: 50px;
-}
-#output_KRW .send_info_02 .unit_KRW_fixed{
-    position: relative;
-    color: #666;
-    right: 38px;
-    top: 7px;
-    font-weight: 600;
-    font-size: 15px;
-}
-#output_KRW .send_info_02 span.caution{
-    float: left;
-    font-size: 12px;
-    margin-left: 24px;
-    width: 184px;
-    padding-bottom: 2px;
-}
-#output_KRW .send_info_02 span.sub_02,
-#output_KRW .send_info_02 span.sub_04{
-    margin-left: -35px;
-}
-#output_KRW div.send_info_02 span.caution:before{
-    content: '';
-    display: inline-block;
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background-color: #666;
-    margin-right: 10px;
-    vertical-align: 2px;
+#output_KRW .left_thick_table tbody td{
+    padding-left: 59px;
+    padding-right: 345px;
 }
 #output_KRW div.before_send_money_wrap{
     margin-left: 12px;
