@@ -89,15 +89,16 @@
 
                             <strong><span>1</span>. OTP앱을 스마트폰에 다운로드 받으세요.</strong>
                             <ul class="android">
+                              <li class="android_app">안드로이드 휴대폰 전용 Google OTP</li>
                               <li><img src="img/android_app.png" alt="안드로이드구글OTP" class="android_img"></li>
                               <li class="android_app_text">play 스토어에서 'Google OTP'를 검색하신 후 다운로드 받으세요.</li>
-                              <li class="android_app">안드로이드 휴대폰 Google OTP</li>
+
                             </ul>
 
                             <ul class="apple">
+                              <li class="apple_app">아이폰 휴대폰 전용 Google Authenticator</li>
                               <li><img src="img/apple_app.png" alt="애플구글OTP" class="apple_img"></li>
                               <li class="apple_app_text">App Store에서 'Google Authenticator'를 검색하신 후 다운로드 받으세요.</li>
-                              <li class="apple_app">아이폰 휴대폰 Google Authenticator</li>
                             </ul>
 
                         </div>
@@ -113,7 +114,7 @@
 
                             <ul class="qr_code_key">
                               <li>비밀키</li>
-                              <li>NRSLK7JWICMZLXBAWEZ</li>
+                              <li class="qr_code_key2">NRSLK7JWICMZLXBAWEZ</li>
                             </ul>
 
                           </div>
@@ -124,12 +125,12 @@
 
                           <div>
                             <ul class="OTP_codebox">
-                              <li><input type="text" placeholder="보안코드"ceholder="보안코드" class="OTP_number"><input type="button" value="보안코드 받기" class="OTP_numberbt"></li>
-                              <li><input type="text" placeholder="OTP번호 입력" class="OTP_number2"></li>
+                              <li><input type="text" placeholder="보안코드" required class="OTP_number"><input type="button" value="보안코드 받기" class="OTP_numberbt"></li>
+                              <li><input type="text" placeholder="OTP번호 입력" required class="OTP_number2"></li>
                             </ul>
                           </div>
                           <div id="OTP_complete">
-                            <span class="OTP_complete">OTP 인증완료</span>
+                            <input type="submit" name="submit" value="OTP 인증완료" class="OTP_complete"></span>
                           </div>
 
                         </div>
