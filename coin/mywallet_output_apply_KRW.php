@@ -244,7 +244,7 @@
                                                                 <tr>
                                                                     <th>1일 잔여한도</th>
                                                                     <td>
-                                                                        200,000,000 KRW
+                                                                        <p>200,000,000 KRW</p>
                                                                         <input type="submit" value="인증레벨설정">
                                                                     </td>
                                                                 </tr>
