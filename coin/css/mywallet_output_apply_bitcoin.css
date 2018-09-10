@@ -67,39 +67,48 @@
 }
 
 /*원화입금*/
-#output_KRW{
+#output_bitcoin{
     width: 800px;
 }
-#output_KRW div.account_table_wrap{
+#output_bitcoin div.my_coin_state ul li.my_coin_li_02{
+    border:1px solid red;
+}
+#output_bitcoin div.my_coin_state ul li.my_coin_li_02 ul{
+    border:1px solid red;
+}
+#output_bitcoin div.my_coin_state ul li.my_coin_li_02 ul li{
+    border:1px solid red;
+}
+#output_bitcoin div.account_table_wrap{
     overflow: hidden;
 }
-#output_KRW div.account_table_wrap > div{
+#output_bitcoin div.account_table_wrap > div{
     float: left;
     margin-left: 12px;
     margin-bottom: 15px;
 }
-#output_KRW div.account_table_wrap > div > p{
+#output_bitcoin div.account_table_wrap > div > p{
     color: #1b2f4a;
     font-weight: 600;
     margin-bottom: 15px;
     font-size:16px;
 }
-#output_KRW .left_thick_table tbody tr{
+#output_bitcoin .left_thick_table tbody tr{
     height: 45px;
 }
-#output_KRW .left_thick_table tbody th{
+#output_bitcoin .left_thick_table tbody th{
     padding: 10px 20px 10px 16px;
     font-size:15px;
 }
-#output_KRW .left_thick_table tbody td{
+#output_bitcoin .left_thick_table tbody td{
     width: 600px;
     font-size: 15px;
 }
-#output_KRW table.left_thick_table tbody p{
+#output_bitcoin table.left_thick_table tbody p{
     display: inline-block;
     width: 300px;
 }
-#output_KRW table.left_thick_table tbody input[type='submit']{
+#output_bitcoin table.left_thick_table tbody input[type='submit']{
     border: 1px solid #1b2f4a;
     background: #fff;
     color: #1b2f4a;
@@ -108,36 +117,36 @@
     margin-left: 5px;
     font-size:15px;
 }
-#output_KRW table.left_thick_table tbody input[type='submit']:hover{
+#output_bitcoin table.left_thick_table tbody input[type='submit']:hover{
     border: 1px solid #1b2f4a;
     background: #1b2f4a;
     color: #fff;
     padding: 3px 5px;
     cursor: pointer;
 }
-#output_KRW table.left_thick_table tbody input[type='text']{
+#output_bitcoin table.left_thick_table tbody input[type='text']{
     border: none;
     border-bottom: 1px solid #1b2f4a;
     width: 300px;
     padding-bottom: 4px;
     font-size:15px;
 }
-#output_KRW table.left_thick_table tbody input::placeholder{
+#output_bitcoin table.left_thick_table tbody input::placeholder{
     color:#a1a1a1;
     font-size:14px;
 }
-#output_KRW div.before_send_money_wrap{
+#output_bitcoin div.before_send_money_wrap{
     margin-left: 12px;
     margin-top: 50px;
 }
-#output_KRW div.before_send_money_wrap p{
+#output_bitcoin div.before_send_money_wrap p{
     color: #1b2f4a;
     font-weight: 600;
     margin-bottom: 12px;
     border-bottom: 2px solid #1b2f4a;
     padding-bottom: 8px;
 }
-#output_KRW div.before_send_money_wrap label{
+#output_bitcoin div.before_send_money_wrap label{
     display: block;
     padding-left: 25px;
     margin-bottom: 3px;
@@ -145,15 +154,15 @@
     color: #666;
     font-weight: 600;
 }
-#output_KRW div.before_send_money_wrap label.all_agree{
+#output_bitcoin div.before_send_money_wrap label.all_agree{
     padding-top: 20px;
     border-top: 1px solid #efefef;
     margin: 16px 0 25px 0;
 }
-#output_KRW div.before_send_money_wrap .cancel_or_apply{
+#output_bitcoin div.before_send_money_wrap .cancel_or_apply{
     text-align: center;
 }
-#output_KRW div.before_send_money_wrap .cancel_btn{
+#output_bitcoin div.before_send_money_wrap .cancel_btn{
     background: #fff;
     border: 1px solid #1b2f4a;
     border-radius: 5px;
@@ -164,7 +173,7 @@
     font-size: 16px;
     cursor: pointer;
 }
-#output_KRW div.before_send_money_wrap .agree_btn {
+#output_bitcoin div.before_send_money_wrap .agree_btn {
   border-radius: 5px;
   padding: 7px 30px;
   color: #fff;
@@ -172,11 +181,11 @@
   font-size: 16px;
   box-sizing: border-box;
 }
-#output_KRW div.before_send_money_wrap .if_you_not_all_agree{
+#output_bitcoin div.before_send_money_wrap .if_you_not_all_agree{
     border: 1px solid #666;
     background-color: #666;
 }
-#output_KRW div.before_send_money_wrap .if_you_all_agree{
+#output_bitcoin div.before_send_money_wrap .if_you_all_agree{
   border: 1px solid #1b2f4a;
   background-color: #1b2f4a;
   cursor: pointer;

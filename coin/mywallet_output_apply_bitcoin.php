@@ -198,8 +198,8 @@
                                             <li class="input_output_history_btn" rel="input_output">입출금내역</li>
                                           </ul>
                                         </div><!--tab3_header End-->
-                                        <!-- input_KRW -->
-                                        <div id='output_KRW' class='input_KRW'>
+                                        <!-- output_bitcoin -->
+                                        <div id='output_bitcoin' class='output_bitcoin'>
                                             <p class='recharge_coin'>비트코인(BTC) 출금</p>
                                             <div class="my_coin_state">
                                                 <ul>
@@ -207,7 +207,7 @@
                                                         <p class='my_coin_state_title'>보유금액</p>
                                                         <p class='up_down_data my_coin_state_amount'>750<span>BTC</span></p>
                                                     </li>
-                                                    <li>
+                                                    <li class='my_coin_li_02'>
                                                         <ul>
                                                             <li>
                                                                 <p class='my_coin_state_title'>거래대기</p>
@@ -311,7 +311,7 @@
 
                                                 </div><!-- before_send_money_wrap End-->
                                             </form>
-                                        </div><!-- input_KRW End-->
+                                        </div><!-- output_bitcoin End-->
 
                                     </div><!--#tab3 입출금 End-->
                                </div><!--mycointab_container End-->
