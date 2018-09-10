@@ -124,14 +124,15 @@
                           로 발송된 보안코드를 입력해주세요.</strong>
 
                           <div>
-                            <ul class="OTP_codebox">
-                              <li><input type="text" placeholder="보안코드" required class="OTP_number"><input type="button" value="보안코드 받기" class="OTP_numberbt"></li>
-                              <li><input type="text" placeholder="OTP번호 입력" required class="OTP_number2"></li>
-                            </ul>
+                            <form action="#" method="post" class="OTP_codebox">
+                              <input type="text" placeholder="보안코드" required class="OTP_number"><input type="button" value="보안코드 받기" class="OTP_numberbt">
+                              <input type="text" placeholder="OTP번호 입력" required class="OTP_number2">
+                              <div id="OTP_complete">
+                                <input type="submit" name="OTP 인증완료" value="OTP 인증완료" class="OTP_complete"></span>
+                              </div>
+                            </form>
                           </div>
-                          <div id="OTP_complete">
-                            <input type="submit" name="submit" value="OTP 인증완료" class="OTP_complete"></span>
-                          </div>
+
 
                         </div>
 

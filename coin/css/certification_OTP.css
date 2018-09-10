@@ -203,7 +203,8 @@
   width:400px;
   border-bottom:1px solid #1b2f4a;
   padding-bottom:5px;
-  float:left;
+  overflow:hidden;
+
 }
 .cText_right3 #OTP_complete{
   text-align:center;
