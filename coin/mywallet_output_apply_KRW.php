@@ -251,7 +251,7 @@
                                                                 <tr>
                                                                     <th>출금요청액</th>
                                                                     <td>
-                                                                        <input type="text" name="" value="" placeholder="0">
+                                                                        <input type="text" name="" value="" placeholder="0" required>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
@@ -261,19 +261,19 @@
                                                                 <tr>
                                                                     <th>보안 비밀번호</th>
                                                                     <td>
-                                                                        <input type="text" name="" value="" placeholder="보안 비밀번호를 입력하세요.">
+                                                                        <input type="text" name="" value="" placeholder="보안 비밀번호를 입력하세요." required maxlength="4" minlength='4'>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <th>OTP 인증번호 입력</th>
+                                                                    <th>OTP 인증번호</th>
                                                                     <td>
-                                                                        <input type="text" name="" value="" placeholder="OTP 번호를 입력하세요.">
+                                                                        <input type="text" name="" value="" placeholder="OTP 번호를 입력하세요." required maxlength="6" minlength="6">
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
                                                                     <th>휴대폰 SNS 인증</th>
                                                                     <td>
-                                                                        <input type="text" name="" value="" placeholder="휴대폰으로 전송된 인증번호를 입력하세요.">
+                                                                        <input type="text" name="" value="" placeholder="휴대폰으로 전송된 인증번호를 입력하세요." required>
                                                                         <input type="submit" value="인증번호요청">
                                                                     </td>
                                                                 </tr>
