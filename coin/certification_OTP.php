@@ -89,15 +89,21 @@
 
                             <strong><span>1</span>. OTP앱을 스마트폰에 다운로드 받으세요.</strong>
                             <ul class="android">
-                              <li class="android_app">안드로이드 휴대폰 전용 Google OTP</li>
-                              <li><img src="img/android_app.png" alt="안드로이드구글OTP" class="android_img"></li>
-                              <li class="android_app_text">play 스토어에서 'Google OTP'를 검색하신 후 다운로드 받으세요.</li>
+                              <li class="app_title">[ 안드로이드 휴대폰 전용 Google OTP ]</li>
+                              <li class="app_text">
+                                <img src="img/android_app.png" alt="안드로이드구글OTP" class="android_img">
+                                <br/>
+                                <span>play 스토어에서 'Google OTP'를 검색하신 후 다운로드 받으세요.</span>
+                              </li>
                             </ul>
 
                             <ul class="apple">
-                              <li class="apple_app">아이폰 휴대폰 전용 Google Authenticator</li>
-                              <li><img src="img/apple_app.png" alt="애플구글OTP" class="apple_img"></li>
-                              <li class="apple_app_text">App Store에서 'Google Authenticator'를 검색하신 후 다운로드 받으세요.</li>
+                              <li class="app_title">[ 아이폰 휴대폰 전용 Google Authenticator ]</li>
+                              <li class="app_text">
+                                <img src="img/apple_app.png" alt="애플구글OTP" class="apple_img">
+                                <br/>
+                                <span>App Store에서 'Google Authenticator'를 검색하신 후 다운로드 받으세요.</span>
+                              </li>
                             </ul>
 
                         </div>
@@ -127,7 +133,8 @@
                               <input type="text" placeholder="보안코드" required class="OTP_number"><input type="button" value="보안코드 받기" class="OTP_numberbt">
                               <input type="text" placeholder="OTP번호 입력" required class="OTP_number">
                               <div id="OTP_complete">
-                                <input type="submit" name="OTP 인증완료" value="OTP 인증완료" class="OTP_complete"></span>
+                                <input type="submit" name="OTP 인증완료" value="OTP 인증완료" class="OTP_complete">
+                                <input type="button" name="취소" value="취소" class="cancel">
                               </div>
                             </form>
                           </div>
