@@ -74,17 +74,18 @@
   font-size:15px;
   font-weight:600;
 }
-.cText_left3 .android_img{
+.cText_left3 .android{
+  overflow:hidden;
+}
+.cText_left3 .android li{
   float:left;
 }
 .cText_left3 .android_app_text{
-  float:left;
   width:300px;
   margin:20px 10px;
   color:#1b2f4a;
 }
 .cText_left3 .android_app{
-  float:left;
   width:400px;
   overflow:hidden;
   margin:20px 0;
@@ -99,17 +100,18 @@
   margin-right: 7px;
   vertical-align: 2px;
 }
-.cText_left3 .apple_img{
+.cText_left3 .apple{
+  overflow:hidden;
+}
+.cText_left3 .apple li{
   float:left;
 }
 .cText_left3 .apple_app_text{
-  float:left;
   width:310px;
   margin:20px 10px;
   color:#1b2f4a;
 }
 .cText_left3 .apple_app{
-  float:left;
   width:400px;
   overflow:hidden;
   margin:20px 0;
@@ -170,26 +172,27 @@
   float:left;
 }
 .cText_right3 .OTP_codebox{
-  float:left;
+  padding:20px 0;
+  position:relative;
 }
 .cText_right3 .OTP_number{
   color:#a1a1a1;
   border:none;
   width:400px;
   border-bottom:1px solid #1b2f4a;
-  margin-top:20px;
   padding-bottom:5px;
-  float:left;
+  margin-bottom:10px;
+
 }
 .cText_right3 .OTP_numberbt{
-  font-size:11px;
+  font-size:15px;
   padding:2px;
   margin-left:5px;
   border:1px solid #1b2f4a;
   background:#fff;
-  position:relative;
+  position:absolute;
   right:20px;
-  top:-25px;
+  top:15px;
   float:right;
 }
 .cText_right3 .OTP_numberbt:hover{
@@ -197,15 +200,7 @@
   background-color:#1b2f4a;
   cursor:pointer;
 }
-.cText_right3 .OTP_number2{
-  color:#a1a1a1;
-  border:none;
-  width:400px;
-  border-bottom:1px solid #1b2f4a;
-  padding-bottom:5px;
-  overflow:hidden;
 
-}
 .cText_right3 #OTP_complete{
   text-align:center;
 }
@@ -215,7 +210,7 @@
   padding: 7px 0;
   box-sizing: border-box;
   color: #fff;
-  background-color: #666;
+  background-color: #1b2f4a;
   border-radius: 5px;
   text-align: center;
   font-size: 14px;

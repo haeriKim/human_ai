@@ -92,7 +92,6 @@
                               <li class="android_app">안드로이드 휴대폰 전용 Google OTP</li>
                               <li><img src="img/android_app.png" alt="안드로이드구글OTP" class="android_img"></li>
                               <li class="android_app_text">play 스토어에서 'Google OTP'를 검색하신 후 다운로드 받으세요.</li>
-
                             </ul>
 
                             <ul class="apple">
@@ -126,7 +125,7 @@
                           <div>
                             <form action="#" method="post" class="OTP_codebox">
                               <input type="text" placeholder="보안코드" required class="OTP_number"><input type="button" value="보안코드 받기" class="OTP_numberbt">
-                              <input type="text" placeholder="OTP번호 입력" required class="OTP_number2">
+                              <input type="text" placeholder="OTP번호 입력" required class="OTP_number">
                               <div id="OTP_complete">
                                 <input type="submit" name="OTP 인증완료" value="OTP 인증완료" class="OTP_complete"></span>
                               </div>
