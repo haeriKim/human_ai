@@ -334,7 +334,7 @@ $(document).ready(function(){
     var account = 0;
     $(".account_agree").click(function(){
       if(account==0){
-      $(".bank_complete").css({background:"#1b2f4a" cursor:"pointer"});
+      $(".bank_complete").css({background:"#1b2f4a",cursor:"pointer"});
       account=1;
       }else{
     $(".bank_complete").css({background:"#666"});
