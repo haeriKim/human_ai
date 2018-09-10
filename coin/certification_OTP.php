@@ -69,7 +69,7 @@
                             <img src="img/bankbook_off.png" alt="계좌인증 아이콘" class="account_off"/>
                             <img src="img/bankbook.png" alt="계좌인증 아이콘" class="account_on" />
                           </p>
-                          <strong class="gray_title">계좌인증</strong>
+                          <strong>계좌인증</strong>
                           <span>거래소를 이용하시 위한<br/>계좌를 인증해주요.</span>
                         </li>
                         <li>
@@ -89,15 +89,15 @@
 
                             <strong><span>1</span>. OTP앱을 스마트폰에 다운로드 받으세요.</strong>
                             <ul class="android">
-                              <li><img src="img/android_app.png" alt="안드로이드구글OTP"></li>
+                              <li><img src="img/android_app.png" alt="안드로이드구글OTP" class="android_img"></li>
                               <li class="android_app_text">play 스토어에서 'Google OTP'를 검색하신 후 다운로드 받으세요.</li>
-                              <li>안드로이드 휴대폰 Google OTP</li>
+                              <li class="android_app">안드로이드 휴대폰 Google OTP</li>
                             </ul>
 
                             <ul class="apple">
-                              <li><img src="img/apple_app.png" alt="애플구글OTP"></li>
+                              <li><img src="img/apple_app.png" alt="애플구글OTP" class="apple_img"></li>
                               <li class="apple_app_text">App Store에서 'Google Authenticator'를 검색하신 후 다운로드 받으세요.</li>
-                              <li>아이폰 휴대폰 Google Authenticator</li>
+                              <li class="apple_app">아이폰 휴대폰 Google Authenticator</li>
                             </ul>
 
                         </div>
@@ -106,12 +106,12 @@
                           <div class="qr_code">
                             <strong><span>2</span>. 다운로드 받은 앱에 QR코드를 스캔하거나 비밀키를 입력해주세요.</strong>
 
-                            <ul>
+                            <ul class="qr_code_img">
                               <li>QR 코드</li>
-                              <li><img src="img/qr_code.png" alt="qr코드"></li>
+                              <li><img src="img/qr_code.png" alt="qr코드" class="qr_code_imgbox"></li>
                             </ul>
 
-                            <ul>
+                            <ul class="qr_code_key">
                               <li>비밀키</li>
                               <li>NRSLK7JWICMZLXBAWEZ</li>
                             </ul>
@@ -119,8 +119,19 @@
                           </div>
 
                         <div class="OTP_code">
-                          <strong><span>2</span>. '2단계'완료 후 OTP 인증 앱에 표시된 인증번호(6자리)와 SMS
+                          <strong><span>3</span>. '2단계'완료 후 OTP 인증 앱에 표시된 인증번호(6자리)와 SMS
                           로 발송된 보안코드를 입력해주세요.</strong>
+
+                          <div>
+                            <ul class="OTP_codebox">
+                              <li><input type="text" placeholder="보안코드"ceholder="보안코드" class="OTP_number"><input type="button" value="보안코드 받기" class="OTP_numberbt"></li>
+                              <li><input type="text" placeholder="OTP번호 입력" class="OTP_number2"></li>
+                            </ul>
+                          </div>
+                          <div id="OTP_complete">
+                            <span class="OTP_complete">OTP 인증완료</span>
+                          </div>
+
                         </div>
 
                       </div>
