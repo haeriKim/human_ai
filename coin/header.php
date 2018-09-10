@@ -1,21 +1,46 @@
 <!-- header_wrap -->
 <div id ="header_wrap">
     <!-- header -->
-    <div class="header">
+    <div id="header">
         <!-- current_coin -->
         <div class="current_coin">
-            <ul class='bitcoin'>
-                <li><img src='' alt='비트코인캐시'><p>비트코인캐시</p></li>
-                <li><p>현재가 : <span class='coin_data_01'></span></p></li>
-                <li><p>최고가 : <span class='coin_data_02'></span></p></li>
-                <li><p>최저가 : <span class='coin_data_03'></span></p></li>
-                <li><p>거래량 : <span class='coin_data_04'></span></p></li>
-                <li><p>체결액 : <span class='coin_data_05'></span></p></li>
-            </ul>
+          <ul>
+            <li class='btc'>
+                <span>비트코인(BTC)</span>
+                <p><span class="current_pri">7,595,000</span> KRW</p>
+                <b class="up"><span class="current_per">+ 3.98</span> %</b>
+            </li>
+            <li class='bth'>
+              <span>비트코인캐시(BCH)</span>
+              <p><span class="current_pri">7,595,000</span> KRW</p>
+              <b class="down"><span class="current_per">- 3.98</span> %</b>
+            </li>
+            <li class='eth'>
+              <span>이더리움(ETH)</span>
+              <p><span class="current_pri">7,595,000</span> KRW</p>
+              <b class="up"><span class="current_per">+ 3.98</span> %</b>
+            </li>
+            <li class='etc'>
+              <span>이더리움클래식(ETC)</span>
+              <p><span class="current_pri">7,595,000</span> KRW</p>
+              <b class="down"><span class="current_per">- 3.98</span> %</b>
+            </li>
+            <li class='eos'>
+              <span>이오스(EOS)</span>
+              <p><span class="current_pri">7,595,000</span> KRW</p>
+              <b class="down"><span class="current_per">- 3.98</span> %</b>
+            </li>
+            <li class='xrp'>
+              <span>리플(XRP)</span>
+              <p><span class="current_pri">7,595,000</span> KRW</p>
+              <b class="up"><span class="current_per">+ 3.98</span> %</b>
+            </li>
+            <li class='ada'>
+              <span>에이다(ADA)</span>
+              <p><span class="current_pri">7,595,000</span> KRW</p>
+              <b class="up"><span class="current_per">+ 3.98</span> %</b>
+            </li>
+          </ul>
         </div><!-- current_coin End-->
-        <form class='join_login_part' action="#" method="post">
-            <input type="button" name="로그인" value="로그인"/>
-            <input type="button" name="회원가입" value="회원가입"/>
-        </form>
     </div> <!-- header End-->
 </div><!-- header_wrap End-->

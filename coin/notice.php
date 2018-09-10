@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content=" width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script><!--//배너 슬라이더-->
-    <title>Human&Ai</title>
+    <title>CCE</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
@@ -21,72 +21,13 @@
         <!-- container -->
         <div id="container">
 
-            <!-- nav_wrap -->
-            <div id="nav_wrap">
-                <!-- nav  -->
-                <div id="nav">
-                    <h1><a href="index.html"><img src='img/logo.png' alt='로고'></a></h1>
+          <!-- nav_wrap -->
+          <?php include "nav.php";?>
+          <!-- nav_wrap End-->
 
-                    <ul class='nav_bt'>
-                        <li><a href='login.html' class="login_bt">로그인</a><span>|&nbsp;</span><a href="#" class="join_bt">회원가입</a></li>
-                    </ul>
-
-                    <ul class='nav_list'>
-                        <li><a href='exchange.html'><img src='' alt=''>거래하기</a></li>
-                        <li><a href='#'><img src='' alt=''>차트보기</a></li>
-                        <li><a href='#'><img src='' alt=''>내자산관리</a></li>
-                        <li><a href='#'><img src='' alt=''>고객센터</a></li>
-                        <li><a href='coin_info.html'><img src='' alt=''>코인정보</a></li>
-                    </ul>
-                </div>  <!-- nav End-->
-            </div><!-- nav_wrap End-->
-
-            <!-- header_wrap -->
-            <div id ="header_wrap">
-                <!-- header -->
-                <div id="header">
-                    <!-- current_coin -->
-                    <div class="current_coin">
-                      <ul>
-                        <li class='btc'>
-                            <span>비트코인(BTC)</span>
-                            <p><span class="current_pri">7,595,000</span> KRW</p>
-                            <b class="up"><span class="current_per">+ 3.98</span> %</b>
-                        </li>
-                        <li class='bth'>
-                          <span>비트코인캐시(BCH)</span>
-                          <p><span class="current_pri">7,595,000</span> KRW</p>
-                          <b class="down"><span class="current_per">- 3.98</span> %</b>
-                        </li>
-                        <li class='eth'>
-                          <span>이더리움(ETH)</span>
-                          <p><span class="current_pri">7,595,000</span> KRW</p>
-                          <b class="up"><span class="current_per">+ 3.98</span> %</b>
-                        </li>
-                        <li class='etc'>
-                          <span>이더리움클래식(ETC)</span>
-                          <p><span class="current_pri">7,595,000</span> KRW</p>
-                          <b class="down"><span class="current_per">- 3.98</span> %</b>
-                        </li>
-                        <li class='eos'>
-                          <span>이오스(EOS)</span>
-                          <p><span class="current_pri">7,595,000</span> KRW</p>
-                          <b class="down"><span class="current_per">- 3.98</span> %</b>
-                        </li>
-                        <li class='xrp'>
-                          <span>리플(XRP)</span>
-                          <p><span class="current_pri">7,595,000</span> KRW</p>
-                          <b class="up"><span class="current_per">+ 3.98</span> %</b>
-                        </li>
-                        <li class='ada'>
-                          <span>에이다(ADA)</span>
-                          <p><span class="current_pri">7,595,000</span> KRW</p>
-                          <b class="up"><span class="current_per">+ 3.98</span> %</b>
-                        </li>
-                      </ul>
-                    </div><!-- current_coin End-->
-                </div> <!-- header End-->
-            </div><!-- header_wrap End-->
+          <!-- header_wrap -->
+          <?php include "header.php";?>
+          <!-- header_wrap End-->
 
             <!-- content_wrap -->
             <div class="content_wrap">
@@ -188,7 +129,7 @@
                               <a href="#" title="next"><img src="img/p_end.png"></a>
                           </div>
                       </div><!-- 페이징 -->
-                      
+
                     </div><!-- n_list END -->
                   </div><!--coinInfo_area End-->
 
@@ -196,27 +137,7 @@
             </div><!-- content_wrap End-->
 
             <!-- footer_wrap -->
-            <div id="footer_wrap">
-                <div id="footer">
-                    <div class="footer_menu">
-                        <ul>
-                            <li><a href="#">회사소개</a></li>
-                            <li><a href="#">개인정보처리방침</a></li>
-                            <li><a href="#">공지사항</a></li>
-                            <li><a href="#">이용안내</a></li>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">불편사항접수</a></li>
-                        </ul>
-                    </div>
-                    <div class="compnay_info">
-                        서울특별시 서초구 신반포로 326-10 305호&nbsp;&nbsp;
-                        (주)휴먼앤에이아이 &nbsp;&nbsp;
-                        대표 홍길동 &nbsp;&nbsp;
-                        사업자등록번호 <span>000-00-00000</span> &nbsp;&nbsp;
-                        Copyright@All rights reserved.
-                    </div>
-                </div><!-- footerEnd-->
-            </div>
+            <?php include "footer.php";?>
             <!-- footer_wrap End-->
 
         </div><!-- container End -->

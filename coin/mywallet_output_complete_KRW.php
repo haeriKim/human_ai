@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content=" width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script><!--//배너 슬라이더-->
-    <title>Human&Ai</title>
+    <title>CCE</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/mywallet_input_apply_KRW.css">
+    <link rel="stylesheet" href="css/mywallet_output_complete_KRW.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/common.js"></script>
@@ -21,72 +21,13 @@
         <!-- container -->
         <div id="container">
 
-            <!-- nav_wrap -->
-            <div id="nav_wrap">
-                <!-- nav  -->
-                <div id="nav">
-                    <h1><a href="index.html"><img src='img/logo.png' alt='로고'></a></h1>
+          <!-- nav_wrap -->
+          <?php include "nav.php";?>
+          <!-- nav_wrap End-->
 
-                    <ul class='nav_bt'>
-                        <li><a href='login.html' class="login_bt">로그인</a><span>|&nbsp;</span><a href="#" class="join_bt">회원가입</a></li>
-                    </ul>
-
-                    <ul class='nav_list'>
-                        <li><a href='#'><img src='' alt=''>거래하기</a></li>
-                        <li><a href='#'><img src='' alt=''>차트보기</a></li>
-                        <li class='active'><a href='#'><img src='' alt=''>내자산관리</a></li>
-                        <li><a href='#'><img src='' alt=''>고객센터</a></li>
-                        <li><a href='coin_info.html'><img src='' alt=''>코인정보</a></li>
-                    </ul>
-                </div>  <!-- nav End-->
-            </div><!-- nav_wrap End-->
-
-            <!-- header_wrap -->
-            <div id ="header_wrap">
-                <!-- header -->
-                <div id="header">
-                    <!-- current_coin -->
-                    <div class="current_coin">
-                      <ul>
-                        <li class='btc'>
-                            <span>비트코인(BTC)</span>
-                            <p><span class="current_pri">7,595,000</span> KRW</p>
-                            <b class="up"><span class="current_per">+ 3.98</span> %</b>
-                        </li>
-                        <li class='bth'>
-                          <span>비트코인캐시(BCH)</span>
-                          <p><span class="current_pri">7,595,000</span> KRW</p>
-                          <b class="down"><span class="current_per">- 3.98</span> %</b>
-                        </li>
-                        <li class='eth'>
-                          <span>이더리움(ETH)</span>
-                          <p><span class="current_pri">7,595,000</span> KRW</p>
-                          <b class="up"><span class="current_per">+ 3.98</span> %</b>
-                        </li>
-                        <li class='etc'>
-                          <span>이더리움클래식(ETC)</span>
-                          <p><span class="current_pri">7,595,000</span> KRW</p>
-                          <b class="down"><span class="current_per">- 3.98</span> %</b>
-                        </li>
-                        <li class='eos'>
-                          <span>이오스(EOS)</span>
-                          <p><span class="current_pri">7,595,000</span> KRW</p>
-                          <b class="down"><span class="current_per">- 3.98</span> %</b>
-                        </li>
-                        <li class='xrp'>
-                          <span>리플(XRP)</span>
-                          <p><span class="current_pri">7,595,000</span> KRW</p>
-                          <b class="up"><span class="current_per">+ 3.98</span> %</b>
-                        </li>
-                        <li class='ada'>
-                          <span>에이다(ADA)</span>
-                          <p><span class="current_pri">7,595,000</span> KRW</p>
-                          <b class="up"><span class="current_per">+ 3.98</span> %</b>
-                        </li>
-                      </ul>
-                    </div><!-- current_coin End-->
-                </div> <!-- header End-->
-            </div><!-- header_wrap End-->
+          <!-- header_wrap -->
+          <?php include "header.php";?>
+          <!-- header_wrap End-->
 
             <!-- content_wrap -->
             <div class="content_wrap">
@@ -224,6 +165,7 @@
                           </div><!-- deal_table_scroll End-->
                       </div><!-- con_410 End-->
 
+                      <!-- mycoin_fence -->
                     <div class="box mycoin_fence">
                   <!--coin탭태두리-->
                     <div class="mycoin_tab" id="mycoin_tab">
@@ -249,35 +191,17 @@
         <!---------------------------------------------------------------------------------------------------------------------------------------------->
                                     <!-- #tab3 입출금-->
                                     <div id="tab3" class="tab_content">
-                                        <!--tab2_header-->
-                                        <div class="tab3_header">
-                                          <ul class="tabs3">
-                                            <li class="active2 input_KRW_btn" rel="input_KRW">입금</li>
-                                            <li class="output_KRW_btn" rel="output_KRW">출금</li>
-                                            <li class="input_output_history_btn" rel="input_output">입출금내역</li>
-                                          </ul>
-                                        </div><!--tab3_header End-->
-                                        <!-- input_KRW -->
-                                        <div id='input_KRW' class='input_KRW'>
-                                            <p class='recharge_coin'>원화(KRW) 입금</p>
-                                            <div class="my_coin_state">
-                                                <ul>
-                                                    <li class='my_coin_li_01'>
-                                                        <p class='my_coin_state_title'>보유금액</p>
-                                                        <p class='up_down_data my_coin_state_amount'>0<span>KRW</span></p>
-                                                    </li>
-                                                    <li>
-                                                        <p class='my_coin_state_title'>출금가능</p>
-                                                        <p class='up_down_data my_coin_state_amount'>0<span>KRW</span></p>
-                                                    </li>
-                                                </ul>
-                                            </div>
+                                        <!-- input_KRW_complete -->
+                                        <div id='input_KRW_complete' class='input_KRW_complete'>
+                                            <p class='complete_paragraph'>출금신청이 완료되었습니다.</p>
+
                                             <form class="" action="#" method="post">
                                                 <!-- account_table_wrap -->
                                                 <div class="account_table_wrap">
                                                     <!-- send_account -->
                                                     <div class="send_account">
-                                                        <p>입금할 은행 계좌정보</p>
+                                                        <p>출금될 은행 계좌정보</p>
+                                                        <!-- left_thick_table -->
                                                         <table class='left_thick_table'>
                                                             <tbody>
                                                                 <tr>
@@ -290,109 +214,36 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <th>예금주</th>
-                                                                    <td>(주)코인거래소</td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div><!-- send_account End-->
-                                                    <!-- your_account -->
-                                                    <div class="your_account">
-                                                        <p>등록한 은행 계좌정보</p>
-                                                        <table class='left_thick_table'>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <th>은행</th>
-                                                                    <td>○○은행</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <th>계좌번호</th>
-                                                                    <td>1234-<span class='no_look'>567-8910</span>-11-123</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <th>예금주</th>
                                                                     <td>가나다</td>
                                                                 </tr>
+                                                                <tr>
+                                                                    <th>출금날짜</th>
+                                                                    <td>2018-09-06</td>
+                                                                </tr>
                                                             </tbody>
-                                                        </table>
-                                                    </div><!-- your_account End-->
+                                                        </table><!-- left_thick_table End-->
+                                                    </div><!-- send_account End-->
                                                 </div><!-- account_table_wrap End-->
 
                                                 <div class="send_info_01">
-                                                    <p>입금자명</p>
-                                                    <span class='temporary_name'>가나다1234</span>
-                                                    <span class='caution'>반드시 발급된 입금자명으로 입금해주세요</span>
+                                                    <p class='input_money'>출금금액</p>
+                                                    <p class='money_account'>11,000,000<span>KRW</span></p>
                                                 </div>
-
-                                                <div class="send_info_02">
-                                                    <label for="send_money">입금금액</label>
-                                                    <input type="text" name="send_money" id='send_money' placeholder="0" required>
-                                                        <span class='unit_KRW_fixed'>KRW</span>
-                                                    </input>
-                                                    <span class='caution'>최소 입금 금액 : 5,000원</span>
-                                                    <span class='caution sub_02'>입금 수수료 : 무료</span>
-                                                    <span class='caution'>최대 입금 금액 : 무제한</span>
-                                                    <span class='caution sub_04'>최초 입금 후 출금시간 : 72시간</span>
+                                                <div class="button_group">
+                                                    <input type="submit" name="submit" value="출금 내역보기" class='look_input_output_list button_style'/>
                                                 </div>
-
-                                                <!-- before_send_money_wrap -->
-                                                <div class="before_send_money_wrap">
-                                                    <p>입금신청 주의사항</p>
-                                                    <div class="checkbox_list">
-                                                        <input type="checkbox" id='number_01' class="agree_check">
-                                                        <label for='number_01'>토스, 카카오페이, 폰뱅킹으로는 입금하지 않습니다.</label>
-                                                        <input type="checkbox" id='number_02' class="agree_check">
-                                                        <label for='number_02'>입금금액과 충전요청 금액이 동일합니다.</label>
-                                                        <input type="checkbox" id='number_03' class="agree_check">
-                                                        <label for='number_03'>환금계좌로 등록한 나의 은행계좌에서 입금합니다.</label>
-                                                        <input type="checkbox" id='number_04' class="agree_check">
-                                                        <label for='number_04'>위사항 미준수 시 환급은 주말/휴일 제외 1주일 이상 걸림을 알고 있습니다.</label>
-                                                        <input type="checkbox" id='number_05' class="agree_check">
-                                                        <label for='number_05'>원화 입금 후 첫 출금은 주말 제외 72시간 이후 가능함을 알고 있습니다.</label>
-
-                                                        <input type="checkbox" id='number_06' class="allAgree">
-                                                        <label for='number_06' class='all_agree'>위의 입금시 주의사항에 모두 동의합니다.</label>
-                                                        <p id="malpungsun">입금시 주의사항에 모두 동의해주셔야 입금신청이 진행됩니다.</p>
-                                                    </div>
-
-                                                    <div class="cancel_or_apply">
-                                                        <input type="reset" name="reset" value="취소" class='cancel_btn'/>
-                                                        <span class='agree_btn if_you_not_all_agree'>입금신청</span>
-                                                        <input type="submit" name="submit" value="입금신청" class='agree_btn if_you_all_agree'/>
-                                                    </div>
-
-                                                </div><!-- before_send_money_wrap End-->
                                             </form>
-                                        </div><!-- input_KRW End-->
+                                        </div><!-- input_KRW_complete End-->
 
                                     </div><!--#tab3 입출금 End-->
                                </div><!--mycointab_container End-->
-                        </div>
+                        </div>  <!-- mycoin_fence End-->
                   </div><!-- mycoin_content End-->
               </div><!-- content_wrap End-->
 
-            <!-- footer_wrap -->
-            <div id="footer_wrap">
-                <div id="footer">
-                    <div class="footer_menu">
-                        <ul>
-                            <li><a href="#">회사소개</a></li>
-                            <li><a href="#">개인정보처리방침</a></li>
-                            <li><a href="notice.html">공지사항</a></li>
-                            <li><a href="#">이용안내</a></li>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">불편사항접수</a></li>
-                        </ul>
-                    </div>
-                    <div class="compnay_info">
-                        서울특별시 서초구 신반포로 326-10 305호&nbsp;&nbsp;
-                        (주)휴먼앤에이아이 &nbsp;&nbsp;
-                        대표 홍길동 &nbsp;&nbsp;
-                        사업자등록번호 <span>000-00-00000</span> &nbsp;&nbsp;
-                        Copyright@All rights reserved.
-                    </div>
-                </div><!-- footerEnd-->
-            </div>
-            <!-- footer_wrap End-->
+              <!-- footer_wrap -->
+              <?php include "footer.php";?>
+              <!-- footer_wrap End-->
 
         </div><!-- container End -->
     </div><!-- wrap End -->
