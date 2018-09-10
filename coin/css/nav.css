@@ -8,45 +8,140 @@
   background-color:#1b2f4a;
   z-index:7;
   box-shadow: 0 15px 15px rgba(100,100,100,0.7);
-  }
-
+}
+#nav h1 a {
+  display: inline-block;
+}
 #nav h1 img{
   width:60%;
   padding:30px;
-  }
+}
 
+#nav .login_info {
+  background-color: rgba(255,255,255,.2);
+  width: 130px;
+  height: 25px;
+  line-height: 26px;
+  margin: 0 auto;
+  border-radius: 15px;
+  margin-bottom: 7px;
+  color: #fff;
+  text-align: center;
+}
+
+/* 알림영역 */
+#nav .login_info .alarmArea {
+  display: inline-block;
+  position: relative;
+}
+#nav .login_info .alarmArea img {
+  vertical-align: -2px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+#nav .login_info .alarmArea .alarmNum{
+  display: block;
+  width: 12px;
+  height: 12px;
+  line-height: 9px;
+  font-size: 10px;
+  background-color: #EF0403;
+  border-radius: 50%;
+  position: absolute;
+  top: 4px;
+  right: -6px;
+}
+#nav .login_info .alarmArea .alarm_desc{
+    display:none;
+    width: 450px;
+    padding: 20px 30px;
+    z-index: 5;
+    color: #666;
+    text-align: left;
+    position: absolute;
+    top: -25px;
+    left: 75px;
+}
+#nav .login_info .alarmArea .alarm_desc:after {
+  content: "";
+  position: absolute;
+  top: 6%;
+  left: -7%;
+  border-width: 17px;
+  border-style: solid;
+  border-color: transparent #fff transparent transparent;
+}
+#nav .login_info .alarmArea .alarm_desc dt {
+  text-align: center;
+  color: #1b2f4a;
+  font-weight: 600;
+  border-bottom: 2px solid #1b2f4a;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+#nav .login_info .alarmArea .alarm_desc dd {
+  font-size: 15px;
+  height: 35px;
+  line-height: 14px;
+  font-weight: 600;
+}
+#nav .login_info .alarmArea .alarm_desc dd .alarmType::before {
+  content: '';
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #1b2f4a;
+  vertical-align: 2px;
+  margin-right: 3px;
+}
+#nav .login_info .alarmArea .alarm_desc dd a {
+  display: inline-block;
+  width: 65%;
+  color: #666;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin: 0 5px;
+}
+#nav .login_info .alarmArea .alarm_desc dd .alarmTime {
+  width: 10%
+}
+#nav .login_info .alarmArea .alarm_desc .alarm_r {
+  color: #ff2323
+}
+#nav .login_info .alarmArea .alarm_desc .alarm_b{
+  color: #002dae;
+}
+#nav .login_info .alarmArea .alarm_desc dd .delete {
+  width: 5%;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  float: right;
+
+}
+#nav .login_info .alarmArea .alarm_desc .alarAllBtn {
+  display: block;
+  color: #c95b74;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 600;
+}
 .nav_bt{
   padding-bottom:20px;
   border-bottom:1px solid #495a6e;
-  height:30px;
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
 }
-
+.nav_bt a {
+  color: #fff;
+}
 .nav_bt span{
-  color:#fff;
-  float:left;
+  padding: 0 7px;
 }
-
-.nav_bt .login_bt{
-  width:86px;
-  height:30px;
-  display:block;
-  text-align:center;
-  line-height:1.8em;
-  color:#fff;
-  float:left;
-}
-
-.nav_bt .join_bt{
-  width:86px;
-  height:30px;
-  display:block;
-  text-align:center;
-  line-height:1.8em;
-  color:#fff;
-  float:left;
-  overflow:hidden;
-}
-
+/* 네비게이션 메뉴 영역 */
 .nav_list li{
   width:190px;
   height:80px;
@@ -55,6 +150,7 @@
   line-height:4.5em;
   font-size:18px;
   font-weight:600;
+  letter-spacing: 0.8px;
 }
 .nav_list li:hover {
   background: linear-gradient(to left, #4C5D71,#1b2f4a 35%);

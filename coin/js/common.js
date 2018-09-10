@@ -255,6 +255,30 @@ $(document).ready(function(){
       $("#malpungsun").show();
   });
 });
+
+//알림버튼 클릭
+$(document).ready(function(){
+  var alarmF = 0;
+  $(".alarmBtn").click(function(){
+    console.log("FDfd")
+      if(alarmF===0){
+          $(".alarm_desc").show();
+          alarmF = 1;
+      }else{
+          $(".alarm_desc").hide();
+          alarmF = 0;
+      }
+  });
+  //알림영역 이외 클릭시 알림 상세 창 닫기
+  $("body").click(function (e) {
+      if (!$(".alarm_desc,.alarmArea").has(e.target).length) {
+          $(".alarm_desc").hide();
+          alarmF = 0;
+      }
+  });
+});
+
+
 /*fixed_menu 플로팅메뉴*/
 
 /*$(function(){
