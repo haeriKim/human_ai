@@ -66,21 +66,21 @@
   color:#fff;
 }
 
-/*원화입금*/
+/*비트코인출금*/
 #output_bitcoin{
     width: 800px;
 }
-#output_bitcoin div.my_coin_state ul li.my_coin_li_02{
-    border:1px solid red;
-}
-#output_bitcoin div.my_coin_state ul li.my_coin_li_02 ul{
-    border:1px solid red;
-}
-#output_bitcoin div.my_coin_state ul li.my_coin_li_02 ul li{
-    border:1px solid red;
-}
 #output_bitcoin div.account_table_wrap{
     overflow: hidden;
+}
+#output_bitcoin div.my_coin_state ul li.my_coin_li_01{
+    border: 1px solid red;
+}
+#output_bitcoin div.my_coin_state ul li.my_coin_li_02{
+    border:none;
+}
+#output_bitcoin div.my_coin_state ul li.my_coin_li_03{
+    border: 1px solid red;
 }
 #output_bitcoin div.account_table_wrap > div{
     float: left;

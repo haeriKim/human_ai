@@ -202,22 +202,18 @@
                                         <div id='output_bitcoin' class='output_bitcoin'>
                                             <p class='recharge_coin'>비트코인(BTC) 출금</p>
                                             <div class="my_coin_state">
-                                                <ul>
+                                                <ul class='my_coin_ul'>
                                                     <li class='my_coin_li_01'>
                                                         <p class='my_coin_state_title'>보유금액</p>
                                                         <p class='up_down_data my_coin_state_amount'>750<span>BTC</span></p>
                                                     </li>
                                                     <li class='my_coin_li_02'>
-                                                        <ul>
-                                                            <li>
-                                                                <p class='my_coin_state_title'>거래대기</p>
-                                                                <p class='up_down_data my_coin_state_amount'>100<span>BTC</span></p>
-                                                            </li>
-                                                            <li>
-                                                                <p class='my_coin_state_title'>출금가능</p>
-                                                                <p class='up_down_data my_coin_state_amount'>100<span>BTC</span></p>
-                                                            </li>
-                                                        </ul>
+                                                        <p class='my_coin_state_title'>거래대기</p>
+                                                        <p class='up_down_data my_coin_state_amount'>100<span>BTC</span></p>
+                                                    </li>
+                                                    <li class='my_coin_li_03'>
+                                                        <p class='my_coin_state_title'>출금가능</p>
+                                                        <p class='up_down_data my_coin_state_amount'>100<span>BTC</span></p>
                                                     </li>
                                                 </ul>
                                             </div>
