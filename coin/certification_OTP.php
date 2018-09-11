@@ -134,7 +134,7 @@
                               <input type="text" placeholder="OTP번호 입력" required class="OTP_number">
                               <div id="OTP_complete">
                                 <a href="certification.php">
-                                  <input type="button" name="취소" value="취소" class="cancel"/>
+                                  <input type="button" name="취소" value="취소" class="cancel" onclick="location.href='certification.php'"/>
                                 </a>
 
                                   <input type="submit" name="OTP 인증완료" value="OTP 인증완료" class="OTP_complete"/>

@@ -111,7 +111,7 @@
                               <li>은행명</li>
                               <li>계좌번호</li>
                             </ul>
-
+                            <form action="#" method="post">
                             <ul class="bank_inner">
                               <li>
                                 <select name="bankselect" id="bankselect">
@@ -123,19 +123,20 @@
                                 </select>
                               </li>
 
-                              <li><input type="text" placeholder="숫자만 입력해주세요." class="account_number"></li>
+                              <li><input type="text" placeholder="숫자만 입력해주세요." required class="account_number" ></li>
                             </ul>
+
                           </div>
                             <p>※ 본인명의 계좌만 등록 가능</p>
                             <div id="bank_complete">
-                              <a href='certification.php'>
-                                <input type="button" name="취소" value="취소" class="bank_cancel">
-                              </a>
 
-                              <a href='certification_OTP.php'>
-                                <input type="submit" name="등록완료" value="등록완료" class="account_complete"/>
-                              </a>
-                          </div>
+
+                                <input type="button" name="취소" value="취소" onclick="location.href='certification.php'" class="bank_cancel">
+
+                                <input type="submit" name="등록완료" value="등록완료" class="account_complete" />
+
+                            </div>
+                            </form>
                         </div>
 
                       </div>
