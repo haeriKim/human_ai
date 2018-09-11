@@ -208,8 +208,10 @@
                                                         <p class='up_down_data my_coin_state_amount'>750<span>BTC</span></p>
                                                     </li>
                                                     <li class='my_coin_li_02'>
-                                                        <p class='my_coin_state_title'>거래대기</p>
-                                                        <p class='up_down_data my_coin_state_amount'>100<span>BTC</span></p>
+                                                        <div class="">
+                                                            <p class='my_coin_state_title'>거래대기</p>
+                                                            <p class='up_down_data my_coin_state_amount'>100<span>BTC</span></p>
+                                                        </div>
                                                     </li>
                                                     <li class='my_coin_li_03'>
                                                         <p class='my_coin_state_title'>출금가능</p>
@@ -227,19 +229,15 @@
                                                             <tbody>
                                                                 <tr>
                                                                     <th>1회 출금한도</th>
-                                                                    <td>1 BTC</td>
+                                                                    <td class='emphasis'>1 BTC</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <th>나의 잔여한도</th>
                                                                     <td>3,000 KRW</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <th>예금주</th>
-                                                                    <td>가나다</td>
-                                                                </tr>
-                                                                <tr>
                                                                     <th>나의 비트코인 주소</th>
-                                                                    <td><span class='up_down_data temporary_address'>asdlkjlqkweli@o1231234</span></td>
+                                                                    <td><span class='up_down_data temporary_address'>asdlkjlqkwasdasdeli@oasdasd1231234</span></td>
                                                                 </tr>
                                                                 <tr>
                                                                     <th>비트코인 출금 주소</th>
@@ -257,7 +255,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <th>출금 수수료</th>
-                                                                    <td>0.0005 BTC</td>
+                                                                    <td class='emphasis'>0.0005 BTC</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <th>실제 출금금액</th>
@@ -285,7 +283,7 @@
                                                     <p>출금신청 주의사항</p>
                                                     <div class="checkbox_list">
                                                         <input type="checkbox" id='number_01' class="agree_check">
-                                                        <label for='number_01'>전자지감으로부터 외부 전자지갑으로 암호화폐를 출금합니다.</label>
+                                                        <label for='number_01'>전자지갑으로부터 외부 전자지갑으로 암호화폐를 출금합니다.</label>
                                                         <input type="checkbox" id='number_02' class="agree_check">
                                                         <label for='number_02'>전송 이후의 과정은 블록체인 네트워크에서 자동으로 처리됩니다.</label>
                                                         <input type="checkbox" id='number_03' class="agree_check">

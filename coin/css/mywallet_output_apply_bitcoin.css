@@ -73,14 +73,32 @@
 #output_bitcoin div.account_table_wrap{
     overflow: hidden;
 }
+#output_bitcoin div.my_coin_state ul li{
+    position: relative;
+}
+#output_bitcoin div.my_coin_state ul li p.my_coin_state_amount {
+    position: absolute;
+    bottom: 7px;
+    right: 7px;
+}
 #output_bitcoin div.my_coin_state ul li.my_coin_li_01{
-    border: 1px solid red;
+    height: 111px;
 }
-#output_bitcoin div.my_coin_state ul li.my_coin_li_02{
-    border:none;
+#output_bitcoin div.my_coin_state ul li.my_coin_li_01 p.my_coin_state_title{
+    font-size: 18px;
+    margin: 0 5px;
 }
+#output_bitcoin div.my_coin_state ul li.my_coin_li_01 p.my_coin_state_amount{
+    font-size: 25px;
+}
+#output_bitcoin div.my_coin_state ul li.my_coin_li_02,
 #output_bitcoin div.my_coin_state ul li.my_coin_li_03{
-    border: 1px solid red;
+    height: 45px;
+}
+#output_bitcoin div.my_coin_state ul li.my_coin_li_02 div{
+    border-bottom: 1px solid rgba(27,47,74,.2);
+    width: 100%;
+    padding-bottom: 35px;
 }
 #output_bitcoin div.account_table_wrap > div{
     float: left;
@@ -98,26 +116,25 @@
 }
 #output_bitcoin .left_thick_table tbody th{
     padding: 10px 20px 10px 16px;
-    font-size:15px;
+    font-size: 15px;
 }
 #output_bitcoin .left_thick_table tbody td{
-    width: 600px;
+    width: 590px;
     font-size: 15px;
 }
 #output_bitcoin table.left_thick_table tbody p{
     display: inline-block;
     width: 300px;
 }
-#output_bitcoin table.left_thick_table tbody input[type='submit']{
+#output_bitcoin table.left_thick_table tbody input[type='button']{
     border: 1px solid #1b2f4a;
     background: #fff;
     color: #1b2f4a;
     padding: 3px 5px;
     cursor: pointer;
-    margin-left: 5px;
     font-size:15px;
 }
-#output_bitcoin table.left_thick_table tbody input[type='submit']:hover{
+#output_bitcoin table.left_thick_table tbody input[type='button']:hover{
     border: 1px solid #1b2f4a;
     background: #1b2f4a;
     color: #fff;
@@ -134,6 +151,20 @@
 #output_bitcoin table.left_thick_table tbody input::placeholder{
     color:#a1a1a1;
     font-size:14px;
+}
+#output_bitcoin table.left_thick_table .emphasis{
+    color: #666;
+    font-weight: 600;
+}
+#output_bitcoin table.left_thick_table .reality_won{
+    color: #ff2323;
+    font-weight: 600;
+}
+#output_bitcoin table.left_thick_table .temporary_address{
+    color: #666;
+    font-weight: 600;
+    background: #f4f5f9;
+    padding: 5px 12px;
 }
 #output_bitcoin div.before_send_money_wrap{
     margin-left: 12px;
