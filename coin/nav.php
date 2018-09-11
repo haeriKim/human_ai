@@ -18,37 +18,37 @@
                         <span class="alarmType alarm_r">입금</span>
                         <a href="" >master678님이 회원님에게 300BTC를 입금하셨습니다.</a>
                         <span class="alarmTime">5초전</span>
-                        <input type="button" value="X" class="delete"/>
+                        <input type="button" class="delete"/>
                       </dd>
                       <dd>
                         <span class="alarmType alarm_b">출금</span>
                         <a href="" >100,0000KRW를 출금되었습니다.</a>
                         <span class="alarmTime">15분전</span>
-                          <input type="button" value="X" class="delete"/>
+                          <input type="button" class="delete"/>
                       </dd>
                       <dd>
                         <span class="alarmType alarm_r">매수</span>
                         <a href="" >500BTC를 매수하였습니다.</a>
                         <span class="alarmTime">30분전</span>
-                          <input type="button" value="X" class="delete"/>
+                          <input type="button" class="delete"/>
                       </dd>
                       <dd>
                         <span class="alarmType alarm_b">출금</span>
                         <a href="" >300BTC가 출금되었습니다.</a>
                         <span class="alarmTime">1시간전</span>
-                          <input type="button" value="X" class="delete"/>
+                          <input type="button" class="delete"/>
                       </dd>
                       <dd>
                         <span class="alarmType alarm_b">매도</span>
                         <a href="" >master678님이 회원님에게 300BTC를 송금하셨습니다.</a>
                         <span class="alarmTime">5시간전</span>
-                        <input type="button" value="X" class="delete"/>
+                        <input type="button" class="delete"/>
                       </dd>
                       <dd>
                         <span class="alarmType alarm_r">매수</span>
                         <a href="" >master678님이 회원님에게 300BTC를 송금하셨습니다.</a>
                         <span class="alarmTime">1일전</span>
-                        <input type="button" value="X" class="delete"/>
+                        <input type="button" class="delete"/>
                       </dd>
                   </dl>
                   <a class="alarAllBtn" href="" title="알림전체보기">알림전체보기</a>
