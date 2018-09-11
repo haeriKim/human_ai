@@ -63,9 +63,19 @@
                       <img src="img/bitcoin_big.png" alt="비트코인아이콘" class="bitcoin_icon">
                   </div>
                   <ul>
-                    <li><span><strong>비트코인</strong><b class="coin_word">BTC/KRW</b></span></li>
-                    <li><span class="price">7,400,000<b class="won">KRW</b></span></li>
-                    <li class="coin_prepare"><b>전일대비</b><span class="prepare">-0.31%</span><span class="updownarrow">▼23,000</span></li>
+                    <li>
+                        <strong>비트코인</strong>
+                        <b class="coin_word">BTC/KRW</b>
+                    </li>
+                    <li>
+                      <span class="price">7,400,000<b class="won">KRW</b>
+                      </span>
+                    </li>
+                    <li class="coin_prepare">
+                      <strong>전일대비</strong>
+                      <span class="prepare"><b>-0.31</b>%</span>
+                      <span class="updownarrow"><b class="ud">▼</b>23,000</span>
+                    </li>
                   </ul>
                   <span class="question">&#63;</span>
                 </div>
@@ -87,11 +97,11 @@
 
                   <li class="hl_volume">
                     <span class="hl_title">거래량<small>(24H)</small></span>
-                      <p><span class="volume">3,225.800</span><b class="BTC">BTC</b></p>
+                      <p><span class="volume">3,225.800</span><b class="unit btc">BTC</b></p>
                   </li>
                   <li class="hl_volume">
                     <span class="hl_title">거래대금<small>(24H)</small></span>
-                      <p><span class="volume">23,800,800,800</span><b class="won">KRW</b></p>
+                      <p><span class="volume">23,800,800,800</span><b class="unit won">KRW</b></p>
                   </li>
 
                 </ul>
