@@ -193,9 +193,9 @@
                                         <!--tab2_header-->
                                         <div class="tab3_header">
                                           <ul class="tabs3">
-                                            <li class="input_KRW_btn" rel="input_KRW">입금</li>
-                                            <li class="active2 output_KRW_btn" rel="output_KRW">출금</li>
-                                            <li class="input_output_history_btn" rel="input_output">입출금내역</li>
+                                              <li class="input_KRW_btn" rel="input_bitcoin"><a href='mywallet_input_apply_bitcoin.php'>입금</a></li>
+                                              <li class="active2 output_KRW_btn" rel="output_bitcoin"><a href='#'>출금</a></li>
+                                              <li class="input_output_history_btn" rel="input_output"><a href='#'>입출금내역</a></li>
                                           </ul>
                                         </div><!--tab3_header End-->
                                         <!-- output_bitcoin -->

@@ -37,189 +37,115 @@
   overflow: hidden;
 }
 
-/*tab3*/
-.tab3_header {
-  overflow: hidden;
-  margin-bottom: 30px;
-}
-.tab3_header ul{
-  float:left;
-}
-.tab3_header ul li{
-  float:left;
-  width:150px;
-  border-radius:5px;
-  font-size:15px;
-  text-align:center;
-  padding:10px 0;
-  font-weight:600;
-  cursor:pointer;
-  border:1px solid #1b2f4a;
-  color:#1b2f4a;
-}
-.tab3_header ul li + li {
-  margin-left: 20px;
-}
-.tab3_header ul li.active2{
-  border:1px solid #1b2f4a;
-  background-color:#1b2f4a;
-  color:#fff;
-}
-
 /*비트코인출금*/
-#output_bitcoin{
+#input_bitcoin{
     width: 800px;
 }
-#output_bitcoin div.account_table_wrap{
-    overflow: hidden;
-}
-#output_bitcoin div.my_coin_state ul li{
+#input_bitcoin div.my_coin_state ul li{
     position: relative;
 }
-#output_bitcoin div.my_coin_state ul li p.my_coin_state_amount {
+#input_bitcoin div.my_coin_state ul li p.my_coin_state_amount {
     position: absolute;
     bottom: 7px;
     right: 7px;
 }
-#output_bitcoin div.my_coin_state ul li.my_coin_li_01{
+#input_bitcoin div.my_coin_state ul li.my_coin_li_01{
     height: 111px;
 }
-#output_bitcoin div.my_coin_state ul li.my_coin_li_01 p.my_coin_state_title{
+#input_bitcoin div.my_coin_state ul li.my_coin_li_01 p.my_coin_state_title{
     font-size: 18px;
     margin: 0 5px;
 }
-#output_bitcoin div.my_coin_state ul li.my_coin_li_01 p.my_coin_state_amount{
+#input_bitcoin div.my_coin_state ul li.my_coin_li_01 p.my_coin_state_amount{
     font-size: 25px;
 }
-#output_bitcoin div.my_coin_state ul li.my_coin_li_02,
-#output_bitcoin div.my_coin_state ul li.my_coin_li_03{
+#input_bitcoin div.my_coin_state ul li.my_coin_li_02,
+#input_bitcoin div.my_coin_state ul li.my_coin_li_03{
     height: 45px;
 }
-#output_bitcoin div.my_coin_state ul li.my_coin_li_02 div{
+#input_bitcoin div.my_coin_state ul li.my_coin_li_02 div{
     border-bottom: 1px solid rgba(27,47,74,.2);
     width: 100%;
     padding-bottom: 35px;
 }
-#output_bitcoin div.account_table_wrap > div{
-    float: left;
-    margin-left: 12px;
-    margin-bottom: 15px;
+#input_bitcoin div.BTC_input_address_wrap,
+#input_bitcoin div.before_send_money_wrap{
+    padding-left: 10px;
 }
-#output_bitcoin div.account_table_wrap > div > p{
+#input_bitcoin div.BTC_input_address_wrap > div{
+    margin-top: 16px;
+    padding: 15px 0;
+    margin-bottom: 15px;
+    border-top: 2px solid #1b2f4a;
+    padding-left: 16px;
+    border-bottom: 1px solid #efefef;
+}
+#input_bitcoin div.BTC_input_address_wrap > p{
     color: #1b2f4a;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     font-size:16px;
 }
-#output_bitcoin .left_thick_table tbody tr{
-    height: 45px;
+#input_bitcoin div.my_coin_address{
+    position: relative;
 }
-#output_bitcoin .left_thick_table tbody th{
-    padding: 10px 20px 10px 16px;
-    font-size: 15px;
+#input_bitcoin div.BTC_input_address_wrap > span{
+    font-size: 14px;
 }
-#output_bitcoin .left_thick_table tbody td{
-    width: 590px;
-    font-size: 15px;
+#input_bitcoin div.BTC_input_address_wrap img{
+    position: absolute;
+    top: 24px;
+    right: 93px;
+    width: 100px;
 }
-#output_bitcoin table.left_thick_table tbody p{
-    display: inline-block;
-    width: 300px;
-}
-#output_bitcoin table.left_thick_table tbody input[type='button']{
-    border: 1px solid #1b2f4a;
-    background: #fff;
-    color: #1b2f4a;
-    padding: 3px 5px;
-    cursor: pointer;
-    font-size:15px;
-}
-#output_bitcoin table.left_thick_table tbody input[type='button']:hover{
+#input_bitcoin div.BTC_input_address_wrap input[type='button']{
     border: 1px solid #1b2f4a;
     background: #1b2f4a;
     color: #fff;
-    padding: 3px 5px;
+    padding: 5px 25px;
     cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+    display: block;
+    margin: 5px 0;
+    font-weight: 600;
 }
-#output_bitcoin table.left_thick_table tbody input[type='text']{
-    border: none;
-    border-bottom: 1px solid #1b2f4a;
-    width: 300px;
-    padding-bottom: 4px;
-    font-size:15px;
-}
-#output_bitcoin table.left_thick_table tbody input::placeholder{
-    color:#a1a1a1;
-    font-size:14px;
-}
-#output_bitcoin table.left_thick_table .emphasis{
+#input_bitcoin div.BTC_input_address_wrap .emphasis{
     color: #666;
     font-weight: 600;
+    font-size: 15px;
+    margin: 5px 0;
 }
-#output_bitcoin table.left_thick_table .reality_won{
-    color: #ff2323;
-    font-weight: 600;
-}
-#output_bitcoin table.left_thick_table .temporary_address{
+#input_bitcoin div.BTC_input_address_wrap .temporary_address{
     color: #666;
     font-weight: 600;
     background: #f4f5f9;
     padding: 5px 12px;
+    display: inline-block;
+    margin: 5px 0;
+    font-size: 15px;
 }
-#output_bitcoin div.before_send_money_wrap{
-    margin-left: 12px;
+#input_bitcoin div.before_send_money_wrap{
     margin-top: 50px;
 }
-#output_bitcoin div.before_send_money_wrap p{
+#input_bitcoin div.before_send_money_wrap > p{
     color: #1b2f4a;
     font-weight: 600;
     margin-bottom: 12px;
     border-bottom: 2px solid #1b2f4a;
     padding-bottom: 8px;
 }
-#output_bitcoin div.before_send_money_wrap label{
-    display: block;
-    padding-left: 25px;
+#input_bitcoin div.before_send_money_wrap .warning_notice_list{
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 12px;
+}
+#input_bitcoin div.before_send_money_wrap .warning_notice_list p{
+    padding: 0px 33px 0 16px;
     margin-bottom: 3px;
     font-size: 13px;
     color: #666;
     font-weight: 600;
-}
-#output_bitcoin div.before_send_money_wrap label.all_agree{
-    padding-top: 20px;
-    border-top: 1px solid #efefef;
-    margin: 16px 0 25px 0;
-}
-#output_bitcoin div.before_send_money_wrap .cancel_or_apply{
-    text-align: center;
-}
-#output_bitcoin div.before_send_money_wrap .cancel_btn{
-    background: #fff;
-    border: 1px solid #1b2f4a;
-    border-radius: 5px;
-    padding: 7px 30px;
-    color: #1b2f4a;
-    font-weight: 600;
-    margin-left: 20px;
-    font-size: 16px;
-    cursor: pointer;
-}
-#output_bitcoin div.before_send_money_wrap .agree_btn {
-  border-radius: 5px;
-  padding: 7px 30px;
-  color: #fff;
-  font-weight: 600;
-  font-size: 16px;
-  box-sizing: border-box;
-}
-#output_bitcoin div.before_send_money_wrap .if_you_not_all_agree{
-    border: 1px solid #666;
-    background-color: #666;
-}
-#output_bitcoin div.before_send_money_wrap .if_you_all_agree{
-  border: 1px solid #1b2f4a;
-  background-color: #1b2f4a;
-  cursor: pointer;
+    line-height: 1.6;
 }
 
   /*보유코인 콘텐츠 시작*/
@@ -248,7 +174,6 @@
   #mywallet_havecoin table{
       font-size:13px;
   }
-
   #mywallet_havecoin thead tr{
       height: 35px;
       color:#666;
@@ -260,14 +185,8 @@
       padding-left: 38px;
       text-align: left;
   }
-  #mywallet_havecoin thead th.coin_portion{
-
-  }
   #mywallet_havecoin thead th.coin_condition{
       padding-left: 49px;
-  }
-  #mywallet_havecoin thead th.coin_amount{
-
   }
   #mywallet_havecoin tbody img{
       float: left;
