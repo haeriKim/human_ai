@@ -71,6 +71,11 @@
 .center_bottom .cText_left3 strong span{
   font-size:25px;
 }
+.cText_left3 .android{
+  border-bottom:1px solid #cdcdcd;
+  padding-bottom:20px;
+
+}
 .cText_left3 li.app_title{
   width:400px;
   overflow:hidden;
@@ -84,7 +89,7 @@
 }
 
 .cText_left3 li.app_text img{
-  border: 1px solid #999;
+
   padding: 10px;
   float: left;
 }
