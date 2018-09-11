@@ -63,19 +63,9 @@
                       <img src="img/bitcoin_big.png" alt="비트코인아이콘" class="bitcoin_icon">
                   </div>
                   <ul>
-                    <li>
-                        <strong>비트코인</strong>
-                        <b class="coin_word">BTC/KRW</b>
-                    </li>
-                    <li>
-                      <span class="price">7,400,000<b class="won">KRW</b>
-                      </span>
-                    </li>
-                    <li class="coin_prepare">
-                      <strong>전일대비</strong>
-                      <span class="prepare"><b>-0.31</b>%</span>
-                      <span class="updownarrow"><b class="ud">▼</b>23,000</span>
-                    </li>
+                    <li><span><strong>비트코인</strong><b class="coin_word">BTC/KRW</b></span></li>
+                    <li><span class="price">7,400,000<b class="won">KRW</b></span></li>
+                    <li class="coin_prepare"><b>전일대비</b><span class="prepare">-0.31%</span><span class="updownarrow">▼23,000</span></li>
                   </ul>
                   <span class="question">&#63;</span>
                 </div>
@@ -97,11 +87,11 @@
 
                   <li class="hl_volume">
                     <span class="hl_title">거래량<small>(24H)</small></span>
-                      <p><span class="volume">3,225.800</span><b class="unit btc">BTC</b></p>
+                      <p><span class="volume">3,225.800</span><b class="BTC">BTC</b></p>
                   </li>
                   <li class="hl_volume">
                     <span class="hl_title">거래대금<small>(24H)</small></span>
-                      <p><span class="volume">23,800,800,800</span><b class="unit won">KRW</b></p>
+                      <p><span class="volume">23,800,800,800</span><b class="won">KRW</b></p>
                   </li>
 
                 </ul>
@@ -114,34 +104,57 @@
                 <div class="coin_name"><h4>Bitcoin</h4></div>
               <div id="detail_all">
                 <p>(정보기준일:2018.08.28)</p>
-                <div class="detail_line">
-                <ul class="coin_money_detail_title">
-                  <li class="detail_frist">최초발행</li>
-                  <li>코인/토큰</li>
-                  <li>시총순위</li>
-                  <li>시가총액</li>
-                  <li>블록생성기</li>
-                  <li>유통량</li>
-                  <li>총발행한도</li>
-                  <li>채굴봉상량</li>
-                  <li>국가</li>
-                  <li id="detail_end">공식홈페이지</li>
-                </ul>
+                <!-- left_thick_table -->
+                <table class='detail_table'>
+                  <thead>
 
-                <ul class="coin_money_detail_story">
-                  <li class="detail_frist">2009년 1월</li>
-                  <li>코인</li>
-                  <li>1위</li>
-                  <li>48.8조원(18.08.27 기준)</li>
-                  <li>10분</li>
-                  <li>각 코인정보기재</li>
-                  <li>21,000,000</li>
-                  <li>각 코인 정보 기재</li>
-                  <li>각 코인 정보 기재</li>
-                  <li id="detail_end"><a href=https://www.bitcoin.com>https://www.bitcoin.com</a></li>
-                </div>
+                  </thead>
+                    <tbody>
+                        <tr>
+                            <th>최초발행</th>
+                            <td>2009년 1월</td>
+                        </tr>
+                        <tr>
+                            <th>코인/토큰</th>
+                            <td>코인</td>
+                        </tr>
+                        <tr>
+                            <th>시총순위</th>
+                            <td>1위</td>
+                        </tr>
+                        <tr>
+                            <th>시가총액</th>
+                            <td>48.8조원(18.08.27 기준)</td>
+                        </tr>
+                        <tr>
+                            <th>블록생성기</th>
+                            <td>10분</td>
+                        </tr>
+                        <tr>
+                            <th>유통량</th>
+                            <td>각 코인정보기재</td>
+                        </tr>
+                        <tr>
+                            <th>총발행한도</th>
+                            <td>21,000,000</td>
+                        </tr>
+                        <tr>
+                            <th>채굴봉상량</th>
+                            <td>각 코인 정보 기재</td>
+                        </tr>
+                        <tr>
+                            <th>국가</th>
+                            <td>각 코인 정보 기재</td>
+                        </tr>
+                        <tr>
+                            <th>공식홈페이지</th>
+                            <td>http://www.bitcoin.com</td>
+                        </tr>
+                    </tbody>
+                </table><!-- left_thick_table End-->
                 </ul>
                   <span><a href="coin_info.html">상세보기</a></span>
+                </table>
               </div>
 
 

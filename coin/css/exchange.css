@@ -3,7 +3,7 @@
 #left_coin_menu{
   float:left;
   width:350px;
-  position: relative;
+  /* position: fixed; */
 }
 #left_coin_menu.scroll_fixed {
   position: fixed;
@@ -83,21 +83,19 @@
   width:350px;
   padding: 20px;
   margin: 75px 0 20px 0;
+
 }
 
 .coin_money_inner{
   overflow: hidden;
   margin-bottom:10px;
+
 }
 
-.coin_money_inner .img_area{
+.coin_money_inner img.bitcoin_icon{
   width:80px;
   height:80px;
   float:left;
-  padding: 10px 0;
-}
-.coin_money_inner .img_area img {
-  width: 100%
 }
 #deal_all .deal_all_thead{
     background-color: #f4f5f9;
@@ -106,11 +104,13 @@
 }
 .coin_money_inner ul{
   float:left;
-  margin-left:22px;
+  width:220px;
+  margin-left:10px;
 }
 
 .coin_money_inner strong{
   font-size:20px;
+
 }
 
 .coin_money_inner .coin_word{
@@ -130,17 +130,27 @@
   padding-left:5px;
   color:#4c4c4c;
 }
-.coin_money_inner .coin_prepare {
-  font-size: 18px;
-  color:#012dae;
-  font-weight: 600;
-}
-.coin_money_inner .coin_prepare strong{
+
+.coin_money_inner .coin_prepare{
   font-size:15px;
-  color: #666;
+  width:220px;
+  color:#8b8b8b;
+
 }
-.coin_money_inner .coin_prepare b.ud {
-  font-size: 15px;
+.coin_money_inner .coin_prepare b {
+  margin-right: 10px;
+}
+.coin_money_inner .coin_prepare .prepare{
+  font-size:20px;
+  font-weight:500;
+  color:#012dae;
+}
+
+.coin_money_inner .coin_prepare .updownarrow{
+  font-size:20px;
+  font-weight:500;
+  margin-left:5px;
+  color:#012dae;
 }
 
 .coin_money_inner .question{
@@ -160,6 +170,7 @@
 /*coin_money_prepare*/
 
 .coin_money_prepare{
+  width:300px;
   padding:10px 0;
   border-bottom:2px solid #efefef;
 }
@@ -168,7 +179,7 @@
   font-size:15px;
   color:#8b8b8b;
   font-weight:600;
-  margin:0 10px;
+  margin-left:20px;
   overflow: hidden;
 }
 
@@ -201,14 +212,17 @@
 /*************************************************************/
 
 .coin_money_volume{
+  width:300px;
   padding:10px 0;
+
+
 }
 
 .coin_money_volume .hl_volume{
   font-size:15px;
   color:#8b8b8b;
   font-weight:600;
-  margin:0 10px;
+  margin-left:20px;
   overflow: hidden;
 }
 
@@ -216,22 +230,32 @@
   float:left;
   height: 27px;
   line-height: 27px;
-  display: block;
-  width: 100%
 }
 
 .coin_money_volume .hl_volume p{
   font-size:20px;
   color:#8b8b8b;
+  display:inline-block;
   float:right;
+  text-align: right;
   margin-top:-2px;
 }
 
 
-.coin_money_volume li .unit{
+.coin_money_volume li .BTC{
   font-size:16px;
+  color:#8b8b8b;
   padding-left:10px;
+  margin-right:6.5px;
 }
+
+
+.coin_money_volume li .won{
+  font-size:16px;
+  color:#8b8b8b;
+  margin-left: 10px;
+}
+
 
 
 /*coin_money_detail*/
@@ -241,19 +265,34 @@
   width:300px;
   height:400px;
   position:absolute;
-  left:375px;
-  top:12px;
+  left:460px;
+  top:0;
   display:none;
 }
 
 #detail_all{
   padding:10px 25px;
 }
-
+#detail_all p{
+  font-size:12px;
+  font-weight:600;
+  color:#777;
+  text-align:right;
+  line-height:2.5em;
+}
+#detail_all span{
+  font-size:12px;
+  font-weight:600;
+  color:#1b2f4a;
+  text-decoration:underline;
+  float:right;
+  display:inline-block;
+  padding:10px 0;
+}
 .coin_money_detail::after {
   content: "";
   position: absolute;
-  top: 18%;
+  top: 22%;
   left: -9%;
   margin-left: -5px;
   border-width: 17px;
@@ -267,89 +306,30 @@
   border-radius:5px 5px 0 0;
   color:#fff;
   float:left;
-
 }
-
 .coin_name h4{
   padding:10px;
   font-size:20px;
   font-weight:500;
-
 }
-
-.coin_money_detail p{
-
-
-  text-align:right;
-  width:260px;
+.detail_table{
+  width:250px;
+  border-top:2px solid #1b2f4a;
+  border-bottom:2px solid #1b2f4a;
+  text-align:left;
   font-size:12px;
-  padding:5px;
-  color:#cecece;
-  font-weight:600;
-  float:left;
-
 }
-
-.detail_line{
-border-top:2px solid #1b2f4a;
-border-bottom:2px solid #1b2f4a;
-float:left;
-
+.detail_table tr{
+  border-bottom:1px solid #ededed;
+}
+.detail_table th{
+  padding:5px 0;
 }
 
 
-.coin_money_detail_title{
-  float:left;
-}
-
-.coin_money_detail_title li{
-  width:100px;
-  border-bottom:1px solid #a1a1a1;
-  padding:5px 0 5px 0;
-  font-size:13px;
-  color:#1b2f4a;
-  font-weight:600;
-}
-
-.coin_money_detail_story{
-  float:left;
-}
-
-.coin_money_detail_story li{
-  width:150px;
-  border-bottom:1px solid #a1a1a1;
-  padding:5px 0 5px 0;
-  font-size:13px;
-  color:#9b9b9b;
-  font-weight:600;
-
-}
-
-.coin_money_detail_story li a{
-  color:#9b9b9b;
-}
-
-.coin_money_detail span{
-  float:right;
-  margin-top:5px;
-  text-align:right;
-  width:260px;
-  font-size:12px;
-  font-weight:600;
-}
-
-.coin_money_detail span a{
-  color:#1b2f4a;
-}
-
-.coin_money_detail span:hover{
-  text-decoration:underline;
-}
 
 
-#detail_end{
-  border:none;
-}
+
 
 /*deal_orgin_transaction*/
 
