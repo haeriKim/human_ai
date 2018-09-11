@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/mywallet_output_apply_bitcoin.css">
+    <link rel="stylesheet" href="css/mywallet_input_apply_bitcoin.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/common.js"></script>
@@ -57,7 +57,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
+                                    <tr class='active'>
                                         <td class='coin_kor'>
                                             <img src="img/won.png" alt="원화아이콘">
                                             <p class='style_bold'>원화</p>
@@ -69,7 +69,7 @@
                                         </td>
                                         <td><a href='#' class='button_hover'>KRW변환</a></td>
                                     </tr>
-                                    <tr class='active'>
+                                    <tr>
                                         <td class='coin_kor'>
                                             <img src="img/bitcoin.png" alt="비트코인아이콘">
                                             <p class='style_bold'>비트코인</p>

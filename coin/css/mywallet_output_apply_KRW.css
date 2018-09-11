@@ -37,34 +37,6 @@
   overflow: hidden;
 }
 
-/*tab3*/
-.tab3_header {
-  overflow: hidden;
-  margin-bottom: 30px;
-}
-.tab3_header ul{
-  float:left;
-}
-.tab3_header ul li{
-  float:left;
-  width:150px;
-  border-radius:5px;
-  font-size:15px;
-  text-align:center;
-  padding:10px 0;
-  font-weight:600;
-  cursor:pointer;
-  border:1px solid #1b2f4a;
-  color:#1b2f4a;
-}
-.tab3_header ul li + li {
-  margin-left: 20px;
-}
-.tab3_header ul li.active2{
-  border:1px solid #1b2f4a;
-  background-color:#1b2f4a;
-  color:#fff;
-}
 
 /*원화입금*/
 #output_KRW{

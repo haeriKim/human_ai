@@ -321,3 +321,50 @@ div.cancel_or_apply .if_you_all_agree{
     font-size: 16px;
     cursor: pointer;
 }
+
+/*입출금 내역 안 탭 스타일*/
+.tab3_header {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.tab3_header ul{
+  float:left;
+}
+.tab3_header ul li {
+  float:left;
+  width:150px;
+  border-radius:5px;
+  font-size:15px;
+  text-align:center;
+  font-weight:600;
+  cursor:pointer;
+}
+.tab3_header ul li a{
+    width: 150px;
+    display: inline-block;
+    padding: 10px 0;
+}
+.tab3_header ul li + li {
+  margin-left: 20px;
+}
+.tab3_header ul li{
+  border:1px solid #1b2f4a;
+  color:#1b2f4a;
+}
+.tab3_header ul li.active2{
+  border:1px solid #1b2f4a;
+  background-color:#1b2f4a;
+}
+.tab3_header ul li.active2 a{
+    color:#fff;
+}
+.tab3_header .days{
+  float:right;
+  font-size:15px;
+  padding: 5px 0;
+}
+.tab3_header .days input{
+  font-size:14px;
+  height: 30px;
+  text-indent: 3px;
+}
