@@ -162,7 +162,7 @@
                     <!--Notice&use_guide wrap-->
                     <div class="notice_wrap">
                       <div class="notice">
-                        <h4>공지사항<a href="notice.html"><img src="img/right-chevron.png" alt="공지사항 화살표"></a></h4>
+                        <h4>공지사항<a href="notice.php"><img src="img/right-chevron.png" alt="공지사항 화살표"></a></h4>
                           <ul class="fristline">
                             <li><a href=""><b>[공지] 이더리움 입출금 지연 안내</b><span>2018.07.18</span></a></li>
                             <li><a href=""><b>[공지] CCE 홈페이지 리뉴얼기념 이벤트</b><span>2018.07.31</span></a></li>
@@ -179,6 +179,12 @@
                         <ul>
                           <li>
                             <a href="#">
+                              <img src="img/desktop-monitor.png" alt="코인정보">
+                              <p>코인정보</p>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
                                 <img src='img/telephone-symbol-button.png' alt='고객센터'>
                                 <p>고객센터</p>
                             </a>
@@ -189,7 +195,6 @@
                               <p>이용안내</p>
                             </a>
                           </li>
-
                         </ul>
                       </div>
                     </div><!-- Notice&use_guide End-->

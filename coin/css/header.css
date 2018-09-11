@@ -44,8 +44,8 @@
   margin-top: 5px;
 }
 #header .current_coin ul li b.up {
-  color: #ff0000;
+  color: #ff2323;
 }
 #header .current_coin ul li b.down {
-  color: #0090ff;
+  color: #002dae;
 }

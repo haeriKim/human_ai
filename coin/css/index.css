@@ -108,7 +108,7 @@
   height: 270px;
   position: relative;
   top: 460px;
-  background-color: rgba(255,255,255,.8);
+  background-color: rgba(255,255,255,.5);
 }
 
 .main_content .bitcoin_card_wrap .bitcoin_card{
@@ -147,10 +147,10 @@
 }
 
 .main_content ul.bitcoin_card_inner li p.percent_up{
-    color:#e9463f;
+    color:#ff2323;
 }
 .main_content ul.bitcoin_card_inner li p.percent_down{
-    color:#0090ff;
+    color:#002dae;
 }
 
 .main_content ul.bitcoin_card_inner .buy_sell_button{
@@ -169,27 +169,27 @@
 }
 
 .main_content ul.bitcoin_card_inner .buy_sell_button .buy_button{
-    border-top:3px solid #e9463f;
-    color:#e9463f;
+    border-top:3px solid #ff2323;
+    color:#ff2323;
     border-right:1px solid #fff;
 }
 
 .main_content ul.bitcoin_card_inner .buy_sell_button .buy_button:hover{
-    border-top:3px solid #e9463f;
+    border-top:3px solid #ff2323;
     color:#fff;
-    background:#e9463f;
+    background:#ff2323;
     border-right:none;
 }
 
 .main_content ul.bitcoin_card_inner .buy_sell_button .sell_button{
-    border-top:3px solid #0090ff;
-    color:#0090ff;
+    border-top:3px solid #002dae;
+    color:#002dae;
 }
 
 .main_content ul.bitcoin_card_inner .buy_sell_button .sell_button:hover{
-    border-top:3px solid #0090ff;
+    border-top:3px solid #002dae;
     color:#fff;
-    background:#0090ff;
+    background:#002dae;
 }
 
 .main_content .bitcoin_card_btn .prev{
@@ -304,13 +304,15 @@
 
 .use_guide{
   width: 560px;
-  height: 150px;
+  height: 155px;
   float:right;
+  padding: 25px 0;
+  box-sizing: border-box;
 
 }
 
 .use_guide ul{
-  position:absolute;
+  overflow: hidden;
 }
 
 .use_guide ul p{
@@ -319,8 +321,8 @@
 }
 
 .use_guide li{
-  float:left;
-  margin-left:20px;
-  padding-left:120px;
-  padding-top:30px;
+  float: left;
+  margin-left: 20px;
+  text-align: center;
+  width: 28.33%;
 }

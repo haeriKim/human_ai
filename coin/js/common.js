@@ -277,6 +277,18 @@ $(document).ready(function(){
   });
 });
 
+//알림 리스트 삭제
+$(document).ready(function(){
+  var a_count = $(".alarm_desc dd").length;
+  $(".alarm_count").text(a_count);
+  $(".delete").click(function(){
+    $(this).parent("dd").remove();
+    var a_count = $(".alarm_desc dd").length;
+    $(".alarm_count").text(a_count);
+    return false;
+  });
+});
+
 //공지사항 리스트
 $(document).ready(function(){
   $("#notice_list tr").click(function(){
@@ -284,6 +296,8 @@ $(document).ready(function(){
       location.href="notice_detail.php?"+listNum+"";
   });
 });
+
+
 /*fixed_menu 플로팅메뉴*/
 
 /*$(function(){

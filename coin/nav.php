@@ -8,11 +8,11 @@
             <span class="user_name">가나다</span> 님
             <div class="alarmArea">
               <img src="img/bell.png" class="alarmBtn" alt="알림버튼"/>
-              <span class="alarmNum">6</span>
+              <span class="alarmNum alarm_count"></span>
               <div class="alarm_desc box">
                   <dl>
                       <dt>
-                        <h2>알림 (<span>6</span>)</h2>
+                        <h2>알림 (<span class="alarm_count"></span>)</h2>
                       </dt>
                       <dd>
                         <span class="alarmType alarm_r">입금</span>
