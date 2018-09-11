@@ -74,7 +74,7 @@
                     <li class="coin_prepare">
                       <strong>전일대비</strong>
                       <span class="prepare"><b>-0.31</b>%</span>
-                      <span class="updownarrow"><b class="ud">▼</b>23,000</span>
+                      <span class="updownarrow"><img src="img/arrow_down_blue.png" class="ud"></b>23,000</span>
                     </li>
                   </ul>
                   <span class="question">&#63;</span>

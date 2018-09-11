@@ -141,7 +141,9 @@
     font-weight: 600;
     margin-bottom:8px;
 }
-
+.main_content ul.bitcoin_card_inner li p img {
+  margin-right: 3px;
+}
 .main_content ul.bitcoin_card_inner li p:nth-child(3){
     margin-bottom:0;
 }

@@ -147,8 +147,9 @@
   font-size:15px;
   color: #666;
 }
-.coin_money_inner .coin_prepare b.ud {
-  font-size: 15px;
+.coin_money_inner .coin_prepare img.ud {
+  margin-right: 3px;
+  vertical-align: 1px;
 }
 
 /*coin_money_prepare*/

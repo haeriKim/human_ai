@@ -9,12 +9,15 @@
   z-index:7;
   box-shadow: 0 15px 15px rgba(100,100,100,0.7);
 }
+#nav h1 {
+  text-align: center;
+  padding: 25px 0;
+}
 #nav h1 a {
   display: inline-block;
 }
 #nav h1 img{
-  width:60%;
-  padding:30px;
+  width:70%;
 }
 
 #nav .login_info {
@@ -35,6 +38,7 @@
   position: relative;
 }
 #nav .login_info .alarmArea img {
+  width: 16px;
   vertical-align: -2px;
   margin-left: 5px;
   cursor: pointer;

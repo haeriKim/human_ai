@@ -10,7 +10,7 @@
 }
 .notice_area .n_list #look_method{
     border: 1px solid #444;
-    width: 100px;
+    width: 120px;
     height: 30px;
     vertical-align: middle;
     margin-right: 5px;
@@ -50,6 +50,9 @@
     border-bottom:1px solid #efefef;
     box-sizing:border-box;
     cursor:pointer;
+}
+.notice_area .notice_list tr td img {
+  vertical-align: middle;
 }
 .notice_area .notice_list tr td.title {
   text-align: left;
