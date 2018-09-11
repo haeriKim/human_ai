@@ -105,7 +105,7 @@
               <div id="detail_all">
                 <p>(정보기준일:2018.08.28)</p>
                 <!-- left_thick_table -->
-                <table class='detail_table'>
+                <table class='left_thick_table coinInfo_table'>
                   <thead>
 
                   </thead>
@@ -153,7 +153,7 @@
                     </tbody>
                 </table><!-- left_thick_table End-->
                 </ul>
-                  <span><a href="coin_info.html">상세보기</a></span>
+                  <span><a href="coin_info.php">상세보기</a></span>
                 </table>
               </div>
 

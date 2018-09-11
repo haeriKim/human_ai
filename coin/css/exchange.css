@@ -262,10 +262,9 @@
 
 
 .coin_money_detail{
-  width:300px;
-  height:400px;
+  width: 350px;
   position:absolute;
-  left:460px;
+  left:470px;
   top:0;
   display:none;
 }
@@ -276,31 +275,34 @@
 #detail_all p{
   font-size:12px;
   font-weight:600;
-  color:#777;
-  text-align:right;
-  line-height:2.5em;
+  color:#999;
+  padding: 10px 0;
+  display: inline-block;
+  float: right;
 }
-#detail_all span{
+#detail_all span a{
   font-size:12px;
   font-weight:600;
   color:#1b2f4a;
-  text-decoration:underline;
   float:right;
   display:inline-block;
   padding:10px 0;
+}
+#detail_all span a:hover {
+  color:#c95b74;
 }
 .coin_money_detail::after {
   content: "";
   position: absolute;
   top: 22%;
-  left: -9%;
+  left: -7%;
   margin-left: -5px;
   border-width: 17px;
   border-style: solid;
   border-color: transparent #fff transparent transparent;
 }
 .coin_name{
-  width:300px;
+  width:100%;
   height:50px;
   background-color:#1b2f4a;
   border-radius:5px 5px 0 0;
@@ -308,25 +310,17 @@
   float:left;
 }
 .coin_name h4{
-  padding:10px;
+  padding:10px 15px;
   font-size:20px;
   font-weight:500;
 }
-.detail_table{
-  width:250px;
-  border-top:2px solid #1b2f4a;
-  border-bottom:2px solid #1b2f4a;
-  text-align:left;
-  font-size:12px;
+.coin_money_detail #detail_all .coinInfo_table tbody tr {
+  height: 20px;
 }
-.detail_table tr{
-  border-bottom:1px solid #ededed;
+.coin_money_detail #detail_all .coinInfo_table tbody tr td {
+  font-size: 13px;
+  padding: 0 20px;
 }
-.detail_table th{
-  padding:5px 0;
-}
-
-
 
 
 
