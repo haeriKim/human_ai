@@ -213,7 +213,7 @@
     </div><!-- wrap End -->
     <div id="full">
             <!-- full_content -->
-            <div id="full_content">
+            <div id="full_content" class='box'>
                 <div class="full_inner">
                     <h2>암호화폐 거래 안내</h2>
                     <p>

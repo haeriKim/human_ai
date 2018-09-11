@@ -1,10 +1,10 @@
 /*메인 팝업*/
 #full_content{
-    width: 500px;
-    height: 500px;
+    width: 540px;
+    height: 540px;
     background: #fff;
     z-index: 9999;
-    padding:20px;
+    padding: 20px;
     position: fixed;
     left: 50%;
     top: 50%;
@@ -106,26 +106,6 @@
     padding-bottom: 20px;
 }
 
-#question_mark_active ul{
-    background-color:#e7e7e7;
-    padding:10px;
-    border-radius: 5px;
-}
-
-#question_mark_active ul li{
-    margin:10px 0;
-    line-height: 1.4;
-    color:#222;
-    background: url('../img/check.png') no-repeat 0 3px / 20px ;
-    padding-left:25px;
-    font-weight:600;
-}
-
-#question_mark_active form{
-    display: inline-block;
-    float: left;
-    margin-top: 3px;
-}
 #question_mark_active .close_btn{
     background: #1b2f4a;
     text-align: center;
@@ -147,4 +127,62 @@
     z-index: 999;
     display: none;
 
+}
+
+/*출금신청 팝업*/
+#full_output_KRW{
+    width: 450px;
+    height: 420px;
+    background: #fff;
+    z-index: 9999;
+    padding: 20px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: -265px;
+}
+.full_inner{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#full_output_KRW h2{
+    color:#071f45;
+    text-align: center;
+    padding-top:20px;
+    padding-bottom:15px;
+    border-bottom: 2px solid #071f45;
+    margin: 0 auto;
+}
+
+#full_output_KRW p{
+    color:#959595;
+    font-size:16px;
+    margin:15px 0;
+    text-align: center;
+}
+#full_output_KRW .check_your_money_again{
+    font-weight: 600;
+    color: #071f45;
+    font-size: 21px;
+    text-indent:1px;
+    margin-right: 2px;
+}
+#full_output_KRW .close_btn{
+    float: right;
+    background: #1b2f4a;
+    text-align: center;
+    padding: 5px 0;
+    width: 70px;
+    color: #fff;
+    border-radius: 5px;
+}
+#full_output_KRW .cancel_or_apply{
+    text-align: center;
+}
+#full_output_KRW .agree_btn{
+    border: 1px solid #1b2f4a;
+    background-color: #1b2f4a;
+    cursor: pointer;
 }
