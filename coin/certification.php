@@ -122,7 +122,7 @@
                             <li>
                               <img src="img/lv4.png" alt="레벨4"/>
                               <p>출금계좌 등록<span class="recommend">*권장</span></p>
-                              <a href="#" class="c_btn lv4_ing">인증하기</a>
+                              <a href="certification_account.php" class="c_btn lv4_ing">인증하기</a>
                               <span class="c_btn complete">인증완료</span>
                             </li>
                             <li>

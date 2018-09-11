@@ -96,20 +96,31 @@
   width:350px;
   text-align:center;
 }
-.bank_complete{
-  display: inline-block;
-  width: 100px;
-  padding: 7px 0;
-  box-sizing: border-box;
-  color: #fff;
-  background-color: #666;
+.cText_right2 #bank_complete .account_complete{
   border-radius: 5px;
-  text-align: center;
-  font-size: 14px;
-  letter-spacing: 0.5px;
-  vertical-align: middle;
+  padding: 7px 30px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: 1px solid #666;
+  background-color: #666;
   margin-top:20px;
-  border:none;
+  cursor: pointer;
+
+}
+.cText_right2 #bank_complete .bank_cancel{
+  border-radius: 5px;
+  padding: 7px 30px;
+  width:100px;
+  color: #1b2f4a;
+  font-weight: 600;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: 1px solid #1b2f4a;
+  background-color: #fff;
+  margin-top:20px;
+  cursor: pointer;
 }
 
 #account_malpungsun{

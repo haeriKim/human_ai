@@ -128,7 +128,13 @@
                           </div>
                             <p>※ 본인명의 계좌만 등록 가능</p>
                             <div id="bank_complete">
-                            <span class="bank_complete">등록완료</span>
+                              <a href='certification.php'>
+                                <input type="button" name="취소" value="취소" class="bank_cancel">
+                              </a>
+
+                              <a href='certification_OTP.php'>
+                                <input type="submit" name="등록완료" value="등록완료" class="account_complete"/>
+                              </a>
                           </div>
                         </div>
 
