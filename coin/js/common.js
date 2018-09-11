@@ -260,7 +260,6 @@ $(document).ready(function(){
 $(document).ready(function(){
   var alarmF = 0;
   $(".alarmBtn").click(function(){
-    console.log("FDfd")
       if(alarmF===0){
           $(".alarm_desc").show();
           alarmF = 1;
@@ -278,7 +277,13 @@ $(document).ready(function(){
   });
 });
 
-
+//공지사항 리스트
+$(document).ready(function(){
+  $("#notice_list tr").click(function(){
+      var listNum = $("#notice_list tr").index(this);
+      location.href="notice_detail.php?"+listNum+"";
+  });
+});
 /*fixed_menu 플로팅메뉴*/
 
 /*$(function(){
@@ -364,7 +369,5 @@ $(document).ready(function(){
     $(".bank_complete").css({background:"#666"});
       account=0;
       }
-      console.log(account);
-
     });
   });

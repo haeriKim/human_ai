@@ -63,17 +63,17 @@
                           <tbody>
                             <tr>
                                 <td class="important"><img src="img/notice.png" alt="확성기아이콘"/</td>
-                                <td class="title important_text"><a href='notice_detail.html'>[안내] 개인정보 처리방침 변경 안내</a></td>
+                                <td class="title important_text"><a href=''>[안내] 개인정보 처리방침 변경 안내</a></td>
                                 <td class="date">2018-10-17</td>
                             </tr>
                             <tr>
                                 <td class="new">NEW</td>
-                                <td class="title"><a href='notice_detail.html'>[안내] 개인정보 처리방침 변경 안내</a></td>
+                                <td class="title"><a href=''>[안내] 개인정보 처리방침 변경 안내</a></td>
                                 <td class="date">2018-10-17</td>
                             </tr>
                           <tr>
                               <td class="hot">HOT</td>
-                              <a href='#'><td class="title">[이벤트] IOST 상장 기념 입금 이벤트 (당첨자 안내)</td></a>
+                              <a href='#'><td class="title">[이벤트] EOS 상장 기념 입금 이벤트 (당첨자 안내)</td></a>
                               <td class="date">2018-10-17</td>
                           </tr>
                           <tr>
@@ -123,8 +123,6 @@
                               <a href="#" title="3page">3</a>
                               <a href="#" title="4page">4</a>
                               <a href="#" title="5page">5</a>
-                              <a href="#" title="6page" class="m_hide">6</a>
-                              <a href="#" title="7page" class="m_hide">7</a>
                               <a href="#" title="next"><img src="img/p_next.png"></a>
                               <a href="#" title="next"><img src="img/p_end.png"></a>
                           </div>

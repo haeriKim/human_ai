@@ -6,15 +6,17 @@
 }
 .notice_area .n_list {
   padding: 20px 25px;
+  overflow: hidden;
 }
 .notice_area .n_list #look_method{
     border: 1px solid #444;
-    width: 82px;
+    width: 100px;
     height: 30px;
     vertical-align: middle;
     margin-right: 5px;
     text-indent: 9px;
-    }
+    float: left;
+}
 .notice_area .search input {
     width: 220px;
     height: 30px;
@@ -33,13 +35,14 @@
 }
 
 .notice_area .notice_list {
-  border-top: 1px solid #1b2f4a;
+  border-top: 2px solid #1b2f4a;
   font-size: 15px;
 }
 .notice_area .notice_list thead {
   background-color: #efefef;
-  height: 50px;
-  line-height: 50px;
+  height: 45px;
+  line-height: 45px;
+  color: #1b2f4a;
 }
 .notice_area .notice_list tr td{
     height:45px;
@@ -55,10 +58,10 @@
   font-weight: 600;
 }
 .notice_area .notice_list tr td.hot {
-  color: #ff0000;
+  color: #ff2323;
   font-weight: 600;
 }
 .notice_area .notice_list tr td.new {
-  color: #0000ff;
+  color: #002dae;
   font-weight: 600;
 }
