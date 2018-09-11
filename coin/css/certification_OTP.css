@@ -185,22 +185,20 @@
   box-sizing: border-box;
   border: 1px solid #1b2f4a;
   background-color: #1b2f4a;
+  margin-top:20px;
+
 }
 .cText_right3 .cancel{
-  display: inline-block;
-  width: 100px;
-  padding: 7px 0;
-  box-sizing: border-box;
-  color: #1b2f4a;
-  background-color: #fff;
   border-radius: 5px;
-  text-align: center;
-  font-size: 14px;
-  letter-spacing: 0.5px;
-  vertical-align: middle;
+  padding: 7px 30px;
+  width:100px;
+  color: #1b2f4a;
+  font-weight: 600;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: 1px solid #1b2f4a;
+  background-color: #fff;
   margin-top:20px;
-  border:1px solid #1b2f4a;
-  cursor:pointer;
 }
 
 /* 비활성화 */

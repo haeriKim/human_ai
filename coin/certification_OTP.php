@@ -133,8 +133,9 @@
                               <input type="text" placeholder="보안코드" required class="OTP_number"><input type="button" value="보안코드 받기" class="OTP_numberbt">
                               <input type="text" placeholder="OTP번호 입력" required class="OTP_number">
                               <div id="OTP_complete">
-                                <input type="submit" name="OTP 인증완료" value="OTP 인증완료" class="OTP_complete">
                                 <input type="button" name="취소" value="취소" class="cancel">
+                                <input type="submit" name="OTP 인증완료" value="OTP 인증완료" class="OTP_complete">
+
                               </div>
                             </form>
                           </div>
