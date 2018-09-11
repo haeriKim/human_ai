@@ -71,6 +71,10 @@
   border-style: solid;
   border-color: transparent #fff transparent transparent;
 }
+#nav .login_info .alarmArea .alarm_desc dl {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #efefef;
+}
 #nav .login_info .alarmArea .alarm_desc dt {
   text-align: center;
   color: #1b2f4a;
@@ -83,11 +87,12 @@
   font-size: 15px;
   height: 32px;
   font-weight: 600;
+  padding-left: 5px;
 }
 #nav .login_info .alarmArea .alarm_desc dd:hover{
   background: #c8eefb;
 }
-#nav .login_info .alarmArea .alarm_desc dd .alarmType::before {
+/* #nav .login_info .alarmArea .alarm_desc dd .alarmType::before {
   content: '';
   display: inline-block;
   width: 5px;
@@ -96,10 +101,10 @@
   background-color: #1b2f4a;
   vertical-align: 4px;
   margin-right: 4px;
-}
+} */
 #nav .login_info .alarmArea .alarm_desc dd a {
   display: inline-block;
-  width: 65%;
+  width: 68%;
   color: #666;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -126,11 +131,15 @@
   vertical-align: 2px;
 }
 #nav .login_info .alarmArea .alarm_desc .alarAllBtn {
-  display: block;
-  color: #c95b74;
-  text-align: right;
+  display: inline-block;
+  color: #1b2f4a;
+  float: right;
   font-size: 14px;
   font-weight: 600;
+  margin-top: 5px;
+}
+#nav .login_info .alarmArea .alarm_desc .alarAllBtn:hover {
+  color: #c95b74;
 }
 .nav_bt{
   padding-bottom:20px;
@@ -141,6 +150,9 @@
 }
 .nav_bt a {
   color: #fff;
+}
+.nav_bt a:hover {
+  opacity: .7;
 }
 .nav_bt span{
   padding: 0 7px;
