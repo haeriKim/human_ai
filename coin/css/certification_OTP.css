@@ -1,5 +1,56 @@
-/*left*/
+/* 인증레벨 */
+.certification_area .cer_center {
+  padding: 40px 45px;
+}
+.cer_center .cer_level {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.cer_center .cer_level li {
+  float: left;
+  width: 165px;
+  text-align: center;
+  padding: 25px 0;
+  position: relative;
+}
+.cer_center .cer_level li + li {
+  margin-left: 20px;
+}
+.cer_center .cer_level li .img_area{
+  background-color: #F4F5F9;
+  width: 130px;
+  height: 130px;
+  text-align: center;
+  box-shadow: 0px 6px 7px #657385;
+  margin: 0 auto;
+  line-height: 180px;
+  margin-bottom: 10px;
+}
+.cer_center .cer_level li > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.cer_center .cer_level li strong {
+  color:#1B2F4A;
+  display: block;
+  font-size: 16px;
+  margin: 7px 0;
+  font-weight: 600;
+}
+.cer_center .cer_level li strong.gray_title{
+  color:#666;
+}
+.cer_center .cer_level li span {
+  font-size: 12px;
+  color: #666;
+  font-weight: 600;
+}
 
+/*center_bottom*/
+
+
+/*left*/
 .cer_center .center_bottom {
   overflow: hidden;
 }
