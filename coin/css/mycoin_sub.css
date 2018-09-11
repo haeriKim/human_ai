@@ -5,7 +5,6 @@
 
 .mycoin_fence{
   width:900px;
-  height:700px;
   float:left;
 }
 
@@ -24,7 +23,9 @@
   cursor:pointer;
   background-color:#f4f5f8;
 }
-
+.mycoin_tab li a{
+    color:#7e7e7f;
+}
 .mycoin_tab li.active {
   color: #1b2f4a;
   border-top: 3px solid #1b2f4a;
