@@ -82,10 +82,3 @@
   float: right;
   margin-bottom: 7px;
 }
-.coin_money_detail #detail_all .coinInfo_table tbody tr {
-  height: 20px;
-}
-.coin_money_detail #detail_all .coinInfo_table tbody tr td {
-  font-size: 13px;
-  padding: 0 20px;
-}

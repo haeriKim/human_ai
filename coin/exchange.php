@@ -158,7 +158,7 @@
                         </tr>
                         <tr>
                             <th>공식홈페이지</th>
-                            <td>http://www.bitcoin.com</td>
+                            <td><a href="http://www.bitcoin.com">http://www.bitcoin.com</a></td>
                         </tr>
                     </tbody>
                 </table><!-- left_thick_table End-->

@@ -283,30 +283,16 @@
   font-size:20px;
   font-weight:500;
 }
-.coin_money_detail #detail_all .coinInfo_table tbody tr {
-  height: 20px;
-}
-.coin_money_detail #detail_all .coinInfo_table tbody tr td {
-  font-size: 13px;
-  padding: 0 20px;
-}
-
-
-
 
 /*deal_orgin_transaction*/
-
 #deal_orgin_transaction{
     overflow-y:auto;
     padding: 0;
     float:left;
-
 }
-
 #deal_orgin_transaction table{
     font-size:13px;
 }
-
 #deal_orgin_transaction thead tr th.coin_kor,
 #deal_orgin_transaction thead tr th.coin_eng{
     text-align: left;
@@ -314,25 +300,21 @@
     padding-right:0;
     background: url(../img/side_arrow.png) no-repeat 70px 13px;
 }
-
 #deal_orgin_transaction thead tr th:nth-child(3){
     background: url(../img/up_down_default.png) no-repeat 58px 13px;
     /* background: url(../img/up_down_up.png) no-repeat 55px 14px; */
     /* background: url(../img/up_down_down.png) no-repeat 55px 14px; */
 }
-
 #deal_orgin_transaction thead tr th:nth-child(4){
     /* background: url(../img/up_down_default.png) no-repeat 55px 14px; */
     background: url(../img/up_down_up.png) no-repeat 59px 13px;
     /* background: url(../img/up_down_down.png) no-repeat 55px 14px; */
 }
-
 #deal_orgin_transaction thead tr th:nth-child(5){
     /* background: url(../img/up_down_default.png) no-repeat 55px 14px; */
     /* background: url(../img/up_down_up.png) no-repeat 55px 14px; */
     background: url(../img/up_down_down.png) no-repeat 62px 13px;
 }
-
 #deal_orgin_transaction thead tr{
     height: 35px;
     color:#666;
@@ -342,110 +324,83 @@
     text-align: center;
     padding-right:15px;
 }
-
-
 #deal_orgin_transaction tbody tr{
     height: 50px;
 }
-
 #deal_orgin_transaction tbody tr:hover{
     background: #c8eefb;
     cursor: pointer;
 }
-
 #deal_orgin_transaction tbody .up_down_data{
     text-align: center;
     display: block;
     padding-right:15px;
 }
-
 #deal_orgin_transaction tbody p{
     font-weight: 600;
     font-size:13px;
 }
-
 #deal_orgin_transaction tbody tr td:first-child{
     text-align: left;
     padding-left:20px;
     color:#2b2b2b;
 }
-
 #deal_orgin_transaction tbody tr td:nth-child(2){
     font-weight: 600;
     font-size:14px;
 }
-
 #deal_orgin_transaction .unit{
     color:#666;
     font-size:13px;
 }
-
 #deal_orgin_transaction .money_up{
     color:#ff2323;
 }
-
 #deal_orgin_transaction .money_down{
     color:#002dae;
 }
-
-
 /*chart_graf*/
 
 #right_all_menu{
   float:right;
   margin-top: 77px;
   width:920px;
-
 }
-
 #right_coin_menu1{
   float:left;
-
-
 }
-
 .chart_graf{
   width:905px;
   height:465px;
   background:url(../img/chart.png) no-repeat 50% 80%;
   background-size:cover;
-
 }
 
 /*bid_price*/
-
 #right_coin_menu2{
   float:left;
   margin-top:20px;
   width:920px;
-
 }
-
 .bid_price{
   width:450px;
   float:left;
   margin-right:20px;
-
 }
-
 .bid_price table{
   width:450px;
   border:1px solid #efefef;
   font-size:13px;
 }
-
 .bid_price td{
   width:80px;
   padding:5px;
   border:1px solid #efefef
-
 }
-
 .bid_price tr{
   position:relative;
   height:35px;
 }
-
 .bid_price th{
   background-color:#f4f5f9;
   padding:5px;
@@ -453,8 +408,6 @@
   font-size:13px;
   color:#333333;
 }
-
-
 .table_h3{
   border-bottom:3px solid #1b2f4a;
   text-align:left;
@@ -463,73 +416,54 @@
   font-weight:600;
   color:#2b2b2b;
 }
-
 .mado_amount{
   width:150px;
 }
-
 .masu_amount{
   width:130px;
 }
-
 .mado_right{
   text-align:right;
   padding-right:10px;
-
 }
-
 .masu_left{
   padding-left:10px;
   text-align:left;
 }
-
 .all_amount{
   text-align:center;
 }
-
 .center{
   text-align:center;
 }
-
 .high_up{
   text-align:center;
   padding-top:20px;
   line-height:0.5em;
 }
-
 .low_down{
   text-align:center;
   padding-top:20px;
   line-height:0.5em;
 }
-
 .orderbg1,.orderbg2{
   text-align:center;
 }
-
 .orderbg1{
   background-color:#cbd5f0;
-
-
 }
-
 .orderbg2{
   background-color:#ffd3d4;
 }
-
 .upprice{
   color:#f00;
-
 }
-
 .downprice{
   color:#002dae;
 }
-
 .bid_price table tbody tr td{
   position:relative;
 }
-
 .mado1 div{
   width:50px;
   height:15px;
@@ -539,7 +473,6 @@
   left:85px;
   opacity:0.5;
 }
-
 .mado2 div{
   width:50px;
   height:15px;
@@ -549,7 +482,6 @@
   left:85px;
   opacity:0.5;
 }
-
 .mado3 div{
   width:100px;
   height:15px;
@@ -559,7 +491,6 @@
   left:30px;
   opacity:0.5;
 }
-
 .mado4 div{
   width:20px;
   height:15px;
@@ -569,7 +500,6 @@
   left:110px;
   opacity:0.5;
 }
-
 .mado5 div{
   width:20px;
   height:15px;
@@ -579,7 +509,6 @@
   left:110px;
   opacity:0.5;
 }
-
 .mado6 div{
   width:20px;
   height:15px;
@@ -589,7 +518,6 @@
   left:110px;
   opacity:0.5;
 }
-
 .mado7 div{
   width:100px;
   height:15px;
@@ -599,7 +527,6 @@
   left:30px;
   opacity:0.5;
 }
-
 .mado8 div{
   width:80px;
   height:15px;
@@ -609,7 +536,6 @@
   left:50px;
   opacity:0.5;
 }
-
 .mado9 div{
   width:50px;
   height:15px;
@@ -619,7 +545,6 @@
   left:85px;
   opacity:0.5;
 }
-
 .mado10 div{
   width:50px;
   height:15px;
@@ -629,7 +554,6 @@
   left:85px;
   opacity:0.5;
 }
-
 .masu1 div{
   width:50px;
   height:15px;
@@ -639,7 +563,6 @@
   right:106px;
   opacity:0.5;
 }
-
 .masu2 div{
   width:50px;
   height:15px;
@@ -649,7 +572,6 @@
   right:106px;
   opacity:0.5;
 }
-
 .masu3 div{
   width:100px;
   height:15px;
@@ -659,7 +581,6 @@
   right:56px;
   opacity:0.5;
 }
-
 .masu4 div{
   width:20px;
   height:15px;
@@ -669,7 +590,6 @@
   right:136px;
   opacity:0.5;
 }
-
 .masu5 div{
   width:20px;
   height:15px;
@@ -679,7 +599,6 @@
   right:136px;
   opacity:0.5;
 }
-
 .masu6 div{
   width:20px;
   height:15px;
