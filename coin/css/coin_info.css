@@ -70,8 +70,9 @@
     color: #ff2323;
 }
 .coninInfo_content .coin_money_inner{
-    border-bottom: 2px solid #efefef;
-    padding-bottom: 10px;
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 /*코인 정보 안 표*/
 #detail_all p{
@@ -80,5 +81,5 @@
   color:#999;
   display: inline-block;
   float: right;
-  margin-bottom: 7px;
+  margin-top: 7px;
 }

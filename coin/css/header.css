@@ -31,11 +31,11 @@
   text-align: center;
 }
 #header .current_coin li + li {
-  border-left: 1px solid rgba(239,239,239,.5);
+  border-left: 1px solid rgba(239,239,239,.3);
 }
 #header .current_coin ul li b {
   display: inline-block;
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255,255,255,.3);
   border-radius: 10px;
   height: 20px;
   line-height: 20px;

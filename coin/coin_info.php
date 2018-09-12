@@ -118,7 +118,6 @@
                           </div>
                           <div class="coin_money_detail">
                               <div id="detail_all">
-                                <p>(정보기준일:2018.08.28)</p>
                                 <!-- left_thick_table -->
                                 <table class='left_thick_table coinInfo_table'>
                                     <tbody>
@@ -164,7 +163,7 @@
                                         </tr>
                                     </tbody>
                                 </table><!-- left_thick_table End-->
-                                </ul>
+                                <p>(정보기준일:2018.08.28)</p>
                               </div>
                          </div><!--coin_money_detail End-->
                     </div>
