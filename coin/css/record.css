@@ -180,16 +180,18 @@ table .mycoin_thead_deco tr{
 }
 .mycoin_thead_deco th select {
   height: 30px;
-    border-radius: 5px;
-    border: 1px solid #1b2f4a;
-    color: #1b2f4a;
-    font-weight: 600;
-    font-size: 14px;
-    background-color:#f4f5f8;
+  border-radius: 5px;
+  border: 1px solid #1b2f4a;
+  color: #1b2f4a;
+  font-weight: 600;
+  font-size: 14px;
+  background-color:#f4f5f8;
+  margin:0 -2px;
 }
 table .mycoin_thead_deco th{
   padding:15px 8px;
 }
+
 table .mycoin_thead_deco th a{
   /* float:right; */
   font-weight: lighter;
@@ -221,7 +223,18 @@ table .mycoin_tbody_title{
 .ready_data{
   color:red;
 }
-
+/*입출금내역 버튼 영역*/
+.btn_small2{
+  padding: 2px 8px;
+  margin:0 2px;
+  background-color: white;
+  color:#1b2f4a; border: 1px solid #1b2f4a;
+  cursor:pointer;
+}
+.btn_small2:hover{
+  color:white;
+  background-color: #1b2f4a;
+}
 
 /* 페이징(공지사항, 체결/미체결) */
 .contentBottom{
