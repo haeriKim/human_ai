@@ -44,9 +44,9 @@
                   <!--coin탭태두리-->
                     <div class="mycoin_tab" id="mycoin_tab">
                         <ul class="tabs">
-                            <li class="active" rel="tab1">보유코인</li>
-                            <li rel="tab2">거래내역</li>
-                            <li><a href='mywallet_input_apply_KRW.php'>입출금</a></li>
+                            <li class="active tab_same" rel="tab1">보유코인</li>
+                            <li rel="tab2" class="tab_same tab_ex">거래내역</li>
+                            <li class="tab3">입출금</li>
                         </ul>
                     </div><!--coin탭태두리 End-->
 
@@ -602,9 +602,7 @@
                                             <a href="#" title="3page">3</a>
                                             <a href="#" title="4page">4</a>
                                             <a href="#" title="5page">5</a>
-                                            <a href="#" title="6page" class="m_hide">6</a>
-                                            <a href="#" title="7page" class="m_hide">7</a>
-
+                                    
                                             <a href="#" title="next"><img src="img/p_next.png"></a>
                                             <a href="#" title="next"><img src="img/p_end.png"></a>
                                         </div>

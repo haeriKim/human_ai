@@ -169,8 +169,8 @@
                   <!--coin탭태두리-->
                     <div class="mycoin_tab" id="mycoin_tab">
                         <ul class="tabs">
-                            <li rel="tab1">보유코인</li>
-                            <li rel="tab2">거래내역</li>
+                            <li class="mywallet">보유코인</li>
+                            <li class="ex_list">거래내역</li>
                             <li class="active" rel="tab3">입출금</li>
                         </ul>
                     </div><!--coin탭태두리 End-->
