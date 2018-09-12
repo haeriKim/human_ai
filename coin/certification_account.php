@@ -97,7 +97,7 @@
                              개인 정보 수집 및 이용에 동의 합니다.</li>
                              </ul>
                              <p id="account_malpungsun">
-                               개인정보 수집 및 이용에 체크해주세요.
+                               개인정보 수집 및 이용 동의해주세요.
                              </p>
 
                         </div>
@@ -114,7 +114,8 @@
                             <form action="#" method="post">
                             <ul class="bank_inner">
                               <li>
-                                <select name="bankselect" id="bankselect">
+                                <select name="bankselect" id="bankselect" required>
+                                  <option value="은행선택" selected="selected" disabled>은행선택</option>
                                   <option value="국민은행">국민은행</option>
                                   <option value="농협은행">농협은행</option>
                                   <option value="신한은행">신한은행</option>
@@ -133,7 +134,8 @@
 
                                 <input type="button" name="취소" value="취소" onclick="location.href='certification.php'" class="bank_cancel">
 
-                                <input type="submit" name="등록완료" value="등록완료" class="account_complete" />
+                                <span class="account_complete">등록완료</span>
+                                <input type="submit" name="등록완료" value="등록완료" class="chk_ok" />
 
                             </div>
                             </form>
