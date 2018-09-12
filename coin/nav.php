@@ -63,7 +63,7 @@
               <a href="#" class="join_bt">회원가입</a>
             </li> -->
             <li class="after_login">
-              <a href='' class="login_bt">마이페이지</a>
+              <a href='certification.php' class="login_bt">마이페이지</a>
               <span>|</span>
               <a href="#" class="join_bt">로그아웃</a>
             </li>

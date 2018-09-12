@@ -158,13 +158,15 @@
   border: none;
   width: 40px;
   height: 25px;
-  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #1b2f4a;
+  color: #1b2f4a;
+  cursor: pointer;
+}
+.conclu_table tbody tr td input[type="submit"]:hover {
   background-color: #1b2f4a;
   color: #fff;
-  cursor: pointer;
-
 }
-
 /*tab3*/
 
 
