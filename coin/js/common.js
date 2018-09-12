@@ -422,3 +422,29 @@ $(document).ready(function(){
       }
     });
   });
+
+  /*sub_menu(책갈피)*/
+
+  $(document).ready(function(){
+
+    $(".submenu_mypage").click(function(){
+      $(".submenu_mypage_inner").stop().animate({right:0},300);
+    });
+
+    $(".submenu_mypage_back").click(function(){
+      $(".submenu_mypage_inner").stop().animate({right:-300},300);
+    });
+
+    $(".submenu_mypage").click(function(){
+      $(".submenu_security_inner").stop().animate({right:-300},300);
+    });
+
+    $(".submenu_security").click(function(){
+      $(".submenu_security_inner").stop().animate({right:0},300);
+    });
+
+    $(".submenu_mypage_back2").click(function(){
+      $(".submenu_security_inner").stop().animate({right:-300},300);
+    });
+
+  });
