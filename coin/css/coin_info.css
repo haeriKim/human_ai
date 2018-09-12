@@ -1,10 +1,12 @@
 .coninInfo_content {
   overflow: hidden;
+  margin: 9% auto;
 }
 
 .coninInfo_content .coinInfo_area {
-  float: left;
-  width: 880px;
+    float: left;
+    width: 880px;
+    margin-top: 75px;
 }
 
 .coninInfo_content .coinInfo_area .text_area {
@@ -52,24 +54,35 @@
   background-color: #1b2f4a;
 }
 .coninInfo_content .price_info {
-  float: right;
-  width: 350px;
-  padding: 25px 15px;
+    float: right;
+    width: 350px;
+    padding: 25px 15px;
+    margin-top: 75px;
 }
 
 /* 코인시세 */
-.coninInfo_content .price_info .cur_price img {
-  float: left;
-  width: 70px;
-  margin-right: 15px;
+.coninInfo_content .coin_money{
+    float: right;
 }
-.coninInfo_content .price_info .cur_price ul {
-  float: left;
+.coninInfo_content .coin_money .price,
+.coninInfo_content .coin_money .prepare,
+.coninInfo_content .coin_money .updownarrow{
+    color: #ff2323;
 }
-.coninInfo_content .price_info .cur_price ul strong {
-  font-size:20px;
-  margin-right: 10px;
+
+/*코인 정보 안 표*/
+#detail_all p{
+  font-size:12px;
+  font-weight:600;
+  color:#999;
+  display: inline-block;
+  float: right;
+  margin-bottom: 7px;
 }
-.coninInfo_content .price_info .cur_price ul .coin_word{
-  font-size: 15px;
+.coin_money_detail #detail_all .coinInfo_table tbody tr {
+  height: 20px;
+}
+.coin_money_detail #detail_all .coinInfo_table tbody tr td {
+  font-size: 13px;
+  padding: 0 20px;
 }
