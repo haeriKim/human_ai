@@ -194,13 +194,29 @@ $(function () {
     $(".tab_content").hide();
     $(".tab_content:first").show();
 
-    $("ul.tabs li").click(function () {
-        $("ul.tabs li").removeClass("active");
+    $("ul.tabs li.tab_same").click(function () {
+        $("ul.tabs li.tab_same").removeClass("active");
         $(this).addClass("active");
         $(".tab_content").hide()
         var activeTab = $(this).attr("rel");
         $("#" + activeTab).show()
     });
+});
+
+//입출금 탭 클릭
+$(document).ready(function(){
+  $(".mycoin_tab li.tab3").click(function(){
+      location.href="mywallet_input_apply_KRW.php";
+  });
+  $(".mycoin_tab li.mywallet").click(function(){
+    location.href="mycoin_sub.php";
+  });
+  $(".mycoin_tab li.ex_list").click(function(){
+    console.log("Aa");
+    var a = $("#mycoin_tab li.tab_ex").attr("rel");
+    $("#" + a).show()
+      location.replace("mycoin_sub.php");
+      });
 });
 
 // 체결,미체결 표
@@ -219,7 +235,7 @@ $(function () {
     });
 });
 
-//내 자산관리-의사항 전체 동의
+//내 자산관리-주의사항 전체 동의
 $(document).ready(function(){
     $("div.before_send_money_wrap .if_you_all_agree").hide();
     $(".allAgree").click(function(){
@@ -250,9 +266,26 @@ $(document).ready(function(){
 
 //자산관리 - 인증센터 말풍선
 $(document).ready(function(){
-  $("#malpungsun").hide();
-  $(".cText_right .disable").click(function(){
-      $("#malpungsun").show();
+  $("#malpungsun, #account_malpungsun").hide();
+  $(".cText_right .disable, .account_complete").click(function(){
+      $("#malpungsun, #account_malpungsun").show();
+  });
+  $(".chk_ok").click(function(){
+      $("#account_malpungsun").hide();
+  });
+});
+
+//인증센터-계좌등록
+$(document).ready(function(){
+  $('#account_yes').change(function () {
+    if($('#account_yes').is(":checked")){
+        $(".cText_right2 #bank_complete .account_complete").hide();
+        $(".cText_right2 #bank_complete .chk_ok").show();
+        $("#account_malpungsun").hide();
+    }else {
+      $(".cText_right2 #bank_complete .account_complete").show();
+      $(".cText_right2 #bank_complete .chk_ok").hide();
+    }
   });
 });
 
@@ -296,6 +329,7 @@ $(document).ready(function(){
       location.href="notice_detail.php?"+listNum+"";
   });
 });
+
 
 
 /*fixed_menu 플로팅메뉴*/
