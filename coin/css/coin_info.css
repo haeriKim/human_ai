@@ -69,7 +69,10 @@
 .coninInfo_content .coin_money .updownarrow{
     color: #ff2323;
 }
-
+.coninInfo_content .coin_money_inner{
+    border-bottom: 2px solid #efefef;
+    padding-bottom: 10px;
+}
 /*코인 정보 안 표*/
 #detail_all p{
   font-size:12px;
