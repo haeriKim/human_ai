@@ -92,7 +92,7 @@
  }
  .tab2_header .days ::-webkit-calendar-picker-indicator  {
      color: rgba(0, 0, 0, 0);
-     background: url(../img/cal.png) no-repeat 100%;
+     background: url(../img/cal.png) no-repeat 100%; background-size:cover;
      padding-left:10px;
   }
 
