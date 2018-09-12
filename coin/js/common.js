@@ -387,22 +387,25 @@ $(document).ready(function(){
 
 //플로팅배너 다른예제
 
-  // $(document).ready(function() {
-  // 	var floatPosition = parseInt($("#left_coin_menu").css('top'));
-  //
-  //
-  // 	$(window).scroll(function() {
-  //
-  // 		var scrollTop = $(window).scrollTop();
-  // 		var newPosition = scrollTop + floatPosition + "px";
-  //
-  // 		$("#left_coin_menu").stop().animate({
-  // 			"top" : newPosition
-  // 		}, 500);
-  //
-  // 	}).scroll();
-  //
-  // });
+  $(document).ready(function() {
+  	var floatPosition = parseInt($("#left_coin_menu").css('top'));
+
+  	$(window).scroll(function() {
+
+  		var scrollTop = $(window).scrollTop();
+  		var newPosition = scrollTop + floatPosition + "px";
+      if(scrollTop < 530){
+        $("#left_coin_menu").stop().animate({
+          "top" : newPosition
+        }, 500);
+      }else {
+        $(".left_coin_menu").css({'position':'fixed', 'top':'20px'});
+      }
+
+
+  	}).scroll();
+
+  });
 
   /*계좌등록체크박스*/
 
