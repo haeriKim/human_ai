@@ -69,7 +69,7 @@
                                         <td class='have_coin_amount'>
                                             <p class='up_down_data style_bold'>750,000,000<span class='unit_style'>KRW</span></p>
                                         </td>
-                                        <td><a href='#' class='button_hover'>KRW변환</a></td>
+                                        <td><a href='#' class='button_hover'>입출금</a></td>
                                     </tr>
                                     <tr>
                                         <td class='coin_kor'>
@@ -82,7 +82,7 @@
                                             <p class='up_down_data style_bold'>0.00<span class='unit_style'>BTC</span></p>
                                             <p class='up_down_data'>0<span class='unit_style'>KRW</span></p>
                                         </td>
-                                        <td><a href="#" class='button_hover'>입금</a></td>
+                                        <td><a href="mywallet_input_apply_bitcoin.php" class='button_hover'>입금</a></td>
                                     </tr>
                                     <tr>
                                         <td class='coin_kor'>

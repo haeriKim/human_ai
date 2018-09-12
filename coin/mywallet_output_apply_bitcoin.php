@@ -177,22 +177,10 @@
 
                     <!--mycointab_container-->
                             <div class="mycointab_container">
-        <!----------------------------------------------------------------------------------------------------------------------------------------------->
-                                    <!-- #tab1 보유코인-->
-                                    <div id="tab1" class="tab_content">
-
-                                    </div><!--#tab1 보유코인 End-->
-        <!----------------------------------------------------------------------------------------------------------------------------------------------->
-                                    <!-- #tab2 거래내역-->
-                                    <div id="tab2" class="tab_content">
-
-                                    </div><!--#tab2 거래내역 End-->
-        <!---------------------------------------------------------------------------------------------------------------------------------------------->
-                                    <!-- #tab3 입출금-->
                                     <div id="tab3" class="tab_content">
                                         <!--tab2_header-->
                                         <div class="tab3_header">
-                                          <ul class="tabs3">
+                                          <ul class="tabs2">
                                               <li class="input_KRW_btn" rel="input_bitcoin"><a href='mywallet_input_apply_bitcoin.php'>입금</a></li>
                                               <li class="active2 output_KRW_btn" rel="output_bitcoin"><a href='#'>출금</a></li>
                                               <li class="input_output_history_btn" rel="input_output"><a href='#'>입출금내역</a></li>
