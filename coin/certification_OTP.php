@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/certification_OTP.css">
+    <link rel="stylesheet" href="css/sub_menu.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/common.js"></script>
@@ -158,6 +159,10 @@
             <!-- footer_wrap -->
             <?php include "footer.php";?>
             <!-- footer_wrap End-->
+
+            <!--sub_menu-->
+            <?php include "sub_menu.php";?>
+            <!--sub_menu End-->
 
         </div><!-- container End -->
     </div><!-- wrap End -->

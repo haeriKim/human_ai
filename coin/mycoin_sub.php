@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/mywallet.css">
     <link rel="stylesheet" href="css/mycoin_sub.css">
     <link rel="stylesheet" href="css/popup.css">
+    <link rel="stylesheet" href="css/sub_menu.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/common.js"></script>
@@ -602,7 +603,7 @@
                                             <a href="#" title="3page">3</a>
                                             <a href="#" title="4page">4</a>
                                             <a href="#" title="5page">5</a>
-                                    
+
                                             <a href="#" title="next"><img src="img/p_next.png"></a>
                                             <a href="#" title="next"><img src="img/p_end.png"></a>
                                         </div>
@@ -724,6 +725,10 @@
           <!-- footer_wrap -->
           <?php include "footer.php";?>
           <!-- footer_wrap End-->
+
+          <!--sub_menu-->
+          <?php include "sub_menu.php";?>
+          <!--sub_menu End-->
 
         </div><!-- container End -->
     </div><!-- wrap End -->
