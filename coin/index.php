@@ -42,6 +42,7 @@
                       <li class="banner1 banner"></li>
                       <li class="banner2 banner"></li>
                       <li class="banner3 banner"></li>
+                      <li class="banner4 banner"></li>
                     </ul>
 
                     <a href="#" class="nextBtn"></a>

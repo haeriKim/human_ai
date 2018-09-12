@@ -37,17 +37,22 @@
 }
 
 .slideUl li.banner1{
-  background:url(../img/banner01.jpg) no-repeat 50% 50%;
+  background:url(../img/banner01.png) no-repeat 0 0;
   background-size:cover;
 }
 
 .slideUl li.banner2{
-  background:url(../img/banner02.jpg) no-repeat 0 0;
+  background:url(../img/banner02.png) no-repeat 0 0;
   background-size:cover;
 }
 
 .slideUl li.banner3{
-  background:url(../img/banner03.jpg) no-repeat 50% 50%;
+  background:url(../img/banner03.png) no-repeat 0 0;
+  background-size:cover;
+}
+
+.slideUl li.banner4{
+  background:url(../img/banner04.png) no-repeat 0 0;
   background-size:cover;
 }
 
@@ -61,7 +66,7 @@
 
 .prevBtn{
   left:1%;
-  bottom:50%;
+  bottom:47%;
   width:30px;
   height:30px;
   background:url(../img/arrow_white_prev.png) no-repeat 0 0;
@@ -71,17 +76,18 @@
 
 .prevBtn:hover{
   left:1%;
-  bottom:50%;
+  bottom:47%;
   width:30px;
   height:30px;
   background:url(../img/arrow_black_prev.png) no-repeat 0 0;
   background-size:cover;
   display:inline-block;
+  opacity:0.5;
 }
 
 .nextBtn{
   right:1%;
-  bottom:50%;
+  bottom:47%;
   width:30px;
   height:30px;
   background:url(../img/arrow_white_next.png) no-repeat 0 0;
@@ -91,12 +97,13 @@
 
 .nextBtn:hover{
   right:1%;
-  bottom:50%;
+  bottom:47%;
   width:30px;
   height:30px;
   background:url(../img/arrow_black_next.png) no-repeat 0 0;
   background-size:cover;
   display:inline-block;
+  opacity:0.5;
 }
 
 /*코인현황*/
