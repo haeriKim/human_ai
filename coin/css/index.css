@@ -74,17 +74,6 @@
   display:inline-block;
 }
 
-.prevBtn:hover{
-  left:1%;
-  bottom:47%;
-  width:30px;
-  height:30px;
-  background:url(../img/arrow_black_prev.png) no-repeat 0 0;
-  background-size:cover;
-  display:inline-block;
-  opacity:0.5;
-}
-
 .nextBtn{
   right:1%;
   bottom:47%;
@@ -95,16 +84,6 @@
   display:inline-block;
 }
 
-.nextBtn:hover{
-  right:1%;
-  bottom:47%;
-  width:30px;
-  height:30px;
-  background:url(../img/arrow_black_next.png) no-repeat 0 0;
-  background-size:cover;
-  display:inline-block;
-  opacity:0.5;
-}
 
 /*코인현황*/
 
