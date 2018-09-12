@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/mywallet_input_apply_KRW.css">
+    <link rel="stylesheet" href="css/mywallet_output_apply_KRW.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/common.js"></script>
@@ -181,14 +182,14 @@
                                     <div id="tab3" class="tab_content">
                                         <!--tab2_header-->
                                         <div class="tab3_header">
-                                          <ul class="tabs3">
+                                          <ul class="tabs2">
                                             <li class="active2 input_KRW_btn" rel="input_KRW"><a href='#'>입금</a></li>
-                                            <li class="output_KRW_btn" rel="output_KRW"><a href='mywallet_output_apply_KRW.php'>출금</a></li>
+                                            <li class="output_KRW_btn" rel="output_KRW"><a href='#'>출금</a></li>
                                             <li class="input_output_history_btn" rel="input_output"><a href='#'>입출금내역</a></li>
                                           </ul>
                                         </div><!--tab3_header End-->
                                         <!-- input_KRW -->
-                                        <div id='input_KRW' class='input_KRW'>
+                                        <div id='input_KRW' class='input_KRW conclu_table'>
                                             <p class='recharge_coin'>원화(KRW) 입금</p>
                                             <div class="my_coin_state">
                                                 <ul>
@@ -265,22 +266,22 @@
                                                 </div>
 
                                                 <!-- before_send_money_wrap -->
-                                                <div class="before_send_money_wrap">
+                                                <div class="before_send_money_wrap before_send_money_01">
                                                     <p>입금신청 주의사항</p>
                                                     <div class="checkbox_list">
-                                                        <input type="checkbox" id='number_01' class="agree_check">
+                                                        <input type="checkbox" id='number_01' class="agree_check_01">
                                                         <label for='number_01'>토스, 카카오페이, 폰뱅킹으로는 입금하지 않습니다.</label>
-                                                        <input type="checkbox" id='number_02' class="agree_check">
+                                                        <input type="checkbox" id='number_02' class="agree_check_01">
                                                         <label for='number_02'>입금금액과 충전요청 금액이 동일합니다.</label>
-                                                        <input type="checkbox" id='number_03' class="agree_check">
+                                                        <input type="checkbox" id='number_03' class="agree_check_01">
                                                         <label for='number_03'>환금계좌로 등록한 나의 은행계좌에서 입금합니다.</label>
-                                                        <input type="checkbox" id='number_04' class="agree_check">
+                                                        <input type="checkbox" id='number_04' class="agree_check_01">
                                                         <label for='number_04'>위사항 미준수 시 환급은 주말/휴일 제외 1주일 이상 걸림을 알고 있습니다.</label>
-                                                        <input type="checkbox" id='number_05' class="agree_check">
+                                                        <input type="checkbox" id='number_05' class="agree_check_01">
                                                         <label for='number_05'>원화 입금 후 첫 출금은 주말 제외 72시간 이후 가능함을 알고 있습니다.</label>
 
-                                                        <input type="checkbox" id='number_06' class="allAgree">
-                                                        <label for='number_06' class='all_agree'>위의 입금시 주의사항에 모두 동의합니다.</label>
+                                                        <input type="checkbox" id='number_06' class="allAgree_01">
+                                                        <label for='number_06' class='all_agree_01'>위의 입금시 주의사항에 모두 동의합니다.</label>
                                                         <p id="malpungsun">입금시 주의사항에 모두 동의해주셔야 입금신청이 진행됩니다.</p>
                                                     </div>
 
@@ -289,11 +290,120 @@
                                                         <span class='agree_btn if_you_not_all_agree'>입금신청</span>
                                                         <input type="submit" name="submit" value="입금신청" class='agree_btn if_you_all_agree'/>
                                                     </div>
-
                                                 </div><!-- before_send_money_wrap End-->
                                             </form>
                                         </div><!-- input_KRW End-->
+                                        <div id='output_KRW' class='input_KRW conclu_table'>
+                                            <p class='recharge_coin'>원화(KRW) 출금</p>
+                                            <div class="my_coin_state">
+                                                <ul>
+                                                    <li class='my_coin_li_01'>
+                                                        <p class='my_coin_state_title'>보유금액</p>
+                                                        <p class='up_down_data my_coin_state_amount'>0<span>KRW</span></p>
+                                                    </li>
+                                                    <li>
+                                                        <p class='my_coin_state_title'>출금가능</p>
+                                                        <p class='up_down_data my_coin_state_amount'>0<span>KRW</span></p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <form class="" action="#" method="post">
+                                                <!-- account_table_wrap -->
+                                                <div class="account_table_wrap">
+                                                    <!-- send_account -->
+                                                    <div class="send_account">
+                                                        <p>출금정보</p>
+                                                        <table class='left_thick_table'>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <th>출금은행</th>
+                                                                    <td>○○은행</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>계좌번호</th>
+                                                                    <td>1234-1564-68789</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>예금주</th>
+                                                                    <td>가나다</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>KRW 잔고</th>
+                                                                    <td><span class='up_down_data'>100,000,000 KRW</span></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>1회 출금한도</th>
+                                                                    <td>100,000,000 KRW</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>1일 잔여한도</th>
+                                                                    <td>
+                                                                        <p>200,000,000 KRW</p>
+                                                                        <input type="submit" value="인증레벨설정">
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>출금요청액</th>
+                                                                    <td>
+                                                                        <input type="text" name="" value="" placeholder="0" required>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>수수료</th>
+                                                                    <td>1,000 KRW</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>보안 비밀번호</th>
+                                                                    <td>
+                                                                        <input type="text" name="" value="" placeholder="보안 비밀번호를 입력하세요." required maxlength="4" minlength='4'>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>OTP 인증번호</th>
+                                                                    <td>
+                                                                        <input type="text" name="" value="" placeholder="OTP 번호를 입력하세요." required maxlength="6" minlength="6">
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>휴대폰 SNS 인증</th>
+                                                                    <td>
+                                                                        <input type="text" name="" value="" placeholder="휴대폰으로 전송된 인증번호를 입력하세요." required>
+                                                                        <input type="submit" value="인증번호요청">
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div><!-- send_account End-->
+                                                </div><!-- account_table_wrap End-->
 
+                                                <!-- before_send_money_wrap -->
+                                                <div class="before_send_money_wrap before_send_money_02">
+                                                    <p>출금신청 주의사항</p>
+                                                    <div class="checkbox_list">
+                                                        <input type="checkbox" id='number_07' class="agree_check_02">
+                                                        <label for='number_07'>토스, 카카오페이, 폰뱅킹으로는 출금하지 않습니다.</label>
+                                                        <input type="checkbox" id='number_08' class="agree_check_02">
+                                                        <label for='number_08'>출금 수수료는 1,000원이며 5,000원 이상부터 출금이 가능합니다.</label>
+                                                        <input type="checkbox" id='number_09' class="agree_check_02">
+                                                        <label for='number_09'>환금계좌로 등록한 나의 은행계좌에서 출금합니다.</label>
+                                                        <input type="checkbox" id='number_10' class="agree_check_02">
+                                                        <label for='number_10'>위 사항 미준수 시 환급은 주말/휴일 제외 1주일 이상 걸림을 알고 있습니다.</label>
+                                                        <input type="checkbox" id='number_11' class="agree_check_02">
+                                                        <label for='number_11'>원화 입금 후 첫 출금은 주말 제외 72시간 이후 가능함을 알고 있습니다.</label>
+
+                                                        <input type="checkbox" id='number_12' class="allAgree_02">
+                                                        <label for='number_12' class='all_agree_02'>위의 출금시 주의사항에 모두 동의합니다.</label>
+                                                    </div>
+
+                                                    <div class="cancel_or_apply">
+                                                        <input type="reset" name="reset" value="취소" class='cancel_btn'/>
+                                                        <span class='agree_btn if_you_not_all_agree'>출금신청</span>
+                                                        <input type="submit" name="submit" value="출금신청" class='agree_btn if_you_all_agree'/>
+                                                    </div>
+
+                                                </div><!-- before_send_money_wrap End-->
+                                            </form>
+                                        </div><!-- output_KRW End-->
                                     </div><!--#tab3 입출금 End-->
                                </div><!--mycointab_container End-->
                         </div>

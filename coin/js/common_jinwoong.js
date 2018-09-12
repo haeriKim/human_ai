@@ -235,6 +235,7 @@ $(function () {
     });
 });
 
+
 //내 자산관리-주의사항 입금 전체 동의
 $(document).ready(function(){
     $("div.before_send_money_01 .if_you_all_agree").hide();
@@ -419,18 +420,15 @@ $(document).ready(function(){
   $(document).ready(function() {
   	var floatPosition = parseInt($("#left_coin_menu").css('top'));
 
+
   	$(window).scroll(function() {
 
   		var scrollTop = $(window).scrollTop();
   		var newPosition = scrollTop + floatPosition + "px";
-      if(scrollTop < 530){
-        $("#left_coin_menu").stop().animate({
-          "top" : newPosition
-        }, 500);
-      }else {
-        $(".left_coin_menu").css({'position':'fixed', 'top':'20px'});
-      }
 
+  		$("#left_coin_menu").stop().animate({
+  			"top" : newPosition
+  		}, 500);
 
   	}).scroll();
 
@@ -452,28 +450,4 @@ $(document).ready(function(){
     });
   });
 
-  /*sub_menu(책갈피)*/
-
-  $(document).ready(function(){
-
-    $(".submenu_mypage").click(function(){
-      $(".submenu_mypage_inner").stop().animate({right:0},300);
-    });
-
-    $(".submenu_mypage_back").click(function(){
-      $(".submenu_mypage_inner").stop().animate({right:-300},300);
-    });
-
-    $(".submenu_mypage").click(function(){
-      $(".submenu_security_inner").stop().animate({right:-300},300);
-    });
-
-    $(".submenu_security").click(function(){
-      $(".submenu_security_inner").stop().animate({right:0},300);
-    });
-
-    $(".submenu_mypage_back2").click(function(){
-      $(".submenu_security_inner").stop().animate({right:-300},300);
-    });
-
-  });
+ /*플로팅메뉴*/
