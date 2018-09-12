@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/record.css">
     <link rel="stylesheet" href="css/popup.css">
-    <link rel="stylesheet" href="css/sub_menu.css">
+    <link rel="stylesheet" href="css/sub_menu">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/common.js"></script>
@@ -117,8 +117,7 @@
                         <th><a href="#">금액(수량)</a></th>
                         <th><a href="#">수수료</a></th>
                         <th><a href="#">입금은행</a></th>
-                        <th><a href="#">계좌번호</a></th>
-                        <th><a href="#">&nbsp;</a></th>
+                        <th colspan="2"><a href="#">계좌번호</a></th>
                         <th><a href="#">입금자명</a></th>
                         <th>
         									<select title="진행전체" >
@@ -144,7 +143,7 @@
             							<td><p class='mycoin_data'>&nbsp;</p></td>
                           <td><p class='mycoin_data fr'>가나다1234</td>
                           <td><p class='mycoin_data'>대기중</td>
-                          <td><p class='mycoin_data '><span class='mycoin_deposit'><input type="submit" value='취소' class="btn_small"/></td>
+                          <td><p class='mycoin_data '><span class='mycoin_deposit'><input type="submit" value='취소' class="btn_small2"/></td>
                         </tr>
 					              <tr>
                           <td><p class="bl">출금</p></td>
@@ -171,7 +170,7 @@
                         <td style=" overflow:hidden; text-overflow:ellipsis;">
 					              	<p class='mycoin_data fl'><nobr>9i57j0l5.3880rceid=ch...</nobr></p>
 				              	</td>
-				              	<td><p class='mycoin_data'><input type="button" value='상세보기' class="btn_small"/></td>
+				              	<td><p class='mycoin_data'><input type="button" value='상세보기' class="btn_small2"/></td>
                         <td><p class='mycoin_data'>&nbsp;</td>
                         <td><p class='mycoin_data'>처리완료</td>
                         <td><p class='mycoin_data'>&nbsp;</td>
