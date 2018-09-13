@@ -83,3 +83,27 @@
   float: right;
   margin-top: 7px;
 }
+
+/*비트코인캐시*/
+.coinInfo_area p.link_bitcoin_cash a{
+    font-size: 14px;
+}
+.coin_money_detail #detail_all .bitcoincash_table tbody tr td{
+    padding: 0 11px;
+}
+
+/*이더리움클래식*/
+.coin_money_detail #detail_all .ethriumclassic_table tbody tr td{
+    padding: 0 8px;
+}
+.coin_money_inner ul.ethriumclassic_ul{
+    margin-left: 4px;
+}
+
+/*에이다*/
+.coin_money_detail #detail_all .ada_table tbody th{
+    padding: 5px 6px 5px 6px;
+}
+.coin_money_detail #detail_all .ada_table tbody tr td{
+    padding: 0 8px;
+}

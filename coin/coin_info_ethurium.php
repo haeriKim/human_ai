@@ -38,14 +38,14 @@
                           <!-- 코인선택 영역 -->
                           <div class="coinSelect_area">
                               <dl class="coinSelect">
-                                  <dt><a href="#" title="비트코인"><img src="img/bitcoin.png" alt="비트코인"/></a><span>비트코인 BTC/KRW</span></dt>
-                                  <dd><a href="#" title="비트코인"><img src="img/bitcoin.png" alt="비트코인"/></a><span>비트코인 BTC/KRW</span></dd>
-                                  <dd><a href="#" title="비트코인캐시"><img src="img/bitcoincash.png" alt="비트코인캐시"/></a><span>비트코인캐시 BCH/KRW</span</dd>
-                                  <dd><a href="#" title="이더리움"><img src="img/eth.png" alt="이더리움"/></a><span>이더리움 ETH/KRW</span</dd>
-                                  <dd><a href="#" title="이더리움클래식"><img src="img/etc.png" alt="이더리움클래식"/></a><span>이더리움클래식 ETC/KRW</span</dd>
-                                  <dd><a href="#" title="이오스"><img src="img/eos.png" alt="이오스"/></a><span>이오스 EOS/KRW</span</dd>
-                                  <dd><a href="#" title="리플"><img src="img/reaple.png" alt="리플"/></a><span>리플 XRP/KRW</span></dd>
-                                  <dd><a href="#" title="에이다"><img src="img/ada.png" alt="에이다"/></a><span>에이다 ADA/KRW</span</dd>
+                                  <dt><a href="#" title="이더리움"><img src="img/eth.png" alt="이더리움"/></a><span>이더리움 ETH/KRW</span></dt>
+                                  <dd onclick="location.href='coin_info_bitcoin.php'"><a href="#" title="비트코인"><img src="img/bitcoin.png" alt="비트코인"/></a><span>비트코인 BTC/KRW</span></dd>
+                                  <dd onclick="location.href='coin_info_bitcoincash.php'"><a href="#" title="비트코인캐시"><img src="img/bitcoincash.png" alt="비트코인캐시"/></a><span>비트코인캐시 BCH/KRW</span></dd>
+                                  <dd><a href="#" title="이더리움"><img src="img/eth.png" alt="이더리움"/></a><span>이더리움 ETH/KRW</span></dd>
+                                  <dd onclick="location.href='coin_info_ethuriumclassic.php'"><a href="#" title="이더리움클래식"><img src="img/etc.png" alt="이더리움클래식"/></a><span>이더리움클래식 ETC/KRW</span></dd>
+                                  <dd onclick="location.href='coin_info_eos.php'"><a href="#" title="이오스"><img src="img/eos.png" alt="이오스"/></a><span>이오스 EOS/KRW</span></dd>
+                                  <dd onclick="location.href='coin_info_ripple.php'"><a href="#" title="리플"><img src="img/reaple.png" alt="리플"/></a><span>리플 XRP/KRW</span></dd>
+                                  <dd onclick="location.href='coin_info_ada.php'"><a href="#" title="에이다"><img src="img/ada.png" alt="에이다"/></a><span>에이다 ADA/KRW</span></dd>
                               </dl>
                           </div>
                         </div>
@@ -55,7 +55,7 @@
                           <div>
                             <h4>코인소개</h4>
                             <p>
-                              비트코인은 최초로 구현된 가상화폐입니다. 발행 및 유통을 관리하는 중앙권력이나 중간상인 없이, P2P 네트워크 기술을 이용하여 네트워크에 참여하는 사용자들이 주체적으로 화폐를 발행하고 이체내용을 공동으로 관리합니다. 이를 가능하게 한 블록체인 기술을 처음으로 코인에 도입한 것이 바로 비트코인입니다.<br/><br/>
+                              이더리움은 최초로 구현된 가상화폐입니다. 발행 및 유통을 관리하는 중앙권력이나 중간상인 없이, P2P 네트워크 기술을 이용하여 네트워크에 참여하는 사용자들이 주체적으로 화폐를 발행하고 이체내용을 공동으로 관리합니다. 이를 가능하게 한 블록체인 기술을 처음으로 코인에 도입한 것이 바로 비트코인입니다.<br/><br/>
                               비트코인을 사용하는 개인과 사업자의 수는 꾸준히 증가하고 있으며, 여기에는 식당, 아파트, 법률사무소, 온라인 서비스를 비롯한 소매상들이 포함됩니다. 비트코인은 새로운 사회 현상이지만 아주 빠르게 성장하고 있습니다. 이를 바탕으로 가치 증대는 물론, 매일 수백만 달러의 비트코인이 교환되고 있습니다<br/><br/>
                               비트코인은 가상화폐 시장에서 현재 유통시가총액과 코인의 가치가 가장 크고, 거래량 또한 안정적입니다. 이더리움이 빠르게 추격하고 있지만 아직은 가장 견고한 가상화폐라고 볼 수 있습니다.
                             </p>
@@ -63,12 +63,12 @@
                           <div>
                             <h4>상용링크</h4>
                             <p>
-                              <a href="" title="공식 웹사이트">공식 웹사이트</a>
+                              <a href="https://www.ethereum.org/" title="공식 웹사이트">공식 웹사이트</a>
                               <a href="" title="지갑 다운">지갑 다운</a>
                               <a href="" title="블록체인 조희">블록체인 조희</a>
                               <a href="" title="소스코드 다운">소스코드 다운</a>
-                              <a href="" title="비트코인 포럼">비트코인 포럼</a>
-                              <a href="" title="비트코인 채굴">비트코인 채굴</a>
+                              <a href="" title="이더리움 포럼">이더리움 포럼</a>
+                              <a href="" title="이더리움 채굴">이더리움 채굴</a>
                             </p>
                           </div>
                           <div>
@@ -99,12 +99,12 @@
                     <div class="box coin_money">
                           <div class="coin_money_inner">
                             <div class="img_area">
-                                <img src="img/bitcoin_big.png" alt="비트코인아이콘" class="bitcoin_icon">
+                                <img src="img/eth_big.png" alt="이더리움아이콘" class="bitcoin_icon">
                             </div>
                             <ul>
                               <li>
-                                  <strong>비트코인</strong>
-                                  <b class="coin_word">BTC/KRW</b>
+                                  <strong>이더리움</strong>
+                                  <b class="coin_word">ETH/KRW</b>
                               </li>
                               <li>
                                 <span class="price">7,400,000<b class="won">KRW</b>
@@ -113,7 +113,7 @@
                               <li class="coin_prepare">
                                 <strong>전일대비</strong>
                                 <span class="prepare"><b>+0.31</b>%</span>
-                                <span class="updownarrow"><img src="img/arrow_up_red.png" class="ud"></b>23,000</span>
+                                <span class="updownarrow"><img src="img/arrow_up_red.png" class="ud">23,000</span>
                               </li>
                             </ul>
                           </div>
@@ -160,7 +160,7 @@
                                         </tr>
                                         <tr>
                                             <th>공식홈페이지</th>
-                                            <td><a href="http://www.bitcoin.com">http://www.bitcoin.com</a></td>
+                                            <td><a href="https://www.ethereum.org/">https://www.ethereum.org/</a></td>
                                         </tr>
                                     </tbody>
                                 </table><!-- left_thick_table End-->
