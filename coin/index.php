@@ -185,8 +185,8 @@
                         <ul>
                           <li>
                             <a href="certification.php">
-                              <img src="img/security_center.png" alt="코인정보">
-                              <p>보안센터</p>
+                              <img src="img/security_center.png" alt="인증센터">
+                              <p>인증센터</p>
                             </a>
                           </li>
                           <li>

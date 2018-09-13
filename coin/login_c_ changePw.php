@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/sub_menu.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/common.js"></script>
 </head>
 <body>
     <!-- wrap -->

@@ -22,20 +22,22 @@
         <!-- container -->
         <div id="container">
 
+            <!-- nav_wrap -->
+            <?php include "nav.php";?>
+            <!-- nav_wrap End-->
 
-                      <!-- nav_wrap -->
-                      <?php include "nav.php";?>
-                      <!-- nav_wrap End-->
-
-                      <!-- header_wrap -->
-                      <?php include "header.php";?>
-                      <!-- header_wrap End-->
+            <!-- header_wrap -->
+            <?php include "header.php";?>
+            <!-- header_wrap End-->
 
             <!-- content_wrap -->
             <div class="content_wrap">
                 <!-- main_content -->
                 <div class="content certification_content con_1000">
-
+                  <!--small_menu -->
+                  <div class="small_menu">
+                    
+                  </div><!-- small_menu End-->
                   <div class="box certification_area">
                     <h3 class="title">인증센터</h3>
                     <div class="cer_center">
@@ -62,7 +64,7 @@
                             <img src="img/key.png" alt="보안비밀번호생성 아이콘" />
                           </p>
                           <strong>보안비밀번호 생성</strong>
-                          <span>안전거래를 위한 <br/>2차 비밀번호를 생성해주세요.</span>
+                          <span>안전거래를 위한 <br/>보안비밀번호를 생성해주세요.</span>
                         </li>
                         <li>
                           <img src="img/lv4.png" alt="레벨4" class="lv4_on"/>
@@ -72,7 +74,7 @@
                             <img src="img/bankbook.png" alt="계좌인증 아이콘" class="account_on" />
                           </p>
                           <strong class="gray_title">계좌인증</strong>
-                          <span>거래소를 이용하시 위한<br/>계좌를 인증해주요.</span>
+                          <span>거래소를 이용하기 위한<br/>계좌를 인증해주세요.</span>
                         </li>
                         <li>
                           <img src="img/lv5.png" alt="레벨5" class="lv5_on">
@@ -117,7 +119,7 @@
                             </li>
                             <li>
                               <img src="img/lv3.png" alt="레벨3"/>
-                              <p>이메일인증<span>*필수</span></p>
+                              <p>보안비밀번호 생성<span>*필수</span></p>
                               <span class="c_btn c_complete">인증완료</span>
                             </li>
                             <li>
