@@ -186,3 +186,53 @@
     background-color: #1b2f4a;
     cursor: pointer;
 }
+
+/*나머지 팝업들*/
+
+.popupbox{
+  width:427px;
+  height:303px;
+  box-shadow: 0 1px 2px rgba(100,100,100,.2);
+  border-radius:5px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.popupbox_inner{
+  text-align:center;
+}
+.popupbox_inner .popupbox_title{
+  width:336px;
+  font-size:25px;
+  font-weight:600;
+  border-bottom:1px solid #1b2f4a;
+  margin:30px 45.5px;
+  padding-top:40px;
+  padding-bottom:20px;
+  color:#1b2f4a;
+}
+.popupbox_text{
+  font-size:12px;
+  padding-bottom:20px;
+  line-height:1em;
+  color:#666666;
+}
+.popupbox_text b{
+  color:#1b2f4a;
+}
+.popupbt{
+  border-radius:5px;
+  background:none;
+  border:none;
+  font-size:14px;
+  font-weight:600;
+}
+.next{
+  border:1px solid #1b2f4a;
+  padding:5px 20px;
+}
+.ok{
+  border:1px solid #1b2f4a;
+  background-color:#1b2f4a;
+  color:#fff;
+  padding:5px 20px;
+}
