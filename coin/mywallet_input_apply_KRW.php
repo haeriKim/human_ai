@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/mywallet_input_apply_KRW.css">
-    <link rel="stylesheet" href="css/mywallet_output_apply_KRW.css">
     <link rel="stylesheet" href="css/sub_menu.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
@@ -181,12 +180,12 @@
                             <div class="mycointab_container">
                                     <!-- #tab3 입출금-->
                                     <div id="tab3" class="tab_content">
-                                        <!--tab2_header-->
+                                        <!--tab3_header-->
                                         <div class="tab3_header">
                                           <ul class="tabs2">
                                             <li class="active2 input_KRW_btn" rel="input_KRW"><a href='#'>입금</a></li>
                                             <li class="output_KRW_btn" rel="output_KRW"><a href='#'>출금</a></li>
-                                            <li class="input_output_history_btn" rel="input_output"><a href='#'>입출금내역</a></li>
+                                            <li class="mywallet_tab" rel="mywallet_tab"><a href='#'>입출금내역</a></li>
                                           </ul>
                                         </div><!--tab3_header End-->
                                         <!-- input_KRW -->
@@ -294,7 +293,7 @@
                                                 </div><!-- before_send_money_wrap End-->
                                             </form>
                                         </div><!-- input_KRW End-->
-                                        <div id='output_KRW' class='input_KRW conclu_table'>
+                                        <div id='output_KRW' class='output_KRW conclu_table'>
                                             <p class='recharge_coin'>원화(KRW) 출금</p>
                                             <div class="my_coin_state">
                                                 <ul>
@@ -405,6 +404,204 @@
                                                 </div><!-- before_send_money_wrap End-->
                                             </form>
                                         </div><!-- output_KRW End-->
+
+                                        <div id="mywallet_tab" class='mywallet_tab conclu_table'>
+                                          <form class="report_form" action="#" method="post" name='report_form'>
+                                              <!-- buy_tab_content -->
+                          					<div class="table_top cf">
+                          						<div class="selectAll days fl">
+                          							<select title="전체">
+                          								<option value="전체" selected="selected">전체</option>
+                          								<option value="원화">원화</option>
+                          								<option value="비트코인">비트코인</option>
+                          								<option value="비트코인 캐시">비트코인 캐시</option>
+                          								<option value="이더리움">이더리움</option>
+                          								<option value="이더리움 클래식">이더리움 클래식</option>
+                          								<option value="리플">리플</option>
+                          								<option value="에이다">에이다</option>
+                          								<option value="이오스">이오스</option>
+                          							</select>
+                          						</div>
+                          					<!--tab2_header-->
+                          						<div class="tab2_header fr">
+                          							<div class="days">
+                          							  <div class="fl">
+                          								<input type="date" value="2018-07-29">
+                          							  </div>
+                          							<span>~</span>
+                          							<div class="fl">
+                          								<input type="date" value="2018-08-29">
+                          							  </div>
+                          							  <input type="submit" name="search" value="조회" class='search_btn'>
+                          							</div>
+                          						</div>
+                          					<!--tab2_header End-->
+                          					</div>
+                                              <table class='mycoin_table' summary='코인, 요청일시, 금액(수량), 수수료, 입금은행, 계좌번호, 상세보기 버튼, 입금자명, 진행전체, 해당버튼 '>
+                                                <colgroup>
+                                                    <col width=''/>
+                                                    <col width=''/>
+                                                    <col width=''/>
+                                                    <col width=''/>
+                                                    <col width=''/>
+                                                    <col width=''/>
+                                                    <col width=''/>
+                                                    <col width=''/>
+                                                    <col width=''/>
+                                                    <col width=''/>
+                                                    <col width=''/>
+                                                </colgroup>
+                                                <thead class='mycoin_thead_deco'>
+                                                <tr>
+                                                  <th>
+                                  				    <select title="전체" >
+                                  						<option value="거래전체" selected="selected">전체</option>
+                                  						<option value="입금">입금</option>
+                                  						<option value="출금">출금</option>
+                                                    </select>
+                                                  </th>
+                                                  <th><a href="#">코인</a></th>
+                                                  <th><a href="#">요청일시</a></th>
+                                                  <th><a href="#">금액(수량)</a></th>
+                                                  <th><a href="#">수수료</a></th>
+                                                  <th><a href="#">입금은행</a></th>
+                                                  <th colspan="2"><a href="#">계좌번호</a></th>
+                                                  <th><a href="#">입금자명</a></th>
+                                                  <th>
+                                  					<select title="진행전체" >
+                                  						<option value="진행전체" selected="selected">진행전체</option>
+                                  						<option value="대기중">대기중</option>
+                                  						<option value="처리완료">처리완료</option>
+                                                    </select>
+                          			              		</th>
+                                                  <th><a href="#">&nbsp;</a></th>
+                                                </tr>
+                                              </thead>
+                                                <tbody class="mycoin_tbody_deco">
+                                                  <tr>
+                                                    <td><p class="red">입금</p></td>
+                                                    <td>원화</td>
+                                                    <td><p>2018-09-21</p><span>19:00:01</span></td>
+                                                    <td><p class='mycoin_data red fr'>100,000</p></td>
+                                                    <td><p class='mycoin_data fr'>0</p></td>
+                                                    <td><p class='mycoin_data'>OO은행</p></td>
+                                                    <td style="overflow:hidden; text-overflow:ellipsis;">
+                                      								<p class='mycoin_data fl'><nobr>123-456789-320-01</nobr></p>
+                                      							</td>
+                                      							<td><p class='mycoin_data'>&nbsp;</p></td>
+                                                    <td><p class='mycoin_data fr'>가나다1234</td>
+                                                    <td><p class='mycoin_data'>대기중</td>
+                                                    <td><p class='mycoin_data '><span class='mycoin_deposit'><input type="submit" value='취소' class="btn_small2"/></td>
+                                                  </tr>
+                          					              <tr>
+                                                    <td><p class="bl">출금</p></td>
+                                                    <td>원화</td>
+                                                    <td><p>2018-09-21</p><span>19:00:01</span></td>
+                                                    <td><p class='mycoin_data bl fr'>6,000</p></td>
+                                                    <td><p class='mycoin_data fr'>1,000</p></td>
+                                                    <td><p class='mycoin_data'>OO은행</p></td>
+                                                    <td style="overflow:hidden; text-overflow:ellipsis;">
+                                      								<p class='mycoin_data fl'><nobr>123-456789-320-01</nobr></p>
+                                      							</td>
+                                      							<td><p class='mycoin_data'>&nbsp;</td>
+                                                    <td><p class='mycoin_data'>&nbsp;</td>
+                                                    <td><p class='mycoin_data'>처리완료</td>
+                                                    <td><p class='mycoin_data'>&nbsp;</td>
+                                                </tr>
+                          			          		  <tr>
+                                                  <td><p class="red">입금</p></td>
+                                                  <td>이더리움<br/>클래식</td>
+                                                  <td><p>2018-09-21</p><span>19:00:01</span></td>
+                                                  <td><p class='mycoin_data red fr'>20</p></td>
+                                                  <td><p class='mycoin_data fr'>0</p></td>
+                                                  <td><p class='mycoin_data'>&nbsp;</p></td>
+                                                  <td style=" overflow:hidden; text-overflow:ellipsis;">
+                          					              	<p class='mycoin_data fl'><nobr>9i57j0l5.3880rceid=ch...</nobr></p>
+                          				              	</td>
+                          				              	<td><p class='mycoin_data'><input type="button" value='상세보기' class="btn_small2"/></td>
+                                                  <td><p class='mycoin_data'>&nbsp;</td>
+                                                  <td><p class='mycoin_data'>처리완료</td>
+                                                  <td><p class='mycoin_data'>&nbsp;</td>
+                                                </tr>
+                                                <tr class="mycoin_name">
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td style=" overflow:hidden; text-overflow:ellipsis;">
+                                    								<p class='mycoin_data'><nobr></nobr></p>
+                                    							</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    						</tr>
+                                                <tr class="mycoin_name">
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td style=" overflow:hidden; text-overflow:ellipsis;">
+                                    								<p class='mycoin_data'><nobr></nobr></p>
+                                    							</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    						</tr>
+                                                <tr class="mycoin_name">
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td style=" overflow:hidden; text-overflow:ellipsis;">
+                                    								<p class='mycoin_data'><nobr></nobr></p>
+                                    							</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    						</tr>
+                                                <tr class="mycoin_name">
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td style=" overflow:hidden; text-overflow:ellipsis;">
+                                    								<p class='mycoin_data'><nobr></nobr></p>
+                                    							</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                                    							<td><p class='mycoin_data'>&nbsp;</td>
+                          			            		</tr>
+                          			          		</tbody>
+                                            </table>
+                                            <div class="contentBottom">
+                                              <div class="paging">
+                                                <a href="#" title="prev"><img src="img/p_first.png"></a>
+                                                <a href="#" title="prev"><img src="img/p_prev.png"></a>
+                                                <a href="#" title="1page" class="selected">1</a>
+                                                <a href="#" title="2page">2</a>
+                                                <a href="#" title="3page">3</a>
+                                                <a href="#" title="4page">4</a>
+                                                <a href="#" title="5page">5</a>
+                                                <a href="#" title="next"><img src="img/p_next.png"></a>
+                                                <a href="#" title="next"><img src="img/p_end.png"></a>
+                                              </div>
+                                            </div>
+
+
+                                        </form>
+                                      </div><!-- mywallet_tab End-->
                                     </div><!--#tab3 입출금 End-->
                                </div><!--mycointab_container End-->
                         </div>

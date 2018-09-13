@@ -16,10 +16,6 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/common.js"></script>
-	<style>
-	.red{color:#ff2323;}
-	.bl{color:#002dae;}
-	</style>
 </head>
 <body>
   <!-- wrap -->

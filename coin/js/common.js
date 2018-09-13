@@ -205,9 +205,9 @@ $(function () {
 
 //입출금 탭 클릭
 $(document).ready(function(){
-  $(".mycoin_tab li.tab3").click(function(){
-      location.href="mywallet_input_apply_KRW.php";
-  });
+  // $(".mycoin_tab li.tab3").click(function(){
+  //     location.href="mywallet_input_apply_KRW.php";
+  // });
   $(".mycoin_tab li.mywallet").click(function(){
     location.href="mycoin_sub.php";
   });

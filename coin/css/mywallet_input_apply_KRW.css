@@ -5,7 +5,6 @@
   height: auto;
   overflow: hidden;
 }
-
 /*tab*/
 .mycoin_fence{
   width:900px;
@@ -30,7 +29,6 @@
   border-top: 3px solid #1b2f4a;
   background-color:#fff;
 }
-
 /* 공통 */
 .tab_content {
   padding: 30px 50px;
@@ -38,10 +36,9 @@
 }
 
 /*원화입금*/
-#input_KRW{
+.conclu_table{
     width: 800px;
 }
-
 #input_KRW div.account_table_wrap{
     overflow: hidden;
 }
@@ -167,6 +164,12 @@
     color: #666;
     font-weight: 600;
 }
+#input_KRW div.checkbox_list .all_agree_01,
+#output_KRW div.checkbox_list .all_agree_02{
+    border-top: 1px solid #efefef;
+    padding-top: 10px;
+    margin-top: 10px;
+}
 #input_KRW div.before_send_money_wrap label.all_agree{
     padding-top: 20px;
     border-top: 1px solid #efefef;
@@ -174,6 +177,293 @@
 }
 #input_KRW div.before_send_money_wrap .cancel_or_apply{
     text-align: center;
+    margin-top: 13px;
+}
+
+/*원화출금*/
+#output_KRW div.account_table_wrap{
+    overflow: hidden;
+}
+#output_KRW div.account_table_wrap > div{
+    float: left;
+    margin-left: 12px;
+    margin-bottom: 15px;
+}
+#output_KRW div.account_table_wrap > div > p{
+    color: #1b2f4a;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size:16px;
+}
+#output_KRW .left_thick_table tbody tr{
+    height: 45px;
+}
+#output_KRW .left_thick_table tbody th{
+    padding: 10px 20px 10px 16px;
+    font-size:15px;
+}
+#output_KRW .left_thick_table tbody td{
+    width: 600px;
+    font-size: 15px;
+}
+#output_KRW table.left_thick_table tbody p{
+    display: inline-block;
+    width: 300px;
+}
+#output_KRW table.left_thick_table tbody input[type='submit']{
+    border: 1px solid #1b2f4a;
+    background: #fff;
+    color: #1b2f4a;
+    padding: 3px 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    font-size:15px;
+}
+#output_KRW table.left_thick_table tbody input[type='submit']:hover{
+    border: 1px solid #1b2f4a;
+    background: #1b2f4a;
+    color: #fff;
+    padding: 3px 5px;
+    cursor: pointer;
+}
+#output_KRW table.left_thick_table tbody input[type='text']{
+    border: none;
+    border-bottom: 1px solid #1b2f4a;
+    width: 300px;
+    padding-bottom: 4px;
+    font-size:15px;
+}
+#output_KRW table.left_thick_table tbody input::placeholder{
+    color:#a1a1a1;
+    font-size:14px;
+}
+#output_KRW div.before_send_money_wrap{
+    margin-left: 12px;
+    margin-top: 50px;
+}
+#output_KRW div.before_send_money_wrap p{
+    color: #1b2f4a;
+    font-weight: 600;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #1b2f4a;
+    padding-bottom: 8px;
+}
+#output_KRW div.before_send_money_wrap label{
+    display: block;
+    padding-left: 25px;
+    margin-bottom: 3px;
+    font-size: 13px;
+    color: #666;
+    font-weight: 600;
+}
+#output_KRW div.before_send_money_wrap label.all_agree{
+    padding-top: 20px;
+    border-top: 1px solid #efefef;
+    margin: 16px 0 25px 0;
+}
+#output_KRW div.before_send_money_wrap .cancel_or_apply{
+    text-align: center;
+}
+#output_KRW div.before_send_money_wrap .cancel_btn{
+    background: #fff;
+    border: 1px solid #1b2f4a;
+    border-radius: 5px;
+    padding: 7px 30px;
+    color: #1b2f4a;
+    font-weight: 600;
+    margin-left: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#output_KRW div.before_send_money_wrap .agree_btn {
+  border-radius: 5px;
+  padding: 7px 30px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+#output_KRW div.before_send_money_wrap .if_you_not_all_agree{
+    border: 1px solid #666;
+    background-color: #666;
+}
+#output_KRW div.before_send_money_wrap .if_you_all_agree{
+  border: 1px solid #1b2f4a;
+  background-color: #1b2f4a;
+  cursor: pointer;
+}
+
+/*입출금내역*/
+.fr{float:right}
+.fl{float:left}
+.cb{clear: both;}
+.cf:after{content: ''; clear:both; display:block; visibility:hidden; height:0;}
+.color_bk{color:black;}
+
+#mywallet_tab .mycoin_tbody_deco .red{
+    color:#ff2323;
+}
+#mywallet_tab .mycoin_tbody_deco .bl{
+    color:#002dae;
+}
+.tab2_header .days{
+  float:right;
+  font-size:15px;
+  padding: 5px 0;
+}
+.tab2_header .days input{
+  font-size:14px;
+  height: 30px;
+  text-indent: 3px;
+}
+.tab2_header .days ::-webkit-inner-spin-button {
+     height: 30px;
+     margin-left: 5px;
+ }
+ .tab2_header .days ::-webkit-calendar-picker-indicator  {
+     color: rgba(0, 0, 0, 0);
+     background: url(../img/cal.png) no-repeat 100%; background-size:cover;
+     padding-left:10px;
+  }
+.tab2_header .days span{
+  float:left;
+  margin:0 5px;
+  line-height:32px;
+  font-weight: 600;
+  color: #1b2f4a;
+}
+.tab2_header .days div{
+  float:left;
+}
+.tab2_header .days .search_btn{
+  width:50px;
+  height:35px;
+  margin-left:10px;
+  background-color:#1b2f4a;
+  color:#fff;
+  font-weight:600;
+  cursor:pointer;
+  border: none;
+}
+
+/*전체선택 모든것*/
+ .table_top {
+	margin-bottom:30px;
+}
+.selectAll{
+  padding:2px 0;
+}
+.selectAll select{
+  font-size:14px;
+  height: 34px;
+  text-indent: 3px;
+}
+
+/*tab2*/
+.table_top .tab2_header {
+  overflow: hidden;
+}
+.tab2_header .days{
+  font-size:15px;
+}
+.table_top .days input{
+  font-size:14px;
+  text-indent: 3px;
+}
+.tab2_header .days ::-webkit-inner-spin-button {
+     margin-left: 5px;
+ }
+ .tab2_header .days ::-webkit-calendar-picker-indicator  {
+     color: rgba(0, 0, 0, 0);
+     background: url(../img/cal.png) no-repeat 100%;
+     padding-left:10px;
+  }
+.tab2_header .days span{
+  float:left;
+  margin:0 5px;
+  line-height:32px;
+  font-weight: 600;
+  color: #1b2f4a;
+}
+table.mycoin_table{
+  margin: 0 auto;
+  font-size:14px;
+}
+table .mycoin_thead_deco{
+  background-color: #e8eaed;
+}
+table .mycoin_thead_deco tr{
+  border-bottom: 2px solid #1b2f4a;
+  background-color:#f4f5f8;
+}
+.mycoin_thead_deco th select {
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #1b2f4a;
+  color: #1b2f4a;
+  font-weight: 600;
+  font-size: 14px;
+  background-color:#f4f5f8;
+  margin:0 -2px;
+}
+table .mycoin_thead_deco th{
+  padding:15px 8px;
+}
+table .mycoin_thead_deco th a{
+  /* float:right; */
+  font-weight: lighter;
+  font-weight: 600;
+  font-size:14px;
+  color: #1b2f4a;
+}
+table .mycoin_thead_deco th.mycoin_kor a{
+  margin-left:10px;
+}
+table .mycoin_tbody_deco tr{
+  border-bottom: 1px solid #efefef;
+  height:45px;
+}
+table .mycoin_tbody_deco td{
+}
+table .mycoin_tbody_deco>tr>td>img{
+  float:left;
+  margin: 2px;
+  margin-right:10px;
+}
+.mycoin_name{
+  padding: 3px 10px;
+}
+
+/*입출금내역 버튼 영역*/
+.btn_small2{
+  padding: 2px 8px;
+  margin:0 2px;
+  background-color: white;
+  color:#1b2f4a; border: 1px solid #1b2f4a;
+  cursor:pointer;
+}
+.btn_small2:hover{
+  color:white;
+  background-color: #1b2f4a;
+}
+
+/* 페이징(공지사항, 체결/미체결) */
+.contentBottom{
+  padding:20px 0;
+  text-align:center;
+}
+.contentBottom .paging a {
+    display:inline-block;
+    width:20px;
+    height:20px;
+    text-align: center;
+    font-size:14px;
+    font-weight:400;
+    margin-top:5px;
+}
+.contentBottom .paging a img {
+  width: 7px;
+  vertical-align: middle;
 }
 
   /*보유코인 콘텐츠 시작*/
@@ -202,7 +492,6 @@
   #mywallet_havecoin table{
       font-size:13px;
   }
-
   #mywallet_havecoin thead tr{
       height: 35px;
       color:#666;
@@ -219,9 +508,6 @@
   }
   #mywallet_havecoin thead th.coin_condition{
       padding-left: 49px;
-  }
-  #mywallet_havecoin thead th.coin_amount{
-
   }
   #mywallet_havecoin tbody img{
       float: left;
