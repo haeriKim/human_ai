@@ -195,11 +195,9 @@
 
   /*보유코인 콘텐츠 시작*/
 #mywallet_havecoin{
-      padding: 0;
-      float:left;
-      position: relative;
-      margin:0 20px 0 0;
-      width: 390px;
+  padding: 0;
+  float:left;
+  position: relative;
 }
 #mywallet_havecoin h3{
       color:#1b2f4a;

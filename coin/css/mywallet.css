@@ -243,9 +243,9 @@ table .mycoin_tbody_title{
 
 /*mywallet_tab*/
 
-#mywallet_tab{
+/* #mywallet_tab{
   float:left;
-}
+} */
 
 #mywallet_tab .mywallet_tab_title{
     width: 900px;

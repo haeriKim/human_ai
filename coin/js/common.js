@@ -193,6 +193,7 @@ $(document).ready(function(){
 $(function () {
     $(".tab_content").hide();
     $(".tab_content:first").show();
+    $("#mywallet_havecoin").hide();
 
     $("ul.tabs li.tab_same").click(function () {
         $("ul.tabs li.tab_same").removeClass("active");
@@ -200,38 +201,44 @@ $(function () {
         $(".tab_content").hide()
         var activeTab = $(this).attr("rel");
         $("#" + activeTab).show()
-    });
-});
 
-//입출금 탭 클릭
-$(document).ready(function(){
-  // $(".mycoin_tab li.tab3").click(function(){
-  //     location.href="mywallet_input_apply_KRW.php";
-  // });
-  $(".mycoin_tab li.mywallet").click(function(){
-    location.href="mycoin_sub.php";
-  });
-  $(".mycoin_tab li.ex_list").click(function(){
-    console.log("Aa");
-    var a = $("#mycoin_tab li.tab_ex").attr("rel");
-    $("#" + a).show()
-      location.replace("mycoin_sub.php");
-      });
+        if(activeTab == "tab1" || activeTab == "tab2") {
+          $("#deal_orgin_transaction").show();
+          $("#mywallet_havecoin").hide();
+        } else {
+          $("#mywallet_havecoin").show();
+          $("#deal_orgin_transaction").hide();
+        }
+    });
 });
 
 // 체결,미체결 표
 $(function () {
 
-    $(".conclu_table").hide();
-    $(".conclu_table:first").show();
+    $(".conclu_table, .KRW_conclu_table").hide();
+    $(".conclu_table:first, .KRW_conclu_table:first").show();
 
     $("ul.tabs2 li").click(function () {
         $("ul.tabs2 li").removeClass("active2").css({"color": "#1b2f4a","border":"1px solid #1b2f4a","background":"#fff"});
         $(this).addClass("active2").css({"color": "#fff","border":"1px solid #1b2f4a","background":"#1b2f4a"});
-        $(".conclu_table").hide()
+        $(".conclu_table").hide();
         var activeTab = $(this).attr("rel");
-        $("#" + activeTab).show()
+        $("#" + activeTab).show();
     });
+
+    $("ul.tabs3 li").click(function () {
+        $("ul.tabs3 li").removeClass("active2").css({"color": "#1b2f4a","border":"1px solid #1b2f4a","background":"#fff"});
+        $(this).addClass("active2").css({"color": "#fff","border":"1px solid #1b2f4a","background":"#1b2f4a"});
+        $(".KRW_conclu_table").hide();
+        var activeTab = $(this).attr("rel");
+        $("#" + activeTab).show();
+        console.log(activeTab);
+    });
+    // var a = $("#KRW_input_output ul.tabs3 li").attr("class");
+    // console.log(a);
+    // if(a === "input_KRW" || a === "output_KRW" || a === "mywallet_tab") {
+    //
+    // }
 });
 
 //내 자산관리-주의사항 입금 전체 동의
