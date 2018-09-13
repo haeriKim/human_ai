@@ -33,11 +33,17 @@
             <!-- content_wrap -->
             <div class="content_wrap">
                 <!-- main_content -->
-                <div class="content certification_content con_1000">
-                  <!--small_menu -->
-                  <div class="small_menu">
-                    
-                  </div><!-- small_menu End-->
+                <div class="content certification_content con_1250">
+                  <!--content_nav -->
+                  <div class="content_nav">
+                    <h4>마이페이지</h4>
+                    <ul>
+                        <li><a href="#" title="회원정보등록">회원정보등록</a></li>
+                        <li class="active"><a href="" title="인증센터">인증센터</a></li>
+                        <li><a href="" title="접속이력확인">접속이력확인</a></li>
+                        <li><a href="" title="알림">알림</a></li>
+                    </ul>
+                  </div><!-- content_nav End-->
                   <div class="box certification_area">
                     <h3 class="title">인증센터</h3>
                     <div class="cer_center">
