@@ -63,7 +63,7 @@
                           <div>
                             <h4>상용링크</h4>
                             <p>
-                              <a href="" title="공식 웹사이트">공식 웹사이트</a>
+                              <a href="http://www.bitcoin.com" title="공식 웹사이트">공식 웹사이트</a>
                               <a href="" title="지갑 다운">지갑 다운</a>
                               <a href="" title="블록체인 조희">블록체인 조희</a>
                               <a href="" title="소스코드 다운">소스코드 다운</a>
