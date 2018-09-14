@@ -208,6 +208,7 @@ $(function () {
         } else {
           $("#mywallet_havecoin").show();
           $("#deal_orgin_transaction").hide();
+          $(".bitcoin_conclu_table").hide();
         }
     });
 });
@@ -243,6 +244,7 @@ $(document).ready(function(){
 
     //코인 입출금
     $("ul.tabs4 li").click(function () {
+      $(".bitcoin_conclu_table").show();
         $("ul.tabs4 li").removeClass("active2").css({"color": "#1b2f4a","border":"1px solid #1b2f4a","background":"#fff"});
         $(this).addClass("active2").css({"color": "#fff","border":"1px solid #1b2f4a","background":"#1b2f4a"});
         $(".bitcoin_conclu_table").hide();
@@ -255,6 +257,7 @@ $(document).ready(function(){
       $("#KRW_input_output").hide();
       $("#bitcoin_input_output").show();
       $("ul.tabs4").show();
+      $("#input_bitcoin").show();
     });
     $(".won_sel").click(function (){
       $("#bitcoin_input_output").hide();
