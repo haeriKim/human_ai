@@ -109,3 +109,9 @@
 .coin_money_detail #detail_all .ada_table tbody tr td{
     padding: 0 8px;
 }
+
+/* 리플 */
+.coin_money_detail #detail_all .ripple_table tbody tr td {
+    font-size: 13px;
+    padding: 0 18px;
+}
