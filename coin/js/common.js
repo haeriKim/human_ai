@@ -208,7 +208,7 @@ $(function () {
         } else {
           $("#mywallet_havecoin").show();
           $("#deal_orgin_transaction").hide();
-          $(".bitcoin_conclu_table").hide();
+          // $(".bitcoin_conclu_table").hide();
         }
     });
 });
@@ -235,12 +235,14 @@ $(document).ready(function(){
         var activeTab = $(this).attr("rel");
         $("#" + activeTab).show();
 
-        //코인부분 입출금 안보이기
-        var a = $("ul.tabs3 li").attr("rel");
-        if(a === "input_KRW" || a === "output_KRW" || a === "io_list") {
-          $("ul.tabs4").hide();
-        }
+
     });
+    //코인부분 입출금 안보이기
+    var a = $("ul.tabs3 li").attr("rel");
+    if(a === "input_KRW" || a === "output_KRW" || a === "io_list") {
+      $("ul.tabs4").hide();
+      $(".bitcoin_conclu_table").hide();
+    }
 
     //코인 입출금
     $("ul.tabs4 li").click(function () {
