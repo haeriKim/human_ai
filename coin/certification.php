@@ -38,7 +38,8 @@
                   <div class="content_nav">
                     <h4>마이페이지</h4>
                     <ul>
-                        <li><a href="#" title="회원정보등록">회원정보등록</a></li>
+                        <li><a href="#" title="회원정보">회원정보</a></li>
+                        <li><a href="#" title="회원정보관리">회원정보관리</a></li>
                         <li class="active"><a href="" title="인증센터">인증센터</a></li>
                         <li><a href="" title="접속이력확인">접속이력확인</a></li>
                         <li><a href="" title="알림">알림</a></li>

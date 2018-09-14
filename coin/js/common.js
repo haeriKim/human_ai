@@ -189,7 +189,7 @@ $(document).ready(function(){
   });
 });
 
-//내 자산관리 탭
+//내 자산관리 전체탭
 $(function () {
     $(".tab_content").hide();
     $(".tab_content:first").show();
@@ -212,12 +212,12 @@ $(function () {
     });
 });
 
-// 체결,미체결 표
-$(function () {
+// 자산관리 서브탭
+$(document).ready(function(){
+    $(".conclu_table, .KRW_conclu_table, ul.tabs4, .bitcoin_conclu_table").hide();
+    $(".conclu_table:first, .KRW_conclu_table:first, .bitcoin_conclu_table:first").show();
 
-    $(".conclu_table, .KRW_conclu_table, ul.tabs4").hide();
-    $(".conclu_table:first, .KRW_conclu_table:first").show();
-
+    //보유코인,거래내역
     $("ul.tabs2 li").click(function () {
         $("ul.tabs2 li").removeClass("active2").css({"color": "#1b2f4a","border":"1px solid #1b2f4a","background":"#fff"});
         $(this).addClass("active2").css({"color": "#fff","border":"1px solid #1b2f4a","background":"#1b2f4a"});
@@ -226,6 +226,7 @@ $(function () {
         $("#" + activeTab).show();
     });
 
+    //원화 입출금
     $("ul.tabs3 li").click(function () {
         $("ul.tabs3 li").removeClass("active2").css({"color": "#1b2f4a","border":"1px solid #1b2f4a","background":"#fff"});
         $(this).addClass("active2").css({"color": "#fff","border":"1px solid #1b2f4a","background":"#1b2f4a"});
@@ -238,9 +239,27 @@ $(function () {
         if(a === "input_KRW" || a === "output_KRW" || a === "io_list") {
           $("ul.tabs4").hide();
         }
-
     });
 
+    //코인 입출금
+    $("ul.tabs4 li").click(function () {
+        $("ul.tabs4 li").removeClass("active2").css({"color": "#1b2f4a","border":"1px solid #1b2f4a","background":"#fff"});
+        $(this).addClass("active2").css({"color": "#fff","border":"1px solid #1b2f4a","background":"#1b2f4a"});
+        $(".bitcoin_conclu_table").hide();
+        var activeTab = $(this).attr("rel");
+        $("#" + activeTab).show();
+      });
+
+    //보유코인 표에서 입출금 눌렀을 때 - 원화,코인 입출금 보이고 안보이기
+    $(".coin_sel").click(function (){
+      $("#KRW_input_output").hide();
+      $("#bitcoin_input_output").show();
+      $("ul.tabs4").show();
+    });
+    $(".won_sel").click(function (){
+      $("#bitcoin_input_output").hide();
+      $("#KRW_input_output").show();
+    });
 });
 
 //내 자산관리-주의사항 입금 전체 동의

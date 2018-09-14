@@ -75,7 +75,7 @@
                                       <td class='have_coin_amount'>
                                           <p class='up_down_data style_bold'>750,000,000<span class='unit_style'>KRW</span></p>
                                       </td>
-                                      <td><a href='#' class='button_hover'>입출금</a></td>
+                                      <td><a href='#' class='button_hover won_sel'>입출금</a></td>
                                   </tr>
                                   <tr>
                                       <td class='coin_kor'>
@@ -1181,8 +1181,6 @@
                                                     <a href="#" title="next"><img src="img/p_end.png"></a>
                                                   </div>
                                                 </div>
-
-
                                             </form>
                                           </div><!-- mywallet_tab End-->
                                       </div><!-- KRW_input_output End--><!-- 원화 입출금 끝-->
@@ -1192,11 +1190,11 @@
                                                    <ul class="tabs4">
                                                        <li class="active2 input_KRW_btn" rel="input_bitcoin"><a href='#'>입금</a></li>
                                                        <li class="output_KRW_btn" rel="output_bitcoin"><a href='#'>출금</a></li>
-                                                       <li class="input_output_history_btn" rel="mywallet_tab"><a href='#'>입출금내역</a></li>
+                                                       <li class="input_output_history_btn" rel="io_history"><a href='#'>입출금내역</a></li>
                                                    </ul>
                                                  </div><!--tab3_header End-->
                                                  <!-- input_bitcoin -->
-                                                 <div id='input_bitcoin' class='input_bitcoin conclu_table'>
+                                                 <div id='input_bitcoin' class='bitcoin_conclu_table input_bitcoin conclu_table'>
                                                      <p class='recharge_coin'>비트코인(BTC) 입금</p>
                                                      <div class="my_coin_state">
                                                          <ul class='my_coin_ul'>
@@ -1245,7 +1243,7 @@
                                                              </div>
                                                          </div><!-- before_send_money_wrap End-->
                                                  </div><!-- input_bitcoin End-->
-                                                 <div id='output_bitcoin' class='output_bitcoin conclu_table'>
+                                                 <div id='output_bitcoin' class='bitcoin_conclu_table output_bitcoin conclu_table'>
                                                      <p class='recharge_coin'>비트코인(BTC) 출금</p>
                                                      <div class="my_coin_state">
                                                          <ul class='my_coin_ul'>
@@ -1352,7 +1350,7 @@
                                                          </div><!-- before_send_money_wrap End-->
                                                      </form>
                                                  </div><!-- output_bitcoin End-->
-                                                 <div id="mywallet_tab" class='mywallet_tab conclu_table'>
+                                                 <div id="io_history" class='bitcoin_conclu_table mywallet_tab conclu_table'>
                                                    <form class="report_form" action="#" method="post" name='report_form'>
                                                        <!-- buy_tab_content -->
                                                      <div class="table_top cf">
