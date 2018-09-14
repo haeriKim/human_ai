@@ -111,9 +111,6 @@ table .mycoin_tbody_deco tr{
   border-bottom: 1px solid #efefef;
   height:45px;
 }
-table .mycoin_tbody_deco td{
-
-}
 table .mycoin_tbody_deco>tr>td>img{
   float:left;
   margin: 2px;

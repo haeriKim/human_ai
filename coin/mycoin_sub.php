@@ -753,7 +753,7 @@
 
 <!-- 입출금 탭 시작 --><!-- 입출금 탭 시작 --><!-- 입출금 탭 시작 --><!-- 입출금 탭 시작 --><!-- 입출금 탭 시작 --><!-- 입출금 탭 시작 --><!-- 입출금 탭 시작 --><!-- 입출금 탭 시작 --><!-- 입출금 탭 시작 --><!-- 입출금 탭 시작 -->
                             <!-- #tab3 입출금-->
-                            <div id="tab3" class="tab_content">
+                            <div id="tab3" class="tab_content tab_content_input_output">
                                             <!-- KRW_input_output --><!-- 원화입출금 시작-->
                                             <div id='KRW_input_output'>
                                             <!--tab3_header-->
@@ -1043,13 +1043,13 @@
                                                             <option value="출금">출금</option>
                                                         </select>
                                                       </th>
-                                                      <th><a href="#">코인</a></th>
-                                                      <th><a href="#">요청일시</a></th>
-                                                      <th><a href="#">금액(수량)</a></th>
-                                                      <th><a href="#">수수료</a></th>
-                                                      <th><a href="#">입금은행</a></th>
-                                                      <th colspan="2"><a href="#">계좌번호</a></th>
-                                                      <th><a href="#">입금자명</a></th>
+                                                      <th>코인</th>
+                                                      <th class='apply_date_th'>요청일시</th>
+                                                      <th>금액(수량)</th>
+                                                      <th>수수료</th>
+                                                      <th>입금은행</th>
+                                                      <th colspan="2" class='account_number_th'>계좌번호</th>
+                                                      <th>입금자명</th>
                                                       <th>
                                                         <select title="진행전체" >
                                                             <option value="진행전체" selected="selected">진행전체</option>
@@ -1064,9 +1064,9 @@
                                                       <tr>
                                                         <td><p class="red">입금</p></td>
                                                         <td>원화</td>
-                                                        <td><p>2018-09-21</p><span>19:00:01</span></td>
-                                                        <td><p class='mycoin_data red fr'>100,000</p></td>
-                                                        <td><p class='mycoin_data fr'>0</p></td>
+                                                        <td class='apply_date_td'><p>2018-09-21</p><span>19:00:01</span></td>
+                                                        <td><p class='mycoin_data red'>100,000</p></td>
+                                                        <td><p class='mycoin_data'>0</p></td>
                                                         <td><p class='mycoin_data'>OO은행</p></td>
                                                         <td style="overflow:hidden; text-overflow:ellipsis;">
                                                                         <p class='mycoin_data fl'><nobr>123-456789-320-01</nobr></p>
@@ -1079,9 +1079,9 @@
                                                               <tr>
                                                         <td><p class="bl">출금</p></td>
                                                         <td>원화</td>
-                                                        <td><p>2018-09-21</p><span>19:00:01</span></td>
-                                                        <td><p class='mycoin_data bl fr'>6,000</p></td>
-                                                        <td><p class='mycoin_data fr'>1,000</p></td>
+                                                        <td class='apply_date_td'><p>2018-09-21</p><span>19:00:01</span></td>
+                                                        <td><p class='mycoin_data bl'>6,000</p></td>
+                                                        <td><p class='mycoin_data'>1,000</p></td>
                                                         <td><p class='mycoin_data'>OO은행</p></td>
                                                         <td style="overflow:hidden; text-overflow:ellipsis;">
                                                                         <p class='mycoin_data fl'><nobr>123-456789-320-01</nobr></p>
@@ -1094,9 +1094,9 @@
                                                           <tr>
                                                       <td><p class="red">입금</p></td>
                                                       <td>이더리움<br/>클래식</td>
-                                                      <td><p>2018-09-21</p><span>19:00:01</span></td>
-                                                      <td><p class='mycoin_data red fr'>20</p></td>
-                                                      <td><p class='mycoin_data fr'>0</p></td>
+                                                      <td class='apply_date_td'><p>2018-09-21</p><span>19:00:01</span></td>
+                                                      <td><p class='mycoin_data red'>20</p></td>
+                                                      <td><p class='mycoin_data'>0</p></td>
                                                       <td><p class='mycoin_data'>&nbsp;</p></td>
                                                       <td style=" overflow:hidden; text-overflow:ellipsis;">
                                                                 <p class='mycoin_data fl'><nobr>9i57j0l5.3880rceid=ch...</nobr></p>
@@ -1407,13 +1407,13 @@
                                                                  <option value="출금">출금</option>
                                                              </select>
                                                            </th>
-                                                           <th><a href="#">코인</a></th>
-                                                           <th><a href="#">요청일시</a></th>
-                                                           <th><a href="#">금액(수량)</a></th>
-                                                           <th><a href="#">수수료</a></th>
-                                                           <th><a href="#">입금은행</a></th>
-                                                           <th colspan="2"><a href="#">계좌번호</a></th>
-                                                           <th><a href="#">입금자명</a></th>
+                                                           <th>코인</th>
+                                                           <th class='apply_date_th'>요청일시</th>
+                                                           <th>금액(수량)</th>
+                                                           <th>수수료</th>
+                                                           <th>입금은행</th>
+                                                           <th colspan="2" class='account_number_th'>계좌번호</th>
+                                                           <th>입금자명</th>
                                                            <th>
                                                              <select title="진행전체" >
                                                                  <option value="진행전체" selected="selected">진행전체</option>
@@ -1428,9 +1428,9 @@
                                                            <tr>
                                                              <td><p class="red">입금</p></td>
                                                              <td>원화</td>
-                                                             <td><p>2018-09-21</p><span>19:00:01</span></td>
-                                                             <td><p class='mycoin_data red fr'>100,000</p></td>
-                                                             <td><p class='mycoin_data fr'>0</p></td>
+                                                             <td class='apply_date_td'><p>2018-09-21</p><span>19:00:01</span></td>
+                                                             <td><p class='mycoin_data red'>100,000</p></td>
+                                                             <td><p class='mycoin_data'>0</p></td>
                                                              <td><p class='mycoin_data'>OO은행</p></td>
                                                              <td style="overflow:hidden; text-overflow:ellipsis;">
                                                                              <p class='mycoin_data fl'><nobr>123-456789-320-01</nobr></p>
@@ -1443,9 +1443,9 @@
                                                                    <tr>
                                                              <td><p class="bl">출금</p></td>
                                                              <td>원화</td>
-                                                             <td><p>2018-09-21</p><span>19:00:01</span></td>
-                                                             <td><p class='mycoin_data bl fr'>6,000</p></td>
-                                                             <td><p class='mycoin_data fr'>1,000</p></td>
+                                                             <td class='apply_date_td'><p>2018-09-21</p><span>19:00:01</span></td>
+                                                             <td><p class='mycoin_data bl'>6,000</p></td>
+                                                             <td><p class='mycoin_data'>1,000</p></td>
                                                              <td><p class='mycoin_data'>OO은행</p></td>
                                                              <td style="overflow:hidden; text-overflow:ellipsis;">
                                                                              <p class='mycoin_data fl'><nobr>123-456789-320-01</nobr></p>
@@ -1458,9 +1458,9 @@
                                                                <tr>
                                                            <td><p class="red">입금</p></td>
                                                            <td>이더리움<br/>클래식</td>
-                                                           <td><p>2018-09-21</p><span>19:00:01</span></td>
-                                                           <td><p class='mycoin_data red fr'>20</p></td>
-                                                           <td><p class='mycoin_data fr'>0</p></td>
+                                                           <td class='apply_date_td'><p>2018-09-21</p><span>19:00:01</span></td>
+                                                           <td><p class='mycoin_data red'>20</p></td>
+                                                           <td><p class='mycoin_data'>0</p></td>
                                                            <td><p class='mycoin_data'>&nbsp;</p></td>
                                                            <td style=" overflow:hidden; text-overflow:ellipsis;">
                                                                      <p class='mycoin_data fl'><nobr>9i57j0l5.3880rceid=ch...</nobr></p>
