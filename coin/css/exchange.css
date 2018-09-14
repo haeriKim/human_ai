@@ -236,6 +236,8 @@
   left:370px;
   top:0;
   display:none;
+  background:#fff;
+  z-index:20;
 }
 
 #detail_all{
