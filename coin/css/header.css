@@ -16,9 +16,10 @@
 }
 #header .current_coin {
   text-align: center;
+  width: 100%;
 }
 #header .current_coin ul {
-  display: inline-block;
+  display: block;
   overflow: hidden;
   padding: 15px 0;
   text-align: left;
@@ -26,7 +27,7 @@
 #header .current_coin ul li{
   float: left;
   font-size: 14px;
-  width: 220px;
+  width: 14.25%;
   box-sizing: border-box;
   text-align: center;
 }
