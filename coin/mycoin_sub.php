@@ -166,7 +166,7 @@
                                           <p class='up_down_data style_bold'>0.00<span class='unit_style'>EOS</span></p>
                                           <p class='up_down_data'>0<span class='unit_style'>KRW</span></p>
                                       </td>
-                                      <td><a href="#" class='button_hover'>입출금</a></td>
+                                      <td class='ready_input_output'>입출금<br/>준비중</td>
                                   </tr>
                               </tbody>
                             </table>
@@ -1244,111 +1244,119 @@
                                                          </div><!-- before_send_money_wrap End-->
                                                  </div><!-- input_bitcoin End-->
                                                  <div id='output_bitcoin' class='bitcoin_conclu_table output_bitcoin conclu_table'>
-                                                     <p class='recharge_coin'>비트코인(BTC) 출금</p>
-                                                     <div class="my_coin_state">
-                                                         <ul class='my_coin_ul'>
-                                                             <li class='my_coin_li_01'>
-                                                                 <p class='my_coin_state_title'>보유금액</p>
-                                                                 <p class='up_down_data my_coin_state_amount'>750<span>BTC</span></p>
-                                                             </li>
-                                                             <li class='my_coin_li_02'>
-                                                                 <div class="">
-                                                                     <p class='my_coin_state_title'>거래대기</p>
+                                                     <!-- out_put_you_can -->
+                                                     <div class="out_put_you_can">
+                                                         <p class='recharge_coin'>비트코인(BTC) 출금</p>
+                                                         <div class="my_coin_state">
+                                                             <ul class='my_coin_ul'>
+                                                                 <li class='my_coin_li_01'>
+                                                                     <p class='my_coin_state_title'>보유금액</p>
+                                                                     <p class='up_down_data my_coin_state_amount'>750<span>BTC</span></p>
+                                                                 </li>
+                                                                 <li class='my_coin_li_02'>
+                                                                     <div class="">
+                                                                         <p class='my_coin_state_title'>거래대기</p>
+                                                                         <p class='up_down_data my_coin_state_amount'>100<span>BTC</span></p>
+                                                                     </div>
+                                                                 </li>
+                                                                 <li class='my_coin_li_03'>
+                                                                     <p class='my_coin_state_title'>출금가능</p>
                                                                      <p class='up_down_data my_coin_state_amount'>100<span>BTC</span></p>
+                                                                 </li>
+                                                             </ul>
+                                                         </div>
+                                                         <form class="" action="#" method="post">
+                                                             <!-- account_table_wrap -->
+                                                             <div class="account_table_wrap">
+                                                                 <!-- send_account -->
+                                                                 <div class="send_account">
+                                                                     <p>BTC 출금</p>
+                                                                     <table class='left_thick_table'>
+                                                                         <tbody>
+                                                                             <tr>
+                                                                                 <th>1회 출금한도</th>
+                                                                                 <td class='emphasis'>1 BTC</td>
+                                                                             </tr>
+                                                                             <tr>
+                                                                                 <th>나의 잔여한도</th>
+                                                                                 <td>3,000 KRW</td>
+                                                                             </tr>
+                                                                             <tr>
+                                                                                 <th>나의 비트코인 주소</th>
+                                                                                 <td><span class='up_down_data temporary_address'>asdlkjlqkwasdasdeli@oasdasd1231234</span></td>
+                                                                             </tr>
+                                                                             <tr>
+                                                                                 <th>비트코인 출금 주소</th>
+                                                                                 <td>
+                                                                                     <input type="text" name="" value="" placeholder="주소를 입력해주세요." required>
+                                                                                 </td>
+                                                                             </tr>
+                                                                             <tr>
+                                                                                 <th>출금 신청금액</th>
+                                                                                 <td>
+                                                                                     <input type="text" name="" value="" placeholder="0" required>
+                                                                                     <input type="button" value="최대">
+                                                                                     <input type="button" value="최소">
+                                                                                 </td>
+                                                                             </tr>
+                                                                             <tr>
+                                                                                 <th>출금 수수료</th>
+                                                                                 <td class='emphasis'>0.0005 BTC</td>
+                                                                             </tr>
+                                                                             <tr>
+                                                                                 <th>실제 출금금액</th>
+                                                                                 <td class='reality_won'>-0.0005 BTC</td>
+                                                                             </tr>
+                                                                             <tr>
+                                                                                 <th>보안 비밀번호</th>
+                                                                                 <td>
+                                                                                     <input type="text" name="" value="" placeholder="보안 비밀번호를 입력하세요." required maxlength="4" minlength='4'>
+                                                                                 </td>
+                                                                             </tr>
+                                                                             <tr>
+                                                                                 <th>OTP 인증번호</th>
+                                                                                 <td>
+                                                                                     <input type="text" name="" value="" placeholder="OTP 번호를 입력하세요." required maxlength="6" minlength="6">
+                                                                                 </td>
+                                                                             </tr>
+                                                                         </tbody>
+                                                                     </table>
+                                                                 </div><!-- send_account End-->
+                                                             </div><!-- account_table_wrap End-->
+
+                                                             <!-- before_send_money_wrap -->
+                                                             <div class="before_send_money_wrap">
+                                                                 <p>출금신청 주의사항</p>
+                                                                 <div class="checkbox_list">
+                                                                     <input type="checkbox" id='number_01' class="agree_check">
+                                                                     <label for='number_01'>전자지갑으로부터 외부 전자지갑으로 암호화폐를 출금합니다.</label>
+                                                                     <input type="checkbox" id='number_02' class="agree_check">
+                                                                     <label for='number_02'>전송 이후의 과정은 블록체인 네트워크에서 자동으로 처리됩니다.</label>
+                                                                     <input type="checkbox" id='number_03' class="agree_check">
+                                                                     <label for='number_03'>블록체인 네트워크 상에서 발생하는 전송 및 컨펌지연에 대해 CCE에서 별도의 조취를 취할 수 없습니다.</label>
+                                                                     <input type="checkbox" id='number_04' class="agree_check">
+                                                                     <label for='number_04'>위 사항 미준수 시 환급은 주말/휴일 제외 1주일 이상 걸림을 알고 있습니다.</label>
+                                                                     <input type="checkbox" id='number_05' class="agree_check">
+                                                                     <label for='number_05'>실제 전송되는 수량은 총 출금 암호화폐에서 출금수수료를 제외한 수량이 전송됩니다.</label>
+
+                                                                     <input type="checkbox" id='number_06' class="allAgree">
+                                                                     <label for='number_06' class='all_agree'>위의 출금시 주의사항에 모두 동의합니다.</label>
                                                                  </div>
-                                                             </li>
-                                                             <li class='my_coin_li_03'>
-                                                                 <p class='my_coin_state_title'>출금가능</p>
-                                                                 <p class='up_down_data my_coin_state_amount'>100<span>BTC</span></p>
-                                                             </li>
-                                                         </ul>
-                                                     </div>
-                                                     <form class="" action="#" method="post">
-                                                         <!-- account_table_wrap -->
-                                                         <div class="account_table_wrap">
-                                                             <!-- send_account -->
-                                                             <div class="send_account">
-                                                                 <p>BTC 출금</p>
-                                                                 <table class='left_thick_table'>
-                                                                     <tbody>
-                                                                         <tr>
-                                                                             <th>1회 출금한도</th>
-                                                                             <td class='emphasis'>1 BTC</td>
-                                                                         </tr>
-                                                                         <tr>
-                                                                             <th>나의 잔여한도</th>
-                                                                             <td>3,000 KRW</td>
-                                                                         </tr>
-                                                                         <tr>
-                                                                             <th>나의 비트코인 주소</th>
-                                                                             <td><span class='up_down_data temporary_address'>asdlkjlqkwasdasdeli@oasdasd1231234</span></td>
-                                                                         </tr>
-                                                                         <tr>
-                                                                             <th>비트코인 출금 주소</th>
-                                                                             <td>
-                                                                                 <input type="text" name="" value="" placeholder="주소를 입력해주세요." required>
-                                                                             </td>
-                                                                         </tr>
-                                                                         <tr>
-                                                                             <th>출금 신청금액</th>
-                                                                             <td>
-                                                                                 <input type="text" name="" value="" placeholder="0" required>
-                                                                                 <input type="button" value="최대">
-                                                                                 <input type="button" value="최소">
-                                                                             </td>
-                                                                         </tr>
-                                                                         <tr>
-                                                                             <th>출금 수수료</th>
-                                                                             <td class='emphasis'>0.0005 BTC</td>
-                                                                         </tr>
-                                                                         <tr>
-                                                                             <th>실제 출금금액</th>
-                                                                             <td class='reality_won'>-0.0005 BTC</td>
-                                                                         </tr>
-                                                                         <tr>
-                                                                             <th>보안 비밀번호</th>
-                                                                             <td>
-                                                                                 <input type="text" name="" value="" placeholder="보안 비밀번호를 입력하세요." required maxlength="4" minlength='4'>
-                                                                             </td>
-                                                                         </tr>
-                                                                         <tr>
-                                                                             <th>OTP 인증번호</th>
-                                                                             <td>
-                                                                                 <input type="text" name="" value="" placeholder="OTP 번호를 입력하세요." required maxlength="6" minlength="6">
-                                                                             </td>
-                                                                         </tr>
-                                                                     </tbody>
-                                                                 </table>
-                                                             </div><!-- send_account End-->
-                                                         </div><!-- account_table_wrap End-->
 
-                                                         <!-- before_send_money_wrap -->
-                                                         <div class="before_send_money_wrap">
-                                                             <p>출금신청 주의사항</p>
-                                                             <div class="checkbox_list">
-                                                                 <input type="checkbox" id='number_01' class="agree_check">
-                                                                 <label for='number_01'>전자지갑으로부터 외부 전자지갑으로 암호화폐를 출금합니다.</label>
-                                                                 <input type="checkbox" id='number_02' class="agree_check">
-                                                                 <label for='number_02'>전송 이후의 과정은 블록체인 네트워크에서 자동으로 처리됩니다.</label>
-                                                                 <input type="checkbox" id='number_03' class="agree_check">
-                                                                 <label for='number_03'>블록체인 네트워크 상에서 발생하는 전송 및 컨펌지연에 대해 CCE에서 별도의 조취를 취할 수 없습니다.</label>
-                                                                 <input type="checkbox" id='number_04' class="agree_check">
-                                                                 <label for='number_04'>위 사항 미준수 시 환급은 주말/휴일 제외 1주일 이상 걸림을 알고 있습니다.</label>
-                                                                 <input type="checkbox" id='number_05' class="agree_check">
-                                                                 <label for='number_05'>실제 전송되는 수량은 총 출금 암호화폐에서 출금수수료를 제외한 수량이 전송됩니다.</label>
+                                                                 <div class="cancel_or_apply">
+                                                                     <input type="reset" name="reset" value="취소" class='cancel_btn'/>
+                                                                     <span class='agree_btn if_you_not_all_agree'>출금신청</span>
+                                                                     <input type="submit" name="submit" value="출금신청" class='agree_btn if_you_all_agree'/>
+                                                                 </div>
 
-                                                                 <input type="checkbox" id='number_06' class="allAgree">
-                                                                 <label for='number_06' class='all_agree'>위의 출금시 주의사항에 모두 동의합니다.</label>
-                                                             </div>
-
-                                                             <div class="cancel_or_apply">
-                                                                 <input type="reset" name="reset" value="취소" class='cancel_btn'/>
-                                                                 <span class='agree_btn if_you_not_all_agree'>출금신청</span>
-                                                                 <input type="submit" name="submit" value="출금신청" class='agree_btn if_you_all_agree'/>
-                                                             </div>
-
-                                                         </div><!-- before_send_money_wrap End-->
-                                                     </form>
+                                                             </div><!-- before_send_money_wrap End-->
+                                                         </form>
+                                                     </div><!-- out_put_you_can End-->
+                                                      <!-- out_put_you_cannot -->
+                                                     <div class="out_put_you_cannot">
+                                                        <p class='we_are_ready'>준비중입니다</p>
+                                                        <p>불편을 드려 죄송합니다.<br/>빠른 시일내에 준비하도록 하겠습니다.</p>
+                                                     </div><!-- out_put_you_cannot End-->
                                                  </div><!-- output_bitcoin End-->
                                                  <div id="io_history" class='bitcoin_conclu_table mywallet_tab conclu_table'>
                                                    <form class="report_form" action="#" method="post" name='report_form'>

@@ -580,7 +580,9 @@ table .mycoin_tbody_deco>tr>td>img{
       color:#fff;
       padding: 5px 2px;
   }
-
+  #mywallet_havecoin .ready_input_output{
+      color:#ff2323;
+  }
   /*thead 띄우기*/
   #mywallet_havecoin tbody{
       display: block;
@@ -594,3 +596,26 @@ table .mycoin_tbody_deco>tr>td>img{
       overflow-y:scroll;
   }
   /*보유코인 콘텐츠 끝*/
+
+
+
+/*입출금 페이지 준비가 안됐을 시에*/
+#output_bitcoin .out_put_you_cannot{
+    text-align: center;
+    display:none;
+}
+#output_bitcoin .out_put_you_cannot p{
+    font-size: 18px;
+    color: #444;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+#output_bitcoin .out_put_you_cannot p.we_are_ready{
+    color: #1b2f4a;
+    font-weight: 600;
+    margin: 50px 0 40px 0;
+    font-size: 35px;
+    padding-bottom: 10px;
+    display: inline-block;
+    border-bottom: 5px solid #1b2f4a;
+}
