@@ -600,14 +600,28 @@ div.cancel_or_apply .if_you_all_agree{
   display: block;
   padding: 7px 10px;
 }
-.content_nav li.active a{
+.content_nav li.on > a{
+  margin-bottom: 5px;
+  border-bottom: 1px solid rgba(255,255,255,.5);
+  color: #EAAF69;
+}
+.content_nav li.active a, .content_nav li .nav_dropdown dt.active a{
   background: url("../img/mapage_arrow.png") no-repeat 95% center;
   color: #EAAF69;
   background-color: rgba(255,255,255,0.2);
   border-radius: 5px;
   font-weight: 600;
 }
-.content_nav li:hover {
+.content_nav li a:hover {
   background-color: rgba(255,255,255,0.2);
   border-radius: 5px;
+}
+.content_nav li .nav_dropdown {
+  margin-left: 5px;
+}
+.content_nav li .nav_dropdown dt + dt {
+  margin-top: 5px;
+}
+.content_nav li .nav_dropdown dt a {
+  font-size: 14px;
 }

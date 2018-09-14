@@ -39,10 +39,25 @@
                     <h4>마이페이지</h4>
                     <ul>
                         <li><a href="#" title="회원정보">회원정보</a></li>
-                        <li><a href="#" title="회원정보관리">회원정보관리</a></li>
+                        <li class="on">
+                          <a href="#" title="회원정보관리">회원정보관리</a>
+                          <dl class="nav_dropdown info_dd">
+                              <dt><a href="" title="로그인 비밀번호 변경">로그인 비밀번호 변경</a></dt>
+                              <dt><a href="" title="보안비밀번호 변경">보안비밀번호 변경</a></dt>
+                              <dt class="active"><a href="" title="휴대폰번호 변경">휴대폰번호 변경</a></dt>
+                              <dt><a href="" title="계좌 변경">계좌 변경</a></dt>
+                              <dt><a href="" title="새 지갑발급">OTP 변경</a></dt>
+                          </dl>
+                        </li>
                         <li class="active"><a href="" title="인증센터">인증센터</a></li>
                         <li><a href="" title="접속이력확인">접속이력확인</a></li>
-                        <li><a href="" title="알림">알림</a></li>
+                        <li>
+                          <a href="" title="알림">알림</a>
+                          <dl class="nav_dropdown alarm_dd">
+                              <dt><a href="" title="알림 상세">알림 상세</a></dt>
+                              <dt><a href="" title="알림 설정">알림 설정</a></dt>
+                          </dl>
+                        </li>
                     </ul>
                   </div><!-- content_nav End-->
                   <div class="box certification_area">
@@ -60,18 +75,18 @@
                         <li>
                           <img src="img/lv2.png" alt="레벨2" />
                           <p class="img_area">
-                            <img src="img/phone.png" alt="휴대폰인증 아이콘" />
-                          </p>
-                          <strong>휴대폰인증</strong>
-                          <span>본인명의 휴대폰을 통하여<br/>실명을 인증해주세요.</span>
-                        </li>
-                        <li>
-                          <img src="img/lv3.png" alt="레벨3" />
-                          <p class="img_area">
                             <img src="img/key.png" alt="보안비밀번호생성 아이콘" />
                           </p>
                           <strong>보안비밀번호 생성</strong>
                           <span>안전거래를 위한 <br/>보안비밀번호를 생성해주세요.</span>
+                        </li>
+                        <li>
+                          <img src="img/lv3.png" alt="레벨3" />
+                          <p class="img_area">
+                            <img src="img/phone.png" alt="휴대폰인증 아이콘" />
+                          </p>
+                          <strong>휴대폰인증</strong>
+                          <span>본인명의 휴대폰을 통하여<br/>실명을 인증해주세요.</span>
                         </li>
                         <li>
                           <img src="img/lv4.png" alt="레벨4" class="lv4_on"/>
@@ -121,12 +136,12 @@
                             </li>
                             <li>
                               <img src="img/lv2.png" alt="레벨2"/>
-                              <p>휴대폰인증<span>*필수</span></p>
+                              <p>보안비밀번호 생성<span>*필수</span></p>
                               <span class="c_btn c_complete">인증완료</span>
                             </li>
                             <li>
                               <img src="img/lv3.png" alt="레벨3"/>
-                              <p>보안비밀번호 생성<span>*필수</span></p>
+                              <p>휴대폰인증<span>*필수</span></p>
                               <span class="c_btn c_complete">인증완료</span>
                             </li>
                             <li>
