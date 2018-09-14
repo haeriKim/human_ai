@@ -164,7 +164,7 @@
                     </tbody>
                 </table><!-- left_thick_table End-->
                 </ul>
-                  <span><a href="coin_info.php">상세보기</a></span>
+                  <span><a href="coin_info_bitcoin.php">상세보기</a></span>
                 </table>
               </div>
 
