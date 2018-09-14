@@ -23,7 +23,7 @@
             <p>확인버튼을 누르면 단계로 이동합니다.</p>
           </div>
 
-            <input type="button" name="cancel" value="다음에 하기" class="popupbt next">
+            <input type="button" name="cancel" value="다음에 하기" class="popupbt nextok">
             <input type="button" name="submit" value="확인" class="popupbt ok">
 
       </div>

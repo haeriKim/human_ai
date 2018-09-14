@@ -23,7 +23,7 @@
             <p><b>OTP 인증</b>을 하시겠습니까?</p>
           </div>
 
-            <input type="button" name="cancel" value="다음에 하기" class="popupbt next">
+            <input type="button" name="cancel" value="다음에 하기" class="popupbt nextok">
             <input type="button" name="submit" value="확인" class="popupbt ok">
 
       </div>
