@@ -215,7 +215,7 @@ $(function () {
 // 체결,미체결 표
 $(function () {
 
-    $(".conclu_table, .KRW_conclu_table").hide();
+    $(".conclu_table, .KRW_conclu_table, ul.tabs4").hide();
     $(".conclu_table:first, .KRW_conclu_table:first").show();
 
     $("ul.tabs2 li").click(function () {
@@ -232,13 +232,15 @@ $(function () {
         $(".KRW_conclu_table").hide();
         var activeTab = $(this).attr("rel");
         $("#" + activeTab).show();
-        console.log(activeTab);
+
+        //코인부분 입출금 안보이기
+        var a = $("ul.tabs3 li").attr("rel");
+        if(a === "input_KRW" || a === "output_KRW" || a === "io_list") {
+          $("ul.tabs4").hide();
+        }
+
     });
-    // var a = $("#KRW_input_output ul.tabs3 li").attr("class");
-    // console.log(a);
-    // if(a === "input_KRW" || a === "output_KRW" || a === "mywallet_tab") {
-    //
-    // }
+
 });
 
 //내 자산관리-주의사항 입금 전체 동의
