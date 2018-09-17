@@ -1,0 +1,80 @@
+/*alarm*/
+
+
+.alarm_area{
+  font-size:15px;
+}
+.alarm_area h4{
+  padding-top:30px;
+  padding-left:25px;
+}
+.alarm_area .alarm_inner{
+  padding:30px 50px;
+}
+.alarm_area .alarm_head{
+  float:left;
+  margin-bottom:30px;
+}
+.alarm_area #alarm_select{
+  width:100px;
+  padding:5px;
+}
+.alarm_area .days{
+  float:right;
+  width:410px;
+  text-align:right;
+
+}
+.alarm_area .days div{
+  float:left;
+  padding-left:5px;
+}
+.alarm_area .days input{
+  padding:5px;
+  font-size:15px;
+}
+.alarm_area .days .search_btn{
+  margin-left:5px;
+  border:none;
+  background:#1b2f4a;
+  color:#fff;
+  padding:8px;
+  font-size:15px;
+  font-weight:600;
+  cursor:pointer;
+}
+.alarm_area .alarm_list thead{
+  background:#f4f5f8;
+  color:#1b2f4a;
+}
+.alarm_area .alarm_list thead th{
+  padding:10px 0;
+  border-bottom: 2px solid #1b2f4a;
+  font-size:14px;
+}
+.alarm_area .alarm_list tbody td{
+  border-bottom:1px solid #ededed;
+  padding:10px 0;
+}
+.alarm_area .alarm_list tbody td span{
+  font-weight:600;
+}
+.culgm{
+  color:blue;
+}
+.ipgm{
+  color:red;
+}
+.mado{
+  color:blue;
+}
+.masu{
+  color:red;
+}
+.new{
+  color:red;
+}
+#left_text{
+  text-align:left;
+  padding-left:100px;
+}
