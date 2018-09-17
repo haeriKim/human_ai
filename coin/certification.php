@@ -62,7 +62,7 @@
                   </div><!-- content_nav End-->
                   <div class="box certification_area">
                     <h3 class="title">인증센터</h3>
-                    <div class="cer_center">
+                    <div class="cer_center mypage_content">
                       <ul class="cer_level">
                         <li>
                           <img src="img/lv1.png" alt="레벨1"/>

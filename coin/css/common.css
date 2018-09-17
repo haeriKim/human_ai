@@ -376,9 +376,6 @@ div.cancel_or_apply .if_you_all_agree{
 }
 
 /* 인증레벨 */
-.certification_area .cer_center {
-  padding: 40px 45px;
-}
 .cer_center .cer_level {
   overflow: hidden;
   margin-bottom: 30px;
@@ -569,8 +566,7 @@ div.cancel_or_apply .if_you_all_agree{
 
 /* 컨텐츠 네비 */
 .certification_area,
-.track_ip_address_area,
-.alarm_area {
+.track_ip_address_area {
   float: left;
 }
 
@@ -627,4 +623,9 @@ div.cancel_or_apply .if_you_all_agree{
 }
 .content_nav li .nav_dropdown dt a {
   font-size: 13px;
+}
+
+/*마이페이지 컨텐트 padding 동일하게*/
+.mypage_content{
+    padding: 40px 45px;
 }

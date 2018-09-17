@@ -64,7 +64,7 @@
                   <div class="box track_ip_address_area">
                     <h3 class="title">접속이력확인</h3>
                     <!-- track_ip_address -->
-                    <div class="track_ip_address">
+                    <div class="track_ip_address mypage_content">
                         <table class='track_ip_address_table' summary='OS,브라우저,IP주소,이벤트,시간,결과 정보가 나와 있는 표'>
                             <colgroup>
                                 <col width='16%'/>
@@ -151,9 +151,7 @@
                                 </tr>
                             </tbody>
                         </table>
-                    </div><!-- track_ip_address End-->
-                    <!-- contentBottom -->
-                    <div class="contentBottom">
+                        <!-- paging -->
                         <div class="paging">
                             <a href="#" title="prev"><img src="img/p_first.png"></a>
                             <a href="#" title="prev"><img src="img/p_prev.png"></a>
@@ -167,7 +165,8 @@
                             <a href="#" title="next"><img src="img/p_next.png"></a>
                             <a href="#" title="next"><img src="img/p_end.png"></a>
                         </div><!-- paging End -->
-                    </div><!-- contentBottom End-->
+
+                    </div><!-- track_ip_address End-->
                   </div><!--track_ip_address_area End-->
 
                 </div><!-- track_ip_address_wrap End-->
