@@ -1230,7 +1230,7 @@
                                                      </form>
                                                          <!-- before_send_money_wrap -->
                                                          <div class="before_send_money_wrap">
-                                                             <p>입금신청 주의사항</p>
+                                                             <p class='before_send_money_paragraph'>입금신청 주의사항</p>
                                                              <div class="warning_notice_list">
                                                                  <p>생성된 주소로 암호화폐를 입금해 주세요. 해당 지갑주소는 입금 전용 주소입니다.</p>
                                                                  <p>외부 지갑으로부터 아래 주소로 암호화폐를 전송하시면 회원님의 전자지갑에 반영됩니다.</p>

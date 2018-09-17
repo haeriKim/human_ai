@@ -152,12 +152,13 @@
     margin-left: 12px;
     margin-top: 50px;
 }
-#input_KRW div.before_send_money_wrap p{
+div.before_send_money_wrap p{
     color: #1b2f4a;
     font-weight: 600;
     margin-bottom: 12px;
     border-bottom: 2px solid #1b2f4a;
     padding-bottom: 8px;
+    font-size:16px;
 }
 #input_KRW div.before_send_money_wrap label{
     display: block;
@@ -168,7 +169,8 @@
     font-weight: 600;
 }
 #input_KRW div.checkbox_list .all_agree_01,
-#output_KRW div.checkbox_list .all_agree_02{
+#output_KRW div.checkbox_list .all_agree_02,
+#output_bitcoin div.checkbox_list .all_agree_03 {
     border-top: 1px solid #efefef;
     padding-top: 10px;
     margin-top: 10px;
@@ -243,13 +245,6 @@
 #output_KRW div.before_send_money_wrap{
     margin-left: 12px;
     margin-top: 50px;
-}
-#output_KRW div.before_send_money_wrap p{
-    color: #1b2f4a;
-    font-weight: 600;
-    margin-bottom: 12px;
-    border-bottom: 2px solid #1b2f4a;
-    padding-bottom: 8px;
 }
 #output_KRW div.before_send_money_wrap label{
     display: block;

@@ -151,20 +151,21 @@
                                 </tr>
                             </tbody>
                         </table>
-                        <!-- paging -->
-                        <div class="paging">
-                            <a href="#" title="prev"><img src="img/p_first.png"></a>
-                            <a href="#" title="prev"><img src="img/p_prev.png"></a>
+                        <!-- contentBottom -->
 
-                            <a href="#" title="1page" class="selected">1</a>
-                            <a href="#" title="2page">2</a>
-                            <a href="#" title="3page">3</a>
-                            <a href="#" title="4page">4</a>
-                            <a href="#" title="5page">5</a>
-
-                            <a href="#" title="next"><img src="img/p_next.png"></a>
-                            <a href="#" title="next"><img src="img/p_end.png"></a>
-                        </div><!-- paging End -->
+                        <div class="contentBottom">
+                            <div class="paging">
+                                <a href="#" title="prev"><img src="img/p_first.png"></a>
+                                <a href="#" title="prev"><img src="img/p_prev.png"></a>
+                                <a href="#" title="1page" class="selected">1</a>
+                                <a href="#" title="2page">2</a>
+                                <a href="#" title="3page">3</a>
+                                <a href="#" title="4page">4</a>
+                                <a href="#" title="5page">5</a>
+                                <a href="#" title="next"><img src="img/p_next.png"></a>
+                                <a href="#" title="next"><img src="img/p_end.png"></a>
+                            </div>
+                        </div><!-- contentBottom End-->
 
                     </div><!-- track_ip_address End-->
                   </div><!--track_ip_address_area End-->

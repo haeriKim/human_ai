@@ -128,12 +128,13 @@
 #input_bitcoin div.before_send_money_wrap{
     margin-top: 50px;
 }
-#input_bitcoin div.before_send_money_wrap > p{
+#input_bitcoin div.before_send_money_wrap > p.before_send_money_paragraph{
     color: #1b2f4a;
     font-weight: 600;
     margin-bottom: 12px;
     border-bottom: 2px solid #1b2f4a;
     padding-bottom: 8px;
+    font-size:16px;
 }
 #input_bitcoin div.before_send_money_wrap .warning_notice_list{
     border-bottom: 1px solid #efefef;

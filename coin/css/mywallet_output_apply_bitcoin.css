@@ -141,13 +141,6 @@
     margin-left: 12px;
     margin-top: 50px;
 }
-#output_bitcoin div.before_send_money_wrap p{
-    color: #1b2f4a;
-    font-weight: 600;
-    margin-bottom: 12px;
-    border-bottom: 2px solid #1b2f4a;
-    padding-bottom: 8px;
-}
 #output_bitcoin div.before_send_money_wrap label{
     display: block;
     padding-left: 25px;
