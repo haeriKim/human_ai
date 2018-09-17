@@ -61,7 +61,56 @@
                     </ul>
                   </div><!-- content_nav End-->
                   <div class="box certification_area">
-                    <h3 class="title">인증센터</h3>
+                    <h3 class="title">회원정보</h3>
+                    <div class="myinfo_main_box">
+                      <p class="sub_title">회원정보</p>
+                      <p class="btn_small">1:1 문의</p>
+                      <p class="btn_small">이용안내</p>
+                      <div class="myinfo_sub_box">
+                        <div class="account_table_wrap">
+                          <table class="left_thick_table myinfo_table">
+                              <tbody>
+                                  <tr>
+                                      <th>이름</th>
+                                      <td>가*다</td>
+                                  </tr>
+                                  <tr>
+                                      <th>이메일</th>
+                                      <td>abc@naver.com</td>
+                                  </tr>
+                                  <tr>
+                                      <th>휴대폰</th>
+                                      <td>010-****-****</td>
+                                  </tr>
+                                  <tr>
+                                      <th>등급</th>
+                                      <td>Level 3</td>
+                                  </tr>
+                              </tbody>
+                          </table>
+                          <table class="left_thick_table myinfo_table">
+                              <tbody>
+                                <tr>
+                                    <th>비밀번호</th>
+                                    <td><button class="btn_medium">비밀번호 변경</button></td>
+                                </tr>
+                                <tr>
+                                    <th>보안비밀번호</th>
+                                    <td><button class="btn_medium">보안비밀번호 변경</button></td>
+                                </tr>
+                                <tr>
+                                    <th>계좌번호</th>
+                                    <td>OO은행 1234-*******-11-123<button class="btn_small">계좌번호 변경</button></td>
+                                </tr>
+                                <tr>
+                                    <th>OTP</th>
+                                    <td><button class="btn_medium">OTP 변경</button></td>
+                                </tr>
+                              </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
                     <div class="cer_center">
                       <ul class="cer_level">
                         <li>
@@ -109,60 +158,6 @@
                           <span>실제 사용 중인<br/>OTP로 인증해주세요.</span>
                         </li>
                       </ul>
-
-                      <div class="center_bottom">
-                        <div class="cText_left">
-                          <div class="current_level">
-                            <strong>[ 보안인증 ]</strong>
-                            <b><span class="user_name">가*다</span>님의 현재 보안등급은 <span class="user_level">레벨3</span>입니다.</b>
-                            <p>
-                              입출금 이용을 위해 보안등급 상향이 필요합니다.
-                            </p>
-                          </div>
-                          <div class="center_rule">
-                            <strong>[ CCE 고객의 안전한 투자를 위한 이용법칙 ]</strong>
-                            <p>-만 19세 이하는 거래 할 수 없습니다.</p>
-                            <p class="important">-이메일 인증완료 후 암호화폐 거래소 이용이 가능합니다.</p>
-                            <p class="important">-KRW 입금 출금은 4단계(Google OTP) 인증완료 후 이용이 가능합니다.</p>
-                            <p class="important">-인증된 정보를 변경하시려면 <span>'마이페이지 > 회원정보관리'</span> 에서 이용해주세요.</p>
-                          </div>
-                        </div>
-                        <div class="cText_right">
-                          <ul>
-                            <li>
-                              <img src="img/lv1.png" alt="레벨1"/>
-                              <p>이메일인증<span>*필수</span></p>
-                              <span class="c_btn c_complete">인증완료</span>
-                            </li>
-                            <li>
-                              <img src="img/lv2.png" alt="레벨2"/>
-                              <p>보안비밀번호 생성<span>*필수</span></p>
-                              <span class="c_btn c_complete">인증완료</span>
-                            </li>
-                            <li>
-                              <img src="img/lv3.png" alt="레벨3"/>
-                              <p>휴대폰인증<span>*필수</span></p>
-                              <span class="c_btn c_complete">인증완료</span>
-                            </li>
-                            <li>
-                              <img src="img/lv4.png" alt="레벨4"/>
-                              <p>출금계좌 등록<span class="recommend">*권장</span></p>
-                              <a href="certification_account.php" class="c_btn lv4_ing">인증하기</a>
-                              <span class="c_btn complete">인증완료</span>
-                            </li>
-                            <li>
-                              <img src="img/lv5.png" alt="레벨5"/>
-                              <p>Google OTP인증<span class="recommend">*권장</span></p>
-                              <a href="#" class="c_btn lv5_ing">인증하기</a>
-                              <span class="c_btn ing disable">인증하기</span>
-                              <span class="c_btn complete">인증완료</span>
-                              <p id="malpungsun">
-                                출금계좌 등록 후 Google OTP인증이 가능합니다.
-                              </p>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
                     </div>
                   </div><!--certification_area End-->
 
