@@ -9,6 +9,10 @@
   margin-bottom: 20px;
 }
 
+.alarm_area .alarm_head{
+  overflow:hidden;
+  margin-bottom:30px;
+}
 .alarm_area .alarm_head #alarm_select {
     float: left;
     width:100px;
@@ -46,6 +50,7 @@
 }
 .new{
   color:red;
+  font-size:12px;
 }
 #left_text{
   text-align:left;
