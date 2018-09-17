@@ -33,7 +33,7 @@
             <!-- content_wrap -->
             <div class="content_wrap">
                 <!-- main_content -->
-                <div class="content alarm_content con_1250">
+                <div class="content alarm_wrap con_1250">
                     <!--content_nav -->
                     <div class="content_nav">
                       <h4>마이페이지</h4>
@@ -63,8 +63,8 @@
 
                   <div class="box alarm_area">
                     <h3 class="title">알림</h3>
-                      <h4 class="title2">알림상세</h4>
                         <div class="alarm_inner">
+                          <h4 class="title2">알림상세</h4>
                           <div class="alarm_head">
                             <select name="알림선택" id="alarm_select">
                               <option value="전체">전체</option>
@@ -73,22 +73,21 @@
                               <option value="매도">매도</option>
                               <option value="매수">매수</option>
                               <option value="정보">정보</option>
-
                             </select>
+
+                            <div class="days"><!--days-->
+                              <div>
+                                <input type="date" value="2018-07-29">
+                                <span>~</span>
+                              </div>
+                              <div>
+                                <input type="date" value="2018-08-29">
+                              </div>
+                              <input type="submit" name="search" value="조회" class='search_btn'>
+                            </div><!--days End-->
                           </div>
 
-                          <div class="days"><!--days-->
-                            <div>
-                              <input type="date" value="2018-07-29">
-                              <span>~</span>
-                            </div>
 
-                            <div>
-                              <input type="date" value="2018-08-29">
-                            </div>
-
-                            <input type="submit" name="search" value="조회" class='search_btn'>
-                          </div><!--days End-->
 
                           <table class="alarm_list" id="alarm_list">
                               <colgroup>
@@ -190,12 +189,11 @@
                           </div><!-- 페이징 -->
 
                         </div>
-                      </div>
 
 
                   </div><!--alram_area End-->
 
-                </div><!-- coninInfo_content End-->
+                </div><!-- alarm_wrap End-->
             </div><!-- content_wrap End-->
 
             <!-- footer_wrap -->
