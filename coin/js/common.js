@@ -208,7 +208,9 @@ $(function () {
         } else {
           $("#mywallet_havecoin").show();
           $("#deal_orgin_transaction").hide();
-          // $(".bitcoin_conclu_table").hide();
+          $(".bitcoin_conclu_table:first").show();
+          $("ul.tabs4 li").removeClass("active2");
+          $("ul.tabs4 li:first").addClass("active2");
         }
     });
 });
@@ -257,10 +259,10 @@ $(document).ready(function(){
     var selected_coin = 0;
     $(".coin_sel").click(function (){
       $(".bitcoin_conclu_table").hide();
-        $(".bitcoin_conclu_table:first").show();
-        $("#mywallet_havecoin tbody tr.active").removeClass("active");
-        $(this).parents("tr").addClass("active");
-        $("ul.tabs4 li").removeClass("active2");
+      $(".bitcoin_conclu_table:first").show();
+      $("#mywallet_havecoin tbody tr.active").removeClass("active");
+      $(this).parents("tr").addClass("active");
+      $("ul.tabs4 li").removeClass("active2");
       $("ul.tabs4 li:first").addClass("active2");
       if(selected_coin === 0){
         $("#KRW_input_output").hide();
