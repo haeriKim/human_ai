@@ -63,7 +63,7 @@
 
                   <div class="box alarm_area">
                     <h3 class="title">알림</h3>
-                        <div class="alarm_inner">
+                        <div class="alarm_inner mypage_content">
                           <h4 class="title2">알림상세</h4>
                           <div class="alarm_head">
                             <select name="알림선택" id="alarm_select">
@@ -78,8 +78,8 @@
                             <div class="days"><!--days-->
                               <div>
                                 <input type="date" value="2018-07-29">
-                                <span>~</span>
                               </div>
+                              <span>~</span>
                               <div>
                                 <input type="date" value="2018-08-29">
                               </div>

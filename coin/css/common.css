@@ -568,6 +568,7 @@ div.cancel_or_apply .if_you_all_agree{
 .certification_area,
 .track_ip_address_area {
   float: left;
+  width:80%;
 }
 
 .content_nav {
@@ -628,4 +629,50 @@ div.cancel_or_apply .if_you_all_agree{
 /*마이페이지 컨텐트 padding 동일하게*/
 .mypage_content{
     padding: 40px 45px;
+}
+
+/*달력, 조회*/
+
+.days{
+  float:right;
+  font-size:15px;
+  padding: 5px 0;
+}
+
+.days input{
+  font-size:14px;
+  height: 30px;
+  text-indent: 3px;
+}
+.days ::-webkit-inner-spin-button {
+     height: 30px;
+     margin-left: 5px;
+ }
+.days ::-webkit-calendar-picker-indicator  {
+     color: rgba(0, 0, 0, 0);
+     background: url(../img/cal.png) no-repeat 100%; background-size:cover;
+     padding-left:10px;
+  }
+
+
+.days span{
+  float:left;
+  margin:0 5px;
+  line-height:32px;
+  font-weight: 600;
+  color: #1b2f4a;
+}
+.days div{
+  float:left;
+}
+
+.days .search_btn{
+  width:50px;
+  height:35px;
+  margin-left:10px;
+  background-color:#1b2f4a;
+  color:#fff;
+  font-weight:600;
+  cursor:pointer;
+  border: none;
 }
