@@ -568,7 +568,8 @@ div.cancel_or_apply .if_you_all_agree{
 }
 
 /* 컨텐츠 네비 */
-.certification_area {
+.certification_area,
+.track_ip_address_area {
   float: left;
 }
 
@@ -586,7 +587,7 @@ div.cancel_or_apply .if_you_all_agree{
 .content_nav h4 {
   font-size: 20px;
   margin-bottom: 20px;
-  border-bottom: 1px solid rgba(234,175,105,0.6);
+  border-bottom: 1px solid #fff;
   padding-bottom: 20px;
 }
 .content_nav ul {
@@ -602,7 +603,7 @@ div.cancel_or_apply .if_you_all_agree{
 }
 .content_nav li.on > a{
   margin-bottom: 5px;
-  border-bottom: 1px solid rgba(255,255,255,.5);
+  border-bottom: 1px solid #EAAF69;
   color: #EAAF69;
 }
 .content_nav li.active a, .content_nav li .nav_dropdown dt.active a{
@@ -617,11 +618,12 @@ div.cancel_or_apply .if_you_all_agree{
   border-radius: 5px;
 }
 .content_nav li .nav_dropdown {
-  margin-left: 5px;
+  margin-left: 10px;
+  margin-top: 5px;
 }
 .content_nav li .nav_dropdown dt + dt {
   margin-top: 5px;
 }
 .content_nav li .nav_dropdown dt a {
-  font-size: 14px;
+  font-size: 13px;
 }
