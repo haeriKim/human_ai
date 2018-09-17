@@ -1,23 +1,20 @@
 /*alarm*/
 
 .alarm_area .alarm_inner{
-  padding:40px 45px;
+  overflow:hidden;
 }
 .alarm_area .alarm_inner h4 {
   color: #1b2f4a;
   font-size: 17px;
   margin-bottom: 20px;
 }
-.alarm_area .alarm_head{
-  overflow: hidden;
-  margin-bottom:30px;
-}
+
 .alarm_area .alarm_head #alarm_select {
-  float: left;
-  width:100px;
-  padding:5px 10px;
-  margin-top:5px;
-}
+    float: left;
+    width:100px;
+    padding:5px 10px;
+    margin-top:5px;
+  }
 
 .alarm_area .alarm_list thead{
   background:#f4f5f8;

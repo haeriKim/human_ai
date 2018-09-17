@@ -566,7 +566,8 @@ div.cancel_or_apply .if_you_all_agree{
 
 /* 컨텐츠 네비 */
 .certification_area,
-.track_ip_address_area {
+.track_ip_address_area,
+.alarm_area {
   float: left;
   width:80%;
 }
