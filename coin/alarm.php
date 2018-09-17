@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/notice.css">
     <link rel="stylesheet" href="css/sub_menu.css">
     <link rel="stylesheet" href="css/alarm.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">

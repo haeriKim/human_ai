@@ -3,6 +3,7 @@
 
 .alarm_area{
   font-size:15px;
+  float:right;
 }
 .alarm_area h4{
   padding-top:30px;
@@ -21,9 +22,7 @@
 }
 .alarm_area .days{
   float:right;
-  width:410px;
   text-align:right;
-
 }
 .alarm_area .days div{
   float:left;
