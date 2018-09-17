@@ -208,6 +208,7 @@ $(function () {
         } else {
           $("#mywallet_havecoin").show();
           $("#deal_orgin_transaction").hide();
+          $(".bitcoin_conclu_table").hide();
           $(".bitcoin_conclu_table:first").show();
           $("ul.tabs4 li").removeClass("active2");
           $("ul.tabs4 li:first").addClass("active2");
