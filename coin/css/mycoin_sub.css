@@ -37,6 +37,18 @@
   overflow: hidden;
 }
 
+ul.tabs2 li, ul.tabs3 li, ul.tabs4 li {
+  color: #1b2f4a;
+  border:1px solid #1b2f4a;
+  background-color: #fff;
+
+}
+
+ul.tabs2 li.active2, ul.tabs3 li.active2, ul.tabs4 li.active2 {
+  color : #fff;
+  border: 1px solid #1b2f4a;
+  background-color :#1b2f4a;
+}
 /*tab1*/
 
 
@@ -63,17 +75,7 @@
 .tab2_header ul li + li {
   margin-left: 20px;
 }
-.tab2_header ul li.chegyeol_bt{
-  border:1px solid #1b2f4a;
-  background-color:#1b2f4a;
-  color:#fff;
-}
 
-.tab2_header ul li.michegyeol_bt{
-  border:1px solid #1b2f4a;
-  color:#1b2f4a;
-
-}
 
 .tab2_header .days{
   float:right;
