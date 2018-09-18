@@ -55,6 +55,7 @@
 /*right*/
 
 .cer_center .center_bottom .cText_right3 {
+  padding-left:20px;
   float: left;
   width: 45%;
 }
