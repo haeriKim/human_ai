@@ -78,18 +78,18 @@
                         <li>
                           <img src="img/lv2.png" alt="레벨2" />
                           <p class="img_area">
-                            <img src="img/phone.png" alt="휴대폰인증 아이콘" />
+                            <img src="img/key.png" alt="보안비밀번호생성 아이콘" />
                           </p>
-                          <strong>휴대폰인증</strong>
-                          <span>본인명의 휴대폰을 통하여<br/>실명을 인증해주세요.</span>
+                          <strong>보안비밀번호 생성</strong>
+                          <span>안전거래를 위한 <br/>보안비밀번호를 생성해주세요.</span>
                         </li>
                         <li>
                           <img src="img/lv3.png" alt="레벨3" />
                           <p class="img_area">
-                            <img src="img/key.png" alt="보안비밀번호생성 아이콘" />
+                            <img src="img/phone.png" alt="휴대폰인증 아이콘" />
                           </p>
-                          <strong>보안비밀번호 생성</strong>
-                          <span>안전거래를 위한 <br/>2차 비밀번호를 생성해주세요.</span>
+                          <strong>휴대폰인증</strong>
+                          <span>본인명의 휴대폰을 통하여<br/>실명을 인증해주세요.</span>
                         </li>
                         <li>
                           <img src="img/lv4.png" alt="레벨4" class="lv4_on"/>
