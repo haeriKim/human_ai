@@ -152,7 +152,7 @@
     margin-left: 12px;
     margin-top: 50px;
 }
-div.before_send_money_wrap p{
+div.before_send_money_wrap > p{
     color: #1b2f4a;
     font-weight: 600;
     margin-bottom: 12px;
