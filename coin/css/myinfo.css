@@ -1,12 +1,12 @@
 
 /*btn*/
-.btn_medium{
+.myinfo_table .btn_medium{
   width: 140px;
   cursor:pointer;
   border:1px solid #1b2f4a;
   background-color: white;
   padding:2px 10px;}
-.btn_medium:hover{
+.myinfo_table .btn_medium:hover{
   color:white;
   background-color: #1b2f4a;}
 .btn_large{
@@ -22,18 +22,18 @@
   text-align: right;
 }
 
-/* account_table_wrap */
-.account_table_wrap{
+/* myinfo_table_wrap */
+.myinfo_table_wrap{
   margin-bottom: 55px;
   overflow: hidden;
 }
-.account_table_wrap .float_table {
+.myinfo_table_wrap .float_table {
    float: left;
 }
-.account_table_wrap .myinfo_table{
+.myinfo_table_wrap .myinfo_table{
   width: 50%;
 }
-.account_table_wrap .myinfo_table span.account_number{
+.myinfo_table_wrap .myinfo_table span.account_number{
   margin-right: 10px;
 }
 

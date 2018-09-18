@@ -70,7 +70,7 @@
                         <button class="btn_small">1:1 문의</button>
                       </div>
                       <div class="myinfo_sub_box ">
-                        <div class="account_table_wrap">
+                        <div class="myinfo_table_wrap">
                           <table class="left_thick_table myinfo_table float_table">
                               <tbody>
                                   <tr>
@@ -111,7 +111,7 @@
                                 </tr>
                               </tbody>
                           </table>
-                        </div><!-- account_table_wrap End -->
+                        </div><!-- myinfo_table_wrap End -->
                       </div><!-- myinfo_sub_box End-->
                     </div><!-- cercenter End-->
                     <div class="cer_center">
