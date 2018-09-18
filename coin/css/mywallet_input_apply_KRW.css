@@ -215,7 +215,7 @@ div.before_send_money_wrap > p{
     display: inline-block;
     width: 300px;
 }
-#output_KRW table.left_thick_table tbody input[type='submit']{
+#output_KRW table.left_thick_table tbody input[type='button']{
     border: 1px solid #1b2f4a;
     background: #fff;
     color: #1b2f4a;
@@ -224,7 +224,7 @@ div.before_send_money_wrap > p{
     margin-left: 5px;
     font-size:15px;
 }
-#output_KRW table.left_thick_table tbody input[type='submit']:hover{
+#output_KRW table.left_thick_table tbody input[type='button']:hover{
     border: 1px solid #1b2f4a;
     background: #1b2f4a;
     color: #fff;
