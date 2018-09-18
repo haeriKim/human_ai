@@ -33,7 +33,7 @@
             <!-- content_wrap -->
             <div class="content_wrap">
                 <!-- main_content -->
-                <div class="content certification_content con_1250">
+                <div class="content myinfo_content con_1250">
                   <!--content_nav -->
                   <div class="content_nav">
                     <h4>마이페이지</h4>
@@ -60,18 +60,18 @@
                         </li>
                     </ul>
                   </div><!-- content_nav End-->
-                  <div class="box certification_area ">
+                  <div class="box myinfo_area">
                     <h3 class="title">회원정보</h3>
-                    <div class="myinfo_main_box cer_center mypage_content">
-                      <div class="cer_center">
+                    <div class="myinfo_main_box mypage_content">
+                      <div class="myinfo">
                       <h4>회원정보</h4>
-                      <div class="button_box cf">
-                        <button class="btn_small fr">이용안내</button>
-                        <button class="btn_small fr">1:1 문의</button>
+                      <div class="button_box">
+                        <button class="btn_small">이용안내</button>
+                        <button class="btn_small">1:1 문의</button>
                       </div>
                       <div class="myinfo_sub_box ">
-                        <div class="account_table_wrap cf">
-                          <table class="left_thick_table myinfo_table fl ">
+                        <div class="account_table_wrap">
+                          <table class="left_thick_table myinfo_table float_table">
                               <tbody>
                                   <tr>
                                       <th>이름</th>
@@ -91,7 +91,7 @@
                                   </tr>
                               </tbody>
                           </table>
-                          <table class="left_thick_table myinfo_table fr ">
+                          <table class="left_thick_table myinfo_table float_table">
                               <tbody>
                                 <tr>
                                     <th>비밀번호</th>
@@ -169,8 +169,8 @@
                       </p>
                     </div><!-- cercenter End-->
                     </div><!-- myinfo_main_box End -->
-                  </div><!--certification_area End-->
-                </div><!-- certification_content End-->
+                  </div><!--myinfo_area End-->
+                </div><!-- myinfo_content End-->
             </div><!-- content_wrap End-->
 
             <!-- footer_wrap -->

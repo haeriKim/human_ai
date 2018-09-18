@@ -38,7 +38,7 @@
                     <div class="content_nav">
                       <h4>마이페이지</h4>
                       <ul>
-                          <li><a href="#" title="회원정보">회원정보</a></li>
+                          <li><a href="myinfo.php" title="회원정보">회원정보</a></li>
                           <li>
                             <a href="#" title="회원정보관리" class='more_menu'>회원정보관리</a>
                             <dl class="nav_dropdown info_dd off">

@@ -200,8 +200,7 @@ $(function () {
         $(this).addClass("active");
         $(".tab_content").hide()
         var activeTab = $(this).attr("rel");
-        $("#" + activeTab).show()
-
+        $("#" + activeTab).show();
 
         if(activeTab == "tab1" || activeTab == "tab2") {
           $("#deal_orgin_transaction").show();
@@ -209,9 +208,10 @@ $(function () {
         } else {
           $("#mywallet_havecoin").show();
           $("#deal_orgin_transaction").hide();
-          // $(".bitcoin_conclu_table").hide();
           $("ul.tabs4 li").removeClass("active2");
           $("ul.tabs4 li:first").addClass("active2");
+          $(".bitcoin_conclu_table").hide();
+          // $(".input_bitcoin").show();
         }
     });
 });
@@ -239,11 +239,13 @@ $(document).ready(function(){
         $("#" + activeTab).show();
     });
     //코인부분 입출금 안보이기
-    var a = $("ul.tabs3 li").attr("rel");
-    if(a === "input_KRW" || a === "output_KRW" || a === "io_list") {
-      $("ul.tabs4").hide();
-      $(".bitcoin_conclu_table").hide();
-    }
+    // var a = $("ul.tabs3 li").attr("rel");
+    // if(a === "input_KRW") {
+    //   // $("ul.tabs4").hide();
+    //   // $(".bitcoin_conclu_table").hide();
+    //   $(".input_bitcoin").hide();
+    //   console.log("Sdfd");
+    // }
 
     //코인 입출금
     $("ul.tabs4 li").click(function () {

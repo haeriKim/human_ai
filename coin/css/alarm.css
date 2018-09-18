@@ -3,15 +3,10 @@
 .alarm_area .alarm_inner{
   overflow:hidden;
 }
-.alarm_area .alarm_inner h4 {
-  color: #1b2f4a;
-  font-size: 17px;
-  margin-bottom: 20px;
-}
 
 .alarm_area .alarm_head{
   overflow:hidden;
-  margin-bottom:30px;
+  margin-bottom:10px;
 }
 .alarm_area .alarm_head #alarm_select {
     float: left;
