@@ -9,7 +9,7 @@
 .myinfo_table .btn_medium:hover{
   color:white;
   background-color: #1b2f4a;}
-.btn_large{
+.cer_level .btn_large{
   cursor:pointer;
   border-radius: 5px;
   background-color:#1b2f4a;
@@ -17,23 +17,24 @@
   border:none;
   padding:6px 20px;
   margin-top:10px;}
-.button_box{
-  margin-bottom: 10px;
-  text-align: right;
-}
+  
+  .myinfo_area .myinfo_main_box .button_box{
+    margin-bottom: 10px;
+    text-align: right;
+  }
 
 /* myinfo_table_wrap */
-.myinfo_table_wrap{
+.myinfo_area .myinfo_sub_box .myinfo_table_wrap{
   margin-bottom: 55px;
   overflow: hidden;
 }
-.myinfo_table_wrap .float_table {
+.myinfo_area .myinfo_sub_box .myinfo_table_wrap .float_table {
    float: left;
 }
-.myinfo_table_wrap .myinfo_table{
+.myinfo_area .myinfo_sub_box .myinfo_table_wrap .myinfo_table{
   width: 50%;
 }
-.myinfo_table_wrap .myinfo_table span.account_number{
+.myinfo_area .myinfo_sub_box .myinfo_table_wrap .myinfo_table span.account_number{
   margin-right: 10px;
 }
 
