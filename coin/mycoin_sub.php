@@ -1230,7 +1230,7 @@
                                                      </form>
                                                          <!-- before_send_money_wrap -->
                                                          <div class="before_send_money_wrap">
-                                                             <p>입금신청 주의사항</p>
+                                                             <p class='before_send_money_paragraph'>입금신청 주의사항</p>
                                                              <div class="warning_notice_list">
                                                                  <p>생성된 주소로 암호화폐를 입금해 주세요. 해당 지갑주소는 입금 전용 주소입니다.</p>
                                                                  <p>외부 지갑으로부터 아래 주소로 암호화폐를 전송하시면 회원님의 전자지갑에 반영됩니다.</p>
@@ -1325,22 +1325,22 @@
                                                              </div><!-- account_table_wrap End-->
 
                                                              <!-- before_send_money_wrap -->
-                                                             <div class="before_send_money_wrap">
+                                                             <div class="before_send_money_wrap before_send_money_03">
                                                                  <p>출금신청 주의사항</p>
                                                                  <div class="checkbox_list">
-                                                                     <input type="checkbox" id='number_01' class="agree_check">
-                                                                     <label for='number_01'>전자지갑으로부터 외부 전자지갑으로 암호화폐를 출금합니다.</label>
-                                                                     <input type="checkbox" id='number_02' class="agree_check">
-                                                                     <label for='number_02'>전송 이후의 과정은 블록체인 네트워크에서 자동으로 처리됩니다.</label>
-                                                                     <input type="checkbox" id='number_03' class="agree_check">
-                                                                     <label for='number_03'>블록체인 네트워크 상에서 발생하는 전송 및 컨펌지연에 대해 CCE에서 별도의 조취를 취할 수 없습니다.</label>
-                                                                     <input type="checkbox" id='number_04' class="agree_check">
-                                                                     <label for='number_04'>위 사항 미준수 시 환급은 주말/휴일 제외 1주일 이상 걸림을 알고 있습니다.</label>
-                                                                     <input type="checkbox" id='number_05' class="agree_check">
-                                                                     <label for='number_05'>실제 전송되는 수량은 총 출금 암호화폐에서 출금수수료를 제외한 수량이 전송됩니다.</label>
+                                                                     <input type="checkbox" id='number_13' class="agree_check_03">
+                                                                     <label for='number_13'>전자지갑으로부터 외부 전자지갑으로 암호화폐를 출금합니다.</label>
+                                                                     <input type="checkbox" id='number_14' class="agree_check_03">
+                                                                     <label for='number_14'>전송 이후의 과정은 블록체인 네트워크에서 자동으로 처리됩니다.</label>
+                                                                     <input type="checkbox" id='number_15' class="agree_check_03">
+                                                                     <label for='number_15'>블록체인 네트워크 상에서 발생하는 전송 및 컨펌지연에 대해 CCE에서 별도의 조취를 취할 수 없습니다.</label>
+                                                                     <input type="checkbox" id='number_16' class="agree_check_03">
+                                                                     <label for='number_16'>위 사항 미준수 시 환급은 주말/휴일 제외 1주일 이상 걸림을 알고 있습니다.</label>
+                                                                     <input type="checkbox" id='number_17' class="agree_check_03">
+                                                                     <label for='number_17'>실제 전송되는 수량은 총 출금 암호화폐에서 출금수수료를 제외한 수량이 전송됩니다.</label>
 
-                                                                     <input type="checkbox" id='number_06' class="allAgree">
-                                                                     <label for='number_06' class='all_agree'>위의 출금시 주의사항에 모두 동의합니다.</label>
+                                                                     <input type="checkbox" id='number_18' class="allAgree_03">
+                                                                     <label for='number_18' class='all_agree_03'>위의 출금시 주의사항에 모두 동의합니다.</label>
                                                                  </div>
 
                                                                  <div class="cancel_or_apply">

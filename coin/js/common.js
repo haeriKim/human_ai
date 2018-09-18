@@ -335,8 +335,8 @@ $(document).ready(function(){
         }
     });
 
-    $("input[type='checkbox'].agree_check").change(function(){
-        var chk2 = $("input[type='checkbox'].agree_check");
+    $("input[type='checkbox'].agree_check_02").change(function(){
+        var chk2 = $("input[type='checkbox'].agree_check_02");
         if(chk2.length == chk2.filter(":checked").length){
           $(".allAgree_02").prop("checked",true);
             $("div.before_send_money_02 .if_you_all_agree").show();
@@ -345,6 +345,35 @@ $(document).ready(function(){
           $(".allAgree_02").prop("checked",false);
           $("div.before_send_money_02 .if_you_all_agree").hide();
           $("div.before_send_money_02 .if_you_not_all_agree").show();
+        }
+    });
+});
+
+//내 자산관리-비트코인 출금 전체 동의
+$(document).ready(function(){
+    $("div.before_send_money_03 .if_you_all_agree").hide();
+    $(".allAgree_03").click(function(){
+        if($(".allAgree_03").prop("checked")) {
+            $(".agree_check_03").prop("checked",true);
+            $("div.before_send_money_03 .if_you_all_agree").show();
+            $("div.before_send_money_03 .if_you_not_all_agree").hide();
+        }else {
+            $(".agree_check_03").prop("checked",false);
+            $("div.before_send_money_03 .if_you_all_agree").hide();
+            $("div.before_send_money_03 .if_you_not_all_agree").show();
+        }
+    });
+
+    $("input[type='checkbox'].agree_check_03").change(function(){
+        var chk3 = $("input[type='checkbox'].agree_check_03");
+        if(chk3.length == chk3.filter(":checked").length){
+          $(".allAgree_03").prop("checked",true);
+            $("div.before_send_money_03 .if_you_all_agree").show();
+            $("div.before_send_money_03 .if_you_not_all_agree").hide();
+        }else {
+          $(".allAgree_03").prop("checked",false);
+          $("div.before_send_money_03 .if_you_all_agree").hide();
+          $("div.before_send_money_03 .if_you_not_all_agree").show();
         }
     });
 });
@@ -482,7 +511,8 @@ $(document).ready(function(){
   /*작은 네비 슬라이더*/
   $(document).ready(function(){
       $('.content_nav ul li dl.off').hide();
-      $('.content_nav ul li a.more_menu').click(function(){
+      $('.content_nav ul li a.more_menu').click(function(e){
+          e.preventDefault();
           $(this).parent().toggleClass('on');
           $(this).next().stop().slideToggle();
       })

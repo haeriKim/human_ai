@@ -921,7 +921,7 @@
                                                                         <th>1일 잔여한도</th>
                                                                         <td>
                                                                             <p>200,000,000 KRW</p>
-                                                                            <input type="submit" value="인증레벨설정">
+                                                                            <input type="button" value="인증레벨설정">
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
@@ -950,7 +950,7 @@
                                                                         <th>휴대폰 SNS 인증</th>
                                                                         <td>
                                                                             <input type="text" name="" value="" placeholder="휴대폰으로 전송된 인증번호를 입력하세요." required>
-                                                                            <input type="submit" value="인증번호요청">
+                                                                            <input type="button" value="인증번호요청">
                                                                         </td>
                                                                     </tr>
                                                                 </tbody>
