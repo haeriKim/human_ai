@@ -25,7 +25,9 @@
 .button_box{
   margin-bottom: 10px;
 }
-
+.myinfo_main_box .cer_center:first-child{
+  margin-bottom: 40px;
+}
 /* account_table_wrap */
 .account_table_wrap table span.account_number{
   margin-right: 10px;
@@ -45,7 +47,7 @@ div.cer_center .sub_title{
   margin-bottom: 11px;
 }
 /*sub_title*/
-div.cer_center>p.second{
+div.cer_center>h4.second{
   margin-bottom: 20px;
 }
 

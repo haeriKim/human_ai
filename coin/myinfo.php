@@ -38,18 +38,18 @@
                   <div class="content_nav">
                     <h4>마이페이지</h4>
                     <ul>
-                        <li><a href="#" title="회원정보">회원정보</a></li>
+                        <li class="active"><a href="#" title="회원정보">회원정보</a></li>
                         <li>
                           <a href="#" title="회원정보관리" class='more_menu'>회원정보관리</a>
                           <dl class="nav_dropdown info_dd off">
-                              <dt><a href="#" title="로그인 비밀번호 변경" class='active'>로그인 비밀번호 변경</a></dt>
+                              <dt><a href="#" title="로그인 비밀번호 변경" >로그인 비밀번호 변경</a></dt>
                               <dt><a href="#" title="보안비밀번호 변경">보안비밀번호 변경</a></dt>
                               <dt><a href="#" title="휴대폰번호 변경">휴대폰번호 변경</a></dt>
                               <dt><a href="#" title="계좌 변경">계좌 변경</a></dt>
                               <dt><a href="#" title="새 지갑발급">OTP 변경</a></dt>
                           </dl>
                         </li>
-                        <li class='active'><a href="#" title="인증센터">인증센터</a></li>
+                        <li><a href="#" title="인증센터">인증센터</a></li>
                         <li><a href="track_ip_address.php" title="접속이력확인">접속이력확인</a></li>
                         <li>
                           <a href="#" title="알림" class='more_menu'>알림</a>
@@ -63,7 +63,8 @@
                   <div class="box certification_area ">
                     <h3 class="title">회원정보</h3>
                     <div class="myinfo_main_box cer_center mypage_content">
-                      <p class="sub_title">회원정보</p>
+                      <div class="cer_center">
+                      <h4>회원정보</h4>
                       <div class="button_box cf">
                         <button class="btn_small fr">이용안내</button>
                         <button class="btn_small fr">1:1 문의</button>
@@ -112,9 +113,9 @@
                           </table>
                         </div><!-- account_table_wrap End -->
                       </div><!-- myinfo_sub_box End-->
-
+                    </div><!-- cercenter End-->
                     <div class="cer_center">
-                      <p class="sub_title second">인증현황</p>
+                      <h4 class="second">인증현황</h4>
                       <ul class="cer_level">
                         <li>
                           <img src="img/lv1.png" alt="레벨1"/>
@@ -149,7 +150,7 @@
                           </p>
                           <strong class="gray_title">계좌인증</strong>
                           <span>거래소를 이용하기 위한<br/>계좌를 인증해주세요.</span>
-                          <button class="btn_large">인증하기</button>
+                          <button class="btn_large" onclick="location.href='certification.php'" type="button">인증하기</button>
                         </li>
                         <li>
                           <img src="img/lv5.png" alt="레벨5" class="lv5_on">
@@ -160,7 +161,7 @@
                           </p>
                           <strong class="gray_title">OTP인증</strong>
                           <span>실제 사용 중인<br/>OTP로 인증해주세요.</span>
-                          <button class="btn_large">인증하기</button>
+                          <button class="btn_large" onclick="location.href='certification.php'" type="button">인증하기</button>
                         </li>
                       </ul>
                       <p class="quit_page">
@@ -169,7 +170,6 @@
                     </div><!-- cercenter End-->
                     </div><!-- myinfo_main_box End -->
                   </div><!--certification_area End-->
-
                 </div><!-- certification_content End-->
             </div><!-- content_wrap End-->
 
