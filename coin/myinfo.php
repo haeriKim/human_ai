@@ -69,7 +69,7 @@
                         <button class="btn_small">이용안내</button>
                         <button class="btn_small">1:1 문의</button>
                       </div>
-                      <div class="myinfo_sub_box ">
+                      <div class="myinfo_sub_box">
                         <div class="myinfo_table_wrap">
                           <table class="left_thick_table myinfo_table float_table">
                               <tbody>

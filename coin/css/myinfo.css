@@ -1,15 +1,36 @@
 
-/*btn*/
-.myinfo_table .btn_medium{
+/*myinfo_main_box*/
+.myinfo_main_box .myinfo .button_box{
+    margin-bottom: 10px;
+    text-align: right;
+  }
+
+/* myinfo_table_wrap */
+.myinfo_sub_box .myinfo_table_wrap{
+  margin-bottom: 55px;
+  overflow: hidden;
+}
+.myinfo_sub_box .myinfo_table_wrap .float_table {
+   float: left;
+}
+.myinfo_sub_box .myinfo_table_wrap .myinfo_table{
+  width: 50%;
+}
+.myinfo_sub_box .myinfo_table_wrap .myinfo_table span.account_number{
+  margin-right: 10px;
+}
+.myinfo_sub_box .myinfo_table .btn_medium{
   width: 140px;
   cursor:pointer;
   border:1px solid #1b2f4a;
   background-color: white;
   padding:2px 10px;}
-.myinfo_table .btn_medium:hover{
+.myinfo_sub_box .myinfo_table .btn_medium:hover{
   color:white;
   background-color: #1b2f4a;}
-.cer_level .btn_large{
+
+/* cer_level */
+.cer_center .cer_level .btn_large{
   cursor:pointer;
   border-radius: 5px;
   background-color:#1b2f4a;
@@ -17,33 +38,6 @@
   border:none;
   padding:6px 20px;
   margin-top:10px;}
-  
-  .myinfo_area .myinfo_main_box .button_box{
-    margin-bottom: 10px;
-    text-align: right;
-  }
-
-/* myinfo_table_wrap */
-.myinfo_area .myinfo_sub_box .myinfo_table_wrap{
-  margin-bottom: 55px;
-  overflow: hidden;
-}
-.myinfo_area .myinfo_sub_box .myinfo_table_wrap .float_table {
-   float: left;
-}
-.myinfo_area .myinfo_sub_box .myinfo_table_wrap .myinfo_table{
-  width: 50%;
-}
-.myinfo_area .myinfo_sub_box .myinfo_table_wrap .myinfo_table span.account_number{
-  margin-right: 10px;
-}
-
-/* quit_page */
-.myinfo_main_box .quit_page a{
-  font-size:14px;
-  color:#999;
-  text-decoration: underline;
-}
 
 /* 비활성화 */
 .cer_center .cer_level li img.account_on,
@@ -53,4 +47,11 @@
 .cer_center .center_bottom .cText_right li .complete,
 .cer_center .center_bottom .cText_right li .lv5_ing {
   display: none;
+}
+
+/* quit_page */
+.myinfo_main_box .quit_page a{
+  font-size:14px;
+  color:#999;
+  text-decoration: underline;
 }
