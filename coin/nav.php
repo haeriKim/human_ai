@@ -51,7 +51,7 @@
                         <input type="button" class="delete"/>
                       </dd>
                   </dl>
-                  <a class="alarAllBtn" href="" title="알림전체보기">알림전체보기</a>
+                  <a class="alarAllBtn" href="alarm.php" title="알림전체보기">알림전체보기</a>
               </div>
             </div>
         </div>

@@ -202,14 +202,14 @@ $(function () {
         var activeTab = $(this).attr("rel");
         $("#" + activeTab).show()
 
+
         if(activeTab == "tab1" || activeTab == "tab2") {
           $("#deal_orgin_transaction").show();
           $("#mywallet_havecoin").hide();
         } else {
           $("#mywallet_havecoin").show();
           $("#deal_orgin_transaction").hide();
-          $(".bitcoin_conclu_table").hide();
-          // $(".bitcoin_conclu_table:first").show();
+          // $(".bitcoin_conclu_table").hide();
           $("ul.tabs4 li").removeClass("active2");
           $("ul.tabs4 li:first").addClass("active2");
         }
@@ -237,8 +237,6 @@ $(document).ready(function(){
         $(".KRW_conclu_table").hide();
         var activeTab = $(this).attr("rel");
         $("#" + activeTab).show();
-
-        return false;
     });
     //코인부분 입출금 안보이기
     var a = $("ul.tabs3 li").attr("rel");
@@ -254,7 +252,6 @@ $(document).ready(function(){
         $(".bitcoin_conclu_table").hide();
         var activeTab = $(this).attr("rel");
         $("#" + activeTab).show();
-          return false;
       });
 
     //보유코인 표에서 입출금 눌렀을 때 - 원화,코인 입출금 보이고 안보이기
@@ -276,7 +273,6 @@ $(document).ready(function(){
       }else{
         $("ul.tabs4 li").removeClass("active2");
         $("ul.tabs4 li:first").addClass("active2");
-        // return false;
       }
     });
 

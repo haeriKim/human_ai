@@ -190,7 +190,7 @@
                             </a>
                           </li>
                           <li>
-                            <a href="coin_info.php">
+                            <a href="coin_info_bitcoin.php">
                               <img src="img/coin-inform.png" alt="코인정보">
                               <p>코인정보</p>
                             </a>
