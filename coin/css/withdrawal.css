@@ -1,0 +1,9 @@
+/* 비활성화 */
+.cer_center .cer_level li img.account_on,
+.cer_center .cer_level li img.otp_on,
+.cer_center .cer_level li img.lv4_on,
+.cer_center .cer_level li img.lv5_on,
+.cer_center .center_bottom .cText_right li .complete,
+.cer_center .center_bottom .cText_right li .lv5_ing {
+  display: none;
+}
