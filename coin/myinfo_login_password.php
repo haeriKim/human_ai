@@ -65,65 +65,65 @@
                     <div class="myinfo_main_box cer_center mypage_content">
                       <div class="cer_center">
                       <h4>로그인 비밀번호 변경</h4>
-                      <div class="myinfo_myinfo cb cf">
-                        <div class="myinfo_box1 fl">
-                          <strong class="user_name">가*다</strong>
-                          <p class="user_email">abc@naver.com</p>
-                        </div>
-                        <div class="myinfo_box2">
-                          <ul class="list_1 fl">
-                            <li>
+                        <div class="myinfo_small_info_box">
+                          <div class="myinfo_box1">
+                            <strong class="user_name">가*다</strong>
+                            <p class="user_email">abc@naver.com</p>
+                          </div>
+                          <div class="myinfo_box2">
+                            <ul class="list_1">
+                              <li>
                                 <p class="myinfo_title">휴대폰</p>
                                 <p class="up_down_data myinfo_amount">
                                   <span>010</span>-<span>1***</span>-<span>***0</span></p>
-                            </li>
-                          </ul>
-                          <ul class="list_2 fl">
-                            <li>
-                                <p class="myinfo_title">등급</p>
-                                <p class="up_down_data myinfo_amount">Level&nbsp;<span>3</span></p>
-                            </li>
-                          </ul>
+                              </li>
+                            </ul>
+                            <ul class="list_2">
+                              <li>
+                                  <p class="myinfo_title">등급</p>
+                                  <p class="up_down_data myinfo_amount">Level&nbsp;<span>3</span></p>
+                              </li>
+                            </ul>
+                          </div>
                         </div>
-                      </div>
-                      <div class="myinfo_sub_box ">
-                        <div class="account_table_wrap">
+                        <!-- myinfo_small_info_box -->
+                        <div class="myinfo_sub_box ">
+                          <div class="account_table_wrap">
                             <!-- send_account -->
                             <div class="send_account">
                               <table class='left_thick_table'>
                                 <tbody>
                                   <tr>
                                     <th>현재 비밀번호</th>
-                                    <td>○○은행</td>
+                                    <td><input type="text" name="" value="" placeholder="" required></td>
                                   </tr>
                                   <tr>
                                     <th>새로운 비밀번호</th>
-                                    <td>1234-1564-68789</td>
+                                    <td><input type="text" name="" value="" placeholder="새로운 비밀번호를 입력해주세요" required></td>
                                   </tr>
                                   <tr>
                                     <th>새로운 비밀번호 확인</th>
-                                    <td>가나다</td>
+                                    <td><input type="text" name="" value="" placeholder="비밀번호를 재입력해주세요" required><span class="question"><img src="img/question.png"></span></td>
                                   </tr>
                                   <tr>
                                     <th>휴대폰 SNS 인증</th>
                                     <td>
-                                        <input type="text" name="" value="" placeholder="휴대폰으로 전송된 인증번호를 입력하세요." required>
-                                        <input type="submit" value="인증번호요청">
+                                      <input type="text" name="" value="" placeholder="휴대폰으로 전송된 인증번호를 입력하세요." required>
+                                      <input type="submit" value="인증번호요청">
                                     </td>
                                   </tr>
                                   <tr>
                                     <th>보안 비밀번호</th>
                                     <td>
-                                        <input type="text" name="" value="" placeholder="보안 비밀번호를 입력하세요." required maxlength="4" minlength='4'>
+                                      <input type="text" name="" value="" placeholder="보안 비밀번호를 입력하세요." required maxlength="4" minlength='4'>
                                     </td>
                                   </tr>
-
                                 </tbody>
                               </table>
                             </div><!-- send_account End-->
-                        </div><!-- account_table_wrap End-->
-                      </div><!-- myinfo_sub_box End-->
-                    </div><!-- cercenter End-->
+                          </div><!-- account_table_wrap End-->
+                        </div><!-- myinfo_sub_box End-->
+                      </div><!-- cercenter End-->
                     </div><!-- myinfo_main_box End -->
                   </div><!--certification_area End-->
                 </div><!-- certification_content End-->
