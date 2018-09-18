@@ -1,0 +1,92 @@
+/*common*/
+.fl{float:left;}
+.fr{float:right;}
+.cb{clear:both;}
+.cf:after{content: ''; display: block; clear: both;}
+
+/*btn*/
+.btn_medium{
+  width: 140px;
+  cursor:pointer;
+  border:1px solid #1b2f4a;
+  background-color: white;
+  padding:2px 10px;}
+.btn_medium:hover{
+  color:white;
+  background-color: #1b2f4a;}
+.btn_large{
+  cursor:pointer;
+  border-radius: 5px;
+  background-color:#1b2f4a;
+  color:white;
+  border:none;
+  padding:6px 20px;
+  margin-top:10px;}
+.button_box{
+  margin-bottom: 10px;
+}
+
+/* account_table_wrap */
+.account_table_wrap table span.account_number{
+  margin-right: 10px;
+}
+.account_table_wrap{
+  margin-bottom: 20px;
+}
+/*myinfo_table*/
+.myinfo_table{width: 455px; margin:0;}
+
+/*common으로 옮겨져야할것같음*/
+div.cer_center .sub_title{
+  color:black;
+  font-size: 17px;
+  font-weight: 600;
+  color: #2b2b2b;
+  margin-bottom: 11px;
+}
+/*sub_title*/
+div.cer_center>p.second{
+  margin-bottom: 20px;
+}
+
+/*quit_page*/
+.quit_page>a{
+  font-size:14px;
+  color:#999;
+  text-decoration: underline;
+}
+
+#malpungsun{
+  color:#fff;
+  background-color:#eaaf69;
+  font-size:13px;
+  font-weight: bold;
+  position: absolute;
+  /* display:none; */
+  top:720px;
+  left:750px;
+  width: 300px;
+  text-align: center;
+  padding:10px 0;
+  line-height: 1.5;
+  border-radius: 5px;
+}
+#malpungsun::after{
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 83%;
+  margin-left: -5px;
+  border-width: 7px;
+  border-style: solid;
+  border-color:  transparent transparent #eaaf69 transparent;
+}
+/* 비활성화 */
+.cer_center .cer_level li img.account_on,
+.cer_center .cer_level li img.otp_on,
+.cer_center .cer_level li img.lv4_on,
+.cer_center .cer_level li img.lv5_on,
+.cer_center .center_bottom .cText_right li .complete,
+.cer_center .center_bottom .cText_right li .lv5_ing {
+  display: none;
+}

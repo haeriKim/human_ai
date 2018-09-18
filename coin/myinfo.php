@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/certification.css">
+    <link rel="stylesheet" href="css/myinfo.css">
     <link rel="stylesheet" href="css/sub_menu.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
@@ -60,15 +60,17 @@
                         </li>
                     </ul>
                   </div><!-- content_nav End-->
-                  <div class="box certification_area">
+                  <div class="box certification_area ">
                     <h3 class="title">회원정보</h3>
-                    <div class="myinfo_main_box">
+                    <div class="myinfo_main_box cer_center mypage_content">
                       <p class="sub_title">회원정보</p>
-                      <p class="btn_small">1:1 문의</p>
-                      <p class="btn_small">이용안내</p>
-                      <div class="myinfo_sub_box">
-                        <div class="account_table_wrap">
-                          <table class="left_thick_table myinfo_table">
+                      <div class="button_box cf">
+                        <button class="btn_small fr">이용안내</button>
+                        <button class="btn_small fr">1:1 문의</button>
+                      </div>
+                      <div class="myinfo_sub_box ">
+                        <div class="account_table_wrap cf">
+                          <table class="left_thick_table myinfo_table fl ">
                               <tbody>
                                   <tr>
                                       <th>이름</th>
@@ -88,7 +90,7 @@
                                   </tr>
                               </tbody>
                           </table>
-                          <table class="left_thick_table myinfo_table">
+                          <table class="left_thick_table myinfo_table fr ">
                               <tbody>
                                 <tr>
                                     <th>비밀번호</th>
@@ -96,11 +98,11 @@
                                 </tr>
                                 <tr>
                                     <th>보안비밀번호</th>
-                                    <td><button class="btn_medium">보안비밀번호 변경</button></td>
+                                    <td><button class="btn_medium ">보안비밀번호 변경</button></td>
                                 </tr>
                                 <tr>
                                     <th>계좌번호</th>
-                                    <td>OO은행 1234-*******-11-123<button class="btn_small">계좌번호 변경</button></td>
+                                    <td>OO은행 <span class="account_number">1234-*******-11-123</span><button class="btn_small">계좌번호 변경</button></td>
                                 </tr>
                                 <tr>
                                     <th>OTP</th>
@@ -108,10 +110,11 @@
                                 </tr>
                               </tbody>
                           </table>
-                        </div>
-                      </div>
-                    </div>
+                        </div><!-- account_table_wrap End -->
+                      </div><!-- myinfo_sub_box End-->
+
                     <div class="cer_center">
+                      <p class="sub_title second">인증현황</p>
                       <ul class="cer_level">
                         <li>
                           <img src="img/lv1.png" alt="레벨1"/>
@@ -146,6 +149,7 @@
                           </p>
                           <strong class="gray_title">계좌인증</strong>
                           <span>거래소를 이용하기 위한<br/>계좌를 인증해주세요.</span>
+                          <button class="btn_large">인증하기</button>
                         </li>
                         <li>
                           <img src="img/lv5.png" alt="레벨5" class="lv5_on">
@@ -156,9 +160,14 @@
                           </p>
                           <strong class="gray_title">OTP인증</strong>
                           <span>실제 사용 중인<br/>OTP로 인증해주세요.</span>
+                          <button class="btn_large">인증하기</button>
                         </li>
                       </ul>
-                    </div>
+                      <p class="quit_page">
+                        <a href="#">더이상 CCE를 이용하고 싶지 않다면?</a>
+                      </p>
+                    </div><!-- cercenter End-->
+                    </div><!-- myinfo_main_box End -->
                   </div><!--certification_area End-->
 
                 </div><!-- certification_content End-->
