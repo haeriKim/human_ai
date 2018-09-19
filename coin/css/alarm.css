@@ -91,6 +91,9 @@
   margin-left:-5px;
   background:#fff;
 }
+.alarm_area .alarm_sangse2{
+  margin-top:20px;
+}
 .alarm_area .alarm_sangse .alarm_sangse_pyo2{
   font-weight:600;
   width:500px;
@@ -101,6 +104,7 @@
 }
 
 .alarm_area .alarm_sangse .alarm_snagse_checkbox{
+  width:500px;
   text-align:left;
   border-top:1px solid #efefef;
   padding-top:10px;

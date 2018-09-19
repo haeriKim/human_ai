@@ -119,6 +119,7 @@
                                   </tbody>
                                 </table>
 
+                                <div class="alarm_sangse2">
                                 <p>개인정보 수집 및 이용 동의(선택)</p>
                                   <table class="alarm_sangse_pyo2">
                                     <tbody>
@@ -154,7 +155,7 @@
                                     <input type="submit" name="submit" value="저장" class='save_bt'/>
 
                                   </div>
-
+                                </div>
                             </div>
                         </div>
 
