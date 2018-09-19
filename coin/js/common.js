@@ -547,6 +547,17 @@ $(document).ready(function(){
 
   });
 
+$(document).ready(function(){
+
+  $("body").click(function(e){
+  if(!$(".submenu_security,.submenu_mypage").has(e.target).length){
+      $(".submenu_security_inner,.submenu_mypage_inner").stop().animate({right:-300},300);
+    }
+  });
+});
+
+
+
 
   /*작은 네비 슬라이더*/
   $(document).ready(function(){
