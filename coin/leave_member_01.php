@@ -44,9 +44,9 @@
                         <ul class="cer_level">
                           <li>
                             <img src="img/step1.png" alt="스텝1" class="step1_on"/>
-                
+
                             <p class="img_area">
-                              <img src="img/quit_1.png" alt="이메일인증 아이콘"/>
+                              <img src="img/quit_1.png" alt="탈퇴안내"/>
                             </p>
                             <strong>탈퇴 안내</strong>
 
@@ -54,26 +54,25 @@
 
                             <img src="img/step2_off.png" alt="스텝2" class="step2_off"/>
                             <p class="img_area">
-                              <img src="img/quit_2.png" alt="보안비밀번호생성 아이콘" />
+                              <img src="img/quit_2_off.png" alt="자산확인" />
                             </p>
-                            <strong>자산 확인</strong>
+                            <strong class="gray_title">자산 확인</strong>
 
                           </li>
                           <li>
 
                             <img src="img/step3_off.png" alt="스텝3" class="step3_off"/>
                             <p class="img_area">
-                              <img src="img/quit_3.png" alt="휴대폰인증 아이콘" />
+                              <img src="img/quit_3_off.png" alt="탈퇴신청" />
                             </p>
-                            <strong>탈퇴 신청</strong>
+                            <strong class="gray_title">탈퇴 신청</strong>
 
                           </li>
                           <li>
 
                             <img src="img/step4_off.png" alt="스텝4" class="step4_off"/>
                             <p class="img_area">
-                              <img src="img/quit_4.png" alt="계좌인증 아이콘" class="account_off"/>
-                              <img src="img/quit_4.png" alt="계좌인증 아이콘" class="account_on" />
+                              <img src="img/quit_4_off.png" alt="탈퇴처리"/>
                             </p>
                             <strong class="gray_title">탈퇴 처리</strong>
 
@@ -82,8 +81,7 @@
 
                             <img src="img/step5_off.png" alt="스텝5" class="step5_off"/>
                             <p class="img_area">
-                              <img src="img/quit_5.png" alt="OTP인증 아이콘" class="otp_off"/>
-                              <img src="img/quit_5.png" alt="OTP인증인증 아이콘" class="otp_on" />
+                              <img src="img/quit_5_off.png" alt="탈퇴완료"/>
                             </p>
                             <strong class="gray_title">탈퇴 완료</strong>
 

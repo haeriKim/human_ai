@@ -90,22 +90,19 @@
   margin-bottom:20px;
 }
 
-
-
-/* 비활성화 */
-.cer_center .cer_level li img.step1_off,
-.cer_center .cer_level li img.step2_on,
-.cer_center .cer_level li img.step3_on,
-.cer_center .cer_level li img.step4_on,
-.cer_center .cer_level li img.step5_on
- {
-  display: none;
+/*회원탈퇴 step3*/
+.withdrawal_area #withdrawal_text3 p{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.7;
 }
-.cer_center .cer_level li img.step11_on,
-.cer_center .cer_level li img.step22_off,
-.cer_center .cer_level li img.step33_on,
-.cer_center .cer_level li img.step44_on,
-.cer_center .cer_level li img.step55_on
- {
-  display: none;
+.withdrawal_area #withdrawal_text3 form table{
+    width: 67%;
+    margin: 35px auto -40px auto;
+}
+.withdrawal_area #withdrawal_text3 .get_rid_of_money{
+    color: #666;
+    font-weight: 600;
+    background: #f4f5f9;
+    padding: 5px 50px 5px 12px;
 }
