@@ -560,5 +560,16 @@ $(document).ready(function(){
 
 /*회원탈퇴 4단계 의견수렴 부분*/
 $(document).ready(function(){
-    
+    $(".html_input input[type='text'], .html_input textarea").hide();
+    $("#leave_opinion").change(function(){
+        var selectR = $(this).val();
+        if(selectR =="기타(직접입력)"){
+            $(".html_input textarea").show();
+            $(".html_input input[type='text']").hide();
+        }else{
+          $(".html_input textarea").hide();
+          $(".html_input input[type='text']").show();
+          $(".html_input input[type='text']").attr("readonly",true).val(selectR);
+        }
+    });
 })

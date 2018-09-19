@@ -91,17 +91,17 @@
                         <p>탈퇴사유를 남겨주시면 보다 나은 서비스를 제공하기 위해 소중한 자료로 이용하도록 하겠습니다.</p>
                         <form class="" action="#" method="post">
                             <label for='leave_opinion'></label>
-                            <select id="leave_opinion" name="leave_opinion">
-                                <option value="">선택</option>
-                                <option value="" class='txt_01'>암호화폐 거래(투자) 중단</option>
-                                <option value="" class='txt_02'>재가입을 위한 탈퇴</option>
-                                <option value="" class='txt_03'>사용하지 않는 계정 정리</option>
-                                <option value="" class='txt_04'>타 거래소로 이동</option>
-                                <option value="" class='txt_05'>개인정보 삭제</option>
-                                <option value="" class='txt_06'>기타(직접입력)</option>
+                            <select id="leave_opinion" name="leave_opinion" required>
+                                <option value="탈퇴 사유 선택" disabled selected="selected">탈퇴 사유 선택</option>
+                                <option value="암호화폐 거래(투자) 중단" class='txt_01'>암호화폐 거래(투자) 중단</option>
+                                <option value="재가입을 위한 탈퇴" class='txt_02'>재가입을 위한 탈퇴</option>
+                                <option value="사용하지 않는 계정 정리" class='txt_03'>사용하지 않는 계정 정리</option>
+                                <option value="타 거래소로 이동" class='txt_04'>타 거래소로 이동</option>
+                                <option value="개인정보 삭제" class='txt_05'>개인정보 삭제</option>
+                                <option value="기타(직접입력)" class='txt_06'>기타(직접입력)</option>
                             </select>
                             <div class="html_input">
-                                <input type="text" name="" value="암호화폐 거래(투자) 중단" readonly>
+                                <input type="text" name="" value="">
                                 <textarea name='' placeholder="500자이내로 입력해주세요"></textarea>
                             </div>
                             <div class="cancel_or_apply">
