@@ -43,8 +43,8 @@ jQuery(document).ready(function(){
                   <div class="content_nav">
                     <h4>마이페이지</h4>
                     <ul>
-                        <li class="active"><a href="#" title="회원정보">회원정보</a></li>
-                        <li>
+                        <li><a href="myinfo.php" title="회원정보">회원정보</a></li>
+                        <li  class="active">
                           <a href="#" title="회원정보관리" class='more_menu'>회원정보관리</a>
                           <dl class="nav_dropdown info_dd off">
                               <dt><a href="#" title="로그인 비밀번호 변경" >로그인 비밀번호 변경</a></dt>
@@ -54,13 +54,13 @@ jQuery(document).ready(function(){
                               <dt><a href="#" title="새 지갑발급">OTP 변경</a></dt>
                           </dl>
                         </li>
-                        <li><a href="#" title="인증센터">인증센터</a></li>
+                        <li><a href="certification.php" title="인증센터">인증센터</a></li>
                         <li><a href="track_ip_address.php" title="접속이력확인">접속이력확인</a></li>
                         <li>
                           <a href="#" title="알림" class='more_menu'>알림</a>
                           <dl class="nav_dropdown alarm_dd off">
                               <dt><a href="alarm.php" title="알림 상세">알림 상세</a></dt>
-                              <dt><a href="#" title="알림 설정">알림 설정</a></dt>
+                              <dt><a href="alarm_setting.php" title="알림 설정">알림 설정</a></dt>
                           </dl>
                         </li>
                     </ul>

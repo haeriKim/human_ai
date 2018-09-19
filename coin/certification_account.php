@@ -41,7 +41,7 @@
                     <ul>
                         <li><a href="myinfo.php" title="회원정보">회원정보</a></li>
                         <li>
-                          <a href="" title="회원정보관리" class='more_menu'>회원정보관리</a>
+                          <a href="myinfo_login_password.php" title="회원정보관리" class='more_menu'>회원정보관리</a>
                           <dl class="nav_dropdown info_dd off">
                               <dt><a href="myinfo_login_password.php" title="로그인 비밀번호 변경" class='active'>로그인 비밀번호 변경</a></dt>
                               <dt><a href="#" title="보안비밀번호 변경">보안비밀번호 변경</a></dt>
