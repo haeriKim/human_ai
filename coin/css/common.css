@@ -305,6 +305,9 @@ div.cancel_or_apply .agree_btn {
   font-weight: 600;
   font-size: 16px;
   box-sizing: border-box;
+  border: 1px solid #1b2f4a;
+  background-color: #1b2f4a;
+  cursor: pointer;
 }
 div.cancel_or_apply .if_you_not_all_agree{
     border: 1px solid #666;
@@ -681,4 +684,40 @@ div.cancel_or_apply .if_you_all_agree{
   font-weight:600;
   cursor:pointer;
   border: none;
+}
+/**/
+#output_bitcoin table.left_thick_table tbody input[type='text'],
+#output_KRW table.left_thick_table tbody input[type='text'],
+#withdrawal_text3 table.left_thick_table tbody input[type='text'],
+#withdrawal_text3 table.left_thick_table tbody input[type='password']{
+    border: none;
+    border-bottom: 1px solid #1b2f4a;
+    width: 300px;
+    padding-bottom: 4px;
+    font-size:15px;
+}
+#output_bitcoin table.left_thick_table tbody input[type='button'],
+#output_KRW table.left_thick_table tbody input[type='button'],
+#withdrawal_text3 table.left_thick_table tbody input[type='button']{
+    border: 1px solid #1b2f4a;
+    background: #fff;
+    color: #1b2f4a;
+    padding: 3px 5px;
+    cursor: pointer;
+    font-size:15px;
+}
+#output_bitcoin table.left_thick_table tbody input[type='button']:hover,
+#output_KRW table.left_thick_table tbody input[type='button']:hover,
+#withdrawal_text3 table.left_thick_table tbody input[type='button']:hover{
+    border: 1px solid #1b2f4a;
+    background: #1b2f4a;
+    color: #fff;
+    padding: 3px 5px;
+    cursor: pointer;
+}
+#output_bitcoin table.left_thick_table tbody input::placeholder,
+#output_KRW table.left_thick_table tbody input::placeholder,
+#withdrawal_text3 table.left_thick_table tbody input::placeholder{
+    color:#a1a1a1;
+    font-size:14px;
 }

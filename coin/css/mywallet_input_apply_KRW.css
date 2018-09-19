@@ -215,33 +215,6 @@ div.before_send_money_wrap > p{
     display: inline-block;
     width: 300px;
 }
-#output_KRW table.left_thick_table tbody input[type='button']{
-    border: 1px solid #1b2f4a;
-    background: #fff;
-    color: #1b2f4a;
-    padding: 3px 5px;
-    cursor: pointer;
-    margin-left: 5px;
-    font-size:15px;
-}
-#output_KRW table.left_thick_table tbody input[type='button']:hover{
-    border: 1px solid #1b2f4a;
-    background: #1b2f4a;
-    color: #fff;
-    padding: 3px 5px;
-    cursor: pointer;
-}
-#output_KRW table.left_thick_table tbody input[type='text']{
-    border: none;
-    border-bottom: 1px solid #1b2f4a;
-    width: 300px;
-    padding-bottom: 4px;
-    font-size:15px;
-}
-#output_KRW table.left_thick_table tbody input::placeholder{
-    color:#a1a1a1;
-    font-size:14px;
-}
 #output_KRW div.before_send_money_wrap{
     margin-left: 12px;
     margin-top: 50px;
