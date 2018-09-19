@@ -118,23 +118,23 @@
                           <br/>
                           <p>1.계약 또는 청약 철회 등에 관한 기록</p>
 
-                          <span>보존 근거:전자상거래 등에서의 소비자보호에 관한 법률</span>
+                          <span class="withdrawal_span">보존 근거:전자상거래 등에서의 소비자보호에 관한 법률</span>
                           <br/>
-                          <span>보존기간:5년</span>
+                          <span class="withdrawal_span">보존기간:5년</span>
                           <br/>
                           <br/>
                           <p>2.대금 결제 및 재화 등의 공급에 관한 기록</p>
 
-                          <span>보존 근거:전자상거래 등에서의 소비자보호에 관한 법률</span>
+                          <span class="withdrawal_span">보존 근거:전자상거래 등에서의 소비자보호에 관한 법률</span>
                           <br/>
-                          <span>보존기간:5년</span>
+                          <span class="withdrawal_span">보존기간:5년</span>
                           <br/>
                           <br/>
                           <p>3.소비자의 불만 또는 분쟁 처리에 관한 기록</p>
 
-                          <span>보존 근거:전자상거래 등에서의 소비자보호에 관한 법률</span>
+                          <span class="withdrawal_span">보존 근거:전자상거래 등에서의 소비자보호에 관한 법률</span>
                           <br/>
-                          <span class="withdrawal_bottom_line">보존기나:3년</span>
+                          <span class="withdrawal_bottom_line withdrawal_span">보존기나:3년</span>
 
 
                               <div id="checkbox_text">
