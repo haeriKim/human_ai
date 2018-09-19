@@ -49,13 +49,13 @@
                               <dt><a href="#" title="새 지갑발급">OTP 변경</a></dt>
                           </dl>
                         </li>
-                        <li><a href="#" title="인증센터">인증센터</a></li>
+                        <li><a href="certification.php" title="인증센터">인증센터</a></li>
                         <li><a href="track_ip_address.php" title="접속이력확인">접속이력확인</a></li>
                         <li>
                           <a href="#" title="알림" class='more_menu'>알림</a>
                           <dl class="nav_dropdown alarm_dd off">
                               <dt><a href="alarm.php" title="알림 상세">알림 상세</a></dt>
-                              <dt><a href="#" title="알림 설정">알림 설정</a></dt>
+                              <dt><a href="alarm_sangse.php" title="알림 설정">알림 설정</a></dt>
                           </dl>
                         </li>
                     </ul>
