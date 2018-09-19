@@ -42,7 +42,7 @@
                         <li>
                           <a href="#" title="회원정보관리" class='more_menu'>회원정보관리</a>
                           <dl class="nav_dropdown info_dd off">
-                              <dt><a href="#" title="로그인 비밀번호 변경" >로그인 비밀번호 변경</a></dt>
+                              <dt><a href="myinfo_login_password.php" title="로그인 비밀번호 변경" >로그인 비밀번호 변경</a></dt>
                               <dt><a href="#" title="보안비밀번호 변경">보안비밀번호 변경</a></dt>
                               <dt><a href="#" title="휴대폰번호 변경">휴대폰번호 변경</a></dt>
                               <dt><a href="#" title="계좌 변경">계좌 변경</a></dt>
@@ -66,8 +66,8 @@
                       <div class="myinfo">
                       <h4>회원정보</h4>
                       <div class="button_box">
-                        <button class="btn_small">이용안내</button>
-                        <button class="btn_small">1:1 문의</button>
+                        <a href="#" class="btn_small">1:1문의</a>
+                        <a href="#" class="btn_small">이용안내</a>
                       </div>
                       <div class="myinfo_sub_box">
                         <div class="myinfo_table_wrap">
@@ -83,7 +83,7 @@
                                   </tr>
                                   <tr>
                                       <th>휴대폰</th>
-                                      <td>010-****-****</td>
+                                      <td>010-****-****  <a href="#" class="btn_small">휴대폰 번호 변경</a></td>
                                   </tr>
                                   <tr>
                                       <th>등급</th>
@@ -95,19 +95,22 @@
                               <tbody>
                                 <tr>
                                     <th>비밀번호</th>
-                                    <td><button class="btn_medium">비밀번호 변경</button></td>
+                                    <td><a href="myinfo_login_password.php" class="btn_medium">비밀번호 변경</a></td>
                                 </tr>
                                 <tr>
                                     <th>보안비밀번호</th>
-                                    <td><button class="btn_medium ">보안비밀번호 변경</button></td>
+                                    <td><a href="#" class="btn_medium ">보안비밀번호 변경</a></td>
                                 </tr>
                                 <tr>
                                     <th>계좌번호</th>
-                                    <td>OO은행 <span class="account_number">1234-*******-11-123</span><button class="btn_small">계좌번호 변경</button></td>
+                                    <td>OO은행
+                                      <span class="account_number">1234-*******-11-123</span>
+                                      <a href="#" class="btn_small">계좌번호 변경</a>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <th>OTP</th>
-                                    <td><button class="btn_medium">OTP 변경</button></td>
+                                    <td><a href="#" class="btn_medium">OTP 변경</a></td>
                                 </tr>
                               </tbody>
                           </table>
@@ -138,7 +141,7 @@
                           <p class="img_area">
                             <img src="img/phone.png" alt="휴대폰인증 아이콘" />
                           </p>
-                          <strong>휴대폰인증</strong>
+                          <strong>실명인증</strong>
                           <span>본인명의 휴대폰을 통하여<br/>실명을 인증해주세요.</span>
                         </li>
                         <li>

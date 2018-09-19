@@ -39,11 +39,11 @@
                   <div class="content_nav">
                     <h4>마이페이지</h4>
                     <ul>
-                        <li><a href="myinfo.php" title="회원정보">회원정보</a></li>
+                        <li><a href="#" title="회원정보">회원정보</a></li>
                         <li>
-                          <a href="#" title="회원정보관리" class='more_menu'>회원정보관리</a>
+                          <a href="myinfo.php" title="회원정보관리" class='more_menu'>회원정보관리</a>
                           <dl class="nav_dropdown info_dd off">
-                              <dt><a href="#" title="로그인 비밀번호 변경" class='active'>로그인 비밀번호 변경</a></dt>
+                              <dt><a href="myinfo_login_password.php" title="로그인 비밀번호 변경" class='active'>로그인 비밀번호 변경</a></dt>
                               <dt><a href="#" title="보안비밀번호 변경">보안비밀번호 변경</a></dt>
                               <dt><a href="#" title="휴대폰번호 변경">휴대폰번호 변경</a></dt>
                               <dt><a href="#" title="계좌 변경">계좌 변경</a></dt>
@@ -87,7 +87,7 @@
                           <p class="img_area">
                             <img src="img/phone.png" alt="휴대폰인증 아이콘" />
                           </p>
-                          <strong>휴대폰인증</strong>
+                          <strong>실명인증</strong>
                           <span>본인명의 휴대폰을 통하여<br/>실명을 인증해주세요.</span>
                         </li>
                         <li>
