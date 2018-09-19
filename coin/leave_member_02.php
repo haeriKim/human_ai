@@ -43,7 +43,7 @@
                       <div class="cer_center mypage_content">
                         <ul class="cer_level">
                           <li>
-                            
+
                             <img src="img/step1_off.png" alt="스텝1" class="step11_off"/>
                             <p class="img_area">
                               <img src="img/quit_1.png" alt="이메일인증 아이콘"/>

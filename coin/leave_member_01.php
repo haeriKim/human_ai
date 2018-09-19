@@ -92,12 +92,12 @@
                         <h4>회원탈퇴 전,아래 내용을 확인해 주시기 바랍니다.</h4>
                           <br/>
                           <strong>1. 회원탈퇴 불가 사유</strong>
-                            <p>1.진행중인 거래가 있을 경우</p>
-                            <p>2.잔여 보유자산이 10,000원 이상인 경우</p>
-                            <p>3.입출금 중인 암호화폐가 있는 경우</p>
-                            <p>4.사용 중인 유료서비스가 있는 경우</p>
-                            <p>5.미사용 유료서비스가 있는 경우</p>
-                            <p>6.휴면자산 반환신청을 하지 않은 경우</p>
+                            <p>1. 진행중인 거래가 있을 경우</p>
+                            <p>2. 잔여 보유자산이 10,000원 이상인 경우</p>
+                            <p>3. 입출금 중인 암호화폐가 있는 경우</p>
+                            <p>4. 사용 중인 유료서비스가 있는 경우</p>
+                            <p>5. 미사용 유료서비스가 있는 경우</p>
+                            <p>6. 휴면자산 반환신청을 하지 않은 경우</p>
                             <br/>
                           <strong>2. 소멸 및 서비스 불가</strong>
                             <p>이미 탈퇴한 계정으로 오입금되는 암호화폐는 블록체인 특성상(익명) 회수가 불가하오니 각별히 주의하시기 바랍니다.</p>
@@ -115,21 +115,21 @@
                             <p>회사는 관계법령에서 정한 일정한 기간동안 회원정보를 보관합니다. 이 경우 회사는 보관하는 정보를 그 보관의</p>
                             <p>목적으로만 이용하며 보존기간은 아래와 같습니다.</p>
                           <br/>
-                          <p>1.계약 또는 청약 철회 등에 관한 기록</p>
+                          <p>1. 계약 또는 청약 철회 등에 관한 기록</p>
 
                           <span class="withdrawal_span">보존 근거:전자상거래 등에서의 소비자보호에 관한 법률</span>
                           <br/>
                           <span class="withdrawal_span">보존기간:5년</span>
                           <br/>
                           <br/>
-                          <p>2.대금 결제 및 재화 등의 공급에 관한 기록</p>
+                          <p>2. 대금 결제 및 재화 등의 공급에 관한 기록</p>
 
                           <span class="withdrawal_span">보존 근거:전자상거래 등에서의 소비자보호에 관한 법률</span>
                           <br/>
                           <span class="withdrawal_span">보존기간:5년</span>
                           <br/>
                           <br/>
-                          <p>3.소비자의 불만 또는 분쟁 처리에 관한 기록</p>
+                          <p>3. 소비자의 불만 또는 분쟁 처리에 관한 기록</p>
 
                           <span class="withdrawal_span">보존 근거:전자상거래 등에서의 소비자보호에 관한 법률</span>
                           <br/>
@@ -145,7 +145,7 @@
                           <div class="cancel_or_apply">
                             <input type="reset" name="reset" value="취소" onclick="location.href='myinfo.php'" class='cancel_btn'/>
                             <span class='agree_btn if_you_not_all_agree'>다음단계</span>
-                            <input type="submit" name="submit" value="다음단계" onclick="location.href='leave_member_02.php'" class='agree_btn if_you_all_agree'/>
+                            <input type="button" name="nwxt_btn" value="다음단계" onclick="location.href='leave_member_02.php'" class='agree_btn if_you_all_agree'/>
                           </div>
 
 
