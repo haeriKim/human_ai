@@ -90,7 +90,7 @@
                           <div>
                             <h4>개발자 정보</h4>
                             <p>
-                              찰스 호스킨슨
+                              찰스 호스킨슨(Charles Hoskinson)
                             </p>
                           </div>
                         </div>
