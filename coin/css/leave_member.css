@@ -1,0 +1,99 @@
+/*회원탈퇴 step1*/
+
+.withdrawal_area .withdrawal_text h4{
+  font-weight:600;
+  font-size:17px;
+  color:#1b2f4a;
+}
+.withdrawal_area .withdrawal_text strong{
+  font-weight:600;
+  color:#1b2f4a;
+  margin-bottom:20px;
+  display:block;
+}
+.withdrawal_area .withdrawal_text p,span{
+  font-size:13px;
+}
+.withdrawal_area .withdrawal_text .withdrawal_bottom_line{
+  padding-bottom:20px;
+  border-bottom:1px solid #eee;
+  width:500px;
+  display:block;
+}
+.withdrawal_area .withdrawal_text #checkbox_text{
+  margin-top:10px;
+}
+
+.withdrawal_area .withdrawal_text .checkbox_text{
+  float:left;
+  font-weight:600;
+  font-size:13px;
+  display:block;
+  overflow:hidden;
+}
+.withdrawal_area .withdrawal_text .cancel_or_apply{
+  text-align:center;
+  margin-top:80px;
+  margin-bottom:20px;
+}
+
+/*회원탈퇴 step2*/
+
+
+.withdrawal_area .withdrawal_text2 p.red_point{
+  width:900px;
+  font-weight:600;
+  font-size:25px;
+  color:#c95b74;
+}
+.withdrawal_area .withdrawal_text2 .my_all_money{
+  width:300px;
+  display:inline-block;
+  background:#eee;
+  border:1px solid #eee;
+  text-align:right;
+  border-radius: 5px;
+  padding:0 10px;
+}
+.withdrawal_area .withdrawal_text2 strong{
+  color:#1b2f4a;
+  padding:10px 0;
+  margin:30px 0;
+  border-bottom:2px solid #1b2f4a;
+  display:block;
+}
+.withdrawal_area .withdrawal_text2 .withdrawal_text2_inner{
+  font-size:13px;
+  font-weight:600;
+}
+.withdrawal_area .withdrawal_text2 .withdrawal_text2_inner p{
+  margin-left:26px;
+}
+.withdrawal_area .withdrawal_text2 .withdrawal_text2_inner label{
+  margin:2px 0;
+}
+.withdrawal_area .withdrawal_text2 .withdrawal_bottom_line{
+  border-bottom:1px solid #eee;
+  padding-bottom:20px;
+  width:500px;
+}
+.withdrawal_area .withdrawal_text2 #checkbox_text2{
+  margin-top:10px;
+}
+.withdrawal_area .withdrawal_text2 .cancel_or_apply{
+  text-align:center;
+  margin-top:50px;
+  margin-bottom:20px;
+}
+
+
+
+/* 비활성화 */
+.cer_center .cer_level li img.account_on,
+.cer_center .cer_level li img.otp_on,
+.cer_center .cer_level li img.lv4_on,
+.cer_center .cer_level li img.lv5_on,
+.cer_center .center_bottom .cText_right li .complete,
+.cer_center .center_bottom .cText_right li .lv5_ing {
+  display: none;
+}

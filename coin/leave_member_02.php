@@ -89,64 +89,29 @@
                           </li>
                         </ul>
 
-                      <div class="withdrawal_text">
-                        <h4>회원탈퇴 전,아래 내용을 확인해 주시기 바랍니다.</h4>
-                          <br/>
-                          <strong>1. 회원탈퇴 불가 사유</strong>
-                            <p>1.진행중인 거래가 있을 경우</p>
-                            <p>2.잔여 보유자산이 10,000원 이상인 경우</p>
-                            <p>3.입출금 중인 암호화폐가 있는 경우</p>
-                            <p>4.사용 중인 유료서비스가 있는 경우</p>
-                            <p>5.미사용 유료서비스가 있는 경우</p>
-                            <p>6.휴면자산 반환신청을 하지 않은 경우</p>
-                            <br/>
-                          <strong>2. 소멸 및 서비스 불가</strong>
-                            <p>이미 탈퇴한 계정으로 오입금되는 암호화폐는 블록체인 특성상(익명) 회수가 불가하오니 각별히 주의하시기 바랍니다.</p>
-                            <p>또한 CCE 계정으로 연결되어 있는 유,무료 서비스는 더 이상 사용이 불가하며 자동 소멸 됨을 알려 드립니다.</p>
-                          <br/>
-                          <strong>3. 소액 자산 처리</strong>
-                            <p>출금과 송금을 통해 최종적으로 남겨진 소액자산은 아래와 같으며 탈퇴시 회원님 동의 하에 <span class="red_point">한국백혈병어린이재단</span>으로</p>
-                            <p>기부할 수 있으며 처리하지 못하는 소액자산은 권리포기 합니다.</p>
-                          <br/>
-                          <strong>4. 회원정보 삭제</strong>
-                            <p>회원 탈퇴와 함께 CCE에 등록된 회원님의 개인정보는 법에 의해 보존하는 5번외 모두 삭제, 폐기 처리되며 복구되지 않습니다.</p>
-                          <br/>
-                          <strong>5. 이용 기록 보관</strong>
-                            <p>단,상법,전자상거래 등에서의 소비자보호에 관한 법률 등 관계법령의 규정에 의거하여 보존할 필요가 있는경우,</p>
-                            <p>회사는 관계법령에서 정한 일정한 기간동안 회원정보를 보관합니다. 이 경우 회사는 보관하는 정보를 그 보관의</p>
-                            <p>목적으로만 이용하며 보존기간은 아래와 같습니다.</p>
-                          <br/>
-                          <p>1.계약 또는 청약 철회 등에 관한 기록</p>
+                      <div class="withdrawal_text2">
+                        <p class="red_point">가*다 님의 총 보유자산은 <span class="my_all_money">45,000원</span> 입니다.</p>
+                          <strong>탈퇴 유의사항</strong>
 
-                          <span>보존 근거:전자상거래 등에서의 소비자보호에 관한 법률</span>
-                          <br/>
-                          <span>보존기간:5년</span>
-                          <br/>
-                          <br/>
-                          <p>2.대금 결제 및 재화 등의 공급에 관한 기록</p>
+                            <div class="withdrawal_text2_inner">
+                              <input type="checkbox" id="number_19" class="agree_check_04"><label for="number_19">회원님의 자산 권리포기 가능금액은 (KRW 10,000원 미만) 입니다.</label>
+                              <input type="checkbox" id="number_20" class="agree_check_04"><label for="number_20">더 이상 출금 및 송금이 불가능한 소액자산 이라고 판단하시면, 다음 단계에서 권리를 포기하고 탈퇴를 진행 할 수 있습니다.</label>
+                              <input type="checkbox" id="number_21" class="agree_check_04"><label for="number_21">회원 탈퇴를 진행하시면 본 계정으로 연결되어 있는 유,무료 서비스는 더 이상 사용이 불가능합니다.<br/>
+                              <p>또한 회원님의 지갑주소로 입금될 수 있는 암호화폐의 소유권도 함께 유실 됩니다.</p></label>
+                              <br/>
+                              <input type="checkbox" id="number_22" class="agree_check_04"><label for="number_22" class="withdrawal_bottom_line">탈퇴를 결정하시지 전 신중한 판단을 부탁드립니다.</label>
+                              <br/>
 
-                          <span>보존 근거:전자상거래 등에서의 소비자보호에 관한 법률</span>
-                          <br/>
-                          <span>보존기간:5년</span>
-                          <br/>
-                          <br/>
-                          <p>3.소비자의 불만 또는 분쟁 처리에 관한 기록</p>
-
-                          <span>보존 근거:전자상거래 등에서의 소비자보호에 관한 법률</span>
-                          <br/>
-                          <span class="withdrawal_bottom_line">보존기나:3년</span>
-
-
-                              <div id="checkbox_text">
-
-                                  <input type="checkbox" id="withdrawal_checkbox" class="withdrawal_01_checkbox"><label for="withdrawal_checkbox" class="checkbox_text">위 유의사항을 동의하고 다음단계로 넘어갑니다.
-
+                              <div id="checkbox_text2">
+                                <input type="checkbox" id="number_23" class="allAgree_04"><label for="number_23" class='all_agree_04'>위 유의사항을 모두 숙지하고 다음단계로 넘어갑니다.</label>
                               </div>
 
-                          <div class="cancel_or_apply">
-                            <input type="reset" name="reset" value="취소" class='cancel_btn'/>
-                            <input type="submit" name="submit" value="다음단계" class='agree_btn if_you_all_agree'/>
-                          </div>
+                              <div class="cancel_or_apply">
+                                  <input type="reset" name="reset" value="취소" class='cancel_btn'/>
+                                  <span class='agree_btn if_you_not_all_agree'>입금신청</span>
+                                  <input type="submit" name="submit" value="입금신청" class='agree_btn if_you_all_agree'/>
+                                </div>
+                            </div>
 
 
 

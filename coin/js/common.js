@@ -370,6 +370,35 @@ $(document).ready(function(){
     });
 });
 
+//회원탈퇴 2단계 전체 동의
+$(document).ready(function(){
+    $(".withdrawal_text2 .if_you_all_agree").hide();
+    $(".allAgree_04").click(function(){
+        if($(".allAgree_04").prop("checked")) {
+            $(".agree_check_04").prop("checked",true);
+            $(".withdrawal_text2 .if_you_all_agree").show();
+            $(".withdrawal_text2 .if_you_not_all_agree").hide();
+        }else {
+            $(".agree_check_04").prop("checked",false);
+            $(".withdrawal_text2 .if_you_all_agree").hide();
+            $(".withdrawal_text2 .if_you_not_all_agree").show();
+        }
+    });
+
+    $("input[type='checkbox'].agree_check_04").change(function(){
+        var chk4 = $("input[type='checkbox'].agree_check_04");
+        if(chk4.length == chk4.filter(":checked").length){
+          $(".allAgree_04").prop("checked",true);
+            $(".withdrawal_text2 .if_you_all_agree").show();
+            $(".withdrawal_text2 .if_you_not_all_agree").hide();
+        }else {
+          $(".allAgree_04").prop("checked",false);
+          $(".withdrawal_text2 .if_you_all_agree").hide();
+          $(".withdrawal_text2 .if_you_not_all_agree").show();
+        }
+    });
+});
+
 //자산관리 - 인증센터 말풍선
 $(document).ready(function(){
   $("#malpungsun, #account_malpungsun").hide();
