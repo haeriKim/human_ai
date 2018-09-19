@@ -42,16 +42,16 @@
                       <div class="cer_center mypage_content">
                         <ul class="cer_level">
                           <li>
-                            <img src="img/quit_1.png" alt="스텝1" class="lv4_on"/>
-                            <img src="img/lv1.png" alt="스텝1"/>
+                            <img src="img/step1.png" alt="스텝1" class="step1_on"/>
+                            <img src="img/step1_off.png" alt="스텝1" class="step1_off"/>
                             <p class="img_area">
                               <img src="img/quit_1.png" alt="이메일인증 아이콘"/>
                             </p>
                             <strong>탈퇴 안내</strong>
 
                           <li>
-                            <img src="img/quit_2.png" alt="스텝2" class="lv4_on"/>
-                            <img src="img/lv2.png" alt="스텝2" />
+                            <img src="img/step2.png" alt="스텝2" class="step2_on"/>
+                            <img src="img/step2_off.png" alt="스텝2" class="step2_off"/>
                             <p class="img_area">
                               <img src="img/quit_2.png" alt="보안비밀번호생성 아이콘" />
                             </p>
@@ -59,8 +59,8 @@
 
                           </li>
                           <li>
-                            <img src="img/quit_3.png" alt="스텝3" class="lv4_on"/>
-                            <img src="img/lv3.png" alt="스텝3" />
+                            <img src="img/step3.png" alt="스텝3" class="step3_on"/>
+                            <img src="img/step3_off.png" alt="스텝3" class="step3_off"/>
                             <p class="img_area">
                               <img src="img/quit_3.png" alt="휴대폰인증 아이콘" />
                             </p>
@@ -68,8 +68,8 @@
 
                           </li>
                           <li>
-                            <img src="img/quit_4.png" alt="스텝4" class="lv4_on"/>
-                            <img src="img/lv4_off.png" alt="스텝4" class="lv4_off"/>
+                            <img src="img/step4.png" alt="스텝4" class="step4_on"/>
+                            <img src="img/step4_off.png" alt="스텝4" class="step4_off"/>
                             <p class="img_area">
                               <img src="img/quit_4.png" alt="계좌인증 아이콘" class="account_off"/>
                               <img src="img/quit_4.png" alt="계좌인증 아이콘" class="account_on" />
@@ -78,8 +78,8 @@
 
                           </li>
                           <li>
-                            <img src="img/quit_5.png" alt="스텝5" class="lv5_on">
-                            <img src="img/lv5_off.png" alt="스텝5" class="lv5_off"/>
+                            <img src="img/step5.png" alt="스텝5" class="step5_on"/>
+                            <img src="img/step5_off.png" alt="스텝5" class="step5_off"/>
                             <p class="img_area">
                               <img src="img/quit_5.png" alt="OTP인증 아이콘" class="otp_off"/>
                               <img src="img/quit_5.png" alt="OTP인증인증 아이콘" class="otp_on" />

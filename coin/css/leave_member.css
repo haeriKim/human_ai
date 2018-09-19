@@ -87,11 +87,19 @@
 
 
 /* 비활성화 */
-.cer_center .cer_level li img.account_on,
-.cer_center .cer_level li img.otp_on,
-.cer_center .cer_level li img.lv4_on,
-.cer_center .cer_level li img.lv5_on,
-.cer_center .center_bottom .cText_right li .complete,
-.cer_center .center_bottom .cText_right li .lv5_ing {
+.cer_center .cer_level li img.step1_off,
+.cer_center .cer_level li img.step2_on,
+.cer_center .cer_level li img.step3_on,
+.cer_center .cer_level li img.step4_on,
+.cer_center .cer_level li img.step5_on
+ {
+  display: none;
+}
+.cer_center .cer_level li img.step11_on,
+.cer_center .cer_level li img.step22_off,
+.cer_center .cer_level li img.step33_on,
+.cer_center .cer_level li img.step44_on,
+.cer_center .cer_level li img.step55_on
+ {
   display: none;
 }
