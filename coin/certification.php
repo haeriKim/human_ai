@@ -55,7 +55,7 @@
                           <a href="#" title="알림" class='more_menu'>알림</a>
                           <dl class="nav_dropdown alarm_dd off">
                               <dt><a href="alarm.php" title="알림 상세">알림 상세</a></dt>
-                              <dt><a href="alarm_sangse" title="알림 설정">알림 설정</a></dt>
+                              <dt><a href="alarm_setting.php" title="알림 설정">알림 설정</a></dt>
                           </dl>
                         </li>
                     </ul>

@@ -87,32 +87,32 @@
                                           <tr>
                                             <td>로그인 정보</td>
                                             <td>
-                                                <span class="alarm_on">ON</span>
-                                                <span class="alarm_off">OFF</span>
+                                                <input type="button" name="ON" value="ON" class="alarm_on">
+                                                <input type="button" name="OFF" value="OFF" class="alarm_off">
                                               </td>
                                           </tr>
 
                                           <tr>
                                               <td>거래 체결</td>
                                               <td>
-                                                <span class="alarm_on">ON</span>
-                                                <span class="alarm_off">OFF</span>
+                                                <input type="button" name="ON" value="ON" class="alarm_on">
+                                                <input type="button" name="OFF" value="OFF" class="alarm_off">
                                               </td>
                                         </tr>
 
                                         <tr>
                                             <td>입/출금 정보</td>
                                             <td>
-                                              <span class="alarm_on">ON</span>
-                                              <span class="alarm_off">OFF</span>
+                                              <input type="button" name="ON" value="ON" class="alarm_on">
+                                              <input type="button" name="OFF" value="OFF" class="alarm_off">
                                             </td>
                                       </tr>
 
                                       <tr>
                                           <td>고객센터</td>
                                           <td>
-                                            <span class="alarm_on">ON</span>
-                                            <span class="alarm_off">OFF</span>
+                                            <input type="button" name="ON" value="ON" class="alarm_on">
+                                            <input type="button" name="OFF" value="OFF" class="alarm_off">
                                           </td>
                                     </tr>
 

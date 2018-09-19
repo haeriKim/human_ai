@@ -75,7 +75,7 @@
   padding:10px 10px;
   border-bottom:1px solid #efefef;
 }
-.alarm_area .alarm_sangse .alarm_sangse_pyo1 span{
+.alarm_area .alarm_sangse .alarm_sangse_pyo1 input{
   border:1px solid #1b2f4a;
   display:inline-block;
   padding:2px 5px;
@@ -87,8 +87,9 @@
   background:#1b2f4a;
 }
 .alarm_area .alarm_sangse .alarm_sangse_pyo1 .alarm_off{
-    color:#1b2f4a;
-    margin-left:-5px;
+  color:#1b2f4a;
+  margin-left:-5px;
+  background:#fff;
 }
 .alarm_area .alarm_sangse .alarm_sangse_pyo2{
   font-weight:600;
