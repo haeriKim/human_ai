@@ -11,9 +11,7 @@
   margin-bottom:20px;
   display:block;
 }
-.withdrawal_area .withdrawal_text p,span{
-  font-size:13px;
-}
+
 .withdrawal_area .withdrawal_text .withdrawal_bottom_line{
   padding-bottom:20px;
   border-bottom:1px solid #eee;

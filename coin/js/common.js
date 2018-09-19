@@ -370,6 +370,25 @@ $(document).ready(function(){
     });
 });
 
+//회원탈퇴 1단계 동의
+$(document).ready(function(){
+    $(".withdrawal_text .if_you_all_agree").hide();
+
+  $("#checkbox_text").click(function(){
+
+    if($(".withdrawal_01_checkbox").prop("checked")){
+      $(".withdrawal_01_checkbox").prop("checked",true);
+      $(".withdrawal_text .if_you_all_agree").show();
+      $(".withdrawal_text .if_you_not_all_agree").hide();
+    }else{
+      $(".withdrawal_01_checkbox").prop("checked",false);
+      $(".withdrawal_text .if_you_not_all_agree").show();
+      $(".withdrawal_text .if_you_all_agree").hide();
+
+    }
+  });
+});
+
 //회원탈퇴 2단계 전체 동의
 $(document).ready(function(){
     $(".withdrawal_text2 .if_you_all_agree").hide();

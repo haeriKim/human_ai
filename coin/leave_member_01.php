@@ -38,7 +38,7 @@
                   <div class="box withdrawal_area">
                     <h3 class="title">회원탈퇴</h3>
                     <!-- track_ip_address -->
-                    <div class="withdrawal">
+
                       <div class="cer_center mypage_content">
                         <ul class="cer_level">
                           <li>
@@ -139,12 +139,13 @@
 
                               <div id="checkbox_text">
 
-                                  <input type="checkbox" id="withdrawal_checkbox" class="withdrawal_01_checkbox"><label for="withdrawal_checkbox" class="checkbox_text">위 유의사항을 동의하고 다음단계로 넘어갑니다.
+                                  <input type="checkbox" id="withdrawal_checkbox" class="withdrawal_01_checkbox"><label for="withdrawal_checkbox" class="checkbox_text">위 유의사항을 동의하고 다음단계로 넘어갑니다.</label>
 
                               </div>
 
                           <div class="cancel_or_apply">
                             <input type="reset" name="reset" value="취소" class='cancel_btn'/>
+                            <span class='agree_btn if_you_not_all_agree'>다음단계</span>
                             <input type="submit" name="submit" value="다음단계" class='agree_btn if_you_all_agree'/>
                           </div>
 
@@ -153,9 +154,8 @@
 
                       </div>
 
-                      </div>
 
-                    </div><!-- withdrawal End-->
+                    </div>
                   </div><!--withdrawal_area End-->
 
                 </div><!-- withdrawal_wrap End-->
@@ -165,9 +165,6 @@
             <?php include "footer.php";?>
             <!-- footer_wrap End-->
 
-            <!--sub_menu-->
-            <?php include "sub_menu.php";?>
-            <!--sub_menu End-->
 
         </div><!-- container End -->
     </div><!-- wrap End -->
