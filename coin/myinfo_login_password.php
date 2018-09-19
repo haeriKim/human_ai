@@ -15,6 +15,11 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/common.js"></script>
+    <script>
+jQuery(document).ready(function(){
+
+});
+</script>
 </head>
 <body>
     <!-- wrap -->
@@ -74,54 +79,74 @@
                             <ul class="list_1">
                               <li>
                                 <p class="myinfo_title">휴대폰</p>
-                                <p class="up_down_data myinfo_amount">
+                                <p class="myinfo_detail">
                                   <span>010</span>-<span>1***</span>-<span>***0</span></p>
                               </li>
                             </ul>
                             <ul class="list_2">
                               <li>
                                   <p class="myinfo_title">등급</p>
-                                  <p class="up_down_data myinfo_amount">Level&nbsp;<span>3</span></p>
+                                  <p class="myinfo_detail">Level&nbsp;<span>3</span></p>
                               </li>
                             </ul>
                           </div>
                         </div>
                         <!-- myinfo_small_info_box -->
                         <div class="myinfo_sub_box ">
-                          <div class="account_table_wrap">
-                            <!-- send_account -->
-                            <div class="send_account">
-                              <table class='left_thick_table'>
-                                <tbody>
-                                  <tr>
-                                    <th>현재 비밀번호</th>
-                                    <td><input type="text" name="" value="" placeholder="" required></td>
-                                  </tr>
-                                  <tr>
-                                    <th>새로운 비밀번호</th>
-                                    <td><input type="text" name="" value="" placeholder="새로운 비밀번호를 입력해주세요" required></td>
-                                  </tr>
-                                  <tr>
-                                    <th>새로운 비밀번호 확인</th>
-                                    <td><input type="text" name="" value="" placeholder="비밀번호를 재입력해주세요" required><span class="question"><img src="img/question.png"></span></td>
-                                  </tr>
-                                  <tr>
-                                    <th>휴대폰 SNS 인증</th>
-                                    <td>
-                                      <input type="text" name="" value="" placeholder="휴대폰으로 전송된 인증번호를 입력하세요." required>
-                                      <input type="submit" value="인증번호요청">
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <th>보안 비밀번호</th>
-                                    <td>
-                                      <input type="text" name="" value="" placeholder="보안 비밀번호를 입력하세요." required maxlength="4" minlength='4'>
-                                    </td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                            </div><!-- send_account End-->
-                          </div><!-- account_table_wrap End-->
+                          <form class="" action="#" method="post">
+                            <div class="myinfo_table_wrap">
+                              <!-- send_login_password -->
+                              <div class="send_login_password">
+                                <table class='left_thick_table'>
+                                  <tbody>
+                                    <tr>
+                                      <th>현재 비밀번호</th>
+                                      <td><input type="password" name="pre_password" value="pre_password" placeholder="현재 비밀번호를 입력해주세요" required maxlength="8" minlength="12" /></td>
+                                    </tr>
+                                    <tr>
+                                      <th>새로운 비밀번호</th>
+                                      <td><input type="password" name="password" value="password" placeholder="새로운 비밀번호를 입력해주세요" required maxlength="8" minlength="12" /></td>
+                                    </tr>
+                                    <tr>
+                                      <th>새로운 비밀번호 확인</th>
+                                      <td>
+                                        <input type="password" name="password" value="password" placeholder="비밀번호를 재입력해주세요" required maxlength="8" minlength="12" />
+                                        <div class="question_smallbox"><img src="img/question.png">
+                                      <div class="password_question_detail">
+                                            안전한 비밀번호 작성 법<br />
+                                            -비밀번호는 영문 소문자, 대문자, 숫자, 특수문자를 포함하여 10자리 이상으로 만드셔야 합니다. <br />
+                                            -비밀번호는 최대한 길게 작성해주세요.<br />
+                                            -단, 허용되는 특수문자(~!@#$%^*)외 다른 특수문자는 사용할 수 없습니다.<br />
+                                            -ID, 생일, 전화번호 등 개인정보를 이용해 만든 비밀번호를 사용하지 마세요.<br />
+                                            -포털 사이트나 타 거래소 등 타 사이트와 동일하거나 비슷한 암호를 설정하지 마세요.타 사이트에서 암호가 유출될 경우 제3자가 회원님의 계정에 접근할 위험이 있습니다.<br />
+                                            -동일한 문자가 반복되는 등 패턴이 있는 비밀번호로 만들지 마세요.<br />
+                                      </div>
+                                      </div>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <th>휴대폰 SNS 인증</th>
+                                      <td>
+                                        <input type="text" name="" value="" placeholder="휴대폰으로 전송된 인증번호를 입력하세요." required maxlength="6" minlength="6" />
+                                        <input type="button" value="인증번호요청" >
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <th>보안 비밀번호</th>
+                                      <td>
+                                        <input type="password" name="security" value="" placeholder="보안 비밀번호를 입력하세요." maxlength="4" minlength='4' required/>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div><!-- send_login_password End-->
+
+                            </div><!-- myinfo_table_wrap End-->
+                            <div class="cancel_or_apply">
+                              <input type="reset" name="reset" value="취소" class="cancel_btn">
+                              <input type="submit" name="submit" value="변경" class="agree_btn if_you_all_agree">
+                            </div>
+                          </form>
                         </div><!-- myinfo_sub_box End-->
                       </div><!-- cercenter End-->
                     </div><!-- myinfo_main_box End -->
