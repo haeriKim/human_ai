@@ -40,47 +40,52 @@
                     <!-- track_ip_address -->
 
                       <div class="cer_center mypage_content">
-                        <ul class="cer_level">
-                          <li>
-                            <img src="img/step1_off.png" alt="스텝1"/>
-                            <p class="img_area">
-                              <img src="img/quit_1_off.png" alt="이메일인증 아이콘"/>
-                            </p>
-                            <strong>탈퇴 안내</strong>
-                          </li>
+                          <ul class="cer_level">
+                            <li>
+                              <img src="img/step1_off.png" alt="스텝1" class="step1_on"/>
 
-                          <li>
-                            <img src="img/step2_off.png" alt="스텝2" class="step2_off"/>
-                            <p class="img_area">
-                              <img src="img/quit_2_off.png" alt="보안비밀번호생성 아이콘" />
-                            </p>
-                            <strong>자산 확인</strong>
-                          </li>
+                              <p class="img_area">
+                                <img src="img/quit_1_off.png" alt="탈퇴안내"/>
+                              </p>
+                              <strong>탈퇴 안내</strong>
 
-                          <li>
-                            <img src="img/step3.png" alt="스텝3" class="step3_on"/>
-                            <p class="img_area">
-                              <img src="img/quit_3.png" alt="휴대폰인증 아이콘" />
-                            </p>
-                            <strong>탈퇴 신청</strong>
-                          </li>
+                            <li>
 
-                          <li>
-                            <img src="img/step4_off.png" alt="스텝4" class="step4_off"/>
-                            <p class="img_area">
-                              <img src="img/quit_4_off.png" alt="계좌인증 아이콘" class="account_on" />
-                            </p>
-                            <strong class="gray_title">탈퇴 처리</strong>
-                          </li>
+                              <img src="img/step2_off.png" alt="스텝2" class="step2_off"/>
+                              <p class="img_area">
+                                <img src="img/quit_2_off.png" alt="자산확인" />
+                              </p>
+                              <strong class="gray_title">자산 확인</strong>
 
-                          <li>
-                            <img src="img/step5_off.png" alt="스텝5" class="step5_off"/>
-                            <p class="img_area">
-                              <img src="img/quit_5_off.png" alt="OTP인증인증 아이콘" class="otp_on" />
-                            </p>
-                            <strong class="gray_title">탈퇴 완료</strong>
-                          </li>
-                        </ul>
+                            </li>
+                            <li>
+
+                              <img src="img/step3.png" alt="스텝3" class="step3_off"/>
+                              <p class="img_area">
+                                <img src="img/quit_3.png" alt="탈퇴신청" />
+                              </p>
+                              <strong class="gray_title">탈퇴 신청</strong>
+
+                            </li>
+                            <li>
+
+                              <img src="img/step4_off.png" alt="스텝4" class="step4_off"/>
+                              <p class="img_area">
+                                <img src="img/quit_4_off.png" alt="탈퇴처리"/>
+                              </p>
+                              <strong class="gray_title">탈퇴 처리</strong>
+
+                            </li>
+                            <li>
+
+                              <img src="img/step5_off.png" alt="스텝5" class="step5_off"/>
+                              <p class="img_area">
+                                <img src="img/quit_5_off.png" alt="탈퇴완료"/>
+                              </p>
+                              <strong class="gray_title">탈퇴 완료</strong>
+
+                            </li>
+                          </ul>
 
                       <div class="withdrawal_text" id='withdrawal_text3'>
                         <h4>가*다님의 abc@naver.com 계정을 탈퇴 처리합니다.</h4>

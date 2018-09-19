@@ -40,117 +40,75 @@
                     <!-- track_ip_address -->
 
                       <div class="cer_center mypage_content">
-                        <ul class="cer_level">
-                          <li>
-                            <img src="img/step1.png" alt="스텝1" class="step1_on"/>
-                            <img src="img/step1_off.png" alt="스텝1" class="step1_off"/>
-                            <p class="img_area">
-                              <img src="img/quit_1.png" alt="이메일인증 아이콘"/>
-                            </p>
-                            <strong>탈퇴 안내</strong>
+                          <ul class="cer_level">
+                            <li>
+                              <img src="img/step1_off.png" alt="스텝1" class="step1_on"/>
 
-                          <li>
-                            <img src="img/step2.png" alt="스텝2" class="step2_on"/>
-                            <img src="img/step2_off.png" alt="스텝2" class="step2_off"/>
-                            <p class="img_area">
-                              <img src="img/quit_2.png" alt="보안비밀번호생성 아이콘" />
-                            </p>
-                            <strong>자산 확인</strong>
+                              <p class="img_area">
+                                <img src="img/quit_1_off.png" alt="탈퇴안내"/>
+                              </p>
+                              <strong>탈퇴 안내</strong>
 
-                          </li>
-                          <li>
-                            <img src="img/step3.png" alt="스텝3" class="step3_on"/>
-                            <img src="img/step3_off.png" alt="스텝3" class="step3_off"/>
-                            <p class="img_area">
-                              <img src="img/quit_3.png" alt="휴대폰인증 아이콘" />
-                            </p>
-                            <strong>탈퇴 신청</strong>
+                            <li>
 
-                          </li>
-                          <li>
-                            <img src="img/step4.png" alt="스텝4" class="step4_on"/>
-                            <img src="img/step4_off.png" alt="스텝4" class="step4_off"/>
-                            <p class="img_area">
-                              <img src="img/quit_4.png" alt="계좌인증 아이콘" class="account_off"/>
-                              <img src="img/quit_4.png" alt="계좌인증 아이콘" class="account_on" />
-                            </p>
-                            <strong class="gray_title">탈퇴 처리</strong>
+                              <img src="img/step2_off.png" alt="스텝2" class="step2_off"/>
+                              <p class="img_area">
+                                <img src="img/quit_2_off.png" alt="자산확인" />
+                              </p>
+                              <strong class="gray_title">자산 확인</strong>
 
-                          </li>
-                          <li>
-                            <img src="img/step5.png" alt="스텝5" class="step5_on"/>
-                            <img src="img/step5_off.png" alt="스텝5" class="step5_off"/>
-                            <p class="img_area">
-                              <img src="img/quit_5.png" alt="OTP인증 아이콘" class="otp_off"/>
-                              <img src="img/quit_5.png" alt="OTP인증인증 아이콘" class="otp_on" />
-                            </p>
-                            <strong class="gray_title">탈퇴 완료</strong>
+                            </li>
+                            <li>
 
-                          </li>
-                        </ul>
+                              <img src="img/step3_off.png" alt="스텝3" class="step3_off"/>
+                              <p class="img_area">
+                                <img src="img/quit_3_off.png" alt="탈퇴신청" />
+                              </p>
+                              <strong class="gray_title">탈퇴 신청</strong>
 
-                      <div class="withdrawal_text">
-                        <h4>회원탈퇴 전,아래 내용을 확인해 주시기 바랍니다.</h4>
-                          <br/>
-                          <strong>1. 회원탈퇴 불가 사유</strong>
-                            <p>1.진행중인 거래가 있을 경우</p>
-                            <p>2.잔여 보유자산이 10,000원 이상인 경우</p>
-                            <p>3.입출금 중인 암호화폐가 있는 경우</p>
-                            <p>4.사용 중인 유료서비스가 있는 경우</p>
-                            <p>5.미사용 유료서비스가 있는 경우</p>
-                            <p>6.휴면자산 반환신청을 하지 않은 경우</p>
-                            <br/>
-                          <strong>2. 소멸 및 서비스 불가</strong>
-                            <p>이미 탈퇴한 계정으로 오입금되는 암호화폐는 블록체인 특성상(익명) 회수가 불가하오니 각별히 주의하시기 바랍니다.</p>
-                            <p>또한 CCE 계정으로 연결되어 있는 유,무료 서비스는 더 이상 사용이 불가하며 자동 소멸 됨을 알려 드립니다.</p>
-                          <br/>
-                          <strong>3. 소액 자산 처리</strong>
-                            <p>출금과 송금을 통해 최종적으로 남겨진 소액자산은 아래와 같으며 탈퇴시 회원님 동의 하에 <span class="red_point">한국백혈병어린이재단</span>으로</p>
-                            <p>기부할 수 있으며 처리하지 못하는 소액자산은 권리포기 합니다.</p>
-                          <br/>
-                          <strong>4. 회원정보 삭제</strong>
-                            <p>회원 탈퇴와 함께 CCE에 등록된 회원님의 개인정보는 법에 의해 보존하는 5번외 모두 삭제, 폐기 처리되며 복구되지 않습니다.</p>
-                          <br/>
-                          <strong>5. 이용 기록 보관</strong>
-                            <p>단,상법,전자상거래 등에서의 소비자보호에 관한 법률 등 관계법령의 규정에 의거하여 보존할 필요가 있는경우,</p>
-                            <p>회사는 관계법령에서 정한 일정한 기간동안 회원정보를 보관합니다. 이 경우 회사는 보관하는 정보를 그 보관의</p>
-                            <p>목적으로만 이용하며 보존기간은 아래와 같습니다.</p>
-                          <br/>
-                          <p>1.계약 또는 청약 철회 등에 관한 기록</p>
+                            </li>
+                            <li>
 
-                          <span class="withdrawal_span">보존 근거:전자상거래 등에서의 소비자보호에 관한 법률</span>
-                          <br/>
-                          <span class="withdrawal_span">보존기간:5년</span>
-                          <br/>
-                          <br/>
-                          <p>2.대금 결제 및 재화 등의 공급에 관한 기록</p>
+                              <img src="img/step4.png" alt="스텝4" class="step4_off"/>
+                              <p class="img_area">
+                                <img src="img/quit_4.png" alt="탈퇴처리"/>
+                              </p>
+                              <strong class="gray_title">탈퇴 처리</strong>
 
-                          <span class="withdrawal_span">보존 근거:전자상거래 등에서의 소비자보호에 관한 법률</span>
-                          <br/>
-                          <span class="withdrawal_span">보존기간:5년</span>
-                          <br/>
-                          <br/>
-                          <p>3.소비자의 불만 또는 분쟁 처리에 관한 기록</p>
+                            </li>
+                            <li>
 
-                          <span class="withdrawal_span">보존 근거:전자상거래 등에서의 소비자보호에 관한 법률</span>
-                          <br/>
-                          <span class="withdrawal_bottom_line withdrawal_span">보존기나:3년</span>
+                              <img src="img/step5_off.png" alt="스텝5" class="step5_off"/>
+                              <p class="img_area">
+                                <img src="img/quit_5_off.png" alt="탈퇴완료"/>
+                              </p>
+                              <strong class="gray_title">탈퇴 완료</strong>
 
+                            </li>
+                          </ul>
 
-                              <div id="checkbox_text">
-
-                                  <input type="checkbox" id="withdrawal_checkbox" class="withdrawal_01_checkbox"><label for="withdrawal_checkbox" class="checkbox_text">위 유의사항을 동의하고 다음단계로 넘어갑니다.</label>
-
-                              </div>
-
-                          <div class="cancel_or_apply">
-                            <input type="reset" name="reset" value="취소" onclick="location.href='myinfo.php'" class='cancel_btn'/>
-                            <span class='agree_btn if_you_not_all_agree'>다음단계</span>
-                            <input type="submit" name="submit" value="다음단계" onclick="location.href='leave_member_02.php'" class='agree_btn if_you_all_agree'/>
-                          </div>
-
-
-
+                      <div class="withdrawal_text" id='withdrawal_text4'>
+                        <p>탈퇴사유를 남겨주시면 보다 나은 서비스를 제공하기 위해 소중한 자료로 이용하도록 하겠습니다.</p>
+                        <form class="" action="#" method="post">
+                            <label for='leave_opinion'></label>
+                            <select id="leave_opinion" name="leave_opinion">
+                                <option value="">선택</option>
+                                <option value="" class='txt_01'>암호화폐 거래(투자) 중단</option>
+                                <option value="" class='txt_02'>재가입을 위한 탈퇴</option>
+                                <option value="" class='txt_03'>사용하지 않는 계정 정리</option>
+                                <option value="" class='txt_04'>타 거래소로 이동</option>
+                                <option value="" class='txt_05'>개인정보 삭제</option>
+                                <option value="" class='txt_06'>기타(직접입력)</option>
+                            </select>
+                            <div class="html_input">
+                                <input type="text" name="" value="암호화폐 거래(투자) 중단" readonly>
+                                <textarea name='' placeholder="500자이내로 입력해주세요"></textarea>
+                            </div>
+                            <div class="cancel_or_apply">
+                                <input type="reset" name="reset" value="취소" onclick="location.href='myinfo.php'" class='cancel_btn'/>
+                                <input type="submit" name="submit" value="다음단계" class='agree_btn'/>
+                            </div>
+                        </form>
 
                       </div>
 
