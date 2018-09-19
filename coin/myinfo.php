@@ -165,7 +165,7 @@
                         </li>
                       </ul>
                       <p class="quit_page">
-                        <a href="#">더이상 CCE를 이용하고 싶지 않다면?</a>
+                        <a href="leave_member_01.php">더이상 CCE를 이용하고 싶지 않다면?</a>
                       </p>
                     </div><!-- cercenter End-->
                     </div><!-- myinfo_main_box End -->
