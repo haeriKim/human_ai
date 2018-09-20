@@ -66,7 +66,7 @@ jQuery(document).ready(function(){
                     </ul>
                   </div><!-- content_nav End-->
                   <div class="box certification_area ">
-                    <h3 class="title">회원정보</h3>
+                    <h3 class="title">회원정보관리</h3>
                     <div class="myinfo_main_box cer_center mypage_content">
                       <div class="cer_center">
                       <h4>로그인 비밀번호 변경</h4>
