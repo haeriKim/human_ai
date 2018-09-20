@@ -151,6 +151,9 @@
 .withdrawal_area #withdrawal_text4 textarea::placeholder{
     font-size: 14px;
 }
+.withdrawal_area #withdrawal_text4 .cancel_or_apply{
+    margin-bottom: 36px;
+}
 /*회원탈퇴 step5*/
 .withdrawal_area #withdrawal_text5 h4{
     text-align: center;
