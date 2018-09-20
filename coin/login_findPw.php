@@ -39,7 +39,7 @@
                         <form class="" action="#" method="post">
                             <h3>비밀번호 복구</h3>
                             <label for="e_mail" class='skip_label'>이메일주소</label>
-                            <input type="email" name="e_mail" value="" placeholder="이메일 주소를 입력하세요." id='e_mail' required autocomplete="off">
+                            <input type="email" name="e_mail" value="" placeholder="이메일 주소를 입력하세요." id='e_mail' required autocomplete="off" class='user_mail'>
                             <p class='notfiy_info'>
                                 <img src="img/icon_ex.png" alt="알림">
                                 입력한 주소로 이메일이 발송되었습니다.<br/>

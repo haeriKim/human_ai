@@ -73,20 +73,21 @@ jQuery(document).ready(function(){
                         <div class="myinfo_small_info_box">
                           <div class="myinfo_box1">
                             <strong class="user_name">가*다</strong>
-                            <p class="user_email">abc@naver.com</p>
+                            <p class="user_mail">abc@naver.com</p>
                           </div>
                           <div class="myinfo_box2">
                             <ul class="list_1">
                               <li>
                                 <p class="myinfo_title">휴대폰</p>
-                                <p class="myinfo_detail">
-                                  <span>010</span>-<span>1***</span>-<span>***0</span></p>
+                                <p class="myinfo_detail user_phone">
+                                  <span>010</span>-<span>1***</span>-<span>***0</span>
+                                </p>
                               </li>
                             </ul>
                             <ul class="list_2">
                               <li>
                                   <p class="myinfo_title">등급</p>
-                                  <p class="myinfo_detail">Level&nbsp;<span>3</span></p>
+                                  <p class="myinfo_detail">Level&nbsp;<span class='user_level'>3</span></p>
                               </li>
                             </ul>
                           </div>
@@ -101,16 +102,16 @@ jQuery(document).ready(function(){
                                   <tbody>
                                     <tr>
                                       <th>현재 비밀번호</th>
-                                      <td><input type="password" name="pre_password" value="pre_password" placeholder="현재 비밀번호를 입력해주세요" required maxlength="8" minlength="12" /></td>
+                                      <td><input type="password" class='user_pass' name="pre_password" value="" placeholder="현재 비밀번호를 입력해주세요" required maxlength="8" minlength="12" /></td>
                                     </tr>
                                     <tr>
                                       <th>새로운 비밀번호</th>
-                                      <td><input type="password" name="password" value="password" placeholder="새로운 비밀번호를 입력해주세요" required maxlength="8" minlength="12" /></td>
+                                      <td><input type="password" class='user_pass' name="password" value="" placeholder="새로운 비밀번호를 입력해주세요" required maxlength="8" minlength="12" /></td>
                                     </tr>
                                     <tr>
                                       <th>새로운 비밀번호 확인</th>
                                       <td>
-                                        <input type="password" name="password" value="password" placeholder="비밀번호를 재입력해주세요" required maxlength="8" minlength="12" />
+                                        <input type="password" class='user_passChk' name="password" value="" placeholder="비밀번호를 재입력해주세요" required maxlength="8" minlength="12" />
                                         <div class="question_smallbox"><img src="img/question.png">
                                       <div class="password_question_detail">
                                             안전한 비밀번호 작성 법<br />
@@ -125,7 +126,7 @@ jQuery(document).ready(function(){
                                       </td>
                                     </tr>
                                     <tr>
-                                      <th>휴대폰 SNS 인증</th>
+                                      <th>휴대폰 SMS 인증</th>
                                       <td>
                                         <input type="text" name="" value="" placeholder="휴대폰으로 전송된 인증번호를 입력하세요." required maxlength="6" minlength="6" />
                                         <input type="button" value="인증번호요청" >
@@ -134,7 +135,7 @@ jQuery(document).ready(function(){
                                     <tr>
                                       <th>보안 비밀번호</th>
                                       <td>
-                                        <input type="password" name="security" value="" placeholder="보안 비밀번호를 입력하세요." maxlength="4" minlength='4' required/>
+                                        <input type="password" class='user_security' name="security" value="" placeholder="보안 비밀번호를 입력하세요." maxlength="4" minlength='4' required/>
                                       </td>
                                     </tr>
                                   </tbody>

@@ -205,7 +205,7 @@
                                           <div class="mywallet_myinfo cb cf">
                                             <div class="mywallet_box1 fl">
                                               <strong class="user_name">가*다</strong>
-                                              <p class="user_email">abc@naver.com</p>
+                                              <p class="user_mail">abc@naver.com</p>
                                             </div>
                                             <div class='mywallet_box2'>
                                               <ul class='list_1 fl'>
@@ -795,11 +795,11 @@
                                                                 <tbody>
                                                                     <tr>
                                                                         <th>은행</th>
-                                                                        <td>○○은행</td>
+                                                                        <td><span class='bankName'>○○은행</span></td>
                                                                     </tr>
                                                                     <tr>
                                                                         <th>계좌번호</th>
-                                                                        <td>1234-567-8910-11-123</td>
+                                                                        <td><span class='user_account'>1234-567-8910-11-123</span></td>
                                                                     </tr>
                                                                     <tr>
                                                                         <th>예금주</th>
@@ -815,15 +815,17 @@
                                                                 <tbody>
                                                                     <tr>
                                                                         <th>은행</th>
-                                                                        <td>○○은행</td>
+                                                                        <td><span class='bankName'>○○은행</span></td>
                                                                     </tr>
                                                                     <tr>
                                                                         <th>계좌번호</th>
-                                                                        <td>1234-<span class='no_look'>567-8910</span>-11-123</td>
+                                                                        <td>
+                                                                            <p class='user_account'>1234-<span class='no_look'>567-8910</span>-11-123</p>
+                                                                        </td>
                                                                     </tr>
                                                                     <tr>
                                                                         <th>예금주</th>
-                                                                        <td>가나다</td>
+                                                                        <td><span class='user_name'>가나다</span></td>
                                                                     </tr>
                                                                 </tbody>
                                                             </table>
@@ -831,8 +833,8 @@
                                                     </div><!-- account_table_wrap End-->
 
                                                     <div class="send_info_01">
-                                                        <p>입금자명</p>
-                                                        <span class='temporary_name'>가나다1234</span>
+                                                        <p class='person_name'>입금자명</p>
+                                                        <p class='temporary_name'><span class='user_name'>가나다</span>1234</p>
                                                         <span class='caution'>반드시 발급된 입금자명으로 입금해주세요</span>
                                                     </div>
 
@@ -870,7 +872,7 @@
                                                         <div class="cancel_or_apply">
                                                             <input type="reset" name="reset" value="취소" class='cancel_btn'/>
                                                             <span class='agree_btn if_you_not_all_agree'>입금신청</span>
-                                                            <input type="submit" name="submit" value="입금신청" class='agree_btn if_you_all_agree'/>
+                                                            <input type="submit" name="submit" onclick="location.href='leave_member_02.php'" value="입금신청" class='agree_btn if_you_all_agree'/>
                                                         </div>
                                                     </div><!-- before_send_money_wrap End-->
                                                 </form>
@@ -899,15 +901,15 @@
                                                                 <tbody>
                                                                     <tr>
                                                                         <th>출금은행</th>
-                                                                        <td>○○은행</td>
+                                                                        <td><span class='bankName'>○○은행</span></td>
                                                                     </tr>
                                                                     <tr>
                                                                         <th>계좌번호</th>
-                                                                        <td>1234-1564-68789</td>
+                                                                        <td><span class='user_account'>1234-1564-68789</span></td>
                                                                     </tr>
                                                                     <tr>
                                                                         <th>예금주</th>
-                                                                        <td>가나다</td>
+                                                                        <td><span class='user_name'>가나다</span></td>
                                                                     </tr>
                                                                     <tr>
                                                                         <th>KRW 잔고</th>
@@ -927,7 +929,7 @@
                                                                     <tr>
                                                                         <th>출금요청액</th>
                                                                         <td>
-                                                                            <input type="text" name="" value="" placeholder="0" required>
+                                                                            <input class='withdrawal_price' type="text" name="" value="" placeholder="0" required>
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
@@ -937,17 +939,17 @@
                                                                     <tr>
                                                                         <th>보안 비밀번호</th>
                                                                         <td>
-                                                                            <input type="text" name="" value="" placeholder="보안 비밀번호를 입력하세요." required maxlength="4" minlength='4'>
+                                                                            <input type="text" class='user_security' name="" value="" placeholder="보안 비밀번호를 입력하세요." required maxlength="4" minlength='4'>
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
                                                                         <th>OTP 인증번호</th>
                                                                         <td>
-                                                                            <input type="text" name="" value="" placeholder="OTP 번호를 입력하세요." required maxlength="6" minlength="6">
+                                                                            <input type="text" class='user_otpNum' name="" value="" placeholder="OTP 번호를 입력하세요." required maxlength="6" minlength="6">
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <th>휴대폰 SNS 인증</th>
+                                                                        <th>휴대폰 SMS 인증</th>
                                                                         <td>
                                                                             <input type="text" name="" value="" placeholder="휴대폰으로 전송된 인증번호를 입력하세요." required>
                                                                             <input type="button" value="인증번호요청">
@@ -1067,12 +1069,12 @@
                                                         <td class='apply_date_td'><p>2018-09-21</p><span>19:00:01</span></td>
                                                         <td><p class='mycoin_data red'>100,000</p></td>
                                                         <td><p class='mycoin_data'>0</p></td>
-                                                        <td><p class='mycoin_data'>OO은행</p></td>
+                                                        <td><p class='bankName'>OO은행</p></td>
                                                         <td style="overflow:hidden; text-overflow:ellipsis;">
-                                                                        <p class='mycoin_data fl'><nobr>123-456789-320-01</nobr></p>
+                                                                        <p class='user_account fl'><nobr>123-456789-320-01</nobr></p>
                                                                     </td>
                                                                     <td><p class='mycoin_data'>&nbsp;</p></td>
-                                                        <td><p class='mycoin_data fr'>가나다1234</td>
+                                                        <td><p class='mycoin_data fr'><span class='user_name'>가나다</span>1234</td>
                                                         <td><p class='mycoin_data'>대기중</td>
                                                         <td><p class='mycoin_data '><span class='mycoin_deposit'><input type="submit" value='취소' class="btn_small2"/></td>
                                                       </tr>
@@ -1082,9 +1084,9 @@
                                                         <td class='apply_date_td'><p>2018-09-21</p><span>19:00:01</span></td>
                                                         <td><p class='mycoin_data bl'>6,000</p></td>
                                                         <td><p class='mycoin_data'>1,000</p></td>
-                                                        <td><p class='mycoin_data'>OO은행</p></td>
+                                                        <td><p class='bankName'>OO은행</p></td>
                                                         <td style="overflow:hidden; text-overflow:ellipsis;">
-                                                                        <p class='mycoin_data fl'><nobr>123-456789-320-01</nobr></p>
+                                                                        <p class='user_account fl'><nobr>123-456789-320-01</nobr></p>
                                                                     </td>
                                                                     <td><p class='mycoin_data'>&nbsp;</td>
                                                         <td><p class='mycoin_data'>&nbsp;</td>
@@ -1097,9 +1099,9 @@
                                                       <td class='apply_date_td'><p>2018-09-21</p><span>19:00:01</span></td>
                                                       <td><p class='mycoin_data red'>20</p></td>
                                                       <td><p class='mycoin_data'>0</p></td>
-                                                      <td><p class='mycoin_data'>&nbsp;</p></td>
+                                                      <td><p class='bankName'>&nbsp;</p></td>
                                                       <td style=" overflow:hidden; text-overflow:ellipsis;">
-                                                                <p class='mycoin_data fl'><nobr>9i57j0l5.3880rceid=ch...</nobr></p>
+                                                                <p class='user_account fl'><nobr>9i57j0l5.3880rceid=ch...</nobr></p>
                                                             </td>
                                                             <td><p class='mycoin_data'><input type="button" value='상세보기' class="btn_small2"/></td>
                                                       <td><p class='mycoin_data'>&nbsp;</td>
@@ -1294,7 +1296,7 @@
                                                                              <tr>
                                                                                  <th>출금 신청금액</th>
                                                                                  <td>
-                                                                                     <input type="text" name="" value="" placeholder="0" required>
+                                                                                     <input type="text" class='withdrawal_price' name="" value="" placeholder="0" required>
                                                                                      <input type="button" value="최대">
                                                                                      <input type="button" value="최소">
                                                                                  </td>
@@ -1310,13 +1312,13 @@
                                                                              <tr>
                                                                                  <th>보안 비밀번호</th>
                                                                                  <td>
-                                                                                     <input type="text" name="" value="" placeholder="보안 비밀번호를 입력하세요." required maxlength="4" minlength='4'>
+                                                                                     <input type="text" class='user_security' name="" value="" placeholder="보안 비밀번호를 입력하세요." required maxlength="4" minlength='4'>
                                                                                  </td>
                                                                              </tr>
                                                                              <tr>
                                                                                  <th>OTP 인증번호</th>
                                                                                  <td>
-                                                                                     <input type="text" name="" value="" placeholder="OTP 번호를 입력하세요." required maxlength="6" minlength="6">
+                                                                                     <input type="text" class='user_otpNum' name="" value="" placeholder="OTP 번호를 입력하세요." required maxlength="6" minlength="6">
                                                                                  </td>
                                                                              </tr>
                                                                          </tbody>
@@ -1358,204 +1360,202 @@
                                                         <p>불편을 드려 죄송합니다.<br/>빠른 시일내에 준비하도록 하겠습니다.</p>
                                                      </div><!-- out_put_you_cannot End-->
                                                  </div><!-- output_bitcoin End-->
-                                                 <div id="io_history" class='bitcoin_conclu_table mywallet_tab conclu_table'>
-                                                   <form class="report_form" action="#" method="post" name='report_form'>
-                                                       <!-- buy_tab_content -->
-                                                     <div class="table_top cf">
-                                                         <div class="selectAll days fl">
-                                                             <select title="전체">
-                                                                 <option value="전체" selected="selected">전체</option>
-                                                                 <option value="원화">원화</option>
-                                                                 <option value="비트코인">비트코인</option>
-                                                                 <option value="비트코인 캐시">비트코인 캐시</option>
-                                                                 <option value="이더리움">이더리움</option>
-                                                                 <option value="이더리움 클래식">이더리움 클래식</option>
-                                                                 <option value="리플">리플</option>
-                                                                 <option value="에이다">에이다</option>
-                                                                 <option value="이오스">이오스</option>
-                                                             </select>
-                                                         </div>
-                                                     <!--tab2_header-->
-                                                         <div class="tab2_header fr">
-                                                             <div class="days">
+                                                 <div id="io_history" class='bitcoin_conclu_table mywallet_tab'>
+                                                     <form class="report_form" action="#" method="post" name='report_form'>
+                                                         <!-- buy_tab_content -->
+                                                       <div class="table_top cf">
+                                                           <div class="selectAll days fl">
+                                                               <select title="전체">
+                                                                   <option value="전체" selected="selected">전체</option>
+                                                                   <option value="원화">원화</option>
+                                                                   <option value="비트코인">비트코인</option>
+                                                                   <option value="비트코인 캐시">비트코인 캐시</option>
+                                                                   <option value="이더리움">이더리움</option>
+                                                                   <option value="이더리움 클래식">이더리움 클래식</option>
+                                                                   <option value="리플">리플</option>
+                                                                   <option value="에이다">에이다</option>
+                                                                   <option value="이오스">이오스</option>
+                                                               </select>
+                                                           </div>
+                                                       <!--tab2_header-->
+                                                           <div class="tab2_header fr">
+                                                               <div class="days">
+                                                                 <div class="fl">
+                                                                   <input type="date" value="2018-07-29">
+                                                                 </div>
+                                                               <span>~</span>
                                                                <div class="fl">
-                                                                 <input type="date" value="2018-07-29">
+                                                                   <input type="date" value="2018-08-29">
+                                                                 </div>
+                                                                 <input type="submit" name="search" value="조회" class='search_btn'>
                                                                </div>
-                                                             <span>~</span>
-                                                             <div class="fl">
-                                                                 <input type="date" value="2018-08-29">
-                                                               </div>
-                                                               <input type="submit" name="search" value="조회" class='search_btn'>
-                                                             </div>
-                                                         </div>
-                                                     <!--tab2_header End-->
-                                                     </div>
-                                                       <table class='mycoin_table' summary='코인, 요청일시, 금액(수량), 수수료, 입금은행, 계좌번호, 상세보기 버튼, 입금자명, 진행전체, 해당버튼 '>
-                                                         <colgroup>
-                                                             <col width=''/>
-                                                             <col width=''/>
-                                                             <col width=''/>
-                                                             <col width=''/>
-                                                             <col width=''/>
-                                                             <col width=''/>
-                                                             <col width=''/>
-                                                             <col width=''/>
-                                                             <col width=''/>
-                                                             <col width=''/>
-                                                             <col width=''/>
-                                                         </colgroup>
-                                                         <thead class='mycoin_thead_deco'>
-                                                         <tr>
-                                                           <th>
-                                                             <select title="전체" >
-                                                                 <option value="거래전체" selected="selected">전체</option>
-                                                                 <option value="입금">입금</option>
-                                                                 <option value="출금">출금</option>
-                                                             </select>
-                                                           </th>
-                                                           <th>코인</th>
-                                                           <th class='apply_date_th'>요청일시</th>
-                                                           <th>금액(수량)</th>
-                                                           <th>수수료</th>
-                                                           <th>입금은행</th>
-                                                           <th colspan="2" class='account_number_th'>계좌번호</th>
-                                                           <th>입금자명</th>
-                                                           <th>
-                                                             <select title="진행전체" >
-                                                                 <option value="진행전체" selected="selected">진행전체</option>
-                                                                 <option value="대기중">대기중</option>
-                                                                 <option value="처리완료">처리완료</option>
-                                                             </select>
-                                                                 </th>
-                                                           <th><a href="#">&nbsp;</a></th>
-                                                         </tr>
-                                                       </thead>
-                                                         <tbody class="mycoin_tbody_deco">
+                                                           </div>
+                                                       <!--tab2_header End-->
+                                                       </div>
+                                                         <table class='mycoin_table' summary='코인, 요청일시, 금액(수량), 수수료, 입금은행, 계좌번호, 상세보기 버튼, 입금자명, 진행전체, 해당버튼 '>
+                                                           <colgroup>
+                                                               <col width=''/>
+                                                               <col width=''/>
+                                                               <col width=''/>
+                                                               <col width=''/>
+                                                               <col width=''/>
+                                                               <col width=''/>
+                                                               <col width=''/>
+                                                               <col width=''/>
+                                                               <col width=''/>
+                                                               <col width=''/>
+                                                               <col width=''/>
+                                                           </colgroup>
+                                                           <thead class='mycoin_thead_deco'>
                                                            <tr>
-                                                             <td><p class="red">입금</p></td>
-                                                             <td>원화</td>
-                                                             <td class='apply_date_td'><p>2018-09-21</p><span>19:00:01</span></td>
-                                                             <td><p class='mycoin_data red'>100,000</p></td>
-                                                             <td><p class='mycoin_data'>0</p></td>
-                                                             <td><p class='mycoin_data'>OO은행</p></td>
-                                                             <td style="overflow:hidden; text-overflow:ellipsis;">
-                                                                             <p class='mycoin_data fl'><nobr>123-456789-320-01</nobr></p>
-                                                                         </td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</p></td>
-                                                             <td><p class='mycoin_data fr'>가나다1234</td>
-                                                             <td><p class='mycoin_data'>대기중</td>
-                                                             <td><p class='mycoin_data '><span class='mycoin_deposit'><input type="submit" value='취소' class="btn_small2"/></td>
+                                                             <th>
+                                                               <select title="전체" >
+                                                                   <option value="거래전체" selected="selected">전체</option>
+                                                                   <option value="입금">입금</option>
+                                                                   <option value="출금">출금</option>
+                                                               </select>
+                                                             </th>
+                                                             <th>코인</th>
+                                                             <th class='apply_date_th'>요청일시</th>
+                                                             <th>금액(수량)</th>
+                                                             <th>수수료</th>
+                                                             <th>입금은행</th>
+                                                             <th colspan="2" class='account_number_th'>계좌번호</th>
+                                                             <th>입금자명</th>
+                                                             <th>
+                                                               <select title="진행전체" >
+                                                                   <option value="진행전체" selected="selected">진행전체</option>
+                                                                   <option value="대기중">대기중</option>
+                                                                   <option value="처리완료">처리완료</option>
+                                                               </select>
+                                                                   </th>
+                                                             <th><a href="#">&nbsp;</a></th>
                                                            </tr>
-                                                                   <tr>
-                                                             <td><p class="bl">출금</p></td>
-                                                             <td>원화</td>
+                                                         </thead>
+                                                           <tbody class="mycoin_tbody_deco">
+                                                             <tr>
+                                                               <td><p class="red">입금</p></td>
+                                                               <td>원화</td>
+                                                               <td class='apply_date_td'><p>2018-09-21</p><span>19:00:01</span></td>
+                                                               <td><p class='mycoin_data red'>100,000</p></td>
+                                                               <td><p class='mycoin_data'>0</p></td>
+                                                               <td><p class='bankName'>OO은행</p></td>
+                                                               <td style="overflow:hidden; text-overflow:ellipsis;">
+                                                                               <p class='user_account fl'><nobr>123-456789-320-01</nobr></p>
+                                                                           </td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</p></td>
+                                                               <td><p class='mycoin_data fr'><span class='user_name'>가나다</span>1234</td>
+                                                               <td><p class='mycoin_data'>대기중</td>
+                                                               <td><p class='mycoin_data '><span class='mycoin_deposit'><input type="submit" value='취소' class="btn_small2"/></td>
+                                                             </tr>
+                                                                     <tr>
+                                                               <td><p class="bl">출금</p></td>
+                                                               <td>원화</td>
+                                                               <td class='apply_date_td'><p>2018-09-21</p><span>19:00:01</span></td>
+                                                               <td><p class='mycoin_data bl'>6,000</p></td>
+                                                               <td><p class='mycoin_data'>1,000</p></td>
+                                                               <td><p class='bankName'>OO은행</p></td>
+                                                               <td style="overflow:hidden; text-overflow:ellipsis;">
+                                                                               <p class='user_account fl'><nobr>123-456789-320-01</nobr></p>
+                                                                           </td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                               <td><p class='mycoin_data'>&nbsp;</td>
+                                                               <td><p class='mycoin_data'>처리완료</td>
+                                                               <td><p class='mycoin_data'>&nbsp;</td>
+                                                           </tr>
+                                                                 <tr>
+                                                             <td><p class="red">입금</p></td>
+                                                             <td>이더리움<br/>클래식</td>
                                                              <td class='apply_date_td'><p>2018-09-21</p><span>19:00:01</span></td>
-                                                             <td><p class='mycoin_data bl'>6,000</p></td>
-                                                             <td><p class='mycoin_data'>1,000</p></td>
-                                                             <td><p class='mycoin_data'>OO은행</p></td>
-                                                             <td style="overflow:hidden; text-overflow:ellipsis;">
-                                                                             <p class='mycoin_data fl'><nobr>123-456789-320-01</nobr></p>
-                                                                         </td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
+                                                             <td><p class='mycoin_data red'>20</p></td>
+                                                             <td><p class='mycoin_data'>0</p></td>
+                                                             <td><p class='bankName'>&nbsp;</p></td>
+                                                             <td style=" overflow:hidden; text-overflow:ellipsis;">
+                                                                       <p class='user_account fl'><nobr>9i57j0l5.3880rceid=ch...</nobr></p>
+                                                                   </td>
+                                                                   <td><p class='mycoin_data'><input type="button" value='상세보기' class="btn_small2"/></td>
                                                              <td><p class='mycoin_data'>&nbsp;</td>
                                                              <td><p class='mycoin_data'>처리완료</td>
                                                              <td><p class='mycoin_data'>&nbsp;</td>
-                                                         </tr>
-                                                               <tr>
-                                                           <td><p class="red">입금</p></td>
-                                                           <td>이더리움<br/>클래식</td>
-                                                           <td class='apply_date_td'><p>2018-09-21</p><span>19:00:01</span></td>
-                                                           <td><p class='mycoin_data red'>20</p></td>
-                                                           <td><p class='mycoin_data'>0</p></td>
-                                                           <td><p class='mycoin_data'>&nbsp;</p></td>
-                                                           <td style=" overflow:hidden; text-overflow:ellipsis;">
-                                                                     <p class='mycoin_data fl'><nobr>9i57j0l5.3880rceid=ch...</nobr></p>
-                                                                 </td>
-                                                                 <td><p class='mycoin_data'><input type="button" value='상세보기' class="btn_small2"/></td>
-                                                           <td><p class='mycoin_data'>&nbsp;</td>
-                                                           <td><p class='mycoin_data'>처리완료</td>
-                                                           <td><p class='mycoin_data'>&nbsp;</td>
-                                                         </tr>
-                                                         <tr class="mycoin_name">
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td style=" overflow:hidden; text-overflow:ellipsis;">
-                                                                             <p class='mycoin_data'><nobr></nobr></p>
-                                                                         </td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                     </tr>
-                                                         <tr class="mycoin_name">
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td style=" overflow:hidden; text-overflow:ellipsis;">
-                                                                             <p class='mycoin_data'><nobr></nobr></p>
-                                                                         </td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                     </tr>
-                                                         <tr class="mycoin_name">
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td style=" overflow:hidden; text-overflow:ellipsis;">
-                                                                             <p class='mycoin_data'><nobr></nobr></p>
-                                                                         </td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                     </tr>
-                                                         <tr class="mycoin_name">
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td style=" overflow:hidden; text-overflow:ellipsis;">
-                                                                             <p class='mycoin_data'><nobr></nobr></p>
-                                                                         </td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                         <td><p class='mycoin_data'>&nbsp;</td>
-                                                                 </tr>
-                                                             </tbody>
-                                                     </table>
-                                                     <div class="contentBottom">
-                                                       <div class="paging">
-                                                         <a href="#" title="prev"><img src="img/p_first.png"></a>
-                                                         <a href="#" title="prev"><img src="img/p_prev.png"></a>
-                                                         <a href="#" title="1page" class="selected">1</a>
-                                                         <a href="#" title="2page">2</a>
-                                                         <a href="#" title="3page">3</a>
-                                                         <a href="#" title="4page">4</a>
-                                                         <a href="#" title="5page">5</a>
-                                                         <a href="#" title="next"><img src="img/p_next.png"></a>
-                                                         <a href="#" title="next"><img src="img/p_end.png"></a>
+                                                           </tr>
+                                                           <tr class="mycoin_name">
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td style=" overflow:hidden; text-overflow:ellipsis;">
+                                                                               <p class='mycoin_data'><nobr></nobr></p>
+                                                                           </td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                       </tr>
+                                                           <tr class="mycoin_name">
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td style=" overflow:hidden; text-overflow:ellipsis;">
+                                                                               <p class='mycoin_data'><nobr></nobr></p>
+                                                                           </td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                       </tr>
+                                                           <tr class="mycoin_name">
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td style=" overflow:hidden; text-overflow:ellipsis;">
+                                                                               <p class='mycoin_data'><nobr></nobr></p>
+                                                                           </td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                       </tr>
+                                                           <tr class="mycoin_name">
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td style=" overflow:hidden; text-overflow:ellipsis;">
+                                                                               <p class='mycoin_data'><nobr></nobr></p>
+                                                                           </td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                           <td><p class='mycoin_data'>&nbsp;</td>
+                                                                   </tr>
+                                                               </tbody>
+                                                       </table>
+                                                       <div class="contentBottom">
+                                                         <div class="paging">
+                                                           <a href="#" title="prev"><img src="img/p_first.png"></a>
+                                                           <a href="#" title="prev"><img src="img/p_prev.png"></a>
+                                                           <a href="#" title="1page" class="selected">1</a>
+                                                           <a href="#" title="2page">2</a>
+                                                           <a href="#" title="3page">3</a>
+                                                           <a href="#" title="4page">4</a>
+                                                           <a href="#" title="5page">5</a>
+                                                           <a href="#" title="next"><img src="img/p_next.png"></a>
+                                                           <a href="#" title="next"><img src="img/p_end.png"></a>
+                                                         </div>
                                                        </div>
-                                                     </div>
-
-
-                                                 </form>
-                                               </div><!-- mywallet_tab End-->
-                               </div><!-- bitcoin_input_output End--><!-- 비트코인 입출금  끝-->
+                                                   </form>
+                                                 </div><!-- mywallet_tab End-->
+                                            </div><!-- bitcoin_input_output End--><!-- 비트코인 입출금  끝-->
                             </div><!--#tab3 입출금 End-->
 <!-- 입출금 탭 끝 --><!-- 입출금 탭 끝 --><!-- 입출금 탭 끝 --><!-- 입출금 탭 끝 --><!-- 입출금 탭 끝 --><!-- 입출금 탭 끝 --><!-- 입출금 탭 끝 --><!-- 입출금 탭 끝 --><!-- 입출금 탭 끝 --><!-- 입출금 탭 끝 --><!-- 입출금 탭 끝 -->
 

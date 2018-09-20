@@ -75,22 +75,22 @@
                               <tbody>
                                   <tr>
                                       <th>이름</th>
-                                      <td>가*다</td>
+                                      <td><span class='user_name'>가*다</span></td>
                                   </tr>
                                   <tr>
                                       <th>이메일</th>
-                                      <td>abc@naver.com</td>
+                                      <td><span class='user_mail'>abc@naver.com</span></td>
                                   </tr>
-                                  <tr>
+                                  <tr class='myinfo_table_tr'>
                                       <th>휴대폰</th>
-                                      <td><span>010-****-****</span>
+                                      <td><p class='user_phone'>010-****-****</p>
                                         <a href="#" class="btn_small">휴대폰 번호 변경</a>
                                         <a href="#" class="btn_small">실명인증</a>
                                       </td>
                                   </tr>
                                   <tr>
                                       <th>등급</th>
-                                      <td>Level 3</td>
+                                      <td>Level <span class='user_level'>3</span></td>
                                   </tr>
                               </tbody>
                           </table>
@@ -102,14 +102,14 @@
                                 </tr>
                                 <tr>
                                     <th>보안비밀번호</th>
-                                    <td><a href="#" class="btn_medium ">보안비밀번호 변경</a></td>
+                                    <td><a href="#" class="btn_medium">보안비밀번호 변경</a></td>
                                 </tr>
-                                <tr>
+                                <tr class='myinfo_table_tr'>
                                     <th>계좌번호</th>
                                     <td>
-                                      <span class="account_number">OO은행 1234-*******-11-123</span>
+                                      <p class="account_number"><span class='bankName'>OO은행</span> <span class='user_account'>1234-*******-11-123</span></p>
                                       <a href="#" class="btn_small">계좌번호 변경</a>
-                                        <a href="#" class="btn_small">계좌인증</a>
+                                      <a href="#" class="btn_small">계좌인증</a>
                                     </td>
                                 </tr>
                                 <tr>

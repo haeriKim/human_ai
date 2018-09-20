@@ -46,9 +46,9 @@
 
                             <img src="img/step1_off.png" alt="스텝1" class="step11_off"/>
                             <p class="img_area">
-                              <img src="img/quit_1.png" alt="이메일인증 아이콘"/>
+                              <img src="img/quit_1_off.png" alt="이메일인증 아이콘"/>
                             </p>
-                            <strong>탈퇴 안내</strong>
+                            <strong class="gray_title">탈퇴 안내</strong>
 
                           <li>
                             <img src="img/step2.png" alt="스텝2" class="step22_on"/>
@@ -63,17 +63,16 @@
 
                             <img src="img/step3_off.png" alt="스텝3" class="step33_off"/>
                             <p class="img_area">
-                              <img src="img/quit_3.png" alt="휴대폰인증 아이콘" />
+                              <img src="img/quit_3_off.png" alt="휴대폰인증 아이콘" />
                             </p>
-                            <strong>탈퇴 신청</strong>
+                            <strong class="gray_title">탈퇴 신청</strong>
 
                           </li>
                           <li>
 
                             <img src="img/step4_off.png" alt="스텝4" class="step44_off"/>
                             <p class="img_area">
-                              <img src="img/quit_4.png" alt="계좌인증 아이콘" class="account_off"/>
-                              <img src="img/quit_4.png" alt="계좌인증 아이콘" class="account_on" />
+                              <img src="img/quit_4_off.png" alt="계좌인증 아이콘" class="account_on" />
                             </p>
                             <strong class="gray_title">탈퇴 처리</strong>
 
@@ -82,8 +81,7 @@
 
                             <img src="img/step5_off.png" alt="스텝5" class="step55_off"/>
                             <p class="img_area">
-                              <img src="img/quit_5.png" alt="OTP인증 아이콘" class="otp_off"/>
-                              <img src="img/quit_5.png" alt="OTP인증인증 아이콘" class="otp_on" />
+                              <img src="img/quit_5_off.png" alt="OTP인증인증 아이콘" class="otp_on" />
                             </p>
                             <strong class="gray_title">탈퇴 완료</strong>
 
@@ -91,7 +89,7 @@
                         </ul>
 
                       <div class="withdrawal_text2">
-                        <p class="red_point">가*다 님의 총 보유자산은 <span class="my_all_money">45,000원</span> 입니다.</p>
+                        <p class="red_point"><span class='user_name'>가*다</span> 님의 총 보유자산은 <span class="my_all_money">45,000원</span> 입니다.</p>
                           <strong>탈퇴 유의사항</strong>
 
                             <div class="withdrawal_text2_inner">

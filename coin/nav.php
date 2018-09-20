@@ -5,7 +5,9 @@
         <h1><a href="index.php"><img src='img/logo.png' alt='로고'></a></h1>
 
         <div class="after_login login_info">
-            <span class="user_name">가나다</span> 님
+            <p>
+                <span class="user_mail">abcdefg@naver.com</span>님
+            </p>
             <div class="alarmArea">
               <img src="img/bell.png" class="alarmBtn" alt="알림버튼"/>
               <span class="alarmNum alarm_count"></span>

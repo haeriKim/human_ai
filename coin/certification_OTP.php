@@ -160,7 +160,7 @@
                           <div>
                             <form action="#" method="post" class="OTP_codebox">
                               <input type="text" placeholder="보안코드" required class="OTP_number"><input type="button" value="보안코드 받기" class="OTP_numberbt">
-                              <input type="text" placeholder="OTP번호 입력" required class="OTP_number">
+                              <input type="text" placeholder="OTP번호 입력" required class="OTP_number user_otpNum">
                               <div id="OTP_complete">
                                 <a href="certification.php">
                                   <input type="button" name="취소" value="취소" class="cancel" onclick="location.href='certification.php'"/>

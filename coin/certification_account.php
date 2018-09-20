@@ -152,7 +152,7 @@
                                 </select>
                               </li>
 
-                              <li><input type="text" placeholder="숫자만 입력해주세요." required class="account_number" ></li>
+                              <li><input type="text" placeholder="숫자만 입력해주세요." required class="account_number user_account"></li>
                             </ul>
 
                           </div>

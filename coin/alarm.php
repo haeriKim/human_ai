@@ -124,7 +124,7 @@
 
                                     <tr>
                                       <td><span class="mado">매도</span></td>
-                                      <td id="left_text">회원님이 AOS(에오스)코인을 80,000AOS를(을) 매도하였습니다.<span class="new"> NEW</span></td>
+                                      <td id="left_text">회원님이 EOS(이오스)코인을 80,000AOS를(을) 매도하였습니다.<span class="new"> NEW</span></td>
                                       <td>1시간전</td>
                                     </tr>
 

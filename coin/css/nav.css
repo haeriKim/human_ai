@@ -33,9 +33,25 @@
 }
 
 /* 알림영역 */
+#nav .login_info > p{
+    position: relative;
+    top: -7px;
+}
+#nav .login_info .user_mail{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 52px;
+    display: inline-block;
+    position: relative;
+    top: 7px;
+}
+
 #nav .login_info .alarmArea {
-  display: inline-block;
-  position: relative;
+    display: inline-block;
+    position: relative;
+    top: -34px;
+    right: -44px;
 }
 #nav .login_info .alarmArea img {
   width: 16px;

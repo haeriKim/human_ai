@@ -70,20 +70,23 @@
     line-height: 50px;
     height: 50px;
 }
-#input_KRW div.send_info_01 span.temporary_name{
+#input_KRW div.send_info_01 p.person_name{
+    line-height: 60px;
+}
+#input_KRW div.send_info_01 .temporary_name{
     border-radius: 5px;
     background: #f4f5f9;
     color: #1b2f4a;
     font-weight: 600;
     font-size: 22px;
-    padding: 10px 90px;
+    padding: 3px 90px;
     margin-left: 20px;
     float: left;
 }
 #input_KRW div.send_info_01 span.caution{
     float: left;
     font-size: 12px;
-    margin-left: 24px;
+    margin-left: 85px;
     margin-top: 8px;
     color: #ff2323;
 }

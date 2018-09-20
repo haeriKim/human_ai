@@ -27,8 +27,20 @@
   padding:2px 10px;}
 .myinfo_sub_box .myinfo_table .btn_medium:hover{
   color:white;
-  background-color: #1b2f4a;}
-
+  background-color: #1b2f4a;
+}
+.myinfo_sub_box .myinfo_table th{
+    width: 25%;
+}
+.myinfo_sub_box .myinfo_table .myinfo_table_tr td{
+    height: 60px;
+}
+.myinfo_sub_box .myinfo_table .myinfo_table_tr p{
+    margin-bottom: 10px;
+}
+.myinfo_sub_box .myinfo_table .myinfo_table_tr .btn_small{
+    margin-left: 0;
+}
 /* cer_level */
 .cer_center .cer_level .btn_large{
   cursor:pointer;

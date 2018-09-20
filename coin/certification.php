@@ -114,7 +114,7 @@
                         <div class="cText_left">
                           <div class="current_level">
                             <strong>[ 보안인증 ]</strong>
-                            <b><span class="user_name">가*다</span>님의 현재 보안등급은 <span class="user_level">레벨3</span>입니다.</b>
+                            <b><span class="user_name">가*다</span>님의 현재 보안등급은 레벨<span class="user_level">3</span>입니다.</b>
                             <p>
                               입출금 이용을 위해 보안등급 상향이 필요합니다.
                             </p>
