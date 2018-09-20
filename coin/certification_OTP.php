@@ -44,13 +44,13 @@
                           <a href="myinfo_login_password.php" title="회원정보관리" class='more_menu'>회원정보관리</a>
                           <dl class="nav_dropdown info_dd off">
                               <dt><a href="myinfo_login_password.php" title="로그인 비밀번호 변경" class='active'>로그인 비밀번호 변경</a></dt>
-                              <dt><a href="#" title="보안비밀번호 변경">보안비밀번호 변경</a></dt>
-                              <dt><a href="#" title="휴대폰번호 변경">휴대폰번호 변경</a></dt>
-                              <dt><a href="#" title="계좌 변경">계좌 변경</a></dt>
-                              <dt><a href="#" title="새 지갑발급">OTP 변경</a></dt>
+                              <dt><a href="myinfo_security_password.php" title="보안비밀번호 변경">보안비밀번호 변경</a></dt>
+                              <dt><a href="myinfo_phone.php" title="휴대폰번호 변경">휴대폰번호 변경</a></dt>
+                              <dt><a href="myinfo_account.php" title="계좌 변경">계좌 변경</a></dt>
+                              <dt><a href="myinfo_OTP.php" title="OTP 변경">OTP 변경</a></dt>
                           </dl>
                         </li>
-                        <li class='active'><a href="certification.php" title="인증센터">인증센터</a></li>
+                        <li class='active'><a href="#" title="인증센터">인증센터</a></li>
                         <li><a href="track_ip_address.php" title="접속이력확인">접속이력확인</a></li>
                         <li>
                           <a href="#" title="알림" class='more_menu'>알림</a>
