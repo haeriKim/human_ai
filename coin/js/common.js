@@ -624,7 +624,7 @@ $(document).ready(function(){
     $(".phone_change_box").hide();
     $(".phone_change_box2").show();
   });
-  $(".cancel_btn_ok").click(function(){
+  $(".cancel_btn_ok,.cancel_btn").click(function(){
     $("#popupbox, #shadow").hide();
   });
 });
