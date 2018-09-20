@@ -17,9 +17,7 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/common.js"></script>
     <script>
-jQuery(document).ready(function(){
 
-});
 </script>
 </head>
 <body>
@@ -48,7 +46,7 @@ jQuery(document).ready(function(){
                         <li class="on">
                           <a href="#" title="회원정보관리" class='more_menu'>회원정보관리</a>
                           <dl class="nav_dropdown info_dd">
-                              <dt><a href="" title="로그인 비밀번호 변경">로그인 비밀번호 변경</a></dt>
+                              <dt><a href="#" title="로그인 비밀번호 변경">로그인 비밀번호 변경</a></dt>
                               <dt><a href="#" title="보안비밀번호 변경">보안비밀번호 변경</a></dt>
                               <dt class="active"><a href="#" title="휴대폰번호 변경">휴대폰번호 변경</a></dt>
                               <dt><a href="#" title="계좌 변경">계좌 변경</a></dt>
@@ -88,23 +86,20 @@ jQuery(document).ready(function(){
                             <ul class="list_2">
                               <li>
                                   <p class="myinfo_title">등급</p>
-                                  <p class="myinfo_detail">Level&nbsp;<span class='user_level'>3</span></p>
+                                  <p class="myinfo_detail">Level&nbsp;<span class='user_level'>5</span></p>
                               </li>
                             </ul>
                           </div>
                         </div>
 
                         <div class="myinfo_text_box">
-                            <p>휴대폰 번호 변경 시 번호가 초기화되며 보안등급이 <span>Level2로 하향</span>됩니다.</p><br/>
-                            <p>휴대폰 번호 초기화 시, <span>계좌 인증(Level 4) 및 OTP인증(Level 5)도 함께 초기화</span>되어 <span>재등록</span>해주셔야 합니다.</p><br/>
-                            <p>휴대폰 번호 재 인증전까지 거래 및 입출금이 불가능합니다.</p><br/>
-                            <br/>
-                            <p>위 조치는 휴대폰 도난, 피싱 등 금융 사고 예방을 위한 것으로 조금 불편하시더라도 많은 양해 부탁드립니다.</p>
+                          <p>휴대폰 교체/분실 또는, 인증 앱을 지워서 OTP 인증을 할 수 없을 경우 본인인증 서류 제출이 필요합니다.</p>
+                          <p>OTP 변경요청하려면 아래 인증절차안내를 참고해 주시기 바랍니다.</p>
                         </div>
 
                         <div class="cancel_or_apply">
                           <input type="button" name="" value="취소" class="cancel_btn">
-                          <input type="button" name="" value="변경 요청" class="agree_btn">
+                          <input type="button" name="" value="안내절차 보기" class="agree_btn">
                         </div>
 
 
@@ -125,38 +120,6 @@ jQuery(document).ready(function(){
         </div><!-- container End -->
     </div><!-- wrap End -->
 
-<div id="full">
-            <!-- full_content -->
-            <div id="popupbox" class='box popup phone_change_box'>
-              <div class="full_inner">
-                <h2>휴대폰 번호 변경하기</h2>
-                <div class="popupbox_text">
-                  <p class="user_mail">abc@naver.com</p>
-                </div>
-                <div class="cancel_or_apply">
-                  <input type="button" name="" value="취소" class="cancel_btn">
-                  <input type="button" name="" value="변경 요청 하기" class="agree_btn request_btn">
-                </div>
-
-              </div>
-            </div><!-- full_content End-->
-
-          <!-- full_content -->
-          <div id="popupbox" class='box popup phone_change_box2'>
-            <div class="full_inner">
-              <h2>메일 발송완료</h2>
-              <div class="popupbox_text">
-                <p>가입된 이메일 주소로 인증 메일이 발송되었습니다.</p>
-                <p>메일을 확인해주세요.</p>
-              </div>
-              <div class="cancel_or_apply">
-                <input type="button" name="" value="확인" class="cancel_btn_ok">
-              </div>
-
-            </div>
-          </div><!-- full_content End-->
-        <div id="shadow"></div>
-</div>
 
 
 

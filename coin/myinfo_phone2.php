@@ -126,8 +126,8 @@ jQuery(document).ready(function(){
 
                             </div><!-- myinfo_table_wrap End-->
                             <div class="cancel_or_apply">
-                              <input type="reset" name="reset" value="취소" class="cancel_btn">
-                              <input type="submit" name="submit" value="변경" class="agree_btn if_you_all_agree">
+                              <input type="button" name="" value="취소" class="cancel_btn">
+                              <input type="button" name="" value="변경" class="agree_btn">
                             </div>
                           </form>
                         </div><!-- myinfo_sub_box End-->

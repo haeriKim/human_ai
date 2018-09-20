@@ -12,13 +12,12 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/myinfo_change.css">
     <link rel="stylesheet" href="css/sub_menu.css">
+    <link rel="stylesheet" href="css/popup.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/common.js"></script>
     <script>
-jQuery(document).ready(function(){
 
-});
 </script>
 </head>
 <body>
@@ -87,23 +86,24 @@ jQuery(document).ready(function(){
                             <ul class="list_2">
                               <li>
                                   <p class="myinfo_title">등급</p>
-                                  <p class="myinfo_detail">Level&nbsp;<span class='user_level'>3</span></p>
+                                  <p class="myinfo_detail">Level&nbsp;<span class='user_level'>4</span></p>
                               </li>
                             </ul>
                           </div>
                         </div>
 
                         <div class="myinfo_text_box">
-                            <p>휴대폰 번호 변경 시 번호가 초기화되며 보안등급이 <span>Level2로 하향</span>됩니다.</p><br/>
-                            <p>휴대폰 번호 초기화 시, <span>계좌 인증(Level 4) 및 OTP인증(Level 5)도 함께 초기화</span>되어 <span>재등록</span>해주셔야 합니다.</p><br/>
-                            <p>휴대폰 번호 재 인증전까지 거래 및 입출금이 불가능합니다.</p><br/>
+                            <p>가*다님의 현재 계좌번호는</p>
                             <br/>
-                            <p>위 조치는 휴대폰 도난, 피싱 등 금융 사고 예방을 위한 것으로 조금 불편하시더라도 많은 양해 부탁드립니다.</p>
+                            <p><span>국민은행 12-12******-12-123</span>입니다.</p>
+                            <br/>
+                            <p>계좌를 변경요청하려면 아래 인증절차안내를 참고해 주시기 바랍니다.</p>
+                            <br/>
                         </div>
 
                         <div class="cancel_or_apply">
-                          <input type="reset" name="reset" value="취소" class="cancel_btn">
-                          <input type="submit" name="submit" value="변경" class="agree_btn if_you_all_agree">
+                          <input type="button" name="" value="취소" class="cancel_btn">
+                          <input type="button" name="" value="안내절차 보기" class="agree_btn">
                         </div>
 
 
@@ -123,6 +123,9 @@ jQuery(document).ready(function(){
 
         </div><!-- container End -->
     </div><!-- wrap End -->
+
+
+
 
 </body>
 </html>

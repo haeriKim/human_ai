@@ -616,3 +616,15 @@ $(document).ready(function(){
     $(".alarm_sangse .alarm_off").css({background:"#fff",color:"#1b2f4a"})
   });
 });
+
+// 핍업 취소 버튼 클릭시 팝업 꺼짐
+$(document).ready(function(){
+  $(".phone_change_box2").hide();
+  $(".request_btn").click(function(){
+    $(".phone_change_box").hide();
+    $(".phone_change_box2").show();
+  });
+  $(".cancel_btn_ok").click(function(){
+    $("#popupbox, #shadow").hide();
+  });
+});

@@ -180,3 +180,15 @@ table .password_question_detail:before {
 .phone_change_box2 .cancel_or_apply{
   padding-top:20px;
 }
+.cancel_btn_ok{
+border-radius: 5px;
+padding: 7px 30px;
+color: #fff;
+font-weight: 600;
+font-size: 16px;
+box-sizing: border-box;
+border: 1px solid #1b2f4a;
+background-color: #1b2f4a;
+cursor: pointer;
+border-radius:5px;
+}
