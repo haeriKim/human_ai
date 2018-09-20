@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/myinfo_change.css">
+    <link rel="stylesheet" href="css/myinfo_login_password.css">
     <link rel="stylesheet" href="css/sub_menu.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
@@ -73,6 +73,7 @@ jQuery(document).ready(function(){
                         <div class="myinfo_small_info_box">
                           <div class="myinfo_box1">
                             <strong class="user_name">가*다</strong>
+                            <strong class="no_name">-</strong>
                             <p class="user_mail">abc@naver.com</p>
                           </div>
                           <div class="myinfo_box2">
@@ -82,6 +83,7 @@ jQuery(document).ready(function(){
                                 <p class="myinfo_detail user_phone">
                                   <span>010</span>-<span>1***</span>-<span>***0</span>
                                 </p>
+                                <p class='myinfo_detail no_phone'>-</p>
                               </li>
                             </ul>
                             <ul class="list_2">
@@ -100,42 +102,52 @@ jQuery(document).ready(function(){
                               <div class="send_login_password">
                                 <table class='left_thick_table'>
                                   <tbody>
-                                    <tr>
+                                    <tr class='change_password_tr1'>
                                       <th>현재 비밀번호</th>
-                                      <td><input type="password" class='user_pass' name="pre_password" value="" placeholder="현재 비밀번호를 입력해주세요" required maxlength="8" minlength="12" /></td>
-                                    </tr>
-                                    <tr>
-                                      <th>새로운 비밀번호</th>
-                                      <td><input type="password" class='user_pass' name="password" value="" placeholder="새로운 비밀번호를 입력해주세요" required maxlength="8" minlength="12" /></td>
-                                    </tr>
-                                    <tr>
-                                      <th>새로운 비밀번호 확인</th>
                                       <td>
-                                        <input type="password" class='user_passChk' name="password" value="" placeholder="비밀번호를 재입력해주세요" required maxlength="8" minlength="12" />
-                                        <div class="question_smallbox"><img src="img/question.png">
-                                      <div class="password_question_detail">
-                                            안전한 비밀번호 작성 법<br />
-                                            -비밀번호는 영문 소문자, 대문자, 숫자, 특수문자를 포함하여 10자리 이상으로 만드셔야 합니다. <br />
-                                            -비밀번호는 최대한 길게 작성해주세요.<br />
-                                            -단, 허용되는 특수문자(~!@#$%^*)외 다른 특수문자는 사용할 수 없습니다.<br />
-                                            -ID, 생일, 전화번호 등 개인정보를 이용해 만든 비밀번호를 사용하지 마세요.<br />
-                                            -포털 사이트나 타 거래소 등 타 사이트와 동일하거나 비슷한 암호를 설정하지 마세요.타 사이트에서 암호가 유출될 경우 제3자가 회원님의 계정에 접근할 위험이 있습니다.<br />
-                                            -동일한 문자가 반복되는 등 패턴이 있는 비밀번호로 만들지 마세요.<br />
-                                      </div>
-                                      </div>
+                                          <input type="password" class='user_pass' name="pre_password" value="" placeholder="현재 비밀번호를 입력해주세요" required maxlength="15" minlength="8" />
+                                          <p class='warning_message'>비밀번호가 일치하지 않습니다.</p>
                                       </td>
                                     </tr>
-                                    <tr>
+                                    <tr class='change_password_tr2'>
+                                      <th>새로운 비밀번호</th>
+                                      <td>
+                                          <input type="password" class='user_pass' name="password" value="" placeholder="새로운 비밀번호를 입력해주세요" required maxlength="15" minlength="8" />
+                                          <p class='warning_message'>비밀번호 요건이 충족하지 않습니다.</p>
+                                      </td>
+                                    </tr>
+                                    <tr class='change_password_tr3'>
+                                      <th>새로운 비밀번호 확인</th>
+                                      <td>
+                                        <input type="password" class='user_passChk' name="password" value="" placeholder="비밀번호를 재입력해주세요" required maxlength="15" minlength="8" />
+                                        <div class="question_smallbox"><img src="img/question.png">
+                                          <div class="password_question_detail">
+                                                안전한 비밀번호 작성 법<br />
+                                                -비밀번호는 영문 소문자, 대문자, 숫자, 특수문자를 포함하여 10자리 이상으로 만드셔야 합니다. <br />
+                                                -비밀번호는 최대한 길게 작성해주세요.<br />
+                                                -단, 허용되는 특수문자(~!@#$%^*)외 다른 특수문자는 사용할 수 없습니다.<br />
+                                                -ID, 생일, 전화번호 등 개인정보를 이용해 만든 비밀번호를 사용하지 마세요.<br />
+                                                -포털 사이트나 타 거래소 등 타 사이트와 동일하거나 비슷한 암호를 설정하지 마세요.타 사이트에서 암호가 유출될 경우 제3자가 회원님의 계정에 접근할 위험이 있습니다.<br />
+                                                -동일한 문자가 반복되는 등 패턴이 있는 비밀번호로 만들지 마세요.<br />
+                                          </div>
+                                        </div>
+                                        <p class='warning_message'>비밀번호가 일치하지 않습니다.</p>
+                                      </td>
+                                    </tr>
+                                    <tr class='change_password_tr4'>
                                       <th>휴대폰 SMS 인증</th>
                                       <td>
                                         <input type="text" name="" value="" placeholder="휴대폰으로 전송된 인증번호를 입력하세요." required maxlength="6" minlength="6" />
                                         <input type="button" value="인증번호요청" >
+                                        <p class='warning_message'>전송된 인증번호가 일치하지 않습니다.</p>
                                       </td>
                                     </tr>
-                                    <tr>
+                                    <tr class='change_password_tr5'>
                                       <th>보안 비밀번호</th>
                                       <td>
                                         <input type="password" class='user_security' name="security" value="" placeholder="보안 비밀번호를 입력하세요." maxlength="4" minlength='4' required/>
+                                        <p class='warning_message'>보안 비밀번호가 일치하지 않습니다.</p>
+                                      </td>
                                       </td>
                                     </tr>
                                   </tbody>
