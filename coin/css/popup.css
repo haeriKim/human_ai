@@ -61,7 +61,7 @@
     border-radius: 5px;
 }
 #shadow{
-    position: absolute;
+    position: fixed;
     top:0;
     left:0;
     background-color: #000;
@@ -167,7 +167,7 @@
 .btn_area {
   margin-top: 30px;
 }
-.btn_area input[type="button"]{
+.btn_area input[type="button"], .btn_area input[type="submit"]{
   border-radius:5px;
   background:none;
   font-size:14px;
@@ -179,7 +179,7 @@
   box-sizing: border-box;
 }
 
-.btn_area input[type="button"].ok{
+.btn_area input[type="button"].ok, .btn_area input[type="submit"].ok{
   border:1px solid #1b2f4a;
   background-color:#1b2f4a;
   color:#fff;
@@ -210,4 +210,58 @@
     width: 90%;
     margin: 0 auto;
     overflow: hidden;
+}
+
+/* 이메일인증 팝업 */
+#full .email_pop {
+  width: 550px;
+}
+.email_pop form {
+  padding: 0 20px;
+}
+#full .email_pop p.readonly {
+  background-color: #f4f5f9;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px 0 5px 10px;
+  border-radius: 5px;
+}
+.email_pop input[type="text"] {
+  width: 95%;
+  border: none;
+  border-bottom: 1px solid #1b2f4a;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 3px 5px;
+}
+#full .email_pop span {
+  color: #ff0000;
+  text-align: left;
+  margin: 5px 0 0 5px;
+  display: block;
+  font-size: 12px;
+}
+#full .email_pop .re_send {
+  background-color: rgba(27,47,74,.2);
+  border-radius: 5px;
+  padding: 10px 20px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+#full .email_pop .re_send p {
+  float: left;
+  color: #1b2f4a;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+}
+#full .email_pop .re_send input[type="button"] {
+  float: right;
+  background-color: #1b2f4a;
+  border-radius: 5px;
+  border: none;
+  padding: 7px 5px ;
+  color: #fff;
+  margin: 20px 0;
 }

@@ -1,0 +1,60 @@
+#signUp_c_area {
+  padding: 30px 40px;
+}
+#signUp_c_area h3 {
+  color: #071f45;
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+#signUp_c_area .complete_text {
+  text-align: center;
+  border-bottom: 1px solid #1B2F4A;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+#signUp_c_area .complete_text strong {
+  display: block;
+  color: #1B2F4A;
+  font-size: 19px;
+  font-weight: 600;
+  margin: 10px 0;
+  letter-spacing: 1px;
+}
+#signUp_c_area .complete_text p {
+  font-weight: 600;
+  line-height: 1.8;
+}
+#signUp_c_area .complete_text p a:hover {
+  opacity: .8;
+}
+#signUp_c_area .complete_text p b {
+  color: #c95b74;
+  font-size: 18px;
+}
+#signUp_c_area .cer_center {
+  border-bottom: 1px solid #efefef;
+}
+#signUp_c_area .cer_center .cer_level {
+  margin-bottom: 0;
+}
+#signUp_c_area .cer_center .cer_level a {
+  display: inline-block;
+  background-color: #1B2F4A;
+  border-radius: 5px;
+  color: #fff;
+  padding: 4px 20px;
+  margin-top: 7px;
+}
+#signUp_c_area .btn_area {
+  text-align: center;
+  margin-top: 20px;
+}
+#signUp_c_area .btn_area a {
+  display: inline-block;
+  border: 1px solid #1B2F4A;
+  border-radius: 5px;
+  width: 130px;
+  padding: 4px 0;
+  font-weight: 600;
+  color: #1B2F4A;
+}
