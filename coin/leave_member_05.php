@@ -47,7 +47,7 @@
                               <p class="img_area">
                                 <img src="img/quit_1_off.png" alt="탈퇴안내"/>
                               </p>
-                              <strong>탈퇴 안내</strong>
+                              <strong class="gray_title">탈퇴 안내</strong>
 
                             <li>
 
@@ -82,7 +82,7 @@
                               <p class="img_area">
                                 <img src="img/quit_5.png" alt="탈퇴완료"/>
                               </p>
-                              <strong class="gray_title">탈퇴 완료</strong>
+                              <strong>탈퇴 완료</strong>
 
                             </li>
                           </ul>
@@ -94,7 +94,7 @@
                             더 나은 서비스를 위해 노력하는 CCE가 되겠습니다.
                         </p>
                         <div class="cancel_or_apply">
-                            <input type="button" name="go_main" value="메인으로" onclick="location.href='myinfo.php'" class='agree_btn'/>
+                            <input type="button" name="go_main" value="메인으로" onclick="location.href='index.php'" class='agree_btn'/>
                         </div>
 
                       </div>

@@ -47,7 +47,7 @@
                               <p class="img_area">
                                 <img src="img/quit_1_off.png" alt="탈퇴안내"/>
                               </p>
-                              <strong>탈퇴 안내</strong>
+                              <strong class="gray_title">탈퇴 안내</strong>
 
                             <li>
 
@@ -73,7 +73,7 @@
                               <p class="img_area">
                                 <img src="img/quit_4.png" alt="탈퇴처리"/>
                               </p>
-                              <strong class="gray_title">탈퇴 처리</strong>
+                              <strong>탈퇴 처리</strong>
 
                             </li>
                             <li>
@@ -105,7 +105,7 @@
                                 <textarea name='' placeholder="500자이내로 입력해주세요"></textarea>
                             </div>
                             <div class="cancel_or_apply">
-                                <input type="reset" name="reset" value="취소" onclick="location.href='myinfo.php'" class='cancel_btn'/>
+                                <input type="reset" name="reset" value="취소" onclick="location.href='leave_member_03.php'" class='cancel_btn'/>
                                 <input type="submit" name="submit" value="다음단계" class='agree_btn'/>
                             </div>
                         </form>

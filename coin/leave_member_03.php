@@ -47,7 +47,7 @@
                               <p class="img_area">
                                 <img src="img/quit_1_off.png" alt="탈퇴안내"/>
                               </p>
-                              <strong>탈퇴 안내</strong>
+                              <strong class="gray_title">탈퇴 안내</strong>
 
                             <li>
 
@@ -64,7 +64,7 @@
                               <p class="img_area">
                                 <img src="img/quit_3.png" alt="탈퇴신청" />
                               </p>
-                              <strong class="gray_title">탈퇴 신청</strong>
+                              <strong>탈퇴 신청</strong>
 
                             </li>
                             <li>
@@ -125,7 +125,7 @@
 
 
                              <div class="cancel_or_apply">
-                                 <input type="reset" name="reset" value="취소" onclick="location.href='myinfo.php'" class='cancel_btn'/>
+                                 <input type="reset" name="reset" value="취소" onclick="location.href='leave_member_02.php'" class='cancel_btn'/>
                                  <input type="submit" name="submit" value="다음단계" class='agree_btn'/>
                              </div>
                          </form>
