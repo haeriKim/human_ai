@@ -87,32 +87,32 @@
                                           <tr>
                                             <td>로그인 정보</td>
                                             <td>
-                                                <input type="button" name="ON" value="ON" class="alarm_on">
-                                                <input type="button" name="OFF" value="OFF" class="alarm_off">
+                                                <input type="button" name="ON" value="ON" class="alarm_on1 alarm_on">
+                                                <input type="button" name="OFF" value="OFF" class="alarm_off1 alarm_off">
                                               </td>
                                           </tr>
 
                                           <tr>
                                               <td>거래 체결</td>
                                               <td>
-                                                <input type="button" name="ON" value="ON" class="alarm_on">
-                                                <input type="button" name="OFF" value="OFF" class="alarm_off">
+                                                <input type="button" name="ON" value="ON" class="alarm_on2 alarm_on">
+                                                <input type="button" name="OFF" value="OFF" class="alarm_off2 alarm_off">
                                               </td>
                                         </tr>
 
                                         <tr>
                                             <td>입/출금 정보</td>
                                             <td>
-                                              <input type="button" name="ON" value="ON" class="alarm_on">
-                                              <input type="button" name="OFF" value="OFF" class="alarm_off">
+                                              <input type="button" name="ON" value="ON" class="alarm_on3 alarm_on">
+                                              <input type="button" name="OFF" value="OFF" class="alarm_off3 alarm_off">
                                             </td>
                                       </tr>
 
                                       <tr>
                                           <td>고객센터</td>
                                           <td>
-                                            <input type="button" name="ON" value="ON" class="alarm_on">
-                                            <input type="button" name="OFF" value="OFF" class="alarm_off">
+                                            <input type="button" name="ON" value="ON" class="alarm_on4 alarm_on">
+                                            <input type="button" name="OFF" value="OFF" class="alarm_off4 alarm_off">
                                           </td>
                                     </tr>
 
@@ -151,7 +151,7 @@
                                   </div>
 
                                   <div class="alarm_sangse_bt">
-                                    <input type="reset" name="reset" value="초기화" class='reset_bt'/>
+                                    <input type="reset" name="reset" value="초기화" class='alarm_reset_bt'/>
                                     <input type="submit" name="submit" value="저장" class='save_bt'/>
 
                                   </div>

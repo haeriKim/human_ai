@@ -111,7 +111,7 @@
   padding-bottom:50px;
   margin-left:100px;
 }
-.alarm_area .alarm_sangse .alarm_sangse_bt .reset_bt{
+.alarm_area .alarm_sangse .alarm_sangse_bt .alarm_reset_bt{
   border-radius: 5px;
   padding: 7px 30px;
   color: #1b2f4a;
@@ -131,4 +131,3 @@
   font-size: 16px;
   cursor: pointer;
 }
-.alarm_sangse_bt

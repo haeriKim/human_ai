@@ -573,3 +573,46 @@ $(document).ready(function(){
         }
     });
 })
+
+/*알람설정 스크립트*/
+$(document).ready(function(){
+  $(".alarm_sangse .alarm_on1").click(function(){
+    $(".alarm_sangse .alarm_off1").css({background:"#fff",color:"#1b2f4a"});
+    $(".alarm_sangse .alarm_on1").css({background:"#1b2f4a",color:"#fff"});
+  });
+  $(".alarm_sangse .alarm_off1").click(function(){
+    $(".alarm_sangse .alarm_off1").css({background:"#1b2f4a",color:"#fff"})
+    $(".alarm_sangse .alarm_on1").css({background:"#fff",color:"#1b2f4a"});
+  });
+
+  $(".alarm_sangse .alarm_on2").click(function(){
+    $(".alarm_sangse .alarm_off2").css({background:"#fff",color:"#1b2f4a"});
+    $(".alarm_sangse .alarm_on2").css({background:"#1b2f4a",color:"#fff"});
+  });
+  $(".alarm_sangse .alarm_off2").click(function(){
+    $(".alarm_sangse .alarm_off2").css({background:"#1b2f4a",color:"#fff"})
+    $(".alarm_sangse .alarm_on2").css({background:"#fff",color:"#1b2f4a"});
+  });
+
+  $(".alarm_sangse .alarm_on3").click(function(){
+    $(".alarm_sangse .alarm_off3").css({background:"#fff",color:"#1b2f4a"});
+    $(".alarm_sangse .alarm_on3").css({background:"#1b2f4a",color:"#fff"});
+  });
+  $(".alarm_sangse .alarm_off3").click(function(){
+    $(".alarm_sangse .alarm_off3").css({background:"#1b2f4a",color:"#fff"})
+    $(".alarm_sangse .alarm_on3").css({background:"#fff",color:"#1b2f4a"});
+  });
+
+  $(".alarm_sangse .alarm_on4").click(function(){
+    $(".alarm_sangse .alarm_off4").css({background:"#fff",color:"#1b2f4a"});
+    $(".alarm_sangse .alarm_on4").css({background:"#1b2f4a",color:"#fff"});
+  });
+  $(".alarm_sangse .alarm_off4").click(function(){
+    $(".alarm_sangse .alarm_off4").css({background:"#1b2f4a",color:"#fff"})
+    $(".alarm_sangse .alarm_on4").css({background:"#fff",color:"#1b2f4a"});
+  });
+  $(".alarm_reset_bt").click(function(){
+    $(".alarm_sangse .alarm_on").css({background:"#1b2f4a",color:"#fff"})
+    $(".alarm_sangse .alarm_off").css({background:"#fff",color:"#1b2f4a"})
+  });
+});
