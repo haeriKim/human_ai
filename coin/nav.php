@@ -6,7 +6,7 @@
 
         <div class="after_login login_info">
             <p>
-                <span class="user_mail">abcdefg@naver.com</span>님
+                <span class="user_mail">abc@naver.com</span>님
             </p>
             <div class="alarmArea">
               <img src="img/bell.png" class="alarmBtn" alt="알림버튼"/>

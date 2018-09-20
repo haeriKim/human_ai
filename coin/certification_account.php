@@ -142,7 +142,7 @@
                             <form action="#" method="post">
                             <ul class="bank_inner">
                               <li>
-                                <select name="bankselect" id="bankselect" required>
+                                <select name="bankselect" id="bankselect" required class='bankName'>
                                   <option value="은행선택" selected="selected" disabled>은행선택</option>
                                   <option value="국민은행">국민은행</option>
                                   <option value="농협은행">농협은행</option>

@@ -36,22 +36,24 @@
 #nav .login_info > p{
     position: relative;
     top: -7px;
+    left: -8px;
 }
 #nav .login_info .user_mail{
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
-    width: 52px;
+    width: 58px;
     display: inline-block;
     position: relative;
     top: 7px;
+    left: -3px;
 }
 
 #nav .login_info .alarmArea {
     display: inline-block;
     position: relative;
     top: -34px;
-    right: -44px;
+    right: -42px;
 }
 #nav .login_info .alarmArea img {
   width: 16px;

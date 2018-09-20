@@ -75,17 +75,24 @@
                               <tbody>
                                   <tr>
                                       <th>이름</th>
-                                      <td><span class='user_name'>가*다</span></td>
+                                      <td>
+                                          <span class='user_name'>가*다</span>
+                                          <span class='no_name'>-</span>
+                                      </td>
                                   </tr>
                                   <tr>
                                       <th>이메일</th>
-                                      <td><span class='user_mail'>abc@naver.com</span></td>
+                                      <td>
+                                          <span class='user_mail'>abc@naver.com</span>
+                                      </td>
                                   </tr>
                                   <tr class='myinfo_table_tr'>
                                       <th>휴대폰</th>
-                                      <td><p class='user_phone'>010-****-****</p>
-                                        <a href="#" class="btn_small">휴대폰 번호 변경</a>
-                                        <a href="#" class="btn_small">실명인증</a>
+                                      <td>
+                                          <span class='user_phone'>010-****-****</span>
+                                          <span class='no_phone'>-</span>
+                                          <a href="#" class="btn_small change_phone_num">휴대폰 번호 변경</a>
+                                          <a href="#" class="btn_small certify_realname">실명인증</a>
                                       </td>
                                   </tr>
                                   <tr>
@@ -102,19 +109,30 @@
                                 </tr>
                                 <tr>
                                     <th>보안비밀번호</th>
-                                    <td><a href="#" class="btn_medium">보안비밀번호 변경</a></td>
+                                    <td>
+                                        <a href="#" class="btn_medium change_securityNum">보안비밀번호 변경</a>
+                                        <a href="#" class="btn_medium make_securityNum">보안비밀번호 생성</a>
+                                    </td>
                                 </tr>
                                 <tr class='myinfo_table_tr'>
                                     <th>계좌번호</th>
                                     <td>
-                                      <p class="account_number"><span class='bankName'>OO은행</span> <span class='user_account'>1234-*******-11-123</span></p>
-                                      <a href="#" class="btn_small">계좌번호 변경</a>
-                                      <a href="#" class="btn_small">계좌인증</a>
+                                      <p class="account_number">
+                                          <span class='bankName'>OO은행</span>
+                                          <span class='user_account'>1234-*******-11-123</span>
+                                      </p>
+                                      <span class='no_account'>-</span>
+                                      <a href="#" class="btn_medium change_accountNum">계좌번호 변경</a>
+                                      <a href="#" class="btn_medium certify_accountNum">계좌인증</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <th>OTP</th>
-                                    <td><a href="#" class="btn_medium">OTP 변경</a></td>
+                                    <td>
+                                        <span class='no_OTP'>-</span>
+                                        <a href="#" class="btn_medium certify_OTP">OTP 인증</a>
+                                        <a href="#" class="btn_medium change_OTP">OTP 변경</a>
+                                    </td>
                                 </tr>
                               </tbody>
                           </table>
@@ -124,7 +142,7 @@
                     <div class="cer_center">
                       <h4 class="second">인증현황</h4>
                       <ul class="cer_level">
-                        <li>
+                        <li class='cer_level_01'>
                           <img src="img/lv1.png" alt="레벨1"/>
                           <p class="img_area">
                             <img src="img/mailbox.png" alt="이메일인증 아이콘"/>
@@ -132,23 +150,25 @@
                           <strong>이메일인증</strong>
                           <span>실제 사용 중인<br/>이메일 계정을 인증해주세요.</span>
                         </li>
-                        <li>
+                        <li class='cer_level_02'>
                           <img src="img/lv2.png" alt="레벨2" />
                           <p class="img_area">
                             <img src="img/key.png" alt="보안비밀번호생성 아이콘" />
                           </p>
                           <strong>보안비밀번호 생성</strong>
                           <span>안전거래를 위한 <br/>보안비밀번호를 생성해주세요.</span>
+                          <button class="btn_large" onclick="location.href='certification.php'" type="button">인증하기</button>
                         </li>
-                        <li>
+                        <li class='cer_level_03'>
                           <img src="img/lv3.png" alt="레벨3" />
                           <p class="img_area">
                             <img src="img/phone.png" alt="휴대폰인증 아이콘" />
                           </p>
                           <strong>실명인증</strong>
                           <span>본인명의 휴대폰을 통하여<br/>실명을 인증해주세요.</span>
+                          <button class="btn_large" onclick="location.href='certification.php'" type="button">인증하기</button>
                         </li>
-                        <li>
+                        <li class='cer_level_04'>
                           <img src="img/lv4.png" alt="레벨4" class="lv4_on"/>
                           <img src="img/lv4_off.png" alt="레벨4" class="lv4_off"/>
                           <p class="img_area">
@@ -159,7 +179,7 @@
                           <span>거래소를 이용하기 위한<br/>계좌를 인증해주세요.</span>
                           <button class="btn_large" onclick="location.href='certification.php'" type="button">인증하기</button>
                         </li>
-                        <li>
+                        <li class='cer_level_05'>
                           <img src="img/lv5.png" alt="레벨5" class="lv5_on">
                           <img src="img/lv5_off.png" alt="레벨4" class="lv5_off"/>
                           <p class="img_area">
