@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/common.js"></script>
+    <script src="js/common_copy.js"></script>
 </head>
 <body>
     <!-- wrap -->
@@ -104,19 +105,19 @@
                                     <tr>
                                         <th>비밀번호</th>
                                         <td>
-                                            <input type="password" name="" value="" placeholder="" required>
+                                            <input type="password" name="" value="" placeholder="" required class='input_your_password'>
                                         </td>
                                     </tr>
                                     <tr>
                                         <th>보안 비밀번호</th>
                                         <td>
-                                            <input type="password" name="" value="" placeholder="보안 비밀번호 4자리 입력" required maxlength="4" minlength='4'>
+                                            <input type="password" name="" value="" placeholder="보안 비밀번호 4자리 입력" required maxlength="4" minlength='4' class='input_your_password_again'>
                                         </td>
                                     </tr>
                                     <tr>
                                         <th>휴대폰 SMS인증</th>
                                         <td>
-                                            <input type="text" name="" value="" placeholder="휴대폰으로 전송된 인증번호를 입력해주세요." required>
+                                            <input type="text" name="" value="" placeholder="휴대폰으로 전송된 인증번호를 입력해주세요." required class='input_your_sms_number'>
                                             <input type="button" value="인증번호요청">
                                         </td>
                                     </tr>
@@ -124,10 +125,11 @@
                             </table>
 
 
-                             <div class="cancel_or_apply">
-                                 <input type="reset" name="reset" value="취소" onclick="location.href='leave_member_02.php'" class='cancel_btn'/>
-                                 <input type="submit" name="submit" value="다음단계" class='agree_btn'/>
-                             </div>
+                            <div class="cancel_or_apply">
+                                <input type="reset" name="reset" value="취소" onclick="location.href='leave_member_02.php'" class='cancel_btn'/>
+                                <span class='agree_btn if_you_not_all_agree'>다음단계</span>
+                                <input type="submit" name="submit" value="다음단계" onclick="location.href='leave_member_04.php'" class='agree_btn if_you_all_agree'/>
+                            </div>
                          </form>
 
                       </div>
