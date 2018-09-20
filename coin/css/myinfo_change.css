@@ -127,3 +127,21 @@ table .password_question_detail:before {
 .myinfo_sub_box .cancel_or_apply{
   text-align:center;
 }
+
+/*핸드폰,계좌변경,OTP변경 페이지 통일*/
+
+.myinfo_main_box .cer_center .myinfo_text_box{
+  padding:100px 0;
+  font-weight:600;
+  display:block;
+  font-size:15px;
+  text-align:center;
+}
+
+.myinfo_main_box .cer_center .myinfo_text_box span{
+  color:#c95b74;
+}
+.myinfo_main_box .cer_center .cancel_or_apply{
+  text-align:center;
+  margin-bottom:50px;
+}
