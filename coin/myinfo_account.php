@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/myinfo_change.css">
     <link rel="stylesheet" href="css/sub_menu.css">
-    <link rel="stylesheet" href="css/popup.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/common.js"></script>
@@ -124,42 +123,6 @@ jQuery(document).ready(function(){
 
         </div><!-- container End -->
     </div><!-- wrap End -->
-
-<div id="full">
-            <!-- full_content -->
-            <div id="popupbox" class='box popup phone_change_box'>
-              <div class="full_inner">
-                <h2>휴대폰 번호 변경하기</h2>
-                <div class="popupbox_text">
-                  <p class="user_mail">abc@naver.com</p>
-                </div>
-                <div class="cancel_or_apply">
-                  <input type="reset" name="reset" value="취소" class="cancel_btn">
-                  <input type="submit" name="submit" value="변경" class="agree_btn if_you_all_agree">
-                </div>
-
-              </div>
-            </div><!-- full_content End-->
-          <div id="shadow"></div>
-
-          <!-- full_content -->
-          <div id="popupbox" class='box popup phone_change_box2'>
-            <div class="full_inner">
-              <h2>메일 발송완료</h2>
-              <div class="popupbox_text">
-                <p>가입된 이메일 주소로 인증 메일이 발송되었습니다.</p>
-                <p>메일을 확인해주세요.</p>
-              </div>
-              <div class="cancel_or_apply">
-                <input type="submit" name="submit" value="확인" class="agree_btn if_you_all_agree">
-              </div>
-
-            </div>
-          </div><!-- full_content End-->
-        <div id="shadow"></div>
-</div>
-
-
 
 </body>
 </html>

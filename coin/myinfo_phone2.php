@@ -94,18 +94,43 @@ jQuery(document).ready(function(){
                           </div>
                         </div>
 
-                        <div class="myinfo_text_box">
-                            <p>휴대폰 번호 변경 시 번호가 초기화되며 보안등급이 <span>Level2로 하향</span>됩니다.</p><br/>
-                            <p>휴대폰 번호 초기화 시, <span>계좌 인증(Level 4) 및 OTP인증(Level 5)도 함께 초기화</span>되어 <span>재등록</span>해주셔야 합니다.</p><br/>
-                            <p>휴대폰 번호 재 인증전까지 거래 및 입출금이 불가능합니다.</p><br/>
-                            <br/>
-                            <p>위 조치는 휴대폰 도난, 피싱 등 금융 사고 예방을 위한 것으로 조금 불편하시더라도 많은 양해 부탁드립니다.</p>
-                        </div>
+                        <!-- myinfo_small_info_box -->
+                        <div class="myinfo_sub_box ">
+                          <form class="" action="#" method="post">
+                            <div class="myinfo_table_wrap myinfo_table_wrap2">
+                              <!-- send_login_password -->
+                              <div class="send_login_password">
+                                <table class='left_thick_table'>
+                                  <tbody>
 
-                        <div class="cancel_or_apply">
-                          <input type="reset" name="reset" value="취소" class="cancel_btn">
-                          <input type="submit" name="submit" value="변경" class="agree_btn if_you_all_agree">
-                        </div>
+                                      <th>새로운 휴대폰번호</th>
+                                      <td><input type="password" class='user_pass' name="password" value="" placeholder="새로운 비밀번호를 입력해주세요" required maxlength="8" minlength="12" /></td>
+                                    </tr>
+
+                                    <tr>
+                                      <th>휴대폰 SMS 인증</th>
+                                      <td>
+                                        <input type="text" name="" value="" placeholder="휴대폰으로 전송된 인증번호를 입력하세요." required maxlength="6" minlength="6" />
+                                        <input type="button" value="인증번호요청" >
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <th>보안 비밀번호</th>
+                                      <td>
+                                        <input type="password" class='user_security' name="security" value="" placeholder="보안 비밀번호를 입력하세요." maxlength="4" minlength='4' required/>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div><!-- send_login_password End-->
+
+                            </div><!-- myinfo_table_wrap End-->
+                            <div class="cancel_or_apply">
+                              <input type="reset" name="reset" value="취소" class="cancel_btn">
+                              <input type="submit" name="submit" value="변경" class="agree_btn if_you_all_agree">
+                            </div>
+                          </form>
+                        </div><!-- myinfo_sub_box End-->
 
 
                       </div><!-- cercenter End-->
@@ -124,40 +149,6 @@ jQuery(document).ready(function(){
 
         </div><!-- container End -->
     </div><!-- wrap End -->
-
-<div id="full">
-            <!-- full_content -->
-            <div id="popupbox" class='box popup phone_change_box'>
-              <div class="full_inner">
-                <h2>휴대폰 번호 변경하기</h2>
-                <div class="popupbox_text">
-                  <p class="user_mail">abc@naver.com</p>
-                </div>
-                <div class="cancel_or_apply">
-                  <input type="reset" name="reset" value="취소" class="cancel_btn">
-                  <input type="submit" name="submit" value="변경" class="agree_btn if_you_all_agree">
-                </div>
-
-              </div>
-            </div><!-- full_content End-->
-          <div id="shadow"></div>
-
-          <!-- full_content -->
-          <div id="popupbox" class='box popup phone_change_box2'>
-            <div class="full_inner">
-              <h2>메일 발송완료</h2>
-              <div class="popupbox_text">
-                <p>가입된 이메일 주소로 인증 메일이 발송되었습니다.</p>
-                <p>메일을 확인해주세요.</p>
-              </div>
-              <div class="cancel_or_apply">
-                <input type="submit" name="submit" value="확인" class="agree_btn if_you_all_agree">
-              </div>
-
-            </div>
-          </div><!-- full_content End-->
-        <div id="shadow"></div>
-</div>
 
 
 

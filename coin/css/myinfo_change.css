@@ -130,6 +130,9 @@ table .password_question_detail:before {
 
 /*핸드폰,계좌변경,OTP변경 페이지 통일*/
 
+/*security*/
+
+/*phone*/
 .myinfo_main_box .cer_center .myinfo_text_box{
   padding:100px 0;
   font-weight:600;
@@ -144,4 +147,36 @@ table .password_question_detail:before {
 .myinfo_main_box .cer_center .cancel_or_apply{
   text-align:center;
   margin-bottom:50px;
+}
+
+.myinfo_main_box .myinfo_table_wrap2{
+  margin-top:20px;
+  margin-bottom:80px;
+}
+
+
+/*account*/
+
+/*OTP*/
+
+/*phonepopup*/
+
+.phone_change_box{
+  width:435px;
+  position:relative;
+  z-index:9999;
+  top:0;
+}
+.phone_change_box p{
+  padding-top:20px;
+  padding-bottom:40px;
+}
+.phone_change_box2{
+  width:435px;
+  position:relative;
+  z-index:10000;
+  top:0;
+}
+.phone_change_box2 .cancel_or_apply{
+  padding-top:20px;
 }
