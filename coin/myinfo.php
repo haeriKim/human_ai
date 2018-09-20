@@ -43,10 +43,10 @@
                           <a href="#" title="회원정보관리" class='more_menu'>회원정보관리</a>
                           <dl class="nav_dropdown info_dd off">
                               <dt><a href="myinfo_login_password.php" title="로그인 비밀번호 변경" >로그인 비밀번호 변경</a></dt>
-                              <dt><a href="#" title="보안비밀번호 변경">보안비밀번호 변경</a></dt>
-                              <dt><a href="#" title="휴대폰번호 변경">휴대폰번호 변경</a></dt>
-                              <dt><a href="#" title="계좌 변경">계좌 변경</a></dt>
-                              <dt><a href="#" title="새 지갑발급">OTP 변경</a></dt>
+                              <dt><a href="myinfo_security_password.php" title="보안비밀번호 변경">보안비밀번호 변경</a></dt>
+                              <dt><a href="myinfo_phone.php" title="휴대폰번호 변경">휴대폰번호 변경</a></dt>
+                              <dt><a href="myinfo_account.php" title="계좌 변경">계좌 변경</a></dt>
+                              <dt><a href="myinfo_OTP.php" title="OTP 변경">OTP 변경</a></dt>
                           </dl>
                         </li>
                         <li><a href="certification.php" title="인증센터">인증센터</a></li>
@@ -91,7 +91,7 @@
                                       <td>
                                           <span class='user_phone'>010-****-****</span>
                                           <span class='no_phone'>-</span>
-                                          <a href="#" class="btn_small change_phone_num">휴대폰 번호 변경</a>
+                                          <a href="myinfo_phone.php" class="btn_small change_phone_num">휴대폰 번호 변경</a>
                                           <a href="#" class="btn_small certify_realname">실명인증</a>
                                       </td>
                                   </tr>
@@ -110,7 +110,7 @@
                                 <tr>
                                     <th>보안비밀번호</th>
                                     <td>
-                                        <a href="#" class="btn_medium change_securityNum">보안비밀번호 변경</a>
+                                        <a href="myinfo_security_password.php" class="btn_medium change_securityNum">보안비밀번호 변경</a>
                                         <a href="#" class="btn_medium make_securityNum">보안비밀번호 생성</a>
                                     </td>
                                 </tr>
@@ -122,7 +122,7 @@
                                           <span class='user_account'>1234-*******-11-123</span>
                                       </p>
                                       <span class='no_account'>-</span>
-                                      <a href="#" class="btn_medium change_accountNum">계좌번호 변경</a>
+                                      <a href="myinfo_account.php" class="btn_medium change_accountNum">계좌번호 변경</a>
                                       <a href="#" class="btn_medium certify_accountNum">계좌인증</a>
                                     </td>
                                 </tr>
@@ -131,7 +131,7 @@
                                     <td>
                                         <span class='no_OTP'>-</span>
                                         <a href="#" class="btn_medium certify_OTP">OTP 인증</a>
-                                        <a href="#" class="btn_medium change_OTP">OTP 변경</a>
+                                        <a href="myinfo_OTP.php" class="btn_medium change_OTP">OTP 변경</a>
                                     </td>
                                 </tr>
                               </tbody>
