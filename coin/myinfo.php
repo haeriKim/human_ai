@@ -83,7 +83,10 @@
                                   </tr>
                                   <tr>
                                       <th>휴대폰</th>
-                                      <td>010-****-****  <a href="#" class="btn_small">휴대폰 번호 변경</a></td>
+                                      <td><span>010-****-****</span>
+                                        <a href="#" class="btn_small">휴대폰 번호 변경</a>
+                                        <a href="#" class="btn_small">실명인증</a>
+                                      </td>
                                   </tr>
                                   <tr>
                                       <th>등급</th>
@@ -103,9 +106,10 @@
                                 </tr>
                                 <tr>
                                     <th>계좌번호</th>
-                                    <td>OO은행
-                                      <span class="account_number">1234-*******-11-123</span>
+                                    <td>
+                                      <span class="account_number">OO은행 1234-*******-11-123</span>
                                       <a href="#" class="btn_small">계좌번호 변경</a>
+                                        <a href="#" class="btn_small">계좌인증</a>
                                     </td>
                                 </tr>
                                 <tr>

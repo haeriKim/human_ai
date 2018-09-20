@@ -44,10 +44,10 @@ jQuery(document).ready(function(){
                     <h4>마이페이지</h4>
                     <ul>
                         <li><a href="myinfo.php" title="회원정보">회원정보</a></li>
-                        <li  class="active">
+                        <li class="on">
                           <a href="#" title="회원정보관리" class='more_menu'>회원정보관리</a>
-                          <dl class="nav_dropdown info_dd off">
-                              <dt><a href="#" title="로그인 비밀번호 변경" >로그인 비밀번호 변경</a></dt>
+                          <dl class="nav_dropdown info_dd">
+                              <dt class="active"><a href="#" title="로그인 비밀번호 변경">로그인 비밀번호 변경</a></dt>
                               <dt><a href="#" title="보안비밀번호 변경">보안비밀번호 변경</a></dt>
                               <dt><a href="#" title="휴대폰번호 변경">휴대폰번호 변경</a></dt>
                               <dt><a href="#" title="계좌 변경">계좌 변경</a></dt>
