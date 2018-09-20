@@ -15,11 +15,11 @@
 <body>
     <div id="full">
             <!-- full_content -->
-            <div id="full_output_KRW" class='box'>
+            <div id="popupbox" class='box popup'>
                 <div class="full_inner">
                     <form class="" action="#" method="post">
                         <h2>출금신청</h2>
-                        <p><b class='check_your_money_again'>1,000,000 KRW</b>를</p>
+                        <p><b class='check_your_money_again'><span class="withdrawal_price">1,000,000 </span> KRW</b>를</p>
                         <table class='left_thick_table'>
                             <tbody>
                                 <tr>
@@ -39,7 +39,7 @@
                         <p>현재 계좌에서 출금하시겠습니까?</p>
                         <div class="cancel_or_apply">
                             <input type="reset" name="" value="취소" class='cancel_btn'>
-                            <input type="submit" name="" value="출금신청" class='agree_btn'>
+                            <input type="submit" name="" value="출금신청" class='agree_btn' onclick="location.href='mywallet_output_complete_KRW.php'">
                         </div>
                     </form>
                 </div>

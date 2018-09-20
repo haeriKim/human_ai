@@ -130,115 +130,84 @@
 }
 
 /*출금신청 팝업*/
-#full_output_KRW{
-    width: 450px;
-    height: 420px;
-    background: #fff;
-    z-index: 9999;
-    padding: 20px;
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-left: -265px;
-}
-.full_inner{
-    width: 90%;
-    margin: 0 auto;
-    overflow: hidden;
-}
-#full_output_KRW h2{
-    color:#071f45;
-    text-align: center;
-    padding-top:20px;
-    padding-bottom:15px;
-    border-bottom: 2px solid #071f45;
-    margin: 0 auto;
-}
 
-#full_output_KRW p{
+#popupbox p{
     color:#959595;
     font-size:16px;
     margin:15px 0;
     text-align: center;
 }
-#full_output_KRW .check_your_money_again{
+#popupbox .check_your_money_again{
     font-weight: 600;
     color: #071f45;
     font-size: 21px;
     text-indent:1px;
     margin-right: 2px;
 }
-#full_output_KRW .close_btn{
-    float: right;
-    background: #1b2f4a;
-    text-align: center;
-    padding: 5px 0;
-    width: 70px;
-    color: #fff;
-    border-radius: 5px;
-}
-#full_output_KRW .cancel_or_apply{
-    text-align: center;
-}
-#full_output_KRW .agree_btn{
-    border: 1px solid #1b2f4a;
-    background-color: #1b2f4a;
-    cursor: pointer;
-}
 
 /*나머지 팝업들*/
 
-.popupbox{
-  width:427px;
-  height:303px;
-  box-shadow: 0 1px 2px rgba(100,100,100,.2);
-  border-radius:5px;
-  background-color: #fff;
-  box-sizing: border-box;
+#popupbox{
+  width:435px;
 }
-.popupbox_inner{
-  text-align:center;
-}
-.popupbox_inner .popupbox_title{
-  width:336px;
-  font-size:25px;
-  font-weight:600;
-  border-bottom:1px solid #1b2f4a;
-  margin:30px 45.5px;
-  padding-top:40px;
-  padding-bottom:20px;
-  color:#1b2f4a;
-}
-.popupbox_text{
-  font-size:12px;
-  padding-bottom:20px;
+#popupbox .popupbox_text{
+  font-size:15px;
+  padding-top: 20px;
   line-height:1em;
   color:#666666;
 }
-.popupbox_text b{
-  color:#1b2f4a;
+#popupbox .popupbox_text p {
+  line-height: 1.5;
 }
-.popupbt{
+#popupbox .popupbox_text b{
+  color:#1b2f4a;
+  font-size: 16px;
+  font-weight: 600;
+}
+.btn_area {
+  margin-top: 30px;
+}
+.btn_area input[type="button"]{
   border-radius:5px;
   background:none;
-  border:none;
   font-size:14px;
   font-weight:600;
-}
-.nextok{
   border:1px solid #1b2f4a;
-  padding:5px 20px;
+  color: #1b2f4a;
+  padding:7px 20px;
+  cursor: pointer;
+  box-sizing: border-box;
 }
-.ok{
-  border:1px solid #1b2f4a;
-  background-color:#1b2f4a;
-  color:#fff;
-  padding:5px 20px;
-}
-.ok2{
+
+.btn_area input[type="button"].ok{
   border:1px solid #1b2f4a;
   background-color:#1b2f4a;
   color:#fff;
-  padding:5px 40px;
+}
+
+
+
+/* 기본팝업(common) */
+.popup{
+    background: #fff;
+    z-index: 9999;
+    padding: 30px 20px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: -265px;
+    text-align: center;
+}
+.popup h2{
+    color:#071f45;
+    text-align: center;
+    padding-bottom:15px;
+    border-bottom: 2px solid #071f45;
+    margin: 0 auto;
+}
+.full_inner{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
 }
