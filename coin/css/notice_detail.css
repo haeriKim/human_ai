@@ -1,7 +1,7 @@
 /*공지사항 세부내용 */
     /*공지사항 타이틀*/
 .notice_detail .notice_detail_inner{
-    padding:20px 40px;
+    padding:35px 40px;
 }
 .notice_detail .notice_detail_inner .notice_title_wrap{
     border-top:2px solid #1b2f4a;
@@ -42,9 +42,10 @@
     color: #fff;
     border-radius: 5px;
     background-color: #1b2f4a;
-    padding: 5px 10px;
+    padding: 7px 25px;
     font-size: 14px;
-    margin-top: 50px ;
+    margin-top: 40px ;
+    font-weight: 600;
 }
 .notice_detail .notice_detail_inner .notice_detail_footer .notice_preview{
     margin-top:90px;
@@ -63,16 +64,15 @@
 .notice_detail .notice_detail_inner .notice_detail_footer li.next_notice_title{
     border-top:none;
 }
-.notice_detail .notice_detail_inner .notice_detail_footer .notice_preview li p.prev_img{
+.notice_detail .notice_detail_inner .notice_detail_footer .notice_preview li p.prev_img,
+.notice_detail .notice_detail_inner .notice_detail_footer .notice_preview li p.next_img{
     background: url(../img/up.png) no-repeat 50px 15px;
     width: 80px;
     margin-left: 31px;
     text-align: left;
+    color: #1b2f4a;
 }
 .notice_detail .notice_detail_inner .notice_detail_footer .notice_preview li p.next_img{
     background: url(../img/down.png) no-repeat 50px 15px;
-    width: 80px;
-    margin-left: 31px;
-    text-align: left;
 }
 /*공지사항 세부내용 End*/

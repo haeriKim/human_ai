@@ -76,7 +76,7 @@
                         </div>
 
                         <div class="notice_detail_footer">
-                            <a href="notice.html" class='go_back_notice'>목록으로</a>
+                            <a href="notice.php" class='go_back_notice'>목록으로</a>
                             <ul class="notice_preview">
                                 <li class='prev_notice_title'>
                                     <a href='#'>

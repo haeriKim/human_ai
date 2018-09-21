@@ -66,8 +66,8 @@
                         <div class="alarm_inner mypage_content">
                           <h4 class="title2">알림설정</h4>
 
-                            <div class="alarm_sangse">
-                              <p>회원님의 활동 내역을 알려드립니다.</p>
+                            <div class="alarm_setting">
+                              <p class="title">회원님의 활동 내역을 알려드립니다.</p>
                                 <table class="alarm_sangse_pyo1">
                                   <colgroup>
                                     <col width="50%">
@@ -86,33 +86,46 @@
 
                                           <tr>
                                             <td>로그인 정보</td>
-                                            <td>
-                                                <input type="button" name="ON" value="ON" class="alarm_on1 alarm_on">
-                                                <input type="button" name="OFF" value="OFF" class="alarm_off1 alarm_off">
+                                            <td class="toggle_area">
+                                                <label class="switch">
+                                                  <input type="checkbox">
+                                                  <span class="slider round"></span>
+                                                  <p class="toggle_text"></p>
+                                                </label>
+
                                               </td>
                                           </tr>
 
                                           <tr>
                                               <td>거래 체결</td>
-                                              <td>
-                                                <input type="button" name="ON" value="ON" class="alarm_on2 alarm_on">
-                                                <input type="button" name="OFF" value="OFF" class="alarm_off2 alarm_off">
+                                              <td class="toggle_area">
+                                                  <label class="switch">
+                                                  <input type="checkbox">
+                                                  <span class="slider round"></span>
+                                                  <p class="toggle_text"></p>
+                                                  </label>
                                               </td>
                                         </tr>
 
                                         <tr>
                                             <td>입/출금 정보</td>
-                                            <td>
-                                              <input type="button" name="ON" value="ON" class="alarm_on3 alarm_on">
-                                              <input type="button" name="OFF" value="OFF" class="alarm_off3 alarm_off">
+                                            <td class="toggle_area">
+                                                <label class="switch">
+                                                <input type="checkbox">
+                                                <span class="slider round"></span>
+                                                <p class="toggle_text"></p>
+                                                </label>
                                             </td>
                                       </tr>
 
                                       <tr>
                                           <td>고객센터</td>
-                                          <td>
-                                            <input type="button" name="ON" value="ON" class="alarm_on4 alarm_on">
-                                            <input type="button" name="OFF" value="OFF" class="alarm_off4 alarm_off">
+                                          <td class="toggle_area">
+                                              <label class="switch">
+                                              <input type="checkbox">
+                                              <span class="slider round"></span>
+                                              <p class="toggle_text"></p>
+                                              </label>
                                           </td>
                                     </tr>
 
@@ -120,7 +133,7 @@
                                 </table>
 
                                 <div class="alarm_sangse2">
-                                <p>개인정보 수집 및 이용 동의(선택)</p>
+                                <p class="title">개인정보 수집 및 이용 동의(선택)</p>
                                   <table class="alarm_sangse_pyo2">
                                     <tbody>
 

@@ -1,4 +1,4 @@
-/*alarm*/
+/* 알림 상세(alarm_detail) */
 
 .alarm_area .alarm_inner{
   overflow:hidden;
@@ -28,6 +28,7 @@
   font-size:15px;
   border-bottom:1px solid #ededed;
   padding:10px 0;
+  font-weight: 600;
 }
 .alarm_area .alarm_list tbody .culgm, .alarm_area .alarm_list tbody .mado{
   color:#002dae;
@@ -47,42 +48,43 @@
   padding-left:100px;
 }
 
-/*alarm_sangse*/
+/* 알림 설정(alarm_setting)*/
 
-.alarm_area .alarm_sangse{
+.alarm_area .alarm_setting{
   width:700px;
   text-align:center;
   margin-left:100px;
 }
-.alarm_area .alarm_sangse p{
+.alarm_area .alarm_setting p.title{
   width:300px;
   font-weight:600;
   color:#1b2f4a;
   margin:30px 100px;
   text-align:left;
 }
-.alarm_area .alarm_sangse .alarm_sangse_pyo1{
+.alarm_area .alarm_setting .alarm_sangse_pyo1{
   width:500px;
   margin-left:100px;
 }
-.alarm_area .alarm_sangse .alarm_sangse_pyo1 th{
+.alarm_area .alarm_setting .alarm_sangse_pyo1 th{
   padding:10px 10px;
   color:#1b2f4a;
   background-color:#efefef;
   border-bottom:1px solid #1b2f4a;
+  font-weight: 600;
 }
-.alarm_area .alarm_sangse .alarm_sangse_pyo1 td{
+.alarm_area .alarm_setting .alarm_sangse_pyo1 td{
   padding:10px 10px;
   border-bottom:1px solid #efefef;
 }
-.alarm_area .alarm_sangse .alarm_sangse_pyo1 input{
+/* .alarm_area .alarm_setting .alarm_sangse_pyo1 input{
   border:1px solid #1b2f4a;
   display:inline-block;
   padding:2px 5px;
   font-size:12px;
   cursor:pointer;
-}
-.alarm_area .alarm_sangse .alarm_sangse_pyo1 .alarm_on{
+} */
+/* .alarm_area .alarm_sangse .alarm_sangse_pyo1 .alarm_on{
   color:#fff;
   background:#1b2f4a;
 }
@@ -90,11 +92,80 @@
   color:#1b2f4a;
   margin-left:-5px;
   background:#fff;
+} */
+.alarm_area .alarm_setting .alarm_sangse_pyo1 td.toggle_area .switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+  vertical-align:middle;
 }
+
+/* on/off 토글 */
+.alarm_area .alarm_setting .alarm_sangse_pyo1 td.toggle_area .switch input {
+  display:none;
+}
+
+/* The slider */
+.alarm_area .alarm_setting .alarm_sangse_pyo1 td.toggle_area .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #1b2f4a;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.alarm_area .alarm_setting .alarm_sangse_pyo1 td.toggle_area .slider:before {
+  position: absolute;
+  content: "";
+  height: 17px;
+  width: 17px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #fff;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.toggle_area input:checked + .slider {
+  background-color: #1b2f4a;
+}
+
+.toggle_area input:focus + .slider {
+  box-shadow: 0 0 1px #1b2f4a;
+}
+
+.toggle_area input:checked + .slider:before {
+  -webkit-transform: translateX(25px);
+  -ms-transform: translateX(25px);
+  transform: translateX(25px);
+}
+
+/* Rounded sliders */
+.alarm_area .alarm_setting .alarm_sangse_pyo1 td.toggle_area .slider.round {
+  border-radius: 34px;
+}
+
+.alarm_area .alarm_setting .alarm_sangse_pyo1 td.toggle_area .slider.round:before {
+  border-radius: 50%;
+}
+
+.alarm_area .alarm_setting .alarm_sangse_pyo1 td.toggle_area p {
+  margin:0px;
+  display:inline-block;
+  font-size:15px;
+  color: #1b2f4a;
+  margin-left: 60px;
+}
+
 .alarm_area .alarm_sangse2{
   margin-top:20px;
 }
-.alarm_area .alarm_sangse .alarm_sangse_pyo2{
+.alarm_area .alarm_setting .alarm_sangse_pyo2{
   font-weight:600;
   width:500px;
   text-align:left;
@@ -103,7 +174,7 @@
   line-height:2em;
 }
 
-.alarm_area .alarm_sangse .alarm_snagse_checkbox{
+.alarm_area .alarm_setting .alarm_snagse_checkbox{
   width:500px;
   text-align:left;
   border-top:1px solid #efefef;
@@ -111,7 +182,7 @@
   padding-bottom:50px;
   margin-left:100px;
 }
-.alarm_area .alarm_sangse .alarm_sangse_bt .alarm_reset_bt{
+.alarm_area .alarm_setting .alarm_sangse_bt .alarm_reset_bt{
   border-radius: 5px;
   padding: 7px 30px;
   color: #1b2f4a;
@@ -121,7 +192,7 @@
   border:1px solid #1b2f4a;
   background:#fff;
 }
-.alarm_area .alarm_sangse .alarm_sangse_bt .save_bt{
+.alarm_area .alarm_setting .alarm_sangse_bt .save_bt{
   background: #1b2f4a;
   border: 1px solid #1b2f4a;
   border-radius: 5px;

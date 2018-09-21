@@ -421,7 +421,7 @@ $(document).ready(function(){
 //자산관리 - 인증센터 말풍선
 $(document).ready(function(){
   $("#malpungsun, #account_malpungsun").hide();
-  $(".cText_right .disable, .account_complete").click(function(){
+  $(".account_complete").click(function(){
       $("#malpungsun, #account_malpungsun").show();
   });
   $(".chk_ok").click(function(){
@@ -572,51 +572,24 @@ $(document).ready(function(){
           $(".html_input input[type='text']").attr("readonly",true).val(selectR);
         }
     });
-})
-
-/*알람설정 스크립트*/
-$(document).ready(function(){
-  $(".alarm_sangse .alarm_on1").click(function(){
-    $(".alarm_sangse .alarm_off1").css({background:"#fff",color:"#1b2f4a"});
-    $(".alarm_sangse .alarm_on1").css({background:"#1b2f4a",color:"#fff"});
-  });
-  $(".alarm_sangse .alarm_off1").click(function(){
-    $(".alarm_sangse .alarm_off1").css({background:"#1b2f4a",color:"#fff"})
-    $(".alarm_sangse .alarm_on1").css({background:"#fff",color:"#1b2f4a"});
-  });
-
-  $(".alarm_sangse .alarm_on2").click(function(){
-    $(".alarm_sangse .alarm_off2").css({background:"#fff",color:"#1b2f4a"});
-    $(".alarm_sangse .alarm_on2").css({background:"#1b2f4a",color:"#fff"});
-  });
-  $(".alarm_sangse .alarm_off2").click(function(){
-    $(".alarm_sangse .alarm_off2").css({background:"#1b2f4a",color:"#fff"})
-    $(".alarm_sangse .alarm_on2").css({background:"#fff",color:"#1b2f4a"});
-  });
-
-  $(".alarm_sangse .alarm_on3").click(function(){
-    $(".alarm_sangse .alarm_off3").css({background:"#fff",color:"#1b2f4a"});
-    $(".alarm_sangse .alarm_on3").css({background:"#1b2f4a",color:"#fff"});
-  });
-  $(".alarm_sangse .alarm_off3").click(function(){
-    $(".alarm_sangse .alarm_off3").css({background:"#1b2f4a",color:"#fff"})
-    $(".alarm_sangse .alarm_on3").css({background:"#fff",color:"#1b2f4a"});
-  });
-
-  $(".alarm_sangse .alarm_on4").click(function(){
-    $(".alarm_sangse .alarm_off4").css({background:"#fff",color:"#1b2f4a"});
-    $(".alarm_sangse .alarm_on4").css({background:"#1b2f4a",color:"#fff"});
-  });
-  $(".alarm_sangse .alarm_off4").click(function(){
-    $(".alarm_sangse .alarm_off4").css({background:"#1b2f4a",color:"#fff"})
-    $(".alarm_sangse .alarm_on4").css({background:"#fff",color:"#1b2f4a"});
-  });
-  $(".alarm_reset_bt").click(function(){
-    $(".alarm_sangse .alarm_on").css({background:"#1b2f4a",color:"#fff"})
-    $(".alarm_sangse .alarm_off").css({background:"#fff",color:"#1b2f4a"})
-  });
 });
 
+//알림설정 토글버튼
+$(document).ready(function(){
+    $(".toggle_area .toggle_text").text("OFF");
+  var check = $(".toggle_area input[type='checkbox']");
+  var toggle = 0;
+  check.click(function(){
+    if(toggle === 0) {
+      $(this).nextAll("p").text("ON");
+      toggle = 1;
+    }else {
+      $(this).nextAll("p").text("OFF");
+      toggle = 0;
+    }
+
+  });
+});
 // 핍업 취소 버튼 클릭시 팝업 꺼짐
 $(document).ready(function(){
   $(".phone_change_box2").hide();

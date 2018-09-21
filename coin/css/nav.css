@@ -61,6 +61,9 @@
   margin-left: 5px;
   cursor: pointer;
 }
+#nav .login_info .alarmArea img:hover {
+  opacity: .8;
+}
 #nav .login_info .alarmArea .alarmNum{
   display: block;
   width: 12px;
