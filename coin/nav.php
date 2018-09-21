@@ -62,7 +62,7 @@
             <!-- <li class="before_login">
               <a href='login.php' class="login_bt">로그인</a>
               <span>|</span>
-              <a href="#" class="join_bt">회원가입</a>
+              <a href="signUp.php" class="join_bt">회원가입</a>
             </li> -->
             <li class="after_login">
               <a href='myinfo.php' class="login_bt">마이페이지</a>
