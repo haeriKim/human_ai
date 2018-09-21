@@ -660,7 +660,9 @@ $(document).ready(function(){
   $(".password_alarm_wrap").hide();
   var input_val = $(".signUp_right_con .user_pass");
   input_val.on('keyup', function() {
-    console.log("fdf");
     $(".password_alarm_wrap").show();
+    if(input_val.val()==''){
+      $(".password_alarm_wrap").hide();
+    }
   });
 });
