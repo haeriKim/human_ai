@@ -199,7 +199,7 @@ input[type='checkbox']:checked + label:before{ /* 체크박스를 체크했을�
   -webkit-border-radius: 7px;
   border-radius: 10px;
   background: #ADADAD;
-  -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.5);
+  -webkit-box-shadow: inset 0 0 2px #1b2f4a;
 }
 
 /*말풍선*/
