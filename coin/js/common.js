@@ -676,3 +676,10 @@ $(document).ready(function(){
     }
   });
 });
+
+//회원가입 이메일인증 팝업
+$(document).ready(function(){
+  $(".join_btn sign_up_bt_on").click(function(){
+    $("#full").show();
+  });
+});

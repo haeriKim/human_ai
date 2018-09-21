@@ -148,3 +148,9 @@
 #signUp_area .signUp_right_con a:hover{
   text-decoration:underline;
 }
+#full{
+display:none;
+}
+#full .popupbox_text{
+  margin-bottom:40px;
+}
