@@ -105,7 +105,9 @@ jQuery(document).ready(function(){
                                   <tbody>
 
                                       <th>현재 로그인 비밀번호</th>
-                                      <td><input type="password" class='user_pass' name="password" value="" placeholder="현재 로그인 비밀번호를 입력하세요." required maxlength="12" minlength="12" /></td>
+                                      <td><input type="password" class='user_pass' name="password" value="" placeholder="현재 로그인 비밀번호를 입력하세요." required maxlength="12" minlength="12" />
+                                          <p class='warning_message'>비밀번호가 일치하지 않습니다.</p>
+                                      </td>
                                     </tr>
 
                                     <tr>
@@ -123,12 +125,14 @@ jQuery(document).ready(function(){
                                                 -동일한 문자가 반복되는 등 패턴이 있는 비밀번호로 만들지 마세요.<br />
                                           </div>
                                         </div>
+                                        <p class='warning_message'>비밀번호 요건이 충족하지 않습니다.</p>
                                       </td>
                                     </tr>
                                     <tr>
                                       <th>새로운 보안 비밀번호 확인</th>
                                       <td>
                                         <input type="password" class='user_security' name="security" value="" placeholder="새로운 보안 비밀번호를 입력하세요." maxlength="12" minlength='12' required/>
+                                        <p class='warning_message'>비밀번호가 일치하지 않습니다.</p>
                                       </td>
                                     </tr>
                                   </tbody>
