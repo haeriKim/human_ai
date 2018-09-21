@@ -79,9 +79,9 @@
 
                           <!-- signUp_right_con -->
                           <div class="signUp_right_con">
-                              <input type="text" name="email_address" value="" placeholder="이메일 주소를 입력해주세요" required>
-                              <input type="password" name="password" value="" placeholder="사용하실 비밀번호를 입력해주세요" required>
-                              <input type="password" name="passowrd_again" value="" placeholder="비밀번호를 다시 입력해주세요" required>
+                              <input type="text" name="email_address" value="" placeholder="이메일 주소를 입력해주세요" required maxlength="30" minlength="8" />
+                              <input type="password" name="password" value="" placeholder="사용하실 비밀번호를 입력해주세요" required maxlength="30" minlength="10"/>
+                              <input type="password" name="passowrd_again" value="" placeholder="비밀번호를 다시 입력해주세요" required maxlength="30" minlength="10"/>
                               <div class="password_alarm_wrap">
                                 <ul>
                                     <li class='password_alarm_li_01'>
@@ -111,7 +111,8 @@
                                 </ul>
                               </div>
                               <div class="btn_area">
-                                  <input type="submit" name="sign_up" value="회원가입">
+                                  <input type="submit" name="sign_up" value="회원가입" class="join_btn sign_up_bt">
+                                  <input type="submit" name="sign_up" value="회원가입" class="join_btn sign_up_bt_on">
                                   <a href="#">이미 CCE 계정이 있으시다면? 로그인</a>
                               </div>
                           </div> <!-- signUp_right_con End-->

@@ -1,6 +1,7 @@
 #signUp_area {
     padding: 30px 40px;
     overflow: hidden;
+    position: relative;
 }
 #signUp_area h3 {
   color: #071f45;
@@ -14,7 +15,7 @@
 }
 /*왼쪽부분*/
 #signUp_area .signUp_left_con{
-
+  margin-right: 2%
 }
 #signUp_area .signUp_left_con label{
     color: #666;
@@ -53,8 +54,8 @@
 
 /*오른쪽부분*/
 #signUp_area .signUp_right_con{
-    margin-left: 30px;
     margin-top: 5px;
+    text-align: center;
 }
 #signUp_area .signUp_right_con > input{
     width: 400px;
@@ -70,6 +71,7 @@
     line-height: 25px;
     height: 145px;
     position: relative;
+
 }
 #signUp_area .signUp_right_con .password_alarm_wrap:before{
     content: "";
@@ -107,9 +109,42 @@
     display: none;
 }
 
-#signUp_area .signUp_right_con .btn_area{
-
+#signUp_area .signUp_right_con input{
+  border:none;
+  border-bottom:1px solid #1b2f4a;
 }
-#signUp_area .signUp_right_con a{
+#signUp_area .signUp_right_con .btn_area{
+  position:absolute;
+  bottom:20px;
+  right: 80px;
+}
+#signUp_area .signUp_right_con .btn_area .join_btn {
+  background:#666;
+  border:none;
+  color:#fff;
+  border-radius:5px;
+  padding:7px 30px;
+  font-size:15px;
+  font-weight:600;
+  cursor:pointer;
+  margin:50px 0;
+  text-align:center;
+  width:400px;
+}
+#signUp_area .signUp_right_con .btn_area .sign_up_bt_on{
+  background:#1b2f4a;
+  color:#fff;
+  display: none;
+}
 
+#signUp_area .signUp_right_con a{
+  font-size:12px;
+  width:400px;
+  display:block;
+  text-align:right;
+  color:#b1b1b1;
+}
+
+#signUp_area .signUp_right_con a:hover{
+  text-decoration:underline;
 }
