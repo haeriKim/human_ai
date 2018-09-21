@@ -208,7 +208,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <th>출금날짜</th>
-                                                                    <td>2018-09-06</td>
+                                                                    <td>2018-09-06 19:06:05</td>
                                                                 </tr>
                                                             </tbody>
                                                         </table><!-- left_thick_table End-->

@@ -190,7 +190,7 @@
                                                 <div class="account_table_wrap">
                                                     <!-- send_account -->
                                                     <div class="send_account">
-                                                        <p>출금될 은행 계좌정보</p>
+                                                        <p>출금될 계좌정보</p>
                                                         <!-- left_thick_table -->
                                                         <table class='left_thick_table'>
                                                             <tbody>
