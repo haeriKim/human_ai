@@ -131,6 +131,7 @@ ul.tabs2 li.active2, ul.tabs3 li.active2, ul.tabs4 li.active2 {
   border:none;
   border-bottom:1px solid #1b2f4a;
   width:300px;
+  padding-bottom:5px;
 }
 /*tab3*/
 
