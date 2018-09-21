@@ -104,12 +104,11 @@
                                 <input type="text" name="" value="">
                                 <textarea name='' placeholder="500자이내로 입력해주세요"></textarea>
                             </div>
-                            <div class="cancel_or_apply">
-                                <input type="reset" name="reset" value="취소" onclick="location.href='leave_member_03.php'" class='cancel_btn'/>
-                                <input type="submit" name="submit" value="다음단계" class='agree_btn'/>
-                            </div>
                         </form>
-
+                        <div class="cancel_or_apply">
+                            <input type="reset" name="reset" value="취소" onclick="location.href='leave_member_03.php'" class='cancel_btn'/>
+                            <input type="submit" name="submit" value="다음단계" onclick="location.href='leave_member_05.php'" class='agree_btn'/>
+                        </div>
                       </div>
 
 

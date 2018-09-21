@@ -48,7 +48,7 @@
                         </form>
 
                         <div class="login_info">
-                            <a href="#">회원가입</a>
+                            <a href="signUp.php">회원가입</a>
                             <ul>
                                 <li><a href='login_findPw.html'>비밀번호 찾기</a></li>
                                 <li>
