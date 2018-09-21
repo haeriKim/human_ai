@@ -694,3 +694,19 @@ $(document).ready(function(){
     $(".copy_pop, #shadow").hide();
   });
 });
+
+// 입출금 내역 상세보기
+$(document).ready(function(){
+  $(".temporary_address_click").hide();
+  var detail = 0;
+  $(".btn_small2").click(function(){
+    if(detail === 0) {
+        $(".temporary_address_click").show();
+        detail = 1;
+    }else {
+      $(".temporary_address_click").hide();
+      detail = 0;
+    }
+
+  });
+});

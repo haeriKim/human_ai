@@ -81,7 +81,7 @@ ul.tabs2 li.active2, ul.tabs3 li.active2, ul.tabs4 li.active2 {
 .user_account .mycoin_data input.btn_small2{
   position:relative;
 }
-.user_account .temporary_address_hover{
+.user_account .mycoin_data input.btn_small2 .temporary_address_click{
   position:absolute;
   top:0; left:0;
   padding:10px 20px;

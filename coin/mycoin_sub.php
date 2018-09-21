@@ -1103,7 +1103,10 @@
                                                       <td style=" overflow:hidden; text-overflow:ellipsis;">
                                                                 <p class='user_account fl'><nobr>9i57j0l5.3880rceid=ch...</nobr></p>
                                                             </td>
-                                                            <td><p class='mycoin_data'><input type="button" value='상세보기' class="btn_small2"/></td>
+                                                            <td class="coin_td">
+                                                              <p class='mycoin_data'><input type="button" value='상세보기' class="btn_small2"/>
+                                                              <span class="temporary_address_click">ewearch&sm=top_hty&fbm=1%ie-itf8query1654848468654564=</span>
+                                                              </td>
                                                       <td><p class='mycoin_data'>&nbsp;</td>
                                                       <td><p class='mycoin_data'>처리완료</td>
                                                       <td><p class='mycoin_data'>&nbsp;</td>
@@ -1475,8 +1478,11 @@
                                                              <td style=" overflow:hidden; text-overflow:ellipsis;">
                                                                        <p class='user_account fl'><nobr>9i57j0l5.3880rceid=ch...</nobr></p>
                                                                    </td>
-                                                                   <td><p class='mycoin_data'><input type="button" value='상세보기' class="btn_small2"/>
+                                                                   <td>
+                                                                     <p class='mycoin_data'>
+                                                                     <input type="button" value='상세보기' class="btn_small2"/>
                                                                       <span class="temporary_address_click">ewearch&sm=top_hty&fbm=1%ie-itf8query1654848468654564=</span>
+                                                                    </p>
                                                                    </td>
                                                              <td><p class='mycoin_data'>&nbsp;</td>
                                                              <td><p class='mycoin_data'>처리완료</td>

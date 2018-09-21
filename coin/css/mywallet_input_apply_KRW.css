@@ -411,6 +411,29 @@ table .mycoin_tbody_deco>tr>td>img{
   margin: 2px;
   margin-right:10px;
 }
+table .mycoin_tbody_deco>tr>td.coin_td {
+  position: relative;
+}
+table .mycoin_tbody_deco>tr>td .temporary_address_click {
+  display: inline-block;
+  background: #1b2f4a;
+  color: #fff;
+  border-radius: 5px;
+  padding: 7px 10px;
+  position: absolute;
+  bottom: -60px;
+  left: -70px;
+}
+table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 7px;
+  border-style: solid;
+  border-color:  transparent transparent #1b2f4a transparent;
+}
 .mycoin_name{
   padding: 3px 10px;
 }
