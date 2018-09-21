@@ -275,3 +275,11 @@
   color: #666;
   font-size: 14px;
 }
+
+/* 주소복사 팝업 */
+#full .copy_pop .popupbox_text b {
+  color: #ff0000;
+  text-align: left;
+  font-size: 13px;
+  line-height: 1.2;
+}
