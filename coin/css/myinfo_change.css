@@ -202,11 +202,9 @@ table .password_question_detail:before {
   position:relative;
   z-index:9999;
   top:0;
+  margin:20px 0;
 }
-.phone_change_box p{
-  padding-top:20px;
-  padding-bottom:40px;
-}
+
 .phone_change_box2{
   width:435px;
   position:relative;

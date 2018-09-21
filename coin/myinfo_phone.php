@@ -131,9 +131,8 @@ jQuery(document).ready(function(){
               <div class="full_inner">
                 <h2>휴대폰 번호 변경하기</h2>
                 <div class="popupbox_text">
-                  <p class="user_mail">abc@naver.com<br/>
-                    <br/>
-                    해당 메일로 휴대폰번호 변경 요청을 하시겠습니까?</p>
+                  <p class="user_mail">abc@naver.com</p>
+                  <p class="small">해당 메일로 휴대폰번호 변경 요청을 하시겠습니까?</p>
                 </div>
                 <div class="cancel_or_apply">
                   <input type="button" name="" value="취소" onclick="location.href='myinfo_phone.php'" class="cancel_btn">
