@@ -77,7 +77,18 @@ ul.tabs2 li.active2, ul.tabs3 li.active2, ul.tabs4 li.active2 {
 }
 
 
-
+/*BTC_input_address_wrap hover*/
+.BTC_input_address_wrap .temporary_address{
+  position:relative;
+  border:1px solid red;
+}
+.BTC_input_address_wrap .temporary_address .temporary_address_hover{
+  positon:absolute;
+  padding:10px 20px;
+  color:white;
+  background-color: #1b2f4a;
+  display: inline-block;
+}
 
 /*chegyeol & michegyeol*/
 

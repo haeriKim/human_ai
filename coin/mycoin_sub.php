@@ -1223,7 +1223,10 @@
                                                              <span>회원님에게 할당된 아래의 주소로 비트코인을 입금할 수 있습니다.</span>
                                                              <div class="my_coin_address">
                                                                  <p class='emphasis'>나의 BTC 주소 (입금전용)</p>
-                                                                 <p class='up_down_data temporary_address'>ewearch&sm=top_hty&fbm=1%ie-itf8query1654848468654564=</p>
+                                                                 <p class='up_down_data temporary_address'>ewearch&sm=top_hty&fbm=1%ie-itf8query1654848468654564=
+<span class="temporary_address_click">ewearch&sm=top_hty&fbm=1%ie-itf8query1654848468654564=</span>
+                                                                 </p>
+
                                                                  <input type="button" name="" value="복사하기" class=''>
                                                                  <img src="img/qr_code.png" alt="qr코드 주소">
                                                              </div>
