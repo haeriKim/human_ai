@@ -115,7 +115,7 @@
 
                       <div class="center_bottom">
                         <div class="cText_left3">
-
+                            <p class='content_title'>OTP인증</p>
                             <strong><span>1</span>. OTP앱을 스마트폰에 다운로드 받으세요.</strong>
                             <ul class="android">
                               <li class="app_title">[ 안드로이드 휴대폰 전용 Google OTP ]</li>

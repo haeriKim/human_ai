@@ -132,7 +132,7 @@
                             <strong>[ CCE 고객의 안전한 투자를 위한 이용법칙 ]</strong>
                             <p>-만 19세 이하는 거래 할 수 없습니다.</p>
                             <p class="important">-Level 3(실명인증) 인증 완료 후 거래소 이용이 가능합니다.</p>
-                            <p class="important">-입금/출금은 Level 4(출금계좌 등록) 인증 완료 후 이용이 가능합니다.</p>
+                            <p class="important">-입금/출금은 Level 4(계좌인증) 인증 완료 후 이용이 가능합니다.</p>
                             <p class="important">-인증된 정보를 변경하시려면 <span class='underline'>'마이페이지 > 회원정보관리'</span> 에서 이용해주세요.</p>
                           </div>
                         </div>
@@ -146,25 +146,25 @@
                             <li class='cer_lv_02'>
                               <img src="img/lv2.png" alt="레벨2"/>
                               <p>보안비밀번호 생성<span class='recommend'>*권장</span></p>
-                              <a href="certification_account.php" class="c_btn go_cer">인증하기</a>
+                              <a href="certification_security_password.php" class="c_btn go_cer">인증하기</a>
                               <span class="c_btn c_complete">인증완료</span>
                             </li>
                             <li class='cer_lv_03'>
                               <img src="img/lv3.png" alt="레벨3"/>
                               <p>실명인증<span class='recommend'>*권장</span></p>
-                              <a href="certification_account.php" class="c_btn go_cer">인증하기</a>
+                              <a href="certification_phone.php" class="c_btn go_cer">인증하기</a>
                               <span class="c_btn c_complete">인증완료</span>
                             </li>
                             <li class='cer_lv_04'>
                               <img src="img/lv4.png" alt="레벨4"/>
-                              <p>출금계좌 등록<span class="recommend">*권장</span></p>
+                              <p>계좌인증<span class="recommend">*권장</span></p>
                               <a href="certification_account.php" class="c_btn go_cer">인증하기</a>
                               <span class="c_btn c_complete">인증완료</span>
                             </li>
                             <li class='cer_lv_05'>
                               <img src="img/lv5.png" alt="레벨5"/>
                               <p>Google OTP인증<span class="recommend">*권장</span></p>
-                              <a href="#" class="c_btn go_cer">인증하기</a>
+                              <a href="certification_OTP.php" class="c_btn go_cer">인증하기</a>
                               <span class="c_btn c_complete">인증완료</span>
                             </li>
                           </ul>

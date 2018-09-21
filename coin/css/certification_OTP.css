@@ -16,6 +16,12 @@
   margin-bottom:20px;
   display:block;
 }
+.center_bottom .cText_left3 .content_title{
+    color: #1b2f4a;
+    font-weight: 600;
+    margin-bottom: 42px;
+    font-size: 18px;
+}
 .center_bottom .cText_left3 strong span{
   font-size:25px;
 }
