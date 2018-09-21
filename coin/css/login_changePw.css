@@ -37,3 +37,6 @@
 .login_content #login_change_pw p.notfiy_info_wrong{
     display: none;
 }
+.login_content .login_change_pw_wrap{
+    margin: 314px auto;
+}

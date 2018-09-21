@@ -33,7 +33,7 @@
             <div class="content_wrap">
                 <!-- main_content -->
                 <div class="content login_content">
-                  <div class="box con_410">
+                  <div class="box con_410 login_c_changePw_wrap">
                     <div id="login_c_change_pw">
                         <h3>비밀번호 변경 완료</h3>
                         <p class='text_area'>비밀번호 변경이 완료되었습니다.</p>

@@ -33,7 +33,7 @@
             <div class="content_wrap">
                 <!-- main_content -->
                 <div class="content login_content">
-                  <div class="box con_410">
+                  <div class="box con_410 login_find_pw_wrap">
                     <!-- 로그인폼 -->
                     <div id="login_find_pw">
                         <form class="" action="#" method="post">
