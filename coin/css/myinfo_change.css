@@ -208,7 +208,9 @@ table .password_question_detail:before {
   padding-bottom:30px;
 
 }
-
+.phone_change_box .popupbox_text_phone2{
+  padding:20px 0;
+}
 .phone_change_box2{
   width:435px;
   position:relative;

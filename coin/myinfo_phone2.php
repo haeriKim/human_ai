@@ -160,7 +160,7 @@ jQuery(document).ready(function(){
                   <div class="full_inner">
                     <h2>인증번호 발송완료</h2>
                     <div class="popupbox_text">
-                      <p>등록하신 휴대폰으로 인증번호를 발송하였습니다.</p>
+                      <p class="popupbox_text_phone2">등록하신 휴대폰으로 인증번호를 발송하였습니다.</p>
                     </div>
                     <div class="cancel_or_apply">
                       <input type="button" name="" value="확인" onclick="location.href='myinfo_phone2.php'" class="agree_btn">
