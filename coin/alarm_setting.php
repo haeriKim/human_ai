@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/sub_menu.css">
     <link rel="stylesheet" href="css/alarm.css">
+    <link rel="stylesheet" href="css/popup.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/common.js"></script>
@@ -164,7 +165,6 @@
                                   </div>
 
                                   <div class="alarm_sangse_bt">
-                                    <input type="reset" name="reset" value="초기화" class='alarm_reset_bt'/>
                                     <input type="submit" name="submit" value="저장" class='save_bt'/>
 
                                   </div>
@@ -188,6 +188,23 @@
 
         </div><!-- container End -->
     </div><!-- wrap End -->
+
+    <div id="full">
+                <!-- full_content -->
+                <div id="popupbox" class='box popup phone_change_box'>
+                  <div class="full_inner">
+                    <h2>알람</h2>
+                    <div class="popupbox_text">
+                      <p>알림설정이 저장되었습니다.</p>
+                    </div>
+                    <div class="cancel_or_apply">
+                      <input type="button" name="" value="확인" onclick="location.href='alarm_setting.php'" class="agree_btn">
+                    </div>
+
+                  </div>
+                </div><!-- full_content End-->
+                <div id="shadow"></div>
+        </div>
 
 </body>
 </html>

@@ -464,6 +464,14 @@ $(document).ready(function(){
   });
 });
 
+//알람 저장버튼
+$(document).ready(function(){
+  $(".save_bt").click(function(){
+    $("#full").show();
+  });
+});
+
+
 //알림 리스트 삭제
 $(document).ready(function(){
   var a_count = $(".alarm_desc dd").length;
