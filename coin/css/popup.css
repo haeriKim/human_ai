@@ -277,9 +277,14 @@
 }
 
 /* 주소복사 팝업 */
-#full .copy_pop .popupbox_text b {
+#qustion_mark_active_full .copy_pop .popupbox_text b {
   color: #ff0000;
   text-align: left;
   font-size: 13px;
   line-height: 1.2;
+}
+
+/* 휴대폰번호 변경 팝업 */
+#popupbox .popupbox_text p.small {
+  font-size: 14px;
 }
