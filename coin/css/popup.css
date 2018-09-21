@@ -265,3 +265,13 @@
   color: #fff;
   margin: 20px 0;
 }
+
+
+/* 로그인팝업 */
+.popup a.join_btn {
+  display: inline-block;
+  text-decoration: underline;
+  margin-top: 20px;
+  color: #666;
+  font-size: 14px;
+}
