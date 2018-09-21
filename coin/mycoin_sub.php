@@ -939,7 +939,7 @@
                                                                     <tr>
                                                                         <th>보안 비밀번호</th>
                                                                         <td>
-                                                                            <input type="text" class='user_security' name="" value="" placeholder="보안 비밀번호를 입력하세요." required maxlength="4" minlength='4'>
+                                                                            <input type="password" class='user_security' name="" value="" placeholder="보안 비밀번호를 입력하세요." required maxlength="4" minlength='4'>
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
@@ -1312,7 +1312,7 @@
                                                                              <tr>
                                                                                  <th>보안 비밀번호</th>
                                                                                  <td>
-                                                                                     <input type="text" class='user_security' name="" value="" placeholder="보안 비밀번호를 입력하세요." required maxlength="4" minlength='4'>
+                                                                                     <input type="password" class='user_security' name="" value="" placeholder="보안 비밀번호를 입력하세요." required maxlength="4" minlength='4'>
                                                                                  </td>
                                                                              </tr>
                                                                              <tr>
