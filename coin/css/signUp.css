@@ -36,6 +36,7 @@
     font-weight: 600;
     font-size: 16px;
     margin-bottom: 8px;
+    color: #1b2f4a;
 }
 #signUp_area .signUp_left_con .agree_content_box .text_box{
     border-radius: 5px;
@@ -50,6 +51,7 @@
 #signUp_area .signUp_left_con .all_agree_label{
     text-align: left;
     margin-top: 17px;
+  color: #1b2f4a;
 }
 
 /*오른쪽부분*/
@@ -67,13 +69,11 @@
 #signUp_area .signUp_right_con .password_alarm_wrap{
     background-color: rgba(27,47,74,.2);
     border-radius: 5px;
-    width: 400px;
     line-height: 25px;
-    height: 145px;
+    margin: 0 auto;
     position: relative;
-    overflow: hidden;
 }
-#signUp_area .signUp_right_con .password_alarm_wrap:before{
+#signUp_area .signUp_right_con .password_alarm_wrap::after{
     content: "";
     position: absolute;
     top: -10px;
@@ -82,6 +82,9 @@
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     opacity: 0.9;
+}
+#signUp_area .signUp_right_con .password_alarm_wrap .password_alarm_text {
+  overflow: hidden;
 }
 #signUp_area .signUp_right_con .password_alarm_wrap ul {
     float: left;

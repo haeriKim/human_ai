@@ -84,34 +84,36 @@
                               <input type="password" name="password" value="" placeholder="사용하실 비밀번호를 입력해주세요" required maxlength="30" minlength="10" class='user_pass'/>
                               <input type="password" name="passowrd_again" value="" placeholder="비밀번호를 다시 입력해주세요" required maxlength="30" minlength="10" class='user_passChk'/>
                               <div class="password_alarm_wrap">
-                                <ul class='password_alarm_ul password_alarm_ul_01'>
-                                    <li class='password_alarm_li_01'>
-                                        <span class='not_meet'>소문자를 포함</span>
-                                        <span class='meet'>소문자를 포함</span>
-                                    </li>
-                                    <li class='password_alarm_li_02'>
-                                        <span class='not_meet'>10자리 이상</span>
-                                        <span class='meet'>10자리 이상</span>
-                                    </li>
-                                    <li class='password_alarm_li_03'>
-                                        <span class='not_meet'>대문자를 포함</span>
-                                        <span class='meet'>대문자를 포함</span>
-                                    </li>
-                                </ul>
-                                <ul class='password_alarm_ul password_alarm_ul_02'>
-                                    <li class='password_alarm_li_04'>
-                                        <span class='not_meet'>비밀번호 확인 일치</span>
-                                        <span class='meet'>비밀번호 확인 일치</span>
-                                    </li>
-                                    <li class='password_alarm_li_05'>
-                                        <span class='not_meet'>숫자를 포함</span>
-                                        <span class='meet'>숫자를 포함</span>
-                                    </li>
-                                    <li class='password_alarm_li_06'>
-                                        <span class='not_meet'>특수문자(~!@#$%^*) 포함</span>
-                                        <span class='meet'>특수문자(~!@#$%^*) 포함</span>
-                                    </li>
-                                </ul>
+                                <div class="password_alarm_text">
+                                  <ul class='password_alarm_ul password_alarm_ul_01'>
+                                      <li class='password_alarm_li_01'>
+                                          <span class='not_meet'>소문자를 포함</span>
+                                          <span class='meet'>소문자를 포함</span>
+                                      </li>
+                                      <li class='password_alarm_li_02'>
+                                          <span class='not_meet'>10자리 이상</span>
+                                          <span class='meet'>10자리 이상</span>
+                                      </li>
+                                      <li class='password_alarm_li_03'>
+                                          <span class='not_meet'>대문자를 포함</span>
+                                          <span class='meet'>대문자를 포함</span>
+                                      </li>
+                                  </ul>
+                                  <ul class='password_alarm_ul password_alarm_ul_02'>
+                                      <li class='password_alarm_li_04'>
+                                          <span class='not_meet'>비밀번호 확인 일치</span>
+                                          <span class='meet'>비밀번호 확인 일치</span>
+                                      </li>
+                                      <li class='password_alarm_li_05'>
+                                          <span class='not_meet'>숫자를 포함</span>
+                                          <span class='meet'>숫자를 포함</span>
+                                      </li>
+                                      <li class='password_alarm_li_06'>
+                                          <span class='not_meet'>특수문자(~!@#$%^*) 포함</span>
+                                          <span class='meet'>특수문자(~!@#$%^*) 포함</span>
+                                      </li>
+                                  </ul>
+                                </div>
                               </div>
                               <div class="btn_area">
                                   <input type="submit" name="sign_up" value="회원가입" class="join_btn sign_up_bt">

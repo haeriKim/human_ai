@@ -623,3 +623,44 @@ $(document).ready(function(){
       $("#full").show();
   });
 });
+
+//회원가입 체크박스
+$(document).ready(function(){
+  $(".im_all_agree").click(function(){
+      if($(".im_all_agree").prop("checked")) {
+          $(".im_agree").prop("checked",true);
+          $(".sign_up_bt").hide();
+          $(".sign_up_bt_on").show();
+      }else {
+          $(".im_agree").prop("checked",false);
+          $(".sign_up_bt").show();
+          $(".sign_up_bt_on").hide();
+      }
+  });
+  $(".im_agree").change(function(){
+      var join_chk = $(".im_agree");
+      if(join_chk.length == join_chk.filter(":checked").length){
+        $(".im_all_agree").prop("checked",true);
+        $(".sign_up_bt").hide();
+        $(".sign_up_bt_on").show();
+      }else {
+        $(".im_all_agree").prop("checked",false);
+        $(".sign_up_bt").show();
+        $(".sign_up_bt_on").hide();
+        if($('#agree_content_01').is(":checked") && $('#agree_content_02').is(":checked")){
+          $(".sign_up_bt").hide();
+          $(".sign_up_bt_on").show();
+        }
+      }
+  });
+
+});
+//회원가입 - 비밀번호 요건
+$(document).ready(function(){
+  $(".password_alarm_wrap").hide();
+  var input_val = $(".signUp_right_con .user_pass");
+  input_val.on('keyup', function() {
+    console.log("fdf");
+    $(".password_alarm_wrap").show();
+  });
+});

@@ -193,9 +193,9 @@
                 <!-- full_content -->
                 <div id="popupbox" class='box popup phone_change_box'>
                   <div class="full_inner">
-                    <h2>알람</h2>
+                    <h2>알림 설정 완료</h2>
                     <div class="popupbox_text">
-                      <p>알림설정이 저장되었습니다.</p>
+                      <p>알림 설정이 저장되었습니다.</p>
                     </div>
                     <div class="cancel_or_apply">
                       <input type="button" name="" value="확인" onclick="location.href='alarm_setting.php'" class="agree_btn">
