@@ -308,7 +308,7 @@
                                                                             <tr>
                                                                                 <th>보안 비밀번호</th>
                                                                                 <td>
-                                                                                    <input type="text" name="" value="" placeholder="보안 비밀번호를 입력하세요." required maxlength="4" minlength='4'>
+                                                                                    <input type="password" name="" value="" placeholder="보안 비밀번호를 입력하세요." required maxlength="4" minlength='4'>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr>
@@ -547,7 +547,7 @@
 
                                                     </form>
                                                   </div><!-- mywallet_tab End-->
-                                  </div><!-- bitcoin_input_output End--><!-- 비트코인 입출금  끝--> 
+                                  </div><!-- bitcoin_input_output End--><!-- 비트코인 입출금  끝-->
 
 
                                     </div><!--#tab3 입출금 End-->

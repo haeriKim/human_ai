@@ -872,7 +872,7 @@
                                                         <div class="cancel_or_apply">
                                                             <input type="reset" name="reset" value="취소" class='cancel_btn'/>
                                                             <span class='agree_btn if_you_not_all_agree'>입금신청</span>
-                                                            <input type="submit" name="submit" onclick="location.href='leave_member_02.php'" value="입금신청" class='agree_btn if_you_all_agree'/>
+                                                            <input type="submit" name="submit" value="입금신청" class='agree_btn if_you_all_agree'/>
                                                         </div>
                                                     </div><!-- before_send_money_wrap End-->
                                                 </form>
