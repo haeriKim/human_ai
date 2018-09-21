@@ -683,3 +683,14 @@ $(document).ready(function(){
     $("#full").show();
   });
 });
+
+//입금 주소 복사
+$(document).ready(function(){
+  $(".copy_pop, #shadow").hide();
+  $("#input_bitcoin div.BTC_input_address_wrap input[type='button']").click(function(){
+    $(".copy_pop, #shadow").show();
+  });
+  $(".close_btn").click(function(){
+    $(".copy_pop, #shadow").hide();
+  });
+});

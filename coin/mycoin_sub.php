@@ -1711,7 +1711,26 @@
                     <a href="#" class='close_btn'>닫기</a>
                 </div>
             </div><!-- question_mark_active End-->
+
+            <div id="popupbox" class='box popup copy_pop'>
+                <div class="full_inner">
+                    <h2>복사 완료</h2>
+                    <div class="popupbox_text">
+                      <p>주소가 복사되었습니다.</p>
+                      <b>
+                        <img src="img/icon_ex.png" alt="주의 아이콘"/>
+                        주소를 붙여넣기를 하신 후,<br />
+                        현재 복사 된 주소와 동일한지 다시 한번 꼭 확인해주세요.
+                      </b>
+                    </div>
+                    <div class="btn_area">
+                      <input type="button" name="" value="닫기" class="popupbt ok close_btn"/>
+                    </div>
+                </div>
+            </div><!-- full_content End-->
+
             <div id="shadow"></div>
     </div>  <!-- full End-->
+
 </body>
 </html>
