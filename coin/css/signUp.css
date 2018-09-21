@@ -86,11 +86,13 @@
 #signUp_area .signUp_right_con .password_alarm_wrap .password_alarm_text {
   overflow: hidden;
 }
-#signUp_area .signUp_right_con .password_alarm_wrap ul {
+#signUp_area .signUp_right_con .password_alarm_wrap .password_alarm_ul {
     float: left;
     width: 50%;
+    margin-left: 20px;
 }
-#signUp_area .signUp_right_con .password_alarm_wrap ul li{
+#signUp_area .signUp_right_con .password_alarm_wrap ul.password_alarm_ul_02{
+    margin-left: -40px;
 }
 #signUp_area .signUp_right_con .password_alarm_wrap ul li span{
     font-size: 14px;
@@ -103,6 +105,8 @@
 }
 #signUp_area .signUp_right_con .password_alarm_wrap .meet{
     display: none;
+    color: #1b2f4a;
+    background: url(../img/check.png) no-repeat 5px 16px / 15px;
 }
 
 #signUp_area .signUp_right_con input{

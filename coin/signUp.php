@@ -6,7 +6,6 @@
     <title>CCE</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/signUp.css">
-    <link rel="stylesheet" href="css/signUp_02.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/nav.css">
