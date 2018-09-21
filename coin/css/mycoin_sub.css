@@ -78,12 +78,12 @@ ul.tabs2 li.active2, ul.tabs3 li.active2, ul.tabs4 li.active2 {
 
 
 /*BTC_input_address_wrap hover*/
-.BTC_input_address_wrap .temporary_address{
+.user_account .mycoin_data input.btn_small2{
   position:relative;
-  border:1px solid red;
 }
-.BTC_input_address_wrap .temporary_address .temporary_address_hover{
-  positon:absolute;
+.user_account .temporary_address_hover{
+  position:absolute;
+  top:0; left:0;
   padding:10px 20px;
   color:white;
   background-color: #1b2f4a;
