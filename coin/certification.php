@@ -73,37 +73,41 @@
                           <span>실제 사용 중인<br/>이메일 계정을 인증해주세요.</span>
                         </li>
                         <li>
-                          <img src="img/lv2.png" alt="레벨2" />
+                          <img src="img/lv2.png" alt="레벨2" class='lv2_on'/>
+                          <img src="img/lv2_off.png" alt="레벨2_off" class='lv2_off'/>
                           <p class="img_area">
-                            <img src="img/key.png" alt="보안비밀번호생성 아이콘" />
+                            <img src="img/key.png" alt="보안비밀번호생성 아이콘" class='lv2_on'/>
+                            <img src="img/key_off.png" alt="보안비밀번호생성 아이콘_off" class='lv2_off'/>
                           </p>
                           <strong>보안비밀번호 생성</strong>
                           <span>안전거래를 위한 <br/>보안비밀번호를 생성해주세요.</span>
                         </li>
                         <li>
-                          <img src="img/lv3.png" alt="레벨3" />
+                          <img src="img/lv3.png" alt="레벨3" class='lv3_on'/>
+                          <img src="img/lv3_off.png" alt="레벨3_off" class='lv3_off'/>
                           <p class="img_area">
-                            <img src="img/phone.png" alt="휴대폰인증 아이콘" />
+                            <img src="img/phone.png" alt="실명인증 아이콘" class='lv3_on'/>
+                            <img src="img/phone_off.png" alt="실명인증 아이콘_off" class='lv3_off'/>
                           </p>
                           <strong>실명인증</strong>
                           <span>본인명의 휴대폰을 통하여<br/>실명을 인증해주세요.</span>
                         </li>
                         <li>
                           <img src="img/lv4.png" alt="레벨4" class="lv4_on"/>
-                          <img src="img/lv4_off.png" alt="레벨4" class="lv4_off"/>
+                          <img src="img/lv4_off.png" alt="레벨4_off" class="lv4_off"/>
                           <p class="img_area">
-                            <img src="img/bankbook_off.png" alt="계좌인증 아이콘" class="account_off"/>
-                            <img src="img/bankbook.png" alt="계좌인증 아이콘" class="account_on" />
+                            <img src="img/bankbook.png" alt="계좌인증 아이콘" class="lv4_on"/>
+                            <img src="img/bankbook_off.png" alt="계좌인증 아이콘_off" class="lv4_off"/>
                           </p>
                           <strong class="gray_title">계좌인증</strong>
                           <span>거래소를 이용하기 위한<br/>계좌를 인증해주세요.</span>
                         </li>
                         <li>
                           <img src="img/lv5.png" alt="레벨5" class="lv5_on">
-                          <img src="img/lv5_off.png" alt="레벨4" class="lv5_off"/>
+                          <img src="img/lv5_off.png" alt="레벨5_off" class="lv5_off"/>
                           <p class="img_area">
-                            <img src="img/lock_off.png" alt="OTP인증 아이콘" class="otp_off"/>
-                            <img src="img/lock.png" alt="OTP인증인증 아이콘" class="otp_on" />
+                            <img src="img/lock.png" alt="OTP인증 아이콘" class="lv5_on"/>
+                            <img src="img/lock_off.png" alt="OTP인증 아이콘_off" class="lv5_off" />
                           </p>
                           <strong class="gray_title">OTP인증</strong>
                           <span>실제 사용 중인<br/>OTP로 인증해주세요.</span>
@@ -114,51 +118,54 @@
                         <div class="cText_left">
                           <div class="current_level">
                             <strong>[ 보안인증 ]</strong>
-                            <b><span class="user_name">가*다</span>님의 현재 보안등급은 레벨<span class="user_level">3</span>입니다.</b>
-                            <p>
+                            <b>
+                                회원님의 현재 보안등급은 <span class='level_color'>Level <span class="user_level">3</span></span>입니다.
+                            </b>
+                            <p class='need_more_level'>
                               입출금 이용을 위해 보안등급 상향이 필요합니다.
+                            </p>
+                            <p class='max_level'>
+                              안전한 거래를 위한 모든 보안단계가 인증되었습니다.
                             </p>
                           </div>
                           <div class="center_rule">
                             <strong>[ CCE 고객의 안전한 투자를 위한 이용법칙 ]</strong>
                             <p>-만 19세 이하는 거래 할 수 없습니다.</p>
-                            <p class="important">-이메일 인증완료 후 암호화폐 거래소 이용이 가능합니다.</p>
-                            <p class="important">-KRW 입금 출금은 4단계(Google OTP) 인증완료 후 이용이 가능합니다.</p>
-                            <p class="important">-인증된 정보를 변경하시려면 <span>'마이페이지 > 회원정보관리'</span> 에서 이용해주세요.</p>
+                            <p class="important">-Level 3(실명인증) 인증 완료 후 거래소 이용이 가능합니다.</p>
+                            <p class="important">-입금/출금은 Level 4(출금계좌 등록) 인증 완료 후 이용이 가능합니다.</p>
+                            <p class="important">-인증된 정보를 변경하시려면 <span class='underline'>'마이페이지 > 회원정보관리'</span> 에서 이용해주세요.</p>
                           </div>
                         </div>
                         <div class="cText_right">
                           <ul>
-                            <li>
+                            <li class='cer_lv_01'>
                               <img src="img/lv1.png" alt="레벨1"/>
                               <p>이메일인증<span>*필수</span></p>
                               <span class="c_btn c_complete">인증완료</span>
                             </li>
-                            <li>
+                            <li class='cer_lv_02'>
                               <img src="img/lv2.png" alt="레벨2"/>
-                              <p>보안비밀번호 생성<span>*필수</span></p>
+                              <p>보안비밀번호 생성<span class='recommend'>*권장</span></p>
+                              <a href="certification_account.php" class="c_btn go_cer">인증하기</a>
                               <span class="c_btn c_complete">인증완료</span>
                             </li>
-                            <li>
+                            <li class='cer_lv_03'>
                               <img src="img/lv3.png" alt="레벨3"/>
-                              <p>휴대폰인증<span>*필수</span></p>
+                              <p>실명인증<span class='recommend'>*권장</span></p>
+                              <a href="certification_account.php" class="c_btn go_cer">인증하기</a>
                               <span class="c_btn c_complete">인증완료</span>
                             </li>
-                            <li>
+                            <li class='cer_lv_04'>
                               <img src="img/lv4.png" alt="레벨4"/>
                               <p>출금계좌 등록<span class="recommend">*권장</span></p>
-                              <a href="certification_account.php" class="c_btn lv4_ing">인증하기</a>
-                              <span class="c_btn complete">인증완료</span>
+                              <a href="certification_account.php" class="c_btn go_cer">인증하기</a>
+                              <span class="c_btn c_complete">인증완료</span>
                             </li>
-                            <li>
+                            <li class='cer_lv_05'>
                               <img src="img/lv5.png" alt="레벨5"/>
                               <p>Google OTP인증<span class="recommend">*권장</span></p>
-                              <a href="#" class="c_btn lv5_ing">인증하기</a>
-                              <span class="c_btn ing disable">인증하기</span>
-                              <span class="c_btn complete">인증완료</span>
-                              <p id="malpungsun">
-                                출금계좌 등록 후 Google OTP인증이 가능합니다.
-                              </p>
+                              <a href="#" class="c_btn go_cer">인증하기</a>
+                              <span class="c_btn c_complete">인증완료</span>
                             </li>
                           </ul>
                         </div>
