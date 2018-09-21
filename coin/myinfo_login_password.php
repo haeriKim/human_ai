@@ -73,7 +73,6 @@ jQuery(document).ready(function(){
                         <div class="myinfo_small_info_box">
                           <div class="myinfo_box1">
                             <strong class="user_name">가*다</strong>
-                            <strong class="no_name">-</strong>
                             <p class="user_mail">abc@naver.com</p>
                           </div>
                           <div class="myinfo_box2">
@@ -83,7 +82,7 @@ jQuery(document).ready(function(){
                                 <p class="myinfo_detail user_phone">
                                   <span>010</span>-<span>1***</span>-<span>***0</span>
                                 </p>
-                                <p class='myinfo_detail no_phone'>-</p>
+                                <p class='myinfo_detail no_phone'><span>010</span>-<span>1***</span>-<span>***0</span></p>
                               </li>
                             </ul>
                             <ul class="list_2">

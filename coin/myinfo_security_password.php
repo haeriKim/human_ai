@@ -113,16 +113,13 @@ jQuery(document).ready(function(){
                                     <tr>
                                       <th>새로운 보안 비밀번호</th>
                                       <td>
-                                        <input type="text" name="" value="" placeholder="새로운 보안 비밀번호를 입력하세요." required maxlength="12" minlength="12" />
+                                        <input type="password" name="" value="" placeholder="새로운 보안 비밀번호를 입력하세요." required maxlength="4" minlength="4" />
                                         <div class="question_smallbox"><img src="img/question.png">
-                                          <div class="password_question_detail">
-                                                안전한 비밀번호 작성 법<br />
-                                                -비밀번호는 영문 소문자, 대문자, 숫자, 특수문자를 포함하여 10자리 이상으로 만드셔야 합니다. <br />
-                                                -비밀번호는 최대한 길게 작성해주세요.<br />
-                                                -단, 허용되는 특수문자(~!@#$%^*)외 다른 특수문자는 사용할 수 없습니다.<br />
-                                                -ID, 생일, 전화번호 등 개인정보를 이용해 만든 비밀번호를 사용하지 마세요.<br />
-                                                -포털 사이트나 타 거래소 등 타 사이트와 동일하거나 비슷한 암호를 설정하지 마세요.타 사이트에서 암호가 유출될 경우 제3자가 회원님의 계정에 접근할 위험이 있습니다.<br />
-                                                -동일한 문자가 반복되는 등 패턴이 있는 비밀번호로 만들지 마세요.<br />
+                                          <div class="password_question_detail2">
+                                                -숫자로 이루어진 4자리 보안 비밀번호를 입력해주세요.<br/>
+                                                -해킹사고 방지를 위해 보안비밀번호를 자주 변경해주세요.<br/>
+                                                -4자리의 중복 및 연속 숫자, 휴대폰 번호, 이메일 주소의 숫자,<br/>
+                                                 비밀번호에 포함된 숫자 등 추측이 가능한 번호는 피해주세요.
                                           </div>
                                         </div>
                                         <p class='warning_message'>비밀번호 요건이 충족하지 않습니다.</p>
@@ -131,7 +128,7 @@ jQuery(document).ready(function(){
                                     <tr>
                                       <th>새로운 보안 비밀번호 확인</th>
                                       <td>
-                                        <input type="password" class='user_security' name="security" value="" placeholder="새로운 보안 비밀번호를 입력하세요." maxlength="12" minlength='12' required/>
+                                        <input type="password" class='user_security' name="security" value="" placeholder="새로운 보안 비밀번호를 입력하세요." maxlength="4" minlength='4' required/>
                                         <p class='warning_message'>비밀번호가 일치하지 않습니다.</p>
                                       </td>
                                     </tr>
