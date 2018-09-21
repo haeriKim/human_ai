@@ -118,6 +118,7 @@
                           <div class="myinfo_table_wrap myinfo_table_wrap2">
                             <!-- send_login_password -->
                             <div class="send_login_password">
+                              <p class="table_title">보안비밀번호 생성</p>
                               <form action="#" class="phone2">
                               <table class='left_thick_table'>
                                 <tbody>

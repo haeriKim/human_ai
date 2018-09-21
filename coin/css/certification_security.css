@@ -111,6 +111,11 @@ table .password_question_detail:before {
     margin-top: 4px;
     font-size: 12px;
 }
+.myinfo_sub_box .send_login_password .table_title{
+  color:#1b2f4a;
+  font-weight:600;
+  margin-bottom:20px;
+}
 
 .myinfo_text_box{
   padding:50px 0;

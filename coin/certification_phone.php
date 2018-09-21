@@ -119,6 +119,7 @@
                           <div class="myinfo_table_wrap myinfo_table_wrap2">
                             <!-- send_login_password -->
                             <div class="send_login_password">
+                              <p class="table_title">실명인증</p>
                               <form action="#" class="phone2">
                               <table class='left_thick_table'>
                                 <tbody>
@@ -144,7 +145,7 @@
                               </table>
                               <div class="cancel_or_apply">
                                 <input type="button" name="" value="취소" onclick="location.href='myinfo_phone.php'"class="cancel_btn">
-                                <input type="submit" name="" value="변경" onclick="location.href='certification_phone_success.php'" class="agree_btn">
+                                <input type="submit" name="" value="등록" onclick="location.href='certification_phone_success.php'" class="agree_btn">
                               </div>
 
                               </form>
