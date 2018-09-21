@@ -6,6 +6,7 @@
     <title>CCE</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/signUp.css">
+    <link rel="stylesheet" href="css/signUp_02.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/nav.css">
@@ -83,32 +84,32 @@
                               <input type="password" name="password" value="" placeholder="사용하실 비밀번호를 입력해주세요" required maxlength="30" minlength="10" class='user_pass'/>
                               <input type="password" name="passowrd_again" value="" placeholder="비밀번호를 다시 입력해주세요" required maxlength="30" minlength="10" class='user_passChk'/>
                               <div class="password_alarm_wrap">
-                                <ul>
+                                <ul class='password_alarm_ul password_alarm_ul_01'>
                                     <li class='password_alarm_li_01'>
                                         <span class='not_meet'>소문자를 포함</span>
-                                        <span class='meet'><img src="img/check.png" alt="조건만족">소문자를 포함</span>
+                                        <span class='meet'>소문자를 포함</span>
                                     </li>
                                     <li class='password_alarm_li_02'>
                                         <span class='not_meet'>10자리 이상</span>
-                                        <span class='meet'><img src="img/check.png" alt="조건만족">10자리 이상</span>
+                                        <span class='meet'>10자리 이상</span>
                                     </li>
                                     <li class='password_alarm_li_03'>
                                         <span class='not_meet'>대문자를 포함</span>
-                                        <span class='meet'><img src="img/check.png" alt="조건만족">대문자를 포함</span>
+                                        <span class='meet'>대문자를 포함</span>
                                     </li>
                                 </ul>
-                                <ul>
+                                <ul class='password_alarm_ul password_alarm_ul_02'>
                                     <li class='password_alarm_li_04'>
                                         <span class='not_meet'>비밀번호 확인 일치</span>
-                                        <span class='meet'><img src="img/check.png" alt="조건만족">비밀번호 확인 일치</span>
+                                        <span class='meet'>비밀번호 확인 일치</span>
                                     </li>
                                     <li class='password_alarm_li_05'>
                                         <span class='not_meet'>숫자를 포함</span>
-                                        <span class='meet'><img src="img/check.png" alt="조건만족">숫자를 포함</span>
+                                        <span class='meet'>숫자를 포함</span>
                                     </li>
                                     <li class='password_alarm_li_06'>
                                         <span class='not_meet'>특수문자(~!@#$%^*) 포함</span>
-                                        <span class='meet'><img src="img/check.png" alt="조건만족">특수문자(~!@#$%^*) 포함</span>
+                                        <span class='meet'>특수문자(~!@#$%^*) 포함</span>
                                     </li>
                                 </ul>
                               </div>
