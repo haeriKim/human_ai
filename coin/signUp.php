@@ -63,7 +63,7 @@
                                 <label for='agree_content_02'>동의합니다</label>
                             </div>
                             <div class="agree_content_box agree_content_box_3">
-                                <p>이벤트 등 프로모션 알림 메세지 수신에 대한 동의 (필수)</p>
+                                <p>이벤트 등 프로모션 알림 메세지 수신에 대한 동의 (선택)</p>
                                 <p class="text_box">
                                     제1조 (목적)
                                     주식회사 스쿱미디어(이하 “회사”)가 제공하는 비트소닉 거래소 서비스(이하 “서비스”)의 이용조건 및 절차, 회사와 고객간의 권리ㆍ의무 및 책임사항, 기타 필요한 기본적인 사항을 정함으로써, 거래의 신속하고 효율적인 처리를 도모하고 거래당사자 상호간의 이해관계를 합리적으로 조정하는 것을 목적으로 합니다.
@@ -79,9 +79,9 @@
 
                           <!-- signUp_right_con -->
                           <div class="signUp_right_con">
-                              <input type="text" name="email_address" value="" placeholder="이메일 주소를 입력해주세요" required maxlength="30" minlength="8" />
-                              <input type="password" name="password" value="" placeholder="사용하실 비밀번호를 입력해주세요" required maxlength="30" minlength="10"/>
-                              <input type="password" name="passowrd_again" value="" placeholder="비밀번호를 다시 입력해주세요" required maxlength="30" minlength="10"/>
+                              <input type='email' name="email_address" value="" placeholder="이메일 주소를 입력해주세요" required maxlength="30" minlength="8"  class='user_mail'/>
+                              <input type="password" name="password" value="" placeholder="사용하실 비밀번호를 입력해주세요" required maxlength="30" minlength="10" class='user_pass'/>
+                              <input type="password" name="passowrd_again" value="" placeholder="비밀번호를 다시 입력해주세요" required maxlength="30" minlength="10" class='user_passChk'/>
                               <div class="password_alarm_wrap">
                                 <ul>
                                     <li class='password_alarm_li_01'>
@@ -96,6 +96,8 @@
                                         <span class='not_meet'>대문자를 포함</span>
                                         <span class='meet'><img src="img/check.png" alt="조건만족">대문자를 포함</span>
                                     </li>
+                                </ul>
+                                <ul>
                                     <li class='password_alarm_li_04'>
                                         <span class='not_meet'>비밀번호 확인 일치</span>
                                         <span class='meet'><img src="img/check.png" alt="조건만족">비밀번호 확인 일치</span>

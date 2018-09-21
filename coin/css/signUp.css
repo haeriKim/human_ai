@@ -71,7 +71,7 @@
     line-height: 25px;
     height: 145px;
     position: relative;
-
+    overflow: hidden;
 }
 #signUp_area .signUp_right_con .password_alarm_wrap:before{
     content: "";
@@ -84,23 +84,16 @@
     opacity: 0.9;
 }
 #signUp_area .signUp_right_con .password_alarm_wrap ul {
-    overflow: hidden;
+    float: left;
+    width: 50%;
 }
 #signUp_area .signUp_right_con .password_alarm_wrap ul li{
-    float: left;
-    width: 44%;
-    padding-left: 0;
-    margin-top: 16px;
 }
 #signUp_area .signUp_right_con .password_alarm_wrap ul li span{
     font-size: 14px;
+    text-align: left;
     padding: 10px 0 10px 25px;
-    margin-left: 13px;
-}
-#signUp_area .signUp_right_con .password_alarm_wrap .password_alarm_li_02 span,
-#signUp_area .signUp_right_con .password_alarm_wrap .password_alarm_li_04 span,
-#signUp_area .signUp_right_con .password_alarm_wrap .password_alarm_li_06 span{
-    margin-left: -18px;
+    display: block;
 }
 #signUp_area .signUp_right_con .password_alarm_wrap .not_meet{
     color: #ff2323;
