@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/leave_member.css">
+    <link rel="stylesheet" href="css/popup.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/common.js"></script>
@@ -118,7 +119,7 @@
                                         <th>휴대폰 SMS인증</th>
                                         <td>
                                             <input type="text" name="" value="" placeholder="휴대폰으로 전송된 인증번호를 입력해주세요." required class='input_your_sms_number'>
-                                            <input type="button" value="인증번호요청">
+                                            <input type="button" value="인증번호요청" class="leave_member_request_number">
                                         </td>
                                     </tr>
                                 </tbody>
@@ -148,6 +149,23 @@
 
         </div><!-- container End -->
     </div><!-- wrap End -->
+
+    <div id="full">
+                <!-- full_content -->
+                <div id="popupbox" class='box popup phone_change_box'>
+                  <div class="full_inner">
+                    <h2>인증번호 발송완료</h2>
+                    <div class="popupbox_text">
+                      <p>등록하신 휴대폰으로 인증번호를 발송하였습니다.</p>
+                    </div>
+                    <div class="cancel_or_apply">
+                      <input type="button" name="" value="확인"  class="leave_member_agree_btn">
+                    </div>
+
+                  </div>
+                </div><!-- full_content End-->
+                <div id="shadow"></div>
+        </div>
 
 </body>
 </html>

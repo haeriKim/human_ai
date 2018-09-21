@@ -166,3 +166,19 @@
     font-weight: 600;
     line-height: 1.5;
 }
+#full{
+  display:none;
+}
+#full .popupbox_text{
+  margin-bottom:40px;
+}
+#full .leave_member_agree_btn{
+  background: #1b2f4a;
+  border: 1px solid #1b2f4a;
+  border-radius: 5px;
+  padding: 7px 30px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}

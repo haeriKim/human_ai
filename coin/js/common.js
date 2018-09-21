@@ -566,6 +566,16 @@ $(document).ready(function(){
       })
   })
 
+/*회원탈퇴 3단계 인증번호버튼*/
+$(document).ready(function(){
+  $(".leave_member_request_number").click(function(){
+    $("#full").show();
+  });
+  $(".leave_member_agree_btn").click(function(){
+    $("#full").hide();
+  });
+});
+
 /*회원탈퇴 4단계 의견수렴 부분*/
 $(document).ready(function(){
     $(".html_input input[type='text'], .html_input textarea").hide();
