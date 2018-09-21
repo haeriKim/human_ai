@@ -103,8 +103,8 @@ jQuery(document).ready(function(){
                         </div>
 
                         <div class="cancel_or_apply">
-                          <input type="button" name="" value="취소" class="cancel_btn">
-                          <input type="button" name="" value="변경 요청" class="agree_btn">
+                          <input type="button" name="" value="취소" onclick="location.href='myinfo.php'" class="cancel_btn">
+                          <input type="button" name="" value="변경 요청" class="agree_btn request_change">
                         </div>
 
 
@@ -134,7 +134,7 @@ jQuery(document).ready(function(){
                   <p class="user_mail">abc@naver.com</p>
                 </div>
                 <div class="cancel_or_apply">
-                  <input type="button" name="" value="취소" class="cancel_btn">
+                  <input type="button" name="" value="취소" onclick="location.href='myinfo_phone.php'" class="cancel_btn">
                   <input type="button" name="" value="변경 요청 하기" class="agree_btn request_btn">
                 </div>
 
@@ -150,7 +150,7 @@ jQuery(document).ready(function(){
                 <p>메일을 확인해주세요.</p>
               </div>
               <div class="cancel_or_apply">
-                <input type="button" name="" value="확인" class="cancel_btn_ok">
+                <input type="button" name="" value="확인" onclick="location.href='myinfo_phone2.php'" class="cancel_btn_ok">
               </div>
 
             </div>

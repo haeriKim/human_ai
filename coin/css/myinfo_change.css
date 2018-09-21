@@ -98,7 +98,11 @@ margin-left: 10px;
     }
 
 
-table td div.question_smallbox{display: inline-block; position:relative; cursor:pointer;}
+table td div.question_smallbox{
+  display: inline-block;
+  position:relative;
+  cursor:pointer;
+}
 
 table .password_question_detail{
   box-sizing: border-box;
@@ -159,6 +163,7 @@ table .password_question_detail:before {
 }
 
 
+
 /*account*/
 
 /*OTP*/
@@ -194,4 +199,7 @@ box-sizing: border-box;
 border: none;
 background-color: #1b2f4a;
 cursor: pointer;
+}
+#full{
+  display:none;
 }

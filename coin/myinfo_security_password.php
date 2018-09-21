@@ -17,7 +17,9 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/common.js"></script>
     <script>
+jQuery(document).ready(function(){
 
+});
 </script>
 </head>
 <body>
@@ -47,10 +49,10 @@
                           <a href="#" title="회원정보관리" class='more_menu'>회원정보관리</a>
                           <dl class="nav_dropdown info_dd">
                               <dt><a href="myinfo_login_password.php" title="로그인 비밀번호 변경">로그인 비밀번호 변경</a></dt>
-                              <dt><a href="myinfo_security_password.php" title="보안비밀번호 변경">보안비밀번호 변경</a></dt>
+                              <dt class="active"><a href="#" title="보안비밀번호 변경">보안비밀번호 변경</a></dt>
                               <dt><a href="myinfo_phone.php" title="휴대폰번호 변경">휴대폰번호 변경</a></dt>
-                              <dt class="active"><a href="#" title="계좌 변경">계좌 변경</a></dt>
-                              <dt><a href="myinfo_OTP.php" title="OTP 변경">OTP 변경</a></dt>
+                              <dt><a href="myinfo_account.php" title="계좌 변경">계좌 변경</a></dt>
+                              <dt><a href="myinfo_OTP.php" title="새 지갑발급">OTP 변경</a></dt>
                           </dl>
                         </li>
                         <li><a href="certification.php" title="인증센터">인증센터</a></li>
@@ -68,7 +70,7 @@
                     <h3 class="title">회원정보관리</h3>
                     <div class="myinfo_main_box cer_center mypage_content">
                       <div class="cer_center">
-                      <h4>계좌 변경</h4>
+                      <h4>보안비밀번호 변경</h4>
                         <div class="myinfo_small_info_box">
                           <div class="myinfo_box1">
                             <strong class="user_name">가*다</strong>
@@ -86,25 +88,63 @@
                             <ul class="list_2">
                               <li>
                                   <p class="myinfo_title">등급</p>
-                                  <p class="myinfo_detail">Level&nbsp;<span class='user_level'>4</span></p>
+                                  <p class="myinfo_detail">Level&nbsp;<span class='user_level'>3</span></p>
                               </li>
                             </ul>
                           </div>
                         </div>
 
-                        <div class="myinfo_text_box">
-                            <p>가*다님의 현재 계좌번호는</p>
-                            <br/>
-                            <p><span>국민은행 12-12******-12-123</span>입니다.</p>
-                            <br/>
-                            <p>계좌를 변경요청하려면 아래 <span>인증절차안내</span>를 참고해 주시기 바랍니다.</p>
-                            <br/>
-                        </div>
+                        <!-- myinfo_small_info_box -->
+                        <div class="myinfo_sub_box ">
+                          <form class="" action="#" method="post">
+                            <div class="myinfo_table_wrap myinfo_table_wrap2">
+                              <!-- send_login_password -->
+                              <div class="send_login_password">
+                                <form action="#" class="phone2">
+                                <table class='left_thick_table'>
+                                  <tbody>
 
-                        <div class="cancel_or_apply">
-                          <input type="button" name="" value="취소" onclick="location.href='myinfo.php'" class="cancel_btn">
-                          <input type="button" name="" value="안내절차 보기" class="agree_btn">
-                        </div>
+                                      <th>현재 로그인 비밀번호</th>
+                                      <td><input type="password" class='user_pass' name="password" value="" placeholder="현재 로그인 비밀번호를 입력하세요." required maxlength="12" minlength="12" /></td>
+                                    </tr>
+
+                                    <tr>
+                                      <th>새로운 보안 비밀번호</th>
+                                      <td>
+                                        <input type="text" name="" value="" placeholder="새로운 보안 비밀번호를 입력하세요." required maxlength="12" minlength="12" />
+                                        <div class="question_smallbox"><img src="img/question.png">
+                                          <div class="password_question_detail">
+                                                안전한 비밀번호 작성 법<br />
+                                                -비밀번호는 영문 소문자, 대문자, 숫자, 특수문자를 포함하여 10자리 이상으로 만드셔야 합니다. <br />
+                                                -비밀번호는 최대한 길게 작성해주세요.<br />
+                                                -단, 허용되는 특수문자(~!@#$%^*)외 다른 특수문자는 사용할 수 없습니다.<br />
+                                                -ID, 생일, 전화번호 등 개인정보를 이용해 만든 비밀번호를 사용하지 마세요.<br />
+                                                -포털 사이트나 타 거래소 등 타 사이트와 동일하거나 비슷한 암호를 설정하지 마세요.타 사이트에서 암호가 유출될 경우 제3자가 회원님의 계정에 접근할 위험이 있습니다.<br />
+                                                -동일한 문자가 반복되는 등 패턴이 있는 비밀번호로 만들지 마세요.<br />
+                                          </div>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <th>새로운 보안 비밀번호 확인</th>
+                                      <td>
+                                        <input type="password" class='user_security' name="security" value="" placeholder="새로운 보안 비밀번호를 입력하세요." maxlength="12" minlength='12' required/>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                <div class="cancel_or_apply">
+                                  <input type="button" name="" value="취소" onclick="location.href='myinfo.php'"class="cancel_btn">
+                                  <input type="submit" name="" value="변경" onclick="location.href='myinfo_security_password_success.php'" class="agree_btn">
+                                </div>
+
+                                </form>
+                              </div><!-- send_login_password End-->
+
+                            </div><!-- myinfo_table_wrap End-->
+
+                          </form>
+                        </div><!-- myinfo_sub_box End-->
 
 
                       </div><!-- cercenter End-->
@@ -123,7 +163,6 @@
 
         </div><!-- container End -->
     </div><!-- wrap End -->
-
 
 
 

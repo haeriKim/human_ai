@@ -48,11 +48,11 @@ jQuery(document).ready(function(){
                         <li class="on">
                           <a href="#" title="회원정보관리" class='more_menu'>회원정보관리</a>
                           <dl class="nav_dropdown info_dd">
-                              <dt><a href="#" title="로그인 비밀번호 변경">로그인 비밀번호 변경</a></dt>
+                              <dt><a href="myinfo_login_password.php" title="로그인 비밀번호 변경">로그인 비밀번호 변경</a></dt>
                               <dt><a href="#" title="보안비밀번호 변경">보안비밀번호 변경</a></dt>
                               <dt class="active"><a href="#" title="휴대폰번호 변경">휴대폰번호 변경</a></dt>
-                              <dt><a href="#" title="계좌 변경">계좌 변경</a></dt>
-                              <dt><a href="#" title="새 지갑발급">OTP 변경</a></dt>
+                              <dt><a href="myinfo_account.php" title="계좌 변경">계좌 변경</a></dt>
+                              <dt><a href="myinfo_OTP.php" title="새 지갑발급">OTP 변경</a></dt>
                           </dl>
                         </li>
                         <li><a href="certification.php" title="인증센터">인증센터</a></li>
@@ -100,18 +100,19 @@ jQuery(document).ready(function(){
                             <div class="myinfo_table_wrap myinfo_table_wrap2">
                               <!-- send_login_password -->
                               <div class="send_login_password">
+                                <form action="#" class="phone2">
                                 <table class='left_thick_table'>
                                   <tbody>
 
                                       <th>새로운 휴대폰번호</th>
-                                      <td><input type="password" class='user_pass' name="password" value="" placeholder="새로운 비밀번호를 입력해주세요" required maxlength="8" minlength="12" /></td>
+                                      <td><input type="password" class='user_pass' name="password" value="" placeholder="새로운 비밀번호를 입력해주세요" required maxlength="12" minlength="12" /></td>
                                     </tr>
 
                                     <tr>
                                       <th>휴대폰 SMS 인증</th>
                                       <td>
                                         <input type="text" name="" value="" placeholder="휴대폰으로 전송된 인증번호를 입력하세요." required maxlength="6" minlength="6" />
-                                        <input type="button" value="인증번호요청" >
+                                        <input type="button" value="인증번호요청" class="request_number">
                                       </td>
                                     </tr>
                                     <tr>
@@ -122,13 +123,16 @@ jQuery(document).ready(function(){
                                     </tr>
                                   </tbody>
                                 </table>
+                                <div class="cancel_or_apply">
+                                  <input type="button" name="" value="취소" onclick="location.href='myinfo_phone.php'"class="cancel_btn">
+                                  <input type="submit" name="" value="변경" onclick="location.href='myinfo_phone_success.php'" class="agree_btn">
+                                </div>
+
+                                </form>
                               </div><!-- send_login_password End-->
 
                             </div><!-- myinfo_table_wrap End-->
-                            <div class="cancel_or_apply">
-                              <input type="button" name="" value="취소" class="cancel_btn">
-                              <input type="button" name="" value="변경" class="agree_btn">
-                            </div>
+
                           </form>
                         </div><!-- myinfo_sub_box End-->
 
@@ -150,7 +154,22 @@ jQuery(document).ready(function(){
         </div><!-- container End -->
     </div><!-- wrap End -->
 
+    <div id="full">
+                <!-- full_content -->
+                <div id="popupbox" class='box popup phone_change_box'>
+                  <div class="full_inner">
+                    <h2>인증번호 발송완료</h2>
+                    <div class="popupbox_text">
+                      <p>등록하신 휴대폰으로 인증번호를 발송하였습니다.</p>
+                    </div>
+                    <div class="cancel_or_apply">
+                      <input type="button" name="" value="확인" onclick="location.href='myinfo_phone2.php'" class="agree_btn">
+                    </div>
 
+                  </div>
+                </div><!-- full_content End-->
+                <div id="shadow"></div>
+        </div>
 
 </body>
 </html>

@@ -113,6 +113,17 @@ jQuery(document).ready(function(){
                                       <th>새로운 비밀번호</th>
                                       <td>
                                           <input type="password" class='user_pass' name="password" value="" placeholder="새로운 비밀번호를 입력해주세요" required maxlength="15" minlength="8" />
+                                          <div class="question_smallbox"><img src="img/question.png">
+                                            <div class="password_question_detail">
+                                                  안전한 비밀번호 작성 법<br />
+                                                  -비밀번호는 영문 소문자, 대문자, 숫자, 특수문자를 포함하여 10자리 이상으로 만드셔야 합니다. <br />
+                                                  -비밀번호는 최대한 길게 작성해주세요.<br />
+                                                  -단, 허용되는 특수문자(~!@#$%^*)외 다른 특수문자는 사용할 수 없습니다.<br />
+                                                  -ID, 생일, 전화번호 등 개인정보를 이용해 만든 비밀번호를 사용하지 마세요.<br />
+                                                  -포털 사이트나 타 거래소 등 타 사이트와 동일하거나 비슷한 암호를 설정하지 마세요.타 사이트에서 암호가 유출될 경우 제3자가 회원님의 계정에 접근할 위험이 있습니다.<br />
+                                                  -동일한 문자가 반복되는 등 패턴이 있는 비밀번호로 만들지 마세요.<br />
+                                            </div>
+                                          </div>
                                           <p class='warning_message'>비밀번호 요건이 충족하지 않습니다.</p>
                                       </td>
                                     </tr>
@@ -120,17 +131,6 @@ jQuery(document).ready(function(){
                                       <th>새로운 비밀번호 확인</th>
                                       <td>
                                         <input type="password" class='user_passChk' name="password" value="" placeholder="비밀번호를 재입력해주세요" required maxlength="15" minlength="8" />
-                                        <div class="question_smallbox"><img src="img/question.png">
-                                          <div class="password_question_detail">
-                                                안전한 비밀번호 작성 법<br />
-                                                -비밀번호는 영문 소문자, 대문자, 숫자, 특수문자를 포함하여 10자리 이상으로 만드셔야 합니다. <br />
-                                                -비밀번호는 최대한 길게 작성해주세요.<br />
-                                                -단, 허용되는 특수문자(~!@#$%^*)외 다른 특수문자는 사용할 수 없습니다.<br />
-                                                -ID, 생일, 전화번호 등 개인정보를 이용해 만든 비밀번호를 사용하지 마세요.<br />
-                                                -포털 사이트나 타 거래소 등 타 사이트와 동일하거나 비슷한 암호를 설정하지 마세요.타 사이트에서 암호가 유출될 경우 제3자가 회원님의 계정에 접근할 위험이 있습니다.<br />
-                                                -동일한 문자가 반복되는 등 패턴이 있는 비밀번호로 만들지 마세요.<br />
-                                          </div>
-                                        </div>
                                         <p class='warning_message'>비밀번호가 일치하지 않습니다.</p>
                                       </td>
                                     </tr>
@@ -156,7 +156,7 @@ jQuery(document).ready(function(){
 
                             </div><!-- myinfo_table_wrap End-->
                             <div class="cancel_or_apply">
-                              <input type="reset" name="reset" value="취소" class="cancel_btn">
+                              <input type="reset" name="reset" value="취소" onclick="location.href='myinfo.php'"class="cancel_btn">
                               <input type="submit" name="submit" value="변경" class="agree_btn if_you_all_agree">
                             </div>
                           </form>

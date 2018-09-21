@@ -628,3 +628,17 @@ $(document).ready(function(){
     $("#popupbox, #shadow").hide();
   });
 });
+
+//휴대폰변경 확인창
+$(document).ready(function(){
+  $(".request_change").click(function(){
+    $("#full").show();
+  });
+});
+
+//휴대폰변경 완료창
+$(document).ready(function(){
+  $(".request_number").click(function(){
+      $("#full").show();
+  });
+});

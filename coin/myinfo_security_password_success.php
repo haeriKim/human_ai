@@ -46,11 +46,11 @@
                         <li class="on">
                           <a href="#" title="회원정보관리" class='more_menu'>회원정보관리</a>
                           <dl class="nav_dropdown info_dd">
-                              <dt><a href="#" title="로그인 비밀번호 변경">로그인 비밀번호 변경</a></dt>
-                              <dt><a href="#" title="보안비밀번호 변경">보안비밀번호 변경</a></dt>
-                              <dt class="active"><a href="#" title="휴대폰번호 변경">휴대폰번호 변경</a></dt>
-                              <dt><a href="#" title="계좌 변경">계좌 변경</a></dt>
-                              <dt><a href="#" title="새 지갑발급">OTP 변경</a></dt>
+                              <dt><a href="myinfo_login_password.php" title="로그인 비밀번호 변경">로그인 비밀번호 변경</a></dt>
+                              <dt class="active"><a href="myinfo_security_password.php" title="보안비밀번호 변경">보안비밀번호 변경</a></dt>
+                              <dt><a href="myinfo_phone.php" title="휴대폰번호 변경">휴대폰번호 변경</a></dt>
+                              <dt><a href="myinfo_account.php" title="계좌 변경">계좌 변경</a></dt>
+                              <dt><a href="myinfo_OTP.php" title="새 지갑발급">OTP 변경</a></dt>
                           </dl>
                         </li>
                         <li><a href="certification.php" title="인증센터">인증센터</a></li>
@@ -68,7 +68,7 @@
                     <h3 class="title">회원정보관리</h3>
                     <div class="myinfo_main_box cer_center mypage_content">
                       <div class="cer_center">
-                      <h4>휴대폰번호 변경</h4>
+                      <h4>보안비밀번호 변경</h4>
                         <div class="myinfo_small_info_box">
                           <div class="myinfo_box1">
                             <strong class="user_name">가*다</strong>
@@ -86,7 +86,7 @@
                             <ul class="list_2">
                               <li>
                                   <p class="myinfo_title">등급</p>
-                                  <p class="myinfo_detail">Level&nbsp;<span class='user_level'>4</span></p>
+                                  <p class="myinfo_detail">Level&nbsp;<span class='user_level'>3</span></p>
                               </li>
                             </ul>
                           </div>
@@ -99,8 +99,8 @@
                         </div>
 
                         <div class="cancel_or_apply">
-                          <input type="button" name="" value="확인" class="cancel_btn">
-                          <input type="button" name="" value="로그인 하기" class="agree_btn">
+                          <input type="button" name="" value="확인" onclick="location.href='myinfo.php'" class="cancel_btn">
+                          <input type="button" name="" value="로그인 하기" onclick="location.href='login.php'" class="agree_btn">
                         </div>
 
 
