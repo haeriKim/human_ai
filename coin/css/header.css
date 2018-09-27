@@ -31,12 +31,15 @@
   box-sizing: border-box;
   text-align: center;
 }
+#header .current_coin ul li .current_pri {
+  font-weight: 600;
+}
 #header .current_coin li + li {
   border-left: 1px solid rgba(239,239,239,.3);
 }
 #header .current_coin ul li b {
   display: inline-block;
-  background-color: rgba(255,255,255,.3);
+  background-color: rgba(255,255,255,.5);
   border-radius: 10px;
   height: 20px;
   line-height: 20px;

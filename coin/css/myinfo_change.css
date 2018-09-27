@@ -68,7 +68,7 @@ padding: 7px 60px 0px 10px
 .myinfo_sub_box table.left_thick_table tr td span{
 margin-left: 10px;
 }
-.myinfo_sub_box table.left_thick_table tbody input[type='button']{
+.myinfo_sub_box table.left_thick_table tbody input[type='button'], .myinfo_sub_box table.left_thick_table tbody input[type='submit']{
     border: 1px solid #1b2f4a;
     background: #fff;
     color: #1b2f4a;
@@ -77,7 +77,7 @@ margin-left: 10px;
     margin-left: 5px;
     font-size:15px;
 }
-.myinfo_sub_box table.left_thick_table tbody input[type='button']:hover{
+.myinfo_sub_box table.left_thick_table tbody input[type='button']:hover, .myinfo_sub_box table.left_thick_table tbody input[type='submit']:hover{
     border: 1px solid #1b2f4a;
     background: #1b2f4a;
     color: #fff;
