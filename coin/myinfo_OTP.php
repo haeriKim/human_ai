@@ -93,9 +93,11 @@
                         </div>
 
                         <div class="myinfo_text_box">
+                          <br/>
                           <p>휴대폰 교체/분실 또는, 인증 앱을 지워서 <span>OTP 인증을 할 수 없을 경우</span> 본인인증 서류 제출이 필요합니다.</p>
                           <br/>
                           <p>OTP 변경요청하려면 아래 <span>인증절차안내</span>를 참고해 주시기 바랍니다.</p>
+                          <br/>
                         </div>
 
                         <div class="cancel_or_apply">
