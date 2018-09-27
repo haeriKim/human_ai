@@ -17,9 +17,9 @@
 </head>
 <body>
     <!-- wrap -->
-    <div id="wrap">
+    <div id="onepage_wrap">
         <!-- container -->
-        <div id="container">
+        <div id="onepage_container">
 
             <!-- nav_wrap -->
             <?php include "nav.php";?>

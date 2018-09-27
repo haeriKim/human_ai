@@ -17,9 +17,9 @@
 </head>
 <body>
     <!-- wrap -->
-    <div id="wrap">
+    <div id="onepage_wrap">
         <!-- container -->
-        <div id="container">
+        <div id="onepage_container">
 
             <!-- nav_wrap -->
             <?php include "nav.php";?>
@@ -40,6 +40,7 @@
                             <h3>비밀번호 변경</h3>
                             <label for="password" class='skip_label'>비밀번호</label>
                             <input type="password" name="password" value="" placeholder="비밀번호" id='password' required autocomplete="off" class='user_pass'>
+                            <p id="warning_message">비밀번호 요건이 충족하지 않습니다.</p>
                             <div class="question_smallbox"><img src="img/question.png">
                               <div class="password_question_detail">
                                     안전한 비밀번호 작성 법<br />
@@ -53,10 +54,8 @@
                             </div>
                             <label for="password_check" class='skip_label'>비밀번호 확인</label>
                             <input type="password" name="password_check" value="" placeholder="비밀번호 확인" id='password_check' required autocomplete="off" class='user_passChk'>
-                            <p class='notfiy_info'>10자 이상, 대문자, 소문자, 숫자를 반드시 포함해 주세요.</p>
-                            <p class='notfiy_info_again'>비밀번호를 다시 입력해주세요.</p>
-                            <p class='notfiy_info_wrong'>비밀번호가 일치하지 않습니다.</p>
-                            <input type="submit" name="비밀번호 변경" value="비밀번호 변경" class='button_box change_Pw_button'>
+                            <p id="warning_message">비밀번호가 일치하지 않습니다.</p>
+                            <input type="submit" name="비밀번호 변경" value="비밀번호 변경" class='button_box change_Pw_button'  onclick="location.href='login_c_changePw.php'">
                             <!-- login_info -->
                         </form>
                     </div><!-- 로그인폼 END -->

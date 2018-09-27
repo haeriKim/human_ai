@@ -17,9 +17,9 @@
 </head>
 <body>
     <!-- wrap -->
-    <div id="wrap">
+    <div id="onepage_wrap">
         <!-- container -->
-        <div id="container">
+        <div id="onepage_container">
 
             <!-- nav_wrap -->
             <?php include "nav.php";?>
@@ -50,7 +50,7 @@
                         <div class="login_info">
                             <a href="signUp.php">회원가입</a>
                             <ul>
-                                <li><a href='login_findPw.html'>비밀번호 찾기</a></li>
+                                <li><a href='login_findPw.php'>비밀번호 찾기</a></li>
                                 <li>
                                     <a href='#'>이메일 주소 찾기</a>
                                     <p class='e_mail_find'>당사 고객센터(1644-4272)로 연락주시면<br/>확인하여 안내드릴 수 있도록 하겠습니다.</p>

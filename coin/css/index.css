@@ -1,21 +1,13 @@
-#index_wrap{
-  width:100%;
-  position:relative;
-  min-width: 1280px;
-  height:100%;
-  overflow-y:hidden;
+.main_content {
+  width: 1300px;
+  margin: 10% auto;
+  height: auto;
 }
-#index_container{
-  width:100%;
-  height:100%;
-  position: absolute;
-  top:0;
-  left:0;
-  overflow-x: hidden;
-}
-
 /* slideul */
-
+.slideWrap {
+  margin-bottom: 10px;
+  position: relative;
+}
 .slideWrap a{
   font-size:14px;
   color:#000;
@@ -25,12 +17,6 @@
 .slideWrap a:visited{
   color:#000;
   text-decoration:none;
-}
-
-.slideWrap{
-  position: absolute;
-  top: 150px;
-  width: 1300px;
 }
 
 .slideUl{
@@ -104,13 +90,12 @@
 /*코인현황*/
 
 .main_content .bitcoin_card_wrap   {
-  width: 1300px;
+  margin-bottom: 10px;
   text-align: center;
   border-radius: 5px;
   height: 270px;
+  background-color: rgba(255,255,255,.7);
   position: relative;
-  top: 460px;
-  background-color: rgba(255,255,255,.5);
 }
 
 .main_content .bitcoin_card_wrap .bitcoin_card{
@@ -219,20 +204,14 @@
 
 /*Notice*/
 
-.notice_wrap{
-  position:relative;
-  top:470px;
-}
-
 .notice{
-  position: absolute;
-    width: 700px;
-    height: 140px;
-    background-color: #c95b74;
-    padding: 5px 0 10px 20px;
-    color: #fff;
-    border-radius: 5px;
-    float: left;
+  width: 700px;
+  height: 140px;
+  background-color: #c95b74;
+  padding: 5px 0 10px 20px;
+  color: #fff;
+  border-radius: 5px;
+  float: left;
 }
 
 .notice h4{
@@ -312,7 +291,6 @@
   float:right;
   padding: 25px 0;
   box-sizing: border-box;
-
 }
 
 .use_guide ul{

@@ -19,9 +19,9 @@
 </head>
 <body>
     <!-- wrap -->
-    <div id="index_wrap">
+    <div id="wrap">
         <!-- container -->
-        <div id="index_container">
+        <div id="container">
 
             <!-- nav_wrap -->
             <?php include "nav.php";?>

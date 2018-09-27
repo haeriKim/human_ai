@@ -44,7 +44,11 @@
   text-align: right;
 }
 .footer_menu .footer_nav ul {
+  overflow: hidden;
   text-align: right;
+}
+.footer_menu .footer_nav ul.right {
+  float: right;
 }
 .footer_menu .footer_nav ul li{
     float: left;
@@ -61,5 +65,4 @@
 .footer_menu .footer_nav ul li a{
   color: #888;
   display: inline-block;
-  height: 100%;
 }
