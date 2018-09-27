@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/certification_OTP.css">
+    <link rel="stylesheet" href="css/certification_security.css">
     <link rel="stylesheet" href="css/sub_menu.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
@@ -22,13 +22,13 @@
         <!-- container -->
         <div id="container">
 
-          <!-- nav_wrap -->
-          <?php include "nav.php";?>
-          <!-- nav_wrap End-->
+            <!-- nav_wrap -->
+            <?php include "nav.php";?>
+            <!-- nav_wrap End-->
 
-          <!-- header_wrap -->
-          <?php include "header.php";?>
-          <!-- header_wrap End-->
+            <!-- header_wrap -->
+            <?php include "header.php";?>
+            <!-- header_wrap End-->
 
             <!-- content_wrap -->
             <div class="content_wrap">
@@ -62,7 +62,6 @@
                     </ul>
                   </div><!-- content_nav End-->
 
-
                   <div class="box certification_area">
                     <h3 class="title">인증센터</h3>
                     <div class="cer_center mypage_content">
@@ -76,113 +75,56 @@
                           <span>실제 사용 중인<br/>이메일 계정을 인증해주세요.</span>
                         </li>
                         <li>
-                          <img src="img/lv2.png" alt="레벨2" />
+                          <img src="img/lv2.png" alt="레벨2"/>
                           <p class="img_area">
-                            <img src="img/key.png" alt="보안비밀번호생성 아이콘" />
+                            <img src="img/key.png" alt="보안비밀번호생성 아이콘"/>
                           </p>
                           <strong>보안비밀번호 생성</strong>
                           <span>안전거래를 위한 <br/>보안비밀번호를 생성해주세요.</span>
                         </li>
                         <li>
-                          <img src="img/lv3.png" alt="레벨3" />
+                          <img src="img/lv3.png" alt="레벨3"/>
                           <p class="img_area">
-                            <img src="img/phone.png" alt="휴대폰인증 아이콘" />
+                            <img src="img/phone.png" alt="휴대폰인증 아이콘"/>
                           </p>
                           <strong>실명인증</strong>
                           <span>본인명의 휴대폰을 통하여<br/>실명을 인증해주세요.</span>
                         </li>
                         <li>
-                          <img src="img/lv4.png" alt="레벨4" class="lv4_on"/>
-                          <img src="img/lv4_off.png" alt="레벨4" class="lv4_off"/>
+
+                          <img src="img/lv4.png" alt="레벨4"/>
                           <p class="img_area">
-                            <img src="img/bankbook_off.png" alt="계좌인증 아이콘" class="account_off"/>
-                            <img src="img/bankbook.png" alt="계좌인증 아이콘" class="account_on" />
+                            <img src="img/bankbook.png" alt="계좌인증 아이콘">
+
                           </p>
                           <strong>계좌인증</strong>
                           <span>거래소를 이용하시 위한<br/>계좌를 인증해주요.</span>
                         </li>
                         <li>
-                          <img src="img/lv5.png" alt="레벨5" class="lv5_on">
-                          <img src="img/lv5_off.png" alt="레벨4" class="lv5_off"/>
+
+                          <img src="img/lv5.png" alt="레벨5">
                           <p class="img_area">
-                            <img src="img/lock_off.png" alt="OTP인증 아이콘" class="otp_off"/>
-                            <img src="img/lock.png" alt="OTP인증인증 아이콘" class="otp_on" />
+                            <img src="img/lock.png" alt="OTP인증 아이콘">
+
                           </p>
-                          <strong class="gray_title">OTP인증</strong>
+                          <strong>OTP인증</strong>
                           <span>실제 사용 중인<br/>OTP로 인증해주세요.</span>
                         </li>
                       </ul>
 
-                      <div class="center_bottom">
-                        <div class="cText_left3">
-                            <p class='content_title'>OTP인증</p>
-                            <strong><span>1</span>. OTP앱을 스마트폰에 다운로드 받으세요.</strong>
-                            <ul class="android">
-                              <li class="app_title">[ 안드로이드 휴대폰 전용 Google OTP ]</li>
-                              <li class="app_text">
-                                <img src="img/apple_app.png" alt="안드로이드구글OTP" class="android_img">
-                                <br/>
-                                <span>'Google OTP'를 검색하신 후 다운로드 받으세요.</span>
-                                <p><img src="img/playstore.png" alt="플레이스토어"></p>
-                              </li>
-                            </ul>
-
-                            <ul class="apple">
-                              <li class="app_title">[ 아이폰 휴대폰 전용 Google Authenticator ]</li>
-                              <li class="app_text">
-                                <img src="img/apple_app.png" alt="애플구글OTP" class="apple_img">
-                                <br/>
-                                <span>'Google Authenticator'를 검색하신 후 다운로드 받으세요.</span>
-                                <p><img src="img/appstore.png" alt="앱스토어"></p>
-                              </li>
-                            </ul>
-
-                        </div>
-
-                      <div class="cText_right3">
-                          <div class="qr_code">
-                            <strong><span>2</span>. 다운로드 받은 앱에 'QR'코드를 스캔하거나 '16자리 코드번호'를 입력해주세요.</strong>
-
-                            <ul class="qr_code_img">
-                              <li>QR 코드</li>
-                              <li><img src="img/qr_code.png" alt="qr코드" class="qr_code_imgbox"></li>
-                            </ul>
-
-                            <ul class="qr_code_key">
-                              <li>16자리 코드번호</li>
-                              <li class="qr_code_key2">NRSLK7JWICMZLXBAWEZ</li>
-                            </ul>
-
-                            <a href="#"><span class="OTP_guide">OTP 설정이 처음이신가요?</span></a>
-                          </div>
-
-                        <div class="OTP_code">
-                          <strong><span>3</span>. '2단계' 완료 후 OTP 인증 앱에 표시된 인증번호(6자리)를<br/>
-                            입력해주세요. <samll class="OTP_reset">[OTP번호는 30초마다 자동으로 변경됩니다.]</small></strong>
-
-                          <div>
-                            <form action="#" method="post" class="OTP_codebox">
-
-                              <input type="text" placeholder="OTP번호 입력" required class="OTP_number user_otpNum">
-                              <p id='warning_message'>OTP번호가 일치하지 않습니다.</p>
-
-                              <div id="OTP_complete">
-                                <a href="certification.php">
-                                  <input type="button" name="취소" value="취소" class="cancel" onclick="location.href='certification.php'"/>
-                                </a>
-
-                                  <input type="submit" name="OTP 인증완료" value="OTP 인증완료" class="OTP_complete"/>
-
-                              </div>
-                            </form>
-                          </div>
-
-
-                        </div>
-
+                      <div class="myinfo_text_box">
+                        <h3>OTP 인증 완료</h3>
+                        <br/>
+                        <p>회원님의 현재 보안등급은 <strong class="complete_level">Level <b class="user_level">5</b></strong>입니다.</p>
+                        <br/>
+                        <p>이제부터 모든 서비스 이용이 가능합니다.</p>
                       </div>
 
+                      <div class="cancel_or_apply">
+                        <input type="button" name="" value="확인" onclick="location.href='myinfo.php'" class="agree_btn">
                       </div>
+
+
                     </div>
                   </div><!--certification_area End-->
 

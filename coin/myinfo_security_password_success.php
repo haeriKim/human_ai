@@ -95,12 +95,11 @@
                         <div class="myinfo_text_box">
                           <h3>보안 비밀번호 변경 완료</h3>
                           <br/>
-                          <p>변경된 보안 비밀번호로 로그인 부탁 드립니다.</p>
+                          <p>회원님의 현재 보안등급은 <strong class="complete_level">Level <b class="user_level">3</b></strong>입니다.</p>
                         </div>
 
                         <div class="cancel_or_apply">
-                          <input type="button" name="" value="확인" onclick="location.href='myinfo.php'" class="cancel_btn">
-                          <input type="button" name="" value="로그인 하기" onclick="location.href='login.php'" class="agree_btn">
+                          <input type="button" name="" value="확인" onclick="location.href='myinfo.php'" class="agree_btn">
                         </div>
 
 

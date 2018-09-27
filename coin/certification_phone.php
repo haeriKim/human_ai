@@ -124,8 +124,8 @@
                               <table class='left_thick_table'>
                                 <tbody>
 
-                                    <th>새로운 휴대폰번호</th>
-                                    <td><input type="password" class='user_pass' name="password" value="" placeholder="새로운 비밀번호를 입력해주세요" required maxlength="12" minlength="12" /></td>
+                                    <th>휴대폰번호</th>
+                                    <td><input type="password" class='user_pass' name="password" value="" placeholder="휴대폰번호를 입력해주세요" required maxlength="12" minlength="12" /></td>
                                   </tr>
 
                                   <tr>
@@ -133,12 +133,14 @@
                                     <td>
                                       <input type="text" name="" value="" placeholder="휴대폰으로 전송된 인증번호를 입력하세요." required maxlength="6" minlength="6" />
                                       <input type="button" value="인증번호요청" class="request_number">
+                                      <p id='warning_message'>인증번호가 일치하지 않습니다.</p>
                                     </td>
                                   </tr>
                                   <tr>
                                     <th>보안 비밀번호</th>
                                     <td>
                                       <input type="password" class='user_security' name="security" value="" placeholder="보안 비밀번호를 입력하세요." maxlength="4" minlength='4' required/>
+                                      <p id='warning_message'>보안비밀번호가 일치하지 않습니다.</p>
                                     </td>
                                   </tr>
                                 </tbody>

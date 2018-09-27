@@ -121,11 +121,7 @@
   vertical-align: 2px;
   color:#c95b74;
 }
-.cText_right3 .OTP_code .warning_message{
-  color: #f00;
-  margin-top: 4px;
-  font-size: 12px;
-}
+
 .cText_right3 .OTP_codebox{
   padding:20px 0;
   position:relative;
@@ -153,7 +149,7 @@
   box-sizing: border-box;
   border: 1px solid #1b2f4a;
   background-color: #1b2f4a;
-  margin-top:20px;
+  margin-top:40px;
 
 }
 .cText_right3 .cancel{

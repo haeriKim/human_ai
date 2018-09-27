@@ -115,7 +115,9 @@
                       <div class="myinfo_text_box">
                         <h3>실명인증 완료</h3>
                         <br/>
-                        <p>계좌인증 및 OTP인증을 하셔야 거래 및 입출금을 할 수 있습니다.</p>
+                        <p>회원님의 현재 보안등급은 <strong class="complete_level">Level <b class="user_level">3</b></strong>입니다.</p>
+                        <br/>
+                        <p>더 많은 서비스를 이용하려면 다음 단계를 인증해주세요</p>
                       </div>
 
                       <div class="cancel_or_apply">

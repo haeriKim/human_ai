@@ -105,7 +105,7 @@ jQuery(document).ready(function(){
                                       <th>현재 비밀번호</th>
                                       <td>
                                           <input type="password" class='user_pass' name="pre_password" value="" placeholder="현재 비밀번호를 입력해주세요" required maxlength="15" minlength="8" />
-                                          <p class='warning_message'>비밀번호가 일치하지 않습니다.</p>
+                                          <p id='warning_message'>비밀번호가 일치하지 않습니다.</p>
                                       </td>
                                     </tr>
                                     <tr class='change_password_tr2'>
@@ -123,14 +123,14 @@ jQuery(document).ready(function(){
                                                   -동일한 문자가 반복되는 등 패턴이 있는 비밀번호로 만들지 마세요.<br />
                                             </div>
                                           </div>
-                                          <p class='warning_message'>비밀번호 요건이 충족하지 않습니다.</p>
+                                          <p id='warning_message'>비밀번호 요건이 충족하지 않습니다.</p>
                                       </td>
                                     </tr>
                                     <tr class='change_password_tr3'>
                                       <th>새로운 비밀번호 확인</th>
                                       <td>
                                         <input type="password" class='user_passChk' name="password" value="" placeholder="비밀번호를 재입력해주세요" required maxlength="15" minlength="8" />
-                                        <p class='warning_message'>비밀번호가 일치하지 않습니다.</p>
+                                        <p id='warning_message'>비밀번호가 일치하지 않습니다.</p>
                                       </td>
                                     </tr>
                                     <tr class='change_password_tr4'>
@@ -138,14 +138,14 @@ jQuery(document).ready(function(){
                                       <td>
                                         <input type="text" name="" value="" placeholder="휴대폰으로 전송된 인증번호를 입력하세요." required maxlength="6" minlength="6" />
                                         <input type="button" value="인증번호요청" >
-                                        <p class='warning_message'>전송된 인증번호가 일치하지 않습니다.</p>
+                                        <p id='warning_message'>전송된 인증번호가 일치하지 않습니다.</p>
                                       </td>
                                     </tr>
                                     <tr class='change_password_tr5'>
                                       <th>보안 비밀번호</th>
                                       <td>
                                         <input type="password" class='user_security' name="security" value="" placeholder="보안 비밀번호를 입력하세요." maxlength="4" minlength='4' required/>
-                                        <p class='warning_message'>보안 비밀번호가 일치하지 않습니다.</p>
+                                        <p id='warning_message'>보안 비밀번호가 일치하지 않습니다.</p>
                                       </td>
                                       </td>
                                     </tr>

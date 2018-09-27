@@ -115,7 +115,9 @@
                       <div class="myinfo_text_box">
                         <h3>보안 비밀번호 생성 완료</h3>
                         <br/>
-                        <p>생성된 보안 비밀번호로 로그인 부탁 드립니다.</p>
+                        <p>회원님의 현재 보안등급은 <strong class="complete_level">Level <b class="user_level">2</b></strong>입니다.</p>
+                        <br/>
+                        <p>더 많은 서비스를 이용하려면 다음 단계를 인증해주세요</p>
                       </div>
 
                       <div class="cancel_or_apply">

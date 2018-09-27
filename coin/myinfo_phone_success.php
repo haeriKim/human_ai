@@ -95,7 +95,7 @@
                         <div class="myinfo_text_box">
                           <h3>휴대폰 번호 재인증 완료</h3>
                           <br/>
-                          <p>계좌인증 및 OTP인증을 하셔야 입출금을 할 수 있습니다.</p>
+                          <p>회원님의 현재 보안등급은 <strong class="complete_level">Level <b class="user_level">3</b></strong>입니다.</p>
                         </div>
 
                         <div class="cancel_or_apply">

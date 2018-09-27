@@ -106,7 +106,7 @@ jQuery(document).ready(function(){
 
                                       <th>현재 로그인 비밀번호</th>
                                       <td><input type="password" class='user_pass' name="password" value="" placeholder="현재 로그인 비밀번호를 입력하세요." required maxlength="12" minlength="12" />
-                                          <p class='warning_message'>비밀번호가 일치하지 않습니다.</p>
+                                          <p id='warning_message'>비밀번호가 일치하지 않습니다.</p>
                                       </td>
                                     </tr>
 
@@ -122,14 +122,14 @@ jQuery(document).ready(function(){
                                                  비밀번호에 포함된 숫자 등 추측이 가능한 번호는 피해주세요.
                                           </div>
                                         </div>
-                                        <p class='warning_message'>비밀번호 요건이 충족하지 않습니다.</p>
+                                        <p id='warning_message'>비밀번호 요건이 충족하지 않습니다.</p>
                                       </td>
                                     </tr>
                                     <tr>
                                       <th>새로운 보안 비밀번호 확인</th>
                                       <td>
                                         <input type="password" class='user_security' name="security" value="" placeholder="새로운 보안 비밀번호를 입력하세요." maxlength="4" minlength='4' required/>
-                                        <p class='warning_message'>비밀번호가 일치하지 않습니다.</p>
+                                        <p id='warning_message'>비밀번호가 일치하지 않습니다.</p>
                                       </td>
                                     </tr>
                                   </tbody>
