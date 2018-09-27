@@ -288,3 +288,64 @@
 #popupbox .popupbox_text p.small {
   font-size: 14px;
 }
+
+/*비트코인 출금신청 팝업창 표 서식*/
+#full .coin_withdrawal_box{
+    width: 607px;
+    left: 47%;
+}
+.coin_withdrawal_box .left_thick_table {
+    margin-bottom: 30px;
+}
+.coin_withdrawal_box .left_thick_table tbody th{
+    width: 118px;
+}
+.coin_withdrawal_box .left_thick_table tbody td{
+    padding-left: 20px;
+}
+.coin_withdrawal_box .left_thick_table tbody td span{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 280px;
+    display: inline-block;
+}
+.coin_withdrawal_box .left_thick_table .plus_more_btn{
+    position: relative;
+}
+.coin_withdrawal_box .left_thick_table .plus_more_btn img{
+    position: absolute;
+    cursor: pointer;
+    top: -23px;
+    right: 13px;
+}
+.coin_withdrawal_box .more_coin_address_01,
+.coin_withdrawal_box .more_coin_address_02{
+    box-sizing: border-box;
+    padding: 20px;
+    color: white;
+    background-color: #1b2f4a;
+    border-radius: 5px;
+    position: absolute;
+    width: 400px;
+    top: 13px;
+    right: 0;
+    line-height: 10px;
+    visibility: hidden;
+    z-index: 10;
+}
+.coin_withdrawal_box .more_coin_address_01:before,
+.coin_withdrawal_box .more_coin_address_02:before{
+    content: "";
+    position: absolute;
+    top: -9px;
+    right: 16px;
+    margin-left: -10px;
+    border-bottom: 10px solid #1b2f4a;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+.coin_withdrawal_box .plus_more_btn_01:hover .more_coin_address_01,
+.coin_withdrawal_box .plus_more_btn_02:hover .more_coin_address_02{
+    visibility: visible;
+}

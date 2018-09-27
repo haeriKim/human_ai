@@ -25,20 +25,20 @@
                                 <tr>
                                     <th>나의 비트코인 주소</th>
                                     <td>
-                                        <span>ewearch&sm=top_hty&fbm=1%ie-itf8quera</span>
+                                        <span>ewearch&sm=top_hty&fbm=1%ie-itf8query1664=asdw123</span>
                                         <div class='plus_more_btn plus_more_btn_01'>
                                             <img src="img/plus.png" alt="자세히보기">
-                                            <div class='more_coin_address_01'>ewearch&sm=top_hty&fbm=1%ie-itf8query1664=</div>
+                                            <div class='more_coin_address_01'>ewearch&sm=top_hty&fbm=1%ie-itf8query1664=asdw123</div>
                                         </div>
                                     </td>
                                 </tr>
                                 <tr>
                                     <th>비트코인 출금 주소</th>
                                     <td>
-                                        <span>asdlkjlqkwasdasdeli@oasdasd1231234asdsd</span>
+                                        <span>asdlkjlqkwasdasdeli@oasdasd123aaasd!@#$$$!@~!=!asd__@</span>
                                         <div class='plus_more_btn plus_more_btn_02'>
                                             <img src="img/plus.png" alt="자세히보기">
-                                            <div class='more_coin_address_02'>asdlkjlqkwasdasdeli@oasdasd1231234asdsdwsasd</div>
+                                            <div class='more_coin_address_02'>asdlkjlqkwasdasdeli@oasdasd123aaasd!@#$$$!@~!=!asd__@</div>
                                         </div>
                                     </td>
                                 </tr>
