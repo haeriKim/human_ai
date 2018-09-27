@@ -182,6 +182,11 @@ table .password_question_detail:before {
   margin-top:20px;
   margin-bottom:80px;
 }
+.count_down{
+  position:fixed;
+  margin-top:3px;
+  color:red;
+}
 
 
 /*account*/

@@ -733,3 +733,12 @@ $(document).ready(function(){
     $(".coin_withdrawal_box, #shadow").hide();
   });
 });
+
+//인증번호 카운트다운
+
+$(document).ready(function(){
+  $(".count_down").hide();
+  $(".request_number").click(function(){
+    $(".count_down").show();
+  });
+});
