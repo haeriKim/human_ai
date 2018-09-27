@@ -63,7 +63,7 @@
   color:#1b2f4a;
 }
 .cText_right2 .account{
-  height:80px;
+  overflow: hidden;
 }
 .cText_right2 .bankname{
   float:left;
@@ -71,37 +71,30 @@
 }
 .cText_right2 .bank_inner{
   float:left;
-  padding: 0 10px;
+  padding-left: 20px;
+  width: 325px;
 }
-.bank_inner #bankselect{
-  width:250px;
+.bank_inner #bankselect, .cText_right2 .account_number{
+  width: 100%;
   color:#666;
   border:none;
   border-bottom:1px solid #1b2f4a;
   padding: 7px 0;
 }
 .cText_right2 .account_number{
-  width:250px;
-  color:#666;
-  border:none;
-  border-bottom:1px solid #1b2f4a;
-  padding: 7px 3px;
-  box-sizing: border-box;
+  padding: 7px 0;
 }
 .cText_right2 p{
-  float:left;
-  width:400px;
-  font-size:15px;
+  font-size:13px;
   font-weight:600;
   color:#c95b74;
   margin-top:6px;
-  overflow:hidden;
 }
 #bank_complete{
-  width:350px;
   text-align:center;
+  margin-top: 60px;
 }
-.cText_right2 #bank_complete .account_complete{
+.cText_right2 #bank_complete .account_complete, .cText_right2 #bank_complete .chk_ok, .cText_right2 #bank_complete .bank_cancel{
   border-radius: 5px;
   padding: 7px 30px;
   color: #fff;
@@ -110,32 +103,15 @@
   box-sizing: border-box;
   border: 1px solid #666;
   background-color: #666;
-  margin-top:20px;
 }
 .cText_right2 #bank_complete .chk_ok{
-  border-radius: 5px;
-  padding: 7px 30px;
-  color: #fff;
-  font-weight: 600;
-  font-size: 16px;
-  box-sizing: border-box;
   border: 1px solid #1b2f4a;
   background-color: #1b2f4a;
-  margin-top:20px;
-  cursor: pointer;
 }
 .cText_right2 #bank_complete .bank_cancel{
-  border-radius: 5px;
-  padding: 7px 30px;
-  width:100px;
-  color: #1b2f4a;
-  font-weight: 600;
-  font-size: 16px;
-  box-sizing: border-box;
   border: 1px solid #1b2f4a;
   background-color: #fff;
-  margin-top:20px;
-  cursor: pointer;
+  color: #1b2f4a;
 }
 #account_malpungsun{
   color:#fff;
@@ -144,7 +120,7 @@
   font-weight: bold;
   position: absolute;
   display:none;
-  top:215px;
+  bottom:45px;
   left:0;
   width: 300px;
   text-align: center;

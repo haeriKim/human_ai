@@ -133,14 +133,16 @@
 
                         <div class="cText_right2">
 
-                          <strong><span>2</span>. 출금 계좌등록</strong>
+                          <strong><span>2</span>. 계좌 등록</strong>
+                          <form action="#" method="post">
                           <div class="account">
                             <ul class="bankname">
+                              <li>예금주</li>
                               <li>은행명</li>
                               <li>계좌번호</li>
                             </ul>
-                            <form action="#" method="post">
                             <ul class="bank_inner">
+                              <li>가나다</li>
                               <li>
                                 <select name="bankselect" id="bankselect" required class='bankName'>
                                   <option value="은행선택" selected="selected" disabled>은행선택</option>
@@ -151,7 +153,6 @@
                                   <option value="기업은행">기업은행</option>
                                 </select>
                               </li>
-
                               <li><input type="text" placeholder="숫자만 입력해주세요." required class="account_number user_account"></li>
                             </ul>
 
