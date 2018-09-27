@@ -1,59 +1,65 @@
 /* footer */
 #footer_wrap{
-    height:35px;
     position: absolute;
     bottom:0;
-    background: #e1e1e1;
+    background: #0e141c;
     width: 100%;
     box-sizing: border-box;
     overflow: hidden;
     font-weight: 600;
 }
 #footer{
-    height:inherit;
     padding-left: 190px;
+    margin: 10px 20px;
 }
 #footer:after{
     content: '';
     display: block;
     clear: both;
 }
-.footer_menu{
-    height:35px;
-    width: auto;
-    display: inline-block;
-}
-.footer_menu ul{
-    height:35px;
-}
-.footer_menu ul:after{
-    content: '';
-    display: block;
-    clear: both;
-}
-.footer_menu ul li{
-    height:inherit;
-    float: left;
-    padding:0 18px;
-    box-sizing: border-box;
-}
-.footer_menu ul li a{
-    color: #666;
-    font-size:13px;
-    display: inline-block;
-    height: 100%;
-    line-height: 35px;
-}
 .compnay_info {
-    float: right;
-    color: #666;
-    margin-top:10px;
-    margin-right:20px;
-    text-align: right;
-    font-size: 10px;
-    letter-spacing: -0.6px;
+    float: left;
+    color: #888;
     font-size: 13px;
 }
-#footer .bar{
-    padding: 0 5px;
+.compnay_info span {
+  color: #ccc;
+  line-height: 30px;
+}
+.compnay_info p {
+  line-height: 20px;
+}
+.footer_menu{
+    float: right;
+    text-align: right;
+}
+.footer_menu strong {
+  color: #ccc;
+  font-size: 17px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+.footer_menu .footer_nav {
+  overflow: hidden;
+  text-align: right;
+}
+.footer_menu .footer_nav ul {
+  text-align: right;
+}
+.footer_menu .footer_nav ul li{
+    float: left;
+    font-size: 13px;
+    line-height: 20px;
+}
+.footer_menu .footer_nav ul li.footer_link::after {
+    content: '|';
+    padding-left: 15px;
+}
+.footer_menu .footer_nav ul li + li {
+  margin-left: 15px;
+}
+.footer_menu .footer_nav ul li a{
+  color: #888;
+  display: inline-block;
+  height: 100%;
 }

@@ -1,22 +1,25 @@
 <!-- footer_wrap -->
 <div id="footer_wrap">
     <div id="footer">
-        <div class="footer_menu">
+      <div class="compnay_info">
+          <span>㈜필립스멀티<br/></span>
+          <p>서울특별시 송파구 백제고분로 293, 제우빌딩 | 대표 손용현 | 사업자등록번호 834-81-01022 | 통신판매업 제 2018-서울송파-1893호</p>
+          <p>Copyright@All rights reserved.</p>
+      </div>
+      <div class="footer_menu">
+          <strong>고객센터 1566-1506</strong>
+          <div class="footer_nav">
             <ul>
-                <li><a href="#">회사소개</a></li>
+                <li class="footer_link"><a href="#">회사소개</a></li>
+                <li class="footer_link"><a href="#">이용약관</a></li>
                 <li><a href="#">개인정보처리방침</a></li>
-                <li><a href="#">공지사항</a></li>
-                <li><a href="#">이용안내</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">불편사항접수</a></li>
             </ul>
-        </div>
-        <div class="compnay_info">
-            서울특별시 서초구 신반포로 326-10 305호&nbsp;&nbsp;
-            (주)휴먼앤에이아이 &nbsp;&nbsp;
-            대표 홍길동 &nbsp;&nbsp;
-            사업자등록번호 <span>000-00-00000</span> &nbsp;&nbsp;
-            Copyright@All rights reserved.
-        </div>
+            <ul>
+                <li class="footer_link"><a href="#">FAQ</a></li>
+                <li class="footer_link"><a href="#">1:1 문의</a></li>
+                <li><a href="#">인증절차안내</a></li>
+            </ul>
+          </div>
+      </div>
     </div><!-- footerEnd-->
 </div><!-- footer_wrap End-->
