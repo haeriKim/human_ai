@@ -106,13 +106,15 @@
                                     <tr>
                                         <th>비밀번호</th>
                                         <td>
-                                            <input type="password" name="" value="" placeholder="" required class='input_your_password user_pass'>
+                                            <input type="password" name="" value="" placeholder="로그인 비밀번호를 입력해주세요." required class='input_your_password user_pass'>
+                                            <p id='warning_message'>비밀번호가 일치하지 않습니다.</p>
                                         </td>
                                     </tr>
                                     <tr>
                                         <th>보안 비밀번호</th>
                                         <td>
-                                            <input type="password" name="" value="" placeholder="보안 비밀번호 4자리 입력" required maxlength="4" minlength='4' class='input_your_password_again user_security'>
+                                            <input type="password" name="" value="" placeholder="보안 비밀번호 4자리 입력해주세요." required maxlength="4" minlength='4' class='input_your_password_again user_security'>
+                                            <p id='warning_message'>보안비밀번호가 일치하지 않습니다.</p>
                                         </td>
                                     </tr>
                                     <tr>
@@ -120,6 +122,7 @@
                                         <td>
                                             <input type="text" name="" value="" placeholder="휴대폰으로 전송된 인증번호를 입력해주세요." required class='input_your_sms_number'>
                                             <input type="button" value="인증번호요청" class="leave_member_request_number">
+                                            <p id='warning_message'>인증번호가 일치하지 않습니다.</p>
                                         </td>
                                     </tr>
                                 </tbody>
