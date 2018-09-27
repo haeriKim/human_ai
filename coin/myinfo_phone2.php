@@ -168,7 +168,7 @@ jQuery(document).ready(function(){
 
                   </div>
                 </div><!-- full_content End-->
-                <div id="shadow" style="display:block;"></div>
+                <div id="shadow"></div>
         </div>
 
 </body>
