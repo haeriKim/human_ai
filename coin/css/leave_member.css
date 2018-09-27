@@ -102,7 +102,7 @@
   font-weight:100;
 }
 .withdrawal_area #withdrawal_text3 form table{
-    width: 73%;
+    width: 76%;
     margin: 35px auto -40px auto;
 }
 .withdrawal_area #withdrawal_text3 .get_rid_of_money{
@@ -193,4 +193,8 @@
   font-weight: 600;
   font-size: 16px;
   cursor: pointer;
+}
+.count_down{
+  margin-left:20px;
+  color:red;
 }

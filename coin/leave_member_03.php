@@ -121,7 +121,8 @@
                                         <th>휴대폰 SMS인증</th>
                                         <td>
                                             <input type="text" name="" value="" placeholder="휴대폰으로 전송된 인증번호를 입력해주세요." required class='input_your_sms_number'>
-                                            <input type="button" value="인증번호요청" class="leave_member_request_number">
+                                            <input type="button" value="인증번호요청" id="request_count" class="leave_member_request_number request_count">
+                                            <span id="count_down" class="count_down">03:00</span>
                                             <p id='warning_message'>인증번호가 일치하지 않습니다.</p>
                                         </td>
                                     </tr>
