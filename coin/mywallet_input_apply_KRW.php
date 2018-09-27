@@ -620,22 +620,7 @@
         </div><!-- container End -->
     </div><!-- wrap End -->
 
-    <div id="full">
-                <!-- full_content -->
-                <div id="popupbox" class='box popup'>
-                  <div class="full_inner">
-                    <h2>인증번호 발송완료</h2>
-                    <div class="popupbox_text">
-                      <p>등록하신 휴대폰으로 인증번호를 발송하였습니다.</p>
-                    </div>
-                    <div class="cancel_or_apply">
-                      <input type="button" name="" value="확인"  class="output_KRW_ok">
-                    </div>
 
-                  </div>
-                </div><!-- full_content End-->
-                <div id="shadow"></div>
-        </div>
 
 </body>
 </html>

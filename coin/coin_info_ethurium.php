@@ -72,11 +72,11 @@
                             <h4>상용링크</h4>
                             <p>
                               <a href="https://www.ethereum.org/" title="공식 웹사이트">공식 웹사이트</a>
-                              <a href="" title="지갑 다운">지갑 다운</a>
-                              <a href="" title="블록체인 조희">블록체인 조희</a>
-                              <a href="" title="소스코드 다운">소스코드 다운</a>
-                              <a href="" title="이더리움 포럼">이더리움 포럼</a>
-                              <a href="" title="이더리움 채굴">이더리움 채굴</a>
+                              <a href="https://www.ethereum.org/cli" title="지갑 다운">지갑 다운</a>
+                              <a href="https://www.etherchain.org/" title="블록체인 조희">블록체인 조희</a>
+                              <a href="https://github.com/ethereum/" title="소스코드 다운">소스코드 다운</a>
+                              <a href="https://forum.ethereum.org/" title="이더리움 포럼">이더리움 포럼</a>
+                              <a href="https://www.ethereum.org/" title="이더리움 채굴">이더리움 채굴</a>
                             </p>
                           </div>
                           <div>

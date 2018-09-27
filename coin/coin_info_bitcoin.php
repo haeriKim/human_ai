@@ -64,11 +64,11 @@
                             <h4>상용링크</h4>
                             <p>
                               <a href="http://www.bitcoin.com" title="공식 웹사이트">공식 웹사이트</a>
-                              <a href="" title="지갑 다운">지갑 다운</a>
-                              <a href="" title="블록체인 조희">블록체인 조희</a>
-                              <a href="" title="소스코드 다운">소스코드 다운</a>
-                              <a href="" title="비트코인 포럼">비트코인 포럼</a>
-                              <a href="" title="비트코인 채굴">비트코인 채굴</a>
+                              <a href="https://bitcoin.org/en/download" title="지갑 다운">지갑 다운</a>
+                              <a href="https://www.blockchain.com/explorer" title="블록체인 조희">블록체인 조희</a>
+                              <a href="https://github.com/bitcoin/bitcoin" title="소스코드 다운">소스코드 다운</a>
+                              <a href="https://bitcointalk.org/" title="비트코인 포럼">비트코인 포럼</a>
+                              <a href="https://en.bitcoin.it/wiki/Comparison_of_mining_pools" title="비트코인 채굴">비트코인 채굴</a>
                             </p>
                           </div>
                           <div>

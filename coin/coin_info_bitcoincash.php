@@ -77,11 +77,8 @@
                             <h4>상용링크</h4>
                             <p class='link_bitcoin_cash'>
                               <a href="https://www.bitcoincash.org/ko/" title="공식 웹사이트">공식 웹사이트</a>
-                              <a href="" title="지갑 다운">지갑 다운</a>
-                              <a href="" title="블록체인 조희">블록체인 조희</a>
-                              <a href="" title="소스코드 다운">소스코드 다운</a>
-                              <a href="" title="비트코인 포럼">비트코인캐시 포럼</a>
-                              <a href="" title="비트코인 채굴">비트코인캐시 채굴</a>
+                              <a href="https://blockdozer.com/" title="블록체인 조희">블록체인 조희</a>
+
                             </p>
                           </div>
                           <div>
