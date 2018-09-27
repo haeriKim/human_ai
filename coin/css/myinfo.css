@@ -45,27 +45,25 @@
   margin-top:10px;
 }
 
-/* 비활성화 */
-.cer_center .cer_level li img.account_on,
-.cer_center .cer_level li img.otp_on,
-.cer_center .cer_level li img.lv4_on,
-.cer_center .cer_level li img.lv5_on,
-.cer_center .center_bottom .cText_right li .complete,
-.cer_center .center_bottom .cText_right li .lv5_ing {
-  display: none;
-}
-
 /* quit_page */
 .myinfo_main_box .quit_page a{
   font-size:14px;
   color:#999;
   text-decoration: underline;
 }
+.myinfo_sub_box .user_level{
+    display: none;
+}
 /*1단계까지 인증시 */
-/* .myinfo_sub_box .change_phone_num,
+.myinfo_sub_box .change_phone_num,
 .myinfo_sub_box .user_name,
 .myinfo_sub_box .user_phone,
 .myinfo_sub_box .change_securityNum,
+.cer_center .lv2_on,
+.cer_center .lv3_on,
+.cer_center .lv4_on,
+.cer_center .lv5_on,
+.cer_center .cer_level li .navy_title,
 .myinfo_sub_box .myinfo_table_wrap .myinfo_table p.account_number,
 .myinfo_sub_box .myinfo_table .myinfo_table_tr .change_accountNum,
 .myinfo_sub_box .myinfo_table .change_OTP,
@@ -77,13 +75,24 @@
 .myinfo_sub_box .certify_OTP
 {
     display: none;
-} */
+}
+.myinfo_sub_box .level_01{
+    display: inline-block;
+}
 
 /*2단계까지 인증시 */
 /* .myinfo_sub_box .change_phone_num,
 .myinfo_sub_box .user_name,
 .myinfo_sub_box .user_phone,
 .myinfo_sub_box .make_securityNum,
+.cer_center .lv2_off,
+.cer_center .lv3_on,
+.cer_center .lv4_on,
+.cer_center .lv5_on,
+.cer_center .cer_level li.cer_level_02 .gray_title,
+.cer_center .cer_level li.cer_level_03 .navy_title,
+.cer_center .cer_level li.cer_level_04 .navy_title,
+.cer_center .cer_level li.cer_level_05 .navy_title,
 .myinfo_sub_box .myinfo_table_wrap .myinfo_table p.account_number,
 .myinfo_sub_box .myinfo_table .myinfo_table_tr .change_accountNum,
 .myinfo_sub_box .myinfo_table .change_OTP,
@@ -95,6 +104,9 @@
 .myinfo_sub_box .no_phone
 {
     display: none;
+}
+.myinfo_sub_box .level_02{
+    display: inline-block;
 } */
 
 /*3단계까지 인증시*/
@@ -102,6 +114,14 @@
 .cer_center .cer_level_03 .btn_large,
 .cer_center .cer_level_05 .btn_large,
 .myinfo_sub_box .certify_realname,
+.cer_center .lv2_off,
+.cer_center .lv3_off,
+.cer_center .lv4_on,
+.cer_center .lv5_on,
+.cer_center .cer_level li.cer_level_02 .gray_title,
+.cer_center .cer_level li.cer_level_03 .gray_title,
+.cer_center .cer_level li.cer_level_04 .navy_title,
+.cer_center .cer_level li.cer_level_05 .navy_title,
 .myinfo_sub_box .myinfo_table_wrap .myinfo_table p.account_number,
 .myinfo_sub_box .change_OTP,
 .myinfo_sub_box .no_name,
@@ -113,12 +133,24 @@
 .myinfo_sub_box .myinfo_table .myinfo_table_tr .change_accountNum
 {
     display: none;
+}
+.myinfo_sub_box .level_03{
+    display: inline-block;
 } */
+
 
 /*4단계까지 인증시 */
 /* .cer_center .cer_level_02 .btn_large,
 .cer_center .cer_level_03 .btn_large,
 .cer_center .cer_level_04 .btn_large,
+.cer_center .lv2_off,
+.cer_center .lv3_off,
+.cer_center .lv4_off,
+.cer_center .lv5_on,
+.cer_center .cer_level li.cer_level_02 .gray_title,
+.cer_center .cer_level li.cer_level_03 .gray_title,
+.cer_center .cer_level li.cer_level_04 .gray_title,
+.cer_center .cer_level li.cer_level_05 .navy_title,
 .myinfo_sub_box .certify_realname,
 .myinfo_sub_box .change_OTP,
 .myinfo_sub_box .no_name,
@@ -129,13 +161,21 @@
 .myinfo_sub_box .myinfo_table .myinfo_table_tr .certify_accountNum
 {
     display: none;
+}
+.myinfo_sub_box .level_04{
+    display: inline-block;
 } */
 
 /*5단계까지 인증시 */
-.cer_center .cer_level_02 .btn_large,
+/* .cer_center .cer_level_02 .btn_large,
 .cer_center .cer_level_03 .btn_large,
 .cer_center .cer_level_04 .btn_large,
 .cer_center .cer_level_05 .btn_large,
+.cer_center .lv2_off,
+.cer_center .lv3_off,
+.cer_center .lv4_off,
+.cer_center .lv5_off,
+.cer_center .cer_level strong.gray_title,
 .myinfo_sub_box .certify_realname,
 .myinfo_sub_box .certify_OTP,
 .myinfo_sub_box .no_name,
@@ -147,3 +187,6 @@
 {
     display: none;
 }
+.myinfo_sub_box .level_05{
+    display: inline-block;
+} */

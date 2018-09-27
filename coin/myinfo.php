@@ -91,13 +91,19 @@
                                       <td>
                                           <span class='user_phone'>010-****-****</span>
                                           <span class='no_phone'>-</span>
-                                          <a href="myinfo_phone.php" class="btn_small change_phone_num">휴대폰 번호 변경</a>
-                                          <a href="#" class="btn_small certify_realname">휴대폰번호 인증</a>
+                                          <a href="myinfo_phone.php" class="btn_small change_phone_num">휴대폰번호 변경</a>
+                                          <a href="#" class="btn_small certify_realname">실명인증</a>
                                       </td>
                                   </tr>
                                   <tr>
                                       <th>등급</th>
-                                      <td>Level <span class='user_level'>3</span></td>
+                                      <td>Level
+                                          <span class='user_level level_01'>1</span>
+                                          <span class='user_level level_02'>2</span>
+                                          <span class='user_level level_03'>3</span>
+                                          <span class='user_level level_04'>4</span>
+                                          <span class='user_level level_05'>5</span>
+                                      </td>
                                   </tr>
                               </tbody>
                           </table>
@@ -143,8 +149,7 @@
                       <h4 class="second">인증현황</h4>
                       <ul class="cer_level">
                         <li class='cer_level_01'>
-                          <img src="img/lv1.png" alt="레벨1" class='lv1_on'/>
-                          <img src="img/lv5_off.png" alt="레벨1" class="lv5_off"/>
+                          <img src="img/lv1.png" alt="레벨1"/>
                           <p class="img_area">
                             <img src="img/mailbox.png" alt="이메일인증 아이콘"/>
                           </p>
@@ -152,22 +157,26 @@
                           <span>실제 사용 중인<br/>이메일 계정을 인증해주세요.</span>
                         </li>
                         <li class='cer_level_02'>
-                          <img src="img/lv2.png" alt="레벨2" />
-                          <img src="img/lv5_off.png" alt="레벨4" class="lv5_off"/>
+                          <img src="img/lv2.png" alt="레벨2"  class='lv2_on'/>
+                          <img src="img/lv2_off.png" alt="레벨2" class='lv2_off'/>
                           <p class="img_area">
-                            <img src="img/key.png" alt="보안비밀번호생성 아이콘" />
+                            <img src="img/key.png" alt="보안비밀번호생성 아이콘" class='lv2_on'/>
+                            <img src="img/key_off.png" alt="보안비밀번호생성 아이콘" class='lv2_off'/>
                           </p>
-                          <strong>보안비밀번호 생성</strong>
+                          <strong class='navy_title'>보안비밀번호 생성</strong>
+                          <strong class="gray_title">보안비밀번호 생성</strong>
                           <span>안전거래를 위한 <br/>보안비밀번호를 생성해주세요.</span>
                           <button class="btn_large" onclick="location.href='certification.php'" type="button">인증하기</button>
                         </li>
                         <li class='cer_level_03'>
-                          <img src="img/lv3.png" alt="레벨3" />
-                          <img src="img/lv5_off.png" alt="레벨4" class="lv5_off"/>
+                          <img src="img/lv3.png" alt="레벨3" class='lv3_on'/>
+                          <img src="img/lv3_off.png" alt="레벨3" class="lv3_off"/>
                           <p class="img_area">
-                            <img src="img/phone.png" alt="휴대폰인증 아이콘" />
+                            <img src="img/phone.png" alt="휴대폰인증 아이콘" class='lv3_on'/>
+                            <img src="img/phone_off.png" alt="휴대폰인증 아이콘" class='lv3_off'/>
                           </p>
-                          <strong>실명인증</strong>
+                          <strong class='navy_title'>실명인증</strong>
+                          <strong class="gray_title">실명인증</strong>
                           <span>본인명의 휴대폰을 통하여<br/>실명을 인증해주세요.</span>
                           <button class="btn_large" onclick="location.href='certification.php'" type="button">인증하기</button>
                         </li>
@@ -175,9 +184,10 @@
                           <img src="img/lv4.png" alt="레벨4" class="lv4_on"/>
                           <img src="img/lv4_off.png" alt="레벨4" class="lv4_off"/>
                           <p class="img_area">
-                            <img src="img/bankbook_off.png" alt="계좌인증 아이콘" class="account_off"/>
-                            <img src="img/bankbook.png" alt="계좌인증 아이콘" class="account_on" />
+                            <img src="img/bankbook.png" alt="계좌인증 아이콘" class="lv4_on" />
+                            <img src="img/bankbook_off.png" alt="계좌인증 아이콘" class="lv4_off"/>
                           </p>
+                          <strong class='navy_title'>계좌인증</strong>
                           <strong class="gray_title">계좌인증</strong>
                           <span>거래소를 이용하기 위한<br/>계좌를 인증해주세요.</span>
                           <button class="btn_large" onclick="location.href='certification.php'" type="button">인증하기</button>
@@ -186,9 +196,10 @@
                           <img src="img/lv5.png" alt="레벨5" class="lv5_on">
                           <img src="img/lv5_off.png" alt="레벨4" class="lv5_off"/>
                           <p class="img_area">
-                            <img src="img/lock_off.png" alt="OTP인증 아이콘" class="otp_off"/>
-                            <img src="img/lock.png" alt="OTP인증인증 아이콘" class="otp_on" />
+                            <img src="img/lock.png" alt="OTP인증인증 아이콘" class="lv5_on" />
+                            <img src="img/lock_off.png" alt="OTP인증 아이콘" class="lv5_off"/>
                           </p>
+                          <strong class='navy_title'>OTP인증</strong>
                           <strong class="gray_title">OTP인증</strong>
                           <span>실제 사용 중인<br/>OTP로 인증해주세요.</span>
                           <button class="btn_large" onclick="location.href='certification.php'" type="button">인증하기</button>
