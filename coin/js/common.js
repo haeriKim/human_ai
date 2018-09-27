@@ -247,15 +247,18 @@ $(document).ready(function(){
     //   console.log("Sdfd");
     // }
 
-
-
     //코인 입출금
     $("ul.tabs4 li").click(function () {
         $("ul.tabs4 li").removeClass("active2");
         $(this).addClass("active2");
         $(".bitcoin_conclu_table").hide();
         var activeTab = $(this).attr("rel");
-        $("#" + activeTab).show();
+
+        if(activeTab == "input_bitcoin" || activeTab == "output_bitcoin"){
+            $("#" + activeTab).show();
+        }else{
+            $("#io_list").show();
+        }
       });
 
     //보유코인 표에서 입출금 눌렀을 때 - 원화,코인 입출금 보이고 안보이기
