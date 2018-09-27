@@ -119,7 +119,7 @@
                           <div class="current_level">
                             <strong>[ 보안인증 ]</strong>
                             <b>
-                                회원님의 현재 보안등급은 <span class='level_color'>Level <span class="user_level">3</span></span>입니다.
+                                회원님의 현재 보안등급은 <span class='level_color'>Level <span class="user_level">1</span></span>입니다.
                             </b>
                             <p class='need_more_level'>
                               입출금 이용을 위해 보안등급 상향이 필요합니다.
