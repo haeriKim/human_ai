@@ -686,12 +686,12 @@ $(document).ready(function(){
 
 //입금 주소 복사
 $(document).ready(function(){
-  $(".copy_pop, #shadow").hide();
+  $(".copy_pop").hide();
   $("#input_bitcoin div.BTC_input_address_wrap input[type='button']").click(function(){
-    $(".copy_pop, #shadow").show();
+    $(".copy_pop").show();
   });
   $(".close_btn").click(function(){
-    $(".copy_pop, #shadow").hide();
+    $(".copy_pop").hide();
   });
 });
 
