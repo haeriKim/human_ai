@@ -18,10 +18,10 @@
             <!-- full_content -->
             <div id="popupbox" class='box popup'>
                 <div class="full_inner">
-                    <h2>출금계좌 등록</h2>
+                    <h2>서비스 이용 제한</h2>
                     <div class="popupbox_text">
-                      <p>회원님의 단계는 Level<span class="user_level">3</span> 입니다.</p>
-                      <p>거래를 이용하려면 <b>Level4(출금계좌 등록)</b>가 필요합니다.</p>
+                      <p>회원님의 현재 보안등급은 <b>Level <span class="user_level">3</span></b>입니다.</p>
+                      <p>서비스를 이용하려면 <b>계좌인증(Level 4)</b>이 필요합니다.</p>
                       <p>확인버튼을 누르면 인증센터로 이동합니다.</p>
                     </div>
                     <div class="btn_area">

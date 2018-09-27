@@ -149,10 +149,9 @@
 /*나머지 팝업들*/
 
 #popupbox{
-  width:435px;
+  width:455px;
 }
 #popupbox .popupbox_text{
-  font-size:15px;
   padding-top: 20px;
   line-height:1em;
   color:#666666;
