@@ -79,7 +79,8 @@
                             <img src="img/key.png" alt="보안비밀번호생성 아이콘" class='lv2_on'/>
                             <img src="img/key_off.png" alt="보안비밀번호생성 아이콘_off" class='lv2_off'/>
                           </p>
-                          <strong>보안비밀번호 생성</strong>
+                          <strong class='navy_title lv2_on'>보안비밀번호 생성</strong>
+                          <strong class="gray_title lv2_off">보안비밀번호 생성</strong>
                           <span>안전거래를 위한 <br/>보안비밀번호를 생성해주세요.</span>
                         </li>
                         <li>
@@ -89,7 +90,8 @@
                             <img src="img/phone.png" alt="실명인증 아이콘" class='lv3_on'/>
                             <img src="img/phone_off.png" alt="실명인증 아이콘_off" class='lv3_off'/>
                           </p>
-                          <strong>실명인증</strong>
+                          <strong class='navy_title lv3_on'>실명인증</strong>
+                          <strong class="gray_title lv3_off">실명인증</strong>
                           <span>본인명의 휴대폰을 통하여<br/>실명을 인증해주세요.</span>
                         </li>
                         <li>
@@ -99,7 +101,8 @@
                             <img src="img/bankbook.png" alt="계좌인증 아이콘" class="lv4_on"/>
                             <img src="img/bankbook_off.png" alt="계좌인증 아이콘_off" class="lv4_off"/>
                           </p>
-                          <strong class="gray_title">계좌인증</strong>
+                          <strong class='navy_title lv4_on'>계좌인증</strong>
+                          <strong class="gray_title lv4_off">계좌인증</strong>
                           <span>거래소를 이용하기 위한<br/>계좌를 인증해주세요.</span>
                         </li>
                         <li>
@@ -109,7 +112,8 @@
                             <img src="img/lock.png" alt="OTP인증 아이콘" class="lv5_on"/>
                             <img src="img/lock_off.png" alt="OTP인증 아이콘_off" class="lv5_off" />
                           </p>
-                          <strong class="gray_title">OTP인증</strong>
+                          <strong class='navy_title lv5_on'>OTP인증</strong>
+                          <strong class="gray_title lv5_off">OTP인증</strong>
                           <span>실제 사용 중인<br/>OTP로 인증해주세요.</span>
                         </li>
                       </ul>
@@ -119,7 +123,14 @@
                           <div class="current_level">
                             <strong>[ 보안인증 ]</strong>
                             <b>
-                                회원님의 현재 보안등급은 <span class='level_color'>Level <span class="user_level">1</span></span>입니다.
+                                회원님의 현재 보안등급은
+                                <span class='level_color'>Level
+                                    <span class="user_level lv_01">1</span>
+                                    <span class="user_level lv_02">2</span>
+                                    <span class="user_level lv_03">3</span>
+                                    <span class="user_level lv_04">4</span>
+                                    <span class="user_level lv_05">5</span>
+                                </span>입니다.
                             </b>
                             <p class='need_more_level'>
                               입출금 이용을 위해 보안등급 상향이 필요합니다.

@@ -115,7 +115,9 @@
   border-style: solid;
   border-color:  transparent transparent #eaaf69 transparent;
 }
-
+.user_level{
+    display: none;
+}
 /*1단계까지 인증했을때*/
 .cer_center .cer_level .lv2_on,
 .cer_center .cer_level .lv3_on,
@@ -127,9 +129,12 @@
 .cer_center .center_bottom .cText_right .cer_lv_04 .c_complete,
 .cer_center .center_bottom .cText_right .cer_lv_04 .go_cer,
 .cer_center .center_bottom .cText_right .cer_lv_05 .c_complete,
-.cer_center .center_bottom .cText_right .cer_lv_05 .go_cer
-{
+.cer_center .center_bottom .cText_right .cer_lv_05 .go_cer,
+.cer_center .cer_level li strong.navy_title{
     display: none;
+}
+.lv_01{
+    display: inline-block;
 }
 
 /*2단계까지 인증했을때*/
@@ -142,10 +147,13 @@
 .cer_center .center_bottom .cText_right .cer_lv_04 .c_complete,
 .cer_center .center_bottom .cText_right .cer_lv_04 .go_cer,
 .cer_center .center_bottom .cText_right .cer_lv_05 .c_complete,
-.cer_center .center_bottom .cText_right .cer_lv_05 .go_cer
-{
+.cer_center .center_bottom .cText_right .cer_lv_05 .go_cer{
     display: none;
+}
+.lv_02{
+    display: inline-block;
 } */
+
 /*3단계까지 인증했을때*/
 /* .cer_center .cer_level .lv2_off,
 .cer_center .cer_level .lv3_off,
@@ -158,6 +166,9 @@
 .cer_center .center_bottom .cText_right .cer_lv_05 .go_cer
 {
     display: none;
+}
+.lv_03{
+    display: inline-block;
 } */
 
 /*4단계까지 인증했을때*/
@@ -171,6 +182,9 @@
 .cer_center .center_bottom .cText_right .cer_lv_05 .c_complete
 {
     display: none;
+}
+.lv_04{
+    display: inline-block;
 } */
 
 /*5단계까지 인증했을때*/
@@ -185,4 +199,7 @@
 .cer_center .center_bottom .cText_right .cer_lv_05 .go_cer
 {
     display: none;
+}
+.lv_05{
+    display: inline-block;
 } */
