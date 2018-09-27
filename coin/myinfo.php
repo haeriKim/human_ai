@@ -117,7 +117,7 @@
                                     <th>보안비밀번호</th>
                                     <td>
                                         <a href="myinfo_security_password.php" class="btn_medium change_securityNum">보안비밀번호 변경</a>
-                                        <a href="#" class="btn_medium make_securityNum">보안비밀번호 생성</a>
+                                        <a href="certification_security_password.php" class="btn_medium make_securityNum">보안비밀번호 생성</a>
                                     </td>
                                 </tr>
                                 <tr class='myinfo_table_tr'>
@@ -136,7 +136,7 @@
                                     <th>OTP</th>
                                     <td>
                                         <span class='no_OTP'>-</span>
-                                        <a href="#" class="btn_medium certify_OTP">OTP 인증</a>
+                                        <a href="certification_OTP.php" class="btn_medium certify_OTP">OTP 인증</a>
                                         <a href="myinfo_OTP.php" class="btn_medium change_OTP">OTP 변경</a>
                                     </td>
                                 </tr>
@@ -166,7 +166,7 @@
                           <strong class='navy_title'>보안비밀번호 생성</strong>
                           <strong class="gray_title">보안비밀번호 생성</strong>
                           <span>안전거래를 위한 <br/>보안비밀번호를 생성해주세요.</span>
-                          <button class="btn_large" onclick="location.href='certification.php'" type="button">인증하기</button>
+                          <button class="btn_large" onclick="location.href='certification_security_password.php'" type="button">인증하기</button>
                         </li>
                         <li class='cer_level_03'>
                           <img src="img/lv3.png" alt="레벨3" class='lv3_on'/>
@@ -178,7 +178,7 @@
                           <strong class='navy_title'>실명인증</strong>
                           <strong class="gray_title">실명인증</strong>
                           <span>본인명의 휴대폰을 통하여<br/>실명을 인증해주세요.</span>
-                          <button class="btn_large" onclick="location.href='certification.php'" type="button">인증하기</button>
+                          <button class="btn_large" onclick="location.href='certification_phone.php'" type="button">인증하기</button>
                         </li>
                         <li class='cer_level_04'>
                           <img src="img/lv4.png" alt="레벨4" class="lv4_on"/>
@@ -190,7 +190,7 @@
                           <strong class='navy_title'>계좌인증</strong>
                           <strong class="gray_title">계좌인증</strong>
                           <span>거래소를 이용하기 위한<br/>계좌를 인증해주세요.</span>
-                          <button class="btn_large" onclick="location.href='certification.php'" type="button">인증하기</button>
+                          <button class="btn_large" onclick="location.href='certification_account.php'" type="button">인증하기</button>
                         </li>
                         <li class='cer_level_05'>
                           <img src="img/lv5.png" alt="레벨5" class="lv5_on">
@@ -199,10 +199,10 @@
                             <img src="img/lock.png" alt="OTP인증인증 아이콘" class="lv5_on" />
                             <img src="img/lock_off.png" alt="OTP인증 아이콘" class="lv5_off"/>
                           </p>
-                          <strong class='navy_title'>OTP인증</strong>
-                          <strong class="gray_title">OTP인증</strong>
+                          <strong class='navy_title'>OTP 인증</strong>
+                          <strong class="gray_title">OTP 인증</strong>
                           <span>실제 사용 중인<br/>OTP로 인증해주세요.</span>
-                          <button class="btn_large" onclick="location.href='certification.php'" type="button">인증하기</button>
+                          <button class="btn_large" onclick="location.href='certification_OTP.php'" type="button">인증하기</button>
                         </li>
                       </ul>
                       <p class="quit_page">
