@@ -917,14 +917,14 @@
                                                                     </tr>
                                                                     <tr>
                                                                         <th>1회 출금한도</th>
-                                                                        <td>100,000,000 KRW</td>
+                                                                        <td>
+                                                                            <p>100,000,000 KRW</p>
+                                                                            <input type="button" value="인증레벨설정">
+                                                                        </td>
                                                                     </tr>
                                                                     <tr>
                                                                         <th>1일 잔여한도</th>
-                                                                        <td>
-                                                                            <p>200,000,000 KRW</p>
-                                                                            <input type="button" value="인증레벨설정">
-                                                                        </td>
+                                                                        <td>200,000,000 KRW</td>
                                                                     </tr>
                                                                     <tr>
                                                                         <th>출금요청액</th>

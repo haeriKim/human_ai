@@ -724,7 +724,6 @@ div.cancel_or_apply .if_you_all_agree{
 }
 
 /*input 경고메세지 스타일*/
-
 #warning_message{
   color: #f00;
   margin-top: 4px;
@@ -732,8 +731,16 @@ div.cancel_or_apply .if_you_all_agree{
 }
 
 /*완료창 레벨글씨 크기*/
-
 .complete_level{
   font-size:18px;
   color:#1b2f4a;
+}
+
+/*인증센터 소제목 서식*/
+.center_bottom .content_title,
+.myinfo_sub_box .send_login_password .table_title{
+    color: #1b2f4a;
+    font-weight: 600;
+    margin-bottom: 42px;
+    font-size: 18px;
 }
