@@ -198,7 +198,7 @@
                       <p>알림 설정이 저장되었습니다.</p>
                     </div>
                     <div class="cancel_or_apply">
-                      <input type="button" name="" value="확인" onclick="location.href='alarm_setting.php'" class="agree_btn">
+                      <input type="button" name="" value="확인" class="agree_btn save_ok">
                     </div>
 
                   </div>

@@ -469,6 +469,9 @@ $(document).ready(function(){
   $(".save_bt").click(function(){
     $("#full").show();
   });
+  $(".save_ok").click(function(){
+    $("#full").hide();
+  });
 });
 
 
