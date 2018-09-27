@@ -688,10 +688,10 @@ $(document).ready(function(){
 $(document).ready(function(){
   $(".copy_pop").hide();
   $("#input_bitcoin div.BTC_input_address_wrap input[type='button']").click(function(){
-    $(".copy_pop").show();
+    $(".copy_pop, #shadow").show();
   });
   $(".close_btn").click(function(){
-    $(".copy_pop").hide();
+    $(".copy_pop, #shadow").hide();
   });
 });
 
