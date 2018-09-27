@@ -163,7 +163,7 @@ jQuery(document).ready(function(){
                       <p class="popupbox_text_phone2">등록하신 휴대폰으로 인증번호를 발송하였습니다.</p>
                     </div>
                     <div class="cancel_or_apply">
-                      <input type="button" name="" value="확인" onclick="location.href='myinfo_phone2.php'" class="agree_btn">
+                      <input type="button" name="" value="확인" class="agree_btn phone2_ok">
                     </div>
 
                   </div>

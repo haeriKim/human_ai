@@ -635,6 +635,9 @@ $(document).ready(function(){
   $(".request_number").click(function(){
       $("#full").show();
   });
+  $(".phone2_ok").click(function(){
+    $("#full").hide();
+  });
 });
 
 //회원가입 체크박스
