@@ -622,7 +622,7 @@
 
     <div id="full">
                 <!-- full_content -->
-                <div id="popupbox" class='box popup phone_change_box'>
+                <div id="popupbox" class='box popup'>
                   <div class="full_inner">
                     <h2>인증번호 발송완료</h2>
                     <div class="popupbox_text">

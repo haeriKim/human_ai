@@ -247,6 +247,8 @@ $(document).ready(function(){
     //   console.log("Sdfd");
     // }
 
+
+
     //코인 입출금
     $("ul.tabs4 li").click(function () {
         $("ul.tabs4 li").removeClass("active2");
@@ -292,6 +294,8 @@ $(document).ready(function(){
       }
     });
 });
+
+
 
 //내 자산관리-주의사항 전체 동의
 
