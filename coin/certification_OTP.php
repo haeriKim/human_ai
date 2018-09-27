@@ -120,9 +120,10 @@
                             <ul class="android">
                               <li class="app_title">[ 안드로이드 휴대폰 전용 Google OTP ]</li>
                               <li class="app_text">
-                                <img src="img/android_app.png" alt="안드로이드구글OTP" class="android_img">
+                                <img src="img/apple_app.png" alt="안드로이드구글OTP" class="android_img">
                                 <br/>
-                                <span>play 스토어에서 'Google OTP'를 검색하신 후 다운로드 받으세요.</span>
+                                <span>'Google OTP'를 검색하신 후 다운로드 받으세요.</span>
+                                <p><img src="img/playstore.png" alt="플레이스토어"></p>
                               </li>
                             </ul>
 
@@ -131,7 +132,8 @@
                               <li class="app_text">
                                 <img src="img/apple_app.png" alt="애플구글OTP" class="apple_img">
                                 <br/>
-                                <span>App Store에서 'Google Authenticator'를 검색하신 후 다운로드 받으세요.</span>
+                                <span>'Google Authenticator'를 검색하신 후 다운로드 받으세요.</span>
+                                <p><img src="img/appstore.png" alt="앱스토어"></p>
                               </li>
                             </ul>
 
@@ -151,16 +153,19 @@
                               <li class="qr_code_key2">NRSLK7JWICMZLXBAWEZ</li>
                             </ul>
 
+                            <a href="#"><span class="OTP_guide">OTP 설정이 처음이신가요?</span></a>
                           </div>
 
                         <div class="OTP_code">
-                          <strong><span>3</span>. '2단계'완료 후 OTP 인증 앱에 표시된 인증번호(6자리)와 SMS
-                          로 발송된 보안코드를 입력해주세요.</strong>
+                          <strong><span>3</span>. '2단계' 완료 후 OTP 인증 앱에 표시된 인증번호(6자리)를<br/>
+                            입력해주세요. <samll class="OTP_reset">[OTP번호는 30초마다 자동으로 변경됩니다.]</small></strong>
 
                           <div>
                             <form action="#" method="post" class="OTP_codebox">
-                              <input type="text" placeholder="보안코드" required class="OTP_number"><input type="button" value="보안코드 받기" class="OTP_numberbt">
+
                               <input type="text" placeholder="OTP번호 입력" required class="OTP_number user_otpNum">
+                              <p class='warning_message'>OTP번호가 일치하지 않습니다.</p>
+
                               <div id="OTP_complete">
                                 <a href="certification.php">
                                   <input type="button" name="취소" value="취소" class="cancel" onclick="location.href='certification.php'"/>
