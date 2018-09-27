@@ -117,7 +117,7 @@
     margin: 0 auto;
 }
 #qustion_mark_active_full #shadow{
-    position: absolute;
+    position: fixed;
     top:0;
     left:0;
     background-color: #000;
