@@ -113,8 +113,8 @@
                       </ul>
 
                       <div class="center_bottom">
+                        <p class='content_title'>계좌인증</p>
                         <div class="cText_left2">
-                            <p class='content_title'>계좌인증</p>
                             <strong><span>1</span>. 개인정보 수집 및 이용 동의(필수)</strong>
                             <ul>
                               <li>- 목적 : 원화(KRW) 거래를 위한 본인 확인</li>
