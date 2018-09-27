@@ -717,6 +717,16 @@ $(document).ready(function(){
       $(".temporary_address_click").hide();
       detail = 0;
     }
+  });
+});
 
+//코인 출금신청시 팝업창
+$(document).ready(function(){
+  $("#coin_withdrawal_box").hide();
+  $("#output_bitcoin div.before_send_money_03 input[type='submit']").click(function(){
+    $("#coin_withdrawal_box, #shadow").show();
+  });
+  $("#coin_withdrawal_box .cancel_btn").click(function(){
+    $(".coin_withdrawal_box, #shadow").hide();
   });
 });

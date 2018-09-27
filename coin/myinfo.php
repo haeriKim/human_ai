@@ -143,7 +143,8 @@
                       <h4 class="second">인증현황</h4>
                       <ul class="cer_level">
                         <li class='cer_level_01'>
-                          <img src="img/lv1.png" alt="레벨1"/>
+                          <img src="img/lv1.png" alt="레벨1" class='lv1_on'/>
+                          <img src="img/lv5_off.png" alt="레벨1" class="lv5_off"/>
                           <p class="img_area">
                             <img src="img/mailbox.png" alt="이메일인증 아이콘"/>
                           </p>
@@ -152,6 +153,7 @@
                         </li>
                         <li class='cer_level_02'>
                           <img src="img/lv2.png" alt="레벨2" />
+                          <img src="img/lv5_off.png" alt="레벨4" class="lv5_off"/>
                           <p class="img_area">
                             <img src="img/key.png" alt="보안비밀번호생성 아이콘" />
                           </p>
@@ -161,6 +163,7 @@
                         </li>
                         <li class='cer_level_03'>
                           <img src="img/lv3.png" alt="레벨3" />
+                          <img src="img/lv5_off.png" alt="레벨4" class="lv5_off"/>
                           <p class="img_area">
                             <img src="img/phone.png" alt="휴대폰인증 아이콘" />
                           </p>

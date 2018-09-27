@@ -131,13 +131,14 @@
 
 /*출금신청 팝업*/
 
-#popupbox p{
+#popupbox p,
+#coin_withdrawal_box p{
     color:#959595;
     font-size:16px;
     margin:15px 0;
     text-align: center;
 }
-#popupbox .check_your_money_again{
+#coin_withdrawal_box .check_your_money_again{
     font-weight: 600;
     color: #071f45;
     font-size: 21px;
@@ -290,7 +291,7 @@
 }
 
 /*비트코인 출금신청 팝업창 표 서식*/
-#full .coin_withdrawal_box{
+.coin_withdrawal_box{
     width: 607px;
     left: 47%;
 }
