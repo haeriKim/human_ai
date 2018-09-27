@@ -42,7 +42,7 @@
                           <!-- signUp_left_con -->
                           <div class="signUp_left_con">
                             <div class="agree_content_box agree_content_box_1">
-                                <p>CCE 이용 약관 동의 (필수)</p>
+                                <p>The Alls 이용 약관 동의 (필수)</p>
                                 <p class="text_box">
                                     제1조 (목적)
                                     주식회사 스쿱미디어(이하 “회사”)가 제공하는 비트소닉 거래소 서비스(이하 “서비스”)의 이용조건 및 절차, 회사와 고객간의 권리ㆍ의무 및 책임사항, 기타 필요한 기본적인 사항을 정함으로써, 거래의 신속하고 효율적인 처리를 도모하고 거래당사자 상호간의 이해관계를 합리적으로 조정하는 것을 목적으로 합니다.
@@ -118,7 +118,7 @@
                               <div class="btn_area">
                                   <input type="submit" name="sign_up" value="회원가입" class="join_btn sign_up_bt">
                                   <input type="submit" name="sign_up" value="회원가입" class="join_btn sign_up_bt_on">
-                                  <a href="#">이미 CCE 계정이 있으시다면? 로그인</a>
+                                  <a href="#">이미 The Alls 계정이 있으시다면? 로그인</a>
                               </div>
                           </div> <!-- signUp_right_con End-->
                       </form>

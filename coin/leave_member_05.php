@@ -88,10 +88,10 @@
                           </ul>
 
                       <div class="withdrawal_text" id='withdrawal_text5'>
-                        <h4>그동안 CCE를 이용해주셔서 감사합니다.</h4>
+                        <h4>그동안 The Alls를 이용해주셔서 감사합니다.</h4>
                         <p>
-                            CCE에 등록된 회원님의 모든 개인정보는 삭제, 폐기 처리되었습니다.<br/>
-                            더 나은 서비스를 위해 노력하는 CCE가 되겠습니다.
+                            The Alls에 등록된 회원님의 모든 개인정보는 삭제, 폐기 처리되었습니다.<br/>
+                            더 나은 서비스를 위해 노력하는 The Alls가 되겠습니다.
                         </p>
                         <div class="cancel_or_apply">
                             <input type="button" name="go_main" value="메인으로" onclick="location.href='index.php'" class='agree_btn'/>

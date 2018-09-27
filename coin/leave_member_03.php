@@ -92,7 +92,7 @@
                       <div class="withdrawal_text" id='withdrawal_text3'>
                         <h4><span class='user_name'>가*다</span>님의 <span class='user_mail'>abc@naver.com</span> 계정을 탈퇴 처리합니다.</h4>
                         <p>
-                            회원 탈퇴시 CCE에 등록된 회원님의 모든 개인정보는 삭제,폐기 처리되며 복구가 불가능합니다.<br/>
+                            회원 탈퇴시 The Alls에 등록된 회원님의 모든 개인정보는 삭제,폐기 처리되며 복구가 불가능합니다.<br/>
                             또한 연결된 모든 서비스 및 가치는 탈퇴 즉시 소멸되며, 이미 탈퇴한 계정으로 오입금되는 암호화폐는 블록체인 특성상(익명)<br/>
                             회수가 불가하오니 각별히 주의하시기 바랍니다.
                         </p>

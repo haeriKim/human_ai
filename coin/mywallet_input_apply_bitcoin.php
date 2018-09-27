@@ -331,7 +331,7 @@
                                                                     <input type="checkbox" id='number_02' class="agree_check">
                                                                     <label for='number_02'>전송 이후의 과정은 블록체인 네트워크에서 자동으로 처리됩니다.</label>
                                                                     <input type="checkbox" id='number_03' class="agree_check">
-                                                                    <label for='number_03'>블록체인 네트워크 상에서 발생하는 전송 및 컨펌지연에 대해 CCE에서 별도의 조취를 취할 수 없습니다.</label>
+                                                                    <label for='number_03'>블록체인 네트워크 상에서 발생하는 전송 및 컨펌지연에 대해 The Alls에서 별도의 조취를 취할 수 없습니다.</label>
                                                                     <input type="checkbox" id='number_04' class="agree_check">
                                                                     <label for='number_04'>위 사항 미준수 시 환급은 주말/휴일 제외 1주일 이상 걸림을 알고 있습니다.</label>
                                                                     <input type="checkbox" id='number_05' class="agree_check">

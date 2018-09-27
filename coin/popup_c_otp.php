@@ -21,7 +21,7 @@
                    <h2>OTP인증 완료</h2>
                    <div class="popupbox_text">
                      <p>OTP 인증이 완료 되었습니다.</p>
-                     <p>모든 단계가 인증되었으므로 CCE <b>입출금 및 거래</b>를</p>
+                     <p>모든 단계가 인증되었으므로 The Alls <b>입출금 및 거래</b>를</p>
                      <p>자유롭게 이용하실 수 있습니다.</p>
                    </div>
                    <div class="btn_area">

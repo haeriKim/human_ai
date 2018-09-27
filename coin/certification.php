@@ -129,7 +129,7 @@
                             </p>
                           </div>
                           <div class="center_rule">
-                            <strong>[ CCE 고객의 안전한 투자를 위한 이용법칙 ]</strong>
+                            <strong>[ The Alls 고객의 안전한 투자를 위한 이용법칙 ]</strong>
                             <p>-만 19세 이하는 거래 할 수 없습니다.</p>
                             <p class="important">-Level 3(실명인증) 인증 완료 후 거래소 이용이 가능합니다.</p>
                             <p class="important">-입금/출금은 Level 4(계좌인증) 인증 완료 후 이용이 가능합니다.</p>

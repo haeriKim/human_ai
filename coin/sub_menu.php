@@ -84,7 +84,7 @@
   </div>
 
   <div class="submenu_security_story">
-    <p>안전한 거래를 위해 CCE는</p>
+    <p>안전한 거래를 위해 The Alls는</p>
     <p>SI Security System을 가동하고 있습니다.</p>
   </div>
 

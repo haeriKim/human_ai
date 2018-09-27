@@ -139,7 +139,7 @@
 
                       <div class="cText_right3">
                           <div class="qr_code">
-                            <strong><span>2</span>. 다운로드 받은 앱에 QR코드를 스캔하거나 비밀키를 입력해주세요.</strong>
+                            <strong><span>2</span>. 다운로드 받은 앱에 'QR'코드를 스캔하거나 '16자리 코드번호'를 입력해주세요.</strong>
 
                             <ul class="qr_code_img">
                               <li>QR 코드</li>
@@ -147,7 +147,7 @@
                             </ul>
 
                             <ul class="qr_code_key">
-                              <li>비밀키</li>
+                              <li>16자리 코드번호</li>
                               <li class="qr_code_key2">NRSLK7JWICMZLXBAWEZ</li>
                             </ul>
 

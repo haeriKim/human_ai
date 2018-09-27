@@ -26,7 +26,7 @@
                      <input type="button" name="cancel" value="확인" class="popupbt">
                      <input type="button" name="submit" value="로그인하러가기" class="popupbt ok" onclick="location.href='login.php'">
                    </div>
-                   <a href="signUp.php" class="join_btn">아직 CCE 계정이 없으시다면?</a>
+                   <a href="signUp.php" class="join_btn">아직 The Alls 계정이 없으시다면?</a>
                </div>
            </div><!-- full_content End-->
            <div id="shadow"></div>
