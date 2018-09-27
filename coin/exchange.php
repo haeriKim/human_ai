@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/exchange.css">
     <link rel="stylesheet" href="css/sub_menu.css">
+    <link rel="stylesheet" href="css/popup.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/common.js"></script>
@@ -720,6 +721,41 @@
 
         </div><!-- container End -->
     </div><!-- wrap End -->
+
+    <div id="full">
+            <!-- full_content -->
+            <div id="popupbox" class='box popup masu_fail'>
+                <div class="full_inner">
+                    <h2>매수주문 실패</h2>
+                    <div class="popupbox_text">
+
+
+                      <p>주문가능 금액이 부족합니다.</p>
+                    </div>
+                    <div class="btn_area">
+                      <input type="button" name="submit" value="확인" class="popupbt ok">
+                    </div>
+                </div>
+            </div><!-- full_content End-->
+
+
+            <div id="popupbox" class='box popup'>
+                <div class="full_inner mado_fail">
+                    <h2>매수주문 실패</h2>
+                    <div class="popupbox_text">
+
+
+                      <p>주문가능 금액이 부족합니다.</p>
+                    </div>
+                    <div class="btn_area">
+                      <input type="button" name="submit" value="확인" class="popupbt ok">
+                    </div>
+                </div>
+            </div><!-- full_content End-->
+            <div id="shadow"></div>
+
+
+    </div>  <!-- full End-->
 
 </body>
 </html>

@@ -953,3 +953,7 @@
     padding-left: 21px;
     padding-right: 13px;
 }
+
+#full{
+  display:none;
+}
