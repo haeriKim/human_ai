@@ -755,3 +755,14 @@ $(document).ready(function(){
       $(".KRW_SMS_number, #shadow").hide();
     });
 });
+
+//회원가입 버튼 클릭시 나오는 인증팝업
+$(document).ready(function(){
+  $(".email_certification_popup").hide();
+  $(".sign_up_bt_on").click(function(){
+    $(".email_certification_popup").show();
+  });
+  $(".nextok").click(function(){
+      $(".email_certification_popup").hide();
+  });
+});
