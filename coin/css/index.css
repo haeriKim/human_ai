@@ -152,7 +152,7 @@
 .main_content ul.bitcoin_card_inner .buy_sell_button a{
     text-align: center;
     display: inline-block;
-    width: 49%;
+    width: 50%;
     box-sizing: border-box;
     height: 45px;
     font-weight: 600;
@@ -161,7 +161,7 @@
 .main_content ul.bitcoin_card_inner .buy_sell_button .buy_button{
     border-top:3px solid #ff2323;
     color:#ff2323;
-    border-right:1px solid #fff;
+    border-right:1px solid rgba(255,255,255,0.3);
 }
 
 .main_content ul.bitcoin_card_inner .buy_sell_button .buy_button:hover{
@@ -212,6 +212,7 @@
     border-radius: 5px;
     float: left;
     border: 1px solid #1b2f4a;
+    box-shadow: 3px 2px 15px rgba(100,100,100,0.3);
 }
 .notice h4{
     width: 710px;
