@@ -72,11 +72,12 @@
         </ul>
 
         <ul class='nav_list'>
-            <li><a href='exchange.php'><img src='' alt=''>거래하기</a></li>
+            <li><a href='exchange.php'><img src='' alt=''>거래소</a></li>
             <li><a href='mycoin_sub.php'><img src='' alt=''>자산관리</a></li>
-            <li><a href='notice.php'><img src='' alt=''>공지사항</a></li>
-            <li><a href='#'><img src='' alt=''>고객센터</a></li>
             <li><a href='coin_info_bitcoin.php'><img src='' alt=''>코인정보</a></li>
+            <li><a href='notice.php'><img src='' alt=''>공지사항</a></li>
+            <li><a href='#'><img src='' alt=''>고객지원</a></li>
+
         </ul>
     </div>  <!-- nav End-->
 </div><!-- nav_wrap End-->

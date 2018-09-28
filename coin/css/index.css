@@ -120,6 +120,7 @@
     margin:0 20px;
     padding-top:15px;
     background:#efefef;
+    box-shadow: 5px 7px 15px rgba(100,100,100,0.3);
 }
 
 
@@ -298,9 +299,12 @@
 }
 
 .use_guide ul p{
-  font-weight:600;
-  margin-top:10px;
-  color: #1b2f4a;
+  font-weight: 600;
+  margin-top: 10px;
+  color: #fff;
+  background-color: #eaaf69;
+  border-radius: 14px;
+  padding: 3px 0;
 }
 
 .use_guide li{

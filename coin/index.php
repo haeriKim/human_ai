@@ -158,8 +158,8 @@
 
                         <!-- bitcoin_card_btn -->
                         <div class="bitcoin_card_btn">
-                            <a href="#" class='prev'><img src="img/arrow_black_prev.png" alt="이전버튼"/></a>
-                            <a href="#" class='next'><img src="img/arrow_black_next.png" alt="다음버튼"></a>
+                            <a href="#" class='prev'><img src="img/arrow_efefef_next.png" alt="이전버튼"/></a>
+                            <a href="#" class='next'><img src="img/arrow_efefef_prev.png" alt="다음버튼"></a>
                         </div>
                         <!-- bitcoin_card_btn End -->
                     </div>
@@ -197,8 +197,8 @@
                           </li>
                           <li>
                             <a href="#">
-                                <img src='img/telephone-symbol-button.png' alt='고객센터'>
-                                <p>고객센터</p>
+                                <img src='img/telephone-symbol-button.png' alt='고객지원'>
+                                <p>고객지원</p>
                             </a>
                           </li>
                           <li>
