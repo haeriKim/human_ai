@@ -80,7 +80,7 @@
 
                           <!-- signUp_right_con -->
                           <div class="signUp_right_con">
-                              <input type='email' name="email_address" value="" placeholder="이메일 주소를 입력해주세요" required maxlength="30" minlength="8"  class='user_mail'/>
+                              <input type='email' name="email_address" value="" placeholder="이메일 주소를 입력해주세요" required maxlength="30" minlength="8"  class='user_mail' autocomplete="off"/>
                               <p id='warning_message'>이미 등록된 이메일 주소입니다.</p>
                               <input type="password" name="password" value="" placeholder="사용하실 비밀번호를 입력해주세요" required maxlength="30" minlength="10" class='user_pass'/>
                               <input type="password" name="passowrd_again" value="" placeholder="비밀번호를 다시 입력해주세요" required maxlength="30" minlength="10" class='user_passChk'/>
@@ -119,7 +119,7 @@
                               <div class="btn_area">
                                   <input type="submit" name="sign_up" value="회원가입" class="join_btn sign_up_bt">
                                   <input type="submit" name="sign_up" value="회원가입" class="join_btn sign_up_bt_on">
-                                  <a href="#">이미 The Alls 계정이 있으시다면? 로그인</a>
+                                  <a href="login.php">이미 The Alls 계정이 있으시다면? 로그인</a>
                               </div>
                           </div> <!-- signUp_right_con End-->
                       </form>
@@ -139,7 +139,7 @@
         </div><!-- container End -->
     </div><!-- wrap End -->
 
-    <div id="full">
+    <div id="full" class='email_certification_popup'>
             <!-- full_content -->
             <div id="popupbox" class='box popup email_pop'>
                 <div class="full_inner">
@@ -162,7 +162,7 @@
                     </div>
                     <div class="btn_area">
                       <input type="button" name="" value="닫기" class="popupbt nextok">
-                      <input type="submit" name="" value="이메일인증" class="popupbt ok">
+                      <input type="submit" name="" value="이메일인증" class="popupbt ok" onclick="location.href='signUp_compelete.php'">
                     </div>
                 </div>
             </div><!-- full_content End-->

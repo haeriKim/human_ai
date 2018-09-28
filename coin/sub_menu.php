@@ -16,14 +16,14 @@
 
         <div class="submenu_mypage_info">
           <select name="코인선택" id="submenu_mypage_select">
-            <option value="원화"><p>원화/<span class='unit'>KRW</span></p></option>
-            <option value="비트코인">비트코인/<span class='unit'>BTC</span></option>
-            <option value="비트코인캐시">비트코인캐시/<span class='unit'>BCH</span></option>
-            <option value="이더리움">이더리움/<span class='unit'>ETH</span></option>
-            <option value="이더리움클래식">이더리움클래식/<span class='unit'>ETC</span></option>
-            <option value="리플">리플/<span class='unit'>XRP</span></option>
-            <option value="에이다">에이다/<span class='unit'>ADA</span></option>
-            <option value="이오스">이오스/<span class='unit'>EOS</span></option>
+            <option value="원화"><p>원화&nbsp;&nbsp;|<span class='unit'>&nbsp;&nbsp;KRW</span></p></option>
+            <option value="비트코인">비트코인&nbsp;&nbsp; |<span class='unit'> &nbsp;&nbsp;BTC</span></option>
+            <option value="비트코인캐시">비트코인캐시&nbsp;&nbsp; |<span class='unit'> &nbsp;&nbsp;BCH</span></option>
+            <option value="이더리움">이더리움&nbsp;&nbsp; |<span class='unit'> &nbsp;&nbsp;ETH</span></option>
+            <option value="이더리움클래식">이더리움클래식&nbsp;&nbsp; |<span class='unit'> &nbsp;&nbsp;ETC</span></option>
+            <option value="리플">리플&nbsp;&nbsp; |<span class='unit'> &nbsp;&nbsp;XRP</span></option>
+            <option value="에이다">에이다&nbsp;&nbsp; |<span class='unit'> &nbsp;&nbsp;ADA</span></option>
+            <option value="이오스">이오스&nbsp;&nbsp; |<span class='unit'> &nbsp;&nbsp;EOS</span></option>
           </select>
 
             <table class="submenu_mypage_table">
@@ -60,7 +60,7 @@
             </table>
 
           <div class="submenu_mypage_table_bottom">
-            <span>가*다 님은 현재 보안등급 <b>2단계</b>입니다.</span>
+            <span>가*다 님은 현재 보안등급 <b>Level<strong class="user_level">2</strong></b>입니다.</span>
             <p><a href="certification.php">인증하기</a></p>
 
           </div>

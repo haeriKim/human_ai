@@ -63,7 +63,7 @@
                             </p>
                             <strong class="gray_title">보안비밀번호 생성</strong>
                             <span>안전거래를 위한 <br/>보안비밀번호를 생성해주세요.</span>
-                            <a href="" class="cer_btn">인증하기</a>
+                            <a href="certification_security_password.php" class="cer_btn">인증하기</a>
                           </li>
                           <li>
                             <img src="img/lv3_off.png" alt="레벨3" />

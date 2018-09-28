@@ -58,3 +58,14 @@
   font-weight: 600;
   color: #1B2F4A;
 }
+
+#signUp_c_area .btn_area a:hover {
+  display: inline-block;
+  border: 1px solid #1B2F4A;
+  border-radius: 5px;
+  width: 130px;
+  padding: 4px 0;
+  font-weight: 600;
+  color: #fff;
+  background: #1B2F4A;
+}
