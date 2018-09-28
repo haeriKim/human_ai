@@ -1044,14 +1044,12 @@
                                                          <div class="before_send_money_wrap">
                                                              <p class='before_send_money_paragraph'>입금신청 주의사항</p>
                                                              <div class="warning_notice_list">
-                                                                 <p>생성된 주소로 암호화폐를 입금해 주세요. 해당 지갑주소는 입금 전용 주소입니다.</p>
-                                                                 <p>외부 지갑으로부터 아래 주소로 암호화폐를 전송하시면 회원님의 전자지갑에 반영됩니다.</p>
-                                                                 <p>반영 시점은 입금거래 후 10~30분 이후 자동으로 반영됩니다.</p>
-                                                                 <p>지갑 주소를 반드시 확인하고 전달해 주세요. 주소를 잘못 입력해서 전송된 암호화폐는 기술적으로 입금처리가 불가능할 수 있으니
-                                                                 정확한 입금 주소를 다시 한번 확인 후 입금해 주시기 바랍니다.</p>
-                                                                 <p>입금확인(confirmation)에 소요되는 시간은 블록체인 네트워크의 혼잡도에 따라 영향을 받을 수 있으며
-                                                                 암호화폐별로 혼잡도에 차이가 있을 수 있습니다.</p>
-                                                                 <p>KRW를 처음 입금하시는 경우 3 영업일(72시간) 동안 KRW 및 암호화폐의 출금이 제한됩니다.</p>
+                                                                 <p>KRW 처음 입금할 경우, 72시간(3일) 동안 가상화폐 출금 제한됩니다. (KRW 출금은 제한되지 않습니다.)</p>
+                                                                 <p>외부 지갑으로부터 위의 주소로 암호화폐를 전송하게되면 회원님의 전자지갑에 반영됩니다.</p>
+                                                                 <p>입금받는 지갑에서 입금내역을 확인하기까지 30분~1시간 정도의 시간이 소요되며, 상황에 따라 지연이 발생할 수 있습니다.</p>
+                                                                 <p>다른 거래소 지갑으로 송금하는 경우, 해당 거래소 정책의 영향을 받을 수 있습니다.</p>
+                                                                 <p>암호화폐는 전송 후 되돌릴 수 없기 때문에 지갑 주소를 반드시 확인하고 전달해 주세요. 지갑 주소 혼동으로 발생하는
+                                                                    문제나 손실에 대해서는 Tha Alls는 책임지지 않습니다.</p>
                                                              </div>
                                                          </div><!-- before_send_money_wrap End-->
                                                  </div><!-- input_bitcoin End-->
@@ -1143,15 +1141,16 @@
                                                                  <p>출금신청 주의사항</p>
                                                                  <div class="checkbox_list">
                                                                      <input type="checkbox" id='number_13' class="agree_check_03">
-                                                                     <label for='number_13'>전자지갑으로부터 외부 전자지갑으로 암호화폐를 출금합니다.</label>
+                                                                     <label for='number_13'>회원님의 전자지갑으로부터 외부 전자지갑으로 암호화폐를 출금합니다.</label>
                                                                      <input type="checkbox" id='number_14' class="agree_check_03">
-                                                                     <label for='number_14'>전송 이후의 과정은 블록체인 네트워크에서 자동으로 처리됩니다.</label>
+                                                                     <label for='number_14'>각 암호화폐의 입출금 이후 과정은 블록체인 네트워크에서 자동으로 처리 되므로 The Alls에서 별도의 조취를 취할 수 없습니다.</label>
                                                                      <input type="checkbox" id='number_15' class="agree_check_03">
-                                                                     <label for='number_15'>블록체인 네트워크 상에서 발생하는 전송 및 컨펌지연에 대해 The Alls에서 별도의 조취를 취할 수 없습니다.</label>
+                                                                     <label for='number_15'>위 사항 미준수 시 환급은 주말/휴일 제외 1주일 이상 걸림을 유의하시기 바랍니다.</label>
                                                                      <input type="checkbox" id='number_16' class="agree_check_03">
-                                                                     <label for='number_16'>위 사항 미준수 시 환급은 주말/휴일 제외 1주일 이상 걸림을 알고 있습니다.</label>
+                                                                     <label for='number_16'>실제 전송되는 수량은 총 출금 암호화폐에서 출금수수료를 제외한 수량이 전송됩니다.</label>
                                                                      <input type="checkbox" id='number_17' class="agree_check_03">
-                                                                     <label for='number_17'>실제 전송되는 수량은 총 출금 암호화폐에서 출금수수료를 제외한 수량이 전송됩니다.</label>
+                                                                     <label for='number_17'>암호화폐의 지갑 주소 오기재로 인한 출금의 경우 The Alls에서 책임지지 않습니다.
+                                                                                            출금 전 반드시 출금할 암호화폐의 지갑주소를 반드시 확인하시기 바랍니다.</label>
 
                                                                      <input type="checkbox" id='number_18' class="allAgree_03">
                                                                      <label for='number_18' class='all_agree_03'>위의 출금시 주의사항에 모두 동의합니다.</label>
