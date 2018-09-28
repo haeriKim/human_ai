@@ -1123,12 +1123,14 @@
                                                                                  <th>보안 비밀번호</th>
                                                                                  <td>
                                                                                      <input type="password" class='user_security' name="" value="" placeholder="보안 비밀번호를 입력하세요." required maxlength="4" minlength='4'>
+                                                                                     <p id='warning_message'>보안비밀번호가 일치하지 않습니다.</p>
                                                                                  </td>
                                                                              </tr>
                                                                              <tr>
                                                                                  <th>OTP 인증번호</th>
                                                                                  <td>
                                                                                      <input type="text" class='user_otpNum' name="" value="" placeholder="OTP 번호를 입력하세요." required maxlength="6" minlength="6">
+                                                                                     <p id='warning_message'>인증번호가 일치하지 않습니다.</p>
                                                                                  </td>
                                                                              </tr>
                                                                          </tbody>
