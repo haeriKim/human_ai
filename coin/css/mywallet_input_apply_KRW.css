@@ -654,9 +654,8 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
 .count_down{
     font-size:14px;
     position:absolute;
-    right:460px;
-    top:810px;
-    margin-left:20px;
+    right:465px;
+    top:833px;
     color:red;
   }
 

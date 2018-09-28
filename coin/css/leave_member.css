@@ -208,9 +208,8 @@
 }
 .count_down{
   position:absolute;
-  right:440px;
-  top:647px;
-  margin-left:20px;
+  right:450px;
+  top:667px;
   color:red;
   font-size:14px;
 }
