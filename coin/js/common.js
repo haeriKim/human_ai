@@ -548,7 +548,7 @@ $(document).ready(function(){
     });
 
     $(".submenu_mypage_back").click(function(){
-      $(".submenu_mypage_inner").stop().animate({right:-300},300);
+      $(".submenu_mypage_inner").stop().animate({right:-350},300);
     });
 
     $(".submenu_mypage").click(function(){

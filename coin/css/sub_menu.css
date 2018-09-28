@@ -7,32 +7,34 @@
 }
 
 .submenu_mypage_inner {
-  width: 300px;
-  position: absolute;
-  z-index: 12;
-  padding: 0 30px;
-  top: 150px;
-  right: -300px;
-  overflow: hidden;
+    width: 350px;
+    position: absolute;
+    z-index: 12;
+    padding: 0 30px;
+    top: 150px;
+    right: -350px;
+    overflow: hidden;
+    background: #fff url(../img/blockchain.png) no-repeat 0 97% / 100%;
 }
 
 .submenu_mypage_inner .profile {
-  text-align: left;
-  width: 200px;
-  float: left;
-  overflow: hidden;
-  margin: 20px 0;
-  color: #1b2f4a;
+    text-align: left;
+    width: 200px;
+    float: left;
+    overflow: hidden;
+    margin: 20px 0;
+    color: #1b2f4a;
 }
 
 .submenu_mypage_inner .profile #profile_name {
-  font-size: 20px;
+    font-size: 22px;
 }
 
 .submenu_mypage_inner .profile li {
-  font-weight: 600;
-  list-style-type: none;
-  font-size: 15px;
+    font-weight: 600;
+    list-style-type: none;
+    font-size: 17px;
+    line-height: 1.6;
 }
 
 .submenu_mypage_inner .submenu_mypage_back {
@@ -43,50 +45,65 @@
 }
 
 .submenu_mypage_inner .submenu_mypage_info #submenu_mypage_select {
-  width: 240px;
+    width: 290px;
+    border: 1px solid #1b2f4a;
+    background-color: rgba(27,47,74,.2);
+    padding: 10px 0;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 3px;
+    color: #333;
 }
-
+.submenu_mypage_inner .submenu_mypage_info #submenu_mypage_select .unit{
+    font-weight: 600;
+    color: #aaa;
+    font-size: 14px;
+}
 .submenu_mypage_inner .submenu_mypage_info table {
   font-size: 13px;
 }
 
 .submenu_mypage_inner .submenu_mypage_info table th {
-  border-bottom: 1px solid #b1b1b1;
-  text-align: left;
-  padding: 10px 0;
+    border-bottom: 1px solid #b1b1b1;
+    text-align: left;
+    padding: 15px 0;
+    font-size: 14px;
 }
 
 .submenu_mypage_inner .submenu_mypage_info table td {
-  border-bottom: 1px solid #b1b1b1;
-  text-align: right;
-  width: 150px;
-  color: #555;
+    border-bottom: 1px solid #b1b1b1;
+    text-align: right;
+    width: 150px;
+    color: #555;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 .submenu_mypage_inner .submenu_mypage_info table span {
-  font-weight: 600;
-  color: #aaa;
+    font-weight: 600;
+    color: #aaa;
+    font-size: 13px;
 }
 
 .submenu_mypage_inner .submenu_mypage_info .submenu_mypage_table_bottom {
   font-size: 12px;
-  width: 250px;
+  width: 290px;
   padding: 20px 0;
 }
 
 .submenu_mypage_inner .submenu_mypage_info .submenu_mypage_table_bottom span {
-  float: left;
-  margin-bottom: 20px;
-  font-size: 10px;
-  padding: 2px;
+    float: left;
+    margin-bottom: 20px;
+    font-size: 12px;
+    padding: 2px;
 }
 
 .submenu_mypage_inner .submenu_mypage_info .submenu_mypage_table_bottom p a {
-  float: right;
-  color: #1b2f4a;
-  font-weight: 600;
-  cursor: pointer;
-  margin-right: 10px;
+    float: right;
+    color: #1b2f4a;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 2px;
 }
 
 .submenu_mypage_inner .submenu_mypage_info .submenu_mypage_table_bottom p a:hover {
@@ -108,7 +125,7 @@
 .submenu_security_inner {
   position: absolute;
   top: 260px;
-  right: -300px;
+  right: -350px;
   z-index: 12;
   width: 250px;
   overflow: hidden;

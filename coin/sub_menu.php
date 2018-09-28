@@ -16,14 +16,14 @@
 
         <div class="submenu_mypage_info">
           <select name="코인선택" id="submenu_mypage_select">
-            <option value="원화">원화</option>
-            <option value="비트코인">비트코인</option>
-            <option value="비트코인캐시">비트코인캐시</option>
-            <option value="이더리움">이더리움</option>
-            <option value="이더리움클래식">이더리움클래식</option>
-            <option value="리플">리플</option>
-            <option value="에이다">에이다</option>
-            <option value="이오스">이오스</option>
+            <option value="원화"><p>원화/<span class='unit'>KRW</span></p></option>
+            <option value="비트코인">비트코인/<span class='unit'>BTC</span></option>
+            <option value="비트코인캐시">비트코인캐시/<span class='unit'>BCH</span></option>
+            <option value="이더리움">이더리움/<span class='unit'>ETH</span></option>
+            <option value="이더리움클래식">이더리움클래식/<span class='unit'>ETC</span></option>
+            <option value="리플">리플/<span class='unit'>XRP</span></option>
+            <option value="에이다">에이다/<span class='unit'>ADA</span></option>
+            <option value="이오스">이오스/<span class='unit'>EOS</span></option>
           </select>
 
             <table class="submenu_mypage_table">
@@ -34,7 +34,7 @@
 
               <tr>
                 <th>총 평가금액</th>
-                <td>7,56,000,000 <span>KRW</span></td>
+                <td>756,000,000 <span>KRW</span></td>
               </tr>
 
               <tr>
