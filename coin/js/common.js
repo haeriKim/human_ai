@@ -743,3 +743,15 @@ $(document).ready(function(){
     $(".request_number").hide();
   });
 });
+
+//원화거래 출금 인증번호 팝업
+$(document).ready(function(){
+    $(".KRW_SMS_number").hide();
+    $(".request_number2").click(function(){
+      $(".count_down, .cofirm_number, .KRW_SMS_number, #shadow").show();
+      $(".request_number2").hide();
+    });
+    $(".leave_member_agree_btn").click(function(){
+      $(".KRW_SMS_number, #shadow").hide();
+    });
+});
