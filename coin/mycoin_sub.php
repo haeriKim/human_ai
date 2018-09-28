@@ -1004,7 +1004,7 @@
                                                    </ul>
                                                  </div><!--tab3_header End-->
                                                  <!-- input_bitcoin -->
-                                                 <div id='input_bitcoin' class='bitcoin_conclu_table input_bitcoin conclu_table'>
+                                                 <div id='input_bitcoin' class='bitcoin_conclu_table input_bitcoin'>
                                                      <p class='recharge_coin'>비트코인(BTC) 입금</p>
                                                      <div class="my_coin_state">
                                                          <ul class='my_coin_ul'>
@@ -1053,7 +1053,7 @@
                                                              </div>
                                                          </div><!-- before_send_money_wrap End-->
                                                  </div><!-- input_bitcoin End-->
-                                                 <div id='output_bitcoin' class='bitcoin_conclu_table output_bitcoin conclu_table'>
+                                                 <div id='output_bitcoin' class='bitcoin_conclu_table output_bitcoin'>
                                                      <!-- out_put_you_can -->
                                                      <div class="out_put_you_can">
                                                          <p class='recharge_coin'>비트코인(BTC) 출금</p>
