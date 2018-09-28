@@ -666,6 +666,9 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
     color: #1b2f4a;
     padding: 3px 5px;
     cursor: pointer;
-    margin-left: 5px;
     font-size:15px;
+  }
+  .account_table_wrap .cofirm_number:hover{
+    background:#1b2f4a;
+    color:#fff;
   }

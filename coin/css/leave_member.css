@@ -184,8 +184,11 @@
     color: #1b2f4a;
     padding: 3px 5px;
     cursor: pointer;
-    margin-left: 5px;
     font-size:15px;
+}
+.withdrawal_area #withdrawal_text3 .cofirm_number:hover{
+  background:#1b2f4a;
+  color:#fff;
 }
 #full{
   display:none;

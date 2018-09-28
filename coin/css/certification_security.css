@@ -119,6 +119,10 @@ table .password_question_detail:before {
   margin-left: 5px;
   font-size:15px;
 }
+.myinfo_sub_box .left_thick_table .cofirm_number:hover{
+  background:#1b2f4a;
+  color:#fff;
+}
 
 .myinfo_text_box{
   padding:50px 0;
