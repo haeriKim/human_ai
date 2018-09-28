@@ -749,9 +749,8 @@ $(document).ready(function(){
 //인증번호 카운트다운
 
 $(document).ready(function(){
-  $(".count_down, .cofirm_number").hide();
+  $(".count_down").hide();
   $(".request_number").click(function(){
-    $(".count_down, .cofirm_number").show();
-    $(".request_number").hide();
+    $(".count_down").show();
   });
 });
