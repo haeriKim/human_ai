@@ -141,16 +141,16 @@
   text-align:center;
 }
 .cText_right3 .OTP_complete{
-  border-radius: 5px;
-  padding: 7px 30px;
-  color: #fff;
-  font-weight: 600;
-  font-size: 16px;
-  box-sizing: border-box;
-  border: 1px solid #1b2f4a;
-  background-color: #1b2f4a;
-  margin-top:40px;
-
+    border-radius: 5px;
+    padding: 7px 30px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: 1px solid #1b2f4a;
+    background-color: #1b2f4a;
+    margin-top: 40px;
+    cursor: pointer;
 }
 .cText_right3 .cancel{
   border-radius: 5px;
