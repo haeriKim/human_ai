@@ -81,6 +81,7 @@
                           <!-- signUp_right_con -->
                           <div class="signUp_right_con">
                               <input type='email' name="email_address" value="" placeholder="이메일 주소를 입력해주세요" required maxlength="30" minlength="8"  class='user_mail'/>
+                              <p id='warning_message'>이미 등록된 이메일 주소입니다.</p>
                               <input type="password" name="password" value="" placeholder="사용하실 비밀번호를 입력해주세요" required maxlength="30" minlength="10" class='user_pass'/>
                               <input type="password" name="passowrd_again" value="" placeholder="비밀번호를 다시 입력해주세요" required maxlength="30" minlength="10" class='user_passChk'/>
                               <div class="password_alarm_wrap">

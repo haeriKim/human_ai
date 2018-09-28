@@ -14,7 +14,7 @@
     top: 150px;
     right: -350px;
     overflow: hidden;
-    background: #fff url(../img/blockchain.png) no-repeat 0 97% / 100%;
+    background: #fff url(../img/blockchain2.png) no-repeat 0 113% / 100%;
 }
 
 .submenu_mypage_inner .profile {
@@ -45,7 +45,7 @@
 }
 
 .submenu_mypage_inner .submenu_mypage_info #submenu_mypage_select {
-    width: 290px;
+    width: 293px;
     border: 1px solid #1b2f4a;
     background-color: rgba(27,47,74,.2);
     padding: 10px 0;
@@ -53,6 +53,7 @@
     font-weight: 600;
     padding-left: 3px;
     color: #333;
+    margin-left: -1px;
 }
 .submenu_mypage_inner .submenu_mypage_info #submenu_mypage_select .unit{
     font-weight: 600;
@@ -64,14 +65,14 @@
 }
 
 .submenu_mypage_inner .submenu_mypage_info table th {
-    border-bottom: 1px solid #b1b1b1;
+    border-bottom: 1px solid #1b2f4a;
     text-align: left;
     padding: 15px 0;
     font-size: 14px;
 }
 
 .submenu_mypage_inner .submenu_mypage_info table td {
-    border-bottom: 1px solid #b1b1b1;
+    border-bottom: 1px solid #1b2f4a;
     text-align: right;
     width: 150px;
     color: #555;

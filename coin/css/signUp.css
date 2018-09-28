@@ -66,6 +66,12 @@
     padding-left: 5px;
     margin-bottom: 50px;
 }
+#signUp_area .signUp_right_con #warning_message{
+    position: absolute;
+    top: 129px;
+    font-size: 13px;
+    right: 299px;
+}
 #signUp_area .signUp_right_con .password_alarm_wrap{
     background-color: rgba(27,47,74,.2);
     border-radius: 5px;
