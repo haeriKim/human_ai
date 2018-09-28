@@ -163,7 +163,7 @@
                           <div>
                             <form action="#" method="post" class="OTP_codebox">
 
-                              <input type="text" placeholder="OTP번호 입력" required class="OTP_number user_otpNum">
+                              <input type="text" placeholder="OTP번호 입력" required maxlength="6" minlength="6" class="OTP_number user_otpNum">
                               <p id='warning_message'>OTP번호가 일치하지 않습니다.</p>
 
                               <div id="OTP_complete">
