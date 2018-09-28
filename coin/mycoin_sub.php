@@ -854,15 +854,15 @@
                                                         <p>입금신청 주의사항</p>
                                                         <div class="checkbox_list">
                                                             <input type="checkbox" id='number_01' class="agree_check_01">
-                                                            <label for='number_01'>토스, 카카오페이, 폰뱅킹으로는 입금하지 않습니다.</label>
+                                                            <label for='number_01'>KRW를 처음 입금하시는 경우 3영업일(72시간) 동안 KRW 및 암호화폐의 출금이 제한됩니다.</label>
                                                             <input type="checkbox" id='number_02' class="agree_check_01">
-                                                            <label for='number_02'>입금금액과 충전요청 금액이 동일합니다.</label>
+                                                            <label for='number_02'>최소 입금 요청 금액은 1,000원 이상입니다.</label>
                                                             <input type="checkbox" id='number_03' class="agree_check_01">
-                                                            <label for='number_03'>환금계좌로 등록한 나의 은행계좌에서 입금합니다.</label>
+                                                            <label for='number_03'>입금시 KRW는 1:1 비율로 입금됩니다. (100,000원 입금 100,000KRW 입금)</label>
                                                             <input type="checkbox" id='number_04' class="agree_check_01">
-                                                            <label for='number_04'>위사항 미준수 시 환급은 주말/휴일 제외 1주일 이상 걸림을 알고 있습니다.</label>
+                                                            <label for='number_04'>은행 공통 점검 시간(매일 23:30~00:30)에는 입금이 불가능하거나 지연될 수 있습니다.</label>
                                                             <input type="checkbox" id='number_05' class="agree_check_01">
-                                                            <label for='number_05'>원화 입금 후 첫 출금은 주말 제외 72시간 이후 가능함을 알고 있습니다.</label>
+                                                            <label for='number_05'>입금자명과 금액이 입금신청사항과 정확히 일치하는 경우, 입금 후 고객님의 계정에 반영되기까지 약 3분 정도 소요됩니다.</label>
 
                                                             <input type="checkbox" id='number_06' class="allAgree_01">
                                                             <label for='number_06' class='all_agree_01'>위의 입금시 주의사항에 모두 동의합니다.</label>
@@ -970,15 +970,15 @@
                                                         <p>출금신청 주의사항</p>
                                                         <div class="checkbox_list">
                                                             <input type="checkbox" id='number_07' class="agree_check_02">
-                                                            <label for='number_07'>토스, 카카오페이, 폰뱅킹으로는 출금하지 않습니다.</label>
+                                                            <label for='number_07'>KRW를 처음 입금하시는 경우 3영업일(72시간) 동안 KRW 및 암호화폐의 출금이 제한됩니다.</label>
                                                             <input type="checkbox" id='number_08' class="agree_check_02">
-                                                            <label for='number_08'>출금 수수료는 1,000원이며 5,000원 이상부터 출금이 가능합니다.</label>
+                                                            <label for='number_08'>출금 요청 완료 후, 약 5-30분 이내에 등록하신 은행계좌로 출금됩니다.</label>
                                                             <input type="checkbox" id='number_09' class="agree_check_02">
-                                                            <label for='number_09'>환금계좌로 등록한 나의 은행계좌에서 출금합니다.</label>
+                                                            <label for='number_09'>은행 공통 점검 시간(매일 23:30~00:30)에는 입금이 불가능하거나 지연될 수 있습니다.</label>
                                                             <input type="checkbox" id='number_10' class="agree_check_02">
-                                                            <label for='number_10'>위 사항 미준수 시 환급은 주말/휴일 제외 1주일 이상 걸림을 알고 있습니다.</label>
+                                                            <label for='number_10'>출금 수수료: 1,000원 / 출금 최소 금액: 5,000원</label>
                                                             <input type="checkbox" id='number_11' class="agree_check_02">
-                                                            <label for='number_11'>원화 입금 후 첫 출금은 주말 제외 72시간 이후 가능함을 알고 있습니다.</label>
+                                                            <label for='number_11'>부정 거래가 의심되는 경우, 출금이 제한될 수 있습니다.</label>
 
                                                             <input type="checkbox" id='number_12' class="allAgree_02">
                                                             <label for='number_12' class='all_agree_02'>위의 출금시 주의사항에 모두 동의합니다.</label>
