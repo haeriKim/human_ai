@@ -1044,7 +1044,7 @@
                                                          <div class="before_send_money_wrap">
                                                              <p class='before_send_money_paragraph'>입금신청 주의사항</p>
                                                              <div class="warning_notice_list">
-                                                                 <p>KRW 처음 입금할 경우, 72시간(3일) 동안 가상화폐 출금 제한됩니다. (KRW 출금은 제한되지 않습니다.)</p>
+                                                                 <p>KRW 처음 입금할 경우, 72시간(3일) 동안 가상화폐 출금 제한됩니다. (KRW 출금은 제한되지 않습니다.</p>
                                                                  <p>외부 지갑으로부터 위의 주소로 암호화폐를 전송하게되면 회원님의 전자지갑에 반영됩니다.</p>
                                                                  <p>입금받는 지갑에서 입금내역을 확인하기까지 30분~1시간 정도의 시간이 소요되며, 상황에 따라 지연이 발생할 수 있습니다.</p>
                                                                  <p>다른 거래소 지갑으로 송금하는 경우, 해당 거래소 정책의 영향을 받을 수 있습니다.</p>
@@ -1149,8 +1149,7 @@
                                                                      <input type="checkbox" id='number_16' class="agree_check_03">
                                                                      <label for='number_16'>실제 전송되는 수량은 총 출금 암호화폐에서 출금수수료를 제외한 수량이 전송됩니다.</label>
                                                                      <input type="checkbox" id='number_17' class="agree_check_03">
-                                                                     <label for='number_17'>암호화폐의 지갑 주소 오기재로 인한 출금의 경우 The Alls에서 책임지지 않습니다.
-                                                                                            출금 전 반드시 출금할 암호화폐의 지갑주소를 반드시 확인하시기 바랍니다.</label>
+                                                                     <label for='number_17'>암호화폐의 지갑 주소 오기재로 인한 출금의 경우 The Alls에서 책임지지 않습니다. 지갑주소를 반드시 확인하시기 바랍니다.</label>
 
                                                                      <input type="checkbox" id='number_18' class="allAgree_03">
                                                                      <label for='number_18' class='all_agree_03'>위의 출금시 주의사항에 모두 동의합니다.</label>
