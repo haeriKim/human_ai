@@ -32,7 +32,7 @@ margin-left: 10px;
 .myinfo_sub_box table.left_thick_table tbody input[type='text'] {
     border: none;
     border-bottom: 1px solid #1b2f4a;
-    width: 300px;
+    width: 330px;
     padding-bottom: 4px;
     font-size: 15px;}
 
@@ -110,6 +110,15 @@ table .password_question_detail:before {
   font-weight:600;
   margin-bottom:20px;
 }
+.myinfo_sub_box .left_thick_table .cofirm_number{
+  border: 1px solid #1b2f4a;
+  background: #fff;
+  color: #1b2f4a;
+  padding: 3px 5px;
+  cursor: pointer;
+  margin-left: 5px;
+  font-size:15px;
+}
 
 .myinfo_text_box{
   padding:50px 0;
@@ -136,4 +145,12 @@ table .password_question_detail:before {
 #full .popupbox_text{
   margin-top:20px;
   margin-bottom:50px;
+}
+
+.count_down{
+  position:absolute;
+  font-size:14px;
+  right:520px;
+  margin-top:4.5px;
+  color:red;
 }
