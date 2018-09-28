@@ -99,7 +99,7 @@
                         </div>
 
                         <div class="cancel_or_apply">
-                          <input type="button" name="" value="확인" onclick="location.href='myinfo.php'" class="cancel_btn">
+                          <input type="button" name="" value="확인" onclick="location.href='index.php'" class="cancel_btn">
                           <input type="button" name="" value="로그인 하기" onclick="location.href='login.php'" class="agree_btn">
                         </div>
 
