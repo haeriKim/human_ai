@@ -171,7 +171,7 @@
                                   <input type="button" name="취소" value="취소" class="cancel" onclick="location.href='certification.php'"/>
                                 </a>
 
-                                  <input type="submit" name="OTP 인증완료" value="OTP 인증완료" class="OTP_complete"/>
+                                  <input type="submit" name="OTP 인증완료" value="OTP 인증완료" onclick="location.href='certification_OTP_success.php'" class="OTP_complete"/>
 
                               </div>
                             </form>
