@@ -236,7 +236,13 @@ $(document).ready(function(){
         $(this).addClass("active2");
         $(".KRW_conclu_table").hide();
         var activeTab = $(this).attr("rel");
-        $("#" + activeTab).show();
+
+        if(activeTab == "input_bitcoin" || activeTab == "output_bitcoin" || activeTab == "input_bitcoin" || activeTab == "output_bitcoin"){
+            $("#" + activeTab).show();
+            $("#io_list").hide();
+        }else{
+            $("#io_list").show();
+        }
     });
     //코인부분 입출금 안보이기
     // var a = $("ul.tabs3 li").attr("rel");
@@ -251,11 +257,12 @@ $(document).ready(function(){
     $("ul.tabs4 li").click(function () {
         $("ul.tabs4 li").removeClass("active2");
         $(this).addClass("active2");
-        $(".bitcoin_conclu_table").hide();
+        $(".bitcoin_conclu_table, #io_list").hide();
         var activeTab = $(this).attr("rel");
 
-        if(activeTab == "input_bitcoin" || activeTab == "output_bitcoin"){
+        if(activeTab == "input_bitcoin" || activeTab == "output_bitcoin" || activeTab == "input_bitcoin" || activeTab == "output_bitcoin"){
             $("#" + activeTab).show();
+              $("#io_list").hide();
         }else{
             $("#io_list").show();
         }
@@ -285,8 +292,12 @@ $(document).ready(function(){
 
     var selected_won = 0;
     $(".won_sel").click(function (){
+      $(".KRW_conclu_table").hide();
+      $(".KRW_conclu_table:first").show();
       $("#mywallet_havecoin tbody tr.active").removeClass("active");
       $(this).parents("tr").addClass("active");
+      $("ul.tabs3 li").removeClass("active2");
+      $("ul.tabs3 li:first").addClass("active2");
       if(selected_won === 0){
         $("#bitcoin_input_output").hide();
         $("#KRW_input_output").show();
@@ -294,6 +305,9 @@ $(document).ready(function(){
         selected_won = 1;
         selected_coin = 0;
         return false;
+      }else{
+        $("ul.tabs3 li").removeClass("active2");
+        $("ul.tabs3 li:first").addClass("active2");
       }
     });
 });
