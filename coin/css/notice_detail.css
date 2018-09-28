@@ -4,8 +4,8 @@
     padding:35px 40px;
 }
 .notice_detail .notice_detail_inner .notice_title_wrap{
-    border-top:2px solid #1b2f4a;
-    background: #efefef;
+    border-bottom:2px solid #1b2f4a;
+    background: #f4f5f9;
     padding:10px 20px;
     overflow: hidden;
 }
