@@ -953,7 +953,7 @@
                                                                     <tr>
                                                                         <th>휴대폰 SMS 인증</th>
                                                                         <td>
-                                                                            <input type="text" name="" value="" placeholder="휴대폰으로 전송된 인증번호를 입력하세요." required>
+                                                                            <input type="text" name="" value="" placeholder="휴대폰으로 전송된 인증번호를 입력하세요."  required maxlength="6" minlength="6">
                                                                             <input type="button" value="인증번호요청" id="request_count" class="request_number request_number2">
                                                                             <input type="submit" value="인증번호확인" id="confirm_count" class="cofirm_number">
                                                                             <span id="count_down" class="count_down">03:00</span>
