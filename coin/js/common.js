@@ -734,7 +734,7 @@ $(document).ready(function(){
   });
 });
 
-//인증번호 카운트다운
+//휴대폰변경 인증번호 카운트다운
 
 $(document).ready(function(){
   $(".count_down, .cofirm_number").hide();

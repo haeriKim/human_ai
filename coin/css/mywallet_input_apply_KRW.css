@@ -632,3 +632,40 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
   font-size: 16px;
   cursor: pointer;
 }
+.KRW_SMS_number{
+  display:noe;
+}
+.KRW_SMS_number .popupbox_text p{
+  padding:20px 0;
+}
+#leave_member_agree_btn{
+  background:#1b2f4a;
+  border-radius:5px;
+  padding: 7px 30px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  box-sizing: border-box;
+  border:none;
+  cursor:pointer;
+}
+
+/*인증번호 카운트다운*/
+.count_down{
+    font-size:14px;
+    position:absolute;
+    right:460px;
+    top:810px;
+    margin-left:20px;
+    color:red;
+  }
+
+  .account_table_wrap .cofirm_number{
+    border: 1px solid #1b2f4a;
+    background: #fff;
+    color: #1b2f4a;
+    padding: 3px 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    font-size:15px;
+  }

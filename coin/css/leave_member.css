@@ -178,6 +178,15 @@
     font-weight: 600;
     line-height: 1.5;
 }
+.withdrawal_area #withdrawal_text3 .cofirm_number{
+    border: 1px solid #1b2f4a;
+    background: #fff;
+    color: #1b2f4a;
+    padding: 3px 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    font-size:15px;
+}
 #full{
   display:none;
 }
@@ -195,6 +204,10 @@
   cursor: pointer;
 }
 .count_down{
+  position:absolute;
+  right:440px;
+  top:647px;
   margin-left:20px;
   color:red;
+  font-size:14px;
 }

@@ -88,7 +88,7 @@ margin-left: 10px;
 .myinfo_sub_box table.left_thick_table tbody input[type='text'] {
     border: none;
     border-bottom: 1px solid #1b2f4a;
-    width: 300px;
+    width: 330px;
     padding-bottom: 4px;
     font-size: 15px;}
 
@@ -183,8 +183,10 @@ table .password_question_detail:before {
   margin-bottom:80px;
 }
 .count_down{
-  position:fixed;
-  margin-top:3px;
+  position:absolute;
+  font-size:14px;
+  right:520px;
+  margin-top:4.5px;
   color:red;
 }
 

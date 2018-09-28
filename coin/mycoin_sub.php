@@ -940,19 +940,24 @@
                                                                         <th>보안 비밀번호</th>
                                                                         <td>
                                                                             <input type="password" class='user_security' name="" value="" placeholder="보안 비밀번호를 입력하세요." required maxlength="4" minlength='4'>
+                                                                            <p id='warning_message'>보안비밀번호가 일치하지 않습니다.</p>
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
                                                                         <th>OTP 인증번호</th>
                                                                         <td>
                                                                             <input type="text" class='user_otpNum' name="" value="" placeholder="OTP 번호를 입력하세요." required maxlength="6" minlength="6">
+                                                                            <p id='warning_message'>인증번호가 일치하지 않습니다.</p>
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
                                                                         <th>휴대폰 SMS 인증</th>
                                                                         <td>
                                                                             <input type="text" name="" value="" placeholder="휴대폰으로 전송된 인증번호를 입력하세요." required>
-                                                                            <input type="button" value="인증번호요청">
+                                                                            <input type="button" value="인증번호요청" id="request_count" class="request_number request_number2">
+                                                                            <input type="submit" value="인증번호확인" id="confirm_count" class="cofirm_number">
+                                                                            <span id="count_down" class="count_down">03:00</span>
+                                                                            <p id='warning_message'>인증번호가 일치하지 않습니다.</p>
                                                                         </td>
                                                                     </tr>
                                                                 </tbody>
@@ -1573,6 +1578,20 @@
                     </form>
                 </div>
             </div>
+
+            <!-- full_content -->
+            <div id="popupbox" class='box popup KRW_SMS_number'>
+              <div class="full_inner">
+                <h2>인증번호 발송완료</h2>
+                <div class="popupbox_text">
+                  <p>등록하신 휴대폰으로 인증번호를 발송하였습니다.</p>
+                </div>
+                <div class="cancel_or_apply">
+                  <input type="button" name="" value="확인"  id="leave_member_agree_btn" class="leave_member_agree_btn">
+                </div>
+
+              </div>
+            </div><!-- full_content End-->
 
             <div id="shadow"></div>
     </div>  <!-- full End-->
