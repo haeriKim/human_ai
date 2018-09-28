@@ -37,7 +37,7 @@
                     <div id="login_c_change_pw">
                         <h3>비밀번호 변경 완료</h3>
                         <p class='text_area'>비밀번호 변경이 완료되었습니다.</p>
-                        <input type="button" name="button" value="로그인하기" class='button_box go_login' onclick="location.href='login_c_changePw.php'">
+                        <input type="button" name="button" value="로그인하기" class='button_box go_login' onclick="location.href='login.php'">
                     </div><!-- login_c_change_pw END -->
                   </div><!-- con_410 End-->
                 </div><!-- login_content End-->

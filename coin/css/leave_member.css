@@ -14,6 +14,9 @@
 .withdrawal_area .withdrawal_text p{
   font-size:13px;
 }
+.withdrawal_area .withdrawal_text .bb{
+  color:#c95b74;
+}
 .withdrawal_area .withdrawal_text .withdrawal_span{
   font-size:13px;
 }
