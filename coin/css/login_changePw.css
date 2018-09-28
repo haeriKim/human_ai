@@ -8,7 +8,8 @@
 }
 .login_content #login_change_pw p{
     color:red;
-    font-size:13px;
+    font-size:11px;
+    margin-left:5px;
     margin-bottom: 20px;
 }
 .login_content #login_change_pw input{
