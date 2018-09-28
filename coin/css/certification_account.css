@@ -100,9 +100,10 @@
 
 }
 .cText_right2 #bank_complete .bank_cancel{
-  color: #1b2f4a;
-  border: 1px solid #1b2f4a;
-  background-color: #fff;
+    color: #1b2f4a;
+    border: 1px solid #1b2f4a;
+    background-color: #fff;
+    cursor: pointer;
 }
 #account_malpungsun{
   color:#fff;

@@ -154,7 +154,7 @@
                                 </tbody>
                               </table>
                               <div class="cancel_or_apply">
-                                <input type="button" name="" value="취소" onclick="location.href='myinfo.php'"class="cancel_btn">
+                                <input type="button" name="" value="취소" onclick="location.href='certification.php'"class="cancel_btn">
                                 <input type="submit" name="" value="변경" onclick="location.href='certification_security_password_success.php'" class="agree_btn">
                               </div>
 
