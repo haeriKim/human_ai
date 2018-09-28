@@ -169,6 +169,7 @@
                     <div class="notice_wrap">
                       <div class="notice">
                         <h4>공지사항<a href="notice.php"><img src="img/right-chevron.png" alt="공지사항 화살표"></a></h4>
+                        <div class="notice_inner">
                           <ul class="fristline">
                             <li><a href=""><b>[공지] 이더리움 입출금 지연 안내</b><span>2018.07.18</span></a></li>
                             <li><a href=""><b>[공지] The Alls 홈페이지 리뉴얼기념 이벤트</b><span>2018.07.31</span></a></li>
@@ -180,6 +181,7 @@
                             <li><a href=""><b>[공지] 휴먼앤에이아이 The Alls와 함께 걷다.</b><span>2018.08.25</span></a></li>
                             <li><a href=""><b>[정보] 비트코인캐시 시장현황</b><span>2018.08.26</span></a></li>
                           </ul>
+                        </div>
                       </div>
                       <div class="use_guide">
                         <ul>

@@ -206,56 +206,51 @@
 /*Notice*/
 
 .notice{
-  width: 700px;
-  height: 140px;
-  background-color: #c95b74;
-  padding: 5px 0 10px 20px;
-  color: #fff;
-  border-radius: 5px;
-  float: left;
+    width: 733px;
+    height: 150px;
+    color: #fff;
+    border-radius: 5px;
+    float: left;
+    border: 1px solid #1b2f4a;
 }
-
 .notice h4{
-  width:680px;
-  border-bottom:1px solid white;
-  padding-top:5px;
-  padding-bottom:10px;
+    width: 710px;
+    background: #1b2f4a;
+    color: #fff;
+    border-radius: 5px 5px 0 0;
+    float: left;
+    padding: 10px 0 10px 23px;
 }
-
 .notice h4 img{
-  padding-top:5px;
-  width:15px;
-  height:15px;
-  float:right;
+    padding-top: 3px;
+    width: 15px;
+    height: 15px;
+    float: right;
+    padding-right: 10px;
 }
-
 .notice ul{
-  width:45%;
-  height:80px;
-  padding:10px 0 10px 0;
-  float:left;
-  margin-right:30px;
+    width: 45%;
+    height: 80px;
+    padding: 10px 0 10px 0;
+    float: left;
+    margin-left: 22px;
 }
-
 .notice ul li{
-  float:left;
-  line-height:25px;
-  width:320px;
-  padding-left:5px;
-  overflow: hidden;
+    float: left;
+    line-height: 25px;
+    width: 320px;
+    padding-left: 5px;
+    overflow: hidden;
 }
-
 .notice ul li:hover b{
   text-decoration:underline;
 }
-
 .notice ul li a {
-  width: inherit;
-  color: #fff;
-  display: inline-block;
-  font-size: 12px;
+    width: inherit;
+    color: #1b2f4a;
+    display: inline-block;
+    font-size: 13px;
 }
-
 .notice ul li b {
   display: block;
   white-space: nowrap;
@@ -264,25 +259,22 @@
   float: left;
   width: 80%;
 }
-
 .notice ul li b:before {
-   content: '';
-   display: inline-block;
-   width: 5px;
-   height: 5px;
-   border-radius: 50%;
-   background-color: #fff;
-   margin-right: 10px;
-   vertical-align: 2px;
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #1b2f4a;
+    margin-right: 10px;
+    vertical-align: 2px;
 }
-
 .notice ul li span{
-  float:left;
-  display: block;
-  text-align: right;
-  width: 20%;
+    float: left;
+    display: block;
+    text-align: right;
+    width: 20%;
 }
-
 
 /*use_guide*/
 
