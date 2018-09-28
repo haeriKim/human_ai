@@ -198,8 +198,7 @@ $(function () {
     $("ul.tabs li.tab_same").click(function () {
         $("ul.tabs li.tab_same").removeClass("active");
         $(this).addClass("active");
-        $(".tab_content").hide();
-        $(".KRW_conclu_table").hide();
+        $(".tab_content").hide()
         var activeTab = $(this).attr("rel");
         $("#" + activeTab).show();
 
@@ -209,10 +208,9 @@ $(function () {
         } else {
           $("#mywallet_havecoin").show();
           $("#deal_orgin_transaction").hide();
-          $("ul.tabs3 li").removeClass("active2");
-          $("ul.tabs3 li:first").addClass("active2");
+          $("ul.tabs4 li").removeClass("active2");
+          $("ul.tabs4 li:first").addClass("active2");
           $(".bitcoin_conclu_table").hide();
-          $(".KRW_conclu_table:first").show();
           // $(".input_bitcoin").show();
         }
     });
@@ -237,15 +235,8 @@ $(document).ready(function(){
         $("ul.tabs3 li").removeClass("active2");
         $(this).addClass("active2");
         $(".KRW_conclu_table").hide();
-        $("#io_list").hide();
         var activeTab = $(this).attr("rel");
-
-        if(activeTab == "input_KRW" || activeTab == "output_KRW"){
-            $("#" + activeTab).show();
-            $("#io_list").hide();
-        }else if(activeTab == "io_list"){
-            $("#io_list").show();
-        }
+        $("#" + activeTab).show();
     });
     //코인부분 입출금 안보이기
     // var a = $("ul.tabs3 li").attr("rel");
@@ -260,15 +251,12 @@ $(document).ready(function(){
     $("ul.tabs4 li").click(function () {
         $("ul.tabs4 li").removeClass("active2");
         $(this).addClass("active2");
-        $(".KRW_conclu_table").hide();
         $(".bitcoin_conclu_table").hide();
-        $("#io_list").hide();
         var activeTab = $(this).attr("rel");
 
         if(activeTab == "input_bitcoin" || activeTab == "output_bitcoin"){
             $("#" + activeTab).show();
-            $("#io_list").hide();
-        }else if(activeTab == "io_list"){
+        }else{
             $("#io_list").show();
         }
       });
@@ -749,8 +737,9 @@ $(document).ready(function(){
 //인증번호 카운트다운
 
 $(document).ready(function(){
-  $(".count_down").hide();
+  $(".count_down, .cofirm_number").hide();
   $(".request_number").click(function(){
-    $(".count_down").show();
+    $(".count_down, .cofirm_number").show();
+    $(".request_number").hide();
   });
 });
