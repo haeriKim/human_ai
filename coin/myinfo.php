@@ -92,7 +92,7 @@
                                           <span class='user_phone'>010-****-****</span>
                                           <span class='no_phone'>-</span>
                                           <a href="myinfo_phone.php" class="btn_small change_phone_num">휴대폰번호 변경</a>
-                                          <a href="#" class="btn_small certify_realname">실명인증</a>
+                                          <a href="certification_phone.php" class="btn_small certify_realname">실명인증</a>
                                       </td>
                                   </tr>
                                   <tr>
@@ -129,7 +129,7 @@
                                       </p>
                                       <span class='no_account'>-</span>
                                       <a href="myinfo_account.php" class="btn_medium change_accountNum">계좌번호 변경</a>
-                                      <a href="#" class="btn_medium certify_accountNum">계좌인증</a>
+                                      <a href="certification_account.php" class="btn_medium certify_accountNum">계좌인증</a>
                                     </td>
                                 </tr>
                                 <tr>

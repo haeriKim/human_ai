@@ -141,7 +141,7 @@
 
 
 /*4단계까지 인증시 */
-.cer_center .cer_level_02 .btn_large,
+/* .cer_center .cer_level_02 .btn_large,
 .cer_center .cer_level_03 .btn_large,
 .cer_center .cer_level_04 .btn_large,
 .cer_center .lv2_off,
@@ -165,10 +165,10 @@
 }
 .myinfo_sub_box .level_04{
     display: inline-block;
-}
+} */
 
 /*5단계까지 인증시 */
-/* .cer_center .cer_level_02 .btn_large,
+.cer_center .cer_level_02 .btn_large,
 .cer_center .cer_level_03 .btn_large,
 .cer_center .cer_level_04 .btn_large,
 .cer_center .cer_level_05 .btn_large,
@@ -190,4 +190,4 @@
 }
 .myinfo_sub_box .level_05{
     display: inline-block;
-} */
+}
