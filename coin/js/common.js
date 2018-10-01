@@ -208,8 +208,8 @@ $(function () {
         } else {
           $("#mywallet_havecoin").show();
           $("#deal_orgin_transaction").hide();
-          $("ul.tabs4 li").removeClass("active2");
-          $("ul.tabs4 li:first").addClass("active2");
+          // $("ul.tabs3 li").removeClass("active2");
+          // $("ul.tabs3 li:first").addClass("active2");
           $(".bitcoin_conclu_table").hide();
           // $(".input_bitcoin").show();
         }
@@ -218,8 +218,8 @@ $(function () {
 
 // 자산관리 서브탭
 $(document).ready(function(){
-    $(".conclu_table, .KRW_conclu_table, ul.tabs4, .bitcoin_conclu_table").hide();
-    $(".conclu_table:first, .KRW_conclu_table:first, .bitcoin_conclu_table:first").show();
+    $(".conclu_table, .KRW_conclu_table, ul.tabs4, .bitcoin_conclu_table, #io_list").hide();
+    $(".conclu_table:first, .KRW_conclu_table:first").show();
 
     //보유코인,거래내역
     $("ul.tabs2 li").click(function () {
@@ -237,7 +237,7 @@ $(document).ready(function(){
         $(".KRW_conclu_table").hide();
         var activeTab = $(this).attr("rel");
 
-        if(activeTab == "input_bitcoin" || activeTab == "output_bitcoin" || activeTab == "input_bitcoin" || activeTab == "output_bitcoin"){
+        if(activeTab == "input_bitcoin" || activeTab == "output_bitcoin" || activeTab == "input_KRW" || activeTab == "output_KRW"){
             $("#" + activeTab).show();
             $("#io_list").hide();
         }else{
@@ -260,7 +260,7 @@ $(document).ready(function(){
         $(".bitcoin_conclu_table, #io_list").hide();
         var activeTab = $(this).attr("rel");
 
-        if(activeTab == "input_bitcoin" || activeTab == "output_bitcoin" || activeTab == "input_bitcoin" || activeTab == "output_bitcoin"){
+        if(activeTab == "input_bitcoin" || activeTab == "output_bitcoin" || activeTab == "input_KRW" || activeTab == "output_KRW"){
             $("#" + activeTab).show();
               $("#io_list").hide();
         }else{
@@ -270,17 +270,25 @@ $(document).ready(function(){
 
     //보유코인 표에서 입출금 눌렀을 때 - 원화,코인 입출금 보이고 안보이기
     var selected_coin = 0;
+    var activeTab2 = $("ul.tabs li.tab_same").attr("rel");
+    $("#" + activeTab2).show();
+
     $(".coin_sel").click(function (){
       $(".bitcoin_conclu_table").hide();
       $(".bitcoin_conclu_table:first").show();
       $("#mywallet_havecoin tbody tr.active").removeClass("active");
       $(this).parents("tr").addClass("active");
+      $("ul.tabs4").show();
+      $("ul.tabs3").hide();
       $("ul.tabs4 li").removeClass("active2");
       $("ul.tabs4 li:first").addClass("active2");
+      $("#io_list").hide();
+      $("#KRW_input_output").hide();
+      $("#bitcoin_input_output").show();
       if(selected_coin === 0){
-        $("#KRW_input_output").hide();
-        $("#bitcoin_input_output").show();
-        $("ul.tabs4").show();
+        // $("#KRW_input_output").hide();
+        // $("#bitcoin_input_output").show();
+        // $("ul.tabs4").show();
         selected_coin = 1;
         selected_won = 0;
         return false;
@@ -288,20 +296,29 @@ $(document).ready(function(){
         $("ul.tabs4 li").removeClass("active2");
         $("ul.tabs4 li:first").addClass("active2");
       }
+      if(activeTab2 == "tab3") {
+        $("#mywallet_havecoin tbody tr.active").removeClass("active");
+        $("#mywallet_havecoin tbody tr:first").addClass("active");
+      }
     });
 
     var selected_won = 0;
     $(".won_sel").click(function (){
+      $("ul.tabs4").hide();
+      $("ul.tabs3").show();
       $(".KRW_conclu_table").hide();
       $(".KRW_conclu_table:first").show();
       $("#mywallet_havecoin tbody tr.active").removeClass("active");
       $(this).parents("tr").addClass("active");
       $("ul.tabs3 li").removeClass("active2");
       $("ul.tabs3 li:first").addClass("active2");
+      $("#io_list").hide();
+      $("#bitcoin_input_output").hide();
+      $("#KRW_input_output").show();
       if(selected_won === 0){
-        $("#bitcoin_input_output").hide();
-        $("#KRW_input_output").show();
-        $("ul.tabs3").show();
+        // $("#bitcoin_input_output").hide();
+        // $("#KRW_input_output").show();
+        // $("ul.tabs3").show();
         selected_won = 1;
         selected_coin = 0;
         return false;

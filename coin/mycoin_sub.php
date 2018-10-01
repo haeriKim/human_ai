@@ -771,7 +771,7 @@
                                               </ul>
                                             </div><!--tab3_header End-->
                                             <!-- input_KRW -->
-                                            <div id='input_KRW' class='KRW_conclu_table input_KRW '>
+                                            <div id='input_KRW' class='KRW_conclu_table input_KRW'>
                                                 <p class='recharge_coin'>원화(KRW) 입금</p>
                                                 <div class="my_coin_state">
                                                     <ul>
@@ -1172,7 +1172,7 @@
                                                  </div><!-- output_bitcoin End-->
                                             </div><!-- bitcoin_input_output End--><!-- 비트코인 입출금  끝-->
                                             <!-- 입출금 내역 -->
-                                            <div id='io_list' class='KRW_conclu_table io_list'>
+                                            <div id='io_list' class='io_list'>
                                               <form class="report_form" action="#" method="post" name='report_form'>
                                                   <!-- buy_tab_content -->
                                                 <div class="table_top cf">
