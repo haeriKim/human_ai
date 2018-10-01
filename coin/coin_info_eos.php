@@ -89,7 +89,7 @@
                           <div>
                             <h4>개발자 정보</h4>
                             <p>
-                              불명
+                              댄 라이머(Daniel Larimer)
                             </p>
                           </div>
                         </div>
@@ -152,7 +152,7 @@
                                         </tr>
                                         <tr>
                                             <th>채굴보상량</th>
-                                            <td>각 코인 정보 기재</td>
+                                            <td>12.5 EOS</td>
                                         </tr>
                                         <tr>
                                             <th>국가</th>
