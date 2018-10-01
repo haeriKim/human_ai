@@ -66,7 +66,6 @@
                             <h4>상용링크</h4>
                             <p>
                               <a href="https://ethereumclassic.github.io/" target="_blank" title="공식 웹사이트">공식 웹사이트</a>
-                              <a href="" target="_blank" target="_blank" tilte="백서" id="bakseo">백서</a>
                               <a href="https://ethereumclassic.github.io/" target="_blank" title="지갑 다운">지갑 다운</a>
                               <a href="http://gastracker.io/" target="_blank" title="블록체인 조희">블록체인 조희</a>
                               <a href="https://github.com/ethereumclassic" target="_blank" title="소스코드 다운">소스코드 다운</a>
