@@ -131,7 +131,7 @@
                                             <td>코인</td>
                                         </tr>
                                         <tr>
-                                            <th>시총순위</th>
+                                            <th>순위</th>
                                             <td>5위</td>
                                         </tr>
                                         <tr>
@@ -164,7 +164,7 @@
                                         </tr>
                                     </tbody>
                                 </table><!-- left_thick_table End-->
-                                <p>(정보기준일:2018.08.28)</p>
+                                <p>(정보기준일:2018.10.01)</p>
                               </div>
                          </div><!--coin_money_detail End-->
                     </div>

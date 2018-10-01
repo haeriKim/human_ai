@@ -35,17 +35,22 @@
 .coinInfo_area .text_area p {
    margin: 20px 0;
 }
-
+.coinInfo_area .text_area p a.bitcoin_mining,
+.coinInfo_area .text_area p a.bitcoin_twitter,
+.coinInfo_area .text_area p a.ethereum_mining{
+    margin-top: 15px;
+}
 .coinInfo_area .text_area p a {
-  font-size:14px;
-  width: 100px;
-  height: 30px;
-  line-height: 30px;
-  display: inline-block;
-  border: 1px solid #1b2f4a;
-  color: #1b2f4a;
-  border-radius: 5px;
-  text-align: center;
+    font-size: 15px;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    border: 1px solid #1b2f4a;
+    color: #1b2f4a;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 12px;
 }
 .coinInfo_area .text_area p a + a {
   margin-left: 12px;
@@ -86,18 +91,12 @@
 }
 
 /*비트코인캐시*/
-.coinInfo_area p.link_bitcoin_cash a{
-    font-size: 14px;
-}
 .coin_money_detail #detail_all .bitcoincash_table tbody tr td{
     padding: 0 11px;
 }
 #ethuriumclassic_a_link{
     width:120px;
     font-size:13px;
-}
-#bakseo{
-  width:60px;
 }
 /*이더리움클래식*/
 .coin_money_detail #detail_all .ethriumclassic_table tbody tr td{

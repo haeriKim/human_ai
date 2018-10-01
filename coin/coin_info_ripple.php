@@ -157,7 +157,7 @@
                                         </tr>
                                     </tbody>
                                 </table><!-- left_thick_table End-->
-                                <p>(정보기준일:2018.08.28)</p>
+                                <p>(정보기준일:2018.10.01)</p>
                               </div>
                          </div><!--coin_money_detail End-->
                     </div>

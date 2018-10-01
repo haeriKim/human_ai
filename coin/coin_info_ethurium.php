@@ -77,7 +77,7 @@
                               <a href="https://www.etherchain.org/" target="_blank" title="블록체인 조희">블록체인 조회</a>
                               <a href="https://github.com/ethereum/" target="_blank" title="소스코드 다운">소스코드 다운</a>
                               <a href="https://forum.ethereum.org/" target="_blank" title="이더리움 포럼">이더리움 포럼</a>
-                              <a href="https://www.ethereum.org/" target="_blank" title="이더리움 채굴">이더리움 채굴</a>
+                              <a href="https://www.ethereum.org/" target="_blank" title="이더리움 채굴" class='ethereum_mining'>이더리움 채굴</a>
                             </p>
                           </div>
                           <div>
@@ -137,7 +137,7 @@
                                             <td>코인</td>
                                         </tr>
                                         <tr>
-                                            <th>시총순위</th>
+                                            <th>순위</th>
                                             <td>2위</td>
                                         </tr>
                                         <tr>
