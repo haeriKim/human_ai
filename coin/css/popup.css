@@ -79,9 +79,10 @@
     z-index: 9999;
     padding: 20px;
     position: fixed;
-    left: 43%;
-    top: 11%;
+    left: 40%;
+    top: 50%;
     margin-left: -265px;
+    transform: translateY(-50%);
     display: none;
 }
 .question_mark_active_inner{
