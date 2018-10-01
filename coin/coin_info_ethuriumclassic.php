@@ -67,7 +67,7 @@
                             <p>
                               <a href="https://ethereumclassic.github.io/" target="_blank" title="공식 웹사이트">공식 웹사이트</a>
                               <a href="https://ethereumclassic.github.io/" target="_blank" title="지갑 다운">지갑 다운</a>
-                              <a href="http://gastracker.io/" target="_blank" title="블록체인 조희">블록체인 조희</a>
+                              <a href="http://gastracker.io/" target="_blank" title="블록체인 조희">블록체인 조회</a>
                               <a href="https://github.com/ethereumclassic" target="_blank" title="소스코드 다운">소스코드 다운</a>
                               <a href="https://www.reddit.com/r/EthereumClassic" target="_blank" title="이더리움클래식 포럼" id="ethuriumclassic_a_link" class='ethuriumclassic_a_link'>이더리움클래식 포럼</a>
                               <a href="https://ethereumclassic.github.io/" target="_blank" title="이더리움클래식 채굴" id="ethuriumclassic_a_link" class='ethuriumclassic_a_link'>이더리움클래식 채굴</a>
