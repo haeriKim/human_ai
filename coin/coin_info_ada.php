@@ -62,12 +62,12 @@
                           <div>
                             <h4>상용링크</h4>
                             <p>
-                              <a href="https://www.cardano.org/en/home/" title="공식 웹사이트">공식 웹사이트</a>
+                              <a href="https://www.cardano.org/en/home/" title="공식 웹사이트" target="_blank">공식 웹사이트</a>
                               <!-- <a href="" title="지갑 다운">지갑 다운</a> -->
-                              <a href="https://cardanoexplorer.com/" title="블록체인 조희">블록체인 조희</a>
+                              <a href="https://cardanoexplorer.com/" title="블록체인 조회" target="_blank">블록체인 조회</a>
                               <!-- <a href="" title="소스코드 다운">소스코드 다운</a> -->
-                              <a href="https://www.cardano.org/en/academic-papers/" title="백서">백서</a>
-                              <a href="https://coinpan.com/ada" title="에이다 포럼">에이다 포럼</a>
+                              <a href="https://www.cardano.org/en/academic-papers/" title="백서" target="_blank">백서</a>
+                              <a href="https://twitter.com/CardanoStiftung" title="공식 트위터" target="_blank">공식 트위터</a>
                               <!-- <a href="" title="에이다 채굴">에이다 채굴</a> -->
                             </p>
                           </div>
@@ -137,7 +137,7 @@
                                         </tr> -->
                                         <tr>
                                             <th>시가총액</th>
-                                            <td>2.0조원(18.09.14 기준)</td>
+                                            <td>2.5조원(18.10.01 기준)</td>
                                         </tr>
                                         <!-- <tr>
                                             <th>블록생성기</th>
@@ -165,11 +165,11 @@
                                         </tr> -->
                                         <tr>
                                             <th>공식홈페이지</th>
-                                            <td><a href="https://www.cardano.org/en/home/">https://www.cardano.org/en/home/</a></td>
+                                            <td><a href="https://www.cardano.org/en/home/" target="_blank">https://www.cardano.org/en/home/</a></td>
                                         </tr>
                                     </tbody>
                                 </table><!-- left_thick_table End-->
-                                <p>(정보기준일:2018.08.28)</p>
+                                <p>(정보기준일:2018.10.01)</p>
                               </div>
                          </div><!--coin_money_detail End-->
                     </div>

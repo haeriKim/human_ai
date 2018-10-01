@@ -63,13 +63,13 @@
                           <div>
                             <h4>상용링크</h4>
                             <p>
-                              <a href="https://ripple.com/" title="공식 웹사이트">공식 웹사이트</a>
+                              <a href="https://ripple.com/" title="공식 웹사이트" target="_blank">공식 웹사이트</a>
                               <!-- <a href="" title="지갑 다운">지갑 다운</a> -->
-                              <!-- <a href="" title="블록체인 조희">블록체인 조희</a> -->
-                              <!-- <a href="" title="소스코드 다운">소스코드 다운</a> -->
+                              <a href="https://xrpcharts.ripple.com/#/" title="블록체인 조회" target="_blank">블록체인 조회</a>
+                              <a href="https://ripple.com/files/ripple_solutions_guide.pdf" title="백서" target="_blank">백서</a>
                               <!-- <a href="" title="리플 포럼">리플 포럼</a> -->
                               <!-- <a href="" title="리플 채굴">리플 채굴</a> -->
-                              <a href="https://twitter.com/ripple" title="리플 공식 트위터">리플 공식 트위터</a>
+                              <a href="https://twitter.com/ripple" title="공식 트위터" target="_blank">공식 트위터</a>
                             </p>
                           </div>
                           <div>
@@ -127,45 +127,33 @@
                                             <th>최초발행</th>
                                             <td>2013년 4월</td>
                                         </tr>
-                                        <!-- <tr>
+                                        <tr>
                                             <th>코인/토큰</th>
                                             <td>코인</td>
                                         </tr>
                                         <tr>
-                                            <th>시총순위</th>
-                                            <td>1위</td>
-                                        </tr> -->
+                                            <th>순위</th>
+                                            <td>3위</td>
+                                        </tr>
                                         <tr>
                                             <th>시가총액</th>
-                                            <td>12.4조원(18.09.14 기준)</td>
-                                        </tr>
-                                        <!-- <tr>
-                                            <th>블록생성기</th>
-                                            <td>10분</td>
+                                            <td>26.3조원(18.10.01 기준)</td>
                                         </tr>
                                         <tr>
-                                            <th>유통량</th>
-                                            <td>각 코인정보기재</td>
-                                        </tr> -->
-                                        <tr>
-                                            <th>총발행한도</th>
-                                            <td>100,000,000,000</td>
-                                        </tr>
-                                        <!-- <tr>
-                                            <th>채굴봉상량</th>
-                                            <td>각 코인 정보 기재</td>
+                                            <th>분야</th>
+                                            <td>금융</td>
                                         </tr>
                                         <tr>
-                                            <th>국가</th>
-                                            <td>각 코인 정보 기재</td>
-                                        </tr> -->
+                                            <th>코인당 가격</th>
+                                            <td>614.94원</td>
+                                        </tr>
                                         <tr>
                                             <th>합의 프로토콜</th>
                                             <td>리플프로토콜 합의알고리즘</td>
                                         </tr>
                                         <tr>
                                             <th>공식홈페이지</th>
-                                            <td><a href="https://ripple.com/">https://ripple.com/</a></td>
+                                            <td><a href="https://ripple.com/" target="_blank">https://ripple.com/</a></td>
                                         </tr>
                                     </tbody>
                                 </table><!-- left_thick_table End-->

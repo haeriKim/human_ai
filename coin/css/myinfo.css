@@ -82,7 +82,7 @@
 } */
 
 /*2단계까지 인증시 */
-/* .myinfo_sub_box .change_phone_num,
+.myinfo_sub_box .change_phone_num,
 .myinfo_sub_box .user_name,
 .myinfo_sub_box .user_phone,
 .myinfo_sub_box .make_securityNum,
@@ -108,7 +108,7 @@
 }
 .myinfo_sub_box .level_02{
     display: inline-block;
-} */
+}
 
 /*3단계까지 인증시*/
 /* .cer_center .cer_level_02 .btn_large,
@@ -168,7 +168,7 @@
 } */
 
 /*5단계까지 인증시 */
-.cer_center .cer_level_02 .btn_large,
+/* .cer_center .cer_level_02 .btn_large,
 .cer_center .cer_level_03 .btn_large,
 .cer_center .cer_level_04 .btn_large,
 .cer_center .cer_level_05 .btn_large,
@@ -190,4 +190,4 @@
 }
 .myinfo_sub_box .level_05{
     display: inline-block;
-}
+} */
