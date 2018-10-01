@@ -616,17 +616,34 @@ $(document).ready(function(){
 //알림설정 토글버튼
 $(document).ready(function(){
     $(".toggle_area .toggle_text").text("OFF");
-  var check = $(".toggle_area input[type='checkbox']");
-  var toggle = 0;
-  check.click(function(){
-    if(toggle === 0) {
-      $(this).nextAll("p").text("ON");
-      toggle = 1;
-    }else {
-      $(this).nextAll("p").text("OFF");
-      toggle = 0;
-    }
+  // var check = $(".toggle_area input[type='checkbox']");
+  // var toggle = 0;
+  // check.click(function(){
+  //   if(toggle === 0) {
+  //     $(this).nextAll("p").text("ON");
+  //     toggle = 1;
+  //   }else {
+  //     $(this).nextAll("p").text("OFF");
+  //     toggle = 0;
+  //   }
+  //
+  // });
+  // $(".toggle_area input[type='checkbox']").change(function () {
+  //    if($(".toggle_area input[type='checkbox']").is(":checked")){
+  //        $(this).nextAll("p").text("ON");
+  //    }else {
+  //        $(this).nextAll("p").text("OFF");
+  //    }
+  // });
 
+  $(".toggle_area input[type='checkbox']").click(function(){
+      if($(this).prop("checked")) {
+           $(this).prop("checked",true);
+           $(this).nextAll("p").text("ON");
+      }else {
+           $(this).prop("checked",false);
+           $(this).nextAll("p").text("OFF");
+      }
   });
 });
 // 핍업 취소 버튼 클릭시 팝업 꺼짐
