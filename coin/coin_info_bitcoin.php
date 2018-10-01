@@ -63,12 +63,13 @@
                           <div>
                             <h4>상용링크</h4>
                             <p>
-                              <a href="http://www.bitcoin.com" title="공식 웹사이트">공식 웹사이트</a>
-                              <a href="https://bitcoin.org/en/download" title="지갑 다운">지갑 다운</a>
-                              <a href="https://www.blockchain.com/explorer" title="블록체인 조희">블록체인 조희</a>
-                              <a href="https://github.com/bitcoin/bitcoin" title="소스코드 다운">소스코드 다운</a>
-                              <a href="https://bitcointalk.org/" title="비트코인 포럼">비트코인 포럼</a>
-                              <a href="https://en.bitcoin.it/wiki/Comparison_of_mining_pools" title="비트코인 채굴">비트코인 채굴</a>
+                              <a href="http://www.bitcoin.com" target="_blank" title="공식 웹사이트">공식 웹사이트</a>
+                              <a href="https://bitcoin.org/bitcoin.pdf" target="_blank" title="백서" id="bakseo">백서</a>
+                              <a href="https://bitcoin.org/en/download" target="_blank" title="지갑 다운">지갑 다운</a>
+                              <a href="https://www.blockchain.com/explorer" target="_blank" title="블록체인 조희">블록체인 조회</a>
+                              <a href="https://github.com/bitcoin/bitcoin" target="_blank" title="소스코드 다운">소스코드 다운</a>
+                              <a href="https://bitcointalk.org/" target="_blank" title="비트코인 포럼">비트코인 포럼</a>
+                              <a href="https://en.bitcoin.it/wiki/Comparison_of_mining_pools" target="_blank" title="비트코인 채굴">비트코인 채굴</a>
                             </p>
                           </div>
                           <div>
@@ -160,7 +161,7 @@
                                         </tr>
                                         <tr>
                                             <th>공식홈페이지</th>
-                                            <td><a href="http://www.bitcoin.com">http://www.bitcoin.com</a></td>
+                                            <td><a href="http://www.bitcoin.com" target="_blank">http://www.bitcoin.com</a></td>
                                         </tr>
                                     </tbody>
                                 </table><!-- left_thick_table End-->

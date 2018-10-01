@@ -76,8 +76,8 @@
                           <div>
                             <h4>상용링크</h4>
                             <p class='link_bitcoin_cash'>
-                              <a href="https://www.bitcoincash.org/ko/" title="공식 웹사이트">공식 웹사이트</a>
-                              <a href="https://blockdozer.com/" title="블록체인 조희">블록체인 조희</a>
+                              <a href="https://www.bitcoincash.org/ko/" target="_blank" title="공식 웹사이트">공식 웹사이트</a>
+                              <a href="https://blockdozer.com/" target="_blank" title="블록체인 조희">블록체인 조희</a>
 
                             </p>
                           </div>
@@ -170,7 +170,7 @@
                                         </tr>
                                         <tr>
                                             <th>공식홈페이지</th>
-                                            <td><a href="https://www.bitcoincash.org/ko/">https://www.bitcoincash.org/ko/</a></td>
+                                            <td><a href="https://www.bitcoincash.org/ko/" target="_blank">https://www.bitcoincash.org/ko/</a></td>
                                         </tr>
                                     </tbody>
                                 </table><!-- left_thick_table End-->

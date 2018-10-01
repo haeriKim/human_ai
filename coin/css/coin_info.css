@@ -37,7 +37,8 @@
 }
 
 .coinInfo_area .text_area p a {
-  width: 120px;
+  font-size:14px;
+  width: 100px;
   height: 30px;
   line-height: 30px;
   display: inline-block;
@@ -91,8 +92,12 @@
 .coin_money_detail #detail_all .bitcoincash_table tbody tr td{
     padding: 0 11px;
 }
-.ethuriumclassic_a_link{
+#ethuriumclassic_a_link{
+    width:120px;
     font-size:13px;
+}
+#bakseo{
+  width:60px;
 }
 /*이더리움클래식*/
 .coin_money_detail #detail_all .ethriumclassic_table tbody tr td{

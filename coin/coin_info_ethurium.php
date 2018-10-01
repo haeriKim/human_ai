@@ -71,12 +71,13 @@
                           <div>
                             <h4>상용링크</h4>
                             <p>
-                              <a href="https://www.ethereum.org/" title="공식 웹사이트">공식 웹사이트</a>
-                              <a href="https://www.ethereum.org/cli" title="지갑 다운">지갑 다운</a>
-                              <a href="https://www.etherchain.org/" title="블록체인 조희">블록체인 조희</a>
-                              <a href="https://github.com/ethereum/" title="소스코드 다운">소스코드 다운</a>
-                              <a href="https://forum.ethereum.org/" title="이더리움 포럼">이더리움 포럼</a>
-                              <a href="https://www.ethereum.org/" title="이더리움 채굴">이더리움 채굴</a>
+                              <a href="https://www.ethereum.org/" target="_blank" title="공식 웹사이트">공식 웹사이트</a>
+                              <a href="https://github.com/ethereum/wiki/wiki/White-Paper" target="_blank" title="백서" id="bakseo">백서</a>
+                              <a href="https://www.ethereum.org/cli" target="_blank" title="지갑 다운">지갑 다운</a>
+                              <a href="https://www.etherchain.org/" target="_blank" title="블록체인 조희">블록체인 조희</a>
+                              <a href="https://github.com/ethereum/" target="_blank" title="소스코드 다운">소스코드 다운</a>
+                              <a href="https://forum.ethereum.org/" target="_blank" title="이더리움 포럼">이더리움 포럼</a>
+                              <a href="https://www.ethereum.org/" target="_blank" title="이더리움 채굴">이더리움 채굴</a>
                             </p>
                           </div>
                           <div>
@@ -165,7 +166,7 @@
                                         </tr>
                                         <tr>
                                             <th>공식홈페이지</th>
-                                            <td><a href="https://www.ethereum.org/">https://www.ethereum.org/</a></td>
+                                            <td><a href="https://www.ethereum.org/" target="_blank">https://www.ethereum.org/</a></td>
                                         </tr>
                                     </tbody>
                                 </table><!-- left_thick_table End-->
