@@ -60,8 +60,12 @@
                               </colgroup>
                               <thead class='thead_deco mywallet_havecoin_thead'>
                                   <tr>
-                                      <th class='coin_name'><a href="#" class="coinName">한글명<img src="img/side_arrow.png" alt="화살표"></th>
-                                      <th class='coin_eng' style='display:none;'><a href="#">영문명</a></th>
+                                      <th class='coin_name'>
+                                        <a href="#" class="coinName">
+                                          <span>한글명</span>
+                                          <img src="img/side_arrow.png" alt="화살표">
+                                        </a>
+                                      </th>
                                       <th class='coin_portion'>보유비중</th>
                                       <th class='coin_amount'>보유수량</th>
                                       <th class='coin_condition'>상태</th>
@@ -1406,8 +1410,13 @@
                       </colgroup>
                       <thead class='thead_deco'>
                           <tr>
-                              <th class='coin_kor'><a href="#" class="coinName">한글명<img src="img/side_arrow.png" alt="화살표" class="change_arrow"></a></th>
-                              <th class='coin_eng' style='display:none;'><a href="#">영문명<img src="img/side_arrow.png" alt="화살표" class="change_arrow"></a></th>
+                              <th class='coin_kor'>
+                                <a href="#" class="coinName">
+                                  <span>한글명</span>
+                                  <img src="img/side_arrow.png" alt="화살표" class="change_arrow">
+                                </a>
+                              </th>
+
                               <th><a href="#">현재가<img src="img/up_down_default.png" alt="화살표"></a></th>
                               <th><a href="#">전일대비<img src="img/up_down_down.png" alt="화살표"></a></th>
                               <th><a href="#">거래대금<img src="img/up_down_up.png" alt="화살표"></a></th>
