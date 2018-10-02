@@ -22,10 +22,9 @@
 
 .login_content #login_area .wrong_info{
     color:red;
-    font-size:11px;
+    font-size:13px;
     margin-left:5px;
     margin-bottom: 20px;
-
 }
 
 .login_content #login_area .login_info{
@@ -99,4 +98,8 @@
 }*/
 .login_content #login_area .login_info ul li:hover .e_mail_find{
     display:block;
+}
+.login_content #login_area .warning_icon{
+  margin-right:2px;
+  vertical-align: -3px;
 }

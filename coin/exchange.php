@@ -186,14 +186,14 @@
                     <thead class='thead_deco'>
                         <tr>
                             <th class='coin_kor'>
-                              <a href="#" class="coinName">
+                              <a class="coinName">
                                 <span>한글명</span>
                                 <img src="img/side_arrow.png" alt="화살표" class="change_arrow">
                               </a>
                             </th>
-                            <th><a href="#">현재가<img src="img/up_down_default.png" alt="화살표"></a></th>
-                            <th><a href="#">전일대비<img src="img/up_down_down.png" alt="화살표"></a></th>
-                            <th><a href="#">거래대금<img src="img/up_down_up.png" alt="화살표"></a></th>
+                            <th><a>현재가<img src="img/up_down_default.png" alt="화살표"></a></th>
+                            <th><a>전일대비<img src="img/up_down_down.png" alt="화살표"></a></th>
+                            <th><a>거래대금<img src="img/up_down_up.png" alt="화살표"></a></th>
                         </tr>
                     </thead>
                     <tbody>

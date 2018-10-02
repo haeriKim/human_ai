@@ -772,3 +772,20 @@ div.cancel_or_apply .if_you_all_agree{
     margin-bottom: 42px;
     font-size: 18px;
 }
+
+/* firefox */
+/* select 이미지 안나오는거 해결 */
+
+
+
+/* ie */
+/*메인 nav 글씨 치우침*/
+.nav_list li{
+
+-ms-border-bottom:1px solid #495a6e;
+-ms-text-align:center;
+-ms-line-height:4.5em;
+-ms-font-size:18px;
+-ms-font-weight:600;
+-ms-letter-spacing: 0.8px;
+}

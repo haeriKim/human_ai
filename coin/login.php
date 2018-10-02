@@ -43,7 +43,7 @@
                             <input type="email" name="e_mail" value="" placeholder="이메일주소" id='e_mail' required autocomplete="off" class='user_mail'>
                             <label for="password" class='skip_label'>비밀번호</label>
                             <input type="password" name="password" value="" placeholder="비밀번호" id='password' required autocomplete="off" class='user_pass'>
-                            <p class='wrong_info'>이메일주소와 비밀번호를 확인해주세요.</p>
+                            <p class='wrong_info'><img src="img/icon_ex.png" alt="경고아이콘" class="warning_icon">이메일주소와 비밀번호를 확인해주세요.</p>
                             <input type="submit" name="로그인" value="로그인" class='button_box login_button'>
                             <!-- login_info -->
                         </form>
