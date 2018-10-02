@@ -52,7 +52,7 @@
                         <div class="deal_table_scroll">
                             <table class='deal_table' summary='코인명,보유비중,보유수량,상태 정보를 알 수 있는 창'>
                               <colgroup>
-                                  <col width='37%'/>
+                                  <col width='100%'/>
                                   <col width='16%'/>
                                   <col width='37%'/>
                                   <col width='10%'/>
