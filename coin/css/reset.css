@@ -51,6 +51,18 @@ input[type="text"], input[type="password"], input[type="email"], input[type="tel
   -webkit-border-radius: 0;
   outline: none;
 }
+select::-ms-expand {
+    display: none;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url("../img/arrow_down_dg.png") no-repeat 95% center;
+  background-size: 7px;
+  padding-left: 5px;
+  padding-right: 15px;
+}
 
 input, textarea, select {
   outline: none;
