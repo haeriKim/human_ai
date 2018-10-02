@@ -1402,10 +1402,10 @@
                     <h3 class='exchange_h3'>원화거래</h3>
                     <table class='deal_table' summary='코인명,현재가,전일대비,거래대금 정보를 알 수 있는 창'>
                       <colgroup>
-                          <col width='34%'/>
-                          <col width='24%'/>
-                          <col width='21%'/>
-                          <col width='20%'/>
+                          <col width='33%'/>
+                          <col width='23%'/>
+                          <col width='22%'/>
+                          <col width='22%'/>
                       </colgroup>
                       <thead class='thead_deco'>
                           <tr>
