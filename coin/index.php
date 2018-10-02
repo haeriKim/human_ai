@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko" class="no-js">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content=" width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
@@ -16,7 +16,6 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/common.js"></script>
-    <script src="js/fouc.js"></script>
 </head>
 <body>
     <!-- wrap -->
@@ -150,7 +149,7 @@
                                             <p>거래량 <span class='up_down_data'>260,000원</span></p>
                                             <div class="buy_sell_button">
                                                 <a href='#' class="buy_button">매수</a><a href='#' class="sell_button">매도</a>
-                                            </div>
+                                            </div> 
                                       </li>
                                       <!--에이다(ADA) Card End-->
                             </ul>
@@ -159,8 +158,8 @@
 
                         <!-- bitcoin_card_btn -->
                         <div class="bitcoin_card_btn">
-                            <a href="#" class='prev'><img src="img/arrow_efefef_next.png" alt="이전버튼"/></a>
-                            <a href="#" class='next'><img src="img/arrow_efefef_prev.png" alt="다음버튼"></a>
+                            <a href="#" class='prev'><img src="img/arrow_navy_prev.png" alt="이전버튼"/></a>
+                            <a href="#" class='next'><img src="img/arrow_navy_next.png" alt="다음버튼"></a>
                         </div>
                         <!-- bitcoin_card_btn End -->
                     </div>
