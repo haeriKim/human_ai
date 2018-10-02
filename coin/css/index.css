@@ -94,7 +94,6 @@
   text-align: center;
   border-radius: 5px;
   height: 270px;
-  background-color: rgba(255,255,255,.7);
   position: relative;
 }
 
@@ -119,7 +118,7 @@
     width: 200px;
     margin:0 20px;
     padding-top:15px;
-    background:#efefef;
+    background-color: rgba(255,255,255,.8);
     box-shadow: 5px 7px 15px rgba(100,100,100,0.3);
 }
 
