@@ -520,7 +520,7 @@ $(document).ready(function(){
   	var floatPosition = parseInt($("#left_coin_menu").css('top'));
 
   	$(window).scroll(function() {
-
+      console.log("aa");
   		var scrollTop = $(window).scrollTop();
   		var newPosition = scrollTop + floatPosition + "px";
       if(scrollTop < 530){
