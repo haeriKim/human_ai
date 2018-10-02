@@ -7,7 +7,7 @@
           <p>Copyright@All rights reserved.</p>
       </div>
       <div class="footer_menu">
-          <strong>고객센터&nbsp;&nbsp; 1566-1506</strong>
+          <strong>고객센터&nbsp;&nbsp; 0000-0000</strong>
           <div class="footer_nav">
             <ul>
                 <li class="footer_link"><a href="#">회사소개</a></li>
@@ -17,7 +17,7 @@
             <ul class="right">
                 <li class="footer_link"><a href="#">FAQ</a></li>
                 <li class="footer_link"><a href="#">1:1 문의</a></li>
-                <li><a href="#">인증절차안내</a></li>
+                <li><a href="#">인증변경안내</a></li>
             </ul>
           </div>
       </div>

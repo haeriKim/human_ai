@@ -774,3 +774,23 @@ $(document).ready(function(){
       $(".email_certification_popup").hide();
   });
 });
+
+//원화거래 표
+$(document).ready(function(){
+  //코인명 변경(한글/영어)
+  var coin_name = 0;
+  $(".coinName").click(function(){
+     if(coin_name === 0) {
+      $(".coinName span").text("영문명");
+      $("#deal_orgin_transaction tbody p.kor_name").hide();
+      $("#deal_orgin_transaction tbody p.eng_name").show();
+      coin_name = 1;
+     }else {
+       $(".coinName span").text("한글명");
+       $("#deal_orgin_transaction tbody  p.kor_name").show();
+       $("#deal_orgin_transaction tbody p.eng_name").hide();
+       coin_name = 0;
+     }
+  });
+
+});
