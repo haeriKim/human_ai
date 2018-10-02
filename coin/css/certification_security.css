@@ -8,6 +8,7 @@
 .myinfo_sub_box table.left_thick_table tr td{
   padding: 10px 20px 10px 16px;
   font-size: 15px;
+  position:relative;
 }
 .myinfo_sub_box table.left_thick_table tr td span{
 margin-left: 10px;
@@ -154,7 +155,7 @@ table .password_question_detail:before {
 .count_down{
   position:absolute;
   font-size:14px;
-  right:520px;
+  right:370px;
   margin-top:4.5px;
   color:red;
 }

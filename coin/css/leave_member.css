@@ -108,6 +108,9 @@
     width: 76%;
     margin: 35px auto -40px auto;
 }
+.withdrawal_area #withdrawal_text3 td{
+  position:relative;
+}
 .withdrawal_area #withdrawal_text3 .get_rid_of_money{
     color: #666;
     font-weight: 600;
@@ -211,8 +214,8 @@
 }
 .count_down{
   position:absolute;
-  right:445px;
-  top:667px;
+  top:9px;
+  right:185px;
   color:red;
   font-size:14px;
 }

@@ -118,7 +118,7 @@
                                     <tr>
                                       <th>보안 비밀번호</th>
                                       <td>
-                                        <input type="password" class='user_security' name="security" value="" placeholder="보안 비밀번호를 입력하세요." maxlength="4" minlength='4' required/>
+                                        <input type="password" class='user_security' name="security" value="" placeholder="보안 비밀번호 4자리 입력해주세요." maxlength="4" minlength='4' required/>
                                         <p id='warning_message'>보안비밀번호가 일치하지 않습니다.</p>
                                       </td>
                                     </tr>

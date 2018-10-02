@@ -182,10 +182,13 @@ table .password_question_detail:before {
   margin-top:20px;
   margin-bottom:80px;
 }
+.myinfo_sub_box .left_thick_table td{
+  position:relative;
+}
 .count_down{
   position:absolute;
   font-size:14px;
-  right:520px;
+  right:360px;
   margin-top:4.5px;
   color:red;
 }
