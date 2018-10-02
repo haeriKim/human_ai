@@ -62,7 +62,7 @@
                                   <tr>
                                       <th class='coin_name'>
                                         <a href="#" class="coinName">
-                                          <span>한글명</span>
+                                          <span>코인명</span>
                                           <img src="img/side_arrow.png" alt="화살표">
                                         </a>
                                       </th>
@@ -269,7 +269,7 @@
                                             </colgroup>
                                             <thead class='mycoin_thead_deco'>
                                                 <tr>
-                                                    <th class='mycoin_kor first_chart_icon'>보유코인</a></th>
+                                                    <th class='mycoin_kor first_chart_icon'>보유코인명</a></th>
                                                     <th class='mycoin_eng' style='display:none;'>영문명</a></th>
                                                     <th class="second_chart_icon">보유수량</th>
                                                     <th class="third_chart_icon">매수평균가</th>
@@ -1486,7 +1486,7 @@
                           <tr>
                               <td class='coin_kor'>
                                   <p class="kor_name">이오스</p>
-                                  <p style='display:none;'>EOS</p>
+                                  <p style='display:none;' class="eng_name">EOS</p>
                                   <span class='unit'>EOS/KRW</span>
                               </td>
                               <td><span class='up_down_data money_down'>600,000</td>
