@@ -930,7 +930,7 @@
                                                                         <th>1회 출금한도</th>
                                                                         <td>
                                                                             <p>100,000,000 KRW</p>
-                                                                            <input type="button" value="인증레벨설정">
+                                                                            <input type="button" value="인증레벨설정" onclick="location.href='certification_level_table.php'">
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
