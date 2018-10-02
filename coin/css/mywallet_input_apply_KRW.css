@@ -587,7 +587,7 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
       width: 365px;
   }
   #mywallet_havecoin .deal_table_scroll{
-      overflow-y:scroll;
+  
   }
   /*보유코인 콘텐츠 끝*/
 
