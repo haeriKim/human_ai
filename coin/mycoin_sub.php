@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/mywallet.css">
     <link rel="stylesheet" href="css/mycoin_sub.css">
     <link rel="stylesheet" href="css/mywallet_input_apply_KRW.css">
     <link rel="stylesheet" href="css/mywallet_input_apply_bitcoin.css">
@@ -269,8 +268,8 @@
                                             </colgroup>
                                             <thead class='mycoin_thead_deco'>
                                                 <tr>
-                                                    <th class='mycoin_kor first_chart_icon'>보유코인명</a></th>
-                                                    <th class='mycoin_eng' style='display:none;'>영문명</a></th>
+                                                    <th class='mycoin_kor first_chart_icon'>보유코인명</th>
+                                                    <th class='mycoin_eng' style='display:none;'>영문명</th>
                                                     <th class="second_chart_icon">보유수량</th>
                                                     <th class="third_chart_icon">매수평균가</th>
                                                     <th class="fourth_chart_icon">매수금액</th>
