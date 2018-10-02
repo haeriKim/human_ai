@@ -144,9 +144,17 @@
     background-color:#f4f5f9;
 }
 .thead_deco a{
-    color:#333;
+    color:#1b2f4a;
 }
-
+.thead_deco a:hover{
+    opacity:0.7;
+}
+.thead_deco a .change_arrow{
+  margin-left:10px;
+}
+.thead_deco a img{
+  margin-left:2px;
+}
 /*체크박스*/
 input[type='checkbox']{    /*진짜 체크박스 지우기*/
     position: absolute;

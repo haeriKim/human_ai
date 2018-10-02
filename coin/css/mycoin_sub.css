@@ -161,25 +161,25 @@ ul.tabs2 li.active2, ul.tabs3 li.active2, ul.tabs4 li.active2 {
     text-align: left;
     padding-left:20px;
     padding-right:0;
-    background: url(../img/side_arrow.png) no-repeat 70px 13px;
+    /*background: url(../img/side_arrow.png) no-repeat 70px 13px;*/
 }
 
 #deal_orgin_transaction thead tr th:nth-child(3){
-    background: url(../img/up_down_default.png) no-repeat 58px 13px;
+    /*background: url(../img/up_down_default.png) no-repeat 58px 13px;*/
     /* background: url(../img/up_down_up.png) no-repeat 55px 14px; */
     /* background: url(../img/up_down_down.png) no-repeat 55px 14px; */
 }
 
 #deal_orgin_transaction thead tr th:nth-child(4){
     /* background: url(../img/up_down_default.png) no-repeat 55px 14px; */
-    background: url(../img/up_down_up.png) no-repeat 59px 13px;
+    /*background: url(../img/up_down_up.png) no-repeat 59px 13px;*/
     /* background: url(../img/up_down_down.png) no-repeat 55px 14px; */
 }
 
 #deal_orgin_transaction thead tr th:nth-child(5){
     /* background: url(../img/up_down_default.png) no-repeat 55px 14px; */
     /* background: url(../img/up_down_up.png) no-repeat 55px 14px; */
-    background: url(../img/up_down_down.png) no-repeat 62px 13px;
+    /*background: url(../img/up_down_down.png) no-repeat 62px 13px;*/
 }
 
 #deal_orgin_transaction thead tr{

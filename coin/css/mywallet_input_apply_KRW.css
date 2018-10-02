@@ -269,7 +269,7 @@ div.before_send_money_wrap > p{
 
 /*입출금내역*/
 .fr{float:right}
-.fl{float:left}
+
 .cb{clear: both;}
 .cf:after{content: ''; clear:both; display:block; visibility:hidden; height:0;}
 .color_bk{color:black;}
@@ -387,7 +387,7 @@ table .mycoin_thead_deco tr{
   margin:0 -2px;
 }
 table .mycoin_thead_deco th{
-  padding:15px 8px;
+  /*padding:15px 8px;*/
 }
 table .mycoin_thead_deco th {
   /* float:right; */
@@ -395,12 +395,13 @@ table .mycoin_thead_deco th {
   font-weight: 600;
   font-size:14px;
   color: #1b2f4a;
+  height:50px;
 }
 table .mycoin_thead_deco th.apply_date_th{
     padding-left: 20px;
 }
 table .mycoin_thead_deco th.mycoin_kor a{
-  margin-left:10px;
+  /*margin-left:10px;*/
 }
 table .mycoin_tbody_deco tr{
   border-bottom: 1px solid #efefef;
@@ -501,7 +502,14 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
       color:#666;
   }
   #mywallet_havecoin thead th{
-      padding-left:56px;
+      padding-left:48px;
+      color:#1b2f4a;
+  }
+  #mywallet_havecoin thead .coinName:hover{
+    opacity: 0.7;
+  }
+  #mywallet_havecoin thead th img{
+      margin-left:10px;
   }
   #mywallet_havecoin thead th.coin_name{
       padding-left: 26px;
@@ -535,6 +543,7 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
   }
   #mywallet_havecoin .coin_kor{
     padding-left: 5px;
+    overflow:hidden;
   }
   #mywallet_havecoin .coin_kor p,
   #mywallet_havecoin .coin_kor span{
@@ -586,8 +595,8 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
       position: absolute;
       width: 365px;
   }
-  #mywallet_havecoin .deal_table_scroll{
-  
+  #mywallet_havecoin .deal_table_scroll tbody p{
+      float:left;
   }
   /*보유코인 콘텐츠 끝*/
 

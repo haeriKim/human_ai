@@ -185,18 +185,18 @@
                     </colgroup>
                     <thead class='thead_deco'>
                         <tr>
-                            <th class='coin_kor'><a href="#" class="coinName">한글명</a></th>
-                            <th class='coin_eng' style='display:none;'><a href="#" class="eng_name">영문명</a></th>
-                            <th><a href="#">현재가</a></th>
-                            <th><a href="#">전일대비</a></th>
-                            <th><a href="#">거래대금</a></th>
+                            <th class='coin_kor'><a href="#" class="coinName">한글명<img src="img/side_arrow.png" alt="화살표" class="change_arrow"></a></th>
+                            <th class='coin_eng' style='display:none;'><a href="#">영문명<img src="img/side_arrow.png" alt="화살표" class="change_arrow"></a></th>
+                            <th><a href="#">현재가<img src="img/up_down_default.png" alt="화살표"></a></th>
+                            <th><a href="#">전일대비<img src="img/up_down_down.png" alt="화살표"></a></th>
+                            <th><a href="#">거래대금<img src="img/up_down_up.png" alt="화살표"></a></th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>
-                                <p>비트코인</p>
-                                <p style='display:none;'>Bitcoin</p>
+                                <p class="kor_name">비트코인</p>
+                                <p style='display:none;' class="eng_name">Bitcoin</p>
                                 <span class='unit'>BTC/KRW</span>
                             </td>
                             <td><span class='up_down_data money_up'>7,500,000</td>
@@ -205,8 +205,8 @@
                         </tr>
                         <tr>
                             <td class='coin_kor'>
-                                <p>비트코인캐시</p>
-                                <p style='display:none;'>Bitcoin Cash</p>
+                                <p class="kor_name">비트코인캐시</p>
+                                <p style='display:none;' class="eng_name">Bitcoin Cash</p>
                                 <span class='unit'>BCH/KRW</span>
                             </td>
                             <td><span class='up_down_data money_up'>599,000</td>
@@ -215,8 +215,8 @@
                         </tr>
                         <tr>
                             <td class='coin_kor'>
-                                <p>이더리움</p>
-                                <p style='display:none;'>Ethereum</p>
+                                <p class="kor_name">이더리움</p>
+                                <p style='display:none;' class="eng_name">Ethereum</p>
                                 <span class='unit'>ETH/KRW</span>
                             </td>
                             <td><span class='up_down_data money_up'>800,000</td>
@@ -225,8 +225,8 @@
                         </tr>
                         <tr>
                             <td class='coin_kor'>
-                                <p>이더리움클래식</p>
-                                <p style='display:none;'>Ethereum Classic</p>
+                                <p class="kor_name">이더리움클래식</p>
+                                <p style='display:none;' class="eng_name">Ethereum Classic</p>
                                 <span class='unit'>ETC/KRW</span>
                             </td>
                             <td><span class='up_down_data money_nochange'>800,000</td>
@@ -235,8 +235,8 @@
                         </tr>
                         <tr>
                             <td class='coin_kor'>
-                                <p>리플</p>
-                                <p style='display:none;'>Ripple</p>
+                                <p class="kor_name">리플</p>
+                                <p style='display:none;' class="eng_name">Ripple</p>
                                 <span class='unit'>XRP/KRW</span>
                             </td>
                             <td><span class='up_down_data money_down'>900,000</td>
@@ -245,8 +245,8 @@
                         </tr>
                         <tr>
                             <td class='coin_kor'>
-                                <p>에이다</p>
-                                <p style='display:none;'>Ada</p>
+                                <p class="kor_name">에이다</p>
+                                <p style='display:none;' class="eng_name">Ada</p>
                                 <span class='unit'>ADA/KRW</span>
                             </td>
                             <td><span class='up_down_data money_down'>7,500,000</td>
@@ -255,8 +255,8 @@
                         </tr>
                         <tr>
                             <td class='coin_kor'>
-                                <p>이오스</p>
-                                <p style='display:none;'>EOS</p>
+                                <p class="kor_name">이오스</p>
+                                <p style='display:none;' class="eng_name">EOS</p>
                                 <span class='unit'>EOS/KRW</span>
                             </td>
                             <td><span class='up_down_data money_down'>600,000</td>

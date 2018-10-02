@@ -1,7 +1,7 @@
 
 /*  코인선택 영역(coinSelect_area) */
 .fr{float:right}
-.fl{float:left}
+.fl{float:left;}
 .cb{clear: both;}
 .cf:after{content: ''; clear:both; display:block; visibility:hidden; height:0;}
 .color_bk{color:black;}
@@ -95,17 +95,19 @@ table .mycoin_thead_deco tr{
 
 }
 table .mycoin_thead_deco th{
-  padding:15px 8px;
+  /*padding:15px 8px;*/
 }
 table .mycoin_thead_deco th a{
-  float:right;
   font-weight: lighter;
   font-weight: 600;
   font-size:14px;
   color: #1b2f4a;
 }
+table .mycoin_thead_deco th a:hover{
+  opacity: 0.7;
+}
 table .mycoin_thead_deco th.mycoin_kor a{
-  margin-left:10px;
+  /*margin-left:10px;*/
 }
 table .mycoin_tbody_deco tr{
   border-bottom: 1px solid #efefef;
@@ -126,22 +128,22 @@ table .mycoin_tbody_title{
   color:red;
 }
 .mycoin_thead_deco .first_chart_icon{
-   background: url(../img/side_arrow.png) no-repeat center right;
+   /*background: url(../img/side_arrow.png) no-repeat center right;*/
 }
 .mycoin_thead_deco .second_chart_icon{
-   background: url(../img/up_down_default.png) no-repeat center right;
+   /*background: url(../img/up_down_default.png) no-repeat center right;*/
 }
 .mycoin_thead_deco .third_chart_icon{
-   background: url(../img/up_down_default.png) no-repeat center right;
+   /*background: url(../img/up_down_default.png) no-repeat center right;*/
 }
 .mycoin_thead_deco .fourth_chart_icon{
-   background: url(../img/up_down_down.png) no-repeat center right;
+   /*background: url(../img/up_down_down.png) no-repeat center right;*/
 }
 .mycoin_thead_deco .fifth_chart_icon{
-   background: url(../img/up_down_up.png) no-repeat center right;
+   /*background: url(../img/up_down_up.png) no-repeat center right;*/
 }
 .mycoin_thead_deco .sixth_chart_icon{
-   background: url(../img/up_down_default.png) no-repeat center right;
+   /*background: url(../img/up_down_default.png) no-repeat center right;*/
 }
 
 /*deal_orgin_transaction*/
@@ -162,25 +164,25 @@ table .mycoin_tbody_title{
     text-align: left;
     padding-left:20px;
     padding-right:0;
-    background: url(../img/side_arrow.png) no-repeat 70px 13px;
+    /*background: url(../img/side_arrow.png) no-repeat 70px 13px;*/
 }
 
 #deal_orgin_transaction thead tr th:nth-child(3){
-    background: url(../img/up_down_default.png) no-repeat 58px 13px;
+    /*background: url(../img/up_down_default.png) no-repeat 58px 13px;*/
     /* background: url(../img/up_down_up.png) no-repeat 55px 14px; */
     /* background: url(../img/up_down_down.png) no-repeat 55px 14px; */
 }
 
 #deal_orgin_transaction thead tr th:nth-child(4){
     /* background: url(../img/up_down_default.png) no-repeat 55px 14px; */
-    background: url(../img/up_down_up.png) no-repeat 59px 13px;
+    /*background: url(../img/up_down_up.png) no-repeat 59px 13px;*/
     /* background: url(../img/up_down_down.png) no-repeat 55px 14px; */
 }
 
 #deal_orgin_transaction thead tr th:nth-child(5){
     /* background: url(../img/up_down_default.png) no-repeat 55px 14px; */
     /* background: url(../img/up_down_up.png) no-repeat 55px 14px; */
-    background: url(../img/up_down_down.png) no-repeat 62px 13px;
+    /*background: url(../img/up_down_down.png) no-repeat 62px 13px;*/
 }
 
 #deal_orgin_transaction thead tr{

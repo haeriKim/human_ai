@@ -4,7 +4,10 @@ html {
   font-family: 'Noto Sans KR', sans-serif;
   height: 100%;
 }
-
+/* 화면로딩시 깜박임 현상 제거 */
+html.no-js {
+  display: none;
+}
 body {
   margin: 0;
   padding: 0;
