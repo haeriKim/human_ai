@@ -271,12 +271,12 @@
                                                 <tr>
                                                     <th class='mycoin_kor first_chart_icon'>보유코인</a></th>
                                                     <th class='mycoin_eng' style='display:none;'>영문명</a></th>
-                                                    <th class="second_chart_icon"><a href="#">보유수량</a></th>
-                                                    <th class="third_chart_icon"><a href="#">매수평균가</a></th>
-                                                    <th class="fourth_chart_icon"><a href="#">매수금액</a></th>
-                                                    <th class="fifth_chart_icon"><a href="#">평가금액</a></th>
-                                                    <th class="sixth_chart_icon"><a href="#">평가손익</a></th>
-                                                    <th class="seventh_chart_icon"><a href="#">&nbsp;</a></th>
+                                                    <th class="second_chart_icon">보유수량</th>
+                                                    <th class="third_chart_icon">매수평균가</th>
+                                                    <th class="fourth_chart_icon">매수금액</th>
+                                                    <th class="fifth_chart_icon">평가금액</th>
+                                                    <th class="sixth_chart_icon">평가손익</th>
+                                                    <th class="seventh_chart_icon">&nbsp;</th>
                                                 </tr>
                                             </thead>
                                             <tbody class="mycoin_tbody_deco">
