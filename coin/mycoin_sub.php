@@ -11,9 +11,6 @@
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/mycoin_sub.css">
-    <link rel="stylesheet" href="css/mywallet_input_apply_KRW.css">
-    <link rel="stylesheet" href="css/mywallet_input_apply_bitcoin.css">
-    <link rel="stylesheet" href="css/mywallet_output_apply_bitcoin.css">
     <link rel="stylesheet" href="css/popup.css">
     <link rel="stylesheet" href="css/sub_menu.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
