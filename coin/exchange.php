@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" class="no-js">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content=" width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
@@ -16,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/common.js"></script>
+    <script src="js/fouc.js"></script>
 </head>
 <body>
     <!-- wrap -->
@@ -184,8 +185,8 @@
                     </colgroup>
                     <thead class='thead_deco'>
                         <tr>
-                            <th class='coin_kor'><a href="#">코인명</a></th>
-                            <th class='coin_eng' style='display:none;'><a href="#">영문명</a></th>
+                            <th class='coin_kor'><a href="#" class="coinName">한글명</a></th>
+                            <th class='coin_eng' style='display:none;'><a href="#" class="eng_name">영문명</a></th>
                             <th><a href="#">현재가</a></th>
                             <th><a href="#">전일대비</a></th>
                             <th><a href="#">거래대금</a></th>
