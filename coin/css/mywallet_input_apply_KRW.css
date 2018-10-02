@@ -595,9 +595,7 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
       position: absolute;
       width: 365px;
   }
-  #mywallet_havecoin .deal_table_scroll tbody p{
-      float:left;
-  }
+
   /*보유코인 콘텐츠 끝*/
 
 

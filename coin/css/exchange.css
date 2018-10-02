@@ -291,6 +291,7 @@
     overflow-y:auto;
     padding: 0;
     float:left;
+    width:350px;
 }
 #deal_orgin_transaction table{
     font-size:13px;
