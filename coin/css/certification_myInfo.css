@@ -38,9 +38,9 @@ margin-left: 10px;
     font-size: 15px;}
 
 .myinfo_sub_box table.left_thick_table tbody input::placeholder{
-        color:#a1a1a1;
-        font-size:14px;
-    }
+    color:#a1a1a1;
+    font-size:14px;
+}
 
 
 table td div.question_smallbox{
