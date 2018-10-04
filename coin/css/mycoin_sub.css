@@ -758,16 +758,7 @@ div.before_send_money_wrap > p{
 .tab2_header .days div{
   float:left;
 }
-.tab2_header .days .search_btn{
-  width:50px;
-  height:35px;
-  margin-left:10px;
-  background-color:#1b2f4a;
-  color:#fff;
-  font-weight:600;
-  cursor:pointer;
-  border: none;
-}
+
 
 /*전체선택 모든것*/
 .selectAll{
@@ -784,10 +775,6 @@ div.before_send_money_wrap > p{
 }
 .tab2_header .days{
   font-size:15px;
-}
-.table_top .days input{
-  font-size:14px;
-  text-indent: 3px;
 }
 .tab2_header .days ::-webkit-inner-spin-button {
      margin-left: 5px;
@@ -1105,13 +1092,11 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
 #mywallet_havecoin .button_hover{
     margin-right:3px;
     border:1px solid #1b2f4a;
-    border-radius: 5px;
     color:#1b2f4a;
     padding: 5px 2px;
 }
 #mywallet_havecoin .button_hover:hover{
     background:#1b2f4a;
-    border-radius: 5px;
     color:#fff;
     padding: 5px 2px;
 }
