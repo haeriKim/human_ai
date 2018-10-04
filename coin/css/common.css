@@ -774,9 +774,18 @@ div.cancel_or_apply .if_you_all_agree{
 }
 
 /* firefox */
-/* select 이미지 안나오는거 해결 */
+/*input 빨간색 보더값 해결*/
+:invalid {
+box-shadow: none;
+}
 
+:-moz-submit-invalid {
+box-shadow: none;
+}
 
+:-moz-ui-invalid {
+box-shadow:none;
+}
 
 /* ie */
 /*메인 nav 글씨 치우침*/
