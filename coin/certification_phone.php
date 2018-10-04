@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/certification_security.css">
+    <link rel="stylesheet" href="css/certification_myInfo.css">
     <link rel="stylesheet" href="css/sub_menu.css">
     <link rel="stylesheet" href="css/popup.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
