@@ -67,7 +67,7 @@
                     <!-- guide_OTP_inner -->
                     <div class="guide_OTP_inner mypage_content">
                       <h4>계좌변경</h4>
-                        <p class="title_title">-제출 이메일 양식</p>
+                        <p class="title_title">[ 제출 이메일 양식 ]</p>
 
                         <table class='guide_OTP_table' summary='이메일 제목, 이메일 보낼 주소, 이메일 본문 필수 항목, 첨부파일'>
                             <col>
@@ -112,13 +112,13 @@
                             </div>
 
 
-                        <p class="title_title">[변경 전 유의사항]</p>
+                        <p class="title_title">[ 변경 전 유의사항 ]</p>
                           <span class="guide_OTP_star">- 계좌번호 초기화 후 재등록 하기 전까지 KRW 입출금이 불가능합니다.</span><br/>
                           <span class="guide_OTP_star">- 계좌번호를 변경하시면 초기화 후 다시 계좌인증을 진행해야 합니다.</span><br/>
                           <span class="guide_OTP_star">- 위 사항은 피싱이나 금융사고 예방을 위한 조치입니다.</span><br/>
                           <span class="guide_OTP_star">- 아래 안내절차에 따라 제출파일을 고객센터로 발송해 주시기 바랍니다.</span><br/>
 
-                        <p class="title_title">제출 서류 안내</p>
+                        <p class="title_title">[ 제출 서류 안내 ]</p>
 
                           <div class="ID_card">
                             <p class="title_title">1.신분증을 들고 있는 본인 사진</p>

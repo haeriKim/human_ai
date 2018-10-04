@@ -67,7 +67,7 @@
                     <!-- guide_OTP_inner -->
                     <div class="guide_OTP_inner mypage_content">
                       <h4>OTP 변경</h4>
-                        <p class="title_title">-제출 이메일 양식</p>
+                        <p class="title_title">[ 제출 이메일 양식 ]</p>
 
                         <table class='guide_OTP_table' summary='이메일 제목, 이메일 보낼 주소, 이메일 본문 필수 항목, 첨부파일'>
                             <col>
@@ -112,12 +112,12 @@
                             </div>
 
 
-                        <p class="title_title">[변경 전 유의사항]</p>
+                        <p class="title_title">[ 변경 전 유의사항 ]</p>
                           <span class="guide_OTP_star">- 휴대폰 교체/분실 또는, 인증앱을 지워서 OTP인증을 할 수 없는 경우 본인인증 서류 제출이 필요합니다.</span><br/>
                           <span class="guide_OTP_star">- 아래 안내에 따라 The Alls 회원가입 시 인증 받은 이메일을 사용하여 고객센터 메일로 발송해 주시기 바랍니다.</span><br/>
                           <span class="guide_OTP_star">- 인증서 제출 후 담당자가 승인하면 OTP 인증이 초기화됩니다.</span><br/>
 
-                        <p class="title_title">제출 서류 안내</p>
+                        <p class="title_title">[ 제출 서류 안내 ]</p>
 
                           <div class="ID_card">
                             <p class="title_title">1.신분증을 들고 있는 본인 사진</p>
