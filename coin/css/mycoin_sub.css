@@ -723,6 +723,9 @@ div.before_send_money_wrap > p{
 .mycoin_tbody_deco td p.red{
     color:#ff2323;
 }
+.mycoin_thead_deco .apply_name_th{
+  width:70px;
+}
 .mycoin_tbody_deco td.apply_date_td{
     font-size: 13px;
     font-weight: 600;
@@ -735,11 +738,6 @@ div.before_send_money_wrap > p{
   float:right;
   font-size:15px;
   padding: 5px 0;
-}
-.tab2_header .days input{
-  font-size:14px;
-  height: 30px;
-  text-indent: 3px;
 }
 .tab2_header .days ::-webkit-inner-spin-button {
      height: 30px;
@@ -779,6 +777,7 @@ div.before_send_money_wrap > p{
   font-size:14px;
   height: 34px;
   text-indent: 3px;
+  border:1px solid #1b2f4a;
 }
 .table_top .tab2_header {
   overflow: hidden;

@@ -1233,13 +1233,13 @@
                                                             <option value="출금">출금</option>
                                                         </select>
                                                       </th>
-                                                      <th>코인</th>
+                                                      <th class="apply_coin_th">코인</th>
                                                       <th class='apply_date_th'>요청일시</th>
                                                       <th>금액(수량)</th>
                                                       <th>수수료</th>
                                                       <th>입금은행</th>
                                                       <th colspan="2" class='account_number_th'>계좌번호</th>
-                                                      <th>입금자명</th>
+                                                      <th class="apply_name_th">입금자명</th>
                                                       <th>
                                                         <select title="진행전체" >
                                                             <option value="진행전체" selected="selected">진행전체</option>
