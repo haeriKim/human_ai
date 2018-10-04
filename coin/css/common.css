@@ -145,7 +145,6 @@
 }
 .thead_deco a{
     color:#1b2f4a;
-    cursor: pointer;
 }
 .thead_deco a:hover{
     opacity:0.8;
@@ -338,6 +337,9 @@ div.cancel_or_apply .agree_btn {
   background-color: #1b2f4a;
   cursor: pointer;
 }
+div.cancel_or_apply .agree_btn:hover{
+  background-color: rgba(27,47,74,.9);
+}
 div.cancel_or_apply .if_you_not_all_agree{
     border: 1px solid #666;
     background-color: #666;
@@ -347,6 +349,10 @@ div.cancel_or_apply .if_you_all_agree{
   background-color: #1b2f4a;
   cursor: pointer;
 }
+div.cancel_or_apply .if_you_all_agree:hover{
+  background-color: rgba(27,47,74,.9);
+}
+
  div.cancel_or_apply .cancel_btn{
     background: #fff;
     border: 1px solid #1b2f4a;
@@ -679,9 +685,8 @@ div.cancel_or_apply .if_you_all_agree{
 
 .days input{
   font-size:14px;
-  height: 33px;
+  height: 30px;
   text-indent: 3px;
-  border: 1px solid #1b2f4a;
 }
 .days ::-webkit-inner-spin-button {
      height: 30px;
@@ -715,6 +720,10 @@ div.cancel_or_apply .if_you_all_agree{
   cursor:pointer;
   border: none;
 }
+.days .search_btn:hover{
+  background-color: rgba(27,47,74,.9);
+}
+
 /**/
 #output_bitcoin table.left_thick_table tbody input[type='text'],
 #output_KRW table.left_thick_table tbody input[type='text'],
@@ -780,9 +789,11 @@ div.cancel_or_apply .if_you_all_agree{
 :invalid {
 box-shadow: none;
 }
+
 :-moz-submit-invalid {
 box-shadow: none;
 }
+
 :-moz-ui-invalid {
 box-shadow:none;
 }

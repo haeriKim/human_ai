@@ -1216,11 +1216,11 @@
                                                         <col style="width:10%;">
                                                         <col style="width:11%;">
                                                         <col style="width:13%;">
-                                                        <col style="width:9%;">
+                                                        <col style="width:8%;">
                                                         <col style="width:12%;">
                                                         <col style="width:12%;">
                                                         <col style="width:14%;">
-                                                        <col style="width:11%;">
+                                                        <col style="width:12%;">
 
                                                     </colgroup>
                                                     <thead class='mycoin_thead_deco'>
