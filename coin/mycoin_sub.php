@@ -1212,17 +1212,16 @@
                                                 </div>
                                                   <table class='mycoin_table' summary='코인, 요청일시, 금액(수량), 수수료, 입금은행, 계좌번호, 상세보기 버튼, 입금자명, 진행전체, 해당버튼 '>
                                                     <colgroup>
-                                                        <!--<col width=''/>
-                                                        <col width=''/>
-                                                        <col width=''/>
-                                                        <col width=''/>
-                                                        <col width=''/>
-                                                        <col width=''/>
-                                                        <col width=''/>
-                                                        <col width=''/>
-                                                        <col width=''/>
-                                                        <col width=''/>
-                                                        <col width=''/>-->
+                                                        <col style="width:8%;">
+                                                        <col style="width:10%;">
+                                                        <col style="width:11%;">
+                                                        <col style="width:13%;">
+                                                        <col style="width:9%;">
+                                                        <col style="width:12%;">
+                                                        <col style="width:12%;">
+                                                        <col style="width:14%;">
+                                                        <col style="width:11%;">
+
                                                     </colgroup>
                                                     <thead class='mycoin_thead_deco'>
                                                     <tr>
