@@ -152,6 +152,9 @@
     margin-top: 40px;
     cursor: pointer;
 }
+.cText_right3 .OTP_complete:hover {
+  background-color: rgba(27,47,74,.9);
+}
 .cText_right3 .cancel{
   border-radius: 5px;
   padding: 7px 30px;

@@ -298,7 +298,9 @@
   border-radius: 14px;
   padding: 3px 0;
 }
-
+.use_guide ul p:hover {
+  background-color: rgba(234,175,105,.8)
+}
 .use_guide li{
   float: left;
   margin-left: 20px;

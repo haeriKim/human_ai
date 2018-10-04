@@ -17,7 +17,7 @@
     font-size:18px;
 }
 .center_bottom strong{
-  font-size:15px;
+  font-size:17px;
   color:#1b2f4a;
   margin-bottom:25px;
   display:block;
@@ -97,7 +97,10 @@
 .cText_right2 #bank_complete .chk_ok{
   border: 1px solid #1b2f4a;
   background-color: #1b2f4a;
-
+  cursor: pointer;
+}
+.cText_right2 #bank_complete .chk_ok:hover {
+  background-color: rgba(27,47,74,.9);
 }
 .cText_right2 #bank_complete .bank_cancel{
     color: #1b2f4a;

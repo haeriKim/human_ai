@@ -531,9 +531,9 @@
                           </div>
                       </dl>
                       <span class='sub_text minimum_order_price'>최소주문금액 : 2000 KRW</span>
-                      <span class='sub_text charge'>수수료 (부가세 포함) : 0.05%</span>
+                      <span class='sub_text charge'>수수료 (부가세 포함) : 0.12%</span>
                       <div class="buy_tab_button">
-                          <input type="reset" name="reset" value="초기화" class='reset'>
+                          <input type="reset" name="reset" value="초기화" class='reset reset_buy'>
                           <input type="submit" name="submit" value="매수" class='buy_big_btn'>
                       </div>
                   </div><!-- buy_tab_content End-->
@@ -551,7 +551,7 @@
                           <div class="sell_tab_content_row">
                               <dt>매도가격(KRW)</dt>
                               <dd>
-                                  <input type='text' class='sell_price' maxlength="200" value='0'/>
+                                  <input type='text' class='sell_price' maxlength="200" value=''/>
                                   <a href="#" class='minus_btn'>-</a>
                                   <a href="#" class='plus_btn'>+</a>
                               </dd>
@@ -582,9 +582,9 @@
                           </div>
                       </dl>
                       <span class='sub_text minimum_order_price'>최소주문금액 : 2000 KRW</span>
-                      <span class='sub_text charge'>수수료 (부가세 포함) : 0.05%</span>
+                      <span class='sub_text charge'>수수료 (부가세 포함) : 0.12%</span>
                       <div class="buy_tab_button">
-                          <input type="reset" name="reset" value="초기화" class='reset'>
+                          <input type="reset" name="reset" value="초기화" class='reset reset_sell'>
                           <input type="submit" name="submit" value="매도" class='sell_big_btn'>
                       </div>
                   </div><!-- sell_tab_content End-->

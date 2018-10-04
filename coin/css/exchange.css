@@ -763,7 +763,7 @@
     width: 66px;
     height: 32px;
     line-height: 30px;
-    background: #f9fafc;
+    background-color: #f9fafc;
     text-indent: 5px;
 }
 #buy_sell_tab .buy_all_amount_title{
@@ -809,16 +809,21 @@
 }
 
 #buy_sell_tab input[type='reset']{
-    border:1px solid #727272;
     background:#fff;
     padding:10px 30px;
     border-radius: 5px;
     font-size:15px;
     font-weight: 600;
-    color:#727272;
     cursor:pointer;
 }
-
+#buy_sell_tab input[type='reset'].reset_buy {
+    border:1px solid #ff2323;
+    color: #ff2323;
+}
+#buy_sell_tab input[type='reset'].reset_sell {
+    border:1px solid #002dae;
+    color: #002dae;
+}
 #buy_sell_tab .buy_big_btn{
     padding: 10px 125px;
     background: #ff2323;
@@ -830,7 +835,9 @@
     cursor:pointer;
     margin-left:2px;
 }
-
+#buy_sell_tab .buy_big_btn:hover {
+  background-color: rgba(255,35,35,.9);
+}
 #buy_sell_tab .sell_big_btn{
     padding: 10px 125px;
     background: #002dae;
@@ -842,7 +849,9 @@
     cursor:pointer;
     margin-left:2px;
 }
-
+#buy_sell_tab .sell_big_btn:hover {
+  background-color: rgba(0,45,174,.9);
+}
 #buy_sell_tab .buy_sell_tab_title li h3 a{
     border-radius: 5px 0 0 0;
     padding:8px 0 11px 0;

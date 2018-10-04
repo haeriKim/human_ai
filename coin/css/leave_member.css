@@ -124,13 +124,16 @@
     border: 1px solid #1b2f4a;
     background: #1b2f4a;
 }
+.withdrawal_area #withdrawal_text3 .cancel_or_apply .if_you_not_all_agree:hover {
+  background-color: rgba(27,47,74,.9)
+}
 /*회원탈퇴 step4*/
 .withdrawal_area #withdrawal_text4 p{
     font-size: 17px;
     font-weight: 600;
 }
 .withdrawal_area #withdrawal_text4 select{
-    border: 1px solid #efefef;
+    border: 1px solid #1b2f4a;
     font-size: 15px;
     width: 500px;
     margin: 30px auto 0 auto;
