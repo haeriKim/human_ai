@@ -40,14 +40,14 @@
                   <div class="box certification_level_table_content">
                       <table class="certification_level_table" id="certification_level_table">
                           <colgroup>
-                              <col width="8%">
-                              <col width="7%">
-                              <col width="5%">
-                              <col width="16%">
-                              <col width="16%">
-                              <col width="16%">
-                              <col width="16%">
-                              <col width="16%">
+                              <col style="width:8%;">
+                              <col style="width:7%;">
+                              <col style="width:5%;">
+                              <col style="width:16%;">
+                              <col style="width:16%;">
+                              <col style="width:16%;">
+                              <col style="width:16%;">
+                              <col style="width:16%;">
                           </colgroup>
                           <thead>
                             <tr>

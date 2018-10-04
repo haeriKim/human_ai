@@ -46,12 +46,12 @@
                         <dl class="coinSelect">
                             <dt><a href="#" title="비트코인"><img src="img/bitcoin.png" alt="비트코인"/></a><span>비트코인 BTC/KRW</span></dt>
                             <dd><a href="#" title="비트코인"><img src="img/bitcoin.png" alt="비트코인"/></a><span>비트코인 BTC/KRW</span></dd>
-                            <dd><a href="#" title="비트코인캐시"><img src="img/bitcoincash.png" alt="비트코인캐시"/></a><span>비트코인캐시 BCH/KRW</span</dd>
-                            <dd><a href="#" title="이더리움"><img src="img/eth.png" alt="이더리움"/></a><span>이더리움 ETH/KRW</span</dd>
-                            <dd><a href="#" title="이더리움클래식"><img src="img/etc.png" alt="이더리움클래식"/></a><span>이더리움클래식 ETC/KRW</span</dd>
-                            <dd><a href="#" title="이오스"><img src="img/eos.png" alt="이오스"/></a><span>이오스 EOS/KRW</span</dd>
+                            <dd><a href="#" title="비트코인캐시"><img src="img/bitcoincash.png" alt="비트코인캐시"/></a><span>비트코인캐시 BCH/KRW</span></dd>
+                            <dd><a href="#" title="이더리움"><img src="img/eth.png" alt="이더리움"/></a><span>이더리움 ETH/KRW</span></dd>
+                            <dd><a href="#" title="이더리움클래식"><img src="img/etc.png" alt="이더리움클래식"/></a><span>이더리움클래식 ETC/KRW</span></dd>
+                            <dd><a href="#" title="이오스"><img src="img/eos.png" alt="이오스"/></a><span>이오스 EOS/KRW</span></dd>
                             <dd><a href="#" title="리플"><img src="img/reaple.png" alt="리플"/></a><span>리플 XRP/KRW</span></dd>
-                            <dd><a href="#" title="에이다"><img src="img/ada.png" alt="에이다"/></a><span>에이다 ADA/KRW</span</dd>
+                            <dd><a href="#" title="에이다"><img src="img/ada.png" alt="에이다"/></a><span>에이다 ADA/KRW</span></dd>
                         </dl>
                     </div>
                   </div>
@@ -77,7 +77,7 @@
                     <li class="coin_prepare">
                       <strong>전일대비</strong>
                       <span class="prepare"><b>-0.31</b>%</span>
-                      <span class="updownarrow"><img src="img/arrow_down_blue.png" class="ud"></b>23,000</span>
+                      <span class="updownarrow"><img src="img/arrow_down_blue.png" class="ud" alt='하락'>23,000</span>
                     </li>
                   </ul>
                   <span class="question">&#63;</span>
@@ -165,9 +165,7 @@
                         </tr>
                     </tbody>
                 </table><!-- left_thick_table End-->
-                </ul>
                   <span><a href="coin_info_bitcoin.php">상세보기</a></span>
-                </table>
               </div>
 
 
@@ -176,13 +174,13 @@
 
               <div class="box" id='deal_orgin_transaction'>
                   <h3 class='exchange_h3'>원화거래</h3>
-                  <table class='deal_table' summary='코인명,현재가,전일대비,거래대금 정보를 알 수 있는 창'>
-                    <colgroup>
-                        <col width='33%'/>
-                        <col width='23%'/>
-                        <col width='22%'/>
-                        <col width='22%'/>
-                    </colgroup>
+                  <table class='deal_table'>
+                    <!-- <colgroup>
+                        <col style="width:33%;"/>
+                        <col style="width:23%;"/>
+                        <col style="width:22%;"/>
+                        <col style="width:22%;"/>
+                    </colgroup> -->
                     <thead class='thead_deco'>
                         <tr>
                             <th class='coin_kor'>
@@ -203,9 +201,9 @@
                                 <p style='display:none;' class="eng_name">Bitcoin</p>
                                 <span class='unit'>BTC/KRW</span>
                             </td>
-                            <td><span class='up_down_data money_up'>7,500,000</td>
-                            <td><span class='up_down_data money_up'>+1.20%</td>
-                            <td><span class='up_down_data'>74,000,000</td>
+                            <td><span class='up_down_data money_up'>7,500,000</span></td>
+                            <td><span class='up_down_data money_up'>+1.20%</span></td>
+                            <td><span class='up_down_data'>74,000,000</span></td>
                         </tr>
                         <tr>
                             <td class='coin_kor'>
@@ -213,9 +211,9 @@
                                 <p style='display:none;' class="eng_name">Bitcoin Cash</p>
                                 <span class='unit'>BCH/KRW</span>
                             </td>
-                            <td><span class='up_down_data money_up'>599,000</td>
-                            <td><span class='up_down_data money_up'>+0.00%</td>
-                            <td><span class='up_down_data'>7,000,000</td>
+                            <td><span class='up_down_data money_up'>599,000</span></td>
+                            <td><span class='up_down_data money_up'>+0.00%</span></td>
+                            <td><span class='up_down_data'>7,000,000</span></td>
                         </tr>
                         <tr>
                             <td class='coin_kor'>
@@ -223,9 +221,9 @@
                                 <p style='display:none;' class="eng_name">Ethereum</p>
                                 <span class='unit'>ETH/KRW</span>
                             </td>
-                            <td><span class='up_down_data money_up'>800,000</td>
-                            <td><span class='up_down_data money_up'>+1.20%</td>
-                            <td><span class='up_down_data'>700,000</td>
+                            <td><span class='up_down_data money_up'>800,000</span></td>
+                            <td><span class='up_down_data money_up'>+1.20%</span></td>
+                            <td><span class='up_down_data'>700,000</span></td>
                         </tr>
                         <tr>
                             <td class='coin_kor'>
@@ -233,9 +231,9 @@
                                 <p style='display:none;' class="eng_name">Ethereum Classic</p>
                                 <span class='unit'>ETC/KRW</span>
                             </td>
-                            <td><span class='up_down_data money_nochange'>800,000</td>
+                            <td><span class='up_down_data money_nochange'>800,000</span></td>
                             <td><span class='up_down_data'>+0.00%</span></td>
-                            <td><span class='up_down_data'>700,000</td>
+                            <td><span class='up_down_data'>700,000</span></td>
                         </tr>
                         <tr>
                             <td class='coin_kor'>
@@ -243,9 +241,9 @@
                                 <p style='display:none;' class="eng_name">Ripple</p>
                                 <span class='unit'>XRP/KRW</span>
                             </td>
-                            <td><span class='up_down_data money_down'>900,000</td>
-                            <td><span class='up_down_data money_down'>-1.20%</td>
-                            <td><span class='up_down_data'>700,000</td>
+                            <td><span class='up_down_data money_down'>900,000</span></td>
+                            <td><span class='up_down_data money_down'>-1.20%</span></td>
+                            <td><span class='up_down_data'>700,000</span></td>
                         </tr>
                         <tr>
                             <td class='coin_kor'>
@@ -253,9 +251,9 @@
                                 <p style='display:none;' class="eng_name">Ada</p>
                                 <span class='unit'>ADA/KRW</span>
                             </td>
-                            <td><span class='up_down_data money_down'>7,500,000</td>
-                            <td><span class='up_down_data money_down'>-1.20%</td>
-                            <td><span class='up_down_data'>700,000</td>
+                            <td><span class='up_down_data money_down'>7,500,000</span></td>
+                            <td><span class='up_down_data money_down'>-1.20%</span></td>
+                            <td><span class='up_down_data'>700,000</span></td>
                         </tr>
                         <tr>
                             <td class='coin_kor'>
@@ -263,9 +261,9 @@
                                 <p style='display:none;' class="eng_name">EOS</p>
                                 <span class='unit'>EOS/KRW</span>
                             </td>
-                            <td><span class='up_down_data money_down'>600,000</td>
-                            <td><span class='up_down_data money_down'>-1.20%</td>
-                            <td><span class='up_down_data'>700,000</td>
+                            <td><span class='up_down_data money_down'>600,000</span></td>
+                            <td><span class='up_down_data money_down'>-1.20%</span></td>
+                            <td><span class='up_down_data'>700,000</span></td>
                         </tr>
                     </tbody>
                   </table>
@@ -291,8 +289,8 @@
             <div id="right_coin_menu2">
             <!--bid_price-->
             <div class="box bid_price">
-              <table border=1 summary="일반호가,매도잔량,주문가,매수잔량">
-                  <h3 class="exchange_h3">일반호가</h3>
+              <h3 class="exchange_h3">일반호가</h3>
+              <table>
                   <thead class='thead_deco'>
                     <tr>
                       <th class="mado_amount">매도잔량</th>
@@ -300,8 +298,6 @@
                       <th colspan="2" class="masu_amount">매수잔량</th>
                     </tr>
                   </thead>
-
-                  <tfoot></tfoot>
 
                   <tbody>
                    <tr>
@@ -326,8 +322,6 @@
                      <td class="mado_right mado3"><div></div>1.001</td>
                      <td class="orderbg1 upprice">7,000,000</td>
                      <td class="orderbg1 upprice">+3.58%</td>
-
-
 
                    </tr>
 
@@ -354,6 +348,7 @@
                      <td class="mado_right mado6"><div></div>0.346</td>
                      <td class="orderbg1">7,000,000</td>
                      <td class="orderbg1">0%</td>
+                     <td colspan="2" rowspan="5"></td>
 
                    </tr>
 
@@ -566,8 +561,8 @@
                               <dd>
                                   <input type='text' class='sell_amount' maxlength="200" value=''/>
                                   <div class="amount_dropbox">
-                                      <label for='percentage1'></label>
-                                      <select id="percentage1" name="percentage1">
+                                      <label for='percentage2'></label>
+                                      <select id="percentage2" name="percentage2">
                                           <option value="">최대</option>
                                           <option value="">75%</option>
                                           <option value="">50%</option>
@@ -601,12 +596,12 @@
                 <h3 class='exchange_h3'>전체체결</h3>
                 <div class="deal_table_scroll">
                   <table class='deal_table'>
-                      <colgroup>
+                      <!-- <colgroup>
                           <col width='24%'/>
                           <col width='27%'/>
                           <col width='22%'/>
                           <col width='27%'/>
-                      </colgroup>
+                      </colgroup> -->
                       <thead class='thead_deco deal_all_thead'>
                         <tr>
                             <th class='deal_time'>체결시간</th>
@@ -742,24 +737,7 @@
                     </div>
                 </div>
             </div><!-- full_content End-->
-
-
-            <div id="popupbox" class='box popup'>
-                <div class="full_inner mado_fail">
-                    <h2>매수주문 실패</h2>
-                    <div class="popupbox_text">
-
-
-                      <p>주문가능 금액이 부족합니다.</p>
-                    </div>
-                    <div class="btn_area">
-                      <input type="button" name="submit" value="확인" class="popupbt ok">
-                    </div>
-                </div>
-            </div><!-- full_content End-->
             <div id="shadow"></div>
-
-
     </div>  <!-- full End-->
 
 </body>

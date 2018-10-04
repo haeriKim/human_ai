@@ -15,10 +15,12 @@ $(document).ready(function(){
   bannerObj.eq(nowNum).fadeIn();
 
  // 버튼 눌렀을 때 슬라이드
-  $('.nextBtn').on('click',function(){
+  $('.nextBtn').on('click',function(e){
+      e.preventDefault();
     rollingFn('right');
   });
-  $('.prevBtn').on('click',function(){
+  $('.prevBtn').on('click',function(e){
+      e.preventDefault();
     rollingFn('left');
   });
 
@@ -47,7 +49,8 @@ $(document).ready(function(){
 //메인_카드현황
 $(document).ready(function(){
     //카드현황 다음버튼
-    $('.next').on('click',function(){
+    $('.next').on('click',function(e){
+        e.preventDefault();
         if($('.bitcoin_card_inner').is(':animated')==false){
             $('.bitcoin_card_inner').animate({left:'-240px'},1000,function(){
                 $('.bitcoin_card_inner').append($('.bitcoin_card_inner li:first'));
@@ -56,7 +59,8 @@ $(document).ready(function(){
         }
     })
     //카드현황 이전버튼
-    $('.prev').on('click',function(){
+    $('.prev').on('click',function(e){
+        e.preventDefault();
         if($('.bitcoin_card_inner').is(':animated')==false){
             $('.bitcoin_card_inner').prepend($('.bitcoin_card_inner li:last'));
             $('.bitcoin_card_inner').css('left','-240px');
@@ -521,10 +525,11 @@ $(document).ready(function(){
 //scroll_fixed
 
   $(document).ready(function() {
-  	var floatPosition = parseInt($("#left_coin_menu").css('top'));
-
+  	var floatPosition = $("#left_coin_menu").scrollTop();
+    //console.log(floatPosition);
   	$(window).scroll(function() {
   		var scrollTop = $(window).scrollTop();
+        //console.log(scrollTop);
   		var newPosition = scrollTop + floatPosition + "px";
       if(scrollTop < 530){
         $("#left_coin_menu").stop().animate({
@@ -557,23 +562,28 @@ $(document).ready(function(){
 
   $(document).ready(function(){
 
-    $(".submenu_mypage").click(function(){
+    $(".submenu_mypage").click(function(e){
+        e.preventDefault();
       $(".submenu_mypage_inner").stop().animate({right:0},300);
     });
 
-    $(".submenu_mypage_back").click(function(){
+    $(".submenu_mypage_back").click(function(e){
+        e.preventDefault();
       $(".submenu_mypage_inner").stop().animate({right:-350},300);
     });
 
-    $(".submenu_mypage").click(function(){
+    $(".submenu_mypage").click(function(e){
+        e.preventDefault();
       $(".submenu_security_inner").stop().animate({right:-300},300);
     });
 
-    $(".submenu_security").click(function(){
+    $(".submenu_security").click(function(e){
+        e.preventDefault();
       $(".submenu_security_inner").stop().animate({right:0},300);
     });
 
-    $(".submenu_mypage_back2").click(function(){
+    $(".submenu_mypage_back2").click(function(e){
+        e.preventDefault();
       $(".submenu_security_inner").stop().animate({right:-300},300);
     });
 

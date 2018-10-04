@@ -149,7 +149,7 @@
                                             <p>거래량 <span class='up_down_data'>260,000원</span></p>
                                             <div class="buy_sell_button">
                                                 <a href='#' class="buy_button">매수</a><a href='#' class="sell_button">매도</a>
-                                            </div> 
+                                            </div>
                                       </li>
                                       <!--에이다(ADA) Card End-->
                             </ul>

@@ -165,7 +165,7 @@
                                         </tr>
                                         <tr>
                                             <th>공식홈페이지</th>
-                                            <td><a href="http://www.bitcoin.com" target="_blank">http://www.bitcoin.com</a></td>
+                                            <td><a href="https://bitcoin.org/ko/" target="_blank">https://bitcoin.org/ko/</a></td>
                                         </tr>
                                     </tbody>
                                 </table><!-- left_thick_table End-->
