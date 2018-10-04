@@ -145,6 +145,7 @@
 }
 .thead_deco a{
     color:#1b2f4a;
+    cursor: pointer;
 }
 .thead_deco a:hover{
     opacity:0.8;
@@ -678,8 +679,9 @@ div.cancel_or_apply .if_you_all_agree{
 
 .days input{
   font-size:14px;
-  height: 30px;
+  height: 33px;
   text-indent: 3px;
+  border: 1px solid #1b2f4a;
 }
 .days ::-webkit-inner-spin-button {
      height: 30px;
@@ -778,11 +780,9 @@ div.cancel_or_apply .if_you_all_agree{
 :invalid {
 box-shadow: none;
 }
-
 :-moz-submit-invalid {
 box-shadow: none;
 }
-
 :-moz-ui-invalid {
 box-shadow:none;
 }
