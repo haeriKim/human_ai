@@ -934,7 +934,7 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
     width: 350px;
 }
 #deal_orgin_transaction h3{
-    color:#2b2b2b;
+    color:#1b2f4a;
     border-bottom:3px solid #1b2f4a;
     padding:15px 20px 10px 20px;
 }
@@ -1012,8 +1012,8 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
     padding: 0;
     float:left;
     position: relative;
-    margin:0 20px 0 0;
-    width: 365px;
+    margin-right:1.5%;
+    width: 28.5%;
 }
 #mywallet_havecoin h3{
     color:#1b2f4a;
@@ -1033,29 +1033,26 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
 #mywallet_havecoin table{
     font-size:13px;
 }
+#mywallet_havecoin thead{
+  position:absolute;
+}
 #mywallet_havecoin thead tr{
     height: 35px;
     color:#666;
 }
 #mywallet_havecoin thead th{
-    padding-left:48px;
+    padding-left:45px;
     color:#1b2f4a;
 }
-#mywallet_havecoin thead .coinName:hover{
-  opacity: 0.7;
-}
 #mywallet_havecoin thead th img{
-    margin-left:10px;
 }
-#mywallet_havecoin thead th.coin_name{
-    padding-left: 26px;
+#mywallet_havecoin thead th.coin_name1{
     text-align: left;
 }
 #mywallet_havecoin thead th.coin_portion{
 
 }
 #mywallet_havecoin thead th.coin_condition{
-  padding-left: 43px;
 }
 #mywallet_havecoin tbody img{
     float: left;
@@ -1128,6 +1125,5 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
     margin-top:35px;
 }
 #mywallet_havecoin .mywallet_havecoin_thead{
-    position: absolute;
-    width: 365px;
+    width:100%;
 }

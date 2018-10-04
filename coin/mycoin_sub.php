@@ -49,19 +49,14 @@
                         <div class="deal_table_scroll">
                             <table class='deal_table' summary='코인명,보유비중,보유수량,상태 정보를 알 수 있는 창'>
                               <colgroup>
-                                  <col width='100%'/>
-                                  <col width='16%'/>
-                                  <col width='37%'/>
-                                  <col width='10%'/>
+                                  <!--<col width=''>
+                                  <col width=''>
+                                  <col width=''>
+                                  <col width=''>-->
                               </colgroup>
                               <thead class='thead_deco mywallet_havecoin_thead'>
                                   <tr>
-                                      <th class='coin_name'>
-                                        <a href="#" class="coinName">
-                                          <span>코인명</span>
-                                          <img src="img/side_arrow.png" alt="화살표">
-                                        </a>
-                                      </th>
+                                      <th class='coin_name1'>코인명</th>
                                       <th class='coin_portion'>보유비중</th>
                                       <th class='coin_amount'>보유수량</th>
                                       <th class='coin_condition'>상태</th>
@@ -255,13 +250,13 @@
 
                                           <table class='mycoin_table' summary='보유코인,보유수량,매수평균가,매수금액,평가금액,평가손익,입출금 버튼,준비중 상태확인 '>
                                             <colgroup>
-                                                <col width='20%'/>
+                                                <!--<col width='20%'/>
                                                 <col width='9%'/>
                                                 <col width='12%'/>
                                                 <col width='9%'/>
                                                 <col width='10%'/>
                                                 <col width='10%'/>
-                                                <col width='14%'/>
+                                                <col width='14%'/>-->
                                             </colgroup>
                                             <thead class='mycoin_thead_deco'>
                                                 <tr>
@@ -441,14 +436,14 @@
                                   <div id="chegyeol" class="chegyeol conclu_table">
                                     <table class="chegyeol_table" summary="주무시간,코인,거래종류,거래수량,거래단가,거래금액,수수료,정산금액">
                                       <colgroup>
-                                          <col width='12%'/>
+                                          <!--<col width='12%'/>
                                           <col width='12%'/>
                                           <col width='10%'/>
                                           <col width='13%'/>
                                           <col width='15%'/>
                                           <col width='12%'/>
                                           <col width='13%'/>
-                                          <col width='13%'/>
+                                          <col width='13%'/>-->
                                       </colgroup>
                                       <thead class='chegyeol_header'>
                                           <tr>
@@ -592,14 +587,14 @@
                                     <div id="michegyeol" class="michegyeol conclu_table">
                                       <table class="chegyeol_table" summary="주무시간,코인,거래종류,거래수량,거래단가,거래금액,수수료,정산금액">
                                         <colgroup>
-                                            <col width='11%'/>
+                                            <!--<col width='11%'/>
                                             <col width='12%'/>
                                             <col width='10%'/>
                                             <col width='15%'/>
                                             <col width='14%'/>
                                             <col width='14%'/>
                                             <col width='14%'/>
-                                            <col width='9%'/>
+                                            <col width='9%'/>-->
                                         </colgroup>
                                         <thead class='chegyeol_header'>
                                             <tr>
@@ -1217,6 +1212,7 @@
                                                 </div>
                                                   <table class='mycoin_table' summary='코인, 요청일시, 금액(수량), 수수료, 입금은행, 계좌번호, 상세보기 버튼, 입금자명, 진행전체, 해당버튼 '>
                                                     <colgroup>
+                                                        <!--<col width=''/>
                                                         <col width=''/>
                                                         <col width=''/>
                                                         <col width=''/>
@@ -1226,8 +1222,7 @@
                                                         <col width=''/>
                                                         <col width=''/>
                                                         <col width=''/>
-                                                        <col width=''/>
-                                                        <col width=''/>
+                                                        <col width=''/>-->
                                                     </colgroup>
                                                     <thead class='mycoin_thead_deco'>
                                                     <tr>
@@ -1252,7 +1247,6 @@
                                                             <option value="처리완료">처리완료</option>
                                                         </select>
                                                             </th>
-                                                      <th><a href="#">&nbsp;</a></th>
                                                     </tr>
                                                   </thead>
                                                     <tbody class="mycoin_tbody_deco">
@@ -1269,7 +1263,6 @@
                                                                     <td><p class='mycoin_data'>&nbsp;</p></td>
                                                         <td><p class='mycoin_data fr'><span class='user_name'>가나다</span>1234</td>
                                                         <td><p class='mycoin_data'>대기중</td>
-                                                        <td><p class='mycoin_data '><span class='mycoin_deposit'><input type="submit" value='취소' class="btn_small2"/></td>
                                                       </tr>
                                                               <tr>
                                                         <td><p class="bl">출금</p></td>
@@ -1399,10 +1392,10 @@
                     <h3 class='exchange_h3'>원화거래</h3>
                     <table class='deal_table' summary='코인명,현재가,전일대비,거래대금 정보를 알 수 있는 창'>
                       <colgroup>
-                          <col width='33%'/>
+                          <!--<col width='33%'/>
                           <col width='23%'/>
                           <col width='22%'/>
-                          <col width='22%'/>
+                          <col width='22%'/>-->
                       </colgroup>
                       <thead class='thead_deco'>
                           <tr>
