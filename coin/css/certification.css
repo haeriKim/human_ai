@@ -84,7 +84,7 @@
   float: right;
   vertical-align: middle;
 }
-.cer_center .center_bottom .cText_right li .c_btn:hover {
+.cer_center .center_bottom .cText_right li .go_cer:hover {
   background-color: rgba(27,47,74,.9);
 }
 .cer_center .center_bottom .cText_right li span.c_complete {
