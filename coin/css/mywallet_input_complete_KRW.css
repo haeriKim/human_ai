@@ -110,6 +110,9 @@
     cursor: pointer;
     text-align: center;
 }
+#input_KRW_complete input.button_style:hover{
+    background-color: rgba(27,47,74,.9);
+}
 #input_KRW_complete .look_again{
     color:#ff2323;
 }

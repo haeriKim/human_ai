@@ -168,7 +168,8 @@
 .btn_area {
   margin-top: 30px;
 }
-.btn_area input[type="button"], .btn_area input[type="submit"]{
+.btn_area input[type="button"],
+.btn_area input[type="submit"]{
   border-radius:5px;
   background:none;
   font-size:14px;
@@ -179,13 +180,17 @@
   cursor: pointer;
   box-sizing: border-box;
 }
-
-.btn_area input[type="button"].ok, .btn_area input[type="submit"].ok{
+.btn_area input[type="button"].ok,
+.btn_area input[type="submit"].ok{
   border:1px solid #1b2f4a;
   background-color:#1b2f4a;
   color:#fff;
 }
-
+.btn_area input[type="submit"].ok:hover,
+.btn_area input[type="button"].ok:hover,
+#full .email_pop .re_send input[type="button"]:hover {
+    background-color: rgba(27,47,74,.9);
+}
 
 
 /* 기본팝업(common) */
@@ -265,6 +270,7 @@
   padding: 7px 5px ;
   color: #fff;
   margin: 20px 0;
+  cursor: pointer;
 }
 
 

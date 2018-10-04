@@ -45,11 +45,14 @@
   padding: 4px 20px;
   margin-top: 7px;
 }
+#signUp_c_area .cer_center .cer_level a:hover {
+  background-color: rgba(27,47,74,.9);
+}
 #signUp_c_area .btn_area {
   text-align: center;
   margin-top: 30px;
 }
-#signUp_c_area .btn_area a {
+#signUp_c_area .btn_area a.look_around {
   display: inline-block;
   border: 1px solid #1B2F4A;
   border-radius: 5px;
@@ -58,14 +61,16 @@
   font-weight: 600;
   color: #1B2F4A;
 }
-
-#signUp_c_area .btn_area a:hover {
+#signUp_c_area .btn_area a.go_login {
   display: inline-block;
-  border: 1px solid #1B2F4A;
   border-radius: 5px;
+  background: #1B2F4A;
   width: 130px;
   padding: 4px 0;
   font-weight: 600;
   color: #fff;
-  background: #1B2F4A;
+  border: 1px solid #1B2F4A;
+}
+#signUp_c_area .btn_area a.go_login:hover {
+    background-color: rgba(27,47,74,.9);
 }

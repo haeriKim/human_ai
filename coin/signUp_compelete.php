@@ -43,7 +43,7 @@
                         <img /src="img/join.png" alt="회원가입 완료">
                         <strong>회원가입이 완료 되었습니다.</strong>
                         <p>The Alls 회원이 되신 것을 환영합니다.</p>
-                        <p><b class="user_mail">abc@naver.com</b>님의 현재 인증단계는 <b>Level<span class="user_level">1</span></b> 입니다.</p>
+                        <p><b class="user_mail">abc@naver.com</b>님의 현재 인증단계는 <b>Level<span class="user_level"> 1</span></b> 입니다.</p>
                         <p>거래를 이용하기 위해서는 <a href="certification.php"><b>인증단계</b></a>를 진행해야합니다.</p>
                       </div>
 
@@ -93,8 +93,8 @@
                         </ul>
                       </div>
                       <div class="btn_area">
-                        <a href="exchange.php">거래소 둘러보기</a>
-                        <a href="login.php">로그인 하기</a>
+                        <a href="exchange.php" class='look_around'>거래소 둘러보기</a>
+                        <a href="login.php" class='go_login'>로그인 하기</a>
                       </div>
 
                     </div><!-- signUp_c_area End-->

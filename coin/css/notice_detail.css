@@ -47,6 +47,9 @@
     margin-top: 40px ;
     font-weight: 600;
 }
+.notice_detail .notice_detail_inner .notice_detail_footer .go_back_notice:hover{
+    background-color: rgba(27,47,74,.9);
+}
 .notice_detail .notice_detail_inner .notice_detail_footer .notice_preview{
     margin-top:90px;
 }

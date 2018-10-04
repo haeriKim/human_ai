@@ -157,7 +157,7 @@
                            인증코드가 발송되지 않았거나 인증코드가<br />
                            만료된 경우에는 재전송 버튼을 눌러주세요.
                          </p>
-                         <input type="button" class="re_sendBtn" value="인증코드 재전송"/>
+                         <input type="button" class="re_sendBtn" value="인증코드 재전송" onclick="alert('인증코드가 재전송되었습니다!')"/>
                        </div>
                       </form>
                     </div>

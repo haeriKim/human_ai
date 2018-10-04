@@ -137,17 +137,20 @@
   padding:7px 30px;
   font-size:15px;
   font-weight:600;
-  cursor:pointer;
   margin:50px 0;
   text-align:center;
   width:400px;
+  cursor:default;
 }
 #signUp_area .signUp_right_con .btn_area .sign_up_bt_on{
   background:#1b2f4a;
   color:#fff;
   display: none;
+  cursor:pointer;
 }
-
+#signUp_area .signUp_right_con .btn_area .sign_up_bt_on:hover{
+    background-color: rgba(27,47,74,.9);
+}
 #signUp_area .signUp_right_con a{
   font-size:12px;
   width:400px;

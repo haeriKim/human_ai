@@ -3,8 +3,17 @@
 .myinfo_main_box .myinfo .button_box{
     margin-bottom: 10px;
     text-align: right;
-  }
-
+}
+.myinfo_main_box .myinfo .button_box .Q_and_A,
+.myinfo_main_box .myinfo .button_box .using_guide{
+    border-radius: 5px;
+    background: #1b2f4a;
+    color: #fff;
+}
+.myinfo_main_box .myinfo .button_box .Q_and_A:hover,
+.myinfo_main_box .myinfo .button_box .using_guide:hover{
+    background-color: rgba(27,47,74,.9);
+}
 /* myinfo_table_wrap */
 .myinfo_sub_box .myinfo_table_wrap{
   margin-bottom: 55px;
@@ -44,6 +53,9 @@
   border:none;
   padding:6px 20px;
   margin-top:10px;
+}
+.cer_center .cer_level .btn_large:hover{
+    background-color: rgba(27,47,74,.9);
 }
 
 /* quit_page */
