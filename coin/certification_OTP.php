@@ -124,7 +124,7 @@
                                 <img src="img/apple_app.png" alt="안드로이드구글OTP" class="android_img">
                                 <br/>
                                 <span>'Google OTP'를 검색하신 후 다운로드 받으세요.</span>
-                                <p><img src="img/playstore.png" alt="플레이스토어"></p>
+                                <p><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&rdid=com.google.android.apps.authenticator2" target="_blank"><img src="img/playstore.png" alt="플레이스토어"></a></p>
                               </li>
                             </ul>
 
@@ -134,7 +134,7 @@
                                 <img src="img/apple_app.png" alt="애플구글OTP" class="apple_img">
                                 <br/>
                                 <span>'Google Authenticator'를 검색하신 후 다운로드 받으세요.</span>
-                                <p><img src="img/appstore.png" alt="앱스토어"></p>
+                                <p><a href="https://itunes.apple.com/kr/app/google-authenticator/id388497605?mt=8" target="_blank"><img src="img/appstore.png" alt="앱스토어"></a></p>
                               </li>
                             </ul>
 
