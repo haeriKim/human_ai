@@ -281,6 +281,8 @@ $(document).ready(function(){
       }else{
         $("ul.tabs4 li").removeClass("active2");
         $("ul.tabs4 li:first").addClass("active2");
+        $(".bitcoin_conclu_table").hide();
+        $(".bitcoin_conclu_table:first").show();
       }
     });
 
@@ -305,6 +307,8 @@ $(document).ready(function(){
       }else{
         $("ul.tabs3 li").removeClass("active2");
         $("ul.tabs3 li:first").addClass("active2");
+        $(".KRW_conclu_table").hide();
+        $(".KRW_conclu_table:first").show();
       }
     });
 });
