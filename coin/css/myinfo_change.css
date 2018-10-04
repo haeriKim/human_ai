@@ -237,6 +237,9 @@ border: none;
 background-color: #1b2f4a;
 cursor: pointer;
 }
+.phone_change_box2 .cancel_btn_ok:hover{
+  background-color: rgba(27,47,74,.9);
+}
 #full{
   display:none;
 }

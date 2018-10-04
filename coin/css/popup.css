@@ -60,6 +60,9 @@
     color: #fff;
     border-radius: 5px;
 }
+#full_content .close_btn:hover{
+  background-color: rgba(27,47,74,.9);
+}
 #shadow{
     position: fixed;
     top:0;
