@@ -114,7 +114,7 @@
                       </ul>
 
                       <div class="myinfo_text_box">
-                        <h3>계좌 등록 완료</h3>
+                        <h3>계좌인증 완료</h3>
                         <br/>
                         <p>회원님의 현재 보안등급은 <strong class="complete_level">Level <b class="user_level">4</b></strong>입니다.</p>
                         <br/>
@@ -123,7 +123,7 @@
 
                       <div class="cancel_or_apply">
                         <input type="button" name="" value="확인" onclick="location.href='myinfo.php'" class="cancel_btn">
-                        <input type="button" name="" value="인증하러 가기" onclick="location.href='certification.php'" class="agree_btn">
+                        <input type="button" name="" value="인증하기" onclick="location.href='certification.php'" class="agree_btn">
                       </div>
 
 

@@ -29,6 +29,9 @@
     line-height: 40px;
     height: 40px;
 }
+.common_table_content .mypage_content .input_output_fee thead tr th{
+    border:1px solid #999;
+}
 .common_table_content .mypage_content .deal_fee,
 .common_table_content .mypage_content .input_output_fee{
     margin-bottom: 50px;

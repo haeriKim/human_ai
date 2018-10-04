@@ -143,8 +143,9 @@
                           <div class="center_rule">
                             <strong>[ The Alls 고객의 안전한 투자를 위한 이용법칙 ]</strong>
                             <p>-만 19세 이하는 거래 할 수 없습니다.</p>
-                            <p class="important">-Level 3(실명인증) 인증 완료 후 거래소 이용이 가능합니다.</p>
-                            <p class="important">-입금/출금은 Level 4(계좌인증) 인증 완료 후 이용이 가능합니다.</p>
+                            <p class="important">-매수/매도 및 코인입금은 Level 1(이메일인증) 인증 완료 후 이용이 가능합니다.</p>
+                            <p class="important">-원화입금은 Level 4(계좌인증) 인증 완료 후 이용이 가능합니다.</p>
+                            <p class="important">-원화/코인출금은 Level 5(OTP인증)까지 인증 완료 후 이용이 가능합니다.</p>
                             <p class="important">-인증된 정보를 변경하시려면 <span class='underline'>'마이페이지 > 회원정보관리'</span> 에서 이용해주세요.</p>
                           </div>
                         </div>
