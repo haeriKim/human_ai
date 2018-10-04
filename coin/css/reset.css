@@ -60,7 +60,7 @@ select {
   appearance: none;
   background: url("../img/arrow_down_dg.png") no-repeat 95% center;
   background-size: 7px;
-  padding-left: 5px;
+  padding-left: 2px;
   padding-right: 15px;
 }
 
