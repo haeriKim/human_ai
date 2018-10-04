@@ -66,7 +66,7 @@
                     <h3 class="title">인증자료 제출안내</h3>
                     <!-- guide_OTP_inner -->
                     <div class="guide_OTP_inner mypage_content">
-                      <h4>OTP 변경</h4>
+                      <h4>계좌변경</h4>
                         <p class="title_title">-제출 이메일 양식</p>
 
                         <table class='guide_OTP_table' summary='이메일 제목, 이메일 보낼 주소, 이메일 본문 필수 항목, 첨부파일'>
@@ -76,7 +76,7 @@
                               <tbody class='guide_OTP_tbody'>
                                 <tr>
                                     <th>이메일 제목</th>
-                                    <td>The Alls OTP 변경 요청</td>
+                                    <td>The Alls 계좌번호 변경 요청</td>
                                 </tr>
 
                                 <tr>
@@ -89,7 +89,6 @@
                                     <td>
                                       <p>이름 : </p>
                                       <p>휴대전화 번호 :</p>
-                                      <p>변경 사유 : </p>
                                       <p>The Alls가입 이메일 : </p>
                                     </td>
                                 </tr>
@@ -99,6 +98,7 @@
                                     <td>
                                       <p>1.신분증 사진(필수)</p>
                                       <p>2.신분증을 들고있는 본인 사진(필수)</p>
+                                      <p>3.기존 등록된 계좌의통장사본(필수)</p>
                                     </td>
                                 </tr>
 
@@ -113,9 +113,10 @@
 
 
                         <p class="title_title">[변경 전 유의사항]</p>
-                          <span class="guide_OTP_star">- 휴대폰 교체/분실 또는, 인증앱을 지워서 OTP인증을 할 수 없는 경우 본인인증 서류 제출이 필요합니다.</span><br/>
-                          <span class="guide_OTP_star">- 아래 안내에 따라 The Alls 회원가입 시 인증 받은 이메일을 사용하여 고객센터 메일로 발송해 주시기 바랍니다.</span><br/>
-                          <span class="guide_OTP_star">- 인증서 제출 후 담당자가 승인하면 OTP 인증이 초기화됩니다.</span><br/>
+                          <span class="guide_OTP_star">- 계좌번호 초기화 후 재등록 하기 전까지 KRW 입출금이 불가능합니다.</span><br/>
+                          <span class="guide_OTP_star">- 계좌번호를 변경하시면 초기화 후 다시 계좌인증을 진행해야 합니다.</span><br/>
+                          <span class="guide_OTP_star">- 위 사항은 피싱이나 금융사고 예방을 위한 조치입니다.</span><br/>
+                          <span class="guide_OTP_star">- 아래 안내절차에 따라 제출파일을 고객센터로 발송해 주시기 바랍니다.</span><br/>
 
                         <p class="title_title">제출 서류 안내</p>
 
@@ -140,6 +141,12 @@
                                   <p>- 여권이나 운전면허도 가능하며 운전면허 번호, 여권번호는 가려주시기 바랍니다.</p><br/>
                                   <p class="ID_card_pink">- 촬영시간을 기준으로 이전에 찍은 사진이나 메모가 없는 사진은 확인이 불가능합니다.</p><br/>
                                 </div>
+                          </div>
+
+                          <div class="ID_card">
+                            <p class="title_title">3.현재 등록된 계좌의 통장사본(표지)</p>
+                              <p class="guide_OTP_text">- '계좌번호' 및 '예금주'가 적힌 통장사본을 스캔 또는 촬영해서 첨부해 주세요.</p><br/>
+                              <p class="guide_OTP_text">- 인터넷뱅킹일 경우[통장표지출력] 서비스화면을 캡쳐해주세요.</p><br/>
                           </div>
 
                           <div class="guide_OTP_yeobak"></div>
