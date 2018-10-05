@@ -67,6 +67,7 @@
                     <!-- guide_OTP_inner -->
                     <div class="guide_OTP_inner mypage_content">
                       <h4>계좌변경</h4>
+                        <p class="guide_OTP_p">계좌 변경 시, 아래 제출서류를 첨부하여 양식에 따라 이메일을 보내야합니다.</p>
                         <p class="title_title">[ 제출 이메일 양식 ]</p>
 
                         <table class='guide_OTP_table' summary='이메일 제목, 이메일 보낼 주소, 이메일 본문 필수 항목, 첨부파일'>

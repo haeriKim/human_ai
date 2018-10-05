@@ -5,6 +5,10 @@
   color:#1b2f4a;
   font-weight:600;
 }
+.guide_OTP_area .guide_OTP_p{
+  margin-top:40px;
+  display:block;
+}
 .guide_OTP_area .guide_OTP_table{
   border:1px solid #f4f5f8;
   text-align:left;
