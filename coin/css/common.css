@@ -619,7 +619,8 @@ div.cancel_or_apply .if_you_all_agree:hover{
 .track_ip_address_area,
 .alarm_area,
 .myinfo_area,
-.guide_OTP_area {
+.guide_OTP_area,
+.fees_area {
   float: left;
   width:80%;
 }

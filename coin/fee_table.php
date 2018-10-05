@@ -34,13 +34,36 @@
             <!-- content_wrap -->
             <div class="content_wrap">
                 <!-- common_table_wrap -->
-                <div class="content common_table_wrap con_1000">
+                <div class="content common_table_wrap con_1250">
+                  <!--content_nav -->
+                  <div class="content_nav">
+                    <h4>고객지원</h4>
+                    <ul>
+                        <li><a href="" title="FAQ">FAQ</a></li>
+                        <li>
+                          <a href="#" title="1:1 문의" class='more_menu'>1:1 문의</a>
+                          <dl class="nav_dropdown question_dd off">
+                              <dt><a href="" title="1:1 문의하" class='active'>1:1 문의하기</a></dt>
+                              <dt><a href="" title="문의내역 확인하기">문의내역 확인하기</a></dt>
+                          </dl>
+                        </li>
+                        <li>
+                          <a href="#" title="인증변경안내" class='more_menu'>인증변경안내</a>
+                          <dl class="nav_dropdown changeA_dd off">
+                              <dt><a href="" title="보안비밀번호 초기화">보안비밀번호 초기화</a></dt>
+                              <dt><a href="#" title="계좌 변경">계좌변경</a></dt>
+                              <dt><a href="#" title="OTP 변경">OTP 변경</a></dt>
+                          </dl>
+                        </li>
+                        <li class='active'><a href="fee_table.php" title="수수료 안내">수수료 안내</a></li>
+                    </ul>
+                  </div><!-- content_nav End-->
 
                   <!-- common_table_content -->
-                  <div class="box common_table_content">
+                  <div class="box common_table_content fees_area">
                       <h3 class='title'>수수료 안내</h3>
                       <div class="mypage_content">
-                          <h4>거래 수수료</h4>
+                          <h4>거래수수료</h4>
                           <table class='common_table deal_fee'>
                               <colgroup>
                                   <col style="width:50%;">
@@ -74,13 +97,13 @@
                                   <th rowspan="2">자산</th>
                                   <th rowspan="2">입금 수수료</th>
                                   <th colspan="2">소액 입금</th>
-                                  <th colspan="2" class='border_none'>출금 수수료</th>
+                                  <th colspan="2">출금 수수료</th>
                                 </tr>
                                 <tr>
                                     <th>소액 내부 입금</th>
                                     <th>소액 외부 입금</th>
                                     <th>내부 출금</th>
-                                    <th class='border_none'>외부 출금</th>
+                                    <th>외부 출금</th>
                                 </tr>
                               </thead>
                               <tbody>
