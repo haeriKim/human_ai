@@ -119,7 +119,7 @@
                         <div class="cText_left3">
                             <strong><span>1</span>. OTP앱을 스마트폰에 다운로드 받으세요.</strong>
                             <ul class="android">
-                              <li class="app_title">[ 안드로이드 휴대폰 전용 Google OTP ]</li>
+                              <li class="app_title">[ android 전용 Google OTP ]</li>
                               <li class="app_text">
                                 <img src="img/apple_app.png" alt="안드로이드구글OTP" class="android_img">
                                 <br/>
@@ -129,7 +129,7 @@
                             </ul>
 
                             <ul class="apple">
-                              <li class="app_title">[ 아이폰 휴대폰 전용 Google Authenticator ]</li>
+                              <li class="app_title">[ ios 전용 Google Authenticator ]</li>
                               <li class="app_text">
                                 <img src="img/apple_app.png" alt="애플구글OTP" class="apple_img">
                                 <br/>
@@ -164,7 +164,7 @@
                           <div>
                             <form action="#" method="post" class="OTP_codebox">
 
-                              <input type="text" placeholder="OTP번호 입력" required maxlength="6" minlength="6" class="OTP_number user_otpNum">
+                              <input type="text" placeholder="OTP번호를 입력하세요." required maxlength="6" minlength="6" class="OTP_number user_otpNum">
                               <p id='warning_message'>OTP번호가 일치하지 않습니다.</p>
 
                               <div id="OTP_complete">
@@ -172,7 +172,7 @@
                                   <input type="button" name="취소" value="취소" class="cancel" onclick="location.href='certification.php'"/>
                                 </a>
 
-                                  <input type="submit" name="OTP 인증완료" value="OTP 인증완료" onclick="location.href='certification_OTP_success.php'" class="OTP_complete"/>
+                                  <input type="submit" name="등록" value="등록" onclick="location.href='certification_OTP_success.php'" class="OTP_complete"/>
 
                               </div>
                             </form>

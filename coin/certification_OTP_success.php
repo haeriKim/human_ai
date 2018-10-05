@@ -114,7 +114,7 @@
                       </ul>
 
                       <div class="myinfo_text_box">
-                        <h3>OTP 인증 완료</h3>
+                        <h3>OTP인증 완료</h3>
                         <br/>
                         <p>회원님의 현재 보안등급은 <strong class="complete_level">Level <b class="user_level">5</b></strong>입니다.</p>
                         <br/>

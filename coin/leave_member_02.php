@@ -107,7 +107,7 @@
                               </div>
 
                               <div class="cancel_or_apply">
-                                  <input type="reset" name="reset" value="취소" onclick="location.href='leave_member_01.php'" class='cancel_btn'/>
+                                  <input type="reset" name="reset" value="취소" onclick="location.href='myinfo.php'" class='cancel_btn'/>
                                   <span class='agree_btn if_you_not_all_agree'>다음단계</span>
                                   <input type="submit" name="submit" value="다음단계" onclick="location.href='leave_member_03.php'" class='agree_btn if_you_all_agree'/>
                               </div>
