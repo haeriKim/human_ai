@@ -824,6 +824,7 @@ $(document).ready(function(){
 
 });
 
+//이용약관,개인정보처리방침 탭
 $(function () {
 
     $(".use_area_text").hide();

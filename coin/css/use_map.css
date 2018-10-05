@@ -21,19 +21,24 @@
 .use_content #use_area {
   padding: 30px 40px;
 }
+.use_content #use_area .use_area_text{
+  border-bottom:1px solid #f4f5f8;
+}
 .use_content #use_area .use_area_text .title{
   font-size:25px;
   font-weight:600;
   color:#1b2f4a;
   margin:20px 0;
   padding-bottom:10px;
-  border-bottom:2px solid #1b2f4a;
+
 }
 .use_content #use_area .use_area_text .title_title{
   color: #1b2f4a;
   font-size:20px;
   font-weight: 600;
   margin:20px 0;
+  padding-bottom:10px;
+  border-bottom:1px solid #1b2f4a;
 }
 .use_content #use_area .use_area_text p{
   font-size:14px;
@@ -43,13 +48,14 @@
   font-weight:600;
   color:#1b2f4a;
   margin-top:20px;
-  padding-bottom:20px;
-  border-bottom:2px solid #1b2f4a;
+  padding-bottom:10px;
+  border-bottom:1px solid #1b2f4a;
 }
 .use_content #use_area .use_area_text .use_date ul{
   margin-top:30px;
   margin-left:20px;
   margin-bottom:120px;
+  height:50px;
 }
 .use_content #use_area .use_area_text .use_date li a{
   /*font-size:14px;
