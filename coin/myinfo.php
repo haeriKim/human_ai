@@ -90,7 +90,7 @@
                                   <tr class='myinfo_table_tr'>
                                       <th>휴대폰</th>
                                       <td>
-                                          <span class='user_phone'>010-****-****</span>
+                                          <span class='user_phone'>010-1***-***0</span>
                                           <span class='no_phone'>-</span>
                                           <a href="myinfo_phone.php" class="btn_small change_phone_num">휴대폰번호 변경</a>
                                           <a href="certification_phone.php" class="btn_small certify_realname">실명인증</a>
@@ -111,8 +111,8 @@
                           <table class="left_thick_table myinfo_table float_table">
                               <tbody>
                                 <tr>
-                                    <th>비밀번호</th>
-                                    <td><a href="myinfo_login_password.php" class="btn_medium">비밀번호 변경</a></td>
+                                    <th>로그인 비밀번호</th>
+                                    <td><a href="myinfo_login_password.php" class="btn_medium">로그인 비밀번호 변경</a></td>
                                 </tr>
                                 <tr>
                                     <th>보안비밀번호</th>
@@ -122,14 +122,14 @@
                                     </td>
                                 </tr>
                                 <tr class='myinfo_table_tr'>
-                                    <th>계좌번호</th>
+                                    <th>계좌정보</th>
                                     <td>
                                       <p class="account_number">
                                           <span class='bankName'>OO은행</span>
                                           <span class='user_account'>1234-*******-11-123</span>
                                       </p>
                                       <span class='no_account'>-</span>
-                                      <a href="myinfo_account.php" class="btn_medium change_accountNum">계좌번호 변경</a>
+                                      <a href="myinfo_account.php" class="btn_medium change_accountNum">계좌 변경</a>
                                       <a href="certification_account.php" class="btn_medium certify_accountNum">계좌인증</a>
                                     </td>
                                 </tr>
@@ -137,7 +137,7 @@
                                     <th>OTP</th>
                                     <td>
                                         <span class='no_OTP'>-</span>
-                                        <a href="certification_OTP.php" class="btn_medium certify_OTP">OTP 인증</a>
+                                        <a href="certification_OTP.php" class="btn_medium certify_OTP">OTP인증</a>
                                         <a href="myinfo_OTP.php" class="btn_medium change_OTP">OTP 변경</a>
                                     </td>
                                 </tr>
@@ -200,8 +200,8 @@
                             <img src="img/lock.png" alt="OTP인증인증 아이콘" class="lv5_on" />
                             <img src="img/lock_off.png" alt="OTP인증 아이콘" class="lv5_off"/>
                           </p>
-                          <strong class='navy_title'>OTP 인증</strong>
-                          <strong class="gray_title">OTP 인증</strong>
+                          <strong class='navy_title'>OTP인증</strong>
+                          <strong class="gray_title">OTP인증</strong>
                           <span>실제 사용 중인<br/>OTP로 인증해주세요.</span>
                           <button class="btn_large" onclick="location.href='certification_OTP.php'" type="button">인증하기</button>
                         </li>

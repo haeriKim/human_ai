@@ -42,7 +42,7 @@
   background-color: #1b2f4a;
 }
 .myinfo_sub_box .myinfo_table th{
-    width: 25%;
+    width: 29%;
 }
 /* cer_level */
 .cer_center .cer_level .btn_large{
@@ -68,7 +68,7 @@
     display: none;
 }
 /*1단계까지 인증시 */
-/* .myinfo_sub_box .change_phone_num,
+.myinfo_sub_box .change_phone_num,
 .myinfo_sub_box .user_name,
 .myinfo_sub_box .user_phone,
 .myinfo_sub_box .change_securityNum,
@@ -91,10 +91,10 @@
 }
 .myinfo_sub_box .level_01{
     display: inline-block;
-} */
+}
 
 /*2단계까지 인증시 */
-.myinfo_sub_box .change_phone_num,
+/* .myinfo_sub_box .change_phone_num,
 .myinfo_sub_box .user_name,
 .myinfo_sub_box .user_phone,
 .myinfo_sub_box .make_securityNum,
@@ -120,7 +120,7 @@
 }
 .myinfo_sub_box .level_02{
     display: inline-block;
-}
+} */
 
 /*3단계까지 인증시*/
 /* .cer_center .cer_level_02 .btn_large,

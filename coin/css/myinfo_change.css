@@ -195,7 +195,9 @@ table .password_question_detail:before {
   margin-top:4.5px;
   color:red;
 }
-
+.cer_center .cancel_or_apply .agree_btn{
+    cursor: pointer;
+}
 
 /*account*/
 

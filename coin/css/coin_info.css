@@ -21,17 +21,6 @@
   font-size: 17px;
   color: #1b2f4a;
 }
-
-.coinInfo_area .text_area h4::before {
-  content: '';
-  display: inline-block;
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background-color: #1b2f4a;
-  margin-right: 7px;
-  vertical-align: 4px;
-}
 .coinInfo_area .text_area p {
    margin: 20px 0;
 }

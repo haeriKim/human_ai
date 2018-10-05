@@ -71,6 +71,7 @@
                         <div class="myinfo_small_info_box">
                           <div class="myinfo_box1">
                             <strong class="user_name">가*다</strong>
+                            <strong class='no_name'>-</strong>
                             <p class="user_mail">abc@naver.com</p>
                           </div>
                           <div class="myinfo_box2">
@@ -80,13 +81,19 @@
                                 <p class="myinfo_detail user_phone">
                                   <span>010</span>-<span>1***</span>-<span>***0</span>
                                 </p>
-                                <p class='myinfo_detail no_phone'><span>010</span>-<span>1***</span>-<span>***0</span></p>
+                                <p class='myinfo_detail no_phone'><span>-</span></p>
                               </li>
                             </ul>
                             <ul class="list_2">
                               <li>
                                   <p class="myinfo_title">등급</p>
-                                  <p class="myinfo_detail">Level&nbsp;<span class='user_level'>3</span></p>
+                                  <p class="myinfo_detail">Level&nbsp;
+                                      <span class='user_level lv_1'>1</span>
+                                      <span class='user_level lv_2'>2</span>
+                                      <span class='user_level lv_3'>3</span>
+                                      <span class='user_level lv_4'>4</span>
+                                      <span class='user_level lv_5'>5</span>
+                                  </p>
                               </li>
                             </ul>
                           </div>
@@ -100,16 +107,16 @@
                                 <table class='left_thick_table'>
                                   <tbody>
                                     <tr class='change_password_tr1'>
-                                      <th>현재 비밀번호</th>
+                                      <th>현재 로그인 비밀번호</th>
                                       <td>
-                                          <input type="password" class='user_pass' name="pre_password" value="" placeholder="현재 비밀번호를 입력해주세요" required maxlength="15" minlength="8" />
+                                          <input type="password" class='user_pass' name="pre_password" value="" placeholder="현재 로그인 비밀번호를 입력하세요." required maxlength="15" minlength="8" />
                                           <p id='warning_message'>비밀번호가 일치하지 않습니다.</p>
                                       </td>
                                     </tr>
                                     <tr class='change_password_tr2'>
-                                      <th>새로운 비밀번호</th>
+                                      <th>새로운 로그인 비밀번호</th>
                                       <td>
-                                          <input type="password" class='user_pass' name="password" value="" placeholder="새로운 비밀번호를 입력해주세요" required maxlength="15" minlength="8" />
+                                          <input type="password" class='user_pass' name="password" value="" placeholder="새로운 로그인 비밀번호를 입력하세요." required maxlength="15" minlength="8" />
                                           <div class="question_smallbox"><img src="img/question.png">
                                             <div class="password_question_detail">
                                                   안전한 비밀번호 작성 법<br />
@@ -125,13 +132,13 @@
                                       </td>
                                     </tr>
                                     <tr class='change_password_tr3'>
-                                      <th>새로운 비밀번호 확인</th>
+                                      <th>새로운 로그인 비밀번호 확인</th>
                                       <td>
-                                        <input type="password" class='user_passChk' name="password" value="" placeholder="비밀번호를 재입력해주세요" required maxlength="15" minlength="8" />
+                                        <input type="password" class='user_passChk' name="password" value="" placeholder="새로운 로그인 비밀번호를 다시 입력하세요." required maxlength="15" minlength="8" />
                                         <p id='warning_message'>비밀번호가 일치하지 않습니다.</p>
                                       </td>
                                     </tr>
-                                    <tr class='change_password_tr4'>
+                                    <!-- <tr class='change_password_tr4'>
                                       <th>휴대폰 SMS 인증</th>
                                       <td>
                                         <input type="text" name="" value="" placeholder="휴대폰으로 전송된 인증번호를 입력하세요." required maxlength="6" minlength="6" />
@@ -146,7 +153,7 @@
                                         <p id='warning_message'>보안 비밀번호가 일치하지 않습니다.</p>
                                       </td>
                                       </td>
-                                    </tr>
+                                    </tr> -->
                                   </tbody>
                                 </table>
                               </div><!-- send_login_password End-->

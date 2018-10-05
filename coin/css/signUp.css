@@ -152,15 +152,16 @@
     background-color: rgba(27,47,74,.9);
 }
 #signUp_area .signUp_right_con a{
-  font-size:12px;
-  width:400px;
-  display:block;
-  text-align:right;
-  color:#b1b1b1;
+    font-size: 12px;
+    width: 400px;
+    display: block;
+    text-align: right;
+    color: #b1b1b1;
+    text-decoration: underline;
 }
 
 #signUp_area .signUp_right_con a:hover{
-  text-decoration:underline;
+    color: #c95b74;
 }
 #full{
 display:none;
