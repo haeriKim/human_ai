@@ -906,7 +906,7 @@
                                                         </div>
 
                                                         <span id="money_malpungsun">
-                                                          개인정보 수집 및 이용 동의해주세요.
+                                                          입금신청 주의사항에 동의해주세요.
                                                         </span>
 
                                                     </div><!-- before_send_money_wrap End-->
@@ -975,7 +975,7 @@
                                                                         <th>보안 비밀번호</th>
                                                                         <td>
                                                                             <input type="password" class='user_security' name="" value="" placeholder="보안 비밀번호를 입력하세요." required maxlength="4" minlength='4'>
-                                                                            <p id='warning_message'>보안비밀번호가 일치하지 않습니다.</p>
+                                                                            <p id='warning_message'><img src="img/icon_ex.png" alt="warning_icon" class="warning_icon">보안비밀번호가 일치하지 않습니다.</p>
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
@@ -992,7 +992,7 @@
                                                                             <input type="button" value="인증번호요청" id="request_count" class="request_number request_number2">
                                                                             <input type="submit" value="인증번호확인" id="confirm_count" class="cofirm_number">
                                                                             <span id="count_down" class="count_down">03:00</span>
-                                                                            <p id='warning_message'>인증번호가 일치하지 않습니다.</p>
+                                                                            <p id='warning_message'><img src="img/icon_ex.png" alt="warning_icon" class="warning_icon">인증번호가 일치하지 않습니다.</p>
                                                                         </td>
                                                                     </tr>
                                                                 </tbody>
@@ -1026,7 +1026,7 @@
                                                         </div>
 
                                                         <span id="money_malpungsun2">
-                                                          개인정보 수집 및 이용 동의해주세요.
+                                                          출금신청 주의사항에 동의해주세요.
                                                         </span>
 
                                                     </div><!-- before_send_money_wrap End-->
@@ -1160,7 +1160,7 @@
                                                                                  <th>보안 비밀번호</th>
                                                                                  <td>
                                                                                      <input type="password" class='user_security' name="" value="" placeholder="보안 비밀번호를 입력하세요." required maxlength="4" minlength='4'>
-                                                                                     <p id='warning_message'>보안비밀번호가 일치하지 않습니다.</p>
+                                                                                     <p id='warning_message'><img src="img/icon_ex.png" alt="warning_icon" class="warning_icon">보안비밀번호가 일치하지 않습니다.</p>
                                                                                  </td>
                                                                              </tr>
                                                                              <tr>
@@ -1201,7 +1201,7 @@
                                                                  </div>
 
                                                                  <span id="money_malpungsun3">
-                                                                   개인정보 수집 및 이용 동의해주세요.
+                                                                   출금신청 주의사항에 동의해주세요.
                                                                  </span>
 
                                                              </div><!-- before_send_money_wrap End-->

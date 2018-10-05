@@ -829,7 +829,6 @@ div.before_send_money_wrap > p{
 }
 .mycoin_tbody_deco td.apply_date_td{
     font-size: 13px;
-    font-weight: 600;
     padding-left: 16px;
 }
 .mycoin_tbody_deco td p.bl{
@@ -1210,4 +1209,8 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
 }
 #mywallet_havecoin .mywallet_havecoin_thead{
     width:100%;
+}
+.warning_icon{
+  vertical-align: -3px;
+  margin-right:2px;
 }
