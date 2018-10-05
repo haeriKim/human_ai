@@ -359,3 +359,14 @@
 .coin_withdrawal_box .plus_more_btn_02:hover .more_coin_address_02{
     visibility: visible;
 }
+#popupbox .wrong_info{
+  color:red;
+  font-size:13px;
+  text-align:left;
+  margin-left:5px;
+  margin-bottom: 20px;
+}
+#popupbox .warning_icon{
+  margin-right:2px;
+  vertical-align: -3px;
+}

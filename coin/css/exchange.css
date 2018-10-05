@@ -258,6 +258,7 @@
   float:right;
   display:inline-block;
   padding:10px 0;
+  text-decoration:underline;
 }
 #detail_all span a:hover {
   color:#c95b74;

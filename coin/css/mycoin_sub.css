@@ -215,7 +215,6 @@ table .mycoin_tbody_deco>tr>td>img{
 }
 .conclu_table thead th select {
   height: 30px;
-    border-radius: 5px;
     border: 1px solid #1b2f4a;
     color: #1b2f4a;
     font-weight: 600;
@@ -804,7 +803,6 @@ table .mycoin_thead_deco tr{
 }
 .mycoin_thead_deco th select {
   height: 30px;
-  border-radius: 5px;
   text-indent: 1px;
   border: 1px solid #1b2f4a;
   color: #1b2f4a;
