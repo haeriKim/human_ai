@@ -750,7 +750,7 @@ div.before_send_money_wrap > p{
   font-size:15px;
   font-weight: bold;
   position: absolute;
-  bottom:0;
+  bottom:10px;
   left:0;
   width: 300px;
   text-align: center;
@@ -775,7 +775,7 @@ div.before_send_money_wrap > p{
   font-size:15px;
   font-weight: bold;
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   left:0;
   width: 300px;
   text-align: center;
@@ -800,7 +800,7 @@ div.before_send_money_wrap > p{
   font-size:15px;
   font-weight: bold;
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   left:0;
   width: 300px;
   text-align: center;

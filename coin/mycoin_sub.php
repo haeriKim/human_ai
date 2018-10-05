@@ -896,7 +896,7 @@
 
                                                             <input type="checkbox" id='number_06' class="allAgree_01">
                                                             <label for='number_06' class='all_agree_01'>위의 입금시 주의사항에 모두 동의합니다.</label>
-                                                            <p id="malpungsun">입금시 주의사항에 모두 동의해주셔야 입금신청이 진행됩니다.</p>
+
                                                         </div>
 
                                                         <div class="cancel_or_apply">
@@ -905,9 +905,9 @@
                                                             <input type="submit" name="submit" value="입금신청" class='agree_btn if_you_all_agree'/>
                                                         </div>
 
-                                                        <p id="money_malpungsun">
+                                                        <span id="money_malpungsun">
                                                           개인정보 수집 및 이용 동의해주세요.
-                                                        </p>
+                                                        </span>
 
                                                     </div><!-- before_send_money_wrap End-->
                                                 </form>
@@ -1025,9 +1025,9 @@
                                                             <input type="submit" name="submit" value="출금신청" class='agree_btn if_you_all_agree'/>
                                                         </div>
 
-                                                        <p id="money_malpungsun2">
+                                                        <span id="money_malpungsun2">
                                                           개인정보 수집 및 이용 동의해주세요.
-                                                        </p>
+                                                        </span>
 
                                                     </div><!-- before_send_money_wrap End-->
                                                 </form>
@@ -1200,9 +1200,9 @@
                                                                      <input type="submit" name="submit" value="출금신청" class='agree_btn if_you_all_agree'/>
                                                                  </div>
 
-                                                                 <p id="money_malpungsun3">
+                                                                 <span id="money_malpungsun3">
                                                                    개인정보 수집 및 이용 동의해주세요.
-                                                                 </p>
+                                                                 </span>
 
                                                              </div><!-- before_send_money_wrap End-->
                                                          </form>
