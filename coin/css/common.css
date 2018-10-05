@@ -344,7 +344,7 @@ div.cancel_or_apply .agree_btn {
   box-sizing: border-box;
   border: 1px solid #1b2f4a;
   background-color: #1b2f4a;
-  cursor: pointer;
+  /*cursor: pointer;*/
 }
 div.cancel_or_apply .agree_btn:hover{
   background-color: rgba(27,47,74,.9);

@@ -776,6 +776,30 @@
                                                 </li>
                                               </ul>
                                             </div><!--tab3_header End-->
+
+                                            <!-- input_KRW_hidden -->
+                                            <div id='input_KRW_hidden'>
+                                                <p class='recharge_coin'>원화(KRW) 입금</p>
+                                                <div class="my_coin_state">
+                                                    <ul>
+                                                        <li class='my_coin_li_01'>
+                                                            <p class='my_coin_state_title'>보유금액</p>
+                                                            <p class='up_down_data my_coin_state_amount'>0<span>KRW</span></p>
+                                                        </li>
+                                                        <li>
+                                                            <p class='my_coin_state_title'>출금가능</p>
+                                                            <p class='up_down_data my_coin_state_amount'>0<span>KRW</span></p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+
+                                                <p class="input_KRW_hidden_text">입금을 하시려면 입출금 계좌 등록 및 OTP 인증이 필요 합니다.</p>
+
+                                                <div class="cancel_or_apply">
+                                                  <input type="button" name="" value="인증하기" class='agree_btn if_you_all_agree'/>
+                                                </div>
+
+                                            </div><!-- input_KRW_hidden End-->
                                             <!-- input_KRW -->
                                             <div id='input_KRW' class='KRW_conclu_table input_KRW'>
                                                 <p class='recharge_coin'>원화(KRW) 입금</p>
@@ -796,7 +820,7 @@
                                                     <div class="account_table_wrap">
                                                         <!-- send_account -->
                                                         <div class="send_account">
-                                                            <p>입금할 은행 계좌정보</p>
+                                                            <p>입금할 계좌정보</p>
                                                             <table class='left_thick_table'>
                                                                 <tbody>
                                                                     <tr>
@@ -816,7 +840,7 @@
                                                         </div><!-- send_account End-->
                                                         <!-- your_account -->
                                                         <div class="your_account">
-                                                            <p>등록한 은행 계좌정보</p>
+                                                            <p>등록한 계좌정보</p>
                                                             <table class='left_thick_table'>
                                                                 <tbody>
                                                                     <tr>
@@ -877,9 +901,14 @@
 
                                                         <div class="cancel_or_apply">
                                                             <input type="reset" name="reset" value="취소" class='cancel_btn'/>
-                                                            <span class='agree_btn if_you_not_all_agree'>입금신청</span>
+                                                            <span class='agree_btn if_you_not_all_agree gray_bt'>입금신청</span>
                                                             <input type="submit" name="submit" value="입금신청" class='agree_btn if_you_all_agree'/>
                                                         </div>
+
+                                                        <p id="money_malpungsun">
+                                                          개인정보 수집 및 이용 동의해주세요.
+                                                        </p>
+
                                                     </div><!-- before_send_money_wrap End-->
                                                 </form>
                                             </div><!-- input_KRW End-->
@@ -992,9 +1021,13 @@
 
                                                         <div class="cancel_or_apply">
                                                             <input type="reset" name="reset" value="취소" class='cancel_btn'/>
-                                                            <span class='agree_btn if_you_not_all_agree'>출금신청</span>
+                                                            <span class='agree_btn if_you_not_all_agree gray_bt2'>출금신청</span>
                                                             <input type="submit" name="submit" value="출금신청" class='agree_btn if_you_all_agree'/>
                                                         </div>
+
+                                                        <p id="money_malpungsun2">
+                                                          개인정보 수집 및 이용 동의해주세요.
+                                                        </p>
 
                                                     </div><!-- before_send_money_wrap End-->
                                                 </form>
@@ -1163,9 +1196,13 @@
 
                                                                  <div class="cancel_or_apply">
                                                                      <input type="reset" name="reset" value="취소" class='cancel_btn'/>
-                                                                     <span class='agree_btn if_you_not_all_agree'>출금신청</span>
+                                                                     <span class='agree_btn if_you_not_all_agree gray_bt3'>출금신청</span>
                                                                      <input type="submit" name="submit" value="출금신청" class='agree_btn if_you_all_agree'/>
                                                                  </div>
+
+                                                                 <p id="money_malpungsun3">
+                                                                   개인정보 수집 및 이용 동의해주세요.
+                                                                 </p>
 
                                                              </div><!-- before_send_money_wrap End-->
                                                          </form>

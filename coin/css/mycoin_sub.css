@@ -258,6 +258,20 @@ table .mycoin_tbody_deco>tr>td>img{
     padding: 30px;
 }
 /*원화입금*/
+
+#input_KRW_hidden{
+  display:none;
+}
+#input_KRW_hidden .input_KRW_hidden_text{
+  font-size:15px;
+  font-weight:600;
+  text-align:center;
+  padding:70px 0;
+}
+#input_KRW_hidden .cancel_or_apply{
+  text-align:center;
+  margin-bottom:120px;
+}
 #input_KRW div.account_table_wrap{
     overflow: hidden;
 }
@@ -386,6 +400,11 @@ div.before_send_money_wrap > p{
     font-size: 13px;
     color: #666;
     font-weight: 600;
+}
+.checkbox_list{
+  overflow-y:scroll;
+  height:120px;
+  margin-bottom:30px;
 }
 #input_KRW div.checkbox_list .all_agree_01,
 #output_KRW div.checkbox_list .all_agree_02,
@@ -597,7 +616,6 @@ div.before_send_money_wrap > p{
 
 /*비트코인출금*/
 #output_bitcoin{
-    width: 800px;
 }
 #output_bitcoin div.account_table_wrap{
     overflow: hidden;
@@ -716,6 +734,90 @@ div.before_send_money_wrap > p{
   border: 1px solid #1b2f4a;
   background-color: #1b2f4a;
   cursor: pointer;
+}
+.before_send_money_01{
+  position:relative;
+}
+.before_send_money_02{
+  position:relative;
+}
+.before_send_money_03{
+  position:relative;
+}
+#money_malpungsun{
+  color:#fff;
+  background-color:#eaaf69;
+  font-size:15px;
+  font-weight: bold;
+  position: absolute;
+  bottom:0;
+  left:0;
+  width: 300px;
+  text-align: center;
+  padding:10px 0;
+  line-height: 1.5;
+  border-radius: 5px;
+  display:none;
+}
+#money_malpungsun::after{
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 10%;
+  margin-left: -5px;
+  border-width: 7px;
+  border-style: solid;
+  border-color:  transparent transparent #eaaf69 transparent;
+}
+#money_malpungsun2{
+  color:#fff;
+  background-color:#eaaf69;
+  font-size:15px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  left:0;
+  width: 300px;
+  text-align: center;
+  padding:10px 0;
+  line-height: 1.5;
+  border-radius: 5px;
+  display:none;
+}
+#money_malpungsun2::after{
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 10%;
+  margin-left: -5px;
+  border-width: 7px;
+  border-style: solid;
+  border-color:  transparent transparent #eaaf69 transparent;
+}
+#money_malpungsun3{
+  color:#fff;
+  background-color:#eaaf69;
+  font-size:15px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  left:0;
+  width: 300px;
+  text-align: center;
+  padding:10px 0;
+  line-height: 1.5;
+  border-radius: 5px;
+  display:none;
+}
+#money_malpungsun3::after{
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 10%;
+  margin-left: -5px;
+  border-width: 7px;
+  border-style: solid;
+  border-color:  transparent transparent #eaaf69 transparent;
 }
 
 /*입출금내역*/

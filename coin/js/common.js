@@ -454,6 +454,22 @@ $(document).ready(function(){
       $("#account_malpungsun").hide();
   });
 });
+//자산관리 - 체크박스 동의 말풍선 (원화 입출금, 비트코인 출금)
+$(document).ready(function(){
+  $(".gray_bt").click(function(){
+    $("#money_malpungsun").show();
+  });
+});
+$(document).ready(function(){
+  $(".gray_bt2").click(function(){
+    $("#money_malpungsun2").show();
+  });
+});
+$(document).ready(function(){
+  $(".gray_bt3").click(function(){
+    $("#money_malpungsun3").show();
+  });
+});
 
 //인증센터-계좌등록
 $(document).ready(function(){
