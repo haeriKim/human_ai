@@ -826,7 +826,7 @@
     color: #002dae;
 }
 #buy_sell_tab .buy_big_btn{
-    padding: 10px 125px;
+    padding: 11px 125px;
     background: #ff2323;
     border-radius: 5px;
     border:none;
@@ -840,7 +840,7 @@
   background-color: rgba(255,35,35,.9);
 }
 #buy_sell_tab .sell_big_btn{
-    padding: 10px 125px;
+    padding: 11px 125px;
     background: #002dae;
     border-radius: 5px;
     border:none;
