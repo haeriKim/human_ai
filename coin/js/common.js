@@ -823,3 +823,17 @@ $(document).ready(function(){
   });
 
 });
+
+$(function () {
+
+    $(".use_area_text").hide();
+    $(".use_area_text:first").show();
+
+    $("ul.cops li").click(function () {
+        $("ul.cops li").removeClass("use_active");
+        $(this).addClass("use_active");
+        $(".use_area_text").hide()
+        var activeTab = $(this).attr("rel");
+        $("#" + activeTab).show()
+    });
+});
