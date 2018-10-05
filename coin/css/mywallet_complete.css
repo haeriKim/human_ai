@@ -13,7 +13,8 @@
     font-size: 18px;
     font-weight: 600;
     color: #1b2f4a;
-    margin-bottom: 11px;
+    margin-top:10px;
+    margin-bottom:10px;
     text-align: center;
 }
 .mywallet_complete div.account_table_wrap{
@@ -85,4 +86,7 @@
 /* 코인 출금 */
 .coin_complete div.account_table_wrap{
     width: 70%;
+}
+.complete_text{
+  text-align:center;
 }

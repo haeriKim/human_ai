@@ -40,7 +40,10 @@
                       <!-- input_KRW_complete -->
                       <div id='input_KRW_complete' class='mywallet_complete KRW_complete'>
                         <h3>원화(KRW) 입급</h3>
-                          <p class='complete_paragraph'>입금신청이 완료되었습니다.</p>
+                          <div class="complete_text">
+                            <img src="img/fixing.png" alt="공사중아이콘" class="fixing_icon">
+                            <p class='complete_paragraph'>입금신청이 완료되었습니다.</p>
+                          </div>
 
                           <form class="" action="#" method="post">
                               <!-- account_table_wrap -->

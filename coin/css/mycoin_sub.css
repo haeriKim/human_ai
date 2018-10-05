@@ -954,8 +954,11 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
 
 /*입출금 페이지 준비가 안됐을 시에*/
 #output_bitcoin .out_put_you_cannot{
-    text-align: center;
     display:none;
+    text-align: center;
+}
+#output_bitcoin .out_put_you_cannot img{
+  padding-top:50px;
 }
 #output_bitcoin .out_put_you_cannot p{
     font-size: 18px;
@@ -966,11 +969,12 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
 #output_bitcoin .out_put_you_cannot p.we_are_ready{
     color: #1b2f4a;
     font-weight: 600;
-    margin: 50px 0 40px 0;
+    /*margin: 50px 0 40px 0;*/
     font-size: 35px;
-    padding-bottom: 10px;
-    display: inline-block;
-    border-bottom: 5px solid #1b2f4a;
+    padding-top:10px;
+    /*padding-bottom: 10px;*/
+    /*display: inline-block;*/
+    /*border-bottom: 5px solid #1b2f4a;*/
 }
 
 /*인증팝업창*/

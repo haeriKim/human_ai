@@ -1209,6 +1209,7 @@
                                                      </div><!-- out_put_you_can End-->
                                                       <!-- out_put_you_cannot -->
                                                      <div class="out_put_you_cannot">
+                                                        <img src="img/fixing2.png" alt="공사중아이콘">
                                                         <p class='we_are_ready'>준비중입니다</p>
                                                         <p>불편을 드려 죄송합니다.<br/>빠른 시일내에 준비하도록 하겠습니다.</p>
                                                      </div><!-- out_put_you_cannot End-->
