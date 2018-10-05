@@ -62,13 +62,13 @@
                                 </tr>
                               </thead>
                               <tbody>
-                                <tr>
+                                <tr class='certification_method'>
                                     <th colspan="3">인증방법</th>
-                                    <td>이메일 인증</td>
+                                    <td>이메일인증</td>
                                     <td>보안비밀번호 생성</td>
                                     <td>실명인증</td>
                                     <td>계좌인증</td>
-                                    <td>OTP 인증</td>
+                                    <td>OTP인증</td>
                                 </tr>
                                 <tr>
                                     <th rowspan="2">입금한도</th>

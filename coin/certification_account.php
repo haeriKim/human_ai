@@ -164,8 +164,8 @@
 
                                 <input type="button" name="취소" value="취소" onclick="location.href='certification.php'" class="bank_cancel">
 
-                                <span class="account_complete">등록완료</span>
-                                <input type="submit" name="등록완료" value="등록완료" class="chk_ok" onclick="location.href='certification_account_success.php'"/>
+                                <span class="account_complete">등록</span>
+                                <input type="submit" name="등록" value="등록" class="chk_ok" onclick="location.href='certification_account_success.php'"/>
 
                             </div>
                             </form>

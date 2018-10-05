@@ -40,7 +40,7 @@
                   <div class="box common_table_content">
                       <h3 class='title'>수수료 안내</h3>
                       <div class="mypage_content">
-                          <h4>거래수수료</h4>
+                          <h4>거래 수수료</h4>
                           <table class='common_table deal_fee'>
                               <colgroup>
                                   <col style="width:50%;">
@@ -74,13 +74,13 @@
                                   <th rowspan="2">자산</th>
                                   <th rowspan="2">입금 수수료</th>
                                   <th colspan="2">소액 입금</th>
-                                  <th colspan="2">출금 수수료</th>
+                                  <th colspan="2" class='border_none'>출금 수수료</th>
                                 </tr>
                                 <tr>
                                     <th>소액 내부 입금</th>
                                     <th>소액 외부 입금</th>
                                     <th>내부 출금</th>
-                                    <th>외부 출금</th>
+                                    <th class='border_none'>외부 출금</th>
                                 </tr>
                               </thead>
                               <tbody>

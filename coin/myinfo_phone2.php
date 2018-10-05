@@ -46,7 +46,7 @@
                           <dl class="nav_dropdown info_dd">
                               <dt><a href="myinfo_login_password.php" title="로그인 비밀번호 변경">로그인 비밀번호 변경</a></dt>
                               <dt><a href="myinfo_security_password.php" title="보안비밀번호 변경">보안비밀번호 변경</a></dt>
-                              <dt class="active"><a href="#" title="휴대폰번호 변경">휴대폰번호 변경</a></dt>
+                              <dt class="active"><a href="#" title="휴대폰번호 변경">휴대폰 번호 변경</a></dt>
                               <dt><a href="myinfo_account.php" title="계좌 변경">계좌 변경</a></dt>
                               <dt><a href="myinfo_OTP.php" title="새 지갑발급">OTP 변경</a></dt>
                           </dl>
@@ -66,7 +66,7 @@
                     <h3 class="title">회원정보관리</h3>
                     <div class="myinfo_main_box cer_center mypage_content">
                       <div class="cer_center">
-                      <h4>휴대폰번호 변경</h4>
+                      <h4>휴대폰 번호 재인증</h4>
                         <div class="myinfo_small_info_box">
                           <div class="myinfo_box1">
                             <strong class="user_name">가*다</strong>
@@ -77,21 +77,22 @@
                               <li>
                                 <p class="myinfo_title">휴대폰</p>
                                 <p class="myinfo_detail user_phone">
-                                  <span>010</span>-<span>1***</span>-<span>***0</span>
+                                  <!-- <span>010</span>-<span>1***</span>-<span>***0</span> -->
+                                  <span>-</span>
                                 </p>
                               </li>
                             </ul>
                             <ul class="list_2">
                               <li>
                                   <p class="myinfo_title">등급</p>
-                                  <p class="myinfo_detail">Level&nbsp;<span class='user_level'>3</span></p>
+                                  <p class="myinfo_detail">Level&nbsp;<span class='user_level'>2</span></p>
                               </li>
                             </ul>
                           </div>
                         </div>
 
                         <!-- myinfo_small_info_box -->
-                        <div class="myinfo_sub_box ">
+                        <div class="myinfo_sub_box">
                           <form class="" action="#" method="post">
                             <div class="myinfo_table_wrap myinfo_table_wrap2">
                               <!-- send_login_password -->
@@ -100,8 +101,8 @@
                                 <table class='left_thick_table'>
                                   <tbody>
 
-                                      <th>새로운 휴대폰번호</th>
-                                      <td><input type="password" class='user_pass' name="password" value="" placeholder="새로운 휴대폰번호를 입력해주세요" required maxlength="12" minlength="12" /></td>
+                                      <th>새로운 휴대폰 번호</th>
+                                      <td><input type="tel" class='user_pass' name="password" value="" placeholder="새로운 휴대폰 번호를 입력하세요." required maxlength="12" minlength="12" /></td>
                                     </tr>
 
                                     <tr>
@@ -111,22 +112,28 @@
                                         <input type="button" value="인증번호요청" id="request_count" class="request_number">
                                         <input type="submit" value="인증번호확인" id="confirm_count" class="cofirm_number">
                                         <span id="count_down" class="count_down">03:00</span>
-                                        <p id='warning_message'>인증번호가 일치하지 않습니다.</p>
+                                        <p id='warning_message'>
+                                            <img src="img/icon_ex.png" alt="warning_icon" class="warning_icon">
+                                            인증번호가 일치하지 않습니다.
+                                        </p>
 
                                       </td>
                                     </tr>
                                     <tr>
-                                      <th>보안 비밀번호</th>
+                                      <th>보안비밀번호</th>
                                       <td>
-                                        <input type="password" class='user_security' name="security" value="" placeholder="보안 비밀번호 4자리 입력해주세요." maxlength="4" minlength='4' required/>
-                                        <p id='warning_message'>보안비밀번호가 일치하지 않습니다.</p>
+                                        <input type="password" class='user_security' name="security" value="" placeholder="보안비밀번호를 입력하세요." maxlength="4" minlength='4' required/>
+                                        <p id='warning_message'>
+                                            <img src="img/icon_ex.png" alt="warning_icon" class="warning_icon">
+                                            보안비밀번호가 일치하지 않습니다.
+                                        </p>
                                       </td>
                                     </tr>
                                   </tbody>
                                 </table>
                                 <div class="cancel_or_apply">
-                                  <input type="button" name="" value="취소" onclick="location.href='myinfo_phone.php'"class="cancel_btn">
-                                  <input type="submit" name="" value="변경" onclick="location.href='myinfo_phone_success.php'" class="agree_btn">
+                                  <input type="reset" name="reset" value="취소" onclick="location.href='myinfo_phone.php'"class="cancel_btn">
+                                  <input type="submit" name="submit" value="변경" onclick="location.href='myinfo_phone_success.php'" class="agree_btn">
                                 </div>
 
                                 </form>

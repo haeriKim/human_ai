@@ -104,7 +104,7 @@
 
                         <div class="cancel_or_apply">
                           <input type="button" name="" value="취소" onclick="location.href='myinfo.php'" class="cancel_btn">
-                          <input type="button" name="" value="변경안내 보기" class="agree_btn">
+                          <input type="button" name="" value="변경안내 보기" class="agree_btn" onclick="location.href='guide_account.php'">
                         </div>
 
 

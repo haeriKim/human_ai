@@ -66,7 +66,7 @@
                   <div class="box alarm_area">
                     <h3 class="title">알림</h3>
                         <div class="alarm_inner mypage_content">
-                          <h4 class="title2">알림설정</h4>
+                          <h4 class="title2">알림 설정</h4>
 
                             <div class="alarm_setting">
                               <p class="title">회원님의 활동 내역을 알려드립니다.</p>

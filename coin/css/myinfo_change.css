@@ -16,9 +16,7 @@ padding: 7px 60px 0px 10px
 .myinfo_small_info_box .myinfo_box1 strong{
     font-size:22px;
     color: #1b2f4a;
-
 }
-
 /*흰상자부분*/
 .myinfo_small_info_box .myinfo_box2{
     overflow: hidden;
@@ -53,6 +51,25 @@ padding: 7px 60px 0px 10px
     font-weight: 600;
     padding-right: 3px;
 }
+/* 레벨3일때 */
+.list_2 .lv_4,
+.list_2 .lv_5{
+    display: none;
+}
+.request_btn{
+    cursor: pointer;
+}
+/* 레벨4일때 */
+/* .list_2 .lv_3,
+.list_2 .lv_5{
+    display: none;
+} */
+
+/* 레벨5일때 */
+/* .list_2 .lv_3,
+.list_2 .lv_4{
+    display: none;
+} */
 
 /*table*/
 .myinfo_sub_box table{
@@ -85,19 +102,22 @@ margin-left: 10px;
     cursor: pointer;
 }
 .myinfo_sub_box table.left_thick_table tbody input[type='password'],
-.myinfo_sub_box table.left_thick_table tbody input[type='text'] {
+.myinfo_sub_box table.left_thick_table tbody input[type='text'],
+.myinfo_sub_box table.left_thick_table tbody input[type='tel'] {
     border: none;
     border-bottom: 1px solid #1b2f4a;
     width: 330px;
     padding-bottom: 4px;
-    font-size: 15px;}
-
+    font-size: 15px;
+}
 .myinfo_sub_box table.left_thick_table tbody input::placeholder{
         color:#a1a1a1;
         font-size:14px;
-    }
-
-
+}
+.warning_icon{
+    vertical-align: -3px;
+    margin-right: 2px;
+}
 table td div.question_smallbox{
   display: inline-block;
   position:relative;
@@ -177,10 +197,18 @@ table .password_question_detail:before {
   color:#c95b74;
 }
 .myinfo_main_box .cer_center .cancel_or_apply{
-  text-align:center;
-  margin-bottom:50px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: -26px;
 }
-
+.send_login_password .forget_security_number a{
+    font-size: 14px;
+    color: #999;
+    text-decoration: underline;
+}
+.send_login_password .forget_security_number a:hover{
+    color: #c95b74;
+}
 .myinfo_main_box .myinfo_table_wrap2{
   margin-top:20px;
   margin-bottom:80px;
@@ -195,7 +223,8 @@ table .password_question_detail:before {
   margin-top:4.5px;
   color:red;
 }
-.cer_center .cancel_or_apply .agree_btn{
+.cer_center .cancel_or_apply .agree_btn,
+.phone2_ok{
     cursor: pointer;
 }
 

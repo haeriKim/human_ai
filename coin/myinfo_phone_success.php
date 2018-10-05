@@ -47,7 +47,7 @@
                           <dl class="nav_dropdown info_dd">
                               <dt><a href="myinfo_login_password.php" title="로그인 비밀번호 변경">로그인 비밀번호 변경</a></dt>
                               <dt><a href="myinfo_security_password.php" title="보안비밀번호 변경">보안비밀번호 변경</a></dt>
-                              <dt class="active"><a href="#" title="휴대폰번호 변경">휴대폰번호 변경</a></dt>
+                              <dt class="active"><a href="#" title="휴대폰번호 변경">휴대폰 번호 변경</a></dt>
                               <dt><a href="myinfo_account.php" title="계좌 변경">계좌 변경</a></dt>
                               <dt><a href="myinfo_OTP.php" title="새 지갑발급">OTP 변경</a></dt>
                           </dl>
@@ -67,7 +67,7 @@
                     <h3 class="title">회원정보관리</h3>
                     <div class="myinfo_main_box cer_center mypage_content">
                       <div class="cer_center">
-                      <h4>휴대폰번호 변경</h4>
+                      <h4>휴대폰 번호 재인증</h4>
                         <div class="myinfo_small_info_box">
                           <div class="myinfo_box1">
                             <strong class="user_name">가*다</strong>
@@ -78,7 +78,7 @@
                               <li>
                                 <p class="myinfo_title">휴대폰</p>
                                 <p class="myinfo_detail user_phone">
-                                  <span>010</span>-<span>1***</span>-<span>***0</span>
+                                  <span>010</span>-<span>2***</span>-<span>***1</span>
                                 </p>
                               </li>
                             </ul>
@@ -94,11 +94,12 @@
                         <div class="myinfo_text_box">
                           <h3>휴대폰 번호 재인증 완료</h3>
                           <br/>
-                          <p>회원님의 현재 보안등급은 <strong class="complete_level">Level <b class="user_level">3</b></strong>입니다.</p>
+                          <p>계좌인증 및 OTP인증을 하셔야 거래 및 입출금을 할 수 있습니다.</p>
                         </div>
 
                         <div class="cancel_or_apply">
-                          <input type="button" name="" value="확인" onclick="location.href='myinfo.php'" class="agree_btn">
+                          <input type="button" name="" value="확인" onclick="location.href='myinfo.php'" class="cancel_btn">
+                          <input type="button" name="" value="인증하기" onclick="location.href='certification_account.php'" class="agree_btn">
                         </div>
 
 

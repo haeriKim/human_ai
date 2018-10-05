@@ -88,6 +88,7 @@
   background-color: rgba(27,47,74,.9);
 }
 .cer_center .center_bottom .cText_right li span.c_complete {
+  cursor: default;
   background-color: #666;
 }
 .cer_center .center_bottom .cText_right li span.disable {

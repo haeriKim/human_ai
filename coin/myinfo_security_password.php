@@ -101,18 +101,19 @@
                                 <table class='left_thick_table'>
                                   <tbody>
 
-                                      <th>현재 로그인 비밀번호</th>
-                                      <td><input type="password" class='user_pass' name="password" value="" placeholder="현재 로그인 비밀번호를 입력하세요." required maxlength="12" minlength="12" />
+                                      <th>현재 보안비밀번호</th>
+                                      <td><input type="password" class='user_pass' name="password" value="" placeholder="현재 보안비밀번호를 입력하세요." required maxlength="4" minlength="4" />
                                           <p id='warning_message'>비밀번호가 일치하지 않습니다.</p>
                                       </td>
                                     </tr>
 
                                     <tr>
-                                      <th>새로운 보안 비밀번호</th>
+                                      <th>새로운 보안비밀번호</th>
                                       <td>
-                                        <input type="password" name="" value="" placeholder="새로운 보안 비밀번호를 입력하세요." required maxlength="4" minlength="4" />
+                                        <input type="password" name="" value="" placeholder="새로운 보안비밀번호를 입력하세요." required maxlength="4" minlength="4" />
                                         <div class="question_smallbox"><img src="img/question.png">
                                           <div class="password_question_detail2">
+                                                안전한 비밀번호 작성법<br/>
                                                 -숫자로 이루어진 4자리 보안 비밀번호를 입력해주세요.<br/>
                                                 -해킹사고 방지를 위해 보안비밀번호를 자주 변경해주세요.<br/>
                                                 -4자리의 중복 및 연속 숫자, 휴대폰 번호, 이메일 주소의 숫자,<br/>
@@ -123,9 +124,9 @@
                                       </td>
                                     </tr>
                                     <tr>
-                                      <th>새로운 보안 비밀번호 확인</th>
+                                      <th>새로운 보안비밀번호 확인</th>
                                       <td>
-                                        <input type="password" class='user_security' name="security" value="" placeholder="새로운 보안 비밀번호를 입력하세요." maxlength="4" minlength='4' required/>
+                                        <input type="password" class='user_security' name="security" value="" placeholder="새로운 보안비밀번호를 다시 입력하세요." maxlength="4" minlength='4' required/>
                                         <p id='warning_message'>비밀번호가 일치하지 않습니다.</p>
                                       </td>
                                     </tr>
@@ -135,8 +136,10 @@
                                   <input type="button" name="" value="취소" onclick="location.href='myinfo.php'"class="cancel_btn">
                                   <input type="submit" name="" value="변경" onclick="location.href='myinfo_security_password_success.php'" class="agree_btn">
                                 </div>
-
                                 </form>
+                                <p class='forget_security_number'>
+                                    <a href="#">현재 보안비밀번호가 기억나지 않으신다면?</a>
+                                </p>
                               </div><!-- send_login_password End-->
 
                             </div><!-- myinfo_table_wrap End-->
