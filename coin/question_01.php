@@ -84,14 +84,14 @@
                           <tr>
                             <th>제목</th>
                               <td>
-                                <input type="text" class="question_title">
+                                <input type="text" placeholder="제목을 입력하세요." class="question_title">
                               </td>
                           </tr>
 
                           <tr>
                             <th>내용</th>
                               <td>
-                                <textarea name="" class="question_story"></textarea>
+                                <textarea name="" placeholder="문의 내용을 입력해 주세요." class="question_story"></textarea>
                               </td>
                           </tr>
                         </table>
