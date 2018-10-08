@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ko" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=" width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script><!--//배너 슬라이더-->
+    <title>CCE</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/sub_menu.css">
+    <link rel="stylesheet" href="css/question.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/fouc.js"></script>
+</head>
+<body>
+    <!-- wrap -->
+    <div id="wrap">
+        <!-- container -->
+        <div id="container">
+
+          <!-- nav_wrap -->
+          <?php include "nav.php";?>
+          <!-- nav_wrap End-->
+
+          <!-- header_wrap -->
+          <?php include "header.php";?>
+          <!-- header_wrap End-->
+
+            <!-- content_wrap -->
+            <div class="content_wrap">
+                <!-- main_content -->
+                <div class="content alarm_wrap con_1250">
+                    <!--content_nav -->
+                    <div class="content_nav">
+                      <h4>고객지원</h4>
+                      <ul>
+                          <li><a href="" title="FAQ">FAQ</a></li>
+                          <li class='on'>
+                            <a href="#" title="1:1 문의" class='more_menu'>1:1 문의</a>
+                            <dl class="nav_dropdown question_dd on">
+                                <dt><a href="question_01.php" title="1:1 문의하기">1:1 문의하기</a></dt>
+                                <dt class="active"><a href="" title="문의내역 확인하기">문의내역 확인하기</a></dt>
+                            </dl>
+                          </li>
+                          <li>
+                            <a href="#" title="인증변경안내" class='more_menu'>인증변경안내</a>
+                            <dl class="nav_dropdown changeA_dd off">
+                                <dt><a href="guide_security.php" title="보안비밀번호 초기화">보안비밀번호 초기화</a></dt>
+                                <dt><a href="guide_account.php" title="계좌 변경">계좌변경</a></dt>
+                                <dt><a href="guide_OTP.php" title="OTP 변경">OTP 변경</a></dt>
+                            </dl>
+                          </li>
+                          <li><a href="fee_table.php" title="수수료 안내">수수료 안내</a></li>
+                      </ul>
+                    </div><!-- content_nav End-->
+
+                  <div class="box question_history_area">
+                    <h3 class="title">1:1 문의</h3>
+                        <div class="question_history_inner mypage_content">
+                          <h4 class="title2">문의내역 확인하기</h4>
+                          <div class="question_history_head">
+                            <select name="알림선택" id="question_select2">
+                              <option value="전체">전체</option>
+                              <option value="제목">제목</option>
+                              <option value="내용">내용</option>
+
+                            </select>
+
+                            <div class="days"><!--days-->
+                              <div>
+                                <input type="date" value="2018-07-29">
+                              </div>
+                              <span>~</span>
+                              <div>
+                                <input type="date" value="2018-08-29">
+                              </div>
+                              <input type="submit" name="search" value="조회" class='search_btn'>
+                            </div><!--days End-->
+                          </div>
+
+
+
+                          <table class="question_list" id="question_list">
+                              <colgroup>
+                                  <col width="10%">
+                                  <col width="60%">
+                                  <col width="20%">
+                                  <col width="10%">
+                              </colgroup>
+                                <thead>
+                                  <tr>
+                                    <th class="alram">번호</th>
+                                    <th class="title">제목</th>
+                                    <th class="date">작성일시</th>
+                                    <th class="answer">답변</th>
+                                  </tr>
+                                </thead>
+
+                                  <tbody>
+                                    <tr>
+                                      <td><span class="number">1</td>
+                                      <td id="left_text">입출금 문의관련에 대해 문의 드립니다.</td>
+                                      <td>2018-10-01</td>
+                                      <td>대기중</td>
+                                    </tr>
+
+                                    <tr>
+                                      <td><span class="number">2</span></td>
+                                      <td id="left_text">더올스에서 이더리움 28,0000BTH를 매수했습니다.</td>
+                                      <td>2018-09-12</td>
+                                      <td>답변완료</td>
+                                    </tr>
+
+                                    <tr>
+                                      <td><span class="number">3</td>
+                                      <td id="left_text">The Alls 이용약관은 어디서 볼 수 있나요?</td>
+                                      <td>2018-09-05</td>
+                                      <td>답변완료</td>
+                                    </tr>
+
+                                    <tr>
+                                      <td><span class="number">4</span></td>
+                                      <td id="left_text">입출금 문의관련에 대해 문의 드립니다.</td>
+                                      <td>2018-09-01</td>
+                                      <td>답변완료</td>
+                                    </tr>
+
+                                    <tr>
+                                      <td><span class="number">5</td>
+                                      <td id="left_text">해킹보안시스템은 어떻게 가동되고 있나요.</td>
+                                      <td>2018-08-27</td>
+                                      <td>답변완료</td>
+                                    </tr>
+
+                                    <tr>
+                                      <td><span class="number_null">&nbsp;</span></td>
+                                      <td id="left_text"></td>
+                                      <td></td>
+                                      <td></td>
+
+                                    </tr>
+
+                                    <tr>
+                                      <td><span class="number_null">&nbsp;</span></td>
+                                      <td id="left_text"></td>
+                                      <td></td>
+                                      <td></td>
+                                    </tr>
+
+                                    <tr>
+                                      <td><span class="number_null">&nbsp;</span></td>
+                                      <td id="left_text"></td>
+                                      <td></td>
+                                      <td></td>
+                                    </tr>
+
+                                    <tr>
+                                      <td><span class="number_null">&nbsp;</span></td>
+                                      <td id="left_text"></td>
+                                      <td></td>
+                                      <td></td>
+                                    </tr>
+
+                                    <tr>
+                                      <td><span class="number_null">&nbsp;</span></td>
+                                      <td id="left_text"></td>
+                                      <td></td>
+                                      <td></td>
+                                    </tr>
+
+                                    <tr>
+                                      <td><span class="number_null">&nbsp;</span></td>
+                                      <td id="left_text"></td>
+                                      <td></td>
+                                      <td></td>
+                                    </tr>
+
+
+                                  </tbody>
+                          </table>
+
+                          <div class="contentBottom">
+                              <div class="paging">
+                                  <a href="#" title="prev"><img src="img/p_first.png"></a>
+                                  <a href="#" title="prev"><img src="img/p_prev.png"></a>
+                                  <a href="#" title="1page" class="selected">1</a>
+                                  <a href="#" title="2page">2</a>
+                                  <a href="#" title="3page">3</a>
+                                  <a href="#" title="4page">4</a>
+                                  <a href="#" title="5page">5</a>
+                                  <a href="#" title="next"><img src="img/p_next.png"></a>
+                                  <a href="#" title="next"><img src="img/p_end.png"></a>
+                              </div>
+                          </div><!-- 페이징 -->
+
+                        </div><!--question_history_inner-->
+                  </div><!--question_history_area End-->
+
+                </div><!-- question_wrap End-->
+            </div><!-- content_wrap End-->
+
+            <!-- footer_wrap -->
+            <?php include "footer.php";?>
+            <!-- footer_wrap End-->
+
+            <!--sub_menu-->
+            <?php include "sub_menu.php";?>
+            <!--sub_menu End-->
+
+        </div><!-- container End -->
+    </div><!-- wrap End -->
+
+</body>
+</html>

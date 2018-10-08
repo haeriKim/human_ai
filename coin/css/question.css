@@ -1,0 +1,97 @@
+/*question_01*/
+
+.question_area .question_table{
+  border:1px solid #f4f5f8;
+  text-align:left;
+  margin-top:50px;
+  width:100%;
+}
+.question_area .question_table th{
+  padding: 15px 20px;
+  border-left: 2px solid #1b2f4a;
+  background-color: #f4f5f8;
+  font-size: 15px;
+  color: #1b2f4a;
+  vertical-align: middle;
+  width:200px;
+}
+.question_area .question_table td{
+  border-bottom:1px solid #f4f5f8;
+}
+.question_area .question_table input{
+  margin-left:20px;
+}
+.question_area .question_table #question_select{
+  width:600px;
+  height:25px;
+  margin:20px;
+  border:1px solid #1b2f4a;
+}
+.question_area .question_table .question_title{
+  width:600px;
+  height:25px;
+  margin:20px;
+  border:1px solid #1b2f4a;
+}
+.question_area .question_table .question_story{
+  width:600px;
+  height:500px;
+  margin:30px 20px;
+  border:1px solid #1b2f4a;
+  overflow-y:auto;
+}
+.question_area .question_inner .send_btn{
+  border-radius: 5px;
+  float:right;
+  padding: 7px 50px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: 1px solid #1b2f4a;
+  background-color: #1b2f4a;
+  cursor: pointer;
+  margin-top:20px;
+  margin-bottom:50px;
+}
+.question_area .question_inner .send_btn:hover{
+  background-color:rgba(27,47,74,.9);
+}
+
+/*question_02*/
+
+.question_history_area .question_history_inner{
+  overflow:hidden;
+}
+.question_history_area .question_history_inner h4{
+  margin-bottom:15px;
+}
+.question_history_area .question_history_inner .question_history_head{
+  overflow:hidden;
+  margin-bottom:10px;
+}
+.question_history_area .question_history_inner .question_history_head #question_select2{
+
+  width: 100px;
+  padding: 5px 10px;
+  margin-top: 5px;
+  border: 1px solid #1b2f4a;
+  color: #1b2f4a;
+}
+.question_history_area .question_history_inner .question_list thead{
+  background:#f4f5f8;
+  color:#1b2f4a;
+}
+.question_history_area .question_history_inner .question_list thead th{
+  padding:10px 0;
+  border-bottom: 2px solid #1b2f4a;
+  font-size:15px;
+}
+.question_history_area .question_history_inner .question_list tbody td{
+  font-size:15px;
+  border-bottom:1px solid #ededed;
+  padding:10px 0;
+}
+.question_history_area .question_history_inner .question_list tbody #left_text{
+  cursor:pointer;
+}
