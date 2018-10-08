@@ -620,7 +620,8 @@ div.cancel_or_apply .if_you_all_agree:hover{
 .alarm_area,
 .myinfo_area,
 .guide_OTP_area,
-.fees_area {
+.fees_area,
+.faq_area {
   float: left;
   width:80%;
 }
@@ -799,6 +800,42 @@ div.cancel_or_apply .if_you_all_agree:hover{
     font-size: 18px;
 }
 
+/* 셀렉트박스&검색영역 */
+#look_method{
+    border: 1px solid #1b2f4a;
+    width: 120px;
+    height: 32px;
+    vertical-align: middle;
+    margin-right: 5px;
+    text-indent: 9px;
+    float: left;
+    color: #1b2f4a;
+}
+.search{
+    text-align: right;
+    position: relative;
+    margin-bottom: 20px;
+}
+.search input {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #1b2f4a;
+    font-size: 12px;
+    text-indent: 10px;
+    margin-right:45px;
+}
+.search a.search_btn{
+    display:block;
+    width:45px;
+    text-align:center;
+    position:absolute;
+    right:0;
+    top:6px;
+    border-bottom:2px solid #1b2f4a;
+}
+
+
 /* firefox */
 /*input 빨간색 보더값 해결*/
 :invalid {
@@ -814,13 +851,3 @@ box-shadow:none;
 }
 
 /* ie */
-/*메인 nav 글씨 치우침*/
-.nav_list li{
-
--ms-border-bottom:1px solid #495a6e;
--ms-text-align:center;
--ms-line-height:4.5em;
--ms-font-size:18px;
--ms-font-weight:600;
--ms-letter-spacing: 0.8px;
-}
