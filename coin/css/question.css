@@ -20,12 +20,15 @@
 }
 .question_area .question_table input{
   margin-left:20px;
+  font-size:14px;
 }
 .question_area .question_table #question_select{
+  font-size:14px;
   width:600px;
   height:25px;
   margin:20px;
   border:1px solid #1b2f4a;
+  box-sizing: border-box;
 }
 .question_area .question_table .question_title{
   width:600px;
@@ -33,6 +36,7 @@
   margin:20px;
   border:1px solid #1b2f4a;
   padding:0 2px;
+  box-sizing: border-box;
 }
 .question_area .question_table .question_story{
   width:600px;
@@ -40,9 +44,26 @@
   margin:30px 20px;
   border:1px solid #1b2f4a;
   overflow-y:auto;
+  box-sizing: border-box;
 }
 .question_area .question_table textarea{
   padding:2px 2px;
+  font-size:14px;
+}
+.question_area .question_table .file_inner form{
+  float:right;
+  margin-right:50px;
+}
+.question_area .question_table .file_inner form input{
+  padding: 2px 10px;
+  margin: 0 2px;
+  background-color: none;
+  color: #1b2f4a;
+  border: 1px solid #1b2f4a;
+  cursor: pointer;
+}
+.question_area .question_table .file_input{
+  width:300px;
 }
 .question_area .question_inner .send_btn{
   border-radius: 5px;
@@ -61,6 +82,7 @@
 .question_area .question_inner .send_btn:hover{
   background-color:rgba(27,47,74,.9);
 }
+
 
 /*question_02*/
 

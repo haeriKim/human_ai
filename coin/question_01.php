@@ -70,8 +70,8 @@
                           <tr>
                             <th>질문유형</th>
                               <td>
-                                <select name="질문유형" id="question_select">
-                                  <option value="질문유형을 선택하세요">질문유형을 선택하세요.</option>
+                                <select name="문의유형" id="question_select">
+                                  <option value="문의유형을 선택하세요" disabled selected="selected">문의유형을 선택하세요.</option>
                                   <option value="계정관련">계정관련</option>
                                   <option value="거래관련">거래관련</option>
                                   <option value="입출금관련">입출금관련</option>
@@ -91,9 +91,23 @@
                           <tr>
                             <th>내용</th>
                               <td>
-                                <textarea name="" placeholder="문의 내용을 입력해 주세요." class="question_story"></textarea>
+                                <textarea name="" placeholder="문의 내용을 입력하세요." class="question_story"></textarea>
                               </td>
                           </tr>
+
+                          <tr>
+                            <th>
+                              <label for="file">첨부파일</label>
+                            </th>
+
+                            <td class="file_inner">
+                              <input type="text" class="file_input">
+                                <form enctype="multipart/form-data">
+                                  <input type="file" accept="image/jpg,image/gif">
+                                </form>
+                            </td>
+                          </tr>
+
                         </table>
 
                         <input type="submit" name="submit" value="보내기" class='send_btn'/>
