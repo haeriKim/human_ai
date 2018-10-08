@@ -37,28 +37,25 @@
                 <div class="content guide_OTP_wrap con_1250">
                   <!--content_nav -->
                   <div class="content_nav">
-                    <h4>마이페이지</h4>
+                    <h4>고객지원</h4>
                     <ul>
-                        <li><a href="myinfo.php" title="회원정보">회원정보</a></li>
+                        <li><a href="" title="FAQ">FAQ</a></li>
                         <li>
-                          <a href="myinfo_login_password.php" title="회원정보관리" class='more_menu'>회원정보관리</a>
-                          <dl class="nav_dropdown info_dd off">
-                              <dt><a href="myinfo_login_password.php" title="로그인 비밀번호 변경" class='active'>로그인 비밀번호 변경</a></dt>
-                              <dt><a href="myinfo_security_password.php" title="보안비밀번호 변경">보안비밀번호 변경</a></dt>
-                              <dt><a href="myinfo_phone.php" title="휴대폰번호 변경">휴대폰번호 변경</a></dt>
-                              <dt><a href="myinfo_account.php" title="계좌 변경">계좌 변경</a></dt>
-                              <dt><a href="myinfo_OTP.php" title="OTP 변경">OTP 변경</a></dt>
+                          <a href="#" title="1:1 문의" class='more_menu'>1:1 문의</a>
+                          <dl class="nav_dropdown question_dd off">
+                              <dt><a href="" title="1:1 문의하" class='active'>1:1 문의하기</a></dt>
+                              <dt><a href="" title="문의내역 확인하기">문의내역 확인하기</a></dt>
                           </dl>
                         </li>
-                        <li><a href="certification.php" title="인증센터">인증센터</a></li>
-                        <li class='active'><a href="#" title="접속이력확인">접속이력확인</a></li>
-                        <li>
-                          <a href="#" title="알림" class='more_menu'>알림</a>
-                          <dl class="nav_dropdown alarm_dd off">
-                              <dt><a href="alarm.php" title="알림 상세">알림 상세</a></dt>
-                              <dt><a href="alarm_setting.php" title="알림 설정">알림 설정</a></dt>
+                        <li class='on'>
+                          <a href="#" title="인증변경안내" class='more_menu'>인증변경안내</a>
+                          <dl class="nav_dropdown changeA_dd on">
+                              <dt><a href="guide_security.php" title="보안비밀번호 초기화">보안비밀번호 초기화</a></dt>
+                              <dt class='active'><a href="guide_account.php" title="계좌 변경">계좌변경</a></dt>
+                              <dt><a href="guide_OTP.php" title="OTP 변경">OTP 변경</a></dt>
                           </dl>
                         </li>
+                        <li><a href="fee_table.php" title="수수료 안내">수수료 안내</a></li>
                     </ul>
                   </div><!-- content_nav End-->
                   <!-- guide_OTP_area -->

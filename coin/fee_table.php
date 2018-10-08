@@ -50,9 +50,9 @@
                         <li>
                           <a href="#" title="인증변경안내" class='more_menu'>인증변경안내</a>
                           <dl class="nav_dropdown changeA_dd off">
-                              <dt><a href="" title="보안비밀번호 초기화">보안비밀번호 초기화</a></dt>
-                              <dt><a href="#" title="계좌 변경">계좌변경</a></dt>
-                              <dt><a href="#" title="OTP 변경">OTP 변경</a></dt>
+                              <dt><a href="guide_security.php" title="보안비밀번호 초기화">보안비밀번호 초기화</a></dt>
+                              <dt><a href="guide_account.php" title="계좌 변경">계좌변경</a></dt>
+                              <dt><a href="guide_OTP.php" title="OTP 변경">OTP 변경</a></dt>
                           </dl>
                         </li>
                         <li class='active'><a href="fee_table.php" title="수수료 안내">수수료 안내</a></li>

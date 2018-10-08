@@ -187,6 +187,7 @@
                                 </tr>
                               </tbody>
                           </table>
+                          <a href="javascript:history.go(-1)">뒤로가기</a>
                       </div>
                   </div><!-- common_table_content End-->
 
