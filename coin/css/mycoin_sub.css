@@ -922,11 +922,12 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click {
   display: inline-block;
   background: #1b2f4a;
   color: #fff;
+  width:300px;
   border-radius: 5px;
   padding: 7px 10px;
   position: absolute;
   bottom: -60px;
-  left: -70px;
+  left: -100px;
 }
 table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
   content: "";
