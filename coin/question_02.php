@@ -44,7 +44,7 @@
                             <a href="#" title="1:1 문의" class='more_menu'>1:1 문의</a>
                             <dl class="nav_dropdown question_dd on">
                                 <dt><a href="question_01.php" title="1:1 문의하기">1:1 문의하기</a></dt>
-                                <dt class="active"><a href="" title="문의내역 확인하기">문의내역 확인하기</a></dt>
+                                <dt class="active"><a href="" title="문의내역 확인하기">문의내역</a></dt>
                             </dl>
                           </li>
                           <li>
@@ -62,7 +62,7 @@
                   <div class="box question_history_area">
                     <h3 class="title">1:1 문의</h3>
                         <div class="question_history_inner mypage_content">
-                          <h4 class="title2">문의내역 확인하기</h4>
+                          <h4 class="title2">문의내역</h4>
                           <div class="question_history_head">
                             <select name="알림선택" id="question_select2">
                               <option value="전체">전체</option>
