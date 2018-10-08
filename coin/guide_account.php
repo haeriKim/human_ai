@@ -109,7 +109,7 @@
 
                             <div class="guide_OTP_table_text">
                               <p>보내주신 자료 검토 후 추가적인 확인이 필요할 경우 담당자가 연락을 드립니다. 서류접수 후 1~3일 이상 소요될 수 있습니다.</p>
-                              <p>첨푸파일은 파일당 10MB 이하, JPG/JPEG/PNG/GIF 파일만 가능합니다.</p>
+                              <p>첨부파일은 파일당 <span class="guide_pink">10MB 이하, JPG/JPEG/PNG/GIF 파일만</span> 가능합니다.</p>
                             </div>
 
 

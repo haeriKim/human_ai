@@ -274,3 +274,6 @@ cursor: pointer;
 #full{
   display:none;
 }
+.security_password_text_right{
+  float:right;
+}

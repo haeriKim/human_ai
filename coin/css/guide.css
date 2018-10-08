@@ -40,6 +40,9 @@
 .guide_OTP_area .guide_OTP_table_text p{
   margin-top:5px;
 }
+.guide_OTP_area .guide_OTP_table_text .guide_pink{
+  color:#c95b74;
+}
 .guide_OTP_area .guide_OTP_star{
   font-weight:600;
   display:inline-block;
