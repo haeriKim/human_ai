@@ -46,7 +46,7 @@
                           <dl class="nav_dropdown info_dd">
                               <dt><a href="myinfo_login_password.php" title="로그인 비밀번호 변경">로그인 비밀번호 변경</a></dt>
                               <dt><a href="myinfo_security_password.php" title="보안비밀번호 변경">보안비밀번호 변경</a></dt>
-                              <dt class="active"><a href="#" title="휴대폰번호 변경">휴대폰 번호 변경</a></dt>
+                              <dt class="active"><a href="#" title="휴대폰 번호 변경">휴대폰 번호 변경</a></dt>
                               <dt><a href="myinfo_account.php" title="계좌 변경">계좌 변경</a></dt>
                               <dt><a href="myinfo_OTP.php" title="새 지갑발급">OTP 변경</a></dt>
                           </dl>
@@ -69,7 +69,7 @@
                       <h4>휴대폰 번호 재인증</h4>
                         <div class="myinfo_small_info_box">
                           <div class="myinfo_box1">
-                            <strong class="user_name">가*다</strong>
+                            <strong class="user_name">-</strong>
                             <p class="user_mail">abc@naver.com</p>
                           </div>
                           <div class="myinfo_box2">
@@ -110,7 +110,7 @@
                                       <td>
                                         <input type="text" name="" value="" placeholder="휴대폰으로 전송된 인증번호를 입력하세요." required maxlength="6" minlength="6" />
                                         <input type="button" value="인증번호요청" id="request_count" class="request_number">
-                                        <input type="submit" value="인증번호확인" id="confirm_count" class="cofirm_number">
+                                        <input type="submit" value="인증번호재인증" id="confirm_count" class="cofirm_number">
                                         <span id="count_down" class="count_down">03:00</span>
                                         <p id='warning_message'>
                                             <img src="img/icon_ex.png" alt="warning_icon" class="warning_icon">

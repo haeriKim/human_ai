@@ -46,7 +46,7 @@
                           <dl class="nav_dropdown info_dd off">
                               <dt><a href="myinfo_login_password.php" title="로그인 비밀번호 변경" class='active'>로그인 비밀번호 변경</a></dt>
                               <dt><a href="myinfo_security_password.php" title="보안비밀번호 변경">보안비밀번호 변경</a></dt>
-                              <dt><a href="myinfo_phone.php" title="휴대폰번호 변경">휴대폰번호 변경</a></dt>
+                              <dt><a href="myinfo_phone.php" title="휴대폰 번호 변경">휴대폰 번호 변경</a></dt>
                               <dt><a href="myinfo_account.php" title="계좌 변경">계좌 변경</a></dt>
                               <dt><a href="myinfo_OTP.php" title="OTP 변경">OTP 변경</a></dt>
                           </dl>
@@ -148,7 +148,7 @@
                                   <tr>
                                     <th>새로운 보안 비밀번호 확인</th>
                                     <td>
-                                      <input type="password" class='user_security' name="security" value="" placeholder="새로운 보안 비밀번호를 입력하세요." maxlength="4" minlength='4' required/>
+                                      <input type="password" class='user_security' name="security" value="" placeholder="새로운 보안 비밀번호를 다시 입력하세요." maxlength="4" minlength='4' required/>
                                       <p id='warning_message'>비밀번호가 일치하지 않습니다.</p>
                                     </td>
                                   </tr>

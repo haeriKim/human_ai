@@ -104,17 +104,17 @@
                                         <td><span class='up_down_data get_rid_of_money'>45,000원</span></td>
                                     </tr>
                                     <tr>
-                                        <th>비밀번호</th>
+                                        <th>로그인 비밀번호</th>
                                         <td>
-                                            <input type="password" name="" value="" placeholder="로그인 비밀번호를 입력해주세요." required class='input_your_password user_pass'>
+                                            <input type="password" name="" value="" placeholder="로그인 비밀번호를 입력하세요." required class='input_your_password user_pass'>
                                             <p id='warning_message'>비밀번호가 일치하지 않습니다.</p>
                                         </td>
                                     </tr>
                                     <tr>
                                         <th>보안 비밀번호</th>
                                         <td>
-                                            <input type="password" name="" value="" placeholder="보안 비밀번호 4자리 입력해주세요." required maxlength="4" minlength='4' class='input_your_password_again user_security'>
-                                            <p id='warning_message'>보안비밀번호가 일치하지 않습니다.</p>
+                                            <input type="password" name="" value="" placeholder="보안 비밀번호 입력하세요." required maxlength="4" minlength='4' class='input_your_password_again user_security'>
+                                            <p id='warning_message'><img src="img/icon_ex.png" alt="경고아이콘" class="warning_icon">보안비밀번호가 일치하지 않습니다.</p>
                                         </td>
                                     </tr>
                                     <tr>
@@ -122,9 +122,9 @@
                                         <td>
                                             <input type="text" name="" value="" placeholder="휴대폰으로 전송된 인증번호를 입력하세요." required maxlength="6" minlength="6" class='input_your_sms_number'>
                                             <input type="button" value="인증번호요청" id="request_count" class="request_number">
-                                            <input type="submit" value="인증번호확인" id="confirm_count" class="cofirm_number">
+                                            <input type="submit" value="인증번호재인증" id="confirm_count" class="cofirm_number">
                                             <span id="count_down" class="count_down">03:00</span>
-                                            <p id='warning_message'>인증번호가 일치하지 않습니다.</p>
+                                            <p id='warning_message'><img src="img/icon_ex.png" alt="경고아이콘" class="warning_icon">인증번호가 일치하지 않습니다.</p>
                                         </td>
                                     </tr>
                                 </tbody>

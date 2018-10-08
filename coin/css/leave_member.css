@@ -81,7 +81,7 @@
 .withdrawal_area .withdrawal_text2 .withdrawal_bottom_line{
   border-bottom:1px solid #eee;
   padding-bottom:20px;
-  width:500px;
+  width:100%;
 }
 .withdrawal_area .withdrawal_text2 #checkbox_text2{
   margin-top:10px;
@@ -221,4 +221,8 @@
   right:185px;
   color:red;
   font-size:14px;
+}
+.warning_icon{
+  vertical-align: -3px;
+  margin-right: 2px;
 }

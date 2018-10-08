@@ -161,3 +161,7 @@ table .password_question_detail:before {
   margin-top:4.5px;
   color:red;
 }
+.warning_icon{
+  vertical-align: -3px;
+  margin-right: 2px;
+}

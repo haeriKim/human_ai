@@ -23,6 +23,7 @@
 }
 .use_content #use_area .use_area_text{
   border-bottom:1px solid #f4f5f8;
+  margin-bottom:30px;
 }
 .use_content #use_area .use_area_text .title{
   font-size:25px;

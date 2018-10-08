@@ -47,7 +47,7 @@
                           <dl class="nav_dropdown info_dd off">
                               <dt><a href="myinfo_login_password.php" title="로그인 비밀번호 변경" class='active'>로그인 비밀번호 변경</a></dt>
                               <dt><a href="myinfo_security_password.php" title="보안비밀번호 변경">보안비밀번호 변경</a></dt>
-                              <dt><a href="myinfo_phone.php" title="휴대폰번호 변경">휴대폰번호 변경</a></dt>
+                              <dt><a href="myinfo_phone.php" title="휴대폰 번호 변경">휴대폰 번호 변경</a></dt>
                               <dt><a href="myinfo_account.php" title="계좌 변경">계좌 변경</a></dt>
                               <dt><a href="myinfo_OTP.php" title="OTP 변경">OTP 변경</a></dt>
                           </dl>
@@ -126,7 +126,7 @@
                                 <tbody>
 
                                     <th>휴대폰번호</th>
-                                    <td><input type="password" class='user_pass' name="password" value="" placeholder="휴대폰번호를 입력해주세요" required maxlength="12" minlength="12" /></td>
+                                    <td><input type="password" class='user_pass' name="password" value="" placeholder="휴대폰번호를 입력하세요." required maxlength="12" minlength="12" /></td>
                                   </tr>
 
                                   <tr>
@@ -134,16 +134,16 @@
                                     <td>
                                       <input type="text" name="" value="" placeholder="휴대폰으로 전송된 인증번호를 입력하세요." required maxlength="6" minlength="6" />
                                       <input type="button" value="인증번호요청" id="request_count" class="request_number">
-                                      <input type="submit" value="인증번호확인" id="confirm_count" class="cofirm_number">
+                                      <input type="submit" value="인증번호재인증" id="confirm_count" class="cofirm_number">
                                       <span id="count_down" class="count_down">03:00</span>
-                                      <p id='warning_message'>인증번호가 일치하지 않습니다.</p>
+                                      <p id='warning_message'><img src="img/icon_ex.png" alt="경고아이콘" class="warning_icon">인증번호가 일치하지 않습니다.</p>
                                     </td>
                                   </tr>
                                   <tr>
                                     <th>보안 비밀번호</th>
                                     <td>
                                       <input type="password" class='user_security' name="security" value="" placeholder="보안 비밀번호를 입력하세요." maxlength="4" minlength='4' required/>
-                                      <p id='warning_message'>보안비밀번호가 일치하지 않습니다.</p>
+                                      <p id='warning_message'><img src="img/icon_ex.png" alt="경고아이콘" class="warning_icon">보안비밀번호가 일치하지 않습니다.</p>
                                     </td>
                                   </tr>
                                 </tbody>
