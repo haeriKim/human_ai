@@ -1,6 +1,6 @@
 /*submenu_mypage*/
 .submenu_mypage {
-  position: absolute;
+  position: fixed;
   top: 150px;
   right: 0;
   z-index: 11;
@@ -8,7 +8,7 @@
 
 .submenu_mypage_inner {
     width: 350px;
-    position: absolute;
+    position: fixed;
     z-index: 12;
     padding: 0 30px;
     top: 150px;
@@ -117,14 +117,14 @@
 
 /*submenu_security*/
 .submenu_security {
-  position: absolute;
+  position: fixed;
   top: 260px;
   right: 0;
   z-index: 11;
 }
 
 .submenu_security_inner {
-  position: absolute;
+  position: fixed;
   top: 260px;
   right: -350px;
   z-index: 12;
