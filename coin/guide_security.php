@@ -66,7 +66,7 @@
                     <h3 class="title">인증자료 제출안내</h3>
                     <!-- guide_OTP_inner -->
                     <div class="guide_OTP_inner mypage_content">
-                      <h4>보안비밀번 변경</h4>
+                      <h4>보안비밀번호 변경</h4>
                         <p class="guide_OTP_p">보안비밀번호 변경 시, 아래 제출서류를 첨부하여 양식에 따라 이메일을 보내야합니다.</p>
                         <p class="title_title">[ 제출 이메일 양식 ]</p>
 
@@ -77,7 +77,7 @@
                               <tbody class='guide_OTP_tbody'>
                                 <tr>
                                     <th>이메일 제목</th>
-                                    <td>The Alls OTP 변경 요청</td>
+                                    <td>The Alls 보안비밀번호 변경 요청</td>
                                 </tr>
 
                                 <tr>

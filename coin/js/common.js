@@ -840,8 +840,3 @@ $(function () {
 });
 
 //회원탈퇴 체크 뒤로가기 활성화 코드
-$(document).ready(function(){
-  $(leave_member_02.php).history.go(-1)(function(){
-    
-  });
-});
