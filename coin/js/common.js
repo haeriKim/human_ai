@@ -866,15 +866,11 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $(".question_box2").hide();
   $(".question_save_btn").click(function(){
-    $(".question_box").hide();
-    $(".question_box2").show();
+    $(".question_box").show();
   });
-  $(".cancel_btn2").click(function(){
-    $("#full").hide();
-  });
-  $(".cancel_btn_ok").click(function(){
+
+  $(".cancel_btn_ok2").click(function(){
     $("#popupbox, #shadow").hide();
   });
 });

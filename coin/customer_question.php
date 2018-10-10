@@ -69,7 +69,7 @@
                         <form enctype="multipart/form-data">
                           <table class="question_table">
                             <tr>
-                              <th>질문유형</th>
+                              <th>질문유형<span class="pilsu">*필수</span></th>
                                 <td>
                                   <select name="문의유형" id="question_select">
                                     <option value="문의유형을 선택하세요" disabled selected="selected">문의유형을 선택하세요.</option>
@@ -83,14 +83,14 @@
                             </tr>
 
                             <tr>
-                              <th>제목</th>
+                              <th>제목<span class="pilsu">*필수</span></th>
                                 <td>
                                   <input type="text" placeholder="제목을 입력하세요." class="question_title">
                                 </td>
                             </tr>
 
                             <tr>
-                              <th>내용</th>
+                              <th>내용<span class="pilsu">*필수</span></th>
                                 <td>
                                   <textarea name="" placeholder="문의 내용을 입력하세요." class="question_story"></textarea>
                                 </td>
@@ -98,7 +98,7 @@
 
                             <tr>
                               <th>
-                                <label for="file">첨부파일</label>
+                                <label for="file">첨부파일<span class="choice">*선택</span></label>
                               </th>
 
                               <td class="file_inner">
@@ -108,7 +108,7 @@
                                       <div class="file_input_div">
                                         <img src="img/upload.png" alt="파일첨부"/><span class="file_choice">파일선택</span>
                                           <input type="file" id="ex_filename" class="upload_hidden" multiple="multiple" onchange="javascript: document.getElementById('fileName').value = this.value"/>
-                                          <a class="del_attach" onclick="delAttach(this.form)">x</a>
+                                          <a class="del_attach" onclick="delAttach(this.form)"><img src="img/x.png" alt="x버튼"></a>
                                       </div>
                                     </div>
 
@@ -120,7 +120,7 @@
 
                         <div class="question_button">
                           <input type="reset" name="취소" value="취소" class="question_cancel"/>
-                          <input type="submit" name="submit" value="보내기" class='send_btn'/>
+                          <input type="submit" name="submit" value="등록" class='send_btn'/>
                         </div>
 
                     </div><!-- question_inner End-->
@@ -141,28 +141,15 @@
     </div><!-- wrap End -->
 
     <div id="full">
-                <!-- full_content -->
-                <div id="popupbox" class='box popup question_box'>
-                  <div class="full_inner">
-                    <h2>1:1 문의하기</h2>
-                    <div class="popupbox_text">
-                      <p>작성한 1:1문의글을 저장하시겠습니까?</p>
-                    </div>
-                    <div class="cancel_or_apply">
-                      <input type="button" name="" value="취소" class="cancel_btn2">
-                      <input type="button" name="" value="저장" class="agree_btn question_save_btn">
-                    </div>
-
-                  </div>
-                </div><!-- full_content End-->
 
                 <!-- full_content -->
                 <div id="popupbox" class='box popup question_box2'>
                   <div class="full_inner">
                     <h2>1:1 문의하기</h2>
                     <div class="popupbox_text">
-                      <p>1:1 문의가 등록되었습니다. 관리자 확인 후 최대한 <br/>
-                         빠른 시일 내에 답변드리도록 하겠습니다.</p>
+                      <p>1:1 문의가 등록되었습니다.<br/>
+                         관리자 확인 후 최대한 빠른 시일 내에<br/>
+                         답변드리도록 하겠습니다.</p>
                     </div>
                     <div class="cancel_or_apply">
                       <input type="button" name="" value="확인" onclick="location.href='customer_question.php'" class="cancel_btn_ok">

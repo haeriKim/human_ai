@@ -95,11 +95,21 @@
 .question_area .question_table .filebox .file_input_div .del_attach {
   float: left;
   margin-left: 10px;
-  margin-top:-1px;
+  margin-top:9px;
   cursor: pointer;
   color: #1b2f4a;
   font-size: 17px;
   font-weight: 600;
+}
+.question_area .question_table .pilsu{
+  color: #c95b74;
+  font-size: 12px;
+  margin-left: 5px;
+}
+.question_area .question_table .choice{
+  color: #2a6972;
+  font-size: 12px;
+  margin-left: 5px;
 }
 
 .question_area .question_inner .question_button{
@@ -172,6 +182,9 @@
 .question_history_area .question_history_inner .question_list tbody #left_text{
   cursor:pointer;
 }
+.question_history_area .question_history_inner .question_list .delay{
+  color:#EAAF69;
+}
 /*popup*/
 #full{
   display:none;
@@ -180,17 +193,6 @@
   padding-bottom:30px;
 }
 #full .cancel_btn_ok{
-  background: #fff;
-  border: 1px solid #1b2f4a;
-  border-radius: 5px;
-  padding: 7px 30px;
-  color: #1b2f4a;
-  font-weight: 600;
-  margin-left: 20px;
-  font-size: 16px;
-  cursor: pointer;
-}
-#full .cancel_btn2{
   background: #fff;
   border: 1px solid #1b2f4a;
   border-radius: 5px;
