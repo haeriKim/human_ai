@@ -136,7 +136,7 @@
                   <p class="small">해당 메일로 휴대폰 번호변경 요청을 하시겠습니까?</p>
                 </div>
                 <div class="cancel_or_apply">
-                  <input type="button" name="" value="취소" onclick="location.href='myinfo_phone.php'" class="cancel_btn">
+                  <input type="button" name="" value="취소" class="cancel_btn phone_cancel_btn">
                   <input type="button" name="" value="변경 요청 하기" class="agree_btn request_btn">
                 </div>
 

@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/question.css">
     <link rel="stylesheet" href="css/sub_menu.css">
+    <link rel="stylesheet" href="css/popup.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/common.js"></script>
@@ -44,7 +45,7 @@
                           <a href="#" title="1:1 문의" class='more_menu'>1:1 문의</a>
                           <dl class="nav_dropdown question_dd on">
                               <dt class="active"><a href="" title="1:1 문의하기">1:1 문의하기</a></dt>
-                              <dt><a href="question_02.php" title="문의내역 확인하기">문의내역 확인하기</a></dt>
+                              <dt><a href="customer_questionList.php" title="문의내역 확인하기">문의내역 확인하기</a></dt>
                           </dl>
                         </li>
                         <li>
@@ -117,8 +118,10 @@
                           </table>
                         </form>
 
-                        <input type="submit" name="submit" value="보내기" class='send_btn'/>
-                        <input type="reset" name="취소" value="취소" class="cancel_btn" onclick="aa();"/>
+                        <div class="question_button">
+                          <input type="reset" name="취소" value="취소" class="question_cancel"/>
+                          <input type="submit" name="submit" value="보내기" class='send_btn'/>
+                        </div>
 
                     </div><!-- question_inner End-->
                   </div><!--question_area End-->
@@ -136,6 +139,62 @@
 
         </div><!-- container End -->
     </div><!-- wrap End -->
+
+    <div id="full">
+                <!-- full_content -->
+                <div id="popupbox" class='box popup question_box'>
+                  <div class="full_inner">
+                    <h2>1:1 문의하기</h2>
+                    <div class="popupbox_text">
+                      <p>작성한 1:1문의글을 저장하시겠습니까?</p>
+                    </div>
+                    <div class="cancel_or_apply">
+                      <input type="button" name="" value="취소" class="cancel_btn2">
+                      <input type="button" name="" value="저장" class="agree_btn question_save_btn">
+                    </div>
+
+                  </div>
+                </div><!-- full_content End-->
+
+                <!-- full_content -->
+                <div id="popupbox" class='box popup question_box2'>
+                  <div class="full_inner">
+                    <h2>1:1 문의하기</h2>
+                    <div class="popupbox_text">
+                      <p>1:1 문의가 등록되었습니다. 관리자 확인후 최대한 <br/>
+                         빠른 시일내에 답변드리도록 하겠습니다.</p>
+                    </div>
+                    <div class="cancel_or_apply">
+                      <input type="button" name="" value="확인" onclick="location.href='customer_question.php'" class="cancel_btn_ok">
+                      <input type="button" name="" value="문의내역 보기" onclick="location.href='customer_questionList.php'" class="question_ok">
+                    </div>
+
+                  </div>
+                </div><!-- full_content End-->
+
+          <div id="shadow"></div>
+
+    </div>
+
+    <div id="full2">
+      <!-- full_content -->
+      <div id="popupbox" class='box popup question_box3'>
+        <div class="full_inner">
+          <h2>1:1 문의하기</h2>
+          <div class="popupbox_text">
+            <p>작성하신 내용이 모두 삭제됩니다.<br/>
+                                 계속 진행하시겠습니까?</p>
+          </div>
+          <div class="cancel_or_apply">
+            <input type="button" name="" value="취소" class="cancel_btn3">
+            <input type="button" name="" value="확인" onclick="location.href='customer_question.php'" class="agree_btn question_ok2">
+          </div>
+
+        </div>
+      </div><!-- full_content End-->
+      <div id="shadow"></div>
+
+    </div>
 
 </body>
 </html>

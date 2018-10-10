@@ -662,7 +662,10 @@ $(document).ready(function(){
     $(".phone_change_box").hide();
     $(".phone_change_box2").show();
   });
-  $(".cancel_btn_ok,.cancel_btn").click(function(){
+  $(".phone_cancel_btn").click(function(){
+    $("#full").hide();
+  });
+  $(".cancel_btn_ok").click(function(){
     $("#popupbox, #shadow").hide();
   });
 });
@@ -852,4 +855,39 @@ function aa() {
     }else{
         return false;
     }
-}
+};
+//1:1문의 확인,취소 팝업
+
+//보내기버튼
+$(document).ready(function(){
+  $(".send_btn").click(function(){
+    $("#full").show();
+  });
+});
+
+$(document).ready(function(){
+  $(".question_box2").hide();
+  $(".question_save_btn").click(function(){
+    $(".question_box").hide();
+    $(".question_box2").show();
+  });
+  $(".cancel_btn2").click(function(){
+    $("#full").hide();
+  });
+  $(".cancel_btn_ok").click(function(){
+    $("#popupbox, #shadow").hide();
+  });
+});
+
+//취소버튼
+$(document).ready(function(){
+  $(".question_cancel").click(function(){
+    $("#full2").show();
+  });
+});
+
+$(document).ready(function(){
+  $(".cancel_btn3").click(function(){
+    $("#full2").hide();
+  });
+});

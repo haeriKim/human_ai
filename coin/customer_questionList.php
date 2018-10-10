@@ -43,7 +43,7 @@
                           <li class='on'>
                             <a href="#" title="1:1 문의" class='more_menu'>1:1 문의</a>
                             <dl class="nav_dropdown question_dd on">
-                                <dt><a href="question_01.php" title="1:1 문의하기">1:1 문의하기</a></dt>
+                                <dt><a href="customer_question.php" title="1:1 문의하기">1:1 문의하기</a></dt>
                                 <dt class="active"><a href="" title="문의내역 확인하기">문의내역</a></dt>
                             </dl>
                           </li>
