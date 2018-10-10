@@ -66,8 +66,11 @@
                           <div class="question_history_head">
                             <select name="알림선택" id="question_select2">
                               <option value="전체">전체</option>
-                              <option value="제목">제목</option>
-                              <option value="내용">내용</option>
+                              <option value="가입 및 인증">가입 및 인증</option>
+                              <option value="계정">계정</option>
+                              <option value="입출금">입출금</option>
+                              <option value="매수 및 매도">매수 및 매도</option>
+                              <option value="기타">기타문의</option>
 
                             </select>
 
@@ -87,14 +90,16 @@
 
                           <table class="question_list" id="question_list">
                               <colgroup>
-                                  <col width="10%">
-                                  <col width="60%">
-                                  <col width="20%">
+                                  <col width="8%">
+                                  <col width="12%">
+                                  <col width="55%">
+                                  <col width="15%">
                                   <col width="10%">
                               </colgroup>
                                 <thead>
                                   <tr>
                                     <th class="alram">번호</th>
+                                    <th class="kind">유형</th>
                                     <th class="title">제목</th>
                                     <th class="date">작성일시</th>
                                     <th class="answer">답변</th>
@@ -104,6 +109,7 @@
                                   <tbody>
                                     <tr>
                                       <td><span class="number">1</td>
+                                      <td>입출금</td>
                                       <td id="left_text">입출금 문의관련에 대해 문의 드립니다.</td>
                                       <td>2018-10-01</td>
                                       <td>대기중</td>
@@ -111,6 +117,7 @@
 
                                     <tr>
                                       <td><span class="number">2</span></td>
+                                      <td>매수 및 매도</td>
                                       <td id="left_text">더올스에서 이더리움 28,0000BTH를 매수했습니다.</td>
                                       <td>2018-09-12</td>
                                       <td>답변완료</td>
@@ -118,6 +125,7 @@
 
                                     <tr>
                                       <td><span class="number">3</td>
+                                      <td>기타문의</td>
                                       <td id="left_text">The Alls 이용약관은 어디서 볼 수 있나요?</td>
                                       <td>2018-09-05</td>
                                       <td>답변완료</td>
@@ -125,6 +133,7 @@
 
                                     <tr>
                                       <td><span class="number">4</span></td>
+                                      <td>입출금</td>
                                       <td id="left_text">입출금 문의관련에 대해 문의 드립니다.</td>
                                       <td>2018-09-01</td>
                                       <td>답변완료</td>
@@ -132,6 +141,7 @@
 
                                     <tr>
                                       <td><span class="number">5</td>
+                                      <td>계정</td>
                                       <td id="left_text">해킹보안시스템은 어떻게 가동되고 있나요.</td>
                                       <td>2018-08-27</td>
                                       <td>답변완료</td>
@@ -139,6 +149,7 @@
 
                                     <tr>
                                       <td><span class="number_null">&nbsp;</span></td>
+                                      <td></td>
                                       <td id="left_text"></td>
                                       <td></td>
                                       <td></td>

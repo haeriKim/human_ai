@@ -10,7 +10,7 @@ $(document).ready(function(){
   function autoSlide(){
     autoRun = setInterval(function() {
       rollingFn('right');
-    },7000);
+    },4000);
   }
   bannerObj.eq(nowNum).fadeIn();
 
