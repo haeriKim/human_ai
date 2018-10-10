@@ -150,7 +150,7 @@
                       <p>발송된 이메일에 포함된 인증코드를 아래 칸에 입력해주세요.</p>
                       <form action="#" method="post">
                        <p class="user_mail readonly">abc@naver.com</p>
-                       <input type="text" class="code" placeholder="인증코드를 입력해주세요." required/>
+                       <input type="text" class="code" placeholder="인증코드를 입력하세요." required/>
                        <p class='wrong_info'><img src="img/icon_ex.png" alt="경고아이콘" class="warning_icon">인증코드가 일치하지 않습니다.</p>
                        <!-- <span>인증코드가 일치하지 않습니다.</saan> -->
                        <div class="re_send">
