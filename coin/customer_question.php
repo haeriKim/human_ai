@@ -65,55 +65,57 @@
                     <div class="question_inner mypage_content">
                       <h4>1:1 문의하기</h4>
                         <p class="question_text">- 문의 하신 내용은 관리자 확인 후 답변 드리겠습니다.</p>
+                        <form enctype="multipart/form-data">
+                          <table class="question_table">
+                            <tr>
+                              <th>질문유형</th>
+                                <td>
+                                  <select name="문의유형" id="question_select">
+                                    <option value="문의유형을 선택하세요" disabled selected="selected">문의유형을 선택하세요.</option>
+                                    <option value="계정관련">계정관련</option>
+                                    <option value="거래관련">거래관련</option>
+                                    <option value="입출금관련">입출금관련</option>
+                                    <option value="해킹관련">해킹관련</option>
+                                    <option value="기타문의">기타문의</option>
+                                  </select>
+                                </td>
+                            </tr>
 
-                        <table class="question_table">
-                          <tr>
-                            <th>질문유형</th>
-                              <td>
-                                <select name="문의유형" id="question_select">
-                                  <option value="문의유형을 선택하세요" disabled selected="selected">문의유형을 선택하세요.</option>
-                                  <option value="계정관련">계정관련</option>
-                                  <option value="거래관련">거래관련</option>
-                                  <option value="입출금관련">입출금관련</option>
-                                  <option value="해킹관련">해킹관련</option>
-                                  <option value="기타문의">기타문의</option>
-                                </select>
+                            <tr>
+                              <th>제목</th>
+                                <td>
+                                  <input type="text" placeholder="제목을 입력하세요." class="question_title">
+                                </td>
+                            </tr>
+
+                            <tr>
+                              <th>내용</th>
+                                <td>
+                                  <textarea name="" placeholder="문의 내용을 입력하세요." class="question_story"></textarea>
+                                </td>
+                            </tr>
+
+                            <tr>
+                              <th>
+                                <label for="file">첨부파일</label>
+                              </th>
+
+                              <td class="file_inner">
+
+                                    <div class="filebox">
+                                      <input type="text" id="fileName" class="file_input_textbox" readonly >
+                                      <div class="file_input_div">
+                                        <img src="img/upload2.png" alt="파일첨부"/>
+                                          <input type="file" id="ex_filename" class="upload_hidden" multiple="multiple" onchange="javascript: document.getElementById('fileName').value = this.value"/>
+                                          <a class="del_attach" onclick="delAttach(this.form)">x</a>
+                                      </div>
+                                    </div>
+
                               </td>
-                          </tr>
+                            </tr>
 
-                          <tr>
-                            <th>제목</th>
-                              <td>
-                                <input type="text" placeholder="제목을 입력하세요." class="question_title">
-                              </td>
-                          </tr>
-
-                          <tr>
-                            <th>내용</th>
-                              <td>
-                                <textarea name="" placeholder="문의 내용을 입력하세요." class="question_story"></textarea>
-                              </td>
-                          </tr>
-
-                          <tr>
-                            <th>
-                              <label for="file">첨부파일</label>
-                            </th>
-
-                            <td class="file_inner">
-                                <form enctype="multipart/form-data">
-                                  <div class="filebox">
-                                    <input type="upload_name" value="파일선택" disabled="disabled">
-
-                                    <label for="ex_filename"><img src="img/upload2.png" alt="파일추가버튼"></label>
-                                    <input type="file" id="ex_filename" class="upload_hidden">
-                                  </div>
-                                </form>
-                            </td>
-                          </tr>
-
-                        </table>
-
+                          </table>
+                        </form>
 
                         <input type="submit" name="submit" value="보내기" class='send_btn'/>
                         <input type="button" name="취소" value="취소" class="cancel_btn"/>

@@ -839,4 +839,7 @@ $(function () {
     });
 });
 
-//회원탈퇴 체크 뒤로가기 활성화 코드
+//파일 첨부 삭제
+function delAttach(form) {
+    document.getElementById("fileName").value = "";
+}
