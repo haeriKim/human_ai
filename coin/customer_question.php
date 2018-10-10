@@ -73,10 +73,10 @@
                                 <td>
                                   <select name="문의유형" id="question_select">
                                     <option value="문의유형을 선택하세요" disabled selected="selected">문의유형을 선택하세요.</option>
-                                    <option value="계정관련">계정관련</option>
-                                    <option value="거래관련">거래관련</option>
-                                    <option value="입출금관련">입출금관련</option>
-                                    <option value="해킹관련">해킹관련</option>
+                                    <option value="계정관련">가입 및 인증</option>
+                                    <option value="거래관련">계정</option>
+                                    <option value="입출금관련">입출금</option>
+                                    <option value="해킹관련">매수 및 매도</option>
                                     <option value="기타문의">기타문의</option>
                                   </select>
                                 </td>

@@ -65,7 +65,7 @@
                           <h4 class="title2">문의내역</h4>
                           <div class="question_history_head">
                             <select name="알림선택" id="question_select2">
-                              <option value="전체">전체</option>
+                              <option value="전체" disabled selected="selected">전체</option>
                               <option value="가입 및 인증">가입 및 인증</option>
                               <option value="계정">계정</option>
                               <option value="입출금">입출금</option>
