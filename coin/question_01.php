@@ -103,7 +103,9 @@
                             <td class="file_inner">
                               <input type="text" class="file_input">
                                 <form enctype="multipart/form-data">
-                                  <input type="file" accept="image/jpg,image/gif">
+                                  <label class="btn-file">
+                                    <input type="file" accept="image/jpg,image/gif" class="btn-file2">
+                                  </label>
                                 </form>
                             </td>
                           </tr>
