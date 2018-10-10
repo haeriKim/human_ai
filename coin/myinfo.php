@@ -92,7 +92,7 @@
                                       <td>
                                           <span class='user_phone'>010-1***-***0</span>
                                           <span class='no_phone'>-</span>
-                                          <a href="myinfo_phone.php" class="btn_small change_phone_num">휴대폰번호 변경</a>
+                                          <a href="myinfo_phone.php" class="btn_small change_phone_num">휴대폰 번호변경</a>
                                           <a href="certification_phone.php" class="btn_small certify_realname">실명인증</a>
                                       </td>
                                   </tr>

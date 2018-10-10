@@ -68,7 +68,7 @@
                                     <td>보안비밀번호 생성</td>
                                     <td>실명인증</td>
                                     <td>계좌인증</td>
-                                    <td>OTP인증</td>
+                                    <td>OTP 인증</td>
                                 </tr>
                                 <tr>
                                     <th rowspan="2">입금한도</th>

@@ -40,19 +40,19 @@
                   <div class="content_nav">
                     <h4>마이페이지</h4>
                     <ul>
-                        <li><a href="myinfo.php" title="회원정보">회원정보</a></li>
+                        <li><a href="myinfo.php" title="회원 정보">회원 정보</a></li>
                         <li>
-                          <a href="myinfo_login_password.php" title="회원정보관리" class='more_menu'>회원정보관리</a>
+                          <a href="myinfo_login_password.php" title="회원 정보관리" class='more_menu'>회원 정보관리</a>
                           <dl class="nav_dropdown info_dd off">
-                              <dt><a href="myinfo_login_password.php" title="로그인 비밀번호 변경" class='active'>로그인 비밀번호 변경</a></dt>
-                              <dt><a href="myinfo_security_password.php" title="보안비밀번호 변경">보안비밀번호 변경</a></dt>
-                              <dt><a href="myinfo_phone.php" title="휴대폰 번호 변경">휴대폰 번호 변경</a></dt>
-                              <dt><a href="myinfo_account.php" title="계좌 변경">계좌 변경</a></dt>
+                              <dt><a href="myinfo_login_password.php" title="로그인 비밀번호변경" class='active'>로그인 비밀번호변경</a></dt>
+                              <dt><a href="myinfo_security_password.php" title="보안 비밀번호변경">보안 비밀번호변경</a></dt>
+                              <dt><a href="myinfo_phone.php" title="휴대폰 번호변경">휴대폰 번호변경</a></dt>
+                              <dt><a href="myinfo_account.php" title="계좌변경">계좌변경</a></dt>
                               <dt><a href="myinfo_OTP.php" title="OTP 변경">OTP 변경</a></dt>
                           </dl>
                         </li>
                         <li class='active'><a href="#" title="인증센터">인증센터</a></li>
-                        <li><a href="track_ip_address.php" title="접속이력확인">접속이력확인</a></li>
+                        <li><a href="track_ip_address.php" title="접속 이력확인">접속 이력확인</a></li>
                         <li>
                           <a href="#" title="알림" class='more_menu'>알림</a>
                           <dl class="nav_dropdown alarm_dd off">
@@ -105,16 +105,16 @@
 
                           <img src="img/lv5.png" alt="레벨5">
                           <p class="img_area">
-                            <img src="img/lock.png" alt="OTP인증 아이콘">
+                            <img src="img/lock.png" alt="OTP 인증 아이콘">
 
                           </p>
-                          <strong>OTP인증</strong>
+                          <strong>OTP 인증</strong>
                           <span>실제 사용 중인<br/>OTP로 인증해주세요.</span>
                         </li>
                       </ul>
 
                       <div class="myinfo_text_box">
-                        <h3>OTP인증 완료</h3>
+                        <h3>OTP 인증 완료</h3>
                         <br/>
                         <p>회원님의 현재 보안등급은 <strong class="complete_level">Level <b class="user_level">5</b></strong>입니다.</p>
                         <br/>
