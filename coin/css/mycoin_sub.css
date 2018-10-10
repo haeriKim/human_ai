@@ -248,7 +248,7 @@ table .mycoin_tbody_deco>tr>td>img{
 .user_security{
   border:none;
   border-bottom:1px solid #1b2f4a;
-  width:300px;
+  width:330px;
   padding-bottom:5px;
 }
 
@@ -452,6 +452,12 @@ div.before_send_money_wrap > p{
 #output_KRW table.left_thick_table tbody p{
     display: inline-block;
     width: 300px;
+}
+#output_KRW .send_account table.left_thick_table tbody p.limit_output{
+    width: 125px;
+}
+#output_bitcoin .send_account table.left_thick_table tbody p.limit_output{
+    width: 55px;
 }
 #output_KRW div.before_send_money_wrap{
     margin-left: 12px;

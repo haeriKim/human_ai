@@ -1,0 +1,95 @@
+.faq_area .faq_list h5{
+    margin: 40px 0 30px 0;
+    color: #1b2f4a;
+    font-weight: 600;
+    font-size: 16px;
+}
+.faq_area .faq_list ul{
+    border: none;
+    border: none;
+    border-bottom: none;
+    border-radius: 5px;
+}
+.faq_area .faq_list ul li{
+    margin-bottom: 20px;
+}
+.faq_area .faq_list ul li .question{
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+    border: none;
+    background: #f4f5f8;
+    border-bottom: 2px solid #1b2f4a;
+    border-radius: 5px 5px 0 0;
+}
+.faq_area .faq_list ul li .question span{
+    color: #1b2f4a;
+    margin-left: 34px;
+}
+.faq_area .faq_list ul li .question img{
+    position: absolute;
+    top: 8px;
+}
+.faq_area .faq_list ul li .answer{
+    padding: 20px;
+    border: none;
+    border-bottom: 1px solid #999;
+}
+.faq_area .faq_list ul li .answer p{
+    padding-left: 30px;
+    color:#2b2b2b;
+    font-size: 14px;
+}
+
+/*후보군 2*/
+.faq_area .faq_list .faq_list_account{
+    border: none;
+    border: none;
+    border-bottom: none;
+    border-radius: 5px;
+}
+.faq_area .faq_list .faq_list_account li{
+    margin-bottom: 20px;
+}
+.faq_area .faq_list .faq_list_account li .question{
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+    border: none;
+    background: none;
+    border-bottom: 2px solid #1b2f4a;
+    border-radius: 5px 5px 0 0;
+}
+.faq_area .faq_list .faq_list_account li .question span{
+    color: #1b2f4a;
+    margin-left: 34px;
+}
+.faq_area .faq_list .faq_list_account li .question img{
+    position: absolute;
+    top: 8px;
+}
+.faq_area .faq_list .faq_list_account li .answer{
+    padding: 20px;
+    border: none;
+    border-bottom: 1px solid #999;
+    background: #f4f5f8;
+}
+.faq_area .faq_list .faq_list_account li .answer p{
+    padding-left: 30px;
+    color:#2b2b2b;
+    font-size: 14px;
+}
+
+/*후보군 3*/
+.faq_area .faq_list h5.candidate_03{
+    color: #fff;
+    background-color: #1b2f4a;
+    font-weight: 500;
+    font-size: 16px;
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+}

@@ -38,7 +38,7 @@
 
                   <!-- common_table_content -->
                   <div class="box common_table_content">
-                      <h3 class='title'>인증레벨별 한도</h3>
+                      <h3 class='title'>인증 레벨별 한도</h3>
                       <div class="mypage_content">
                           <table class="common_table">
                               <colgroup>

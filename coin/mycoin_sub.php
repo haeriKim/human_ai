@@ -953,8 +953,8 @@
                                                                     <tr>
                                                                         <th>1회 출금한도</th>
                                                                         <td>
-                                                                            <p>100,000,000 KRW</p>
-                                                                            <input type="button" value="인증레벨설정" onclick="location.href='certification_level_table.php'">
+                                                                            <p class='limit_output'>100,000,000 KRW</p>
+                                                                            <input type="button" value="출금한도조회" onclick="location.href='certification_level_table.php'">
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
@@ -1124,7 +1124,10 @@
                                                                          <tbody>
                                                                              <tr>
                                                                                  <th>1회 출금한도</th>
-                                                                                 <td class='emphasis'>1 BTC</td>
+                                                                                 <td class='emphasis'>
+                                                                                    <p class='limit_output'>1 BTC</p>
+                                                                                    <input type="button" value="출금한도조회" onclick="location.href='certification_level_table.php'">
+                                                                                </td>
                                                                              </tr>
                                                                              <tr>
                                                                                  <th>나의 잔여한도</th>

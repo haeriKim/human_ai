@@ -38,6 +38,9 @@
     border-top: none;
     border-left: none;
 }
+.common_table_content .mypage_content .input_output_fee thead tr th.thead_th{
+    border-right: none;
+}
 .common_table_content .mypage_content .deal_fee,
 .common_table_content .mypage_content .input_output_fee{
     margin-bottom: 50px;
