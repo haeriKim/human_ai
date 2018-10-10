@@ -105,7 +105,7 @@
                                     <div class="filebox">
                                       <input type="text" id="fileName" class="file_input_textbox" readonly >
                                       <div class="file_input_div">
-                                        <img src="img/upload2.png" alt="파일첨부"/>
+                                        <img src="img/upload.png" alt="파일첨부"/><span class="file_choice">파일선택</span>
                                           <input type="file" id="ex_filename" class="upload_hidden" multiple="multiple" onchange="javascript: document.getElementById('fileName').value = this.value"/>
                                           <a class="del_attach" onclick="delAttach(this.form)">x</a>
                                       </div>
@@ -118,7 +118,7 @@
                         </form>
 
                         <input type="submit" name="submit" value="보내기" class='send_btn'/>
-                        <input type="button" name="취소" value="취소" class="cancel_btn"/>
+                        <input type="reset" name="취소" value="취소" class="cancel_btn" onclick="aa();"/>
 
                     </div><!-- question_inner End-->
                   </div><!--question_area End-->
