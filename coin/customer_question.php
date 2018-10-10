@@ -45,7 +45,7 @@
                           <a href="#" title="1:1 문의" class='more_menu'>1:1 문의</a>
                           <dl class="nav_dropdown question_dd on">
                               <dt class="active"><a href="" title="1:1 문의하기">1:1 문의하기</a></dt>
-                              <dt><a href="customer_questionList.php" title="문의내역 확인하기">문의내역 확인하기</a></dt>
+                              <dt><a href="customer_questionList.php" title="문의내역">문의내역</a></dt>
                           </dl>
                         </li>
                         <li>
@@ -161,8 +161,8 @@
                   <div class="full_inner">
                     <h2>1:1 문의하기</h2>
                     <div class="popupbox_text">
-                      <p>1:1 문의가 등록되었습니다. 관리자 확인후 최대한 <br/>
-                         빠른 시일내에 답변드리도록 하겠습니다.</p>
+                      <p>1:1 문의가 등록되었습니다. 관리자 확인 후 최대한 <br/>
+                         빠른 시일 내에 답변드리도록 하겠습니다.</p>
                     </div>
                     <div class="cancel_or_apply">
                       <input type="button" name="" value="확인" onclick="location.href='customer_question.php'" class="cancel_btn_ok">
