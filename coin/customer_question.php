@@ -40,7 +40,7 @@
                   <div class="content_nav">
                     <h4>고객지원</h4>
                     <ul>
-                        <li><a href="" title="FAQ">FAQ</a></li>
+                        <li><a href="customer_FAQ.php" title="FAQ">FAQ</a></li>
                         <li class='on'>
                           <a href="#" title="1:1 문의" class='more_menu'>1:1 문의</a>
                           <dl class="nav_dropdown question_dd on">

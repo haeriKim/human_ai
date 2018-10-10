@@ -38,12 +38,12 @@
                   <div class="content_nav">
                     <h4>고객지원</h4>
                     <ul>
-                        <li><a href="" title="FAQ">FAQ</a></li>
+                        <li><a href="customer_FAQ.php" title="FAQ">FAQ</a></li>
                         <li class='on'>
-                          <a href="#" title="1:1 문의" class='more_menu'>1:1 문의</a>
+                          <a href="" title="1:1 문의" class='more_menu'>1:1 문의</a>
                           <dl class="nav_dropdown question_dd on">
-                              <dt><a href="" title="1:1 문의하기">1:1 문의하기</a></dt>
-                              <dt class="ative"><a href="customer_questionList.php" title="문의내역">문의내역</a></dt>
+                              <dt><a href="customer_question.php" title="1:1 문의하기">1:1 문의하기</a></dt>
+                              <dt class="active"><a href="customer_questionList.php" title="문의내역">문의내역</a></dt>
                           </dl>
                         </li>
                         <li>
@@ -87,8 +87,9 @@
                                 <br/>
                                 업비트 팀은 고객님의 오입금으로 인한 피해를 줄이기 위해 최대한 노력하고 있습니다.<br>
                                 오입금 사례별 복구를 도와드릴 수 있는 상황은 아래와 같으며, 상황에 따라 복구 작업을 위한 수수료가 발생할 수 있습니다. <br>
-
+                                <br/>
                                 **오입금 복구 지원 가능 상황**<br>
+                                <br/>
                                 1) Destination Tag나 메모을 잘못 작성한 오입금<br>
                                 2) [이더리움(ETH)을 이더리움클래식(ETC)로] 또는 [ETC를 ETH로] 잘못 전송된 경우<br>
                                 3) [ERC20을 ETC로] 또는 [ERC20을 ETH로] 또는 [ERC20을 ERC20으로] 잘못 전송된 경우<br>
