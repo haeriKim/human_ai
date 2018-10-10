@@ -101,18 +101,22 @@
                             </th>
 
                             <td class="file_inner">
-                              <input type="text" class="file_input">
                                 <form enctype="multipart/form-data">
-                                  <label class="btn-file">
-                                    <input type="file" accept="image/jpg,image/gif" class="btn-file2">
-                                  </label>
+                                  <div class="filebox">
+                                    <input type="upload_name" value="파일선택" disabled="disabled">
+
+                                    <label for="ex_filename"><img src="img/upload2.png" alt="파일추가버튼"></label>
+                                    <input type="file" id="ex_filename" class="upload_hidden">
+                                  </div>
                                 </form>
                             </td>
                           </tr>
 
                         </table>
 
+
                         <input type="submit" name="submit" value="보내기" class='send_btn'/>
+                        <input type="button" name="취소" value="취소" class="cancel_btn"/>
 
                     </div><!-- question_inner End-->
                   </div><!--question_area End-->
