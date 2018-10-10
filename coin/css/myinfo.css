@@ -68,7 +68,7 @@
     display: none;
 }
 /*1단계까지 인증시 */
-.myinfo_sub_box .change_phone_num,
+/* .myinfo_sub_box .change_phone_num,
 .myinfo_sub_box .user_name,
 .myinfo_sub_box .user_phone,
 .myinfo_sub_box .change_securityNum,
@@ -91,7 +91,7 @@
 }
 .myinfo_sub_box .level_01{
     display: inline-block;
-}
+} */
 
 /*2단계까지 인증시 */
 /* .myinfo_sub_box .change_phone_num,
@@ -180,7 +180,7 @@
 } */
 
 /*5단계까지 인증시 */
-/* .cer_center .cer_level_02 .btn_large,
+.cer_center .cer_level_02 .btn_large,
 .cer_center .cer_level_03 .btn_large,
 .cer_center .cer_level_04 .btn_large,
 .cer_center .cer_level_05 .btn_large,
@@ -202,4 +202,4 @@
 }
 .myinfo_sub_box .level_05{
     display: inline-block;
-} */
+}

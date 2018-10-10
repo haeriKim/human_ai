@@ -65,7 +65,7 @@
                   <div class="box alarm_area">
                     <h3 class="title">알림</h3>
                         <div class="alarm_inner mypage_content">
-                          <h4 class="title2">알림상세</h4>
+                          <h4 class="title2">알림 상세</h4>
                           <div class="alarm_head">
                             <select name="알림선택" id="alarm_select">
                               <option value="전체">전체</option>

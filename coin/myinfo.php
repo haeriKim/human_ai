@@ -39,19 +39,19 @@
                   <div class="content_nav">
                     <h4>마이페이지</h4>
                     <ul>
-                        <li class="active"><a href="#" title="회원정보">회원정보</a></li>
+                        <li class="active"><a href="#" title="회원 정보">회원 정보</a></li>
                         <li>
-                          <a href="#" title="회원정보관리" class='more_menu'>회원정보관리</a>
+                          <a href="#" title="회원 정보관리" class='more_menu'>회원 정보관리</a>
                           <dl class="nav_dropdown info_dd off">
-                              <dt><a href="myinfo_login_password.php" title="로그인 비밀번호 변경" >로그인 비밀번호 변경</a></dt>
-                              <dt><a href="myinfo_security_password.php" title="보안비밀번호 변경">보안비밀번호 변경</a></dt>
-                              <dt><a href="myinfo_phone.php" title="휴대폰 번호 변경">휴대폰 번호 변경</a></dt>
-                              <dt><a href="myinfo_account.php" title="계좌 변경">계좌 변경</a></dt>
+                              <dt><a href="myinfo_login_password.php" title="로그인 비밀번호변경" >로그인 비밀번호변경</a></dt>
+                              <dt><a href="myinfo_security_password.php" title="보안 비밀번호변경">보안 비밀번호변경</a></dt>
+                              <dt><a href="myinfo_phone.php" title="휴대폰 번호변경">휴대폰 번호변경</a></dt>
+                              <dt><a href="myinfo_account.php" title="계좌변경">계좌변경</a></dt>
                               <dt><a href="myinfo_OTP.php" title="OTP 변경">OTP 변경</a></dt>
                           </dl>
                         </li>
                         <li><a href="certification.php" title="인증센터">인증센터</a></li>
-                        <li><a href="track_ip_address.php" title="접속이력확인">접속이력확인</a></li>
+                        <li><a href="track_ip_address.php" title="접속 이력확인">접속 이력확인</a></li>
                         <li>
                           <a href="#" title="알림" class='more_menu'>알림</a>
                           <dl class="nav_dropdown alarm_dd off">
@@ -62,10 +62,10 @@
                     </ul>
                   </div><!-- content_nav End-->
                   <div class="box myinfo_area">
-                    <h3 class="title">회원정보</h3>
+                    <h3 class="title">회원 정보</h3>
                     <div class="myinfo_main_box mypage_content">
                       <div class="myinfo">
-                      <h4>회원정보</h4>
+                      <h4>회원 정보</h4>
                       <div class="button_box">
                         <a href="#" class="btn_small Q_and_A">1:1문의</a>
                         <a href="#" class="btn_small using_guide">이용안내</a>
@@ -112,12 +112,12 @@
                               <tbody>
                                 <tr>
                                     <th>로그인 비밀번호</th>
-                                    <td><a href="myinfo_login_password.php" class="btn_medium">로그인 비밀번호 변경</a></td>
+                                    <td><a href="myinfo_login_password.php" class="btn_medium">로그인 비밀번호변경</a></td>
                                 </tr>
                                 <tr>
                                     <th>보안비밀번호</th>
                                     <td>
-                                        <a href="myinfo_security_password.php" class="btn_medium change_securityNum">보안비밀번호 변경</a>
+                                        <a href="myinfo_security_password.php" class="btn_medium change_securityNum">보안 비밀번호변경</a>
                                         <a href="certification_security_password.php" class="btn_medium make_securityNum">보안비밀번호 생성</a>
                                     </td>
                                 </tr>
@@ -129,7 +129,7 @@
                                           <span class='user_account'>1234-*******-11-123</span>
                                       </p>
                                       <span class='no_account'>-</span>
-                                      <a href="myinfo_account.php" class="btn_medium change_accountNum">계좌 변경</a>
+                                      <a href="myinfo_account.php" class="btn_medium change_accountNum">계좌변경</a>
                                       <a href="certification_account.php" class="btn_medium certify_accountNum">계좌인증</a>
                                     </td>
                                 </tr>
@@ -137,7 +137,7 @@
                                     <th>OTP</th>
                                     <td>
                                         <span class='no_OTP'>-</span>
-                                        <a href="certification_OTP.php" class="btn_medium certify_OTP">OTP인증</a>
+                                        <a href="certification_OTP.php" class="btn_medium certify_OTP">OTP 인증</a>
                                         <a href="myinfo_OTP.php" class="btn_medium change_OTP">OTP 변경</a>
                                     </td>
                                 </tr>
@@ -197,11 +197,11 @@
                           <img src="img/lv5.png" alt="레벨5" class="lv5_on">
                           <img src="img/lv5_off.png" alt="레벨4" class="lv5_off"/>
                           <p class="img_area">
-                            <img src="img/lock.png" alt="OTP인증인증 아이콘" class="lv5_on" />
-                            <img src="img/lock_off.png" alt="OTP인증 아이콘" class="lv5_off"/>
+                            <img src="img/lock.png" alt="OTP 인증인증 아이콘" class="lv5_on" />
+                            <img src="img/lock_off.png" alt="OTP 인증 아이콘" class="lv5_off"/>
                           </p>
-                          <strong class='navy_title'>OTP인증</strong>
-                          <strong class="gray_title">OTP인증</strong>
+                          <strong class='navy_title'>OTP 인증</strong>
+                          <strong class="gray_title">OTP 인증</strong>
                           <span>실제 사용 중인<br/>OTP로 인증해주세요.</span>
                           <button class="btn_large" onclick="location.href='certification_OTP.php'" type="button">인증하기</button>
                         </li>

@@ -41,19 +41,19 @@
                   <div class="content_nav">
                     <h4>마이페이지</h4>
                     <ul>
-                        <li><a href="myinfo.php" title="회원정보">회원정보</a></li>
+                        <li><a href="myinfo.php" title="회원 정보">회원 정보</a></li>
                         <li class="on">
-                          <a href="#" title="회원정보관리" class='more_menu'>회원정보관리</a>
+                          <a href="#" title="회원 정보관리" class='more_menu'>회원 정보관리</a>
                           <dl class="nav_dropdown info_dd">
-                              <dt><a href="myinfo_login_password.php" title="로그인 비밀번호 변경" >로그인 비밀번호 변경</a></dt>
-                              <dt><a href="myinfo_security_password.php" title="보안비밀번호 변경">보안비밀번호 변경</a></dt>
-                              <dt class="active"><a href="#" title="휴대폰 번호 변경">휴대폰 번호 변경</a></dt>
-                              <dt><a href="myinfo_account.php" title="계좌 변경">계좌 변경</a></dt>
+                              <dt><a href="myinfo_login_password.php" title="로그인 비밀번호변경" >로그인 비밀번호변경</a></dt>
+                              <dt><a href="myinfo_security_password.php" title="보안 비밀번호변경">보안 비밀번호변경</a></dt>
+                              <dt class="active"><a href="#" title="휴대폰 번호변경">휴대폰 번호변경</a></dt>
+                              <dt><a href="myinfo_account.php" title="계좌변경">계좌변경</a></dt>
                               <dt><a href="myinfo_OTP.php" title="OTP 변경">OTP 변경</a></dt>
                           </dl>
                         </li>
                         <li><a href="certification.php" title="인증센터">인증센터</a></li>
-                        <li><a href="track_ip_address.php" title="접속이력확인">접속이력확인</a></li>
+                        <li><a href="track_ip_address.php" title="접속 이력확인">접속 이력확인</a></li>
                         <li>
                           <a href="#" title="알림" class='more_menu'>알림</a>
                           <dl class="nav_dropdown alarm_dd off">
@@ -64,10 +64,10 @@
                     </ul>
                   </div><!-- content_nav End-->
                   <div class="box certification_area ">
-                    <h3 class="title">회원정보관리</h3>
+                    <h3 class="title">회원 정보관리</h3>
                     <div class="myinfo_main_box cer_center mypage_content">
                       <div class="cer_center">
-                      <h4>휴대폰 번호 변경</h4>
+                      <h4>휴대폰 번호변경</h4>
                         <div class="myinfo_small_info_box">
                           <div class="myinfo_box1">
                             <strong class="user_name">가*다</strong>
@@ -96,8 +96,8 @@
                         </div>
 
                         <div class="myinfo_text_box">
-                            <p>휴대폰 번호 변경 시 번호가 초기화되며 보안등급이 <span>Level 2로 하향</span>됩니다.</p><br/>
-                            <p>휴대폰 번호 초기화 시, <span>계좌인증(Level 4) 및 OTP인증(Level 5)도 함께 초기화</span>되어 <span>재등록</span>해주셔야 합니다.</p><br/>
+                            <p>휴대폰 번호변경 시 번호가 초기화되며 보안등급이 <span>Level 2로 하향</span>됩니다.</p><br/>
+                            <p>휴대폰 번호 초기화 시, <span>계좌인증(Level 4) 및 OTP 인증(Level 5)도 함께 초기화</span>되어 <span>재등록</span>해주셔야 합니다.</p><br/>
                             <p>휴대폰 번호 재인증 전까지 거래 및 입출금이 불가능합니다.</p><br/>
                             <br/>
                             <p>위 조치는 휴대폰 도난, 피싱 등 금융 사고 예방을 위한 것으로 조금 불편하시더라도 많은 양해 부탁드립니다.</p>
@@ -130,10 +130,10 @@
             <!-- full_content -->
             <div id="popupbox" class='box popup phone_change_box'>
               <div class="full_inner">
-                <h2>휴대폰 번호 변경하기</h2>
+                <h2>휴대폰 번호변경하기</h2>
                 <div class="popupbox_text">
                   <p class="user_mail">abc@naver.com</p>
-                  <p class="small">해당 메일로 휴대폰 번호 변경 요청을 하시겠습니까?</p>
+                  <p class="small">해당 메일로 휴대폰 번호변경 요청을 하시겠습니까?</p>
                 </div>
                 <div class="cancel_or_apply">
                   <input type="button" name="" value="취소" onclick="location.href='myinfo_phone.php'" class="cancel_btn">
