@@ -110,7 +110,7 @@
                                     <tr>
                                       <td><span class="number">5</td>
                                       <td>입출금</td>
-                                      <td id="left_text">입출금 문의관련에 대해 문의 드립니다.</td>
+                                      <td id="left_text"><a href="customer_question_detail.php">입출금 문의관련에 대해 문의 드립니다.</a></td>
                                       <td>2018-10-01</td>
                                       <td class="delay">대기중</td>
                                     </tr>
@@ -118,7 +118,7 @@
                                     <tr>
                                       <td><span class="number">4</span></td>
                                       <td>매수 및 매도</td>
-                                      <td id="left_text">더올스에서 이더리움 28,0000BTH를 매수했습니다.</td>
+                                      <td id="left_text"><a href="customer_question_detail.php">더올스에서 이더리움 28,0000BTH를 매수했습니다.</a></td>
                                       <td>2018-09-12</td>
                                       <td>답변완료</td>
                                     </tr>
@@ -126,7 +126,7 @@
                                     <tr>
                                       <td><span class="number">3</td>
                                       <td>기타문의</td>
-                                      <td id="left_text">The Alls 이용약관은 어디서 볼 수 있나요?</td>
+                                      <td id="left_text"><a href="customer_question_detail.php">The Alls 이용약관은 어디서 볼 수 있나요?</a></td>
                                       <td>2018-09-05</td>
                                       <td>답변완료</td>
                                     </tr>
@@ -134,7 +134,7 @@
                                     <tr>
                                       <td><span class="number">2</span></td>
                                       <td>입출금</td>
-                                      <td id="left_text">입출금 문의관련에 대해 문의 드립니다.</td>
+                                      <td id="left_text"><a href="customer_question_detail.php">입출금 문의관련에 대해 문의 드립니다.</a></td>
                                       <td>2018-09-01</td>
                                       <td>답변완료</td>
                                     </tr>
@@ -142,7 +142,7 @@
                                     <tr>
                                       <td><span class="number">1</td>
                                       <td>계정</td>
-                                      <td id="left_text">해킹보안시스템은 어떻게 가동되고 있나요.</td>
+                                      <td id="left_text"><a href="customer_question_detail.php">해킹보안시스템은 어떻게 가동되고 있나요.</a></td>
                                       <td>2018-08-27</td>
                                       <td>답변완료</td>
                                     </tr>

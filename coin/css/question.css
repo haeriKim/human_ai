@@ -185,6 +185,9 @@
 .question_history_area .question_history_inner .question_list .delay{
   color:#EAAF69;
 }
+.question_history_area .question_history_inner .question_list a{
+  color:#666;
+}
 /*popup*/
 #full{
   display:none;
@@ -242,3 +245,86 @@
   font-size: 16px;
   cursor: pointer;
 }
+
+/*1:1문의 디테일 내용*/
+/*1:1문의 세부내용 */
+    /*1:1문의 타이틀*/
+.question_detail .question_detail_inner{
+    padding:35px 40px;
+}
+.question_detail .question_detail_inner .question_title_wrap{
+    border-bottom:2px solid #1b2f4a;
+    background: #f4f5f9;
+    padding:10px 20px;
+    overflow: hidden;
+}
+.question_detail .question_detail_inner .question_title_wrap h4{
+    color:#1b2f4a;
+    display: inline-block;
+    float: left;
+}
+.question_detail .question_detail_inner .question_title_wrap .upload_day{
+    display: inline-block;
+    float: right;
+    font-weight: 600;
+    font-size:14px;
+}
+
+    /*1:1문의 내용*/
+.question_detail .question_detail_inner .question_detail_inner_content{
+    padding: 16px 21px;
+    overflow-y: scroll;
+    height: 400px;
+}
+.question_detail .question_detail_inner .question_detail_inner_content p{
+    font-size: 14px;
+    color: #323232;
+    line-height: 1.5;
+}
+
+    /*1:1문의 목록으로, 이전글 다음글*/
+.question_detail .question_detail_inner .question_detail_footer{
+    overflow: hidden;
+}
+.question_detail .question_detail_inner .question_detail_footer .go_back_notice{
+    float: right;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #1b2f4a;
+    padding: 7px 25px;
+    font-size: 14px;
+    margin-top: 40px ;
+    font-weight: 600;
+}
+.question_detail .question_detail_inner .question_detail_footer .go_back_notice:hover{
+    background-color: rgba(27,47,74,.9);
+}
+.question_detail .question_detail_inner .question_detail_footer .question_preview{
+    margin-top:90px;
+}
+.question_detail .question_detail_inner .question_detail_footer .question_preview li{
+    border-top:1px solid #1b2f4a;
+    border-bottom:1px solid #1b2f4a;
+}
+.question_detail .question_detail_inner .question_detail_footer .question_preview li p{
+    display: inline-block;
+    padding: 8px 0;
+    color: #939393;
+    font-weight: 600;
+    font-size: 15px;
+}
+.question_detail .question_detail_inner .question_detail_footer li.next_question_title{
+    border-top:none;
+}
+.question_detail .question_detail_inner .question_detail_footer .question_preview li p.prev_img,
+.question_detail .question_detail_inner .question_detail_footer .question_preview li p.next_img{
+    background: url(../img/up.png) no-repeat 50px 15px;
+    width: 80px;
+    margin-left: 31px;
+    text-align: left;
+    color: #1b2f4a;
+}
+.question_detail .question_detail_inner .question_detail_footer .question_preview li p.next_img{
+    background: url(../img/down.png) no-repeat 50px 15px;
+}
+/*1:1문의 세부내용 End*/

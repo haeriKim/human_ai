@@ -623,7 +623,8 @@ div.cancel_or_apply .if_you_all_agree:hover{
 .fees_area,
 .faq_area,
 .question_area,
-.question_history_area {
+.question_history_area,
+.question_detail_area {
   float: left;
   width:80%;
 }
