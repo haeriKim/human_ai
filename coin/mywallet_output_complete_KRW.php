@@ -40,8 +40,10 @@
                       <!-- output_KRW_complete -->
                       <div id='output_KRW_complete' class='mywallet_complete KRW_complete'>
                           <h3>원화(KRW) 출금</h3>
-                          <p class='complete_paragraph'>출금신청이 완료되었습니다.</p>
-
+                          <div class="complete_text">
+                            <img src="img/won_down.png" alt="원화출금아이콘" class="fixing_icon">
+                            <p class='complete_paragraph'>출금신청이 완료되었습니다.</p>
+                          </div>
                           <form class="" action="#" method="post">
                               <!-- account_table_wrap -->
                               <div class="account_table_wrap">

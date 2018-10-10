@@ -40,7 +40,10 @@
                       <!-- input_KRW_complete -->
                       <div id='output_coin_complete' class='mywallet_complete coin_complete'>
                           <h3><span>비트코인(BTC)</span> 출금</h3>
-                          <p class='complete_paragraph'>출금신청이 완료되었습니다.</p>
+                          <div class="complete_text">
+                            <img src="img/coin_down.png" alt="코인입금아이콘" class="fixing_icon">
+                            <p class='complete_paragraph'>출금신청이 완료되었습니다.</p>
+                          </div>
 
                           <form class="" action="#" method="post">
                               <!-- account_table_wrap -->
