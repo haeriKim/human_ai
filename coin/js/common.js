@@ -843,3 +843,13 @@ $(function () {
 function delAttach(form) {
     document.getElementById("fileName").value = "";
 }
+
+//문의글 작성 취소 버튼
+function aa() {
+    var aa = confirm('작성하신 내용이 모두 삭제됩니다. 계속 진행하시겠습니까?');
+    if(aa==true){
+        location.href="customer_question.php";
+    }else{
+        return false;
+    }
+}
