@@ -110,7 +110,7 @@
                                     <tr>
                                       <td><span class="number">5</td>
                                       <td>입출금</td>
-                                      <td id="left_text"><a href="customer_question_detail.php">입출금 문의관련에 대해 문의 드립니다.</a></td>
+                                      <td id="left_text"><a href="customer_question_detail.php">암호화폐 송금 주소를 잘못 입력했어요.</a></td>
                                       <td>2018-10-01</td>
                                       <td class="delay">대기중</td>
                                     </tr>
