@@ -65,7 +65,8 @@
                         <div class="faq_inner mypage_content">
                           <h4 class="title2">자주찾는 질문</h4>
                           <p class="search">
-                              <select id="look_method" name="look_method">
+                              <select id="look_method" name="look_method" title="FAQ 종류">
+                                  <option value="" disabled selected="selected">FAQ 종류</option>
                                   <option value="">전체</option>
                                   <option value="">가입 및 인증 </option>
                                   <option value="">계정</option>
