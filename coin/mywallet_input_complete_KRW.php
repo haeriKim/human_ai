@@ -41,7 +41,7 @@
                       <div id='input_KRW_complete' class='mywallet_complete KRW_complete'>
                         <h3>원화(KRW) 입급</h3>
                           <div class="complete_text">
-                            <img src="img/fixing.png" alt="공사중아이콘" class="fixing_icon">
+                            <img src="img/won_up.png" alt="원화입금아이콘" class="fixing_icon">
                             <p class='complete_paragraph'>입금신청이 완료되었습니다.</p>
                           </div>
 
