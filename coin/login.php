@@ -18,9 +18,9 @@
 </head>
 <body>
     <!-- wrap -->
-    <div id="onepage_wrap">
+    <div id="wrap">
         <!-- container -->
-        <div id="onepage_container">
+        <div id="container">
 
             <!-- nav_wrap -->
             <?php include "nav.php";?>
@@ -33,7 +33,7 @@
             <!-- content_wrap -->
             <div class="content_wrap">
                 <!-- main_content -->
-                <div class="content login_content">
+                <div class="content login_content" id="content">
                   <div class="box con_410">
                     <!-- 로그인폼 -->
                     <div id="login_area">

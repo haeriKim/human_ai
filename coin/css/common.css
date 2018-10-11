@@ -17,24 +17,20 @@
     clear: both;
 }
 
-#onepage_wrap{
+/* #onepage_wrap{
   width:100%;
   position:relative;
   min-width: 1280px;
   height:100%;
   overflow-y:hidden;
-}
-#onepage_container{
+} */
+/* #onepage_container{
   width:100%;
   height:100%;
-  position: absolute;
-  top:0;
-  left:0;
-  overflow-x: hidden;
 }
 #onepage_container .content {
   overflow-x: hidden;
-}
+} */
 
 .content_wrap{
   overflow: auto;

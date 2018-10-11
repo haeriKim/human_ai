@@ -34,7 +34,7 @@
             <!-- content_wrap -->
             <div class="content_wrap">
                 <!-- main_content -->
-                <div class="content notice_content con_1000">
+                <div class="content notice_content con_1000" id="content">
 
                   <div class="box notice_area">
                     <h3 class="title">공지사항</h3>
