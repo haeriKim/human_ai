@@ -385,6 +385,7 @@ border-color:  transparent transparent #eaaf69 transparent;
   color:#666;
   font-weight:600;
   top:10px;
+  border:none;
 }
 .question_detail .question_detail_inner .question_detail_inner_content textarea:after{
   content: "";
