@@ -318,21 +318,9 @@ $(document).ready(function(){
 
     // 입출금 완료에서 입출금내역 버튼 클릭시
     $(".viewList").click(function (){
-      $("#wrap").load("mycoin_sub.php", function() {
-        $("ul.tabs3 li").removeClass("active2");
-        $(this).addClass("active2");
-        $(".KRW_conclu_table").hide();
-        var activeTab = $(this).attr("rel");
+      location.href="exchange.php";
 
-        if(activeTab == "input_bitcoin" || activeTab == "output_bitcoin" || activeTab == "input_KRW" || activeTab == "output_KRW"){
-            $("#" + activeTab).show();
-            $("#io_list").hide();
-        }else{
-            $("#io_list").show();
-        }
       });
-    });
-
 });
 
 
@@ -896,31 +884,4 @@ $(document).ready(function(){
   $(".cancel_btn3").click(function(){
     $("#full2").hide();
   });
-});
-
-/*FAQ 토글*/
-$(document).ready(function(){
-    $('.faq_ul li div.answer').hide();
-    $('.faq_ul li p.question').click(function(e){
-        e.preventDefault();
-        // if($(this).next().css('display')=='none'){
-        //     $('.faq_ul li div.answer').slideUp();
-        // }
-        //     $(this).next().stop().slideToggle();
-        $(this).next().stop().slideToggle();
-
-    })
-})
-/*FAQ select한 콘텐츠만 보이기*/
-$(document).ready(function(){
-    $(".faq_inner #look_method").change(function(e){
-        e.preventDefault();
-        var state = $(this).val();
-        if(state =="all"){
-            $(".faq_section").show();
-        }else{
-            $(".faq_section").hide();
-            $("." + state).show();
-        }
-    });
 });

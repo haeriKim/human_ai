@@ -77,7 +77,7 @@
                                   <p class='money_account'>11,000,000<span>BTC</span></p>
                               </div>
                               <div class="button_group">
-                                  <input type="submit" name="submit" value="입출금 내역보기" class='viewList button_style'/>
+                                  <input type="button" name="submit" value="거래소 바로가기" class='viewList button_style'/>
                               </div>
                           </form>
                       </div><!-- output_coin_complete End-->
