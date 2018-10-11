@@ -916,16 +916,24 @@ $(document).ready(function(){
 
 /*FAQ 토글*/
 $(document).ready(function(){
-    $('.faq_ul li div.answer').hide();
-    $('.faq_ul li p.question').click(function(e){
-        e.preventDefault();
-        // if($(this).next().css('display')=='none'){
-        //     $('.faq_ul li div.answer').slideUp();
-        // }
-        //     $(this).next().stop().slideToggle();
-        $(this).next().stop().slideToggle();
-
-    })
+    $('.faq_ul .answer').hide();
+    var acodian = {
+      click: function(target) {
+        var $target = $(target);
+        $target.on('click', function() {
+          if ($(this).hasClass('on')) {
+            slideUp($target);
+          } else {
+            slideUp($target);
+            $(this).addClass('on').next().slideDown();
+          }
+          function slideUp($target) {
+            $target.removeClass('on').next().slideUp();
+          }
+        });
+      }
+    };
+    acodian.click('.faq_ul li .question');
 })
 /*FAQ select한 콘텐츠만 보이기*/
 $(document).ready(function(){
