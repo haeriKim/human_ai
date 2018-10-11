@@ -562,6 +562,34 @@ $(document).ready(function(){
       }
   	}).scroll();
 
+    function navResize(){
+        var win_h = $(document).height();
+
+        var comp_h = win_h -135;
+          // console.log(win_h);
+        var content = document.getElementById("container");
+        var con_h = $(content).height();
+
+        if(win_w>768){
+
+            if(comp_h<con_h){
+                content.style.height= "auto";
+                  console.log("bb");
+            }else{
+                content.style.height = win_h-165+"px";
+                  console.log("cc");
+            }
+        }else{
+          console.log("Aa");
+            content.style.height = "auto";
+        }
+    }
+
+    navResize();
+
+    window.onresize= function(){
+        navResize();
+    };
   });
 
   /*계좌등록체크박스*/
@@ -885,3 +913,37 @@ $(document).ready(function(){
     $("#full2").hide();
   });
 });
+
+/*FAQ 토글*/
+$(document).ready(function(){
+    $('.faq_ul li div.answer').hide();
+    $('.faq_ul li p.question').click(function(e){
+        e.preventDefault();
+        // if($(this).next().css('display')=='none'){
+        //     $('.faq_ul li div.answer').slideUp();
+        // }
+        //     $(this).next().stop().slideToggle();
+        $(this).next().stop().slideToggle();
+
+    })
+})
+/*FAQ select한 콘텐츠만 보이기*/
+$(document).ready(function(){
+    $(".faq_inner #look_method").change(function(e){
+        e.preventDefault();
+        var state = $(this).val();
+        if(state =="all"){
+            $(".faq_section").show();
+        }else{
+            $(".faq_section").hide();
+            $("." + state).show();
+        }
+    });
+});
+
+//화면 높이값 조절
+
+
+// window.onresize= function(){
+//     navResize();
+// };
