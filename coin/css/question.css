@@ -380,12 +380,10 @@ border-color:  transparent transparent #eaaf69 transparent;
   height:200px;
   text-align:left;
   border-radius: 5px;
-  background:#ccc;
   position:relative;
   color:#666;
-  font-weight:600;
   top:10px;
-  border:none;
+  border:1px solid #1b2f4a;
 }
 .question_detail .question_detail_inner .question_detail_inner_content textarea:after{
   content: "";
