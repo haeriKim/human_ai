@@ -153,8 +153,9 @@
                             <br/>
 
                             <div class="malpungsun_story">
-                              <textarea placeholder="더 궁금한 사항이 있으시다면 여기에 적어주세요." class="malpungsun_text"></textarea>
-
+                              <from>
+                              <textarea placeholder="더 궁금한 사항이 있으시다면 여기에 적어주세요." required class="malpungsun_text"></textarea>
+                              </from>
                               <div class="filebox2">
                                 <input type="text" id="fileName" class="file_input_textbox2" readonly >
                                 <div class="file_input_div2">
@@ -164,7 +165,10 @@
                                 </div>
                               </div>
 
-                              <input type="submit" value="올리기" class="question_submit">
+
+                              <input type="submit" name="name" value="올리기" class="question_submit">
+                            
+
                             </div>
                         </div>
 

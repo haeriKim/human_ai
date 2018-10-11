@@ -117,6 +117,7 @@
 
                           </table>
                         </form>
+                      
 
                         <div class="question_button">
                           <input type="reset" name="취소" value="취소" class="question_cancel"/>
