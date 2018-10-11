@@ -42,7 +42,7 @@
                           <h3>원화(KRW) 출금</h3>
                           <div class="complete_text">
                             <img src="img/won_down.png" alt="원화출금아이콘" class="fixing_icon">
-                            <p class='complete_paragraph'>출금신청이 완료되었습니다.</p>
+                            <p class='complete_paragraph'>출금 신청이 완료되었습니다.</p>
                           </div>
                           <form class="" action="#" method="post">
                               <!-- account_table_wrap -->
@@ -75,11 +75,11 @@
                               </div><!-- account_table_wrap End-->
 
                               <div class="send_info_01">
-                                  <p class='input_money'>출금금액</p>
+                                  <p class='input_money'>출금 금액</p>
                                   <p class='money_account'>11,000,000<span>KRW</span></p>
                               </div>
                               <div class="button_group">
-                                  <input type="submit" name="submit" value="입출금 내역보기" class='look_input_output_list button_style'/>
+                                  <input type="submit" name="submit" value="입출금 내역보기" class='viewList button_style'/>
                               </div>
                           </form>
                       </div><!-- output_KRW_complete End-->

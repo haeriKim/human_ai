@@ -315,6 +315,24 @@ $(document).ready(function(){
         $(".KRW_conclu_table:first").show();
       }
     });
+
+    // 입출금 완료에서 입출금내역 버튼 클릭시
+    $(".viewList").click(function (){
+      $("#wrap").load("mycoin_sub.php", function() {
+        $("ul.tabs3 li").removeClass("active2");
+        $(this).addClass("active2");
+        $(".KRW_conclu_table").hide();
+        var activeTab = $(this).attr("rel");
+
+        if(activeTab == "input_bitcoin" || activeTab == "output_bitcoin" || activeTab == "input_KRW" || activeTab == "output_KRW"){
+            $("#" + activeTab).show();
+            $("#io_list").hide();
+        }else{
+            $("#io_list").show();
+        }
+      });
+    });
+
 });
 
 
@@ -847,15 +865,7 @@ function delAttach(form) {
     document.getElementById("fileName").value = "";
 }
 
-//문의글 작성 취소 버튼
-function aa() {
-    var aa = confirm('작성하신 내용이 모두 삭제됩니다. 계속 진행하시겠습니까?');
-    if(aa==true){
-        location.href="customer_question.php";
-    }else{
-        return false;
-    }
-};
+
 //1:1문의 확인,취소 팝업
 
 //보내기버튼
