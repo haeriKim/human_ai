@@ -107,7 +107,7 @@
 
                             <br/>
                               <div class="question_ID">
-                                <img src="img/sudal.png" alt="수달"><p>가*다, abc@naver.com - <strong>보고됨 3분전</strong></p>
+                                <img src="img/sudal.png" alt="수달"><p>가*다, abc@naver.com - <strong>3분전</strong></p>
                               </div>
                             <br/>
 
@@ -148,12 +148,14 @@
                             <br/>
                               <div class="question_ID">
                                 <img src="img/sudal.png" alt="수달"><p>가*다, abc@naver.com</p>
-                                <span>올리기</span>
+
                               </div>
                             <br/>
 
-                            <textarea value="이 티켓에 응답하려면 여기를 클릭하십시오." placeholder="문의에 응답하려면 여기를 클릭하세요." class="malpungsun_text"></textarea>
-
+                            <div class="malpungsun_story">
+                              <textarea placeholder="더 궁금한 사항이 있으시다면 여기에 적어주세요." class="malpungsun_text"></textarea>
+                              <span>올리기</span>
+                            </div>
                         </div>
 
                         <!--<div class="question_detail_inner_as">

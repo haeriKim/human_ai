@@ -254,7 +254,6 @@
 }
 .question_detail .question_detail_inner .question_title_wrap{
     border-bottom:2px solid #1b2f4a;
-    background: #f4f5f9;
     padding:10px 20px;
     overflow: hidden;
 }
@@ -273,8 +272,6 @@
     /*1:1문의 내용*/
 .question_detail .question_detail_inner .question_detail_inner_content{
     padding: 16px 21px;
-    overflow-y: scroll;
-    height: 600px;
 }
 .question_detail .question_detail_inner .question_detail_inner_content p{
   font-size: 14px;
@@ -283,7 +280,7 @@
   font-weight:600;
 }
 .question_detail .question_detail_inner .question_detail_inner_content div{
-  width:820px;
+  width:870px;
   height:50px;
 }
 /*-----------------------------------------------------------------------------------------*/
@@ -296,21 +293,6 @@
 .question_detail .question_detail_inner .question_detail_inner_content .question_ID p{
   float:left;
   margin-left:5px;
-}
-.question_detail .question_detail_inner .question_detail_inner_content .question_ID span{
-  float:left;
-  padding: 2px 10px;
-  margin: 0 2px;
-  background-color: white;
-  color: #1b2f4a;
-  border: 1px solid #1b2f4a;
-  cursor: pointer;
-  margin-left:10px;
-  display:block;
-}
-.question_detail .question_detail_inner .question_detail_inner_content .question_ID span:hover{
-  color:white;
-  background-color: #1b2f4a;
 }
 /*-----------------------------------------------------------------------------------------*/
 .question_detail .question_detail_inner .question_detail_inner_content .question_admin{
@@ -329,7 +311,7 @@
 .question_detail .question_detail_inner .question_detail_inner_content .malpungsun_question{
   font-size:15px;
   padding:10px 10px;
-  width:800px;
+  width:850px;
   text-align:left;
   border-radius: 5px;
   background:#ccc;
@@ -352,7 +334,7 @@ border-color:  transparent transparent #ccc transparent;
 .question_detail .question_detail_inner .question_detail_inner_content .malpungsun_answer{
   font-size:15px;
   padding:10px 10px;
-  width:800px;
+  width:850px;
   text-align:left;
   border-radius: 5px;
   background:#EAAF69;
@@ -372,15 +354,56 @@ border-width: 7px;
 border-style: solid;
 border-color:  transparent transparent #eaaf69 transparent;
 }
-
-.question_detail .question_detail_inner .question_detail_inner_content textarea{
+.question_detail .question_detail_inner .question_detail_inner_content .malpungsun_story{
   font-size:15px;
   padding:10px 10px;
-  width:800px;
+  width:850px;
+  height:270px;
+  text-align:left;
+  border-radius: 5px;
+  background:#ccc;
+  position:relative;
+  top:10px;
+  color:#fff;
+  font-weight:600;
+  clear:both;
+}
+.question_detail .question_detail_inner .question_detail_inner_content .malpungsun_story:after{
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 2%;
+  margin-left: 5px;
+  border-width: 7px;
+  border-style: solid;
+  border-color:  transparent transparent #ccc transparent;
+}
+.question_detail .question_detail_inner .question_detail_inner_content .malpungsun_story span{
+  float:left;
+  padding: 2px 10px;
+  margin: 0 2px;
+  background-color: white;
+  color: #1b2f4a;
+  border: 1px solid #1b2f4a;
+  cursor: pointer;
+  margin-left:10px;
+  display:block;
+  position:absolute;
+  top:250px;
+  right:10px;
+}
+.question_detail .question_detail_inner .question_detail_inner_content .malpungsun_story span:hover{
+  color:white;
+  background-color: #1b2f4a;
+}
+.question_detail .question_detail_inner .question_detail_inner_content textarea{
+  font-size:15px;
+  padding:10px 6px;
+  width:835px;
   height:200px;
   text-align:left;
   border-radius: 5px;
-  position:relative;
+  position:absolute;
   color:#666;
   top:10px;
   border:1px solid #1b2f4a;
