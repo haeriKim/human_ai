@@ -16,7 +16,6 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/common.js"></script>
-    <script src="js/common_02.js"></script>
     <script src="js/fouc.js"></script>
 </head>
 <body>
@@ -67,149 +66,195 @@
                           <h4 class="title2">자주 찾는 질문</h4>
                           <p class="search">
                               <select id="look_method" name="look_method" title="FAQ 종류">
-                                  <option value="" disabled selected="selected">FAQ 종류</option>
-                                  <option value="">전체</option>
-                                  <option value="">가입 및 인증 </option>
-                                  <option value="">계정</option>
-                                  <option value="">입출금</option>
-                                  <option value="">매수 및 매도</option>
+                                  <option value="all">FAQ 전체</option>
+                                  <option value="faq_list_join_cer">가입 및 인증 </option>
+                                  <option value="faq_list_account">계정</option>
+                                  <option value="faq_list_depo_withd">입출금</option>
+                                  <option value="faq_list_buy_sell">매수 및 매도</option>
                               </select>
                               <input type="text" title="검색영역" placeholder="검색어를 입력하세요"/>
                               <a class="search_btn" href="#" title="검색버튼"><img src="img/search.png" alt="검색버튼"/></a>
                           </p>
                           <div class="faq_list">
-                            <h5>[ 가입 및 인증 ]</h5>
-                            <ul class="faq_ul faq_list_join_cer">
-                              <li>
-                                  <p class="question">
-                                    <img src="img/question.png" alt="물음표">
-                                    <span>미성년자도 가입 및 거래가 가능한가요?</span>
-                                  </p>
-                                  <div class="answer">
-                                    <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
-                                    (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
-                                  </div>
-                              </li>
-                              <li>
-                                  <p class="question">
-                                    <img src="img/question.png" alt="물음표">
-                                    <span>미성년자도 가입 및 거래가 가능한가요?</span>
-                                  </p>
-                                  <div class="answer">
-                                    <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
-                                    (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
-                                  </div>
-                              </li>
-                              <li>
-                                  <p class="question">
-                                    <img src="img/question.png" alt="물음표">
-                                    <span>미성년자도 가입 및 거래가 가능한가요?</span>
-                                  </p>
-                                  <div class="answer">
-                                    <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
-                                    (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
-                                  </div>
-                              </li>
-                            </ul><!-- faq리스트 가입 및 인증 END-->
-                            <h5>[ 계정 ]</h5>
-                            <ul class="faq_ul faq_list_account">
-                              <li>
-                                  <p class="question">
-                                    <img src="img/question.png" alt="물음표">
-                                    <span>미성년자도 가입 및 거래가 가능한가요?</span>
-                                  </p>
-                                  <div class="answer">
-                                    <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
-                                    (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
-                                  </div>
-                              </li>
-                              <li>
-                                  <p class="question">
-                                    <img src="img/question.png" alt="물음표">
-                                    <span>미성년자도 가입 및 거래가 가능한가요?</span>
-                                  </p>
-                                  <div class="answer">
-                                    <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
-                                    (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
-                                  </div>
-                              </li>
-                              <li>
-                                  <p class="question">
-                                    <img src="img/question.png" alt="물음표">
-                                    <span>미성년자도 가입 및 거래가 가능한가요?</span>
-                                  </p>
-                                  <div class="answer">
-                                    <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
-                                    (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
-                                  </div>
-                              </li>
-                            </ul><!-- faq리스트 계정 END-->
-                            <h5 class='candidate_03'>입출금</h5>
-                            <ul class="faq_ul faq_list_depo_withd">
-                              <li>
-                                  <p class="question">
-                                    <img src="img/question.png" alt="물음표">
-                                    <span>미성년자도 가입 및 거래가 가능한가요?</span>
-                                  </p>
-                                  <div class="answer">
-                                    <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
-                                    (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
-                                  </div>
-                              </li>
-                              <li>
-                                  <p class="question">
-                                    <img src="img/question.png" alt="물음표">
-                                    <span>미성년자도 가입 및 거래가 가능한가요?</span>
-                                  </p>
-                                  <div class="answer">
-                                    <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
-                                    (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
-                                  </div>
-                              </li>
-                              <li>
-                                  <p class="question">
-                                    <img src="img/question.png" alt="물음표">
-                                    <span>미성년자도 가입 및 거래가 가능한가요?</span>
-                                  </p>
-                                  <div class="answer">
-                                    <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
-                                    (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
-                                  </div>
-                              </li>
-                            </ul><!-- faq리스트 입출금 END-->
-                            <h5>[ 매수 및 매도 ]</h5>
-                            <ul class="faq_ul faq_list_buy_sell">
-                              <li>
-                                  <p class="question">
-                                    <img src="img/question.png" alt="물음표">
-                                    <span>미성년자도 가입 및 거래가 가능한가요?</span>
-                                  </p>
-                                  <div class="answer">
-                                    <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
-                                    (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
-                                  </div>
-                              </li>
-                              <li>
-                                  <p class="question">
-                                    <img src="img/question.png" alt="물음표">
-                                    <span>미성년자도 가입 및 거래가 가능한가요?</span>
-                                  </p>
-                                  <div class="answer">
-                                    <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
-                                    (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
-                                  </div>
-                              </li>
-                              <li>
-                                  <p class="question">
-                                    <img src="img/question.png" alt="물음표">
-                                    <span>미성년자도 가입 및 거래가 가능한가요?</span>
-                                  </p>
-                                  <div class="answer">
-                                    <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
-                                    (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
-                                  </div>
-                              </li>
-                            </ul><!-- faq리스트 매도매수 END-->
+                            <section class='faq_list_join_cer faq_section'>
+                                <h5>[ 가입 및 인증 ]</h5>
+                                <ul class="faq_ul">
+                                  <li>
+                                      <p class="question">
+                                        <img src="img/q1.png" alt="질문">
+                                        <span>미성년자도 가입 및 거래가 가능한가요?</span>
+                                        <img src="img/arrow_off_01.png" alt="" class='arrow_off arrow'>
+                                        <img src="img/arrow_on_01.png" alt="" class='arrow_on arrow'>
+                                      </p>
+                                      <div class="answer">
+                                        <img src="img/a1.png" alt="답변">
+                                        <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
+                                        (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <p class="question">
+                                        <img src="img/q2.png" alt="질문">
+                                        <span>미성년자도 가입 및 거래가 가능한가요?</span>
+                                        <img src="img/arrow_off_01.png" alt="" class='arrow_off arrow'>
+                                        <img src="img/arrow_on_01.png" alt="" class='arrow_on arrow'>
+                                      </p>
+                                      <div class="answer">
+                                        <img src="img/a2.png" alt="답변">
+                                        <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
+                                        (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <p class="question">
+                                        <img src="img/q1.png" alt="질문">
+                                        <span>미성년자도 가입 및 거래가 가능한가요?</span>
+                                        <img src="img/arrow_off_01.png" alt="" class='arrow_off arrow'>
+                                        <img src="img/arrow_on_01.png" alt="" class='arrow_on arrow'>
+                                      </p>
+                                      <div class="answer">
+                                        <img src="img/a3.png" alt="답변">
+                                        <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
+                                        (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
+                                      </div>
+                                  </li>
+                                </ul><!-- faq리스트 가입 및 인증 END-->
+                            </section>
+
+                            <section class='faq_list_account faq_section'>
+                                <h5>[ 계정 ]</h5>
+                                <ul class="faq_ul">
+                                  <li>
+                                      <p class="question">
+                                        <img src="img/q2.png" alt="질문">
+                                        <span>미성년자도 가입 및 거래가 가능한가요?</span>
+                                        <img src="img/arrow_off_01.png" alt="" class='arrow_off arrow'>
+                                        <img src="img/arrow_on_01.png" alt="" class='arrow_on arrow'>
+                                      </p>
+                                      <div class="answer">
+                                        <img src="img/a4.png" alt="답변">
+                                        <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
+                                        (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <p class="question">
+                                        <img src="img/q1.png" alt="질문">
+                                        <span>미성년자도 가입 및 거래가 가능한가요?</span>
+                                        <img src="img/arrow_off_01.png" alt="" class='arrow_off arrow'>
+                                        <img src="img/arrow_on_01.png" alt="" class='arrow_on arrow'>
+                                      </p>
+                                      <div class="answer">
+                                        <img src="img/a5.png" alt="답변">
+                                        <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
+                                        (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <p class="question">
+                                        <img src="img/q2.png" alt="질문">
+                                        <span>미성년자도 가입 및 거래가 가능한가요?</span>
+                                        <img src="img/arrow_off_01.png" alt="" class='arrow_off arrow'>
+                                        <img src="img/arrow_on_01.png" alt="" class='arrow_on arrow'>
+                                      </p>
+                                      <div class="answer">
+                                        <img src="img/a6.png" alt="답변">
+                                        <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
+                                        (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
+                                      </div>
+                                  </li>
+                                </ul><!-- faq리스트 계정 END-->
+                            </section>
+
+                            <section class='faq_list_depo_withd faq_section'>
+                                <h5 class='candidate_03'>입출금</h5>
+                                <ul class="faq_ul">
+                                  <li>
+                                      <p class="question">
+                                        <img src="img/q1.png" alt="질문">
+                                        <span>미성년자도 가입 및 거래가 가능한가요?</span>
+                                        <img src="img/arrow_off_01.png" alt="" class='arrow_off arrow'>
+                                        <img src="img/arrow_on_01.png" alt="" class='arrow_on arrow'>
+                                      </p>
+                                      <div class="answer">
+                                        <img src="img/a7.png" alt="답변">
+                                        <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
+                                        (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <p class="question">
+                                        <img src="img/q2.png" alt="질문">
+                                        <span>미성년자도 가입 및 거래가 가능한가요?</span>
+                                        <img src="img/arrow_off_01.png" alt="" class='arrow_off arrow'>
+                                        <img src="img/arrow_on_01.png" alt="" class='arrow_on arrow'>
+                                      </p>
+                                      <div class="answer">
+                                        <img src="img/a8.png" alt="답변">
+                                        <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
+                                        (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <p class="question">
+                                        <img src="img/q1.png" alt="질문">
+                                        <span>미성년자도 가입 및 거래가 가능한가요?</span>
+                                        <img src="img/arrow_off_01.png" alt="" class='arrow_off arrow'>
+                                        <img src="img/arrow_on_01.png" alt="" class='arrow_on arrow'>
+                                      </p>
+                                      <div class="answer">
+                                        <img src="img/a1.png" alt="답변">
+                                        <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
+                                        (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
+                                      </div>
+                                  </li>
+                                </ul><!-- faq리스트 입출금 END-->
+                            </section>
+
+                            <section class='faq_list_buy_sell faq_section'>
+                                <h5>[ 매수 및 매도 ]</h5>
+                                <ul class="faq_ul">
+                                  <li>
+                                      <p class="question">
+                                        <img src="img/q1.png" alt="질문">
+                                        <span>미성년자도 가입 및 거래가 가능한가요?</span>
+                                        <img src="img/arrow_off_01.png" alt="" class='arrow_off arrow'>
+                                        <img src="img/arrow_on_01.png" alt="" class='arrow_on arrow'>
+                                      </p>
+                                      <div class="answer">
+                                        <img src="img/a3.png" alt="답변">
+                                        <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
+                                        (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <p class="question">
+                                        <img src="img/q2.png" alt="물음표">
+                                        <span>미성년자도 가입 및 거래가 가능한가요?</span>
+                                        <img src="img/arrow_off_01.png" alt="" class='arrow_off arrow'>
+                                        <img src="img/arrow_on_01.png" alt="" class='arrow_on arrow'>
+                                      </p>
+                                      <div class="answer">
+                                        <img src="img/a4.png" alt="답변">
+                                        <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
+                                        (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <p class="question">
+                                        <img src="img/q1.png" alt="질문">
+                                        <span>미성년자도 가입 및 거래가 가능한가요?</span>
+                                        <img src="img/arrow_off_01.png" alt="" class='arrow_off arrow'>
+                                        <img src="img/arrow_on_01.png" alt="" class='arrow_on arrow'>
+                                      </p>
+                                      <div class="answer">
+                                        <img src="img/a7.png" alt="답변">
+                                        <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
+                                        (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
+                                      </div>
+                                  </li>
+                                </ul><!-- faq리스트 매도매수 END-->
+                            </section>
                           </div><!--faq_list End-->
                         </div><!--faq_inner End-->
                   </div><!--faq_area End-->
