@@ -70,7 +70,7 @@
                         </div>
 
                         <div class="question_detail_inner_content">
-                            <p>
+                            <!--<p>
 
                                 제목 그대로 비트코인 출금에서 주소를 잘못 입력했어요.<br/>
                                 <br/>
@@ -103,26 +103,81 @@
                                 <br/>
                                 *복구 작업을 진행하는 경우에도 기술적 문제로 모든 오입금 금액이 복구되지 않을 수 있으니, 송금시 주소 확인을 꼭 당부드립니다.<br>
                                 <br>
+                            </p>-->
+
+                            <br/>
+                              <div class="question_ID">
+                                <img src="img/sudal.png" alt="수달"><p>가*다, abc@naver.com - <strong>보고됨 3분전</strong></p>
+                              </div>
+                            <br/>
+
+                            <p class="malpungsun_question">암호화폐 출금 주소를 오입력 했는데 어떡하죠</p>
+
+                            <br/>
+                              <div class="question_admin">
+                                <img src="img/hosike.png" alt="수달"><p>The Alls Supporter 호식이 - <strong>방금</strong></p>
+                              </div>
+                            <br/>
+
+                            <p class="malpungsun_answer">안녕하세요. 가*다 고객님<br/>
+                              <br/>
+                              The Alls를 이용해 주셔서 감사합니다.<br/>
+                              <br/>
+                              [암호화폐 출금 시 오입력]<br/>
+                              암호화폐의 특성상 출금 신청이 완료되면 취소할 수 없으니, 송금 전 주소를 꼭 확인해 주세요.<br/>
+                              주소 오입력 시 송금이 정상적으로 이루어지지 않아 소중한 고객님의 자산을 잃을 수 있습니다.<br/>
+                              송금신청 완료 이후의 송금 과정은 블록체인 네트워크에서 처리되며, 이 과정에서 발생하는 문제는 업비트에서 처리할 수 없습니다.<br/>
+                              <br/>
+                              [암호화폐 입금 시 오입력] <br/>
+                              업비트 팀은 고객님의 오입금으로 인한 피해를 줄이기 위해 최대한 노력하고 있습니다.<br/>
+                              오입금 사례별 복구를 도와드릴 수 있는 상황은 아래와 같으며, 상황에 따라 복구 작업을 위한 수수료가 발생할 수 있습니다. <br/>
+                              <br/>
+                              **오입금 복구 지원 가능 상황**<br/>
+                              1) Destination Tag나 메모을 잘못 작성한 오입금<br/>
+                              2) [이더리움(ETH)을 이더리움클래식(ETC)로] 또는 [ETC를 ETH로] 잘못 전송된 경우<br/>
+                              3) [ERC20을 ETC로] 또는 [ERC20을 ETH로] 또는 [ERC20을 ERC20으로] 잘못 전송된 경우<br/>
+                              4) ICO를 참여하여 코인/토큰을 업비트 ETH 핫월렛으로 잘못 전송된 경우<br/>
+                              5) BTC, BCH, LTC 오입금의 경우<br/>
+                              <br/>
+                              위의 경우에는 다음 공지사항을 참고해 복구 신청을 해주시길 바랍니다. (업비트 오입금 안내 보기)<br/>
+                              <br/>
+                              *복구 작업을 진행하는 경우에도 기술적 문제로 모든 오입금 금액이 복구되지 않을 수 있으니, 송금시 주소 확인을 꼭 당부드립니다.<br/>
+
                             </p>
+
+                            <br/>
+                              <div class="question_ID">
+                                <img src="img/sudal.png" alt="수달"><p>가*다, abc@naver.com</p>
+                                <span>올리기</span>
+                              </div>
+                            <br/>
+
+                            <textarea value="이 티켓에 응답하려면 여기를 클릭하십시오." placeholder="문의에 응답하려면 여기를 클릭하세요." class="malpungsun_text"></textarea>
+
                         </div>
+
+                        <!--<div class="question_detail_inner_as">
+                            <p>이 문의를 담당한 에이전트</p>
+                            <br/>
+                            <p><img src="img/hosike.png" alt="호식이">호식이</p>
+                            <br/>
+
+                            <h4>문의 세부사항</h4>
+                            <p>문의 유형</p>
+                              <select name="유형" id="question_select2">문의유형
+                                <option value="">가입 및 인증</option>
+                                <option value="">계정</option>
+                                <option value="">입출금</option>
+                                <option value="">매수 및 매도</option>
+                                <option value="">기타문의</option>
+                              </select>
+                        </div>-->
 
                         <div class="question_detail_footer">
                             <a href="customer_questionList.php" class='go_back_notice'>목록으로</a>
-                            <ul class="question_preview">
-                                <li class='prev_question_title'>
-                                    <a href='#'>
-                                        <p class='prev_img'>이전글</p>
-                                        <p>[거래] 더올스에서 이더리움 28,0000BTH를 매수했습니다.</p>
-                                    </a>
-                                </li>
-                                <li class='next_question_title'>
-                                    <a href='#'>
-                                        <p class='next_img'>다음글</p>
-                                        <p>[기타문의] The Alls 이용약관은 어디서 볼 수 있나요?</p>
-                                    </a>
-                                </li>
-                            </ul>
                         </div>
+
+
 
                     </div><!-- notice_detail_inner END -->
                   </div><!-- notice_detail End-->
