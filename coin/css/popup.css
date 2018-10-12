@@ -40,7 +40,7 @@
 #full_content ul li{
     margin:10px 0;
     line-height: 1.4;
-    color:#222;
+    color:#1b2f4a;
     background: url('../img/check.png') no-repeat 0 3px / 20px ;
     padding-left:25px;
     font-weight:600;
@@ -284,7 +284,9 @@
   color: #666;
   font-size: 14px;
 }
-
+.popup a.join_btn:hover {
+  color: #c95b74;
+}
 /* 주소복사 팝업 */
 #qustion_mark_active_full .copy_pop .popupbox_text b {
   color: #ff0000;
@@ -368,4 +370,10 @@
 #popupbox .warning_icon{
   margin-right:2px;
   vertical-align: -3px;
+}
+
+/* 보유코인 유의사항 */
+#question_mark_active p span.popup_important {
+  color: #1b2f4a;
+  font-weight: 600;
 }

@@ -107,7 +107,7 @@
 
                             <br/>
                               <div class="question_ID">
-                                <img src="img/sudal.png" alt="수달"><p><span class="user_name">가*다</span>, <span class="user_mail">abc@naver.com</span> - <strong>3분전</strong></p>
+                                <img src="img/profile_navy.png" alt="유저 아이콘"><p><span class="user_name">가*다</span>, <span class="user_mail">abc@naver.com</span> - <strong>3분전</strong></p>
                               </div>
                             <br/>
 
@@ -115,7 +115,7 @@
 
                             <br/>
                               <div class="question_admin">
-                                <img src="img/hosike.png" alt="수달"><p>The Alls Supporter 호식이 - <strong>방금</strong></p>
+                                <img src="img/profile_pink.png" alt="관리자 아이콘"><p>The Alls 관리자 - <strong>방금</strong></p>
                               </div>
                             <br/>
 
@@ -147,7 +147,7 @@
 
                             <br/>
                               <div class="question_ID">
-                                <img src="img/sudal.png" alt="수달"><p><span class="user_name">가*다</span>, <span class="user_mail">abc@naver.com</span></p>
+                                <img src="img/profile_navy.png" alt="유저 아이콘"><p><span class="user_name">가*다</span>, <span class="user_mail">abc@naver.com</span></p>
 
                               </div>
                             <br/>

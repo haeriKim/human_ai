@@ -44,7 +44,9 @@
                             <p>비밀번호 요건이 충족하지 않습니다.</p>
                             <div class="question_smallbox"><img src="img/question.png">
                               <div class="password_question_detail">
-                                    안전한 비밀번호 작성 법<br />
+                                    <strong>
+                                      안전한 비밀번호 작성 법
+                                    </strong>
                                     - 비밀번호는 영문 소문자, 대문자, 숫자, 특수문자를 포함하여 10자리 이상으로 만드셔야 합니다. <br />
                                     - 비밀번호는 최대한 길게 작성해주세요.<br />
                                     - 단, 허용되는 특수문자(~!@#$%^*)외 다른 특수문자는 사용할 수 없습니다.<br />

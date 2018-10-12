@@ -52,24 +52,18 @@
   text-align: center;
   margin-top: 30px;
 }
-#signUp_c_area .btn_area a.look_around {
+#signUp_c_area .btn_area a.look_around, #signUp_c_area .btn_area a.go_login {
   display: inline-block;
   border: 1px solid #1B2F4A;
   border-radius: 5px;
   width: 130px;
-  padding: 4px 0;
+  padding: 7px 5px;;
   font-weight: 600;
   color: #1B2F4A;
 }
 #signUp_c_area .btn_area a.go_login {
-  display: inline-block;
-  border-radius: 5px;
   background: #1B2F4A;
-  width: 130px;
-  padding: 4px 0;
-  font-weight: 600;
   color: #fff;
-  border: 1px solid #1B2F4A;
 }
 #signUp_c_area .btn_area a.go_login:hover {
     background-color: rgba(27,47,74,.9);

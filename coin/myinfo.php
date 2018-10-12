@@ -115,14 +115,14 @@
                                     <td><a href="myinfo_login_password.php" class="btn_medium">로그인 비밀번호변경</a></td>
                                 </tr>
                                 <tr>
-                                    <th>보안비밀번호</th>
+                                    <th>보안 비밀번호</th>
                                     <td>
                                         <a href="myinfo_security_password.php" class="btn_medium change_securityNum">보안 비밀번호변경</a>
                                         <a href="certification_security_password.php" class="btn_medium make_securityNum">보안비밀번호 생성</a>
                                     </td>
                                 </tr>
                                 <tr class='myinfo_table_tr'>
-                                    <th>계좌정보</th>
+                                    <th>계좌 정보</th>
                                     <td>
                                       <p class="account_number">
                                           <span class='bankName'>OO은행</span>

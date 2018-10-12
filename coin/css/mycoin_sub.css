@@ -681,7 +681,6 @@ div.before_send_money_wrap > p{
 }
 #output_bitcoin table.left_thick_table .emphasis{
     color: #666;
-    font-weight: 600;
 }
 #output_bitcoin table.left_thick_table .reality_won{
     color: #ff2323;

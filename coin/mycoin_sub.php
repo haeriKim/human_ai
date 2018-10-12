@@ -1225,7 +1225,7 @@
                                                 <div class="table_top cf">
                                                     <div class="selectAll days fl">
                                                         <select title="전체">
-                                                            <option value="전체" selected="selected">전체</option>
+                                                            <option value="전체" selected="selected">코인명</option>
                                                             <option value="원화">원화</option>
                                                             <option value="비트코인">비트코인</option>
                                                             <option value="비트코인 캐시">비트코인 캐시</option>
@@ -1278,7 +1278,7 @@
                                                       <th>금액(수량)</th>
                                                       <th>수수료</th>
                                                       <th>입금은행</th>
-                                                      <th colspan="2" class='account_number_th'>계좌번호</th>
+                                                      <th colspan="2" class='account_number_th'>계좌정보</th>
                                                       <th class="apply_name_th">입금자명</th>
                                                       <th>
                                                         <select title="진행전체" >
@@ -1547,15 +1547,15 @@
                 <div class="question_mark_active_inner">
                     <h2>보유코인 유의사항</h2>
                     <p>
-                      1. 보유코인의 매수평균가, 평가금액, 평가손익, 수익률 은 모두 KRW로 환산한 추정값으로 참고용입니다.<br><br>
+                      <span class="popup_important">1. 보유코인의 매수평균가, 평가금액, 평가손익, 수익률 은 모두 KRW로 환산한 추정값으로 참고용입니다.<br><br></span>
 
                       The Alls에서는 4가지의 기초화폐(KRW, BTC, ETH, USDT)로 암호화폐를 거래할 수 있습니다.<br>
                       4가지 기초화폐 중 어떤 것으로 거래하는가에 따라서 매수가격의 단위가 달라지며, 하나의 코인을 2가지 이상의 기초화폐로 거래하게 되면 현재 수익률을 확인하는 것이 어려워지게 됩니다.<br>
                       이를 위한 보완책으로 모든 가격의 단위를 KRW로 환산해 현재 추정 수익률을 참고용으로 확인하실 수 있도록 제공합니다.<br><br>
 
-                      2. 보유코인의 매수/매도 및 입금/출금 내역을 모두 반영합니다. 입금 내역의 매수평균가는 입금 시점의 시세를 반영해 계산합니다.<br><br>
+                      <span class="popup_important">2. 보유코인의 매수/매도 및 입금/출금 내역을 모두 반영합니다. 입금 내역의 매수평균가는 입금 시점의 시세를 반영해 계산합니다.<br><br></span>
 
-                      3. 계산 방식<br><br>
+                      <span class="popup_important">3. 계산 방식<br><br></span>
 
                       총평가: 보유 암호화폐의 평가금액 합계<br>
                       총 보유자산: 총평가 + 보유KRW<br>
@@ -1567,7 +1567,7 @@
                       평가손익: 평가금액 – 매수금액<br>
                       수익률: 평가손익 ÷ 매수금액<br><br>
 
-                      ※ 보유코인을 어떤 마켓에서 매매한 것인지에 따라서, 혹은 입출금이 빈번이 발생하는 경우 수익률이 과대 혹은 과소평가되어 보일 수 있습니다. (고객님의 보유 수량에는 영향을 미치지 않습니다.) 이는 고객님의 수익평가에 대한 참고자료로, The Alls는 제공된 편의정보를 기반으로 한 투자결과에 대한책임을 지지 않습니다.
+                      <span class="popup_important">※ 보유코인을 어떤 마켓에서 매매한 것인지에 따라서, 혹은 입출금이 빈번이 발생하는 경우 수익률이 과대 혹은 과소평가되어 보일 수 있습니다. (고객님의 보유 수량에는 영향을 미치지 않습니다.) 이는 고객님의 수익평가에 대한 참고자료로, The Alls는 제공된 편의정보를 기반으로 한 투자결과에 대한책임을 지지 않습니다.</span>
                     </p>
                     <a href="#" class='close_btn'>닫기</a>
                 </div>

@@ -65,3 +65,7 @@
     border-right: 10px solid transparent;
     opacity: 0.9;
 }
+#login_change_pw .password_question_detail strong {
+  margin-bottom: 10px;
+  display: block;
+}

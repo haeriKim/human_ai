@@ -69,13 +69,15 @@
 }
 .notice_detail .notice_detail_inner .notice_detail_footer .notice_preview li p.prev_img,
 .notice_detail .notice_detail_inner .notice_detail_footer .notice_preview li p.next_img{
-    background: url(../img/up.png) no-repeat 50px 15px;
+    background: url(../img/arrow_on.png) no-repeat 75% center;
+    background-size: 12px;
     width: 80px;
     margin-left: 31px;
     text-align: left;
     color: #1b2f4a;
 }
 .notice_detail .notice_detail_inner .notice_detail_footer .notice_preview li p.next_img{
-    background: url(../img/down.png) no-repeat 50px 15px;
+    background: url(../img/arrow_off.png) no-repeat 75% center;
+    background-size: 12px;
 }
 /*공지사항 세부내용 End*/

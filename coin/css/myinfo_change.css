@@ -127,55 +127,43 @@ table td div.question_smallbox{
   cursor:pointer;
 }
 
-table .password_question_detail{
-  box-sizing: border-box;
-  padding:20px;
-  color:white; background-color:#1b2f4a; border-radius: 5px;
-    opacity:0.9; position:absolute;
-    width:600px;
-    top:40px;
-    left:-290px;
-    line-height: 25px;
-    visibility: hidden;
-}
-table .password_question_detail2{
+table .password_question_detail, table .password_question_detail2{
   box-sizing: border-box;
   padding:20px;
   color:white;
   background-color:#1b2f4a; border-radius: 5px;
-    opacity:0.9;
-    position:absolute;
-    width:450px;
-    top:40px;
-    left:-210px;
-    line-height: 25px;
-    visibility: hidden;
-    z-index: 15;
+  opacity:0.9; position:absolute;
+  width:600px;
+  top:40px;
+  left:-290px;
+  line-height: 25px;
+  visibility: hidden;
 }
-table .password_question_detail:before {
-    content: "";
-    position: absolute;
-    top: -10px;
-    left: 50%;
-    margin-left: -10px;
+table .password_question_detail2{
+    left:-210px;
+    z-index: 15;
+    width: 450px;
+}
+table .password_question_detail:before,table .password_question_detail2:before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  margin-left: -10px;
   border-bottom:10px solid #1b2f4a;
   border-left:10px solid transparent;
   border-right:10px solid transparent;
   opacity:0.9;
-  }
-  table .password_question_detail2:before {
-      content: "";
-      position: absolute;
-      top: -10px;
-      left: 50%;
-      margin-left: -10px;
-    border-bottom:10px solid #1b2f4a;
-    border-left:10px solid transparent;
-    border-right:10px solid transparent;
-    opacity:0.9;
-    }
-  table td div.question_smallbox:hover .password_question_detail{visibility: visible;}
-  table td div.question_smallbox:hover .password_question_detail2{visibility: visible;}
+}
+table .password_question_detail strong, table .password_question_detail2 strong{
+  margin-bottom: 10px;
+  display: block;
+}
+table td div.question_smallbox:hover .password_question_detail,
+table td div.question_smallbox:hover .password_question_detail2{
+  visibility: visible;
+}
+
 /*cancel_or_apply*/
 .myinfo_sub_box .cancel_or_apply{
   text-align:center;
