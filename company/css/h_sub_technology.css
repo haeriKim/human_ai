@@ -1,21 +1,15 @@
-
-
 #header nav ul li:hover{
     background-color:#efefef;
 }
-
 #header nav ul li:active{
   background-color:#efefef;
 }
-
 #header nav ul li:nth-child(2){
   background-color:#efefef;
 }
-
 #header nav ul li:nth-child(2) a{
   color:#111;
 }
-
 #container{
     overflow-y: scroll;
 }
@@ -23,7 +17,6 @@
   padding-left: 234px;
   margin: 0 auto;
 }
-
 /*기술소개*/
 .technology_inner{
     margin-top:110px;
@@ -34,7 +27,6 @@
     color:#222;
     margin-bottom:20px;
 }
-
 /* .technology_inner ul{
     overflow: hidden;
     text-align: center;
@@ -54,17 +46,15 @@
     padding-bottom:2px;
     display: inline-block;
 }
-
 .technology_inner ul li:first-child a{
     border-bottom:2px solid #222;
 } */
 .technology_inner .tech_intro{
-  margin: 0 auto 50px auto;
-  width: 1200px;
-  height: 800px;
-  position:relative;
+    margin: 90px auto;
+    width: 1200px;
+    height: 800px;
+    position: relative;
 }
-
 .technology_inner .tech_intro p{
   color: #222;
   font-size: 43px;
@@ -94,8 +84,6 @@
     top: -50px;
     right: -65px;
 }
-
-
 .technology_inner .ai_tech_content{
     position: relative;
     color:#fff;
@@ -117,18 +105,19 @@
     bottom:130px;
 }
 
-
 /*기술소개*/
 .technology_inner .tech_content_wrap{
     position: relative;
     height: 800px;
+    width: 1160px;
+    margin: 0 auto;
 }
 .technology_inner .tech_content_wrap h3{
     color: #fff;
     position: absolute;
     top: 98px;
     text-align: right;
-    right: 300px;
+    right: 4%;
     z-index: 5;
 }
 .technology_inner .tech_content_wrap h3 p{
@@ -139,10 +128,8 @@
 .technology_inner .tech_content_wrap h3 span{
     font-size:22px;
 }
-
 .technology_inner .tech_content_wrap ul{
-    left: 299px;
-    overflow: hidden;
+    left: 5%;
     background: #fff;
     display: inline-block;
     padding: 30px 50px;
@@ -173,10 +160,8 @@
     font-weight: 600;
 }
 .technology_inner .tech_content_wrap .tech_content{
-    width: 1200px;
     height: 600px;
     position: absolute;
-    left: 14%;
 }
 .technology_inner .tech_content_wrap .tech_content::before{
     content:"";

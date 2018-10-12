@@ -1,69 +1,52 @@
-
-
 #header nav ul li:hover{
     background-color:#efefef;
 }
-
 #header nav ul li:active{
   background-color:#efefef;
 }
-
 #header nav ul li:nth-child(3){
   background-color:#efefef;
 }
-
 #header nav ul li:nth-child(3) a{
   color:#111;
 }
 
-
-
-
-
 /*map*/
-
 #contact_content{
-  height:900px;
-  padding-left: 234px;
-  margin: 0 auto;
+    height: 900px;
+    margin: 0 auto;
+    width: 1300px;
 }
-
 .map_fence{
   margin-left:20%;
   margin-top:12%;
 }
-
 .contact_title{
-  position:absolute;
-  font-size:30px;
-  left:53%;
-  top:110px;
-  width:150px;
+    position: relative;
+    font-size: 30px;
+    left: 55%;
+    top: 110px;
+    width: 150px;
+    padding-bottom: 40px;
 }
-
-
-
 .contact_inner{
   margin:0 auto;
   width:425px;
   height:445px;
-  background-color:#111111;
+  background-color:#111;
   color:#fff;
   float:left;
 }
-
 .contact_inner h3{
   font-size:35px;
   margin-top:50px;
   margin-left:30px;
   margin-bottom:40px;
 }
-
 .contact_inner span{
   font-size:14px;
   font-weight:bold;
 }
-
 .contact_inner ul{
   width:335px;
   height:50px;
@@ -71,7 +54,6 @@
   margin-bottom:20px;
   margin-left:30px;
 }
-
 .contact_inner ul img{
   margin-left:-25px;
   padding-left:20px;
@@ -81,7 +63,6 @@
   width:25px;
   height:25px;
 }
-
 .contact_inner .text1{
   list-style:none;
   width:300px;
@@ -90,7 +71,6 @@
   float:left;
   line-height:20px;
 }
-
 .contact_inner .text2{
   list-style:none;
   width:300px;
@@ -99,7 +79,6 @@
   float:left;
   line-height:20px;
 }
-
 .contact_inner .text3{
   list-style:none;
   width:300px;
@@ -109,7 +88,6 @@
   float:left;
   line-height:30px;
 }
-
 .contact_inner .text4{
   list-style:none;
   width:300px;
@@ -119,11 +97,9 @@
   float:left;
   line-height:30px;
 }
-
 .map{float:left;}
 
 /*footer*/
-
 #contact_content .footer {
   width: 100%;
   position: fixed;
