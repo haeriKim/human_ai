@@ -102,21 +102,9 @@
                                   <tbody>
 
                                       <th>새로운 휴대폰 번호</th>
-                                      <td><input type="tel" class='user_pass' name="password" value="" placeholder="새로운 휴대폰 번호를 입력하세요." required maxlength="12" minlength="12" /></td>
-                                    </tr>
-
-                                    <tr>
-                                      <th>휴대폰 SMS 인증</th>
                                       <td>
-                                        <input type="text" name="" value="" placeholder="휴대폰으로 전송된 인증번호를 입력하세요." required maxlength="6" minlength="6" />
-                                        <input type="button" value="인증번호요청" id="request_count" class="request_number">
-                                        <input type="submit" value="인증번호재인증" id="confirm_count" class="cofirm_number">
-                                        <span id="count_down" class="count_down">03:00</span>
-                                        <p id='warning_message'>
-                                            <img src="img/icon_ex.png" alt="warning_icon" class="warning_icon">
-                                            인증번호가 일치하지 않습니다.
-                                        </p>
-
+                                        <b class="complete">실명 인증이 완료되었습니다.</b>
+                                        <input type="button" value="휴대폰 본인인증" id="request_count" class="request">
                                       </td>
                                     </tr>
                                     <tr>
@@ -161,23 +149,6 @@
 
         </div><!-- container End -->
     </div><!-- wrap End -->
-
-    <div id="full">
-                <!-- full_content -->
-                <div id="popupbox" class='box popup phone_change_box'>
-                  <div class="full_inner">
-                    <h2>인증번호 발송완료</h2>
-                    <div class="popupbox_text">
-                      <p class="popupbox_text_phone2">등록하신 휴대폰으로 인증번호를 발송하였습니다.</p>
-                    </div>
-                    <div class="cancel_or_apply">
-                      <input type="button" name="" value="확인" class="agree_btn phone2_ok">
-                    </div>
-
-                  </div>
-                </div><!-- full_content End-->
-                <div id="shadow"></div>
-        </div>
 
 </body>
 </html>

@@ -103,7 +103,7 @@
                             </select>
                             <div class="html_input">
                                 <input type="text" name="" value="">
-                                <textarea name='' placeholder="500자이내로 입력해주세요"></textarea>
+                                <textarea name='' placeholder="500자이내로 입력해주세요" style="resize:none;"></textarea>
                             </div>
                         </form>
                         <div class="cancel_or_apply">

@@ -125,18 +125,10 @@
                               <table class='left_thick_table'>
                                 <tbody>
 
-                                    <th>휴대폰번호</th>
-                                    <td><input type="password" class='user_pass' name="password" value="" placeholder="휴대폰번호를 입력하세요." required maxlength="12" minlength="12" /></td>
-                                  </tr>
-
-                                  <tr>
-                                    <th>휴대폰 SMS 인증</th>
+                                    <th>휴대폰 번호</th>
                                     <td>
-                                      <input type="text" name="" value="" placeholder="휴대폰으로 전송된 인증번호를 입력하세요." required maxlength="6" minlength="6" />
-                                      <input type="button" value="인증번호요청" id="request_count" class="request_number">
-                                      <input type="submit" value="인증번호재인증" id="confirm_count" class="cofirm_number">
-                                      <span id="count_down" class="count_down">03:00</span>
-                                      <p id='warning_message'><img src="img/icon_ex.png" alt="경고아이콘" class="warning_icon">인증번호가 일치하지 않습니다.</p>
+                                      <b class="complete">실명 인증이 완료되었습니다.</b>
+                                      <input type="button" value="휴대폰 본인인증" id="request_count" class="request">
                                     </td>
                                   </tr>
                                   <tr>

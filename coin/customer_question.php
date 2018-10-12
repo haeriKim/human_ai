@@ -92,7 +92,7 @@
                             <tr>
                               <th>내용<span class="pilsu">*필수</span></th>
                                 <td>
-                                  <textarea name="" placeholder="문의 내용을 입력하세요." class="question_story"></textarea>
+                                  <textarea style="resize:none;" name="" placeholder="문의 내용을 입력하세요." class="question_story"></textarea>
                                 </td>
                             </tr>
 

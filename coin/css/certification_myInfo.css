@@ -13,6 +13,9 @@
 .myinfo_sub_box table.left_thick_table tr td span{
 margin-left: 10px;
 }
+.myinfo_sub_box table.left_thick_table tr td b.complete {
+  color: #1b2f4a;
+}
 .myinfo_sub_box table.left_thick_table tbody input[type='button']{
     border: 1px solid #1b2f4a;
     background: #fff;
