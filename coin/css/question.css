@@ -145,7 +145,6 @@
 
 
 
-
 /*question_02*/
 
 .question_history_area .question_history_inner{
@@ -467,6 +466,7 @@
   font-size: 17px;
   font-weight: 600;
 }
+
 /*.question_detail .question_detail_inner .question_detail_inner_as{
   width:250px;
   height:100%;
@@ -496,4 +496,5 @@
 .question_detail .question_detail_inner .question_detail_footer .go_back_notice:hover{
     background-color: rgba(27,47,74,.9);
 }
+
 /*1:1문의 세부내용 End*/

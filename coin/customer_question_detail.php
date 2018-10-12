@@ -155,7 +155,7 @@
                             <div class="malpungsun_story">
                               <from>
                               <textarea placeholder="더 궁금한 사항이 있으시다면 여기에 적어주세요." required class="malpungsun_text"></textarea>
-                              </from>
+
                               <div class="filebox2">
                                 <input type="text" id="fileName" class="file_input_textbox2" readonly >
                                 <div class="file_input_div2">
@@ -164,10 +164,11 @@
                                     <a class="del_attach2" onclick="delAttach(this.form)"><img src="img/x.png" alt="x버튼"></a>
                                 </div>
                               </div>
-
+                              </from>
 
                               <input type="submit" name="name" value="올리기" class="question_submit">
-                            
+                              <p class="question_warning">첨부파일은 파일당 <span class="question_pink">10MB 이하, JPG/JPEG/PNG/GIF 파일만</span> 가능합니다.</p>
+
 
                             </div>
                         </div>
