@@ -43,7 +43,7 @@
     text-align: center;
     width: 100%;
     z-index: 5;
-    text-shadow: 0 1px #fff, 4px 4px 0 rgb(0,0,0,0.5);
+    text-shadow: 0 1px #fff, 4px 4px 0 rgba(0,0,0,0.5);
     font-weight: 600;
 }
 .link_arrow{
