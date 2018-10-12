@@ -38,8 +38,8 @@
                 <div class="content common_table_wrap con_1000">
 
                   <!-- common_table_content -->
-                  <div class="box common_table_content">
-                      <h3 class='title'>인증 레벨별 한도</h3>
+                  <div class="common_table_content">
+                      <h2 class='title'>인증 레벨별 한도</h2>
                       <div class="mypage_content">
                           <table class="common_table">
                               <colgroup>
@@ -188,7 +188,7 @@
                                 </tr>
                               </tbody>
                           </table>
-                          <a href="javascript:history.go(-1)">뒤로가기</a>
+                          <a href="#" class='close_btn'>확인</a>
                       </div>
                   </div><!-- common_table_content End-->
 

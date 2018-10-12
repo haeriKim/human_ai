@@ -75,7 +75,6 @@
 }
 
 /*내 자산관리 물음표 클릭시*/
-
 #question_mark_active{
     width: 900px;
     background: #fff;
@@ -376,4 +375,39 @@
 #question_mark_active p span.popup_important {
   color: #1b2f4a;
   font-weight: 600;
+}
+
+/*인증레벨별 한도 보기팝업*/
+.common_table_content{
+    width: 1000px;
+    background: #fff;
+    height: 900px;
+    z-index: 9999;
+    padding: 10px 20px;
+    position: fixed;
+    left: 40%;
+    top: 50%;
+    margin-left: -220px;
+    transform: translateY(-50%);
+    display: none;
+}
+.common_table_content h2.title{
+    color: #071f45;
+    text-align: center;
+    width: 90%;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #071f45;
+    margin: 0 auto;
+}
+.common_table_content .close_btn{
+    background: #1b2f4a;
+    text-align: center;
+    padding: 5px 20px;
+    width: 70px;
+    color: #fff;
+    border-radius: 5px;
+    display: block;
+    margin: 30px auto 0 auto;
 }

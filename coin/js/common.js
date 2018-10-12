@@ -808,6 +808,15 @@ $(document).ready(function(){
   });
 });
 
+//출금한도조회버튼 클릭시 팝업
+$(document).ready(function(){
+  $(".certification_level_table").click(function(){
+    $(".common_table_content, #shadow").show();
+  });
+  $(".common_table_content .close_btn").click(function(){
+    $(".common_table_content, #shadow").hide();
+  });
+});
 //휴대폰변경 인증번호 카운트다운
 
 $(document).ready(function(){
