@@ -97,13 +97,13 @@
                                   <th rowspan="2">자산</th>
                                   <th rowspan="2">입금 수수료</th>
                                   <th colspan="2">소액 입금</th>
-                                  <th colspan="2">출금 수수료</th>
+                                  <th colspan="2" class='thead_th'>출금 수수료</th>
                                 </tr>
                                 <tr>
                                     <th>소액 내부 입금</th>
                                     <th>소액 외부 입금</th>
                                     <th>내부 출금</th>
-                                    <th>외부 출금</th>
+                                    <th class='thead_th'>외부 출금</th>
                                 </tr>
                               </thead>
                               <tbody>
