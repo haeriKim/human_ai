@@ -107,7 +107,7 @@
 
                             <br/>
                               <div class="question_ID">
-                                <img src="img/sudal.png" alt="수달"><p>가*다, abc@naver.com - <strong>3분전</strong></p>
+                                <img src="img/sudal.png" alt="수달"><p><span class="user_name">가*다</span>, <span class="user_mail">abc@naver.com</span> - <strong>3분전</strong></p>
                               </div>
                             <br/>
 
@@ -119,7 +119,7 @@
                               </div>
                             <br/>
 
-                            <p class="malpungsun_answer">안녕하세요. 가*다 고객님<br/>
+                            <p class="malpungsun_answer">안녕하세요. <span class="user_name">가*다</span> 고객님<br/>
                               <br/>
                               The Alls를 이용해 주셔서 감사합니다.<br/>
                               <br/>
@@ -139,7 +139,7 @@
                               4) ICO를 참여하여 코인/토큰을 업비트 ETH 핫월렛으로 잘못 전송된 경우<br/>
                               5) BTC, BCH, LTC 오입금의 경우<br/>
                               <br/>
-                              위의 경우에는 다음 공지사항을 참고해 복구 신청을 해주시길 바랍니다. (업비트 오입금 안내 보기)<br/>
+                              위의 경우에는 다음 공지사항을 참고해 복구 신청을 해주시길 바랍니다. (The Alls 오입금 안내 보기)<br/>
                               <br/>
                               *복구 작업을 진행하는 경우에도 기술적 문제로 모든 오입금 금액이 복구되지 않을 수 있으니, 송금시 주소 확인을 꼭 당부드립니다.<br/>
 
@@ -147,7 +147,7 @@
 
                             <br/>
                               <div class="question_ID">
-                                <img src="img/sudal.png" alt="수달"><p>가*다, abc@naver.com</p>
+                                <img src="img/sudal.png" alt="수달"><p><span class="user_name">가*다</span>, <span class="user_mail">abc@naver.com</span></p>
 
                               </div>
                             <br/>
@@ -167,7 +167,6 @@
                               </from>
 
                               <input type="submit" name="name" value="올리기" class="question_submit">
-                              <p class="question_warning">첨부파일은 파일당 <span class="question_pink">10MB 이하, JPG/JPEG/PNG/GIF 파일만</span> 가능합니다.</p>
 
 
                             </div>
