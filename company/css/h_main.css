@@ -20,82 +20,68 @@
 .main_content ul li {
   width: 50%;
   float: left;
+  position: absolute;
+  top: 0;
+  height: 100%;
 }
-.main_content .img_area_01  {
-  width: 100%;
-  height: 1200px;
-  background: url(../img/main_bg111.jpg) no-repeat 0 130%; background-size:cover;
-  position: relative;
+.main_content ul li.company_intro {
+    background: url(../img/main_bg111.jpg) no-repeat 0 0;
+    background-size: 100% 100%;
+    left: 0;
 }
-.main_content .img_area_02  {
-  width: 100%;
-  height: 1200px;
-  background: url(../img/main_bg22.jpg) no-repeat 0 85%;background-size:cover;
-  position: relative;
+.main_content ul li.technology_into {
+    background: url(../img/main_bg222.jpg) no-repeat 0 0;
+    background-size: 100% 100%;
+    right: 0;
 }
 .main_content .img_sec h2 {
-  color:#fff;
-  font-size:55px;
-  position: absolute;
-  top:205px;
-  left:0;
-  text-align: center;
-  width: 100%;
-  z-index: 5;
-  text-shadow: 0 1px #fff, 4px 4px 0 rgb(0,0,0,0.5);
-  font-weight: 600;
+    color: #fff;
+    font-size: 55px;
+    position: absolute;
+    top: 21%;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 5;
+    text-shadow: 0 1px #fff, 4px 4px 0 rgb(0,0,0,0.5);
+    font-weight: 600;
 }
-
-.main_content .img_area .technology_text  {
-  width: 150%;
-  right:0;
-  text-align: center;
-}
-
 .link_arrow{
   width:55px;
 }
-
 .main_content .sec{
-    width: 50%;
-    height: 1200px;
+    width: 100%;
+    height: 100%;
     display: inline-block;
     position: absolute;
-    top: 1200px;
+    top: 2500px;
     box-sizing: border-box;
     background-color: rgba(0,0,0,0.8);
-    color:#ccc;
+    color: #ccc;
     text-align: center;
     transition: all 1s ease;
-}
-.main_content .left_detail{
-    left: 0;
-}
-.main_content .right_detail{
-    right: 0;
 }
 .main_content ul li:hover .sec{
     top:0;
 }
-.main_content .sec h3,.main_content .sec p {
-  font-size: 25px;
-  position: absolute;
-  top:420px;
-  left: 0;
-  text-align: center;
-  width: 100%;
+.main_content .sec h3,
+.main_content .sec p {
+    font-size: 25px;
+    position: absolute;
+    top: 43%;
+    left: 0;
+    width: 100%;
 }
 .main_content .sec p {
-  font-size: 16px;
-  top:470px;
-  line-height: 25px;
+    font-size: 16px;
+    top: 48.5%;
+    line-height: 25px;
 }
 .main_content .sec a{
-  display: inline-block;
-  /* padding-top: 60%; */
-  position: absolute;
-  bottom: 45%;
-  left: 45%;
+    position: absolute;
+    top: 60%;
+    left: 46%;
+    text-align: center;
 }
 .main_content .right_detail h3,
 .main_content .right_detail p{
@@ -104,7 +90,7 @@
     left:5px;
 }
 .main_content .right_detail a{
-    left:47%;
+    left: 47%;
 }
 .main_content .footer {
   width: 100%;
