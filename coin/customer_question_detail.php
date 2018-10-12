@@ -154,7 +154,7 @@
 
                             <div class="malpungsun_story">
                               <from>
-                              <textarea placeholder="더 궁금한 사항이 있으시다면 여기에 적어주세요." required class="malpungsun_text"></textarea>
+                              <textarea placeholder="더 궁금한 사항이 있으시다면 여기에 적어주세요." required class="malpungsun_text" style="resize:none;"></textarea>
 
                               <div class="filebox2">
                                 <input type="text" id="fileName" class="file_input_textbox2" readonly >

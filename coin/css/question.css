@@ -274,16 +274,18 @@
 }
 .question_detail .question_detail_inner .question_detail_inner_content p{
   font-size: 14px;
-  color: #323232;
+  color: #1b2f4a;
   line-height: 1.5;
   font-weight:600;
 }
 .question_detail .question_detail_inner .question_detail_inner_content div{
   position:relative;
+  display: inline-block;
 }
 /*-----------------------------------------------------------------------------------------*/
 .question_detail .question_detail_inner .question_detail_inner_content .question_ID{
   overflow:hidden;
+  margin-bottom: 20px;
 }
 .question_detail .question_detail_inner .question_detail_inner_content .question_ID img{
   float:left;
@@ -296,6 +298,7 @@
 .question_detail .question_detail_inner .question_detail_inner_content .question_admin{
   overflow:hidden;
   width:870px;
+  margin-bottom: 20px;
 }
 .question_detail .question_detail_inner .question_detail_inner_content .question_admin img{
   float:right;
@@ -314,7 +317,7 @@
   width:850px;
   text-align:left;
   border-radius: 5px;
-  background:#ccc;
+  background:#1b2f4a;
   color:#fff;
   font-weight:600;
   margin-top:-10px;
@@ -327,7 +330,7 @@
   margin-left: 5px;
   border-width: 7px;
   border-style: solid;
-  border-color:  transparent transparent #ccc transparent;
+  border-color:  transparent transparent #1b2f4a transparent;
 }
 .question_detail .question_detail_inner .question_detail_inner_content .malpungsun_answer{
   font-size:15px;
@@ -335,7 +338,7 @@
   width:850px;
   text-align:left;
   border-radius: 5px;
-  background:#EAAF69;
+  background:#c95b74;
   position:relative;
   color:#fff;
   font-weight:600;
@@ -349,7 +352,7 @@
   margin-left: 5px;
   border-width: 7px;
   border-style: solid;
-  border-color:  transparent transparent #eaaf69 transparent;
+  border-color:  transparent transparent #c95b74 transparent;
 }
 .question_detail .question_detail_inner .question_detail_inner_content .malpungsun_story{
   font-size:15px;
@@ -383,15 +386,15 @@
   display:block;
 }
 .question_detail .question_detail_inner .question_detail_inner_content .malpungsun_story .question_submit{
-  float:right;
-  padding: 2px 10px;
+  float: right;
+  padding: 8px 20px;
   margin: 2px;
   background-color: white;
   color: #1b2f4a;
   border: 1px solid #1b2f4a;
   cursor: pointer;
-  margin-left:10px;
-  display:block;
+  font-weight: 600;
+  font-size: 14px;
 }
 .question_detail .question_detail_inner .question_detail_inner_content .malpungsun_story .question_submit:hover{
   color:white;
@@ -404,9 +407,11 @@
   width:835px;
   height:200px;
   text-align:left;
-  border-radius: 5px;
   color:#666;
   border:1px solid #1b2f4a;
+}
+.question_detail .question_detail_inner .question_detail_inner_content .filebox2 {
+  vertical-align: -18px;
 }
 .question_detail .question_detail_inner .question_detail_inner_content textarea:after{
   content: "";
