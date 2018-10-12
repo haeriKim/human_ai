@@ -1,52 +1,69 @@
+
+
 #header nav ul li:hover{
     background-color:#efefef;
 }
+
 #header nav ul li:active{
   background-color:#efefef;
 }
+
 #header nav ul li:nth-child(3){
   background-color:#efefef;
 }
+
 #header nav ul li:nth-child(3) a{
   color:#111;
 }
 
+
+
+
+
 /*map*/
-#contact_content{
-    height: 900px;
-    margin: 0 auto;
-    width: 1300px;
+
+.contact_content_inner{
+  padding-top:110px;
+  text-align:center;
 }
+.contact_content h2{
+
+  font-size:30px;
+  color:#222;
+  margin-bottom:20px;
+
+}
+.contact_content{
+  padding-left: 234px;
+  margin: 0 auto;
+}
+
 .map_fence{
   margin-left:20%;
-  margin-top:12%;
 }
-.contact_title{
-    position: relative;
-    font-size: 30px;
-    left: 55%;
-    top: 110px;
-    width: 150px;
-    padding-bottom: 40px;
-}
+
 .contact_inner{
   margin:0 auto;
   width:425px;
   height:445px;
-  background-color:#111;
+  background-color:#111111;
   color:#fff;
   float:left;
+  text-align:left;
 }
+
 .contact_inner h3{
   font-size:35px;
   margin-top:50px;
   margin-left:30px;
   margin-bottom:40px;
 }
+
 .contact_inner span{
   font-size:14px;
   font-weight:bold;
 }
+
 .contact_inner ul{
   width:335px;
   height:50px;
@@ -54,6 +71,7 @@
   margin-bottom:20px;
   margin-left:30px;
 }
+
 .contact_inner ul img{
   margin-left:-25px;
   padding-left:20px;
@@ -63,6 +81,7 @@
   width:25px;
   height:25px;
 }
+
 .contact_inner .text1{
   list-style:none;
   width:300px;
@@ -71,6 +90,7 @@
   float:left;
   line-height:20px;
 }
+
 .contact_inner .text2{
   list-style:none;
   width:300px;
@@ -79,6 +99,7 @@
   float:left;
   line-height:20px;
 }
+
 .contact_inner .text3{
   list-style:none;
   width:300px;
@@ -88,6 +109,7 @@
   float:left;
   line-height:30px;
 }
+
 .contact_inner .text4{
   list-style:none;
   width:300px;
@@ -97,10 +119,12 @@
   float:left;
   line-height:30px;
 }
+
 .map{float:left;}
 
 /*footer*/
-#contact_content .footer {
+
+.contact_content .footer {
   width: 100%;
   position: fixed;
   left: 0;
@@ -114,15 +138,15 @@
   opacity: .8;
   overflow: hidden;
 }
-#contact_content .footer img {
+.contact_content .footer img {
   float: left;
   width: 75px;
 }
-#contact_content .footer p{
+.contact_content .footer p{
   display: block;
   text-align: right;
 }
-#contact_content .footer p a{
+.contact_content .footer p a{
   color: #fff;
   text-decoration: underline;
 }
