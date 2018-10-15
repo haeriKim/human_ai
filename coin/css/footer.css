@@ -48,6 +48,9 @@
   overflow: hidden;
   text-align: right;
 }
+.footer_menu .footer_nav ul.left {
+    margin-left: 42px;
+}
 .footer_menu .footer_nav ul.right {
   float: right;
 }

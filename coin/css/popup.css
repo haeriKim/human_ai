@@ -376,13 +376,12 @@
   color: #1b2f4a;
   font-weight: 600;
 }
-
 /*인증레벨별 한도 보기팝업*/
 .common_table_content{
-    width: 1000px;
     background: #fff;
-    height: 900px;
+    height: 85%;
     z-index: 9999;
+    width: 1000px;
     padding: 10px 20px;
     position: fixed;
     left: 40%;
@@ -390,6 +389,10 @@
     margin-left: -220px;
     transform: translateY(-50%);
     display: none;
+}
+.common_table_content .mypage_content{
+    height: 76%;
+    overflow-y: auto;
 }
 .common_table_content h2.title{
     color: #071f45;
@@ -409,5 +412,5 @@
     color: #fff;
     border-radius: 5px;
     display: block;
-    margin: 30px auto 0 auto;
+    margin: 0 auto;
 }

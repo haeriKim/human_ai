@@ -1643,161 +1643,161 @@
               </div>
             </div><!-- full_content End-->
 
-            <div class="common_table_wrap con_1000">
+            <div class="common_table_wrap">
 
               <!-- common_table_content -->
               <div class="common_table_content">
                   <h2 class='title'>인증 레벨별 한도</h2>
                   <div class="mypage_content">
-                      <table class="common_table">
-                          <colgroup>
-                              <col style="width:8%;">
-                              <col style="width:7%;">
-                              <col style="width:5%;">
-                              <col style="width:16%;">
-                              <col style="width:16%;">
-                              <col style="width:16%;">
-                              <col style="width:16%;">
-                              <col style="width:16%;">
-                          </colgroup>
-                          <thead>
-                            <tr>
-                              <th colspan="3">구분</th>
-                              <th>Level 1</th>
-                              <th>Level 2</th>
-                              <th>Level 3</th>
-                              <th>Level 4</th>
-                              <th>Level 5</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr class='certification_method'>
-                                <th colspan="3">인증방법</th>
-                                <td>이메일인증</td>
-                                <td>보안비밀번호 생성</td>
-                                <td>실명인증</td>
-                                <td>계좌인증</td>
-                                <td>OTP 인증</td>
-                            </tr>
-                            <tr>
-                                <th rowspan="2">입금한도</th>
-                                <th colspan="2">원화(KRW)</th>
-                                <td>0원</td>
-                                <td>0원</td>
-                                <td>0원</td>
-                                <td>무제한</td>
-                                <td>무제한</td>
-                            </tr>
-                            <tr>
-                                <th colspan="2">암호화폐</th>
-                                <td>0원</td>
-                                <td>무제한</td>
-                                <td>무제한</td>
-                                <td>무제한</td>
-                                <td>무제한</td>
-                            </tr>
-                            <tr>
-                                <th rowspan="9">출금한도</th>
-                                <th rowspan="2" class='long_th'>
-                                    <p>원화</p>
-                                    <p>(KRW)</p>
-                                </th>
-                                <th>1회</th>
-                                <td>0원</td>
-                                <td>0원</td>
-                                <td>0원</td>
-                                <td>0원</td>
-                                <td>50,000,000원</td>
-                            </tr>
-                            <tr>
-                                <th>1일</th>
-                                <td>0원</td>
-                                <td>0원</td>
-                                <td>0원</td>
-                                <td>0원</td>
-                                <td>200,000,000원</td>
-                            </tr>
-                            <tr>
-                                <th colspan="2" class='long_th'>
-                                    <p>비트코인</p>
-                                    <p>(BTC)</p>
-                                </th>
-                                <td>0 BTC</td>
-                                <td>0 BTC</td>
-                                <td>0 BTC</td>
-                                <td>0 BTC</td>
-                                <td>50 BTC</td>
-                            </tr>
-                            <tr>
-                                <th colspan="2" class='long_th'>
-                                    <p>비트코인캐시</p>
-                                    <p>(BCH)</p>
-                                </th>
-                                <td>0 BCH</td>
-                                <td>0 BCH</td>
-                                <td>0 BCH</td>
-                                <td>0 BCH</td>
-                                <td>600 BCH</td>
-                            </tr>
-                            <tr>
-                                <th colspan="2" class='long_th'>
-                                    <p>이더리움</p>
-                                    <p>(ETH)</p>
-                                </th>
-                                <td>0 ETH</td>
-                                <td>0 ETH</td>
-                                <td>0 ETH</td>
-                                <td>0 ETH</td>
-                                <td>1,000 ETH</td>
-                            </tr>
-                            <tr>
-                                <th colspan="2" class='long_th'>
-                                    <p>이더리움클래식</p>
-                                    <p>(ETC)</p>
-                                </th>
-                                <td>0 ETC</td>
-                                <td>0 ETC</td>
-                                <td>0 ETC</td>
-                                <td>0 ETC</td>
-                                <td>5,000 ETC</td>
-                            </tr>
-                            <tr>
-                                <th colspan="2" class='long_th'>
-                                    <p>이오스</p>
-                                    <p>(EOS)</p>
-                                </th>
-                                <td>0 EOS</td>
-                                <td>0 EOS</td>
-                                <td>0 EOS</td>
-                                <td>0 EOS</td>
-                                <td>50,000 EOS</td>
-                            </tr>
-                            <tr>
-                                <th colspan="2" class='long_th'>
-                                    <p>리플</p>
-                                    <p>(XRP)</p>
-                                </th>
-                                <td>0 XRP</td>
-                                <td>0 XRP</td>
-                                <td>0 XRP</td>
-                                <td>0 XRP</td>
-                                <td>30,000 XRP</td>
-                            </tr>
-                            <tr>
-                                <th colspan="2" class='long_th'>
-                                    <p>에이다</p>
-                                    <p>(ADA)</p>
-                                </th>
-                                <td>0 ADA</td>
-                                <td>0 ADA</td>
-                                <td>0 ADA</td>
-                                <td>0 ADA</td>
-                                <td>4,000,000 ADA</td>
-                            </tr>
-                          </tbody>
-                      </table>
+                          <table class="common_table">
+                              <colgroup>
+                                  <col style="width:8%;">
+                                  <col style="width:7%;">
+                                  <col style="width:5%;">
+                                  <col style="width:16%;">
+                                  <col style="width:16%;">
+                                  <col style="width:16%;">
+                                  <col style="width:16%;">
+                                  <col style="width:16%;">
+                              </colgroup>
+                              <thead>
+                                <tr>
+                                  <th colspan="3">구분</th>
+                                  <th>Level 1</th>
+                                  <th>Level 2</th>
+                                  <th>Level 3</th>
+                                  <th>Level 4</th>
+                                  <th>Level 5</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr class='certification_method'>
+                                    <th colspan="3">인증방법</th>
+                                    <td>이메일인증</td>
+                                    <td>보안비밀번호 생성</td>
+                                    <td>실명인증</td>
+                                    <td>계좌인증</td>
+                                    <td>OTP 인증</td>
+                                </tr>
+                                <tr>
+                                    <th rowspan="2">입금한도</th>
+                                    <th colspan="2">원화(KRW)</th>
+                                    <td>0원</td>
+                                    <td>0원</td>
+                                    <td>0원</td>
+                                    <td>무제한</td>
+                                    <td>무제한</td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2">암호화폐</th>
+                                    <td>0원</td>
+                                    <td>무제한</td>
+                                    <td>무제한</td>
+                                    <td>무제한</td>
+                                    <td>무제한</td>
+                                </tr>
+                                <tr>
+                                    <th rowspan="9">출금한도</th>
+                                    <th rowspan="2" class='long_th'>
+                                        <p>원화</p>
+                                        <p>(KRW)</p>
+                                    </th>
+                                    <th>1회</th>
+                                    <td>0원</td>
+                                    <td>0원</td>
+                                    <td>0원</td>
+                                    <td>0원</td>
+                                    <td>50,000,000원</td>
+                                </tr>
+                                <tr>
+                                    <th>1일</th>
+                                    <td>0원</td>
+                                    <td>0원</td>
+                                    <td>0원</td>
+                                    <td>0원</td>
+                                    <td>200,000,000원</td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2" class='long_th'>
+                                        <p>비트코인</p>
+                                        <p>(BTC)</p>
+                                    </th>
+                                    <td>0 BTC</td>
+                                    <td>0 BTC</td>
+                                    <td>0 BTC</td>
+                                    <td>0 BTC</td>
+                                    <td>50 BTC</td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2" class='long_th'>
+                                        <p>비트코인캐시</p>
+                                        <p>(BCH)</p>
+                                    </th>
+                                    <td>0 BCH</td>
+                                    <td>0 BCH</td>
+                                    <td>0 BCH</td>
+                                    <td>0 BCH</td>
+                                    <td>600 BCH</td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2" class='long_th'>
+                                        <p>이더리움</p>
+                                        <p>(ETH)</p>
+                                    </th>
+                                    <td>0 ETH</td>
+                                    <td>0 ETH</td>
+                                    <td>0 ETH</td>
+                                    <td>0 ETH</td>
+                                    <td>1,000 ETH</td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2" class='long_th'>
+                                        <p>이더리움클래식</p>
+                                        <p>(ETC)</p>
+                                    </th>
+                                    <td>0 ETC</td>
+                                    <td>0 ETC</td>
+                                    <td>0 ETC</td>
+                                    <td>0 ETC</td>
+                                    <td>5,000 ETC</td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2" class='long_th'>
+                                        <p>이오스</p>
+                                        <p>(EOS)</p>
+                                    </th>
+                                    <td>0 EOS</td>
+                                    <td>0 EOS</td>
+                                    <td>0 EOS</td>
+                                    <td>0 EOS</td>
+                                    <td>50,000 EOS</td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2" class='long_th'>
+                                        <p>리플</p>
+                                        <p>(XRP)</p>
+                                    </th>
+                                    <td>0 XRP</td>
+                                    <td>0 XRP</td>
+                                    <td>0 XRP</td>
+                                    <td>0 XRP</td>
+                                    <td>30,000 XRP</td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2" class='long_th'>
+                                        <p>에이다</p>
+                                        <p>(ADA)</p>
+                                    </th>
+                                    <td>0 ADA</td>
+                                    <td>0 ADA</td>
+                                    <td>0 ADA</td>
+                                    <td>0 ADA</td>
+                                    <td>4,000,000 ADA</td>
+                                </tr>
+                              </tbody>
+                          </table>
+                      </div>
                       <a href="#" class='close_btn'>확인</a>
-                  </div>
               </div><!-- common_table_content End-->
 
             </div><!-- common_table_wrap End-->

@@ -9,7 +9,7 @@
       <div class="footer_menu">
           <strong>고객센터&nbsp;&nbsp; 0000-0000</strong>
           <div class="footer_nav">
-            <ul>
+            <ul class='left'>
                 <li class="footer_link"><a href="#">회사소개</a></li>
                 <li class="footer_link"><a href="use_map.php">이용약관</a></li>
                 <li><a href="use_map.php">개인정보처리방침</a></li>
