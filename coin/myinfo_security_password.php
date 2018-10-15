@@ -138,7 +138,7 @@
                                 </div>
                                 </form>
                                 <p class='forget_security_number'>
-                                    <a href="guide_security.php" class="security_password_text_right">현재 보안비밀번호가 기억나지 않으신다면?</a>
+                                    <a href="guide_security.php" class="security_password_text_right">현재 보안 비밀번호가 기억나지 않으신다면?</a>
                                 </p>
                               </div><!-- send_login_password End-->
 

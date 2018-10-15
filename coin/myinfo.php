@@ -117,7 +117,7 @@
                                 <tr>
                                     <th>보안 비밀번호</th>
                                     <td>
-                                        <a href="myinfo_security_password.php" class="btn_medium change_securityNum">보안 비밀번호변경</a><a href="guide_security.php" class="change_text">기억나지 않는다면?</a>
+                                        <a href="myinfo_security_password.php" class="btn_medium change_securityNum">보안 비밀번호변경</a><a href="guide_security.php" class="change_text">기억나지 않으시다면?</a>
                                         <a href="certification_security_password.php" class="btn_medium make_securityNum">보안비밀번호 생성</a>
                                     </td>
                                 </tr>
@@ -207,7 +207,7 @@
                         </li>
                       </ul>
                       <p class="quit_page">
-                        <a href="leave_member_01.php">더이상 The Alls를 이용하고 싶지 않으시다면?</a>
+                        <a href="leave_member_01.php">The Alls를 이용하고 싶지 않으시다면?</a>
                       </p>
                     </div><!-- cercenter End-->
                     </div><!-- myinfo_main_box End -->
