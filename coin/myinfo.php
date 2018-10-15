@@ -47,7 +47,7 @@
                               <dt><a href="myinfo_security_password.php" title="보안 비밀번호변경">보안 비밀번호변경</a></dt>
                               <dt><a href="myinfo_phone.php" title="휴대폰 번호변경">휴대폰 번호변경</a></dt>
                               <dt><a href="myinfo_account.php" title="계좌변경">계좌변경</a></dt>
-                              <dt><a href="myinfo_OTP.php" title="OTP 변경">OTP 변경</a></dt>
+                              <dt><a href="myinfo_OTP.php" title="OTP 초기화">OTP 초기화</a></dt>
                           </dl>
                         </li>
                         <li><a href="certification.php" title="인증센터">인증센터</a></li>
@@ -138,7 +138,7 @@
                                     <td>
                                         <span class='no_OTP'>-</span>
                                         <a href="certification_OTP.php" class="btn_medium certify_OTP">OTP 인증</a>
-                                        <a href="myinfo_OTP.php" class="btn_medium change_OTP">OTP 변경</a>
+                                        <a href="myinfo_OTP.php" class="btn_medium change_OTP">OTP 초기화</a>
                                     </td>
                                 </tr>
                               </tbody>
