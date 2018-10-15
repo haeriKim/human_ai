@@ -1623,7 +1623,7 @@
                         <p>현재 비트코인 지갑에서 출금하시겠습니까?</p>
                         <div class="cancel_or_apply">
                             <input type="button" name="cancel" value="취소" class='cancel_btn'>
-                            <input type="button" name="submit" value="출금신청" class='agree_btn' onclick="location.href='mywallet_output_complete_bitcoin.php'">
+                            <input type="button" name="submit" value="출금신청" class='agree_btn' onclick="location.href='mywallet_output_complete_coin.php'">
                         </div>
                     </form>
                 </div>
