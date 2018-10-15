@@ -47,9 +47,11 @@
                           <dl class="nav_dropdown info_dd">
                               <dt><a href="myinfo_login_password.php" title="로그인 비밀번호변경">로그인 비밀번호변경</a></dt>
                               <dt><a href="myinfo_security_password.php" title="보안 비밀번호변경">보안 비밀번호변경</a></dt>
+                              <dt><a href="myinfo_security_change.php" title="보안 비밀번호 초기화">보안 비밀번호 초기화</a></dt>
                               <dt><a href="myinfo_phone.php" title="휴대폰 번호변경">휴대폰 번호변경</a></dt>
                               <dt><a href="myinfo_account.php" title="계좌변경">계좌변경</a></dt>
                               <dt class="active"><a href="#" title="OTP 초기화">OTP 초기화</a></dt>
+                              <dt><a href="myinfo_OTP_change.php" title="OTP 비활성화">OTP 비활성화</a></dt>
                           </dl>
                         </li>
                         <li><a href="certification.php" title="인증센터">인증센터</a></li>
@@ -93,7 +95,7 @@
 
                         <div class="myinfo_text_box">
                           <br/>
-                          <p>휴대폰 교체/분실 또는, 인증 앱을 지워서 <span>OTP 인증을 할 수 없을 경우</span> 본인인증 서류 제출이 필요합니다.</p>
+                          <p><span>OTP 인증을 할 수 없을 경우</span> 본인인증 서류 제출이 필요합니다.</p>
                           <br/>
                           <p>OTP를 초기화하려면 아래 <span>인증변경안내</span>를 참고해 주시기 바랍니다.</p>
                           <br/>
@@ -101,7 +103,7 @@
 
                         <div class="cancel_or_apply">
                           <input type="button" name="" value="취소" onclick="location.href='myinfo.php'" class="cancel_btn">
-                          <input type="button" name="" value="변경안내 보기" class="agree_btn" onclick="location.href='guide_OTP.php'">
+                          <input type="button" name="" value="제출안내 보기" class="agree_btn" onclick="location.href='guide_OTP.php'">
                         </div>
 
 

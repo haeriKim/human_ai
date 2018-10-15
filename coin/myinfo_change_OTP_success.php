@@ -17,7 +17,9 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/common.js"></script>
     <script src="js/fouc.js"></script>
+    <script>
 
+</script>
 </head>
 <body>
     <!-- wrap -->
@@ -45,8 +47,8 @@
                         <li class="on">
                           <a href="#" title="회원 정보관리" class='more_menu'>회원 정보관리</a>
                           <dl class="nav_dropdown info_dd">
-                              <dt><a href="myinfo_login_password.php" title="로그인 비밀번호 변경">로그인 비밀번호 변경</a></dt>
-                              <dt class="active"><a href="#" title="보안 비밀번호변경">보안 비밀번호변경</a></dt>
+                              <dt class="active"><a href="myinfo_login_password.php" title="로그인 비밀번호변경">로그인 비밀번호변경</a></dt>
+                              <dt><a href="myinfo_security_password.php" title="보안 비밀번호변경">보안 비밀번호변경</a></dt>
                               <dt><a href="myinfo_security_change.php" title="보안 비밀번호 초기화">보안 비밀번호 초기화</a></dt>
                               <dt><a href="myinfo_phone.php" title="휴대폰 번호변경">휴대폰 번호변경</a></dt>
                               <dt><a href="myinfo_account.php" title="계좌변경">계좌변경</a></dt>
@@ -69,7 +71,7 @@
                     <h3 class="title">회원 정보관리</h3>
                     <div class="myinfo_main_box cer_center mypage_content">
                       <div class="cer_center">
-                      <h4>보안 비밀번호변경</h4>
+                      <h4>로그인 비밀번호변경</h4>
                         <div class="myinfo_small_info_box">
                           <div class="myinfo_box1">
                             <strong class="user_name">가*다</strong>
@@ -87,67 +89,23 @@
                             <ul class="list_2">
                               <li>
                                   <p class="myinfo_title">등급</p>
-                                  <p class="myinfo_detail">Level&nbsp;<span class='user_level'>3</span></p>
+                                  <p class="myinfo_detail">Level&nbsp;<span class='user_level'>4</span></p>
                               </li>
                             </ul>
                           </div>
                         </div>
 
-                        <!-- myinfo_small_info_box -->
-                        <div class="myinfo_sub_box ">
-                          <form class="" action="#" method="post">
-                            <div class="myinfo_table_wrap myinfo_table_wrap2">
-                              <!-- send_login_password -->
-                              <div class="send_login_password">
-                                <form action="#" class="phone2">
-                                <table class='left_thick_table'>
-                                  <tbody>
+                        <div class="myinfo_text_box">
+                          <h3>OTP 비활성화 완료</h3>
+                          <br/>
+                          <p>OTP 비활성화로 인해 인증단계가 <span>Level&nbsp;<span class="user_level">4</span></span>로 떨어졌습니다.</p>
+                          <br/>
+                          <p>안전하고 원활한 거래를 위해선 OTP 인증을 권장합니다.</p>
+                        </div>
 
-                                      <th>현재 보안비밀번호</th>
-                                      <td><input type="password" class='user_pass' name="password" value="" placeholder="현재 보안비밀번호를 입력하세요." required maxlength="4" minlength="4" />
-                                          <p id='warning_message'>비밀번호가 일치하지 않습니다.</p>
-                                      </td>
-                                    </tr>
-
-                                    <tr>
-                                      <th>새로운 보안비밀번호</th>
-                                      <td>
-                                        <input type="password" name="" value="" placeholder="새로운 보안비밀번호를 입력하세요." required maxlength="4" minlength="4" />
-                                        <div class="question_smallbox"><img src="img/question.png">
-                                          <div class="password_question_detail2">
-                                                <strong>안전한 비밀번호 작성법</strong>
-                                                -숫자로 이루어진 4자리 보안 비밀번호를 입력해주세요.<br/>
-                                                -해킹사고 방지를 위해 보안비밀번호를 자주 변경해주세요.<br/>
-                                                -4자리의 중복 및 연속 숫자, 휴대폰 번호, 이메일 주소의 숫자,<br/>
-                                                 비밀번호에 포함된 숫자 등 추측이 가능한 번호는 피해주세요.
-                                          </div>
-                                        </div>
-                                        <p id='warning_message'>비밀번호 요건이 충족하지 않습니다.</p>
-                                      </td>
-                                    </tr>
-                                    <tr>
-                                      <th>새로운 보안비밀번호 확인</th>
-                                      <td>
-                                        <input type="password" class='user_security' name="security" value="" placeholder="새로운 보안비밀번호를 다시 입력하세요." maxlength="4" minlength='4' required/>
-                                        <p id='warning_message'>비밀번호가 일치하지 않습니다.</p>
-                                      </td>
-                                    </tr>
-                                  </tbody>
-                                </table>
-                                <div class="cancel_or_apply">
-                                  <input type="button" name="" value="취소" onclick="location.href='myinfo.php'"class="cancel_btn">
-                                  <input type="submit" name="" value="변경" onclick="location.href='myinfo_security_password_success.php'" class="agree_btn">
-                                </div>
-                                </form>
-                                <p class='forget_security_number'>
-                                    <a href="guide_security.php" class="security_password_text_right">현재 보안 비밀번호가 기억나지 않으신다면?</a>
-                                </p>
-                              </div><!-- send_login_password End-->
-
-                            </div><!-- myinfo_table_wrap End-->
-
-                          </form>
-                        </div><!-- myinfo_sub_box End-->
+                        <div class="cancel_or_apply">
+                          <input type="button" name="" value="확인" onclick="location.href='myinfo.php'" class="agree_btn">
+                        </div>
 
 
                       </div><!-- cercenter End-->
@@ -166,6 +124,7 @@
 
         </div><!-- container End -->
     </div><!-- wrap End -->
+
 
 
 

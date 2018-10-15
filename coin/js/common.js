@@ -968,3 +968,10 @@ $(document).ready(function(){
 // window.onresize= function(){
 //     navResize();
 // };
+
+//change_OTP_step1 인증번호창
+$(document).ready(function(){
+  $(".change_OTP_agree_btn").click(function(){
+    $("#full").hide();
+  });
+});

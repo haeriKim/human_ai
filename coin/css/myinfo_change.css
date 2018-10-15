@@ -268,3 +268,77 @@ cursor: pointer;
 .security_password_text_right{
   float:right;
 }
+
+/*change_OTP*/
+
+.change_OTP_table{
+  width: 100%;
+  margin-top:40px;
+  margin-bottom:60px;
+  text-align:left;
+  border: 1px solid #efefef;
+  border-left: none;
+  height: 40px;
+}
+.change_OTP_table_text{
+  margin-top:40px;
+}
+.change_OTP_table th{
+  background-color: #f4f5f9;
+  border-left: 2px solid #1b2f4a;
+  padding: 5px 10px;
+  color: #1b2f4a;
+  font-size: 14px;
+  font-weight: 600;
+  width: 35%;
+}
+.change_OTP_table td{
+  position:relative;
+  padding:5px;
+}
+.change_OTP_table .input_your_sms_number{
+  border: none;
+  border-bottom: 1px solid #1b2f4a;
+  width: 330px;
+  padding-bottom: 4px;
+  font-size: 15px;
+}
+.change_OTP_table .request_number{
+  border: 1px solid #1b2f4a;
+  background: #fff;
+  color: #1b2f4a;
+  padding: 3px 5px;
+  font-size:15px;
+  cursor: pointer;
+}
+.change_OTP_table .cofirm_number{
+  border: 1px solid #1b2f4a;
+  background: #fff;
+  color: #1b2f4a;
+  padding: 3px 5px;
+  font-size:15px;
+  cursor: pointer;
+}
+.change_OTP_table .change_OTP_count_down{
+  position: absolute;
+  font-size: 14px;
+  right: 260px;
+  margin-top: 4.5px;
+  color: red;
+  display:none;
+}
+/*change_OTP_full (팝업창)*/
+#full .popupbox_text{
+  margin-bottom: 40px;
+}
+#full .change_OTP_agree_btn{
+  border-radius: 5px;
+  padding: 7px 30px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: none;
+  background-color: #1b2f4a;
+  cursor: pointer;
+}

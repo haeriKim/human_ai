@@ -17,9 +17,7 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/common.js"></script>
     <script src="js/fouc.js"></script>
-    <script>
 
-</script>
 </head>
 <body>
     <!-- wrap -->
@@ -51,9 +49,9 @@
                               <dt><a href="myinfo_security_password.php" title="보안 비밀번호변경">보안 비밀번호변경</a></dt>
                               <dt><a href="myinfo_security_change.php" title="보안 비밀번호 초기화">보안 비밀번호 초기화</a></dt>
                               <dt><a href="myinfo_phone.php" title="휴대폰 번호변경">휴대폰 번호변경</a></dt>
-                              <dt class="active"><a href="#" title="계좌변경">계좌변경</a></dt>
+                              <dt><a href="myinfo_account.php" title="계좌변경">계좌변경</a></dt>
                               <dt><a href="myinfo_OTP.php" title="OTP 초기화">OTP 초기화</a></dt>
-                              <dt><a href="myinfo_OTP_change.php" title="OTP 비활성화">OTP 비활성화</a></dt>
+                              <dt class="active"><a href="myinfo_OTP_change.php" title="OTP 비활성화">OTP 비활성화</a></dt>
                           </dl>
                         </li>
                         <li><a href="certification.php" title="인증센터">인증센터</a></li>
@@ -71,42 +69,61 @@
                     <h3 class="title">회원 정보관리</h3>
                     <div class="myinfo_main_box cer_center mypage_content">
                       <div class="cer_center">
-                      <h4>계좌변경</h4>
-                        <div class="myinfo_small_info_box">
-                          <div class="myinfo_box1">
-                            <strong class="user_name">가*다</strong>
-                            <p class="user_mail">abc@naver.com</p>
-                          </div>
-                          <div class="myinfo_box2">
-                            <ul class="list_1">
-                              <li>
-                                <p class="myinfo_title">휴대폰</p>
-                                <p class="myinfo_detail user_phone">
-                                  <span>010</span>-<span>1***</span>-<span>***0</span>
-                                </p>
-                              </li>
-                            </ul>
-                            <ul class="list_2">
-                              <li>
-                                  <p class="myinfo_title">등급</p>
-                                  <p class="myinfo_detail">Level&nbsp;<span class='user_level'>4</span></p>
-                              </li>
-                            </ul>
-                          </div>
+                      <h4>OTP 비활성화</h4>
+                      <div class="myinfo_small_info_box">
+                        <div class="myinfo_box1">
+                          <strong class="user_name">가*다</strong>
+                          <p class="user_mail">abc@naver.com</p>
                         </div>
+                        <div class="myinfo_box2">
+                          <ul class="list_1">
+                            <li>
+                              <p class="myinfo_title">휴대폰</p>
+                              <p class="myinfo_detail user_phone">
+                                <span>010</span>-<span>1***</span>-<span>***0</span>
+                              </p>
+                            </li>
+                          </ul>
+                          <ul class="list_2">
+                            <li>
+                                <p class="myinfo_title">등급</p>
+                                <p class="myinfo_detail">Level&nbsp;<span class='user_level'>5</span></p>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
 
-                        <div class="myinfo_text_box">
-                            <p>가*다님의 현재 계좌번호는</p>
-                            <br/>
-                            <p><span>국민은행 12-12******-12-123</span>입니다.</p>
-                            <br/>
-                            <p>계좌를 변경요청하려면 <span>인증변경안내</span>를 참고해 주시기 바랍니다.</p>
-                            <br/>
-                        </div>
+                        <table class="change_OTP_table">
+                          <p class="change_OTP_table_text">SMS로 발송된 보안코드와 OTP 인증 앱에 표시된 인증번호(6자리)를 입력해주세요.</p>
+                          <colgroup>
+                            <col width="30%">
+                            <col width="70%">
+                          </colgroup>
+
+                          <tr>
+                            <th>휴대폰 SMS인증</th>
+                              <td>
+                                <input type="text" name="" value="" placeholder="휴대폰으로 전송된 인증번호를 입력하세요." required maxlength="6" minlength="6" class='input_your_sms_number'>
+                                <input type="button" value="인증번호요청" id="request_count" class="request_number">
+                                <input type="submit" value="인증번호재인증" id="confirm_count" class="cofirm_number">
+                                <span id="count_down" class="change_OTP_count_down">03:00</span>
+                                <p id='warning_message'>인증번호가 일치하지 않습니다.</p>
+                              </td>
+                          </tr>
+
+                          <tr>
+                            <th>OTP번호</th>
+                            <td>
+                              <input type="text" name="" value="" placeholder="OTP번호를 입력하세요." required maxlength="6" minlength="6" class='input_your_sms_number'>
+                              <p id='warning_message'>OTP번호가 일치하지 않습니다.</p>
+                            </td>
+                          </tr>
+
+                        </table>
 
                         <div class="cancel_or_apply">
-                          <input type="button" name="" value="취소" onclick="location.href='myinfo.php'" class="cancel_btn">
-                          <input type="button" name="" value="제출안내 보기" class="agree_btn" onclick="location.href='guide_account.php'">
+                          <input type="button" name="" value="취소" onclick="location.href='myinfo_change_OTP.php'" class="cancel_btn">
+                          <input type="button" name="" value="비활성화" class="agree_btn" onclick="location.href='myinfo_change_OTP_success.php'">
                         </div>
 
 
@@ -126,6 +143,23 @@
 
         </div><!-- container End -->
     </div><!-- wrap End -->
+
+    <div id="full">
+                <!-- full_content -->
+                <div id="popupbox" class='box popup phone_change_box'>
+                  <div class="full_inner">
+                    <h2>인증번호 발송완료</h2>
+                    <div class="popupbox_text">
+                      <p>등록하신 휴대폰으로 인증번호를 발송하였습니다.</p>
+                    </div>
+                    <div class="cancel_or_apply">
+                      <input type="button" name="" value="확인"  class="change_OTP_agree_btn">
+                    </div>
+
+                  </div>
+                </div><!-- full_content End-->
+                <div id="shadow"></div>
+        </div>
 
 
 
