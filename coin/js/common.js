@@ -184,10 +184,10 @@ $(document).ready(function(){
   var click_val=0;
   $(".question").click(function(){
     if(click_val===0) {
-      $(".coin_money_detail").fadeIn(300);
+      $(".coin_money_bitcoin").fadeIn(300);
       click_val=1;
     }else {
-      $(".coin_money_detail").fadeOut(300);
+      $(".coin_money_bitcoin").fadeOut(300);
       click_val=0;
     }
   });
