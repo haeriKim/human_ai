@@ -15,9 +15,10 @@
                 <li><a href="use_map.php">개인정보처리방침</a></li>
             </ul>
             <ul class="right">
-                <li class="footer_link"><a href="#">FAQ</a></li>
-                <li class="footer_link"><a href="#">1:1 문의</a></li>
-                <li><a href="#">인증변경안내</a></li>
+                <li class="footer_link"><a href="customer_FAQ.php">FAQ</a></li>
+                <li class="footer_link"><a href="customer_question.php">1:1 문의</a></li>
+                <li class="footer_link"><a href="guide_security.php">인증변경안내</a></li>
+                <li><a href="fee_table.php">수수료안내</a></li>
             </ul>
           </div>
       </div>

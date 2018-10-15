@@ -67,7 +67,7 @@
                       <div class="myinfo">
                       <h4>회원 정보</h4>
                       <div class="button_box">
-                        <a href="#" class="btn_small Q_and_A">1:1문의</a>
+                        <a href="customer_question.php" class="btn_small Q_and_A">1:1문의</a>
                         <a href="#" class="btn_small using_guide">이용안내</a>
                       </div>
                       <div class="myinfo_sub_box">
