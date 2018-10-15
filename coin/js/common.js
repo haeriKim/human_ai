@@ -450,6 +450,36 @@ $(document).ready(function(){
     });
 });
 
+/*회원탈퇴 3단계 인증번호버튼*/
+$(document).ready(function(){
+  $(".leave_member_request_number").click(function(){
+    $("#full").show();
+  });
+  $(".leave_member_agree_btn").click(function(){
+    $("#full").hide();
+  });
+});
+
+/*회원탈퇴 4단계 의견수렴 부분*/
+$(document).ready(function(){
+    $(".html_input input[type='text'], .html_input textarea").hide();
+    $("#leave_opinion").change(function(){
+        var selectR = $(this).val();
+        if(selectR =="기타(직접입력)"){
+            $(".html_input textarea").show();
+            $(".html_input input[type='text']").hide();
+        }else{
+          $(".html_input textarea").hide();
+          $(".html_input input[type='text']").show();
+          $(".html_input input[type='text']").attr("readonly",true).val(selectR);
+        }
+    });
+});
+
+//회원탈퇴 뒤로가기했을때 마이페이지 메인으로 가기
+$(document).ready(function(){
+});
+
 //자산관리 - 인증센터 말풍선
 $(document).ready(function(){
   $("#malpungsun, #account_malpungsun").hide();
@@ -649,32 +679,6 @@ $(document).ready(function(){
           $(this).next().stop().slideToggle();
       })
   })
-
-/*회원탈퇴 3단계 인증번호버튼*/
-$(document).ready(function(){
-  $(".leave_member_request_number").click(function(){
-    $("#full").show();
-  });
-  $(".leave_member_agree_btn").click(function(){
-    $("#full").hide();
-  });
-});
-
-/*회원탈퇴 4단계 의견수렴 부분*/
-$(document).ready(function(){
-    $(".html_input input[type='text'], .html_input textarea").hide();
-    $("#leave_opinion").change(function(){
-        var selectR = $(this).val();
-        if(selectR =="기타(직접입력)"){
-            $(".html_input textarea").show();
-            $(".html_input input[type='text']").hide();
-        }else{
-          $(".html_input textarea").hide();
-          $(".html_input input[type='text']").show();
-          $(".html_input input[type='text']").attr("readonly",true).val(selectR);
-        }
-    });
-});
 
 //알림설정 토글버튼
 $(document).ready(function(){
