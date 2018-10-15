@@ -278,10 +278,11 @@ table.left_thick_table tbody th{
     color: #1b2f4a;
     font-size: 14px;
     font-weight: 600;
+    width:35%;
 }
 table.left_thick_table tbody td{
     font-size: 14px;
-    padding: 5px 0;
+    padding: 5px 8px;
 }
 
 /*내자산관리 보유 현황 표 디자인(뒷배경 옅은 남색에 border-radius 들어간 것)*/
