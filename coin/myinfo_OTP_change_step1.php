@@ -122,8 +122,8 @@
                         </table>
 
                         <div class="cancel_or_apply">
-                          <input type="button" name="" value="취소" onclick="location.href='myinfo_change_OTP.php'" class="cancel_btn">
-                          <input type="button" name="" value="비활성화" class="agree_btn" onclick="location.href='myinfo_change_OTP_success.php'">
+                          <input type="button" name="" value="취소" onclick="location.href='myinfo_OTP_change.php'" class="cancel_btn">
+                          <input type="button" name="" value="비활성화" class="agree_btn" onclick="location.href='myinfo_OTP_change_success.php'">
                         </div>
 
 
