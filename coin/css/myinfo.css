@@ -209,3 +209,6 @@
   text-decoration:underline;
   color:#999;
 }
+.myinfo_sub_box .change_text:hover{
+  color:#c95b74;
+}
