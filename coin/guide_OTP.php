@@ -48,11 +48,11 @@
                           </dl>
                         </li>
                         <li class='on'>
-                          <a href="#" title="인증변경안내" class='more_menu'>인증변경안내</a>
+                          <a href="#" title="인증자료 제출안내" class='more_menu'>인증자료 제출안내</a>
                           <dl class="nav_dropdown changeA_dd on">
-                              <dt><a href="guide_security.php" title="보안비밀번호 초기화">보안비밀번호 초기화</a></dt>
-                              <dt><a href="guide_account.php" title="계좌 변경">계좌변경</a></dt>
-                              <dt class='active'><a href="guide_OTP.php" title="OTP 변경">OTP 변경</a></dt>
+                              <dt><a href="guide_security.php" title="보안 비밀번호 초기화">보안 비밀번호 초기화</a></dt>
+                              <dt><a href="guide_account.php" title="계좌변경">계좌변경</a></dt>
+                              <dt class='active'><a href="guide_OTP.php" title="OTP 초기화">OTP 초기화</a></dt>
                           </dl>
                         </li>
                         <li><a href="fee_table.php" title="수수료 안내">수수료 안내</a></li>
@@ -63,8 +63,8 @@
                     <h3 class="title">인증자료 제출안내</h3>
                     <!-- guide_OTP_inner -->
                     <div class="guide_OTP_inner mypage_content">
-                      <h4>OTP 변경</h4>
-                        <p class="guide_OTP_p">OTP 변경 시, 아래 제출서류를 첨부하여 양식에 따라 이메일을 보내야합니다.</p>
+                      <h4>OTP 초기화</h4>
+                        <p class="guide_OTP_p">OTP 초기화 시, 아래 제출서류를 첨부하여 양식에 따라 이메일을 보내야합니다.</p>
                         <p class="title_title">[ 제출 이메일 양식 ]</p>
 
                         <table class='guide_OTP_table' summary='이메일 제목, 이메일 보낼 주소, 이메일 본문 필수 항목, 첨부파일'>
@@ -74,7 +74,7 @@
                               <tbody class='guide_OTP_tbody'>
                                 <tr>
                                     <th>이메일 제목</th>
-                                    <td>The Alls OTP 변경 요청</td>
+                                    <td>The Alls OTP 초기화 요청</td>
                                 </tr>
 
                                 <tr>
