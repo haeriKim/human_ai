@@ -111,9 +111,14 @@
 
               </div><!--coin_money End-->
 
-              <!--coin_money_detail-->
 
-              <div class="box coin_money_detail">
+<!-- 코인상세보기 시작 ------------------------------------------------------------------------------------------------------------------------------->
+<!-- 코인상세보기 시작 ------------------------------------------------------------------------------------------------------------------------------->
+<!-- 코인상세보기 시작 ------------------------------------------------------------------------------------------------------------------------------->
+
+              <!--coin_money_detail / coin_money_bitcoin-->
+
+              <div class="box coin_money_detail coin_money_bitcoin">
                 <div class="coin_name"><h4>Bitcoin</h4></div>
               <div id="detail_all">
                 <p>(정보기준일:2018.08.28)</p>
@@ -170,7 +175,379 @@
 
 
 
-              </div><!--coin_money_detail End-->
+            </div><!--coin_money_detail / coin_money_bitcoinCash End-->
+
+            <!--coin_money_detail / coin_money_bitcoinCash-->
+
+            <div class="box coin_money_detail coin_money_bitcoinCash">
+              <div class="coin_name"><h4>BitcoinCash</h4></div>
+            <div id="detail_all">
+              <p>(정보기준일:2018.08.28)</p>
+              <!-- left_thick_table -->
+              <table class='left_thick_table coinInfo_table'>
+                <thead>
+
+                </thead>
+                  <tbody>
+                      <tr>
+                          <th>최초발행</th>
+                          <td>2017년 8월</td>
+                      </tr>
+                      <tr>
+                          <th>코인/토큰</th>
+                          <td>코인</td>
+                      </tr>
+                      <tr>
+                          <th>시총순위</th>
+                          <td>4위</td>
+                      </tr>
+                      <tr>
+                          <th>시가총액</th>
+                          <td>8.6조원(18.10.01 기준)</td>
+                      </tr>
+                      <tr>
+                          <th>블록생성기</th>
+                          <td>10분</td>
+                      </tr>
+                      <tr>
+                          <th>유통량</th>
+                          <td>17,057,825</td>
+                      </tr>
+                      <tr>
+                          <th>총발행한도</th>
+                          <td>21,000,000</td>
+                      </tr>
+                      <tr>
+                          <th>채굴봉상량</th>
+                          <td>6 BTC</td>
+                      </tr>
+                      <tr>
+                          <th>국가</th>
+                          <td>일본</td>
+                      </tr>
+                      <tr>
+                          <th>공식홈페이지</th>
+                          <td><a href="http://www.bitcoincash.org/ko/">http://www.bitcoincash.org/ko/</a></td>
+                      </tr>
+                  </tbody>
+              </table><!-- left_thick_table End-->
+                <span><a href="coin_info_bitcoincash.php">상세보기</a></span>
+            </div>
+
+
+
+          </div><!--coin_money_detail / coin_money_bitcoinCash End-->
+
+          <!--coin_money_detail / coin_money_ethurium-->
+
+          <div class="box coin_money_detail coin_money_ethurium">
+            <div class="coin_name"><h4>Ethurium</h4></div>
+          <div id="detail_all">
+            <p>(정보기준일:2018.08.28)</p>
+            <!-- left_thick_table -->
+            <table class='left_thick_table coinInfo_table'>
+              <thead>
+
+              </thead>
+                <tbody>
+                    <tr>
+                        <th>최초발행</th>
+                        <td>2015년 7월</td>
+                    </tr>
+                    <tr>
+                        <th>코인/토큰</th>
+                        <td>코인</td>
+                    </tr>
+                    <tr>
+                        <th>시총순위</th>
+                        <td>2위</td>
+                    </tr>
+                    <tr>
+                        <th>시가총액</th>
+                        <td>21.7조원(18.08.27 기준)</td>
+                    </tr>
+                    <tr>
+                        <th>블록생성기</th>
+                        <td>12초</td>
+                    </tr>
+                    <tr>
+                        <th>유통량</th>
+                        <td>90,000,000</td>
+                    </tr>
+                    <tr>
+                        <th>총발행한도</th>
+                        <td>제한없음</td>
+                    </tr>
+                    <tr>
+                        <th>채굴봉상량</th>
+                        <td>5 ETH</td>
+                    </tr>
+                    <tr>
+                        <th>국가</th>
+                        <td>스위스</td>
+                    </tr>
+                    <tr>
+                        <th>공식홈페이지</th>
+                        <td><a href="http://www.ethurium.org">http://www.ethurium.org</a></td>
+                    </tr>
+                </tbody>
+            </table><!-- left_thick_table End-->
+              <span><a href="coin_info_ethurium.php">상세보기</a></span>
+          </div>
+
+
+
+        </div><!--coin_money_detail / coin_money_ethurium End-->
+
+        <!--coin_money_detail / coin_money_ethuriumClassic-->
+
+        <div class="box coin_money_detail coin_money_ethuriumClassic">
+          <div class="coin_name"><h4>Ethurium Classic</h4></div>
+        <div id="detail_all">
+          <p>(정보기준일:2018.08.28)</p>
+          <!-- left_thick_table -->
+          <table class='left_thick_table coinInfo_table'>
+            <thead>
+
+            </thead>
+              <tbody>
+                  <tr>
+                      <th>최초발행</th>
+                      <td>2016년 7월</td>
+                  </tr>
+                  <tr>
+                      <th>코인/토큰</th>
+                      <td>코인</td>
+                  </tr>
+                  <tr>
+                      <th>시총순위</th>
+                      <td>15위</td>
+                  </tr>
+                  <tr>
+                      <th>시가총액</th>
+                      <td>1.3조원(18.08.27 기준)</td>
+                  </tr>
+                  <tr>
+                      <th>블록생성기</th>
+                      <td>15초</td>
+                  </tr>
+                  <tr>
+                      <th>유통량</th>
+                      <td>101,000,000</td>
+                  </tr>
+                  <tr>
+                      <th>총발행한도</th>
+                      <td>21,000,000</td>
+                  </tr>
+                  <tr>
+                      <th>채굴봉상량</th>
+                      <td>현재 약 5 ETC</td>
+                  </tr>
+                  <tr>
+                      <th>국가</th>
+                      <td>스위스</td>
+                  </tr>
+                  <tr>
+                      <th>공식홈페이지</th>
+                      <td><a href="http://www.ethereumclassic.github.io">http://www.ethereumclassic.github.io</a></td>
+                  </tr>
+              </tbody>
+          </table><!-- left_thick_table End-->
+            <span><a href="coin_info_ethuriumclassic.php">상세보기</a></span>
+        </div>
+
+
+
+      </div><!--coin_money_detail / coin_money_ethuriumClassic End-->
+
+      <!--coin_money_detail / coin_money_eos-->
+
+      <div class="box coin_money_detail coin_money_eos">
+        <div class="coin_name"><h4>Eos</h4></div>
+      <div id="detail_all">
+        <p>(정보기준일:2018.08.28)</p>
+        <!-- left_thick_table -->
+        <table class='left_thick_table coinInfo_table'>
+          <thead>
+
+          </thead>
+            <tbody>
+                <tr>
+                    <th>최초발행</th>
+                    <td>2017년 6월</td>
+                </tr>
+                <tr>
+                    <th>코인/토큰</th>
+                    <td>코인</td>
+                </tr>
+                <tr>
+                    <th>시총순위</th>
+                    <td>5위</td>
+                </tr>
+                <tr>
+                    <th>시가총액</th>
+                    <td>5.8조원(18.08.27 기준)</td>
+                </tr>
+                <tr>
+                    <th>블록생성기</th>
+                    <td>10초</td>
+                </tr>
+                <tr>
+                    <th>유통량</th>
+                    <td>101,000,000</td>
+                </tr>
+                <tr>
+                    <th>총발행한도</th>
+                    <td>1,000,000,000</td>
+                </tr>
+                <tr>
+                    <th>채굴봉상량</th>
+                    <td>12.5 EOS</td>
+                </tr>
+                <tr>
+                    <th>국가</th>
+                    <td>미국/중국</td>
+                </tr>
+                <tr>
+                    <th>공식홈페이지</th>
+                    <td><a href="https://eos.io/">https://eos.io/</a></td>
+                </tr>
+            </tbody>
+        </table><!-- left_thick_table End-->
+          <span><a href="coin_info_eos.php">상세보기</a></span>
+      </div>
+
+
+
+    </div><!--coin_money_detail / coin_money_eos End-->
+
+
+    <!--coin_money_detail / coin_money_ripple-->
+
+    <div class="box coin_money_detail coin_money_ripple">
+      <div class="coin_name"><h4>Ripple</h4></div>
+    <div id="detail_all">
+      <p>(정보기준일:2018.08.28)</p>
+      <!-- left_thick_table -->
+      <table class='left_thick_table coinInfo_table'>
+        <thead>
+
+        </thead>
+          <tbody>
+              <tr>
+                  <th>최초발행</th>
+                  <td>2013년 4월</td>
+              </tr>
+              <tr>
+                  <th>코인/토큰</th>
+                  <td>코인</td>
+              </tr>
+              <tr>
+                  <th>시총순위</th>
+                  <td>3위</td>
+              </tr>
+              <tr>
+                  <th>시가총액</th>
+                  <td>26.3조원(18.08.27 기준)</td>
+              </tr>
+              <tr>
+                  <th>블록생성기</th>
+                  <td>2분</td>
+              </tr>
+              <tr>
+                  <th>유통량</th>
+                  <td>39,095,000</td>
+              </tr>
+              <tr>
+                  <th>총발행한도</th>
+                  <td>100,000,000</td>
+              </tr>
+              <tr>
+                  <th>채굴봉상량</th>
+                  <td>-</td>
+              </tr>
+              <tr>
+                  <th>국가</th>
+                  <td>-</td>
+              </tr>
+              <tr>
+                  <th>공식홈페이지</th>
+                  <td><a href="https://ripple.com">https://ripple.com</a></td>
+              </tr>
+          </tbody>
+      </table><!-- left_thick_table End-->
+        <span><a href="coin_info_ripple.php">상세보기</a></span>
+    </div>
+
+
+
+  </div><!--coin_money_detail / coin_money_ripple End-->
+
+  <!--coin_money_detail / coin_money_ada-->
+
+  <div class="box coin_money_detail coin_money_ada">
+    <div class="coin_name"><h4>Ada</h4></div>
+  <div id="detail_all">
+    <p>(정보기준일:2018.08.28)</p>
+    <!-- left_thick_table -->
+    <table class='left_thick_table coinInfo_table'>
+      <thead>
+
+      </thead>
+        <tbody>
+            <tr>
+                <th>최초발행</th>
+                <td>2017년 10월</td>
+            </tr>
+            <tr>
+                <th>코인/토큰</th>
+                <td>코인</td>
+            </tr>
+            <tr>
+                <th>시총순위</th>
+                <td>10위</td>
+            </tr>
+            <tr>
+                <th>시가총액</th>
+                <td>-</td>
+            </tr>
+            <tr>
+                <th>블록생성기</th>
+                <td>-</td>
+            </tr>
+            <tr>
+                <th>유통량</th>
+                <td>-</td>
+            </tr>
+            <tr>
+                <th>총발행한도</th>
+                <td>45,000,000,000</td>
+            </tr>
+            <tr>
+                <th>채굴봉상량</th>
+                <td>-</td>
+            </tr>
+            <tr>
+                <th>국가</th>
+                <td>-</td>
+            </tr>
+            <tr>
+                <th>공식홈페이지</th>
+                <td><a href="https://www.cardano.org/en/home/">https://www.cardano.org/en/home/</a></td>
+            </tr>
+        </tbody>
+    </table><!-- left_thick_table End-->
+      <span><a href="coin_info_ada.php">상세보기</a></span>
+  </div>
+
+
+
+</div><!--coin_money_detail / coin_money_ada End-->
+
+<!-- 코인상세보기 끝 ------------------------------------------------------------------------------------------------------------------------------->
+<!-- 코인상세보기 끝 ------------------------------------------------------------------------------------------------------------------------------->
+<!-- 코인상세보기 끝 ------------------------------------------------------------------------------------------------------------------------------->
+
 
               <div class="box" id='deal_orgin_transaction'>
                   <h3 class='exchange_h3'>원화거래</h3>
