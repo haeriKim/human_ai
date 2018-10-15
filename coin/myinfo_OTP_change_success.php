@@ -47,13 +47,13 @@
                         <li class="on">
                           <a href="#" title="회원 정보관리" class='more_menu'>회원 정보관리</a>
                           <dl class="nav_dropdown info_dd">
-                              <dt class="active"><a href="myinfo_login_password.php" title="로그인 비밀번호변경">로그인 비밀번호변경</a></dt>
+                              <dt><a href="myinfo_login_password.php" title="로그인 비밀번호변경">로그인 비밀번호변경</a></dt>
                               <dt><a href="myinfo_security_password.php" title="보안 비밀번호변경">보안 비밀번호변경</a></dt>
                               <dt><a href="myinfo_security_change.php" title="보안 비밀번호 초기화">보안 비밀번호 초기화</a></dt>
                               <dt><a href="myinfo_phone.php" title="휴대폰 번호변경">휴대폰 번호변경</a></dt>
                               <dt><a href="myinfo_account.php" title="계좌변경">계좌변경</a></dt>
                               <dt><a href="myinfo_OTP.php" title="OTP 초기화">OTP 초기화</a></dt>
-                              <dt><a href="myinfo_OTP_change.php" title="OTP 비활성화">OTP 비활성화</a></dt>
+                              <dt class="active"><a href="myinfo_OTP_change.php" title="OTP 비활성화">OTP 비활성화</a></dt>
                           </dl>
                         </li>
                         <li><a href="certification.php" title="인증센터">인증센터</a></li>
@@ -71,7 +71,7 @@
                     <h3 class="title">회원 정보관리</h3>
                     <div class="myinfo_main_box cer_center mypage_content">
                       <div class="cer_center">
-                      <h4>로그인 비밀번호변경</h4>
+                      <h4>OTP 비활성화</h4>
                         <div class="myinfo_small_info_box">
                           <div class="myinfo_box1">
                             <strong class="user_name">가*다</strong>
@@ -98,7 +98,7 @@
                         <div class="myinfo_text_box">
                           <h3>OTP 비활성화 완료</h3>
                           <br/>
-                          <p>OTP 비활성화로 인해 인증단계가 <span>Level&nbsp;<span class="user_level">4</span></span>로 떨어졌습니다.</p>
+                          <p>OTP 비활성화로 인해 인증단계가 <span>Level&nbsp;<span class="user_level">4</span></span>로 하향되었습니다.</p>
                           <br/>
                           <p>안전하고 원활한 거래를 위해선 OTP 인증을 권장합니다.</p>
                         </div>

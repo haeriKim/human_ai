@@ -140,7 +140,7 @@
                                     <td>
                                         <span class='no_OTP'>-</span>
                                         <a href="certification_OTP.php" class="btn_medium certify_OTP">OTP 인증</a>
-                                        <a href="myinfo_OTP.php" class="btn_medium change_OTP">OTP 비활성화</a><a href="#" class="change_text">초기화를 원하신다면?</a>
+                                        <a href="myinfo_OTP_change.php" class="btn_medium change_OTP">OTP 비활성화</a><a href="myinfo_OTP.php" class="change_text">초기화를 원하신다면?</a>
                                     </td>
                                 </tr>
                               </tbody>
