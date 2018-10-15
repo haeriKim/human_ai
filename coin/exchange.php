@@ -166,7 +166,7 @@
                         </tr>
                         <tr>
                             <th>공식홈페이지</th>
-                            <td><a href="http://www.bitcoin.com">http://www.bitcoin.com</a></td>
+                            <td><a href="http://www.bitcoin.com" target="_blank">http://www.bitcoin.com</a></td>
                         </tr>
                     </tbody>
                 </table><!-- left_thick_table End-->
@@ -227,7 +227,7 @@
                       </tr>
                       <tr>
                           <th>공식홈페이지</th>
-                          <td><a href="http://www.bitcoincash.org/ko/">http://www.bitcoincash.org/ko/</a></td>
+                          <td><a href="http://www.bitcoincash.org/ko/" target="_blank">http://www.bitcoincash.org/ko/</a></td>
                       </tr>
                   </tbody>
               </table><!-- left_thick_table End-->
@@ -288,7 +288,7 @@
                     </tr>
                     <tr>
                         <th>공식홈페이지</th>
-                        <td><a href="http://www.ethurium.org">http://www.ethurium.org</a></td>
+                        <td><a href="http://www.ethurium.org" target="_blank">http://www.ethurium.org</a></td>
                     </tr>
                 </tbody>
             </table><!-- left_thick_table End-->
@@ -349,7 +349,7 @@
                   </tr>
                   <tr>
                       <th>공식홈페이지</th>
-                      <td><a href="http://www.ethereumclassic.github.io">http://www.ethereumclassic.github.io</a></td>
+                      <td><a href="https://ethereumclassic.github.io/" target="_blank">https://ethereumclassic.github.io/</a></td>
                   </tr>
               </tbody>
           </table><!-- left_thick_table End-->
@@ -410,7 +410,7 @@
                 </tr>
                 <tr>
                     <th>공식홈페이지</th>
-                    <td><a href="https://eos.io/">https://eos.io/</a></td>
+                    <td><a href="https://eos.io/" target="_blank">https://eos.io/</a></td>
                 </tr>
             </tbody>
         </table><!-- left_thick_table End-->
@@ -472,7 +472,7 @@
               </tr>
               <tr>
                   <th>공식홈페이지</th>
-                  <td><a href="https://ripple.com">https://ripple.com</a></td>
+                  <td><a href="https://ripple.com" target="_blank">https://ripple.com</a></td>
               </tr>
           </tbody>
       </table><!-- left_thick_table End-->
@@ -533,7 +533,7 @@
             </tr>
             <tr>
                 <th>공식홈페이지</th>
-                <td><a href="https://www.cardano.org/en/home/">https://www.cardano.org/en/home/</a></td>
+                <td><a href="https://www.cardano.org/en/home/" target="_blank">https://www.cardano.org/en/home/</a></td>
             </tr>
         </tbody>
     </table><!-- left_thick_table End-->

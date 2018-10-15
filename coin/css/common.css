@@ -274,14 +274,14 @@ table.left_thick_table tbody tr{
 table.left_thick_table tbody th{
     background-color: #f4f5f9;
     border-left: 2px solid #1b2f4a;
-    padding: 5px 20px 5px 10px;
+    padding: 5px 10px;
     color: #1b2f4a;
     font-size: 14px;
     font-weight: 600;
 }
 table.left_thick_table tbody td{
     font-size: 14px;
-    padding: 5px 0 5px 30px;
+    padding: 5px 0;
 }
 
 /*내자산관리 보유 현황 표 디자인(뒷배경 옅은 남색에 border-radius 들어간 것)*/
@@ -603,7 +603,7 @@ div.cancel_or_apply .if_you_all_agree:hover{
 }
 .coin_money_detail #detail_all .coinInfo_table tbody tr td {
   font-size: 13px;
-  padding: 0 20px;
+
 }
 .coin_money_detail #detail_all .coinInfo_table tbody tr td a{
     color:#666;
