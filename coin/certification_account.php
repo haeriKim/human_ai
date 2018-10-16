@@ -136,41 +136,62 @@
 
                         <div class="cText_right2">
 
-                          <strong><span>2</span>. 계좌 등록</strong>
+                          <strong><span>2</span>. 계좌 정보 입력</strong>
                           <form action="#" method="post">
-                          <div class="account">
-                            <ul class="bankname">
-                              <li>예금주</li>
-                              <li>은행명</li>
-                              <li>계좌번호</li>
-                            </ul>
-                            <ul class="bank_inner">
-                              <li>가나다</li>
-                              <li>
-                                <select name="bankselect" id="bankselect" required class='bankName'>
-                                  <option value="은행선택" selected="selected" disabled>은행선택</option>
-                                  <option value="국민은행">국민은행</option>
-                                  <option value="농협은행">농협은행</option>
-                                  <option value="신한은행">신한은행</option>
-                                  <option value="우리은행">우리은행</option>
-                                  <option value="기업은행">기업은행</option>
-                                </select>
-                              </li>
-                              <li><input type="text" placeholder="숫자만 입력해주세요." required class="account_number user_account"></li>
-                            </ul>
-
+                          <table class="account left_thick_table">
+                            <tbody>
+                              <tr>
+                                <th>예금주</th>
+                                <td>
+                                  <span class="user_name">가나다</span>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th>은행명</th>
+                                <td>
+                                  <select name="bankselect" id="bankselect" required class='bankName'>
+                                    <option value="은행선택" selected="selected" disabled>은행선택</option>
+                                    <option value="국민은행">국민은행</option>
+                                    <option value="농협은행">농협은행</option>
+                                    <option value="신한은행">신한은행</option>
+                                    <option value="우리은행">우리은행</option>
+                                    <option value="기업은행">기업은행</option>
+                                  </select>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th>계좌번호</th>
+                                <td>
+                                  <input type="text" placeholder="숫자만 입력하세요." required class="account_number user_account">
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <div class="notice">
+                            <p>※ 본인명의 계좌만 등록 가능합니다.</p>
+                            <p>※ 은행 점검 시간에는 계좌 인증이 불가능합니다.</p>
                           </div>
-                            <p>※ 본인명의 계좌만 등록 가능</p>
+                          <div class="bank_request">
+                            <span class="request">계좌 인증번호 요청</span>
+                            <input type="submit" name="계좌 인증번호 요청" value="계좌 인증번호 요청" class="chk_ok"/>
+                          </div>
+                          <div class="code_area">
+                            <p>위에 회원님의 계좌로 <b>1원</b>을 보냈습니다.</p>
+                            <p>계좌 거래내역 입금자명 디올스 뒤에 <b>숫자 3자리</b>를 입력하세요.</p>
+                            <input type="text" placeholder="인증번호 숫자 3자리를 입력하세요." required class="authentication_num" minlength="3" maxlength="3">
+                            <p>1원이 입금되지 않으셨나요?<br/>
+                              입금 내역이 확인 되지 않으시다면 '고객센터'로 문의해주세요.
+                            </p>
                             <div id="bank_complete">
-
-
                                 <input type="button" name="취소" value="취소" onclick="location.href='certification.php'" class="bank_cancel">
 
-                                <span class="account_complete">등록</span>
-                                <input type="submit" name="등록" value="등록" class="chk_ok" onclick="location.href='certification_account_success.php'"/>
+                                <span class="account_complete">인증</span>
+                                <input type="submit" name="인증" value="인증" class="chk_ok" onclick="location.href='certification_account_success.php'"/>
 
                             </div>
-                            </form>
+                            <a href="">인증번호는 어떻게 확인하나요?</a>
+                          </div>
+                          </form>
                         </div>
 
                       </div>

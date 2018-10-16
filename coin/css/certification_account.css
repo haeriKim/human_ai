@@ -55,30 +55,75 @@
 .cText_right2 .account{
   overflow: hidden;
 }
-.cText_right2 .bankname{
-  float:left;
-  padding: 2px 0;
+.cText_right2 .account span {
+  color: #1b2f4a;
 }
-.cText_right2 .bank_inner{
-  float:left;
-  padding-left: 20px;
-  width: 325px;
-}
-.bank_inner #bankselect, .cText_right2 .account_number{
+.cText_right2 .account select {
+  border: 1px solid #1b2f4a;
   width: 100%;
-  color:#666;
-  border:none;
-  border-bottom:1px solid #1b2f4a;
-  padding: 7px 0;
+  color: #1b2f4a;
+  height: 25px;
 }
-.cText_right2 .account_number{
-  padding: 7px 0;
+.cText_right2 .account input[type="text"] {
+  border: none;
+  border-bottom: 1px solid #1b2f4a;
+  padding-bottom: 4px;
+  width: 100%;
 }
 .cText_right2 p{
   font-size:13px;
   font-weight:600;
   color:#c95b74;
   margin-top:6px;
+}
+.cText_right2 .bank_request {
+  text-align: center;
+  margin-top: 20px;
+
+}
+.cText_right2 .bank_request span.request,.cText_right2 .bank_request input[type="submit"] {
+  border-radius: 5px;
+  padding: 7px 30px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: 1px solid #666;
+  background-color: #666;
+}
+.cText_right2 .bank_request input[type="submit"]{
+  border: 1px solid #1b2f4a;
+  background-color: #1b2f4a;
+  cursor: pointer;
+}
+.cText_right2 .code_area {
+  margin-top: 20px;
+}
+.cText_right2 .code_area p {
+  color: #1b2f4a;
+}
+.cText_right2 .code_area p b {
+  color: #c95b74;
+  font-size: 14px;
+}
+.cText_right2 .code_area input[type="text"]{
+  border: none;
+  border-bottom: 2px solid #1b2f4a;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 0;
+  display: block;
+}
+.cText_right2 .code_area a {
+  display: inline-block;
+  float: right;
+  color: #999;
+  text-decoration: underline;
+  font-size: 13px;
+  margin-top: 20px;
+}
+.cText_right2 .code_area a:hover {
+  color: #c95b74;
 }
 #bank_complete{
   text-align:center;

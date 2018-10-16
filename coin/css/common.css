@@ -744,7 +744,8 @@ div.cancel_or_apply .if_you_all_agree:hover{
 #output_KRW table.left_thick_table tbody input[type='text'],
 #withdrawal_text3 table.left_thick_table tbody input[type='text'],
 #withdrawal_text3 table.left_thick_table tbody input[type='password'],
-.signUp_right_con > input{
+.signUp_right_con > input
+{
     border: none;
     border-bottom: 1px solid #1b2f4a;
     width: 330px;

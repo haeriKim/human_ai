@@ -933,16 +933,18 @@ $(document).ready(function(){
     });
 });
 
-//화면 높이값 조절
-
-
-// window.onresize= function(){
-//     navResize();
-// };
-
 //change_OTP_step1 인증번호창
 $(document).ready(function(){
   $(".change_OTP_agree_btn").click(function(){
     $("#full").hide();
+  });
+});
+
+//계좌 인증번호 요청
+$(document).ready(function(){
+  $(".bank_request .request, .code_area").hide();
+  $(".bank_request input[type='submit']").click(function(){
+    $(".bank_request input[type='submit'], .notice").hide();
+    $(".bank_request .request,.code_area").show();
   });
 });
