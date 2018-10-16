@@ -98,9 +98,23 @@
 }
 .cText_right2 .code_area {
   margin-top: 20px;
+  /* border: 1px solid #efefef; */
+  margin-top: 57px;
+  padding: 20px 20px;
+  border-radius: 5px;
+  /* float: left; */
+  background: #f4f5f9;
 }
 .cText_right2 .code_area p {
   color: #1b2f4a;
+}
+.cText_right2 .code_area .code_text{
+  border: none;
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px 0;
+  background: #f4f5f9;
+  /* display: block; */
 }
 .cText_right2 .code_area p b {
   color: #c95b74;
@@ -108,26 +122,38 @@
 }
 .cText_right2 .code_area input[type="text"]{
   border: none;
-  border-bottom: 2px solid #1b2f4a;
-  width: 80%;
-  margin: 0 auto;
+  border-bottom: 1px solid #1b2f4a;
+  width: 100%;
   padding: 10px 0;
-  display: block;
+  background:#f4f5f9;
 }
-.cText_right2 .code_area a {
-  display: inline-block;
-  float: right;
+.cText_right2 .code_area .code_text2 {
+  display: block;
   color: #999;
   text-decoration: underline;
   font-size: 13px;
   margin-top: 20px;
+  text-align:right;
+}
+.cText_right2 .code_area .delete_icon{
+  display: block;
+  color: #999;
+  font-size: 13px;
+  text-align:right;
+  margin-top:5px;
+  cursor: pointer;
+}
+.cText_right2 .code_area .delete_icon img{
+  width: 30px;
+  height: 30px;
+  vertical-align: -10px;
 }
 .cText_right2 .code_area a:hover {
   color: #c95b74;
 }
 #bank_complete{
   text-align:center;
-  margin-top: 65px;
+  margin-top: 20px;
 }
 .cText_right2 #bank_complete .account_complete, .cText_right2 #bank_complete .chk_ok, .cText_right2 #bank_complete .bank_cancel{
   border-radius: 5px;

@@ -178,10 +178,12 @@
                           <div class="code_area">
                             <p>위에 회원님의 계좌로 <b>1원</b>을 보냈습니다.</p>
                             <p>계좌 거래내역 입금자명 디올스 뒤에 <b>숫자 3자리</b>를 입력하세요.</p>
-                            <input type="text" placeholder="인증번호 숫자 3자리를 입력하세요." required class="authentication_num" minlength="3" maxlength="3">
-                            <p>1원이 입금되지 않으셨나요?<br/>
+
+                            <p class="code_text">1원이 입금되지 않으셨나요?<br/>
                               입금 내역이 확인 되지 않으시다면 '고객센터'로 문의해주세요.
                             </p>
+                              <input type="text" placeholder="인증번호 숫자 3자리를 입력하세요." required class="authentication_num" minlength="3" maxlength="3">
+                              <a class="delete_icon"><img src="img/delete.png" alt="휴지통아이콘">삭제</a>
                             <div id="bank_complete">
                                 <input type="button" name="취소" value="취소" onclick="location.href='certification.php'" class="bank_cancel">
 
@@ -189,7 +191,7 @@
                                 <input type="submit" name="인증" value="인증" class="chk_ok" onclick="location.href='certification_account_success.php'"/>
 
                             </div>
-                            <a href="">인증번호는 어떻게 확인하나요?</a>
+                            <a href="" class="code_text2">인증번호는 어떻게 확인하나요?</a>
                           </div>
                           </form>
                         </div>
