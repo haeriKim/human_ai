@@ -233,7 +233,7 @@ table td div.question_smallbox:hover .password_question_detail2{
 }
 .phone_change_box .popupbox_text .small{
   display:block;
-  padding-bottom:30px;
+  padding-bottom:10px;
 
 }
 .phone_change_box .popupbox_text_phone2{
@@ -244,9 +244,6 @@ table td div.question_smallbox:hover .password_question_detail2{
   position:relative;
   z-index:10000;
   top:0;
-}
-.phone_change_box2 .cancel_or_apply{
-  padding-top:20px;
 }
 .phone_change_box2 .cancel_btn_ok{
 border-radius: 5px;
@@ -311,6 +308,14 @@ cursor: pointer;
   font-size:15px;
   cursor: pointer;
 }
+.change_OTP_table .request_number:hover{
+  border:1px solid #1b2f4a;
+  background:#1b2f4a;
+  color:#fff;
+  padding: 3px 5px;
+  font-size:15px;
+  cursor: pointer;
+}
 .change_OTP_table .cofirm_number{
   border: 1px solid #1b2f4a;
   background: #fff;
@@ -318,6 +323,14 @@ cursor: pointer;
   padding: 3px 5px;
   font-size:15px;
   cursor: pointer;
+}
+.change_OTP_table .cofirm_number:hover{
+  border:1px solid #1b2f4a;
+  background:#1b2f4a;
+  color:#fff;
+  padding: 3px 5px;
+  font-size:15px;
+  cursor:pointer;
 }
 .change_OTP_table .change_OTP_count_down{
   position: absolute;

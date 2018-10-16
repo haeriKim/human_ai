@@ -112,7 +112,7 @@
                           </tr>
 
                           <tr>
-                            <th>OTP번호</th>
+                            <th>OTP 인증번호</th>
                             <td>
                               <input type="text" name="" value="" placeholder="OTP번호를 입력하세요." required maxlength="6" minlength="6" class='input_your_sms_number'>
                               <p id='warning_message'>OTP번호가 일치하지 않습니다.</p>

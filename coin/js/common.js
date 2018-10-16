@@ -688,7 +688,7 @@ $(document).ready(function(){
 
 //휴대폰변경 완료창
 $(document).ready(function(){
-  $(".request_number").click(function(){
+  $(".request_number, .cofirm_number").click(function(){
       $("#full").show();
   });
   $(".phone2_ok").click(function(){
@@ -805,7 +805,7 @@ $(document).ready(function(){
 //원화거래 출금 인증번호 팝업
 $(document).ready(function(){
     $(".KRW_SMS_number").hide();
-    $(".request_number2").click(function(){
+    $(".request_number2, .cofirm_number").click(function(){
       $(".count_down, .cofirm_number, .KRW_SMS_number, #shadow").show();
       $(".request_number2").hide();
     });

@@ -38,26 +38,18 @@
                     <!-- 로그인폼 -->
                     <div id="login_area">
                         <form class="" action="#" method="post">
-                            <h3>로그인</h3>
-                            <label for="e_mail" class='skip_label'>이메일주소</label>
-                            <input type="email" name="e_mail" value="" placeholder="이메일주소를 입력하세요." id='e_mail' required autocomplete="off" class='user_mail'>
-                            <label for="password" class='skip_label'>비밀번호</label>
-                            <input type="password" name="password" value="" placeholder="로그인 비밀번호를 입력하세요." id='password' required autocomplete="off" class='user_pass'>
-                            <p class='wrong_info'><img src="img/icon_ex.png" alt="경고아이콘" class="warning_icon">이메일주소와 비밀번호를 확인해주세요.</p>
-                            <input type="submit" name="로그인" value="로그인" class='button_box login_button'>
+                            <h3>OTP 인증</h3>
+                            <p>OTP 번호를 입력하신 후 로그인 해주시기 바랍니다.</p>
+                            <label for="text" class='skip_label'>OTP인증번호</label>
+                            <input type="text" name="OTP" value="" placeholder="인증번호를 입력하세요." id='OTP' required autocomplete="off" class='OTP_code'>
+
+                            <p class='wrong_info'>인증번호가 일치하지 않습니다.</p>
+                            <input type="submit" name="확인" value="확인" class='button_box login_button'>
                             <!-- login_info -->
                         </form>
 
                         <div class="login_info">
-                            <a href="signUp.php">회원가입</a>
-                            <ul>
-                                <li><a href='login_findPw.php'>비밀번호 찾기</a></li>
-                                <li>
-                                    <a href='#'>이메일 주소 찾기</a>
-                                    <p class='e_mail_find'>당사 고객센터(1644-4272)로 연락주시면<br/>확인하여 안내드릴 수 있도록 하겠습니다.</p>
-                                </li>
-                            </ul>
-
+                                <a href='guide_OTP.php' class="OTP_guide">OTP 인증을 할 수 없으시다면?</a>
                         </div>    <!-- login_info End-->
 
                     </div><!-- 로그인폼 END -->
@@ -65,7 +57,8 @@
                 </div><!-- login_content End-->
             </div><!-- content_wrap End-->
 
-            <div class="gray_box_login"></div>
+
+            <div class="gray_box_OTP"></div>
             <!-- footer_wrap -->
             <?php include "footer.php";?>
             <!-- footer_wrap End-->
