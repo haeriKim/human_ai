@@ -262,7 +262,7 @@
                     </div>
                     <div class="btn_area">
                       <input type="button" name="" value="취소" class="popupbt delete_cancel">
-                      <input type="submit" name="" value="삭제" class="popupbt delete_ok">
+                      <input type="submit" name="" value="삭제" onclick="location.href='certification_account.php'" class="popupbt delete_ok">
                     </div>
                 </div>
             </div><!-- full_content End-->
