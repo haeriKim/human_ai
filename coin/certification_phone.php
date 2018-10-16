@@ -102,7 +102,7 @@
 
                           </p>
                           <strong class="gray_title">계좌인증</strong>
-                          <span>거래소를 이용하시 위한<br/>계좌를 인증해주요.</span>
+                          <span>거래소를 이용하시 위한<br/>계좌를 인증해주세요.</span>
                         </li>
                         <li>
 

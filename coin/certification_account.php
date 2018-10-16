@@ -101,7 +101,7 @@
                             <img src="img/bankbook.png" alt="계좌인증 아이콘" class="account_on" />
                           </p>
                           <strong class="gray_title">계좌인증</strong>
-                          <span>거래소를 이용하시 위한<br/>계좌를 인증해주요.</span>
+                          <span>거래소를 이용하시 위한<br/>계좌를 인증해주세요.</span>
                         </li>
                         <li>
                           <img src="img/lv5.png" alt="레벨5" class="lv5_on">
