@@ -41,7 +41,7 @@
                             <h3>OTP 인증</h3>
                             <p>OTP 번호를 입력하신 후 로그인 해주시기 바랍니다.</p>
                             <label for="text" class='skip_label'>OTP인증번호</label>
-                            <input type="text" name="OTP" value="" placeholder="인증번호를 입력하세요." id='OTP' required autocomplete="off" class='OTP_code'>
+                            <input type="text" name="OTP" value="" placeholder="인증번호를 입력하세요." id='OTP' required autocomplete="off" class='OTP_code' minlength="6" maxlength="6">
 
                             <p class='wrong_info'>인증번호가 일치하지 않습니다.</p>
                             <input type="submit" name="확인" value="확인" class='button_box login_button'>
