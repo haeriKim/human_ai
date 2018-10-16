@@ -158,12 +158,14 @@
                                     <option value="우리은행">우리은행</option>
                                     <option value="기업은행">기업은행</option>
                                   </select>
+                                  <span id="bankselect_fixed "class="bankselect_fixed">국민은행</span>
                                 </td>
                               </tr>
                               <tr>
                                 <th>계좌번호</th>
                                 <td>
                                   <input type="text" placeholder="숫자만 입력하세요." required class="account_number user_account">
+                                  <span class="account_number_fixed">12-231-1234-23-123</span>
                                 </td>
                               </tr>
                             </tbody>
@@ -184,7 +186,7 @@
                               입금 내역이 확인 되지 않으시다면 '고객센터'로 문의해주세요.
                             </p>
                               <input type="text" placeholder="인증번호 숫자 3자리를 입력하세요." required class="authentication_num" minlength="3" maxlength="3">
-                              <a class="delete_icon"><img src="img/delete.png" alt="휴지통아이콘">삭제</a>
+                              <a class="delete_icon"><img src="img/x.png" alt="휴지통아이콘">삭제</a>
                             <div id="bank_complete">
                                 <input type="button" name="취소" value="취소" onclick="location.href='certification.php'" class="bank_cancel">
 
@@ -237,6 +239,13 @@
                            <col width="60%">
                          </colgroup>
                          <tr>
+                           <th>예금주</th>
+                             <td>
+                               <p class="user_name readonly">가나다</p>
+                             </td>
+                         </tr>
+
+                         <tr>
                            <th>은행명</th>
                              <td>
                                <p class="bankName readonly">국민은행</p>
@@ -250,12 +259,7 @@
                              </td>
                          </tr>
 
-                         <tr>
-                           <th>예금주</th>
-                             <td>
-                               <p class="user_name readonly">가나다</p>
-                             </td>
-                         </tr>
+
 
                        </table>
 
