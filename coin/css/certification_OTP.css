@@ -90,12 +90,13 @@
 .cText_right3 .qr_code a{
   font-size:12px;
   float:right;
-  color:#b1b1b1;
+  color:#999;
   margin-top:60px;
   margin-right:25px;
+  text-decoration:underline;
 }
 .cText_right3 .qr_code a:hover{
-  text-decoration: underline;
+  color:#c95b74;
 }
 .cText_right3 .qr_code_imgbox{
   border:1px solid #1b2f4a;

@@ -64,6 +64,9 @@
   color:#999;
   text-decoration: underline;
 }
+.myinfo_main_box .quit_page a:hover{
+  color:#c95b74;
+}
 .myinfo_sub_box .user_level{
     display: none;
 }

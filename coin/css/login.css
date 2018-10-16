@@ -44,7 +44,7 @@
 }
 .login_content #login_area .login_info .OTP_guide{
   float:right;
-  color:#757575;
+  color:#999;
   font-size:13px;
   text-decoration:underline;
 }
