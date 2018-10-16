@@ -162,6 +162,42 @@
 #popupbox .popupbox_text p {
   line-height: 1.5;
 }
+#popupbox .popupbox_text .account_text{
+  text-align:left;
+  line-height:1;
+  margin-bottom:20px;
+}
+/*#popupbox .popupbox_text .popup_title{
+  text-align:left;
+  font-weight:600;
+  font-size:15px;
+}*/
+#popupbox .popupbox_text .account_count{
+  color:#f00;
+}
+#popupbox .popupbox_text table{
+  text-align:left;
+  margin:25px 0;
+}
+#popupbox .popupbox_text table tr{
+  border: 1px solid #efefef;
+  border-left: none;
+  height: 40px;
+}
+#popupbox .popupbox_text table th{
+  background-color: #f4f5f9;
+  border-left: 2px solid #1b2f4a;
+  padding: 5px 10px;
+  color: #1b2f4a;
+  font-size: 14px;
+  font-weight: 600;
+  width: 35%;
+}
+#popupbox .popupbox_text table td{
+  font-size: 14px;
+  padding: 0 8px;
+}
+
 #popupbox .popupbox_text b{
   color:#1b2f4a;
   font-size: 16px;
