@@ -428,6 +428,7 @@
     margin-left: -220px;
     transform: translateY(-50%);
     display: none;
+    min-height: 300px;
 }
 .common_table_content .mypage_content{
     height: 70%;
