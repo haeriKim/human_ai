@@ -591,35 +591,6 @@ $(document).ready(function(){
         $(".left_coin_menu").css({'position':'fixed', 'top':'20px'});
       }
   	}).scroll();
-
-    function navResize(){
-        var win_h = $(document).height();
-
-        var comp_h = win_h -135;
-          // console.log(win_h);
-        var content = document.getElementById("container");
-        var con_h = $(content).height();
-
-        if(win_w>768){
-
-            if(comp_h<con_h){
-                content.style.height= "auto";
-                  console.log("bb");
-            }else{
-                content.style.height = win_h-165+"px";
-                  console.log("cc");
-            }
-        }else{
-          console.log("Aa");
-            content.style.height = "auto";
-        }
-    }
-
-    navResize();
-
-    window.onresize= function(){
-        navResize();
-    };
   });
 
   /*계좌등록체크박스*/

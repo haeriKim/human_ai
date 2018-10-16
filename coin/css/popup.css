@@ -377,6 +377,9 @@
   font-weight: 600;
 }
 /*인증레벨별 한도 보기팝업*/
+.common_table_wrap{
+    position: relative;
+}
 .common_table_content{
     background: #fff;
     height: 85%;
@@ -391,7 +394,7 @@
     display: none;
 }
 .common_table_content .mypage_content{
-    height: 76%;
+    height: 70%;
     overflow-y: auto;
 }
 .common_table_content h2.title{
@@ -413,4 +416,7 @@
     border-radius: 5px;
     display: block;
     margin: 0 auto;
+    position: absolute;
+    bottom: 5%;
+    left: 45%;
 }
