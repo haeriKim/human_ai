@@ -44,7 +44,9 @@ p.login_m{
     color: #1b2f4a;
     font-size: 15px;
     font-weight: 600;
+    text-align: left;
     width: 26%;
+    padding-left: 20px;
 }
 .content .info_table_wrap .info_table tbody td{
     text-align: left;
@@ -108,5 +110,3 @@ p.certification_m{
     font-size: 22px;
     padding: 11px 232px;
 }
-
-/*로그인 성공*/
