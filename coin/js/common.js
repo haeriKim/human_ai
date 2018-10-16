@@ -948,3 +948,13 @@ $(document).ready(function(){
     $(".bank_request .request,.code_area").show();
   });
 });
+
+//계좌 인증번호 삭제
+  $(document).ready(function(){
+    $(".delete_icon").click(function(){
+      $("#full").show();
+    });
+    $(".delete_cancel").click(function(){
+      $("#full").hide();
+    });
+  });

@@ -99,7 +99,7 @@
 .cText_right2 .code_area {
   margin-top: 20px;
   /* border: 1px solid #efefef; */
-  margin-top: 57px;
+  margin-top: 30px;
   padding: 20px 20px;
   border-radius: 5px;
   /* float: left; */
@@ -213,4 +213,19 @@
 .cer_center .center_bottom .cText_right li .lv5_ing,
 .cText_right2 #bank_complete .chk_ok {
   display: none;
+}
+/*popup*/
+#full{
+  display:none;
+}
+#full .delete_ok{
+  border-radius: 5px;
+  background: #1b2f4a;
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid #1b2f4a;
+  color: #fff;
+  padding: 7px 20px;
+  cursor: pointer;
+  box-sizing: border-box;
 }
