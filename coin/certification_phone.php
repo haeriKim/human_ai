@@ -13,6 +13,15 @@
     <link rel="stylesheet" href="css/certification_myInfo.css">
     <link rel="stylesheet" href="css/sub_menu.css">
     <link rel="stylesheet" href="css/popup.css">
+    <link rel="shortcut icon" href="img/favicon-16.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon-16.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon-32.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon-32.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon-16.png" type="image/x-icon">
+    <link rel="icon" href="img/favicon-16.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon-32.png" type="image/x-icon">
+    <link rel="icon" href="img/favicon-32.png" type="image/x-icon">
+
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/common.js"></script>
