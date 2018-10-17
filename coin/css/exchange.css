@@ -175,7 +175,7 @@
 
 .coin_money_prepare .hl_price p{
   font-size:20px;
-  color:#f00;
+  color:#d60000;
   display:inline-block;
   float:right;
   text-align: right;
@@ -357,7 +357,7 @@
     font-size:13px;
 }
 #deal_orgin_transaction .money_up{
-    color:#ff2323;
+    color:#d60000;
 }
 #deal_orgin_transaction .money_down{
     color:#002dae;
@@ -459,7 +459,7 @@
   background-color:#ffd3d4;
 }
 .upprice{
-  color:#f00;
+  color:#d60000;
 }
 .downprice{
   color:#002dae;
@@ -784,7 +784,7 @@
 }
 
 #buy_sell_tab .buy_all_amount p span.up_down_data{
-    color:#ff2323;
+    color:#d60000;
     font-size:20px;
     margin-right:5px;
 }
@@ -823,8 +823,8 @@
     float: left;
 }
 #buy_sell_tab input[type='reset'].reset_buy {
-    border:1px solid #ff2323;
-    color: #ff2323;
+    border:1px solid #d60000;
+    color: #d60000;
 }
 #buy_sell_tab input[type='reset'].reset_sell {
     border:1px solid #002dae;
@@ -836,7 +836,7 @@
 }
 #buy_sell_tab .buy_big_btn{
     padding: 11px 125px;
-    background: #ff2323;
+    background: #d60000;
     border-radius: 5px;
     border: none;
     font-size: 15px;
@@ -872,9 +872,9 @@
     background: #f4f5f9;
 }
 #buy_sell_tab .buy_sell_tab_title .buy_tab h3.on a{
-    color:#ff2323;
+    color:#d60000;
     display: block;
-    border-top:3px solid #ff2323;
+    border-top:3px solid #d60000;
     padding:8px 0;
     background-color: #fff;
     border-radius: 5px 0 0 0;
@@ -944,7 +944,7 @@
 }
 
 #deal_all .money_up{
-    color:#ff2323;
+    color:#d60000;
 }
 
 #deal_all .money_down{

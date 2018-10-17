@@ -10,13 +10,14 @@
   display:block;
 }
 .guide_OTP_area .guide_OTP_table{
-  border:1px solid #f4f5f8;
+  border:1px solid #efefef;
   text-align:left;
   width:100%;
 }
 .guide_OTP_area .guide_OTP_table th{
     padding: 15px 20px;
     border-left: 2px solid #1b2f4a;
+    border-bottom: 1px solid #efefef;
     background-color: #f4f5f8;
     font-size: 15px;
     color: #1b2f4a;
@@ -26,7 +27,7 @@
 .guide_OTP_area .guide_OTP_table td{
     padding: 10px 20px;
     height: 50px;
-    border-bottom: 1px solid #f4f5f8;
+    border-bottom: 1px solid #efefef;
     font-size: 15px;
     vertical-align: top;
 }

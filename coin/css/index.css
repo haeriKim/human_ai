@@ -136,7 +136,7 @@
 }
 
 .main_content ul.bitcoin_card_inner li p.percent_up{
-    color:#ff2323;
+    color:#d60000;
 }
 .main_content ul.bitcoin_card_inner li p.percent_down{
     color:#002dae;
@@ -158,15 +158,15 @@
 }
 
 .main_content ul.bitcoin_card_inner .buy_sell_button .buy_button{
-    border-top:3px solid #ff2323;
-    color:#ff2323;
+    border-top:3px solid #d60000;
+    color:#d60000;
     border-right:1px solid rgba(255,255,255,0.3);
 }
 
 .main_content ul.bitcoin_card_inner .buy_sell_button .buy_button:hover{
-    border-top:3px solid #ff2323;
+    border-top:3px solid #d60000;
     color:#fff;
-    background:#ff2323;
+    background:#d60000;
     border-right:none;
 }
 

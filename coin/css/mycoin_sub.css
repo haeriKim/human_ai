@@ -227,7 +227,7 @@ table .mycoin_tbody_deco>tr>td>img{
   font-size: 14px;ss
 }
 .conclu_table tbody tr td.buying {
-  color: #ff2323;
+  color: #d60000;
 }
 .conclu_table tbody tr td.sell {
   color: #002dae;
@@ -318,7 +318,7 @@ table .mycoin_tbody_deco>tr>td>img{
     font-size: 12px;
     margin-left: 85px;
     margin-top: 8px;
-    color: #ff2323;
+    color: #d60000;
 }
 #input_KRW div.send_info_01 span.caution:before{
     content: '';
@@ -683,7 +683,7 @@ div.before_send_money_wrap > p{
     color: #666;
 }
 #output_bitcoin table.left_thick_table .reality_won{
-    color: #ff2323;
+    color: #d60000;
     font-weight: 600;
 }
 #output_bitcoin table.left_thick_table .temporary_address{
@@ -827,7 +827,7 @@ div.before_send_money_wrap > p{
 
 /*입출금내역*/
 .mycoin_tbody_deco td p.red{
-    color:#ff2323;
+    color:#d60000;
 }
 .mycoin_thead_deco .apply_name_th{
   width:70px;
@@ -1097,7 +1097,7 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
     font-size:13px;
 }
 #deal_orgin_transaction .money_up{
-    color:#ff2323;
+    color:#d60000;
 }
 #deal_orgin_transaction .money_down{
     color:#002dae;
@@ -1210,7 +1210,7 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
     padding: 5px 2px;
 }
 #mywallet_havecoin .ready_input_output{
-    color:#ff2323;
+    color:#d60000;
 }
 /*thead 띄우기*/
 #mywallet_havecoin tbody{

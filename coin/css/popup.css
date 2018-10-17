@@ -26,7 +26,7 @@
 }
 
 #full_content p{
-    color:#959595;
+    color:#333;
     font-size:15px;
     margin:15px 0;
 }
@@ -173,7 +173,7 @@
   font-size:15px;
 }*/
 #popupbox .popupbox_text .account_count{
-  color:#f00;
+  color:#d60000;
 }
 #popupbox .popupbox_text table{
   text-align:left;
@@ -278,7 +278,7 @@
   padding: 3px 5px;
 }
 #full .email_pop span {
-  color: #ff0000;
+  color: #d60000;
   text-align: left;
   margin: 5px 0 0 5px;
   display: block;
@@ -323,7 +323,7 @@
 }
 /* 주소복사 팝업 */
 #qustion_mark_active_full .copy_pop .popupbox_text b {
-  color: #ff0000;
+  color: #d60000;
   text-align: left;
   font-size: 13px;
   line-height: 1.2;
