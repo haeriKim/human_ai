@@ -50,7 +50,7 @@
                         <li class='on'>
                           <a href="#" title="인증자료 제출안내" class='more_menu'>인증자료 제출안내</a>
                           <dl class="nav_dropdown changeA_dd on">
-                              <dt><a href="guide_security.php" title="보안비밀번호 초기화">보안비밀번호 초기화</a></dt>
+                              <dt><a href="guide_security.php" title="보안비밀번호 초기화">보안 비밀번호 초기화</a></dt>
                               <dt class='active'><a href="guide_account.php" title="계좌 변경">계좌변경</a></dt>
                               <dt><a href="guide_OTP.php" title="OTP 초기화">OTP 초기화</a></dt>
                           </dl>

@@ -69,7 +69,7 @@
                     <h3 class="title">회원 정보관리</h3>
                     <div class="myinfo_main_box cer_center mypage_content">
                       <div class="cer_center">
-                      <h4>OTP 초기화</h4>
+                      <h4>보안 비밀번호 초기화</h4>
                         <div class="myinfo_small_info_box">
                           <div class="myinfo_box1">
                             <strong class="user_name">가*다</strong>
@@ -97,7 +97,7 @@
                           <br/>
                           <p><span>보안 비밀번호를 기억나지 않을 경우</span> 본인인증 서류 제출이 필요합니다.</p>
                           <br/>
-                          <p>보안 비밀번호를 초기화하려면 아래 <span>인증변경안내</span>를 참고해 주시기 바랍니다.</p>
+                          <p>보안 비밀번호를 초기화하려면 아래 <span>인증자료 제출안내</span>를 참고해 주시기 바랍니다.</p>
                           <br/>
                         </div>
 

@@ -139,7 +139,7 @@
                 </div>
                 <div class="cancel_or_apply">
                   <input type="button" name="" value="취소" class="cancel_btn phone_cancel_btn">
-                  <input type="button" name="" value="변경 요청 하기" class="agree_btn request_btn">
+                  <input type="button" name="" value="변경 요청하기" class="agree_btn request_btn">
                 </div>
 
               </div>
