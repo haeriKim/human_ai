@@ -140,6 +140,7 @@
   font-size: 13px;
   margin-top: 20px;
   text-align:right;
+  cursor: pointer;
 }
 .cText_right2 .code_area .delete_icon{
   display: block;
