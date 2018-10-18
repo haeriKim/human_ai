@@ -1,0 +1,6 @@
+{
+    "localhost": {
+        "url": "http://localhost/human_ai/coin",
+        "folder": "C:/Bitnami/wampstack-7.1.21-0/apache2/htdocs/human_ai/coin"
+    }
+}
