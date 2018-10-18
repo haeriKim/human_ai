@@ -175,6 +175,7 @@
                                 <td>
                                   <input type="text" placeholder="숫자만 입력하세요." required class="account_number user_account">
                                   <span class="account_number_fixed">12-231-1234-23-123</span>
+                                  <p id="warning_message">형식에 맞지 않는 번호입니다.</p>
                                 </td>
                               </tr>
                             </tbody>
@@ -195,6 +196,7 @@
                               입금 내역이 확인 되지 않으시다면 '고객센터'로 문의해주세요.
                             </p>
                               <input type="text" placeholder="인증번호 숫자 3자리를 입력하세요." required class="authentication_num" minlength="3" maxlength="3">
+                              <p id="warning_message"><img src="img/icon_ex.png" alt="경고아이콘" class="warning_icon">인증번호가 일치하지 않습니다.</p>
                               <a class="delete_icon"><img src="img/x.png" alt="휴지통아이콘">삭제</a>
                             <div id="bank_complete">
                                 <input type="button" name="취소" value="취소" onclick="location.href='certification.php'" class="bank_cancel">
@@ -203,7 +205,7 @@
                                 <input type="submit" name="인증" value="인증" class="chk_ok" onclick="location.href='certification_account_success.php'"/>
 
                             </div>
-                            <a href="" class="code_text2">인증번호는 어떻게 확인하나요?</a>
+                            <p class="code_text2">인증번호는 어떻게 확인하나요?</p>
                           </div>
                           </form>
                         </div>
@@ -281,6 +283,24 @@
             </div><!-- full_content End-->
             <div id="shadow"></div>
     </div>  <!-- full End-->
+
+    <div id="account_full">
+      <div id="popupbox2" class='box2 popup2'>
+          <div class="full_inner">
+            <h2>번호확인방법</h2>
+
+              <div class="popupbox_text">
+                <img src="img/account_img.jpg" alt="계좌인증번호이미지">
+              </div>
+
+              <div class="btn_area">
+                <input type="button" name="" value="확인" class="popupbt delete_cancel account_popup_ok">
+              </div>
+
+          </div>
+      </div>
+      <div id="shadow"></div>
+    </div>
 
 </body>
 </html>

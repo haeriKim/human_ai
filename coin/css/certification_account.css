@@ -210,6 +210,11 @@
   border-style: solid;
   border-color:  transparent transparent #eaaf69 transparent;
 }
+.warning_icon{
+  vertical-align: -3px;
+  margin-right: 2px;
+}
+
 /* 비활성화 */
 .cer_center .cer_level li img.account_on,
 .cer_center .cer_level li img.otp_on,
@@ -234,4 +239,49 @@
   padding: 7px 20px;
   cursor: pointer;
   box-sizing: border-box;
+}
+#account_full{
+  display:none;
+  width:100%;
+}
+#account_full .popupbox2{
+  width:80%;
+}
+#account_full .box2{
+  box-shadow: 0 1px 2px rgba(100,100,100,.2);
+  border-radius: 5px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+#account_full .popup2{
+  background: #fff;
+    z-index: 9999;
+    padding: 30px 20px;
+    position: fixed;
+    left:25%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: -265px;
+    text-align: center;
+}
+#account_full .popup2 h2{
+  color: #071f45;
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #071f45;
+  margin: 0 auto;
+}
+#account_full .popup2 img{
+  width:90%;
+  margin:20px 0;
+}
+#account_full .account_popup_ok{
+  border-radius: 5px;
+  padding: 7px 30px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: 1px solid #1b2f4a;
+  background-color: #1b2f4a;
 }

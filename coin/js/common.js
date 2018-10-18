@@ -958,3 +958,12 @@ $(document).ready(function(){
       $("#full").hide();
     });
   });
+//계좌 인증번호 확인방법 팝업
+  $(document).ready(function(){
+  $(".code_text2").click(function(){
+    $("#account_full").show();
+  });
+  $(".delete_cancel").click(function(){
+    $("#account_full").hide();
+  });
+});
