@@ -88,7 +88,8 @@
 .cer_center .cer_level_05 .btn_large,
 .myinfo_sub_box .myinfo_table_tr .certify_realname,
 .myinfo_sub_box .certify_accountNum,
-.myinfo_sub_box .certify_OTP
+.myinfo_sub_box .certify_OTP,
+.change_text
 {
     display: none;
 }
@@ -117,7 +118,8 @@
 .cer_center .cer_level_02 .btn_large,
 .myinfo_sub_box .certify_accountNum,
 .myinfo_sub_box .certify_OTP,
-.myinfo_sub_box .no_phone
+.myinfo_sub_box .no_phone,
+.want_reset
 {
     display: none;
 }
@@ -146,14 +148,14 @@
 .no_account,
 .myinfo_sub_box .certify_OTP,
 .myinfo_sub_box .change_OTP,
-.myinfo_sub_box .myinfo_table .myinfo_table_tr .change_accountNum
+.myinfo_sub_box .myinfo_table .myinfo_table_tr .change_accountNum,
+.want_reset
 {
     display: none;
 }
 .myinfo_sub_box .level_03{
     display: inline-block;
 } */
-
 
 /*4단계까지 인증시 */
 /* .cer_center .cer_level_02 .btn_large,
@@ -174,7 +176,8 @@
 .myinfo_sub_box .make_securityNum,
 .no_account,
 .no_OTP,
-.myinfo_sub_box .myinfo_table .myinfo_table_tr .certify_accountNum
+.myinfo_sub_box .myinfo_table .myinfo_table_tr .certify_accountNum,
+.want_reset
 {
     display: none;
 }

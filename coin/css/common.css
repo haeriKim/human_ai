@@ -501,6 +501,12 @@ div.cancel_or_apply .if_you_all_agree:hover{
     letter-spacing: -0.5px;
     vertical-align: center;
 }
+.coinSelect_area .on dt {
+    background: url("../img/arrow_up_dg.png") no-repeat right 17px;
+    background-size: 10px;
+    letter-spacing: -0.5px;
+    vertical-align: center;
+}
 .coinSelect_area .coinSelect dd a{
     display: block;
     text-align: right;

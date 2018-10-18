@@ -91,8 +91,8 @@
                             <img src="img/key.png" alt="보안비밀번호생성 아이콘" class='lv2_on'/>
                             <img src="img/key_off.png" alt="보안비밀번호생성 아이콘_off" class='lv2_off'/>
                           </p>
-                          <strong class='navy_title lv2_on'>보안비밀번호 생성</strong>
-                          <strong class="gray_title lv2_off">보안비밀번호 생성</strong>
+                          <strong class='navy_title lv2_on'>보안 비밀번호생성</strong>
+                          <strong class="gray_title lv2_off">보안 비밀번호생성</strong>
                           <span>안전거래를 위한 <br/>보안비밀번호를 생성해주세요.</span>
                         </li>
                         <li>
@@ -169,7 +169,7 @@
                             </li>
                             <li class='cer_lv_02'>
                               <img src="img/lv2.png" alt="레벨2"/>
-                              <p>보안비밀번호 생성<span class='recommend'>*권장</span></p>
+                              <p>보안 비밀번호생성<span class='recommend'>*권장</span></p>
                               <a href="certification_security_password.php" class="c_btn go_cer">인증하기</a>
                               <span class="c_btn c_complete">인증완료</span>
                             </li>

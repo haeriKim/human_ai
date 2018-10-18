@@ -128,8 +128,9 @@
                                 <tr>
                                     <th>보안 비밀번호</th>
                                     <td>
-                                        <a href="myinfo_security_password.php" class="btn_medium change_securityNum">보안 비밀번호변경</a><a href="myinfo_security_change.php" class="change_text">기억나지 않으시다면?</a>
-                                        <a href="certification_security_password.php" class="btn_medium make_securityNum">보안비밀번호 생성</a>
+                                        <a href="myinfo_security_password.php" class="btn_medium change_securityNum">보안 비밀번호변경</a>
+                                        <a href="myinfo_security_change.php" class="change_text">기억나지 않으시다면?</a>
+                                        <a href="certification_security_password.php" class="btn_medium make_securityNum">보안 비밀번호생성</a>
                                     </td>
                                 </tr>
                                 <tr class='myinfo_table_tr'>
@@ -149,7 +150,8 @@
                                     <td>
                                         <span class='no_OTP'>-</span>
                                         <a href="certification_OTP.php" class="btn_medium certify_OTP">OTP 인증</a>
-                                        <a href="myinfo_OTP_change.php" class="btn_medium change_OTP">OTP 비활성화</a><a href="myinfo_OTP.php" class="change_text">초기화를 원하신다면?</a>
+                                        <a href="myinfo_OTP_change.php" class="btn_medium change_OTP">OTP 비활성화</a>
+                                        <a href="myinfo_OTP.php" class="change_text want_reset">초기화를 원하신다면?</a>
                                     </td>
                                 </tr>
                               </tbody>
@@ -175,9 +177,9 @@
                             <img src="img/key.png" alt="보안비밀번호생성 아이콘" class='lv2_on'/>
                             <img src="img/key_off.png" alt="보안비밀번호생성 아이콘" class='lv2_off'/>
                           </p>
-                          <strong class='navy_title'>보안비밀번호 생성</strong>
-                          <strong class="gray_title">보안비밀번호 생성</strong>
-                          <span>안전거래를 위한 <br/>보안비밀번호를 생성해주세요.</span>
+                          <strong class='navy_title'>보안 비밀번호생성</strong>
+                          <strong class="gray_title">보안 비밀번호생성</strong>
+                          <span>안전거래를 위한 <br/>보안 비밀번호를 생성해주세요.</span>
                           <button class="btn_large" onclick="location.href='certification_security_password.php'" type="button">인증하기</button>
                         </li>
                         <li class='cer_level_03'>

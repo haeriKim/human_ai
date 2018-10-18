@@ -967,3 +967,15 @@ $(document).ready(function(){
     $("#account_full").hide();
   });
 });
+
+/*코인 셀렉트창 화살표*/
+$(document).ready(function(){
+    $('.coinSelect_area .coinSelect dt').click(function(e){
+        e.preventDefault();
+        $(this).parent().toggleClass('on');
+    })
+    $('.coinSelect_area .coinSelect dd').click(function(e){
+        e.preventDefault();
+        $(this).parent().removeClass('on');
+    })
+});
