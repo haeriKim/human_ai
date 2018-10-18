@@ -1,0 +1,43 @@
+/* 검색 영역 */
+.notice_area .n_list {
+  padding: 20px 25px;
+  overflow: hidden;
+}
+.notice_area .notice_list {
+  font-size: 15px;
+}
+.notice_area .notice_list thead {
+  border-bottom: 2px solid #112f55;
+  background-color: #f4f5f9;
+  height: 45px;
+  line-height: 45px;
+  color: #112f55;
+}
+.notice_area .notice_list tr td{
+    height:45px;
+    line-height: 45px;
+    border-bottom:1px solid #f4f5f9;
+    box-sizing:border-box;
+    cursor:pointer;
+}
+.notice_area .notice_list tr td img {
+  vertical-align: middle;
+}
+.notice_area .notice_list tr td.title {
+  text-align: left;
+}
+.notice_area .notice_list tr td.important_text {
+  font-weight: 600;
+  color: #112f55;
+}
+.notice_area .notice_list tr td.hot {
+  color: #d60000;
+  font-weight: 600;
+}
+.notice_area .notice_list tr td.new {
+  color: #002dae;
+  font-weight: 600;
+}
+.notice_area .search a.search_btn{
+    top: 4px;
+}

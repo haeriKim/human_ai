@@ -1,0 +1,80 @@
+.use_content #use_tab_menu{
+  overflow:hidden;
+}
+.use_content #use_tab_menu ul li.use_active{
+  color:#112f55;
+  background-color:#fff;
+  border-top:3px solid #112f55;
+}
+.use_content #use_tab_menu ul li{
+  float:left;
+  width:50%;
+  padding:20px 0;
+  text-align:center;
+  font-size:20px;
+  font-weight:600;
+  color:#7e7e7f;
+  background-color:#f4f5f8;
+  border-top:3px solid #f4f5f8;
+  cursor: pointer;
+}
+.use_content #use_area {
+  padding: 30px 40px;
+}
+.use_content #use_area .use_area_text{
+  border-bottom:1px solid #f4f5f8;
+  margin-bottom:30px;
+}
+.use_content #use_area .use_area_text .title{
+  font-size:25px;
+  font-weight:600;
+  color:#112f55;
+  margin:20px 0;
+  padding-bottom:10px;
+
+}
+.use_content #use_area .use_area_text .title_title{
+  color: #112f55;
+  font-size:20px;
+  font-weight: 600;
+  margin:20px 0;
+  padding-bottom:10px;
+  border-bottom:1px solid #112f55;
+}
+.use_content #use_area .use_area_text p{
+  font-size:14px;
+}
+.use_content #use_area .use_area_text .use_date .title_title_line{
+  font-size:20px;
+  font-weight:600;
+  color:#112f55;
+  margin-top:20px;
+  padding-bottom:10px;
+  border-bottom:1px solid #112f55;
+}
+.use_content #use_area .use_area_text .use_date ul{
+  margin-top:30px;
+  margin-left:20px;
+  margin-bottom:120px;
+  height:50px;
+}
+.use_content #use_area .use_area_text .use_date li a{
+  /*font-size:14px;
+  margin-left:20px;
+  padding:5px 0;
+  color:#112f55;*/
+
+  font-size:15px;
+  width:150px;
+  height:30px;
+  border:1px solid #112f55;
+  float:left;
+  margin-right:20px;
+  line-height:30px;
+  text-align:center;
+  color:#112f55;
+}
+.use_content #use_area .use_area_text .use_date li a:hover{
+  color:#fff;
+  background-color:#112f55;
+}

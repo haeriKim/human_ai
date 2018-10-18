@@ -1,0 +1,54 @@
+
+.common_table_content .common_table thead {
+    border-bottom: 2px solid #112f55;
+    background-color: #f4f5f8;
+    line-height: 50px;
+    color: #112f55;
+}
+.common_table_content .common_table tbody tr th,
+.common_table_content .common_table tbody tr td{
+    line-height: 55px;
+}
+.common_table_content .common_table tbody tr td{
+    font-size: 14px;
+    border-left: 1px solid #f4f5f9;
+    border-top: 1px solid #f4f5f9;
+}
+.common_table_content .common_table tbody tr th{
+    color: #112f55;
+    font-size: 15px;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+}
+.common_table_content .common_table .long_th{
+    line-height: 1.3;
+}
+.common_table_content .common_table tbody tr.certification_method td{
+    color: #112f55;
+    font-weight: 600;
+    font-size: 15px;
+}
+/*수수료 안내*/
+.common_table_content .mypage_content .input_output_fee thead{
+    line-height: 40px;
+    height: 40px;
+}
+.common_table_content .mypage_content .input_output_fee thead tr th{
+    border: 1px solid #999;
+    border-top: none;
+    border-left: none;
+}
+.common_table_content .mypage_content .input_output_fee thead tr th.thead_th{
+    border-right: none;
+}
+.common_table_content .mypage_content .deal_fee,
+.common_table_content .mypage_content .input_output_fee{
+    margin-bottom: 50px;
+}
+.common_table_content .mypage_content .deal_fee tbody tr td{
+    border:none;
+    border-bottom: 1px solid #f4f5f9;
+}
+.common_table_content .mypage_content .input_output_fee .border_none{
+    border-right: none;
+}
