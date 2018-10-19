@@ -19,6 +19,7 @@
     line-height: 40px;
     border-bottom: 1px solid #0F1926;
     border-left: none;
+    box-sizing: border-box;
 }
 #deal_orgin_transaction .market_name li.on{
     border-top: 4px solid #30afb8;

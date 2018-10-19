@@ -30,7 +30,7 @@
 }
 
 .header_content_table{
-  float:left;
+  overflow: hidden;
   height:40px;
   color:#30afb8;
   font-size:15px;
@@ -48,32 +48,33 @@
   margin-right:5px;
 }
 
-.header_gnb{
-  width:100%;
-  float:left;
+.gnb_tab{
+  overflow: hidden;
   font-size:15px;
 }
-.header_gnb .active{
-  border-top:2px solid #30afb8;
-  border-right:1px solid #30afb8;
-}
-.header_gnb .active_none{
-  border-bottom:1px solid #30afb8;
-}
-.header_gnb a{
-  color:#30afb8;
-}
-.header_gnb li{
+
+.gnb_tab li{
   float:left;
   width:19.9%;
   text-align:center;
+  height: 40px;
   line-height:40px;
+  box-sizing: border-box;
 }
-
-#deal_story{
-  width:100%;
+.gnb_tab li.on {
+  border-top: 4px solid #30afb8;
+  border-right: 1px solid #30afb8;
+  font-weight: 600;
 }
-
+.gnb_tab li:not(.on) {
+  border-bottom: 1px solid #30afb8;
+}
+.gnb_tab li a{
+  color:#30afb8;
+}
+.gnb_tab li:not(.on) a{
+  color:rgba(255,255,255,.3);
+}
 
 /*코인선택 select-box*/
 
@@ -94,11 +95,9 @@
 .coinSelect_area {
     box-sizing: border-box;
     width:220px;
-
-
 }
 .coinSelect_area .coinSelect {
-  width: 70%
+  width: 70%;
   padding: 5px 10px;
   box-sizing: border-box;
   border-radius: 5px;
@@ -157,6 +156,9 @@
     font-size: 60%;
 }
 
+#deal_story {
+  overflow: hidden;
+}
 /*deal_orgin_transaction*/
 #deal_orgin_transaction{
     overflow-y:auto;

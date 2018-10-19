@@ -69,17 +69,13 @@
           </table>
       </div>
 
-      <div class="header_gnb"><!--header_gnb-->
-        <ul>
-          <li class="active"><a href="">주문</a></li>
-          <li class="active_none"><a href="">호가</a></li>
-          <li class="active_none"><a href="">차트</a></li>
-          <li class="active_none"><a href="">시세</a></li>
-          <li class="active_none"><a href="">코인정보</a></li>
-        </ul>
-      </div><!--//header_gnb 끝-->
-
-
+      <ul class="gnb_tab">
+        <li class="on"><a href="">주문</a></li>
+        <li><a href="">호가</a></li>
+        <li><a href="">차트</a></li>
+        <li><a href="">시세</a></li>
+        <li><a href="">코인정보</a></li>
+      </ul>
 
     <div id="deal_story"><!--container-->
 
