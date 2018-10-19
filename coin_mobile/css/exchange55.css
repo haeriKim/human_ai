@@ -1,0 +1,136 @@
+/*공통*/
+
+/*deal_orgin_transaction*/
+#deal_orgin_transaction{
+    overflow-y:auto;
+    padding: 0;
+    float:left;
+    width:100%;
+}
+#deal_orgin_transaction .market_name{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+#deal_orgin_transaction .market_name li{
+    border: 1px solid #30afb8;
+    width: 20%;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #0F1926;
+    border-left: none;
+}
+#deal_orgin_transaction .market_name li.on{
+    border-top: 4px solid #30afb8;
+}
+#deal_orgin_transaction .market_name li.on a{
+    color: #30afb8;
+    font-weight: 600;
+}
+#deal_orgin_transaction .market_name::after {
+  content: '';
+  border-bottom: 1px solid #30afb8;
+  display: block;
+  width: 80%;
+  float: right;
+}
+#deal_orgin_transaction #look_method{
+    width: 90%;
+    color: #30afb8;
+    border: none;
+    border: 1px solid rgba(48,175,184,.3);
+    height: 35px;
+    line-height: 35px;
+    margin: 0 auto;
+    display: block;
+    background-color: #070F19;
+    text-align-last:center;
+}
+#deal_orgin_transaction #look_method option{
+    color: #30afb8;
+}
+#deal_orgin_transaction table{
+    font-size:13px;
+    margin-top: 20px;
+}
+#deal_orgin_transaction thead  {
+  background-color: #192331;
+}
+#deal_orgin_transaction thead tr th.coin_kor,
+#deal_orgin_transaction thead tr th.coin_eng{
+    text-align: left;
+    padding-left:20px;
+    padding-right:0;
+    /*background: url(../img/side_arrow.png) no-repeat 70px 13px;*/
+}
+#deal_orgin_transaction thead tr th:nth-child(3){
+    /*background: url(../img/up_down_default.png) no-repeat 58px 13px;*/
+    /* background: url(../img/up_down_up.png) no-repeat 55px 14px; */
+    /* background: url(../img/up_down_down.png) no-repeat 55px 14px; */
+}
+#deal_orgin_transaction thead tr th:nth-child(4){
+    /* background: url(../img/up_down_default.png) no-repeat 55px 14px; */
+    /*background: url(../img/up_down_up.png) no-repeat 59px 13px;*/
+    /* background: url(../img/up_down_down.png) no-repeat 55px 14px; */
+}
+#deal_orgin_transaction thead tr th:nth-child(5){
+    /* background: url(../img/up_down_default.png) no-repeat 55px 14px; */
+    /* background: url(../img/up_down_up.png) no-repeat 55px 14px; */
+    /*background: url(../img/up_down_down.png) no-repeat 62px 13px;*/
+}
+#deal_orgin_transaction thead tr{
+    height: 35px;
+    color:#fff;
+    font-size:12px;
+    font-weight: 500;
+}
+#deal_orgin_transaction thead tr th{
+    text-align: center;
+    padding-left:5px;
+}
+#deal_orgin_transaction tbody tr{
+    height: 50px;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    font-size: 12px;
+}
+/*#deal_orgin_transaction tbody tr:hover{
+    background: #c8eefb;
+    cursor: pointer;
+}*/
+#deal_orgin_transaction tbody .up_down_data{
+    text-align: center;
+    display: block;
+    padding-right:15px;
+}
+#deal_orgin_transaction tbody p{
+    color: #fff;
+}
+#deal_orgin_transaction tbody tr td:first-child{
+    text-align: left;
+    padding-left:20px;
+    color:#fff;
+}
+#deal_orgin_transaction .unit{
+    color: #999;
+}
+#deal_orgin_transaction .money_up{
+    color:#f35531;
+}
+#deal_orgin_transaction .money_down{
+    color:#01a9ff;
+}
+
+/*표영역*/
+
+#deal_orgin_transaction .bid_price .orderbg1{
+  color:#f35531;
+}
+#deal_orgin_transaction .bid_price .orderbg2{
+  color:#01a9ff;
+}
+#deal_orgin_transaction .bid_price .upprice{
+  color:#f35531;
+}
+#deal_orgin_transaction .bid_price .downprice{
+  color:#01a9ff;
+}
