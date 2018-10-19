@@ -10,7 +10,7 @@ $(function () {
     $("table.tabs td").click(function () {
         $("table.tabs td span").removeClass("tab_active");
         //$(this).addClass("active").css({"color": "darkred","font-weight": "bolder"});
-        $(this).addClass("tab_active");
+        $(this).addClass("tab_active").css({border:"1px sold #30afb8", color:"#30afb8"});
         $(".tab_content").hide()
         var activeTab = $(this).attr("rel");
         $("#" + activeTab).fadeIn()
