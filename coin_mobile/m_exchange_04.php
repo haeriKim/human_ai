@@ -280,22 +280,58 @@
 
 
 
-<!------------------------------->
-          <!--tab3 미체결-->
-          <div id="tab3" class="tab_content">코묻은돈</div>
+            <!------------------------------->
+                      <!--tab3 미체결-->
+                    <div id="tab3" class="tab_content">
+                        <div class="not_yet_deal">
+                            <p>미체결 주문<span class='change_number'>(2)</span></p>
+                            <form class="" action="#" method="post">
+                                <div class="not_yet_deal_content_wrap">
+                                    <div class="not_yet_deal_content">
+                                        <input type="checkbox" name="check" value="check" id='check1' class='check'>
+                                        <label for="check1" class='apply_buy'>매수</label>
+                                        <span class='apply_time'>2018-10-19 20:41:30</span>
+                                        <dl class="">
+                                            <dt>주문가격</dt>
+                                            <dd>310 KRW</dd>
+                                            <dt>주문수량</dt>
+                                            <dd>0.30000000 BTC</dd>
+                                            <dt>미체결수량</dt>
+                                            <dd>0.30000000 BTC</dd>
+                                        </dl>
+                                    </div>
+                                    <div class="not_yet_deal_content">
+                                        <input type="checkbox" name="check" value="check" id='check2' class='check'>
+                                        <label for="check2" class='apply_sell'>매도</label>
+                                        <span class='apply_time'>2018-10-19 19:46:20</span>
+                                        <dl class="">
+                                            <dt>주문가격</dt>
+                                            <dd>321 KRW</dd>
+                                            <dt>주문수량</dt>
+                                            <dd>0.30000000 BTC</dd>
+                                            <dt>미체결수량</dt>
+                                            <dd>0.30000000 BTC</dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                                <a href="#" class='view_all'>전체 내역 보기 ></a>
+                                <input type="button" name="delete" value="주문취소" class='delete'>
+                            </form>
+                        </div>
+                    </div><!-- tab3 End -->
 
-        </div>
+                    </div>
 
-        </div>
+                    </div>
 
-    </div><!--//deal_story 끝-->
+                </div><!--//deal_story 끝-->
 
-      </div><!--//container_wrap 끝-->
-    </div><!--//container 끝-->
-    <!-- nav_wrap -->
-    <?php include "nav.php";?>
-    <!-- nav_wrap End-->
-  </div><!--//wrap 끝-->
+                  </div><!--//container_wrap 끝-->
+                </div><!--//container 끝-->
+                <!-- nav_wrap -->
+                <?php include "nav.php";?>
+                <!-- nav_wrap End-->
+              </div><!--//wrap 끝-->
 
-</body>
-</html>
+            </body>
+            </html>

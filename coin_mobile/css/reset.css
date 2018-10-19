@@ -87,3 +87,36 @@ input, textarea, select {
   position: absolute;
   left: -999px;
 }
+
+/*input 스타일*/
+input[type='checkbox']{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip:rect(0,0,0,0);
+    border: 0;
+}
+input[type="checkbox"] + label:before {
+    content: ' ';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: -4px 5px 0 0;
+    vertical-align: middle;
+    background: url(../img/m_o_off.png) no-repeat;
+}
+input[type="checkbox"]:checked + label:before {
+    background: url(../img/m_o_on.png) no-repeat;
+}
+#tab3 .not_yet_deal input[type="checkbox"]:checked .delete{
+    background-image:linear-gradient(to right, #06908c 0%, #0d566c 100%);
+    border-image-slice: 1;
+    width: 100%;
+    color: #fff;
+    height: 35px;
+    margin-top: 50px;
+    border:none;
+}

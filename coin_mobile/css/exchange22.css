@@ -38,6 +38,7 @@
 #header_wrap .current_price p {
   text-align: left;
   margin-bottom: 5px;
+  color: rgba(255,255,255,.7);
 }
 #header_wrap .current_price strong {
   margin-right: 5px;
@@ -245,4 +246,67 @@
   border:1px solid #01a9ff;
   background:#01a9ff;
   color:#fff;
+}
+
+/*tab3*/
+.tab_container #tab3{
+    padding:50px 12px;
+    font-size:12px;
+}
+.tab_container #tab3 .not_yet_deal > p{
+    width: 100%;
+    color: #999;
+}
+.tab_container #tab3 .not_yet_deal_content{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+    border-top: 1px solid rgba(255,255,255,.2);
+    padding-top: 7px;
+}
+.tab_container #tab3 .apply_time{
+    float: right;
+    color: #999;
+}
+.tab_container #tab3 dl{
+    line-height: 1.8;
+}
+.tab_container #tab3 dl dt{
+    float: left;
+    width: 50%;
+}
+.tab_container #tab3 dl dd{
+    float: right;
+}
+.tab_container #tab3 .view_all{
+    color: #999;
+    width: 100%;
+    text-align: right;
+    display: block;
+    border-top: 1px solid rgba(255,255,255,.2);
+    margin-top: 10px;
+    padding-top: 5px;
+}
+.tab_container #tab3 .delete{
+    background: none;
+    border: 1px solid rgba(255,255,255,.3);
+    width: 100%;
+    color: rgba(255,255,255,.3);
+    height: 35px;
+    margin-top: 50px;
+}
+.tab_container #tab3 .on{
+    background-image:linear-gradient(to right, #06908c 0%, #0d566c 100%);
+    border-image-slice: 1;
+    width: 100%;
+    color: #fff;
+    height: 35px;
+    margin-top: 50px;
+    border:none;
+}
+.tab_container #tab3 .apply_buy{
+    color: #f35531;
+}
+.tab_container #tab3 .apply_sell{
+    color: #01a9ff;
 }
