@@ -14,8 +14,9 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   height: 100%;
   letter-spacing: -0.5px;
-  color: #666;
-  background-color: #efefef;
+  color: #fff;
+  width: 100%;
+  background:#0e141c;
 }
 
 table {
