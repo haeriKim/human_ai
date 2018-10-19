@@ -36,7 +36,7 @@
                 <div class="content">
                     <div class="box" id='deal_orgin_transaction'>
                         <ul class='market_name'>
-                            <li class='on'><a href="#">KRW</a></li>
+                            <li class='on'><a href="#">호가</a></li>
                         </ul>
                         <!--bid_price-->
                         <div class="box bid_price">
