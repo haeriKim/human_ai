@@ -18,7 +18,10 @@
   <div id="wrap"><!--wrap-->
     <div id="container">
 
-    <div class="header"><!--header-->
+
+      <div id="header_wrap">
+      <div id="header"><!--header-->
+
 
       <div class="header_main"><!--header_main-->
         <img src="img/back.png" alt="뒤로가기버튼" class="back">
@@ -46,6 +49,8 @@
 
       </div><!--//header_main 끝-->
       </div><!--//header 끝-->
+    </div><!--//header_wrap 끝-->
+
 
       <div id="container_wrap">
 
