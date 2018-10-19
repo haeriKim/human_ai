@@ -1,0 +1,889 @@
+/*  코인선택 영역(coinSelect_area) */
+#left_coin_menu{
+  float:left;
+  width:350px;
+  /* position: fixed; */
+  position: relative;
+}
+#left_coin_menu.scroll_fixed {
+  position: fixed;
+}
+
+/*coin_money*/
+.coin_money{
+  position: relative;
+  width:350px;
+  padding: 20px;
+  margin: 75px 0 20px 0;
+}
+.coin_money_inner{
+  overflow: hidden;
+  margin-bottom:10px;
+}
+.coin_money_inner .img_area {
+  width:80px;
+  height:80px;
+  float:left;
+  padding: 10px 0;
+}
+.coin_money_inner img.bitcoin_icon{
+  width: 100%;
+}
+.coin_money_inner ul{
+  float:left;
+  margin-left: 22px;
+}
+.coin_money_inner strong{
+  font-size:20px;
+}
+.coin_money_inner .coin_word{
+  margin-left:5px;
+  color:#4c4c4c;
+}
+.coin_money_inner .price{
+  font-size:30px;
+  color:#012dae;
+  font-weight:bold;
+}
+.coin_money_inner .won{
+  font-size:16px;
+  padding-left:5px;
+  color:#4c4c4c;
+}
+.coin_money_inner .question{
+  position: absolute;
+  left: 325px;
+  top: 10px;
+  width: 15px;
+  height: 22px;
+  cursor: pointer;
+  font-size: 23px;
+  font-weight: 600;
+  color: #1b2f4a;
+}
+.coin_money_inner .coin_prepare {
+  font-size: 18px;
+  color:#012dae;
+  font-weight: 600;
+}
+.coin_money_inner .coin_prepare strong{
+  font-size:15px;
+  color: #666;
+}
+.coin_money_inner .coin_prepare img.ud {
+  margin-right: 3px;
+  vertical-align: 1px;
+}
+
+/*coin_money_prepare*/
+.coin_money_prepare{
+  padding:10px 0;
+  border-bottom:2px solid #efefef;
+}
+.coin_money_prepare .hl_price{
+  font-size:15px;
+  color:#8b8b8b;
+  font-weight:600;
+  margin: 0 10px;
+  overflow: hidden;
+}
+.coin_money_prepare .hl_price .hl_title{
+  float:left;
+  height: 27px;
+  line-height: 27px;
+}
+.coin_money_prepare .hl_price p{
+  font-size:20px;
+  color:#d60000;
+  display:inline-block;
+  float:right;
+  text-align: right;
+  margin-top:-2px;
+}
+.coin_money_prepare .hl_price p .price_down{
+  color:#012dae;
+}
+.coin_money_prepare li .won{
+  font-size:16px;
+  color:#8b8b8b;
+  margin-left: 10px;
+}
+
+/*************************************************************/
+.coin_money_volume{
+  padding:10px 0;
+}
+.coin_money_volume .hl_volume{
+  font-size:15px;
+  color:#8b8b8b;
+  font-weight:600;
+  margin:  0 10px;
+  overflow: hidden;
+}
+.coin_money_volume .hl_volume .hl_title{
+  float:left;
+  height: 27px;
+  line-height: 27px;
+  display: block;
+  width: 100%
+}
+.coin_money_volume .hl_volume p{
+  font-size:20px;
+  color:#8b8b8b;
+  float:right;
+  margin-top:-2px;
+}
+.coin_money_volume li .unit{
+  font-size:16px;
+  padding-left:10px;
+}
+
+/*coin_money_detail*/
+.coin_money_detail{
+  width: 350px;
+  position:absolute;
+  left:370px;
+  top:0;
+  display:none;
+  background:#fff;
+  z-index:4;
+}
+#detail_all{
+  padding:10px 25px;
+}
+#detail_all p{
+  font-size:12px;
+  font-weight:600;
+  color:#999;
+  padding: 10px 0;
+  display: inline-block;
+  float: right;
+}
+#detail_all span a{
+  font-size:12px;
+  font-weight:600;
+  color:#1b2f4a;
+  float:right;
+  display:inline-block;
+  padding:10px 0;
+  text-decoration:underline;
+}
+#detail_all span a:hover {
+  color:#c95b74;
+}
+.coin_money_detail::after {
+  content: "";
+  position: absolute;
+  top: 22%;
+  left: -7%;
+  margin-left: -5px;
+  border-width: 17px;
+  border-style: solid;
+  border-color: transparent #fff transparent transparent;
+}
+.coin_name{
+  width:100%;
+  height:50px;
+  background-color:#1b2f4a;
+  border-radius:5px 5px 0 0;
+  color:#fff;
+  float:left;
+}
+.coin_name h4{
+  padding:10px 15px;
+  font-size:20px;
+  font-weight:500;
+}
+
+/*deal_orgin_transaction*/
+#deal_orgin_transaction{
+    overflow-y:auto;
+    padding: 0;
+    float:left;
+    width:350px;
+}
+#deal_orgin_transaction table{
+    font-size:13px;
+}
+#deal_orgin_transaction thead tr th.coin_kor,
+#deal_orgin_transaction thead tr th.coin_eng{
+    text-align: left;
+    padding-left:20px;
+    padding-right:0;
+    /*background: url(../img/side_arrow.png) no-repeat 70px 13px;*/
+}
+#deal_orgin_transaction thead tr th:nth-child(3){
+    /*background: url(../img/up_down_default.png) no-repeat 58px 13px;*/
+    /* background: url(../img/up_down_up.png) no-repeat 55px 14px; */
+    /* background: url(../img/up_down_down.png) no-repeat 55px 14px; */
+}
+#deal_orgin_transaction thead tr th:nth-child(4){
+    /* background: url(../img/up_down_default.png) no-repeat 55px 14px; */
+    /*background: url(../img/up_down_up.png) no-repeat 59px 13px;*/
+    /* background: url(../img/up_down_down.png) no-repeat 55px 14px; */
+}
+#deal_orgin_transaction thead tr th:nth-child(5){
+    /* background: url(../img/up_down_default.png) no-repeat 55px 14px; */
+    /* background: url(../img/up_down_up.png) no-repeat 55px 14px; */
+    /*background: url(../img/up_down_down.png) no-repeat 62px 13px;*/
+}
+#deal_orgin_transaction thead tr{
+    height: 35px;
+    color:#666;
+    font-size:13px;
+}
+#deal_orgin_transaction thead tr th{
+    text-align: center;
+    padding-right:15px;
+}
+#deal_orgin_transaction tbody tr{
+    height: 50px;
+}
+#deal_orgin_transaction tbody tr:hover{
+    background: #c8eefb;
+    cursor: pointer;
+}
+#deal_orgin_transaction tbody .up_down_data{
+    text-align: center;
+    display: block;
+    padding-right:15px;
+}
+#deal_orgin_transaction tbody p{
+    font-weight: 600;
+    font-size:13px;
+}
+#deal_orgin_transaction tbody tr td:first-child{
+    text-align: left;
+    padding-left:20px;
+    color:#2b2b2b;
+}
+#deal_orgin_transaction tbody tr td:nth-child(2){
+    font-weight: 600;
+    font-size:14px;
+}
+#deal_orgin_transaction .unit{
+    color:#666;
+    font-size:13px;
+}
+#deal_orgin_transaction .money_up{
+    color:#d60000;
+}
+#deal_orgin_transaction .money_down{
+    color:#002dae;
+}
+/*chart_graf*/
+
+#right_all_menu{
+  float:right;
+  margin-top: 77px;
+  width:920px;
+}
+#right_coin_menu1{
+  float:left;
+}
+.chart_graf{
+  width:905px;
+  height:465px;
+  background:url(../img/chart.png) no-repeat 50% 80%;
+  background-size:cover;
+}
+
+/*bid_price*/
+#right_coin_menu2{
+  float:left;
+  margin-top:20px;
+  width:920px;
+}
+.bid_price{
+  width:450px;
+  float:left;
+  margin-right:20px;
+}
+.bid_price table{
+  width:450px;
+  border:1px solid #efefef;
+  font-size:13px;
+}
+.bid_price td{
+  width:80px;
+  padding:5px;
+  border:1px solid #efefef
+}
+.bid_price tr{
+  position:relative;
+  height:35px;
+}
+.bid_price th{
+  background-color:#f4f5f9;
+  padding:5px;
+  border:1px solid #efefef;
+  font-size:13px;
+  color:#333333;
+}
+.table_h3{
+  border-bottom:3px solid #1b2f4a;
+  text-align:left;
+  padding: 10px 20px;
+  font-size:1.17em;
+  font-weight:600;
+  color:#2b2b2b;
+}
+.mado_amount{
+  width:150px;
+}
+.masu_amount{
+  width:130px;
+}
+.mado_right{
+  text-align:right;
+  padding-right:10px;
+}
+.masu_left{
+  padding-left:10px;
+  text-align:left;
+}
+.all_amount{
+  text-align:center;
+}
+.center{
+  text-align:center;
+}
+.high_up{
+  text-align:center;
+  padding-top:20px;
+  line-height:0.5em;
+}
+.low_down{
+  text-align:center;
+  padding-top:20px;
+  line-height:0.5em;
+}
+.orderbg1,.orderbg2{
+  text-align:center;
+}
+.orderbg1{
+  background-color:#cbd5f0;
+}
+.orderbg2{
+  background-color:#ffd3d4;
+}
+.upprice{
+  color:#d60000;
+}
+.downprice{
+  color:#002dae;
+}
+.bid_price table tbody tr td{
+  position:relative;
+}
+.mado1 div{
+  width:50px;
+  height:15px;
+  background-color:#cbd5f0;
+  position:absolute;
+  top:10px;
+  left:85px;
+  opacity:0.5;
+}
+.mado2 div{
+  width:50px;
+  height:15px;
+  background-color:#cbd5f0;
+  position:absolute;
+  top:10px;
+  left:85px;
+  opacity:0.5;
+}
+.mado3 div{
+  width:100px;
+  height:15px;
+  background-color:#cbd5f0;
+  position:absolute;
+  top:10px;
+  left:30px;
+  opacity:0.5;
+}
+.mado4 div{
+  width:20px;
+  height:15px;
+  background-color:#cbd5f0;
+  position:absolute;
+  top:10px;
+  left:110px;
+  opacity:0.5;
+}
+.mado5 div{
+  width:20px;
+  height:15px;
+  background-color:#cbd5f0;
+  position:absolute;
+  top:10px;
+  left:110px;
+  opacity:0.5;
+}
+.mado6 div{
+  width:20px;
+  height:15px;
+  background-color:#cbd5f0;
+  position:absolute;
+  top:10px;
+  left:110px;
+  opacity:0.5;
+}
+.mado7 div{
+  width:100px;
+  height:15px;
+  background-color:#cbd5f0;
+  position:absolute;
+  top:10px;
+  left:30px;
+  opacity:0.5;
+}
+.mado8 div{
+  width:80px;
+  height:15px;
+  background-color:#cbd5f0;
+  position:absolute;
+  top:10px;
+  left:50px;
+  opacity:0.5;
+}
+.mado9 div{
+  width:50px;
+  height:15px;
+  background-color:#cbd5f0;
+  position:absolute;
+  top:10px;
+  left:85px;
+  opacity:0.5;
+}
+.mado10 div{
+  width:50px;
+  height:15px;
+  background-color:#cbd5f0;
+  position:absolute;
+  top:10px;
+  left:85px;
+  opacity:0.5;
+}
+.masu1 div{
+  width:50px;
+  height:15px;
+  background-color:#ffd3d4;
+  position:absolute;
+  top:10px;
+  right:106px;
+  opacity:0.5;
+}
+.masu2 div{
+  width:50px;
+  height:15px;
+  background-color:#ffd3d4;
+  position:absolute;
+  top:10px;
+  right:106px;
+  opacity:0.5;
+}
+.masu3 div{
+  width:100px;
+  height:15px;
+  background-color:#ffd3d4;
+  position:absolute;
+  top:10px;
+  right:56px;
+  opacity:0.5;
+}
+.masu4 div{
+  width:20px;
+  height:15px;
+  background-color:#ffd3d4;
+  position:absolute;
+  top:10px;
+  right:136px;
+  opacity:0.5;
+}
+.masu5 div{
+  width:20px;
+  height:15px;
+  background-color:#ffd3d4;
+  position:absolute;
+  top:10px;
+  right:136px;
+  opacity:0.5;
+}
+.masu6 div{
+  width:20px;
+  height:15px;
+  background-color:#ffd3d4;
+  position:absolute;
+  top:10px;
+  right:136px;
+  opacity:0.5;
+}
+
+.masu7 div{
+  width:100px;
+  height:15px;
+  background-color:#ffd3d4;
+  position:absolute;
+  top:10px;
+  right:56px;
+  opacity:0.5;
+}
+
+.masu8 div{
+  width:80px;
+  height:15px;
+  background-color:#ffd3d4;
+  position:absolute;
+  top:10px;
+  right:81px;
+  opacity:0.5;
+}
+
+.masu9 div{
+  width:50px;
+  height:15px;
+  background-color:#ffd3d4;
+  position:absolute;
+  top:10px;
+  right:106px;
+  opacity:0.5;
+}
+
+.masu10 div{
+  width:50px;
+  height:15px;
+  background-color:#ffd3d4;
+  position:absolute;
+  top:10px;
+  right:106px;
+  opacity:0.5;
+}
+
+/*buy_sell_tab*/
+
+#buy_sell_tab{
+  float:left;
+}
+
+#buy_sell_tab .buy_sell_tab_title{
+    width: 435px;
+    overflow: hidden;
+
+}
+#buy_sell_tab .buy_sell_tab_title li{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+#buy_sell_tab .buy_tab_content,
+#buy_sell_tab .sell_tab_content{
+    padding:30px 20px 20px 20px;
+    width: 435px;
+    background: #fff;
+    border-radius:0 0 5px 5px;
+}
+.buy_tab_content{
+    display: block;
+}
+.sell_tab_content{
+    display: none;
+}
+
+#buy_sell_tab .buy_tab_content .buy_tab_content_row,
+#buy_sell_tab .sell_tab_content .sell_tab_content_row{
+    overflow:hidden;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+}
+#buy_sell_tab .buy_tab_content .buy_tab_content_row dt,
+#buy_sell_tab .sell_tab_content .sell_tab_content_row dt{
+    font-size:14px;
+    font-weight: 600;
+    float:left;
+}
+#buy_sell_tab .buy_tab_content .buy_tab_content_row dd,
+#buy_sell_tab .sell_tab_content .sell_tab_content_row dd{
+    float:right;
+}
+
+#buy_sell_tab .buy_tab_content .buy_tab_content_row dd strong,
+#buy_sell_tab .sell_tab_content .sell_tab_content_row dd strong{
+    font-size:20px;
+}
+#buy_sell_tab .buy_tab_content .buy_tab_content_row dd span,
+#buy_sell_tab .sell_tab_content .sell_tab_content_row dd span{
+    font-size:15px;
+    font-weight: 600;
+    color:#333;
+    margin-right:3px;
+}
+#buy_sell_tab .buy_tab_content .buy_tab_content_row dd a,
+#buy_sell_tab .sell_tab_content .sell_tab_content_row dd a{
+    border:1px solid #e3e4e8;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    font-size:30px;
+    position: absolute;
+    top:0;
+    right:0;
+    text-align: center;
+    line-height: 21px;
+    background: #f9fafc;
+    color:#84858a;
+}
+#buy_sell_tab .buy_tab_content .buy_tab_content_row dd .minus_btn,
+#buy_sell_tab .sell_tab_content .sell_tab_content_row dd .minus_btn{
+    right:35px;
+    top:9px;
+}
+
+#buy_sell_tab .buy_tab_content .buy_tab_content_row dd .plus_btn,
+#buy_sell_tab .sell_tab_content .sell_tab_content_row dd .plus_btn{
+    right:1px;
+    top:9px;
+}
+#buy_sell_tab dd input[type='text']{
+    border:1px solid #e3e4e8;
+    height: 30px;
+    width: 200px;
+    text-align: right;
+    font-size:15px;
+    padding-right:5px;
+    font-weight: 600;
+    color:#333;
+    margin-right:70px;
+}
+
+#buy_sell_tab dd input.buy_amount{
+    margin-right:70px;
+}
+
+#buy_sell_tab .amount_dropbox select{
+    position: absolute;
+    top: 9px;
+    right: 1px;
+    border: 1px solid #e3e4e8;
+    font-size: 15px;
+    width: 66px;
+    height: 32px;
+    line-height: 30px;
+    background-color: #f9fafc;
+    text-indent: 5px;
+}
+#buy_sell_tab .buy_all_amount_title{
+    font-weight: 600;
+    font-size:16px;
+    color:black;
+}
+#buy_sell_tab .buy_all_amount{
+    width: 278px;
+    background: #f4f5f9;
+    border-radius: 5px;
+    color:#333;
+}
+
+#buy_sell_tab .buy_all_amount p{
+    text-align: right;
+    padding:0 12px;
+}
+
+#buy_sell_tab .buy_all_amount p span.up_down_data{
+    color:#d60000;
+    font-size:20px;
+    margin-right:5px;
+}
+#buy_sell_tab .buy_all_amount p span.blue_color{
+    color:#002dae;
+}
+
+#buy_sell_tab .buy_tab_content .buy_tab_content_row.total_price{
+    height: 50px;
+    line-height: 50px;
+}
+#buy_sell_tab .mini_sub_info{
+    width: 100%;
+    overflow: hidden;
+}
+#buy_sell_tab .sub_text{
+    margin: 10px 0 15px 0;
+    font-size: 11px;
+    float: left;
+}
+#buy_sell_tab .minimum_order_price{
+    width: 31%;
+    margin-left: 118px;
+}
+#buy_sell_tab .charge{
+    margin-left: 12px;
+    width: 36%;
+}
+#buy_sell_tab input[type='reset']{
+    background:#fff;
+    padding:10px 30px;
+    border-radius: 5px;
+    font-size:15px;
+    font-weight: 600;
+    cursor:pointer;
+    float: left;
+}
+#buy_sell_tab input[type='reset'].reset_buy {
+    border:1px solid #d60000;
+    color: #d60000;
+}
+#buy_sell_tab input[type='reset'].reset_sell {
+    border:1px solid #002dae;
+    color: #002dae;
+}
+#buy_sell_tab .buy_tab_button{
+    width: 100%;
+    overflow: hidden;
+}
+#buy_sell_tab .buy_big_btn{
+    padding: 11px 125px;
+    background: #d60000;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 2%;
+    float: left;
+}
+#buy_sell_tab .buy_big_btn:hover {
+  background-color: rgba(255,35,35,.9);
+}
+#buy_sell_tab .sell_big_btn{
+    padding: 11px 125px;
+    background: #002dae;
+    border-radius: 5px;
+    border:none;
+    font-size:15px;
+    color:#fff;
+    font-weight: 600;
+    cursor:pointer;
+    margin-left: 2%;
+    float: left;
+}
+#buy_sell_tab .sell_big_btn:hover {
+  background-color: rgba(0,45,174,.9);
+}
+#buy_sell_tab .buy_sell_tab_title li h3 a{
+    border-radius: 5px 0 0 0;
+    padding:8px 0 11px 0;
+    display: block;
+    color:#777;
+    background: #f4f5f9;
+}
+#buy_sell_tab .buy_sell_tab_title .buy_tab h3.on a{
+    color:#d60000;
+    display: block;
+    border-top:3px solid #d60000;
+    padding:8px 0;
+    background-color: #fff;
+    border-radius: 5px 0 0 0;
+}
+
+#buy_sell_tab .buy_sell_tab_title .sell_tab h3.on a{
+    color:#002dae;
+    display: block;
+    border-top:3px solid #002dae;
+    padding:8px 0;
+    background-color: #fff;
+    border-radius: 0 5px 0 0;
+}
+
+/*deal_all*/
+
+.con_435{
+    width:435px;
+    margin:20px 0;
+    height: 428px;
+}
+#deal_all{
+  overflow-y: hidden;
+  float:left;
+
+}
+#deal_all .deal_table_scroll{
+    overflow-y: scroll;
+    height:380px;
+}
+#deal_all thead tr th.deal_time{
+    text-align: left;
+    padding-left:28px;
+}
+#deal_all table{
+    font-size:13px;
+}
+
+#deal_all thead tr{
+    height: 35px;
+    color:#333;
+    font-size:13px;
+    border-bottom:1px solid #efefef;
+}
+#deal_all thead tr th:not(.deal_time){
+    text-align: right;
+    padding-left: 28px;
+}
+#deal_all .deal_price_KRW{
+    padding-left;
+}
+#deal_all tbody tr{
+    height: 35px;
+    border-bottom:1px solid #efefef;
+}
+
+#deal_all tbody .up_down_data{
+    text-align: right;
+    display: block;
+    padding-right: 14px;
+}
+
+#deal_all tbody p{
+    font-size:13px;
+    color:#2b2b2b;
+    font-weight: 500;
+}
+
+#deal_all .money_up{
+    color:#d60000;
+}
+
+#deal_all .money_down{
+    color:#002dae;
+}
+#deal_all .deal_table_tbody{
+    display: block;
+    margin-top: 36px;
+}
+#deal_all .deal_all_thead{
+    background-color: #f4f5f9;
+    position: absolute;
+    width: 435px;
+}
+#deal_all .deal_table_tbody .deal_time{
+    padding-left:29px;
+}
+#deal_all .deal_table_tbody .deal_time span{
+    color:#9e9e9e;
+}
+#deal_all .deal_table_tbody td:not(.deal_time){
+    padding-left:35px;
+}
+#deal_all .deal_table_tbody td.deal_price_KRW_data{
+    padding-left:48px;
+}
+#deal_all .deal_table_tbody td.deal_amount_data{
+    padding-left: 21px;
+    padding-right: 13px;
+}
+#full{
+  display:none;
+}

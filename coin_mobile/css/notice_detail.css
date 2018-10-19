@@ -1,0 +1,83 @@
+/*공지사항 세부내용 */
+    /*공지사항 타이틀*/
+.notice_detail .notice_detail_inner{
+    padding:35px 40px;
+}
+.notice_detail .notice_detail_inner .notice_title_wrap{
+    border-bottom:2px solid #1b2f4a;
+    background: #f4f5f9;
+    padding:10px 20px;
+    overflow: hidden;
+}
+.notice_detail .notice_detail_inner .notice_title_wrap h4{
+    color:#1b2f4a;
+    display: inline-block;
+    float: left;
+}
+.notice_detail .notice_detail_inner .notice_title_wrap .upload_day{
+    display: inline-block;
+    float: right;
+    font-weight: 600;
+    font-size:14px;
+}
+
+    /*공지사항 내용*/
+.notice_detail .notice_detail_inner .notice_detail_inner_content{
+    padding: 16px 21px;
+    overflow-y: scroll;
+    height: 400px;
+}
+.notice_detail .notice_detail_inner .notice_detail_inner_content p{
+    font-size: 14px;
+    color: #323232;
+    line-height: 1.5;
+}
+
+    /*공지사항 목록으로, 이전글 다음글*/
+.notice_detail .notice_detail_inner .notice_detail_footer{
+    overflow: hidden;
+}
+.notice_detail .notice_detail_inner .notice_detail_footer .go_back_notice{
+    float: right;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #1b2f4a;
+    padding: 7px 25px;
+    font-size: 14px;
+    margin-top: 40px ;
+    font-weight: 600;
+}
+.notice_detail .notice_detail_inner .notice_detail_footer .go_back_notice:hover{
+    background-color: rgba(27,47,74,.9);
+}
+.notice_detail .notice_detail_inner .notice_detail_footer .notice_preview{
+    margin-top:90px;
+}
+.notice_detail .notice_detail_inner .notice_detail_footer .notice_preview li{
+    border-top:1px solid #1b2f4a;
+    border-bottom:1px solid #1b2f4a;
+}
+.notice_detail .notice_detail_inner .notice_detail_footer .notice_preview li p{
+    display: inline-block;
+    padding: 8px 0;
+    color: #939393;
+    font-weight: 600;
+    font-size: 15px;
+}
+.notice_detail .notice_detail_inner .notice_detail_footer li.next_notice_title{
+    border-top:none;
+}
+.notice_detail .notice_detail_inner .notice_detail_footer .notice_preview li p.prev_img,
+.notice_detail .notice_detail_inner .notice_detail_footer .notice_preview li p.next_img{
+    background: url(../img/arrow_on.png) no-repeat 75% center;
+    background-size: 12px;
+    width: 80px;
+    margin-left: 31px;
+    text-align: left;
+    color: #1b2f4a;
+}
+.notice_detail .notice_detail_inner .notice_detail_footer .notice_preview li p.next_img{
+    background: url(../img/arrow_off.png) no-repeat 75% center;
+    background-size: 12px;
+}
+/*공지사항 세부내용 End*/
