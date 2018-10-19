@@ -18,62 +18,51 @@
   <div id="wrap"><!--wrap-->
     <div id="container">
 
-
-      <div id="header_wrap">
-      <div id="header"><!--header-->
-
-
-      <div class="header_main"><!--header_main-->
-        <img src="img/back.png" alt="뒤로가기버튼" class="back">
-
-        <div id="coin_menu">
-        <div class="box coin_select">
-          <!-- 코인선택 영역 -->
-          <div class="coinSelect_area">
-              <dl class="coinSelect">
-                  <dt><a href="#" title="비트코인"><!--<img src="img/bitcoin.png" alt="비트코인"/>--></a><span>비트코인 BTC/KRW</span></dt>
-                  <dd><a href="#" title="비트코인"><!--<img src="img/bitcoin.png" alt="비트코인"/>--></a><span>비트코인 BTC/KRW</span></dd>
-                  <dd><a href="#" title="비트코인캐시"><!--<img src="img/bitcoincash.png" alt="비트코인캐시"/>--></a><span>비트코인캐시 BCH/KRW</span></dd>
-                  <dd><a href="#" title="이더리움"><!--<img src="img/eth.png" alt="이더리움"/>--></a><span>이더리움 ETH/KRW</span></dd>
-                  <dd><a href="#" title="이더리움클래식"><!--<img src="img/etc.png" alt="이더리움클래식"/>--></a><span>이더리움클래식 ETC/KRW</span></dd>
-                  <dd><a href="#" title="이오스"><!--<img src="img/eos.png" alt="이오스"/>--></a><span>이오스 EOS/KRW</span></dd>
-                  <dd><a href="#" title="리플"><!--<img src="img/reaple.png" alt="리플"/>--></a><span>리플 XRP/KRW</span></dd>
-                  <dd><a href="#" title="에이다"><!--<img src="img/ada.png" alt="에이다"/>--></a><span>에이다 ADA/KRW</span></dd>
-              </dl>
+      <!-- header_wrap -->
+      <div id ="header_wrap">
+        <!-- header -->
+        <div id="header">
+          <div class="headerTop">
+            <input type="button" class="back"/>
+            <!-- 코인선택 영역 -->
+            <div class="coinSelect_area">
+              <select id="coin_select" name="coin_select">
+                  <option value="전체">비트코인 BTC/KRW</option>
+                  <option value="비트코인캐시 BCH/KRW">비트코인캐시 BCH/KRW</option>
+                  <option value="이더리움 ETH/KRW">이더리움 ETH/KRW</option>
+                  <option value="이더리움클래식 ETC/KRW">이더리움클래식 ETC/KRW</option>
+                  <option value="이오스 EOS/KRW">이오스 EOS/KRW</option>
+                  <option value="리플 XRP/KRW">리플 XRP/KRW</option>
+                  <option value="에이다 ADA/KRW">에이다 ADA/KRW</option>
+              </select>
+            </div>
+            <div class="alarm_area">
+              <img src="img/bell.png" class="alarmBtn" alt="알림버튼"/>
+            </div>
           </div>
-        </div>
-        </div>
-        <!-- 코인선택 영역 -->
-        <img src="img/alarm.png" alt="알림" class="alarm_img">
-        <img src="img/blank.png" alt="즐겨찾기" class="blank_img">
-
-      </div><!--//header_main 끝-->
-      </div><!--//header 끝-->
-    </div><!--//header_wrap 끝-->
-
-
-      <div id="container_wrap">
-
-      <div>
-        <table class="header_content_table">
-          <tr>
-            <th>
+          <div class="current_price">
+            <div class="price">
               <p>현재가</p>
-              <span>10,650<b class="won">KRW</b></span>
-            </th>
-              <td>
-                <p>전일대비</p>
-                <span><img src="img/arrow_down_blue.png" alt="시세하락">500</span>
-              </td>
-          </tr>
-          </table>
-      </div>
+              <span><strong>10,650</strong>KRW</span>
+            </div>
+            <div class="percent">
+              <p>전일대비</p>
+              <span><strong>-0.31</strong>%</span>
+              <span><img src="img/arrow_down_blue.png" alt="시세하락">500</span>
+            </div>
+          </div>
+
+        </div> <!-- header End-->
+      </div><!-- header_wrap End-->
+
+      <!-- content_wrap -->
+      <div class="content_wrap">
 
       <ul class="gnb_tab">
         <li class="on"><a href="">주문</a></li>
         <li><a href="">호가</a></li>
         <li><a href="">차트</a></li>
-        <li><a href="">시세</a></li>
+        <li><a href="">전체체결</a></li>
         <li><a href="">코인정보</a></li>
       </ul>
 
@@ -82,96 +71,86 @@
     <!--원화거래표-->
     <div id="deal_orgin_transaction" class="deal_orgin_transaction">
       <table>
-        <tr>
-          <th>
-            매도잔량
-          </th>
-          <td>
-            399,560
-          </td>
-        </tr>
+        <tbody>
+          <tr>
+            <td><p class="up_down_data money_up">12,450<p><span class="up_down_data money_up">+11.77%</span>
+            </td>
+            <td>1,000</td>
+          </tr>
 
-        <tr>
-          <td><p class="up_down_data money_up">12,450<p><span class="up_down_data money_up">+11.77%</span>
-          </td>
-          <td>1,000</td>
-        </tr>
+          <tr>
+            <td><p class="up_down_data money_up">12,450<p><span class="up_down_data money_up">+11.77%</span>
+            </td>
+            <td>1,000</td>
+          </tr>
 
-        <tr>
-          <td><p class="up_down_data money_up">12,450<p><span class="up_down_data money_up">+11.77%</span>
-          </td>
-          <td>1,000</td>
-        </tr>
+          <tr>
+            <td><p class="up_down_data money_up">12,450<p><span class="up_down_data money_up">+11.77%</span>
+            </td>
+            <td>1,000</td>
+          </tr>
 
-        <tr>
-          <td><p class="up_down_data money_up">12,450<p><span class="up_down_data money_up">+11.77%</span>
-          </td>
-          <td>1,000</td>
-        </tr>
+          <tr>
+            <td><p class="up_down_data money_up">12,450<p><span class="up_down_data money_up">+11.77%</span>
+            </td>
+            <td>1,000</td>
+          </tr>
 
-        <tr>
-          <td><p class="up_down_data money_up">12,450<p><span class="up_down_data money_up">+11.77%</span>
-          </td>
-          <td>1,000</td>
-        </tr>
+          <tr>
+            <td><p class="up_down_data money_up">12,450<p><span class="up_down_data money_up">+11.77%</span>
+            </td>
+            <td>1,000</td>
+          </tr>
 
-        <tr>
-          <td><p class="up_down_data money_up">12,450<p><span class="up_down_data money_up">+11.77%</span>
-          </td>
-          <td>1,000</td>
-        </tr>
+          <tr>
+            <td><p class="up_down_data money_up">12,450<p><span class="up_down_data money_up">+11.77%</span>
+            </td>
+            <td>1,000</td>
+          </tr>
 
-        <tr>
-          <td><p class="up_down_data money_up">12,450<p><span class="up_down_data money_up">+11.77%</span>
-          </td>
-          <td>1,000</td>
-        </tr>
+          <tr>
+            <td><p class="up_down_data money_down">12,450<p><span class="up_down_data money_down">+11.77%</span>
+            </td>
+            <td>1,000</td>
+          </tr>
 
-        <tr>
-          <td><p class="up_down_data money_down">12,450<p><span class="up_down_data money_down">+11.77%</span>
-          </td>
-          <td>1,000</td>
-        </tr>
+          <tr>
+            <td><p class="up_down_data money_down">12,450<p><span class="up_down_data money_down">+11.77%</span>
+            </td>
+            <td>1,000</td>
+          </tr>
 
-        <tr>
-          <td><p class="up_down_data money_down">12,450<p><span class="up_down_data money_down">+11.77%</span>
-          </td>
-          <td>1,000</td>
-        </tr>
+          <tr>
+            <td><p class="up_down_data money_down">12,450<p><span class="up_down_data money_down">+11.77%</span>
+            </td>
+            <td>1,000</td>
+          </tr>
 
-        <tr>
-          <td><p class="up_down_data money_down">12,450<p><span class="up_down_data money_down">+11.77%</span>
-          </td>
-          <td>1,000</td>
-        </tr>
+          <tr>
+            <td><p class="up_down_data money_down">12,450<p><span class="up_down_data money_down">+11.77%</span>
+            </td>
+            <td>1,000</td>
+          </tr>
 
-        <tr>
-          <td><p class="up_down_data money_down">12,450<p><span class="up_down_data money_down">+11.77%</span>
-          </td>
-          <td>1,000</td>
-        </tr>
+          <tr>
+            <td><p class="up_down_data money_down">12,450<p><span class="up_down_data money_down">+11.77%</span>
+            </td>
+            <td>1,000</td>
+          </tr>
 
-        <tr>
-          <td><p class="up_down_data money_down">12,450<p><span class="up_down_data money_down">+11.77%</span>
-          </td>
-          <td>1,000</td>
-        </tr>
-
-        <tr>
-          <td><p class="up_down_data money_down">12,450<p><span class="up_down_data money_down">+11.77%</span>
-          </td>
-          <td>1,000</td>
-        </tr>
-
-
-        </table>
-
-      </div><!--//원화거래표 끝-->
+          <tr>
+            <td><p class="up_down_data money_down">12,450<p><span class="up_down_data money_down">+11.77%</span>
+            </td>
+            <td>1,000</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
       <div id="deal_content">
         <table class="tabs">
           <tr>
-            <td class="tab_active tab_same" rel="tab1"><span class="tab_active11">매수</span></td>
+            <td class="tab_active tab_same" rel="tab1"><span class="tab_active11 tabOn">매수</span></td>
             <td class="tab_same" rel="tab2"><span class="tab_active11">매도</span></td>
             <td class="tab_same" rel="tab3"><span class="tab_active11">미체결</span></td>
           </tr>
@@ -193,8 +172,10 @@
                 <dt>매수가격(KRW)</dt>
                 <dd>
                     <input type='text' class='buy_price' maxlength="200" value=''/>
-                    <a href="#" class='minus_btn'>-</a>
-                    <a href="#" class='plus_btn'>+</a>
+                    <p class="pl_ma">
+                      <a href="#" class='minus_btn'>-</a>
+                      <a href="#" class='plus_btn'>+</a>
+                    </p>
                 </dd>
             </div>
             <div class="buy_tab_content_row">
@@ -224,8 +205,8 @@
             </dl>
 
             <div class="mini_sub_info">
-              <span class='sub_text minimum_order_price'>최소주문금액 : 2000 KRW</span>
-              <span class='sub_text charge'>수수료 (부가세 포함) : 0.12%</span>
+              <p class='sub_text minimum_order_price'>최소주문금액 : 2000 KRW</p>
+              <p class='sub_text charge'>수수료 (부가세 포함) : 0.12%</p>
             </div>
 
             <div class="buy_tab_button">
@@ -239,25 +220,27 @@
 <!------------------------------->
 
 
-            <!--tab2 매수-->
+            <!--tab2 매도-->
             <div id="tab2" class="tab_content">
               <div class="buy_tab_content_row">
-                  <dt>주문가능</dt>
+                  <dt>거래가능</dt>
                   <dd>
                       <strong class='up_down_data order_data'>0</strong>
                       <span class="won">KRW</span>
                   </dd>
               </div>
               <div class="buy_tab_content_row">
-                  <dt>매수가격(KRW)</dt>
+                  <dt>매도가격(KRW)</dt>
                   <dd>
                       <input type='text' class='buy_price' maxlength="200" value=''/>
-                      <a href="#" class='minus_btn'>-</a>
-                      <a href="#" class='plus_btn'>+</a>
+                      <p class="pl_ma">
+                        <a href="#" class='minus_btn'>-</a>
+                        <a href="#" class='plus_btn'>+</a>
+                      </p>
                   </dd>
               </div>
               <div class="buy_tab_content_row">
-                  <dt>매수수량(BTC)</dt>
+                  <dt>매도수량(BTC)</dt>
                   <dd>
                       <input type='text' class='buy_amount' maxlength="200" value=''/>
                       <div class="amount_dropbox">
@@ -283,8 +266,8 @@
               </dl>
 
               <div class="mini_sub_info">
-                <span class='sub_text minimum_order_price'>최소주문금액 : 2000 KRW</span>
-                <span class='sub_text charge'>수수료 (부가세 포함) : 0.12%</span>
+                <p class='sub_text minimum_order_price'>최소주문금액 : 2000 KRW</p>
+                <p class='sub_text charge'>수수료 (부가세 포함) : 0.12%</p>
               </div>
 
               <div class="buy_tab_button">

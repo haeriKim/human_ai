@@ -23,9 +23,11 @@
           <div id ="header_wrap">
             <!-- header -->
             <div id="header">
-              <h2 class="header_title">거래소</h2>
-              <div class="alarm_area">
-                <img src="img/bell.png" class="alarmBtn" alt="알림버튼"/>
+              <div class="headerTop">
+                <h2 class="header_title">거래소</h2>
+                <div class="alarm_area">
+                  <img src="img/bell.png" class="alarmBtn" alt="알림버튼"/>
+                </div>
               </div>
             </div> <!-- header End-->
           </div><!-- header_wrap End-->

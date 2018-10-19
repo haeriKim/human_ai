@@ -1,8 +1,15 @@
 /* 헤더 */
 #header_wrap {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 5;
+}
+#header_wrap .headerTop {
   height: 45px;
   line-height: 45px;
   background-color: #0e141c;
+
 }
 #header_wrap #header {
   text-align: center;

@@ -1,58 +1,61 @@
 /*거래소*/
-
-
-#header{
-  width:100%;
-  float:left;
+#header_wrap .headerTop .back {
+  position: absolute;
+  top: 14px;
+  left: 10px;
+  background: url("../img/back.png") no-repeat 0 center;
+  background-size: 20px;
+  width: 30px;
+  border: none;
 }
-.header_main{
-  width:100%;
-  overflow:hidden;
-  background:#000;
+#header_wrap .headerTop .coinSelect_area #coin_select {
+  border: none;
+  color: #fff;
+  background-color: #0e141c;
+  font-size: 15px;
+  font-weight: 600;
+  position: absolute;
+  top: 13px;
+  left: 35px;
 }
-.header_main img{
-  width:30px;
-  height:30px;
-  margin-top: 5px;
-  margin-left:3px;
-}
-.header_main .back{
-  float:left;
-  width:25px;
-  height:25px;
-  margin-top:7px;
-}
-.header_main .alarm_img{
-  float:right;
-}
-.header_main .blank_img{
-  float:right;
-}
-
-.header_content_table{
+#header_wrap .current_price {
   overflow: hidden;
-  height:40px;
-  color:#30afb8;
-  font-size:15px;
-  padding:0 20px;
+  font-size: 14px;
+  background-color: #070B11;
+  padding: 15px 10px;
+  height: 75px;
+  box-sizing: border-box;
 }
-.header_content_table p{
-  float:left;
-  padding:0 10px;
+#header_wrap .current_price .price{
+  float: left;
+  width: 55%;
+  margin-right: 5%
 }
-.header_content_table span{
-  float:right;
-  padding-right:10px;
+#header_wrap .current_price .percent{
+  float: left;
+  width: 40%;
 }
-.header_content_table img{
-  margin-right:5px;
+#header_wrap .current_price p {
+  text-align: left;
+  margin-bottom: 5px;
 }
-
+#header_wrap .current_price strong {
+  margin-right: 5px;
+}
+#header_wrap .current_price .price span {
+  display: block;
+  text-align: right;
+}
+#header_wrap .current_price .percent span +span {
+  margin-left: 10px;
+}
+.content_wrap {
+  margin: 120px auto 60px;
+}
 .gnb_tab{
   overflow: hidden;
-  font-size:15px;
+  font-size:14px;
 }
-
 .gnb_tab li{
   float:left;
   width:19.9%;
@@ -76,86 +79,6 @@
   color:rgba(255,255,255,.3);
 }
 
-/*코인선택 select-box*/
-
-#coin_menu{
-  float:left;
-  /*position: relative;*/
-}
-#coin_menu.scroll_fixed {
-  position: fixed;
-}
-
-.coin_select{
-    padding: 0;
-    border-radius: 5px;
-    /*position:absolute;*/
-    z-index: 2;
-}
-.coinSelect_area {
-    box-sizing: border-box;
-    width:220px;
-}
-.coinSelect_area .coinSelect {
-  width: 70%;
-  padding: 5px 10px;
-  box-sizing: border-box;
-  border-radius: 5px;
-}
-.coinSelect_area .coinSelect dt, .coinSelect_area .coinSelect dd{
-    width:100%;
-    height: 45px;
-    letter-spacing:1px;
-    cursor:pointer;
-    font-weight: 600;
-    color: #fff;
-}
-.coinSelect_area .coinSelect dt {
-    background: url("../img/arrow_down_dg.png") no-repeat right 17px;
-    background-size: 10px;
-    letter-spacing: -0.5px;
-    vertical-align: center;
-}
-.coinSelect_area .on dt {
-    background: url("../img/arrow_up_dg.png") no-repeat right 17px;
-    background-size: 10px;
-    letter-spacing: -0.5px;
-    vertical-align: center;
-}
-.coinSelect_area .coinSelect dd a{
-    display: block;
-    text-align: right;
-    float: left;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-.coinSelect_area .coinSelect dt a img {
-  max-width: 30px;
-  margin-right: 10px;
-  vertical-align: -8px;
-}
-.coinSelect_area .coinSelect dd a img {
-  max-width: 20px;
-  height: auto;
-  vertical-align: -4px;
-}
-.coinSelect_area .coinSelect dt span {
-  display: inline-block;
-  line-height: 40px;
-  padding-left:10px;
-  color:#30afb8;
-}
-.coinSelect_area .coinSelect dd span{
-  vertical-align: 2px;
-  max-width: 100%;
-}
-.coinSelect_area .coinSelect dd{
-    display:none;
-    letter-spacing: -0.5px;
-    background: none;
-    font-size: 60%;
-}
-
 #deal_story {
   overflow: hidden;
 }
@@ -164,69 +87,19 @@
     overflow-y:auto;
     padding: 0;
     float:left;
-    width:40%;
+    width:39.5%;
+    border-right: 1px solid rgba(255,255,255,.2);
 }
 #deal_orgin_transaction table{
-    font-size:13px;
-}
-#deal_orgin_transaction thead tr th.coin_kor,
-#deal_orgin_transaction thead tr th.coin_eng{
-    text-align: left;
-    padding-left:20px;
-    padding-right:0;
-    /*background: url(../img/side_arrow.png) no-repeat 70px 13px;*/
-}
-#deal_orgin_transaction thead tr th:nth-child(3){
-    /*background: url(../img/up_down_default.png) no-repeat 58px 13px;*/
-    /* background: url(../img/up_down_up.png) no-repeat 55px 14px; */
-    /* background: url(../img/up_down_down.png) no-repeat 55px 14px; */
-}
-#deal_orgin_transaction thead tr th:nth-child(4){
-    /* background: url(../img/up_down_default.png) no-repeat 55px 14px; */
-    /*background: url(../img/up_down_up.png) no-repeat 59px 13px;*/
-    /* background: url(../img/up_down_down.png) no-repeat 55px 14px; */
-}
-#deal_orgin_transaction thead tr th:nth-child(5){
-    /* background: url(../img/up_down_default.png) no-repeat 55px 14px; */
-    /* background: url(../img/up_down_up.png) no-repeat 55px 14px; */
-    /*background: url(../img/up_down_down.png) no-repeat 62px 13px;*/
-}
-#deal_orgin_transaction thead tr{
-    height: 35px;
-    color:#666;
-    font-size:13px;
-}
-#deal_orgin_transaction thead tr th{
-    text-align: center;
-    padding-right:15px;
+  font-size:13px;
 }
 #deal_orgin_transaction tbody tr{
-    height: 50px;
+  height: 50px;
 }
-#deal_orgin_transaction tbody tr:hover{
-    background: #c8eefb;
-    cursor: pointer;
-}
-#deal_orgin_transaction tbody .up_down_data{
-    text-align: center;
-    display: block;
-    padding-right:15px;
-}
-#deal_orgin_transaction tbody p{
-    font-size:13px;
-    color:#f00;
-}
-#deal_orgin_transaction tbody tr td:first-child{
-    text-align: left;
-    padding-left:20px;
-    color:#2b2b2b;
-}
-#deal_orgin_transaction tbody tr td:nth-child(2){
-    font-size:12px;
-}
-#deal_orgin_transaction .unit{
-    color:#666;
-    font-size:13px;
+#deal_orgin_transaction tbody tr td {
+  padding: 0 5px;
+  border-bottom: 1px solid rgba(255,255,255,.2);
+  text-align: right;
 }
 #deal_orgin_transaction .money_up{
     color:#f35531;
@@ -251,176 +124,125 @@
   margin-top:5px;
 }
 #deal_content .tabs span{
-  font-weight:600;
-  border:1px solid #fff;
-  padding:5px 10px;
-  color:#fff;
+  font-weight: 600;
+  border: 1px solid rgba(255,255,255,.3);
+  padding: 5px 10px;
+  color: rgba(255,255,255,.3);
 }
-
+#deal_content .tabs span.tabOn {
+  color: #30AFB8;
+  border: 1px solid #30AFB8;
+}
 
 /*tab1*/
 
-.tab_container #tab1{
+.tab_container .tab_content{
   padding:50px 12px;
 }
-.tab_container #tab1 .buy_tab_content_row{
+.tab_container .tab_content .buy_tab_content_row{
   overflow:hidden;
 }
-.tab_container #tab1 .buy_tab_content_row dt{
+.tab_container .tab_content .buy_tab_content_row dt{
   width:80%;
   margin:10px 0;
   text-align:left;
 }
-.tab_container #tab1 .buy_tab_content_row dd{
+.tab_container .tab_content .buy_tab_content_row dd{
   width:100%;
   text-align:right;
 }
-.tab_container #tab1 .buy_tab_content_row .order_data{
+.tab_container .tab_content .buy_tab_content_row .order_data{
 
 }
-.tab_container #tab1 .buy_tab_content_row .won{
+.tab_container .tab_content .buy_tab_content_row .won{
   text-align:right;
 }
-.tab_container #tab1 .buy_tab_content_row input{
+.tab_container .tab_content .buy_tab_content_row input{
   float:left;
   border:none;
   border-bottom:1px solid #fff;
   background:none;
   width:70%;
   color:#fff;
-
 }
-.tab_container #tab1 .buy_tab_content_row a{
-  border:1px solid #e3e4e8;
-  width: 15px;
+.tab_container .tab_content .buy_tab_content_row .pl_ma {
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+}
+.tab_container .tab_content .buy_tab_content_row .pl_ma a{
+  border: 1px solid #fff;
+  width: 33%;
   height: 15px;
   display: inline-block;
-  font-size:12px;
+  font-size: 13px;
   text-align: center;
-  line-height:8px;
+  line-height: 12px;
+  color: #fff;
+  margin-left: 3px;
+  font-weight: 600;
+}
+.tab_container .tab_content .buy_tab_content_row .amount_dropbox{
+  float: left;
+  text-align: center;
+  width: 30%;
+}
+.tab_container .tab_content .buy_tab_content_row select{
+  margin-left:3px;
   color:#fff;
-  margin-left:3px;
+  background-color: #0F1926;
+  border: none;
+  border-bottom: 1px solid #fff;
 }
-.tab_container #tab1 .buy_tab_content_row .amount_dropbox{
-  float:left;
-}
-.tab_container #tab1 .buy_tab_content_row select{
-  margin-left:3px;
-  background:#fff;
-  color:#000;
-}
-.tab_container #tab1 .buy_tab_content_row .buy_all_amount_title{
+.tab_container .tab_content .buy_tab_content_row .buy_all_amount_title{
   margin:10px 0;
-  }
-
-.tab_container #tab1 .buy_tab_content_row .buy_all_amount{
+}
+.tab_container .tab_content .buy_tab_content_row .buy_all_amount{
   margin-bottom:10px;
 }
-
-.tab_container #tab1 .buy_tab_content_row .buy_all_amount span{
+.tab_container .tab_content .buy_tab_content_row .buy_all_amount p {
+  background-color: rgba(255,255,255,.1);
+  padding: 7px 5px;
+  font-size: 15px;
+  color: #30afb8;
+}
+.tab_container .tab_content .buy_tab_content_row .buy_all_amount span{
   margin-right:2px;
 }
-.tab_container #tab1 .mini_sub_info{
-  display:block;
-  font-size:11px;
-}
-.tab_container #tab1 .buy_tab_button{
-  margin:20px 0;
 
+.tab_container .tab_content .mini_sub_info{
+  font-size:11px;
+  text-align: center;
 }
-.tab_container #tab1 .buy_tab_button .reset_buy{
+.tab_container .tab_content .buy_tab_button{
+  margin:20px 0;
+}
+.tab_container .tab_content .buy_tab_button .reset_buy{
   border:1px solid #f35531;
   background:none;
   color:#f35531;
-  padding:5px 25px;
+  padding:5px 0 ;
   font-size:12px;
+  width: 30%;
 }
-.tab_container #tab1 .buy_tab_button .buy_big_btn{
+.tab_container .tab_content .buy_tab_button .buy_big_btn{
   border:1px solid #f35531;
   background:#f35531;
   color:#fff;
-  padding:5px 15px;
+  padding:5px 0;
   font-size:12px;
+  width: 67%;
 }
 
 /*tab2*/
 
-.tab_container #tab2{
-  padding:50px 12px;
-}
-.tab_container #tab2 .buy_tab_content_row{
-  overflow:hidden;
-}
-.tab_container #tab2 .buy_tab_content_row dt{
-  width:80%;
-  margin:10px 0;
-  text-align:left;
-}
-.tab_container #tab2 .buy_tab_content_row dd{
-  width:100%;
-}
-.tab_container #tab2 .buy_tab_content_row .order_data{
-
-}
-.tab_container #tab2 .buy_tab_content_row .won{
-  text-align:right;
-}
-.tab_container #tab2 .buy_tab_content_row input{
-  float:left;
-  border:none;
-  border-bottom:1px solid #fff;
-  background:none;
-  width:70%;
-  color:#fff;
-
-}
-.tab_container #tab2 .buy_tab_content_row a{
-  border:1px solid #e3e4e8;
-  width: 15px;
-  height: 15px;
-  display: inline-block;
-  font-size:12px;
-  text-align: center;
-  line-height:8px;
-  color:#fff;
-  margin-left:3px;
-}
-.tab_container #tab2 .buy_tab_content_row .amount_dropbox{
-  float:left;
-}
-.tab_container #tab2 .buy_tab_content_row select{
-  margin-left:3px;
-  background:#fff;
-  color:#000;
-}
-.tab_container #tab2 .buy_tab_content_row .buy_all_amount_title{
-  margin:10px 0;
-  }
-
-.tab_container #tab2 .buy_tab_content_row .buy_all_amount{
-  margin-bottom:10px;
-}
-
-.tab_container #tab2 .buy_tab_content_row .buy_all_amount span{
-  margin-right:2px;
-}
-.tab_container #tab2 .mini_sub_info{
-}
-.tab_container #tab2 .buy_tab_button{
-  margin:20px 0;
-
-}
 .tab_container #tab2 .buy_tab_button .reset_buy{
   border:1px solid #01a9ff;
-  background:none;
   color:#01a9ff;
-  padding:5px 25px;
-  font-size:12px;
+
 }
 .tab_container #tab2 .buy_tab_button .buy_big_btn{
   border:1px solid #01a9ff;
   background:#01a9ff;
   color:#fff;
-  padding:5px 15px;
-  font-size:12px;
 }
