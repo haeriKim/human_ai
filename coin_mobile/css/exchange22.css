@@ -273,6 +273,7 @@
 }
 .tab_container #tab1 .buy_tab_content_row dd{
   width:100%;
+  text-align:right;
 }
 .tab_container #tab1 .buy_tab_content_row .order_data{
 
@@ -320,6 +321,8 @@
   margin-right:2px;
 }
 .tab_container #tab1 .mini_sub_info{
+  display:block;
+  font-size:11px;
 }
 .tab_container #tab1 .buy_tab_button{
   margin:20px 0;
