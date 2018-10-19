@@ -18,10 +18,9 @@ $(function () {
 
 /*미체결 탭에서 매수,매도 select 했을때 버튼활성화*/
 $(document).ready(function(){
-    $(".not_yet_deal_content .check").change(function(){
-        if($(".not_yet_deal_content .check").prop("checked")) {
+    $(".not_yet_deal_content .check").click(function(){
+        if($(this).prop("checked")) {
             $(".not_yet_deal .delete").addClass('on');
-            console.log("Dd");
         }else {
             $(".not_yet_deal .delete").removeClass('on');
         }
