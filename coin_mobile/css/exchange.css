@@ -7,6 +7,36 @@
     float:left;
     width:100%;
 }
+#deal_orgin_transaction .market_name{
+    padding: 10px 0 10px 6%;
+    font-size: 15px;
+}
+#deal_orgin_transaction .market_name li{
+    border: 1px solid #fff;
+    width: 20%;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+#deal_orgin_transaction .market_name li.on{
+    border-top: 2px solid red;
+}
+#deal_orgin_transaction .market_name li.on a{
+    color: red;
+}
+#deal_orgin_transaction #look_method{
+    width: 90%;
+    color: #fff;
+    border: none;
+    border: 1px solid #fff;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 auto;
+    display: block;
+}
+#deal_orgin_transaction #look_method option{
+    color: red;
+}
 #deal_orgin_transaction table{
     font-size:13px;
 }

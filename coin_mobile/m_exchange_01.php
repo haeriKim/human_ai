@@ -21,8 +21,16 @@
             <!-- content_wrap -->
             <div class="content_wrap">
                 <!-- main_content -->
-                <div class="content exchange_content con_1290">
+                <div class="content">
                     <div class="box" id='deal_orgin_transaction'>
+                        <ul class='market_name'>
+                            <li class='on'><a href="#">KRW</a></li>
+                        </ul>
+                        <select id="look_method" name="look_method">
+                            <option value="">전체</option>
+                            <option value="">보유 코인만 보기</option>
+                            <option value="">즐겨찾기 코인만 보기</option>
+                        </select>
                         <table class='deal_table'>
                           <colgroup>
                               <col style="width:33%;"/>
