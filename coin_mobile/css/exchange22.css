@@ -41,6 +41,9 @@
   float:right;
   padding-right:10px;
 }
+.header_content_table img{
+  margin-right:5px;
+}
 
 .header_gnb{
   width:100%;
@@ -212,7 +215,7 @@
     color:#2b2b2b;
 }
 #deal_orgin_transaction tbody tr td:nth-child(2){
-    font-size:14px;
+    font-size:12px;
 }
 #deal_orgin_transaction .unit{
     color:#666;
@@ -244,7 +247,7 @@
   padding:5px 10px;
 }
 .tab_container #tab1{
-  padding:50px 10px;
+  padding:50px 20px;
 }
 .tab_container #tab1 .buy_tab_content_row{
   overflow:hidden;
@@ -258,9 +261,7 @@
   width:100%;
 }
 .tab_container #tab1 .buy_tab_content_row .order_data{
-  text-align:right;
-  width:80%;
-  display:inline-block;
+
 }
 .tab_container #tab1 .buy_tab_content_row .won{
   text-align:right;
@@ -271,6 +272,7 @@
   border-bottom:1px solid #fff;
   background:none;
   width:70%;
+  color:#fff;
 
 }
 .tab_container #tab1 .buy_tab_content_row a{
@@ -293,18 +295,33 @@
   color:#000;
 }
 .tab_container #tab1 .buy_tab_content_row .buy_all_amount_title{
-  float:left;
   margin:10px 0;
   }
 
 .tab_container #tab1 .buy_tab_content_row .buy_all_amount{
-  float:left;
-  text-align:right;
   margin-bottom:10px;
 }
+
 .tab_container #tab1 .buy_tab_content_row .buy_all_amount span{
   margin-right:2px;
 }
-.tab_container #tab1 .buy_tab_content_row .mini_sub_info{
-  float:left;
+.tab_container #tab1 .mini_sub_info{
+}
+.tab_container #tab1 .buy_tab_button{
+  margin:20px 0;
+
+}
+.tab_container #tab1 .buy_tab_button .reset_buy{
+  border:1px solid red;
+  background:none;
+  color:red;
+  padding:5px 25px;
+  font-size:12px;
+}
+.tab_container #tab1 .buy_tab_button .buy_big_btn{
+  border:1px solid red;
+  background:red;
+  color:#fff;
+  padding:5px 15px;
+  font-size:12px;
 }
