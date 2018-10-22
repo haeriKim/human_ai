@@ -104,7 +104,7 @@
 }
 /*자산관리 gnb*/
 .mycoin_content_wrap{
-  margin:50px auto 0;
+  margin:50px auto 60px;
   width:100%;
 }
 
@@ -130,7 +130,7 @@
   box-sizing: border-box;
 }
 .gnb_tab li.on {
-  border-top: 4px solid #30afb8;
+  border-top: 3px solid #30afb8;
 
   font-weight: 600;
 }
@@ -162,7 +162,7 @@
   box-sizing: border-box;
 }
 .gnb_tab2 li.on {
-  border-top: 4px solid #30afb8;
+  border-top: 3px solid #30afb8;
   font-weight: 600;
 }
 .gnb_tab2 li a{

@@ -21,18 +21,18 @@ $(document).ready(function(){
     $("input[type=radio]").each(function(){
         var chk = $(this).is(":checked");
         var name = $(this).attr('name');
-        if(chk == true) $("input[name='"+name+"']").data("previous",$(this).val());
+        // if(chk == true) $("input[name='"+name+"']").data("previous",$(this).val());
     });
 
     $("input[type=radio]").click(function(){
-        var pre = $(this).data("previous");
+        // var pre = $(this).data("previous");
         var chk = $(this).is(":checked");
         var name = $(this).attr('name');
-        if(chk == true && pre == $(this).val()){
+        if(chk == true){
             $(this).prop('checked',false);
-            $("input[name='"+name+"']").data("previous",'');
+            // $("input[name='"+name+"']").data("previous",'');
         }else{
-            if(chk == true) $("input[name='"+name+"']").data("previous",$(this).val());
+            // if(chk == true) $("input[name='"+name+"']").data("previous",$(this).val());
         }
     });
 

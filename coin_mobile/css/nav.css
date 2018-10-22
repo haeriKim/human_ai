@@ -8,6 +8,7 @@
     bottom: 0;
     height: 60px;
     border-top: 1px solid #1E2E43;
+    box-sizing: border-box;
 }
 
 /* 네비게이션 메뉴 영역 */
