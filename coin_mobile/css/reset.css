@@ -107,7 +107,34 @@ input[type="radio"] + label:before {
     margin: -3px 5px 0 0;
     vertical-align: middle;
     background: url(../img/m_o_off.png) no-repeat;
+    vertical-align: -8px;
 }
 input[type="radio"]:checked + label:before {
     background: url(../img/m_o_on.png) no-repeat;
+    vertical-align: -8px;
+}
+/*radio 네모스타일*/
+input.square[type='radio']{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip:rect(0,0,0,0);
+    border: 0;
+}
+input.square[type="radio"] + label:before {
+    content: ' ';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: -3px 5px 0 0;
+    vertical-align: middle;
+    background: url(../img/checkbox_off.png) no-repeat;
+    vertical-align: -8px;
+}
+input.square[type="radio"]:checked + label:before {
+    background: url(../img/checkbox_on.png) no-repeat;
+    vertical-align: -8px;
 }

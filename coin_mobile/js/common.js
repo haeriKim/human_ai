@@ -44,3 +44,33 @@ $(document).ready(function(){
         }
     });
 });
+
+/*자산관리 페이지 조회선택 버튼*/
+
+$(document).ready(function(){
+  var select = 0;
+  $("#cal_select,#cal_select_up").click(function(){
+    if(select === 0) {
+        $("#cal_select_up").show();
+        $("#cal_select").hide();
+        select = 1;
+    }else {
+      $("#cal_select").show();
+      $("#cal_select_up").hide();
+      select = 0;
+    }
+  });
+});
+
+$(document).ready(function(){
+  var select = 0;
+  $("#cal_select,#cal_select_up").click(function(){
+    if(select === 0) {
+        $(".cal_lookup_inner").fadeIn(200);
+        select = 1;
+    }else {
+      $(".cal_lookup_inner").fadeOut(200);
+        select = 0;
+    }
+  });
+});
