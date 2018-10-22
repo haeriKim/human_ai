@@ -95,6 +95,13 @@
       float:left;
       margin-right:2%;
     }
+    #wd_list .cal_lookup_inner .days .date_bt:hover{
+      color:#30afb8;
+      border:1px solid #30afb8;
+    }
+      #wd_list .cal_lookup_inner .days .date_bt::after{
+      color:#30afb8;
+      }
     #wd_list .cal_lookup_inner .days .wd_radio{
       font-size:12px;
       clear:both;
