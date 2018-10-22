@@ -48,7 +48,7 @@
 
                     <div class="cal_area">
                       <div class="cal_lookup">
-                        <p>2018.10.15~2018.10.22 | 구분전체</p>
+                        <p>2018.10.15~2018.10.22</p>
                           <span id="cal_select">조회선택<img src="img/arrow_down_white.png" alt="하얀화살표"></span>
                           <span id="cal_select_up">조회선택<img src="img/arrow_up_white.png" alt="하얀화살표"></span>
                       </div>

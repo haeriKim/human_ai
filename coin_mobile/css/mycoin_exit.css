@@ -5,7 +5,7 @@
         overflow-y:auto;
     }
     #wd_list .cal_area{
-      padding:0 10px;
+      padding: 0 10px;
     }
     #wd_list .cal_lookup{
       font-size:12px;
@@ -25,7 +25,6 @@
       color: #fff;
       background-color: #0F1926;
       border: none;
-      border-bottom: 1px solid #fff;
     }
     #wd_list .cal_lookup #cal_select img{
       width:10%;
@@ -39,7 +38,6 @@
       color: #fff;
       background-color: #0F1926;
       border: none;
-      border-bottom: 1px solid #fff;
       display:none;
     }
     #wd_list .cal_lookup #cal_select_up img{
@@ -58,6 +56,7 @@
       display:block;
       margin:10px 0;
       float:left;
+      opacity: .6;
     }
     #wd_list .cal_lookup_inner .days{
       margin-top:10px;
@@ -74,13 +73,15 @@
       margin:0 1%;
     }
     #wd_list .cal_lookup_inner .days .date_input{
-      width:46%;
-      height:28px;
-      border:1px solid #30afb8;
-      background:none;
-      color:#30afb8;
-      font-size:11px;
-      float:left;
+      width: 46%;
+      height: 28px;
+      border: 1px solid #30afb8;
+      background: none;
+      color: #30afb8;
+      font-size: 11px;
+      float: left;
+      padding-left: 10px;
+      box-sizing: border-box;
     }
     #wd_list .cal_lookup_inner .days .date_bt_box{
       float:left;
@@ -104,43 +105,19 @@
       clear:both;
       width:100%;
     }
-  /*  #wd_list .cal_lookup_inner .days .wd_radio input[type="radio"]{
-      margin-left:5px;
-      position: absolute;
-      width: 1px;
-      height: 1px;
-      padding: 0;
-      margin: -1px;
-      overflow: hidden;
-      clip:rect(0,0,0,0);
-      border: 0;
-    }
-    #wd_list .cal_lookup_inner .days .wd_radio input[type="radio"] + label:before{
-      content: ' ';
-      display: inline-block;
-      width: 20px;
-      height: 20px;
-      margin: -3px 5px 0 0;
-      vertical-align: middle;
-      background: url(../img/checkbox_off.png) no-repeat;
-      vertical-align: -8px;
-    }
-    #wd_list .cal_lookup_inner .days .wd_radio input[type="radio"]:checked + label:before{
-      background: url(../img/checkbox_on.png) no-repeat;
-      vertical-align: -8px;
-    }*/
     #wd_list .cal_lookup_inner .days .wd_radio label{
       margin-right:5px;
     }
     #wd_list .cal_lookup_inner .days .search_btn{
-      border:1px solid #30afb8;
-      background:none;
-      color: #30afb8;
+      background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+      border: none;
+      color: #fff;
       margin-top:10px;
       padding: 5px 0;
       font-size: 12px;
       width: 30%;
       border-radius: 50px;
+      float: right;
     }
 
     /*테이블*/
@@ -158,9 +135,11 @@
       text-align:center;
     }
     #wd_list .wd_list_table th{
-      text-align:left;
-      padding:2%;
-      border:1px solid rgba(255,255,255,.2);
+      padding: 2%;
+      border: 1px solid rgba(255,255,255,.2);
+      font-size: 12px;
+      color: rgba(255,255,255,.6);
+      text-align: center;
     }
     #wd_list .wd_list_table p{
       font-size:15px;

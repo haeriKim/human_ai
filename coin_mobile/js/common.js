@@ -66,11 +66,13 @@ $(document).ready(function(){
   var select = 0;
   $("#cal_select,#cal_select_up").click(function(){
     if(select === 0) {
-        $(".cal_lookup_inner").fadeIn(200);
+        $(".cal_lookup_inner").slideToggle(500);
+        $(".cal_area").css({"border-bottom":"1px solid rgba(255,255,255,.2)","padding-bottom":"15px"});
         select = 1;
     }else {
-      $(".cal_lookup_inner").fadeOut(200);
+      $(".cal_lookup_inner").slideToggle(500);
         select = 0;
+          $(".cal_area").css({"border-bottom":"none","padding-bottom":"none"})
     }
   });
 });
