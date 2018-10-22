@@ -75,12 +75,12 @@
 
                           <div class="coin_money_inner">
                             <div class="img_area">
-                                <img src="img/eth.png" alt="비트코인아이콘" class="bitcoin_icon">
+                                <img src="img/bitcoincash_big.png" alt="비트코인아이콘" class="bitcoin_icon">
                             </div>
                             <ul>
                               <li>
-                                  <strong>이더리움</strong>
-                                  <b class="coin_word">Ethurium</b>
+                                  <strong>비트코인캐시</strong>
+                                  <b class="coin_word">Bitcoin Cash</b>
                               </li>
 
                             </ul>
@@ -96,7 +96,7 @@
                                   <tbody>
                                     <tr>
                                         <th>최초발행</th>
-                                        <td>2015년 7월</td>
+                                        <td>2017년 8월</td>
                                     </tr>
                                     <tr>
                                         <th>코인/토큰</th>
@@ -104,35 +104,35 @@
                                     </tr>
                                     <tr>
                                         <th>순위</th>
-                                        <td>2위</td>
+                                        <td>4위</td>
                                     </tr>
                                     <tr>
                                         <th>시가총액</th>
-                                        <td>21.7조원(18.10.01 기준)</td>
+                                        <td>8.6조원(18.10.01 기준)</td>
                                     </tr>
                                     <tr>
                                         <th>블록생성기</th>
-                                        <td>약12초</td>
+                                        <td>10분</td>
                                     </tr>
                                     <tr>
                                         <th>유통량</th>
-                                        <td>90,000,000</td>
+                                        <td>17,057,825</td>
                                     </tr>
                                     <tr>
                                         <th>총발행한도</th>
-                                        <td>제한없음</td>
+                                        <td>21,000,000</td>
                                     </tr>
                                     <tr>
                                         <th>채굴보상량</th>
-                                        <td>5 ETH</td>
+                                        <td>6 BCH</td>
                                     </tr>
                                     <tr>
                                         <th>국가</th>
-                                        <td>스위스</td>
+                                        <td>일본</td>
                                     </tr>
                                     <tr>
                                         <th>공식홈페이지</th>
-                                        <td><a href="https://www.ethereum.org/" target="_blank">https://www.ethereum.org/</a></td>
+                                        <td><a href="https://www.bitcoincash.org/ko/" target="_blank">https://www.bitcoincash.org/ko/</a></td>
                                     </tr>
                                   </tbody>
                               </table><!-- coin_stroy_table End-->

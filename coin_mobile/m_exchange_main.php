@@ -68,7 +68,7 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr onclick="location.href='m_exchange_04.php'">
+                                <tr onclick="location.href='m_exchange_buy_sell_market.php'">
                                     <td>
                                         <p class="kor_name">비트코인</p>
                                         <p style='display:none;' class="eng_name">Bitcoin</p>

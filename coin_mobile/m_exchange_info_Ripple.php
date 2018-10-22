@@ -74,12 +74,12 @@
 
                           <div class="coin_money_inner">
                             <div class="img_area">
-                                <img src="img/bitcoin_big.png" alt="비트코인아이콘" class="bitcoin_icon">
+                                <img src="img/reaple.png" alt="비트코인아이콘" class="bitcoin_icon">
                             </div>
                             <ul>
                               <li>
-                                  <strong>비트코인</strong>
-                                  <b class="coin_word">Bitcoin</b>
+                                  <strong>리플</strong>
+                                  <b class="coin_word">Ripple</b>
                               </li>
 
                             </ul>
@@ -93,47 +93,38 @@
                               <!-- left_thick_table -->
                               <table class='coin_story_table'>
                                   <tbody>
-                                      <tr>
-                                          <th>최초발행</th>
-                                          <td>2009년 1월</td>
-                                      </tr>
-                                      <tr>
-                                          <th>코인/토큰</th>
-                                          <td>코인</td>
-                                      </tr>
-                                      <tr>
-                                          <th>순위</th>
-                                          <td>1위</td>
-                                      </tr>
-                                      <tr>
-                                          <th>시가총액</th>
-                                          <td>127.5조원(18.10.01 기준)</td>
-                                      </tr>
-                                      <tr>
-                                          <th>블록 생성주기</th>
-                                          <td>10분</td>
-                                      </tr>
-                                      <tr>
-                                          <th>분야</th>
-                                          <td>디지털통화</td>
-                                      </tr>
-                                      <tr>
-                                          <th>총발행한도</th>
-                                          <td>21,000,000</td>
-                                      </tr>
-                                      <tr>
-                                          <th>채굴보상량</th>
-                                          <td>현재 12.5 BTC</td>
-                                      </tr>
-                                      <tr>
-                                          <th>합의 프로토콜</th>
-                                          <td>PoW</td>
-                                      </tr>
-                                      <tr>
-                                          <th>공식홈페이지</th>
-                                          <td><a href="https://bitcoin.org/ko/" target="_blank">https://bitcoin.org/ko/</a></td>
-                                      </tr>
-                                  </tbody>
+                                    <tr>
+                                        <th>최초발행</th>
+                                        <td>2013년 4월</td>
+                                    </tr>
+                                    <tr>
+                                        <th>코인/토큰</th>
+                                        <td>코인</td>
+                                    </tr>
+                                    <tr>
+                                        <th>순위</th>
+                                        <td>3위</td>
+                                    </tr>
+                                    <tr>
+                                        <th>시가총액</th>
+                                        <td>26.3조원(18.10.01 기준)</td>
+                                    </tr>
+                                    <tr>
+                                        <th>분야</th>
+                                        <td>금융</td>
+                                    </tr>
+                                    <tr>
+                                        <th>코인당 가격</th>
+                                        <td>614.94원</td>
+                                    </tr>
+                                    <tr>
+                                        <th>합의 프로토콜</th>
+                                        <td>리플프로토콜 합의알고리즘</td>
+                                    </tr>
+                                    <tr>
+                                        <th>공식홈페이지</th>
+                                        <td><a href="https://ripple.com/" target="_blank">https://ripple.com/</a></td>
+                                    </tr>
                               </table><!-- coin_stroy_table End-->
                               <p>(정보기준일:2018.10.01)</p>
                             </div>

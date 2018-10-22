@@ -56,13 +56,13 @@
             <!-- content_wrap -->
             <div class="content_wrap">
 
-              <ul class="gnb_tab">
-                <li><a href="">주문</a></li>
-                <li><a href="">호가</a></li>
-                <li><a href="">차트</a></li>
-                <li class="on"><a href="">전체체결</a></li>
-                <li><a href="">코인정보</a></li>
-              </ul>
+                <ul class="gnb_tab">
+                  <li><a href="m_exchange_buy_sell_market.php">주문</a></li>
+                  <li><a href="m_exchange_price_change.php">호가</a></li>
+                  <li><a href="m_exchange_chart.php">차트</a></li>
+                  <li class="on"><a href="#">전체체결</a></li>
+                  <li><a href="m_exchange_info_bitcoin.php">코인정보</a></li>
+                </ul>
 
                 <!-- main_content -->
                 <div class="content">

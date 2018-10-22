@@ -111,12 +111,3 @@ input[type="checkbox"] + label:before {
 input[type="checkbox"]:checked + label:before {
     background: url(../img/m_o_on.png) no-repeat;
 }
-#tab3 .not_yet_deal input[type="checkbox"]:checked .delete{
-    background-image:linear-gradient(to right, #06908c 0%, #0d566c 100%);
-    border-image-slice: 1;
-    width: 100%;
-    color: #fff;
-    height: 35px;
-    margin-top: 50px;
-    border:none;
-}

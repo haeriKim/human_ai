@@ -74,12 +74,12 @@
 
                           <div class="coin_money_inner">
                             <div class="img_area">
-                                <img src="img/reaple.png" alt="비트코인아이콘" class="bitcoin_icon">
+                                <img src="img/etc.png" alt="비트코인아이콘" class="bitcoin_icon">
                             </div>
                             <ul>
                               <li>
-                                  <strong>리플</strong>
-                                  <b class="coin_word">Reaple</b>
+                                  <strong>이더리움클래식</strong>
+                                  <b class="coin_word">Ethereum Classic</b>
                               </li>
 
                             </ul>
@@ -95,7 +95,7 @@
                                   <tbody>
                                     <tr>
                                         <th>최초발행</th>
-                                        <td>2013년 4월</td>
+                                        <td>2016년 7월</td>
                                     </tr>
                                     <tr>
                                         <th>코인/토큰</th>
@@ -103,27 +103,35 @@
                                     </tr>
                                     <tr>
                                         <th>순위</th>
-                                        <td>3위</td>
+                                        <td>15위</td>
                                     </tr>
                                     <tr>
                                         <th>시가총액</th>
-                                        <td>26.3조원(18.10.01 기준)</td>
+                                        <td>1.3조원(18.10.01 기준)</td>
                                     </tr>
                                     <tr>
-                                        <th>분야</th>
-                                        <td>금융</td>
+                                        <th>블록생성기</th>
+                                        <td>15초</td>
                                     </tr>
                                     <tr>
-                                        <th>코인당 가격</th>
-                                        <td>614.94원</td>
+                                        <th>유통량</th>
+                                        <td>101,000,000</td>
                                     </tr>
                                     <tr>
-                                        <th>합의 프로토콜</th>
-                                        <td>리플프로토콜 합의알고리즘</td>
+                                        <th>총발행한도</th>
+                                        <td>21,000,000</td>
+                                    </tr>
+                                    <tr>
+                                        <th>채굴보상량</th>
+                                        <td>현재 약 5 ETC</td>
+                                    </tr>
+                                    <tr>
+                                        <th>국가</th>
+                                        <td>스위스</td>
                                     </tr>
                                     <tr>
                                         <th>공식홈페이지</th>
-                                        <td><a href="https://ripple.com/" target="_blank">https://ripple.com/</a></td>
+                                        <td><a href="https://ethereumclassic.github.io/" target="_blank">https://ethereumclassic.github.io/</a></td>
                                     </tr>
                               </table><!-- coin_stroy_table End-->
                               <p>(정보기준일:2018.10.01)</p>

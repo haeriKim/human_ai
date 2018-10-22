@@ -74,12 +74,12 @@
 
                           <div class="coin_money_inner">
                             <div class="img_area">
-                                <img src="img/etc.png" alt="비트코인아이콘" class="bitcoin_icon">
+                                <img src="img/eos.png" alt="비트코인아이콘" class="bitcoin_icon">
                             </div>
                             <ul>
                               <li>
-                                  <strong>이더리움클래식</strong>
-                                  <b class="coin_word">EthuriumClassic</b>
+                                  <strong>이오스</strong>
+                                  <b class="coin_word">EOS</b>
                               </li>
 
                             </ul>
@@ -95,7 +95,7 @@
                                   <tbody>
                                     <tr>
                                         <th>최초발행</th>
-                                        <td>2016년 7월</td>
+                                        <td>2017년 6월</td>
                                     </tr>
                                     <tr>
                                         <th>코인/토큰</th>
@@ -103,35 +103,35 @@
                                     </tr>
                                     <tr>
                                         <th>순위</th>
-                                        <td>15위</td>
+                                        <td>5위</td>
                                     </tr>
                                     <tr>
                                         <th>시가총액</th>
-                                        <td>1.3조원(18.10.01 기준)</td>
+                                        <td>5.8조원(18.10.01 기준)</td>
                                     </tr>
                                     <tr>
                                         <th>블록생성기</th>
-                                        <td>15초</td>
+                                        <td>10초</td>
                                     </tr>
                                     <tr>
-                                        <th>유통량</th>
-                                        <td>101,000,000</td>
+                                        <th>합의 프로토콜</th>
+                                        <td>DPoS</td>
                                     </tr>
                                     <tr>
                                         <th>총발행한도</th>
-                                        <td>21,000,000</td>
+                                        <td>1,000,000,000</td>
                                     </tr>
                                     <tr>
                                         <th>채굴보상량</th>
-                                        <td>현재 약 5 ETC</td>
+                                        <td>12.5 EOS</td>
                                     </tr>
                                     <tr>
                                         <th>국가</th>
-                                        <td>스위스</td>
+                                        <td>미국/중국</td>
                                     </tr>
                                     <tr>
                                         <th>공식홈페이지</th>
-                                        <td><a href="https://ethereumclassic.github.io/" target="_blank">https://ethereumclassic.github.io/</a></td>
+                                        <td><a href="https://eos.io/" target="_blank">https://eos.io/</a></td>
                                     </tr>
                               </table><!-- coin_stroy_table End-->
                               <p>(정보기준일:2018.10.01)</p>

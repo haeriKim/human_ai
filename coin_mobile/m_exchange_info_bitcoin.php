@@ -57,13 +57,13 @@
             <!-- content_wrap -->
             <div class="content_wrap content_wrap_margin">
 
-              <ul class="gnb_tab">
-                <li><a href="">주문</a></li>
-                <li><a href="">호가</a></li>
-                <li><a href="">차트</a></li>
-                <li><a href="">전체체결</a></li>
-                <li class="on"><a href="">코인정보</a></li>
-              </ul>
+                <ul class="gnb_tab">
+                  <li><a href="#">주문</a></li>
+                  <li><a href="m_exchange_price_change.php">호가</a></li>
+                  <li><a href="m_exchange_chart.php">차트</a></li>
+                  <li><a href="m_exchange_deal_history.php">전체체결</a></li>
+                  <li class="on"><a href="#">코인정보</a></li>
+                </ul>
 
                 <!-- main_content -->
                 <div class="content">
@@ -74,12 +74,12 @@
 
                           <div class="coin_money_inner">
                             <div class="img_area">
-                                <img src="img/eos.png" alt="비트코인아이콘" class="bitcoin_icon">
+                                <img src="img/bitcoin_big.png" alt="비트코인아이콘" class="bitcoin_icon">
                             </div>
                             <ul>
                               <li>
-                                  <strong>이오스</strong>
-                                  <b class="coin_word">Eos</b>
+                                  <strong>비트코인</strong>
+                                  <b class="coin_word">Bitcoin</b>
                               </li>
 
                             </ul>
@@ -93,46 +93,47 @@
                               <!-- left_thick_table -->
                               <table class='coin_story_table'>
                                   <tbody>
-                                    <tr>
-                                        <th>최초발행</th>
-                                        <td>2017년 6월</td>
-                                    </tr>
-                                    <tr>
-                                        <th>코인/토큰</th>
-                                        <td>코인</td>
-                                    </tr>
-                                    <tr>
-                                        <th>순위</th>
-                                        <td>5위</td>
-                                    </tr>
-                                    <tr>
-                                        <th>시가총액</th>
-                                        <td>5.8조원(18.10.01 기준)</td>
-                                    </tr>
-                                    <tr>
-                                        <th>블록생성기</th>
-                                        <td>10초</td>
-                                    </tr>
-                                    <tr>
-                                        <th>합의 프로토콜</th>
-                                        <td>DPoS</td>
-                                    </tr>
-                                    <tr>
-                                        <th>총발행한도</th>
-                                        <td>1,000,000,000</td>
-                                    </tr>
-                                    <tr>
-                                        <th>채굴보상량</th>
-                                        <td>12.5 EOS</td>
-                                    </tr>
-                                    <tr>
-                                        <th>국가</th>
-                                        <td>미국/중국</td>
-                                    </tr>
-                                    <tr>
-                                        <th>공식홈페이지</th>
-                                        <td><a href="https://eos.io/" target="_blank">https://eos.io/</a></td>
-                                    </tr>
+                                      <tr>
+                                          <th>최초발행</th>
+                                          <td>2009년 1월</td>
+                                      </tr>
+                                      <tr>
+                                          <th>코인/토큰</th>
+                                          <td>코인</td>
+                                      </tr>
+                                      <tr>
+                                          <th>순위</th>
+                                          <td>1위</td>
+                                      </tr>
+                                      <tr>
+                                          <th>시가총액</th>
+                                          <td>127.5조원(18.10.01 기준)</td>
+                                      </tr>
+                                      <tr>
+                                          <th>블록 생성주기</th>
+                                          <td>10분</td>
+                                      </tr>
+                                      <tr>
+                                          <th>분야</th>
+                                          <td>디지털통화</td>
+                                      </tr>
+                                      <tr>
+                                          <th>총발행한도</th>
+                                          <td>21,000,000</td>
+                                      </tr>
+                                      <tr>
+                                          <th>채굴보상량</th>
+                                          <td>현재 12.5 BTC</td>
+                                      </tr>
+                                      <tr>
+                                          <th>합의 프로토콜</th>
+                                          <td>PoW</td>
+                                      </tr>
+                                      <tr>
+                                          <th>공식홈페이지</th>
+                                          <td><a href="https://bitcoin.org/ko/" target="_blank">https://bitcoin.org/ko/</a></td>
+                                      </tr>
+                                  </tbody>
                               </table><!-- coin_stroy_table End-->
                               <p>(정보기준일:2018.10.01)</p>
                             </div>
