@@ -1,5 +1,9 @@
 /*공통*/
 
+.content_wrap_margin{
+  margin-top:0;
+}
+
 /*deal_orgin_transaction*/
 #deal_orgin_transaction{
     overflow-y:auto;
@@ -51,7 +55,10 @@
 }
 #deal_orgin_transaction table{
     font-size:13px;
-    margin-top: 20px;
+}
+#deal_orgin_transaction .deal_scroll{
+  overflow-y: scroll;
+  height:600px;
 }
 #deal_orgin_transaction thead  {
   background-color: #192331;
