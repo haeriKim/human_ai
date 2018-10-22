@@ -86,6 +86,12 @@
 
 /*거래소 gnb*/
 
+.main_content_wrap{
+  margin:0;
+}
+.table_scroll{
+  overflow-y: scroll;
+}
 .content_wrap {
   margin: 120px auto 60px;
 }

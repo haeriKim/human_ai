@@ -33,13 +33,14 @@
           </div><!-- header_wrap End-->
 
             <!-- content_wrap -->
-            <div class="content_wrap">
+            <div class="main_content_wrap">
                 <!-- main_content -->
                 <div class="content">
                     <div class="box" id='deal_orgin_transaction'>
                         <ul class='market_name'>
                             <li class='on'><a href="#">KRW</a></li>
                         </ul>
+                        <div class="table_scroll">
                         <div class="table_wrap">
                           <select id="look_method" name="look_method">
                               <option value="전체">전체</option>
@@ -67,7 +68,7 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
+                                <tr onclick="location.href='m_exchange_04.php'">
                                     <td>
                                         <p class="kor_name">비트코인</p>
                                         <p style='display:none;' class="eng_name">Bitcoin</p>
@@ -140,6 +141,7 @@
                             </tbody>
                           </table>
                         </div>
+                      </div>
                     </div><!-- con_410 End-->
                 </div><!-- exchange_content End-->
             </div><!-- content_wrap End-->
