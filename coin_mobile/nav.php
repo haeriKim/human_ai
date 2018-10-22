@@ -11,7 +11,7 @@
               </a>
             </li>
             <li>
-              <a href='#'>
+              <a href='m_mycoin_main.php'>
                 <!-- <img src="img/inout_on.png" alt="입출금아이콘" class="nav_on"/> -->
                 <img src="img/inout_off.png" alt="입출금아이콘" class="nav_off"/>
                 <p>입출금</p>
