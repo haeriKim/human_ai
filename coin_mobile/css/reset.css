@@ -114,7 +114,7 @@ input[type="radio"]:checked + label:before {
     vertical-align: -8px;
 }
 /*radio 네모스타일*/
-/* input.square[type='radio']{
+input.square[type='radio']{
     position: absolute;
     width: 1px;
     height: 1px;
@@ -137,4 +137,4 @@ input.square[type="radio"] + label:before {
 input.square[type="radio"]:checked + label:before {
     background: url(../img/checkbox_on.png) no-repeat;
     vertical-align: -8px;
-} */
+}
