@@ -84,17 +84,26 @@
   margin-left: 10px;
 }
 
-/*거래소 gnb*/
+/*각 페이지 gnb*/
 
-.main_content_wrap{
-  margin:0;
-}
 .table_scroll{
   overflow-y: scroll;
 }
+/*메인 gnb*/
+.main_content_wrap{
+  margin:0;
+}
+/*거래소 gnb*/
 .content_wrap {
   margin: 120px auto 60px;
 }
+/*자산관리 gnb*/
+.mycoin_content_wrap{
+  margin:50px auto 0;
+  width:100%;
+}
+
+/*gnb1_거래소페이지 탭메뉴*/
 
 .gnb_tab{
   overflow: hidden;
@@ -118,5 +127,32 @@
   color:#30afb8;
 }
 .gnb_tab li:not(.on) a{
+  color:rgba(255,255,255,.3);
+}
+
+/*gnb2_자산관리페이지 탭메뉴*/
+
+.gnb_tab2{
+  overflow: hidden;
+  font-size:14px;
+  box-shadow: 0 1px 2px rgba(100,100,100,.4);
+}
+.gnb_tab2 li{
+  float:left;
+  width:32.9%;
+  text-align:center;
+  height: 40px;
+  line-height:40px;
+  box-sizing: border-box;
+}
+.gnb_tab2 li.on {
+  border-top: 4px solid #30afb8;
+
+  font-weight: 600;
+}
+.gnb_tab2 li a{
+  color:#30afb8;
+}
+.gnb_tab2 li:not(.on) a{
   color:rgba(255,255,255,.3);
 }
