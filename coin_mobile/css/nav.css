@@ -7,7 +7,6 @@
     z-index: 7;
     bottom: 0;
     height: 60px;
-    line-height: 60px;
     border-top: 1px solid #1E2E43;
 }
 
@@ -15,17 +14,22 @@
 .nav_list{
     width: 100%;
     overflow: hidden;
+    margin-top: 6px;
 }
 .nav_list li{
     width: 25%;
     float: left;
     text-align: center;
-    font-size: 15px;
+    font-size: 13px;
 }
 .nav_list a{
   color:#fff;
   display: block;
 }
-.nav_list li.active{
-    background: linear-gradient(to left, #4C5D71,#1b2f4a 35%);
+.nav_list li p {
+  color: #666;
+}
+.nav_list li p.on {
+  color: #30AFB8;
+  font-weight: 600;
 }
