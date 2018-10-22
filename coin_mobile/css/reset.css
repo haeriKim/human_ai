@@ -88,8 +88,8 @@ input, textarea, select {
   left: -999px;
 }
 
-/*input 스타일*/
-input[type='checkbox']{
+/*radio 스타일*/
+input[type='radio']{
     position: absolute;
     width: 1px;
     height: 1px;
@@ -99,7 +99,7 @@ input[type='checkbox']{
     clip:rect(0,0,0,0);
     border: 0;
 }
-input[type="checkbox"] + label:before {
+input[type="radio"] + label:before {
     content: ' ';
     display: inline-block;
     width: 20px;
@@ -108,6 +108,6 @@ input[type="checkbox"] + label:before {
     vertical-align: middle;
     background: url(../img/m_o_off.png) no-repeat;
 }
-input[type="checkbox"]:checked + label:before {
+input[type="radio"]:checked + label:before {
     background: url(../img/m_o_on.png) no-repeat;
 }

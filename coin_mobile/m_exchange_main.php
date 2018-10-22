@@ -37,7 +37,7 @@
                 <!-- main_content -->
                 <div class="content">
                     <div class="box" id='deal_orgin_transaction'>
-                        <ul class='market_name'>
+                        <ul class='gnb_tab'>
                             <li class='on tab_KRW'><a href="#">KRW</a></li>
                         </ul>
                         <div class="table_scroll">
@@ -62,9 +62,9 @@
                                         <img src="img/side_arrow.png" alt="화살표" class="change_arrow">
                                       </a>
                                     </th>
-                                    <th><a>현재가<img src="img/up_down_default.png" alt="화살표"></a></th>
-                                    <th><a>전일대비<img src="img/up_down_down.png" alt="화살표"></a></th>
-                                    <th><a>거래대금<img src="img/up_down_up.png" alt="화살표"></a></th>
+                                    <th><a><span>현재가</span><img src="img/up_down_default.png" alt="화살표"></a></th>
+                                    <th><a><span>전일대비</span><img src="img/up_down_down.png" alt="화살표"></a></th>
+                                    <th><a><span>거래대금</span><img src="img/up_down_up.png" alt="화살표"></a></th>
                                 </tr>
                             </thead>
                             <tbody>

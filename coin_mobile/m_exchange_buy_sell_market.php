@@ -288,7 +288,7 @@
                             <form class="" action="#" method="post">
                                 <div class="not_yet_deal_content_wrap">
                                     <div class="not_yet_deal_content">
-                                        <input type="checkbox" name="check" value="check" id='check1' class='check'>
+                                        <input type="radio" name="check" value="check1" id='check1' class='check'>
                                         <label for="check1" class='apply_buy'>매수</label>
                                         <span class='apply_time'>2018-10-19 20:41:30</span>
                                         <dl class="">
@@ -301,7 +301,7 @@
                                         </dl>
                                     </div>
                                     <div class="not_yet_deal_content">
-                                        <input type="checkbox" name="check" value="check" id='check2' class='check'>
+                                        <input type="radio" name="check" value="check2" id='check2' class='check'>
                                         <label for="check2" class='apply_sell'>매도</label>
                                         <span class='apply_time'>2018-10-19 19:46:20</span>
                                         <dl class="">

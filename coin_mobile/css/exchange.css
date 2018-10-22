@@ -7,42 +7,17 @@
         float:left;
         width:100%;
     }
-    #deal_orgin_transaction .market_name{
-        font-size: 15px;
-        margin-top: 55px;
-        margin-bottom: 15px;
-        }
-    #deal_orgin_transaction .market_name li{
-        border: 1px solid rgba(255,255,255,.3);
-        width: 20%;
-        text-align: center;
-        height: 40px;
-        line-height: 40px;
-        box-sizing: border-box;
-        display: inline-block;
-        margin-left: -1.4%;
+    #deal_orgin_transaction .gnb_tab{
+        overflow: hidden;
+        font-size: 14px;
+        margin: 45px 0 15px 0;
+        box-shadow: 0 1px 2px rgba(100,100,100,.4);
+        width: 100%;
+        background: #0F1926;
+        z-index: 10;
+        position: relative;
+        top: 0;
     }
-    #deal_orgin_transaction .market_name li.tab_KRW{
-        margin-left: 0;
-    }
-    #deal_orgin_transaction .market_name li a{
-        color:rgba(255,255,255,.3);
-        font-weight: 500;
-    }
-    #deal_orgin_transaction .market_name li.on{
-        border: 1px solid #30afb8;
-        }
-    #deal_orgin_transaction .market_name li.on a{
-        color: #30afb8;
-        font-weight: 600;
-    }
-    /* #deal_orgin_transaction .market_name::after {
-      content: '';
-      border-bottom: 1px solid #30afb8;
-      display: block;
-      width: 80%;
-      float: right;
-    } */
     #deal_orgin_transaction #look_method{
         width: 90%;
         color: #30afb8;
@@ -52,8 +27,8 @@
         line-height: 35px;
         margin: 0 auto;
         display: block;
-        background-color: #070F19;
-        text-align-last:center;
+        text-align-last: center;
+        background: #070F19 url(../img/arrow_down_sky.png) no-repeat 95% center;
     }
     #deal_orgin_transaction #look_method option{
         color: #30afb8;
@@ -92,20 +67,19 @@
         color:#fff;
         font-size:12px;
         font-weight: 500;
-        opacity: 0.6;
     }
     #deal_orgin_transaction thead tr th{
         text-align: center;
         padding-right:15px;
+        font-weight: 500;
+    }
+    #deal_orgin_transaction thead tr th a span{
+        opacity: 0.6;
     }
     #deal_orgin_transaction tbody tr{
         height: 50px;
         border-bottom: 1px solid rgba(255,255,255,.2);
         font-size: 12px;
-    }
-    #deal_orgin_transaction tbody tr:hover{
-        background: #c8eefb;
-        cursor: pointer;
     }
     #deal_orgin_transaction tbody .up_down_data{
         text-align: center;
