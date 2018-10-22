@@ -45,50 +45,55 @@
                 <!-- m_mycoin_main -->
                 <div class="content">
                     <div class="assets_area my_assets">
-                      <p class='mycoin_notice'>
-                        * 모두 KRW로 환산한 추정값으로 참고용입니다.
-                        <a href="#" class='question_mark'><img src="img/m_question_15.png" alt="question"></a>
-                      </p>
-                      <div class="assetBox">
-                        <ul class="asset all_assets">
-                          <li>
-                              <p class='mywallet_title'>원화 잔고</p>
-                              <p class="up_down_data mywallet_amount">3,374.01<span>KRW</span></p>
-                          </li>
-                          <li class='border_bottom_none'>
-                              <p class='mywallet_title'>총 보유자산</p>
-                              <p class="up_down_data mywallet_amount">8,123.60<span>KRW</span></p>
-                          </li>
-                        </ul>
-                        <div class="asset aseet_list">
-                          <ul class='assets_1'>
+                      <div class="box">
+                        <p class='mycoin_notice'>
+                          * 모두 KRW로 환산한 추정값으로 참고용입니다.
+                          <a href="#" class='question_mark'><img src="img/m_question_15.png" alt="question"></a>
+                        </p>
+                        <div class="assetBox">
+                          <ul class="asset all_assets">
                             <li>
-                                <p class='mywallet_title'>총 평가금액</p>
-                                <p class="up_down_data mywallet_amount">4,892.21<span>KRW</span></p>
-                            </li>
-                            <li>
-                                <p class='mywallet_title'>총 매수금액</p>
-                                <p class="up_down_data mywallet_amount">4,892.21<span>KRW</span></p>
-                            </li>
-                          </ul>
-
-                          <ul class='assets_2'>
-                            <li>
-                                <p class='mywallet_title'>총 평가손익</p>
-                                <p class="up_down_data mywallet_amount">-142.62<span>KRW</span></p>
+                                <p class='mywallet_title'>원화 잔고</p>
+                                <p class="up_down_data mywallet_amount">3,374.01<span>KRW</span></p>
                             </li>
                             <li class='border_bottom_none'>
-                                <p class='mywallet_title'>총 수익률</p>
-                                <p class="up_down_data mywallet_amount">-2.92<span>%</span></p>
+                                <p class='mywallet_title'>총 보유자산</p>
+                                <p class="up_down_data mywallet_amount">8,123.60<span>KRW</span></p>
                             </li>
                           </ul>
+                          <div class="asset aseet_list">
+                            <ul class='assets_1'>
+                              <li>
+                                  <p class='mywallet_title'>총 평가금액</p>
+                                  <p class="up_down_data mywallet_amount">4,892.21<span>KRW</span></p>
+                              </li>
+                              <li>
+                                  <p class='mywallet_title'>총 매수금액</p>
+                                  <p class="up_down_data mywallet_amount">4,892.21<span>KRW</span></p>
+                              </li>
+                            </ul>
+
+                            <ul class='assets_2'>
+                              <li>
+                                  <p class='mywallet_title'>총 평가손익</p>
+                                  <p class="up_down_data mywallet_amount">-142.62<span>KRW</span></p>
+                              </li>
+                              <li class='border_bottom_none'>
+                                  <p class='mywallet_title'>총 수익률</p>
+                                  <p class="up_down_data mywallet_amount">-2.92<span>%</span></p>
+                              </li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
 
                       <div class="coin_table">
-                        <input type="radio" name="chk" value="chk" id='chk' class='square'>
-                        <label for="chk" class='text'>보유 코인만</label>
-                        <p class="unit_text">단위 : KRW</p>
+                        <div class="table_title">
+                          <input type="radio" name="chk" value="chk" id='chk' class='square'>
+                          <label for="chk" class='text'>보유 코인만</label>
+                          <p class="unit_text">단위 : KRW</p>
+                        </div>
+
                         <table class='mycoin_table' summary='보유코인,보유수량,매수평균가,매수금액,평가금액,평가손익,입출금 버튼,준비중 상태확인 '>
                           <colgroup>
                               <col style="width:33%;"/>

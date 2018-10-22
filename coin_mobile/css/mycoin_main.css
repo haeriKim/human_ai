@@ -1,3 +1,6 @@
+.my_assets .box {
+  padding: 7px 15px;
+}
 .my_assets .mycoin_notice {
   font-size: 11px;
   color: rgba(255,255,255,.6);
@@ -45,8 +48,8 @@
 .my_assets .assetBox .aseet_list li + li {
   margin-top: 10px;
 }
-.my_assets .coin_table {
-  margin-top: 20px;
+.coin_table .table_title {
+  padding: 0 15px;
 }
 .coin_table label {
   font-size: 13px;
@@ -56,6 +59,9 @@
   text-align: right;
   color: rgba(255,255,255,.6);
   margin-bottom: 5px;
+}
+.my_assets .coin_table {
+  margin-top: 20px;
 }
 .coin_table table {
   font-size: 13px;
