@@ -48,6 +48,7 @@
     /*조회날짜 창*/
 
     #wd_list .cal_lookup_inner{
+      display:none;
     }
     #wd_list .cal_lookup_inner .cal_title{
       font-size:12px;
