@@ -58,7 +58,7 @@
             <div class="content_wrap content_wrap_margin">
 
                 <ul class="gnb_tab">
-                  <li><a href="#">주문</a></li>
+                  <li><a href="m_exchange_buy_sell_market.php">주문</a></li>
                   <li><a href="m_exchange_price_change.php">호가</a></li>
                   <li><a href="m_exchange_chart.php">차트</a></li>
                   <li><a href="m_exchange_deal_history.php">전체체결</a></li>
