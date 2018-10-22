@@ -4,6 +4,9 @@
     #wd_list{
         overflow-y:auto;
     }
+    #wd_list .cal_area{
+      padding:0 10px;
+    }
     #wd_list .cal_lookup{
       font-size:12px;
       margin-top:10px;
