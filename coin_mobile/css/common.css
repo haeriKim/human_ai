@@ -84,7 +84,10 @@
 #header_wrap .current_price .percent span +span {
   margin-left: 10px;
 }
-
+#header_wrap .current_price .price strong {
+  font-size: 16px;
+  color: #30afb8;
+}
 /*각 페이지 gnb*/
 
 .table_scroll{
