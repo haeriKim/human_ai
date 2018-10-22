@@ -81,17 +81,17 @@
 
                               <tbody>
                                <tr>
-                                 <td class="mado_right mado1"><div></div>0.100</td>
+                                 <td class="mado_right mado1 border_right"><div></div>0.100</td>
                                  <td class="orderbg1 upprice">7,000,000</td>
-                                 <td class="orderbg1 upprice">+3.58%</td>
+                                 <td class="orderbg1 upprice border_right">+3.58%</td>
                                  <td>전일가격</td>
                                  <td class="center">7,510,000</td>
                                </tr>
 
                                <tr>
-                                 <td class="mado_right mado2"><div></div>0.100</td>
+                                 <td class="mado_right mado2 border_right"><div></div>0.100</td>
                                  <td class="orderbg1 upprice">7,000,000</td>
-                                 <td class="orderbg1 upprice">+3.58%</td>
+                                 <td class="orderbg1 upprice border_right">+3.58%</td>
                                  <td rowspan="2">고가</td>
 
                                  <td rowspan="2" class="high upprice">7,624,000 <p class="high upprice">(+3.58%)</p></td>
@@ -99,16 +99,16 @@
                                </tr>
 
                                <tr>
-                                 <td class="mado_right mado3"><div></div>1.001</td>
+                                 <td class="mado_right mado3 border_right"><div></div>1.001</td>
                                  <td class="orderbg1 upprice">7,000,000</td>
-                                 <td class="orderbg1 upprice">+3.58%</td>
+                                 <td class="orderbg1 upprice border_right">+3.58%</td>
 
                                </tr>
 
                                <tr>
-                                 <td class="mado_right mado4"><div></div>0.024</td>
+                                 <td class="mado_right mado4 border_right"><div></div>0.024</td>
                                  <td class="orderbg1 upprice">7,000,000</td>
-                                 <td class="orderbg1 upprice">+3.58%</td>
+                                 <td class="orderbg1 upprice border_right">+3.58%</td>
                                  <td rowspan="2">저가</td>
 
                                  <td rowspan="2" class="low downprice">7,200,000 <p class="high downprice">(-4.13%)</p></td>
@@ -118,52 +118,52 @@
                                </tr>
 
                                <tr>
-                                 <td class="mado_right mado5"><div></div>0.267</td>
+                                 <td class="mado_right mado5 border_right"><div></div>0.267</td>
                                  <td class="orderbg1">7,000,000</td>
-                                 <td class="orderbg1">0%</td>
+                                 <td class="orderbg1 border_right">0%</td>
 
                                </tr>
 
                                <tr>
-                                 <td class="mado_right mado6"><div></div>0.346</td>
+                                 <td class="mado_right mado6 border_right"><div></div>0.346</td>
                                  <td class="orderbg1">7,000,000</td>
-                                 <td class="orderbg1">0%</td>
+                                 <td class="orderbg1 border_right">0%</td>
                                  <td colspan="2" rowspan="5"></td>
 
                                </tr>
 
                                <tr>
-                                 <td class="mado_right mado7"><div></div>1.000</td>
+                                 <td class="mado_right mado7 border_right"><div></div>1.000</td>
                                  <td class="orderbg1">7,000,000</td>
-                                 <td class="orderbg1">0%</td>
+                                 <td class="orderbg1 border_right">0%</td>
 
                                </tr>
 
                                <tr>
-                                 <td class="mado_right mado8"><div></div>0.874</td>
+                                 <td class="mado_right mado8 border_right"><div></div>0.874</td>
                                  <td class="orderbg1 downprice">7,000,000</td>
-                                 <td class="orderbg1 downprice">-0.21%</td>
+                                 <td class="orderbg1 downprice border_right">-0.21%</td>
 
                                </tr>
 
                                <tr>
-                                 <td class="mado_right mado9"><div></div>0.108</td>
+                                 <td class="mado_right mado9 border_right"><div></div>0.108</td>
                                  <td class="orderbg1 downprice">7,000,000</td>
-                                 <td class="orderbg1 downprice">-0.21%</td>
+                                 <td class="orderbg1 downprice border_right">-0.21%</td>
 
                                </tr>
 
                                <tr>
-                                 <td class="mado_right mado10"><div></div>0.108</td>
+                                 <td class="mado_right mado10 border_right"><div></div>0.108</td>
                                  <td class="orderbg1 downprice">7,000,000</td>
-                                 <td class="orderbg1 downprice">-0.21%</td>
+                                 <td class="orderbg1 downprice border_right">-0.21%</td>
 
                                </tr>
 
                                <tr>
-                                 <td rowspan="10"></td>
+                                 <td rowspan="10" class="border_right"></td>
                                  <td class="orderbg2 upprice">7,000,000</td>
-                                 <td class="orderbg2">+3.58%</td>
+                                 <td class="orderbg2 border_right">+3.58%</td>
                                  <td colspan="2" class="masu_left masu1 upprice"><div></div>0.100</td>
 
                                </tr>
@@ -171,7 +171,7 @@
                                <tr>
 
                                  <td class="orderbg2 upprice">7,000,000</td>
-                                 <td class="orderbg2">+3.58%</td>
+                                 <td class="orderbg2 border_right">+3.58%</td>
                                  <td colspan="2" class="masu_left masu2 upprice"><div></div>0.100</td>
 
                                </tr>
@@ -179,7 +179,7 @@
                                <tr>
 
                                  <td class="orderbg2 upprice">7,000,000</td>
-                                 <td class="orderbg2">+3.58%</td>
+                                 <td class="orderbg2 border_right">+3.58%</td>
                                  <td colspan="2" class="masu_left masu3 upprice"><div></div>1.001</td>
 
                                </tr>
@@ -187,7 +187,7 @@
                                <tr>
 
                                  <td class="orderbg2 upprice">7,000,000</td>
-                                 <td class="orderbg2">+3.58%</td>
+                                 <td class="orderbg2 border_right">+3.58%</td>
                                  <td colspan="2" class="masu_left masu4 upprice"><div></div>0.024</td>
 
                                </tr>
@@ -195,7 +195,7 @@
                                <tr>
 
                                  <td class="orderbg2">7,000,000</td>
-                                 <td class="orderbg2">+3.58%</td>
+                                 <td class="orderbg2 border_right">+3.58%</td>
                                  <td colspan="2" class="masu_left masu5"><div></div>0.267</td>
 
                                </tr>
@@ -203,7 +203,7 @@
                                <tr>
 
                                  <td class="orderbg2">7,000,000</td>
-                                 <td class="orderbg2">+3.58%</td>
+                                 <td class="orderbg2 border_right">+3.58%</td>
                                  <td colspan="2" class="masu_left masu6"><div></div>0.346</td>
 
                                </tr>
@@ -211,7 +211,7 @@
                                <tr>
 
                                  <td class="orderbg2">7,000,000</td>
-                                 <td class="orderbg2">+3.58%</td>
+                                 <td class="orderbg2 border_right">+3.58%</td>
                                  <td colspan="2" class="masu_left masu7"><div></div>1.000</td>
 
                                </tr>
@@ -219,7 +219,7 @@
                                <tr>
 
                                  <td class="orderbg2 downprice">7,000,000</td>
-                                 <td class="orderbg2">-0.21%</td>
+                                 <td class="orderbg2 border_right">-0.21%</td>
                                  <td colspan="2" class="masu_left masu8 downprice"><div></div>0.874</td>
 
                                </tr>
@@ -227,7 +227,7 @@
                                <tr>
 
                                  <td class="orderbg2 downprice">7,000,000</td>
-                                 <td class="orderbg2">-0.21%</td>
+                                 <td class="orderbg2 border_right">-0.21%</td>
                                  <td colspan="2" class="masu_left masu9 downprice"><div></div>0.108</td>
 
                                </tr>
@@ -235,7 +235,7 @@
                                <tr>
 
                                  <td class="orderbg2 downprice">7,000,000</td>
-                                 <td class="orderbg2">-0.21%</td>
+                                 <td class="orderbg2 border_right">-0.21%</td>
                                  <td colspan="2" class="masu_left masu10 downprice"><div></div>0.108</td>
 
                                </tr>

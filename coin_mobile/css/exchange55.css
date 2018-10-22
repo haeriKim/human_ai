@@ -58,7 +58,7 @@
 }
 #deal_orgin_transaction .deal_scroll{
   overflow-y: scroll;
-  height:600px;
+  height:520px;
 }
 #deal_orgin_transaction thead  {
   background-color: #192331;
@@ -140,4 +140,7 @@
 }
 #deal_orgin_transaction .bid_price .downprice{
   color:#01a9ff;
+}
+#deal_orgin_transaction .bid_price .border_right{
+  border-right:1px solid rgba(255,255,255,.2);
 }
