@@ -152,6 +152,7 @@
   left:0;
   width:100%;
   background:#0F1926;
+  z-index: 5;
 }
 .gnb_tab2 li{
   float:left;
