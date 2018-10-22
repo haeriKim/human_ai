@@ -59,7 +59,7 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: url("../img/arrow_down_dg.png") no-repeat 95% center;
+  background: url("../img/arrow_down_white.png") no-repeat 95% center;
   background-size: 7px;
   padding-left: 2px;
   padding-right: 15px;
@@ -104,7 +104,7 @@ input[type="checkbox"] + label:before {
     display: inline-block;
     width: 20px;
     height: 20px;
-    margin: -4px 5px 0 0;
+    margin: -3px 5px 0 0;
     vertical-align: middle;
     background: url(../img/m_o_off.png) no-repeat;
 }

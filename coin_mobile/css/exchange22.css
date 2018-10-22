@@ -35,10 +35,6 @@
   float: left;
   width: 40%;
 }
-#header_wrap .current_price p {
-  text-align: left;
-  margin-bottom: 5px;
-}
 #header_wrap .current_price strong {
   margin-right: 5px;
 }
@@ -117,6 +113,7 @@
   width:80%;
   margin:10px 0;
   text-align:left;
+  opacity:0.6;
 }
 .tab_container .tab_content .buy_tab_content_row dd{
   width:100%;
@@ -195,6 +192,7 @@
   padding:5px 0 ;
   font-size:12px;
   width: 30%;
+  border-radius: 50px;
 }
 .tab_container .tab_content .buy_tab_button .buy_big_btn{
   border:1px solid #f35531;
@@ -203,6 +201,7 @@
   padding:5px 0;
   font-size:12px;
   width: 67%;
+  border-radius: 50px;
 }
 
 /*tab2*/
@@ -269,21 +268,21 @@
 }
 .tab_container #tab3 .delete{
     background: none;
-    border: none;
-    border: 1px solid #30afb8;
+    border: 1px solid rgba(255,255,255,.3);
     width: 100%;
-    color: #30afb8;
-    height: 35px;
-    margin-top: 50px;
+    color: rgba(255,255,255,.3);
+    height: 30px;
+    margin-top: 35px;
+    border-radius: 50px;
+    width: 80%;
+    margin-left: 10%;
 }
 .tab_container #tab3 .on{
-    background-image:linear-gradient(to right, #06908c 0%, #0d566c 100%);
-    border-image-slice: 1;
+    background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
     width: 100%;
     color: #fff;
-    height: 35px;
-    margin-top: 50px;
-    border:none;
+    border: none;
+    width: 80%;
 }
 .tab_container #tab3 .apply_buy{
     color: #f35531;

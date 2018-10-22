@@ -85,10 +85,12 @@
   text-align:left;
 }
 #deal_orgin_transaction #detail_all .coin_story_table th{
-  width:40%;
-  padding:5px 10px;
-  border-bottom: 1px solid rgba(255,255,255,.2);
-  background-color:#192331;
+    width: 40%;
+    padding: 5px 10px;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    background-color: #192331;
+    opacity: 0.6;
+    font-weight: 500;
 }
 #deal_orgin_transaction #detail_all .coin_story_table td{
   padding-left:5px;

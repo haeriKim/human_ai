@@ -23,7 +23,7 @@
               <!-- header -->
               <div id="header">
                 <div class="headerTop">
-                  <input type="button" class="back"/>
+                  <input type="button" class="back" onclick="location.href='m_exchange_main.php'"/>
                   <!-- 코인선택 영역 -->
                   <div class="coinSelect_area">
                     <select id="coin_select" name="coin_select">

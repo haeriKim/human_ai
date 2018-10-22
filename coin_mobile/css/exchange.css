@@ -9,32 +9,40 @@
     }
     #deal_orgin_transaction .market_name{
         font-size: 15px;
+        margin-top: 55px;
         margin-bottom: 15px;
-    }
+        }
     #deal_orgin_transaction .market_name li{
-        border: 1px solid #30afb8;
+        border: 1px solid rgba(255,255,255,.3);
         width: 20%;
         text-align: center;
         height: 40px;
         line-height: 40px;
-        border-bottom: 1px solid #0F1926;
-        border-left: none;
         box-sizing: border-box;
+        display: inline-block;
+        margin-left: -1.4%;
+    }
+    #deal_orgin_transaction .market_name li.tab_KRW{
+        margin-left: 0;
+    }
+    #deal_orgin_transaction .market_name li a{
+        color:rgba(255,255,255,.3);
+        font-weight: 500;
     }
     #deal_orgin_transaction .market_name li.on{
-        border-top: 4px solid #30afb8;
-    }
+        border: 1px solid #30afb8;
+        }
     #deal_orgin_transaction .market_name li.on a{
         color: #30afb8;
         font-weight: 600;
     }
-    #deal_orgin_transaction .market_name::after {
+    /* #deal_orgin_transaction .market_name::after {
       content: '';
       border-bottom: 1px solid #30afb8;
       display: block;
       width: 80%;
       float: right;
-    }
+    } */
     #deal_orgin_transaction #look_method{
         width: 90%;
         color: #30afb8;
@@ -84,6 +92,7 @@
         color:#fff;
         font-size:12px;
         font-weight: 500;
+        opacity: 0.6;
     }
     #deal_orgin_transaction thead tr th{
         text-align: center;

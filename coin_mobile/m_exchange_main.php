@@ -38,7 +38,7 @@
                 <div class="content">
                     <div class="box" id='deal_orgin_transaction'>
                         <ul class='market_name'>
-                            <li class='on'><a href="#">KRW</a></li>
+                            <li class='on tab_KRW'><a href="#">KRW</a></li>
                         </ul>
                         <div class="table_scroll">
                         <div class="table_wrap">
