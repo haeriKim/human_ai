@@ -115,6 +115,7 @@
   left:0;
   width:100%;
   background:#0F1926;
+  z-index: 10;
 }
 .gnb_tab li{
   float:left;
@@ -158,7 +159,6 @@
 }
 .gnb_tab2 li.on {
   border-top: 4px solid #30afb8;
-
   font-weight: 600;
 }
 .gnb_tab2 li a{
@@ -166,4 +166,10 @@
 }
 .gnb_tab2 li:not(.on) a{
   color:rgba(255,255,255,.3);
+}
+
+/*자산관리 콘텐츠영역 마진값*/
+
+.assets_area{
+  margin:85px auto 0;
 }
