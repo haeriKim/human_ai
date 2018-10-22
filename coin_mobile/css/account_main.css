@@ -1,0 +1,100 @@
+.my_assets .box {
+  padding: 7px 15px;
+}
+.my_assets .mycoin_notice {
+  font-size: 11px;
+  color: rgba(255,255,255,.6);
+  fon
+}
+.my_assets .mycoin_notice img {
+  vertical-align: -3px;
+}
+.my_assets .assetBox {
+  margin-top: 10px;
+}
+.my_assets .assetBox .asset {
+  background: #070B11;
+  overflow: hidden;
+  padding: 10px;
+}
+.my_assets .assetBox .all_assets li,  .my_assets .assetBox .aseet_list ul{
+  width: 100%
+}
+.my_assets .assetBox .all_assets li + li, .my_assets .assetBox .aseet_list ul + ul {
+  margin-left: 4%
+}
+.my_assets .assetBox .asset li .mywallet_title {
+  font-size: 13px;
+  opacity: .6;
+}
+.my_assets .assetBox .asset li .mywallet_amount {
+  text-align: right;
+  margin-top: 5px;
+}
+.my_assets .assetBox .all_assets li .mywallet_amount {
+  color: #30afb8;
+  font-weight: 600;
+}
+.my_assets .assetBox .asset li .mywallet_amount span {
+  font-size: 13px;
+  color: rgba(255,255,255,.6);
+  margin-left: 5px;
+}
+
+.my_assets .assetBox .aseet_list {
+  margin-top: 7px;
+}
+.my_assets .assetBox .aseet_list li + li {
+  margin-top: 10px;
+}
+.coin_table .table_title {
+  padding: 0 15px;
+}
+.coin_table label {
+  font-size: 13px;
+}
+.coin_table .unit_text {
+  font-size: 11px;
+  text-align: right;
+  color: rgba(255,255,255,.6);
+  margin-bottom: 5px;
+}
+.my_assets .coin_table {
+  margin-top: 20px;
+}
+.coin_table table {
+  font-size: 13px;
+}
+.coin_table table th {
+  background-color: #192331;
+}
+.coin_table table thead tr {
+  height: 35px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.coin_table table thead tr th span {
+  opacity: .6;
+}
+.coin_table table tbody tr {
+  height: 35px;
+  border-bottom: 1px solid rgba(255,255,255,.2);
+  font-size: 12px;
+}
+.coin_table table tbody tr td{
+  border-left: 1px solid rgba(255,255,255,.2);
+  text-align: right;
+  padding-right:10px;
+}
+.coin_table table tbody tr img {
+  width: 25px;
+}
+.coin_table table tbody .mycoin_name {
+  text-align: left;
+  border-left: none;
+  font-size: 11px;
+  padding: 5px;
+}
+.coin_table table tbody .mycoin_name p {
+  display: inline-block;
+}
