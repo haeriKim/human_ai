@@ -132,8 +132,11 @@
       border:1px solid #30afb8;
       background:none;
       color: #30afb8;
-      padding:5px 10px;
       margin-top:10px;
+      padding: 5px 0;
+      font-size: 12px;
+      width: 30%;
+      border-radius: 50px;
     }
 
     /*테이블*/
