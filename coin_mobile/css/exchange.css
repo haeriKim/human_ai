@@ -106,23 +106,28 @@
 
     /*deal_all*/
     #deal_all table{
-        font-size:12px;
-        color:#fff;
+        font-size: 12px;
+        color: #fff;
         font-weight: 500;
-    }
+        margin-top: 161px;
+        }
     #deal_all thead{
         background-color: #192331;
         width: 100%;
     }
     #deal_all thead tr{
         width: 100%;
+        line-height: 35px;
         height: 35px;
     }
     #deal_all thead tr th{
         display: inline-block;
         width: 20%;
         text-align: right;
+        font-weight: 500;
+        opacity: 0.6;
         margin: 0 3% 0 2%;
+        line-height: 15px;
     }
     #deal_all thead tr th.deal_time{
         width: 20%;
