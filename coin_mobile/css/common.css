@@ -145,10 +145,11 @@
   top:45px;
   left:0;
   width:100%;
+  background:#0F1926;
 }
 .gnb_tab2 li{
   float:left;
-  width:32.9%;
+  width:33.3%;
   text-align:center;
   height: 40px;
   line-height:40px;
