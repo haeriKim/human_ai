@@ -18,31 +18,31 @@ $(function () {
 
 /*미체결 탭에서 매수,매도 select 했을때 버튼활성화*/
 $(document).ready(function(){
-    $("input[type=radio]").each(function(){
-        var chk = $(this).is(":checked");
-        var name = $(this).attr('name');
-        // if(chk == true) $("input[name='"+name+"']").data("previous",$(this).val());
-    });
+   $("input[type=radio]").each(function(){
+       var chk = $(this).is(":checked");
+       var name = $(this).attr('name');
+       if(chk == true) $("input[name='"+name+"']").data("previous",$(this).val());
+   });
 
-    $("input[type=radio]").click(function(){
-        // var pre = $(this).data("previous");
-        var chk = $(this).is(":checked");
-        var name = $(this).attr('name');
-        if(chk == true){
-            $(this).prop('checked',false);
-            // $("input[name='"+name+"']").data("previous",'');
-        }else{
-            // if(chk == true) $("input[name='"+name+"']").data("previous",$(this).val());
-        }
-    });
+   $("input[type=radio]").click(function(){
+       var pre = $(this).data("previous");
+       var chk = $(this).is(":checked");
+       var name = $(this).attr('name');
+       if(chk == true && pre == $(this).val()){
+           $(this).prop('checked',false);
+           $("input[name='"+name+"']").data("previous",'');
+       }else{
+           if(chk == true) $("input[name='"+name+"']").data("previous",$(this).val());
+       }
+   });
 
-    $(".not_yet_deal_content .check").click(function(){
-        if($(this).filter(":checked").length == 0){
-            $(".not_yet_deal .delete").removeClass('on');
-        }else{
-            $(".not_yet_deal .delete").addClass('on');
-        }
-    });
+   $(".not_yet_deal_content .check").click(function(){
+       if($(this).filter(":checked").length == 0){
+           $(".not_yet_deal .delete").removeClass('on');
+       }else{
+           $(".not_yet_deal .delete").addClass('on');
+       }
+   });
 });
 
 /*자산관리 페이지 조회선택 버튼*/
@@ -73,4 +73,18 @@ $(document).ready(function(){
         select = 0;
     }
   });
+});
+
+/*거래내역 체결,미체결 탭*/
+$(document).ready(function(){
+    $(".deal_table").hide();
+    $(".deal_table:first").show();
+
+    $(".deal_tab li").click(function(){
+        $(".deal_tab li").removeClass("active");
+        $(this).addClass("active");
+        $(".deal_table").hide();
+        var activeTab = $(this).attr("rel");
+        $("#" + activeTab).fadeIn()
+    });
 });

@@ -47,7 +47,7 @@
                         <li class='active' rel='deal_complete'>체결</li>
                         <li class='' rel='deal_not_complete'>미체결</li>
                     </ul>
-                    <div class="" id='deal_complete'>
+                    <div class="deal_table" id='deal_complete'>
                         <table class='deal_complete_table'>
                             <thead>
                                 <tr>
@@ -73,10 +73,10 @@
                                     <td>0</td>
                                 </tr>
                                 <tr>
-                                    <td>0KRW</td>
-                                    <td>0KRW</td>
-                                    <td>0KRW</td>
-                                    <td>0KRW</td>
+                                    <td>0 KRW</td>
+                                    <td>0 KRW</td>
+                                    <td>0 KRW</td>
+                                    <td>0 KRW</td>
                                 </tr>
                             </tbody>
 
@@ -90,10 +90,10 @@
                                     <td>0</td>
                                 </tr>
                                 <tr>
-                                    <td>0KRW</td>
-                                    <td>0KRW</td>
-                                    <td>0KRW</td>
-                                    <td>0KRW</td>
+                                    <td>0 KRW</td>
+                                    <td>0 KRW</td>
+                                    <td>0 KRW</td>
+                                    <td>0 KRW</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -101,7 +101,7 @@
 
 
                     </div>
-                    <div class="" id='deal_not_complete'>
+                    <div class="deal_table" id='deal_not_complete'>
                     미체결
 
 

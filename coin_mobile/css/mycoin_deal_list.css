@@ -1,9 +1,24 @@
 @media all and (min-width:320px) and (max-width:768px){
+    body{
+        font-size: 12px;
+    }
     .content .deal_tab{
-        
+        margin-top: 105px;
+    }
+    .content .deal_tab li{
+        font-weight: 600;
+        border: 1px solid rgba(255,255,255,.3);
+        padding: 5px 4%;
+        color: rgba(255,255,255,.3);
+        display: inline-block;
+        margin-left: 1%;
+    }
+    .content .deal_tab li.active{
+        color: #30AFB8;
+        border: 1px solid #30AFB8;
     }
     table{
-        margin-top: 42px;
+        margin-top: 20px;
         font-size: 12px;
     }
     thead{
