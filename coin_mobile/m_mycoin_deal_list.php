@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/mycoin_exit.css">
     <link rel="stylesheet" href="css/mycoin_deal_list.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
@@ -36,11 +35,11 @@
             <!-- mycoin_content_wrap -->
             <div class="mycoin_content_wrap">
 
-              <ul class="gnb_tab2">
-                <li><a href="">자산현황</a></li>
-                <li class="on"><a href="#">거래내역</a></li>
-                <li><a href="">입출금내역</a></li>
-              </ul>
+                <ul class="gnb_tab2">
+                  <li><a href="m_mycoin_main.php">자산현황</a></li>
+                  <li class="on"><a href="#">거래내역</a></li>
+                  <li><a href="m_mycoin_exit.php">입출금내역</a></li>
+                </ul>
 
                 <!-- content -->
                 <div class="content">
@@ -49,7 +48,7 @@
                     <!-- cal_area -->
                     <div class="cal_area">
                       <div class="cal_lookup">
-                        <p>2018.10.15~2018.10.22 | 구분전체</p>
+                        <p>2018.10.15~2018.10.22</p>
                           <span id="cal_select">조회선택<img src="img/arrow_down_white.png" alt="하얀화살표"></span>
                           <span id="cal_select_up">조회선택<img src="img/arrow_up_white.png" alt="하얀화살표"></span>
                       </div>
@@ -88,8 +87,7 @@
                     </div><!--cal_area End-->
 
                     <ul class='deal_tab'>
-                        <li class='active' rel='deal_complete'>체결</li>
-                        <li class='' rel='deal_not_complete'>미체결</li>
+                        <li class='active' rel='deal_complete'>체결</li><li class='' rel='deal_not_complete'>미체결</li>
                     </ul>
                     <div class="deal_table" id='deal_complete'>
                         <table class='deal_complete_table deal_table_con'>

@@ -4,14 +4,16 @@
     }
     .content .deal_tab{
         margin-top: 20px;
+        padding: 0 10px;
     }
     .content .deal_tab li{
         font-weight: 600;
         border: 1px solid rgba(255,255,255,.3);
-        padding: 5px 4%;
+        padding: 5px 0%;
         color: rgba(255,255,255,.3);
         display: inline-block;
-        margin-left: 1%;
+        width: 48.9%;
+        text-align: center;
     }
     .content .deal_tab li.active{
         color: #30AFB8;
@@ -34,14 +36,13 @@
         padding-left: 5px;
         font-weight: 500;
         opacity: 0.6;
-        border: 1px solid rgba(255,255,255,.2);
     }
     table.deal_table_con tbody{
-        border-top: 3px solid rgba(255,255,255,.2);
         border-bottom: 3px solid rgba(255,255,255,.2);
     }
     table.deal_table_con tbody tr td{
         border: 1px solid rgba(255,255,255,.2);
+        border-top: none;
         height: 35px;
         line-height: 35px;
     }
