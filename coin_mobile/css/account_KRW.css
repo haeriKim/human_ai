@@ -1,49 +1,49 @@
 .account_area {
   margin: 60px auto 0;
 }
-.my_assets_KRW .box {
+.my_assets_KRW01 .box {
   padding: 7px 15px;
 }
-.my_assets_KRW .assetBox .asset{
+.my_assets_KRW01 .assetBox .asset{
   background: #070B11;
   overflow: hidden;
   padding: 10px;
 }
-.my_assets_KRW .assetBox .all_assets li,  .my_assets .assetBox .aseet_list ul{
+.my_assets_KRW01 .assetBox .all_assets li,  .my_assets .assetBox .aseet_list ul{
   float: left;
   width: 48%;
 }
-.my_assets_KRW .assetBox .all_assets li + li, .my_assets .assetBox .aseet_list ul + ul {
+.my_assets_KRW01 .assetBox .all_assets li + li, .my_assets .assetBox .aseet_list ul + ul {
   margin-left: 4%
 }
-.my_assets_KRW .assetBox .asset li .mywallet_title {
+.my_assets_KRW01 .assetBox .asset li .mywallet_title {
   font-size: 13px;
   opacity: .6;
 }
-.my_assets_KRW .assetBox .asset li .mywallet_amount {
+.my_assets_KRW01 .assetBox .asset li .mywallet_amount {
   text-align: right;
   margin-top: 5px;
 }
-.my_assets_KRW .assetBox .all_assets li .mywallet_amount {
+.my_assets_KRW01 .assetBox .all_assets li .mywallet_amount {
   color: #30afb8;
   font-weight: 600;
 }
-.my_assets_KRW .assetBox .asset li .mywallet_amount span {
+.my_assets_KRW01 .assetBox .asset li .mywallet_amount span {
   font-size: 13px;
   color: rgba(255,255,255,.6);
   margin-left: 5px;
 }
 
-.my_assets_KRW .KRW_in table{
+.my_assets_KRW01 .KRW_in table{
   font-size:12px;
   margin:10px 0;
 }
-.my_assets_KRW .KRW_in table tr{
+.my_assets_KRW01 .KRW_in table tr{
   height: 25px;
   border-bottom: 1px solid rgba(255,255,255,.2);
   font-size: 12px;
 }
-.my_assets_KRW .KRW_in table th{
+.my_assets_KRW01 .KRW_in table th{
   text-align:left;
   border-right: 1px solid rgba(255,255,255,.2);
   width:40%;
@@ -51,47 +51,83 @@
   background:#192331;
   opacity: 0.6;
 }
-.my_assets_KRW .KRW_in table .KRW_table_title{
+.my_assets_KRW01 .KRW_in table .KRW_table_title{
   background:none;
   opacity:1;
 }
-.my_assets_KRW .KRW_in table td{
+.my_assets_KRW01 .KRW_in table td{
   text-align:left;
   width:60%;
   padding-left:5px;
 }
 
-.my_assets_KRW .KRW_input{
-  margin-top:23px;
+/*KRW_warning (Step1)*/
+
+.my_assets_KRW01 .KRW_in .KRW_warning{
   font-size:12px;
 }
-.my_assets_KRW .KRW_input table{
+.my_assets_KRW01 .KRW_in .KRW_warning p{
+  margin-left:5px;
+}
+.my_assets_KRW01 .KRW_in .KRW_warning li{
+  list-style: disc;
+  color:rgba(255,255,255,.3);
+  margin-left:20px;
+  width:90%;
+  margin-top:10px;
+  letter-spacing: 0.1px;
+}
+.my_assets_KRW01 .KRW_in .KRW_bt_area{
+  width:100%;
+  text-align:center;
+  margin:45px 0;
+}
+.my_assets_KRW01 .KRW_in .KRW_bt_area input{
+  background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+  border: none;
+  color: #fff;
+  padding: 5px 0;
+  font-size: 12px;
+  width: 30%;
+  border-radius: 50px;
+  font-weight: 600;
+  margin-left:5px;
+}
+
+/*KRW_input (Step2)*/
+
+.my_assets_KRW01 .KRW_input{
+  margin-top:23px;
+  font-size:12px;
+  padding: 7px 15px;
+}
+.my_assets_KRW01 .KRW_input table{
   text-align:left;
 }
-.my_assets_KRW .KRW_input tr{
+.my_assets_KRW01 .KRW_input tr{
   border-bottom:1px solid rgba(255,255,255,.2);
   border:1px solid rgba(255,255,255,.2);
 }
-.my_assets_KRW .KRW_input th{
+.my_assets_KRW01 .KRW_input th{
   width:40%;
   height:25px;
   padding-left:5px;
   border-right:1px solid rgba(255,255,255,.2);
   background:#192331;
 }
-.my_assets_KRW .KRW_input td{
+.my_assets_KRW01 .KRW_input td{
   width:60%;
   height:25px;
   padding-left:5px;
   border-right:1px solid rgba(255,255,255,.2);
 }
-.my_assets_KRW .KRW_input .user_name{
+.my_assets_KRW01 .KRW_input .user_name{
   color:#30afb8;
 }
-.my_assets_KRW .KRW_input .warning_message{
+.my_assets_KRW01 .KRW_input .warning_message{
   color:#f35531;
 }
-.my_assets_KRW .KRW_input .send_money{
+.my_assets_KRW01 .KRW_input .send_money{
   margin-top:10px;
   border:none;
   border-bottom:1px solid #fff;
@@ -103,10 +139,10 @@
   width:60%;
   height:25px;
 }
-.my_assets_KRW .KRW_input span{
+.my_assets_KRW01 .KRW_input span{
   margin:0 5px;
 }
-.my_assets_KRW .KRW_input .KRW_bt{
+.my_assets_KRW01 .KRW_input .KRW_bt{
   background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
   border: none;
   color: #fff;
@@ -118,13 +154,32 @@
   font-weight: 600;
   margin-left:5px;
 }
-.my_assets_KRW .KRW_input ul{
-  margin:10px 25px;
+.my_assets_KRW01 .KRW_input ul{
+  margin:10px 20px;
   color:rgba(255,255,255,.3);
-  width:90%;
+  width:95%;
 }
-.my_assets_KRW .KRW_input li{
+.my_assets_KRW01 .KRW_input li{
   list-style: disc;
   float:left;
   width:50%;
+}
+.my_assets_KRW01 .KRW_input p{
+  text-align:left;
+}
+.my_assets_KRW01 .KRW_in .KRW_bt_area2{
+  width:100%;
+  text-align:center;
+  margin:80px 0;
+}
+.my_assets_KRW01 .KRW_in .KRW_bt_area2 input{
+  background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+  border: none;
+  color: #fff;
+  padding: 5px 0;
+  font-size: 12px;
+  width: 30%;
+  border-radius: 50px;
+  font-weight: 600;
+  margin-left:5px;
 }
