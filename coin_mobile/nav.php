@@ -11,14 +11,14 @@
               </a>
             </li>
             <li>
-              <a href='m_mycoin_main.php'>
+              <a href='m_account_main.php'>
                 <!-- <img src="img/inout_on.png" alt="입출금아이콘" class="nav_on"/> -->
                 <img src="img/inout_off.png" alt="입출금아이콘" class="nav_off"/>
                 <p>입출금</p>
               </a>
             </li>
             <li>
-              <a href='#'>
+              <a href='m_mycoin_main.php'>
                 <!-- <img src="img/myasset_on.png" alt="자산관리아이콘" class="nav_on"/> -->
                 <img src="img/myasset_off.png" alt="자산관리아이콘" class="nav_off"/>
                 <p>자산관리</p>
