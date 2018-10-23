@@ -15,7 +15,7 @@
 .nav_list{
     width: 100%;
     overflow: hidden;
-    margin-top: 6px;
+    margin-top: 8px;
 }
 .nav_list li{
     width: 25%;
@@ -26,6 +26,9 @@
 .nav_list a{
   color:#fff;
   display: block;
+}
+.nav_list a img {
+  width: 25px;
 }
 .nav_list li p {
   color: #666;
