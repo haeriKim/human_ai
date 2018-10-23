@@ -1,0 +1,43 @@
+.list_detail{
+  padding: 7px 15px;
+}
+.account_area .list_detail table{
+  font-size:13px;
+  margin:10px 0;
+}
+.account_area .list_detail table tbody{
+    border: 1px solid rgba(255,255,255,.2);
+}
+.account_area .list_detail table tr{
+    height: 25px;
+    font-size: 13px;
+    height: 35px;
+}
+.account_area .list_detail table th{
+    text-align: center;
+    border-right: 1px solid rgba(255,255,255,.2);
+    width: 37%;
+    padding-left: 5px;
+    background: #192331;
+    opacity: 0.6;
+}
+.account_area .list_detail table .KRW_table_title{
+  background:none;
+  opacity:1;
+}
+.account_area .list_detail table td{
+    text-align: left;
+    width: 63%;
+    padding-left: 5px;
+    border: 1px solid rgba(255,255,255,.2);
+}
+.list_detail .KRW_warning p{
+  margin-top:10px;
+  color:#f35531;
+  font-size: 13px;
+}
+.list_detail .KRW_warning li{
+  color:rgba(255,255,255,.3);
+  width:100%;
+  margin-top:10px;
+}

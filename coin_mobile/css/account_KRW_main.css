@@ -1,9 +1,14 @@
 .input_output_list{
     margin-top: 10px;
 }
+.input_output_list .list_ul{
+    border-top: 1px solid rgba(255,255,255,.2);
+}
 .input_output_list .list_ul li{
     background: #192331;
     padding: 10px 5%;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    position: relative;
 }
 .input_output_list .list_ul li .list_li_row{
     overflow: hidden;
@@ -12,16 +17,23 @@
     font-size: 12px;
     line-height: 1.7;
 }
+.input_output_list .list_ul li img{
+    position: absolute;
+    top: 21.5px;
+    right: 3%;
+}
 .input_output_list .list_ul li p.list_condition{
     float: left;
     font-size: 13px;
 }
 .input_output_list .list_ul li p span.waiting{
     color: #30afb8;
+    font-size: 11px;
 }
 .input_output_list .list_ul li p.list_amount{
     float: right;
     font-size: 13px;
+    margin-right: 8%;
 }
 .input_output_list .list_ul li p.list_time{
     float: left;
@@ -30,4 +42,5 @@
 .input_output_list .list_ul li p.list_charge{
     float: right;
     opacity: 0.6;
+    margin-right: 8%;
 }

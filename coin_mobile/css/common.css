@@ -418,15 +418,13 @@
     float: right;
 }
 .my_assets .assetBox .asset li.button_li{
-    overflow: hidden;
     margin-top: 15px;
     margin-bottom: 15px;
 }
 .my_assets .assetBox .asset li.button_li a{
     width: 44%;
-    margin: 0 1%;
+    margin: 0 0.5%;
     display: inline-block;
-    float: left;
     text-align: center;
     color: #fff;
     font-size: 13px;
@@ -434,4 +432,15 @@
     height: 30px;
     line-height: 30px;
     border-radius: 50px;
+}
+
+/*매수,매도 색 지정*/
+.apply_sell{
+    color: #01a9ff;
+}
+.apply_buy{
+    color: #f35531;
+}
+.waiting{
+    color: #30afb8;
 }

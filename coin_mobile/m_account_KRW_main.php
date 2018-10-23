@@ -58,8 +58,8 @@
                                 </div>
                             </li>
                             <li class='button_li'>
-                                <a href="#">입금하기</a>
-                                <a href="#">출금하기</a>
+                                <a href="m_account_KRW_in01.php">입금하기</a>
+                                <a href="m_account_KRW_out01.php">출금하기</a>
                             </li>
                           </ul>
                         </div><!-- assetBox End-->
@@ -69,7 +69,7 @@
                     <!-- input_output_list -->
                     <div class="input_output_list">
                         <ul class='list_ul'>
-                            <li>
+                            <li onclick="location.href='m_account_KRW_detail.php'">
                                 <div class="list_li_row">
                                     <p class='list_condition'>입금 <span class='waiting'>대기중</span></p>
                                     <p class='list_amount'>1,000 KRW</p>
@@ -78,9 +78,8 @@
                                     <p class='list_time'>2018-09-06 23:11:11</p>
                                     <p class='list_charge'>수수료 0 KRW</p>
                                 </div>
+                                <img src="img/seemore_off.png" alt="자세히" width="20px" height="20px">
                             </li>
-                        </ul>
-                        <ul class='list_ul'>
                             <li>
                                 <div class="list_li_row">
                                     <p class='list_condition'>출금 <span class='waiting'>대기중</span></p>
@@ -90,6 +89,7 @@
                                     <p class='list_time'>2018-09-05 11:23:45</p>
                                     <p class='list_charge'>수수료 0 KRW</p>
                                 </div>
+                                <img src="img/seemore_off.png" alt="자세히" width="20px" height="20px">
                             </li>
                         </ul>
                     </div><!-- input_output_list End-->

@@ -70,7 +70,7 @@
                             </tr>
                           </thead>
                           <tbody class="mycoin_tbody_deco">
-                            <tr>
+                            <tr onclick="location.href='m_account_KRW_main.php'">
                               <td class="mycoin_name">
                                 <img src="img/won.png" alt="원화아이콘">
                                 <p>
