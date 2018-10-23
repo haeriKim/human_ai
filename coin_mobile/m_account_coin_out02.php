@@ -25,7 +25,7 @@
             <div id="header2">
               <div class="headerTop">
                 <input type="button" class="back" onclick="location.href='m_account_main.php'"/>
-                <h2 class="header_title">비트코인(BTC) 출금 (1/3)</h2>
+                <h2 class="header_title">비트코인(BTC) 출금 (2/3)</h2>
                 <div class="alarm_area">
                   <img src="img/bell.png" class="alarmBtn" alt="알림버튼"/>
                 </div>
@@ -37,7 +37,7 @@
             <div class="mycoin_content_wrap">
                 <!-- m_mycoin_main -->
                 <div class="content">
-                    <div class="account_area my_assets my_assets_coin01">
+                    <div class="account_area my_assets my_assets_coin02">
                       <div class="box">
                       <div class="assetBox">
                         <ul class="asset all_assets">
@@ -62,45 +62,31 @@
                     </div>
 
 
-                      <div class="coin_in">
-                        <p>BTC 출금</p>
-                        <table class="coin_in_table">
-                          <tbody>
+                    <div class="coin_in">
+                     <div class="coin_input">
+                        <form>
+                          <p>코인 출금 주소</p>
+                            <input type="text" placeholder="출금 주소를 입력하세요." class="send_money" maxlength="30" required>
+                          <p>출금 신청금액</p>
+                            <input type="text" placeholder="0" class="send_money" required>
+                          <p>보안 비밀번호</p>
+                            <input type="text" placeholder="보안비밀번호를 입력하세요." class="send_money" maxlength="4" required>
+                          <p>OTP 인증번호</p>
+                            <input type="text" placeholder="인증번호를 입력하세요." class="send_money" maxlength="6" required>
 
-                            <tr>
-                              <th>1회 출금한도</th>
-                              <td>1 BTC</td>
-                            </tr>
+                        </form>
 
-                            <tr>
-                              <th>잔여한도</th>
-                              <td>3,000 KRW</td>
-                            </tr>
+                        <ul class="coin_warning_list">
+                          <li>출금 수수료: 0.0005 BTC</li>
+                          <li>실제 출금금액: -0.0005 BTC</li>
+                        </ul>
 
-                            <tr>
-                              <th>비트코인 주소</th>
-                              <td>adlkjlqkwasdasdeli@oasdasd1231234</td>
-                            </tr>
-
-                          </tbody>
-
-                        </table>
-
-
-                        <div class="coin_warning">
-                          <p>출금신청 주의사항</p>
-                          <ul>
-                            <li>회원님의 전자지갑으로부터 외부 전자지갑으로 암호화폐를 출금합니다.</li>
-                            <li>각 암호화폐의 입출금 이후 과정은 블록체인 네트워크에서 자동으로 처리 되므로 The Alls에서 별도의 조취를 취할 수 없습니다.</li>
-                            <li>위 사항 미준수 시 환급은 주말/휴일 제외 1주일 이상 걸림을 유의하시기 바랍니다.</li>
-                            <li>실제 전송되는 수량은 총 출금 암호화폐에서 출금수수료를 제외한 수량이 전송됩니다.</li>
-                            <li>암호화폐의 지갑 주소 오기재로 인한 출금의 경우 The Alls에서 책임지지 않습니다. 지갑주소를 반드시 확인하시기 바랍니다.</li>
-                          </ul>
-                        </div>
                       </div>
 
-                      <div class="coin_bt_area">
-                        <input type="button" name='button' onclick="location.href='m_account_KRW_in02.php'" value="다음" class="next_bt">
+                      </div>
+
+                      <div class="coin_bt_area2">
+                        <input type="button" name='button' value="다음" class="next_bt">
                       </div>
 
 
