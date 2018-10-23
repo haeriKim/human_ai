@@ -29,6 +29,7 @@
 .faq_area .faq_list ul li .question span{
     color: #1b2f4a;
     margin-left: 34px;
+    font-weight:600;
 }
 .faq_area .faq_list ul li .question img{
     position: absolute;

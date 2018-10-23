@@ -287,10 +287,10 @@
     <div id="account_full">
       <div id="popupbox2" class='box2 popup2'>
           <div class="full_inner">
-            <h2>번호확인방법</h2>
+            <h2>인증번호 확인방법</h2>
 
               <div class="popupbox_text">
-                <img src="img/account_img.jpg" alt="계좌인증번호이미지">
+                <img src="img/account_img1.jpg" alt="계좌인증번호이미지">
               </div>
 
               <div class="btn_area">

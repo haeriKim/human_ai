@@ -114,10 +114,14 @@
 #signUp_area .signUp_right_con .password_alarm_wrap .not_meet{
     color: #d60000;
 }
+#signUp_area .signUp_right_con .password_alarm_wrap .not_meet img{
+  vertical-align: -5px;
+  margin-right: 5px;
+}
 #signUp_area .signUp_right_con .password_alarm_wrap .meet{
     display: none;
     color: #1b2f4a;
-    background: url(../img/check.png) no-repeat 5px 16px / 15px;
+    background: url(../img/check_off.png) no-repeat 5px 16px / 15px;
 }
 
 #signUp_area .signUp_right_con input{

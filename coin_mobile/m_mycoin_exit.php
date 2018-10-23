@@ -35,12 +35,12 @@
             <!-- content_wrap -->
             <div class="mycoin_content_wrap">
 
-                <ul class="gnb_tab2">
-                  <li><a href="m_mycoin_main.php">자산현황</a></li>
-                  <li><a href="m_mycoin_deal_list.php">거래내역</a></li>
-                  <li class="on"><a href="#">입출금내역</a></li>
+              <ul class="gnb_tab2">
+                <li><a href="m_mycoin_main.php">자산현황</a></li>
+                <li><a href="m_mycoin_deal_list.php">거래내역</a></li>
+                <li class="on"><a href="#">입출금내역</a></li>
 
-                </ul>
+              </ul>
 
                 <!-- main_content -->
                 <div class="content">
@@ -89,30 +89,30 @@
                     <div class="wd_list_table">
                       <table>
                         <colgroup>
-                          <col width="15%">
-                          <col width="25%">
                           <col width="30%">
+                          <col width="25%">
+                          <col width="15%">
                           <col width="30%">
 
                         </colgroup>
                         <thead>
                           <tr>
-                            <th>전체</th>
-                            <th>코인명</th>
                             <th>요청일시</th>
+                            <th>코인명</th>
+                            <th>종류</th>
                             <th>거래수량</th>
                           </tr>
 
                           <tr>
-                            <th>수수료</th>
-                            <th>입금은행</th>
                             <th>계좌정보</th>
+                            <th>입금은행</th>
+                            <th>수수료</th>
                             <th>진행</th>
                           </tr>
 
 
                         </thead>
-                      </table>
+
 
                       <!--<table class="none_table">
                         <colgroup>
@@ -129,13 +129,46 @@
 
 
                       </table>-->
-                      <p>입출금 내역이 없습니다.</p>
 
+                      <tbody>
+
+                      <tr>
+                        <td>2018-10-01 19:00</td>
+                        <td>원화</td>
+                        <td class="deal_kind_in">입금</td>
+                        <td>100,000</td>
+                      </tr>
+
+                      <tr>
+                        <td>12-123-456-1234</td>
+                        <td>홍길동 국민</td>
+                        <td>1000</td>
+                        <td>대기중</td>
+                      </tr>
+
+                      </tbody>
+
+                      <tbody>
+                      <tr>
+                        <td>2018-10-01 19:00</td>
+                        <td>원화</td>
+                        <td class="deal_kind_out">출금</td>
+                        <td>100,000</td>
+                      </tr>
+
+                      <tr>
+                        <td>12-123-456-1234</td>
+                        <td>홍길동 국민</td>
+                        <td>1000</td>
+                        <td>완료</td>
+                      </tr>
+                    </tbody>
+
+
+                      <p>입출금 내역이 없습니다.</p>
+                      </table>
 
                     </div>
-
-
-
                     </div><!-- con_410 End-->
                 </div><!-- exchange_content End-->
             </div><!-- content_wrap End-->

@@ -15,17 +15,33 @@
     #wd_list .wd_list_table table{
       margin:20px 0;
       font-size:50%;
-      background:#192331;
+
     }
     #wd_list .wd_list_table .none_table th{
       text-align:center;
     }
     #wd_list .wd_list_table th{
       padding: 2%;
-      border: 1px solid rgba(255,255,255,.2);
+      border: none;
       font-size: 12px;
       color: rgba(255,255,255,.6);
       text-align: center;
+      background:#192331;
+      font-weight:500;
+    }
+    #wd_list .wd_list_table tbody{
+      border-bottom:2px solid rgba(255,255,255,.2);
+    }
+    #wd_list .wd_list_table td{
+      padding: 2%;
+      border: 1px solid rgba(255,255,255,.2);
+      font-size:12px;
+    }
+    #wd_list .wd_list_table .deal_kind_in{
+      color:#f35531;
+    }
+    #wd_list .wd_list_table .deal_kind_out{
+      color:#01a9ff;
     }
     #wd_list .wd_list_table p{
       font-size:15px;
