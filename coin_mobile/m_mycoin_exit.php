@@ -133,7 +133,7 @@
                       <tbody>
 
                       <tr>
-                        <td>2018-10-01 19:00</td>
+                        <td>2018-10-01<br/>19:00</td>
                         <td>원화</td>
                         <td class="deal_kind_in">입금</td>
                         <td>100,000</td>
@@ -150,7 +150,7 @@
 
                       <tbody>
                       <tr>
-                        <td>2018-10-01 19:00</td>
+                        <td>2018-10-01<br/>19:00</td>
                         <td>원화</td>
                         <td class="deal_kind_out">출금</td>
                         <td>100,000</td>
