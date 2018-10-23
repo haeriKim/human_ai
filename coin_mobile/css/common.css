@@ -14,14 +14,23 @@
 #header_wrap #header {
   text-align: center;
   position: relative;
-
+}
+#header_wrap #header2{
+  text-align: left;
+  position: relative;
 }
 #header_wrap #header h2 {
   display: inline-block;
   color: #fff;
   font-weight: 600;
   font-size:17px;
-  letter-spacing: 3px;
+}
+#header_wrap #header2 h2{
+  display: inline-block;
+  color: #fff;
+  font-weight: 600;
+  font-size:17px;
+  margin-left:40px;
 }
 #header_wrap #header .alarm_area {
   display: inline-block;
@@ -30,6 +39,16 @@
   right: 20px;
 }
 #header_wrap #header .alarm_area img {
+  vertical-align: -4px;
+}
+
+#header_wrap #header2 .alarm_area {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+#header_wrap #header2 .alarm_area img {
   vertical-align: -4px;
 }
 
@@ -177,7 +196,7 @@
 /*자산관리 콘텐츠영역 마진값*/
 
 .assets_area{
-  margin:35px auto;
+  margin:85px auto 0;
 }
 
 /*gnb3_입출금페이지 탭메뉴*/
@@ -330,9 +349,4 @@
   border-radius: 50px;
   float: right;
   font-weight: 600;
-}
-
-/*자산관리(거래내역,입출금내역) overflow-x : hidden*/
-.none_overflow_x{
-    overflow-x: hidden;
 }
