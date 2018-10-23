@@ -24,7 +24,7 @@
             <!-- header -->
             <div id="header">
               <div class="headerTop">
-                <h2 class="header_title">자산관리</h2>
+                <h2 class="header_title">입출금</h2>
                 <div class="alarm_area">
                   <img src="img/bell.png" class="alarmBtn" alt="알림버튼"/>
                 </div>

@@ -210,3 +210,121 @@
 .gnb_tab3 li:not(.on) a{
   color:rgba(255,255,255,.3);
 }
+
+/*조회창*/
+
+.cal_area{
+  padding: 0 10px;
+}
+.cal_lookup{
+  font-size:12px;
+  margin-top:10px;
+  overflow:hidden;
+  border-bottom:1px solid rgba(255,255,255,.2);
+  padding-bottom:10px;
+  width:100%;
+}
+.cal_lookup p{
+  float:left;
+  display:block;
+}
+.cal_lookup #cal_select{
+  float:right;
+  font-size:12px;
+  color: #fff;
+  background-color: #0F1926;
+  border: none;
+}
+.cal_lookup #cal_select img{
+  width:10%;
+  height:10%;
+  vertical-align: 2px;
+  margin-left:3%;
+}
+.cal_lookup #cal_select_up{
+  float:right;
+  font-size:12px;
+  color: #fff;
+  background-color: #0F1926;
+  border: none;
+  display:none;
+}
+.cal_lookup #cal_select_up img{
+  width:10%;
+  height:10%;
+  vertical-align: 2px;
+  margin-left:3%;
+}
+/*조회날짜 창*/
+
+.cal_lookup_inner{
+  display:none;
+}
+.cal_lookup_inner .cal_title{
+  font-size:12px;
+  display:block;
+  margin:10px 0;
+  float:left;
+  opacity: .6;
+}
+.cal_lookup_inner .days{
+  margin-top:10px;
+  width:100%;
+  overflow:hidden;
+}
+.cal_lookup_inner .days .days_inner{
+  width:100%;
+}
+.cal_lookup_inner .days input{
+}
+.cal_lookup_inner .days span{
+  float:left;
+  margin:0 1%;
+}
+.cal_lookup_inner .days .date_input{
+  width: 46%;
+  height: 28px;
+  border: 1px solid #30afb8;
+  background: none;
+  color: #30afb8;
+  font-size: 11px;
+  float: left;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.cal_lookup_inner .days .date_bt_box{
+  float:left;
+  width:100%;
+  overflow:hidden;
+  margin-bottom:10px;
+}
+.cal_lookup_inner .days .date_bt{
+  margin-top:10px;
+  border:1px solid #fff;
+  background:none;
+  color:#fff;
+  width:23%;
+  padding:5px 10px;
+  float:left;
+  margin-right:2%;
+}
+
+.cal_lookup_inner .days .wd_radio{
+  font-size:12px;
+  clear:both;
+  width:100%;
+}
+.cal_lookup_inner .days .wd_radio label{
+  margin-right:5px;
+}
+.cal_lookup_inner .days .search_btn{
+  background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+  border: none;
+  color: #fff;
+  margin-top:10px;
+  padding: 5px 0;
+  font-size: 12px;
+  width: 30%;
+  border-radius: 50px;
+  float: right;
+}
