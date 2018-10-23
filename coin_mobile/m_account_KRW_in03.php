@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/account_KRW33.css">
+    <link rel="stylesheet" href="css/account_KRW.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/common.js"></script>
@@ -37,22 +37,26 @@
             <div class="mycoin_content_wrap">
                 <!-- m_mycoin_main -->
                 <div class="content">
-                    <div class="account_area my_assets_KRW03">
-                      <div class="box">
-                      <div class="assetBox">
-                        <ul class="asset all_assets">
-                          <li>
-                              <p class='mywallet_title'>원화 잔고</p>
-                              <p class="up_down_data mywallet_amount">3,374.01<span>KRW</span></p>
-                          </li>
-                          <li class='border_bottom_none'>
-                              <p class='mywallet_title'>출금 가능금액</p>
-                              <p class="up_down_data mywallet_amount">8,123.60<span>KRW</span></p>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
+                    <div class="account_area my_assets_KRW03 my_assets">
 
+                      <div class="box">
+                        <div class="assetBox">
+                          <ul class="asset all_assets">
+                            <li class='border_bottom_none'>
+                                <p class='mywallet_title'>총 보유자산</p>
+                                <p class="up_down_data mywallet_amount">8,123.60<span>KRW</span></p>
+                                <div class='notification_wrap'>
+                                    <p class='notification notification_01'>거래대기</p>
+                                    <p class='notification notification_a_01'>2,992.99 KRW</p>
+                                </div>
+                                <div class='notification_wrap'>
+                                    <p class='notification notification_02'>출금가능</p>
+                                    <p class='notification notification_a_02'>381.02 KRW</p>
+                                </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
 
                       <div class="KRW_in">
                         <p>입금할 계좌정보</p>
@@ -75,14 +79,16 @@
                             </tr>
 
                             <tr>
+                              <th>이체금액</th>
+                              <td>0 KRW</td>
+                            </tr>
+
+                            <tr>
                               <th>입금자명</th>
                               <td class="KRW_in_userName">홍길동1234</td>
                             </tr>
 
-                            <tr>
-                              <th>이체금액</th>
-                              <td>0 KRW</td>
-                            </tr>
+
 
                           </tbody>
 

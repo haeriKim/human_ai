@@ -37,22 +37,26 @@
             <div class="mycoin_content_wrap">
                 <!-- m_mycoin_main -->
                 <div class="content">
-                    <div class="account_area my_assets_KRW01">
-                      <div class="box">
-                      <div class="assetBox">
-                        <ul class="asset all_assets">
-                          <li>
-                              <p class='mywallet_title'>원화 잔고</p>
-                              <p class="up_down_data mywallet_amount">3,374.01<span>KRW</span></p>
-                          </li>
-                          <li class='border_bottom_none'>
-                              <p class='mywallet_title'>출금 가능금액</p>
-                              <p class="up_down_data mywallet_amount">8,123.60<span>KRW</span></p>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
+                    <div class="account_area my_assets_KRW01 my_assets">
 
+                      <div class="box">
+                        <div class="assetBox">
+                          <ul class="asset all_assets">
+                            <li class='border_bottom_none'>
+                                <p class='mywallet_title'>총 보유자산</p>
+                                <p class="up_down_data mywallet_amount">8,123.60<span>KRW</span></p>
+                                <div class='notification_wrap'>
+                                    <p class='notification notification_01'>거래대기</p>
+                                    <p class='notification notification_a_01'>2,992.99 KRW</p>
+                                </div>
+                                <div class='notification_wrap'>
+                                    <p class='notification notification_02'>출금가능</p>
+                                    <p class='notification notification_a_02'>381.02 KRW</p>
+                                </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
 
                       <div class="KRW_in">
                         <p>입금할 계좌정보</p>
@@ -80,13 +84,13 @@
 
 
                         <div class="KRW_warning">
-                          <p>입금신청 주의사항</p>
+                          <p><img src="img/m_check.png"/>입금신청 주의사항</p>
                           <ul>
-                            <li>KRW를 처음 입금하시는 경우 3영업일(72시간) 동안 KRW 및 암호화폐의 출금이 제한됩니다.</li>
-                            <li>최소 입금 요청 금액은 1,000원 이상입니다.</li>
-                            <li>입금시 KRW는 1:1 비율로 입금됩니다. (100,000원 입금 100,000KRW 입금)</li>
-                            <li>은행 공통 점검 시간(매일 23:30~00:30)에는 입금이 불가능하거나 지연될 수 있습니다.</li>
-                            <li>입금자명과 금액이 입금신청사항과 정확히 일치하는 경우, 입금 후 고객님의 계정에 반영되기까지 약 3분 정도 소요됩니다.</li>
+                            <li>- KRW를 처음 입금하시는 경우 3영업일(72시간) 동안 KRW 및 암호화폐의 출금이 제한됩니다.</li>
+                            <li>- 최소 입금 요청 금액은 1,000원 이상입니다.</li>
+                            <li>- 입금시 KRW는 1:1 비율로 입금됩니다. (100,000원 입금 100,000KRW 입금)</li>
+                            <li>- 은행 공통 점검 시간(매일 23:30~00:30)에는 입금이 불가능하거나 지연될 수 있습니다.</li>
+                            <li>- 입금자명과 금액이 입금신청사항과 정확히 일치하는 경우, 입금 후 고객님의 계정에 반영되기까지 약 3분 정도 소요됩니다.</li>
                           </ul>
                         </div>
                       </div>

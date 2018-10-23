@@ -37,52 +37,58 @@
             <div class="mycoin_content_wrap">
                 <!-- m_mycoin_main -->
                 <div class="content">
-                    <div class="account_area my_assets_KRW02">
+                    <div class="account_area my_assets_KRW02 my_assets">
+
                       <div class="box">
-                      <div class="assetBox">
-                        <ul class="asset all_assets">
-                          <li>
-                              <p class='mywallet_title'>원화 잔고</p>
-                              <p class="up_down_data mywallet_amount">3,374.01<span>KRW</span></p>
-                          </li>
-                          <li class='border_bottom_none'>
-                              <p class='mywallet_title'>출금 가능금액</p>
-                              <p class="up_down_data mywallet_amount">8,123.60<span>KRW</span></p>
-                          </li>
-                        </ul>
+                        <div class="assetBox">
+                          <ul class="asset all_assets">
+                            <li class='border_bottom_none'>
+                                <p class='mywallet_title'>총 보유자산</p>
+                                <p class="up_down_data mywallet_amount">8,123.60<span>KRW</span></p>
+                                <div class='notification_wrap'>
+                                    <p class='notification notification_01'>거래대기</p>
+                                    <p class='notification notification_a_01'>2,992.99 KRW</p>
+                                </div>
+                                <div class='notification_wrap'>
+                                    <p class='notification notification_02'>출금가능</p>
+                                    <p class='notification notification_a_02'>381.02 KRW</p>
+                                </div>
+                            </li>
+                          </ul>
+                        </div><!-- assetBox End-->
                       </div>
-                    </div>
 
 
                     <div class="KRW_in">
                      <div class="KRW_input">
 
-                        <p>입금할 금액을 입력해 주세요. 등록된 계좌로 해당된 금액을 한번에 입금하셔야 합니다.</p>
+                        <p>입금할 금액</p>
 
                         <form>
                           <input type="text" placeholder="0" class="send_money" maxlength="10" required><span>KRW</span>
                         </form>
 
-                        <ul class="KRW_unit">
-                          <li>10만</li>
-                          <li>50만</li>
-                          <li>100만</li>
-                          <li>1000만</li>
-                        </ul>
+                        <div class="KRW_unit">
+                          <input type="button" value="10만" class="priceBtn"/>
+                          <input type="button" value="50만" class="priceBtn"/>
+                          <input type="button" value="100만" class="priceBtn"/>
+                          <input type="button" value="1000만" class="priceBtn"/>
+                        </div>
 
                         <ul class="KRW_warning_list">
-                          <li>최소 입금 금액: 5,000원</li>
-                          <li>입금 수수료: 무료</li>
-                          <li>최대 입금 금액: 무제한</li>
-                          <li>입금 후 출금시간: 72시간</li>
+                          <li class="text">※ 등록된 계좌로 해당된 금액을 한번에 입금하셔야 합니다.</li>
+                          <li>- 최소 입금 금액: 5,000원</li>
+                          <li>- 입금 수수료: 무료</li>
+                          <li>- 최대 입금 금액: 무제한</li>
+                          <li>- 입금 후 출금시간: 72시간</li>
 
                         </ul>
                       </div>
 
                       </div>
-                      
-                      <div class="KRW_bt_area2">
-                        <input type="button" name='button' value="다음" class="next_bt">
+
+                      <div class="KRW_bt_area">
+                        <input type="button" name='button' onclick="location.href='m_account_KRW_in03.php'" value="다음" class="next_bt">
                       </div>
 
 
