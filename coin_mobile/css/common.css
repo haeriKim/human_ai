@@ -214,7 +214,7 @@
 /*조회창*/
 
 .cal_area{
-  padding: 0 10px;
+  padding: 1px 10px;
 }
 .cal_lookup{
   font-size:12px;
@@ -223,6 +223,7 @@
   border-bottom:1px solid rgba(255,255,255,.2);
   padding-bottom:10px;
   width:100%;
+  opacity: .6;
 }
 .cal_lookup p{
   float:left;
@@ -273,13 +274,13 @@
   overflow:hidden;
 }
 .cal_lookup_inner .days .days_inner{
-  width:100%;
-}
-.cal_lookup_inner .days input{
+  overflow: hidden;
 }
 .cal_lookup_inner .days span{
-  float:left;
-  margin:0 1%;
+  float: left;
+  margin: 0 1%;
+  padding-top: 5px;
+  opacity: .6;
 }
 .cal_lookup_inner .days .date_input{
   width: 46%;
@@ -321,10 +322,11 @@
   background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
   border: none;
   color: #fff;
-  margin-top:10px;
-  padding: 5px 0;
-  font-size: 12px;
+  margin-top: 10px;
+  padding: 7px 0;
+  font-size: 13px;
   width: 30%;
   border-radius: 50px;
   float: right;
+  font-weight: 600;
 }

@@ -34,19 +34,9 @@
 
             <!-- mycoin_content_wrap -->
             <div class="mycoin_content_wrap">
-
-              <ul class="gnb_tab3">
-                <li class="on"><a href="">보유자산</a></li>
-                <li><a href="">원화입금</a></li>
-                <li><a href="">원화출금</a></li>
-                <li><a href="">코인입금</a></li>
-                <li><a href="">코인출금</a></li>
-
-              </ul>
-
                 <!-- m_mycoin_main -->
                 <div class="content">
-                    <div class="assets_area my_assets">
+                    <div class="account_area my_assets">
                       <div class="box">
 
                         <div class="assetBox">
@@ -107,7 +97,6 @@
                                 <img src="img/bitcoincash.png" alt="비트코인캐시아이콘">
                                 <p>
                                   <strong class="color_bk fl">비트코인캐시</strong><br />
-                                  <span style='display:none;'>bitcoincash</span>
                                   <span class='color_bk fl'>BCH</span>
                                 </p>
                               </td>
@@ -123,7 +112,7 @@
                                   <span class='color_bk fl'>ETH</span>
                                 </p>
                               </td>
-                              <td><p class='mycoin_data fr'><span>0</span></p></td>
+                              <td><p class='mycoin_data fr'><span>0</span>ETH</p></td>
 
                             </tr>
                             <tr>
@@ -135,7 +124,7 @@
                                   <span class='color_bk fl'>ETC</span>
                                 </p>
                               </td>
-                              <td><p class='mycoin_data fr'><span>0</span></p></td>
+                              <td><p class='mycoin_data fr'><span>0</span>ETC</p></td>
 
                             </tr>
                             <tr>
@@ -147,7 +136,7 @@
                                   <span class='color_bk fl'>XRP</span>
                                 </p>
                               </td>
-                              <td><p class='mycoin_data fr'><span>0</span></p></td>
+                              <td><p class='mycoin_data fr'><span>0</span>XRP</p></td>
 
                             </tr>
                             <tr>
@@ -159,7 +148,7 @@
                                   <span class='color_bk fl'>ADA</span>
                                 </p>
                               </td>
-                              <td><p class='mycoin_data fr'><span>0</span></p></td>
+                              <td><p class='mycoin_data fr'><span>0</span>ADA</p></td>
 
                             </tr>
                             <tr>
@@ -171,7 +160,7 @@
                                   <span class='color_bk fl'>EOS</span>
                                 </p>
                               </td>
-                              <td><p class='mycoin_data fr'><span>0</span></p></td>
+                              <td><p class='mycoin_data fr'><span>0</span>EOS</p></td>
 
                             </tr>
                           </tbody>

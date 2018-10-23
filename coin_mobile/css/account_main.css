@@ -1,3 +1,6 @@
+.account_area {
+  margin: 60px auto 0;
+}
 .my_assets .box {
   padding: 7px 15px;
 }
@@ -8,9 +11,6 @@
 }
 .my_assets .mycoin_notice img {
   vertical-align: -3px;
-}
-.my_assets .assetBox {
-  margin-top: 10px;
 }
 .my_assets .assetBox .asset {
   background: #070B11;
@@ -98,4 +98,8 @@
 }
 .coin_table table tbody .mycoin_name p {
   display: inline-block;
+}
+
+.coin_table table tbody .mycoin_name span.color_bk {
+  color: rgba(255,255,255,.6);
 }
