@@ -176,7 +176,7 @@
 /*자산관리 콘텐츠영역 마진값*/
 
 .assets_area{
-  margin:85px auto 0;
+  margin:35px auto;
 }
 
 /*gnb3_입출금페이지 탭메뉴*/
@@ -329,4 +329,9 @@
   border-radius: 50px;
   float: right;
   font-weight: 600;
+}
+
+/*자산관리(거래내역,입출금내역) overflow-x : hidden*/
+.none_overflow_x{
+    overflow-x: hidden;
 }

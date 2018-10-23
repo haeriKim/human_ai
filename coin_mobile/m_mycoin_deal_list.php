@@ -42,7 +42,7 @@
                 </ul>
 
                 <!-- content -->
-                <div class="content">
+                <div class="content none_overflow_x">
                     <!-- wd_list -->
                     <div class="assets_area wd_list" id='wd_list'>
                     <!-- cal_area -->

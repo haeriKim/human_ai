@@ -43,7 +43,7 @@
               </ul>
 
                 <!-- main_content -->
-                <div class="content">
+                <div class="content none_overflow_x">
                     <div class="assets_area wd_list" id='wd_list'>
 
                     <div class="cal_area">
