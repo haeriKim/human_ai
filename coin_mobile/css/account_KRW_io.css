@@ -1,5 +1,15 @@
-.my_assets{
-    margin: 85px auto;
+#header_wrap #header h2 span{
+    letter-spacing: 1px;
+}
+#header_wrap #header .header_sub_title{
+    color: #fff;
+    font-size: 15px;
+    position: absolute;
+    left: 35px;
+    letter-spacing: 1px;
+}
+.account_area {
+  margin: 60px auto 0;
 }
 .my_assets .box {
   padding: 7px 15px;
@@ -7,13 +17,9 @@
 .my_assets .mycoin_notice {
   font-size: 11px;
   color: rgba(255,255,255,.6);
-  fon
 }
 .my_assets .mycoin_notice img {
   vertical-align: -3px;
-}
-.my_assets .assetBox {
-  margin-top: 10px;
 }
 .my_assets .assetBox .asset {
   background: #070B11;
@@ -21,8 +27,7 @@
   padding: 10px;
 }
 .my_assets .assetBox .all_assets li,  .my_assets .assetBox .aseet_list ul{
-  float: left;
-  width: 48%;
+  width: 100%
 }
 .my_assets .assetBox .all_assets li + li, .my_assets .assetBox .aseet_list ul + ul {
   margin-left: 4%
@@ -38,13 +43,30 @@
 .my_assets .assetBox .all_assets li .mywallet_amount {
   color: #30afb8;
   font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 10px;
 }
 .my_assets .assetBox .asset li .mywallet_amount span {
   font-size: 13px;
   color: rgba(255,255,255,.6);
   margin-left: 5px;
 }
-
+.my_assets .assetBox .asset li .notification_wrap{
+    overflow: hidden;
+    width: 100%;
+}
+.my_assets .assetBox .asset li .notification{
+    font-size: 12px;
+    opacity: 0.6;
+}
+.my_assets .assetBox .asset li .notification_01,
+.my_assets .assetBox .asset li .notification_02{
+    float: left;
+}
+.my_assets .assetBox .asset li .notification_a_01,
+.my_assets .assetBox .asset li .notification_a_02{
+    float: right;
+}
 .my_assets .assetBox .aseet_list {
   margin-top: 7px;
 }
@@ -64,10 +86,11 @@
   margin-bottom: 5px;
 }
 .my_assets .coin_table {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .coin_table table {
   font-size: 13px;
+  margin-top:10px;
 }
 .coin_table table th {
   background-color: #192331;
@@ -81,12 +104,14 @@
   opacity: .6;
 }
 .coin_table table tbody tr {
-  height: 35px;
+  height: 40px;
   border-bottom: 1px solid rgba(255,255,255,.2);
   font-size: 12px;
 }
 .coin_table table tbody tr td{
   border-left: 1px solid rgba(255,255,255,.2);
+  text-align: right;
+  padding:0 10px;
 }
 .coin_table table tbody tr img {
   width: 25px;
@@ -95,8 +120,11 @@
   text-align: left;
   border-left: none;
   font-size: 11px;
-  padding-left: 5px;
+  padding: 5px;
 }
 .coin_table table tbody .mycoin_name p {
   display: inline-block;
+}
+.coin_table table tbody .mycoin_name span.color_bk {
+  color: rgba(255,255,255,.6);
 }

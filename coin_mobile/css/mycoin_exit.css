@@ -28,13 +28,14 @@
       line-height:19px;
     }
     #wd_list .wd_list_table tbody{
-      border-bottom:2px solid rgba(255,255,255,.2);
+      border-bottom:3px solid rgba(255,255,255,.2);
     }
     #wd_list .wd_list_table td{
-      height:35px;
-      border: 1px solid rgba(255,255,255,.2);
-      font-size:12px;
-      line-height:19px;
+        height: 35px;
+        border: 1px solid rgba(255,255,255,.2);
+        border-top: none;
+        font-size: 12px;
+        line-height: 19px;
     }
     #wd_list .wd_list_table .deal_kind_in{
       color:#f35531;

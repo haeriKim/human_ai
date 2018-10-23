@@ -24,7 +24,8 @@
             <!-- header -->
             <div id="header">
               <div class="headerTop">
-                <h2 class="header_title">입출금</h2>
+                <input type="button" class="back" onclick="location.href='m_account_main.php'"/>
+                <h2 class="header_sub_title">원화<span>(KRW)</span> 입출금</h2>
                 <div class="alarm_area">
                   <img src="img/bell.png" class="alarmBtn" alt="알림버튼"/>
                 </div>
@@ -44,6 +45,18 @@
                             <li class='border_bottom_none'>
                                 <p class='mywallet_title'>총 보유자산</p>
                                 <p class="up_down_data mywallet_amount">8,123.60<span>KRW</span></p>
+                                <div class='notification_wrap'>
+                                    <p class='notification notification_01'>거래대기</p>
+                                    <p class='notification notification_a_01'>2,992.99 KRW</p>
+                                </div>
+                                <div class='notification_wrap'>
+                                    <p class='notification notification_02'>출금가능</p>
+                                    <p class='notification notification_a_02'>381.02 KRW</p>
+                                </div>
+                            </li>
+                            <li class='button_input'>
+                                <input type="button" name="입금하기" value="입금하기" onclick="location.href=''" />
+                                <input type="button" name="출금하기" value="출금하기" onclick="location.href=''" />
                             </li>
                           </ul>
 
@@ -56,7 +69,7 @@
                           <label for="chk" class='text'>보유 코인만</label>
                         </div>
 
-                        <table class='mycoin_table' summary='보유코인,보유수량,매수평균가,매수금액,평가금액,평가손익,입출금 버튼,준비중 상태확인 '>
+                        <table class='mycoin_table' summary='보유코인,보유수량,매수평균가,매수금액,평가금액,평가손익,입출금 버튼,준비중 상태확인'>
                           <colgroup>
                               <col style="width:40%;"/>
                               <col style="width:60%;"/>
@@ -64,9 +77,8 @@
                           </colgroup>
                           <thead class='mycoin_thead_deco'>
                             <tr>
-                                <th class='mycoin_kor first_chart_icon' rowspan="2"><span>코인명</span></th>
-                                <th class="second_chart_icon" rowspan="2"><Span>보유수량</span></th>
-
+                                <th class='mycoin_kor first_chart_icon'><span>코인명</span></th>
+                                <th class="second_chart_icon"><Span>보유수량</span></th>
                             </tr>
                           </thead>
                           <tbody class="mycoin_tbody_deco">
