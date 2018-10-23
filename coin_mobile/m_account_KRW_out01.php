@@ -53,18 +53,14 @@
                                   <p class='notification notification_a_02'>381.02 KRW</p>
                               </div>
                           </li>
-                          <li class='button_li'>
-                              <a href="#">입금하기</a>
-                              <a href="#">출금하기</a>
-                          </li>
                         </ul>
                       </div>
                     </div>
 
 
-                      <div class="KRW_in">
+                      <div class="KRW_inout">
                         <p>출금할 계좌정보</p>
-                        <table class="KRW_in_table">
+                        <table class="KRW_table">
                           <tbody>
 
                             <tr>
@@ -74,7 +70,7 @@
 
                             <tr>
                               <th>계좌번호</th>
-                              <td>1234-567-98-10-123</td>
+                              <td>1234*********123</td>
                             </tr>
 
                             <tr>
@@ -88,19 +84,19 @@
 
 
                         <div class="KRW_warning">
-                          <p>출금신청 주의사항</p>
+                          <p><img src="img/m_check.png" alt="체크아이콘"/>출금신청 주의사항</p>
                           <ul>
-                            <li>KRW를 처음 입금하시는 경우 3영업일(72시간) 동안 KRW 및 암호화폐의 출금이 제한됩니다.</li>
-                            <li>출금 요청 완료 후, 약 5-30분 이내에 등록하신 은행계좌로 출금됩니다.</li>
-                            <li>은행 공통 점검 시간(매일 23:30~00:30)에는 입금이 불가능하거나 지연될 수 있습니다.</li>
-                            <li>출금 수수료: 1,000원 / 출금 최소 금액: 5,000원</li>
-                            <li>부정 거래가 의심되는 경우, 출금이 제한될 수 있습니다.</li>
+                            <li>- KRW를 처음 입금하시는 경우 3영업일(72시간) 동안 KRW 및 암호화폐의 출금이 제한됩니다.</li>
+                            <li>- 출금 요청 완료 후, 약 5-30분 이내에 등록하신 은행계좌로 출금됩니다.</li>
+                            <li>- 은행 공통 점검 시간(매일 23:30~00:30)에는 입금이 불가능하거나 지연될 수 있습니다.</li>
+                            <li>- 출금 수수료: 1,000원 / 출금 최소 금액: 5,000원</li>
+                            <li>- 부정 거래가 의심되는 경우, 출금이 제한될 수 있습니다.</li>
                           </ul>
                         </div>
                       </div>
 
                       <div class="KRW_bt_area">
-                        <input type="button" name='button' onclick="location.href='m_account_KRW_in02.php'" value="다음" class="next_bt">
+                        <input type="button" name='button' onclick="location.href='m_account_KRW_out02.php'" value="다음" class="next_bt">
                       </div>
 
 

@@ -53,18 +53,14 @@
                                   <p class='notification notification_a_02'>381.02 KRW</p>
                               </div>
                           </li>
-                          <li class='button_li'>
-                              <a href="#">입금하기</a>
-                              <a href="#">출금하기</a>
-                          </li>
                         </ul>
                       </div>
                     </div>
 
 
-                      <div class="KRW_in">
+                      <div class="KRW_inout">
                         <p>출금된 계좌정보</p>
-                        <table class="KRW_in_table">
+                        <table class="KRW_table">
                           <tbody>
 
                             <tr>
@@ -99,7 +95,7 @@
                       </div>
 
                       <div class="KRW_bt_area">
-                        <input type="button" name='button' onclick="location.href='m_account_KRW_in04.php'" value="완료" class="next_bt">
+                        <input type="button" name='button' onclick="location.href='m_account_main.php'" value="출금 신청" class="next_bt">
                       </div>
 
 

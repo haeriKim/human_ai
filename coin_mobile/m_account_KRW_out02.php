@@ -25,7 +25,7 @@
             <div id="header2">
               <div class="headerTop">
                 <input type="button" class="back" onclick="location.href='m_account_main.php'"/>
-                <h2 class="header_title">원화(KRW) 입금 (2/3)</h2>
+                <h2 class="header_title">원화(KRW) 출금 (2/3)</h2>
                 <div class="alarm_area">
                   <img src="img/bell.png" class="alarmBtn" alt="알림버튼"/>
                 </div>
@@ -53,51 +53,49 @@
                                   <p class='notification notification_a_02'>381.02 KRW</p>
                               </div>
                           </li>
-                          <li class='button_li'>
-                              <a href="#">입금하기</a>
-                              <a href="#">출금하기</a>
-                          </li>
                         </ul>
                       </div>
                     </div>
 
 
-                    <div class="KRW_in">
-                     <div class="KRW_input">
+                    <div class="KRW_inout">
+                     <div class="KRW_input_outout">
 
-                        <p>출금할 금액을 입력해 주세요.</p>
+                        <p class="title">출금할 금액</p>
 
                         <form>
                           <input type="text" placeholder="0" class="send_money" maxlength="10" required><span>KRW</span>
                         </form>
 
-                        <ul class="KRW_unit">
-                          <li>10만</li>
-                          <li>50만</li>
-                          <li>100만</li>
-                          <li>1000만</li>
-                        </ul>
+                        <div class="KRW_unit">
+                          <input type="button" value="10만" class="priceBtn"/>
+                          <input type="button" value="50만" class="priceBtn"/>
+                          <input type="button" value="100만" class="priceBtn"/>
+                          <input type="button" value="1000만" class="priceBtn"/>
+                        </div>
 
-                        <p>보안 비밀번호</p>
-                        <input type="text" placeholder="보안비밀번호를 입력하세요." class="send_money" maxlength="4" required>
-                        <p>OTP 인증번호</p>
-                        <input type="text" placeholder="OTP 인증번호를 입력하세요." class="send_money" maxlength="4" required>
-                        <p>휴대폰 SMS 인증</p>
-                        <input type="text" placeholder="인증번호를 입력하세요." class="send_money" maxlength="6" required>
+                        <p class="input_title">보안 비밀번호</p>
+                        <input type="text" placeholder="보안비밀번호를 입력하세요." class="security_num step" maxlength="4" required>
+                        <p class="input_title">OTP 인증번호</p>
+                        <input type="text" placeholder="OTP 인증번호를 입력하세요." class="otp_num step" maxlength="4" required>
+                        <div class="sms_area">
+                          <p class="input_title">휴대폰 SMS 인증</p>
+                          <input type="text" placeholder="인증번호를 입력하세요." class="sms_num step" maxlength="6" required>
+                          <input type="button" value="인증번호요청" id ="request_count" class="request_num" />
+                        </div>
 
                         <ul class="KRW_warning_list">
-                          <li>1회 출금한도: 100,000,000 KRW</li>
-                          <li>1일 잔여한도: 200,000,000 KRW</li>
-                          <li>수수료: 1000 KRW</li>
-                          <li>입금 후 출금시간: 72시간</li>
+                          <li>- 1회 출금한도: 100,000,000</li>
+                          <li>- 수수료: 1000 KRW</li>
+                          <li>- 1일 잔여한도: 200,000,000</li>
+                          <li>- 입금 후 출금시간: 72시간</li>
                         </ul>
-                        
                       </div>
 
                       </div>
 
-                      <div class="KRW_bt_area2">
-                        <input type="button" name='button' value="다음" class="next_bt">
+                      <div class="KRW_bt_area">
+                        <input type="button" name='button' onclick="location.href='m_account_KRW_out03.php'" value="다음" class="next_bt">
                       </div>
 
 

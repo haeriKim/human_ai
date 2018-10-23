@@ -58,9 +58,9 @@
                         </div>
                       </div>
 
-                      <div class="KRW_in">
+                      <div class="KRW_inout">
                         <p>입금할 계좌정보</p>
-                        <table class="KRW_in_table">
+                        <table class="KRW_table">
                           <tbody>
 
                             <tr>
@@ -70,7 +70,7 @@
 
                             <tr>
                               <th>계좌번호</th>
-                              <td>1234-567-98-10-123</td>
+                              <td>12*********123</td>
                             </tr>
 
                             <tr>
@@ -84,7 +84,7 @@
 
 
                         <div class="KRW_warning">
-                          <p><img src="img/m_check.png"/>입금신청 주의사항</p>
+                          <p><img src="img/m_check.png" alt="체크아이콘"/>입금신청 주의사항</p>
                           <ul>
                             <li>- KRW를 처음 입금하시는 경우 3영업일(72시간) 동안 KRW 및 암호화폐의 출금이 제한됩니다.</li>
                             <li>- 최소 입금 요청 금액은 1,000원 이상입니다.</li>

@@ -59,8 +59,8 @@
                       </div>
 
 
-                    <div class="KRW_in">
-                     <div class="KRW_input">
+                    <div class="KRW_inout">
+                     <div class="KRW_input_outout">
 
                         <p>입금할 금액</p>
 
@@ -77,11 +77,10 @@
 
                         <ul class="KRW_warning_list">
                           <li class="text">※ 등록된 계좌로 해당된 금액을 한번에 입금하셔야 합니다.</li>
-                          <li>- 최소 입금 금액: 5,000원</li>
+                          <li>- 최소 입금 금액: 1,000원</li>
                           <li>- 입금 수수료: 무료</li>
                           <li>- 최대 입금 금액: 무제한</li>
                           <li>- 입금 후 출금시간: 72시간</li>
-
                         </ul>
                       </div>
 

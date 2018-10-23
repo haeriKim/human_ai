@@ -19,34 +19,37 @@
   color: rgba(255,255,255,.6);
   margin-left: 5px;
 }
-.account_area .KRW_in{
+.account_area .KRW_inout{
   padding: 15px 15px 0;
 }
-.account_area .KRW_in p img {
+.account_area .KRW_inout p {
+  font-size: 13px;
+}
+.account_area .KRW_inout p img {
   margin-right: 5px;
 }
-.account_area .KRW_in table{
+.account_area .KRW_inout table{
   font-size:13px;
   margin:10px 0;
 }
-.account_area .KRW_in table tbody {
+.account_area .KRW_inout table tbody {
   border: 1px solid rgba(255,255,255,.2);
 }
-.account_area .KRW_in table tr{
+.account_area .KRW_inout table tr{
   height: 35px;
 }
-.account_area .KRW_in table th{
+.account_area .KRW_inout table th{
   border-right: 1px solid rgba(255,255,255,.2);
   width:30%;
   background:#192331;
   opacity: 0.6;
   font-weight: 500;
 }
-.account_area .KRW_in table .KRW_table_title{
+.account_area .KRW_inout table .KRW_table_title{
   background:none;
   opacity:1;
 }
-.account_area .KRW_in table td{
+.account_area .KRW_inout table td{
   text-align:left;
   padding-left:15px;
   border-bottom: 1px solid rgba(255,255,255,.2);
@@ -72,25 +75,17 @@
 
 /*KRW_warning (Step1)*/
 
-.my_assets_KRW01 .KRW_in p{
-  font-size:13px;
-}
-.my_assets_KRW01 .KRW_in .KRW_warning{
+.my_assets_KRW01 .KRW_inout .KRW_warning{
   font-size:12px;
   margin-top: 20px;
 }
-.my_assets_KRW01 .KRW_in .KRW_warning p{
+.my_assets_KRW01 .KRW_inout .KRW_warning p{
   margin-top:10px;
 }
-.my_assets_KRW01 .KRW_in .KRW_warning li{
+.my_assets_KRW01 .KRW_inout .KRW_warning li{
   color:rgba(255,255,255,.3);
   width:100%;
   margin-top:10px;
-}
-.my_assets_KRW01 .KRW_bt_area{
-  width:100%;
-  text-align:center;
-  margin:30px 0;
 }
 
 /*KRW_input (Step2)*/
@@ -98,10 +93,7 @@
 .my_assets_KRW02 .KRW_input{
   font-size:12px;
 }
-.my_assets_KRW02 .KRW_input p {
-  font-size: 13px;
-}
-.my_assets_KRW02 .KRW_input .send_money{
+.my_assets_KRW02 .KRW_input_outout .send_money{
   margin-top: 10px;
   border: none;
   border-bottom: 1px solid #30afb8;
@@ -113,17 +105,17 @@
   height: 25px;
   font-size: 15px;
 }
-.my_assets_KRW02 .KRW_input span{
+.my_assets_KRW02 .KRW_input_outout span{
   margin-left: 5px;
   color:#30afb8;
   font-size: 15px;
   font-weight: 600;
 }
-.my_assets_KRW02 .KRW_input .KRW_unit {
+.my_assets_KRW02 .KRW_input_outout .KRW_unit {
   overflow: hidden;
   margin-top: 15px;
 }
-.my_assets_KRW02 .KRW_input .KRW_unit .priceBtn{
+.my_assets_KRW02 .KRW_input_outout .KRW_unit .priceBtn{
   font-size:12px;
   padding:5px 0;
   width: 24%;
@@ -134,39 +126,67 @@
   background-color: #0F1926;
   color: #fff;
 }
-.my_assets_KRW02 .KRW_input .KRW_unit .priceBtn + .priceBtn {
+.my_assets_KRW02 .KRW_input_outout .KRW_unit .priceBtn + .priceBtn {
   margin-left: 1%;
 }
-.my_assets_KRW02 .KRW_input .KRW_warning_list{
+.my_assets_KRW02 .KRW_input_outout .KRW_warning_list{
   overflow: hidden;
   color: rgba(255,255,255,.3);
   margin-top: 20px;
+  font-size: 12px;
 }
-.my_assets_KRW02 .KRW_input .KRW_warning_list li{
+.my_assets_KRW02 .KRW_input_outout .KRW_warning_list li{
   float:left;
   width:50%;
 }
-.my_assets_KRW02 .KRW_input .KRW_warning_list li.text {
+.my_assets_KRW02 .KRW_input_outout .KRW_warning_list li.text {
   width: 100%;
   margin-bottom: 5px;
 }
 
 /*KRW_in_complete (Step3)*/
-.my_assets_KRW03 .KRW_in p {
-  font-size: 13px;
-}
-.my_assets_KRW03 .KRW_in .KRW_warning p{
+.my_assets_KRW03 .KRW_inout .KRW_warning p{
   margin-top:10px;
   color:#f35531;
   font-size: 13px;
 }
-.my_assets_KRW03 .KRW_in .KRW_warning li{
+.my_assets_KRW03 .KRW_inout .KRW_warning li{
   color:rgba(255,255,255,.3);
   width:100%;
   margin-top:10px;
 }
-.my_assets_KRW03 .KRW_in .KRW_in_userName{
+.my_assets_KRW03 .KRW_inout .KRW_in_userName{
   color:#30afb8;
   font-weight: 600;
   font-size: 15px;
+}
+
+/*KRW_output (Step2)*/
+.KRW_input_outout p.input_title {
+  font-size: 13px;
+  margin-top: 15px;
+}
+.KRW_input_outout input[type="text"].step {
+  margin-top: 7px;
+  border: none;
+  border-bottom: 1px solid rgba(255,255,255,.6);
+  background: none;
+  color: rgba(255,255,255,.6);
+  padding: 0 5px;
+  width: 95%;
+  height: 25px;
+}
+.KRW_input_outout .sms_area {
+  position: relative;
+}
+.KRW_input_outout .request_num {
+  border-radius: 50px;
+  border: 1px solid #30AFB8;
+  background: none;
+  color: #30AFB8;
+  display: inline-block;
+  padding: 2px 8px;
+  position: absolute;
+  top: 20px;
+  right: 3%;
 }

@@ -58,9 +58,9 @@
                         </div>
                       </div>
 
-                      <div class="KRW_in">
+                      <div class="KRW_inout">
                         <p>입금할 계좌정보</p>
-                        <table class="KRW_in_table">
+                        <table class="KRW_table">
                           <tbody>
 
                             <tr>
@@ -97,12 +97,11 @@
 
                         <div class="KRW_warning">
                           <p>※ 반드시 발급된 입금자명으로 입금해주세요.</p>
-
                         </div>
                       </div>
 
                       <div class="KRW_bt_area">
-                        <input type="button" name='button' onclick="location.href='m_account_KRW_in04.php'" value="완료" class="next_bt">
+                        <input type="button" name='button' onclick="location.href='m_account_KRW_main.php'" value="입금 신청" class="next_bt">
                       </div>
 
 
