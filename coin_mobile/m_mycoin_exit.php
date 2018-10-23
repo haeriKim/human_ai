@@ -134,15 +134,18 @@
 
                       <tr>
                         <td>2018-10-01<br/>19:00:42</td>
-                        <td>원화</td>
+                        <td>
+                            원화<br>
+                            <span class='unit_eng'>(KRW)</span>
+                        </td>
                         <td class="deal_kind_in">입금</td>
-                        <td>100,000 KRW</td>
+                        <td>100,000</td>
                       </tr>
 
                       <tr>
                         <td>12-123-456-1234</td>
                         <td>홍길동 국민</td>
-                        <td>1000 KRW</td>
+                        <td>1000</td>
                         <td>대기중</td>
                       </tr>
 
@@ -151,15 +154,18 @@
                       <tbody>
                       <tr>
                         <td>2018-10-01<br/>19:00:42</td>
-                        <td>원화</td>
+                        <td>
+                            원화<br>
+                            <span class='unit_eng'>(KRW)</span>
+                        </td>
                         <td class="deal_kind_out">출금</td>
-                        <td>100,000 KRW</td>
+                        <td>100,000</td>
                       </tr>
 
                       <tr>
                         <td>12-123-456-1234</td>
                         <td>홍길동 국민</td>
-                        <td>1000 KRW</td>
+                        <td>1000</td>
                         <td>완료</td>
                       </tr>
                     </tbody>

@@ -24,6 +24,7 @@
   color: #fff;
   font-weight: 600;
   font-size:17px;
+  letter-spacing: 2px;
 }
 #header_wrap #header2 h2{
   display: inline-block;
@@ -349,4 +350,88 @@
   border-radius: 50px;
   float: right;
   font-weight: 600;
+}
+
+/*표 안 코인단위 색*/
+.unit_eng{
+    opacity: 0.6;
+}
+
+/*입출금 메인 총 보유자산 부분*/
+.account_area {
+  margin: 60px auto 0;
+}
+.my_assets .box {
+  padding: 7px 15px;
+}
+.my_assets .mycoin_notice {
+  font-size: 11px;
+  color: rgba(255,255,255,.6);
+}
+.my_assets .mycoin_notice img {
+  vertical-align: -3px;
+}
+.my_assets .assetBox .asset {
+    background: #070B11;
+    overflow: hidden;
+    padding: 10px;
+}
+.my_assets .assetBox .all_assets li,  .my_assets .assetBox .aseet_list ul{
+  width: 100%
+}
+.my_assets .assetBox .all_assets li + li, .my_assets .assetBox .aseet_list ul + ul {
+  margin-left: 4%
+}
+.my_assets .assetBox .asset li .mywallet_title {
+  font-size: 13px;
+  opacity: .6;
+}
+.my_assets .assetBox .asset li .mywallet_amount {
+  text-align: right;
+  margin-top: 5px;
+}
+.my_assets .assetBox .all_assets li .mywallet_amount {
+  color: #30afb8;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.my_assets .assetBox .asset li .mywallet_amount span {
+  font-size: 13px;
+  color: rgba(255,255,255,.6);
+  margin-left: 5px;
+}
+.my_assets .assetBox .asset li .notification_wrap{
+    overflow: hidden;
+    width: 100%;
+}
+.my_assets .assetBox .asset li .notification{
+    font-size: 12px;
+    opacity: 0.6;
+}
+.my_assets .assetBox .asset li .notification_01,
+.my_assets .assetBox .asset li .notification_02{
+    float: left;
+}
+.my_assets .assetBox .asset li .notification_a_01,
+.my_assets .assetBox .asset li .notification_a_02{
+    float: right;
+}
+.my_assets .assetBox .asset li.button_li{
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.my_assets .assetBox .asset li.button_li a{
+    width: 44%;
+    margin: 0 1%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50px;
 }

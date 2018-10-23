@@ -1,0 +1,33 @@
+.input_output_list{
+    margin-top: 10px;
+}
+.input_output_list .list_ul li{
+    background: #192331;
+    padding: 10px 5%;
+}
+.input_output_list .list_ul li .list_li_row{
+    overflow: hidden;
+}
+.input_output_list .list_ul li p{
+    font-size: 12px;
+    line-height: 1.7;
+}
+.input_output_list .list_ul li p.list_condition{
+    float: left;
+    font-size: 13px;
+}
+.input_output_list .list_ul li p span.waiting{
+    color: #30afb8;
+}
+.input_output_list .list_ul li p.list_amount{
+    float: right;
+    font-size: 13px;
+}
+.input_output_list .list_ul li p.list_time{
+    float: left;
+    opacity: 0.6;
+}
+.input_output_list .list_ul li p.list_charge{
+    float: right;
+    opacity: 0.6;
+}

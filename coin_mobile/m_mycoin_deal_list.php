@@ -110,15 +110,18 @@
                                     <td class='time'>
                                         2018-09-05<br>11:23:45
                                     </td>
-                                    <td>비트코인</td>
+                                    <td class='coin_name'>
+                                        비트코인<br>
+                                        <span class='unit_eng'>(BTC/KRW)</span>
+                                    </td>
                                     <td class='apply_buy'>매수</td>
                                     <td>0</td>
                                 </tr>
                                 <tr>
-                                    <td>0 KRW</td>
-                                    <td>0 KRW</td>
-                                    <td>0 KRW</td>
-                                    <td>0 KRW</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
                                 </tr>
                             </tbody>
 
@@ -127,15 +130,18 @@
                                     <td class='time'>
                                         2018-08-31<br>08:47:26
                                     </td>
-                                    <td>이더리움</td>
+                                    <td class='coin_name'>
+                                        이더리움<br>
+                                        <span class='unit_eng'>(ETH/KRW)</span>
+                                    </td>
                                     <td class='apply_sell'>매도</td>
                                     <td>0</td>
                                 </tr>
                                 <tr>
-                                    <td>0 KRW</td>
-                                    <td>0 KRW</td>
-                                    <td>0 KRW</td>
-                                    <td>0 KRW</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -164,14 +170,17 @@
                                     <td class='time'>
                                         2018-08-31<br>09:34:30
                                     </td>
-                                    <td>비트코인</td>
+                                    <td class='coin_name'>
+                                        비트코인<br>
+                                        <span class='unit_eng'>(BTC/KRW)</span>
+                                    </td>
                                     <td class='apply_buy'>매수</td>
                                     <td>0</td>
                                 </tr>
                                 <tr>
-                                    <td>0 KRW</td>
-                                    <td>0 KRW</td>
-                                    <td>0 KRW</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
                                     <td><input type='button' value='취소' name='cancel' class='cancel'></td>
                                 </tr>
                             </tbody>
@@ -181,14 +190,17 @@
                                     <td class='time'>
                                         2018-08-15<br>18:38:24
                                     </td>
-                                    <td>원화</td>
+                                    <td class='coin_name'>
+                                        원화<br>
+                                        <span class='unit_eng'>(KRW)</span>
+                                    </td>
                                     <td class='apply_sell'>매도</td>
                                     <td>0</td>
                                 </tr>
                                 <tr>
-                                    <td>0 KRW</td>
-                                    <td>0 KRW</td>
-                                    <td>0 KRW</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
                                     <td><input type='button' value='취소' name='cancel'class='cancel'></td>
                                 </tr>
                             </tbody>

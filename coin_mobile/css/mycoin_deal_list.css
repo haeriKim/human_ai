@@ -44,9 +44,9 @@
         border: 1px solid rgba(255,255,255,.2);
         border-top: none;
         height: 35px;
-        line-height: 35px;
     }
-    table.deal_table_con tbody tr td.time{
+    table.deal_table_con tbody tr td.time,
+    table.deal_table_con tbody tr td.coin_name{
         line-height: 19px;
     }
     .apply_buy{
@@ -62,6 +62,5 @@
         color: #30AFB8;
         display: inline-block;
         padding: 2px 8px;
-        margin-top: 6px;
     }
 }
