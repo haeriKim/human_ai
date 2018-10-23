@@ -12,7 +12,7 @@
   display:block;
 }
 .withdrawal_area .withdrawal_text p{
-  font-size:13px;
+  font-size:14px;
 }
 .withdrawal_area .withdrawal_text .bb{
   color:#c95b74;
@@ -33,7 +33,7 @@
 .withdrawal_area .withdrawal_text .checkbox_text{
   float:left;
   font-weight:600;
-  font-size:13px;
+  font-size:14px;
   display:block;
   overflow:hidden;
 }
@@ -69,7 +69,7 @@
   display:block;
 }
 .withdrawal_area .withdrawal_text2 .withdrawal_text2_inner{
-  font-size:13px;
+  font-size:16px;
   font-weight:600;
 }
 .withdrawal_area .withdrawal_text2 .withdrawal_text2_inner p{
@@ -94,8 +94,8 @@
 
 /*회원탈퇴 step3*/
 .withdrawal_area #withdrawal_text3 p{
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 500;
     line-height: 1.7;
 }
 .withdrawal_area #withdrawal_text3 #warning_message{
@@ -129,7 +129,7 @@
 }
 /*회원탈퇴 step4*/
 .withdrawal_area #withdrawal_text4 p{
-    font-size: 17px;
+    font-size: 14px;
     font-weight: 600;
 }
 .withdrawal_area #withdrawal_text4 select{
@@ -184,7 +184,7 @@
 .withdrawal_area #withdrawal_text5 p{
     text-align: center;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.5;
 }
 .withdrawal_area #withdrawal_text3 .cofirm_number{
