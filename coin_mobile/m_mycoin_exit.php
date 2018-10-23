@@ -36,9 +36,9 @@
             <div class="mycoin_content_wrap">
 
               <ul class="gnb_tab2">
-                <li><a href="">자산현황</a></li>
-                <li><a href="">거래내역</a></li>
-                <li class="on"><a href="">입출금내역</a></li>
+                <li><a href="m_mycoin_main.php">자산현황</a></li>
+                <li><a href="m_mycoin_deal_list.php">거래내역</a></li>
+                <li class="on"><a href="#">입출금내역</a></li>
 
               </ul>
 

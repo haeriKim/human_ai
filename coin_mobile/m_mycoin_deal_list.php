@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/mycoin_exit.css">
     <link rel="stylesheet" href="css/mycoin_deal_list.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
@@ -38,17 +39,60 @@
               <ul class="gnb_tab2">
                 <li><a href="">자산현황</a></li>
                 <li class="on"><a href="#">거래내역</a></li>
-                <li><a href="">입출금</a></li>
+                <li><a href="">입출금내역</a></li>
               </ul>
 
                 <!-- content -->
                 <div class="content">
+                    <!-- wd_list -->
+                    <div class="assets_area wd_list" id='wd_list'>
+                    <!-- cal_area -->
+                    <div class="cal_area">
+                      <div class="cal_lookup">
+                        <p>2018.10.15~2018.10.22 | 구분전체</p>
+                          <span id="cal_select">조회선택<img src="img/arrow_down_white.png" alt="하얀화살표"></span>
+                          <span id="cal_select_up">조회선택<img src="img/arrow_up_white.png" alt="하얀화살표"></span>
+                      </div>
+
+                      <div class="cal_lookup_inner">
+                        <p class="cal_title">기간</p>
+                          <div class="days"><!--days-->
+
+                            <div class="days_inner">
+                              <input type="date" value="2018-07-29" class="date_input">
+                                <span>~ </span>
+                              <input type="date" value="2018-08-29" class="date_input">
+
+                            </div>
+
+                                <div class="date_bt_box">
+                                  <input type="button" name="datebt" value="1일" class="date_bt">
+                                  <input type="button" name="datebt" value="3일" class="date_bt">
+                                  <input type="button" name="datebt" value="15일" class="date_bt">
+                                  <input type="button" name="datebt" value="30일" class="date_bt">
+                                </div>
+
+                          <p class="cal_title">구분</p>
+
+                          <div class="wd_radio">
+                            <form>
+                              <input type="radio" name="chk_wd" value="전체" checked="checked" id="wd1" class="square"><label for="wd1">전체</label>
+                              <input type="radio" name="chk_wd" value="매수" id="wd2" class="square"><label for="wd2">매수</label>
+                              <input type="radio" name="chk_wd" value="매도" id="wd3" class="square"><label for="wd3">매도</label>
+                            </form>
+                          </div>
+
+                            <input type="submit" name="search" value="조회" class='search_btn'>
+                          </div><!--days End-->
+                      </div>
+                    </div><!--cal_area End-->
+
                     <ul class='deal_tab'>
                         <li class='active' rel='deal_complete'>체결</li>
                         <li class='' rel='deal_not_complete'>미체결</li>
                     </ul>
                     <div class="deal_table" id='deal_complete'>
-                        <table class='deal_complete_table'>
+                        <table class='deal_complete_table deal_table_con'>
                             <thead>
                                 <tr>
                                     <th>거래시간</th>
@@ -86,7 +130,7 @@
                                         2018-08-31<br>08:47:26
                                     </td>
                                     <td>이더리움</td>
-                                    <td class='apply_buy'>매도</td>
+                                    <td class='apply_sell'>매도</td>
                                     <td>0</td>
                                 </tr>
                                 <tr>
@@ -102,13 +146,59 @@
 
                     </div>
                     <div class="deal_table" id='deal_not_complete'>
-                    미체결
+                        <table class='deal_not_complete_table deal_table_con'>
+                            <thead>
+                                <tr>
+                                    <th>거래시간</th>
+                                    <th>마켓명</th>
+                                    <th>종류</th>
+                                    <th>주문가격</th>
+                                </tr>
+                                <tr>
+                                    <th>주문수량</th>
+                                    <th>체결수량</th>
+                                    <th>미체결수량</th>
+                                    <th>-</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class='time'>
+                                        2018-08-31<br>09:34:30
+                                    </td>
+                                    <td>비트코인</td>
+                                    <td class='apply_buy'>매수</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>0 KRW</td>
+                                    <td>0 KRW</td>
+                                    <td>0 KRW</td>
+                                    <td><input type='button' value='취소' name='cancel' class='cancel'></td>
+                                </tr>
+                            </tbody>
 
-
-
+                            <tbody>
+                                <tr>
+                                    <td class='time'>
+                                        2018-08-15<br>18:38:24
+                                    </td>
+                                    <td>원화</td>
+                                    <td class='apply_sell'>매도</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>0 KRW</td>
+                                    <td>0 KRW</td>
+                                    <td>0 KRW</td>
+                                    <td><input type='button' value='취소' name='cancel'class='cancel'></td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
 
-                </div><!-- content End-->
+                </div> <!-- wd_list End-->
+              </div><!-- content End-->
             </div><!-- mycoin_content_wrap End-->
 
             <!-- nav -->

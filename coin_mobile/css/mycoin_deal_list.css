@@ -3,7 +3,7 @@
         font-size: 12px;
     }
     .content .deal_tab{
-        margin-top: 105px;
+        margin-top: 20px;
     }
     .content .deal_tab li{
         font-weight: 600;
@@ -17,26 +17,50 @@
         color: #30AFB8;
         border: 1px solid #30AFB8;
     }
-    table{
+    table.deal_table_con{
         margin-top: 20px;
         font-size: 12px;
     }
-    thead{
+    table.deal_table_con thead{
         background-color: #192331;
     }
-    thead tr{
+    table.deal_table_con thead tr{
         height: 35px;
         color: #fff;
         font-weight: 500;
     }
-    thead tr th{
+    table.deal_table_con thead tr th{
         text-align: center;
         padding-left: 5px;
         font-weight: 500;
         opacity: 0.6;
         border: 1px solid rgba(255,255,255,.2);
     }
-    tbody tr td{
+    table.deal_table_con tbody{
+        border-top: 3px solid rgba(255,255,255,.2);
+        border-bottom: 3px solid rgba(255,255,255,.2);
+    }
+    table.deal_table_con tbody tr td{
         border: 1px solid rgba(255,255,255,.2);
+        height: 35px;
+        line-height: 35px;
+    }
+    table.deal_table_con tbody tr td.time{
+        line-height: 19px;
+    }
+    .apply_buy{
+        color: #f35531;
+    }
+    .apply_sell{
+        color: #01a9ff;
+    }
+    table.deal_table_con tbody input.cancel{
+        border-radius: 50px;
+        border: 1px solid #30AFB8;
+        background: none;
+        color: #30AFB8;
+        display: inline-block;
+        padding: 2px 8px;
+        margin-top: 6px;
     }
 }
