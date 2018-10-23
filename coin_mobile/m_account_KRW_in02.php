@@ -37,7 +37,7 @@
             <div class="mycoin_content_wrap">
                 <!-- m_mycoin_main -->
                 <div class="content">
-                    <div class="account_area my_assets_KRW01">
+                    <div class="account_area my_assets_KRW02">
                       <div class="box">
                       <div class="assetBox">
                         <ul class="asset all_assets">
@@ -54,84 +54,9 @@
                     </div>
 
 
-                      <div class="KRW_in">
-                      <!--   <table class="KRW_in_table">
-                        <tbody>
-
-                            <tr>
-                              <th colspan="2" class="KRW_table_title">입금할 계좌정보</th>
-
-                            </tr>
-
-                            <tr>
-                              <th>은행</th>
-                              <td>기업은행</td>
-                            </tr>
-
-                            <tr>
-                              <th>계좌번호</th>
-                              <td>8024-567-41-22-091</td>
-                            </tr>
-
-                            <tr>
-                              <th>예금주</th>
-                              <td>(주)코인거래소</td>
-                            </tr>
-
-                          </tbody>-->
-
-                        <!--  <tbody>
-
-                            <tr>
-                              <th colspan="2" class="KRW_table_title">등록한 계좌정보</th>
-
-                            </tr>
-
-                            <tr>
-                              <th>은행</th>
-                              <td>국민은행</td>
-                            </tr>
-
-                            <tr>
-                              <th>계좌번호</th>
-                              <td>1234-567-9810-11-123</td>
-                            </tr>
-
-                            <tr>
-                              <th>예금주</th>
-                              <td class="user_name">홍길동</td>
-                            </tr>
-
-                          </tbody>
-
-                        </table>-->
-
-                    <!--    <div class="KRW_warning">
-                        <p>입금신청 주의사항</p>
-                        <ul>
-                          <li>KRW를 처음 입금하시는 경우 3영업일(72시간) 동안 KRW 및 암호화폐의 출금이 제한됩니다.</li>
-                          <li>최소 입금 요청 금액은 1,000원 이상입니다.</li>
-                          <li>입금시 KRW는 1:1 비율로 입금됩니다. (100,000원 입금 100,000KRW 입금)</li>
-                          <li>은행 공통 점검 시간(매일 23:30~00:30)에는 입금이 불가능하거나 지연될 수 있습니다.</li>
-                          <li>입금자명과 금액이 입금신청사항과 정확히 일치하는 경우, 입금 후 고객님의 계정에 반영되기까지 약 3분 정도 소요됩니다.</li>
-                        </ul>
-
-                      </div> -->
-
-
+                    <div class="KRW_in">
                      <div class="KRW_input">
-                      <!--  <table>
 
-                          <tr>
-                            <th class="temporary_name">입금자명</th>
-                            <td class="user_name">홍길동1234</td>
-                          </tr>
-
-                          <tr>
-                            <td colspan="2" class="warning_message">※ 반드시 발급된 입금자명으로 입금해주세요.</td>
-                          </tr>
-
-                        </table>-->
                         <p>입금할 금액을 입력해 주세요. 등록된 계좌로 해당된 금액을 한번에 입금하셔야 합니다.</p>
 
                         <form>
@@ -154,9 +79,12 @@
                         </ul>
                       </div>
 
+                      </div>
+                      
                       <div class="KRW_bt_area2">
                         <input type="button" name='button' value="다음" class="next_bt">
                       </div>
+
 
                     </div><!-- assets_area End-->
                 </div><!-- m_mycoin_main End-->
