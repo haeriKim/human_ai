@@ -73,7 +73,7 @@ ul.tabs2 li.active2, ul.tabs3 li.active2, ul.tabs4 li.active2 {
   float:right;
   color:#666;
   font-weight: 600;
-  font-size:13px;
+  font-size:15px;
 }
 .mycoin_tab_content p img{
   vertical-align: -4px;
@@ -397,7 +397,7 @@ div.before_send_money_wrap > p{
     display: block;
     padding-left: 25px;
     margin-bottom: 3px;
-    font-size: 13px;
+    font-size: 15px;
     color: #666;
     font-weight: 600;
 }
@@ -467,7 +467,7 @@ div.before_send_money_wrap > p{
     display: block;
     padding-left: 25px;
     margin-bottom: 3px;
-    font-size: 13px;
+    font-size: 15px;
     color: #666;
     font-weight: 600;
 }
