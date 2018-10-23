@@ -60,10 +60,11 @@
   margin-bottom: 5px;
 }
 .my_assets .coin_table {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .coin_table table {
   font-size: 13px;
+  margin-top:10px;
 }
 .coin_table table th {
   background-color: #192331;
