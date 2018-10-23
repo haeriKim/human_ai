@@ -2,10 +2,7 @@
 @media all and (min-width:320px) and (max-width:768px){
     /*deal_orgin_transaction*/
     #wd_list{
-        overflow-y:auto;
     }
-
-
     /*테이블*/
 
     #wd_list .wd_list_table{
@@ -21,9 +18,9 @@
       text-align:center;
     }
     #wd_list .wd_list_table th{
-      padding: 2%;
       border: none;
       font-size: 12px;
+      line-height:19px;
       color: rgba(255,255,255,.6);
       text-align: center;
       background:#192331;
