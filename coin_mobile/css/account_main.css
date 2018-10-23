@@ -34,6 +34,7 @@
 .my_assets .assetBox .all_assets li .mywallet_amount {
   color: #30afb8;
   font-weight: 600;
+  font-size: 22px;
 }
 .my_assets .assetBox .asset li .mywallet_amount span {
   font-size: 13px;
@@ -78,14 +79,14 @@
   opacity: .6;
 }
 .coin_table table tbody tr {
-  height: 35px;
+  height: 40px;
   border-bottom: 1px solid rgba(255,255,255,.2);
   font-size: 12px;
 }
 .coin_table table tbody tr td{
   border-left: 1px solid rgba(255,255,255,.2);
   text-align: right;
-  padding-right:10px;
+  padding:0 10px;
 }
 .coin_table table tbody tr img {
   width: 25px;

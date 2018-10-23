@@ -21,6 +21,7 @@
   color: #fff;
   font-weight: 600;
   font-size:17px;
+  letter-spacing: 3px;
 }
 #header_wrap #header .alarm_area {
   display: inline-block;
