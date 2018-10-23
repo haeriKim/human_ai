@@ -38,7 +38,6 @@
 .account_area .KRW_in table th{
   border-right: 1px solid rgba(255,255,255,.2);
   width:30%;
-  padding-left:5px;
   background:#192331;
   opacity: 0.6;
   font-weight: 500;
@@ -55,7 +54,8 @@
 .KRW_bt_area{
   width:100%;
   text-align:center;
-  margin:30px 0;
+  margin-top: 30px;
+  padding-bottom: 20px;
 }
 .KRW_bt_area input[type="button"].next_bt{
   background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
@@ -114,7 +114,7 @@
   font-size: 15px;
 }
 .my_assets_KRW02 .KRW_input span{
-  margin:0 5px;
+  margin-left: 5px;
   color:#30afb8;
   font-size: 15px;
   font-weight: 600;
