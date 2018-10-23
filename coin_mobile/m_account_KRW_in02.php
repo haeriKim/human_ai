@@ -136,10 +136,16 @@
 
                         <form>
                           <input type="text" placeholder="0" class="send_money" maxlength="10" required><span>KRW</span>
-                          <input type="submit" name='submit' value="보내기" class="KRW_bt">
                         </form>
 
-                        <ul>
+                        <ul class="KRW_unit">
+                          <li>10만</li>
+                          <li>50만</li>
+                          <li>100만</li>
+                          <li>1000만</li>
+                        </ul>
+
+                        <ul class="KRW_warning_list">
                           <li>최소 입금 금액: 5,000원</li>
                           <li>입금 수수료: 무료</li>
                           <li>최대 입금 금액: 무제한</li>
@@ -149,7 +155,7 @@
                       </div>
 
                       <div class="KRW_bt_area2">
-                        <input type="button" name='button' value="다음" class="KRW_next">
+                        <input type="button" name='button' value="다음" class="next_bt">
                       </div>
 
                     </div><!-- assets_area End-->

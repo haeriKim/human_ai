@@ -119,7 +119,7 @@
                       </div>
 
                       <div class="KRW_bt_area">
-                        <input type="button" name='button' value="다음" class="KRW_next">
+                        <input type="button" name='button' onclick="location.href='m_account_KRW_in02.php'" value="다음" class="next_bt">
                       </div>
 
                   <!--    <div class="KRW_input">

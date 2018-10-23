@@ -130,19 +130,20 @@
 .my_assets_KRW01 .KRW_input .send_money{
   margin-top:10px;
   border:none;
-  border-bottom:1px solid #fff;
+  border-bottom:1px solid rgba(255,255,255,.6);
   background:none;
-  color:rgba(255,255,255,.6);
+  color:#fff;
   text-align:right;
   padding-right:5px;
   margin-left:5px;
-  width:60%;
+  width:84%;
   height:25px;
 }
 .my_assets_KRW01 .KRW_input span{
   margin:0 5px;
+  color:rgb(255,255,255,.3);
 }
-.my_assets_KRW01 .KRW_input .KRW_bt{
+.my_assets_KRW01 .KRW_input .next_bt{
   background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
   border: none;
   color: #fff;
@@ -154,12 +155,24 @@
   font-weight: 600;
   margin-left:5px;
 }
-.my_assets_KRW01 .KRW_input ul{
+.my_assets_KRW01 .KRW_input .KRW_unit{
+  padding-left:5px;
+}
+.my_assets_KRW01 .KRW_input .KRW_unit li{
+  font-size:12px;
+  padding:5px 10px;
+  border:1px solid #fff;
+  width:13%;
+  text-align:center;
+  float:left;
+  margin:20px 5px;
+}
+.my_assets_KRW01 .KRW_input .KRW_warning_list{
   margin:10px 20px;
   color:rgba(255,255,255,.3);
   width:95%;
 }
-.my_assets_KRW01 .KRW_input li{
+.my_assets_KRW01 .KRW_input .KRW_warning_list li{
   list-style: disc;
   float:left;
   width:50%;
@@ -170,7 +183,7 @@
 .my_assets_KRW01 .KRW_in .KRW_bt_area2{
   width:100%;
   text-align:center;
-  margin:80px 0;
+  margin:120px 0;
 }
 .my_assets_KRW01 .KRW_in .KRW_bt_area2 input{
   background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
