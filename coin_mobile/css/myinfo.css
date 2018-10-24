@@ -3,39 +3,37 @@
 .myinfo_area{
   padding: 7px 0;
 }
-
 .myinfo_area p{
   font-size:15px;
   color:#30afb8;
   margin-bottom:10px;
-  margin-left:15px;
+  margin-left:5%;
   font-weight:600;
 }
 .myinfo_area .info_h2{
   margin-top:20px;
 }
-.myinfo_area ul{
-  border-top:1px solid rgba(255, 255, 255, 0.2);
+.myinfo_area dl{
+  margin-top:10px;
+}
+.myinfo_area dt{
+  font-size:13px;
+  margin-top:10px;
+  padding-bottom:5px;
+  padding-top:10px;
+  padding-left:5%;
   background:#192331;
 }
-.myinfo_area .info_title{
+.myinfo_area dd{
   font-size:12px;
   color:rgba(255, 255, 255, 0.5);
-  padding-left:15px;
-  padding-top:5px;
-  padding-bottom:5px;
-}
-.myinfo_area .info{
-  font-size:13px;
-  padding-bottom:5px;
-  padding-left:15px;
-  border-bottom:1px solid rgba(255, 255, 255, 0.2);
+  padding-left:5%;
+  padding-bottom:10px;
+  background:#192331;
 }
 .myinfo_area .info2{
   font-size:13px;
   color:#f35531;
-  padding:10px 15px;
-}
-.myinfo_area li{
-
+  padding:10px 5%;
+  background:#192331;
 }

@@ -40,26 +40,23 @@
                     <div class="myinfo_area">
 
                           <p>회원정보</p>
-                          <ul>
-                            <li class="info_title">이메일주소</li>
-                            <li class="info user_mail">abc****3@****r.com</li>
+                          <dl>
+                            <dt class="info_title">이메일주소</dt>
+                            <dd class="info user_phone">abc****3@****r.com</dd>
 
-                            <li class="info_title">휴대폰번호</li>
-                            <li class="info user_phone">010-****-5678</li>
+                            <dt class="info_title">휴대폰 번호</dt>
+                            <dd class="info user_phone">010-****-1234</dd>
 
-                            <li class="info_title">이름</li>
-                            <li class="info user_name">가나다</li>
+                            <dt class="info_title">이름</dt>
+                            <dd class="info user_phone">가나다</dd>
 
-                            <li class="info_title">계좌정보</li>
-                            <li class="info user_account">국민은행 1234-********-11-123</li>
-
-                            <li class="info_title">인증현황</li>
-                            <li class="info user_level">Level 5 (OTP인증)</li>
+                            <dt class="info_title">계좌정보</dt>
+                            <dd class="info user_phone">국민은행 1234-********-11-123</dd>
 
                             <!--<li class="info_title">접속관리</li>
                             <li class="info">2018-10-24 최종 로그인</li>-->
 
-                          </ul>
+                          </dl>
 
                           <p class="info_h2">회원정보관리</p>
                           <ul>
