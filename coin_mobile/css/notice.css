@@ -1,0 +1,49 @@
+.notice_inner{
+  margin:0 auto;
+  width:100%;
+}
+.notice_inner p.notice_title{
+  color:#30afb8;
+  font-weight:600;
+  padding: 10px 15px;
+  background:#192331;
+  border-bottom:2px solid rgba(255, 255, 255, 0.2);
+}
+.notice_inner .notice_story{
+  font-size:12px;
+  padding: 10px 15px;
+  border-bottom:1px solid rgba(255, 255, 255, 0.2);
+}
+.notice_inner .notice_bt_area{
+  text-align:right;
+}
+.notice_inner .notice_bt_area .next_bt{
+  background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+  border: none;
+  color: #fff;
+  padding: 7px 0;
+  font-size: 13px;
+  width: 30%;
+  border-radius: 50px;
+  font-weight: 600;
+  margin:15px;
+}
+.notice_inner .next_story{
+  border-top:1px solid rgba(255, 255, 255, 0.2);
+  border-bottom:1px solid rgba(255, 255, 255, 0.2);
+}
+.notice_inner .next_story .prev_img{
+  background: url(../img/arrow_up_sky.png) no-repeat 70% center; background-size:10%;
+  width:20%;
+  color:#30afb8;
+}
+.notice_inner .next_story .next_img{
+  background: url(../img/arrow_down_sky.png) no-repeat 70% center; background-size:10%;
+  width:20%;
+  color:#30afb8;
+}
+.notice_inner .next_story p{
+  font-size:12px;
+  margin:10px 15px;
+  color:rgba(255, 255, 255,0.6);
+}

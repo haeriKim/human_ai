@@ -1,0 +1,36 @@
+/*마이페이지*/
+
+.myinfo_area{
+  padding: 7px 0;
+}
+
+.myinfo_area p{
+  font-size:15px;
+  color:#30afb8;
+  margin-bottom:10px;
+  margin-left:15px;
+  font-weight:600;
+}
+.myinfo_area .info_h2{
+  margin-top:20px;
+}
+.myinfo_area ul{
+  border-top:1px solid rgba(255, 255, 255, 0.2);
+  background:#192331;
+}
+.myinfo_area .info_title{
+  font-size:12px;
+  color:rgba(255, 255, 255, 0.5);
+  padding-left:15px;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+.myinfo_area .info{
+  font-size:13px;
+  padding-bottom:5px;
+  padding-left:15px;
+  border-bottom:1px solid rgba(255, 255, 255, 0.2);
+}
+.myinfo_area li{
+
+}
