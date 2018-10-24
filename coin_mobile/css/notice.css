@@ -9,26 +9,33 @@
   text-align: right;
 }
 .notice_area .notice_header select{
-  background: url(../img/arrow_down_sky.png) no-repeat 95% center; background-size:10%;
-  height:25px;
-  width:15%;
-  border:none;
-  color:#30afb8;
-  border-bottom:1px solid #30afb8;
-  margin-right:15px;
-
+  width: 90%;
+  color: #30afb8;
+  border: none;
+  border: 1px solid rgba(48,175,184,.3);
+  height: 35px;
+  line-height: 35px;
+  margin: 0 auto;
+  display: block;
+  text-align-last: center;
+  background: #070F19 url(../img/arrow_down_sky.png) no-repeat 95% center;
+}
+.notice_area .notice_header select option{
+  color: #30afb8;
 }
 .notice_area .notice_table_area{
   margin-top:5px;
 }
 .notice_area .notice_table_area .notice_table{
   width:100%;
+  margin-top:20px;
 }
 .notice_area .notice_table_area .notice_table th{
   font-size:14px;
   height:35px;
   color:rgba(255, 255, 255, 0.5);
   background:#192331;
+  font-weight:500;
 }
 .notice_area .notice_table_area .notice_table td{
   border-bottom:1px solid rgba(255, 255, 255, 0.2);
@@ -40,8 +47,9 @@
   padding-left:15px;
 }
 .notice_area .notice_table_area .notice_table .date{
-  font-size:75%;
   text-align:center;
+  opacity: 0.6;
+  font-size:11px;
 }
 .notice_area .contentBottom{
   margin:20px 0;

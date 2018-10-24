@@ -24,7 +24,7 @@
             <!-- header -->
             <div id="header2">
               <div class="headerTop">
-                <input type="button" class="back" onclick="location.href='m_account_main.php'"/>
+                <input type="button" class="back" onclick="location.href='m_moreView_notice.php'"/>
                 <h2 class="header_title">공지사항</h2>
                 <div class="alarm_area">
                   <img src="img/bell.png" class="alarmBtn" alt="알림버튼"/>

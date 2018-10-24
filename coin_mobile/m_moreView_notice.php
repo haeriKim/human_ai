@@ -24,7 +24,7 @@
             <!-- header -->
             <div id="header2">
               <div class="headerTop">
-                <input type="button" class="back" onclick="location.href='m_account_main.php'"/>
+                <input type="button" class="back" onclick="location.href='m_moreView.main.php'"/>
                 <h2 class="header_title">공지사항</h2>
                 <div class="alarm_area">
                   <img src="img/bell.png" class="alarmBtn" alt="알림버튼"/>
@@ -62,52 +62,52 @@
                           </thaed>
 
                           <tbody>
-                            <tr>
+                            <tr onclick="location.href='m_moreView_noticeS.php'">
                               <td class='notice_text'>[입출금] 월렛 업그레이드 8차 완료 (입금 주소 신규 발급 필수) - 전체 작업 완료</td>
                               <td class='date'>2018-10-17</td>
                             </tr>
 
-                            <tr>
+                            <tr onclick="location.href='m_moreView_noticeS.php'">
                               <td class='notice_text'>[입출금] 월렛 업그레이드 7차 완료 (입금 주소 신규 발급 필수)</td>
                               <td class='date'>2018-09-25</td>
                             </tr>
 
-                            <tr>
+                            <tr onclick="location.href='m_moreView_noticeS.php'">
                               <td class='notice_text'>[입출금] 월렛 업그레이드 6차 완료 (신규 입금 주소 발급 필요한 암호화폐 확인 필수)</td>
                               <td class='date'>2018-09-18</td>
                             </tr>
 
-                            <tr>
+                            <tr onclick="location.href='m_moreView_noticeS.php'">
                               <td class='notice_text'>[입출금] 월렛 업그레이드 8차 완료 (입금 주소 신규 발급 필수) - 전체 작업 완료</td>
                               <td class='date'>2018-09-05</td>
                             </tr>
 
-                            <tr>
+                            <tr onclick="location.href='m_moreView_noticeS.php'">
                               <td class='notice_text'>[안내] 암호화폐 및 예금 실사 보고서 결과를 공개합니다</td>
                               <td class='date'>2018-08-30</td>
                             </tr>
 
-                            <tr>
+                            <tr onclick="location.href='m_moreView_noticeS.php'">
                               <td class='notice_text'>[안내] 예금 실사 보고서 결과를 공개합니다</td>
                               <td class='date'>2018-08-27</td>
                             </tr>
 
-                            <tr>
+                            <tr onclick="location.href='m_moreView_noticeS.php'">
                               <td class='notice_text'>[이벤트] 디올 ISMS 인증 취득 기념 신규회원 가입자 대상 이더리움 지급 이벤트</td>
                               <td class='date'>2018-08-19</td>
                             </tr>
 
-                            <tr>
+                            <tr onclick="location.href='m_moreView_noticeS.php'">
                               <td class='notice_text'>[입출금] 월렛 업그레이드 6차 완료 (신규 입금 주소 발급 필요한 암호화폐 확인 필수)</td>
                               <td class='date'>2018-07-10</td>
                             </tr>
 
-                            <tr>
+                            <tr onclick="location.href='m_moreView_noticeS.php'">
                               <td class='notice_text'>[상장][이벤트][수정] 질리카 (ZIL) KRW 마켓 오픈 및 이벤트 안내</td>
                               <td class='date'>2018-07-02</td>
                             </tr>
 
-                            <tr>
+                            <tr onclick="location.href='m_moreView_noticeS.php'">
                               <td class='notice_text'>[안내] 예금 실사 보고서 결과를 공개합니다</td>
                               <td class='date'>2018-07-02</td>
                             </tr>
