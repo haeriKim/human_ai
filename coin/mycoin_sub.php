@@ -883,7 +883,7 @@
                                                         <input type="text" name="send_money" id='send_money' placeholder="0" required>
                                                             <span class='unit_KRW_fixed'>KRW</span>
                                                         </input>
-                                                        <span class='caution'>최소 입금 금액 : 5,000원</span>
+                                                        <span class='caution'>최소 입금 금액 : 없음</span>
                                                         <span class='caution sub_02'>입금 수수료 : 무료</span>
                                                         <span class='caution'>최대 입금 금액 : 무제한</span>
                                                         <span class='caution sub_04'>최초 입금 후 출금시간 : 72시간</span>
@@ -896,13 +896,13 @@
                                                             <input type="checkbox" id='number_01' class="agree_check_01">
                                                             <label for='number_01'>KRW를 처음 입금하시는 경우 3영업일(72시간) 동안 KRW 및 암호화폐의 출금이 제한됩니다.</label>
                                                             <input type="checkbox" id='number_02' class="agree_check_01">
-                                                            <label for='number_02'>최소 입금 요청 금액은 1,000원 이상입니다.</label>
+                                                            <label for='number_02'>최소 입금 금액은 따로 없습니다.</label>
                                                             <input type="checkbox" id='number_03' class="agree_check_01">
-                                                            <label for='number_03'>입금시 KRW는 1:1 비율로 입금됩니다. (100,000원 입금 100,000KRW 입금)</label>
+                                                            <label for='number_03'>입금시 KRW는 1:1 비율로 입금됩니다. (100,000원 입금 → 100,000KRW 입금)</label>
                                                             <input type="checkbox" id='number_04' class="agree_check_01">
-                                                            <label for='number_04'>은행 공통 점검 시간(매일 23:30~00:30)에는 입금이 불가능하거나 지연될 수 있습니다.</label>
+                                                            <label for='number_04'>은행점검 시간에는 입금이 불가능하거나 지연될 수 있습니다.</label>
                                                             <input type="checkbox" id='number_05' class="agree_check_01">
-                                                            <label for='number_05'>입금자명과 금액이 입금신청사항과 정확히 일치하는 경우, 입금 후 고객님의 계정에 반영되기까지 약 3분 정도 소요됩니다.</label>
+                                                            <label for='number_05'>은행점검 시간 : 매일(KST 23:00 ~ 01:05) / 매달 3째주 월요일 00:00 ~ 05:00</label>
 
                                                             <input type="checkbox" id='number_06' class="allAgree_01">
                                                             <label for='number_06' class='all_agree_01'>위의 입금시 주의사항에 모두 동의합니다.</label>
@@ -1017,11 +1017,11 @@
                                                             <input type="checkbox" id='number_07' class="agree_check_02">
                                                             <label for='number_07'>KRW를 처음 입금하시는 경우 3영업일(72시간) 동안 KRW 및 암호화폐의 출금이 제한됩니다.</label>
                                                             <input type="checkbox" id='number_08' class="agree_check_02">
-                                                            <label for='number_08'>출금 요청 완료 후, 약 5-30분 이내에 등록하신 은행계좌로 출금됩니다.</label>
+                                                            <label for='number_08'>출금 신청 완료 후, 약 5-30분 이내에 등록하신 은행계좌로 출금됩니다.</label>
                                                             <input type="checkbox" id='number_09' class="agree_check_02">
-                                                            <label for='number_09'>은행 공통 점검 시간(매일 23:30~00:30)에는 입금이 불가능하거나 지연될 수 있습니다.</label>
+                                                            <label for='number_09'>은행점검 시간에는 입금이 불가능하거나 지연될 수 있습니다.</label>
                                                             <input type="checkbox" id='number_10' class="agree_check_02">
-                                                            <label for='number_10'>출금 수수료: 1,000원 / 출금 최소 금액: 5,000원</label>
+                                                            <label for='number_10'>은행점검 시간 : 매일(KST 23:00 ~ 01:05) / 매달 3째주 월요일 00:00 ~ 05:00</label>
                                                             <input type="checkbox" id='number_11' class="agree_check_02">
                                                             <label for='number_11'>부정 거래가 의심되는 경우, 출금이 제한될 수 있습니다.</label>
 
@@ -1699,7 +1699,7 @@
                                 </tr>
                                 <tr>
                                     <th colspan="2">암호화폐</th>
-                                    <td>0원</td>
+                                    <td>무제한</td>
                                     <td>무제한</td>
                                     <td>무제한</td>
                                     <td>무제한</td>

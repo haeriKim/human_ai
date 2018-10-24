@@ -787,7 +787,7 @@ div.cancel_or_apply .if_you_all_agree:hover{
 
 /*input 경고메세지 스타일*/
 #warning_message{
-  color: #ff0000;
+  color: #d60000; /*원래 색 :#ff0000*/
   margin-top: 4px;
   font-size: 11px;
 }
