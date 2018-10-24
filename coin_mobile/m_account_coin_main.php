@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/account_KRW_main.css">
-    <link rel="stylesheet" href="css/account_main.css">
+    <link rel="stylesheet" href="css/account_money_main.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/common.js"></script>
@@ -47,14 +46,14 @@
                           <ul class="asset all_assets">
                             <li class='border_bottom_none'>
                                 <p class='mywallet_title'>총 보유자산</p>
-                                <p class="up_down_data mywallet_amount">8,123.60<span>KRW</span></p>
+                                <p class="up_down_data mywallet_amount">37,492.60<span>BTC</span></p>
                                 <div class='notification_wrap'>
                                     <p class='notification notification_01'>거래대기</p>
-                                    <p class='notification notification_a_01'>2,992.99 KRW</p>
+                                    <p class='notification notification_a_01'>1,002.32 BTC</p>
                                 </div>
                                 <div class='notification_wrap'>
                                     <p class='notification notification_02'>출금가능</p>
-                                    <p class='notification notification_a_02'>381.02 KRW</p>
+                                    <p class='notification notification_a_02'>221.98 BTC</p>
                                 </div>
                             </li>
                             <li class='button_li'>
@@ -69,7 +68,7 @@
                     <!-- input_output_list -->
                     <div class="input_output_list">
                         <ul class='list_ul'>
-                            <li onclick="location.href='m_account_KRW_detail.php'">
+                            <li onclick="location.href='m_account_coin_detail.php'">
                                 <div class="list_li_row">
                                     <p class='list_condition'>입금 <span class='waiting'>대기중</span></p>
                                     <p class='list_amount'>10 BTC</p>
@@ -83,7 +82,7 @@
                             <li>
                                 <div class="list_li_row">
                                     <p class='list_condition'>출금 <span class='waiting'>대기중</span></p>
-                                    <p class='list_amount'>1,000 BTC</p>
+                                    <p class='list_amount'>0.003 BTC</p>
                                 </div>
                                 <div class="list_li_row">
                                     <p class='list_time'>2018-09-05 11:23:45</p>

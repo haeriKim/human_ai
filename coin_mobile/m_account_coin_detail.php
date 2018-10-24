@@ -45,7 +45,7 @@
 
                             <tr>
                               <th>구분</th>
-                              <td>원화(KRW) 입금</td>
+                              <td>비트코인(KRW) 입금</td>
                             </tr>
 
                             <tr>
@@ -53,34 +53,39 @@
                               <td class='waiting'>대기중</td>
                             </tr>
 
-                            <tr>
+                            <!-- <tr>
                               <th>등록한 계좌정보</th>
-                              <td>신한은행 11*********444</td>
+                              <td>신한은행 111-222-333444</td>
                             </tr>
 
                             <tr>
                               <th>입금자명</th>
-                              <td class='waiting'>가나다1234</td>
+                              <td>가나다</td>
+                            </tr> -->
+
+                            <tr>
+                              <th>코인 입금주소</th>
+                              <td>ewearch&sm=top_hty&fbm=1%ie-itf8query1654848468654564=</td>
                             </tr>
 
                             <tr>
                               <th>입금신청금액</th>
-                              <td>1,000 KRW</td>
+                              <td>10 BTC</td>
                             </tr>
 
-                            <tr>
+                            <!-- <tr>
                               <th>입금할 계좌정보</th>
-                              <td class='waiting'>신한은행 555-666-777888</td>
+                              <td class='apply_buy'>신한은행 555-666-777888</td>
                             </tr>
 
                             <tr>
                               <th>예금주</th>
-                              <td>디올스</td>
-                            </tr>
+                              <td>더올스</td>
+                            </tr> -->
 
                             <tr>
                               <th>수수료</th>
-                              <td>0 KRW</td>
+                              <td>0 BTC</td>
                             </tr>
                         </tbody>
 
@@ -88,7 +93,7 @@
 
 
                         <div class="KRW_warning">
-                          <p>※ 반드시 발급된 입금자명으로 입금해주세요.</p>
+                          <p>※ 반드시 지갑 주소를 정확하게 입력해 주세요.</p>
                         </div>
                       </div>
 

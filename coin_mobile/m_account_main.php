@@ -81,7 +81,7 @@
                               <td><p class='mycoin_data fr'><span>110,00,000</span> KRW</p></td>
 
                             </tr>
-                            <tr>
+                            <tr onclick="location.href='m_account_coin_main.php'">
                               <td class="mycoin_name">
                                 <img src="img/bitcoin.png" alt="비트코인아이콘">
                                 <p>
