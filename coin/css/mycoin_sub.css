@@ -157,7 +157,7 @@ table .mycoin_tbody_deco>tr>td>img{
   padding: 3px 10px;
 }
 .ready_data{
-  color:#d60000;
+  color:#f00;
 }
 .mycoin_thead_deco .first_chart_icon{
    /*background: url(../img/side_arrow.png) no-repeat center right;*/
@@ -326,7 +326,7 @@ table .mycoin_tbody_deco>tr>td>img{
     width: 5px;
     height: 5px;
     border-radius: 50%;
-    background-color: #d60000;
+    background-color: #f00;
     margin-right: 10px;
     vertical-align: 2px;
 }
