@@ -150,6 +150,9 @@
   line-height:40px;
   box-sizing: border-box;
 }
+.gnb_tab li.tab_KRW {
+  width: 100%;
+}
 .gnb_tab li.on {
   border-top: 3px solid #30afb8;
 
