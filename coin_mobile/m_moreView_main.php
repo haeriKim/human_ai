@@ -34,9 +34,33 @@
                 </div> <!-- header End-->
             </div><!-- header_wrap End-->
 
-            <div class="">
+            <!-- moreView_content_wrap -->
+            <div class="moreView_content_wrap">
+                <ul>
+                    <li onclick="location.href='m_moreView_myinfo.php'" class='user_info_li'>
+                        <p class='user_mail waiting'>abc@naver.com</p>
+                        <img src="img/m_gothru.png" alt="자세히" class='gothru'>
+                    </li>
+                    <li>
+                        <p>인증센터</p>
+                        <img src="img/m_gothru.png" alt="자세히" class='gothru'>
+                    </li>
+                    <li>
+                        <p>공지사항</p>
+                        <img src="img/m_gothru.png" alt="자세히" class='gothru'>
+                    </li>
+                    <li>
+                        <p>고객지원</p>
+                        <img src="img/m_gothru.png" alt="자세히" class='gothru'>
+                    </li>
+                    <li>
+                        <p>이용약관 / 개인정보처리방침</p>
+                        <img src="img/m_gothru.png" alt="자세히" class='gothru'>
+                    </li>
+                </ul>
+                <input type="button" name="logout" value="로그아웃" class='log_out apply_buy'>
+            </div><!-- moreView_content_wrap End-->
 
-            </div>
             <!-- nav -->
             <?php include "nav.php";?>
             <!-- nav End-->

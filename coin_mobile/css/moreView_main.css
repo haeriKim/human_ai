@@ -1,0 +1,27 @@
+@media all and (min-width:320px) and (max-width:768px){
+    .moreView_content_wrap{
+        font-size: 14px;
+        margin-top: 60px;
+    }
+    .moreView_content_wrap ul li{
+        background: #192331;
+        padding: 17px 5%;
+        position: relative;
+        margin: 10px 0;
+        vertical-align: middle;
+    }
+    .moreView_content_wrap ul li img.gothru{
+        position: absolute;
+        right: 5%;
+        top: 18.15px;
+        width: 10px;
+    }
+    .moreView_content_wrap input.log_out{
+        background: #192331;
+        padding: 15px 5%;
+        border: none;
+        margin-top: 20px;
+        display: block;
+        width: 100%;
+    }
+}
