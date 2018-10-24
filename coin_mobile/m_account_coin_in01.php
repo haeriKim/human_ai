@@ -43,26 +43,26 @@
                         <ul class="asset all_assets">
                           <li class='border_bottom_none'>
                               <p class='mywallet_title'>총 보유자산</p>
-                              <p class="up_down_data mywallet_amount">8,123.60<span>KRW</span></p>
+                              <p class="up_down_data mywallet_amount">374,92.60<span>BTC</span></p>
                               <div class='notification_wrap'>
                                   <p class='notification notification_01'>거래대기</p>
-                                  <p class='notification notification_a_01'>2,992.99 KRW</p>
+                                  <p class='notification notification_a_01'>1,002.32 BTC</p>
                               </div>
                               <div class='notification_wrap'>
                                   <p class='notification notification_02'>출금가능</p>
-                                  <p class='notification notification_a_02'>381.02 KRW</p>
+                                  <p class='notification notification_a_02'>221.98 BTC</p>
                               </div>
                           </li>
                           <li class='button_li'>
                               <a href="#">입금하기</a>
-                              <a href="#">출금하기</a>
+                              <a href="m_account_coin_out01.php">출금하기</a>
                           </li>
                         </ul>
                       </div>
                     </div>
 
 
-                      <div class="coin_in">
+                      <div class="coin_inout">
                         <div class="qr_code">
                           <img src="img/qr_code.png" alt="qr코드">
                         </div>
@@ -72,7 +72,7 @@
                           <tbody>
 
                             <tr>
-                              <td>ewercwsd02s8rch&sm=top_hty&fbm=18468654564=</td>
+                              <td>ewercwsd02s8rch&sm=top_hty&fbm=18564=@os</td>
                             </tr>
 
                           </tbody>
@@ -85,7 +85,7 @@
 
 
                         <div class="coin_warning">
-                          <p>입금신청 주의사항</p>
+                          <p><img src="img/m_check.png" alt="체크아이콘">입금신청 주의사항</p>
                           <ul>
                             <li>KRW를 처음 입금하시는 경우 3영업일(72시간) 동안 KRW 및 암호화폐의 출금이 제한됩니다.</li>
                             <li>외부 지갑으로부터 위의 주소로 암호화폐를 전송하게되면 회원님의 전자지갑에 반영됩니다.</li>
@@ -96,9 +96,7 @@
                         </div>
                       </div>
 
-                      <div class="coin_bt_area">
-                        <input type="button" name='button' onclick="location.href='m_account_KRW_in02.php'" value="다음" class="next_bt">
-                      </div>
+
 
 
                     </div><!-- assets_area End-->

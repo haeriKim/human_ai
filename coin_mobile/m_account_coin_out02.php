@@ -42,15 +42,15 @@
                       <div class="assetBox">
                         <ul class="asset all_assets">
                           <li class='border_bottom_none'>
-                              <p class='mywallet_title'>총 보유자산</p>
-                              <p class="up_down_data mywallet_amount">8,123.60<span>KRW</span></p>
-                              <div class='notification_wrap'>
-                                  <p class='notification notification_01'>거래대기</p>
-                                  <p class='notification notification_a_01'>2,992.99 KRW</p>
-                              </div>
-                              <div class='notification_wrap'>
-                                  <p class='notification notification_02'>출금가능</p>
-                                  <p class='notification notification_a_02'>381.02 KRW</p>
+                            <p class='mywallet_title'>총 보유자산</p>
+                            <p class="up_down_data mywallet_amount">374,92.60<span>BTC</span></p>
+                            <div class='notification_wrap'>
+                                <p class='notification notification_01'>거래대기</p>
+                                <p class='notification notification_a_01'>1,002.32 BTC</p>
+                            </div>
+                            <div class='notification_wrap'>
+                                <p class='notification notification_02'>출금가능</p>
+                                <p class='notification notification_a_02'>221.98 BTC</p>
                               </div>
                           </li>
                           <li class='button_li'>
@@ -61,32 +61,42 @@
                       </div>
                     </div>
 
+                    <div class="coin_inout">
+                     <div class="coin_input_outout">
 
-                    <div class="coin_in">
-                     <div class="coin_input">
+                        <p class="title">출금할 금액</p>
+
                         <form>
-                          <p>코인 출금 주소</p>
-                            <input type="text" placeholder="출금 주소를 입력하세요." class="send_money" maxlength="30" required>
-                          <p>출금 신청금액</p>
-                            <input type="text" placeholder="0" class="send_money" required>
-                          <p>보안 비밀번호</p>
-                            <input type="text" placeholder="보안비밀번호를 입력하세요." class="send_money" maxlength="4" required>
-                          <p>OTP 인증번호</p>
-                            <input type="text" placeholder="인증번호를 입력하세요." class="send_money" maxlength="6" required>
+                          <input type="text" placeholder="0" class="send_money" maxlength="10" required><span>BTC</span>
 
+
+                        <div class="coin_unit">
+                          <input type="button" value="10만" class="priceBtn"/>
+                          <input type="button" value="50만" class="priceBtn"/>
+                          <input type="button" value="100만" class="priceBtn"/>
+                          <input type="button" value="1000만" class="priceBtn"/>
+                        </div>
+
+                        <p class="input_title">코인출금 주소</p>
+                          <input type="text" placeholder="출금할 코인 주소를 입력하세요." class="security_num step" required>
+                        <p class="input_title">보안 비밀번호</p>
+                          <input type="text" placeholder="보안비밀번호를 입력하세요." class="security_num step" maxlength="4" required>
+                        <p class="input_title">OTP 인증번호</p>
+                          <input type="text" placeholder="OTP 인증번호를 입력하세요." class="otp_num step" maxlength="4" required>
                         </form>
 
                         <ul class="coin_warning_list">
                           <li>출금 수수료: 0.0005 BTC</li>
                           <li>실제 출금금액: -0.0005 BTC</li>
+
                         </ul>
-
                       </div>
 
                       </div>
 
-                      <div class="coin_bt_area2">
-                        <input type="button" name='button' value="다음" class="next_bt">
+
+                      <div class="coin_bt_area">
+                        <input type="button" name='button' onclick="location.href='m_account_coin_out03.php'" value="다음" class="next_bt">
                       </div>
 
 

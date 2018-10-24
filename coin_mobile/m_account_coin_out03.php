@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/account_coin.css">
-    <link rel="stylesheet" href="css/account_coin_out03.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/common.js"></script>
@@ -38,20 +37,20 @@
             <div class="mycoin_content_wrap">
                 <!-- m_mycoin_main -->
                 <div class="content">
-                    <div class="account_area my_assets my_assets_KRW03">
+                    <div class="account_area my_assets my_assets_coin03">
                       <div class="box">
                       <div class="assetBox">
                         <ul class="asset all_assets">
                           <li class='border_bottom_none'>
-                              <p class='mywallet_title'>총 보유자산</p>
-                              <p class="up_down_data mywallet_amount">8,123.60<span>KRW</span></p>
-                              <div class='notification_wrap'>
-                                  <p class='notification notification_01'>거래대기</p>
-                                  <p class='notification notification_a_01'>2,992.99 KRW</p>
-                              </div>
-                              <div class='notification_wrap'>
-                                  <p class='notification notification_02'>출금가능</p>
-                                  <p class='notification notification_a_02'>381.02 KRW</p>
+                            <p class='mywallet_title'>총 보유자산</p>
+                            <p class="up_down_data mywallet_amount">374,92.60<span>BTC</span></p>
+                            <div class='notification_wrap'>
+                                <p class='notification notification_01'>거래대기</p>
+                                <p class='notification notification_a_01'>1,002.32 BTC</p>
+                            </div>
+                            <div class='notification_wrap'>
+                                <p class='notification notification_02'>출금가능</p>
+                                <p class='notification notification_a_02'>221.98 BTC</p>
                               </div>
                           </li>
                         </ul>
@@ -59,19 +58,19 @@
                     </div>
 
 
-                      <div class="KRW_in">
+                      <div class="coin_inout">
                         <p>출금 정보</p>
-                        <table class="KRW_in_table">
+                        <table class="coin_table">
                           <tbody>
 
                             <tr class='coin_address'>
-                              <th>나의 비트코인 주소</th>
-                              <td>3K7pY2JZrvkda5ZN35WjZf79jfqqx4JmRJ</td>
+                              <th>코인 주소</th>
+                              <td>3K7pN35WjZf79jfqqx4JmRJ</td>
                             </tr>
 
                             <tr class='coin_address'>
-                              <th>비트코인 출금 주소</th>
-                              <td>3K7pY2JZrvkda5ZN35WjZf79jfqqx4JmRJ</td>
+                              <th>출금 주소</th>
+                              <td>3K7pN35WjZf79jfqqx4JmRJ</td>
                             </tr>
 
                             <tr>
@@ -89,14 +88,14 @@
                         </table>
 
 
-                        <div class="KRW_warning">
+                        <div class="coin_warning">
 
 
                         </div>
                       </div>
 
-                      <div class="KRW_bt_area">
-                        <input type="button" name='button' onclick="location.href='m_account_KRW_in04.php'" value="완료" class="next_bt">
+                      <div class="coin_bt_area">
+                        <input type="button" name='button' onclick="location.href='m_account_KRW_in04.php'" value="출금신쳥" class="next_bt">
                       </div>
 
 
