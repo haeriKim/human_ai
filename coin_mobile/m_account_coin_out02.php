@@ -82,8 +82,8 @@
                         </form>
 
                         <ul class="coin_warning_list">
-                          <li>출금 수수료: 0.0005 BTC</li>
-                          <li>실제 출금금액: -0.0005 BTC</li>
+                          <li>- 출금 수수료: 0.0005 BTC</li>
+                          <li>- 실제 출금금액: -0.0005 BTC</li>
 
                         </ul>
                       </div>

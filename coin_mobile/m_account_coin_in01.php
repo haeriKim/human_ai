@@ -92,7 +92,7 @@
                         </div>
                       </div>
 
-
+                      <div class="none_box"></div>
 
 
                     </div><!-- assets_area End-->

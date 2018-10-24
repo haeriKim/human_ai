@@ -11,6 +11,7 @@
 }
 .account_area .coin_inout p img {
   margin-right: 5px;
+  vertical-align: -1px;
 }
 .account_area .coin_inout table{
   font-size:13px;
@@ -92,6 +93,9 @@
   padding:10px;
   border:1px solid rgba(255,255,255,.2);
   margin-bottom:10px;
+}
+.none_box{
+  height:20px;
 }
 
 /*coin_warning (Step1)*/
