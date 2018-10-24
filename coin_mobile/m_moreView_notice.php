@@ -37,42 +37,101 @@
             <div class="mycoin_content_wrap">
                 <!-- m_mycoin_main -->
                 <div class="content">
-                    <div class="notice_inner">
+                    <div class="notice_area">
 
-                          <p class="notice_title">[안내] 개인정보 처리방침 변경 안내</p>
-                          <div class="notice_story">
-                            <span>안녕하세요 ○○입니다.</span><br/>
-                            <br/>
-                            <span>모바일웹 업데이트가 완료되어,</span><br/>
-                            <span>이제 모바일웹 사용자 분들도 PC 및 앱과 동일하게 모든 기능을 이용하실 수 있습니다.</span><br/>
-                            <br/>
-                            <span>[업데이트된 기능 안내]</span><br/>
-                            <br/>
-                            <span>1) 입출금 - 모바일 출금 지원</span><br/>
-                            <span>모바일웹에서 원화 및 암호화폐의 출금이 지원됩니다.</span><br/>
-                            <span>모바일웹 우측 상단 메뉴 > 입출금에서 이용하실 수 있습니다.</span><br/>
-                            <span>보안정책상, 모바일 출금은 원화/암호화폐 모두 보안등급 레벨 4부터 가능합니다.</span><br/>
-                            <span>입금은 기존 정책과 동일하게 이용가능합니다.</span><br/>
-                            <span>*모바일 출금 기능은 아이폰 및 안드로이드 앱에도 곧 업데이트될 예정입니다.</span><br/>
-                            <br/>
-                            <span>기다려주신 모바일웹 사용자 여러분께 감사드리며,</span><br/>
-                            <span>앞으로 더욱 개선된 거래환경 제공을 위해 최선을 다하겠습니다.</span><br/>
-                            <span>감사합니다.</span><br/>
-                            <br/>
-                            <span>[업데이트된 기능 안내]</span><br/>
-                          </div>
+                      <div class="notice_header">
+                          <select name="notice" id="notice_select">
+                            <option value="전체">전체</option>
+                            <option value="전체">안내</option>
+                            <option value="전체">입출금</option>
+                            <option value="전체">거래</option>
+                          </select>
+                      </div>
 
-                          <div class="next_story">
-                            <ul>
-                                <li><a href=""><p class="prev_img">이전글</p><p>[거래] 원화 마켓 신규 상장(베이직어텐션토큰 BAT, 애드엑스 ADX, 애드토큰 ADT)</p></a></li>
-                                <li><a href=""><p class="next_img">다음글</p><p>[입출금] 윌렛 업그레이드 6차 완료(신규 입금 주소 발급 필요한 암호화폐 확인 필수)</p></a></li>
-                            </ul>
-                          </div>
+                      <div class="notice_table_area">
+                        <table class="notice_table">
+                          <colgroup>
+                            <col width="75%">
+                            <col widht="25%">
+                          </colgroup>
+                          <thaed>
+                            <tr>
+                              <th>제목</th>
+                              <th>작성일</th>
+                            </tr>
+                          </thaed>
 
-                          <div class="notice_bt_area">
-                            <input type="button" name='button' value="목록으로" class="next_bt">
-                          </div>
+                          <tbody>
+                            <tr>
+                              <td class='notice_text'>[입출금] 월렛 업그레이드 8차 완료 (입금 주소 신규 발급 필수) - 전체 작업 완료</td>
+                              <td class='date'>2018-10-17</td>
+                            </tr>
 
+                            <tr>
+                              <td class='notice_text'>[입출금] 월렛 업그레이드 7차 완료 (입금 주소 신규 발급 필수)</td>
+                              <td class='date'>2018-09-25</td>
+                            </tr>
+
+                            <tr>
+                              <td class='notice_text'>[입출금] 월렛 업그레이드 6차 완료 (신규 입금 주소 발급 필요한 암호화폐 확인 필수)</td>
+                              <td class='date'>2018-09-18</td>
+                            </tr>
+
+                            <tr>
+                              <td class='notice_text'>[입출금] 월렛 업그레이드 8차 완료 (입금 주소 신규 발급 필수) - 전체 작업 완료</td>
+                              <td class='date'>2018-09-05</td>
+                            </tr>
+
+                            <tr>
+                              <td class='notice_text'>[안내] 암호화폐 및 예금 실사 보고서 결과를 공개합니다</td>
+                              <td class='date'>2018-08-30</td>
+                            </tr>
+
+                            <tr>
+                              <td class='notice_text'>[안내] 예금 실사 보고서 결과를 공개합니다</td>
+                              <td class='date'>2018-08-27</td>
+                            </tr>
+
+                            <tr>
+                              <td class='notice_text'>[이벤트] 디올 ISMS 인증 취득 기념 신규회원 가입자 대상 이더리움 지급 이벤트</td>
+                              <td class='date'>2018-08-19</td>
+                            </tr>
+
+                            <tr>
+                              <td class='notice_text'>[입출금] 월렛 업그레이드 6차 완료 (신규 입금 주소 발급 필요한 암호화폐 확인 필수)</td>
+                              <td class='date'>2018-07-10</td>
+                            </tr>
+
+                            <tr>
+                              <td class='notice_text'>[상장][이벤트][수정] 질리카 (ZIL) KRW 마켓 오픈 및 이벤트 안내</td>
+                              <td class='date'>2018-07-02</td>
+                            </tr>
+
+                            <tr>
+                              <td class='notice_text'>[안내] 예금 실사 보고서 결과를 공개합니다</td>
+                              <td class='date'>2018-07-02</td>
+                            </tr>
+
+                          </tbody>
+                        </table>
+
+                        <div class="contentBottom">
+                            <div class="paging">
+                                <a href="#" title="prev"><img src="img/p_first.png" alt='첫페이지로 가기'></a>
+                                <a href="#" title="prev"><img src="img/p_prev.png" alt='이전페이지로 가기'></a>
+                                <a href="#" title="1page" class="selected">1</a>
+                                <a href="#" title="2page">2</a>
+                                <a href="#" title="3page">3</a>
+                                <a href="#" title="4page">4</a>
+                                <a href="#" title="5page">5</a>
+                                <a href="#" title="next"><img src="img/p_next.png" alt='다음페이지로 가기'></a>
+                                <a href="#" title="next"><img src="img/p_end.png" alt='마지막페이지로 가기'></a>
+                            </div>
+                        </div><!-- 페이징 -->
+
+                        <div class="none_box"></div>
+
+                      </div>
 
                     </div><!-- assets_area End-->
                 </div><!-- m_mycoin_main End-->

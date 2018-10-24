@@ -24,7 +24,7 @@
             <!-- header -->
             <div id="header2">
               <div class="headerTop">
-                <input type="button" class="back" onclick="location.href='m_account_main.php'"/>
+                <input type="button" class="back" onclick="location.href='m_moreView_main.php'"/>
                 <h2 class="header_title">회원정보</h2>
                 <div class="alarm_area">
                   <img src="img/bell.png" class="alarmBtn" alt="알림버튼"/>
@@ -50,6 +50,9 @@
                             <li class="info_title">이름</li>
                             <li class="info user_name">가나다</li>
 
+                            <li class="info_title">계좌정보</li>
+                            <li class="info user_account">국민은행 1234-********-11-123</li>
+
                             <li class="info_title">인증현황</li>
                             <li class="info user_level">Level 5 (OTP인증)</li>
 
@@ -58,10 +61,9 @@
 
                           </ul>
 
-                          <p class="info_h2">회원정보</p>
+                          <p class="info_h2">회원정보관리</p>
                           <ul>
-                            <li class="info_title">회원정보관리</li>
-                            <li class="info">회원정보 관리 및 변경은 웹(PC)에서 가능 합니다.</li>
+                            <li class="info info2">회원정보 관리 및 변경은 웹(PC)에서 가능 합니다.</li>
                           </ul>
 
 

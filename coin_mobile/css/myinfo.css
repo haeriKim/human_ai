@@ -31,6 +31,11 @@
   padding-left:15px;
   border-bottom:1px solid rgba(255, 255, 255, 0.2);
 }
+.myinfo_area .info2{
+  font-size:13px;
+  color:#f35531;
+  padding:10px 15px;
+}
 .myinfo_area li{
 
 }
