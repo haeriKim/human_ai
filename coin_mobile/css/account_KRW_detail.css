@@ -16,10 +16,11 @@
 .account_area .list_detail table th{
     text-align: center;
     border-right: 1px solid rgba(255,255,255,.2);
-    width: 37%;
+    width: 40%;
     padding-left: 5px;
     background: #192331;
     opacity: 0.6;
+    font-weight: 500;
 }
 .account_area .list_detail table .KRW_table_title{
   background:none;
@@ -27,8 +28,7 @@
 }
 .account_area .list_detail table td{
     text-align: left;
-    width: 63%;
-    padding-left: 5px;
+    padding-left: 7px;
     border: 1px solid rgba(255,255,255,.2);
 }
 .list_detail .KRW_warning p{
