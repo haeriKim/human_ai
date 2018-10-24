@@ -1,5 +1,5 @@
 .privacyPpolicy_area {
-  padding: 5px 10px;
+  padding: 5px 15px;
   margin: 90px auto 60px;
 }
 .privacyPpolicy_area .use_area_text{
@@ -11,7 +11,8 @@
   font-size:14px;
   font-weight:600;
   color:#30afb8;
-  margin:20px 0;
+  margin:10px 0 15px;
+  text-align: center;
 }
 .privacyPpolicy_area .use_area_text .title_title{
   color: #30afb8;

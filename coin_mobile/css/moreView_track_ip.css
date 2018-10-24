@@ -1,7 +1,7 @@
 @media all and (min-width:320px) and (max-width:768px){
     .moreView_trackIp_wrap{
         font-size: 13px;
-        margin-top: 45px;
+        margin: 45px auto 60px;
     }
     .moreView_trackIp_wrap .trackIp_table thead tr{
         background: #192331;
@@ -9,6 +9,7 @@
     .moreView_trackIp_wrap .trackIp_table thead tr th{
         opacity: 0.6;
         height: 35px;
+        font-weight: 500;
     }
     .moreView_trackIp_wrap .trackIp_table tbody tr td{
         height: 50px;

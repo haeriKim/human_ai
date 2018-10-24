@@ -70,7 +70,7 @@
                           </div>
 
                           <div class="notice_bt_area">
-                            <input type="button" name='button' value="목록으로" class="next_bt">
+                            <input type="button" name='button' value="목록으로" onclick="location.href='m_moreView_notice.php'"class="next_bt">
                           </div>
 
 

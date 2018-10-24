@@ -31,7 +31,7 @@
   margin-top:20px;
 }
 .notice_area .notice_table_area .notice_table th{
-  font-size:14px;
+  font-size:12px;
   height:35px;
   color:rgba(255, 255, 255, 0.5);
   background:#192331;
@@ -80,7 +80,8 @@
   font-weight:600;
   padding: 10px 15px;
   background:#192331;
-  border-bottom:2px solid rgba(255, 255, 255, 0.2);
+  border-bottom:1px solid rgba(255, 255, 255, 0.2);
+  font-size: 14px;
 }
 .notice_inner .notice_story{
   font-size:12px;
@@ -97,7 +98,6 @@
   font-size: 13px;
   width: 30%;
   border-radius: 50px;
-  font-weight: 600;
   margin:15px 0;
 }
 .notice_inner .next_story{
@@ -107,19 +107,16 @@
   background:#192331;
   margin-top:10px;
 }
-.notice_inner .next_story .prev_img{
+.notice_inner .next_story .prev_img, .notice_inner .next_story .next_img{
   background: url(../img/arrow_up_sky.png) no-repeat 90% center;
-  background-size: 10%;
+  background-size: 6px;
   width: 15%;
   color: #30afb8;
   float: left;
 }
 .notice_inner .next_story .next_img{
-  background: url(../img/arrow_up_sky.png) no-repeat 90% center;
-  background-size: 10%;
-  width: 15%;
-  color: #30afb8;
-  float: left;
+  background: url(../img/arrow_down_sky.png) no-repeat 90% 6px;
+  background-size: 6px;
 }
 .notice_inner .next_story li:nth-child(1){
   border-bottom:1px solid rgba(255, 255, 255,0.2);

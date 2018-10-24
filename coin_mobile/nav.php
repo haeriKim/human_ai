@@ -25,7 +25,7 @@
               </a>
             </li>
             <li>
-              <a href='#'>
+              <a href='m_moreView_main.php'>
                 <!-- <img src="img/seemore_on.png" alt="더보기아이콘" class="nav_on"/> -->
                 <img src="img/seemore_off.png" alt="더보기아이콘" class="nav_off"/>
                 <p>더보기</p>
