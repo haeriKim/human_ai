@@ -18,9 +18,11 @@
     line-height: 1.7;
 }
 .input_output_list .list_ul li img{
-    position: absolute;
-    top: 21.5px;
-    right: 3%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 19.5px;
+  right: 3%;
 }
 .input_output_list .list_ul li p.list_condition{
     float: left;

@@ -77,7 +77,7 @@
                                     <p class='list_time'>2018-09-06 23:11:11</p>
                                     <p class='list_charge'>수수료 0 KRW</p>
                                 </div>
-                                <img src="img/seemore_off.png" alt="자세히" width="20px" height="20px">
+                                <img src="img/more_view4.png" alt="자세히" width="20px" height="20px">
                             </li>
                             <li>
                                 <div class="list_li_row">
@@ -88,7 +88,7 @@
                                     <p class='list_time'>2018-09-05 11:23:45</p>
                                     <p class='list_charge'>수수료 0 KRW</p>
                                 </div>
-                                <img src="img/seemore_off.png" alt="자세히" width="20px" height="20px">
+                                <img src="img/more_view4.png" alt="자세히" width="20px" height="20px">
                             </li>
                         </ul>
                     </div><!-- input_output_list End-->
