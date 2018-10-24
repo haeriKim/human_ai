@@ -75,21 +75,22 @@
   text-align:right;
 }
 .my_assets_coin01 .coin_inout .copy_bt input{
-  border:1px solid #fff;
-  background:none;
-  color:#fff;
-  padding:5px 10px;
-  font-size:12px;
+  border-radius: 50px;
+  border: 1px solid #30AFB8;
+  background: none;
+  color: #30AFB8;
+  display: inline-block;
+  padding: 2px 8px;
 }
 .my_assets_coin01 .coin_inout .qr_code{
   width:100%;
   text-align: center;
 }
 .my_assets_coin01 .coin_inout .qr_code img{
-  width:80px;
-  height:80px;
+  width:100px;
+  height:100px;
   padding:10px;
-  border:1px solid #fff;
+  border:1px solid rgba(255,255,255,.2);
   margin-bottom:10px;
 }
 
