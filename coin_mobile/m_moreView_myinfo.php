@@ -42,16 +42,19 @@
                           <p>회원정보</p>
                           <dl>
                             <dt class="info_title">이메일주소</dt>
-                            <dd class="info user_phone">abc****3@****r.com</dd>
+                            <dd class="info user_phone">abc@naver.com</dd>
 
                             <dt class="info_title">휴대폰 번호</dt>
                             <dd class="info user_phone">010-****-1234</dd>
 
                             <dt class="info_title">이름</dt>
-                            <dd class="info user_phone">가나다</dd>
+                            <dd class="info user_phone">가*다</dd>
 
                             <dt class="info_title">계좌정보</dt>
                             <dd class="info user_phone">국민은행 1234-********-11-123</dd>
+
+                            <dt class="info_title">인증레벨</dt>
+                            <dd class="info user_level">Level 5 (OTP인증)</dd>
 
                             <!--<li class="info_title">접속관리</li>
                             <li class="info">2018-10-24 최종 로그인</li>-->
