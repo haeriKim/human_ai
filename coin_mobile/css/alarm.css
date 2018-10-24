@@ -1,0 +1,84 @@
+/*알람*/
+.alarm_area .alarm_header{
+  height:25px;
+  padding:5px 0;
+  text-align: right;
+}
+.alarm_area .alarm_header select{
+  width: 90%;
+  color: #30afb8;
+  border: none;
+  border: 1px solid rgba(48,175,184,.3);
+  height: 35px;
+  line-height: 35px;
+  margin: 0 auto;
+  display: block;
+  text-align-last: center;
+  background: #070F19 url(../img/arrow_down_sky.png) no-repeat 95% center;
+}
+.alarm_area .alarm_header select option{
+  color: #30afb8;
+}
+.alarm_area .alarm_table_area{
+  margin-top:5px;
+}
+.alarm_area .alarm_table_area .alarm_table{
+  width:100%;
+  margin-top:20px;
+}
+.alarm_area .alarm_table_area .alarm_table th{
+  font-size:14px;
+  height:35px;
+  color:rgba(255, 255, 255, 0.5);
+  background:#192331;
+  font-weight:500;
+}
+.alarm_area .alarm_table_area .alarm_table td{
+  border-bottom:1px solid rgba(255, 255, 255, 0.2);
+  height:50px;
+}
+.alarm_area .alarm_table_area .alarm_table .alarm_text{
+  font-size:75%;
+  text-align:left;
+  padding-left:15px;
+}
+.alarm_area .alarm_table_area .alarm_table .alarm_output{
+  color:#01a9ff;
+}
+.alarm_area .alarm_table_area .alarm_table .alarm_masu{
+  color:#f35531;
+}
+.alarm_area .alarm_table_area .alarm_table .alarm_input{
+  color:#f35531;
+}
+.alarm_area .alarm_table_area .alarm_table .date{
+  text-align:left;
+  opacity: 0.6;
+  font-size:11px;
+  padding-right:15px;
+}
+.alarm_area .alarm_table_area .alarm_table .on{
+  color:#fff;
+  opacity:1;
+}
+.alarm_area .contentBottom{
+  margin:20px 0;
+  text-align: center;
+  position:relative;
+  top:190px;
+  display:none;
+}
+.alarm_area .contentBottom .paging img{
+  vertical-align: -2px;
+}
+.alarm_area .contentBottom .paging a{
+  margin:0 5px;
+  color:rgba(255, 255, 255, 0.3);
+}
+.alarm_area .contentBottom .paging .selected{
+  font-weight:600;
+  color:#30afb8;
+}
+.none_box{
+  height:20px;
+}

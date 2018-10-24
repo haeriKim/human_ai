@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/notice.css">
+    <link rel="stylesheet" href="css/alarm.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/common.js"></script>
@@ -22,10 +22,10 @@
 
           <div id ="header_wrap">
             <!-- header -->
-            <div id="header2">
+            <div id="header">
               <div class="headerTop">
-                <input type="button" class="back" onclick="location.href='m_moreView_main.php'"/>
-                <h2 class="header_title">공지사항</h2>
+                <input type="button" class="back" onclick="history.back()'"/>
+                <h2 class="header_title">알림</h2>
                 <div class="alarm_area">
                   <img src="img/bell.png" class="alarmBtn" alt="알림버튼"/>
                 </div>
@@ -37,80 +37,43 @@
             <div class="mycoin_content_wrap">
                 <!-- m_mycoin_main -->
                 <div class="content">
-                    <div class="notice_area">
+                    <div class="alarm_area">
 
-                      <div class="notice_header">
-                          <select name="notice" id="notice_select">
+                      <div class="alarm_header">
+                          <select name="alarm" id="alarm_select">
                             <option value="전체">전체</option>
-                            <option value="전체">안내</option>
-                            <option value="전체">입출금</option>
-                            <option value="전체">거래</option>
+                            <option value="전체">입금</option>
+                            <option value="전체">출금</option>
+                            <option value="전체">매도</option>
+                            <option value="전체">매수</option>
+                            <option value="전체">정보</option>
+                            <option value="전체">공지</option>
                           </select>
                       </div>
 
-                      <div class="notice_table_area">
-                        <table class="notice_table">
+                      <div class="alarm_table_area">
+                        <table class="alarm_table">
                           <colgroup>
-                            <col width="75%">
-                            <col widht="25%">
+                            <col width="20%">
+                            <col widht="80%">
                           </colgroup>
-                          <thaed>
-                            <tr>
-                              <th>제목</th>
-                              <th>작성일</th>
-                            </tr>
-                          </thaed>
 
                           <tbody>
-                            <tr onclick="location.href='m_moreView_noticeS.php'">
-                              <td class='notice_text'>[입출금] 월렛 업그레이드 8차 완료 (입금 주소 신규 발급 필수) - 전체 작업 완료</td>
-                              <td class='date'>2018-10-17</td>
+                            <tr>
+                              <td class='alarm_text alarm_output'>출금</td>
+                              <td class='date on'>hosik-e789님이 회원님에게 7,500,000BTC를(을) 출금하였습니다.</td>
                             </tr>
 
-                            <tr onclick="location.href='m_moreView_noticeS.php'">
-                              <td class='notice_text'>[입출금] 월렛 업그레이드 7차 완료 (입금 주소 신규 발급 필수)</td>
-                              <td class='date'>2018-09-25</td>
+                            <tr>
+                              <td class='alarm_text alarm_masu'>매수</td>
+                              <td class='date'>회원님이 ETH(이더리움)코인을 30,000ETH를(을) 매수하였습니다.</td>
                             </tr>
 
-                            <tr onclick="location.href='m_moreView_noticeS.php'">
-                              <td class='notice_text'>[입출금] 월렛 업그레이드 6차 완료 (신규 입금 주소 발급 필요한 암호화폐 확인 필수)</td>
-                              <td class='date'>2018-09-18</td>
+                            <tr>
+                              <td class='alarm_text alarm_input'>입금</td>
+                              <td class='date'>회원님이 ETH(이더리움)코인을 30,000ETH를(을) 매수하였습니다.</td>
                             </tr>
 
-                            <tr onclick="location.href='m_moreView_noticeS.php'">
-                              <td class='notice_text'>[입출금] 월렛 업그레이드 8차 완료 (입금 주소 신규 발급 필수) - 전체 작업 완료</td>
-                              <td class='date'>2018-09-05</td>
-                            </tr>
-
-                            <tr onclick="location.href='m_moreView_noticeS.php'">
-                              <td class='notice_text'>[안내] 암호화폐 및 예금 실사 보고서 결과를 공개합니다</td>
-                              <td class='date'>2018-08-30</td>
-                            </tr>
-
-                            <tr onclick="location.href='m_moreView_noticeS.php'">
-                              <td class='notice_text'>[안내] 예금 실사 보고서 결과를 공개합니다</td>
-                              <td class='date'>2018-08-27</td>
-                            </tr>
-
-                            <tr onclick="location.href='m_moreView_noticeS.php'">
-                              <td class='notice_text'>[이벤트] 디올 ISMS 인증 취득 기념 신규회원 가입자 대상 이더리움 지급 이벤트</td>
-                              <td class='date'>2018-08-19</td>
-                            </tr>
-
-                            <tr onclick="location.href='m_moreView_noticeS.php'">
-                              <td class='notice_text'>[입출금] 월렛 업그레이드 6차 완료 (신규 입금 주소 발급 필요한 암호화폐 확인 필수)</td>
-                              <td class='date'>2018-07-10</td>
-                            </tr>
-
-                            <tr onclick="location.href='m_moreView_noticeS.php'">
-                              <td class='notice_text'>[상장][이벤트][수정] 질리카 (ZIL) KRW 마켓 오픈 및 이벤트 안내</td>
-                              <td class='date'>2018-07-02</td>
-                            </tr>
-
-                            <tr onclick="location.href='m_moreView_noticeS.php'">
-                              <td class='notice_text'>[안내] 예금 실사 보고서 결과를 공개합니다</td>
-                              <td class='date'>2018-07-02</td>
-                            </tr>
 
                           </tbody>
                         </table>
