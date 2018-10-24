@@ -53,10 +53,6 @@
                                   <p class='notification notification_a_02'>221.98 BTC</p>
                               </div>
                           </li>
-                          <li class='button_li'>
-                              <a href="#">입금하기</a>
-                              <a href="m_account_coin_out01.php">출금하기</a>
-                          </li>
                         </ul>
                       </div>
                     </div>

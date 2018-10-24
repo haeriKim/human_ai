@@ -2,23 +2,7 @@
 .account_area {
   margin: 60px auto 0;
 }
-.account_area .assetBox .asset li .mywallet_title {
-  font-size: 13px;
-  opacity: .6;
-}
-.account_area .assetBox .asset li .mywallet_amount {
-  text-align: right;
-  margin-top: 5px;
-}
-.account_area .assetBox .all_assets li .mywallet_amount {
-  color: #30afb8;
-  font-weight: 600;
-}
-.account_area .assetBox .asset li .mywallet_amount span {
-  font-size: 13px;
-  color: rgba(255,255,255,.6);
-  margin-left: 5px;
-}
+
 .account_area .coin_inout{
   padding: 15px 15px 0;
 }
