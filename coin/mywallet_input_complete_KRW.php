@@ -52,6 +52,7 @@
                           <div class="complete_text">
                             <img src="img/won_up.png" alt="원화입금아이콘" class="fixing_icon">
                             <p class='complete_paragraph'>입금 신청이 완료되었습니다.</p>
+                            <span class="limit">처음 원화(KRW) 입금하시는 경우, <span class="hour">3일(72시간)</span> 동안 KRW 및 암호화폐의 출금이 제한됩니다.</span>
                           </div>
 
                           <form class="" action="#" method="post">

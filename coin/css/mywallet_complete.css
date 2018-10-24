@@ -16,6 +16,12 @@
     margin-top:10px;
     text-align: center;
 }
+.mywallet_complete .limit{
+  font-size:12px;
+}
+.mywallet_complete .hour{
+  color:#c95b74;
+}
 .mywallet_complete div.account_table_wrap{
     width: 50%;
     margin: 0 auto;

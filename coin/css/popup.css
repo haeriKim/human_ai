@@ -159,8 +159,14 @@
   line-height:1em;
   color:#666666;
 }
+#popupbox .popupbox_text .hour{
+  color:#c95b74;
+}
 #popupbox .popupbox_text p {
   line-height: 1.5;
+}
+#popupbox .popupbox_text .limit{
+  margin-bottom:40px;
 }
 #popupbox .popupbox_text .account_text{
   text-align:left;

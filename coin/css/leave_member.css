@@ -123,6 +123,7 @@
 .withdrawal_area #withdrawal_text3 .cancel_or_apply .if_you_not_all_agree{
     border: 1px solid #1b2f4a;
     background: #1b2f4a;
+    cursor:pointer;
 }
 .withdrawal_area #withdrawal_text3 .cancel_or_apply .if_you_not_all_agree:hover {
   background-color: rgba(27,47,74,.9)
