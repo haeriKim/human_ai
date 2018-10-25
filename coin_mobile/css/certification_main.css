@@ -49,6 +49,9 @@
       width: 60%;
       margin-top: 8px;
     }
+    .certification_main_wrap ul li .text_area p{
+        font-size: 13px;
+    }
     .certification_main_wrap ul li .must,
     .certification_main_wrap ul li .recommend{
         margin-left: 2%;
@@ -140,7 +143,9 @@
     .certification_main_wrap .certi_level_02 .go_certi,
     .certification_main_wrap .certi_level_03 .go_certi,
     .certification_main_wrap .certi_level_04 .go_certi,
-    .certification_main_wrap .certi_level_05 .go_certi{
+    .certification_main_wrap .certi_level_05 .go_certi,
+    .certification_main_wrap img.certi_off
+    {
         display: none;
     }
 }

@@ -62,7 +62,7 @@
                 </table>
                 <div class="cancel_or_apply">
                   <input type="button" name="" value="취소" onclick="location.href='m_certification_main.php'"class="cancel_btn">
-                  <input type="submit" name="" value="등록" onclick="location.href='certification_security_password_success.php'" class="agree_btn">
+                  <input type="submit" name="" value="등록" onclick="location.href='m_certification_success03.php'" class="agree_btn">
                 </div>
 
                 </form>
