@@ -93,7 +93,7 @@
                           </p>
                           <strong class='navy_title lv2_on'>보안 비밀번호생성</strong>
                           <strong class="gray_title lv2_off">보안 비밀번호생성</strong>
-                          <span>안전거래를 위한 <br/>보안비밀번호를 생성해주세요.</span>
+                          <span>안전거래를 위한 <br/>보안 비밀번호를 생성해주세요.</span>
                         </li>
                         <li>
                           <img src="img/lv3.png" alt="레벨3" class='lv3_on'/>

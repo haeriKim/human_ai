@@ -46,7 +46,7 @@
                         <p class='waiting only_pc'>회원정보 관리 및 변경은 웹(PC)에서 가능합니다.</p>
                         <img src="img/m_gothru.png" alt="자세히" class='gothru gothru_02'>
                     </li>
-                    <li>
+                    <li onclick="location.href='m_certification_main.php'">
                         <p>인증센터</p>
                         <img src="img/m_gothru.png" alt="자세히" class='gothru'>
                     </li>

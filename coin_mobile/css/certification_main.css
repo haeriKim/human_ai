@@ -1,0 +1,93 @@
+@media all and (min-width:320px) and (max-width:768px){
+    .certification_main_wrap{
+        font-size: 14px;
+        margin-top: 60px;
+    }
+    .certification_main_wrap .user_level_part{
+        background: #070B11;
+        padding: 20px 3%;
+    }
+    .certification_main_wrap .title{
+        font-size: 15px;
+        color: #30afb8;
+        margin-bottom: 10px;
+        margin-left: 3%;
+        font-weight: 600;
+    }
+    .certification_main_wrap .user_level_part b{
+        font-size: 16px;
+    }
+    .certification_main_wrap .user_level_part b span.user_level{
+        display: none;
+    }
+    .certification_main_wrap .user_level_part .more_certification{
+        display: block;
+        font-size: 13px;
+        margin-top: 7px;
+        opacity: 0.6;
+    }
+    .certification_main_wrap .user_level_part .level_max{
+        display: none;
+    }
+    .certification_main_wrap ul li{
+        background: #192331;
+        padding: 17px 7px;
+        position: relative;
+        margin: 10px 0;
+    }
+    .certification_main_wrap ul li .must,
+    .certification_main_wrap ul li .recommend{
+        margin-left: 2%;
+        opacity: 1;
+    }
+    .certification_main_wrap ul li span{
+        font-size: 12px;
+        opacity: 0.6;
+    }
+    .certification_main_wrap ul li span.certi_success{
+        color: rgba(255,255,255,.3);
+        opacity: 1;
+        border-radius: 50px;
+        border: 1px solid rgba(255,255,255,.3);
+        padding: 5px 3px;
+        position: absolute;
+        /* width: 67%; */
+        top: 28.5px;
+        right: 4%;
+    }
+    .certification_main_wrap ul li span.go_certi{
+        color: #30afb8;
+        opacity: 1;
+        border-radius: 50px;
+        border: 1px solid #30afb8;
+        padding: 5px 3px;
+        position: absolute;
+        top: 28.5px;
+        right: 4%;
+    }
+    .certification_main_wrap p.notify{
+        margin-bottom: 107px;
+        padding-left: 2%;
+        opacity: 0.6;
+        font-size: 12px;
+        line-height: 1.5;
+        width: 94%;
+    }
+    .certification_main_wrap p.notify span{
+
+    }
+    /*level 1일때 */
+    .certification_main_wrap .user_level_part b span.lv_01{
+        display: inline-block;
+    }
+    .certification_main_wrap .certi_level_02 .certi_success,
+    .certification_main_wrap .certi_level_03 .certi_success,
+    .certification_main_wrap .certi_level_04 .certi_success,
+    .certification_main_wrap .certi_level_05 .certi_success{
+        display: none;
+    }
+    /*level 2일때 */
+    /*level 3일때 */
+    /*level 4일때 */
+    /*level 5일때 */
+}
