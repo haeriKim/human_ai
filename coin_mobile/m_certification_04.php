@@ -88,7 +88,7 @@
                         </table>
 
                         <div class="bank_request">
-                          <input type="submit" name="계좌 인증번호 요청" value="다음" class="chk_ok"/>
+                          <input type="submit" name="계좌 인증번호 요청" onclick="location.href='m_certification_04_02.php'" value="다음" class="chk_ok"/>
                           <!--<span class="request">다음</span>-->
 
                         </div>

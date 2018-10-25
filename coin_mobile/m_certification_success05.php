@@ -39,13 +39,12 @@
                 <div class="content">
                     <div class="certification_success_area">
 
-                      <h3>계좌인증 완료</h3>
-                      <p>회원님의 현재 보안등급은 <span class="user_level">Level 4</span>입니다.</p>
-                      <p>더 많은 서비스를 이용하려면 다음 단계를 인증해주세요.</p>
+                      <h3>OTP 인증 완료</h3>
+                      <p>회원님의 현재 보안등급은 <span class="user_level">Level 5</span>입니다.</p>
+                      <p>이제부터 모든 서비스 이용이 가능합니다.</p>
 
                       <div class="certification_success_bt">
                         <input type="button" name="" value="확인" onclick="location.href='m_certification_main.php'" class="cancel_btn">
-                        <input type="button" name="" value="인증하기" onclick="location.href='m_certification_05.php'" class="certification_btn">
                       </div>
 
 

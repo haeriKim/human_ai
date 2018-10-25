@@ -94,10 +94,10 @@
                       </div>
 
                       <div id="bank_complete">
-                        <input type="button" name="취소" value="취소" onclick="location.href='certification.php'" class="bank_cancel">
+                        <input type="button" name="취소" value="취소" onclick="location.href='m_certification_main.php'" class="bank_cancel">
 
                         <!--<span class="account_complete">인증</span>-->
-                        <input type="submit" name="인증" value="인증" class="chk_ok" onclick="location.href='certification_account_success.php'"/>
+                        <input type="submit" name="인증" value="인증" class="chk_ok" onclick="location.href='m_certification_success04.php'"/>
 
                       </div>
 
