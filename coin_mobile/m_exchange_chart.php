@@ -38,7 +38,7 @@
                     </select>
                   </div>
                   <div class="alarm_area">
-                    <img src="img/bell.png" class="alarmBtn" alt="알림버튼"/>
+                    <img src="img/bell.png" class="alarmBtn" alt="알림버튼" onclick="location.href='m_alarm.php'"/>
                   </div>
                 </div>
                 <div class="current_price">
