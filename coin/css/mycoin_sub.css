@@ -1139,15 +1139,8 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
     padding-left:45px;
     color:#1b2f4a;
 }
-#mywallet_havecoin thead th img{
-}
 #mywallet_havecoin thead th.coin_name1{
     text-align: left;
-}
-#mywallet_havecoin thead th.coin_portion{
-
-}
-#mywallet_havecoin thead th.coin_condition{
 }
 #mywallet_havecoin tbody img{
     float: left;
