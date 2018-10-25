@@ -27,14 +27,14 @@
                 <input type="button" class="back" onclick="location.href='m_exchange_main.php'"/>
                 <!-- 코인선택 영역 -->
                 <div class="coinSelect_area">
-                  <select id="coin_select" name="coin_select">
-                      <option value="전체">비트코인 BTC/KRW</option>
-                      <option value="비트코인캐시 BCH/KRW">비트코인캐시 BCH/KRW</option>
-                      <option value="이더리움 ETH/KRW">이더리움 ETH/KRW</option>
-                      <option value="이더리움클래식 ETC/KRW">이더리움클래식 ETC/KRW</option>
-                      <option value="이오스 EOS/KRW">이오스 EOS/KRW</option>
-                      <option value="리플 XRP/KRW">리플 XRP/KRW</option>
-                      <option value="에이다 ADA/KRW">에이다 ADA/KRW</option>
+                  <select id="coin_select" name="coin_select" onchange="if(this.value) location.href=(this.value);">
+                      <option value="http://localhost/human_ai/coin_mobile/m_exchange_info_bitcoin.php">비트코인 BTC/KRW</option>
+                      <option value="#">비트코인캐시 BCH/KRW</option>
+                      <option value="http://localhost/human_ai/coin_mobile/m_exchange_info_Ethereum.php">이더리움 ETH/KRW</option>
+                      <option value="http://localhost/human_ai/coin_mobile/m_exchange_info_EthereumClassic.php">이더리움클래식 ETC/KRW</option>
+                      <option value="http://localhost/human_ai/coin_mobile/m_exchange_info_EOS.php">이오스 EOS/KRW</option>
+                      <option value="http://localhost/human_ai/coin_mobile/m_exchange_info_Ripple.php">리플 XRP/KRW</option>
+                      <option value="http://localhost/human_ai/coin_mobile/m_exchange_info_Ada.php">에이다 ADA/KRW</option>
                   </select>
                 </div>
                 <div class="alarm_area">
