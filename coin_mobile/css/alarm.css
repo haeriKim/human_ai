@@ -11,7 +11,7 @@
   border: 1px solid rgba(48,175,184,.3);
   height: 35px;
   line-height: 35px;
-  margin: 0 auto;
+  margin: 10px auto;
   display: block;
   text-align-last: center;
   background: #070F19 url(../img/arrow_down_sky.png) no-repeat 95% center;
@@ -20,7 +20,7 @@
   color: #30afb8;
 }
 .alarm_area .alarm_table_area{
-  /*margin-top:5px;*/
+  margin-top:25px;
 }
 .alarm_area .alarm_table_area .alarm_table{
   width:100%;
@@ -41,6 +41,7 @@
   font-size:75%;
   text-align:left;
   padding-left:15px;
+  width:20%;
 }
 .alarm_area .alarm_table_area .alarm_table .alarm_output{
   color:#01a9ff;
@@ -56,6 +57,13 @@
   opacity: 0.6;
   font-size:11px;
   padding-right:15px;
+  width:60%;
+}
+.alarm_area .alarm_table_area .alarm_table .date1{
+  text-align:center;
+  opacity: 0.6;
+  font-size:11px;
+  width:20%;
 }
 .alarm_area .alarm_table_area .alarm_table .on{
   color:#fff;

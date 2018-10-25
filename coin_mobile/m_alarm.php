@@ -64,19 +64,8 @@
                                     <input type="button" name="datebt" value="30일" class="date_bt">
                                   </div>
 
-                            <p class="cal_title">구분</p>
 
-                            <div class="wd_radio">
-                              <form>
-                                <input type="radio" name="chk_wd" value="전체" checked="checked" id="wd1" class="square"><label for="wd1">전체</label>
-                                <input type="radio" name="chk_wd" value="입금" id="wd2" class="square"><label for="wd2">입금</label>
-                                <input type="radio" name="chk_wd" value="출금" id="wd3" class="square"><label for="wd3">출금</label>
-                                <input type="radio" name="chk_wd" value="출금" id="wd4" class="square"><label for="wd4">매수</label>
-                                <input type="radio" name="chk_wd" value="출금" id="wd5" class="square"><label for="wd5">매도</label>
-                                <input type="radio" name="chk_wd" value="출금" id="wd6" class="square"><label for="wd6">정보</label>
-                                <input type="radio" name="chk_wd" value="출금" id="wd7" class="square"><label for="wd7">공지</label>
-                              </form>
-                            </div>
+
 
                               <input type="submit" name="search" value="조회" class='search_btn'>
                             </div><!--days End-->
@@ -84,7 +73,7 @@
                       </div><!--cal_area End-->
 
 
-                <!--      <div class="alarm_header">
+                    <div class="alarm_header">
                           <select name="alarm" id="alarm_select">
                             <option value="전체">전체</option>
                             <option value="전체">입금</option>
@@ -94,31 +83,30 @@
                             <option value="전체">정보</option>
                             <option value="전체">공지</option>
                           </select>
-                      </div> -->
+                      </div>
 
 
 
                       <div class="alarm_table_area">
                         <table class="alarm_table">
-                          <colgroup>
-                            <col width="15%">
-                            <col widht="85%">
-                          </colgroup>
-
+                          
                           <tbody>
                             <tr>
                               <td class='alarm_text alarm_output'>출금</td>
                               <td class='date on'>hosik-e789님이 회원님에게 7,500,000BTC를(을) 출금하였습니다.</td>
+                              <td class='date1 on'>2018-10-01</td>
                             </tr>
 
                             <tr>
                               <td class='alarm_text alarm_masu'>매수</td>
                               <td class='date'>회원님이 ETH(이더리움)코인을 30,000ETH를(을) 매수하였습니다.</td>
+                              <td class='date1'>2018-09-27</td>
                             </tr>
 
                             <tr>
                               <td class='alarm_text alarm_input'>입금</td>
                               <td class='date'>회원님이 ETH(이더리움)코인을 30,000ETH를(을) 입금하였습니다.</td>
+                              <td class='date1'>2018-09-19</td>
                             </tr>
 
 
