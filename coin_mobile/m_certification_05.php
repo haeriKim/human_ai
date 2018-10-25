@@ -93,10 +93,8 @@
                               <!--<p id='warning_message'>OTP번호가 일치하지 않습니다.</p>-->
 
                               <div id="OTP_complete">
-                                <a href="certification.php">
-                                  <input type="button" name="취소" value="취소" onclick="location.href='m_certification_main.php'" class="cancel">
-                                </a>
 
+                                  <input type="button" name="취소" value="취소" onclick="location.href='m_certification_main.php'" class="cancel">
                                   <input type="submit" name="등록" value="등록" onclick="location.href='m_certification_success05.php'" class="OTP_complete"/>
 
                               </div>
