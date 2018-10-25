@@ -824,13 +824,13 @@ div.cancel_or_apply .if_you_all_agree:hover{
     margin-bottom: 20px;
 }
 .search input {
-    width: 200px;
+    width: 265px;
     height: 30px;
     border: none;
     border-bottom: 2px solid #1b2f4a;
     font-size: 12px;
     text-indent: 10px;
-    margin-right:45px;
+    position: relative;
 }
 .search a.search_btn{
     display:block;
@@ -839,7 +839,6 @@ div.cancel_or_apply .if_you_all_agree:hover{
     position:absolute;
     right:0;
     top:6px;
-    border-bottom:2px solid #1b2f4a;
 }
 
 
@@ -857,4 +856,93 @@ box-shadow: none;
 box-shadow:none;
 }
 
-/* ie */
+/* mobile ver */
+@media (max-width:768px) {
+  #wrap{
+      min-width: 310px;
+  }
+  /* 컨테이너 */
+  #container{
+      position: relative;
+      display:block;
+  }
+  /* 컨텐츠 */
+  .content_wrap {
+      height: auto;
+      margin:0 auto;
+  }
+  #container{
+    background:#efefef;
+  }
+  #nav_wrap,#header_wrap,.submenu_mypage,.submenu_security{
+    display:none;
+  }
+  .content {
+    padding: 0;
+  }
+  .con_1250{
+    width: 90%;
+    margin: 5% auto;
+  }
+
+  /* 컨텐츠 네비 */
+  .certification_area,
+  .track_ip_address_area,
+  .alarm_area,
+  .myinfo_area,
+  .guide_OTP_area,
+  .fees_area,
+  .faq_area,
+  .question_area,
+  .question_history_area,
+  .question_detail_area {
+    float: none;
+    width:100%;
+  }
+  .content_nav {
+    width: 100%;
+    margin-right: 0;
+    float: none;
+    text-align:center;
+    height:auto;
+    font-size:12px;
+    margin-bottom: 20px;
+  }
+  .content_nav h4{
+    font-size:16px;
+    padding-bottom:5px;
+  }
+  .content_nav ul{
+    width:100%;
+  }
+  .content_nav li{
+    width:100%;
+  }
+  .content_nav li + li{
+    margin-top:0;
+  }
+  .content_nav li a{
+    padding:5px 0;
+  }
+  .content_nav li .nav_dropdown {
+    text-align: left;
+    padding-left: 20px;
+  }
+  .box h3.title {
+    padding: 12px 20px;
+  }
+  /* 마이페이지 */
+  .mypage_content {
+    padding: 15px 20px;
+  }
+  .mypage_content h4 {
+    font-size: 16px;
+  }
+  #look_method {
+    width: 100%;
+    float: none;
+  }
+  .search input, .search a.search_btn{
+    display: none;
+  }
+}

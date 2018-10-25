@@ -71,3 +71,29 @@
   color: #888;
   display: inline-block;
 }
+.footer_menu .footer_nav ul li a.pp {
+  color: #1b2f4a;
+  font-weight: 600;
+}
+@media all and (min-width:320px) and (max-width:768px){
+  #footer_wrap {
+    position: initial;
+  }
+  #footer {
+    padding-left: 0;
+  }
+  .compnay_info {
+    float: none;
+  }
+  .footer_menu {
+    float: none;
+    text-align: left;
+    margin-top: 15px;
+  }
+  .footer_menu .footer_nav ul.left {
+    margin-left: 0;
+  }
+  .footer_menu .footer_nav ul.right {
+    float: none;
+  }
+}
