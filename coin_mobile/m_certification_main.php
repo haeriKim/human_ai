@@ -38,7 +38,6 @@
             <!-- certification_main_wrap -->
             <div class="certification_main_wrap">
                 <!-- user_level_part -->
-                <p class='title'>인증현황</p>
                 <div class="user_level_part">
                     <b>
                         회원님의 현재 보안등급은
@@ -56,39 +55,44 @@
                 <ul>
                     <li class='certi_level_01'>
                         <img src="img/m_mailbox.png" alt="이메일인증">
-                        <p>Level 1 이메일인증<span class='must apply_buy'>*필수</span></p>
-                        <span>실제 사용 중인 이메일 계정을 인증해주세요.</span>
+                        <div class="text_area">
+                          <p>Level 1 이메일인증<span class='must apply_buy'>*필수</span></p>
+                        </div>
                         <span class='certi_success certi'>인증완료</span>
                     </li>
                     <li class='certi_level_02'>
                         <img src="img/m_key.png" alt="보안 비밀번호생성">
                         <img src="img/m_key_off.png" alt="보안 비밀번호생성">
-                        <p>Level 2 보안 비밀번호생성<span class='recommend apply_sell'>*권장</span></p>
-                        <span>안전거래를 위한 보안 비밀번호를 생성해주세요.</span>
+                        <div class="text_area">
+                          <p>Level 2 보안 비밀번호생성<span class='recommend apply_sell'>*권장</span></p>
+                        </div>
                         <span class='certi_success certi'>인증완료</span>
                         <span class='go_certi certi'>인증하기</span>
                     </li>
                     <li class='certi_level_03'>
                         <img src="img/m_phone.png" alt="실명인증">
                         <img src="img/m_phone_off.png" alt="실명인증">
-                        <p>Level 3 실명인증<span class='recommend apply_sell'>*권장</span></p>
-                        <span>본인명의 휴대폰을 통하여 실명을 인증해주세요.</span>
+                        <div class="text_area">
+                          <p>Level 3 실명인증<span class='recommend apply_sell'>*권장</span></p>
+                        </div>
                         <span class='certi_success certi'>인증완료</span>
                         <span class='go_certi certi'>인증하기</span>
                     </li>
                     <li class='certi_level_04'>
                         <img src="img/m_bankbook.png" alt="계좌인증">
                         <img src="img/m_bankbook_off.png" alt="계좌인증">
-                        <p>Level 4 계좌인증<span class='recommend apply_sell'>*권장</span></p>
-                        <span>거래소를 이용하기 위한 계좌를 인증해주세요.</span>
+                        <div class="text_area">
+                          <p>Level 4 계좌인증<span class='recommend apply_sell'>*권장</span></p>
+                        </div>
                         <span class='certi_success certi'>인증완료</span>
                         <span class='go_certi certi'>인증하기</span>
                     </li>
                     <li class='certi_level_05'>
                         <img src="img/m_lock.png" alt="OTP 인증">
                         <img src="img/m_lock_off.png" alt="OTP 인증">
-                        <p>Level 5 OTP 인증<span class='recommend apply_sell'>*권장</span></p>
-                        <span>실제 사용 중인 OTP로 인증해주세요.</span>
+                        <div class="text_area">
+                          <p>Level 5 OTP 인증<span class='recommend apply_sell'>*권장</span></p>
+                        </div>
                         <span class='certi_success certi'>인증완료</span>
                         <span class='go_certi certi'>인증하기</span>
                     </li>

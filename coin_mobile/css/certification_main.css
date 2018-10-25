@@ -37,6 +37,17 @@
         padding: 17px 7px;
         position: relative;
         margin: 10px 0;
+        overflow: hidden;
+    }
+    .certification_main_wrap ul li img {
+      width: 35px;
+      float: left;
+    }
+    .certification_main_wrap ul li .text_area {
+      float: left;
+      margin-left: 5px;
+      width: 60%;
+      margin-top: 8px;
     }
     .certification_main_wrap ul li .must,
     .certification_main_wrap ul li .recommend{
@@ -54,7 +65,7 @@
         border: 1px solid rgba(255,255,255,.3);
         padding: 5px 7px;
         position: absolute;
-        top: 28.5px;
+        top: 20.5px;
         right: 4%;
     }
     .certification_main_wrap ul li span.go_certi{
