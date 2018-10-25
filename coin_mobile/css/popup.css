@@ -1,0 +1,35 @@
+/*팝업창*/
+.popup_area{
+  position:relative;
+  text-align:center;
+  padding: 7px 4%;
+}
+.popup_area .popup_box{
+  width:90%;
+  background:#192331;
+  color:#fff;
+  border-radius: 5px;
+  padding: 50px 1%;
+  font-size:80%;
+  text-align: center;
+  line-height: 1.5em;
+  position:absolute;
+  top:50%;
+
+}
+
+.popup_area .popup_box .popupbox_text .hour{
+  color:#c95b74;
+  font-weight:600;
+}
+.popup_area .popup_box .btn_area input{
+  margin-top:30px;
+  background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+  border: none;
+  color: #fff;
+  padding: 7px 0;
+  font-size: 13px;
+  width: 30%;
+  border-radius: 50px;
+  font-weight: 600;
+}

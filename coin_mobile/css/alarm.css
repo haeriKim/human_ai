@@ -20,11 +20,11 @@
   color: #30afb8;
 }
 .alarm_area .alarm_table_area{
-  margin-top:5px;
+  /*margin-top:5px;*/
 }
 .alarm_area .alarm_table_area .alarm_table{
   width:100%;
-  margin-top:20px;
+  margin-top:10px;
 }
 .alarm_area .alarm_table_area .alarm_table th{
   font-size:14px;
