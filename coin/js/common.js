@@ -476,10 +476,6 @@ $(document).ready(function(){
     });
 });
 
-//회원탈퇴 뒤로가기했을때 마이페이지 메인으로 가기
-$(document).ready(function(){
-});
-
 //자산관리 - 인증센터 말풍선
 $(document).ready(function(){
   $("#malpungsun, #account_malpungsun").hide();

@@ -24,6 +24,7 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/common.js"></script>
+    <script src="js/prevent_back.js"></script>
     <script src="js/fouc.js"></script>
 </head>
 <body>
