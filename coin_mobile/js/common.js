@@ -106,3 +106,22 @@ $(document).ready(function(){
     }
   });
 });
+/*계좌 등록페이지 삭제*/
+$(document).ready(function(){
+  var delete_bt = 0;
+  $(".account_delete").hide();
+$(".delete_icon").click(function(){
+  if(delete_bt === 0) {
+      $(".account_delete").show();
+      delete_bt = 1;
+  }else {
+    $(".account_delete").hide()
+      delete_bt = 0;
+    }
+  });
+});
+$(document).ready(function(){
+  $(".delete_cancel").click(function(){
+    $(".account_delete").hide();
+  });
+});

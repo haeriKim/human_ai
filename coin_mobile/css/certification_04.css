@@ -183,3 +183,17 @@
   padding-left: 15px;
   border-bottom: 1px solid rgba(255,255,255,.2);
 }
+.certification_account_area .account_delete #delete_complete{
+  text-align: right;
+}
+.certification_account_area .account_delete #delete_complete input{
+  background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+  border: none;
+  color: #fff;
+  padding: 7px 0;
+  font-size: 12px;
+  width: 20%;
+  border-radius: 50px;
+  font-weight: 600;
+  margin-left: 5px;
+}

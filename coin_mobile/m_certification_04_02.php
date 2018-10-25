@@ -57,6 +57,7 @@
                               <a class="delete_icon"><img src="img/x.png" alt="휴지통아이콘">삭제</a>
 
 
+
                           </div>
                       </div>
 
@@ -83,6 +84,13 @@
                           </tr>
                         </tbody>
                         </table>
+
+                        <div id="delete_complete">
+                          <input type="button" name="취소" value="취소" onclick="" class="delete_cancel">
+                          <!--<span class="account_complete">인증</span>-->
+                          <input type="submit" name="삭제" value="삭제" class="chk_ok" onclick=""/>
+                        </div>
+
                       </div>
 
                       <div id="bank_complete">
