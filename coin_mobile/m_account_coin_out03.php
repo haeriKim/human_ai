@@ -95,7 +95,7 @@
                       </div>
 
                       <div class="coin_bt_area">
-                        <input type="button" name='button' onclick="location.href='m_account_KRW_in04.php'" value="출금신쳥" class="next_bt">
+                        <input type="button" name='button' onclick="location.href='m_account_coin_main.php'" value="출금신쳥" class="next_bt">
                       </div>
 
 

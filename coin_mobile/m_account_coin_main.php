@@ -57,8 +57,8 @@
                                 </div>
                             </li>
                             <li class='button_li'>
-                                <a href="m_account_KRW_in01.php">입금하기</a>
-                                <a href="m_account_KRW_out01.php">출금하기</a>
+                                <a href="m_account_coin_in01.php">입금하기</a>
+                                <a href="m_account_coin_out01.php">출금하기</a>
                             </li>
                           </ul>
                         </div><!-- assetBox End-->

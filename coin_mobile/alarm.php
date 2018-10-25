@@ -118,7 +118,7 @@
 
                             <tr>
                               <td class='alarm_text alarm_input'>입금</td>
-                              <td class='date'>회원님이 ETH(이더리움)코인을 30,000ETH를(을) 매수하였습니다.</td>
+                              <td class='date'>회원님이 ETH(이더리움)코인을 30,000ETH를(을) 입금하였습니다.</td>
                             </tr>
 
 
