@@ -46,7 +46,6 @@ $(document).ready(function(){
 });
 
 /*자산관리 페이지 조회선택 버튼*/
-
 $(document).ready(function(){
   var select = 0;
   $("#cal_select,#cal_select_up").click(function(){
@@ -67,12 +66,12 @@ $(document).ready(function(){
   $("#cal_select,#cal_select_up").click(function(){
     if(select === 0) {
         $(".cal_lookup_inner").stop().slideToggle(500);
-        $(".cal_area").css({"border-bottom":"1px solid rgba(255,255,255,.2)","padding-bottom":"15px"});
+        $(".cal_area").css({"border-bottom":"1px solid rgba(255,255,255,.2)"});
         select = 1;
     }else {
       $(".cal_lookup_inner").stop().slideToggle(500);
         select = 0;
-          $(".cal_area").css({"border-bottom":"none","padding-bottom":"none"})
+          $(".cal_area").css({"border-bottom":"none"})
     }
   });
 });
@@ -90,3 +89,5 @@ $(document).ready(function(){
         $("#" + activeTab).fadeIn()
     });
 });
+
+/*nav 액티브*/
