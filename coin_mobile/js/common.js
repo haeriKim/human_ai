@@ -90,4 +90,19 @@ $(document).ready(function(){
     });
 });
 
-/*nav 액티브*/
+// 보안비밀번호생성 물음표 클릭시
+$(document).ready(function(){
+  var select = 0;
+  $(".password_question_detail2").hide();
+  $(".question_img").click(function(){
+    if(select === 0) {
+        $(".password_question_detail2").stop().slideToggle(500);
+        $(".password_question_detail2").css({"background":"#070B11"});
+        select = 1;
+    }else {
+      $(".password_question_detail2").stop().slideToggle(500);
+        select = 0;
+          // $(".password_question_detail2").css({"":"none"})
+    }
+  });
+});
