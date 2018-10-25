@@ -27,7 +27,12 @@
     color: #1b2f4a;
     font-weight: 600;
     font-size: 15px;
+    border-top: none;
 }
+.common_table_content .common_table tbody tr.certification_method th{
+    border-top: none;
+}
+
 /*수수료 안내*/
 .common_table_content .mypage_content .input_output_fee thead{
     line-height: 40px;
