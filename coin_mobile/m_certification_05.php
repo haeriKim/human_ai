@@ -94,7 +94,7 @@
 
                               <div id="OTP_complete">
                                 <a href="certification.php">
-                                  <input type="button" name="취소" value="취소" onclick="location.href='m_certification_main.php'" class="cancel" />
+                                  <input type="button" name="취소" value="취소" onclick="location.href='m_certification_main.php'" class="cancel">
                                 </a>
 
                                   <input type="submit" name="등록" value="등록" onclick="location.href='m_certification_success05.php'" class="OTP_complete"/>
