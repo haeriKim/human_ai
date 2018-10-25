@@ -1,0 +1,185 @@
+/*계좌 인증*/
+
+.certification_account_area{
+  padding:7px 15px;
+  font-size:12px;
+}
+
+/*account (Step1)*/
+
+/*agree_area*/
+.certification_account_area .agree_area p{
+  margin-bottom:10px;
+}
+.certification_account_area .agree_area ul{
+  border:1px solid rgba(255, 255, 255, 0.2);
+  padding:10px;
+}
+.certification_account_area .agree_area li{
+  margin:5px 0;
+}
+.certification_account_area .agree_area li.account_check_box{
+  margin-top:10px;
+  padding-top:10px;
+  border-top:1px solid rgba(255, 255, 255, 0.2);
+}
+.certification_account_area .agree_area li.account_check_box input{
+  content: ' ';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  background: url(../img/m_o_off.png) no-repeat;
+  vertical-align: -9px;
+
+}
+.certification_account_area .agree_area li.account_check_box span{
+  margin-left:-5px;
+}
+
+/*account_input_area*/
+
+.certification_account_area .account_input_area{
+  margin:20px 0;
+}
+.certification_account_area .account_input_area table{
+  font-size: 13px;
+  margin: 10px 0;
+}
+.certification_account_area .account_input_area tbody{
+  border: 1px solid rgba(255,255,255,.2);
+}
+.certification_account_area .account_input_area tr{
+  height:35px;
+}
+.certification_account_area .account_input_area th{
+  border-right: 1px solid rgba(255,255,255,.2);
+  width: 30%;
+  background: #192331;
+  opacity: 0.6;
+  font-weight: 500;
+}
+.certification_account_area .account_input_area td{
+  text-align: left;
+  padding-left: 15px;
+  border-bottom: 1px solid rgba(255,255,255,.2);
+}
+.certification_account_area .account_input_area select{
+  border:none;
+  border-bottom:1px solid rgba(255, 255, 255, 0.6);
+  color:rgba(255, 255, 255, 0.6);
+}
+.certification_account_area .account_input_area .user_account_input{
+  border: none;
+  border-bottom: 1px solid #30afb8;
+  background: none;
+  color: #30afb8;
+  text-align: left;
+  padding: 0 5px;
+  width: 83%;
+  font-size: 13px
+}
+.certification_account_area .account_input_area .bank_request{
+  margin-top:50px;
+  text-align: center;
+}
+.certification_account_area .account_input_area .bank_request input{
+  background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+  border: none;
+  color: #fff;
+  padding: 7px 0;
+  font-size: 13px;
+  width: 35%;
+  border-radius: 50px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+/*account (Step2)*/
+
+.certification_account_area .account_1won{
+  border:1px solid rgba(255, 255, 255, 0.2);
+  padding:10px;
+}
+.certification_account_area .account_1won .account_1won_box{
+  margin-top:10px;
+}
+.certification_account_area .account_1won .account_1won_box b{
+  color:#30afb8;
+}
+.certification_account_area .account_1won .account_1won_box p{
+  margin-top:5px;
+}
+.certification_account_area .account_1won .account_1won_box .account_1won_text{
+  margin-bottom:10px;
+  padding-bottom:10px;
+  border-bottom:1px solid rgba(255, 255, 255, 0.2);
+}
+.certification_account_area .account_1won .account_1won_box input.authentication_num{
+  border: none;
+  border-bottom: 1px solid rgba(255,255,255,.6);
+  background: none;
+  color: rgba(255,255,255,.6);
+  padding: 0 5px;
+  width:96%;
+}
+.certification_account_area .account_1won .account_1won_box a{
+  margin-top:10px;
+  text-align: right;
+  display: block;
+  overflow: hidden;
+}
+.certification_account_area #bank_complete{
+  text-align: center;
+  margin-top:40px;
+}
+.certification_account_area #bank_complete input{
+  background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+  border: none;
+  color: #fff;
+  padding: 7px 0;
+  font-size: 13px;
+  width: 35%;
+  border-radius: 50px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+/*account_delete*/
+
+.certification_account_area .account_delete{
+  margin-top:20px;
+  padding:10px;
+  border:1px solid rgba(255, 255, 255, 0.2);
+}
+.certification_account_area .account_delete p.account_delete_title{
+  margin-bottom:10px;
+}
+.certification_account_area .account_delete b{
+  color:#30afb8;
+}
+.certification_account_area .account_delete strong{
+  color:#f35531;
+}
+.certification_account_area .account_delete table{
+  font-size: 13px;
+  margin: 10px 0;
+}
+.certification_account_area .account_delete tbody{
+  border: 1px solid rgba(255,255,255,.2);
+}
+.certification_account_area .account_delete tr{
+  height:35px;
+}
+.certification_account_area .account_delete th{
+  border-right: 1px solid rgba(255,255,255,.2);
+  width: 30%;
+  background: #192331;
+  opacity: 0.6;
+  font-weight: 500;
+}
+.certification_account_area .account_delete td{
+  text-align: left;
+  padding-left: 15px;
+  border-bottom: 1px solid rgba(255,255,255,.2);
+}

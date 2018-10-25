@@ -1,0 +1,41 @@
+/*완료페이지*/
+
+.certification_success_area{
+  padding: 7px 15px;
+  font-size:12px;
+  text-align: center;
+}
+
+.certification_success_area h3{
+  font-size:20px;
+  margin:30px 0;
+}
+.certification_success_area span{
+  color:#30afb8;
+}
+.certification_success_area .certification_success_bt{
+  text-align: center;
+  margin-top:40px;
+}
+.certification_success_area .certification_success_bt input.cancel_btn{
+  background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+  border: none;
+  color: #fff;
+  padding: 7px 0;
+  font-size: 13px;
+  width: 25%;
+  border-radius: 50px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+.certification_success_area .certification_success_bt input.certification_btn{
+  background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+  border: none;
+  color: #fff;
+  padding: 7px 0;
+  font-size: 13px;
+  width: 35%;
+  border-radius: 50px;
+  font-weight: 600;
+  margin-left: 5px;
+}
