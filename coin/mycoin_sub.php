@@ -51,10 +51,6 @@
                     <!-- 보유코인 시작 --><!-- 보유코인 시작 --><!-- 보유코인 시작 --><!-- 보유코인 시작 --><!-- 보유코인 시작 --><!-- 보유코인 시작 --><!-- 보유코인 시작 --><!-- 보유코인 시작 --><!-- 보유코인 시작 --><!-- 보유코인 시작 -->
                     <div class="box" id='mywallet_havecoin'>
                         <h3 class='mywallet_h3'>보유코인</h3>
-                        <form class="" action="#" method="post">
-                            <input type="checkbox" id='have_coin' name='have_coin'>
-                            <label for='have_coin'>보유코인</label>
-                        </form>
                         <!-- deal_table_scroll -->
                         <div class="deal_table_scroll">
                             <table class='deal_table' summary='코인명,보유비중,보유수량,상태 정보를 알 수 있는 창'>
@@ -68,7 +64,12 @@
                                   <tr>
                                       <th class='coin_name1'>코인명</th>
                                       <th class='coin_portion'>보유비중</th>
-                                      <th class='coin_amount'>보유수량</th>
+                                      <th class='coin_amount'>
+                                        보유수량
+                                        <img src="img/up_down_default.png" alt="화살표">
+                                        <img src="img/up_down_up.png" alt="화살표" style="display:none">
+                                        <img src="img/up_down_down.png" alt="화살표" style="display:none">
+                                      </th>
                                       <th class='coin_condition'>상태</th>
                                   </tr>
                               </thead>

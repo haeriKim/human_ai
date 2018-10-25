@@ -1136,11 +1136,15 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
     color:#666;
 }
 #mywallet_havecoin thead th{
-    padding-left:45px;
+    padding-left:51px;
     color:#1b2f4a;
+}
+#mywallet_havecoin thead th.coin_condition{
+    padding-left:29px;
 }
 #mywallet_havecoin thead th.coin_name1{
     text-align: left;
+    padding-left: 39px;
 }
 #mywallet_havecoin tbody img{
     float: left;
@@ -1213,6 +1217,10 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
 #mywallet_havecoin .mywallet_havecoin_thead{
     width:100%;
 }
+#mywallet_havecoin .mywallet_havecoin_thead .coin_amount{
+    cursor: pointer;
+}
+
 .warning_icon{
   vertical-align: -3px;
   margin-right:2px;
