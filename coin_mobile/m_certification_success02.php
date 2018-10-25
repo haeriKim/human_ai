@@ -44,8 +44,8 @@
                       <p>더 많은 서비스를 이용하려면 다음 단계를 인증해주세요.</p>
 
                       <div class="certification_success_bt">
-                        <input type="button" name="" value="확인" onclick="location.href='m_certification_main'" class="cancel_btn">
-                        <input type="button" name="" value="인증하기" onclick="location.href='m_certification_03'" class="certification_btn">
+                        <input type="button" name="" value="확인" onclick="location.href='m_certification_main.php'" class="cancel_btn">
+                        <input type="button" name="" value="인증하기" onclick="location.href='m_certification_03.php'" class="certification_btn">
                       </div>
 
 

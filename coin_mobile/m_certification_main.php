@@ -67,7 +67,7 @@
                           <p>Level 2 보안 비밀번호생성<span class='recommend apply_sell'>*권장</span></p>
                         </div>
                         <span class='certi_success certi'>인증완료</span>
-                        <span class='go_certi certi' onclick="location.href='m_certification_02'">인증하기</span>
+                        <span class='go_certi certi' onclick="location.href='m_certification_02.php'">인증하기</span>
                     </li>
                     <li class='certi_level_03'>
                         <img src="img/m_phone.png" alt="실명인증" class='certi_on'>
@@ -76,7 +76,7 @@
                           <p>Level 3 실명인증<span class='recommend apply_sell'>*권장</span></p>
                         </div>
                         <span class='certi_success certi'>인증완료</span>
-                        <span class='go_certi certi' onclick="location.href='m_certification_03'">인증하기</span>
+                        <span class='go_certi certi' onclick="location.href='m_certification_03.php'">인증하기</span>
                     </li>
                     <li class='certi_level_04'>
                         <img src="img/m_bankbook.png" alt="계좌인증" class='certi_on'>
@@ -85,7 +85,7 @@
                           <p>Level 4 계좌인증<span class='recommend apply_sell'>*권장</span></p>
                         </div>
                         <span class='certi_success certi'>인증완료</span>
-                        <span class='go_certi certi' onclick="location.href='m_certification_04'">인증하기</span>
+                        <span class='go_certi certi' onclick="location.href='m_certification_04.php'">인증하기</span>
                     </li>
                     <li class='certi_level_05'>
                         <img src="img/m_lock.png" alt="OTP 인증" class='certi_on'>
@@ -94,7 +94,7 @@
                           <p>Level 5 OTP 인증<span class='recommend apply_sell'>*권장</span></p>
                         </div>
                         <span class='certi_success certi'>인증완료</span>
-                        <span class='go_certi certi' onclick="location.href='m_certification_05'">인증하기</span>
+                        <span class='go_certi certi' onclick="location.href='m_certification_05.php'">인증하기</span>
                     </li>
                 </ul>
 
