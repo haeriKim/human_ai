@@ -162,26 +162,12 @@
                                       <td id="left_text"></td>
                                       <td></td>
                                       <td></td>
-
                                     </tr>
 
                                     <tr>
                                       <td><span class="number_null">&nbsp;</span></td>
                                       <td id="left_text"></td>
                                       <td></td>
-                                      <td></td>
-                                    </tr>
-
-                                    <tr>
-                                      <td><span class="number_null">&nbsp;</span></td>
-                                      <td id="left_text"></td>
-                                      <td></td>
-                                      <td></td>
-                                    </tr>
-
-                                    <tr>
-                                      <td><span class="number_null">&nbsp;</span></td>
-                                      <td id="left_text"></td>
                                       <td></td>
                                       <td></td>
                                     </tr>
@@ -191,11 +177,29 @@
                                       <td id="left_text"></td>
                                       <td></td>
                                       <td></td>
+                                      <td></td>
                                     </tr>
 
                                     <tr>
                                       <td><span class="number_null">&nbsp;</span></td>
                                       <td id="left_text"></td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                    </tr>
+
+                                    <tr>
+                                      <td><span class="number_null">&nbsp;</span></td>
+                                      <td id="left_text"></td>
+                                      <td></td>
+                                      <td></td>
+                                      <td></td>
+                                    </tr>
+
+                                    <tr>
+                                      <td><span class="number_null">&nbsp;</span></td>
+                                      <td id="left_text"></td>
+                                      <td></td>
                                       <td></td>
                                       <td></td>
                                     </tr>

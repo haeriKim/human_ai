@@ -66,7 +66,7 @@
   }
   .faq_area .faq_list ul li .question img {
     width: 22px;
-    top:11px;
+    top:30%;
   }
   .faq_area .faq_list ul li .question span {
     font-size: 13px;
@@ -76,5 +76,12 @@
   }
   .faq_area .faq_list ul li .question {
     background: #f4f5f8 url(../img/arrow_off.png) no-repeat 95% center / 15px 15px;
+  }
+  .faq_area .faq_list ul li .answer img {
+    width: 22px;
+  }
+  .faq_area .faq_list ul li .answer p {
+    font-size: 13px;
+    padding-left: 22px;
   }
 }

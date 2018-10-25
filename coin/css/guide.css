@@ -74,3 +74,32 @@
 .guide_OTP_area .guide_OTP_yeobak{
   margin-bottom:100px;
 }
+@media all and (min-width:320px) and (max-width:768px){
+  .guide_OTP_area .guide_OTP_p {
+    font-size: 12px;
+    margin-top: 0;
+  }
+  .guide_OTP_area .guide_OTP_inner .title_title {
+    margin: 25px 0 15px;
+    font-size: 14px;
+  }
+  .guide_OTP_area .guide_OTP_table th,.guide_OTP_area .guide_OTP_table td {
+    padding: 10px;
+    font-size: 13px;
+  }
+  .guide_OTP_area .guide_OTP_star {
+    font-size: 13px;
+  }
+  .guide_OTP_area .ID_card {
+    margin-left: 0;
+  }
+  .guide_OTP_area .ID_card img {
+    width: 100%;
+    float: none;
+  }
+  .guide_OTP_area .ID_card .ID_card_text {
+    margin-left: 0;
+    float: none;
+    width: 100%;
+  }
+}

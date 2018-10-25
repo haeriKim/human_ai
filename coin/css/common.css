@@ -909,7 +909,7 @@ box-shadow:none;
     margin-bottom: 20px;
   }
   .content_nav h4{
-    font-size:16px;
+    font-size:17px;
     padding-bottom:5px;
   }
   .content_nav ul{
@@ -923,9 +923,13 @@ box-shadow:none;
   }
   .content_nav li a{
     padding:5px 0;
+    font-size: 15px;
   }
   .content_nav li .nav_dropdown {
     text-align: left;
+  }
+  .content_nav li .nav_dropdown dt a {
+    font-size: 13px;
     padding-left: 20px;
   }
   .box h3.title {
@@ -942,7 +946,7 @@ box-shadow:none;
     width: 100%;
     float: none;
   }
-  .search input, .search a.search_btn{
+  .search input, .search a.search_btn, .days{
     display: none;
   }
 }
