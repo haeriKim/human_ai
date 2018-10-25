@@ -101,8 +101,8 @@
                       <div class="alarm_table_area">
                         <table class="alarm_table">
                           <colgroup>
-                            <col width="20%">
-                            <col widht="80%">
+                            <col width="15%">
+                            <col widht="85%">
                           </colgroup>
 
                           <tbody>
