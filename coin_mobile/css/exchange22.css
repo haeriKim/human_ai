@@ -129,8 +129,7 @@
   margin-left:3px;
   color:rgba(255,255,255,.6);
   background-color: #0F1926;
-  border: none;
-  border-bottom: 1px solid rgba(255,255,255,.6);
+  border: 1px solid rgba(255,255,255,.6);
   background-size: 5px;
 }
 .tab_container .tab_content .buy_tab_content_row .buy_all_amount_title{
@@ -263,4 +262,7 @@
 }
 .tab_container #tab3 .apply_sell{
     color: #01a9ff;
+}
+.none_box{
+  height:30px;
 }

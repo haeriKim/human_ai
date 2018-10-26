@@ -100,3 +100,6 @@
 .coin_table table tbody .mycoin_name p {
   display: inline-block;
 }
+.none_box{
+  height:40px;
+}

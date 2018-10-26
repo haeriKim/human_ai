@@ -179,6 +179,7 @@
                 </div><!-- exchange_content End-->
             </div><!-- content_wrap End-->
 
+            <div class='none_box'></div>
             <!-- nav_wrap -->
             <?php include "nav.php";?>
             <!-- nav_wrap End-->

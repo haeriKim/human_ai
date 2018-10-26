@@ -329,6 +329,7 @@
                   </div><!--//container_wrap 끝-->
                 </div><!--//container 끝-->
                 <!-- nav_wrap -->
+                <div class="none_box"></div>
                 <?php include "nav.php";?>
                 <!-- nav_wrap End-->
               </div><!--//wrap 끝-->

@@ -72,13 +72,13 @@
   border-bottom: 1px solid rgba(255,255,255,.2);
 }
 .certification_account_area .account_input_area select{
-  border:none;
-  border-bottom:1px solid #30afb8;
+  border:1px solid #30afb8;
   color:rgba(255, 255, 255, 0.5);
   background-color: #0F1926;
   width: 95%;
   font-size: 13px;
   padding: 3px 5px;
+  background: url(../img/arrow_down_sky.png) no-repeat 95% center; background-size:4%;
 }
 .certification_account_area .account_input_area select option{
   color:#555;
@@ -137,11 +137,16 @@
   padding: 0 5px;
   width:96%;
 }
+.certification_account_area .account_1won .account_1won_box img{
+  margin-right:2px;
+  vertical-align: -0.5px;
+}
 .certification_account_area .account_1won .account_1won_box a{
   margin-top:10px;
   text-align: right;
   display: block;
   overflow: hidden;
+  color:rgba(255, 255, 255, 0.5);
 }
 .certification_account_area #bank_complete{
   text-align: center;
@@ -177,6 +182,7 @@
 }
 .certification_account_area .account_delete p.account_delete_title{
   margin-bottom:10px;
+  font-size:13px;
 }
 .certification_account_area .account_delete b{
   color:#30afb8;
@@ -187,6 +193,7 @@
 .certification_account_area .account_delete table{
   font-size: 13px;
   margin: 10px 0;
+  background:#070B11;
 }
 .certification_account_area .account_delete tbody{
   border: 1px solid rgba(255,255,255,.2);
@@ -197,7 +204,7 @@
 .certification_account_area .account_delete th{
   border-right: 1px solid rgba(255,255,255,.2);
   width: 30%;
-  background: #192331;
+  background: #070B11;
   opacity: 0.6;
   font-weight: 500;
 }

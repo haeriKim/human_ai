@@ -54,7 +54,7 @@
 
                               <input type="text" placeholder="인증번호 숫자 3자리를 입력하세요." required class="authentication_num" minlength="3" maxlength="3">
                               <!--<p id="warning_message"><img src="img/icon_ex.png" alt="경고아이콘" class="warning_icon">인증번호가 일치하지 않습니다.</p>-->
-                              <a class="delete_icon"><img src="img/x.png" alt="휴지통아이콘">삭제</a>
+                              <a class="delete_icon"><img src="img/x_sky.png" alt="휴지통아이콘">삭제</a>
 
 
 
