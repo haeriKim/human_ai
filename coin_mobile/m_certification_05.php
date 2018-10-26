@@ -40,7 +40,7 @@
                     <div class="certification_OTP_area">
 
                         <div class="OTP_inner">
-                          <p class="OTP_title borderTop">1. OTP앱을 스마트폰에 다운로드 받으세요.</p>
+                          <p class="OTP_title">1. OTP앱을 스마트폰에 다운로드 받으세요.</p>
                           <div class="download_area">
                           <ul class="android">
                             <li class="app_title">[ android 전용 Google OTP ]</li>
@@ -79,7 +79,7 @@
                           </ul>
                         </div>
 
-                          <p class="OTP_title">3. '2단계'완료 후 OTP 인증 앱에 표시된 인증번호(6자리)를 입력해주세요.</p>
+                          <p class="OTP_title borderTop">3. '2단계'완료 후 OTP 인증 앱에 표시된 인증번호(6자리)를 입력해주세요.</p>
 
                           <div class="key_area">
                             <form action="#" method="post" class="OTP_codebox">
