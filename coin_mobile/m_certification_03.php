@@ -25,7 +25,7 @@
                 <div id="header2">
                     <!-- headerTop -->
                     <div class="headerTop">
-                        <input type="button" class="back" onclick="location.href='m_moreView_main.php'"/>
+                        <input type="button" class="back" onclick="location.href='m_certification_main.php'"/>
                         <h2 class="header_title">실명인증</h2>
                         <!-- alarm_area -->
                         <div class="alarm_area">

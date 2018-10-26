@@ -15,70 +15,70 @@
     <!-- <script src="js/fouc.js"></script> -->
 </head>
 <body>
-    <!-- wrap -->
-    <div id="wrap">
-        <!-- container -->
-        <div id="container">
+   <!-- wrap -->
+   <div id="wrap">
+     <!-- container -->
+     <div id="container">
 
-          <div id ="header_wrap">
-            <!-- header -->
-            <div id="header2">
-              <div class="headerTop">
-                <input type="button" class="back" onclick="location.href='m_moreView_main.php'"/>
-                <h2 class="header_title">회원정보</h2>
-                <div class="alarm_area">
-                  <img src="img/bell.png" class="alarmBtn" alt="알림버튼" onclick="location.href='m_alarm.php'"/>
-                </div>
-              </div>
-            </div> <!-- header End-->
-          </div><!-- header_wrap End-->
+         <div id ="header_wrap">
+           <!-- header -->
+           <div id="header2">
+             <div class="headerTop">
+               <input type="button" class="back" onclick="location.href='m_moreView_main.php'"/>
+               <h2 class="header_title">회원정보</h2>
+               <div class="alarm_area">
+                 <img src="img/bell.png" class="alarmBtn" alt="알림버튼" onclick="location.href='m_alarm.php'"/>
+               </div>
+             </div>
+           </div> <!-- header End-->
+         </div><!-- header_wrap End-->
 
-            <!-- mycoin_content_wrap -->
-            <div class="mycoin_content_wrap">
-                <!-- m_mycoin_main -->
-                <div class="content">
-                    <div class="myinfo_area">
+           <!-- mycoin_content_wrap -->
+           <div class="mycoin_content_wrap">
+               <!-- m_mycoin_main -->
+               <div class="content">
+                   <div class="myinfo_area">
 
-                          <p>회원정보</p>
-                          <dl>
-                            <dt class="info_title">이메일주소</dt>
-                            <dd class="info user_phone">abc@naver.com</dd>
+                         <p>회원정보</p>
+                         <dl>
+                           <dt class="info_title">이메일주소</dt>
+                           <dd class="info user_phone">abc@naver.com</dd>
 
-                            <dt class="info_title">휴대폰 번호</dt>
-                            <dd class="info user_phone">010-****-1234</dd>
+                           <dt class="info_title">휴대폰 번호</dt>
+                           <dd class="info user_phone">010-****-1234</dd>
 
-                            <dt class="info_title">이름</dt>
-                            <dd class="info user_phone">가*다</dd>
+                           <dt class="info_title">이름</dt>
+                           <dd class="info user_phone">가*다</dd>
 
-                            <dt class="info_title">계좌정보</dt>
-                            <dd class="info user_phone">국민은행 1234-********-11-123</dd>
+                           <dt class="info_title">계좌정보</dt>
+                           <dd class="info user_phone">국민은행 1234-********-11-123</dd>
 
-                            <dt class="info_title">인증레벨</dt>
-                            <dd class="info user_level">Level 5 (OTP인증)</dd>
+                           <dt class="info_title">인증레벨</dt>
+                           <dd class="info user_level">Level 5 (OTP인증)</dd>
 
-                            <!--<li class="info_title">접속관리</li>
-                            <li class="info">2018-10-24 최종 로그인</li>-->
+                           <!--<li class="info_title">접속관리</li>
+                           <li class="info">2018-10-24 최종 로그인</li>-->
 
-                          </dl>
+                         </dl>
 
-                          <p class="info_h2">회원정보관리</p>
-                          <ul>
-                            <li class="info info2">회원정보 관리 및 변경은 웹(PC)에서 가능 합니다.</li>
-                          </ul>
+                         <p class="info_h2">회원정보관리</p>
+                         <ul>
+                           <li class="info info2">회원정보 관리 및 변경은 웹(PC)에서 가능 합니다.</li>
+                         </ul>
 
 
 
-                    </div><!-- assets_area End-->
-                </div><!-- m_mycoin_main End-->
-            </div><!-- mycoin_content_wrap End-->
+                   </div><!-- assets_area End-->
+               </div><!-- m_mycoin_main End-->
+           </div><!-- mycoin_content_wrap End-->
 
-            <!-- nav -->
-            <?php include "nav.php";?>
-            <!-- nav End-->
+           <!-- nav -->
+           <?php include "nav.php";?>
+           <!-- nav End-->
 
-        </div><!-- container End -->
-        <!-- nav_wrap -->
-        <!-- nav_wrap End-->
-    </div><!-- wrap End -->
+       </div><!-- container End -->
+       <!-- nav_wrap -->
+       <!-- nav_wrap End-->
+   </div><!-- wrap End -->
 </body>
 </html>

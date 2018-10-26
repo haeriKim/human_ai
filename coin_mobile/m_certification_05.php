@@ -24,7 +24,7 @@
             <!-- header -->
             <div id="header2">
               <div class="headerTop">
-              <a href="#" onclick="history.go(-1); return false;"/> <input type="button" class="back" ></a>
+              <a href="m_certification_main.php"/> <input type="button" class="back" ></a>
                 <h2 class="header_title">OTP 인증</h2>
                 <div class="alarm_area">
                   <img src="img/bell.png" class="alarmBtn" alt="알림버튼" onclick="location.href='m_alarm.php'"/>
@@ -38,21 +38,16 @@
                 <!-- m_mycoin_main -->
                 <div class="content">
                     <div class="certification_OTP_area">
-                        <div class="icon">
-                          <img src="" alt="">
-                        </div>
 
                         <div class="OTP_inner">
-
-
-                          <p class="OTP_title">1.OTP앱을 스마트폰에 다운로드 받으세요.</p>
+                          <p class="OTP_title borderTop">1. OTP앱을 스마트폰에 다운로드 받으세요.</p>
                           <div class="download_area">
                           <ul class="android">
                             <li class="app_title">[ android 전용 Google OTP ]</li>
                             <li class="app_text">
                               <!--<img src="img/apple_app.png" alt="안드로이드구글OTP" class="android_img">-->
                               <br/>
-                              <p><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&rdid=com.google.android.apps.authenticator2" target="_blank"><img src="img/playstore.png" alt="플레이스토어" class="android_down"></a></p>
+                              <p><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&rdid=com.google.android.apps.authenticator2" target="_blank"></a></p>
                               <span>'Google OTP'를 검색하신 후 다운로드 받으세요.</span>
 
                             </li>
@@ -63,14 +58,14 @@
                             <li class="app_text">
                               <!--<img src="img/apple_app.png" alt="애플구글OTP" class="apple_img">-->
                               <br/>
-                              <p><a href="https://itunes.apple.com/kr/app/google-authenticator/id388497605?mt=8" target="_blank"><img src="img/appstore.png" alt="앱스토어" class="apple_down"></a></p>
+                              <p><a href="https://itunes.apple.com/kr/app/google-authenticator/id388497605?mt=8" target="_blank"></a></p>
                               <span>'Google Authenticator'를 검색하신 후 다운로드 받으세요.</span>
 
                             </li>
                           </ul>
                         </div>
 
-                          <p class="OTP_title">2.다운로드 받은 앱에 'QR'코드를 스캔하거나 '16자리 코드번호'를 입력해주세요.</p>
+                          <p class="OTP_title borderTop">2. 다운로드 받은 앱에 'QR'코드를 스캔하거나 '16자리 코드번호'를 입력해주세요.</p>
 
                           <div class="qr_code_area">
                           <ul class="qr_code_img">
@@ -84,7 +79,7 @@
                           </ul>
                         </div>
 
-                          <p class="OTP_title">3.'2단계'완료 후 OTP 인증 앱에 표시된 인증번호(6자리)를 입력해주세요.</p>
+                          <p class="OTP_title">3. '2단계'완료 후 OTP 인증 앱에 표시된 인증번호(6자리)를 입력해주세요.</p>
 
                           <div class="key_area">
                             <form action="#" method="post" class="OTP_codebox">
