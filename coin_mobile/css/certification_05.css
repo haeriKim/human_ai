@@ -9,8 +9,7 @@
 
 .certification_OTP_area .OTP_inner .OTP_title{
   font-size:13px;
-  padding-top:15px;
-
+  padding-top:20px;
 }
 .certification_OTP_area .OTP_inner .borderTop {
 
@@ -20,16 +19,35 @@
   color:rgba(255, 255, 255, 0.6);
 }
 .certification_OTP_area .OTP_inner .download_area{
+  text-align: center;
   overflow: hidden;
+  margin:0 auto;
+  padding:10px 0%;
+  display:block;
 }
-.certification_OTP_area .OTP_inner .android{
-  padding:0 15px;
+.certification_OTP_area .OTP_inner .download_area img{
+  margin-top:5px;
+}
+.certification_OTP_area .OTP_inner .app{
+  text-align: center;
+  overflow: hidden;
+  margin:0 auto;
+  padding:0 2%;
+  display:block;
+}
+.certification_OTP_area .OTP_inner .app li{
+  color:rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+.certification_OTP_area .OTP_inner .app .app_text{
+  width:50%;
   float:left;
 }
-.certification_OTP_area .OTP_inner .apple{
-  float:right;
-  padding:0 15px;
+.certification_OTP_area .OTP_inner .app .app_text2{
+  width:50%;
+  float:left;
 }
+
 
 /*.certification_OTP_area .OTP_inner .app_text .android_img{
   width:50px;
@@ -41,21 +59,7 @@
   height:50px;
   float:left;
 }*/
-.certification_OTP_area .OTP_inner .app_text span{
-  display: inline-block;
-  float: left;
-  width: 100%;
-  color:#30AFB8;
-}
-.certification_OTP_area .OTP_inner .app_text img{
-  margin-bottom:5px;
-}
-.certification_OTP_area .OTP_inner .app_text .playstore{
-  float:left;
-}
-.certification_OTP_area .OTP_inner .app_text .appstore{
-  float:left;
-}
+
 
 /*qr_code_area*/
 .certification_OTP_area .OTP_inner .qr_code_area{
@@ -66,29 +70,24 @@
 }
 .certification_OTP_area .OTP_inner .qr_code_img{
   float:left;
-  width:40%;
-
+  width:45%;
   text-align: center;
 }
 .certification_OTP_area .OTP_inner .qr_code_img li.qr_code_text{
   display: inline-block;
   margin-bottom:10px;
 }
-
 .certification_OTP_area .OTP_inner .qr_code_img .qr_code_imgbox{
-
 }
 /*--------------------------*/
 .certification_OTP_area .OTP_inner .qr_code_key{
   float:left;
   width:50%;
   margin-left:5%;
-
-    text-align: center;
+  text-align: center;
 }
 .certification_OTP_area .OTP_inner .qr_code_key li.qr_code_number{
   text-align: center;
-
 }
 .certification_OTP_area .OTP_inner .qr_code_key2{
   margin-top:30px;
@@ -125,7 +124,7 @@
   color: #fff;
   padding: 8px 0;
   font-size: 13px;
-  width: 40%;
+  width: 41%;
   border-radius: 50px;
   font-weight: 600;
   margin-left: 5px;
