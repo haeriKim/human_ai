@@ -170,7 +170,7 @@
                     </div><!-- assets_area End-->
                 </div><!-- m_mycoin_main End-->
             </div><!-- mycoin_content_wrap End-->
-
+            <div class="none_box"></div>
             <!-- nav -->
             <?php include "nav.php";?>
             <!-- nav End-->
