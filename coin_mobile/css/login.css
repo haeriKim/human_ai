@@ -1,0 +1,58 @@
+/*로그인창*/
+.see_more{
+  overflow:hidden;
+  width:100%;
+  text-align: right;
+}
+.see_more img{
+  padding-top:20px;
+  padding-right:20px;
+}
+
+.logo_area{
+  width:100%;
+  text-align: center;
+  margin-top:20%;
+}
+
+.login_input_area{
+  margin-top:20%;
+  text-align: center;
+}
+.login_input_area input{
+  margin-top: 10px;
+  border: none;
+  border-bottom: 1px solid #30afb8;
+  background: none;
+  color: #fff;
+  text-align: left;
+  padding: 0 5px;
+  width: 70%;
+  height: 25px;
+  font-size: 15px;
+  margin-bottom:20px;
+}
+.login_bt_area{
+  text-align: center;
+  margin-top:30px;
+}
+.login_bt_area input{
+  background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+  border: none;
+  color: #111;
+  padding: 10px 0;
+  font-size: 13px;
+  width: 70%;
+  border-radius: 50px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+.help_bt{
+  text-align: center;
+  margin-top:10%;
+  font-size:13px;
+}
+.help_bt .bar{
+  margin:0 5px;
+  display:inline-block;
+}
