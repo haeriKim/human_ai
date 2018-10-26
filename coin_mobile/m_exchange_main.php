@@ -36,6 +36,7 @@
             <div class="main_content_wrap">
                 <!-- main_content -->
                 <div class="content">
+                    <div id="mainpage_scroll">
                     <div class="box" id='deal_orgin_transaction'>
                         <ul class='gnb_tab'>
                             <li class='on tab_KRW'><a href="#">KRW</a></li>
@@ -143,6 +144,7 @@
                         </div>
                       </div>
                     </div><!-- con_410 End-->
+                  </div><!--mainpage_scrool End-->
                 </div><!-- exchange_content End-->
             </div><!-- content_wrap End-->
 

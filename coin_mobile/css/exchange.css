@@ -1,4 +1,8 @@
 /*공통*/
+#mainpage_scroll{
+  overflow-y:scroll;
+  height:650px;
+}
 @media all and (min-width:320px) and (max-width:768px){
     /*deal_orgin_transaction*/
     #deal_orgin_transaction{
@@ -7,6 +11,7 @@
         float:left;
         width:100%;
     }
+
     #deal_orgin_transaction .gnb_tab{
         overflow: hidden;
         font-size: 14px;
