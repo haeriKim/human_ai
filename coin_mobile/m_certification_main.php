@@ -106,6 +106,7 @@
                     ※ 인증된 정보를 변경하시려면 <span>'마이페이지 > 회원 정보관리'</span> 에서 이용해주세요.<br>
                 </p>
             </div><!-- certification_main_wrap End-->
+            <div class="none_box"></div>
 
             <!-- nav -->
             <?php include "nav.php";?>

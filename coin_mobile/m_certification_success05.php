@@ -44,7 +44,7 @@
                       <p>이제부터 모든 서비스 이용이 가능합니다.</p>
 
                       <div class="certification_success_bt">
-                        <input type="button" name="" value="확인" onclick="location.href='m_certification_main.php'" class="cancel_btn">
+                        <input type="button" name="" value="확인" onclick="location.href='m_certification_main.php'" class="chk_ok">
                       </div>
 
 

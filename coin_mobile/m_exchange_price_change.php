@@ -37,10 +37,12 @@
                       <option value="에이다 ADA/KRW">에이다 ADA/KRW</option>
                   </select>
                 </div>
+
                 <div class="alarm_area">
                   <img src="img/bell.png" class="alarmBtn" alt="알림버튼"/>
                 </div>
               </div>
+            </div>
               <div class="current_price">
                 <div class="price">
                   <p>현재가</p>
@@ -257,7 +259,9 @@
                         </div><!--bid_price End-->
                       </div><!--deal_scroll End-->
 
-                    </div><!-- con_410 End-->
+                      <div class="none_box"></div>
+
+                    </div><!-- deal_orgin_transaction End-->
                 </div><!-- exchange_content End-->
             </div><!-- content_wrap End-->
 

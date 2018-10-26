@@ -55,11 +55,10 @@
 }
 #deal_orgin_transaction table{
     font-size:13px;
-    margin-top:42px;
+    margin-top:102px;
 }
 #deal_orgin_transaction .deal_scroll{
   overflow-y: scroll;
-  height:640px;
 }
 #deal_orgin_transaction thead  {
   background-color: #192331;
@@ -150,4 +149,7 @@
 }
 #deal_orgin_transaction .bid_price .border_right{
   border-right:1px solid rgba(255,255,255,.2);
+}
+.none_box{
+  height:50px;
 }
