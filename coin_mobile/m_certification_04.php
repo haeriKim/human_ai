@@ -40,7 +40,7 @@
                     <div class="certification_account_area">
 
                       <div class="agree_area">
-                        <p>1.개인정보 수집 및 이용 동의(필수)</p>
+                        <p class="title_text">1. 개인정보 수집 및 이용 동의<span class="important">(필수)</span></p>
 
                           <ul>
                             <li>- 목적: 원화(KRW) 거래를 위한 본인 확인</li>
@@ -54,7 +54,7 @@
                       </div>
 
                       <div class="account_input_area">
-                        <p>2.계좌 정보 입력</p>
+                        <p class="title_text">2. 계좌 정보 입력</p>
                         <table>
                           <tbody>
                           <tr>
@@ -66,7 +66,7 @@
                             <th>은행명</th>
                             <td>
                               <select name="은행명" id="bank_kind">
-                                <option value="전체">은행선택</option>
+                                <option value="전체" disabled selected="selected">은행선택</option>
                                 <option value="전체">국민은행</option>
                                 <option value="전체">농협은행</option>
                                 <option value="전체">신한은행</option>

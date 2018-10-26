@@ -20,23 +20,21 @@
   margin-top:40px;
 }
 .certification_success_area .certification_success_bt input.cancel_btn{
-  background:none;
-  border: 1px solid #30afb8;
-  color: #30afb8;
-  padding: 7px 0;
-  font-size: 13px;
-  width: 25%;
+  color: #30AFB8;
   border-radius: 50px;
-  font-weight: 600;
-  margin-left: 5px;
+  border: 1px solid #30AFB8;
+  padding: 7px 7px;
+  width: 25%;
+  background: none;
+  font-size: 13px;
 }
 .certification_success_area .certification_success_bt input.chk_ok{
   background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
   border: none;
   color: #fff;
-  padding: 7px 0;
+  padding: 8px 0;
   font-size: 13px;
-  width: 25%;
+  width: 40%;
   border-radius: 50px;
   font-weight: 600;
   margin-left: 5px;
@@ -45,9 +43,9 @@
   background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
   border: none;
   color: #fff;
-  padding: 7px 0;
+  padding: 8px 0;
   font-size: 13px;
-  width: 35%;
+  width: 40%;
   border-radius: 50px;
   font-weight: 600;
   margin-left: 5px;

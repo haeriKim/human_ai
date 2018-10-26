@@ -40,7 +40,7 @@
                     <div class="certification_account_area">
 
                       <div class="account_1won">
-                        <p>3.인증번호 확인</p>
+                        <p class="title_text">3. 인증번호 확인</p>
                           <div class="account_1won_box">
 
                             <div class="account_1won_text">
