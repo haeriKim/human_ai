@@ -10,18 +10,27 @@
 .certification_OTP_area .OTP_inner .OTP_title{
   font-size:13px;
   padding-top:15px;
-  margin-top: 15px;
+
 }
 .certification_OTP_area .OTP_inner .borderTop {
-  border-top: 1px solid #30AFB8;
+
 }
 .certification_OTP_area .OTP_inner .app_title{
   margin-top: 5px;
   color:rgba(255, 255, 255, 0.6);
 }
-.certification_OTP_area .OTP_inner .app_text{
+.certification_OTP_area .OTP_inner .download_area{
   overflow: hidden;
 }
+.certification_OTP_area .OTP_inner .android{
+  padding:0 15px;
+  float:left;
+}
+.certification_OTP_area .OTP_inner .apple{
+  float:right;
+  padding:0 15px;
+}
+
 /*.certification_OTP_area .OTP_inner .app_text .android_img{
   width:50px;
   height:50px;
@@ -40,6 +49,12 @@
 }
 .certification_OTP_area .OTP_inner .app_text img{
   margin-bottom:5px;
+}
+.certification_OTP_area .OTP_inner .app_text .playstore{
+  float:left;
+}
+.certification_OTP_area .OTP_inner .app_text .appstore{
+  float:left;
 }
 
 /*qr_code_area*/
