@@ -27,7 +27,7 @@
                 <input type="button" class="back" onclick="location.href='m_account_coin_main.php'"/>
                 <h2 class="header_title">비트코인(BTC) 입금</h2>
                 <div class="alarm_area">
-                  <img src="img/bell.png" class="alarmBtn" alt="알림버튼"/>
+                  <img src="img/bell.png" class="alarmBtn" alt="알림버튼" onclick="location.href='m_alarm.php'"/>
                 </div>
               </div>
             </div> <!-- header End-->
