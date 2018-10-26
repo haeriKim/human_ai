@@ -24,6 +24,7 @@
 .use_content #use_area .use_area_text{
   border-bottom:1px solid #f4f5f8;
   margin-bottom:30px;
+  padding-bottom: 30px;
 }
 .use_content #use_area .use_area_text .title{
   font-size:25px;
@@ -90,4 +91,20 @@
 .use_content #use_area .use_area_text .use_date li a:hover{
   color:#fff;
   background-color:#1b2f4a;
+}
+.use_content #use_area .common_table tbody tr th{
+    color: #1b2f4a;
+    width: 10%;
+    font-size: 15px;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+}
+.use_content #use_area .common_table tbody tr td{
+    font-size: 14px;
+    width: 64%;
+    text-align: left;
+    padding: 10px;
+    border-left: 1px solid #999;
+    border-top: 1px solid #999;
+    line-height:1.7;
 }

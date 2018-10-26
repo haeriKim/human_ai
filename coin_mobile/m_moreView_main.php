@@ -62,7 +62,7 @@
                         <p>접속 이력확인</p>
                         <img src="img/m_gothru.png" alt="자세히" class='gothru'>
                     </li>
-                    <li onclick="location.href='m_moreView_pp.php'">
+                    <li onclick="location.href='m_moreView_tos.php'">
                         <p>이용약관 / 개인정보처리방침</p>
                         <img src="img/m_gothru.png" alt="자세히" class='gothru'>
                     </li>
