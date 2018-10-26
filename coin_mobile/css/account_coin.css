@@ -81,7 +81,7 @@
   background: none;
   color: #30AFB8;
   display: inline-block;
-  padding: 2px 8px;
+  padding: 5px 10px;
 }
 .my_assets_coin01 .coin_inout .qr_code{
   width:100%;
@@ -95,7 +95,7 @@
   margin-bottom:10px;
 }
 .none_box{
-  height:20px;
+  height:50px;
 }
 
 /*coin_warning (Step1)*/
