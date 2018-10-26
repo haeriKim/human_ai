@@ -40,7 +40,7 @@
                     <div class="certification_account_area">
 
                       <div class="agree_area">
-                        <p class="title_text">1. 개인정보 수집 및 이용 동의<span class="important">(필수)</span></p>
+                        <p class="title_text">STEP1. 개인정보 수집 및 이용 동의<span class="important">(필수)</span></p>
 
                           <ul>
                             <li>- 목적: 원화(KRW) 거래를 위한 본인 확인</li>
@@ -54,7 +54,7 @@
                       </div>
 
                       <div class="account_input_area">
-                        <p class="title_text">2. 계좌 정보 입력</p>
+                        <p class="title_text">STEP2. 계좌 정보 입력</p>
                         <table>
                           <tbody>
                           <tr>

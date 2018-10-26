@@ -56,10 +56,11 @@
     .certification_main_wrap ul li .recommend{
         margin-left: 2%;
         opacity: 1;
+        font-size:11px;
     }
-    .certification_main_wrap ul li span{
-        font-size: 12px;
-        opacity: 0.6;
+
+    .certification_main_wrap ul li span.user_level_on{
+        color:#30afb8;
     }
     .certification_main_wrap ul li span.certi_success{
         color: rgba(255,255,255,.3);
@@ -154,5 +155,5 @@
 }
 .none_box{
   height:50px;
-  
+
 }
