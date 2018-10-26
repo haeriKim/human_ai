@@ -20,7 +20,7 @@
         <div id="container">
 
           <div class="see_more">
-            <img src="img/x_sky.png" alt="둘러보기">
+            <a href="m_exchange_main.php"><img src="img/x_sky.png" alt="둘러보기"></a>
           </div>
 
           <div class="logo_area">
