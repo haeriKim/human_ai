@@ -39,7 +39,7 @@
                 <ul>
                     <li class='user_info_li'>
                         <p class='user_mail'>abc@naver.com</p>
-                        <input type="button" name="logout" value="로그아웃" class='log_out waiting'>
+                        <input type="button" name="logout" value="로그아웃" class='log_out waiting' onclick="location.href='m_login.php'">
                     </li>
                     <li onclick="location.href='m_moreView_myinfo.php'">
                         <p>회원정보</p>
