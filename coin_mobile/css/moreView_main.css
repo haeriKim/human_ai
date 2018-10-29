@@ -12,6 +12,7 @@
     .moreView_content_wrap ul li .only_pc{
         font-size: 12px;
         margin-top: 5px;
+        width: 85%;
     }
     .moreView_content_wrap ul li.user_info_li{
         background: #070B11;
@@ -42,4 +43,8 @@
     .moreView_content_wrap ul li img.gothru_02{
         top: 28.65px;
     }
+    .moreView_content_wrap ul li img.gothru_03{
+        top: 36.65px;
+    }
+
 }
