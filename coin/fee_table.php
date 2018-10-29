@@ -75,18 +75,18 @@
                         <li><a href="customer_faq.php" title="FAQ" class='sub_title'>FAQ</a></li>
                         <li>
                           <a href="customer_question.php" title="1:1 문의" class='sub_title'>1:1 문의</a>
-                          <dl class="nav_dropdown">
+                          <!-- <dl class="nav_dropdown">
                               <dt><a href="customer_question.php" title="1:1 문의하기">1:1 문의하기</a></dt>
                               <dt><a href="customer_questionList.php" title="문의내역">문의내역</a></dt>
-                          </dl>
+                          </dl> -->
                         </li>
                         <li>
                           <a href="guide_security.php" title="인증자료 제출안내" class='sub_title'>인증자료 제출안내</a>
-                          <dl class="nav_dropdown changeA_dd">
+                          <!-- <dl class="nav_dropdown changeA_dd">
                               <dt><a href="guide_security.php" title="보안 비밀번호 초기화">보안 비밀번호 초기화</a></dt>
                               <dt><a href="guide_account.php" title="계좌 변경">계좌변경</a></dt>
                               <dt><a href="guide_OTP.php" title="OTP 초기화">OTP 초기화</a></dt>
-                          </dl>
+                          </dl> -->
                         </li>
                         <li><a href="#" title="수수료 안내" class='sub_title active'>수수료 안내</a></li>
                     </ul>
@@ -96,7 +96,7 @@
                   <div class="box common_table_content fees_area">
                       <h3 class='title'>수수료 안내</h3>
                       <div class="mypage_content">
-                          <h4>거래수수료</h4>
+                          <h4 class='title2'>거래수수료</h4>
                           <table class='common_table deal_fee'>
                               <colgroup>
                                   <col style="width:50%;">

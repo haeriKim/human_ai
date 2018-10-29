@@ -72,21 +72,21 @@
                     <div class="content_nav_responsive">
                       <h4>고객지원</h4>
                       <ul>
-                          <li><a href="customer_faq.php" title="FAQ" class='sub_title'>FAQ</a></li>
+                          <li><a href="#" title="FAQ" class='sub_title'>FAQ</a></li>
                           <li>
-                            <a href="#" title="1:1 문의" class='sub_title active'>1:1 문의</a>
-                            <dl class="nav_dropdown">
+                            <a href="customer_question.php" title="1:1 문의" class='sub_title active'>1:1 문의</a>
+                            <!-- <dl class="nav_dropdown">
                                 <dt><a href="customer_question.php" title="1:1 문의하기">1:1 문의하기</a></dt>
-                                <dt><a href="#" title="문의내역" class='active2'>문의내역</a></dt>
-                            </dl>
+                                <dt><a href="customer_questionList.php" title="문의내역">문의내역</a></dt>
+                            </dl> -->
                           </li>
                           <li>
                             <a href="guide_security.php" title="인증자료 제출안내" class='sub_title'>인증자료 제출안내</a>
-                            <dl class="nav_dropdown changeA_dd">
+                            <!-- <dl class="nav_dropdown changeA_dd">
                                 <dt><a href="guide_security.php" title="보안 비밀번호 초기화">보안 비밀번호 초기화</a></dt>
                                 <dt><a href="guide_account.php" title="계좌 변경">계좌변경</a></dt>
                                 <dt><a href="guide_OTP.php" title="OTP 초기화">OTP 초기화</a></dt>
-                            </dl>
+                            </dl> -->
                           </li>
                           <li><a href="fee_table.php" title="수수료 안내" class='sub_title'>수수료 안내</a></li>
                       </ul>
@@ -95,7 +95,17 @@
                   <div class="box question_history_area">
                     <h3 class="title">1:1 문의</h3>
                         <div class="question_history_inner mypage_content">
-                          <h4 class="title2">문의내역</h4>
+                            <!-- guide_responsive -->
+                            <div class="guide_responsive">
+                              <dl class="guide_select">
+                                  <dt><span>문의내역</span></dt>
+                                  <div class="guide_option">
+                                      <dd onclick="location.href='customer_question.php'"><span>1:1 문의하기</span></dd>
+                                      <dd><span>문의내역</span></dd>
+                                  </div>
+                              </dl>
+                            </div><!-- guide_responsive End-->
+                          <h4 class="">문의내역</h4>
                           <div class="question_history_head">
                             <select name="알림선택" id="question_select2">
                               <option value="전체" disabled selected="selected">전체</option>

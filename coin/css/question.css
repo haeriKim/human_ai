@@ -252,14 +252,15 @@
   padding:35px 40px;
 }
 .question_detail .question_detail_inner .question_title_wrap{
-  border-bottom:2px solid #1b2f4a;
-  padding:10px 20px;
-  overflow: hidden;
+    border-bottom: 2px solid #1b2f4a;
+    padding: 10px 0;
+    overflow: hidden;
 }
 .question_detail .question_detail_inner .question_title_wrap h4{
   color:#1b2f4a;
   display: inline-block;
   float: left;
+  font-size: 16px;
 }
 .question_detail .question_detail_inner .question_title_wrap .upload_day{
   display: inline-block;

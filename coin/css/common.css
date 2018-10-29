@@ -859,6 +859,9 @@ box-shadow:none;
 }
 
 /* mobile ver */
+.guide_responsive{
+    display: none;
+}
 @media (max-width:768px) {
   #wrap{
       min-width: 310px;
@@ -909,7 +912,6 @@ box-shadow:none;
     display: block;
     margin-right: 0;
     float: none;
-    text-align:center;
     height:auto;
     font-size:12px;
     margin-bottom: 20px;
@@ -930,7 +932,7 @@ box-shadow:none;
   .content_nav_responsive li{
       text-align: left;
       width: 100%;
-      margin-bottom: 10px;
+      margin-bottom: 5px;
   }
   .content_nav_responsive li a.sub_title{
       color: #fff;
@@ -979,6 +981,43 @@ box-shadow:none;
     font-size: 13px;
     padding-left: 7%;
   }
+  .mypage_content{
+      position: relative;
+      margin-top: 10px;
+  }
+  .mypage_content .guide_responsive{
+      display: block;
+      position: absolute;
+      width: 89%;
+    }
+  .mypage_content .guide_responsive .guide_select{
+      font-size: 14px;
+      color: black;
+      text-indent: 5px;
+  }
+  .mypage_content .guide_responsive .guide_select dt{
+      height: 25px;
+      margin-bottom: 10px;
+      line-height: 25px;
+      border: 1px solid #1b2f4a;
+      background: url(../img/arrow_down_dg.png) no-repeat 98% center;
+      background-size: 7px;
+  }
+  .mypage_content .guide_responsive .guide_select dt.on{
+      background: url(../img/arrow_up_dg.png) no-repeat 98% center;
+      background-size: 7px;
+  }
+  .mypage_content .guide_responsive .guide_select .guide_option{
+      border: 1px solid #1b2f4a;
+      margin-top: -11px;
+      position: relative;
+    }
+  .mypage_content .guide_responsive .guide_select dd{
+      height: 30px;
+      background: #fff;
+      z-index: 999;
+      line-height: 30px;
+    }
   .box h3.title {
     padding: 12px 20px;
   }
@@ -988,6 +1027,10 @@ box-shadow:none;
   }
   .mypage_content h4 {
     font-size: 16px;
+    margin-top: 45px;
+  }
+  .box .mypage_content h4.title2{
+    margin-top: 0;
   }
   #look_method {
     width: 100%;

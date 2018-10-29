@@ -72,21 +72,21 @@
                   <div class="content_nav_responsive">
                     <h4>고객지원</h4>
                     <ul>
-                        <li><a href="customer_faq.php" title="FAQ" class='sub_title'>FAQ</a></li>
+                        <li><a href="#" title="FAQ" class='sub_title'>FAQ</a></li>
                         <li>
                           <a href="customer_question.php" title="1:1 문의" class='sub_title'>1:1 문의</a>
-                          <dl class="nav_dropdown">
+                          <!-- <dl class="nav_dropdown">
                               <dt><a href="customer_question.php" title="1:1 문의하기">1:1 문의하기</a></dt>
                               <dt><a href="customer_questionList.php" title="문의내역">문의내역</a></dt>
-                          </dl>
+                          </dl> -->
                         </li>
                         <li>
-                          <a href="#" title="인증자료 제출안내" class='sub_title active'>인증자료 제출안내</a>
-                          <dl class="nav_dropdown changeA_dd">
+                          <a href="guide_security.php" title="인증자료 제출안내" class='sub_title active'>인증자료 제출안내</a>
+                          <!-- <dl class="nav_dropdown changeA_dd">
                               <dt><a href="guide_security.php" title="보안 비밀번호 초기화">보안 비밀번호 초기화</a></dt>
                               <dt><a href="guide_account.php" title="계좌 변경">계좌변경</a></dt>
-                              <dt><a href="#" title="OTP 초기화" class='active2'>OTP 초기화</a></dt>
-                          </dl>
+                              <dt><a href="guide_OTP.php" title="OTP 초기화">OTP 초기화</a></dt>
+                          </dl> -->
                         </li>
                         <li><a href="fee_table.php" title="수수료 안내" class='sub_title'>수수료 안내</a></li>
                     </ul>
@@ -97,6 +97,17 @@
                     <h3 class="title">인증자료 제출안내</h3>
                     <!-- guide_OTP_inner -->
                     <div class="guide_OTP_inner mypage_content">
+                        <!-- guide_responsive -->
+                        <div class="guide_responsive">
+                          <dl class="guide_select">
+                              <dt><span>OTP 초기화</span></dt>
+                              <div class="guide_option">
+                                  <dd onclick="location.href='guide_security.php'"><span>보안 비밀번호 초기화</span></dd>
+                                  <dd onclick="location.href='guide_account.php'"><span>계좌변경</span></dd>
+                                  <dd><span>OTP 초기화</span></dd>
+                              </div>
+                          </dl>
+                        </div><!-- guide_responsive End-->
                       <h4>OTP 초기화</h4>
                         <p class="guide_OTP_p">OTP 초기화 시, 아래 제출서류를 첨부하여 양식에 따라 이메일을 보내야합니다.</p>
                         <p class="title_title">[ 제출 이메일 양식 ]</p>

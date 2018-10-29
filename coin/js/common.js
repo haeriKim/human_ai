@@ -975,3 +975,42 @@ $(document).ready(function(){
         $(this).parent().removeClass('on');
     })
 });
+
+/*반응형 고객지원 select메뉴*/
+$(document).ready(function(){
+var menu_s=0;
+$(".guide_select .guide_option").hide();
+$(".guide_select dt").click(function(){
+    if(menu_s===0){
+        $(this).siblings().show();
+
+        // 탭 클릭이벤트
+        $(".guide_select .guide_option dd").click(function() {
+            var selectCName = $(this).text();
+            $(".guide_select dt span").text(selectCName);
+            $(".guide_select .guide_option").hide();
+            menu_s=0;
+            return false;
+        });
+        menu_s=1;
+        return false;
+    }else{
+        // dt한번 더 클릭시 이벤트
+        $(".guide_select .guide_option").hide();
+        menu_s=0;
+        return false;
+    }
+});
+})
+
+/*코인 셀렉트창 화살표*/
+$(document).ready(function(){
+    $('.guide_select dt').click(function(e){
+        e.preventDefault();
+        $(this).toggleClass('on');
+    })
+    $('.guide_select .guide_option dd').click(function(e){
+        e.preventDefault();
+        $('.guide_select dt').removeClass('on');
+    })
+});

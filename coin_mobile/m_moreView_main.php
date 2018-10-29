@@ -44,7 +44,7 @@
                     <li onclick="location.href='m_moreView_myinfo.php'">
                         <p>회원정보</p>
                         <p class='waiting only_pc'>회원정보 관리 및 변경은 웹(PC)에서 가능합니다.</p>
-                        <img src="img/m_gothru.png" alt="자세히" class='gothru gothru_03'>
+                        <img src="img/m_gothru.png" alt="자세히" class='gothru gothru_02'>
                     </li>
                     <li onclick="location.href='m_certification_main.php'">
                         <p>인증센터</p>
@@ -57,7 +57,7 @@
                     <li onclick="location.href='m_support_customer.php'">
                         <p>고객지원</p>
                         <p class='waiting only_pc'>FAQ, 1:1 문의, 인증자료 제출안내, 수수료 안내를 보실 수 있습니다.</p>
-                        <img src="img/m_gothru.png" alt="자세히" class='gothru gothru_02'>
+                        <img src="img/m_gothru.png" alt="자세히" class='gothru gothru_03'>
                     </li>
                     <li onclick="location.href='m_moreView_track_ip.php'">
                         <p>접속 이력확인</p>
