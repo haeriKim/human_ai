@@ -54,6 +54,21 @@
    line-height: 1.6;
    border: 1px solid rgba(255,255,255,.2);
 }
+.privacyPpolicy_area .use_area_text .use_map_table{
+  margin:20px 0;
+}
+.privacyPpolicy_area .use_area_text .use_map_table tr{
+  font-size:12px;
+}
+.privacyPpolicy_area .use_area_text .use_map_table th{
+  background:#192331;
+  font-weight:600;
+  height:35px;
+}
+.privacyPpolicy_area .use_area_text .use_map_table td{
+  padding: 10px 0;
+  border:1px solid rgba(255,255,255,.2);
+}
 .none_box{
   height:40px;
 }

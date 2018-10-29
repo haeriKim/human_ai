@@ -108,3 +108,20 @@
     border-top: 1px solid #999;
     line-height:1.7;
 }
+.use_content #use_area .use_area_text .use_map_table{
+  margin:20px 0;
+}
+.use_content #use_area .use_area_text .use_map_table tr{
+  font-size:12px;
+}
+.use_content #use_area .use_area_text .use_map_table th{
+  border:1px solid #e8eaed;
+  border-bottom:2px solid #1b2f4a;
+  background:#e8eaed;
+  font-weight:600;
+  height:35px;
+}
+.use_content #use_area .use_area_text .use_map_table td{
+  padding: 10px 0;
+  border:1px solid #efefef;
+}
