@@ -511,8 +511,10 @@
     font-size: 13px;
   }
   .question_area .question_table {
-    margin-top: 35px;
+    margin-top: 20px;
     display: block;
+    border: 1px solid #efefef;
+
   }
   .question_area .question_table tbody {
     display: block;
@@ -530,6 +532,7 @@
     text-align: center;
     padding: 20px 0;
     display: block;
+    border-bottom: 1px solid #efefef;
   }
   .question_area .question_table #question_select {
     margin: 0;

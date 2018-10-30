@@ -903,124 +903,97 @@ box-shadow:none;
   .question_detail_area {
     float: none;
     width:100%;
+    border-radius: 0 0 5px 5px;
   }
   .content_nav{
     display: none;
   }
   .content_nav_responsive {
     width: 100%;
+    height: 50px;
     display: block;
     margin-right: 0;
     float: none;
-    height:auto;
-    font-size:12px;
-    margin-bottom: 20px;
-    background-color: #1b2f4a;
-    border-radius: 5px;
-    padding: 20px;
+    font-size: 12px;
     box-sizing: border-box;
-    box-shadow: 0 1px 2px rgba(100,100,100,.2);
-    color: #fff;
+    background: #fff;
+  }
+  .withTab {
+    height: 110px;
+  }
+  .withTab2 {
+    height: 150px;
   }
   .content_nav_responsive h4{
-    font-size:17px;
-    padding-bottom:5px;
-    border-bottom: 1px solid #fff;
-    margin-bottom: 10px;
-    text-align: left;
+    display: none;
   }
   .content_nav_responsive ul{
-      height: 27px;
+      height: 50px;
       width: 100%;
       overflow: hidden;
-    }
-    .content_nav_responsive li{
-        color: #fff;
-        font-size: 12px;
-        padding: 5px 0;
-        float: left;
-        text-align: center;
-    }
-  .content_nav_responsive li a{
+  }
+  .content_nav_responsive li{
       color: #fff;
+      font-size: 13px;
+      float: left;
+      text-align: center;
+      height: inherit;
+      background-color: #f4f5f8;
+      width: 25%;
+      padding: 16px 0;
+      box-sizing: border-box;
+  }
+  .content_nav_responsive li.on {
+    border-top: 2px solid #1b2f4a;
+    background-color: #fff;
+  }
+  .content_nav_responsive li a{
+    display: inline-block;
+      color: #7e7e7f;
       font-size: 12px;
-      padding: 5px 0;
   }
-  .content_nav_responsive ul li.FAQ_li{
-      width: 9.3%;
-      padding-right: 3.33%;
-    }
-  .content_nav_responsive ul li.customer_q_li{
-      padding-right: 3.33%;
-      width: 16.8%;
-    }
   .content_nav_responsive ul li.guide_li{
-      width: 39.2%;
-      padding-right: 3.33%;
-    }
-  .content_nav_responsive ul li.fee_table_li{
-      width: 24.7%;
-    }
-  .content_nav_responsive ul li.FAQ_li a{
-
-  }
-  .content_nav_responsive ul li.customer_q_li a{
-
-  }
-  .content_nav_responsive ul li.guide_li a{
-
-  }
-  .content_nav_responsive ul li.fee_table_li a{
-
+    padding: 9px 0;
   }
   .content_nav_responsive li a.active{
-      color: #EAAF69;
+      color: #1b2f4a;
+      font-weight: 600;
   }
   .mypage_content{
       position: relative;
-      margin-top: 10px;
   }
   .guide_responsive{
-      display: block;
-    }
-  .guide_responsive .guide_select{
-      font-size: 12px;
-      color: black;
-      text-indent: 5px;
+    display: block;
+    padding: 20px;
   }
-  .guide_responsive .guide_select dt{
-      height: 25px;
-      margin-bottom: 10px;
-      line-height: 25px;
-      border: 1px solid #fff;
-      background: #fff url(../img/arrow_down_dg.png) no-repeat 98% center;
-      background-size: 7px;
-      margin-top: 10px;
-    }
-  .guide_responsive .guide_select dt.on{
-      background: #fff url(../img/arrow_up_dg.png) no-repeat 98% center;
-      background-size: 7px;
+  .guide_responsive .guide_select span {
+  width: 48%;
+  border-radius: 5px;
+  font-size: 12px;
+  text-align: center;
+  padding: 7px 0;
+  font-weight: 600;
+  color: #1b2f4a;
+  border: 1px solid #1b2f4a;
+  background-color: #fff;
+  display: inline-block;
   }
-  .guide_responsive .guide_select .guide_option{
-      border: 1px solid #1b2f4a;
-      margin-top: -11px;
-      position: relative;
-    }
-  .guide_responsive .guide_select dd{
-      height: 30px;
-      background: #fff;
-      z-index: 999;
-      line-height: 30px;
-    }
+  .guide_responsive .guide_select span.clicked {
+    background-color: #1b2f4a;
+    color: #fff;
+  }
+  .guide_responsive .guide_select span.marginTop {
+    margin-top: 7px;
+  }
   .box h3.title {
-    padding: 12px 20px;
+    display: none;
   }
   /* 마이페이지 */
   .mypage_content {
     padding: 15px 20px;
   }
   .mypage_content h4 {
-    font-size: 16px;
+    font-size: 14px;
   }
   .box .mypage_content h4.title2{
     margin-top: 0;

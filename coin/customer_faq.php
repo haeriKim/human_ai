@@ -80,7 +80,7 @@
                     <div class="content_nav_responsive">
                       <h4>고객지원</h4>
                       <ul>
-                          <li class='FAQ_li'><a href="#" title="FAQ" class='sub_title active'>FAQ</a></li>
+                          <li class='FAQ_li on'><a href="#" title="FAQ" class='sub_title active'>FAQ</a></li>
                           <li class='customer_q_li'>
                             <a href="customer_question.php" title="1:1 문의" class='sub_title'>1:1 문의</a>
                             <!-- <dl class="nav_dropdown">
@@ -89,7 +89,7 @@
                             </dl> -->
                           </li>
                           <li class='guide_li'>
-                            <a href="guide_security.php" title="인증자료 제출안내" class='sub_title'>인증자료 제출안내</a>
+                            <a href="guide_security.php" title="인증자료 제출안내" class='sub_title'>인증자료<br/>제출안내</a>
                             <!-- <dl class="nav_dropdown changeA_dd">
                                 <dt><a href="guide_security.php" title="보안 비밀번호 초기화">보안 비밀번호 초기화</a></dt>
                                 <dt><a href="guide_account.php" title="계좌 변경">계좌변경</a></dt>
