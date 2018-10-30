@@ -37,6 +37,14 @@
           <?php include "nav.php";?>
           <!-- nav_wrap End-->
 
+          <!-- m_nav-->
+          <?php include "m_nav.php";?>
+          <!-- m_nav End-->
+
+          <!-- m_header-->
+          <?php include "m_header.php";?>
+          <!-- m_header End-->
+
           <!-- header_wrap -->
           <?php include "header.php";?>
           <!-- header_wrap End-->
