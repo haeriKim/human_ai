@@ -74,6 +74,7 @@
 
 
                     <div class="alarm_header">
+                          <p>알람설정은 PC버전에서만 가능합니다.</p>
                           <select name="alarm" id="alarm_select">
                             <option value="전체">전체</option>
                             <option value="전체">입금</option>
@@ -89,7 +90,7 @@
 
                       <div class="alarm_table_area">
                         <table class="alarm_table">
-                          
+
                           <tbody>
                             <tr>
                               <td class='alarm_text alarm_output'>출금</td>
