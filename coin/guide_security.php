@@ -90,6 +90,17 @@
                         </li>
                         <li class='fee_table_li'><a href="fee_table.php" title="수수료 안내" class='sub_title'>수수료 안내</a></li>
                     </ul>
+                    <!-- guide_responsive -->
+                    <div class="guide_responsive">
+                      <dl class="guide_select">
+                          <dt><span>보안 비밀번호 초기화</span></dt>
+                          <div class="guide_option">
+                              <dd><span>보안 비밀번호 초기화</span></dd>
+                              <dd onclick="location.href='guide_account.php'"><span>계좌변경</span></dd>
+                              <dd onclick="location.href='guide_OTP.php'"><span>OTP 초기화</span></dd>
+                          </div>
+                      </dl>
+                    </div><!-- guide_responsive End-->
                   </div><!-- content_nav_responsive End-->
 
                   <!-- guide_OTP_area -->
@@ -97,17 +108,6 @@
                     <h3 class="title">인증자료 제출안내</h3>
                     <!-- guide_OTP_inner -->
                     <div class="guide_OTP_inner mypage_content">
-                      <!-- guide_responsive -->
-                      <div class="guide_responsive">
-                        <dl class="guide_select">
-                            <dt><span>보안 비밀번호 초기화</span></dt>
-                            <div class="guide_option">
-                                <dd><span>보안 비밀번호 초기화</span></dd>
-                                <dd onclick="location.href='guide_account.php'"><span>계좌변경</span></dd>
-                                <dd onclick="location.href='guide_OTP.php'"><span>OTP 초기화</span></dd>
-                            </div>
-                        </dl>
-                      </div><!-- guide_responsive End-->
                       <h4>보안 비밀번호 초기화</h4>
                         <p class="guide_OTP_p">보안 비밀번호 초기화 시, 아래 제출서류를 첨부하여 양식에 따라 이메일을 보내야합니다.</p>
                         <p class="title_title">[ 제출 이메일 양식 ]</p>

@@ -88,6 +88,16 @@
                         </li>
                         <li class='fee_table_li'><a href="fee_table.php" title="수수료 안내" class='sub_title'>수수료 안내</a></li>
                     </ul>
+                    <!-- guide_responsive -->
+                    <div class="guide_responsive">
+                      <dl class="guide_select">
+                          <dt><span>문의내역</span></dt>
+                          <div class="guide_option">
+                              <dd onclick="location.href='customer_question.php'"><span>1:1 문의하기</span></dd>
+                              <dd><span>문의내역</span></dd>
+                          </div>
+                      </dl>
+                    </div><!-- guide_responsive End-->
                   </div><!-- content_nav_responsive End-->
 
                   <!-- notice_detail -->
@@ -95,16 +105,6 @@
                     <h3 class="title">문의내역</h3>
                     <!-- notice_detail_inner -->
                     <div class="question_detail_inner mypage_content">
-                        <!-- guide_responsive -->
-                        <div class="guide_responsive">
-                          <dl class="guide_select">
-                              <dt><span>문의내역</span></dt>
-                              <div class="guide_option">
-                                  <dd onclick="location.href='customer_question.php'"><span>1:1 문의하기</span></dd>
-                                  <dd><span>문의내역</span></dd>
-                              </div>
-                          </dl>
-                        </div><!-- guide_responsive End-->
                         <div class="question_title_wrap ">
                             <h4>[입출금] 암호화폐 출금 주소를 잘못 입력했어요.</h4>
                             <p class='upload_day'>2018-10-01</p>

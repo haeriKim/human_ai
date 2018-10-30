@@ -91,6 +91,16 @@
                         </li>
                         <li class='fee_table_li'><a href="fee_table.php" title="수수료 안내" class='sub_title'>수수료 안내</a></li>
                     </ul>
+                    <!-- guide_responsive -->
+                    <div class="guide_responsive">
+                      <dl class="guide_select">
+                          <dt><span>1:1 문의하기</span></dt>
+                          <div class="guide_option">
+                              <dd><span>1:1 문의하기</span></dd>
+                              <dd onclick="location.href='customer_questionList.php'"><span>문의내역</span></dd>
+                          </div>
+                      </dl>
+                    </div><!-- guide_responsive End-->
                   </div><!-- content_nav_responsive End-->
 
                   <!-- question_area -->
@@ -98,16 +108,6 @@
                     <h3 class="title">1:1 문의</h3>
                     <!-- question_inner -->
                     <div class="question_inner mypage_content">
-                        <!-- guide_responsive -->
-                        <div class="guide_responsive">
-                          <dl class="guide_select">
-                              <dt><span>1:1 문의하기</span></dt>
-                              <div class="guide_option">
-                                  <dd><span>1:1 문의하기</span></dd>
-                                  <dd onclick="location.href='customer_questionList.php'"><span>문의내역</span></dd>
-                              </div>
-                          </dl>
-                        </div><!-- guide_responsive End-->
                       <h4>1:1 문의하기</h4>
                         <p class="question_text">- 문의 하신 내용은 관리자 확인 후 답변 드리겠습니다.</p>
                         <form enctype="multipart/form-data">
