@@ -1,0 +1,53 @@
+/*웹 페이지*/
+
+.app_main_content{
+  text-align: center;
+}
+.app_main_content .app_main_step1{
+  text-align: center;
+  height:600px;
+  background:#1b2f4a;
+}
+.app_main_content .app_main_step1 span{
+  color:#fff;
+}
+.app_main_content .app_main_step1 .logo_area{
+  padding-top:60px;
+  padding-bottom:40px;
+}
+.app_main_content .app_main_step1 .phone_area{
+  overflow: hidden;
+  position:relative;
+}
+/*.app_main_content .app_main_step1 .phone_area ul{
+  border:1px solid red;
+  position:absolute;
+  width:185px;
+  height:250px;
+  top:20%;
+  left:90px;
+}*/
+.app_main_content .app_main_step1 .phone_area .phone_main img{
+
+}
+.app_main_content .app_main_step1 .phone_area .coin_img img{
+  position: absolute;
+  top:65%;
+  left:73%;
+  z-index: 10;
+}
+.app_main_content .app_main_step1 .phone_area input{
+  background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+  border: none;
+  position:absolute;
+  color: #fff;
+  padding: 12px 0;
+  font-size: 13px;
+  width: 80%;
+  border-radius: 50px;
+  font-weight: 600;
+  margin-left: 5px;
+  box-shadow: 1px 2px 2px #000;
+  top:85%;
+  left:10%;
+}
