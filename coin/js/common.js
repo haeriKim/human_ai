@@ -1014,3 +1014,26 @@ $(document).ready(function(){
         $('.guide_select dt').removeClass('on');
     })
 });
+
+/*반응형 햄버거 메뉴 안 고객지원 액티브 했을때 */
+$(document).ready(function(){
+    $(".m_mainmenu .customer_li .second_menu").hide();
+    $(".m_mainmenu .customer_li > .m_menutext").click(function(e){
+        e.preventDefault();
+        $(".m_mainmenu .customer_li .second_menu").stop().slideToggle();
+    })
+});
+/*반응형 햄버거 메뉴 클릭시 shadow*/
+$(document).ready(function(){
+    $("#responsive_shadow").removeClass('shadow_on');
+    $("#m_menu-toggle").change(function(e){
+        e.preventDefault();
+        $("#responsive_shadow").toggleClass('shadow_on');
+        $("#m_nav").toggleClass('navi_on');
+    })
+    $("#responsive_shadow").click(function(e){
+        e.preventDefault();
+        $(this).removeClass('shadow_on');
+        $("#m_menu-toggle").prop("checked",false);
+    })
+});

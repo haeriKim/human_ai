@@ -227,10 +227,10 @@
     #m_navBtn{
         display: block;
         cursor: pointer;
-        position: absolute;
-        top:17px;
+        position: fixed;
+        top:13px;
         left:14px;
-        z-index: 100;
+        z-index: 999;
         transition: all 0.5s;
         width:26px;
         line-height:1px;
@@ -258,10 +258,10 @@
         display: none;
     }
     #m_menu-toggle:checked + #m_navBtn{
-        left:14px;
-        width:32px;
-        top:23px;
-        position:fixed;
+        left: 14px;
+        width: 32px;
+        top: 17px;
+        position: fixed;
     }
     #m_menu-toggle:checked + #m_navBtn span{
         width:80%;
@@ -287,87 +287,112 @@
         background: #1b2f4a;
         width:65%;
         height:100%;
-        z-index:2;
+        z-index:985;
         transition: all 0.5s;
-        position: fixed;
+        position: absolute;
         top: 60px;
         left:-90%;
         box-shadow: 0 1px 13px rgba(0,0,0,.3);
     }
+
     .m_nav_top{
-        position: relative;
-        overflow: hidden;
-        height: 60px;
-    }
-    /* 네비게이션 메뉴 */
-    .m_menuBtn{ /* Hamburger Btn */
-        padding:20px 20px 17px 20px;
-        white-space: nowrap;
-    }
-    .m_nav_mid{
-        width:100%;
-    }
-    .m_nav_mid ul{
-        width:100%;
-    }
-    .m_nav_mid ul li{
-        width:100%;
-        margin-bottom:0;
-        background: rgba(255,255,255,0);
-        box-sizing: border-box;
-        height:60px;
-        white-space:nowrap;
-        overflow: hidden;
-    }
-    .m_nav_mid ul li:first-child{
-        margin-top:20px;
-    }
-    .m_nav_mid ul li .m_menutext{
-        display: block;
-        height:60px;
-    }
-    .m_nav_mid ul li .m_menutext:after{
-        content: '';
-        display: block;
-        clear: both;
-    }
-    .m_nav_mid ul li strong{
-        color: #fff;
-        display: block;
-        width:auto;
-        height: 35px;
-        line-height: 40px;
-        font-size:15px;
-        letter-spacing:0.4px;
-        transition: all 0.1s;
-        font-weight:normal;
-    }
-    /* 회원관련 */
-    .m_nav_bottom{
-        position: fixed;
-        top:90px;
-        width:100%;
+        margin: 10px 0;
     }
     .m_lnb{
-        display: inline-block;
-        height: 50px;
-        line-height: 50px;
+        overflow: hidden;
     }
     .m_lnb span{
+        width: 49%;
         display: inline-block;
-        padding:0 12px;
-        border-radius:20px;
-        margin-left:15px;
-        height: 35px;
-        line-height: 35px;
+        text-align: center;
+        float: left;
     }
-    .m_lnb span:last-child{
-        margin-left:10px;
+    .m_lnb p.partition{
+        color: #fff;
+        float: left;
     }
     .m_lnb span a{
         color: #fff;
         font-size:14px;
     }
+
+    .m_mainmenu{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .m_mainmenu > ul{
+        width:100%;
+        margin-top: 20px;
+        border-top: 1px solid #495a6e;
+    }
+    .m_mainmenu > ul > li{
+        width: 100%;
+        margin-bottom: 0;
+        box-sizing: border-box;
+        height: 50px;
+        line-height: 50px;
+        border-bottom: 1px solid #495a6e;
+        overflow: hidden;
+        }
+    .m_mainmenu ul li .m_menutext{
+        display: block;
+        height:50px;
+    }
+    .m_mainmenu ul li strong{
+        color: #fff;
+        display: block;
+        width: auto;
+        height: 50px;
+        line-height: 50px;
+        font-size: 15px;
+        letter-spacing: 0.4px;
+        transition: all 0.1s;
+        font-weight: normal;
+        text-align: center;
+    }
+    .m_mainmenu ul li .second_menu{
+        width: 100%;
+        z-index: 999;
+        position: absolute;
+        background: #D1D5DB;
+        border-top: 1px solid #d9dcdc;
+    }
+    .m_mainmenu ul li .second_menu li{
+        height: 40px;
+        line-height: 40px;
+        padding-left: 30px;
+        border-bottom: 1px solid #d9dcdc;
+        font-size: 13px;
+    }
+    .m_mainmenu ul li .second_menu a{
+        color: #333;
+    }
+    .m_nav_bottom{
+
+    }
+    .m_nav_bottom .app_store{
+    }
+    .m_nav_bottom .app_store li{
+
+    }
+
+    /*js toggleClass*/
+    .shadow_on{
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #000;
+        opacity: 0.5;
+        width: 100%;
+        height: 100%;
+        z-index: 980;
+        display: block;
+    }
+    .navi_on{
+        left: 0;
+    }
+    /*js toggleClass End*/
+
     /* PC Hide */
     #nav_wrap{
         display: none;
