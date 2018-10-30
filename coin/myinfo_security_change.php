@@ -56,7 +56,7 @@
                           <dl class="nav_dropdown info_dd">
                               <dt><a href="myinfo_login_password.php" title="로그인 비밀번호변경">로그인 비밀번호변경</a></dt>
                               <dt><a href="myinfo_security_password.php" title="보안 비밀번호변경">보안 비밀번호변경</a></dt>
-                              <dt class="active"><a href="myinfo_security_change.php" title="보안 비밀번호 초기화">보안 비밀번호 초기화</a></dt>
+                              <dt class="active"><a href="#" title="보안 비밀번호 초기화">보안 비밀번호 초기화</a></dt>
                               <dt><a href="myinfo_phone.php" title="휴대폰 번호변경">휴대폰 번호변경</a></dt>
                               <dt><a href="myinfo_account.php" title="계좌변경">계좌변경</a></dt>
                               <dt><a href="#" title="OTP 초기화">OTP 초기화</a></dt>

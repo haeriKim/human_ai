@@ -929,57 +929,39 @@ box-shadow:none;
     margin-bottom: 10px;
     text-align: left;
   }
-  .content_nav_responsive li{
-      text-align: left;
+  .content_nav_responsive ul{
+      height: 27px;
       width: 100%;
-      margin-bottom: 5px;
-  }
-  .content_nav_responsive li a.sub_title{
+      position: relative;
+    }
+    .content_nav_responsive li{
+        color: #fff;
+        font-size: 12px;
+        padding: 5px 0;
+        position: absolute;
+    }
+  .content_nav_responsive li a{
       color: #fff;
-      padding-bottom: 5px;
-      display: block;
-      width: 95%;
-      margin: 0 auto;
+      font-size: 12px;
+      padding: 5px 0;
+  }
+  .content_nav_responsive ul li.FAQ_li{
+    left: 0;
+  }
+  .content_nav_responsive ul li.customer_q_li{
+    left: 12%;
+  }
+  .content_nav_responsive ul li.guide_li{
+      right: 28.6%;
+  }
+  .content_nav_responsive ul li.fee_table_li{
+    right: 0;
   }
   .content_nav_responsive li a.active{
-      border-bottom: 1px solid #EAAF69;
       color: #EAAF69;
   }
   .content_nav_responsive li a.active2{
       color: #EAAF69;
-  }
-  .content_nav_responsive li + li{
-    margin-top:0;
-  }
-  .content_nav_responsive li a{
-    padding:5px 0;
-    font-size: 15px;
-    color:#fff;
-  }
-  .content_nav_responsive li .nav_dropdown {
-    text-align: left;
-    overflow: hidden;
-  }
-  .content_nav_responsive li .nav_dropdown dt{
-      padding-top: 10px;
-  }
-  .content_nav_responsive li .nav_dropdown dt a::before{
-      content: '';
-      display: inline-block;
-      width: 5px;
-      height: 5px;
-      border-radius: 50%;
-      background-color: #fff;
-      margin-right: 5px;
-      vertical-align: 2px;
-  }
-  .content_nav_responsive li .nav_dropdown dt a.active2::before{
-      background-color: #EAAF69;
-  }
-
-  .content_nav_responsive li .nav_dropdown dt a {
-    font-size: 13px;
-    padding-left: 7%;
   }
   .mypage_content{
       position: relative;

@@ -60,7 +60,7 @@
                               <dt><a href="myinfo_phone.php" title="휴대폰 번호변경">휴대폰 번호변경</a></dt>
                               <dt><a href="myinfo_account.php" title="계좌변경">계좌변경</a></dt>
                               <dt><a href="myinfo_OTP.php" title="OTP 초기화">OTP 초기화</a></dt>
-                              <dt class="active"><a href="myinfo_OTP_change.php" title="OTP 비활성화">OTP 비활성화</a></dt>
+                              <dt class="active"><a href="#" title="OTP 비활성화">OTP 비활성화</a></dt>
                           </dl>
                         </li>
                         <li><a href="certification.php" title="인증센터">인증센터</a></li>
