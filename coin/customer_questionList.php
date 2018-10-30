@@ -77,7 +77,7 @@
                             <a href="#" title="1:1 문의" class='sub_title active'>1:1 문의</a>
                           </li>
                           <li class='guide_li'>
-                            <a href="guide_security.php" title="인증자료 제출안내" class='sub_title'>인증자료 제출안내</a>
+                            <a href="guide_security.php" title="인증자료 제출안내" class='sub_title'>인증자료<br/>제출안내</a>
                           </li>
                           <li class='fee_table_li'><a href="fee_table.php" title="수수료 안내" class='sub_title'>수수료 안내</a></li>
                       </ul>
@@ -96,7 +96,8 @@
                           <h4 class="">문의내역</h4>
                           <div class="question_history_head">
                             <select name="알림선택" id="question_select2">
-                              <option value="전체" disabled selected="selected">전체</option>
+                              <option value="문의 유형" disabled selected="selected">문의 유형</option>
+                              <option value="전체">전체</option>
                               <option value="가입 및 인증">가입 및 인증</option>
                               <option value="계정">계정</option>
                               <option value="입출금">입출금</option>

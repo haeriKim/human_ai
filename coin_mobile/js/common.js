@@ -125,3 +125,12 @@ $(document).ready(function(){
     $(".account_delete").hide();
   });
 });
+
+// 기간선택 및 금액선택
+$(document).ready(function(){
+  $(".cal_lookup_inner .days .date_bt, .my_assets_KRW02 .KRW_input_outout .KRW_unit .priceBtn").click(function(){
+      $(".cal_lookup_inner .days .date_bt, .my_assets_KRW02 .KRW_input_outout .KRW_unit .priceBtn").css({"color":"#fff","borderColor":"#fff"});
+      $(this).css({"color":"#30AFB8","borderColor":"#30AFB8"});
+      return false;
+  });
+});
