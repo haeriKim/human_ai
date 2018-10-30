@@ -1,0 +1,63 @@
+/*웹 페이지*/
+
+.app_page_content{
+  text-align: center;
+}
+.app_page_content .app_bg{
+  width:100%;
+  height:380px;
+  background:url(../img/app_page.png) no-repeat 0 0; background-size: 100%;
+  position:relative;
+  overflow: hidden;
+    text-align: center;
+}
+.app_page_content .app_img{
+  width:80%;
+  position:absolute;
+
+  top:70%;
+  left:12%;
+}
+.app_page_content .app_page_story{
+  display:inline-block;
+  width:80%;
+  font-size:80%;
+  font-weight:600;
+  margin:15px 0;
+  text-align: center;
+  overflow: hidden;
+}
+.app_page_content .app_page_story p{
+  color:#1b2f4a;
+}
+.app_page_content .app_page_story .app_box{
+  text-align: center;
+  display:inline-block;
+  margin-top:20px;
+  overflow: hidden;
+}
+.app_page_content .app_page_story .app_box p{
+  float:left;
+}
+.app_page_content .app_page_story ul{
+  float:left;
+}
+.app_page_content .app_page_story li{
+  text-align: left;
+  padding-left:15px;
+}
+.app_page_content .app_page_story .star{
+  color:#ffd000;
+}
+.app_page_content .app_page_story input{
+  background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+  border: none;
+  color: #fff;
+  padding: 7px 0;
+  font-size: 13px;
+  width: 50%;
+  border-radius: 50px;
+  font-weight: 600;
+  margin-left: 5px;
+  margin: 20px 0;
+}
