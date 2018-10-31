@@ -314,7 +314,7 @@
                                         </dl>
                                     </div>
                                 </div>
-                                <a href="#" class='view_all'>전체 내역 보기 ></a>
+                                <a href="m_mycoin_deal_list.php" class='view_all'>전체 내역 보기 ></a>
                                 <input type="button" name="delete" value="주문취소" class='delete'>
                             </form>
                         </div>
