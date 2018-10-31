@@ -1,0 +1,123 @@
+#header nav ul li:hover{
+    background-color:#efefef;
+}
+#header nav ul li:active{
+  background-color:#efefef;
+}
+#header nav ul li:nth-child(3){
+  background-color:#efefef;
+}
+#header nav ul li:nth-child(3) a{
+  color:#111;
+}
+
+/*회사소개*/
+.intro_inner{
+    text-align: center;
+    margin-left: 234px;
+    background:url(../img/notice_bg.png) no-repeat 0 320%; background-size:70%;
+}
+.intro_inner h2{
+    padding-top:110px;
+    font-size:30px;
+    color:#222;
+    margin-bottom:20px;
+}
+.intro_inner ul{
+    overflow: hidden;
+    text-align: center;
+    width: 800px;
+    display: inline-block;
+    margin-bottom:20px;
+}
+.intro_inner ul li{
+    float: left;
+    width: 50%;
+}
+.intro_inner ul li a{
+    color:#222;
+    margin-bottom:2px;
+    font-weight: bold;
+    font-size:20px;
+    padding-bottom:2px;
+    display: inline-block;
+}
+.intro_inner ul li a.on{
+    border-bottom:2px solid #222;
+}
+.intro_inner .co_notice_content .co_notice_table{
+  width:100%;
+  text-align: center;
+  height:500px;
+}
+.intro_inner .co_notice_content .co_notice_table table{
+  width:51.2%;
+  text-align: center;
+  display:inline-block;
+  border-top:2px solid #5586b7;
+  background:#fff;
+}
+.intro_inner .co_notice_content .co_notice_table table tr{
+}
+.intro_inner .co_notice_content .co_notice_table table th{
+  width:100%;
+  text-align: left;
+  padding: 15px 50px;
+  border-bottom:1px solid #efefef;
+  cursor : pointer;
+}
+.intro_inner .co_notice_content .co_notice_table table .gray_notice{
+  font-weight:500;
+}
+.intro_inner .co_notice_content .co_notice_table table td{
+  width:100%;
+  text-align: center;
+  padding:0 50px;
+  border-bottom:1px solid #efefef;
+  cursor : pointer;
+}
+.intro_inner .co_notice_content .more_table{
+  border:2px solid #5586b7;
+  color:#5586b7;
+  background:#fff;
+  text-align:center;
+  display:inline-block;
+  width:50%;
+  padding: 10px;
+  font-size:15px;
+}
+.intro_inner .co_notice_content .more_table a{
+  color:#5586b7;
+}
+
+/*noticeS 부분*/
+
+
+
+/*footer*/
+.sub .footer {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 70px;
+  background-color: #000;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 13px;
+  opacity: .8;
+  overflow: hidden;
+}
+.sub .footer img {
+  float: left;
+  width: 75px;
+}
+.sub .footer p{
+  display: block;
+  text-align: right;
+}
+.sub .footer p a{
+  color: #fff;
+  text-decoration: underline;
+}

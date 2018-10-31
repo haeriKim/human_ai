@@ -1,0 +1,216 @@
+#header nav ul li:hover{
+    background-color:#efefef;
+}
+#header nav ul li:active{
+  background-color:#efefef;
+}
+#header nav ul li:nth-child(2){
+  background-color:#efefef;
+}
+#header nav ul li:nth-child(2) a{
+  color:#111;
+}
+#container{
+    overflow-y: scroll;
+}
+.sub{
+  padding-left: 234px;
+  margin: 0 auto;
+}
+/*기술소개*/
+.technology_inner{
+    margin-top:110px;
+    text-align: center;
+}
+.technology_inner h2{
+    font-size:30px;
+    color:#222;
+    margin-bottom:20px;
+}
+/* .technology_inner ul{
+    overflow: hidden;
+    text-align: center;
+    width: 800px;
+    display: inline-block;
+    margin-bottom:30px;
+}
+.technology_inner ul li{
+    float: left;
+    width: 50%;
+}
+.technology_inner ul li a{
+    color:#222;
+    margin-bottom:2px;
+    font-weight: bold;
+    font-size:20px;
+    padding-bottom:2px;
+    display: inline-block;
+}
+.technology_inner ul li:first-child a{
+    border-bottom:2px solid #222;
+} */
+.technology_inner .tech_intro{
+    margin: 90px auto;
+    width: 1200px;
+    height: 800px;
+    position: relative;
+}
+.technology_inner .tech_intro p{
+  color: #222;
+  font-size: 43px;
+  text-align: left;
+  margin-bottom:5px;
+}
+.technology_inner .tech_intro span{
+  color: #222;
+  font-size: 20px;
+  text-align: left;
+  display: block;
+  margin-bottom: 75px;
+  line-height: 1.5;
+}
+.technology_inner .tech_intro img.image_01{
+  width: 330px;
+  height: 330px;
+  position: absolute;
+  bottom: 28px;
+  z-index: 3;
+  right: 235px;
+}
+.technology_inner .tech_intro img.image_02{
+    width: 486px;
+    height: 732px;
+    position: absolute;
+    top: -50px;
+    right: -65px;
+}
+.technology_inner .ai_tech_content{
+    position: relative;
+    color:#fff;
+    width: 100%;
+}
+.technology_inner .ai_tech_content img{
+    width: 100%;
+}
+.technology_inner .ai_tech_content p{
+    font-size:50px;
+    bottom:150px;
+    position: relative;
+    text-align: center;
+}
+.technology_inner .ai_tech_content span{
+    font-size:25px;
+    position:relative;
+    text-align: center;
+    bottom:130px;
+}
+
+/*기술소개*/
+.technology_inner .tech_content_wrap{
+    position: relative;
+    height: 800px;
+    width: 1160px;
+    margin: 0 auto;
+}
+.technology_inner .tech_content_wrap h3{
+    color: #fff;
+    position: absolute;
+    top: 98px;
+    text-align: right;
+    right: 4%;
+    z-index: 5;
+}
+.technology_inner .tech_content_wrap h3 p{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.technology_inner .tech_content_wrap h3 span{
+    font-size:22px;
+}
+.technology_inner .tech_content_wrap ul{
+    left: 5%;
+    background: #fff;
+    display: inline-block;
+    padding: 30px 50px;
+    position: absolute;
+    top: 118px;
+    z-index: 2;
+    opacity: 0.9;
+}
+.technology_inner .tech_content_wrap ul li{
+    display: table;
+    text-align: left;
+    line-height: 1.4;
+    font-size: 17px;
+    margin-top: 12px;
+    width: 215px;
+}
+.technology_inner .tech_content_wrap ul li a{
+    color:#222;
+    font-weight: 500;
+}
+.technology_inner .tech_content_wrap ul li a:hover{
+    color:#1b5ea9;
+    font-weight: 600;
+}
+.technology_inner .tech_content_wrap ul li.on a{
+    color:#1b5ea9;
+    font-size: 18px;
+    font-weight: 600;
+}
+.technology_inner .tech_content_wrap .tech_content{
+    height: 600px;
+    position: absolute;
+}
+.technology_inner .tech_content_wrap .tech_content::before{
+    content:"";
+    position: absolute;
+    top:0;
+    left: 0;
+    right:0;
+    bottom:0;
+    background:rgba(0, 0, 0, 0.7);
+}
+.technology_inner .tech_content_wrap .tech_content img{
+    width: 1200px;
+    height: 600px;
+}
+.technology_inner .tech_content_wrap .tech_content p{
+    color: #fff;
+    position: absolute;
+    top:430px;
+    left:205px;
+    text-align: left;
+    font-size: 19px;
+    word-break: keep-all;
+
+}
+/*footer*/
+.sub .footer {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 70px;
+  background-color: #000;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 13px;
+  opacity: .8;
+  overflow: hidden;
+  z-index: 9;
+}
+.sub .footer img {
+  float: left;
+  width: 75px;
+}
+.sub .footer p{
+  display: block;
+  text-align: right;
+}
+.sub .footer p a{
+  color: #fff;
+  text-decoration: underline;
+}

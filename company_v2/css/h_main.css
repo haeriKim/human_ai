@@ -1,0 +1,120 @@
+/* 메인페이지 */
+.main_content {
+  overflow: hidden;
+}
+.main_content h1  {
+  position: absolute;
+  top:30px;
+  left:0;
+  width: 100%;
+  z-index: 3;
+  text-align: center;
+}
+.main_content h1 img {
+  width: 220px;
+}
+.main_content ul {
+    width: 100%;
+    overflow: hidden;
+}
+.main_content ul li {
+  width: 50%;
+  float: left;
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+.main_content ul li.company_intro {
+    background: url(../img/main_bg111.jpg) no-repeat 0 0;
+    background-size: 100% 100%;
+    left: 0;
+}
+.main_content ul li.technology_into {
+    background: url(../img/main_bg222.jpg) no-repeat 0 0;
+    background-size: 100% 100%;
+    right: 0;
+}
+.main_content .img_sec h2 {
+    color: #fff;
+    font-size: 55px;
+    position: absolute;
+    top: 21%;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 5;
+    text-shadow: 0 1px #fff, 4px 4px 0 rgba(0,0,0,0.5);
+    font-weight: 600;
+}
+.link_arrow{
+  width:55px;
+}
+.main_content .sec{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    top: 2000px;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.8);
+    color: #ccc;
+    text-align: center;
+    transition: all 1s ease;
+}
+.main_content ul li:hover .sec{
+    top:0;
+}
+.main_content .sec h3,
+.main_content .sec p {
+    font-size: 25px;
+    position: absolute;
+    top: 43%;
+    left: 0;
+    width: 100%;
+}
+.main_content .sec p {
+    font-size: 16px;
+    top: 48.5%;
+    line-height: 25px;
+}
+.main_content .sec a{
+    position: absolute;
+    top: 60%;
+    left: 46%;
+    text-align: center;
+}
+.main_content .right_detail h3,
+.main_content .right_detail p{
+    width: 100%;
+    position: absolute;
+    left:5px;
+}
+.main_content .right_detail a{
+    left: 47%;
+}
+.main_content .footer {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 70px;
+  background-color: #000;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 13px;
+  opacity: .8;
+  overflow: hidden;
+}
+.main_content .footer img {
+  float: left;
+  width: 75px;
+}
+.main_content .footer p{
+  display: block;
+  text-align: center;
+}
+.main_content .footer p a{
+  color: #fff;
+  text-decoration: underline;
+}

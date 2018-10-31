@@ -1,0 +1,30 @@
+/* 메인페이지 */
+#wrap  {
+  width: 100%;
+  min-width: 1280px;
+  height: 100%;
+  position: relative;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  margin: 0 auto;
+
+}
+#container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+
+/* 서브페이지 */
+#sub_wrap{
+  overflow-y: visible;
+}
+#sub_wrap #header {
+  position: fixed;
+}
+
+.notice{
+  letter-spacing: 3px;
+}
