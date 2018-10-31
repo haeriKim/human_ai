@@ -55,11 +55,7 @@
                 <div class="content common_table_wrap con_1250">
 
                   <!-- app_page_content -->
-                  <div class="box app_page_content">
-
-                    <div class="app_bg">
-                      <img src="img/app_grand_open.png" alt="앱페이지" class="app_img">
-                    </div>
+                  <div class="app_page_content">
 
                     <div class="app_page_story">
                       <p>현재 페이지는 디올스 앱 또는 PC버전을 통해 이용하실수 있습니다.</p>
@@ -74,24 +70,15 @@
                       </div>
 
                       <div class="app_bt">
-                        <input type="button" name="다운로드버튼" value="APP 다운로드">
+                        <input type="button" name="다운로드버튼" value="앱 다운로드">
                       </div>
 
                     </div>
-
 
                   </div><!-- app_page_content End-->
 
                 </div><!-- common_table_wrap End-->
             </div><!-- content_wrap End-->
-
-            <!-- footer_wrap -->
-            <?php include "footer.php";?>
-            <!-- footer_wrap End-->
-
-            <!--sub_menu-->
-            <?php include "sub_menu.php";?>
-            <!--sub_menu End-->
 
         </div><!-- container End -->
     </div><!-- wrap End -->

@@ -244,6 +244,9 @@
         margin-top:6px;
         border-radius:5px;
     }
+    #m_navBtn span:nth-child(2){
+      width: 85%;
+    }
     #m_navBtn span:last-child{
         width:70%;
     }
@@ -289,10 +292,12 @@
         height:100%;
         z-index:985;
         transition: all 0.5s;
-        position: absolute;
+        position: fixed;
+        bottom: 0;
         top: 60px;
         left:-90%;
         box-shadow: 0 1px 13px rgba(0,0,0,.3);
+        overflow-y: auto;
     }
     .m_navContent {
       padding: 0 15px;
@@ -310,33 +315,35 @@
         float: left;
     }
     .m_lnb p.partition{
-        color: #fff;
+        color: #rgba(255,255,255,.7);
         float: left;
     }
     .m_lnb > span a{
-      color: #fff;
+      color: rgba(255,255,255,.7);
       font-size: 13px;
       font-weight: 400;
     }
     .afterLogin .id_area{
       text-align: center;
-      color: #fff;
+      color: rgba(255,255,255,.7);
       background-color: rgba(255,255,255,.1);
       border-radius: 15px;
-      width: 70%;
+      width: 75%;
       padding: 0px 0 4px 0;
       margin: 0 auto 5px auto;
+      font-size: 14px;
     }
     .afterLogin .id_area .user_mail{
       text-overflow: ellipsis;
       overflow: hidden;
       white-space: nowrap;
       width: 55%;
-      min-width: 112px;
+      min-width: 107px;
       display: inline-block;
       position: relative;
       top: 3px;
       font-size: 14px;
+      color: #fff;
     }
     .m_mainmenu{
       width: 100%;
@@ -361,7 +368,7 @@
         height:50px;
     }
     .m_mainmenu ul li strong{
-        color: rgba(255,255,255,.7);
+        color: #Fff;
         display: block;
         width: auto;
         height: 50px;
@@ -388,7 +395,7 @@
         text-align: center;
     }
     .m_mainmenu ul li .second_menu a{
-        color: #333;
+        color: #0e141c;
     }
     .m_nav_bottom{
         margin-top: 20px;
@@ -399,7 +406,7 @@
         margin: 0 auto;
     }
     .m_nav_bottom .app_store li{
-        font-size: 14px;
+        font-size: 13px;
         padding: 7px 0;
         margin-bottom: 6px;
         border: 1px solid #eaaf69;

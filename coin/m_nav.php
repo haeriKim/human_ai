@@ -16,13 +16,13 @@
             <!-- <div class="m_lnb">
                 <span><a href="login.php">로그인</a></span>
                 <p class='partition'>|</p>
-                <span><a href="join_01.php">회원가입</a></span>
+                <span><a href="signUp.php">회원가입</a></span>
             </div> -->
             <div class="m_lnb afterLogin">
                 <p class='id_area'>
                     <span class='user_mail'>abc@naver.com</span>님
                 </p>
-                <span><a href="#">마이페이지</a></span>
+                <span><a href="app_page.php">마이페이지</a></span>
                 <p class='partition'>|</p>
                 <span><a href="#">로그아웃</a></span>
             </div>
@@ -34,22 +34,17 @@
             <div class="m_mainmenu">
                 <ul>
                     <li>
-                        <a href="#" class="m_menutext">
+                        <a href="exchange.php" class="m_menutext">
                             <strong class="none01">거래소</strong>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="m_menutext">
+                        <a href="app_page.php" class="m_menutext">
                             <strong class="none01">자산관리</strong>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="m_menutext">
-                            <strong class="none01">코인정보</strong>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="m_menutext">
+                        <a href="notice.php" class="m_menutext">
                             <strong class="none01">공지사항</strong>
                         </a>
                     </li>

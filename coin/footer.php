@@ -27,15 +27,15 @@
 
 <div id="app_footer_wrap">
   <div id="app_footer">
-    <div class="app_company_info">
+    <div class="app_footer_info">
         <p><img src="img/logo.png" alt="로고" class="footer_logo"></p>
-          <div class="footer_ul">
+          <div class="footer_nav">
             <ul>
-              <li><a href="">고객지원</a></li>
+              <li><a href="customer_FAQ.php">고객지원</a></li>
               <li> | </li>
-              <li><a href="">이용약관</a></li>
+              <li><a href="use_map.php">이용약관</a></li>
               <li> | </li>
-              <li><a href="">개인정보 처리 방침</a></li>
+              <li class="pointColor"><a href="use_map.php">개인정보처리방침</a></li>
             </ul>
           </div>
 
@@ -43,16 +43,16 @@
             <p><img src="img/playstore.png" alt="플레이스토어"></p>
             <p><img src="img/appstore.png" alt="앱스토어"></p>
           </div>
-
-          <p><span>(주)필립스멀티</span> | </span><span>대표 손용현</span></p>
-          <p>서울특별시 송파구 백제고분로 293,제우빌딩</p>
-          <p>사업자등록번호 834-81-01022</p>
-          <p>통시난매업 제 2018-서울송파-1893호</p>
-          <p>고객문의 : thealls_cs@thealls.co.kr</p>
-          <p>제휴문의 : thealls_sales@thealls.co.kr</p>
-          <p>고객센터 : 0000-0000</p>
-          <p>FAX : 02-0000-0000</p>
-          <p>Copyright@All rights reserved.</p>
+          <div class="app_company_info">
+            <p><span>㈜디올스</span> | </span><span>대표 손용현</span></p>
+            <p>서울특별시 강남구 테헤란로25길 20, 719호<br/>(역삼동, 역삼현대벤쳐텔)</p>
+            <p>사업자등록번호 492-81-01041</p>
+            <p>통시난매업 제 2018-서울송파-1893호</p>
+            <p>고객문의 : thealls_cs@thealls.co.kr</p>
+            <p>제휴문의 : thealls_sales@thealls.co.kr</p>
+            <p class="centerNum">고객센터 : 0000-0000</p>
+            <p>Copyright@All rights reserved.</p>
+          </div>
     </div>
   </div>
 </div>

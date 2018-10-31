@@ -557,6 +557,12 @@
   .question_area .question_table input {
     margin-left: 10px;
   }
+  .question_detail .question_detail_inner .question_detail_inner_content .filebox2 .file_input_div2 {
+    padding-top: 3px;
+  }
+  .question_detail .question_detail_inner .question_detail_inner_content .filebox2 .file_input_div2 input[type="file"] {
+    width: 70px;
+  }
   .question_area .question_table .filebox .file_input_div .del_attach img {
     width: 10px;
   }
@@ -595,11 +601,13 @@
   .question_detail .question_detail_inner .question_title_wrap h4 {
     font-size: 13px;
     float: none;
+    margin-bottom: 10px;
   }
   .question_detail .question_detail_inner .question_title_wrap .upload_day {
     float: none;
     display: block;
     text-align: right;
+    font-size: 12px;
   }
   .question_detail .question_detail_inner .question_detail_inner_content .malpungsun_question,.question_detail .question_detail_inner .question_detail_inner_content .malpungsun_answer, .question_detail .question_detail_inner .question_detail_inner_content .malpungsun_story, .question_detail .question_detail_inner .question_detail_inner_content .question_admin {
     width: 100%;
@@ -610,7 +618,7 @@
     font-size: 12px;
   }
   .question_detail .question_detail_inner .question_detail_inner_content textarea {
-    width: 93%;
+    width: 95%;
     font-size: 13px;
   }
   .question_detail .question_detail_inner .question_detail_inner_content .filebox2 {
@@ -618,7 +626,7 @@
     overflow: hidden;
   }
   .question_detail .question_detail_inner .question_detail_inner_content .filebox2 .file_input_textbox2 {
-    width: 50%;
+    width: 60%;
   }
   .question_detail .question_detail_inner .question_detail_inner_content .filebox2 .file_input_div2 img {
     width: 28px;
@@ -630,14 +638,25 @@
   .question_detail .question_detail_inner .question_detail_inner_content .filebox2 .file_input_div2 .del_attach2 img {
     width: 10px;
   }
+  .question_detail .question_detail_inner .question_detail_inner_content .filebox2 .file_choice2 {
+    width: 47px;
+    font-size: 12px;
+  }
+  .question_detail .question_detail_inner .question_detail_inner_content .filebox2 .file_input_div2 .del_attach2 {
+    margin-left: 0;
+    margin-top: 8px;
+  }
   .question_detail .question_detail_inner .question_detail_inner_content .malpungsun_story .question_submit {
     margin-top: 10px;
     padding: 5px 20px;
+    width: 100%;
+    background-color: #1b2f4a;
+    color: #fff;
   }
   .question_detail .question_detail_inner .question_detail_footer {
     float: none;
     margin-bottom: 0;
-    text-align: center;
+    text-align: right;
     margin-top: 10px;
     overflow: visible;
 }

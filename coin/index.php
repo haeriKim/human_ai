@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="css/footer_index.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/sub_menu.css">
-    <link rel="stylesheet" href="css/app_main.css">
     <link rel="shortcut icon" href="img/favicon-16.ico" type="image/x-icon">
     <link rel="icon" href="img/favicon-16.ico" type="image/x-icon">
     <link rel="shortcut icon" href="img/favicon-32.ico" type="image/x-icon">
@@ -295,7 +294,7 @@
                        </ul> -->
 
                        <p class="phone_main"><img src="img/phone_main.png" alt="phone_main" ></p>
-                       <p class="coin_img"><img src="img/coin_main.png" alt="동전한닢" ></p>
+                       <p class="coin_img"><img src="img/coin_main.png" alt="코인이미지" ></p>
                        <input type="button" name="app다운버튼" value="APP 다운로드">
                      </div>
 

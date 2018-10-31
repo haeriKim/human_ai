@@ -879,7 +879,7 @@ box-shadow:none;
   #container{
     background:#efefef;
   }
-  #nav_wrap,#header_wrap,.submenu_mypage,.submenu_security{
+  #nav_wrap,#header_wrap,.submenu_mypage,.submenu_security,.submenu_mypage_inner{
     display:none;
   }
   .content {
