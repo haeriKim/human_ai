@@ -877,7 +877,6 @@ box-shadow:none;
   .content_wrap {
       height: auto;
       margin:0 auto;
-      padding: 5%;
   }
   #container{
     background:#efefef;
@@ -887,8 +886,6 @@ box-shadow:none;
   }
   .content {
     padding: 0;
-    width: 100%;
-    margin: 0 auto;
   }
   .con_1250{
     width: 90%;
