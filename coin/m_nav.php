@@ -13,11 +13,20 @@
 
         <!-- m_nav_top -->
         <div class="m_nav_top">
-            <div class="m_lnb">
+            <!-- <div class="m_lnb">
                 <span><a href="login.php">로그인</a></span>
                 <p class='partition'>|</p>
                 <span><a href="join_01.php">회원가입</a></span>
+            </div> -->
+            <div class="m_lnb afterLogin">
+                <p class='id_area'>
+                    <span class='user_mail'>abc@naver.com</span>님
+                </p>
+                <span><a href="#">마이페이지</a></span>
+                <p class='partition'>|</p>
+                <span><a href="#">로그아웃</a></span>
             </div>
+
         </div><!-- m_nav_top End-->
         <!-- m_nav_mid -->
         <div class="m_nav_mid">
@@ -62,8 +71,8 @@
         <!-- m_nav_bottom -->
         <div class="m_nav_bottom">
             <ul class="app_store">
-                <li><img src='img/playstore.png' alt='구글플레이스토어'></li>
-                <li><img src='img/appstore.png' alt='ios앱스토어'></li>
+                <li class='android'><a href='#'>Android 앱 다운로드</a></li>
+                <li class='ios'><a href='#'>iOS 앱 다운로드</a></li>
             </ul>
         </div><!-- m_nav_bottom End-->
     </div><!-- m_navContent End-->

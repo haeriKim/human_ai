@@ -1020,9 +1020,11 @@ $(document).ready(function(){
     $(".m_mainmenu .customer_li .second_menu").hide();
     $(".m_mainmenu .customer_li > .m_menutext").click(function(e){
         e.preventDefault();
-        $(".m_mainmenu .customer_li .second_menu").stop().slideToggle();
+        $(".m_mainmenu .customer_li .second_menu").stop().toggle();
+        $(".m_nav_bottom").stop().toggleClass('margin_on');
     })
 });
+
 /*반응형 햄버거 메뉴 클릭시 shadow*/
 $(document).ready(function(){
     var hamburgerNavi = 0;

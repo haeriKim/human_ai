@@ -301,7 +301,7 @@
     .m_lnb{
         overflow: hidden;
     }
-    .m_lnb span{
+    .m_lnb > span{
         width: 49%;
         display: inline-block;
         text-align: center;
@@ -311,11 +311,31 @@
         color: #fff;
         float: left;
     }
-    .m_lnb span a{
+    .m_lnb > span a{
         color: #fff;
         font-size:14px;
     }
+    .afterLogin{
 
+    }
+    .afterLogin .id_area{
+        text-align: center;
+        color: #fff;
+        background-color: rgba(255,255,255,.2);
+        border-radius: 15px;
+        width: 84%;
+        padding: 2px 0 7px 0;
+        margin: 0 auto 5px auto;
+    }
+    .afterLogin .id_area .user_mail{
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        width: 115px;
+        display: inline-block;
+        position: relative;
+        top: 4px;
+    }
     .m_mainmenu{
         width: 100%;
         margin-top: 30px;
@@ -333,7 +353,7 @@
         line-height: 50px;
         border-bottom: 1px solid #495a6e;
         overflow: hidden;
-        }
+    }
     .m_mainmenu ul li .m_menutext{
         display: block;
         height:50px;
@@ -368,14 +388,22 @@
         color: #333;
     }
     .m_nav_bottom{
-
+        margin-top: 20px;
     }
     .m_nav_bottom .app_store{
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
     }
     .m_nav_bottom .app_store li{
-
+        font-size: 15px;
+        padding: 7px 0;
+        margin-bottom: 6px;
+        border: 1px solid #eaaf69;
     }
-
+    .m_nav_bottom .app_store li a{
+        color: #eaaf69;
+    }
     /*js toggleClass*/
     .shadow_on{
         position: fixed;
@@ -390,6 +418,9 @@
     }
     .navi_on{
         left: 0;
+    }
+    .margin_on{
+        margin-top: 180px;
     }
     /*js toggleClass End*/
 

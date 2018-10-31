@@ -34,7 +34,7 @@
 
           <!-- nav_wrap -->
           <?php include "nav.php";?>
-                    <!-- nav_wrap End-->
+          <!-- nav_wrap End-->
 
           <!-- m_nav-->
           <?php include "m_nav.php";?>
