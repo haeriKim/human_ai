@@ -1025,15 +1025,23 @@ $(document).ready(function(){
 });
 /*반응형 햄버거 메뉴 클릭시 shadow*/
 $(document).ready(function(){
-    $("#responsive_shadow").removeClass('shadow_on');
+    var hamburgerNavi = 0;
     $("#m_menu-toggle").change(function(e){
         e.preventDefault();
-        $("#responsive_shadow").toggleClass('shadow_on');
-        $("#m_nav").toggleClass('navi_on');
+        if(hamburgerNavi === 0){
+            $("#responsive_shadow").addClass('shadow_on');
+            $("#m_nav").addClass('navi_on');
+            hamburgerNavi = 1 ;
+        }else{
+            $("#responsive_shadow").removeClass('shadow_on');
+            $("#m_nav").removeClass('navi_on');
+            hamburgerNavi = 0 ;
+        }
     })
     $("#responsive_shadow").click(function(e){
         e.preventDefault();
         $(this).removeClass('shadow_on');
         $("#m_menu-toggle").prop("checked",false);
+        hamburgerNavi = 0 ;
     })
 });
