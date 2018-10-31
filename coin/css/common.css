@@ -1007,6 +1007,8 @@ box-shadow:none;
   #look_method {
     width: 100%;
     float: none;
+    height: 28px;
+    font-size: 13px;
   }
   .search input, .search a.search_btn, .days{
     display: none;
