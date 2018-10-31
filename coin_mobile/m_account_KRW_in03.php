@@ -59,7 +59,7 @@
                       </div>
 
                       <div class="KRW_inout">
-                        <p>입금할 계좌정보</p>
+                        <p>입금 계좌정보</p>
                         <table class="KRW_table">
                           <tbody>
 

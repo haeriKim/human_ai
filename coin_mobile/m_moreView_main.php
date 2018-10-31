@@ -54,7 +54,7 @@
                         <p>공지사항</p>
                         <img src="img/m_gothru.png" alt="자세히" class='gothru'>
                     </li>
-                    <li onclick="location.href='m_support_customer.php'">
+                    <li onclick="location.href='m_moreView_support_customer.php'">
                         <p>고객지원</p>
                         <p class='waiting only_pc'>FAQ, 1:1 문의, 인증자료 제출안내, 수수료 안내를 보실 수 있습니다.</p>
                         <img src="img/m_gothru.png" alt="자세히" class='gothru gothru_03'>

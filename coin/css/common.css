@@ -859,9 +859,11 @@ box-shadow:none;
 }
 
 /* mobile ver */
-.guide_responsive{
+.guide_responsive,
+.login_responsive{
     display: none;
 }
+
 @media (max-width:768px) {
   #wrap{
       min-width: 310px;
@@ -875,6 +877,7 @@ box-shadow:none;
   .content_wrap {
       height: auto;
       margin:0 auto;
+      padding: 5%;
   }
   #container{
     background:#efefef;
@@ -884,6 +887,8 @@ box-shadow:none;
   }
   .content {
     padding: 0;
+    width: 100%;
+    margin: 0 auto;
   }
   .con_1250{
     width: 90%;
@@ -1009,4 +1014,90 @@ box-shadow:none;
   .search input, .search a.search_btn, .days{
     display: none;
   }
+
+  /*로그인 부분*/
+  .login_con{
+      display: none;
+  }
+  .login_responsive{
+      display: block;
+      padding: 5%;
+      margin-top: 94px;
+    }
+  .login_responsive .login_content{
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .login_responsive .box{
+      width: 100%;
+      margin: 0;
+      padding: 20px;
+  }
+  .login_responsive .login_content #login_area h3{
+      color: #1B2F4A;
+      font-size: 20px;
+      padding-bottom: 20px;
+  }
+  .login_responsive .login_content #login_area input{
+      border-style: none;
+      border-bottom: 1px solid #2a3e5f;
+      font-size: 13px;
+      padding-bottom: 5px;
+      padding-left: 5px;
+      display: block;
+      width: 95%;
+      margin-bottom: 25px;
+  }
+  .login_responsive .login_content #login_area .wrong_info{
+      color: red;
+      font-size: 12px;
+      margin-left: 5px;
+      margin-bottom: 20px;
+    }
+  .login_responsive .login_content #login_area .button_box{
+      color: #fff;
+      font-size: 15px;
+      font-weight: 600;
+      background: #1b2f4a;
+      border: none;
+      border-radius: 5px;
+      padding: 8px 0;
+      cursor: pointer;
+      width: 98%;
+    }
+    .login_responsive .login_content #login_area .login_info{
+
+    }
+    .login_responsive .login_content #login_area .login_info > a{
+        float: left;
+        font-size: 12px;
+    }
+    .login_responsive .login_content #login_area .login_info ul{
+        float: right;
+        margin-left: 0;
+        width: auto;
+    }
+    .login_responsive .login_content #login_area .login_info ul li{
+
+    }
+    .login_responsive .login_content #login_area .login_info ul li a{
+        font-size: 12px;
+    }
+    .login_responsive .login_content #login_area .login_info ul li .e_mail_find{
+        color: #fff;
+        background-color: #eaaf69;
+        font-size: 14px;
+        font-weight: bold;
+        position: absolute;
+        top: 270px;
+        left: 50%;
+        transform: translate(-50%,0);
+        width: 300px;
+        text-align: center;
+        padding: 10px 0;
+        line-height: 1.5;
+        border-radius: 5px;
+        }
+
 }
