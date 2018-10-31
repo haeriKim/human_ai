@@ -307,3 +307,6 @@
   text-align: center;
   width: 20%;
 }
+#app_wrap{
+  display:none;
+}

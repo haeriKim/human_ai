@@ -75,8 +75,12 @@
   color: #1b2f4a;
   font-weight: 600;
 }
+#app_footer_wrap{
+  display:none;
+}
+
 @media all and (min-width:320px) and (max-width:768px){
-  #footer_wrap {
+  /*#footer_wrap {
     position: initial;
   }
   #footer {
@@ -95,5 +99,44 @@
   }
   .footer_menu .footer_nav ul.right {
     float: none;
+  }*/
+
+  #footer_wrap{
+    display:none;
   }
+  #app_footer_wrap{
+    display:block;
+  }
+  #app_footer{
+    text-align:center;
+    padding:30px 0;
+    font-size:12px;
+    line-height: 1.5em;
+  }
+  #app_footer .app_company_info .footer_logo{
+    width:40%;
+  }
+    #app_footer .app_company_info ul{
+      text-align: center;
+      padding:10px 0;
+      display:inline-block;
+      overflow:hidden;
+    }
+    #app_footer .app_company_info li{
+      float:left;
+      padding:10px 5px;
+    }
+    #app_footer .app_company_info li a{
+      color:#777;
+    }
+    #app_footer .app_company_info .app_store{
+      overflow:hidden;
+      text-align:center;
+      display:inline-block;
+      margin-bottom:20px;
+    }
+    #app_footer .app_company_info .app_store p{
+      float:left;
+      padding:0 5px;
+    }
 }

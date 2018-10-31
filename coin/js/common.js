@@ -1045,3 +1045,51 @@ $(document).ready(function(){
         hamburgerNavi = 0 ;
     })
 });
+
+/*App_slide 슬라이드*/
+
+$(document).ready(function(){
+  var nowNum = 0;
+  var st;
+  var bannerObj = $('.app_slideUl li');
+  var maxLength = bannerObj.length;
+
+  // 자동슬라이드
+  function autoSlide(){
+    autoRun = setInterval(function() {
+      rollingFn('right');
+    },4000);
+  }
+  bannerObj.eq(nowNum).fadeIn();
+
+ // 버튼 눌렀을 때 슬라이드
+  $('.app_nextBtn').on('click',function(e){
+      e.preventDefault();
+    rollingFn('right');
+  });
+  $('.app_prevBtn').on('click',function(e){
+      e.preventDefault();
+    rollingFn('left');
+  });
+
+  function rollingFn(direction){
+    if(direction=='right'){
+      nowNum = nowNum+1;
+      if(nowNum>maxLength-1){
+        nowNum = 0;
+      }
+    }else{
+      nowNum = nowNum-1;
+      if(nowNum<0){
+        nowNum = maxLength-1;
+      }
+    }
+    bannerObj.hide().eq(nowNum).fadeIn();
+  }
+  $('.app_banner').mouseover(function(){
+     clearInterval(autoRun);
+   }).mouseout(function(){
+      autoSlide();
+   });
+  autoSlide();
+});

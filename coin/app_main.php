@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/footer_index.css">
     <link rel="stylesheet" href="css/app_main.css">
     <link rel="stylesheet" href="css/sub_menu.css">
     <link rel="shortcut icon" href="img/favicon-16.ico" type="image/x-icon">
@@ -27,10 +27,10 @@
     <script src="js/fouc.js"></script>
 </head>
 <body>
-    <!-- wrap -->
-    <div id="wrap">
-        <!-- container -->
-        <div id="container">
+    <!-- app_wrap -->
+    <div id="app_wrap">
+        <!-- app_container -->
+        <div id="app_container">
 
           <!-- nav_wrap -->
           <?php include "nav.php";?>
@@ -71,8 +71,28 @@
                       </div>
 
                       <div class="app_main_step2">
-                        <div class="slide_area">
-                          
+
+                          <!-- rolling_ad -->
+                          <div class="app_slideWrap">
+
+                            <ul class="app_slideUl">
+                              <li class="app_banner1 app_banner"></li>
+                              <li class="app_banner2 app_banner"></li>
+                            <!--  <li class="app_banner3 app_banner"></li>
+                              <li class="app_banner4 app_banner"></li>-->
+                            </ul>
+
+                            <a href="#" class="app_nextBtn"></a>
+                            <a href="#" class="app_prevBtn"></a>
+
+                            <div class="app_slideshow-indicator"></div>
+                          </div><!-- rolling_ad_img End-->
+
+                      </div>
+
+                      <div class="app_main_step3">
+                        <div class="security_area">
+                          <p><img src="img/m_security.png" alt="보안이미지"></p>
                         </div>
                       </div>
 
