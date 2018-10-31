@@ -80,27 +80,6 @@
 }
 
 @media all and (min-width:320px) and (max-width:768px){
-  /*#footer_wrap {
-    position: initial;
-  }
-  #footer {
-    padding-left: 0;
-  }
-  .compnay_info {
-    float: none;
-  }
-  .footer_menu {
-    float: none;
-    text-align: left;
-    margin-top: 15px;
-  }
-  .footer_menu .footer_nav ul.left {
-    margin-left: 0;
-  }
-  .footer_menu .footer_nav ul.right {
-    float: none;
-  }*/
-
   #footer_wrap{
     display:none;
   }
@@ -144,8 +123,8 @@
       float:left;
       padding:0 5px;
     }
-    #app_footer .app_footer_info .app_company_info {
-      color: #rgba(255,255,255,.8);
+    #app_footer .app_footer_info .app_company_info p{
+      color: rgba(255,255,255,.7);
     }
     #app_footer .app_footer_info .app_company_info .centerNum {
       font-size: 14px;

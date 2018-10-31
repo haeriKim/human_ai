@@ -58,8 +58,8 @@
     border-right: none;
 }
 @media all and (min-width:320px) and (max-width:768px){
-  .common_table_content .common_table thead,.common_table_content .mypage_content .input_output_fee thead tr, .common_table_content .common_table .long_th {
-    font-size: 13px;
+  .common_table_content .common_table thead,.common_table_content .mypage_content .input_output_fee thead tr, .common_table_content .common_table .long_th, .common_table_content .common_table tbody tr td {
+    font-size: 12px;
   }
 
 }
