@@ -134,3 +134,12 @@ $(document).ready(function(){
       return false;
   });
 });
+
+//메인 팝업
+$(document).ready(function(){
+    $('#full').show();
+    $('#full_content .close_btn').click(function(e){
+        e.preventDefault();
+        $('#full').hide();
+    })
+});
