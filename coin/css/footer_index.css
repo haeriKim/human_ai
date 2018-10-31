@@ -71,6 +71,12 @@
   color: #888;
   display: inline-block;
 }
+#footer_wrap{
+  display:block;
+}
+#app_footer_wrap{
+  display:none;
+}
 @media all and (min-width:320px) and (max-width:768px){
   #footer_wrap{
     display:none;
