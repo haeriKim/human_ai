@@ -362,7 +362,22 @@
       left:73%;
       z-index: 10;
     }
-    .app_main_content .app_main_step1 .phone_area input{
+    .app_main_content .app_main_step1 .phone_area input.app_download_bt{
+      background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+      border: none;
+      position:absolute;
+      color: #fff;
+      padding: 12px 0;
+      font-size: 15px;
+      width: 80%;
+      border-radius: 50px;
+      font-weight: 600;
+      margin-left: 5px;
+      box-shadow: 1px 2px 5px #000;
+      top:71%;
+      left:10%;
+    }
+    .app_main_content .app_main_step1 .phone_area input.app_exchange_bt{
       background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
       border: none;
       position:absolute;
