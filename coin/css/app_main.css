@@ -128,6 +128,9 @@
 .app_main_step3 img{
   width:100%;
 }
+.app_main_step3 .security_area p{
+  background:#1b2f4a;
+}
 
 
 }

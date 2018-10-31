@@ -273,13 +273,6 @@
      <!-- app_container -->
      <div id="app_container">
 
-       <!-- m_nav-->
-       <?php include "m_nav.php";?>
-       <!-- m_nav End-->
-
-       <!-- m_header-->
-       <?php include "m_header.php";?>
-       <!-- m_header End-->
 
          <!-- content_wrap -->
          <div class="content_wrap">
