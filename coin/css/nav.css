@@ -284,8 +284,8 @@
     }
     #m_nav{
         display: block;
-        background: #1b2f4a;
-        width:65%;
+        background: #0e141c;
+        width:70%;
         height:100%;
         z-index:985;
         transition: all 0.5s;
@@ -294,9 +294,11 @@
         left:-90%;
         box-shadow: 0 1px 13px rgba(0,0,0,.3);
     }
-
+    .m_navContent {
+      padding: 0 15px;
+    }
     .m_nav_top{
-        margin: 10px 0;
+        margin-top: 25px;
     }
     .m_lnb{
         overflow: hidden;
@@ -312,55 +314,54 @@
         float: left;
     }
     .m_lnb > span a{
-        color: #fff;
-        font-size:14px;
-    }
-    .afterLogin{
-
+      color: #fff;
+      font-size: 13px;
+      font-weight: 400;
     }
     .afterLogin .id_area{
-        text-align: center;
-        color: #fff;
-        background-color: rgba(255,255,255,.2);
-        border-radius: 15px;
-        width: 84%;
-        padding: 2px 0 7px 0;
-        margin: 0 auto 5px auto;
+      text-align: center;
+      color: #fff;
+      background-color: rgba(255,255,255,.1);
+      border-radius: 15px;
+      width: 70%;
+      padding: 0px 0 4px 0;
+      margin: 0 auto 5px auto;
     }
     .afterLogin .id_area .user_mail{
-        text-overflow: ellipsis;
-        overflow: hidden;
-        white-space: nowrap;
-        width: 55%;
-        min-width: 112px;
-        display: inline-block;
-        position: relative;
-        top: 4px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      width: 55%;
+      min-width: 112px;
+      display: inline-block;
+      position: relative;
+      top: 3px;
+      font-size: 14px;
     }
     .m_mainmenu{
-        width: 100%;
-        margin-top: 30px;
+      width: 100%;
+      margin-top: 10px;
     }
     .m_mainmenu > ul{
-        width:100%;
-        margin-top: 20px;
-        border-top: 1px solid #495a6e;
+      width:100%;
+      margin-top: 20px;
+      border-top: 1px solid #202A37;
+      border-bottom: 1px solid #202A37;
     }
     .m_mainmenu > ul > li{
-        width: 100%;
-        margin-bottom: 0;
-        box-sizing: border-box;
-        height: 50px;
-        line-height: 50px;
-        border-bottom: 1px solid #495a6e;
-        overflow: hidden;
+      width: 100%;
+      margin-bottom: 0;
+      box-sizing: border-box;
+      height: 50px;
+      line-height: 50px;
+      overflow: hidden;
     }
     .m_mainmenu ul li .m_menutext{
         display: block;
         height:50px;
     }
     .m_mainmenu ul li strong{
-        color: #fff;
+        color: rgba(255,255,255,.7);
         display: block;
         width: auto;
         height: 50px;
@@ -377,13 +378,14 @@
         position: absolute;
         background: #D1D5DB;
         border-top: 1px solid #d9dcdc;
+        left: 0;
     }
     .m_mainmenu ul li .second_menu li{
         height: 40px;
         line-height: 40px;
-        padding-left: 30px;
         border-bottom: 1px solid #d9dcdc;
         font-size: 13px;
+        text-align: center;
     }
     .m_mainmenu ul li .second_menu a{
         color: #333;
@@ -393,14 +395,15 @@
     }
     .m_nav_bottom .app_store{
         text-align: center;
-        width: 90%;
+        width: 75%;
         margin: 0 auto;
     }
     .m_nav_bottom .app_store li{
-        font-size: 15px;
+        font-size: 14px;
         padding: 7px 0;
         margin-bottom: 6px;
         border: 1px solid #eaaf69;
+        border-radius: 5px;
     }
     .m_nav_bottom .app_store li a{
         color: #eaaf69;
