@@ -889,6 +889,11 @@ box-shadow:none;
     width: 90%;
     margin: 28% auto;
   }
+  .con_640{
+    width:90%;
+    margin-top:22%;
+    margin-bottom:5%;
+  }
 
   /* 컨텐츠 네비 */
   .certification_area,

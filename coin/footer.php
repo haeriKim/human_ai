@@ -29,13 +29,15 @@
   <div id="app_footer">
     <div class="app_company_info">
         <p><img src="img/logo.png" alt="로고" class="footer_logo"></p>
-          <ul>
-            <li><a href="">고객지원</a></li>
-            <li> | </li>
-            <li><a href="">이용약관</a></li>
-            <li> | </li>
-            <li><a href="">개인정보 처리 방침</a></li>
-          </ul>
+          <div class="footer_ul">
+            <ul>
+              <li><a href="">고객지원</a></li>
+              <li> | </li>
+              <li><a href="">이용약관</a></li>
+              <li> | </li>
+              <li><a href="">개인정보 처리 방침</a></li>
+            </ul>
+          </div>
 
           <div class="app_store">
             <p><img src="img/playstore.png" alt="플레이스토어"></p>

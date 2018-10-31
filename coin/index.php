@@ -284,7 +284,7 @@
          <!-- content_wrap -->
          <div class="content_wrap">
              <!-- common_table_wrap -->
-             <div class="content common_table_wrap con_1250">
+             <div class="content common_table_wrap con_640">
 
                <!-- app_page_content -->
                <div class="box app_main_content">
