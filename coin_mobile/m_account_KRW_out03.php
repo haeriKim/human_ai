@@ -25,7 +25,7 @@
             <div id="header2">
               <div class="headerTop">
                 <input type="button" class="back" onclick="location.href='m_account_KRW_out02.php'"/>
-                <h2 class="header_title">원화(KRW) 입금 (3/3)</h2>
+                <h2 class="header_title">원화(KRW) 출금 (3/3)</h2>
                 <div class="alarm_area">
                   <img src="img/bell.png" class="alarmBtn" alt="알림버튼" onclick="location.href='m_alarm.php'"/>
                 </div>

@@ -331,7 +331,8 @@
         text-overflow: ellipsis;
         overflow: hidden;
         white-space: nowrap;
-        width: 115px;
+        width: 55%;
+        min-width: 112px;
         display: inline-block;
         position: relative;
         top: 4px;
