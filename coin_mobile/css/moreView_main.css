@@ -8,14 +8,12 @@
         padding: 17px 0;
         position: relative;
         margin-top: 10px;
+        padding-left: 17px;
     }
     .moreView_content_wrap > ul > li .only_pc{
         font-size: 12px;
         margin-top: 5px;
         width: 85%;
-    }
-    .moreView_cs ul li p{
-        padding: 0 13px;
     }
     .moreView_content_wrap .second_menu{
         background: #0d121e;
