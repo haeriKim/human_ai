@@ -829,13 +829,13 @@ div.cancel_or_apply .if_you_all_agree:hover{
     margin-bottom: 20px;
 }
 .search input {
-    width: 265px;
+    width: 200px;
     height: 30px;
     border: none;
     border-bottom: 2px solid #1b2f4a;
     font-size: 12px;
     text-indent: 10px;
-    position: relative;
+    margin-right: 45px;
 }
 .search a.search_btn{
     display:block;
@@ -843,7 +843,8 @@ div.cancel_or_apply .if_you_all_agree:hover{
     text-align:center;
     position:absolute;
     right:0;
-    top:6px;
+    top: 6px;
+    border-bottom: 2px solid #1b2f4a;
 }
 
 
