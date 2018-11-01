@@ -339,59 +339,51 @@
     }
     .app_main_content .app_main_step1 .logo_area{
       padding-top:60px;
-      padding-bottom:40px;
+      padding-bottom:20px;
     }
     .app_main_content .app_main_step1 .phone_area{
-      overflow: hidden;
       position:relative;
     }
-    /*.app_main_content .app_main_step1 .phone_area ul{
-      border:1px solid red;
-      position:absolute;
-      width:185px;
-      height:250px;
-      top:20%;
-      left:90px;
-    }*/
     .app_main_content .app_main_step1 .phone_area .phone_main img{
 
     }
     .app_main_content .app_main_step1 .phone_area .coin_img img{
       position: absolute;
-      top:65%;
+      top:55%;
       left:73%;
       z-index: 10;
+      display: none;
     }
-    .app_main_content .app_main_step1 .phone_area input.app_download_bt{
-      background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+    .app_main_content .app_main_step1 .phone_area input[type=button]{
       border: none;
       position:absolute;
       color: #fff;
       padding: 12px 0;
-      font-size: 15px;
-      width: 80%;
+      width: 78%;
       border-radius: 50px;
-      font-weight: 600;
       margin-left: 5px;
-      box-shadow: 1px 2px 5px #000;
-      top:71%;
-      left:10%;
+      box-shadow: 1px 2px 10px #081321;
+      left: 10%;
+      font-size: 14px;
     }
-    .app_main_content .app_main_step1 .phone_area input.app_exchange_bt{
+    .app_main_content .app_main_step1 .phone_area input[type=button].android_down {
       background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
-      border: none;
-      position:absolute;
-      color: #fff;
-      padding: 12px 0;
-      font-size: 15px;
-      width: 80%;
-      border-radius: 50px;
-      font-weight: 600;
-      margin-left: 5px;
-      box-shadow: 1px 2px 5px #000;
-      top:85%;
-      left:10%;
+      top: 72%;
     }
+    .app_main_content .app_main_step1 .phone_area input[type=button].ios_down {
+      background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+      top:86%;
+    }
+    .app_main_content .app_main_step1 .phone_area input[type=button].app_exchange_bt {
+      top: 97%;
+      color: #30afb8;
+      font-size: 13px;
+      box-shadow: none;
+      left: 55%;
+      background: none;
+      width: 30%;
+    }
+
     /*app_main_step2*/
     .app_main_step2 .app_slideWrap{
       width:100%;

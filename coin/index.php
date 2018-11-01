@@ -288,19 +288,12 @@
                      </div>
 
                      <div class="phone_area">
-                     <!--  <ul>
-                         <li></li>
-                         <li></li>
-                       </ul> -->
 
                        <p class="phone_main"><img src="img/phone_main.png" alt="phone_main" ></p>
                        <p class="coin_img"><img src="img/coin_main.png" alt="코인이미지" ></p>
-                       <input type="button" name="app다운버튼" value="APP 다운로드" onclick="location.href=''" class="app_download_bt">
+                       <input type="button" name="Android 앱 다운버튼" value="Android 앱 다운로드" class="android_down">
+                       <input type="button" name="iOS 앱 다운버튼" value="iOS 앱 다운로드" class="ios_down">
                        <input type="button" name="app다운버튼" value="거래소 둘러보기" onclick="location.href='exchange.php'" class="app_exchange_bt">
-
-                     </div>
-
-                     <div class="coin_area">
 
                      </div>
                    </div>
