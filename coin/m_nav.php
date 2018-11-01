@@ -22,7 +22,7 @@
                 <p class='id_area'>
                     <span class='user_mail'>abc@naver.com</span>님
                 </p>
-                <span><a href="app_page.php">마이페이지</a></span>
+                <span><a href="app_page_PC.php">마이페이지</a></span>
                 <p class='partition'>|</p>
                 <span><a href="#">로그아웃</a></span>
             </div>

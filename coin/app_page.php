@@ -60,20 +60,21 @@
                     <div class="app_page_story">
                       <p>현재 페이지는 디올스 앱 또는 PC버전을 통해 이용하실수 있습니다.</p>
 
-                      <div class="app_box">
-                        <p class="icon"><img src="img/app_icon.png" alt="어플아이콘" class="app_icon"></p>
-                        <ul>
-                          <li class="text_left">The Alls Exchange</li>
-                          <li class="star text_left">★★★★★</li>
-                          <li class="text_left">거래소계의 어벤져스</li>
-                        </ul>
-                      </div>
+                      <div class="app_down">
+                        <div class="app_box">
+                          <p class="icon"><img src="img/app_icon.png" alt="어플아이콘" class="app_icon"></p>
+                          <ul>
+                            <li class="text_left title">The Alls Exchange</li>
+                            <li class="star text_left">★★★★★</li>
+                            <li class="text_left">거래소계의 어벤져스</li>
+                          </ul>
+                        </div>
 
-                      <div class="app_bt">
-                        <input type="button" name="다운로드버튼" value="Android 앱 다운로드" class="android_bt">
-                        <input type="button" name="다운로드버튼" value="iOS 앱 다운로드" class="ios_bt">
+                        <div class="app_bt">
+                          <input type="button" name="다운로드버튼" value="Android 앱 다운로드" class="android_bt">
+                          <input type="button" name="다운로드버튼" value="iOS 앱 다운로드" class="ios_bt">
+                        </div>
                       </div>
-
                     </div>
 
                   </div><!-- app_page_content End-->
