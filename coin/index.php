@@ -207,7 +207,7 @@
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a href="customer_faq.php">
                                 <img src='img/telephone-symbol-button.png' alt='고객지원'>
                                 <p>고객지원</p>
                             </a>
