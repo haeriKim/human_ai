@@ -81,3 +81,34 @@
     background-size: 12px;
 }
 /*공지사항 세부내용 End*/
+
+@media all and (min-width:320px) and (max-width:768px){
+  .content_wrap{
+    padding:20px;
+  }
+  .notice_detail_wrap {
+    width: 100%;
+    margin: 28% auto;
+  }
+  .notice_detail .notice_detail_inner{
+    padding:20px;
+  }
+  .notice_detail_inner .notice_title_wrap{
+    font-size:12px;
+  }
+  .notice_detail_inner .notice_title_wrap .app_upload_day{
+    font-size: 12px;
+  }
+  .notice_detail .notice_detail_inner .notice_detail_inner_content p{
+    font-size:12px;
+  }
+  .notice_detail .notice_detail_inner .notice_detail_footer .notice_preview li p {
+    display: inline-block;
+    padding: 8px 0;
+    color: #939393;
+    font-weight: 600;
+    font-size: 12px;
+}
+  .notice_detail_inner .notice_detail_footer .notice_preview li p.prev_img{
+    margin:0;
+}

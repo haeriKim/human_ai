@@ -61,7 +61,7 @@
 
                         <div class="notice_title_wrap">
                             <h4>[안내] 개인정보 처리방침 변경 안내</h4>
-                            <p class='upload_day'>2018-08-29</p>
+                            <p class='upload_day app_upload_day'>2018-08-29</p>
                         </div>
 
                         <div class="notice_detail_inner_content">
