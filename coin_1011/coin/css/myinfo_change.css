@@ -1,0 +1,279 @@
+/*myinfo_small_info_box*/
+.myinfo_small_info_box{
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #1b2f4a;
+    background-color: rgba(27,47,74,.2);
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+.myinfo_small_info_box .myinfo_box1{
+    color: #2b2b2b;
+    float:left;
+padding: 7px 60px 0px 10px
+}
+.myinfo_small_info_box .myinfo_box1 strong{
+    font-size:22px;
+    color: #1b2f4a;
+}
+/*흰상자부분*/
+.myinfo_small_info_box .myinfo_box2{
+    overflow: hidden;
+    padding-left: 17px;
+}
+.myinfo_small_info_box .myinfo_box2 ul{
+    float: left;
+    width: 49%;
+    background: #fff;
+}
+.myinfo_small_info_box .myinfo_box2 ul.list_1{
+    margin-right:9px;
+}
+.myinfo_small_info_box .myinfo_box2 p.myinfo_title{
+    color:#666;
+    font-weight: 600;
+    font-size:14px;
+}
+.myinfo_small_info_box .myinfo_box2 ul li{
+    padding: 5px 5px 10px 5px;
+    width: 90%;
+    margin: 0 auto;
+}
+.myinfo_small_info_box .myinfo_box2 ul li.border_bottom_none{
+    border-bottom:none;
+}
+
+.myinfo_small_info_box .myinfo_box2 ul li .myinfo_detail{
+    text-align: right;
+    color: #2b2b2b;
+    font-size: 22px;
+    font-weight: 600;
+    padding-right: 3px;
+}
+/* 레벨3일때 */
+.list_2 .lv_4,
+.list_2 .lv_5{
+    display: none;
+}
+.request_btn{
+    cursor: pointer;
+}
+/* 레벨4일때 */
+/* .list_2 .lv_3,
+.list_2 .lv_5{
+    display: none;
+} */
+
+/* 레벨5일때 */
+/* .list_2 .lv_3,
+.list_2 .lv_4{
+    display: none;
+} */
+
+/*table*/
+.myinfo_sub_box table{
+  margin-bottom:30px;
+}
+.myinfo_sub_box table.left_thick_table tr th{
+  padding: 10px 10px 10px 16px;
+}
+.myinfo_sub_box table.left_thick_table tr td{
+  padding: 10px 20px 10px 16px;
+  font-size: 15px;
+}
+.myinfo_sub_box table.left_thick_table tr td span{
+margin-left: 10px;
+}
+.myinfo_sub_box table.left_thick_table tbody input[type='button'], .myinfo_sub_box table.left_thick_table tbody input[type='submit']{
+    border: 1px solid #1b2f4a;
+    background: #fff;
+    color: #1b2f4a;
+    padding: 3px 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    font-size:15px;
+}
+.myinfo_sub_box table.left_thick_table tbody input[type='button']:hover, .myinfo_sub_box table.left_thick_table tbody input[type='submit']:hover{
+    border: 1px solid #1b2f4a;
+    background: #1b2f4a;
+    color: #fff;
+    padding: 3px 5px;
+    cursor: pointer;
+}
+.myinfo_sub_box table.left_thick_table tbody input[type='password'],
+.myinfo_sub_box table.left_thick_table tbody input[type='text'],
+.myinfo_sub_box table.left_thick_table tbody input[type='tel'] {
+    border: none;
+    border-bottom: 1px solid #1b2f4a;
+    width: 330px;
+    padding-bottom: 4px;
+    font-size: 15px;
+}
+.myinfo_sub_box table.left_thick_table tbody input::placeholder{
+        color:#a1a1a1;
+        font-size:14px;
+}
+.warning_icon{
+    vertical-align: -3px;
+    margin-right: 2px;
+}
+table td div.question_smallbox{
+  display: inline-block;
+  position:relative;
+  cursor:pointer;
+}
+
+table .password_question_detail{
+  box-sizing: border-box;
+  padding:20px;
+  color:white; background-color:#1b2f4a; border-radius: 5px;
+    opacity:0.9; position:absolute;
+    width:600px;
+    top:40px;
+    left:-290px;
+    line-height: 25px;
+    visibility: hidden;
+}
+table .password_question_detail2{
+  box-sizing: border-box;
+  padding:20px;
+  color:white;
+  background-color:#1b2f4a; border-radius: 5px;
+    opacity:0.9;
+    position:absolute;
+    width:450px;
+    top:40px;
+    left:-210px;
+    line-height: 25px;
+    visibility: hidden;
+    z-index: 15;
+}
+table .password_question_detail:before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    margin-left: -10px;
+  border-bottom:10px solid #1b2f4a;
+  border-left:10px solid transparent;
+  border-right:10px solid transparent;
+  opacity:0.9;
+  }
+  table .password_question_detail2:before {
+      content: "";
+      position: absolute;
+      top: -10px;
+      left: 50%;
+      margin-left: -10px;
+    border-bottom:10px solid #1b2f4a;
+    border-left:10px solid transparent;
+    border-right:10px solid transparent;
+    opacity:0.9;
+    }
+  table td div.question_smallbox:hover .password_question_detail{visibility: visible;}
+  table td div.question_smallbox:hover .password_question_detail2{visibility: visible;}
+/*cancel_or_apply*/
+.myinfo_sub_box .cancel_or_apply{
+  text-align:center;
+}
+
+.myinfo_text_box h3{
+  color:#1b2f4a;
+}
+
+/*핸드폰,계좌변경,OTP변경 페이지 통일*/
+
+/*phone*/
+.myinfo_main_box .cer_center .myinfo_text_box{
+  padding:70px 0;
+  font-weight:600;
+  display:block;
+  font-size:15px;
+  text-align:center;
+}
+
+.myinfo_main_box .cer_center .myinfo_text_box span{
+  color:#c95b74;
+}
+.myinfo_main_box .cer_center .cancel_or_apply{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: -26px;
+}
+.send_login_password .forget_security_number a{
+    font-size: 14px;
+    color: #999;
+    text-decoration: underline;
+}
+.send_login_password .forget_security_number a:hover{
+    color: #c95b74;
+}
+.myinfo_main_box .myinfo_table_wrap2{
+  margin-top:20px;
+  margin-bottom:80px;
+}
+.myinfo_sub_box .left_thick_table td{
+  position:relative;
+}
+.count_down{
+  position:absolute;
+  font-size:14px;
+  right:360px;
+  margin-top:4.5px;
+  color:red;
+}
+.cer_center .cancel_or_apply .agree_btn,
+.phone2_ok{
+    cursor: pointer;
+}
+
+/*account*/
+
+/*OTP*/
+
+/*phonepopup*/
+
+.phone_change_box{
+  width:435px;
+  position:relative;
+  z-index:9999;
+  top:0;
+}
+.phone_change_box .popupbox_text .small{
+  display:block;
+  padding-bottom:30px;
+
+}
+.phone_change_box .popupbox_text_phone2{
+  padding:20px 0;
+}
+.phone_change_box2{
+  width:435px;
+  position:relative;
+  z-index:10000;
+  top:0;
+}
+.phone_change_box2 .cancel_or_apply{
+  padding-top:20px;
+}
+.phone_change_box2 .cancel_btn_ok{
+border-radius: 5px;
+padding: 7px 30px;
+color: #fff;
+font-weight: 600;
+font-size: 16px;
+box-sizing: border-box;
+border: none;
+background-color: #1b2f4a;
+cursor: pointer;
+}
+.phone_change_box2 .cancel_btn_ok:hover{
+  background-color: rgba(27,47,74,.9);
+}
+#full{
+  display:none;
+}
+.security_password_text_right{
+  float:right;
+}

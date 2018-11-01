@@ -1,0 +1,16 @@
+/* login_c_changePw */
+.login_content #login_c_change_pw{
+    position: relative;
+}
+
+.login_content #login_c_change_pw h3{
+    color:#071f45;
+    font-size:25px;
+    padding-bottom:30px;
+}
+.login_content #login_c_change_pw .text_area{
+  color: #666;
+  font-size: 15px;
+  margin-bottom: 50px;
+  text-align: center;
+}
