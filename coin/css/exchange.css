@@ -1168,7 +1168,7 @@
     text-align: center;
   }
  #deal_all .deal_table_tbody {
-   display: contents;
+   display: table-footer-group;
  }
  #deal_all tbody .up_down_data {
    padding-right: 10px;
@@ -1183,4 +1183,5 @@
  .submenu_mypage_inner{
    display:none;
  }
+
 }

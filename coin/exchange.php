@@ -1002,7 +1002,7 @@
                             <th>체결금액(KRW)</th>
                         </tr>
                     </thead>
-                    <tbody class='deal_table_tbody'>
+                    <tbody class='deal_table_tbody ie_deal_table_tbody'>
                         <tr>
                             <td class='deal_time'>
                                 <p>08.27 <span>14:27</span></p>
@@ -2117,7 +2117,7 @@
                               <th>체결금액(KRW)</th>
                           </tr>
                       </thead>
-                      <tbody class='deal_table_tbody'>
+                      <tbody class='deal_table_tbody ie_deal_table_tbody'>
                           <tr>
                               <td class='deal_time'>
                                   <p>08.27 <span>14:27</span></p>
