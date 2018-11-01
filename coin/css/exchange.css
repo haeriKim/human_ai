@@ -832,9 +832,7 @@
     text-align: right;
     padding-left: 28px;
 }
-#deal_all .deal_price_KRW{
-    padding-left;
-}
+
 #deal_all tbody tr{
     height: 35px;
     border-bottom:1px solid #efefef;
@@ -904,20 +902,20 @@
   }
   /*  코인선택 영역(coinSelect_area) */
   #left_coin_menu{
+    float: left;
     width: 100%;
+    position: relative;
   }
+  #left_coin_menu.scroll_fixed {
+    position: fixed;
+  }
+
   .con_1290{
     width: 90%;
     margin: 28% auto;
-    height: auto;
-    overflow: hidden;
   }
   .coin_select{
     width: 100%;
-    padding: 0;
-    border-radius: 5px;
-    position: absolute;
-    z-index: 2;
   }
   .coinSelect_area{
     width: 100%;
@@ -925,13 +923,21 @@
   }
   .coinSelect_area .coinSelect {
     width: 100%;
-    padding: 5px 10px;
-    box-sizing: border-box;
-    border-radius: 5px;
-}
+    padding: 0 10px;
+    font-size: 14px;
+  }
+  .coinSelect_area .coinSelect dd {
+    font-size: 14px;
+  }
   /*coin_money*/
   .coin_money{
     width: 100%;
+    margin-top: 60px;
+    padding: 20px 15px;
+  }
+  .coin_money_inner{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #efefef;
   }
   .coin_money_inner .img_area {
     width: 23%;
@@ -940,9 +946,10 @@
     padding: 5px 0;
 }
   .coin_money_inner img.bitcoin_icon{
-    width: 70px;
+    width: 60px;
   }
   .coin_money_inner ul{
+    float: left;
     margin-left: 5%;
     width:72%;
   }
@@ -953,162 +960,227 @@
     font-size: 15px;
   }
   .coin_money_inner .price{
-    font-size: 20px;
+    font-size: 18px;
   }
-  .coin_money_inner .question{
-    position: absolute;
-    left: 95%;
-  }
-  .coin_money_inner .coin_prepare {
-    padding-bottom: 10px;
-    border-bottom: 2px solid #efefef;
+  .coin_money_inner .won{
     font-size:15px;
   }
-
-
-  /*coin_money_prepare*/
-  .coin_money_prepare .hl_price .hl_title{
-    height: 20px;
+  .coin_money_inner .question{
+    left: 92%;
+    top: 4px;
+    font-size: 20px;
   }
 
+  .coin_money_inner .coin_prepare {
+    font-size: 15px;
+  }
+  .coin_money_inner .coin_prepare strong{
+    font-size:13px;
+  }
+  .coin_money_inner .coin_prepare img.ud {
+    margin-right: 3px;
+    vertical-align: 1px;
+  }
+
+  /*coin_money_prepare*/
+  .coin_money_prepare{
+    padding-top: 0;
+  }
+  .coin_money_prepare .hl_price{
+    font-size:14px;
+  }
+  .coin_money_prepare .hl_price p {
+    font-size: 17px;
+  }
+  .coin_money_prepare li .won {
+    font-size: 14px;
+  }
+
+  .coin_money_volume {
+    padding-bottom: 0;
+  }
+  .coin_money_volume .hl_volume {
+    font-size: 14px;
+  }
+  .coin_money_volume .hl_volume p {
+    font-size: 17px;
+  }
+  .coin_money_volume li .unit {
+    font-size: 14px;
+  }
   /*************************************************************/
+
 
   /*coin_money_detail*/
   .coin_money_detail{
-    width: 100%;
-    position:absolute;
-    left:0;
-    top:120px;
+    width: 93%;
+    left:3%;
+    top: 100px;
   }
-  table.left_thick_table tbody th{
-    width:40%;
+  .coin_money_detail::after {
+    display: none;
+  }
+  .coin_name {
+    height: 45px;
+  }
+  .coin_name h4 {
+    padding: 7px 15px;
+  }
+  #detail_all{
+    padding:10px 15px;
+  }
+  #detail_all p {
+    font-size: 11px;
+    padding: 7px 0;
+  }
+  table.left_thick_table tbody th,  table.left_thick_table tbody td{
+    font-size: 12px;
   }
 
   /*deal_orgin_transaction*/
-  #deal_orgin_transaction{
-      display:none;
+ #deal_orgin_transaction{
+     display:none;
+ }
+
+ /*chart_graf*/
+
+ .chart_graf{
+   width:100%;
+ }
+
+ /*bid_price*/
+
+ .bid_price{
+   width:100%;
+   margin-top:20px;
+   margin-bottom:20px;
+ }
+ .bid_price table{
+   width:100%;
+ }
+
+ /*buy_sell_tab*/
+
+ #buy_sell_tab{
+   width:100%;
+ }
+ #buy_sell_tab .buy_sell_tab_title{
+     width: 100%;
+ }
+ #buy_sell_tab .buy_tab_content,
+ #buy_sell_tab .sell_tab_content{
+     padding:20px;
+     width: 100%;
+     padding-top: 0;
+ }
+ #buy_sell_tab .buy_tab_content .buy_tab_content_row dd,
+ #buy_sell_tab .sell_tab_content .sell_tab_content_row dd{
+   width:65%;
+   text-align: right;
+ }
+ #buy_sell_tab .buy_tab_content .buy_tab_content_row dt,
+ #buy_sell_tab .sell_tab_content .sell_tab_content_row dt{
+     font-size:12px;
+     width: 33%;
+ }
+ #buy_sell_tab dd input[type='text']{
+     width: 64%;
+     text-align: right;
+     font-size:12px;
+ }
+ #buy_sell_tab .buy_tab_content .buy_tab_content_row dd .plus_btn,
+ #buy_sell_tab .sell_tab_content .sell_tab_content_row dd .plus_btn{
+   top:10px;
+ }
+ #buy_sell_tab .buy_tab_content .buy_tab_content_row dd .minus_btn,
+ #buy_sell_tab .sell_tab_content .sell_tab_content_row dd .minus_btn{
+   top:10px;
+   right: 22px;
+ }
+ #buy_sell_tab .buy_tab_content .buy_tab_content_row dd a,
+ #buy_sell_tab .sell_tab_content .sell_tab_content_row dd a{
+    width:5%;
+    font-size:20px;
   }
 
-  /*chart_graf*/
-
-  .chart_graf{
-    width:100%;
+ #buy_sell_tab .amount_dropbox select{
+     font-size: 12px;
+     top:10px;
+     width: 50px;
+     height: 32px;
+ }
+ #buy_sell_tab .buy_all_amount_title{
+     font-size:14px;
+ }
+ #buy_sell_tab .buy_all_amount{
+     width: 60%;
+ }
+ #buy_sell_tab .sell_all_amount{
+     width: 60%;
+ }
+ #buy_sell_tab .buy_all_amount p {
+  height: 45px;
+  line-height: 45px;
+  font-size: 14px;
+ }
+ #buy_sell_tab .buy_all_amount p span.up_down_data{
+     font-size:16px;
+ }
+ #buy_sell_tab .minimum_order_price{
+     width: 50%;
+     margin-left:0;
+ }
+ #buy_sell_tab .charge{
+     width: 50%;
+     margin-left:0;
+ }
+ #buy_sell_tab input[type='reset'].reset_buy, #buy_sell_tab input[type='reset'].reset_sell {
+   width: 37%;
+   padding: 10px 0;
+ }
+  #buy_sell_tab .buy_big_btn, #buy_sell_tab .sell_big_btn{
+     padding: 11px 0;
+     width: 61%;
+ }
+  .exchange_h3 {
+    font-size: 17px;
+    padding: 10px 15px;
   }
 
-  /*bid_price*/
+ /*deal_all*/
 
-  .bid_price{
-    width:100%;
-    margin-top:20px;
-    margin-bottom:20px;
+ .con_435{
+     width:100%;
+     height: auto;
+ }
+ #deal_all .deal_table_scroll{
+     height:100%;
+     overflow-y: visible;
+ }
+ #deal_all thead tr th.deal_time{
+  text-align: center;
+ }
+ #deal_all .deal_all_thead{
+    width: 100%;
+    position: static;
+ }
+  #deal_all .deal_all_thead th {
+    text-align: center;
   }
-  .bid_price table{
-    width:100%;
-  }
-
-  /*buy_sell_tab*/
-
-  #buy_sell_tab{
-    width:100%;
-  }
-  #buy_sell_tab .buy_sell_tab_title{
-      width: 100%;
-  }
-  #buy_sell_tab .buy_tab_content,
-  #buy_sell_tab .sell_tab_content{
-      padding:20px;
-      width: 100%;
-  }
-  #buy_sell_tab .buy_tab_content .buy_tab_content_row dd,
-  #buy_sell_tab .sell_tab_content .sell_tab_content_row dd{
-    width:60%;
-  }
-  #buy_sell_tab .buy_tab_content .buy_tab_content_row dt,
-  #buy_sell_tab .sell_tab_content .sell_tab_content_row dt{
-      font-size:12px;
-  }
-  #buy_sell_tab dd input[type='text']{
-      width: 64%;
-      text-align: right;
-      font-size:12px;
-  }
-  #buy_sell_tab .buy_tab_content .buy_tab_content_row dd .plus_btn,
-  #buy_sell_tab .sell_tab_content .sell_tab_content_row dd .plus_btn{
-    top:10px;
-  }
-  #buy_sell_tab .buy_tab_content .buy_tab_content_row dd .minus_btn,
-  #buy_sell_tab .sell_tab_content .sell_tab_content_row dd .minus_btn{
-    top:10px;
-    right: 22px;
-  }
-  #buy_sell_tab .buy_tab_content .buy_tab_content_row dd a,
-  #buy_sell_tab .sell_tab_content .sell_tab_content_row dd a{
-     width:5%;
-     font-size:20px;
-   }
-  #buy_sell_tab dd input.buy_amount{
-    margin-right:0;
-  }
-  #buy_sell_tab dd input.buy_input01{
-    margin-right:0;
-  }
-  #buy_sell_tab dd input.buy_input02{
-    margin-right:0;
-  }
-  #buy_sell_tab .amount_dropbox select{
-      font-size: 12px;
-      top:10px;
-      width: 50px;
-      height: 32px;
-  }
-  #buy_sell_tab .buy_all_amount_title{
-      font-size:14px;
-  }
-  #buy_sell_tab .buy_all_amount{
-      width: 60%;
-  }
-  #buy_sell_tab .sell_all_amount{
-      width: 60%;
-  }
-  #buy_sell_tab .buy_all_amount p span.up_down_data{
-      font-size:14px;
-  }
-  #buy_sell_tab .minimum_order_price{
-      width: 50%;
-      margin-left:0;
-  }
-  #buy_sell_tab .charge{
-      width: 50%;
-      margin-left:0;
-  }
-  #buy_sell_tab .buy_big_btn{
-      padding: 11px 53px;
-  }
-  #buy_sell_tab .sell_big_btn{
-      padding: 11px 53px;
-  }
-
-  /*deal_all*/
-
-  .con_435{
-      width:100%;
-  }
-  #deal_all .deal_table_scroll{
-      height:100%;
-  }
-  #deal_all thead tr th.deal_time{
-      text-align: center;
-  }
-  #deal_all thead tr th:not(.deal_time){
-      padding-left: 15px;
-  }
-  #deal_all .deal_all_thead{
-      width: 100%;
-  }
-  #deal_all .deal_table_tbody td:not(.deal_time){
-      padding-left:5px;
-  }
-  .submenu_mypage_inner{
-    display:none;
-  }
+ #deal_all .deal_table_tbody {
+   display: contents;
+ }
+ #deal_all tbody .up_down_data {
+   padding-right: 10px;
+ }
+ #deal_all .deal_table_tbody .deal_time, #deal_all .deal_table_tbody td.deal_price_KRW_data,#deal_all .deal_table_tbody td.deal_amount_data, #deal_all .deal_table_tbody td:not(.deal_time), #deal_all thead tr th.deal_time, #deal_all thead tr th:not(.deal_time) {
+   padding: 0;
+   text-align: center;
+ }
+ #deal_all .deal_table_tbody .deal_time {
+   padding-left: 3px;
+ }
+ .submenu_mypage_inner{
+   display:none;
+ }
 }

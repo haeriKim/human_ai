@@ -566,10 +566,13 @@ div.cancel_or_apply .if_you_all_agree:hover{
 }
 .coin_money_inner strong{
   font-size:20px;
+  color: #1b2f4a;
+  font-weight: 600;
 }
 .coin_money_inner .coin_word{
   margin-left:5px;
-  color:#4c4c4c;
+  color: #1b2f4a;
+  font-weight: 600;
 }
 .coin_money_inner .price{
   font-size:30px;
