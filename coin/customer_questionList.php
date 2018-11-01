@@ -93,7 +93,7 @@
                       <!-- guide_responsive -->
                       <div class="guide_responsive">
                         <div class="guide_select">
-                          <span onclick="location.href='customer_questionas.php'">1:1 문의하기</span>
+                          <span onclick="location.href='customer_question.php'">1:1 문의하기</span>
                           <span class="clicked">문의내역</span>
                         </div>
                       </div><!-- guide_responsive End-->
