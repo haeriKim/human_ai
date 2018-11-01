@@ -88,13 +88,13 @@
                   <!-- box -->
                   <div class="box">
                     <!-- 로그인폼 -->
-                    <div id="login_area">
+                    <div id="login_area_responsive">
                         <form class="" action="#" method="post">
                             <h3>로그인</h3>
-                            <label for="e_mail" class='skip_label'>이메일주소</label>
-                            <input type="email" name="e_mail" value="" placeholder="이메일주소를 입력하세요." id='e_mail' required autocomplete="off" class='user_mail'>
-                            <label for="password" class='skip_label'>비밀번호</label>
-                            <input type="password" name="password" value="" placeholder="로그인 비밀번호를 입력하세요." id='password' required autocomplete="off" class='user_pass'>
+                            <label for="e_mail_responsive" class='skip_label'>이메일주소</label>
+                            <input type="email" name="e_mail" value="" placeholder="이메일주소를 입력하세요." id='e_mail_responsive' required autocomplete="off" class='user_mail'>
+                            <label for="password_responsive" class='skip_label'>비밀번호</label>
+                            <input type="password" name="password" value="" placeholder="로그인 비밀번호를 입력하세요." id='password_responsive' required autocomplete="off" class='user_pass'>
                             <p class='wrong_info'><img src="img/icon_ex.png" alt="경고아이콘" class="warning_icon">이메일주소와 비밀번호를 확인해주세요.</p>
                             <input type="submit" name="로그인" value="로그인" class='button_box login_button'>
                         </form>
@@ -103,9 +103,10 @@
                         <div class="login_info">
                             <a href="signUp.php">회원가입</a>
                             <ul>
-                                <li><a href='login_findPw.php'>비밀번호 찾기</a></li>
-                                <li>
+                                <li><a href='#'>비밀번호 찾기</a></li>
+                                <li class='email_find_btn'>
                                     <a href='#'>이메일 주소 찾기</a>
+                                    <span class='partition'>|</span>
                                     <p class='e_mail_find'>당사 고객센터(1644-4272)로 연락주시면<br/>확인하여 안내드릴 수 있도록 하겠습니다.</p>
                                 </li>
                             </ul>

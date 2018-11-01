@@ -1095,3 +1095,19 @@ $(document).ready(function(){
    });
   autoSlide();
 });
+
+/*반응형 로그인 말풍선*/
+$(document).ready(function(){
+    var click_time = 1;
+    $('#login_area_responsive .e_mail_find').hide();
+    $('#login_area_responsive .email_find_btn a').on('click',function(e){
+        e.preventDefault();
+        if (click_time === 1) {
+            $('#login_area_responsive .e_mail_find').show();
+            click_time = 0;
+        }else{
+            $('#login_area_responsive .e_mail_find').hide();
+            click_time = 1;
+        }
+    });
+})

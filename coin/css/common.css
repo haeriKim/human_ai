@@ -1033,12 +1033,12 @@ box-shadow:none;
       margin: 0;
       padding: 20px;
   }
-  .login_responsive .login_content #login_area h3{
+  .login_responsive .login_content #login_area_responsive h3{
       color: #1B2F4A;
       font-size: 20px;
       padding-bottom: 20px;
   }
-  .login_responsive .login_content #login_area input{
+  .login_responsive .login_content #login_area_responsive input{
       border-style: none;
       border-bottom: 1px solid #2a3e5f;
       font-size: 13px;
@@ -1048,13 +1048,13 @@ box-shadow:none;
       width: 95%;
       margin-bottom: 25px;
   }
-  .login_responsive .login_content #login_area .wrong_info{
+  .login_responsive .login_content #login_area_responsive .wrong_info{
       color: red;
       font-size: 12px;
       margin-left: 5px;
       margin-bottom: 20px;
     }
-  .login_responsive .login_content #login_area .button_box{
+  .login_responsive .login_content #login_area_responsive .button_box{
       color: #fff;
       font-size: 15px;
       font-weight: 600;
@@ -1065,38 +1065,48 @@ box-shadow:none;
       cursor: pointer;
       width: 98%;
     }
-    .login_responsive .login_content #login_area .login_info{
-
+    .login_responsive .login_content #login_area_responsive .login_info{
+        overflow: hidden;
     }
-    .login_responsive .login_content #login_area .login_info > a{
+    .login_responsive .login_content #login_area_responsive .login_info > a{
         float: left;
         font-size: 12px;
+        color: #757575;
     }
-    .login_responsive .login_content #login_area .login_info ul{
+    .login_responsive .login_content #login_area_responsive .login_info ul{
         float: right;
         margin-left: 0;
+        overflow: hidden;
         width: auto;
+        margin-top: -4px;
     }
-    .login_responsive .login_content #login_area .login_info ul li{
-
+    .login_responsive .login_content #login_area_responsive .login_info ul li{
+        float: right;
     }
-    .login_responsive .login_content #login_area .login_info ul li a{
+    .login_responsive .login_content #login_area_responsive .login_info ul li a{
         font-size: 12px;
+        color: #757575;
     }
-    .login_responsive .login_content #login_area .login_info ul li .e_mail_find{
+    .login_responsive .login_content #login_area_responsive .login_info .email_find_btn{
+        margin-right: 7px;
+    }
+    .login_responsive .login_content #login_area_responsive .login_info ul li .e_mail_find{
         color: #fff;
         background-color: #eaaf69;
-        font-size: 14px;
-        font-weight: bold;
+        font-size: 12px;
         position: absolute;
-        top: 270px;
+        bottom: 55%;
         left: 50%;
         transform: translate(-50%,0);
-        width: 300px;
+        width: 80%;
         text-align: center;
         padding: 10px 0;
         line-height: 1.5;
         border-radius: 5px;
-        }
-
+    }
+    .login_responsive .login_content #login_area_responsive .partition{
+        padding: 0 2px;
+        font-size: 12px;
+        color: #757575;
+    }
 }
