@@ -1111,3 +1111,16 @@ $(document).ready(function(){
         }
     });
 })
+
+/*원화 출금 신청 버튼 클릭시 확인팝업*/
+$(document).ready(function(){
+    $(".withdrawal_won").hide();
+    $('#output_KRW .cancel_or_apply .if_you_all_agree').click(function(){
+        $(".withdrawal_won").show();
+        $('#shadow').show();
+    })
+    $(".withdrawal_won .cancel_or_apply .cancel_btn").click(function(){
+        $(".withdrawal_won").hide();
+        $('#shadow').hide();
+    });
+})

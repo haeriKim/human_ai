@@ -922,7 +922,7 @@
                                                         <div class="cancel_or_apply">
                                                             <input type="reset" name="reset" value="취소" class='cancel_btn'/>
                                                             <span class='agree_btn if_you_not_all_agree gray_bt'>입금신청</span>
-                                                            <input type="submit" name="submit" value="입금신청" class='agree_btn if_you_all_agree'/>
+                                                            <input type="submit" name="submit" value="입금신청" class='agree_btn if_you_all_agree' onclick="location.href='mywallet_input_complete_KRW.php'"/>
                                                         </div>
 
                                                         <span id="money_malpungsun">
@@ -1820,7 +1820,35 @@
               </div><!-- common_table_content End-->
 
             </div><!-- common_table_wrap End-->
-
+                    <div id="popupbox" class='box popup withdrawal_won'>
+                        <div class="full_inner">
+                            <form class="" action="#" method="post">
+                                <h2>출금신청</h2>
+                                <p><b class='check_your_money_again'><span class="withdrawal_price">1,000,000 </span> KRW</b>를</p>
+                                <table class='left_thick_table'>
+                                    <tbody>
+                                        <tr>
+                                            <th>은행</th>
+                                            <td>○○은행</td>
+                                        </tr>
+                                        <tr>
+                                            <th>계좌번호</th>
+                                            <td>1234-567-8910-11-123</td>
+                                        </tr>
+                                        <tr>
+                                            <th>예금주</th>
+                                            <td>가나다</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p>현재 계좌에서 출금하시겠습니까?</p>
+                                <div class="cancel_or_apply">
+                                    <input type="reset" name="" value="취소" class='cancel_btn'>
+                                    <input type="submit" name="" value="출금신청" class='agree_btn' onclick="location.href='mywallet_output_complete_KRW.php'">
+                                </div>
+                            </form>
+                        </div>
+                    </div><!-- full_content End-->
             <div id="shadow"></div>
     </div>  <!-- full End-->
 </body>
