@@ -103,10 +103,6 @@
     font-size:12px;
   }
   .notice_detail .notice_detail_inner .notice_detail_footer .notice_preview li p {
-    display: inline-block;
-    padding: 8px 0;
-    color: #939393;
-    font-weight: 600;
     font-size: 12px;
 }
   .notice_detail_inner .notice_detail_footer .notice_preview li p.prev_img{

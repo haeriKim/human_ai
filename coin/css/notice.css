@@ -53,16 +53,11 @@
   .notice_area .notice_list {
     font-size: 12px;
   }
-
   .notice_area .notice_list tr th.num{
     display:none;
   }
   .notice_area .notice_list tr td {
-    height: 45px;
   line-height: 25px;
-  border-bottom: 1px solid #f4f5f9;
-  box-sizing: border-box;
-  cursor: pointer;
   }
   .notice_area .notice_list tr td.title{
     width:80%;
