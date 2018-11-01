@@ -166,7 +166,8 @@
 #signUp_area .signUp_right_con a:hover{
     color: #c95b74;
 }
-#full{
+#full,
+#signUp_area .signUp_right_con .password_alarm_wrap::after{
     display:none;
 }
 #full .popupbox_text{
@@ -220,6 +221,11 @@
         font-weight: 600;
         margin-top: 30px;
     }
+    #signUp_area .signUp_right_con #warning_message{
+        top: auto;
+        right: auto;
+        margin-top: 5px;
+    }
     #signUp_area .signUp_right_con .btn_area{
         position: initial;
     }
@@ -228,6 +234,26 @@
         margin: 0;
         width: auto;
         font-size: 14px;
-
+    }
+    #signUp_area .signUp_right_con a{
+        width: 100%;
+        margin: 20px 0 15px 0;
+    }
+    #signUp_area .signUp_right_con .password_alarm_wrap{
+        margin:20px 0;
+        line-height: 15px;
+        padding: 15px;
+    }
+    #signUp_area .signUp_right_con .password_alarm_wrap ul li span{
+        font-size: 12px;
+        margin-bottom: 5px;
+        padding: 0;
+    }
+    #signUp_area .signUp_right_con .password_alarm_wrap .password_alarm_ul{
+        width: 100%;
+        margin-left: 0;
+    }
+    #signUp_area .signUp_right_con .password_alarm_wrap ul.password_alarm_ul_02{
+        margin-left: 0;
     }
 }

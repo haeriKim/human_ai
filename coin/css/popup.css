@@ -462,3 +462,56 @@
     bottom: 5%;
     left: 45%;
 }
+/*회원가입 팝업반응형*/
+@media (max-width:768px) {
+    #full .email_pop{
+        width: 90%;
+        top: 50%;
+        left: 5%;
+        margin-left: 0;
+        padding: 20px 10px;
+        transform: initial;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .popup h2{
+        font-size: 20px;
+    }
+    #popupbox .popupbox_text{
+        padding-top: 0;
+    }
+    #popupbox .popupbox_text p{
+        font-size: 13px;
+    }
+    .email_pop input[type="text"]{
+        font-size: 13px;
+    }
+    #full .email_pop p.readonly{
+        text-align: center;
+        padding: 0;
+    }
+    .email_pop form{
+        padding: 0;
+    }
+    #full .email_pop .re_send{
+        padding: 10px;
+    }
+    #full .email_pop .re_send p{
+        float: none;
+        text-align: center;
+        margin-bottom:0;
+        font-size: 12px;
+    }
+    #full .email_pop .re_send input[type="button"]{
+        float: none;
+        font-size: 12px;
+        margin: 10px 0;
+        padding: 5px;
+    }
+    .responsive_btn{
+        margin-top: -10px;
+    }
+    .btn_area input[type="button"], .btn_area input[type="submit"]{
+        font-size: 12px;
+    }
+}
