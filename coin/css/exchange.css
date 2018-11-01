@@ -1092,11 +1092,9 @@
   }
   #deal_all thead tr th.deal_time{
       text-align: center;
-      width:40%;
   }
   #deal_all thead tr th:not(.deal_time){
       padding-left: 15px;
-      width:20%;
   }
   #deal_all .deal_all_thead{
       width: 100%;
