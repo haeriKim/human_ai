@@ -68,3 +68,64 @@
 #signUp_c_area .btn_area a.go_login:hover {
     background-color: rgba(27,47,74,.9);
 }
+
+@media all and (min-width:320px) and (max-width:768px){
+  .loginC_content{
+    text-align: center;
+  }
+  .loginC_content .loginC_story{
+    display:inline-block;
+    width:100%;
+    font-size:80%;
+    font-weight:600;
+    margin:15px 0;
+    text-align: center;
+    overflow: hidden;
+    background:#fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(100,100,100,.2);
+  }
+  .loginC_content .loginC_story img{
+    width:30%;
+    margin-top:20px;
+  }
+  .loginC_content .loginC_story h4{
+    color:#1b2f4a;
+    font-size:18px;
+  }
+  .loginC_content .loginC_story p{
+    margin:20px 0;
+    color:#1b2f4a;
+  }
+  .loginC_content .loginC_story span{
+    color:#c95b74;
+    font-size:12px;
+  }
+  .loginC_content .loginC_story input.home_bt{
+  background:#fff;
+  border: 1px solid #1b2f4a;
+  color: #1b2f4a;
+  padding: 10px 0;
+  font-size: 12px;
+  width: 60%;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-left: 5px;
+  margin-top: 10px;
+  }
+  .loginC_content .loginC_story input.login_bt{
+  background:#1b2f4a;
+  border: none;
+  color: #fff;
+  padding: 10px 0;
+  font-size: 12px;
+  width: 60%;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-top:10px;
+  margin-left: 5px;
+  margin-bottom:20px;
+  box-shadow: 1px 2px 4px #555;
+  }
+
+}
