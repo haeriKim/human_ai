@@ -143,3 +143,25 @@ $(document).ready(function(){
         $('#full').hide();
     })
 });
+
+//고객지원 아코디언
+$(document).ready(function(){
+    $('.moreView_cs .second_menu').hide();
+    var acodian = {
+      click: function(target) {
+        var $target = $(target);
+        $target.on('click', function() {
+          if ($(this).hasClass('on')) {
+            slideUp($target);
+          } else {
+            slideUp($target);
+            $(this).addClass('on').next().stop().slideDown();
+          }
+          function slideUp($target) {
+            $target.removeClass('on').next().stop().slideUp();
+          }
+        });
+      }
+    };
+    acodian.click('.moreView_cs li.first_menu');
+})
