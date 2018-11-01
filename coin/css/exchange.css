@@ -1032,8 +1032,13 @@
       text-align: right;
       font-size:12px;
   }
+  #buy_sell_tab .buy_tab_content .buy_tab_content_row dd .plus_btn,
+  #buy_sell_tab .sell_tab_content .sell_tab_content_row dd .plus_btn{
+    top:10px;
+  }
   #buy_sell_tab .buy_tab_content .buy_tab_content_row dd .minus_btn,
   #buy_sell_tab .sell_tab_content .sell_tab_content_row dd .minus_btn{
+    top:10px;
     right: 22px;
   }
   #buy_sell_tab .buy_tab_content .buy_tab_content_row dd a,
@@ -1052,6 +1057,7 @@
   }
   #buy_sell_tab .amount_dropbox select{
       font-size: 12px;
+      top:10px;
       width: 50px;
       height: 32px;
   }
