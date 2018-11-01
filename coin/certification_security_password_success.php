@@ -143,7 +143,7 @@
 
                       <div class="cancel_or_apply">
                         <input type="button" name="" value="확인" onclick="location.href='myinfo.php'" class="cancel_btn">
-                        <input type="button" name="" value="인증하러 가기" onclick="location.href='certification.php'" class="agree_btn">
+                        <input type="button" name="" value="인증하러 가기" onclick="location.href='certification_phone.php'" class="agree_btn">
                       </div>
 
 
