@@ -40,7 +40,7 @@
   .app_page_content .app_page_story .star{
     color:#ffd000;
   }
-  .app_page_content .app_page_story input{
+  .app_page_content .app_page_story input.android_bt{
     background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
     border: none;
     color: #fff;
@@ -49,8 +49,19 @@
     width: 90%;
     border-radius: 50px;
     font-weight: 600;
-    margin-left: 5px;
-    margin: 20px 0;
+    margin-top: 20px;
+    box-shadow: 1px 2px 4px #555;
+  }
+  .app_page_content .app_page_story input.ios_bt{
+    background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+    border: none;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 15px;
+    width: 90%;
+    border-radius: 50px;
+    font-weight: 600;
+    margin-top: 10px;
     box-shadow: 1px 2px 4px #555;
   }
 }

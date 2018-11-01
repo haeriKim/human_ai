@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/app_page.css">
+    <link rel="stylesheet" href="css/app_page_PC.css">
     <link rel="stylesheet" href="css/sub_menu.css">
     <link rel="shortcut icon" href="img/favicon-16.ico" type="image/x-icon">
     <link rel="icon" href="img/favicon-16.ico" type="image/x-icon">
@@ -55,24 +55,18 @@
                 <div class="content common_table_wrap con_1250">
 
                   <!-- app_page_content -->
-                  <div class="app_page_content">
+                  <div class="app_pagePC_content">
 
-                    <div class="app_page_story">
-                      <p>현재 페이지는 디올스 앱 또는 PC버전을 통해 이용하실수 있습니다.</p>
+                    <div class="app_pagePC_story">
+                      <img src="img/exclamation2.png" alt="컴퓨터아이콘">
+                      <p>현재 페이지는 디올스 PC버전을 통해<br/>
+                      이용하실수 있습니다.</p>
 
-                      <div class="app_box">
-                        <p class="icon"><img src="img/app_icon.png" alt="어플아이콘" class="app_icon"></p>
-                        <ul>
-                          <li class="text_left">The Alls Exchange</li>
-                          <li class="star text_left">★★★★★</li>
-                          <li class="text_left">거래소계의 어벤져스</li>
-                        </ul>
+                      <div class="app_pagePC_bt">
+                        <input type="button" name="거래소버튼" value="홈으로 돌아가기" onclick="location.href='index.php'" class="app_bt">
                       </div>
 
-                      <div class="app_bt">
-                        <input type="button" name="다운로드버튼" value="Android 앱 다운로드" class="android_bt">
-                        <input type="button" name="다운로드버튼" value="iOS 앱 다운로드" class="ios_bt">
-                      </div>
+
 
                     </div>
 
