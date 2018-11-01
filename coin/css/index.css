@@ -450,40 +450,6 @@
       background:#1b2f4a;
     }
 
-    #full_content{
-        width: 95%;
-        background: #fff;
-        z-index: 9999;
-        position: fixed;
-        left: 2.5%;
-        top: 49%;
-        margin: 0 auto;
-        height: auto;
-    }
-    #full_content .full_inner{
-        width: 98%;
-    }
-    #full_content .full_inner h2{
-        padding-top: 0;
-        font-size: 17px;
-        padding-bottom: 10px;
-    }
-    #full_content .full_inner p{
-        font-size: 12px;
-    }
-    #full_content .full_inner ul li{
-        font-size: 13px;
-        background-size: 15px;
-        padding-left: 21px;
-    }
-    #full_content .full_inner form{
-        font-size: 12px;
-        margin-top: 10px;
-    }
-    #full_content .full_inner .close_btn{
-        font-size: 13px;
-        margin-top: 5px;
-    }
     .submenu_mypage,
     .submenu_security
     {
