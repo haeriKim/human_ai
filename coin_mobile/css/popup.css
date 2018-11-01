@@ -101,3 +101,71 @@
     height: 100%;
     z-index: 999;
 }
+
+/*회원가입시 이메일 인증 팝업*/
+#full_content .popupbox_text .send_mail_text{
+    line-height: 1.5;
+}
+#full_content .popupbox_text .readonly{
+    color: #30afb8;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+#full_content .popupbox_text .code{
+    width: 95%;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.6);
+    font-size: 12px;
+    padding: 3px 5px;
+}
+#full_content .popupbox_text .wrong_info{
+    color: #f00;
+}
+#full_content .popupbox_text .warning_icon{
+    vertical-align: -3px;
+    margin-right: 3px;
+}
+#full_content .popupbox_text .re_send{
+    border-radius: 5px;
+    border: 1px solid #30afb8;
+    padding: 10px 20px;
+    overflow: hidden;
+    margin-top: 20px;
+    text-align: center;
+}
+#full_content .popupbox_text .re_send p{
+    color: #30afb8;
+}
+#full_content .popupbox_text .re_send .re_sendBtn{
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 5px 0;
+    color: #30afb8;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 1px solid #30afb8;
+    background: none;
+}
+#full_content .btn_area{
+    text-align: center;
+    margin: 10px 0;
+}
+#full_content .btn_area input[type='button']{
+    padding: 5px 18px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 50px;
+    border: none;
+    background: rgba(0,0,0,.5);
+}
+#full_content .btn_area input[type='submit']{
+    color: #fff;
+    font-weight: 600;
+    padding: 5px 18px;
+    background: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+    border-radius: 50px;
+    border: none;
+}

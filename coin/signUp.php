@@ -53,7 +53,7 @@
             <div class="content_wrap">
                 <!-- main_content -->
                 <div class="content signUp_content">
-                  <div class="box con_1000">
+                  <div class="box con_1000 con_nav">
                     <!-- 로그인폼 -->
                     <div id="signUp_area">
                       <h3>회원가입</h3>
@@ -99,6 +99,7 @@
 
                           <!-- signUp_right_con -->
                           <div class="signUp_right_con">
+                              <h4 class='responsive_h'>회원 정보입력</h4>
                               <input type='email' name="email_address" value="" placeholder="이메일주소를 입력하세요." required maxlength="30" minlength="8"  class='user_mail' autocomplete="off"/>
                               <p id='warning_message'><img src="img/icon_ex.png" alt="경고아이콘" class="warning_icon">이미 등록된 이메일 주소입니다.</p>
                               <input type="password" name="password" value="" placeholder="로그인 비밀번호를 입력하세요." required maxlength="30" minlength="10" class='user_pass'/>

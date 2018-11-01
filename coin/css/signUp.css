@@ -167,8 +167,67 @@
     color: #c95b74;
 }
 #full{
-display:none;
+    display:none;
 }
 #full .popupbox_text{
   margin-bottom:40px;
+}
+.responsive_h{
+    display: none;
+}
+@media (max-width:768px) {
+
+    .content_wrap .content{
+        width: 100%;
+        margin-top: 100px;
+    }
+    .content_wrap .content .con_nav{
+        width: 95%;
+        margin: 0 auto;
+    }
+    #signUp_area{
+        padding: 20px;
+        margin-bottom: 50px;
+    }
+    #signUp_area h3{
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    #signUp_area .signUp_left_con,
+    #signUp_area .signUp_right_con{
+        width: 100%;
+    }
+    #signUp_area .signUp_left_con .agree_content_box{
+        width: 100%;
+    }
+    #signUp_area .signUp_left_con .agree_content_box p:not(.text_box){
+        font-size: 14px;
+    }
+    #signUp_area .signUp_left_con .agree_content_box .text_box{
+        width: auto;
+    }
+    #signUp_area .signUp_right_con > input{
+        width: 98%;
+        font-size: 13px;
+        margin-bottom: 0;
+        margin-top: 40px;
+    }
+    .responsive_h{
+        display: block;
+        font-size: 18px;
+        color: #1b2f4a;
+        text-align: left;
+        font-weight: 600;
+        margin-top: 30px;
+    }
+    #signUp_area .signUp_right_con .btn_area{
+        position: initial;
+    }
+    #signUp_area .signUp_right_con .btn_area .join_btn{
+        padding: 7px 25px;
+        margin: 0;
+        width: auto;
+        font-size: 14px;
+
+    }
 }
