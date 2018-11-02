@@ -60,18 +60,6 @@
   margin-top: 30px;
   padding-bottom: 20px;
 }
-.KRW_bt_area input[type="button"].next_bt{
-  background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
-  border: none;
-  color: #fff;
-  padding: 7px 0;
-  font-size: 13px;
-  width: 35%;
-  border-radius: 50px;
-  font-weight: 600;
-  margin-left:5px;
-}
-
 
 /*KRW_warning (Step1)*/
 

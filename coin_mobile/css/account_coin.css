@@ -45,18 +45,6 @@
   margin-top: 30px;
   padding-bottom: 20px;
 }
-.coin_bt_area input[type="button"].next_bt{
-  background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
-  border: none;
-  color: #fff;
-  padding: 7px 0;
-  font-size: 13px;
-  width: 35%;
-  border-radius: 50px;
-  font-weight: 600;
-  margin-left:5px;
-}
-
 
 /*coin_warning (Step1)*/
 
@@ -140,15 +128,6 @@
   margin:0;
 }
 .my_assets_coin01 .coin_bt_area input{
-  background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
-  border: none;
-  color: #fff;
-  padding: 5px 0;
-  font-size: 12px;
-  width: 30%;
-  border-radius: 50px;
-  font-weight: 600;
-  margin-left:5px;
   margin: 30px 0;
 }
 
