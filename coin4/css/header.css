@@ -1,0 +1,86 @@
+/* header */
+#header_wrap {
+    width: 100%;
+    height:80px;
+    position: fixed;
+    top:0;
+    z-index:5;
+}
+#header {
+    background-color: #2a6972;
+    color: #fff;
+    height:inherit;
+    box-shadow:0 1px 2px rgba(200,200,200,1);
+    margin-left: 190px;
+    box-sizing: border-box;
+}
+#header .current_coin {
+  text-align: center;
+  width: 100%;
+}
+#header .current_coin ul {
+  display: block;
+  overflow: hidden;
+  padding:9px 0;
+  text-align: left;
+}
+#header .current_coin ul li{
+  float: left;
+  font-size: 14px;
+  width: 14.25%;
+  box-sizing: border-box;
+  text-align: center;
+}
+#header .current_coin ul li .current_pri {
+  font-weight: 600;
+}
+#header .current_coin li + li {
+  border-left: 1px solid rgba(239,239,239,.3);
+}
+#header .current_coin ul li b {
+  display: inline-block;
+  background-color: rgba(255,255,255,.5);
+  border-radius: 10px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 13px;
+  padding: 0 7px;
+  margin-top: 5px;
+}
+#header .current_coin ul li b.up {
+  color: #d60000;
+}
+#header .current_coin ul li b.down {
+  color: #002dae;
+}
+
+/* 모바일 hide */
+#m_headerWrap {
+  display: none;
+}
+
+/* mobile ver */
+@media all and (min-width:320px) and (max-width:768px){
+  #m_headerWrap {
+    display: block;
+    background-color: #1b2f4a;
+    position: fixed;
+    top:0;
+    z-index: 997;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    height: 60px;
+    box-sizing: border-box;
+  }
+  #m_headerWrap h1 a {
+    display: inline-block;
+  }
+  #m_headerWrap h1 img {
+    width: 80px;
+  }
+  /* PC Hide */
+  #header_wrap{
+      display: none;
+  }
+}

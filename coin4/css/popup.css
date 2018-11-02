@@ -1,0 +1,519 @@
+/*메인 팝업*/
+#full_content{
+    width: 540px;
+    height: 540px;
+    background: #fff;
+    z-index: 9999;
+    padding: 20px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: -265px;
+}
+.full_inner{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#full_content h2{
+    color:#071f45;
+    text-align: center;
+    padding-top:20px;
+    padding-bottom:15px;
+    border-bottom: 2px solid #071f45;
+    margin: 0 auto;
+}
+
+#full_content p{
+    color:#333;
+    font-size:15px;
+    margin:15px 0;
+}
+
+#full_content ul{
+    background-color:#f4f5f9;
+    padding:10px;
+    border-radius: 5px;
+}
+
+#full_content ul li{
+    margin:10px 0;
+    line-height: 1.4;
+    color:#1b2f4a;
+    background: url('../img/check.png') no-repeat 0 3px / 20px ;
+    padding-left:25px;
+    font-weight:600;
+}
+
+#full_content form{
+    display: inline-block;
+    float: left;
+    margin-top: 3px;
+}
+#full_content .close_btn{
+    float: right;
+    background: #1b2f4a;
+    text-align: center;
+    padding: 5px 0;
+    width: 70px;
+    color: #fff;
+    border-radius: 5px;
+}
+#full_content .close_btn:hover{
+  background-color: rgba(27,47,74,.9);
+}
+#shadow{
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: #000;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}
+
+/*내 자산관리 물음표 클릭시*/
+#question_mark_active{
+    width: 900px;
+    background: #fff;
+    z-index: 9999;
+    padding: 20px;
+    position: fixed;
+    left: 40%;
+    top: 50%;
+    margin-left: -265px;
+    transform: translateY(-50%);
+    display: none;
+}
+.question_mark_active_inner{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#question_mark_active h2{
+    color:#071f45;
+    text-align: center;
+    padding-top:20px;
+    padding-bottom:15px;
+    border-bottom: 2px solid #071f45;
+    margin: 0 auto;
+}
+
+#question_mark_active p{
+    color: #222;
+    font-size: 15px;
+    margin: 15px 0;
+    line-height: 23px;
+    padding-bottom: 20px;
+}
+
+#question_mark_active .close_btn{
+    background: #1b2f4a;
+    text-align: center;
+    padding: 5px 20px;
+    width: 70px;
+    color: #fff;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+#qustion_mark_active_full #shadow{
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: #000;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    display: none;
+
+}
+
+/*출금신청 팝업*/
+
+#popupbox p,
+#coin_withdrawal_box p{
+    color:#1b2f4a;
+    font-size:16px;
+    margin:15px 0;
+    text-align: center;
+}
+#coin_withdrawal_box .check_your_money_again{
+    font-weight: 600;
+    color: #071f45;
+    font-size: 21px;
+    text-indent:1px;
+    margin-right: 2px;
+}
+
+/*나머지 팝업들*/
+
+#popupbox{
+  width:455px;
+}
+#popupbox .popupbox_text{
+  padding-top: 20px;
+  line-height:1em;
+  color:#666666;
+}
+#popupbox .popupbox_text .hour{
+  color:#c95b74;
+}
+#popupbox .popupbox_text p {
+  line-height: 1.5;
+}
+#popupbox .popupbox_text .limit{
+  margin-bottom:40px;
+}
+#popupbox .popupbox_text .account_text{
+  text-align:left;
+  line-height:1;
+  margin-bottom:20px;
+}
+/*#popupbox .popupbox_text .popup_title{
+  text-align:left;
+  font-weight:600;
+  font-size:15px;
+}*/
+#popupbox .popupbox_text .account_count{
+  color:#d60000;
+}
+#popupbox .popupbox_text table{
+  text-align:left;
+  margin:25px 0;
+}
+#popupbox .popupbox_text table tr{
+  border: 1px solid #efefef;
+  border-left: none;
+  height: 40px;
+}
+#popupbox .popupbox_text table th{
+  background-color: #f4f5f9;
+  border-left: 2px solid #1b2f4a;
+  padding: 5px 10px;
+  color: #1b2f4a;
+  font-size: 14px;
+  font-weight: 600;
+  width: 35%;
+}
+#popupbox .popupbox_text table td{
+  font-size: 14px;
+  padding: 0 8px;
+}
+
+#popupbox .popupbox_text b{
+  color:#1b2f4a;
+  font-size: 16px;
+  font-weight: 600;
+}
+.btn_area {
+  margin-top: 30px;
+}
+.btn_area input[type="button"],
+.btn_area input[type="submit"]{
+  border-radius:5px;
+  background:none;
+  font-size:14px;
+  font-weight:600;
+  border:1px solid #1b2f4a;
+  color: #1b2f4a;
+  padding:7px 20px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.btn_area input[type="button"].ok,
+.btn_area input[type="submit"].ok{
+  border:1px solid #1b2f4a;
+  background-color:#1b2f4a;
+  color:#fff;
+}
+.btn_area input[type="submit"].ok:hover,
+.btn_area input[type="button"].ok:hover,
+#full .email_pop .re_send input[type="button"]:hover {
+    background-color: rgba(27,47,74,.9);
+}
+
+
+/* 기본팝업(common) */
+.popup{
+    background: #fff;
+    z-index: 9999;
+    padding: 30px 20px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: -265px;
+    text-align: center;
+}
+.popup h2{
+    color:#071f45;
+    text-align: center;
+    padding-bottom:15px;
+    border-bottom: 2px solid #071f45;
+    margin: 0 auto;
+}
+.full_inner{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* 이메일인증 팝업 */
+#full .email_pop {
+  width: 550px;
+}
+.email_pop form {
+  padding: 0 20px;
+}
+#full .email_pop p.readonly {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px 0 5px 10px;
+  border-radius: 5px;
+}
+.email_pop input[type="text"] {
+  width: 95%;
+  border: none;
+  border-bottom: 1px solid #1b2f4a;
+  font-size: 16px;
+  padding: 3px 5px;
+}
+#full .email_pop span {
+  color: #d60000;
+  text-align: left;
+  margin: 5px 0 0 5px;
+  display: block;
+  font-size: 12px;
+}
+#full .email_pop .re_send {
+  background-color: rgba(27,47,74,.2);
+  border-radius: 5px;
+  padding: 10px 20px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+#full .email_pop .re_send p {
+  float: left;
+  color: #1b2f4a;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+}
+#full .email_pop .re_send input[type="button"] {
+  float: right;
+  background-color: #1b2f4a;
+  border-radius: 5px;
+  border: none;
+  padding: 7px 5px ;
+  color: #fff;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+
+/* 로그인팝업 */
+.popup a.join_btn {
+  display: inline-block;
+  text-decoration: underline;
+  margin-top: 20px;
+  color: #666;
+  font-size: 14px;
+}
+.popup a.join_btn:hover {
+  color: #c95b74;
+}
+/* 주소복사 팝업 */
+#qustion_mark_active_full .copy_pop .popupbox_text b {
+  color: #d60000;
+  text-align: left;
+  font-size: 13px;
+  line-height: 1.2;
+}
+
+/* 휴대폰번호 변경 팝업 */
+#popupbox .popupbox_text p.small {
+  font-size: 14px;
+}
+
+/*비트코인 출금신청 팝업창 표 서식*/
+.coin_withdrawal_box{
+    width: 607px;
+    left: 47%;
+}
+.coin_withdrawal_box .left_thick_table {
+    margin-bottom: 30px;
+}
+.coin_withdrawal_box .left_thick_table tbody th{
+    width: 118px;
+}
+.coin_withdrawal_box .left_thick_table tbody td{
+    padding-left: 20px;
+}
+.coin_withdrawal_box .left_thick_table tbody td span{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 280px;
+    display: inline-block;
+}
+.coin_withdrawal_box .left_thick_table .plus_more_btn{
+    position: relative;
+}
+.coin_withdrawal_box .left_thick_table .plus_more_btn img{
+    position: absolute;
+    cursor: pointer;
+    top: -23px;
+    right: 13px;
+}
+.coin_withdrawal_box .more_coin_address_01,
+.coin_withdrawal_box .more_coin_address_02{
+    box-sizing: border-box;
+    padding: 20px;
+    color: white;
+    background-color: #1b2f4a;
+    border-radius: 5px;
+    position: absolute;
+    width: 400px;
+    top: 13px;
+    right: 0;
+    line-height: 10px;
+    visibility: hidden;
+    z-index: 10;
+}
+.coin_withdrawal_box .more_coin_address_01:before,
+.coin_withdrawal_box .more_coin_address_02:before{
+    content: "";
+    position: absolute;
+    top: -9px;
+    right: 16px;
+    margin-left: -10px;
+    border-bottom: 10px solid #1b2f4a;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+.coin_withdrawal_box .plus_more_btn_01:hover .more_coin_address_01,
+.coin_withdrawal_box .plus_more_btn_02:hover .more_coin_address_02{
+    visibility: visible;
+}
+#popupbox .wrong_info{
+  color:#f00;
+  font-size:13px;
+  text-align:left;
+  margin-left:5px;
+  margin-bottom: 20px;
+}
+#popupbox .warning_icon{
+  margin-right:2px;
+  vertical-align: -3px;
+}
+
+/* 보유코인 유의사항 */
+#question_mark_active p span.popup_important {
+  color: #1b2f4a;
+  font-weight: 600;
+}
+/*인증레벨별 한도 보기팝업*/
+.common_table_wrap{
+    position: relative;
+}
+.common_table_content{
+    background: #fff;
+    height: 85%;
+    z-index: 9999;
+    width: 1000px;
+    padding: 10px 20px;
+    position: fixed;
+    left: 40%;
+    top: 50%;
+    margin-left: -220px;
+    transform: translateY(-50%);
+    display: none;
+    min-height: 300px;
+}
+.common_table_content .mypage_content{
+    height: 70%;
+    overflow-y: auto;
+}
+.common_table_content h2.title{
+    color: #071f45;
+    text-align: center;
+    width: 90%;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #071f45;
+    margin: 0 auto;
+}
+.common_table_content .close_btn{
+    background: #1b2f4a;
+    text-align: center;
+    padding: 5px 20px;
+    width: 70px;
+    color: #fff;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 5%;
+    left: 45%;
+}
+/*회원가입 팝업반응형*/
+@media (max-width:768px) {
+    #full .email_pop{
+        width: 90%;
+        top: 50%;
+        left: 5%;
+        margin-left: 0;
+        padding: 20px 10px;
+        transform: initial;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .popup h2{
+        font-size: 20px;
+    }
+    #popupbox .popupbox_text{
+        padding-top: 0;
+    }
+    #popupbox .popupbox_text p{
+        font-size: 13px;
+    }
+    .email_pop input[type="text"]{
+        font-size: 13px;
+    }
+    #full .email_pop p.readonly{
+        text-align: center;
+        padding: 0;
+    }
+    .email_pop form{
+        padding: 0;
+    }
+    #full .email_pop .re_send{
+        padding: 10px;
+    }
+    #full .email_pop .re_send p{
+        float: none;
+        text-align: center;
+        margin-bottom:0;
+        font-size: 12px;
+    }
+    #full .email_pop .re_send input[type="button"]{
+        float: none;
+        font-size: 12px;
+        margin: 10px 0;
+        padding: 5px;
+    }
+    .responsive_btn{
+        margin-top: -10px;
+    }
+    .btn_area input[type="button"], .btn_area input[type="submit"]{
+        font-size: 12px;
+    }
+
+    /*거래소 메인 팝업*/
+}

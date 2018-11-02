@@ -1,0 +1,445 @@
+/* nav */
+#nav_wrap{
+  margin:0 auto;
+  position:fixed;
+  float:left;
+  width:190px;
+  height:100%;
+  background-color:#1b2f4a;
+  z-index:999;
+  box-shadow: 0 15px 15px rgba(100,100,100,0.7);
+}
+#nav h1 {
+  text-align: center;
+  padding: 25px 0;
+}
+#nav h1 a {
+  display: inline-block;
+}
+#nav h1 img{
+  width:70%;
+}
+
+#nav .login_info {
+  background-color: rgba(255,255,255,.2);
+  width: 130px;
+  height: 25px;
+  line-height: 26px;
+  margin: 0 auto;
+  border-radius: 15px;
+  margin-bottom: 7px;
+  color: #fff;
+  text-align: center;
+}
+
+/* 알림영역 */
+#nav .login_info > p{
+    position: relative;
+    top: -7px;
+    left: -8px;
+}
+#nav .login_info .user_mail{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 58px;
+    display: inline-block;
+    position: relative;
+    top: 7px;
+    left: -3px;
+}
+
+#nav .login_info .alarmArea {
+    display: inline-block;
+    position: relative;
+    top: -34px;
+    right: -42px;
+}
+#nav .login_info .alarmArea img {
+  width: 16px;
+  vertical-align: -2px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+#nav .login_info .alarmArea img:hover {
+  opacity: .8;
+}
+#nav .login_info .alarmArea .alarmNum{
+  display: block;
+  width: 12px;
+  height: 12px;
+  line-height: 9px;
+  font-size: 10px;
+  background-color: #EF0403;
+  border-radius: 50%;
+  position: absolute;
+  top: 4px;
+  right: -6px;
+}
+#nav .login_info .alarmArea .alarm_desc{
+    display:none;
+    width: 480px;
+    padding: 20px 30px;
+    z-index: 5;
+    color: #666;
+    text-align: left;
+    position: absolute;
+    top: -25px;
+    left: 75px;
+}
+#nav .login_info .alarmArea .alarm_desc:after {
+  content: "";
+  position: absolute;
+  top: 6%;
+  left: -7%;
+  border-width: 17px;
+  border-style: solid;
+  border-color: transparent #fff transparent transparent;
+}
+#nav .login_info .alarmArea .alarm_desc dl {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #efefef;
+}
+#nav .login_info .alarmArea .alarm_desc dt {
+  text-align: center;
+  color: #1b2f4a;
+  font-weight: 600;
+  border-bottom: 2px solid #1b2f4a;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+#nav .login_info .alarmArea .alarm_desc dd {
+  font-size: 15px;
+  height: 32px;
+  font-weight: 600;
+  padding-left: 5px;
+}
+#nav .login_info .alarmArea .alarm_desc dd:hover{
+  background: #c8eefb;
+}
+/* #nav .login_info .alarmArea .alarm_desc dd .alarmType::before {
+  content: '';
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #1b2f4a;
+  vertical-align: 4px;
+  margin-right: 4px;
+} */
+#nav .login_info .alarmArea .alarm_desc dd a {
+  display: inline-block;
+  width: 68%;
+  color: #666;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin: 0 5px;
+  vertical-align: -6px;
+}
+#nav .login_info .alarmArea .alarm_desc dd .alarmTime {
+  width: 10%
+}
+#nav .login_info .alarmArea .alarm_desc .alarm_r {
+  color: #d60000
+}
+#nav .login_info .alarmArea .alarm_desc .alarm_b{
+  color: #002dae;
+}
+#nav .login_info .alarmArea .alarm_desc dd .delete {
+  width: 5%;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  float: right;
+  background: url("../img/x.png") no-repeat 0 8px;
+  vertical-align: 2px;
+}
+#nav .login_info .alarmArea .alarm_desc .alarAllBtn {
+  display: inline-block;
+  color: #1b2f4a;
+  float: right;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+#nav .login_info .alarmArea .alarm_desc .alarAllBtn:hover {
+  color: #c95b74;
+}
+.nav_bt{
+  padding-bottom:20px;
+  border-bottom:1px solid #495a6e;
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+}
+.nav_bt a {
+  color: #fff;
+}
+.nav_bt a:hover {
+  opacity: .7;
+}
+.nav_bt span{
+  padding: 0 7px;
+}
+/* 네비게이션 메뉴 영역 */
+.nav_list li{
+  width:190px;
+  height:80px;
+  border-bottom:1px solid #495a6e;
+  text-align:center;
+  line-height:4.5em;
+  font-size:18px;
+  font-weight:600;
+  letter-spacing: 0.8px;
+}
+.nav_list li:hover {
+  background: linear-gradient(to left, #4C5D71,#1b2f4a 35%);
+}
+.nav_list a{
+  color:#fff;
+  display: block;
+}
+.nav_list li.active{
+    background: linear-gradient(to left, #4C5D71,#1b2f4a 35%);
+}
+
+/* 모바일 hide */
+#m_nav{
+    display: none;
+}
+#m_navBtn{
+    display: none;
+}
+#m_menu-toggle{
+    display: none;/* input checkbox 숨김*/
+}
+
+/* mobile ver */
+@media all and (min-width:320px) and (max-width:768px){
+    #m_menu-toggle{
+        display: block;
+    }
+    /* 네비게이션 토글 버튼 */
+    input[type='checkbox'] + label#m_navBtn:before {
+      display: none;
+    }
+    #m_navBtn{
+        display: block;
+        cursor: pointer;
+        position: fixed;
+        top:13px;
+        left:14px;
+        z-index: 999;
+        transition: all 0.5s;
+        width:26px;
+        line-height:1px;
+    }
+    #m_navBtn span{
+        transition: all 0.5s;
+        background-color: rgba(255,255,255,.7);
+        width:100%;
+        height:4px;
+        display: block;
+        margin-top:6px;
+        border-radius:5px;
+    }
+    #m_navBtn span:nth-child(2){
+      width: 85%;
+    }
+    #m_navBtn span:last-child{
+        width:70%;
+    }
+    #m_navBtn img{
+        width:30px;
+    }
+    /* 네비게이션 토글 클릭시 */
+    #m_menu-toggle {
+        display: none; /* input checkbox 숨김*/
+    }
+    #m_menu-toggle:checked{
+        display: none;
+    }
+    #m_menu-toggle:checked + #m_navBtn{
+        left: 14px;
+        width: 32px;
+        top: 17px;
+        position: fixed;
+    }
+    #m_menu-toggle:checked + #m_navBtn span{
+        width:80%;
+        height:4px;
+        background-color: rgba(255,255,255,.7);
+    }
+    #m_menu-toggle:checked + #m_navBtn span:first-child{
+        transform: rotate(-45deg);
+        margin-top:10px;
+    }
+    #m_menu-toggle:checked + #m_navBtn span:nth-child(2){
+        display: none;
+    }
+    #m_menu-toggle:checked + #m_navBtn span:last-child{
+        transform: rotate(45deg);
+        margin-top:-4px;
+    }
+    #m_menu-toggle:checked + #m_navBtn ~ #m_nav {
+        left:0;
+    }
+    #m_menu-toggle:checked + #m_navBtn ~ #responsive_shadow {
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #000;
+      opacity: 0.5;
+      width: 100%;
+      height: 100%;
+      z-index: 980;
+      display: block;
+    }
+    #m_nav{
+        display: block;
+        background: #0e141c;
+        width:70%;
+        height:100%;
+        z-index:985;
+        transition: all 0.5s;
+        position: fixed;
+        bottom: 0;
+        top: 60px;
+        left:-90%;
+        box-shadow: 0 1px 13px rgba(0,0,0,.3);
+        overflow-y: auto;
+    }
+    .m_navContent {
+      padding: 0 15px;
+    }
+    .m_nav_top{
+        margin-top: 25px;
+    }
+    .m_lnb{
+        overflow: hidden;
+    }
+    .m_lnb > span{
+        width: 49%;
+        display: inline-block;
+        text-align: center;
+        float: left;
+    }
+    .m_lnb p.partition{
+        color: #rgba(255,255,255,.7);
+        float: left;
+    }
+    .m_lnb > span a{
+      color: rgba(255,255,255,.7);
+      font-size: 13px;
+      font-weight: 400;
+    }
+    .afterLogin .id_area{
+      text-align: center;
+      color: rgba(255,255,255,.7);
+      background-color: rgba(255,255,255,.1);
+      border-radius: 15px;
+      width: 75%;
+      padding: 0px 0 4px 0;
+      margin: 0 auto 5px auto;
+      font-size: 14px;
+    }
+    .afterLogin .id_area .user_mail{
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      width: 55%;
+      min-width: 107px;
+      display: inline-block;
+      position: relative;
+      top: 3px;
+      font-size: 14px;
+      color: #fff;
+    }
+    .m_mainmenu{
+      width: 100%;
+      margin-top: 10px;
+    }
+    .m_mainmenu > ul{
+      width:100%;
+      margin-top: 20px;
+      border-top: 1px solid #202A37;
+      border-bottom: 1px solid #202A37;
+    }
+    .m_mainmenu > ul > li{
+      width: 100%;
+      margin-bottom: 0;
+      box-sizing: border-box;
+      height: 50px;
+      line-height: 50px;
+      overflow: hidden;
+    }
+    .m_mainmenu ul li .m_menutext{
+        display: block;
+        height:50px;
+    }
+    .m_mainmenu ul li strong{
+        color: #Fff;
+        display: block;
+        width: auto;
+        height: 50px;
+        line-height: 50px;
+        font-size: 15px;
+        letter-spacing: 0.4px;
+        transition: all 0.1s;
+        font-weight: normal;
+        text-align: center;
+    }
+    .m_mainmenu ul li .second_menu{
+        width: 100%;
+        z-index: 999;
+        position: absolute;
+        background: #D1D5DB;
+        border-top: 1px solid #d9dcdc;
+        left: 0;
+    }
+    .m_mainmenu ul li .second_menu li{
+        height: 40px;
+        line-height: 40px;
+        border-bottom: 1px solid #d9dcdc;
+        font-size: 13px;
+        text-align: center;
+    }
+    .m_mainmenu ul li .second_menu a{
+        color: #0e141c;
+    }
+    .m_nav_bottom{
+        margin-top: 20px;
+    }
+    .m_nav_bottom .app_store{
+        text-align: center;
+        width: 75%;
+        margin: 0 auto;
+    }
+    .m_nav_bottom .app_store li{
+        font-size: 13px;
+        padding: 6px 0;
+        margin-bottom: 8px;
+        border: 1px solid #eaaf69;
+        border-radius: 5px;
+    }
+    .m_nav_bottom .app_store li a{
+        color: #eaaf69;
+    }
+    /*js toggleClass*/
+    .margin_on{
+       margin-top: 180px;
+   }
+   @media (max-width: 320px){
+       .m_navContent{
+           height: 635px;
+           padding: 0;
+           overflow-y: auto;
+           position: relative;
+        }
+   }
+    /* PC Hide */
+    #nav_wrap{
+        display: none;
+    }
+}

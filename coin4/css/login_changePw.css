@@ -1,0 +1,71 @@
+.login_content #login_change_pw{
+    position: relative;
+}
+.login_content #login_change_pw form h3{
+    color:#071f45;
+    font-size:25px;
+    padding-bottom:30px;
+}
+.login_content #login_change_pw p{
+    color:red;
+    font-size:13px;
+    margin-top:10px;
+    margin-left:5px;
+    margin-bottom: 20px;
+}
+.login_content #login_change_pw input{
+    border-style:none;
+    border-bottom:1px solid #2a3e5f;
+    font-size:15px;
+    padding-bottom:5px;
+    padding-left:5px;
+    display: block;
+    width: 95%;
+}
+.login_content #login_change_pw p.notfiy_info{
+    display: block;
+}
+.login_content #login_change_pw p.notfiy_info_again{
+    display: none;
+}
+.login_content #login_change_pw p.notfiy_info_wrong{
+    display: none;
+}
+#login_change_pw .question_smallbox img{
+    position: absolute;
+    top: 60px;
+    right: 21px;
+    cursor: pointer;
+}
+#login_change_pw .question_smallbox:hover .password_question_detail{
+    visibility: visible;
+}
+#login_change_pw .password_question_detail{
+    box-sizing: border-box;
+    padding: 20px;
+    color: white;
+    background-color: #1b2f4a;
+    border-radius: 5px;
+    opacity: 0.9;
+    position: absolute;
+    width: 600px;
+    top: 100px;
+    right: -266px;
+    line-height: 25px;
+    visibility: hidden;
+}
+#login_change_pw .password_question_detail:before{
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    margin-left: -10px;
+    border-bottom: 10px solid #1b2f4a;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    opacity: 0.9;
+}
+#login_change_pw .password_question_detail strong {
+  margin-bottom: 10px;
+  display: block;
+}

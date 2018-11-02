@@ -1,0 +1,112 @@
+body{
+    background: #fff;
+}
+#container{
+    width: 660px;
+    margin: 10% auto;
+}
+p.congratuation_m,
+p.login_m{
+    color: #fff;
+    background: url(../img/email_background.jpg) no-repeat 0 0;
+    height: 138px;
+    font-weight: 600;
+    font-size: 33px;
+    padding: 80px 0 0 20px;
+}
+.content{
+    padding: 20px 0 0 20px;
+}
+.content > p{
+    color: #4c4c4c;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.content > p .user_mail{
+    color:#c95b74;
+}
+.content .info_table_wrap{
+    margin: 45px 0;
+}
+.content .info_table_wrap p.table_title{
+    color: #4c4c4c;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.content .info_table_wrap .info_table tbody tr{
+    border: 1px solid #efefef;
+    border-left: none;
+    height: 40px;
+}
+.content .info_table_wrap .info_table tbody th{
+    background-color: #f4f5f9;
+    border-left: 2px solid #1b2f4a;
+    color: #1b2f4a;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+    width: 26%;
+    padding-left: 20px;
+}
+.content .info_table_wrap .info_table tbody td{
+    text-align: left;
+    padding-left: 40px;
+}
+.content .text_eng{
+    margin-top: 30px;
+    display: block;
+    font-weight: 600;
+    color: #999;
+}
+.content .site a{
+    margin-top: 5px;
+    display: block;
+    font-weight: 600;
+    color: #c95b74;
+}
+.content p.sub_text{
+    margin: 50px 0 30px 0;
+    text-align: center;
+}
+.content_footer{
+    background: #f4f5f8;
+    padding: 20px 0 20px 20px;
+}
+.content_footer p{
+    margin-top: 10px;
+    line-height: 1.6;
+    font-size: 15px;
+}
+.content_footer p .cs_mail{
+    color: #002dae;
+    font-weight: 600;
+}
+
+/*이메일인증*/
+p.certification_m{
+    color: #fff;
+    background: url(../img/email_background.jpg) no-repeat 0 0;
+    height: 75px;
+    font-weight: 600;
+    font-size: 33px;
+    padding: 138px 0 15px 20px;
+}
+.content .certification_number_wrap{
+    margin: 40px 0;
+    line-height: 60px;
+}
+.content .certification_number_wrap .certification_number_name{
+    color: #4c4c4c;
+    font-weight: 600;
+    line-height: 1.;
+    font-size: 17px;
+    margin-right: 10px;
+}
+.content .certification_number_wrap .code{
+    border-radius: 5px;
+    background: #f4f5f9;
+    color: #1b2f4a;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 11px 232px;
+}

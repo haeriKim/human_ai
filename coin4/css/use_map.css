@@ -1,0 +1,164 @@
+.use_content #use_tab_menu{
+  overflow:hidden;
+}
+.use_content #use_tab_menu ul li.use_active{
+  color:#1b2f4a;
+  background-color:#fff;
+  border-top:3px solid #1b2f4a;
+}
+.use_content #use_tab_menu ul li{
+  float:left;
+  width:50%;
+  padding:20px 0;
+  text-align:center;
+  font-size:20px;
+  font-weight:600;
+  color:#7e7e7f;
+  background-color:#f4f5f8;
+  border-top:3px solid #f4f5f8;
+  cursor: pointer;
+}
+.use_content #use_area {
+  padding: 30px 40px;
+}
+.use_content #use_area .use_area_text{
+  border-bottom:1px solid #f4f5f8;
+  margin-bottom:30px;
+  padding-bottom: 30px;
+}
+.use_content #use_area .use_area_text .title{
+  font-size:25px;
+  font-weight:600;
+  color:#1b2f4a;
+  margin:20px 0;
+  padding-bottom:10px;
+
+}
+.use_content #use_area .use_area_text .title_title{
+  color: #1b2f4a;
+  font-size:20px;
+  font-weight: 600;
+  margin:20px 0;
+  padding-bottom:10px;
+  border-bottom:1px solid #1b2f4a;
+}
+.use_content #use_area .use_area_text .title_sub_title{
+  color: #1b2f4a;
+  font-size:16px;
+  font-weight: 600;
+}
+.use_content #use_area .use_area_text p{
+  font-size:14px;
+}
+.use_content #use_area .use_area_text dl {
+  margin-left: 7px;
+  font-size: 14px;
+}
+.use_content #use_area .use_area_text dt {
+  font-size: 14px;
+  margin-left: 14px;
+}
+.use_content #use_area .use_area_text .use_date .title_title_line{
+  font-size:20px;
+  font-weight:600;
+  color:#1b2f4a;
+  margin-top:20px;
+  padding-bottom:10px;
+  border-bottom:1px solid #1b2f4a;
+}
+.use_content #use_area .use_area_text .use_date ul{
+  margin-top:30px;
+  margin-left:20px;
+  margin-bottom:120px;
+  height:50px;
+}
+.use_content #use_area .use_area_text .use_date li a{
+  /*font-size:14px;
+  margin-left:20px;
+  padding:5px 0;
+  color:#1b2f4a;*/
+
+  font-size:15px;
+  width:150px;
+  height:30px;
+  border:1px solid #1b2f4a;
+  float:left;
+  margin-right:20px;
+  line-height:30px;
+  text-align:center;
+  color:#1b2f4a;
+}
+.use_content #use_area .use_area_text .use_date li a:hover{
+  color:#fff;
+  background-color:#1b2f4a;
+}
+.use_content #use_area .common_table tbody tr th{
+    color: #1b2f4a;
+    width: 10%;
+    font-size: 15px;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+}
+.use_content #use_area .common_table tbody tr td{
+    font-size: 14px;
+    width: 64%;
+    text-align: left;
+    padding: 10px;
+    border-left: 1px solid #999;
+    border-top: 1px solid #999;
+    line-height:1.7;
+}
+.use_content #use_area .use_area_text .use_map_table{
+  margin:20px 0;
+}
+.use_content #use_area .use_area_text .use_map_table tr{
+}
+.use_content #use_area .use_area_text .use_map_table th{
+  color:#1b2f4a;
+  border:1px solid #f4f5f8;
+  border-bottom:2px solid #1b2f4a;
+  background:#f4f5f8;
+  font-weight:600;
+  line-height: 50px;
+  font-size:15px;
+}
+.use_content #use_area .use_area_text .use_map_table td{
+  font-size:14px;
+  padding: 10px 0;
+  border:1px solid #efefef;
+}
+
+@media all and (min-width:320px) and (max-width:768px){
+  .content_wrap .use_content {
+    width: 100%;
+  }
+  .use_content .con_1000 {
+    width: 90%;
+    margin: 28% auto;
+  }
+  .use_content #use_area {
+    padding: 20px;
+  }
+  .use_content #use_tab_menu ul li {
+    font-size: 14px;
+    padding: 15px 0;
+  }
+  .use_content #use_area .use_area_text .title {
+    font-size: 15px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 0;
+  }
+  .use_content #use_area .use_area_text .title_title {
+    font-size: 14px;
+  }
+  .use_content #use_area .use_area_text .title_sub_title {
+    font-size: 13px;
+  }
+  .use_content #use_area .use_area_text p,.use_content #use_area .use_area_text dl, .use_content #use_area .use_area_text dt {
+    font-size: 12px;
+  }
+  .use_content #use_area .common_table tbody tr th, .use_content #use_area .common_table tbody tr td, .use_content #use_area .use_area_text .use_map_table td, .use_content #use_area .use_area_text .use_map_table th  {
+    font-size: 12px;
+  }
+}

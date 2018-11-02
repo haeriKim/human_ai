@@ -1,0 +1,130 @@
+/* footer */
+#footer_wrap{
+    position: absolute;
+    bottom:0;
+    background: #0e141c;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-weight: 600;
+}
+#footer{
+    padding-left: 190px;
+    margin: 10px 20px;
+}
+#footer:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.compnay_info {
+    float: left;
+    color: #888;
+    font-size: 13px;
+}
+.compnay_info span {
+  color: #ccc;
+  line-height: 30px;
+}
+.compnay_info p {
+  line-height: 20px;
+}
+.footer_menu{
+    float: right;
+    text-align: right;
+}
+.footer_menu strong {
+  color: #ccc;
+  font-size: 18px;
+  margin-bottom: 5px;
+  display: inline-block;
+  font-weight: 600;
+}
+.footer_menu .footer_nav {
+  overflow: hidden;
+  text-align: right;
+}
+.footer_menu .footer_nav ul {
+  overflow: hidden;
+  text-align: right;
+}
+.footer_menu .footer_nav ul.left {
+    margin-left: 80px;
+}
+.footer_menu .footer_nav ul.right {
+  float: right;
+}
+.footer_menu .footer_nav ul li{
+    float: left;
+    font-size: 13px;
+    line-height: 20px;
+}
+.footer_menu .footer_nav ul li.footer_link::after {
+  content: '|';
+  padding-left: 15px;
+  color: #888;
+}
+.footer_menu .footer_nav ul li + li {
+  margin-left: 15px;
+}
+.footer_menu .footer_nav ul li a{
+  color: #888;
+  display: inline-block;
+}
+#footer_wrap{
+  display:block;
+}
+#app_footer_wrap{
+  display:none;
+}
+@media all and (min-width:320px) and (max-width:768px){
+  #footer_wrap{
+    display:none;
+  }
+  #app_footer_wrap{
+    display:block;
+  }
+  #app_footer{
+    text-align:center;
+    padding:25px 10px;
+    font-size:12px;
+    line-height: 1.5em;
+    background-color:#1b2f4a;
+    color:#fff;
+  }
+  #app_footer .app_footer_info .footer_logo{
+    width:40%;
+  }
+    #app_footer .app_footer_info ul{
+      text-align: center;
+      padding:10px 0;
+      display:inline-block;
+      overflow:hidden;
+    }
+    #app_footer .app_footer_info li{
+      float:left;
+      padding:10px 5px;
+    }
+    #app_footer .app_footer_info li.pointColor a {
+      color: #eaaf69;
+    }
+    #app_footer .app_footer_info li a{
+      color:#fff;
+    }
+    #app_footer .app_footer_info .app_store{
+      overflow:hidden;
+      text-align:center;
+      display:inline-block;
+      margin-bottom:20px;
+    }
+    #app_footer .app_footer_info .app_store p{
+      float:left;
+      padding:0 5px;
+    }
+    #app_footer .app_footer_info .app_company_info p{
+      color: rgba(255,255,255,.7);
+    }
+    #app_footer .app_footer_info .app_company_info .centerNum {
+      font-size: 14px;
+    }
+}

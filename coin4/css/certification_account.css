@@ -1,0 +1,288 @@
+/*left*/
+.cer_center .center_bottom {
+  overflow: hidden;
+}
+.cer_center .center_bottom .cText_left2 {
+  float: left;
+  width: 47.4%;
+  margin-right: 3%;
+  height:350px;
+  position: relative;
+}
+.center_bottom .content_title{
+    color: #1b2f4a;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size:18px;
+}
+.center_bottom strong{
+  font-size:17px;
+  color:#1b2f4a;
+  margin-bottom:25px;
+  display:block;
+}
+.center_bottom strong span{
+  font-size:25px;
+}
+.cText_left2 ul li{
+  font-size:15px;
+  font-weight:600;
+  line-height:2.5em;
+}
+.cText_left2 ul li.account_line{
+  padding-bottom:20px;
+  margin-bottom:20px;
+  width:300px;
+  border-bottom:1px solid #efefef;
+}
+.cText_left2 .account_agree{
+  margin-top:20px;
+}
+
+/*right*/
+.cer_center .center_bottom .cText_right2 {
+  float: left;
+  width: 45%;
+  padding-left:40px;
+  border-left:1px solid #1b2f4a;
+}
+.cText_right2 ul li{
+  font-size:15px;
+  font-weight:600;
+  line-height:2.5em;
+  color:#1b2f4a;
+}
+.cText_right2 .account{
+  overflow: hidden;
+}
+.cText_right2 .account span {
+  color: #1b2f4a;
+}
+.cText_right2 .account select {
+  border: 1px solid #1b2f4a;
+  width: 100%;
+  color: #1b2f4a;
+  height: 25px;
+}
+.cText_right2 .account .bankselect_fixed{
+  display:none;
+}
+.cText_right2 .account .account_number_fixed{
+  display:none;
+}
+.cText_right2 .account input[type="text"] {
+  border: none;
+  border-bottom: 1px solid #1b2f4a;
+  padding-bottom: 4px;
+  width: 100%;
+}
+.cText_right2 p{
+  font-size:13px;
+  font-weight:600;
+  color:#c95b74;
+  margin-top:6px;
+}
+.cText_right2 .bank_request {
+  text-align: center;
+  margin-top: 20px;
+
+}
+.cText_right2 .bank_request span.request,.cText_right2 .bank_request input[type="submit"] {
+  border-radius: 5px;
+  padding: 7px 30px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: 1px solid #666;
+  background-color: #666;
+}
+.cText_right2 .bank_request input[type="submit"]{
+  border: 1px solid #1b2f4a;
+  background-color: #1b2f4a;
+  cursor: pointer;
+}
+.cText_right2 .code_area {
+  margin-top: 20px;
+  /* border: 1px solid #efefef; */
+  margin-top: 30px;
+  padding: 20px 20px;
+  border-radius: 5px;
+  /* float: left; */
+  background: #f4f5f9;
+}
+.cText_right2 .code_area p {
+  color: #1b2f4a;
+}
+.cText_right2 .code_area .code_text{
+  border: none;
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px 0;
+  background: #f4f5f9;
+  /* display: block; */
+}
+.cText_right2 .code_area p b {
+  color: #c95b74;
+  font-size: 14px;
+}
+.cText_right2 .code_area input[type="text"]{
+  border: none;
+  border-bottom: 1px solid #1b2f4a;
+  width: 100%;
+  padding: 10px 0;
+  background:#f4f5f9;
+}
+.cText_right2 .code_area .code_text2 {
+  display: block;
+  color: #999;
+  text-decoration: underline;
+  font-size: 13px;
+  margin-top: 20px;
+  text-align:right;
+  cursor: pointer;
+}
+.cText_right2 .code_area .delete_icon{
+  display: block;
+  color: #999;
+  font-size: 13px;
+  text-align:right;
+  margin-top:5px;
+  cursor: pointer;
+}
+.cText_right2 .code_area .delete_icon img{
+  width: 10px;
+  height: 10px;
+  margin-right:2px;
+}
+.cText_right2 .code_area a:hover {
+  color: #c95b74;
+}
+#bank_complete{
+  text-align:center;
+  margin-top: 20px;
+}
+.cText_right2 #bank_complete .account_complete, .cText_right2 #bank_complete .chk_ok, .cText_right2 #bank_complete .bank_cancel{
+  border-radius: 5px;
+  padding: 7px 30px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: 1px solid #666;
+  background-color: #666;
+}
+.cText_right2 #bank_complete .chk_ok{
+  border: 1px solid #1b2f4a;
+  background-color: #1b2f4a;
+  cursor: pointer;
+}
+.cText_right2 #bank_complete .chk_ok:hover {
+  background-color: rgba(27,47,74,.9);
+}
+.cText_right2 #bank_complete .bank_cancel{
+    color: #1b2f4a;
+    border: 1px solid #1b2f4a;
+    background-color: #fff;
+    cursor: pointer;
+}
+#account_malpungsun{
+  color:#fff;
+  background-color:#eaaf69;
+  font-size:15px;
+  font-weight: bold;
+  position: absolute;
+  display:none;
+  bottom: 90px;
+  left:0;
+  width: 300px;
+  text-align: center;
+  padding:10px 0;
+  line-height: 1.5;
+  border-radius: 5px;
+}
+#account_malpungsun::after{
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 7px;
+  border-style: solid;
+  border-color:  transparent transparent #eaaf69 transparent;
+}
+.warning_icon{
+  vertical-align: -3px;
+  margin-right: 2px;
+}
+
+/* 비활성화 */
+.cer_center .cer_level li img.account_on,
+.cer_center .cer_level li img.otp_on,
+.cer_center .cer_level li img.lv4_on,
+.cer_center .cer_level li img.lv5_on,
+.cer_center .center_bottom .cText_right li .complete,
+.cer_center .center_bottom .cText_right li .lv5_ing,
+.cText_right2 #bank_complete .chk_ok {
+  display: none;
+}
+/*popup*/
+#full{
+  display:none;
+}
+#full .delete_ok{
+  border-radius: 5px;
+  background: #1b2f4a;
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid #1b2f4a;
+  color: #fff;
+  padding: 7px 20px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+#account_full{
+  display:none;
+  width:100%;
+}
+#account_full .popupbox2{
+  width:80%;
+}
+#account_full .box2{
+  box-shadow: 0 1px 2px rgba(100,100,100,.2);
+  border-radius: 5px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+#account_full .popup2{
+  background: #fff;
+    z-index: 9999;
+    padding: 30px 20px;
+    position: fixed;
+    left:25%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: -265px;
+    text-align: center;
+}
+#account_full .popup2 h2{
+  color: #071f45;
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #071f45;
+  margin: 0 auto;
+}
+#account_full .popup2 img{
+  width:90%;
+  margin:20px 0;
+}
+#account_full .account_popup_ok{
+  border-radius: 5px;
+  padding: 7px 30px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: 1px solid #1b2f4a;
+  background-color: #1b2f4a;
+}
