@@ -107,17 +107,17 @@
                           <p class="search">
                               <select id="look_method" name="look_method" title="FAQ 종류">
                                   <option value="all">FAQ 전체</option>
-                                  <option value="faq_list_join_cer">가입 및 인증 </option>
-                                  <option value="faq_list_account">계정</option>
+                                  <option value="faq_list_join_cer">가입 및 탈퇴</option>
+                                  <option value="faq_list_account">거래</option>
                                   <option value="faq_list_depo_withd">입출금</option>
-                                  <option value="faq_list_buy_sell">매수 및 매도</option>
+                                  <option value="faq_list_buy_sell">인증</option>
                               </select>
                               <input type="text" title="검색영역" placeholder="검색어를 입력하세요"/>
                               <a class="search_btn" href="#" title="검색버튼"><img src="img/search.png" alt="검색버튼"/></a>
                           </p>
                           <div class="faq_list">
                             <section class='faq_list_join_cer faq_section'>
-                                <h5>[ 가입 및 인증 ]</h5>
+                                <h5>[ 가입 및 탈퇴 ]</h5>
                                 <ul class="faq_ul">
                                   <li>
                                       <p class="question">
@@ -134,67 +134,78 @@
                                   <li>
                                       <p class="question">
                                         <img src="img/q1.png" alt="질문">
-                                        <span>미성년자도 가입 및 거래가 가능한가요?</span>
+                                        <span>회원가입 시 지인 혹은 가족의 휴대폰 번호로 등록할 수는 없나요?</span>
                                         <!-- <img src="img/arrow_off.png" alt="화살표" class='arrow'> -->
                                       </p>
                                       <div class="answer">
                                         <img src="img/a5.png" alt="답변">
-                                        <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
-                                        (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
+                                        <p>더올스는 보안상 본인 명의 휴대폰으로 가입하지 않을 경우, 회원가입이 승인되지 않도록 휴대폰 본인인증 절차를 진행하고 있습니다. 본인 명의의 휴대폰으로 가입해주시기 바랍니다.</p>
                                       </div>
                                   </li>
                                   <li>
                                       <p class="question">
                                         <img src="img/q1.png" alt="질문">
-                                        <span>미성년자도 가입 및 거래가 가능한가요?</span>
+                                        <span>회원 탈퇴를 하고 싶어요.</span>
                                         <!-- <img src="img/arrow_off.png" alt="화살표" class='arrow'> -->
                                       </p>
                                       <div class="answer">
                                         <img src="img/a5.png" alt="답변">
-                                        <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
-                                        (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
+                                        <p>회원탈퇴 진행 방법<br>
+                                        마이페이지 > 회원 정보 > 아래 'The Alls를 이용하고 싶지 않으시다면?' 텍스트 클릭 후 절차진행</p>
                                       </div>
                                   </li>
                                 </ul><!-- faq리스트 가입 및 인증 END-->
                             </section>
 
                             <section class='faq_list_account faq_section'>
-                                <h5>[ 계정 ]</h5>
+                                <h5>[ 거래 ]</h5>
                                 <ul class="faq_ul">
                                   <li>
                                       <p class="question">
                                         <img src="img/q1.png" alt="질문">
-                                        <span>미성년자도 가입 및 거래가 가능한가요?</span>
+                                        <span>거래 수수료는 얼마인가요?</span>
                                         <!-- <img src="img/arrow_off.png" alt="화살표" class='arrow'> -->
                                       </p>
                                       <div class="answer">
                                         <img src="img/a5.png" alt="답변">
-                                        <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
-                                        (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
+                                        <p>더올스의 기본수수료는 0.12%로 적용하고 있습니다.
+                                        자세한 수수료 정보는 [고객지원 > 수수료 안내]에서 확인하실 수 있습니다.</p>
                                       </div>
                                   </li>
                                   <li>
                                       <p class="question">
                                         <img src="img/q1.png" alt="질문">
-                                        <span>미성년자도 가입 및 거래가 가능한가요?</span>
+                                        <span>미체결 주문은 어떻게 처리되나요?</span>
                                         <!-- <img src="img/arrow_off.png" alt="화살표" class='arrow'> -->
                                       </p>
                                       <div class="answer">
                                         <img src="img/a5.png" alt="답변">
-                                        <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
-                                        (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
+                                        <p>미체결 주문은 마켓에 따라 아래와 같이 처리되고 있습니다.<br>
+                                        1. BTC 마켓/ETH 마켓/USDT 마켓의 미체결 주문은 주문 시점으로부터 24시간 후에 자동으로 취소됩니다.<br>
+                                        2. KRW 마켓의 미체결 주문은 직접 취소하기 전까지 주문이 유지됩니다.</p>
                                       </div>
                                   </li>
                                   <li>
                                       <p class="question">
                                         <img src="img/q1.png" alt="질문">
-                                        <span>미성년자도 가입 및 거래가 가능한가요?</span>
+                                        <span>주문을 수정하고 싶어요.</span>
                                         <!-- <img src="img/arrow_off.png" alt="화살표" class='arrow'> -->
                                       </p>
                                       <div class="answer">
                                         <img src="img/a5.png" alt="답변">
-                                        <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
-                                        (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
+                                        <p>체결된 주문에 대해서는 수정 및 취소가 불가능합니다.
+                                        단, 미체결된 주문은 주문가와 주문 수량은 수정할 수 있습니다.</p>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <p class="question">
+                                        <img src="img/q1.png" alt="질문">
+                                        <span>암호화폐 구매주문을 했는데 거래내역에 뜨질 않아요.</span>
+                                        <!-- <img src="img/arrow_off.png" alt="화살표" class='arrow'> -->
+                                      </p>
+                                      <div class="answer">
+                                        <img src="img/a5.png" alt="답변">
+                                        <p>주문후 거래내역에서 확인이 안되는경우 체결이 되지않아 호가창에 남아있기 때문이며, 미체결 내용은 [거래내역 > 미체결 탭]에서 조회가능합니다.</p>
                                       </div>
                                   </li>
                                 </ul><!-- faq리스트 계정 END-->
@@ -206,79 +217,70 @@
                                   <li>
                                       <p class="question">
                                         <img src="img/q1.png" alt="질문">
-                                        <span>미성년자도 가입 및 거래가 가능한가요?</span>
+                                        <span>입출금 수수료는 얼마인가요?</span>
                                         <!-- <img src="img/arrow_off.png" alt="화살표" class='arrow'> -->
                                       </p>
                                       <div class="answer">
                                         <img src="img/a5.png" alt="답변">
-                                        <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
-                                        (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
+                                        <p>더올스의 입출금 수수료는 코인마다 약간씩 차이가 있습니다.
+                                        더 자세한 정보는 [고객지원 > 수수료 안내]에서 확인하실 수 있습니다.</p>
                                       </div>
                                   </li>
                                   <li>
                                       <p class="question">
                                         <img src="img/q1.png" alt="질문">
-                                        <span>미성년자도 가입 및 거래가 가능한가요?</span>
+                                        <span>암호화폐를 받고 싶은데 지갑주소는 어떻게 확인하나요?</span>
                                         <!-- <img src="img/arrow_off.png" alt="화살표" class='arrow'> -->
                                       </p>
                                       <div class="answer">
                                         <img src="img/a5.png" alt="답변">
-                                        <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
-                                        (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
+                                        <p>[자산관리] 페이지 속 입출금 탭에 들어가신 후, 해당 코인의 입금 부분으로 들어가시면 지갑 주소를 확인하실 수 있습니다.<br>
+                                        주소 코드를 잘못 입력해서 전송오류가 빈번하게 발생하니 꼼꼼히 확인하신 후 거래를 진행하시기 바랍니다.</p>
                                       </div>
                                   </li>
                                   <li>
                                       <p class="question">
                                         <img src="img/q1.png" alt="질문">
-                                        <span>미성년자도 가입 및 거래가 가능한가요?</span>
+                                        <span>출금제한이 있나요?</span>
                                         <!-- <img src="img/arrow_off.png" alt="화살표" class='arrow'> -->
                                       </p>
                                       <div class="answer">
                                         <img src="img/a5.png" alt="답변">
-                                        <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
-                                        (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
+                                        <p>더올스에서는 별도로 출금제한이 발생하지는 않습니다. 그러나, 해킹의심이나 이상거래 발견시 관리자 판단하에 출금제한이 있을 수 있습니다.</p>
                                       </div>
                                   </li>
                                 </ul><!-- faq리스트 입출금 END-->
                             </section>
 
                             <section class='faq_list_buy_sell faq_section'>
-                                <h5>[ 매수 및 매도 ]</h5>
+                                <h5>[ 인증 ]</h5>
                                 <ul class="faq_ul">
                                   <li>
                                       <p class="question">
                                         <img src="img/q1.png" alt="질문">
-                                        <span>미성년자도 가입 및 거래가 가능한가요?</span>
+                                        <span>등록한 계좌를 변경하고 싶어요.</span>
                                         <!-- <img src="img/arrow_off.png" alt="화살표" class='arrow'> -->
                                       </p>
                                       <div class="answer">
                                         <img src="img/a5.png" alt="답변">
-                                        <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
-                                        (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
+                                        <p>회원님 정보의 안전한 보호를 위하여 사이트내 가입시 등록한 계좌는 직접 변경이 불가합니다. 계좌변경을 희망하실 경우 [고객지원 > 인증자료 제출안내]를 참고하여
+                                            관련서류를 고객센터로 보내주시기 바랍니다.</p>
                                       </div>
                                   </li>
                                   <li>
                                       <p class="question">
                                         <img src="img/q1.png" alt="물음표">
-                                        <span>미성년자도 가입 및 거래가 가능한가요?</span>
+                                        <span>이메일 인증코드를 받지 못했습니다.</span>
                                         <!-- <img src="img/arrow_off.png" alt="화살표" class='arrow'> -->
                                       </p>
                                       <div class="answer">
                                         <img src="img/a5.png" alt="답변">
-                                        <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
-                                        (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
-                                      </div>
-                                  </li>
-                                  <li>
-                                      <p class="question">
-                                        <img src="img/q1.png" alt="질문">
-                                        <span>미성년자도 가입 및 거래가 가능한가요?</span>
-                                        <!-- <img src="img/arrow_off.png" alt="화살표" class='arrow'> -->
-                                      </p>
-                                      <div class="answer">
-                                        <img src="img/a5.png" alt="답변">
-                                        <p>미성년자, 만 19세 미만의 회원님들은 거래가 불가능합니다.<br/>
-                                        (2018년 기준, 태어난 해가 1999년 이하부터 거래가 가능합니다.)</p>
+                                        <p>이메일 계정에 따라 수신 되기 까지 최대 10분까지 소요 될 수 있습니다.<br>
+                                        10분이 경과했음에도 이메일을 수신하지 못한 경우, 회원님의 이메일 계정에서 더올스 메일을 스팸 메일로 처리하고 있는 것일 수도 있습니다.<br><br>
+
+                                        1단계: 스팸 메일 목록을 먼저 확인하고 더올스 메일이 스팸 목록에서 발견되었을 경우, "스팸 해제"를 설정합니다.<br>
+                                        2단계: 스팸 메일의 경우 이메일 계정에서 자동으로 삭제하는 기능이 있을 수도 있으니 "수신된 스팸 메일 보관하기" 설정을 통해 더올스 메일을 보관합니다.<br>
+                                        3단계: 상기 설정 후 재로그인하여 이메일 인증을 다시 한번 요청하시기 바랍니다.</p>
                                       </div>
                                   </li>
                                 </ul><!-- faq리스트 매도매수 END-->
