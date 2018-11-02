@@ -193,6 +193,13 @@ $(document).ready(function(){
   });
 });
 
+//거래소 매수매도버튼 클릭시 팝업
+$(document).ready(function(){
+    $('#buy_sell_tab .buy_tab_button .buy_big_btn').click(function(e){
+        e.preventDefault();
+        $('#success_deal_popup, #shadow').show();
+    })
+})
 //내 자산관리 전체탭
 $(function () {
     $(".tab_content").hide();

@@ -248,6 +248,7 @@
     transform: translateY(-50%);
     margin-left: -265px;
     text-align: center;
+    width: 455px;
 }
 .popup h2{
     color:#071f45;
@@ -462,6 +463,9 @@
     bottom: 5%;
     left: 45%;
 }
+
+/*거래소 매수매도 팝업*/
+
 /*회원가입 팝업반응형*/
 @media (max-width:768px) {
     #full .email_pop{
