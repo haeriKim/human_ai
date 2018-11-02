@@ -98,7 +98,7 @@
                       <span class="updownarrow"><img src="img/arrow_down_blue.png" class="ud" alt='하락'>0</span>
                     </li>
                   </ul>
-                  <span class="question">&#63;</span>
+                  <span class="question6">&#63;</span>
                 </div>
 
                 <ul class="coin_money_prepare">

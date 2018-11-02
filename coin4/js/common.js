@@ -179,7 +179,7 @@ $(document).ready(function(){
   });
 });
 
-//거래소-코인정보 상세보기
+//거래소-코인정보 상세보기 비트코인
 $(document).ready(function(){
   var click_val=0;
   $(".question").click(function(){
@@ -188,6 +188,84 @@ $(document).ready(function(){
       click_val=1;
     }else {
       $(".coin_money_bitcoin").fadeOut(300);
+      click_val=0;
+    }
+  });
+});
+//거래소-코인정보 상세보기 비트코인캐시
+$(document).ready(function(){
+  var click_val=0;
+  $(".question1").click(function(){
+    if(click_val===0) {
+      $(".coin_money_bitcoinCash").fadeIn(300);
+      click_val=1;
+    }else {
+      $(".coin_money_bitcoinCash").fadeOut(300);
+      click_val=0;
+    }
+  });
+});
+//거래소-코인정보 상세보기 이더리움
+$(document).ready(function(){
+  var click_val=0;
+  $(".question2").click(function(){
+    if(click_val===0) {
+      $(".coin_money_ethurium").fadeIn(300);
+      click_val=1;
+    }else {
+      $(".coin_money_ethurium").fadeOut(300);
+      click_val=0;
+    }
+  });
+});
+//거래소-코인정보 상세보기 이더리움클래식
+$(document).ready(function(){
+  var click_val=0;
+  $(".question3").click(function(){
+    if(click_val===0) {
+      $(".coin_money_ethuriumClassic").fadeIn(300);
+      click_val=1;
+    }else {
+      $(".coin_money_ethuriumClassic").fadeOut(300);
+      click_val=0;
+    }
+  });
+});
+//거래소-코인정보 상세보기 이오스
+$(document).ready(function(){
+  var click_val=0;
+  $(".question4").click(function(){
+    if(click_val===0) {
+      $(".coin_money_eos").fadeIn(300);
+      click_val=1;
+    }else {
+      $(".coin_money_eos").fadeOut(300);
+      click_val=0;
+    }
+  });
+});
+//거래소-코인정보 상세보기 리플
+$(document).ready(function(){
+  var click_val=0;
+  $(".question5").click(function(){
+    if(click_val===0) {
+      $(".coin_money_ripple").fadeIn(300);
+      click_val=1;
+    }else {
+      $(".coin_money_ripple").fadeOut(300);
+      click_val=0;
+    }
+  });
+});
+//거래소-코인정보 상세보기 에이다
+$(document).ready(function(){
+  var click_val=0;
+  $(".question6").click(function(){
+    if(click_val===0) {
+      $(".coin_money_ada").fadeIn(300);
+      click_val=1;
+    }else {
+      $(".coin_money_ada").fadeOut(300);
       click_val=0;
     }
   });

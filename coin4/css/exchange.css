@@ -50,7 +50,9 @@
   padding-left:5px;
   color:#4c4c4c;
 }
-.coin_money_inner .question{
+.coin_money_inner .question, .coin_money_inner .question1, .coin_money_inner .question2,
+.coin_money_inner .question3, .coin_money_inner .question4, .coin_money_inner .question5,
+.coin_money_inner .question6{
   position: absolute;
   left: 325px;
   top: 10px;
