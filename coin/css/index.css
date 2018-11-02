@@ -394,6 +394,7 @@
       z-index: 2;
       overflow: hidden;
       height:500px;
+      background:#1b2f4a;
     }
     .app_main_step2 .app_slideWrap li{
       position: absolute;

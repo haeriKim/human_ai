@@ -1045,7 +1045,7 @@ $(document).ready(function(){
       rollingFn('right');
     },4000);
   }
-  bannerObj.eq(nowNum).fadeIn();
+  bannerObj.eq(nowNum).show();
 
  // 버튼 눌렀을 때 슬라이드
   $('.app_nextBtn').on('click',function(e){
@@ -1069,7 +1069,7 @@ $(document).ready(function(){
         nowNum = maxLength-1;
       }
     }
-    bannerObj.hide().eq(nowNum).fadeIn();
+    bannerObj.hide().eq(nowNum).show();
   }
   $('.app_banner').mouseover(function(){
      clearInterval(autoRun);
