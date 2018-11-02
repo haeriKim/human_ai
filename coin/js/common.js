@@ -1025,28 +1025,6 @@ $(document).ready(function(){
     })
 });
 
-/*반응형 햄버거 메뉴 클릭시 shadow*/
-$(document).ready(function(){
-    var hamburgerNavi = 0;
-    $("#m_menu-toggle").change(function(e){
-        e.preventDefault();
-        if(hamburgerNavi === 0){
-            $("#responsive_shadow").addClass('shadow_on');
-            $("#m_nav").addClass('navi_on');
-            hamburgerNavi = 1 ;
-        }else{
-            $("#responsive_shadow").removeClass('shadow_on');
-            $("#m_nav").removeClass('navi_on');
-            hamburgerNavi = 0 ;
-        }
-    })
-    $("#responsive_shadow").click(function(e){
-        e.preventDefault();
-        $(this).removeClass('shadow_on');
-        $("#m_menu-toggle").prop("checked",false);
-        hamburgerNavi = 0 ;
-    })
-});
 
 /*App_slide 슬라이드*/
 

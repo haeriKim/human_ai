@@ -285,6 +285,17 @@
     #m_menu-toggle:checked + #m_navBtn ~ #m_nav {
         left:0;
     }
+    #m_menu-toggle:checked + #m_navBtn ~ #responsive_shadow {
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #000;
+      opacity: 0.5;
+      width: 100%;
+      height: 100%;
+      z-index: 980;
+      display: block;
+    }
     #m_nav{
         display: block;
         background: #0e141c;
@@ -415,25 +426,6 @@
     .m_nav_bottom .app_store li a{
         color: #eaaf69;
     }
-    /*js toggleClass*/
-    .shadow_on{
-        position: fixed;
-        top: 0;
-        left: 0;
-        background-color: #000;
-        opacity: 0.5;
-        width: 100%;
-        height: 100%;
-        z-index: 980;
-        display: block;
-    }
-    .navi_on{
-        left: 0;
-    }
-    .margin_on{
-        margin-top: 180px;
-    }
-    /*js toggleClass End*/
 
     /* PC Hide */
     #nav_wrap{
