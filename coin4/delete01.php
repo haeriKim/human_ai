@@ -1141,21 +1141,21 @@
     </div>  <!-- full End-->
 
     <div id="full_second">
-        <div id="success_buy_popup"  class='popup'>
+        <div id="success_buy_popup"  class='popup box'>
             <div class="full_inner">
                 <h2>매수주문 접수</h2>
                 <p>매수주문이 정상 접수되었습니다.</p>
                 <input type="button" name="confirm" value="확인" class='popupbt ok'>
             </div>
         </div>
-        <div id="success_sell_popup" class='popup'>
+        <div id="success_sell_popup" class='popup box'>
             <div class="full_inner">
                 <h2>매도주문 접수</h2>
                 <p>매도주문이 정상 접수되었습니다.</p>
                 <input type="button" name="confirm" value="확인" class='popupbt ok'>
             </div>
         </div>
-        <div id='fail_sell_popup' class='popup'>
+        <div id='fail_sell_popup' class='popup box'>
             <div class="full_inner">
                 <h2>매도주문 실패</h2>
                 <p>주문가능 금액이 부족합니다.</p>

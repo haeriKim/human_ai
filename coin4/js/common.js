@@ -195,9 +195,18 @@ $(document).ready(function(){
 
 //거래소 매수매도버튼 클릭시 팝업
 $(document).ready(function(){
+    $('#success_buy_popup, #success_sell_popup, #fail_sell_popup, #shadow_second').hide();
     $('#buy_sell_tab .buy_tab_button .buy_big_btn').click(function(e){
         e.preventDefault();
-        $('#success_deal_popup, #shadow').show();
+        $('#success_buy_popup, #shadow_second').show();
+    })
+    $('#buy_sell_tab .sell_tab_content .sell_big_btn').click(function(e){
+        e.preventDefault();
+        $('#fail_sell_popup, #shadow_second').show();
+    })
+    $('#full_second .popupbt').click(function(e){
+        e.preventDefault();
+        $('#success_buy_popup, #success_sell_popup, #fail_sell_popup, #shadow_second').hide();
     })
 })
 //내 자산관리 전체탭
