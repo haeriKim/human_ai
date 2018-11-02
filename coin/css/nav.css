@@ -426,7 +426,18 @@
     .m_nav_bottom .app_store li a{
         color: #eaaf69;
     }
-
+    /*js toggleClass*/
+    .margin_on{
+       margin-top: 180px;
+   }
+   @media (max-width: 320px){
+       .m_navContent{
+           height: 635px;
+           padding: 0;
+           overflow-y: auto;
+           position: relative;
+        }
+   }
     /* PC Hide */
     #nav_wrap{
         display: none;

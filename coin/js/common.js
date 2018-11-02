@@ -1024,8 +1024,13 @@ $(document).ready(function(){
         $(".m_nav_bottom").stop().toggleClass('margin_on');
     })
 });
-
-
+/*반응형 햄버거 쉐도우 클릭했을때 사라지기*/
+$(document).ready(function(){
+    $('#responsive_shadow').click(function(e){
+        e.preventDefault();
+        $('#m_menu-toggle').prop('checked',false);
+    })
+});
 /*App_slide 슬라이드*/
 
 $(document).ready(function(){
