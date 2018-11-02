@@ -63,7 +63,7 @@
 
                          <p class="info_h2">회원정보관리</p>
                          <ul>
-                           <li class="info info2">회원정보 관리 및 변경은 웹(PC)에서 가능 합니다.</li>
+                           <li class="info info2">회원정보 변경 및 탈퇴는 웹(PC)에서 가능 합니다.</li>
                          </ul>
 
 
