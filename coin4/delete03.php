@@ -54,8 +54,8 @@
                     <!-- 코인선택 영역 -->
                     <div class="coinSelect_area">
                         <dl class="coinSelect">
-                            <dt><a href="#" title="비트코인"><img src="img/bitcoincash.png" alt="비트코인캐시"/></a><span>비트코인캐시 BCH/KRW</span>
-                              <img src="img/usa-31-sq.png" alt="국기" class="flag"></dt>
+                            <dt><a href="#" title="이더리움클래식"><img src="img/etc.png" alt="이더리움클래식"/></a><span>이더리움클래식 ETC/KRW</span>
+                              <img src="img/sws-31-sq.png" alt="국기" class="flag"></dt>
                             <dd><a href="#" title="비트코인"><img src="img/bitcoin.png" alt="비트코인"/></a><span>비트코인 BTC/KRW</span>
                               <img src="img/usa-31-sq.png" alt="국기" class="flag"></dd>
                             <dd><a href="#" title="비트코인캐시"><img src="img/bitcoincash.png" alt="비트코인캐시"/></a><span>비트코인캐시 BCH/KRW</span>
@@ -81,21 +81,21 @@
 
                 <div class="coin_money_inner">
                   <div class="img_area">
-                      <img src="img/bitcoincash_big.png" alt="비트코인캐시아이콘" class="bitcoin_icon">
+                      <img src="img/etc_big.png" alt="이더리움클래식" class="bitcoin_icon">
                   </div>
                   <ul>
                     <li>
-                        <strong>비트코인캐시</strong>
-                        <b class="coin_word">BCH/KRW</b>
+                        <strong>이더리움</strong>
+                        <b class="coin_word">ETC/KRW</b>
                     </li>
                     <li>
-                      <span class="price">481,400<b class="won">KRW</b>
+                      <span class="price">10,190<b class="won">KRW</b>
                       </span>
                     </li>
                     <li class="coin_prepare">
                       <strong>전일대비</strong>
-                      <span class="prepare"><b>-0.23</b>%</span>
-                      <span class="updownarrow"><img src="img/arrow_down_blue.png" class="ud" alt='하락'>1,100</span>
+                      <span class="prepare"><b>-0.20</b>%</span>
+                      <span class="updownarrow"><img src="img/arrow_down_blue.png" class="ud" alt='하락'>20</span>
                     </li>
                   </ul>
                   <span class="question">&#63;</span>
@@ -105,11 +105,11 @@
 
                   <li class="hl_price">
                     <span class="hl_title">고가</span>
-                    <p><span class="price_up">481,600</span><b class="won">KRW</b></p>
+                    <p><span class="price_up">10,250</span><b class="won">KRW</b></p>
                   </li>
                   <li class="hl_price">
                     <span class="hl_title">저가</span>
-                    <p><span class="price_down">282,000</span><b class="won">KRW</b></p>
+                    <p><span class="price_down">10,180</span><b class="won">KRW</b></p>
                   </li>
 
                 </ul>
@@ -118,11 +118,11 @@
 
                   <li class="hl_volume">
                     <span class="hl_title">거래량<small>(24H)</small></span>
-                      <p><span class="volume">1,930.800</span><b class="unit BTC">BCH</b></p>
+                      <p><span class="volume">42,842.668</span><b class="unit BTC">ETC</b></p>
                   </li>
                   <li class="hl_volume">
                     <span class="hl_title">거래대금<small>(24H)</small></span>
-                      <p><span class="volume">9,560,000</span><b class="unit won">KRW</b></p>
+                      <p><span class="volume">436,504,043</span><b class="unit won">KRW</b></p>
                   </li>
 
                 </ul>
@@ -697,36 +697,36 @@
                   <tbody>
                    <tr>
                      <td class="mado_right mado1"><div></div>0.100</td>
-                     <td class="orderbg1 upprice">481,400</td>
-                     <td class="orderbg1 upprice">+0.45%</td>
+                     <td class="orderbg1 upprice">10,280</td>
+                     <td class="orderbg1 upprice">+2.05%</td>
                      <td>전일가격</td>
-                     <td class="center">481,400</td>
+                     <td class="center">10,190</td>
                    </tr>
 
                    <tr>
                      <td class="mado_right mado2"><div></div>0.100</td>
-                     <td class="orderbg1 upprice">481,400</td>
-                     <td class="orderbg1 upprice">+0.45%</td>
+                     <td class="orderbg1 upprice">10,280</td>
+                     <td class="orderbg1 upprice">+2.05%</td>
                      <td rowspan="2">고가</td>
 
-                     <td rowspan="2" class="high upprice">481,600 <p>(+0.02%)</p></td>
+                     <td rowspan="2" class="high upprice">10,250 <p>(+0.12%)</p></td>
 
                    </tr>
 
                    <tr>
                      <td class="mado_right mado3"><div></div>1.001</td>
-                     <td class="orderbg1 upprice">481,400</td>
-                     <td class="orderbg1 upprice">+0.45%</td>
+                     <td class="orderbg1 upprice">10,280</td>
+                     <td class="orderbg1 upprice">+2.05%</td>
 
                    </tr>
 
                    <tr>
                      <td class="mado_right mado4"><div></div>0.024</td>
-                     <td class="orderbg1 upprice">481,400</td>
-                     <td class="orderbg1 upprice">+3.58%</td>
+                     <td class="orderbg1 upprice">10,280</td>
+                     <td class="orderbg1 upprice">+2.05%</td>
                      <td rowspan="2">저가</td>
 
-                     <td rowspan="2" class="low downprice">2,82,000 <p>(-2.01%)</p></td>
+                     <td rowspan="2" class="low downprice">10,180 <p>(-0.11%)</p></td>
 
 
 
@@ -734,14 +734,14 @@
 
                    <tr>
                      <td class="mado_right mado5"><div></div>0.267</td>
-                     <td class="orderbg1">481,400</td>
+                     <td class="orderbg1">10,310</td>
                      <td class="orderbg1">0%</td>
 
                    </tr>
 
                    <tr>
                      <td class="mado_right mado6"><div></div>0.346</td>
-                     <td class="orderbg1">481,400</td>
+                     <td class="orderbg1">10,310</td>
                      <td class="orderbg1">0%</td>
                      <td colspan="2" rowspan="5"></td>
 
@@ -749,107 +749,107 @@
 
                    <tr>
                      <td class="mado_right mado7"><div></div>1.000</td>
-                     <td class="orderbg1">481,400</td>
+                     <td class="orderbg1">10,310</td>
                      <td class="orderbg1">0%</td>
 
                    </tr>
 
                    <tr>
                      <td class="mado_right mado8"><div></div>0.874</td>
-                     <td class="orderbg1 downprice">481,400</td>
-                     <td class="orderbg1 downprice">1.04%</td>
+                     <td class="orderbg1 downprice">10,210</td>
+                     <td class="orderbg1 downprice">-0.02%</td>
 
                    </tr>
 
                    <tr>
                      <td class="mado_right mado9"><div></div>0.108</td>
-                     <td class="orderbg1 downprice">481,400</td>
-                     <td class="orderbg1 downprice">-1.04%</td>
+                     <td class="orderbg1 downprice">10,210</td>
+                     <td class="orderbg1 downprice">-0.02%</td>
 
                    </tr>
 
                    <tr>
                      <td class="mado_right mado10"><div></div>0.108</td>
-                     <td class="orderbg1 downprice">481,400</td>
-                     <td class="orderbg1 downprice">-0.21%</td>
+                     <td class="orderbg1 downprice">10,140</td>
+                     <td class="orderbg1 downprice">-0.11%</td>
 
                    </tr>
 
                    <tr>
                      <td rowspan="10"></td>
-                     <td class="orderbg2 upprice">493,200</td>
-                     <td class="orderbg2">+3.58%</td>
+                     <td class="orderbg2 upprice">10,440</td>
+                     <td class="orderbg2">+5.04%</td>
                      <td colspan="2" class="masu_left masu1 upprice"><div></div>0.100</td>
 
                    </tr>
 
                    <tr>
 
-                     <td class="orderbg2 upprice">493,200</td>
-                     <td class="orderbg2">+0.27%</td>
+                     <td class="orderbg2 upprice">10,440</td>
+                     <td class="orderbg2">+0.09%</td>
                      <td colspan="2" class="masu_left masu2 upprice"><div></div>0.100</td>
 
                    </tr>
 
                    <tr>
 
-                     <td class="orderbg2 upprice">493,200</td>
-                     <td class="orderbg2">+1.01%</td>
+                     <td class="orderbg2 upprice">10,440</td>
+                     <td class="orderbg2">+2.01%</td>
                      <td colspan="2" class="masu_left masu3 upprice"><div></div>1.001</td>
 
                    </tr>
 
                    <tr>
 
-                     <td class="orderbg2 upprice">493,250</td>
-                     <td class="orderbg2">+2.98%</td>
+                     <td class="orderbg2 upprice">10,440</td>
+                     <td class="orderbg2">+2.38%</td>
                      <td colspan="2" class="masu_left masu4 upprice"><div></div>0.024</td>
 
                    </tr>
 
                    <tr>
 
-                     <td class="orderbg2">493,270</td>
-                     <td class="orderbg2">+2.98%</td>
+                     <td class="orderbg2">10,450</td>
+                     <td class="orderbg2">+2.38%</td>
                      <td colspan="2" class="masu_left masu5"><div></div>0.267</td>
 
                    </tr>
 
                    <tr>
 
-                     <td class="orderbg2">493,270</td>
-                     <td class="orderbg2">+2.98%</td>
+                     <td class="orderbg2">10,450</td>
+                     <td class="orderbg2">+2.38%</td>
                      <td colspan="2" class="masu_left masu6"><div></div>0.346</td>
 
                    </tr>
 
                    <tr>
 
-                     <td class="orderbg2">493,270</td>
-                     <td class="orderbg2">+3.58%</td>
+                     <td class="orderbg2">10,450</td>
+                     <td class="orderbg2">+5.58%</td>
                      <td colspan="2" class="masu_left masu7"><div></div>1.000</td>
 
                    </tr>
 
                    <tr>
 
-                     <td class="orderbg2 downprice">493,270</td>
-                     <td class="orderbg2">-0.21%</td>
+                     <td class="orderbg2 downprice">10,450</td>
+                     <td class="orderbg2">-0.11%</td>
                      <td colspan="2" class="masu_left masu8 downprice"><div></div>0.874</td>
 
                    </tr>
 
                    <tr>
 
-                     <td class="orderbg2 downprice">493,270</td>
-                     <td class="orderbg2">-0.10%</td>
+                     <td class="orderbg2 downprice">10,150</td>
+                     <td class="orderbg2">-0.05%</td>
                      <td colspan="2" class="masu_left masu9 downprice"><div></div>0.108</td>
 
                    </tr>
 
                    <tr>
 
-                     <td class="orderbg2 downprice">493,270</td>
+                     <td class="orderbg2 downprice">10,150</td>
                      <td class="orderbg2">-0.11%</td>
                      <td colspan="2" class="masu_left masu10 downprice"><div></div>0.108</td>
 
@@ -857,7 +857,7 @@
 
                    <tr>
 
-                     <td class="mado_right">493,300</td>
+                     <td class="mado_right">10,150</td>
                      <td colspan="2" class="all_amount"><b>표시잔량합계</b></td>
                      <td colspan="2" class="masu_left">3,000</td>
 
@@ -1015,88 +1015,88 @@
                             <td class='deal_time'>
                                 <p>08.27 <span>14:27</span></p>
                             </td>
-                            <td class='deal_price_KRW_data'><span class='up_down_data'>481,400</span></td>
-                            <td class='deal_amount_data'><span class='up_down_data money_down'>0.00500000</span></td>
+                            <td class='deal_price_KRW_data'><span class='up_down_data'>10,190</span></td>
+                            <td class='deal_amount_data'><span class='up_down_data money_down'>0.00300000</span></td>
                             <td><span class='up_down_data'>700,000</span></td>
                         </tr>
                         <tr>
                             <td class='deal_time'>
                                 <p>08.27 <span>14:27</span></p>
                             </td>
-                            <td class='deal_price_KRW_data'><span class='up_down_data money_up'>481,400</span></td>
-                            <td class='deal_amount_data'><span class='up_down_data money_up'>0.00500000</span></td>
+                            <td class='deal_price_KRW_data'><span class='up_down_data money_up'>10,190</span></td>
+                            <td class='deal_amount_data'><span class='up_down_data money_up'>0.00300000</span></td>
                             <td><span class='up_down_data'>56,000</span></td>
                         </tr>
                         <tr>
                             <td class='deal_time'>
                                 <p>08.27 <span>14:27</span></p>
                             </td>
-                            <td class='deal_price_KRW_data'><span class='up_down_data money_up'>481,400</span></td>
-                            <td class='deal_amount_data'><span class='up_down_data money_up'>0.00500000</span></td>
+                            <td class='deal_price_KRW_data'><span class='up_down_data money_up'>10,190</span></td>
+                            <td class='deal_amount_data'><span class='up_down_data money_up'>0.00300000</span></td>
                             <td><span class='up_down_data'>40,000</span></td>
                         </tr>
                         <tr>
                             <td class='deal_time'>
                                 <p>08.27 <span>14:27</span></p>
                             </td>
-                            <td class='deal_price_KRW_data'><span class='up_down_data money_up'>481,400</span></td>
-                            <td class='deal_amount_data'><span class='up_down_data money_up'>0.00500000</span></td>
+                            <td class='deal_price_KRW_data'><span class='up_down_data money_up'>10,190</span></td>
+                            <td class='deal_amount_data'><span class='up_down_data money_up'>0.1100000</span></td>
                             <td><span class='up_down_data'>5,000</span></td>
                         </tr>
                         <tr>
                             <td class='deal_time'>
                                 <p>08.27 <span>14:27</span></p>
                             </td>
-                            <td class='deal_price_KRW_data'><span class='up_down_data money_down'>481,400</span></td>
-                            <td class='deal_amount_data'><span class='up_down_data money_down'>0.3100000</span></td>
+                            <td class='deal_price_KRW_data'><span class='up_down_data money_down'>10,190</span></td>
+                            <td class='deal_amount_data'><span class='up_down_data money_down'>0.1100000</span></td>
                             <td><span class='up_down_data'>5,000</span></td>
                         </tr>
                         <tr>
                             <td class='deal_time'>
                                 <p>08.27 <span>14:27</span></p>
                             </td>
-                            <td class='deal_price_KRW_data'><span class='up_down_data money_down'>481,400</span></td>
-                            <td class='deal_amount_data'><span class='up_down_data money_down'>0.3100000</span></td>
+                            <td class='deal_price_KRW_data'><span class='up_down_data money_down'>10,190</span></td>
+                            <td class='deal_amount_data'><span class='up_down_data money_down'>0.7000000</span></td>
                             <td><span class='up_down_data'>5,000</span></td>
                         </tr>
                         <tr>
                             <td class='deal_time'>
                                 <p>08.27 <span>14:27</span></p>
                             </td>
-                            <td class='deal_price_KRW_data'><span class='up_down_data money_down'>481,400</span></td>
-                            <td class='deal_amount_data'><span class='up_down_data money_down'>0.59500000</span></td>
+                            <td class='deal_price_KRW_data'><span class='up_down_data money_down'>10,190</span></td>
+                            <td class='deal_amount_data'><span class='up_down_data money_down'>0.7000000</span></td>
                             <td><span class='up_down_data'>5,000</span></td>
                         </tr>
                         <tr>
                             <td class='deal_time'>
                                 <p>08.27 <span>14:28</span></p>
                             </td>
-                            <td class='deal_price_KRW_data'><span class='up_down_data money_down'>481,450</span></td>
-                            <td class='deal_amount_data'><span class='up_down_data money_down'>0.59500000</span></td>
+                            <td class='deal_price_KRW_data'><span class='up_down_data money_down'>10,060</span></td>
+                            <td class='deal_amount_data'><span class='up_down_data money_down'>0.7000000</span></td>
                             <td><span class='up_down_data'>5,000</span></td>
                         </tr>
                         <tr>
                             <td class='deal_time'>
                                 <p>08.27 <span>14:28</span></p>
                             </td>
-                            <td class='deal_price_KRW_data'><span class='up_down_data'>481,450</span></td>
-                            <td class='deal_amount_data'><span class='up_down_data money_down'>0.59500000</span></td>
+                            <td class='deal_price_KRW_data'><span class='up_down_data'>10,060</span></td>
+                            <td class='deal_amount_data'><span class='up_down_data money_down'>0.30200000</span></td>
                             <td><span class='up_down_data'>5,000</span></td>
                         </tr>
                         <tr>
                             <td class='deal_time'>
                                 <p>08.27 <span>14:28</span></p>
                             </td>
-                            <td class='deal_price_KRW_data'><span class='up_down_data'>481,450</span></td>
-                            <td class='deal_amount_data'><span class='up_down_data money_down'>0.59500000</span></td>
+                            <td class='deal_price_KRW_data'><span class='up_down_data'>10,060</span></td>
+                            <td class='deal_amount_data'><span class='up_down_data money_down'>0.30200000</span></td>
                             <td><span class='up_down_data'>5,000</span></td>
                         </tr>
                         <tr>
                             <td class='deal_time'>
                                 <p>08.27 <span>14:28</span></p>
                             </td>
-                            <td class='deal_price_KRW_data'><span class='up_down_data'>481,450</span></td>
-                            <td class='deal_amount_data'><span class='up_down_data money_down'>0.59500000</span></td>
+                            <td class='deal_price_KRW_data'><span class='up_down_data'>10,060</span></td>
+                            <td class='deal_amount_data'><span class='up_down_data money_down'>0.30200000</span></td>
                             <td><span class='up_down_data'>5,000</span></td>
                         </tr>
                     </tbody>
