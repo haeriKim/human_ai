@@ -134,8 +134,8 @@
                               </li>
                               <li class="coin_prepare">
                                 <strong>전일대비</strong>
-                                <span class="prepare"><b>+0.31</b>%</span>
-                                <span class="updownarrow"><img src="img/arrow_up_red.png" class="ud">23,000</span>
+                                <span class="prepare"><b>-0.31</b>%</span>
+                                <span class="updownarrow"><img src="img/arrow_down_blue.png" class="ud">23,000</span>
                               </li>
                             </ul>
                           </div>
