@@ -8,7 +8,7 @@
             <li class='btc'>
                 <span>비트코인(BTC)</span>
                 <p><span class="current_pri">7,400,000</span> KRW</p>
-                <b class="down"><span class="current_per">- 0.31</span> %</b>
+                <b class="up"><span class="current_per">+ 0.31</span> %</b>
             </li>
             <li class='bth'>
               <span>비트코인캐시(BCH)</span>
@@ -18,7 +18,7 @@
             <li class='eth'>
               <span>이더리움(ETH)</span>
               <p><span class="current_pri">224,500</span> KRW</p>
-              <b class="down"><span class="current_per">- 0.22</span> %</b>
+              <b class="up"><span class="current_per">+ 0.22</span> %</b>
             </li>
             <li class='etc'>
               <span>이더리움클래식(ETC)</span>
@@ -38,7 +38,7 @@
             <li class='ada'>
               <span>에이다(ADA)</span>
               <p><span class="current_pri">79.90</span> KRW</p>
-              <b class="down"><span class="current_per">- 0.12</span> %</b>
+              <b class="up"><span class="current_per">+ 0.12</span> %</b>
             </li>
           </ul>
         </div><!-- current_coin End-->

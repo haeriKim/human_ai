@@ -56,19 +56,19 @@
                         <dl class="coinSelect">
                             <dt><a href="#" title="이더리움"><img src="img/eth.png" alt="이더리움"/></a><span>이더리움 ETH/KRW</span>
                               <img src="img/sws-31-sq.png" alt="국기" class="flag"></dt>
-                            <dd><a href="#" title="비트코인"><img src="img/bitcoin.png" alt="비트코인"/></a><span>비트코인 BTC/KRW</span>
+                            <dd><a href="exchange.php" title="비트코인"><img src="img/bitcoin.png" alt="비트코인"/></a><span>비트코인 BTC/KRW</span>
                               <img src="img/usa-31-sq.png" alt="국기" class="flag"></dd>
-                            <dd><a href="#" title="비트코인캐시"><img src="img/bitcoincash.png" alt="비트코인캐시"/></a><span>비트코인캐시 BCH/KRW</span>
+                            <dd><a href="delete01.php" title="비트코인캐시"><img src="img/bitcoincash.png" alt="비트코인캐시"/></a><span>비트코인캐시 BCH/KRW</span>
                               <img src="img/usa-31-sq.png" alt="국기" class="flag"></dd>
-                            <dd><a href="#" title="이더리움"><img src="img/eth.png" alt="이더리움"/></a><span>이더리움 ETH/KRW</span>
+                            <dd><a href="delete02.php" title="이더리움"><img src="img/eth.png" alt="이더리움"/></a><span>이더리움 ETH/KRW</span>
                               <img src="img/sws-31-sq.png" alt="국기" class="flag"></dd>
-                            <dd><a href="#" title="이더리움클래식"><img src="img/etc.png" alt="이더리움클래식"/></a><span>이더리움클래식 ETC/KRW</span>
+                            <dd><a href="delete03.php" title="이더리움클래식"><img src="img/etc.png" alt="이더리움클래식"/></a><span>이더리움클래식 ETC/KRW</span>
                               <img src="img/sws-31-sq.png" alt="국기" class="flag"></dd>
-                            <dd><a href="#" title="이오스"><img src="img/eos.png" alt="이오스"/></a><span>이오스 EOS/KRW</span>
+                            <dd><a href="delete04.php" title="이오스"><img src="img/eos.png" alt="이오스"/></a><span>이오스 EOS/KRW</span>
                               <img src="img/hk-31-sq.png" alt="국기" class="flag"></dd>
-                            <dd><a href="#" title="리플"><img src="img/reaple.png" alt="리플"/></a><span>리플 XRP/KRW</span>
+                            <dd><a href="delete05.php" title="리플"><img src="img/reaple.png" alt="리플"/></a><span>리플 XRP/KRW</span>
                               <img src="img/usa-31-sq.png" alt="국기" class="flag"></dd>
-                            <dd><a href="#" title="에이다"><img src="img/ada.png" alt="에이다"/></a><span>에이다 ADA/KRW</span>
+                            <dd><a href="delete06.php" title="에이다"><img src="img/ada.png" alt="에이다"/></a><span>에이다 ADA/KRW</span>
                               <img src="img/sws-31-sq.png" alt="국기" class="flag"></dd>
                         </dl>
                     </div>
