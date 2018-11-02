@@ -56,7 +56,7 @@
                         <dl class="coinSelect">
                           <dt><a href="#" title="비트코인"><img src="img/bitcoin.png" alt="비트코인"/></a><span>비트코인 BTC/KRW</span>
                             <img src="img/usa-31-sq.png" alt="국기" class="flag"></dt>
-                          <dd><a href="#" title="비트코인"><img src="img/bitcoin.png" alt="비트코인"/></a><span>비트코인 BTC/KRW</span>
+                          <dd onclick="location.href='exchange.php'"><a href="#" title="비트코인"><img src="img/bitcoin.png" alt="비트코인"/></a><span>비트코인 BTC/KRW</span>
                             <img src="img/usa-31-sq.png" alt="국기" class="flag"></dd>
                           <dd onclick="location.href='delete01.php'"><a href="#" title="비트코인캐시"><img src="img/bitcoincash.png" alt="비트코인캐시"/></a><span>비트코인캐시 BCH/KRW</span>
                             <img src="img/usa-31-sq.png" alt="국기" class="flag"></dd>

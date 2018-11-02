@@ -56,20 +56,20 @@
                         <dl class="coinSelect">
                             <dt><a href="#" title="에이다"><img src="img/ada.png" alt="에이다"/></a><span>에이다 ADA/KRW</span>
                               <img src="img/sws-31-sq.png" alt="국기" class="flag"></dt>
-                            <dd><a href="exchange.php" title="비트코인"><img src="img/bitcoin.png" alt="비트코인"/></a><span>비트코인 BTC/KRW</span>
-                              <img src="img/usa-31-sq.png" alt="국기" class="flag"></dd>
-                            <dd><a href="delete01.php" title="비트코인캐시"><img src="img/bitcoincash.png" alt="비트코인캐시"/></a><span>비트코인캐시 BCH/KRW</span>
-                              <img src="img/usa-31-sq.png" alt="국기" class="flag"></dd>
-                            <dd><a href="delete02.php" title="이더리움"><img src="img/eth.png" alt="이더리움"/></a><span>이더리움 ETH/KRW</span>
-                              <img src="img/sws-31-sq.png" alt="국기" class="flag"></dd>
-                            <dd><a href="delete03.php" title="이더리움클래식"><img src="img/etc.png" alt="이더리움클래식"/></a><span>이더리움클래식 ETC/KRW</span>
-                              <img src="img/sws-31-sq.png" alt="국기" class="flag"></dd>
-                            <dd><a href="delete04.php" title="이오스"><img src="img/eos.png" alt="이오스"/></a><span>이오스 EOS/KRW</span>
-                              <img src="img/hk-31-sq.png" alt="국기" class="flag"></dd>
-                            <dd><a href="delete05.php" title="리플"><img src="img/reaple.png" alt="리플"/></a><span>리플 XRP/KRW</span>
-                              <img src="img/usa-31-sq.png" alt="국기" class="flag"></dd>
-                            <dd><a href="delete06.php" title="에이다"><img src="img/ada.png" alt="에이다"/></a><span>에이다 ADA/KRW</span>
-                              <img src="img/sws-31-sq.png" alt="국기" class="flag"></dd>
+                              <dd onclick="location.href='exchange.php'"><a href="#" title="비트코인"><img src="img/bitcoin.png" alt="비트코인"/></a><span>비트코인 BTC/KRW</span>
+                                <img src="img/usa-31-sq.png" alt="국기" class="flag"></dd>
+                              <dd onclick="location.href='delete01.php'"><a href="#" title="비트코인캐시"><img src="img/bitcoincash.png" alt="비트코인캐시"/></a><span>비트코인캐시 BCH/KRW</span>
+                                <img src="img/usa-31-sq.png" alt="국기" class="flag"></dd>
+                              <dd onclick="location.href='delete02.php'"><a href="#" title="이더리움"><img src="img/eth.png" alt="이더리움"/></a><span>이더리움 ETH/KRW</span>
+                                <img src="img/sws-31-sq.png" alt="국기" class="flag"></dd>
+                              <dd onclick="location.href='delete03.php'"><a href="delete03.php" title="이더리움클래식"><img src="img/etc.png" alt="이더리움클래식"/></a><span>이더리움클래식 ETC/KRW</span>
+                                <img src="img/sws-31-sq.png" alt="국기" class="flag"></dd>
+                              <dd onclick="location.href='delete04.php'"><a href="#" title="이오스"><img src="img/eos.png" alt="이오스"/></a><span>이오스 EOS/KRW</span>
+                                <img src="img/hk-31-sq.png" alt="국기" class="flag"></dd>
+                              <dd onclick="location.href='delete05.php'"><a href="#" title="리플"><img src="img/reaple.png" alt="리플"/></a><span>리플 XRP/KRW</span>
+                                <img src="img/usa-31-sq.png" alt="국기" class="flag"></dd>
+                              <dd onclick="location.href='delete06.php'"><a href="#" title="에이다"><img src="img/ada.png" alt="에이다"/></a><span>에이다 ADA/KRW</span>
+                                <img src="img/sws-31-sq.png" alt="국기" class="flag"></dd>
                         </dl>
                     </div>
                   </div>
@@ -671,9 +671,37 @@
           <div id="right_all_menu">
             <!--right_coin_menu1-->
             <div id="right_coin_menu1">
-              <!--chart_graf-->
-              <div class="box chart_graf">
-
+              <div class="box chart">
+                <div class="tradingview-widget-container">
+    <div id="tradingview_6f622"></div>
+    <div class="tradingview-widget-copyright">TradingView 제공 <a href="https://kr.tradingview.com/symbols/KORBIT-BTCKRW/" rel="noopener" target="_blank"><span class="blue-text">BTCKRW 차트</span></a></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+    <script type="text/javascript">
+    new TradingView.widget(
+    {
+      "width": 905,
+     "height": 465,
+    "symbol": "KORBIT:BTCKRW",
+    "interval": "120",
+    "timezone": "Etc/UTC",
+    "theme": "Light",
+    "style": "1",
+    "locale": "kr",
+    "toolbar_bg": "#f1f3f6",
+    "enable_publishing": false,
+    "hide_legend": true,
+    "studies": [
+      "MAWeighted@tv-basicstudies",
+      "Volume@tv-basicstudies",
+      "MAVolumeWeighted@tv-basicstudies",
+      "DoubleEMA@tv-basicstudies",
+      "MOM@tv-basicstudies"
+    ],
+    "container_id": "tradingview_6f622"
+  }
+    );
+    </script>
+  </div>
 
               </div><!--chart_graf End-->
             </div><!--right_coin_menu1 End-->
