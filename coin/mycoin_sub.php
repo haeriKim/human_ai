@@ -1844,7 +1844,7 @@
                                 <p>현재 계좌에서 출금하시겠습니까?</p>
                                 <div class="cancel_or_apply">
                                     <input type="reset" name="" value="취소" class='cancel_btn'>
-                                    <input type="submit" name="" value="출금신청" class='agree_btn' onclick="location.href='mywallet_output_complete_KRW.php'">
+                                    <input type="button" name="" value="출금신청" class='agree_btn' onclick="location.href='mywallet_output_complete_KRW.php'">
                                 </div>
                             </form>
                         </div>
