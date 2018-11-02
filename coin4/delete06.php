@@ -85,7 +85,7 @@
                   </div>
                   <ul>
                     <li>
-                        <strong>리플</strong>
+                        <strong>에이다</strong>
                         <b class="coin_word">ADA/KRW</b>
                     </li>
                     <li>
@@ -118,7 +118,7 @@
 
                   <li class="hl_volume">
                     <span class="hl_title">거래량<small>(24H)</small></span>
-                      <p><span class="volume">27,973,320.388</span><b class="unit BTC">EOS</b></p>
+                      <p><span class="volume">27,973,320.388</span><b class="unit BTC">ADA</b></p>
                   </li>
                   <li class="hl_volume">
                     <span class="hl_title">거래대금<small>(24H)</small></span>

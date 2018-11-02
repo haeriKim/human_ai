@@ -118,7 +118,7 @@
 
                   <li class="hl_volume">
                     <span class="hl_title">거래량<small>(24H)</small></span>
-                      <p><span class="volume">16,974,321.532</span><b class="unit BTC">EOS</b></p>
+                      <p><span class="volume">16,974,321.532</span><b class="unit BTC">XRP</b></p>
                   </li>
                   <li class="hl_volume">
                     <span class="hl_title">거래대금<small>(24H)</small></span>
