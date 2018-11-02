@@ -306,6 +306,8 @@
                          <ul class="app_slideUl">
                            <li class="app_banner1 app_banner"></li>
                            <li class="app_banner2 app_banner"></li>
+                           <li class="app_banner3 app_banner"></li>
+
                          <!--  <li class="app_banner3 app_banner"></li>
                            <li class="app_banner4 app_banner"></li>-->
                          </ul>
