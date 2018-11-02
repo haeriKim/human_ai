@@ -281,12 +281,10 @@
 #right_coin_menu1{
   float:left;
 }
-.chart_graf{
-  width:905px;
-  height:465px;
-  background:url(../img/chart.png) no-repeat 50% 80%;
-  background-size:cover;
-}
+/* .chart {
+  width: 905px;
+  height: 465px;
+} */
 
 /*bid_price*/
 #right_coin_menu2{
@@ -1048,8 +1046,9 @@
 
  /*chart_graf*/
 
- .chart_graf{
+ .app_chart{
    width:100%;
+   height: 800px;
  }
 
  /*bid_price*/
