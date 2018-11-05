@@ -58,6 +58,11 @@
   background-size:cover;
 }
 
+.slideUl li.banner5{
+  background:url(../img/banner05.png) no-repeat 0 0;
+  background-size:cover;
+}
+
 .prevBtn,.nextBtn{
   position:absolute;
   z-index:3;
@@ -407,17 +412,27 @@
     .app_main_step2 .app_slideWrap .app_banner1{
       width:100%;
       height:500px;
-      background:url(../img/m_banner02.png) no-repeat 40% 0; background-size:cover;
+      background:url(../img/m_banner01.png) no-repeat 40% 0; background-size:cover;
     }
     .app_main_step2 .app_slideWrap .app_banner2{
       width:100%;
       height:500px;
-      background:url(../img/m_banner03.png) no-repeat 40% 0; background-size:cover;
+      background:url(../img/m_banner02.png) no-repeat 40% 0; background-size:cover;
     }
     .app_main_step2 .app_slideWrap .app_banner3{
       width:100%;
       height:500px;
+      background:url(../img/m_banner03.png) no-repeat 40% 0; background-size:cover;
+    }
+    .app_main_step2 .app_slideWrap .app_banner4{
+      width:100%;
+      height:500px;
       background:url(../img/m_banner04.png) no-repeat 40% 0; background-size:cover;
+    }
+    .app_main_step2 .app_slideWrap .app_banner4{
+      width:100%;
+      height:500px;
+      background:url(../img/m_banner05.png) no-repeat 40% 0; background-size:cover;
     }
     .app_main_step2 .app_slideWrap .app_nextBtn{
       right: 1%;

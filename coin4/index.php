@@ -53,6 +53,7 @@
                       <li class="banner2 banner"></li>
                       <li class="banner3 banner"></li>
                       <li class="banner4 banner"></li>
+                      <li class="banner5 banner"></li>
                     </ul>
 
                     <a href="#" class="nextBtn"></a>
@@ -307,6 +308,8 @@
                            <li class="app_banner1 app_banner"></li>
                            <li class="app_banner2 app_banner"></li>
                            <li class="app_banner3 app_banner"></li>
+                           <li class="app_banner4 app_banner"></li>
+                           <li class="app_banner5 app_banner"></li>
 
                          <!--  <li class="app_banner3 app_banner"></li>
                            <li class="app_banner4 app_banner"></li>-->
