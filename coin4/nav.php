@@ -72,7 +72,7 @@
         </ul>
 
         <ul class='nav_list'>
-            <li><a href='exchange.php'>거래소</a></li>
+            <li><a href='exchange_BITCOIN.php'>거래소</a></li>
             <li><a href='mycoin_sub.php'>자산관리</a></li>
             <li><a href='coin_info_bitcoin.php'>코인정보</a></li>
             <li><a href='notice.php'>공지사항</a></li>

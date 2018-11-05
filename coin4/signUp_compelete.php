@@ -111,7 +111,7 @@
                         </ul>
                       </div>
                       <div class="btn_area">
-                        <a href="exchange.php" class='look_around'>거래소 둘러보기</a>
+                        <a href="exchange_BITCOIN.php" class='look_around'>거래소 둘러보기</a>
                         <a href="login.php" class='go_login'>로그인 하기</a>
                       </div>
 

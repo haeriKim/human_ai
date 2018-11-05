@@ -34,7 +34,7 @@
             <div class="m_mainmenu">
                 <ul>
                     <li>
-                        <a href="exchange.php" class="m_menutext">
+                        <a href="exchange_BITCOIN.php" class="m_menutext">
                             <strong class="none01">거래소</strong>
                         </a>
                     </li>
