@@ -1,54 +1,101 @@
 /*slide 슬라이드*/
 
-$(document).ready(function(){
+$(document).ready(function() {
+  slide();
 
-//자동슬라이드
-var slide=$('ul.imgslide');
-var slideWidth=slide.width();
-var slideList=$('ul.imgslide>li');
-var slideListWidth=$('ul.imgslide>li');
-var setInterval01;
-
-var btnList=$('ul.btn>li');
-
-mainSlide();
-function mainSlide(){
-  setInterval01=setInterval(function(){
-    slide.stop().animate({left:'0'},500, function(){
-      $('ul.imgslide>li:first').insertAfter('ul.imgslide>li:last');
-      slide.css('left',0);
+// 슬라이드
+function slide() {
+  var wid = 0;
+  var now_num = 0;
+  var slide_length = 0;
+  var auto = null;
+  var $dotli = $('.dot>li');
+  var $panel = $('.panel');
+  var $panelLi = $panel.children('li');
+  // 변수 초기화
+  function init() {
+    wid = $('.slide').width();
+    now_num = $('.dot>li.on').index();
+    slide_length = $dotli.length;
+  }
+  // 이벤트 묶음
+  function slideEvent() {
+    // 슬라이드 하단 dot버튼 클릭했을때
+    $dotli.click(function() {
+      now_num = $(this).index();
+      slideMove();
     });
-  },5000)
+    // 이후 버튼 클릭했을때
+    $('.next1').click(function() {
+      nextChkPlay();
+    });
+    // 이전 버튼 클릭했을때
+    $('.prev1').click(function() {
+      prevChkPlay();
+    });
+    autoPlay();
+    autoPlayStop();
+    autoPlayRestart();
+    resize();
+  }
+  // 자동실행 함수
+  function autoPlay() {
+    auto = setInterval(function() {
+      nextChkPlay();
+    }, 5000);
+  }
+  // 자동실행 멈춤
+  function autoPlayStop() {
+    $panelLi.mouseenter(function() {
+      clearInterval(auto);
+    });
+  }
+  // 자동실행 멈췄다가 재실행
+  function autoPlayRestart() {
+    $panelLi.mouseleave(function() {
+      auto = setInterval(function() {
+        nextChkPlay();
+      }, 5000);
+    });
+  }
+  // 이전 버튼 클릭시 조건 검사후 슬라이드 무브
+  function prevChkPlay() {
+    if (now_num == 0) {
+      now_num = slide_length - 1;
+    } else {
+      now_num--;
+    }
+    slideMove();
+  }
+  // 이후 버튼 클릭시 조건 검사후 슬라이드 무브
+  function nextChkPlay() {
+    if (now_num == slide_length - 1) {
+      now_num = 0;
+    } else {
+      now_num++;
+    }
+    slideMove();
+  }
+  // 슬라이드 무브
+  function slideMove() {
+    $panel.stop().animate({
+      'margin-left': -wid * now_num
+    });
+    $dotli.removeClass('on');
+    $dotli.eq(now_num).addClass('on');
+  }
+  // 화면크기 조정시 화면 재설정
+  function resize() {
+    $(window).resize(function() {
+      init();
+      $panel.css({
+        'margin-left': -wid * now_num
+      });
+    });
+  }
+  init();
+  slideEvent();
 }
-
-function next(){
-  slide.animate({left:'0'},100, function(){
-    $('ul.imgslide>li:first').insertAfter('ul.imgslide>li:last');
-    slide.css('left',0);
-  });
-}
-
-function prev(){
-  $('ul.imgslide>li:last').insertBefore('ul.imgslide>li:first');
-  slide.css('left','0');
-  slide.animate({left:0},100);
-}
-
-$('.prev1').click(function(){
-  prev();
-})
-
-$('.next1').click(function(){
-  next();
-})
-
-$('.imgslide, .btn, .prev1, .next1').hover(function(){
-  clearInterval(setInterval01);
-}, function(){
-  mainSlide();
-})
-
-
 });
 
 //메인_카드현황
@@ -417,7 +464,7 @@ $(document).ready(function(){
 
     // 입출금 완료에서 입출금내역 버튼 클릭시
     $(".viewList").click(function (){
-      location.href="exchange.php";
+      location.href="exchange_BITCOIN.php";
 
       });
 });
@@ -1131,7 +1178,7 @@ $(document).ready(function(){
     })
 });
 /*App_slide 슬라이드*/
-$(document).ready(function(){
+/*$(document).ready(function(){
   var slide=$('ul.app_imgslide');
   var slideWidth=slide.width();
   var slideList=$('ul.app_imgslide>li');
@@ -1167,8 +1214,104 @@ function mainSlide(){
   },5000)
 }
 
-});
+});*/
+$(document).ready(function() {
+  app_slide();
 
+// 슬라이드
+function app_slide() {
+  var app_wid = 0;
+  var app_now_num = 0;
+  var app_slide_length = 0;
+  var app_auto = null;
+  var $app_dotli = $('.app_dot>li');
+  var $app_panel = $('.app_panel');
+  var $app_panelLi = $app_panel.children('li');
+  // 변수 초기화
+  function init() {
+    app_wid = $('.app_slide').width();
+    app_now_num = $('.app_dot>li.app_on').index();
+    app_slide_length = $app_dotli.length;
+  }
+  // 이벤트 묶음
+  function slideEvent() {
+    // 슬라이드 하단 dot버튼 클릭했을때
+    $app_dotli.click(function() {
+      app_now_num = $(this).index();
+      slideMove();
+    });
+    // 이후 버튼 클릭했을때
+    $('.app_next1').click(function() {
+      nextChkPlay();
+    });
+    // 이전 버튼 클릭했을때
+    $('.app_prev1').click(function() {
+      prevChkPlay();
+    });
+    autoPlay();
+    autoPlayStop();
+    autoPlayRestart();
+    resize();
+  }
+  // 자동실행 함수
+  function autoPlay() {
+    app_auto = setInterval(function() {
+      nextChkPlay();
+    }, 7000);
+  }
+  // 자동실행 멈춤
+  function autoPlayStop() {
+    $app_panelLi.mouseenter(function() {
+      clearInterval(app_auto);
+    });
+  }
+  // 자동실행 멈췄다가 재실행
+  function autoPlayRestart() {
+    $app_panelLi.mouseleave(function() {
+      app_auto = setInterval(function() {
+        nextChkPlay();
+      }, 7000);
+    });
+  }
+  // 이전 버튼 클릭시 조건 검사후 슬라이드 무브
+  function prevChkPlay() {
+    if (app_now_num == 0) {
+      app_now_num = app_slide_length - 1;
+    } else {
+      app_now_num--;
+    }
+    slideMove();
+  }
+  // 이후 버튼 클릭시 조건 검사후 슬라이드 무브
+  function nextChkPlay() {
+    if (app_now_num == app_slide_length - 1) {
+      app_now_num = 0;
+    } else {
+      app_now_num++;
+    }
+    slideMove();
+  }
+  // 슬라이드 무브
+  function slideMove() {
+    $app_panel.stop().animate({
+      'margin-left': -app_wid * app_now_num
+    });
+    $app_dotli.removeClass('app_on');
+    $app_dotli.eq(app_now_num).addClass('app_on');
+  }
+  // 화면크기 조정시 화면 재설정
+  function resize() {
+    $(window).resize(function() {
+      init();
+      $app_panel.css({
+        'margin-left': -app_wid * app_now_num
+      });
+    });
+  }
+  init();
+  slideEvent();
+}
+});
 /*반응형 로그인 말풍선*/
 $(document).ready(function(){
     var click_time = 1;

@@ -5,51 +5,72 @@
 }
 /* slideul */
 
-#imgbox{
+.slide {
+  position: relative;
+  overflow: hidden;
   width:100%;
+  height:300px;
+}
+.panel {
+  width: 500%;
+}
+.panel:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.panel>li {
+  width: 20%;
   height: 300px;
-  margin-bottom: 10px;
-
+  float: left;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
 }
-.imgbox_inner{
-  position:relative;
-  overflow:hidden;
-  width:1300px;
-  height:300px;
-
-}
-.imgslide{
-  position:absolute;
-  width:1300px;
-  height:300px;
-
-}
-.imgslide li{
-  width:100%;
-  height:300px;
-}
-
-.imgbox_inner .imgslide .img1{
+.panel .banner1 {
   background:url(../img/banner01.png) no-repeat 0 0; background-size:cover;
 }
-.imgbox_inner .imgslide .img2{
+.panel .banner2 {
   background:url(../img/banner02.png) no-repeat 0 0; background-size:cover;
 }
-.imgbox_inner .imgslide .img3{
+.panel .banner3 {
   background:url(../img/banner03.png) no-repeat 0 0; background-size:cover;
 }
-.imgbox_inner .imgslide .img4{
+.panel .banner4 {
   background:url(../img/banner04.png) no-repeat 0 0; background-size:cover;
 }
-.imgbox_inner .imgslide .img5{
+.panel .banner5 {
   background:url(../img/banner05.png) no-repeat 0 0; background-size:cover;
+}
+.dot:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.dot {
+  position: absolute;
+  right: 2%;
+  bottom: 10%;
+  transform: translateX(-10%);
+}
+.dot>li {
+  float: left;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-left: 10px;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+.dot>li.on {
+  background-color: #342f2f;
 }
 .prev1 img{
   position:absolute;
   top:120px;
   left:20px;
   width:30px;
-  height:30px;
   cursor:pointer;
 }
 .next1 img{
@@ -57,98 +78,8 @@
   top:120px;
   right:25px;
   width:30px;
-  height:30px;
   cursor:pointer;
 }
-
-/*.slideWrap {
-  margin-bottom: 10px;
-  position: relative;
-}
-.slideWrap a{
-  font-size:14px;
-  color:#000;
-  text-decoration:none;
-}
-
-.slideWrap a:visited{
-  color:#000;
-  text-decoration:none;
-}
-
-.slideUl{
-  position: relative;
-  z-index: 2;
-  width: 1300px;
-  height: 300px;
-}
-
-.slideUl li{
-  display:none;
-  position:absolute;
-  z-index:2;
-  top:0;
-  left:0;
-  width:100%;
-  height:inherit;
-  text-align:center;
-  border-radius:5px;
-}
-
-.slideUl li.banner1{
-  background:url(../img/banner01.png) no-repeat 0 0;
-  background-size:cover;
-}
-
-.slideUl li.banner2{
-  background:url(../img/banner02.png) no-repeat 0 0;
-  background-size:cover;
-}
-
-.slideUl li.banner3{
-  background:url(../img/banner03.png) no-repeat 0 0;
-  background-size:cover;
-}
-
-.slideUl li.banner4{
-  background:url(../img/banner04.png) no-repeat 0 0;
-  background-size:cover;
-}
-
-.slideUl li.banner5{
-  background:url(../img/banner05.png) no-repeat 0 0;
-  background-size:cover;
-}
-
-.prevBtn,.nextBtn{
-  position:absolute;
-  z-index:3;
-  font-size:30px;
-  font-weight:bold;
-  color:#880000
-}
-
-.prevBtn{
-  left:1%;
-  bottom:47%;
-  width:30px;
-  height:30px;
-  background:url(../img/arrow_white_prev.png) no-repeat 0 0;
-  background-size:cover;
-  display:inline-block;
-}
-
-.nextBtn{
-  right:1%;
-  bottom:47%;
-  width:30px;
-  height:30px;
-  background:url(../img/arrow_white_next.png) no-repeat 0 0;
-  background-size:cover;
-  display:inline-block;
-} */
-
-
 
 /*코인현황*/
 
@@ -449,62 +380,81 @@
 
     /*app_main_step2*/
 
-    #app_imgbox{
-      width:100%;
-      height: 500px;
-
+    .app_slide {
+      position: relative;
+      overflow: hidden;
+      width:inherit;
+      height:520px;
     }
-    .app_imgbox_inner{
-      position:relative;
-      overflow:hidden;
-      width:100%;
-      height:500px;
-
+    .app_panel {
+      width: 500%;
     }
-    .app_imgslide{
-      position:absolute;
-      width:100%;
-      height:500px;
-
+    .app_panel:after {
+      content: "";
+      display: block;
+      clear: both;
     }
-    .app_imgslide li{
-      width:100%;
-      height:500px;
+    .app_panel>li {
+      width: 20%;
+      height: 520px;
+      float: left;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      position: relative;
     }
-    .app_ql{
-      float:left;
-    }
-
-    .app_imgbox_inner .app_imgslide .app_img1{
+    .app_panel .app_banner1 {
       background:url(../img/m_banner01.png) no-repeat 0 0; background-size:cover;
     }
-    .app_imgbox_inner .app_imgslide .app_img2{
+    .app_panel .app_banner2 {
       background:url(../img/m_banner02.png) no-repeat 0 0; background-size:cover;
     }
-    .app_imgbox_inner .app_imgslide .app_img3{
+    .app_panel .app_banner3 {
       background:url(../img/m_banner03.png) no-repeat 0 0; background-size:cover;
     }
-    .app_imgbox_inner .app_imgslide .app_img4{
+    .app_panel .app_banner4 {
       background:url(../img/m_banner04.png) no-repeat 0 0; background-size:cover;
     }
-    .app_imgbox_inner .app_imgslide .app_img5{
+    .app_panel .app_banner5 {
       background:url(../img/m_banner05.png) no-repeat 0 0; background-size:cover;
+    }
+    .app_dot:after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+    .app_dot {
+      position: absolute;
+      right: 2%;
+      bottom: 4%;
+      transform: translateX(-10%);
+    }
+    .app_dot>li {
+      float: left;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      border:2px solid #fff;
+      background-color: none;
+      margin-left: 10px;
+      text-indent: -9999px;
+      cursor: pointer;
+    }
+    .app_dot>li.on {
+      background-color: #342f2f;
     }
     .app_prev1 img{
       position:absolute;
-      top:250px;
-      left:10px;
+      top:50%;
+      left:20px;
       width:30px;
-      height:30px;
       cursor:pointer;
       opacity: 0.5;
     }
     .app_next1 img{
       position:absolute;
-      top:250px;
-      right:15px;
+      top:50%;
+      right:25px;
       width:30px;
-      height:30px;
       cursor:pointer;
       opacity: 0.5;
     }

@@ -46,23 +46,27 @@
                 <div class="content main_content">
 
                   <!-- banner_slide-->
-                  <div id="imgbox">
-                  <div class="imgbox_inner">
-
-                    <ul class="imgslide">
-                      <li class="img1 ql"></li>
-                      <li class="img2 ql"></li>
-                      <li class="img3 ql"></li>
-                      <li class="img4 ql"></li>
-                      <li class="img5 ql"></li>
+                  <div class="slide">
+                    <ul class="panel">
+                      <li class="banner1"></li>
+                      <li class="banner2"></li>
+                      <li class="banner3"></li>
+                      <li class="banner4"></li>
+                      <li class="banner5"></li>
 
                     </ul>
+                    <ul class="dot">
+                      <li class="on"></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
 
-                      <div class="prev1"><img src="img/arrow_efefef_next.png" alt="이전화살표" /></div>
-                      <div class="next1"><img src="img/arrow_efefef_prev.png" alt="다음화살표"/></div>
-
-                  </div>
+                    </ul>
+                    <div class="prev1"><img src="img/arrow_efefef_next.png" alt="이전화살표" /></div>
+                    <div class="next1"><img src="img/arrow_efefef_prev.png" alt="다음화살표"/></div>
                   </div><!--banner_slide End-->
+
 
                   <!-- rolling_ad -->
               <!--    <div class="slideWrap">
@@ -321,22 +325,25 @@
                    <div class="app_main_step2">
 
                      <!-- banner_slide-->
-                     <div id="app_imgbox">
-                     <div class="app_imgbox_inner">
-
-                       <ul class="app_imgslide">
-                         <li class="app_img1 app_ql"></li>
-                         <li class="app_img2 app_ql"></li>
-                         <li class="app_img3 app_ql"></li>
-                         <li class="app_img4 app_ql"></li>
-                         <li class="app_img5 app_ql"></li>
+                     <div class="app_slide">
+                       <ul class="app_panel">
+                         <li class="app_banner1"></li>
+                         <li class="app_banner2"></li>
+                         <li class="app_banner3"></li>
+                         <li class="app_banner4"></li>
+                         <li class="app_banner5"></li>
 
                        </ul>
+                       <ul class="app_dot">
+                         <li class="app_on"></li>
+                         <li></li>
+                         <li></li>
+                         <li></li>
+                         <li></li>
 
-                         <div class="app_prev1"><img src="img/arrow_efefef_next.png" alt="이전화살표" /></div>
-                         <div class="app_next1"><img src="img/arrow_efefef_prev.png" alt="다음화살표"/></div>
-
-                     </div>
+                       </ul>
+                       <div class="app_prev1"><img src="img/arrow_efefef_next.png" alt="이전화살표" /></div>
+                       <div class="app_next1"><img src="img/arrow_efefef_prev.png" alt="다음화살표"/></div>
                      </div><!--banner_slide End-->
 
                    </div>
