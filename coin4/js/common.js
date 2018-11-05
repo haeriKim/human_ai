@@ -1224,7 +1224,7 @@ function mainSlide(){
 $(document).ready(function() {
   app_slide();
 
-// 슬라이드
+// 반응형 슬라이드
 function app_slide() {
   var app_wid = 0;
   var app_now_num = 0;
@@ -1263,7 +1263,7 @@ function app_slide() {
   function autoPlay() {
     app_auto = setInterval(function() {
       nextChkPlay();
-    }, 7000);
+    }, 5000);
   }
   // 자동실행 멈춤
   function autoPlayStop() {
@@ -1281,7 +1281,7 @@ function app_slide() {
     $app_panelLi.mouseleave(function() {
       app_auto = setInterval(function() {
         nextChkPlay();
-      }, 7000);
+      }, 5000);
     });
   }
   // 이전 버튼 클릭시 조건 검사후 슬라이드 무브
