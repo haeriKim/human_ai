@@ -51,7 +51,7 @@ function slide() {
       clearInterval(auto);
     });
   }
-  $('.prev1, .next1').hover(function(){
+  $('.prev1, .next1, .dot').hover(function(){
     clearInterval(auto);
   }, function(){
     slide();
