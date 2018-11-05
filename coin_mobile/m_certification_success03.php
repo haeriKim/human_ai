@@ -25,7 +25,7 @@
             <div id="header2">
               <div class="headerTop">
                 <input type="button" class="back" onclick="location.href='m_moreView_main.php'"/>
-                <h2 class="header_title">계좌 인증</h2>
+                <h2 class="header_title">실명인증 완료</h2>
                 <div class="alarm_area">
                   <img src="img/bell.png" class="alarmBtn" alt="알림버튼" onclick="location.href='m_alarm.php'"/>
                 </div>

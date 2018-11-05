@@ -34,7 +34,7 @@
                       <option value="http://localhost/human_ai/coin_mobile/m_exchange_info_EthereumClassic.php">이더리움클래식 ETC/KRW</option>
                       <option value="http://localhost/human_ai/coin_mobile/m_exchange_info_EOS.php">이오스 EOS/KRW</option>
                       <option value="http://localhost/human_ai/coin_mobile/m_exchange_info_Ripple.php">리플 XRP/KRW</option>
-                      <option value="#">에이다 ADA/KRW</option>
+                      <option value="#" selected=selected>에이다 ADA/KRW</option>
                   </select>
                 </div>
                 <div class="alarm_area">

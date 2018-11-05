@@ -25,7 +25,7 @@
             <div id="header2">
               <div class="headerTop">
                 <a href="#" onclick="history.go(-1); return false;"/> <input type="button" class="back" ></a>
-                <h2 class="header_title">계좌 인증</h2>
+                <h2 class="header_title">OTP 인증 완료</h2>
                 <div class="alarm_area">
                   <img src="img/bell.png" class="alarmBtn" alt="알림버튼" onclick="location.href='m_alarm.php'"/>
                 </div>
