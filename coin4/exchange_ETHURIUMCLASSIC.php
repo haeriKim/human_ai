@@ -56,7 +56,7 @@
                         <dl class="coinSelect">
                             <dt><a href="#" title="이더리움클래식"><img src="img/etc.png" alt="이더리움클래식"/></a><span>이더리움클래식 ETC/KRW</span>
                               <img src="img/sws-31-sq.png" alt="국기" class="flag"></dt>
-                              <dd onclick="location.href='exchange.php'"><a href="#" title="비트코인"><img src="img/bitcoin.png" alt="비트코인"/></a><span>비트코인 BTC/KRW</span>
+                              <dd onclick="location.href='exchange_BITCOIN.php'"><a href="#" title="비트코인"><img src="img/bitcoin.png" alt="비트코인"/></a><span>비트코인 BTC/KRW</span>
                                 <img src="img/usa-31-sq.png" alt="국기" class="flag"></dd>
                               <dd onclick="location.href='exchange_BITCOINCASH.php'"><a href="#" title="비트코인캐시"><img src="img/bitcoincash.png" alt="비트코인캐시"/></a><span>비트코인캐시 BCH/KRW</span>
                                 <img src="img/usa-31-sq.png" alt="국기" class="flag"></dd>
@@ -85,7 +85,7 @@
                   </div>
                   <ul>
                     <li>
-                        <strong>이더리움</strong>
+                        <strong>이더리움클랙식</strong>
                         <b class="coin_word">ETC/KRW</b>
                     </li>
                     <li>
