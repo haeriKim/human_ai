@@ -63,27 +63,11 @@
                       <li></li>
 
                     </ul>
-                    <div class="prev1"><img src="img/arrow_efefef_next.png" alt="이전화살표" /></div>
-                    <div class="next1"><img src="img/arrow_efefef_prev.png" alt="다음화살표"/></div>
+                    <div class="arrow_area">
+                      <div class="prev1"><img src="img/arrow_efefef_next.png" alt="이전화살표" /></div>
+                      <div class="next1"><img src="img/arrow_efefef_prev.png" alt="다음화살표"/></div>
+                    </div>
                   </div><!--banner_slide End-->
-
-
-                  <!-- rolling_ad -->
-              <!--    <div class="slideWrap">
-
-                    <ul class="slideUl">
-                      <li class="banner1 banner"></li>
-                      <li class="banner2 banner"></li>
-                      <li class="banner3 banner"></li>
-                      <li class="banner4 banner"></li>
-                      <li class="banner5 banner"></li>
-                    </ul>
-
-                    <a href="#" class="nextBtn"></a>
-                    <a href="#" class="prevBtn"></a>
-
-                    <div class="slideshow-indicator"></div>
-                  </div>rolling_ad_img End-->
 
                   <!-- bitcoin_card_wrap  -->
                   <div class="bitcoin_card_wrap">

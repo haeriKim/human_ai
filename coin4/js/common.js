@@ -12,6 +12,7 @@ function slide() {
   var $dotli = $('.dot>li');
   var $panel = $('.panel');
   var $panelLi = $panel.children('li');
+  var $arrowLi = $('.prev1 img,.next1 img');
   // 변수 초기화
   function init() {
     wid = $('.slide').width();
@@ -50,6 +51,11 @@ function slide() {
       clearInterval(auto);
     });
   }
+  $('.prev1, .next1').hover(function(){
+    clearInterval(auto);
+  }, function(){
+    slide();
+  })
   // 자동실행 멈췄다가 재실행
   function autoPlayRestart() {
     $panelLi.mouseleave(function() {
@@ -1265,6 +1271,11 @@ function app_slide() {
       clearInterval(app_auto);
     });
   }
+  $('.app_prev1, .app_next1').hover(function(){
+    clearInterval(app_auto);
+  }, function(){
+    app_slide();
+  })
   // 자동실행 멈췄다가 재실행
   function autoPlayRestart() {
     $app_panelLi.mouseleave(function() {
