@@ -49,8 +49,8 @@
 }
 .dot {
   position: absolute;
-  right: 2%;
-  bottom: 10%;
+  left: 47%;
+  bottom: 8%;
   transform: translateX(-10%);
 }
 .dot>li {
