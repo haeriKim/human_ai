@@ -384,7 +384,7 @@
       position: relative;
       overflow: hidden;
       width:inherit;
-      height:520px;
+      height:530px;
     }
     .app_panel {
       width: 500%;
@@ -396,7 +396,7 @@
     }
     .app_panel>li {
       width: 20%;
-      height: 520px;
+      height: 530px;
       float: left;
       background-repeat: no-repeat;
       background-size: 100%;
