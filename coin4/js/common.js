@@ -1,49 +1,54 @@
 /*slide 슬라이드*/
 
 $(document).ready(function(){
-  var nowNum = 0;
-  var st;
-  var bannerObj = $('.slideUl li');
-  var maxLength = bannerObj.length;
 
-  // 자동슬라이드
-  function autoSlide(){
-    autoRun = setInterval(function() {
-      rollingFn('right');
-    },4000);
-  }
-  bannerObj.eq(nowNum).fadeIn();
+//자동슬라이드
+var slide=$('ul.imgslide');
+var slideWidth=slide.width();
+var slideList=$('ul.imgslide>li');
+var slideListWidth=$('ul.imgslide>li');
+var setInterval01;
 
- // 버튼 눌렀을 때 슬라이드
-  $('.nextBtn').on('click',function(e){
-      e.preventDefault();
-    rollingFn('right');
+var btnList=$('ul.btn>li');
+
+mainSlide();
+function mainSlide(){
+  setInterval01=setInterval(function(){
+    slide.stop().animate({left:'0'},500, function(){
+      $('ul.imgslide>li:first').insertAfter('ul.imgslide>li:last');
+      slide.css('left',0);
+    });
+  },5000)
+}
+
+function next(){
+  slide.animate({left:'0'},100, function(){
+    $('ul.imgslide>li:first').insertAfter('ul.imgslide>li:last');
+    slide.css('left',0);
   });
-  $('.prevBtn').on('click',function(e){
-      e.preventDefault();
-    rollingFn('left');
-  });
+}
 
-  function rollingFn(direction){
-    if(direction=='right'){
-      nowNum = nowNum+1;
-      if(nowNum>maxLength-1){
-        nowNum = 0;
-      }
-    }else{
-      nowNum = nowNum-1;
-      if(nowNum<0){
-        nowNum = maxLength-1;
-      }
-    }
-    bannerObj.hide().eq(nowNum).fadeIn();
-  }
-  $('.banner').mouseover(function(){
-     clearInterval(autoRun);
-   }).mouseout(function(){
-      autoSlide();
-   });
-  autoSlide();
+function prev(){
+  $('ul.imgslide>li:last').insertBefore('ul.imgslide>li:first');
+  slide.css('left','0');
+  slide.animate({left:0},100);
+}
+
+$('.prev1').click(function(){
+  prev();
+})
+
+$('.next1').click(function(){
+  next();
+})
+
+$('.imgslide, .btn, .prev1, .next1').hover(function(){
+  clearInterval(setInterval01);
+}, function(){
+  mainSlide();
+})
+
+
 });
 
 //메인_카드현황
@@ -1126,51 +1131,42 @@ $(document).ready(function(){
     })
 });
 /*App_slide 슬라이드*/
-
 $(document).ready(function(){
-  var nowNum = 0;
-  var st;
-  var bannerObj = $('.app_slideUl li');
-  var maxLength = bannerObj.length;
+  var slide=$('ul.app_imgslide');
+  var slideWidth=slide.width();
+  var slideList=$('ul.app_imgslide>li');
+  var slideListWidth=$('ul.app_imgslide>li');
+  var setInterval01;
 
-  // 자동슬라이드
-  function autoSlide(){
-    autoRun = setInterval(function() {
-      rollingFn('right');
-    },4000);
-  }
-  bannerObj.eq(nowNum).show();
+    //반응형배너
+    $('.app_next1').on('click',function(e){
+        e.preventDefault();
+        if($('.app_imgslide').is(':animated')==false){
+            $('.app_imgslide').animate({left:'-500px'},1000,function(){
+                $('.app_imgslide').append($('.app_imgslide li:first'));
+                $('.app_imgslide').css('left','0px');
+            })
+        }
+    })
+    //반응형배너
+    $('.app_prev1').on('click',function(e){
+        e.preventDefault();
+        if($('.app_imgslide').is(':animated')==false){
+            $('.app_imgslide').prepend($('.app_imgslide li:last'));
+            $('.app_imgslide').css('left','-500px');
+            $('.app_imgslide').animate({left:'0px'},1000)
+        }
+    })
+mainSlide();
+function mainSlide(){
+  setInterval01=setInterval(function(){
+    slide.stop().animate({left:'-500px'},500, function(){
+      $('ul.app_imgslide>li:first').insertAfter('ul.app_imgslide>li:last');
+      slide.css('left',0);
+    });
+  },5000)
+}
 
- // 버튼 눌렀을 때 슬라이드
-  $('.app_nextBtn').on('click',function(e){
-      e.preventDefault();
-    rollingFn('right');
-  });
-  $('.app_prevBtn').on('click',function(e){
-      e.preventDefault();
-    rollingFn('left');
-  });
-
-  function rollingFn(direction){
-    if(direction=='right'){
-      nowNum = nowNum+1;
-      if(nowNum>maxLength-1){
-        nowNum = 0;
-      }
-    }else{
-      nowNum = nowNum-1;
-      if(nowNum<0){
-        nowNum = maxLength-1;
-      }
-    }
-    bannerObj.hide().eq(nowNum).show();
-  }
-  $('.app_banner').mouseover(function(){
-     clearInterval(autoRun);
-   }).mouseout(function(){
-      autoSlide();
-   });
-  autoSlide();
 });
 
 /*반응형 로그인 말풍선*/

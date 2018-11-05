@@ -4,7 +4,64 @@
   height: auto;
 }
 /* slideul */
-.slideWrap {
+
+#imgbox{
+  width:100%;
+  height: 300px;
+  margin-bottom: 10px;
+
+}
+.imgbox_inner{
+  position:relative;
+  overflow:hidden;
+  width:1300px;
+  height:300px;
+
+}
+.imgslide{
+  position:absolute;
+  width:1300px;
+  height:300px;
+
+}
+.imgslide li{
+  width:100%;
+  height:300px;
+}
+
+.imgbox_inner .imgslide .img1{
+  background:url(../img/banner01.png) no-repeat 0 0; background-size:cover;
+}
+.imgbox_inner .imgslide .img2{
+  background:url(../img/banner02.png) no-repeat 0 0; background-size:cover;
+}
+.imgbox_inner .imgslide .img3{
+  background:url(../img/banner03.png) no-repeat 0 0; background-size:cover;
+}
+.imgbox_inner .imgslide .img4{
+  background:url(../img/banner04.png) no-repeat 0 0; background-size:cover;
+}
+.imgbox_inner .imgslide .img5{
+  background:url(../img/banner05.png) no-repeat 0 0; background-size:cover;
+}
+.prev1 img{
+  position:absolute;
+  top:120px;
+  left:20px;
+  width:30px;
+  height:30px;
+  cursor:pointer;
+}
+.next1 img{
+  position:absolute;
+  top:120px;
+  right:25px;
+  width:30px;
+  height:30px;
+  cursor:pointer;
+}
+
+/*.slideWrap {
   margin-bottom: 10px;
   position: relative;
 }
@@ -89,7 +146,8 @@
   background:url(../img/arrow_white_next.png) no-repeat 0 0;
   background-size:cover;
   display:inline-block;
-}
+} */
+
 
 
 /*코인현황*/
@@ -390,77 +448,65 @@
     }
 
     /*app_main_step2*/
-    .app_main_step2 .app_slideWrap{
+
+    #app_imgbox{
       width:100%;
+      height: 500px;
+
     }
-    .app_main_step2 .app_slideWrap ul{
-      width:100%;
-      position: relative;
-      z-index: 2;
-      overflow: hidden;
-      height:500px;
-      background:#1b2f4a;
-    }
-    .app_main_step2 .app_slideWrap li{
-      position: absolute;
-      z-index: 2;
-      top: 0;
-      left: 0;
-      width: 100%;
-      text-align: center;
-    }
-    .app_main_step2 .app_slideWrap .app_banner1{
+    .app_imgbox_inner{
+      position:relative;
+      overflow:hidden;
       width:100%;
       height:500px;
-      background:url(../img/m_banner01.png) no-repeat 40% 0; background-size:cover;
+
     }
-    .app_main_step2 .app_slideWrap .app_banner2{
+    .app_imgslide{
+      position:absolute;
       width:100%;
       height:500px;
-      background:url(../img/m_banner02.png) no-repeat 40% 0; background-size:cover;
+
     }
-    .app_main_step2 .app_slideWrap .app_banner3{
+    .app_imgslide li{
       width:100%;
       height:500px;
-      background:url(../img/m_banner03.png) no-repeat 40% 0; background-size:cover;
     }
-    .app_main_step2 .app_slideWrap .app_banner4{
-      width:100%;
-      height:500px;
-      background:url(../img/m_banner04.png) no-repeat 40% 0; background-size:cover;
+    .app_ql{
+      float:left;
     }
-    .app_main_step2 .app_slideWrap .app_banner4{
-      width:100%;
-      height:500px;
-      background:url(../img/m_banner05.png) no-repeat 40% 0; background-size:cover;
+
+    .app_imgbox_inner .app_imgslide .app_img1{
+      background:url(../img/m_banner01.png) no-repeat 0 0; background-size:cover;
     }
-    .app_main_step2 .app_slideWrap .app_nextBtn{
-      right: 1%;
-      bottom: 47%;
-      width: 30px;
-      height: 30px;
-      background: url(../img/arrow_white_next.png) no-repeat 0 0;
-      background-size: cover;
-      display: inline-block;
-      position: absolute;
-      z-index: 3;
-      font-size: 30px;
-      font-weight: bold;
-      opacity:0.6;
+    .app_imgbox_inner .app_imgslide .app_img2{
+      background:url(../img/m_banner02.png) no-repeat 0 0; background-size:cover;
     }
-    .app_main_step2 .app_slideWrap .app_prevBtn{
-      left: 1%;
-      bottom: 47%;
-      width: 30px;
-      height: 30px;
-      background: url(../img/arrow_white_prev.png) no-repeat 0 0;
-      background-size: cover;
-      display: inline-block;
-      position: absolute;
-      z-index: 3;
-      font-size: 30px;
-      font-weight: bold;
-      opacity:0.6;
+    .app_imgbox_inner .app_imgslide .app_img3{
+      background:url(../img/m_banner03.png) no-repeat 0 0; background-size:cover;
+    }
+    .app_imgbox_inner .app_imgslide .app_img4{
+      background:url(../img/m_banner04.png) no-repeat 0 0; background-size:cover;
+    }
+    .app_imgbox_inner .app_imgslide .app_img5{
+      background:url(../img/m_banner05.png) no-repeat 0 0; background-size:cover;
+    }
+    .app_prev1 img{
+      position:absolute;
+      top:250px;
+      left:10px;
+      width:30px;
+      height:30px;
+      cursor:pointer;
+      opacity: 0.5;
+    }
+    .app_next1 img{
+      position:absolute;
+      top:250px;
+      right:15px;
+      width:30px;
+      height:30px;
+      cursor:pointer;
+      opacity: 0.5;
     }
 
     /*app_main_step3*/
