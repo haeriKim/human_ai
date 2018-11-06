@@ -47,7 +47,7 @@
             <p><span>㈜디올스</span> | </span><span>대표 손용현</span></p>
             <p>서울특별시 강남구 테헤란로25길 20, 719호<br/>(역삼동, 역삼현대벤쳐텔)</p>
             <p>사업자등록번호 492-81-01041</p>
-            <p>통시난매업 제 2018-서울송파-1893호</p>
+            <p>통신판매업 제 2018-서울송파-1893호</p>
             <!--<p>고객문의 : thealls_cs@thealls.co.kr</p>
             <p>제휴문의 : thealls_sales@thealls.co.kr</p>-->
             <p class="centerNum">고객센터 : 0000-0000</p>
