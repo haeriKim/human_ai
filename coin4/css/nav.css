@@ -7,7 +7,7 @@
   height:100%;
   background-color:#1b2f4a;
   z-index:999;
-  box-shadow: 0 15px 15px rgba(100,100,100,0.7);
+  box-shadow: 0 0px 12px #0B1625;
 }
 #nav h1 {
   text-align: center;
@@ -312,7 +312,6 @@
         overflow-y: auto;
     }
     .m_navContent {
-      padding: 0 15px;
     }
     .m_nav_top{
         margin-top: 25px;
@@ -375,6 +374,8 @@
       line-height: 50px;
       overflow: hidden;
     }
+    .m_mainmenu .customer_li .second_menu{
+    }
     .m_mainmenu ul li .m_menutext{
         display: block;
         height:50px;
@@ -391,23 +392,26 @@
         font-weight: normal;
         text-align: center;
     }
-    .m_mainmenu ul li .second_menu{
-        width: 100%;
-        z-index: 999;
-        position: absolute;
-        background: #D1D5DB;
-        border-top: 1px solid #d9dcdc;
-        left: 0;
+    .m_mainmenu ul li .customer1{
+      background:url(../img/m_looksub.png) no-repeat 93% 50%; background-size:15px;
     }
-    .m_mainmenu ul li .second_menu li{
-        height: 40px;
-        line-height: 40px;
-        border-bottom: 1px solid #d9dcdc;
-        font-size: 13px;
-        text-align: center;
+    .m_mainmenu ul li .customer2{
+      background:url(../img/m_looksub_on.png) no-repeat 93% 50%; background-size:15px;
     }
-    .m_mainmenu ul li .second_menu a{
-        color: #0e141c;
+    .m_mainmenu ul .second_menu{
+      height:50%;
+      background: #D1D5DB;
+      border-top: 1px solid #d9dcdc;
+    }
+    .m_mainmenu ul .second_menu ul li{
+      height: 40px;
+      line-height: 40px;
+      border-bottom: 1px solid #d9dcdc;
+      font-size: 13px;
+      text-align: center;
+    }
+    .m_mainmenu ul .second_menu ul li a{
+      color: #0e141c;
     }
     .m_nav_bottom{
         margin-top: 20px;

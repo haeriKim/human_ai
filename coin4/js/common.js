@@ -1167,15 +1167,38 @@ $(document).ready(function(){
     })
 });
 
-/*반응형 햄버거 메뉴 안 고객지원 액티브 했을때 */
+//반응형 햄버거 메뉴 안 고객지원 액티브 했을때 */
 $(document).ready(function(){
+  var select = 0;
+  $(".customer2").hide();
+  $(".customer1,.customer2").click(function(){
+    if(select === 0) {
+        $(".customer2").show();
+        $(".customer1").hide();
+        select = 1;
+    }else {
+      $(".customer1").show();
+      $(".customer2").hide();
+      select = 0;
+    }
+  });
+});
+
+$(document).ready(function(){
+  var select = 0;
+  $(".second_menu").hide();
+  $(".customer1,.customer2").click(function(){
+        $(".second_menu").stop().slideToggle(500);
+  });
+});
+/*$(document).ready(function(){
     $(".m_mainmenu .customer_li .second_menu").hide();
     $(".m_mainmenu .customer_li > .m_menutext").click(function(e){
         e.preventDefault();
-        $(".m_mainmenu .customer_li .second_menu").stop().toggle();
+        $(".m_mainmenu .customer_li .second_menu").stop().slideToggle(500);
         $(".m_nav_bottom").stop().toggleClass('margin_on');
     })
-});
+});*/
 /*반응형 햄버거 쉐도우 클릭했을때 사라지기*/
 $(document).ready(function(){
     $('#responsive_shadow').click(function(e){

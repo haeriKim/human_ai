@@ -48,11 +48,16 @@
                             <strong class="none01">공지사항</strong>
                         </a>
                     </li>
-                    <li class='customer_li'>
-                        <a href="#" class="m_menutext">
-                            <strong class="none01">고객지원</strong>
+                    <li class='first_menu'>
+                        <a href="#">
+                            <strong class="customer1">고객지원</strong>
                         </a>
-                        <ul class="second_menu">
+                        <a href="#">
+                            <strong class="customer2">고객지원</strong>
+                        </a>
+                    </li>
+                    <li class="second_menu">
+                        <ul>
                             <li><a href="customer_FAQ.php">FAQ</a></li>
                             <li><a href="customer_question.php">1:1 문의</a></li>
                             <li><a href="guide_security.php">인증자료 제출안내</a></li>
@@ -60,15 +65,19 @@
                         </ul>
                     </li>
                 </ul>
+
+                <!-- m_nav_bottom -->
+                <div class="m_nav_bottom">
+                    <ul class="app_store">
+                        <li class='android'><a href='#'>Android 앱 다운로드</a></li>
+                        <li class='ios'><a href='#'>iOS 앱 다운로드</a></li>
+                    </ul>
+                </div><!-- m_nav_bottom End-->
+
+
             </div><!-- m_mainmenu End-->
         </div><!-- m_nav_mid End-->
 
-        <!-- m_nav_bottom -->
-        <div class="m_nav_bottom">
-            <ul class="app_store">
-                <li class='android'><a href='#'>Android 앱 다운로드</a></li>
-                <li class='ios'><a href='#'>iOS 앱 다운로드</a></li>
-            </ul>
-        </div><!-- m_nav_bottom End-->
+
     </div><!-- m_navContent End-->
 </div><!-- m_nav End-->

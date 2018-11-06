@@ -17,6 +17,8 @@
     }
     .moreView_content_wrap .second_menu{
         background: #0d121e;
+        margin:0;
+        padding:0;
     }
     .moreView_content_wrap .second_menu ul{
 

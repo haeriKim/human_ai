@@ -45,22 +45,22 @@
                     <li class='first_menu'>
                         <p>1:1 문의</p>
                     </li>
-                    <div class="second_menu">
+                    <li class="second_menu">
                         <ul class=''>
                             <li>1:1 문의하기</li>
                             <li>문의내역</li>
                         </ul>
-                    </div>
+                    </li>
                     <li class='first_menu'>
                         <p>인증자료 제출안내</p>
                     </li>
-                    <div class="second_menu">
+                    <li class="second_menu">
                         <ul>
                             <li>보안 비밀번호 초기화</li>
                             <li>계좌변경</li>
                             <li>OTP 초기화</li>
                         </ul>
-                    </div>
+                    </li>
                     <li>
                         <p>수수료 안내</p>
                         <!-- <img src="img/m_gothru.png" alt="자세히" class='gothru'> -->
