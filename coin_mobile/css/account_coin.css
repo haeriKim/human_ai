@@ -213,7 +213,7 @@
   font-size: 13px;
   margin-top: 15px;
 }
-.coin_input_outout input[type="text"].step {
+.coin_input_outout input[type="text"].step, .coin_input_outout input[type="password"].step {
   margin-top: 7px;
   border: none;
   border-bottom: 1px solid rgba(255,255,255,.6);
