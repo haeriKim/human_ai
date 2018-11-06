@@ -39,7 +39,7 @@
                 <div class="content">
                     <div class="account_area">
 
-                      
+
                       <div class="list_detail">
                         <table class="KRW_in_table">
                           <tbody>
@@ -66,7 +66,7 @@
 
                             <tr>
                               <th>입금신청금액</th>
-                              <td>1,000 KRW</td>
+                              <td>12,000 KRW</td>
                             </tr>
 
                             <tr>
