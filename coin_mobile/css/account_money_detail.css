@@ -2,6 +2,11 @@
 .list_detail{
   padding: 7px 15px;
 }
+.account_area .fail_text{
+  font-size:12px;
+  text-align: center;
+  padding:0 15px;
+}
 .account_area .list_detail table{
   font-size:13px;
   margin:10px 0;
@@ -31,6 +36,12 @@
     text-align: left;
     padding-left: 7px;
     border: 1px solid rgba(255,255,255,.2);
+}
+.account_area .list_detail table .fail{
+  color:#f35531;
+}
+.account_area .list_detail table .success{
+  color:rgba(255,255,255,0.6);
 }
 .list_detail .KRW_warning p{
   margin-top:10px;

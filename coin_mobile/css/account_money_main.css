@@ -33,6 +33,14 @@
     color: #30afb8;
     font-size: 11px;
 }
+.input_output_list .list_ul li p span.fail{
+    color: #f35531;
+    font-size: 11px;
+}
+.input_output_list .list_ul li p span.success{
+  color: rgba(255,255,255, 0.5);
+  font-size: 11px;
+}
 .input_output_list .list_ul li p.list_amount{
     float: right;
     font-size: 13px;
