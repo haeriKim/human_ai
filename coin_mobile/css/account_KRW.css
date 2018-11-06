@@ -147,6 +147,7 @@
   border-radius: 5px;
   overflow-y:scroll;
   height:350px;
+  padding: 10px 0;
 }
 #full_content .full_inner .full_table .KRW_table{
   color:#333;
@@ -162,8 +163,8 @@
   padding: 5px 0;
 }
 #full_content .full_inner .full_table .KRW_table td{
-  border-left:1px solid #efefef;
-  border-top:1px solid #efefef;
+  border-left:1px solid #30afb8;
+  border-top:1px solid #30afb8;
 }
 
 /*KRW_in_complete (Step3)*/

@@ -104,6 +104,8 @@
     font-size: 13px;
     background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
     border-radius: 5px;
+    height: 25px;
+    line-height: 25px;
 }
 #shadow{
     position: fixed;
