@@ -136,6 +136,7 @@
   overflow: hidden;
   margin: 0 5px;
   vertical-align: -6px;
+  font-weight:500;
 }
 #nav .login_info .alarmArea .alarm_desc dd .alarmTime {
   width: 10%
