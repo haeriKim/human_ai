@@ -51,10 +51,11 @@
 
 .my_assets_coin01 .coin_inout .coin_warning{
   font-size:12px;
-  margin-top: 10px;
+  margin-top: 25px;
 }
 .my_assets_coin01 .coin_inout .coin_warning p{
   margin-top:10px;
+  color: #30afb8;
 }
 .my_assets_coin01 .coin_inout .coin_warning li{
   color:rgba(255,255,255,.3);

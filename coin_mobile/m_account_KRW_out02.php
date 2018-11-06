@@ -76,9 +76,9 @@
                         </div>
 
                         <p class="input_title">보안 비밀번호</p>
-                        <input type="text" placeholder="보안비밀번호를 입력하세요." class="security_num step" maxlength="4" required>
+                        <input type="password" placeholder="보안비밀번호를 입력하세요." class="security_num step" maxlength="4" minlength="4" required>
                         <p class="input_title">OTP 인증번호</p>
-                        <input type="text" placeholder="OTP 인증번호를 입력하세요." class="otp_num step" maxlength="4" required>
+                        <input type="text" placeholder="OTP 인증번호를 입력하세요." class="otp_num step" maxlength="6" minlength="6" required>
                         <div class="sms_area">
                           <p class="input_title">휴대폰 SMS 인증</p>
                           <input type="text" placeholder="인증번호를 입력하세요." class="sms_num step" maxlength="6" required>
@@ -89,7 +89,7 @@
                           <li>- 1회 출금한도: 100,000,000</li>
                           <li>- 수수료: 1000 KRW</li>
                           <li>- 1일 잔여한도: 200,000,000</li>
-                          <li>- 입금 후 출금시간: 72시간</li>
+                          <li>- 처음 입금 후 출금시간: 72시간</li>
                         </ul>
                       </div>
 

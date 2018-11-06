@@ -69,7 +69,8 @@
   margin-top: 20px;
 }
 .my_assets_KRW01 .KRW_inout .KRW_warning p{
-  margin-top:10px;
+  margin-top:25px;
+  color: #30afb8;
 }
 .my_assets_KRW01 .KRW_inout .KRW_warning li{
   color:rgba(255,255,255,.3);
@@ -135,6 +136,7 @@
 .my_assets_KRW02 .KRW_input_outout .KRW_warning_list li.text {
   width: 100%;
   margin-bottom: 5px;
+  color: #30afb8;
 }
 #full{
   display:none;
@@ -186,7 +188,7 @@
   font-size: 13px;
   margin-top: 15px;
 }
-.KRW_input_outout input[type="text"].step {
+.KRW_input_outout input[type="text"].step, .KRW_input_outout input[type="password"].step {
   margin-top: 7px;
   border: none;
   border-bottom: 1px solid rgba(255,255,255,.6);
