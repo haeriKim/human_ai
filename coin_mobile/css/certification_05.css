@@ -1,5 +1,5 @@
 /*OTP 인증*/
-
+@media all and (min-width:320px) and (max-width:768px){
 .certification_OTP_area{
   padding : 0 15px;
   font-size:12px;
@@ -132,6 +132,7 @@
 .certification_OTP_area .OTP_inner .key_area #OTP_complete{
   text-align: center;
   margin:20px 0;
+}
 }
 .none_box{
   height:20px;

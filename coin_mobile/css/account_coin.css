@@ -1,4 +1,5 @@
 /* 원화입금 common css */
+@media all and (min-width:320px) and (max-width:768px){
 .account_area {
   margin: 60px auto 0;
 }
@@ -234,6 +235,7 @@
   position: absolute;
   top: 20px;
   right: 3%;
+}
 }
 .none_box{
   height:50px;

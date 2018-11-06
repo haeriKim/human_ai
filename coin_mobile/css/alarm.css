@@ -1,4 +1,5 @@
 /*알람*/
+@media all and (min-width:320px) and (max-width:768px){
 .alarm_area .alarm_header{
   height:25px;
   padding:5px 0;
@@ -92,6 +93,7 @@
 .alarm_area .contentBottom .paging .selected{
   font-weight:600;
   color:#30afb8;
+}
 }
 .none_box{
   height:20px;

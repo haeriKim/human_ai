@@ -1,5 +1,5 @@
 /*마이페이지*/
-
+@media all and (min-width:320px) and (max-width:768px){
 .myinfo_area{
   padding: 7px 0;
 }
@@ -36,4 +36,5 @@
   color:#f35531;
   padding:10px 5%;
   background:#192331;
+}
 }

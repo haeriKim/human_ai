@@ -1,3 +1,4 @@
+@media all and (min-width:320px) and (max-width:768px){
 .list_detail{
   padding: 7px 15px;
 }
@@ -40,4 +41,5 @@
   color:rgba(255,255,255,.3);
   width:100%;
   margin-top:10px;
+}
 }

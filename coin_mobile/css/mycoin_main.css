@@ -1,3 +1,4 @@
+@media all and (min-width:320px) and (max-width:768px){
 .my_assets{
     margin: 85px auto;
 }
@@ -100,6 +101,10 @@
 .coin_table table tbody .mycoin_name p {
   display: inline-block;
 }
+}
 .none_box{
   height:40px;
+}
+#full{
+  display:none;
 }

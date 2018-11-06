@@ -1,5 +1,5 @@
 /*계좌 인증*/
-
+@media all and (min-width:320px) and (max-width:768px){
 .certification_account_area{
   padding:7px 15px;
   font-size:12px;
@@ -235,6 +235,7 @@
   width: 25%;
   background: none;
   font-size: 13px;
+}
 }
 .none_box{
   height:40px;

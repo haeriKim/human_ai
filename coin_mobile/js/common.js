@@ -137,12 +137,21 @@ $(document).ready(function(){
 
 //메인 팝업
 $(document).ready(function(){
-    $('#full').show();
     $('#full_content .close_btn').click(function(e){
         e.preventDefault();
         $('#full').hide();
     })
 });
+//자산관리팝업
+$(document).ready(function(){
+  $('.question_mark').click(function(){
+    $('#full').show();
+  });
+  $('#full_content .close_btn').click(function(e){
+    e.preventDefault();
+    $('#full').hide();
+  })
+})
 
 //고객지원 아코디언
 $(document).ready(function(){

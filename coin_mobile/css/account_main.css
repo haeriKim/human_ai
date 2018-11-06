@@ -1,3 +1,4 @@
+@media all and (min-width:320px) and (max-width:768px){
 .coin_table .table_title {
   padding: 0 15px;
 }
@@ -53,6 +54,7 @@
 
 .coin_table table tbody .mycoin_name span.color_bk {
   color: rgba(255,255,255,.6);
+}
 }
 .none_box{
   height:40px;

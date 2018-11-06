@@ -1,4 +1,5 @@
 /*공지사항*/
+@media all and (min-width:320px) and (max-width:768px){
 .notice_area{
 
   width:100%;
@@ -125,6 +126,7 @@
   font-size:12px;
   margin:10px 15px;
   color:rgba(255, 255, 255,0.6);
+}
 }
 .none_box{
   height:40px;

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/mycoin_main.css">
+    <link rel="stylesheet" href='css/popup.css'>
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/common.js"></script>
@@ -264,5 +265,45 @@
         <!-- nav_wrap -->
         <!-- nav_wrap End-->
     </div><!-- wrap End -->
+
+    <div id="full">
+            <!-- full_content -->
+            <div id="full_content" class='box'>
+                <div class="full_inner">
+                    <h2>보유코인 유의사항</h2>
+
+                    <div class="full_scroll">
+
+                      <b>1. 보유코인의 매수평균가, 평가금액, 평가손익, 수익률 은 모두 KRW로 환산한 추정값으로 참고용입니다.</b>
+                      <p>The Alls에서는 4가지의 기초화폐(KRW, BTC, ETH, USDT)로 암호화폐를 거래할 수 있습니다.</p>
+                      <p>4가지 기초화폐 중 어떤 것으로 거래하는가에 따라서 매수가격의 단위가 달라지며, 하나의 코인을 2가지 이상의 기초화폐로 거래하게 되면 현재 수익률을 확인하는 것이 어려워지게 됩니다.</p>
+                      <p>이를 위한 보완책으로 모든 가격의 단위를 KRW로 환산해 현재 추정 수익률을 참고용으로 확인하실 수 있도록 제공합니다.</p>
+                    </br>
+                      <b>2. 보유코인의 매수/매도 및 입금/출금 내역을 모두 반영합니다. 입금 내역의 매수평균가는 입금 시점의 시세를 반영해 계산합니다.</b><br/>
+                      <br/>
+                      <b>3. 계산 방식</b>
+                    </br>
+                      <p>총평가: 보유 암호화폐의 평가금액 합계</p>
+                      <p>총 보유자산: 총평가 + 보유KRW</p>
+                      <p>매수평균가: 매수(입금) 체결 시 직전 매수평균가와 평균, 매도(출금) 체결 시 직전 매수평균가 유지 BTC 마켓의 매수가격은 BTC/KRW</p>
+                      <p>가격을 반영해 KRW로 환산(같은 방식으로 ETH 마켓과 USDT 마켓 가격도 KRW로 환산)</p>
+                      <p>매수금액: 보유수량 x 매수평균가</p>
+                      <p>평가금액: 보유수량 x 현재가 보유코인이 KRW마켓에 상장되어 있으면 KRW 마켓 현재가 기준, 그렇지 않으면 BTC 마켓의 현재가를 KRW로 환산해서 평가금액 계산</p>
+                      <p>평가손익: 평가금액 – 매수금액</p>
+                      <p>수익률: 평가손익 ÷ 매수금액</p>
+                      <br/>
+                      <b>※ 보유코인을 어떤 마켓에서 매매한 것인지에 따라서, 혹은 입출금이 빈번이 발생하는 경우 수익률이 과대 혹은 과소평가되어 보일 수 있습니다.(고객님의 보유 수량에는 영향을 미치지 않습니다.)
+                      이는 고객님의 수익평가에 대한 참고자료로, The Alls는 제공된 편의정보를 기반으로 한 투자결과에 대한책임을 지지 않습니다.</b><br/>
+
+
+                    </div>
+
+                    <a href="#" class='close_btn'>닫기</a>
+
+                </div>
+            </div><!-- full_content End-->
+            <div id="shadow"></div>
+    </div>  <!-- full End-->
+
 </body>
 </html>
