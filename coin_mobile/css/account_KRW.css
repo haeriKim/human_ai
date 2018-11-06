@@ -82,6 +82,10 @@
 .my_assets_KRW02 .KRW_input{
   font-size:12px;
 }
+#question_mark{
+  margin-left:5px;
+  vertical-align:-2px;
+}
 .my_assets_KRW02 .KRW_input_outout .send_money{
   margin-top: 10px;
   border: none;
@@ -131,6 +135,32 @@
 .my_assets_KRW02 .KRW_input_outout .KRW_warning_list li.text {
   width: 100%;
   margin-bottom: 5px;
+}
+#full{
+  display:none;
+}
+#full_content .full_inner .full_table{
+  margin-top:20px;
+  margin-bottom:20px;
+  border-radius: 5px;
+  overflow-y:scroll;
+  height:400px;
+}
+#full_content .full_inner .full_table .KRW_table{
+  color:#333;
+  font-size:12px;
+  border:1px solid #30afb8;
+  border-radius: 5px;
+}
+#full_content .full_inner .full_table .KRW_table p{
+  margin:0 auto;
+}
+#full_content .full_inner .full_table .KRW_table th{
+  border:1px solid #30afb8;
+}
+#full_content .full_inner .full_table .KRW_table td{
+  border-left:1px solid #efefef;
+  border-top:1px solid #efefef;
 }
 
 /*KRW_in_complete (Step3)*/
