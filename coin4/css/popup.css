@@ -489,6 +489,33 @@
     height: 100%;
     z-index: 999;
 }
+/*반응형 팝업*/
+@media all and (min-width:320px) and (max-width:768px){
+  #popupbox {
+    width: 85%;
+}
+.popup {
+    position: fixed;
+    top: 50%;
+    margin-left: -43%;
+    width: 100%;
+}
+#full .question_ok {
+    padding: 7px 10px;
+    font-size: 13px;
+}
+#full .cancel_btn_ok {
+    font-size: 13px;
+    margin-left:0;
+}
+#full2 .question_ok2{
+    font-size:13px;
+}
+#full2 .cancel_btn3{
+    font-size:13px;
+    margin-left:0;
+}
+
 /*회원가입 팝업반응형*/
 @media (max-width:768px) {
     #full .email_pop{
