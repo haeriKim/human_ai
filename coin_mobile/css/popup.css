@@ -19,8 +19,9 @@
 
 }
 .popup_area .popup_box .popupbox_text .hour{
-  color:#c95b74;
+  color:#30AFB8;
   font-weight:600;
+  font-size: 14px;
 }
 .popup_area .popup_box .btn_area input{
   margin-top:30px;

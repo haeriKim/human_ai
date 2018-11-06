@@ -59,6 +59,7 @@
                     <div class="n_list">
                       <p class="search">
                           <select id="look_method" name="look_method">
+                              <option value="" selected=selected disabled>공지 유형</option>
                               <option value="">전체</option>
                               <option value="">안내</option>
                               <option value="">입출금</option>

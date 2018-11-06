@@ -41,7 +41,8 @@
 
                       <div class="popup_box">
                           <div class="popupbox_text">
-                            <p class="limit">처음 원화(KRW) 입금하시는 경우, <span class="hour">3일(72시간)</span> 동안 KRW 및 암호화폐의 출금이 제한됩니다.</p>
+                            <p class="limit">처음 원화(KRW) 입금하시는 경우,<br/>
+                            <span class="hour">3일(72시간)</span> 동안 KRW 및 암호화폐의 출금이 제한됩니다.</p>
                           </div>
                           <div class="btn_area">
                             <input type="button" name="submit" value="확인" class="popupbt ok">
