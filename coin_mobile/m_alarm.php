@@ -26,9 +26,6 @@
               <div class="headerTop">
                 <a href="#" onclick="history.go(-1); return false;"/> <input type="button" class="back" ></a>
                 <h2 class="header_title">알림</h2>
-                <div class="alarm_area">
-                  <img src="img/bell.png" class="alarmBtn" alt="알림버튼"/>
-                </div>
               </div>
             </div> <!-- header End-->
           </div><!-- header_wrap End-->
