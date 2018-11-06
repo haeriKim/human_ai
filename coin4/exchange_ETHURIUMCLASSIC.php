@@ -1227,73 +1227,81 @@
                   <div class="box coin_select">
                     <!-- 코인선택 영역 -->
                     <div class="coinSelect_area">
-                        <dl class="coinSelect">
-                            <dt><a href="#" title="비트코인"><img src="img/bitcoin.png" alt="비트코인"/></a><span>비트코인 BTC/KRW</span></dt>
-                            <dd><a href="#" title="비트코인"><img src="img/bitcoin.png" alt="비트코인"/></a><span>비트코인 BTC/KRW</span></dd>
-                            <dd><a href="#" title="비트코인캐시"><img src="img/bitcoincash.png" alt="비트코인캐시"/></a><span>비트코인캐시 BCH/KRW</span></dd>
-                            <dd><a href="#" title="이더리움"><img src="img/eth.png" alt="이더리움"/></a><span>이더리움 ETH/KRW</span></dd>
-                            <dd><a href="#" title="이더리움클래식"><img src="img/etc.png" alt="이더리움클래식"/></a><span>이더리움클래식 ETC/KRW</span></dd>
-                            <dd><a href="#" title="이오스"><img src="img/eos.png" alt="이오스"/></a><span>이오스 EOS/KRW</span></dd>
-                            <dd><a href="#" title="리플"><img src="img/reaple.png" alt="리플"/></a><span>리플 XRP/KRW</span></dd>
-                            <dd><a href="#" title="에이다"><img src="img/ada.png" alt="에이다"/></a><span>에이다 ADA/KRW</span></dd>
-                        </dl>
-                    </div>
+                      <dl class="coinSelect">
+                          <dt><a href="#" title="이더리움클래식"><img src="img/etc.png" alt="이더리움클래식"/></a><span>이더리움클래식 ETC/KRW</span>
+                            <img src="img/sws-31-sq.png" alt="국기" class="flag"></dt>
+                            <dd onclick="location.href='exchange_BITCOIN.php'"><a href="#" title="비트코인"><img src="img/bitcoin.png" alt="비트코인"/></a><span>비트코인 BTC/KRW</span>
+                              <img src="img/usa-31-sq.png" alt="국기" class="flag"></dd>
+                            <dd onclick="location.href='exchange_BITCOINCASH.php'"><a href="#" title="비트코인캐시"><img src="img/bitcoincash.png" alt="비트코인캐시"/></a><span>비트코인캐시 BCH/KRW</span>
+                              <img src="img/usa-31-sq.png" alt="국기" class="flag"></dd>
+                            <dd onclick="location.href='exchange_ETHURIUM.php'"><a href="#" title="이더리움"><img src="img/eth.png" alt="이더리움"/></a><span>이더리움 ETH/KRW</span>
+                              <img src="img/sws-31-sq.png" alt="국기" class="flag"></dd>
+                            <dd onclick="location.href='exchange_ETHURIUMCLASSIC.php'"><a href="delete03.php" title="이더리움클래식"><img src="img/etc.png" alt="이더리움클래식"/></a><span>이더리움클래식 ETC/KRW</span>
+                              <img src="img/sws-31-sq.png" alt="국기" class="flag"></dd>
+                            <dd onclick="location.href='exchange_EOS.php'"><a href="#" title="이오스"><img src="img/eos.png" alt="이오스"/></a><span>이오스 EOS/KRW</span>
+                              <img src="img/hk-31-sq.png" alt="국기" class="flag"></dd>
+                            <dd onclick="location.href='exchange_RIPPLE.php'"><a href="#" title="리플"><img src="img/reaple.png" alt="리플"/></a><span>리플 XRP/KRW</span>
+                              <img src="img/usa-31-sq.png" alt="국기" class="flag"></dd>
+                            <dd onclick="location.href='exchange_ADA.php'"><a href="#" title="에이다"><img src="img/ada.png" alt="에이다"/></a><span>에이다 ADA/KRW</span>
+                              <img src="img/sws-31-sq.png" alt="국기" class="flag"></dd>
+                      </dl>
                   </div>
-
-
-
-            <!--coin_money-->
-              <div class="box coin_money">
-
-                <div class="coin_money_inner">
-                  <div class="img_area">
-                      <img src="img/bitcoincash_big.png" alt="비트코인캐시아이콘" class="bitcoin_icon">
-                  </div>
-                  <ul>
-                    <li>
-                        <strong>비트코인캐시</strong>
-                        <b class="coin_word">BCH/KRW</b>
-                    </li>
-                    <li>
-                      <span class="price">481,400<b class="won">KRW</b>
-                      </span>
-                    </li>
-                    <li class="coin_prepare">
-                      <strong>전일대비</strong>
-                      <span class="prepare"><b>-0.11</b>%</span>
-                      <span class="updownarrow"><img src="img/arrow_down_blue.png" class="ud" alt='하락'>4,280</span>
-                    </li>
-                  </ul>
-                  <span class="question">&#63;</span>
                 </div>
 
-                <ul class="coin_money_prepare">
 
-                  <li class="hl_price">
-                    <span class="hl_title">고가</span>
-                    <p><span class="price_up">481,400</span><b class="won">KRW</b></p>
-                  </li>
-                  <li class="hl_price">
-                    <span class="hl_title">저가</span>
-                    <p><span class="price_down">2,82,000</span><b class="won">KRW</b></p>
-                  </li>
 
+          <!--coin_money-->
+            <div class="box coin_money">
+
+              <div class="coin_money_inner">
+                <div class="img_area">
+                    <img src="img/etc_big.png" alt="이더리움클래식" class="bitcoin_icon">
+                </div>
+                <ul>
+                  <li>
+                      <strong>이더리움클랙식</strong>
+                      <b class="coin_word">ETC/KRW</b>
+                  </li>
+                  <li>
+                    <span class="price">10,190<b class="won">KRW</b>
+                    </span>
+                  </li>
+                  <li class="coin_prepare">
+                    <strong>전일대비</strong>
+                    <span class="prepare"><b>-0.20</b>%</span>
+                    <span class="updownarrow"><img src="img/arrow_down_blue.png" class="ud" alt='하락'>20</span>
+                  </li>
                 </ul>
+                <span class="question3">&#63;</span>
+              </div>
 
-                <ul class="coin_money_volume">
+              <ul class="coin_money_prepare">
 
-                  <li class="hl_volume">
-                    <span class="hl_title">거래량<small>(24H)</small></span>
-                      <p><span class="volume">1,930.800</span><b class="unit BTC">BCH</b></p>
-                  </li>
-                  <li class="hl_volume">
-                    <span class="hl_title">거래대금<small>(24H)</small></span>
-                      <p><span class="volume">9,560,000</span><b class="unit won">KRW</b></p>
-                  </li>
+                <li class="hl_price">
+                  <span class="hl_title">고가</span>
+                  <p><span class="price_up">10,250</span><b class="won">KRW</b></p>
+                </li>
+                <li class="hl_price">
+                  <span class="hl_title">저가</span>
+                  <p><span class="price_down">10,180</span><b class="won">KRW</b></p>
+                </li>
 
-                </ul>
+              </ul>
 
-              </div><!--coin_money End-->
+              <ul class="coin_money_volume">
+
+                <li class="hl_volume">
+                  <span class="hl_title">거래량<small>(24H)</small></span>
+                    <p><span class="volume">42,842.668</span><b class="unit BTC">ETC</b></p>
+                </li>
+                <li class="hl_volume">
+                  <span class="hl_title">거래대금<small>(24H)</small></span>
+                    <p><span class="volume">436,504,043</span><b class="unit won">KRW</b></p>
+                </li>
+
+              </ul>
+
+            </div><!--coin_money End-->
 
 
 <!-- 코인상세보기 시작 ------------------------------------------------------------------------------------------------------------------------------->
@@ -2298,33 +2306,6 @@
             <div id="shadow"></div>
     </div>  <!-- full End-->
 
-    <div id="main_full">
-            <!-- full_content -->
-            <div id="full_content" class='box'>
-                <div class="full_inner">
-                    <h2>암호화폐 거래 안내</h2>
-                    <p>
-                        최근 암호화폐에 대한 관심과 함께 무리한 투자에 대한 우려도 증가하고
-                        있습니다. 안전하게 암호화폐를 거래할 수 있도록 아래 유의사항을 충분히
-                        숙지하신 후 이용하시기 바랍니다.
-                    </p>
-                    <ul>
-                        <li>암호화폐는 법정화폐가 아니며, 특정 주체가 가치를 보장하지 않습니다.</li>
-                        <li>암호화폐는 365일, 24시간 전 세계에서 거래되며, 투기적 수요 및
-                            국내외 규제 환경 등에 따라 급격한 시세 변동에 노출될 수 있습니다.</li>
-                        <li>암호화폐에 대한 투자판단의 책임은 본인에게 있으며, 그에 따라
-                            발생 가능한 손실도 투자자 본인에게 귀속됩니다.</li>
-                    </ul>
-                    <p>암호화폐의 특성을 충분히 숙지하시고 신중하게 거래에 임해주시기 바랍니다.</p>
-                    <form class="" action="#" method="post">
-                        <input type="checkbox" id='today_close' name='today_close'>
-                        <label for='today_close'>오늘 하루 이 창 열지않기</label>
-                    </form>
-                    <a href="#" class='close_btn'>닫기</a>
-                </div>
-            </div><!-- full_content End-->
-            <div id="shadow"></div>
-    </div>  <!-- main_full End-->
 
 
 
