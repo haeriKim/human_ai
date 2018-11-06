@@ -76,7 +76,7 @@
                         <p class="input_title">코인출금 주소</p>
                           <input type="text" placeholder="출금할 코인 주소를 입력하세요." class="security_num step" required>
                         <p class="input_title">보안 비밀번호</p>
-                          <input type="text" placeholder="보안비밀번호를 입력하세요." class="security_num step" maxlength="4" minlength="4" required>
+                          <input type="password" placeholder="보안비밀번호를 입력하세요." class="security_num step" maxlength="4" minlength="4" required>
                         <p class="input_title">OTP 인증번호</p>
                           <input type="text" placeholder="OTP 인증번호를 입력하세요." class="otp_num step" maxlength="6" minlength="6" required>
                         </form>
