@@ -154,10 +154,10 @@
 }
 #full_content .full_inner .full_table .KRW_table p{
   margin:0 auto;
-  padding: 5px 0;
 }
 #full_content .full_inner .full_table .KRW_table th{
   border:1px solid #30afb8;
+  padding: 5px 0;
 }
 #full_content .full_inner .full_table .KRW_table td{
   border-left:1px solid #efefef;
