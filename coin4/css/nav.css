@@ -318,6 +318,7 @@
     }
     .m_lnb{
         overflow: hidden;
+        padding: 0 15px;
     }
     .m_lnb > span{
         width: 49%;
