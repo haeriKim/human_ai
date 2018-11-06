@@ -1,0 +1,30 @@
+body {
+  background-color: #1b2f4a;
+}
+.prepare_wrap {
+  overflow: hidden;
+}
+.prepare_wrap .imgArea {
+  float: left;
+}
+.prepare_wrap .textArea {
+  float: left;
+  color: #fff;
+  margin-left: 50px;
+  padding: 111px 0;
+}
+.prepare_wrap .textArea h3 {
+  font-size: 50px;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+  color: #eaaf69;
+}
+.prepare_wrap .textArea p {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.prepare_wrap .textArea strong {
+  display: block;
+  line-height: 1.5;
+
+}

@@ -71,6 +71,9 @@
   color: #888;
   display: inline-block;
 }
+.footer_menu .footer_nav ul li a.pp {
+  color: #eaaf69;
+}
 #footer_wrap{
   display:block;
 }
