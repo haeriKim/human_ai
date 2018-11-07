@@ -174,3 +174,19 @@
   color: #fff;
   text-decoration: underline;
 }
+.top_bt{
+  display:none;
+  width:30px;
+  height:30px;
+  font-size:12px;
+  background:#1061A8;
+  text-align:center;
+  line-height:30px;
+  position:fixed;
+  right:10px;
+  bottom:10%;
+  cursor:pointer;
+}
+.top_bt a{
+  color:#fff;
+}
