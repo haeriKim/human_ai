@@ -37,19 +37,19 @@
               </a>
             </li>
             <li>
-              <a href='h_sub_technology.html'>
+              <a href='h_sub_technology.php'>
                 <p>Business Areas</p>
                 <span>사업분야</span>
               </a>
             </li>
             <li>
-              <a href='h_sub_notice.html'>
+              <a href='h_sub_notice.php'>
                 <p>Notice</p>
                 <span>공지사항</span>
               </a>
             </li>
             <li>
-              <a href='h_sub_contact.html'>
+              <a href='h_sub_contact.php'>
                 <p>Directions</p>
                 <span>오시는길</span>
               </a>
