@@ -6,10 +6,12 @@
 #container .main_content{
   padding:15px;
   color:#fff;
+
 }
 #container .main_content .main_text{
   text-align:right;
   padding:30px 80px;
+    font-family : "Nanum Gothic",sans-serif;
 }
 #container .main_content .main_text p{
   font-size:30px;
@@ -29,6 +31,7 @@
   left: 6%;
   cursor: pointer;
   display: none;
+
 }
 #container .main_content .main_title:hover{
   opacity:0.9;
@@ -36,6 +39,7 @@
 #container .main_content .main_title p {
   font-size:75px;
   line-height: 1.1em;
+  font-family : "Fira Sans",sans-serif;
 }
 #container .main_content .main_title .solution{
   letter-spacing:3px;

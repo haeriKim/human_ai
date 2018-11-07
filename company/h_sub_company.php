@@ -93,15 +93,22 @@
                 비전
               </p>
               <div class="vision_bg">
+                <p><img src="img/vision2.png" alt="비전"></p>
                 <div class="vision_text">
+                  <p class="vision_title">Vision</p>
+                  <br/>
+                  <p>사람과 컴퓨터 사이에 친밀감 있게 접목되는 인공지능 소프트웨어 및 장치를 개발하여, 인류사회 발전과, 사람의 행복한 삶 추진에 기여하고 있습니다.</p>
+                  <br/>
+                  <p class="vision_title">Mission</p>
+                  <br/>
                   <p>1. 구성원 성장과 비젼실현</p>
-                  <span>전문 분야에서 경험을 바탕으로한 체계적이고 창의적인 지도</span><br/>
+                  <span>인공지능 관련 선도 회사로 외국 AI 회사와 비교 경쟁력 확보</span><br/>
                   <br/>
                   <p>2. 연구 개발 중심</p>
-                  <span>선진 기술을 기반으로 고객의 요구사항을 실현하는 능력</span><br/>
+                  <span>해킹을 막고 개인정보 유출이 되지 않는 인공지능기술 활요 보안시스템 개발 및 사업 선도</span><br/>
                   <br/>
                   <p>3. 신뢰할 수 있는 서비스</p>
-                  <span>고객 주인 정신 실천 최상의 서비스</span><br/>
+                  <span>인공지능 활용 동화 및 저서 쌍방향 대화시스템 개발 및 사업 선도</span><br/>
                 </div>
 
               </div>

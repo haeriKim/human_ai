@@ -15,6 +15,7 @@
 .intro_inner{
     text-align: center;
     margin-left: 234px;
+    font-family: "Nanum Gothic",sans-serif;
 
 }
 .intro_inner .bg_area {
@@ -126,25 +127,21 @@
     margin: 0 auto 200px auto;
 }
 .vision_bg{
-  width:1200px;
-  height:650px;
-  background:url(../img/vision.jpg) no-repeat 0 0; background-size:100%;
-  margin: 0 auto 200px auto
 }
 .vision_text{
-  position: relative;
-  top: 100px;
-  left: 300px;
   text-align: left;
   display:inline-block;
 }
+.vision_text .vision_title{
+  font-size:25px;
+}
 .vision_text p{
   font-weight:600;
-  font-size:20px;
+  font-size:18px;
   margin-bottom:5px;
 }
 .vision_text span{
-  margin-top:0px;
+  margin-top:10px;
   display:block;
 }
 
