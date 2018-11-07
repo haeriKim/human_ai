@@ -24,3 +24,7 @@
 #sub_wrap #header {
   position: fixed;
 }
+
+.notice{
+  letter-spacing: 3px;
+}

@@ -35,7 +35,7 @@
 }
 .intro_inner ul li{
     float: left;
-    width: 33.3%;
+    width: 25%;
 }
 .intro_inner ul li a{
     color:#222;
@@ -109,13 +109,42 @@
   margin-bottom: 60px;
   font-weight: 600;
 }
+.co_intro_content .CEO_img{
+  text-align:right;
+}
 .first_indent{
   margin-left:-60px;
 }
 .co_intro_history,
 .co_intro_map{
-    width: 1200px;
+  width: 1200px;
+  margin: 0 auto 200px auto;
+}
+.co_vision{
+  width: 1200px;
     margin: 0 auto 200px auto;
+}
+.vision_bg{
+  width:1200px;
+  height:650px;
+  background:url(../img/vision.jpg) no-repeat 0 0; background-size:100%;
+  margin: 0 auto 200px auto
+}
+.vision_text{
+  position: relative;
+  top: 100px;
+  left: 300px;
+  text-align: left;
+  display:inline-block;
+}
+.vision_text p{
+  font-weight:600;
+  font-size:20px;
+  margin-bottom:5px;
+}
+.vision_text span{
+  margin-top:0px;
+  display:block;
 }
 
 /*footer*/
