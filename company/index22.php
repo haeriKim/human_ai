@@ -18,7 +18,7 @@
           <div class="main_text">
             <p>더 나은 삶을 기대할 수 있는 기술</p>
             <span><!--Creating Innovation Through Artificial Intelligence Technology-->
-            감성을 담은 인공지능기업 휴먼앤에이아이를 소개합니다.</span>
+            인공지능기업 휴먼앤에이아이를 소개합니다.</span>
           </div>
 
           <div class="main_nullbox">
@@ -40,7 +40,7 @@
 <script>
 
 var maintext = $(".main_title")
-maintext.delay(2000).fadeIn(3500);
+maintext.fadeIn(2000);
 
 </script>
 </body>
