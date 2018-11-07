@@ -139,6 +139,10 @@
 .my_assets_coin02 .coin_input{
   font-size:12px;
 }
+#question_mark{
+  margin-left:5px;
+  vertical-align:-1px;
+}
 .my_assets_coin02 .coin_input_outout .send_money{
   margin-top: 10px;
   border: none;
@@ -188,6 +192,34 @@
 .my_assets_coin02 .coin_input_outout .coin_warning_list li.text {
   width: 100%;
   margin-bottom: 5px;
+}
+#full{
+  display:none;
+}
+#full_content .full_inner .full_table{
+  margin-top:20px;
+  margin-bottom:20px;
+  border-radius: 5px;
+  overflow-y:scroll;
+  height:350px;
+  padding: 10px 0;
+}
+#full_content .full_inner .full_table .KRW_table{
+  color:#333;
+  font-size:12px;
+  border:1px solid #30afb8;
+  border-radius: 5px;
+}
+#full_content .full_inner .full_table .KRW_table p{
+  margin:0 auto;
+}
+#full_content .full_inner .full_table .KRW_table th{
+  border:1px solid #30afb8;
+  padding: 5px 0;
+}
+#full_content .full_inner .full_table .KRW_table td{
+  border-left:1px solid #30afb8;
+  border-top:1px solid #30afb8;
 }
 
 /*coin_in_complete (Step3)*/
