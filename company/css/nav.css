@@ -9,6 +9,7 @@
   height: 100%;
   width: 234px;
   box-shadow: 0px 10px 10px #ececec;
+  font-family : "Fira Sans",sans-serif;
 }
 /* 네비 영역 */
 #nav {

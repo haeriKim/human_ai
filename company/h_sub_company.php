@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/h_sub_company.css">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Fira+Sans|Kumar+One+Outline|Nanum+Gothic|Oswald|PT+Serif|Signika|Work+Sans|Yanone+Kaffeesatz" rel="stylesheet">
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 </head>
 <body>
@@ -108,7 +108,7 @@
 
             </div>
 
-            <div id="top_bt" class="top_bt"><a href="#">Top</a></div>
+            <a href="#"><div id="top_bt" class="top_bt">Top</div></a>
 
             <script>
 
