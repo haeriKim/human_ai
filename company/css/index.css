@@ -1,0 +1,54 @@
+/*회사메인 css*/
+
+#wrap{
+  background:url(../img/company_main.png) no-repeat 0 40%; background-size:cover;
+}
+#container .main_content{
+  padding:15px;
+  color:#fff;
+}
+#container .main_content .main_text{
+  text-align:right;
+  padding:35px 50px;
+}
+#container .main_content .main_text p{
+  font-size:40px;
+  font-weight:600;
+  margin-bottom:10px;
+  text-shadow: 0.5px 0.5px 0.5px #000;
+}
+#container .main_content .main_text span{
+  font-size:18px;
+}
+#container .main_content .main_nullbox{
+  height:450px;
+}
+#container .main_content .main_title{
+  margin-left:100px;
+  padding-top:10px;
+  padding-bottom:30px;
+  padding-left:60px;
+  width:650px;
+  cursor:pointer;
+  display:none;
+  text-shadow:0.5px 0.5px 0.5px #ffc;
+}
+#container .main_content .main_title:hover{
+  opacity:0.9;
+}
+#container .main_content .main_title p {
+  font-size:75px;
+  line-height: 1.1em;
+
+}
+#container .main_content .main_title .solution{
+  letter-spacing:3px;
+  text-indent: 0;
+  margin-bottom:5px;
+}
+#container .main_content .main_title div{
+  margin-top:10px;
+  margin-right:65px;
+  text-align:right;
+  font-size:15px;
+}
