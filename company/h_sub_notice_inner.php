@@ -13,18 +13,10 @@
 </head>
 <body>
 <div id="sub_wrap">
-    <!-- 헤더 -->
-    <div id="header">
-        <h1><a href="index.html"><img src='img/main_logo.png' alt='회사로고'></a></h1>
-        <nav>
-            <ul>
-                <li><a href='h_sub_company.html'><p>회사 소개</p><div></div></a></li>
-                <li><a href='h_sub_technology.html'><p>기술 소개</p><div></div></a></li>
-                <li><a href="#"><p class="notice">공지사항</p><div></div></a></li>
-                <li><a href='h_sub_contact.html'><p>오시는 길</p><div></div></a></li>
-            </ul>
-        </nav>
-    </div><!-- 헤더 End -->
+
+  <!-- nav_wrap -->
+  <?php include "nav.php";?>
+  <!-- nav_wrap End-->
 
     <!-- 컨테이너 -->
     <div id="container">
@@ -68,16 +60,6 @@
                   </div><!--co_notice_table End-->
               </div><!--co_notice_content End-->
 
-
-          </div><!-- intro_inner End -->
-      <!-- 푸터 -->
-      <div class="footer">
-        <img src="img/footer_logo.png" alt="회사로고">
-        <p>
-          <a href="h_sub_contact.html">서울특별시 서초구 신반포로 326-10 305호 ㈜휴먼앤에이아이 TEL : 02-2269-8777 FAX : 070-7543-0023</a>
-        </p>
-        <p>Copyright ⓒ 2018 by Human & AI Co.,Ltd. All right reserved.</p>
-      </div><!-- 푸터 End-->
       </div><!--sub intro_content End-->
     </div><!-- 컨테이너(container)End -->
 </div><!--wrap-->
