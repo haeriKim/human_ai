@@ -8,7 +8,7 @@
   box-sizing: border-box;
   height: 100%;
   width: 234px;
-  box-shadow: 0px 5px 8px #999;
+  box-shadow: 0px 10px 10px #ececec;
 }
 /* 네비 영역 */
 #nav {
@@ -27,9 +27,9 @@
 }
 #nav ul {
   border-top: 1px solid #BBCBD3;
-
-  padding: 15px 20px;
+  padding: 15px 12px;
   text-align: center;
+  font-style: semi-condensed;
 }
 #nav ul li + li{
   margin-top: 30px;
@@ -38,10 +38,10 @@
   display: inline-block;
 }
 #nav ul p {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   letter-spacing: 2px;
-  color: #333;
+  color: #222;
 }
 #nav ul span {
   font-size: 14px;

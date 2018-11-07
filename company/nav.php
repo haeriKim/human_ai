@@ -3,7 +3,7 @@
     <!-- nav  -->
     <div id="nav">
         <h1><a href="index.php"><img src='img/logo.png' alt='로고'></a></h1>
-        <ul>
+        <!-- <ul>
             <li>
               <a href='#'>
                 <p>회사소개</p>
@@ -26,6 +26,32 @@
               <a href='h_sub_contact.html'>
                 <p>오시는길</p>
                 <span>Directions</span>
+              </a>
+            </li>
+        </ul> -->
+        <ul>
+            <li>
+              <a href='#'>
+                <p>Company Intro</p>
+                <span>회사소개</span>
+              </a>
+            </li>
+            <li>
+              <a href='h_sub_technology.html'>
+                <p>Business Areas</p>
+                <span>사업분야</span>
+              </a>
+            </li>
+            <li>
+              <a href='h_sub_notice.html'>
+                <p>Notice</p>
+                <span>공지사항</span>
+              </a>
+            </li>
+            <li>
+              <a href='h_sub_contact.html'>
+                <p>Directions</p>
+                <span>오시는길</span>
               </a>
             </li>
         </ul>
