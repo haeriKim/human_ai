@@ -6,7 +6,7 @@
         <ul>
             <li>
               <a href='#'>
-                <p>회사 소개</p>
+                <p>회사소개</p>
                 <span>Company Intro</span>
               </a>
             </li>

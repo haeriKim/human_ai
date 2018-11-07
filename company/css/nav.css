@@ -13,22 +13,23 @@
 /* 네비 영역 */
 #nav {
   padding: 0 25px;
+  margin-top: 75%;
 }
 #nav h1 {
   text-align: center;
-  margin: 40px 0;
+  margin-bottom: 30px;
 }
 #nav h1 a {
   display: inline-block;
 }
 #nav h1 a img {
-  width: 75%;
+  width: 65%;
 }
 #nav ul {
   border-top: 1px solid #BBCBD3;
-  border-bottom: 1px solid #BBCBD3;
+
   padding: 15px 20px;
-  text-align: left;
+  text-align: center;
 }
 #nav ul li + li{
   margin-top: 30px;
@@ -37,10 +38,10 @@
   display: inline-block;
 }
 #nav ul p {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
   letter-spacing: 2px;
-  color: #1061A8;
+  color: #333;
 }
 #nav ul span {
   font-size: 14px;
