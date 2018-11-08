@@ -82,7 +82,7 @@
     margin-top: 100px;
 }
 .intro_inner .co_intro .titleColor{
-  color:#000443;
+  color:#1061A8;
 }
 .intro_inner .co_intro p{
   font: 600 80px/80px 'Noto Sans KR', sans-serif;
@@ -163,6 +163,9 @@
 }
 .vision_text .vision_title{
   font-size:25px;
+  color: #1061A8;
+  margin-top: 20px;
+  letter-spacing: 2px;
 }
 .vision_text p{
   font-weight:600;

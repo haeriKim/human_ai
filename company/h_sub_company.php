@@ -63,7 +63,7 @@
                 <div class="second_title1">사람과 AI가 공존합니다</div>
                 <div class="co_intro_frame">
                   <p class="first_indent ">
-                      회사 소개
+                      회사 개요
                   </p>
                   <div class="co_intro_content">
                     <p>(주)휴먼앤에이아이는 인공지능의 장점을 살려 인간의 삶에 도움을 주는 제품을 개발, 생산, 판매하는 회사입니다.</p>
