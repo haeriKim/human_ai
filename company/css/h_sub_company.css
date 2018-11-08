@@ -129,7 +129,6 @@
   padding: 60px 100px;
   background-color: #fff;
   margin: 0 auto;
-  margin-bottom: 200px;
   box-sizing: border-box;
 }
 .co_intro_content {
@@ -144,8 +143,9 @@
 .co_intro_title{
   font-size: 30px;
   text-align: left;
+  padding-top:130px;
   padding-left: 60px;
-  margin-bottom: 60px;
+  padding-bottom:60px;
   font-weight: 600;
 }
 .co_intro_content .CEO_img{
@@ -153,6 +153,11 @@
 }
 .first_indent{
   margin-left:-60px;
+  font-size: 30px;
+  text-align: left;
+  padding-left: 60px;
+  padding-bottom:60px;
+  font-weight: 600;
 }
 .co_intro_history,
 .co_intro_map{
@@ -161,13 +166,14 @@
 }
 .co_vision{
   width: 1200px;
-    margin: 0 auto 200px auto;
+    margin: 0 auto 100px auto;
 }
 .vision_bg{
 }
 .vision_text{
   text-align: left;
   display:inline-block;
+  margin-bottom:200px;
 }
 .vision_text .vision_title{
   font-size:25px;

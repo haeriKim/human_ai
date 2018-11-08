@@ -76,7 +76,7 @@
               <div class="co_intro_intro">
                 <div class="second_title1">사람과 AI가 공존합니다</div>
                 <div class="co_intro_frame">
-                  <p class="co_intro_title first_indent ">
+                  <p class="first_indent ">
                       회사 소개
                   </p>
                   <div class="co_intro_content">
