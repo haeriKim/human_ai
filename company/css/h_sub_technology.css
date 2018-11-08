@@ -111,7 +111,7 @@
 .technology_inner .tech_content_wrap{
     position: relative;
     height: 800px;
-    width: 1160px;
+    width: 1200px;
     margin: 0 auto;
 }
 .technology_inner .tech_content_wrap h3{
@@ -189,6 +189,25 @@
     line-height:1.5em;
 
 }
+.technology_inner .technology_kind{
+  text-align: center;
+  margin:0 auto;
+  width:1200px;
+  margin-bottom:100px;
+}
+.technology_inner .technology_kind h2{
+  text-align: left;
+}
+.technology_inner .technology_kind p{
+  text-align: left;
+  line-height:1.5em;
+}
+.technology_inner .technology_kind .t_title{
+  font-size:18px;
+  font-weight:600;
+  line-height:0;
+}
+
 /*footer*/
 .sub .footer {
   width: 100%;
