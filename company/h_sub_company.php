@@ -27,39 +27,25 @@
               <div class="company_header">
                 <ul>
                   <li>
-                    <a href="#" id="co_intro">회사 개요</a>
+                    <a href="#co_intro_intro" id="co_intro" class="intro">회사 개요</a>
                   </li>
 
                   <li>
-                    <a href="#co_intro_history" id="co_history">회사 연혁</a>
+                    <a href="#co_intro_history" id="co_history" class="history">회사 연혁</a>
                   </li>
 
                   <li>
-                    <a href="#co_intro_map" id="co_map">사업 조직도</a>
+                    <a href="#co_intro_map" id="co_map" class="map_fence">사업 조직도</a>
                   </li>
 
                   <li>
-                    <a href="#co_vision" id="co_vision1">비전</a>
+                    <a href="#co_vision" id="co_vision1" class="vision">비전</a>
                   </li>
                 </ul>
 
               </div>
             <div class="bg_area">
               <h2>회사 소개</h2>
-              <ul>
-                  <li>
-                      <a href='#'>회사 개요</a>
-                  </li>
-                  <li>
-                      <a href='#co_intro_history'>회사 연혁</a>
-                  </li>
-                  <li>
-                      <a href='#co_intro_map'>사업 조직도</a>
-                  </li>
-                  <li id="co_vision1">
-                      <a href='#co_vision'>비전</a>
-                  </li>
-              </ul>
               <div class="co_intro">
                   <p class="titleColor">We Develop <br />
                   Fundamental AI technology.</p>
@@ -73,7 +59,7 @@
                       ㈜휴먼앤에이아이(Huaman&AI)는 사람과 인공지능이 공존하는 4차 산업혁명시대에 인공지능의 장점을 살려<br>인간의 삶에 도움을 주는 제품을 개발, 생산, 판매하는 회사입니다.
                   </span>
               </div><!-- co_intro End-->
-              <div class="co_intro_intro">
+              <div id="co_intro_intro" class="co_intro_intro target">
                 <div class="second_title1">사람과 AI가 공존합니다</div>
                 <div class="co_intro_frame">
                   <p class="first_indent ">
@@ -96,20 +82,20 @@
                  </div>
               </div><!-- co_intro_intro End -->
             </div>
-            <div id="co_intro_history" class="co_intro_history">
+            <div id="co_intro_history" class="co_intro_history target">
               <p class="co_intro_title">
                 회사 연혁
               </p>
               <img src="img/co_history.png" alt="회사 연혁">
             </div><!-- co_intro_history End-->
-            <div id="co_intro_map" class="co_intro_map">
+            <div id="co_intro_map" class="co_intro_map target">
               <p class="co_intro_title">
                 사업 조직도
               </p>
               <img src="img/co_map.png" alt="사업조직도">
             </div><!-- co_intro_map End -->
 
-            <div id="co_vision" class="co_vision">
+            <div id="co_vision" class="co_vision target">
               <p class="co_intro_title">
                 비전
               </p>

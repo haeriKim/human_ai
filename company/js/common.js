@@ -33,30 +33,31 @@ $('.tech_content_wrap > ul > li > a').on('click',function(e){
 
   var num = $(window).scrollTop();
 
-if(num < vi){
-    $(".company_header").css("visibility","hidden").fadeOut(300);
-  }else if( num >= vi && num <= si){
-      $(".company_header").css("visibility","visible").fadeIn(300);
-      }
+  if(num < vi){
+      $(".company_header").css({"background":"none", "position":"absolute", "top":"150px","box-shadow":"none","left":"35%","width":"auto"}).fadeIn(300);
+    }
+    else if( num >= vi && num <= si){
+      $(".company_header").css({"background":"rgba(255,255,255,.6)","position":"fixed", "top":"0","box-shadow":"1px 1px 1px rgba(255, 255, 255, 0.5)","text-align":"right","width":"100%","left":"0"}).fadeIn(300);
+    }
 });
 
 //회사소개 헤더 액티브
 $(document).ready(function(){
-$(window).scroll(function(){
-var num=$(window).scrollTop();
-var b=$('.co_intro').offset().top;
-var c=$('.co_intro_history').offset().top;
-var d=$('.co_intro_map').offset().top;
-if(num >= b && num <= c){
-  $('.company_header li:nth-child(1) a').css({"border-bottom":"2px solid #1b2f4a"});
-  $('.company_header li:nth-child(2) a').css({"border":"none"});
-}
-else if(num >=b || num <= c){
-  $(".company_header li:nth-child(1) a").css({"border":"none"});
-  $('.company_header li:nth-child(2) a').css({"border-bottom":"2px solid #1b2f4a"});
-}
-
+  $(window).on('scroll', function() {
+      $('.target').each(function() {
+          if($(window).scrollTop() >= $(this).offset().top) {
+              var id = $(this).attr('id');
+              $('.company_header li a').removeClass('on');
+              $('.company_header li a[href=#'+ id +']').addClass('on');
+          }
+      });
+  });
 });
-
-
-})
+//회사소개 헤더 액티브
+$(document).ready(function(){
+  $(".company_header li a.intro").addClass("on");
+  $(".company_header li a").click(function(){
+    $('.company_header li a').removeClass("on");
+    $(this).addClass("on");
+  });
+});

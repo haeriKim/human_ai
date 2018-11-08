@@ -18,43 +18,28 @@
     font-family: "Nanum Gothic",sans-serif;
 }
 .intro_inner .company_header{
-  width: 88%;
-  height:50px;
-  background:rgba(255,255,255,.6);
-  text-align:right;
-  padding-top:30px;
-  font-size:12px;
-  overflow:hidden;
-  position:fixed;
-  top:0;
-  display:none;
-  visibility: hidden;
-  z-index:2000;
-  box-shadow:1px 1px 1px rgba(255, 255, 255, 0.5);
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  overflow: hidden;
+  position: absolute;
+  top: 150px;
+  left: 35%;
 }
 .intro_inner .company_header a{
   color:#000;
+  font-size: 16px;
+  padding-bottom: 5px;
 }
 .intro_inner .company_header a.on{
   border-bottom:2px solid #1b2f4a;
-  display:block;
+  display:inline;
+  padding-top: 5px;
 }
 .intro_inner .company_header a:after{
   border:1px solid red;
 }
-.intro_inner .company_header #co_intro{
-  font-size:15px;
-  border:none;
-}
-.intro_inner .company_header #co_history{
-  font-size:15px;
-}
-.intro_inner .company_header #co_map{
-  font-size:15px;
-}
-.intro_inner .company_header #co_vision1{
-  font-size:15px;
-}
+
 .intro_inner .bg_area {
   background: url(../img/sub1_bg1.jpg) no-repeat top right;
   background-size: 100% 1400px;
@@ -94,6 +79,7 @@
     margin: 0 auto 200px auto;
     width: 1200px;
     padding-left: 30px;
+    margin-top: 100px;
 }
 .intro_inner .co_intro .titleColor{
   color:#000443;
