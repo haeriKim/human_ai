@@ -21,6 +21,7 @@
 .technology_inner{
     margin-top:110px;
     text-align: center;
+    font-family:"Nanum Gothic",sans-serif;
 }
 .technology_inner h2{
     font-size:30px;
@@ -60,6 +61,7 @@
   font-size: 43px;
   text-align: left;
   margin-bottom:5px;
+  font-family:"Fira Sans",sans-serif;
 }
 .technology_inner .tech_intro span{
   color: #222;
@@ -109,7 +111,7 @@
 .technology_inner .tech_content_wrap{
     position: relative;
     height: 800px;
-    width: 1160px;
+    width: 1200px;
     margin: 0 auto;
 }
 .technology_inner .tech_content_wrap h3{
@@ -184,8 +186,28 @@
     text-align: left;
     font-size: 19px;
     word-break: keep-all;
+    line-height:1.5em;
 
 }
+.technology_inner .technology_kind{
+  text-align: center;
+  margin:0 auto;
+  width:1200px;
+  margin-bottom:100px;
+}
+.technology_inner .technology_kind h2{
+  text-align: left;
+}
+.technology_inner .technology_kind p{
+  text-align: left;
+  line-height:1.5em;
+}
+.technology_inner .technology_kind .t_title{
+  font-size:18px;
+  font-weight:600;
+  line-height:0;
+}
+
 /*footer*/
 .sub .footer {
   width: 100%;

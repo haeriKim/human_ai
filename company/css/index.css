@@ -27,14 +27,14 @@
 }
 #container .main_content .main_title{
   position: absolute;
-  bottom: 80px;
+  bottom: 55px;
   left: 6%;
   cursor: pointer;
   display: none;
 
 }
 #container .main_content .main_title:hover{
-  opacity:0.9;
+  opacity:0.6;
 }
 #container .main_content .main_title p {
   font-size:75px;
@@ -50,7 +50,6 @@
   letter-spacing: 5px;
 }
 #container .main_content .main_title div{
-  margin-top:10px;
   font-size:15px;
-  text-align: center;
+  text-align: right;
 }

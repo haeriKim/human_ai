@@ -66,6 +66,25 @@
     padding-left: 5px;
     margin-bottom: 50px;
 }
+#signUp_area .signUp_right_con > input.user_phone_number{
+  width: 300px;
+  font-size: 15px;
+  border-bottom: 1px solid #1b2f4a;
+  padding-left: 5px;
+  margin-bottom: 50px;
+}
+#signUp_area .signUp_right_con .join_request_number{
+  border: 1px solid #1b2f4a;
+  background:none;
+  color: #1b2f4a;
+  padding: 3px 5px;
+  cursor: pointer;
+  width:100px;
+}
+#signUp_area .signUp_right_con .join_request_number:hover{
+  background-color:#1b2f4a;
+  color:#fff;
+}
 #signUp_area .signUp_right_con #warning_message{
     position: absolute;
     top: 127px;
@@ -175,6 +194,26 @@
 }
 .responsive_h{
     display: none;
+}
+.none_box{
+  height:95px;
+}
+#full2{
+  display:none;
+}
+#full2 .popupbox_text{
+  margin:10px 0;
+}
+#full2 .leave_member_agree_btn{
+  background: #1b2f4a;
+  border: 1px solid #1b2f4a;
+  border-radius: 5px;
+  padding: 7px 30px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top:30px;
 }
 @media (max-width:768px) {
 

@@ -31,7 +31,7 @@
         </ul> -->
         <ul>
             <li>
-              <a href='#'>
+              <a href='h_sub_company.php'>
                 <p>Company Intro</p>
                 <span>회사소개</span>
               </a>

@@ -16,8 +16,30 @@
     text-align: center;
     margin-left: 234px;
     font-family: "Nanum Gothic",sans-serif;
-
 }
+.intro_inner .company_header{
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  overflow: hidden;
+  position: absolute;
+  top: 150px;
+  left: 35%;
+}
+.intro_inner .company_header a{
+  color:#000;
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+.intro_inner .company_header a.on{
+  border-bottom:2px solid #1b2f4a;
+  display:inline;
+  padding-top: 5px;
+}
+.intro_inner .company_header a:after{
+  border:1px solid red;
+}
+
 .intro_inner .bg_area {
   background: url(../img/sub1_bg1.jpg) no-repeat top right;
   background-size: 100% 1400px;
@@ -57,9 +79,10 @@
     margin: 0 auto 200px auto;
     width: 1200px;
     padding-left: 30px;
+    margin-top: 100px;
 }
 .intro_inner .co_intro .titleColor{
-  color:#000443;
+  color:#1061A8;
 }
 .intro_inner .co_intro p{
   font: 600 80px/80px 'Noto Sans KR', sans-serif;
@@ -92,7 +115,6 @@
   padding: 60px 100px;
   background-color: #fff;
   margin: 0 auto;
-  margin-bottom: 200px;
   box-sizing: border-box;
 }
 .co_intro_content {
@@ -107,8 +129,9 @@
 .co_intro_title{
   font-size: 30px;
   text-align: left;
+  padding-top:130px;
   padding-left: 60px;
-  margin-bottom: 60px;
+  padding-bottom:60px;
   font-weight: 600;
 }
 .co_intro_content .CEO_img{
@@ -116,6 +139,11 @@
 }
 .first_indent{
   margin-left:-60px;
+  font-size: 30px;
+  text-align: left;
+  padding-left: 60px;
+  padding-bottom:60px;
+  font-weight: 600;
 }
 .co_intro_history,
 .co_intro_map{
@@ -124,16 +152,20 @@
 }
 .co_vision{
   width: 1200px;
-    margin: 0 auto 200px auto;
+    margin: 0 auto 100px auto;
 }
 .vision_bg{
 }
 .vision_text{
   text-align: left;
   display:inline-block;
+  margin-bottom:200px;
 }
 .vision_text .vision_title{
   font-size:25px;
+  color: #1061A8;
+  margin-top: 20px;
+  letter-spacing: 2px;
 }
 .vision_text p{
   font-weight:600;
@@ -174,18 +206,18 @@
 }
 .top_bt{
   display:none;
-  width:40px;
-  height:40px;
+  width:50px;
+  height:50px;
   font-size:12px;
   background:rgba(16,97,168,0.5);
   text-align:center;
   line-height:30px;
   position:fixed;
-  right:10px;
-  bottom:10%;
+  right:20px;
+  bottom:5%;
   border-radius:50px;
   cursor:pointer;
   opacity:rgba(16,97,168,0.9);
   color:#fff;
-  line-height:3em;
+  line-height:4em;
 }

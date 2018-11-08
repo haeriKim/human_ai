@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/h_sub_notice.css">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Fira+Sans|Nanum+Gothic|" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
 </head>
 <body>
@@ -108,7 +108,7 @@
 
 
           </div><!-- intro_inner End -->
-  
+
       </div><!--sub intro_content End-->
     </div><!-- 컨테이너(container)End -->
 </div><!--wrap-->

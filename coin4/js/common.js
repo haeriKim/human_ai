@@ -1337,3 +1337,14 @@ $(document).ready(function(){
         $('#shadow').hide();
     });
 })
+
+//회원가입 인증번호창
+$(document).ready(function(){
+$(".join_request_number").click(function(){
+  $("#full2").show();
+  $('#shadow').show();
+});
+$(".leave_member_agree_btn").click(function(){
+  $("#full2").hide();
+});
+});
