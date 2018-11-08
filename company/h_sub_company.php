@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/h_sub_company.css">
-    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Fira+Sans|Kumar+One+Outline|Nanum+Gothic|Oswald|PT+Serif|Signika|Work+Sans|Yanone+Kaffeesatz" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Fira+Sans|Nanum+Gothic|" rel="stylesheet">
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="js/common.js"></script><!--//배너 슬라이더-->
 </head>
 <body>
 <div id="sub_wrap">
@@ -23,19 +24,39 @@
       <!--technology_content-->
       <div class="sub intro_content">
           <div class="intro_inner">
+              <div class="company_header">
+                <ul>
+                  <li>
+                    <a href="#" id="co_intro">회사 개요</a>
+                  </li>
+
+                  <li>
+                    <a href="#co_intro_history" id="co_history">회사 연혁</a>
+                  </li>
+
+                  <li>
+                    <a href="#co_intro_map" id="co_map">사업 조직도</a>
+                  </li>
+
+                  <li>
+                    <a href="#co_vision" id="co_vision1">비전</a>
+                  </li>
+                </ul>
+
+              </div>
             <div class="bg_area">
               <h2>회사 소개</h2>
               <ul>
-                  <li class='co_overview'>
+                  <li>
                       <a href='#'>회사 개요</a>
                   </li>
-                  <li class='co_history'>
+                  <li>
                       <a href='#co_intro_history'>회사 연혁</a>
                   </li>
-                  <li class='co_map'>
+                  <li>
                       <a href='#co_intro_map'>사업 조직도</a>
                   </li>
-                  <li class='co_vision1'>
+                  <li id="co_vision1">
                       <a href='#co_vision'>비전</a>
                   </li>
               </ul>
@@ -116,23 +137,6 @@
             </div>
 
             <a href="#"><div id="top_bt" class="top_bt">Top</div></a>
-
-            <script>
-
-            $(function(){
-          		$(window).scroll(function(){
-          			if($(this).scrollTop() > 200){
-          				$("#top_bt").fadeIn("fast");
-          			}else{
-          				$("#top_bt").fadeOut("fast");
-          			}
-          		});
-            $(".top_bt").click(function(){
-                  $("html,body").animate({scrollTop:0},500);
-                });
-       });
-
-            </script>
 
           </div><!-- intro_inner End -->
       </div><!--sub intro_content End-->

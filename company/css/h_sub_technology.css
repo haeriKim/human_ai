@@ -21,6 +21,7 @@
 .technology_inner{
     margin-top:110px;
     text-align: center;
+    font-family:"Nanum Gothic",sans-serif;
 }
 .technology_inner h2{
     font-size:30px;
@@ -60,6 +61,7 @@
   font-size: 43px;
   text-align: left;
   margin-bottom:5px;
+  font-family:"Fira Sans",sans-serif;
 }
 .technology_inner .tech_intro span{
   color: #222;
@@ -184,6 +186,7 @@
     text-align: left;
     font-size: 19px;
     word-break: keep-all;
+    line-height:1.5em;
 
 }
 /*footer*/

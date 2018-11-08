@@ -15,7 +15,7 @@
 .intro_inner{
     text-align: center;
     margin-left: 234px;
-    background:url(../img/notice_bg.png) no-repeat 0 320%; background-size:70%;
+    font-family:"Nanum Gothic",sans-serif;
 }
 .intro_inner h2{
     padding-top:110px;

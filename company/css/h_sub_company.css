@@ -16,7 +16,44 @@
     text-align: center;
     margin-left: 234px;
     font-family: "Nanum Gothic",sans-serif;
-
+}
+.intro_inner .company_header{
+  width: 88%;
+  height:50px;
+  background:rgba(255,255,255,.6);
+  text-align:right;
+  padding-top:30px;
+  font-size:12px;
+  overflow:hidden;
+  position:fixed;
+  top:0;
+  display:none;
+  visibility: hidden;
+  z-index:2000;
+  box-shadow:1px 1px 1px rgba(255, 255, 255, 0.5);
+}
+.intro_inner .company_header a{
+  color:#000;
+}
+.intro_inner .company_header a.on{
+  border-bottom:2px solid #1b2f4a;
+  display:block;
+}
+.intro_inner .company_header a:after{
+  border:1px solid red;
+}
+.intro_inner .company_header #co_intro{
+  font-size:15px;
+  border:none;
+}
+.intro_inner .company_header #co_history{
+  font-size:15px;
+}
+.intro_inner .company_header #co_map{
+  font-size:15px;
+}
+.intro_inner .company_header #co_vision1{
+  font-size:15px;
 }
 .intro_inner .bg_area {
   background: url(../img/sub1_bg1.jpg) no-repeat top right;
