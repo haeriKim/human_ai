@@ -52,8 +52,7 @@ input[type='button']:hover,input[type='submit']:hover{
   color:#fff;
 }
 select{
-  border: none;
-  border-bottom: 1px solid #FFE106;
+  border: 1px solid #FFE106;
   width: 63%;
   padding-bottom: 4px;
   font-size: 15px;
@@ -80,6 +79,7 @@ select {
   padding-left: 2px;
   padding-right: 15px;
   width:73%;
+  text-indent: 10px;
 }
 
 /* h3 title */

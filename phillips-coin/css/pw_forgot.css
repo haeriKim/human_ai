@@ -12,22 +12,12 @@
     width: 90%;
     margin: 10px 0;
 }
-.findPw_content select{
-    border:none;
-    padding: 10px;
-}
 .findPw_content select.country_select{
-    border-bottom: 1px solid #FFE106;
-    margin: 10px 0;
     width: 94%;
-    color: #757575;
-    font-size: 15px;
+    margin: 10px 0;
 }
 .findPw_content form div.phone_wrap{
     position: relative;
-}
-.findPw_content form input.phone{
-
 }
 .findPw_content form input.code_send{
     position: absolute;
