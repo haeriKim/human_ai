@@ -33,7 +33,7 @@
               <input type="button" name="password_bt" value="비밀번호 찾기" class="password_bt" onclick="location.href='pw_forgot.php'">
               <input type="button" name="join_bt" value="회원가입" class="join_bt" onclick="location.href='signup.php'">
 
-              <p class="copyright">CRYPOCURRNCY PILIPS COIN SINCE 2018</p>
+              <p class="copyright">CRYPOCURRNCY PHILLIPS-COIN SINCE 2018</p>
             </div>
         </div>
 

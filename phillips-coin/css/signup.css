@@ -1,4 +1,12 @@
-
+.join_content .line{
+    width: 100%;
+    height: 1px;
+    background: #666;
+    margin: 20px 0;
+}
+.join_content select{
+    padding: 10px;
+}
 .join_box{
   text-align:center;
 }

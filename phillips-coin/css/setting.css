@@ -14,6 +14,9 @@
     padding: 10px;
     margin: 10px 0;
 }
+.changeInfo_content .second_title{
+    margin-top: 50px;
+}
 .changeInfo_content select{
     border:none;
     padding: 10px;
@@ -38,4 +41,8 @@
 }
 .changeInfo_content form input.changeInfo_btn{
     width: 94%;
+}
+#full,
+#shadow{
+    display: none;
 }

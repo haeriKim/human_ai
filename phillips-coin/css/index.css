@@ -4,8 +4,8 @@
   margin:100px auto;
 }
 .login_content .login_inner{
-  width:30%;
   text-align: center;
+  width: 500px;
   margin:0 auto;
 }
 .login_content .login_inner img{
