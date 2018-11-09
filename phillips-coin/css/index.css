@@ -1,0 +1,40 @@
+
+.login_content{
+  text-align: center;
+  margin:100px auto;
+}
+.login_content .login_inner{
+  width:30%;
+  text-align: center;
+  margin:0 auto;
+}
+.login_content .login_inner img{
+  margin-bottom:10px;
+}
+.login_content .login_inner .login_input .user_id{
+  width:50%;
+}
+.login_content .login_inner .login_input .user_pass{
+  width:50%;
+  margin-bottom:30px;
+}
+
+.login_content .login_inner .login_input .login_box{
+  width:60%;
+  text-align: center;
+  margin:0 auto;
+}
+
+.login_content .login_inner .login_input .login_bt{
+  width:90%;
+  margin-bottom:5px;
+}
+.login_content .login_inner .login_input .password_bt{
+  width:45%;
+}
+.login_content .login_inner .login_input .join_bt{
+  width:43%;
+}
+.login_content .login_inner .login_input p{
+  margin-top:30px;
+}

@@ -24,9 +24,9 @@
           <input type="password" name="password" value="" placeholder="비밀번호" required maxlength="30" minlength="10" class='user_pass'/>
 
             <div class="login_box">
-              <input type="submit" name="login_bt" value="로그인">
-              <input type="button" name="password_bt" value="비밀번호 찾기">
-              <input type="button" name="join_bt" value="회원가입">
+              <input type="submit" name="login_bt" value="로그인" class="login_bt">
+              <input type="button" name="password_bt" value="비밀번호 찾기" class="password_bt">
+              <input type="button" name="join_bt" value="회원가입" class="join_bt">
 
               <p class="copyright">CRYPOCURRNCY PILIPS COIN SINCE 2018</p>
             </div>
