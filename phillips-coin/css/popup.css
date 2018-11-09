@@ -49,7 +49,7 @@
   opacity: 0.5;
   width: 100%;
   height: 100%;
-  z-index: 900;
+  z-index: 1000;
 }
 @media all and (min-width:320px) and (max-width:768px){
   #popupbox {
