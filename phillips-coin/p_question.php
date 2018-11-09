@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/p_question.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
@@ -14,20 +15,31 @@
 <body>
     <!-- wrap -->
     <div id="wrap">
-        <!-- header -->
-        <?php include "header.php";?>
-        <!-- header End-->
 
         <!-- container -->
         <div id="container">
+
+            <!-- nav -->
+            <?php include "nav.php";?>
+            <!-- nav End-->
+
+            <!-- header -->
+            <?php include "header.php";?>
+            <!-- header End-->
+
             <!-- content -->
             <div class="content question_content">
                 <p class='title'>문의하기</p>
                 <div class="line"></div>
-
-                <form class="find_pw_form" action="#" method="post">
-                    <input type="email" name="email" placeholder="이메일주소" autocomplete="off" class='email user_mail'>
-                    <input type="submit" name="submit" value="비밀번호 찾기" class='find_pw_btn'>
+                <p class='text'>문의주신 내용은 24시간 내에 입력하신 메일로 회신 드리겠습니다. 감사합니다.</p>
+                <form class="question_form" action="#" method="post">
+                    <p>이메일주소</p>
+                    <input type="email" name="email" placeholder="이메일주소" autocomplete="off" class='user_mail'>
+                    <p>제목</p>
+                    <input type="text" name="subject" placeholder="제목을 입력해주세요." autocomplete="off">
+                    <p>내용</p>
+                    <textarea placeholder="내용을 입력해주세요."></textarea>
+                    <input type="submit" name="submit" value="문의하기" class='question_btn'>
                 </form>
             </div><!-- content End-->
 

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/p_find_pw.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
@@ -14,13 +15,19 @@
 <body>
     <!-- wrap -->
     <div id="wrap">
-        <!-- header -->
-        <?php include "header.php";?>
-        <!-- header End-->
 
         <!-- container -->
         <div id="container">
             <!-- content -->
+
+            <!-- nav -->
+            <?php include "nav.php";?>
+            <!-- nav End-->
+
+            <!-- header -->
+            <?php include "header.php";?>
+            <!-- header End-->
+
             <div class="content findPw_content">
                 <p class='title'>비밀번호 찾기</p>
                 <div class="line"></div>

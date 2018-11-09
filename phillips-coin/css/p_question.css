@@ -8,19 +8,26 @@
     background: #666;
     margin: 20px 0;
 }
+.question_content .text{
+    width: 500px;
+    margin: 0 auto;
+}
 .question_content form{
     width: 500px;
     margin: 0 auto;
 }
 .question_content form input{
-    width: 90%;
+    width: 96%;
     padding: 10px;
     margin: 10px 0;
 }
-.question_content select{
-    border:none;
+.question_content textarea{
+    resize: none;
+    width: 95.6%;
+    height: 300px;
+    border: 1px solid #FFE106;
     padding: 10px;
 }
-.question_content form input.find_pw_btn{
-    width: 94%;
+.question_content form input.question_btn{
+    width: 100%;
 }
