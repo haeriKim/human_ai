@@ -1348,3 +1348,30 @@ $(".leave_member_agree_btn").click(function(){
   $("#full2").hide();
 });
 });
+
+/*숫자 입력창에 숫자만 입력될 수 있게 */
+$(document).ready(function(){
+    function addCommas(x) {
+        return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
+    function removeCommas(x) {
+        if(!x || x.length == 0) return "";
+        else return x.split(",").join("");
+    }
+    $("input:text[numberOnly]").on("focus", function() {
+        var x = $(this).val();
+        x = removeCommas(x);
+        $(this).val(x);
+    }).on("focusout", function() {
+        var x = $(this).val();
+        if(x && x.length > 0) {
+            if(!$.isNumeric(x)) {
+                x = x.replace(/[^0-9]/g,"");
+            }
+            x = addCommas(x);
+            $(this).val(x);
+        }
+    }).on("keyup", function() {
+        $(this).val($(this).val().replace(/[^0-9]/g,""));
+    });
+});
