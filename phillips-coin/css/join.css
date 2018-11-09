@@ -1,0 +1,36 @@
+
+.join_box{
+  width:50%;
+  text-align:center;
+}
+.join_box .join_inner{
+  width:600px;
+  text-align: center;
+  margin:0 auto;
+}
+.join_box .join_inner .request_number_bt{
+  width:100px;
+  padding:7px 10px;
+  text-align: center;
+}
+.join_box .join_inner .join_text{
+  text-align:center;
+  width:600px;
+}
+.join_box .join_inner .join_span span{
+  font-size:12px;
+  color:#666;
+  width:380px;
+  display:inline-block;
+  text-align:center;
+  margin:20px;
+}
+.join_text input{
+  width:62%;
+}
+.join_text p{
+  font-size:12px;
+}
+.join_text .copyright{
+  font-size:12px;
+}
