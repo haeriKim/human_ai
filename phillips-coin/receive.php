@@ -29,11 +29,11 @@
 
             <!-- content -->
             <div class="content changeInfo_content">
-                <p class='title'>받기</p>
+                <h3 class='title'>받기</h3>
                 <div class="line"></div>
                 <form class="change_pw_form" action="#" method="post">
                   <div class="my_coin_box">
-                    <span class="my_coin">내잔고</span><span class='my_coin_number'>0 PLS</span>
+                    <span class="my_coin">내잔고</span><span class='my_coin_number'>0 PHS</span>
                   </div>
 
                   <div class="output_text">
@@ -42,8 +42,8 @@
                       <p><img src="img/qr_code.png" alt="qr코드"></p>
                       <p>0x777kyJeJjHIFdukLyVO69TLDCkn</p>
 
-                    <input type="submit" name="submit" value="보내기">
-                    <p class="copyright">CRYPOCURRNCY PILIPS COIN SINCE 2018</p>
+                    <input type="button" name="buttton" value="주소복사">
+                    <p class="copyright">CRYPOCURRNCY PHILLIPS-COIN SINCE 2018</p>
                   </div>
                 </form>
 

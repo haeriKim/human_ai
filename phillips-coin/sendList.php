@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/sendList.css">
+    <link rel="stylesheet" href="css/sendReceiveList.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
 </head>
@@ -26,13 +26,13 @@
           <!-- header -->
           <?php include "header.php";?>
           <!-- header End-->
-          
+
             <!-- content -->
-            <div class="content sendHistory_content">
-                <p class='title'>보낸내역</p>
+            <div class="content sendReceiveHistory_content">
+                <h3 class='title'>보낸내역</h3>
                 <div class="line"></div>
                 <div class="sendHistory">
-                    <!--<p class='no_data'></p>-->
+                    <!--<p class='no_data'>보낸 내역이 없습니다.</p>-->
                     <table>
                       <colgroup>
                         <col width="20%">

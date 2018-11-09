@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/receiveList.css">
+    <link rel="stylesheet" href="css/sendReceiveList.css">
     <link rel="stylesheet" href="css/nav.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
@@ -26,13 +26,13 @@
           <!-- header -->
           <?php include "header.php";?>
           <!-- header End-->
-          
+
             <!-- content -->
-            <div class="content sendHistory_content">
+            <div class="content sendReceiveHistory_content">
               <p class='title'>받은내역</p>
               <div class="line"></div>
 
-                <div class="sendHistory">
+                <div class="receiveHistory">
                     <!--<p class='no_data'>받은 내역이 없습니다.</p>-->
                     <table>
                       <colgroup>

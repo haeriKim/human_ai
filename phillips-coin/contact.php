@@ -29,9 +29,10 @@
 
             <!-- content -->
             <div class="content question_content">
-                <p class='title'>문의하기</p>
+                <h3 class='title'>문의하기</h3>
                 <div class="line"></div>
-                <p class='text'>문의주신 내용은 24시간 내에 입력하신 메일로 회신 드리겠습니다. 감사합니다.</p>
+                <p class='text'>문의주신 내용은 24시간 내에 입력하신 메일로 회신 드리겠습니다. <br/>
+                감사합니다.</p>
                 <form class="question_form" action="#" method="post">
                     <p>이메일주소</p>
                     <input type="email" name="email" placeholder="이메일주소" autocomplete="off" class='user_mail'>

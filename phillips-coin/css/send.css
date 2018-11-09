@@ -24,7 +24,6 @@ font-size: 25px;
 }
 .changeInfo_content form input{
     width: 94%;
-    padding: 10px;
     margin: 10px 0;
 }
 .changeInfo_content form input.borderNone {

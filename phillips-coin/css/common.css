@@ -38,7 +38,7 @@ input[type='tell']{
 }
 input[type='button'],input[type='submit']{
   border-radius: 5px;
-  padding: 7px 30px;
+  padding: 13px 30px;
   font-weight: 600;
   font-size: 16px;
   box-sizing: border-box;
@@ -84,6 +84,24 @@ select {
 h3.title {
   text-align: center;
   font-size: 25px;
+}
+
+/* 표 디자인 */
+
+.sendReceiveHistory_content table tr{
+  border:1px solid #FFE106;
+  height: 30px;
+  line-height: 30px;
+}
+.sendReceiveHistory_content table th{
+  background:#FFE106;
+  color:#2C1F1B;
+  padding:10px;
+  border-right: 3px solid #2C1F1B;
+}
+.sendReceiveHistory_content table td{
+  border-left:1px solid #FFE106;
+  color: #2C1F1B;
 }
 /*반응형*/
 @media (max-width:768px) {
