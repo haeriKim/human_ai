@@ -399,23 +399,27 @@
       height: 540px;
       float: left;
       background-repeat: no-repeat;
-      background-size: 100%;
       position: relative;
     }
     .app_panel .app_banner1 {
-      background:url(../img/m_banner01.png) no-repeat 0 0; background-size:cover;
+      background:url(../img/m_banner01.png) no-repeat 0 0;
+      background-size: 100% 100%;
     }
     .app_panel .app_banner2 {
-      background:url(../img/m_banner02.png) no-repeat 0 0; background-size:cover;
+      background:url(../img/m_banner02.png) no-repeat 0 0;
+      background-size: 100% 100%;
     }
     .app_panel .app_banner3 {
-      background:url(../img/m_banner03.png) no-repeat 0 0; background-size:cover;
+      background:url(../img/m_banner03.png) no-repeat 0 0;
+      background-size: 100% 100%;
     }
     .app_panel .app_banner4 {
-      background:url(../img/m_banner04.png) no-repeat 0 0; background-size:cover;
+      background:url(../img/m_banner04.png) no-repeat 0 0;
+      background-size: 100% 100%;
     }
     .app_panel .app_banner5 {
-      background:url(../img/m_banner05.png) no-repeat 0 0; background-size:cover;
+      background:url(../img/m_banner05.png) no-repeat 0 0;
+      background-size: 100% 100%;
     }
     .app_dot:after {
       content: "";
@@ -428,7 +432,7 @@
     .app_prev1 img{
       position:absolute;
       top:50%;
-      left:20px;
+      left:4%;
       width:30px;
       cursor:pointer;
       opacity: 0.5;
@@ -436,7 +440,7 @@
     .app_next1 img{
       position:absolute;
       top:50%;
-      right:25px;
+      right:4%;
       width:30px;
       cursor:pointer;
       opacity: 0.5;
