@@ -1057,10 +1057,10 @@ $(document).ready(function(){
             slideUp($target);
           } else {
             slideUp($target);
-            $(this).addClass('on').next().slideDown();
+            $(this).addClass('on').next().stop().slideDown();
           }
           function slideUp($target) {
-            $target.removeClass('on').next().slideUp();
+            $target.removeClass('on').next().stop().slideUp();
           }
         });
       }

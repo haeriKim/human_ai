@@ -110,7 +110,8 @@
                                   <option value="faq_list_join_cer">가입 및 탈퇴</option>
                                   <option value="faq_list_account">거래</option>
                                   <option value="faq_list_depo_withd">입출금</option>
-                                  <option value="faq_list_buy_sell">인증</option>
+                                  <option value="faq_list_buy_sell">정보변경 및 인증</option>
+                                  <option value="faq_list_etc">기타</option>
                               </select>
                               <input type="text" title="검색영역" placeholder="검색어를 입력하세요"/>
                               <a class="search_btn" href="#" title="검색버튼"><img src="img/search.png" alt="검색버튼"/></a>
@@ -123,7 +124,6 @@
                                       <p class="question">
                                         <img src="img/q1.png" alt="질문">
                                         <span>미성년자도 가입 및 거래가 가능한가요?</span>
-                                        <!-- <img src="img/arrow_off.png" alt="화살표" class='arrow'> -->
                                       </p>
                                       <div class="answer">
                                         <img src="img/a5.png" alt="답변">
@@ -135,26 +135,35 @@
                                       <p class="question">
                                         <img src="img/q1.png" alt="질문">
                                         <span>회원가입 시 지인 혹은 가족의 휴대폰 번호로 등록할 수는 없나요?</span>
-                                        <!-- <img src="img/arrow_off.png" alt="화살표" class='arrow'> -->
                                       </p>
                                       <div class="answer">
                                         <img src="img/a5.png" alt="답변">
-                                        <p>더올스는 보안상 본인 명의 휴대폰으로 가입하지 않을 경우, 회원가입이 승인되지 않도록 휴대폰 본인인증 절차를 진행하고 있습니다. 본인 명의의 휴대폰으로 가입해주시기 바랍니다.</p>
+                                        <p>디올스는 보안상 본인 명의 휴대폰으로 가입하지 않을 경우, 회원가입이 승인되지 않도록 휴대폰 본인인증 절차를 진행하고 있습니다. 본인 명의의 휴대폰으로 가입해주시기 바랍니다.</p>
                                       </div>
                                   </li>
                                   <li>
                                       <p class="question">
                                         <img src="img/q1.png" alt="질문">
                                         <span>회원 탈퇴를 하고 싶어요.</span>
-                                        <!-- <img src="img/arrow_off.png" alt="화살표" class='arrow'> -->
                                       </p>
                                       <div class="answer">
                                         <img src="img/a5.png" alt="답변">
                                         <p>회원탈퇴 진행 방법<br>
-                                        마이페이지 > 회원 정보 > 아래 'The Alls를 이용하고 싶지 않으시다면?' 텍스트 클릭 후 절차진행</p>
+                                        마이페이지 > 회원 정보 > 하단 'The Alls를 이용하고 싶지 않으시다면?' 텍스트 클릭 후 절차진행</p>
                                       </div>
                                   </li>
-                                </ul><!-- faq리스트 가입 및 인증 END-->
+                                  <li>
+                                      <p class="question">
+                                        <img src="img/q1.png" alt="질문">
+                                        <span>회원탈퇴 후 다시 가입할 경우 전에 입력한 정보를 다시 사용할 수 있나요?</span>
+                                      </p>
+                                      <div class="answer">
+                                        <img src="img/a5.png" alt="답변">
+                                        <p>예, 사용하실 수 있습니다. 회원탈퇴 이후 별도의 대기 시간 없이 동일한 정보로 회원가입이 가능합니다.<br>
+                                        다만, 최초 회원가입 절차와 동일하게 모든 정보를 입력하셔야 합니다.</p>
+                                      </div>
+                                  </li>
+                              </ul><!-- faq리스트 가입 및 탈퇴 END-->
                             </section>
 
                             <section class='faq_list_account faq_section'>
@@ -164,51 +173,34 @@
                                       <p class="question">
                                         <img src="img/q1.png" alt="질문">
                                         <span>거래 수수료는 얼마인가요?</span>
-                                        <!-- <img src="img/arrow_off.png" alt="화살표" class='arrow'> -->
                                       </p>
                                       <div class="answer">
                                         <img src="img/a5.png" alt="답변">
-                                        <p>더올스의 기본수수료는 0.12%로 적용하고 있습니다.
+                                        <p>디올스의 기본수수료는 0.12%로 적용하고 있습니다.
                                         자세한 수수료 정보는 [고객지원 > 수수료 안내]에서 확인하실 수 있습니다.</p>
                                       </div>
                                   </li>
                                   <li>
                                       <p class="question">
                                         <img src="img/q1.png" alt="질문">
-                                        <span>미체결 주문은 어떻게 처리되나요?</span>
-                                        <!-- <img src="img/arrow_off.png" alt="화살표" class='arrow'> -->
-                                      </p>
-                                      <div class="answer">
-                                        <img src="img/a5.png" alt="답변">
-                                        <p>
-                                            KRW 마켓의 미체결 주문은 직접 취소하기 전까지 주문이 유지됩니다.
-                                        </p>
-                                      </div>
-                                  </li>
-                                  <li>
-                                      <p class="question">
-                                        <img src="img/q1.png" alt="질문">
-                                        <span>주문을 수정하고 싶어요.</span>
-                                        <!-- <img src="img/arrow_off.png" alt="화살표" class='arrow'> -->
-                                      </p>
-                                      <div class="answer">
-                                        <img src="img/a5.png" alt="답변">
-                                        <p>체결된 주문에 대해서는 수정 및 취소가 불가능합니다.
-                                        단, 미체결된 주문은 주문가와 주문 수량은 수정할 수 있습니다.</p>
-                                      </div>
-                                  </li>
-                                  <li>
-                                      <p class="question">
-                                        <img src="img/q1.png" alt="질문">
                                         <span>암호화폐 구매주문을 했는데 거래내역에 뜨질 않아요.</span>
-                                        <!-- <img src="img/arrow_off.png" alt="화살표" class='arrow'> -->
                                       </p>
                                       <div class="answer">
                                         <img src="img/a5.png" alt="답변">
                                         <p>주문후 거래내역에서 확인이 안되는경우 체결이 되지않아 호가창에 남아있기 때문이며, 미체결 내용은 [거래내역 > 미체결 탭]에서 조회 가능합니다.</p>
                                       </div>
                                   </li>
-                                </ul><!-- faq리스트 계정 END-->
+                                  <li>
+                                      <p class="question">
+                                        <img src="img/q1.png" alt="질문">
+                                        <span>코인을 KRW(한화)로 KRW(한화)를 코인으로 환산하는 방법을 알려주세요.</span>
+                                      </p>
+                                      <div class="answer">
+                                        <img src="img/a5.png" alt="답변">
+                                        <p>[거래소] 페이지를 들어가시면 코인별로 현재 시세를 확인하실 수 있습니다.</p>
+                                      </div>
+                                  </li>
+                              </ul><!-- faq리스트 거래 END-->
                             </section>
 
                             <section class='faq_list_depo_withd faq_section'>
@@ -217,20 +209,7 @@
                                   <li>
                                       <p class="question">
                                         <img src="img/q1.png" alt="질문">
-                                        <span>입출금 수수료는 얼마인가요?</span>
-                                        <!-- <img src="img/arrow_off.png" alt="화살표" class='arrow'> -->
-                                      </p>
-                                      <div class="answer">
-                                        <img src="img/a5.png" alt="답변">
-                                        <p>더올스의 입출금 수수료는 코인마다 약간씩 차이가 있습니다.
-                                        더 자세한 정보는 [고객지원 > 수수료 안내]에서 확인하실 수 있습니다.</p>
-                                      </div>
-                                  </li>
-                                  <li>
-                                      <p class="question">
-                                        <img src="img/q1.png" alt="질문">
                                         <span>암호화폐를 받고 싶은데 지갑주소는 어떻게 확인하나요?</span>
-                                        <!-- <img src="img/arrow_off.png" alt="화살표" class='arrow'> -->
                                       </p>
                                       <div class="answer">
                                         <img src="img/a5.png" alt="답변">
@@ -241,25 +220,46 @@
                                   <li>
                                       <p class="question">
                                         <img src="img/q1.png" alt="질문">
-                                        <span>출금제한이 있나요?</span>
-                                        <!-- <img src="img/arrow_off.png" alt="화살표" class='arrow'> -->
+                                        <span>지인이 보낸 코인이 확인되지 않아요.</span>
                                       </p>
                                       <div class="answer">
                                         <img src="img/a5.png" alt="답변">
-                                        <p>더올스에서는 별도로 출금제한이 발생하지는 않습니다. 그러나, 해킹의심이나 이상거래 발견시 관리자 판단하에 출금제한이 있을 수 있습니다.</p>
+                                        <p>
+                                            코인 전송시 10~15분 정도의 시간이 소요되며 블록체인 네트워크 전송량이 많을 경우 처리가 지연될 수 있습니다.<br>
+                                            충분히 기다려보신 후에도 입금확인이 되지 않을 때에는 <a href="https://blockchain.info" target='_blank' class='go_link'>https://blockchain.info</a>에 들어가 진행 상황을 체크하실 수 있습니다.
+                                        </p>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <p class="question">
+                                        <img src="img/q1.png" alt="질문">
+                                        <span>출금제한이 있나요?</span>
+                                      </p>
+                                      <div class="answer">
+                                        <img src="img/a5.png" alt="답변">
+                                        <p>디올스에서는 별도로 출금제한이 발생하지는 않습니다. 그러나, 해킹의심이나 이상거래 발견시 관리자 판단하에 출금제한이 있을 수 있습니다.</p>
                                       </div>
                                   </li>
                                 </ul><!-- faq리스트 입출금 END-->
                             </section>
 
                             <section class='faq_list_buy_sell faq_section'>
-                                <h5>[ 인증 ]</h5>
+                                <h5>[ 정보변경 및 인증 ]</h5>
                                 <ul class="faq_ul">
+                                    <li>
+                                        <p class="question">
+                                          <img src="img/q1.png" alt="질문">
+                                          <span>회원가입 후 입력된 정보를 변경하고 싶어요.</span>
+                                        </p>
+                                        <div class="answer">
+                                          <img src="img/a5.png" alt="답변">
+                                          <p>회원 정보변경은 로그인 하신 후, [마이페이지 > 회원 정보관리]에서 확인하실 수 있습니다.</p>
+                                        </div>
+                                    </li>
                                   <li>
                                       <p class="question">
                                         <img src="img/q1.png" alt="질문">
                                         <span>등록한 계좌를 변경하고 싶어요.</span>
-                                        <!-- <img src="img/arrow_off.png" alt="화살표" class='arrow'> -->
                                       </p>
                                       <div class="answer">
                                         <img src="img/a5.png" alt="답변">
@@ -271,20 +271,38 @@
                                       <p class="question">
                                         <img src="img/q1.png" alt="물음표">
                                         <span>이메일 인증코드를 받지 못했습니다.</span>
-                                        <!-- <img src="img/arrow_off.png" alt="화살표" class='arrow'> -->
                                       </p>
                                       <div class="answer">
                                         <img src="img/a5.png" alt="답변">
                                         <p>이메일 계정에 따라 수신 되기 까지 최대 10분까지 소요 될 수 있습니다.<br>
-                                        10분이 경과했음에도 이메일을 수신하지 못한 경우, 회원님의 이메일 계정에서 더올스 메일을 스팸 메일로 처리하고 있는 것일 수도 있습니다.<br><br>
+                                        10분이 경과했음에도 이메일을 수신하지 못한 경우, 회원님의 이메일 계정에서 디올스 메일을 스팸 메일로 처리하고 있는 것일 수도 있습니다.<br><br>
 
-                                        1단계: 스팸 메일 목록을 먼저 확인하고 더올스 메일이 스팸 목록에서 발견되었을 경우, "스팸 해제"를 설정합니다.<br>
-                                        2단계: 스팸 메일의 경우 이메일 계정에서 자동으로 삭제하는 기능이 있을 수도 있으니 "수신된 스팸 메일 보관하기" 설정을 통해 더올스 메일을 보관합니다.<br>
+                                        1단계: 스팸 메일 목록을 먼저 확인하고 디올스 메일이 스팸 목록에서 발견되었을 경우, "스팸 해제"를 설정합니다.<br>
+                                        2단계: 스팸 메일의 경우 이메일 계정에서 자동으로 삭제하는 기능이 있을 수도 있으니 "수신된 스팸 메일 보관하기" 설정을 통해 디올스 메일을 보관합니다.<br>
                                         3단계: 상기 설정 후 재로그인하여 이메일 인증을 다시 한번 요청하시기 바랍니다.</p>
+                                      </div>
+                                  </li>
+                                </ul><!--faq리스트 인증 END-->
+                            </section>
+
+                            <section class='faq_list_etc faq_section'>
+                                <h5>[ 기타 ]</h5>
+                                <ul class="faq_ul">
+                                  <li>
+                                      <p class="question">
+                                        <img src="img/q1.png" alt="질문">
+                                        <span>다른 궁금한 사항은 어디에서 확인할 수 있나요?</span>
+                                      </p>
+                                      <div class="answer">
+                                        <img src="img/a5.png" alt="답변">
+                                        <p>
+                                            추가적으로 궁금하신 사항은 1:1 문의를 이용하시거나 고객센터로 연락을 주시기 바랍니다.
+                                        </p>
                                       </div>
                                   </li>
                                 </ul><!-- faq리스트 매도매수 END-->
                             </section>
+
                           </div><!--faq_list End-->
                         </div><!--faq_inner End-->
                   </div><!--faq_area End-->
