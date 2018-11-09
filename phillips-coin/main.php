@@ -36,32 +36,26 @@
                 <div class="line"></div>
                 <div class="main_menu">
                     <ul>
-                        <li onclick="location.href='send.php'">
-                            <img src="img/icon_send.png" alt="보내기">
+                        <li onclick="location.href='send.php'" class='send_li'>
                             <p>보내기</p>
                         </li>
-                        <li onclick="location.href='receive.php'">
-                            <img src="img/icon_recive.png" alt="받기">
+                        <li onclick="location.href='receive.php'" class='receive_li'>
                             <p>받기</p>
                         </li>
                     </ul>
                     <ul>
-                        <li onclick="location.href='sendList.php'">
-                            <img src="img/icon_sendList.png" alt="보낸내역">
+                        <li onclick="location.href='sendList.php'" class='sendList_li'>
                             <p>보낸내역</p>
                         </li>
-                        <li onclick="location.href='receiveList.php'">
-                            <img src="img/icon_reciveList.png" alt="받은내역">
+                        <li onclick="location.href='receiveList.php'" class='receiveList_li'>
                             <p>받은내역</p>
                         </li>
                     </ul>
                     <ul>
-                        <li onclick="location.href='setting.php'">
-                            <img src="img/icon_setting.png" alt="정보수정">
+                        <li onclick="location.href='setting.php'" class='setting_li'>
                             <p>정보수정</p>
                         </li>
-                        <li onclick="location.href='contact.php'">
-                            <img src="img/icon_contact.png" alt="문의하기">
+                        <li onclick="location.href='contact.php'" class='contact_li'>
                             <p>문의하기</p>
                         </li>
                     </ul>

@@ -24,9 +24,46 @@
     float: left;
     text-align: center;
     margin-top: 30px;
+    padding-top: 168px;
 }
-.main_content .main_menu ul li img{
-    width: 150px;
+.main_content .main_menu ul li.send_li{
+    background: url(../img/180_icon_send.png) no-repeat center 0 / 150px 150px;
+}
+.main_content .main_menu ul li.receive_li{
+    background: url(../img/180_icon_recive.png) no-repeat center 0 / 150px 150px;
+}
+.main_content .main_menu ul li.sendList_li{
+    background: url(../img/180_icon_sendList.png) no-repeat center 0 / 150px 150px;
+}
+.main_content .main_menu ul li.receiveList_li{
+    background: url(../img/180_icon_reciveList.png) no-repeat center 0 / 150px 150px;
+}
+.main_content .main_menu ul li.setting_li{
+    background: url(../img/180_icon_setting.png) no-repeat center 0 / 150px 150px;
+}
+.main_content .main_menu ul li.contact_li{
+    background: url(../img/180_icon_contact.png) no-repeat center 0 / 150px 150px;
+}
+.main_content .main_menu ul li:hover{
+    cursor: pointer;
+}
+.main_content .main_menu ul li.send_li:hover{
+    background: url(../img/180_icon_send_y.png) no-repeat center 0 / 150px 150px;
+}
+.main_content .main_menu ul li.receive_li:hover{
+    background: url(../img/180_icon_recive_y.png) no-repeat center 0 / 150px 150px;
+}
+.main_content .main_menu ul li.sendList_li:hover{
+    background: url(../img/180_icon_sendList_y.png) no-repeat center 0 / 150px 150px;
+}
+.main_content .main_menu ul li.receiveList_li:hover{
+    background: url(../img/180_icon_reciveList_y.png) no-repeat center 0 / 150px 150px;
+}
+.main_content .main_menu ul li.setting_li:hover{
+    background: url(../img/180_icon_setting_y.png) no-repeat center 0 / 150px 150px;
+}
+.main_content .main_menu ul li.contact_li:hover{
+    background: url(../img/180_icon_contact_y.png) no-repeat center 0 / 150px 150px;
 }
 .main_content .main_menu ul li p{
     font-size: 18px;
