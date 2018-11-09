@@ -13,7 +13,7 @@ body {
   padding: 0;
   font-family: 'Noto Sans KR', sans-serif;
   height: 100%;
-  color: #555;
+  color: #2c1f1b;
   background-color: #fff;
 }
 
@@ -42,7 +42,7 @@ a {
 
 a:link, a:visited {
   text-decoration: none;
-  color: #555;
+  color: #2c1f1b;
 }
 
 input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="submit"], input[type="reset"], input[type="file"], textarea, input[type="button"], button {

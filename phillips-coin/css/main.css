@@ -1,0 +1,10 @@
+.main_content .title{
+    width: 500px;
+    margin: 20px auto;
+}
+.main_content .line{
+    width: 100%;
+    height: 1px;
+    background: #666;
+    margin: 20px 0;
+}
