@@ -54,3 +54,10 @@
 .changeInfo_content form input.changeInfo_btn{
     width: 98%;
 }
+
+/* mobile ver */
+@media all and (min-width:320px) and (max-width:768px){
+  .changeInfo_content .my_coin_box {
+    font-size: 18px;
+  }
+}
