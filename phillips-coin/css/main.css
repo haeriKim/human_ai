@@ -1,10 +1,34 @@
 .main_content .title{
     width: 500px;
     margin: 20px auto;
+    overflow: hidden;
+}
+.main_content .title .have_coin{
+    float: right;
 }
 .main_content .line{
     width: 100%;
     height: 1px;
     background: #666;
     margin: 20px 0;
+}
+.main_content .main_menu{
+    width: 500px;
+    margin: 0 auto;
+}
+.main_content .main_menu ul{
+    overflow: hidden;
+}
+.main_content .main_menu ul li{
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin-top: 30px;
+}
+.main_content .main_menu ul li img{
+    width: 150px;
+}
+.main_content .main_menu ul li p{
+    font-size: 18px;
+    margin-top: 5px;
 }

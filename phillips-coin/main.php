@@ -29,38 +29,38 @@
 
             <!-- content -->
             <div class="content main_content">
-                <p class='title'>
+                <h3 class='title'>
                     내잔고
                     <span class='have_coin'>0 PHS</span>
-                </p>
+                </h3>
                 <div class="line"></div>
-                <div class="menu">
+                <div class="main_menu">
                     <ul>
-                        <li onclick="loaction.href='send.php'">
+                        <li onclick="location.href='send.php'">
                             <img src="img/icon_send.png" alt="보내기">
                             <p>보내기</p>
                         </li>
-                        <li onclick="loaction.href='receive.php'">
+                        <li onclick="location.href='receive.php'">
                             <img src="img/icon_recive.png" alt="받기">
                             <p>받기</p>
                         </li>
                     </ul>
                     <ul>
-                        <li onclick="loaction.href='sendList.php'">
+                        <li onclick="location.href='sendList.php'">
                             <img src="img/icon_sendList.png" alt="보낸내역">
                             <p>보낸내역</p>
                         </li>
-                        <li onclick="loaction.href='receiveList.php'">
+                        <li onclick="location.href='receiveList.php'">
                             <img src="img/icon_reciveList.png" alt="받은내역">
                             <p>받은내역</p>
                         </li>
                     </ul>
                     <ul>
-                        <li onclick="loaction.href='setting.php'">
+                        <li onclick="location.href='setting.php'">
                             <img src="img/icon_setting.png" alt="정보수정">
                             <p>정보수정</p>
                         </li>
-                        <li onclick="loaction.href='contact.php'">
+                        <li onclick="location.href='contact.php'">
                             <img src="img/icon_contact.png" alt="문의하기">
                             <p>문의하기</p>
                         </li>
