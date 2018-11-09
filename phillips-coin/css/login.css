@@ -1,0 +1,23 @@
+
+.login_content{
+  border:1px solid red;
+  text-align: center;
+  margin:0 auto;
+}
+.login_content .login_inner{
+  width:30%;
+  border:1px solid red;
+  text-align: center;
+  margin:0 auto;
+}
+.login_content .login_inner .login_input .user_id{
+  width:50%;
+}
+.login_content .login_inner .login_input .user_pass{
+  width:50%;
+  margin-bottom:30px;
+}
+
+.login_content .login_inner .login_input .login_box{
+  border:1px solid green;
+}

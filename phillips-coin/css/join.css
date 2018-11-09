@@ -34,3 +34,6 @@
 .join_text .copyright{
   font-size:12px;
 }
+#full{
+  display:none;
+}
