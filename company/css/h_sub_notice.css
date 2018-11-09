@@ -11,7 +11,7 @@
   color:#111;
 }
 
-/*회사소개*/
+/*공지사항*/
 .intro_inner{
     text-align: center;
     margin-left: 234px;
@@ -90,7 +90,60 @@
   color:#5586b7;
 }
 
-/*noticeS 부분*/
+/*공지사항 inner 부분*/
+
+.intro_inner .co_notice_content .co_notice_story{
+  width:51.2%;
+  height:500px;
+  margin:0 auto;
+}
+.intro_inner .co_notice_content .co_notice_story .title{
+  border-top:2px solid blue;
+  border-bottom:1px solid #efefef;
+  padding:10px 0;
+  width:100%;
+
+}
+.intro_inner .co_notice_content .co_notice_story .title strong{
+  text-align:left;
+  display:inline-block;
+  width:80%;
+}
+.intro_inner .co_notice_content .co_notice_story .title span{
+  text-align:right;
+  display:inline-block;
+  width:10%;
+}
+.intro_inner .co_notice_content .co_notice_story .story{
+  font-size:14px;
+  padding:40px 40px;
+  text-align:left;
+  height:280px;
+  overflow-y:scroll;
+}
+.intro_inner .co_notice_content .co_notice_story .story span{
+}
+.intro_inner .co_notice_content .co_notice_story .next_story p{
+  padding:10px 20px;
+  font-size:13px;
+  text-align:left;
+}
+.intro_inner .co_notice_content .co_notice_story .next_story_top{
+  border-top:1px solid #efefef;
+  border-bottom:1px solid #efefef;
+}
+.intro_inner .co_notice_content .co_notice_story .story_bt{
+  text-align:left;
+  display:block;
+  width:30%;
+  border:1px solid red;
+}
+.intro_inner .co_notice_content .co_notice_story .story_title{
+  text-align:right;
+  display:block;
+width:40%;
+border:1px solid red;
+}
 
 
 
