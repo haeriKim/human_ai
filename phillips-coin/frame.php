@@ -13,12 +13,18 @@
 <body>
 <div id="wrap">
 
-  <!-- nav_wrap -->
-  <?php include "header.php";?>
-  <!-- nav_wrap End-->
-
   <!-- 컨테이너 -->
   <div id="container">
+
+    <!-- nav -->
+    <?php include "nav.php";?>
+    <!-- nav End-->
+
+    <!-- header -->
+    <?php include "header.php";?>
+    <!-- header End-->
+
+
     <div class="content">
 
     </div><!-- content End -->
