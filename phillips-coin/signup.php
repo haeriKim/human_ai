@@ -43,8 +43,10 @@
             <option value="일본">일본</option>
             <option value="중국">중국</option>
           </select>
-          <input type='tell' name="user_phone" value="" placeholder="휴대폰번호" required maxlength="15" minlength="8"  class='user_phone' autocomplete="off"/>
-          <input type="button" name="sms_number" value="인증번호" class="request_number_bt">
+          <div class="phone_wrap">
+              <input type="text" name="phone" placeholder="휴대폰번호" autocomplete="off" class='phone user_phone'>
+              <input type="button" name="code_send" value="인증받기" class='request_number_bt'>
+          </div>
           <input type="text" name="sms_number" value="인증번호" required maxlength="6" minlength="6" class='request_number'/>
           <input type="email" name="user_email" value="" placeholder="이메일" required maxlength="30" minlength="8"  class='user_email' autocomplete="off"/>
 

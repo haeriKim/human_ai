@@ -23,10 +23,11 @@ input{
 input[type='text'],input[type='password'],input[type='email'],input[type='number']{
   border: none;
   border-bottom: 1px solid #FFE106;
-  width: 60%;
+  width: 70%;
   padding: 10px;
   font-size: 15px;
   color:#666;
+  margin:10px 0;
 
 }
 input[type='tell']{
@@ -78,6 +79,7 @@ select {
   background-size: 7px;
   padding-left: 2px;
   padding-right: 15px;
+  width:73%;
 }
 
 /* h3 title */
@@ -108,7 +110,8 @@ h3.title {
     #container .content form,
     #container .content .text,
     #container .content .main_menu,
-    #container .content .sendHistory{
+    #container .content .sendHistory,
+    #container .content .receiveHistory{
         width: 80%;
     }
     #container .content .main_menu ul li{
