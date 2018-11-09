@@ -52,6 +52,8 @@
                     </div>
                     <input type="text" name="code" placeholder="인증번호" autocomplete="off" class='code'>
                     <input type="submit" name="submit" value="회원정보수정" class='changeInfo_btn'>
+                </form>
+                    <p class="copyright">CRYPOCURRNCY PHILLIPS-COIN SINCE 2018</p>
             </div><!-- content End-->
 
         </div><!-- container End -->

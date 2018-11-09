@@ -42,6 +42,7 @@
                     <textarea placeholder="내용을 입력해주세요."></textarea>
                     <input type="submit" name="submit" value="문의하기" class='question_btn'>
                 </form>
+                <p class="copyright">CRYPOCURRNCY PHILLIPS-COIN SINCE 2018</p>
             </div><!-- content End-->
 
         </div><!-- container End -->

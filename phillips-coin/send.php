@@ -44,7 +44,7 @@
                     <input type="submit" name="submit" value="보내기" class='changeInfo_btn'>
                   </div>
                 </form>
-
+                <p class="copyright">CRYPOCURRNCY PHILLIPS-COIN SINCE 2018</p>
             </div><!-- content End-->
 
         </div><!-- container End -->

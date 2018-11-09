@@ -60,6 +60,7 @@
                         </li>
                     </ul>
                 </div>
+                <p class="copyright">CRYPOCURRNCY PHILLIPS-COIN SINCE 2018</p>
             </div><!-- content End-->
 
         </div><!-- container End -->
