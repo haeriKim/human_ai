@@ -2,6 +2,7 @@
     width: 500px;
     margin: 20px auto;
     overflow: hidden;
+    text-align: left;
 }
 .main_content .title .have_coin{
     float: right;
@@ -68,4 +69,8 @@
 .main_content .main_menu ul li p{
     font-size: 18px;
     margin-top: 5px;
+    font-weight: 600;
+}
+.main_content .main_menu ul li:hover p{
+    color:#FFE106;
 }
