@@ -29,7 +29,7 @@
 
             <!-- content -->
             <div class="content changeInfo_content">
-                <p class='title'>비밀번호 변경</p>
+                <h3 class='title'>보내기</h3>
                 <div class="line"></div>
                 <form class="change_pw_form" action="#" method="post">
                   <div class="my_coin_box">
