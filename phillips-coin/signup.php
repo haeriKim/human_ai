@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/join.css">
+    <link rel="stylesheet" href="css/signup.css">
     <link rel="stylesheet" href="css/popup.css">
     <link rel="stylesheet" href="css/nav.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
