@@ -23,37 +23,37 @@
                 <ul>
                     <li>
                         <a href="send.php" class="menuText">
-                          <img src=img/icon_send.png alt="보내기아이콘"/>
+                          <img src=img/50_icon_send_yb.png alt="보내기아이콘"/>
                           <span class="none01">보내기</span>
                         </a>
                     </li>
                     <li>
                         <a href="receive.php" class="menuText">
-                          <img src=img/icon_recive.png alt="받기아이콘"/>
+                          <img src=img/50_icon_recive_yb.png alt="받기아이콘"/>
                           <span class="none01">받기</span>
                         </a>
                     </li>
                     <li>
                         <a href="sendList.php" class="menuText">
-                          <img src=img/icon_sendList.png alt="보낸내역아이콘"/>
+                          <img src=img/50_icon_sendList.png alt="보낸내역아이콘"/>
                           <span class="none01">보낸내역</span>
                         </a>
                     </li>
                     <li>
                         <a href="receiveList.php" class="menuText">
-                          <img src=img/icon_reciveList.png alt="받은내역아이콘"/>
+                          <img src=img/50_icon_reciveList.png alt="받은내역아이콘"/>
                           <span class="none01">받은내역</span>
                         </a>
                     </li>
                     <li>
                         <a href="setting.php" class="menuText">
-                          <img src=img/icon_setting.png alt="정보수정아이콘"/>
+                          <img src=img/50_icon_setting.png alt="정보수정아이콘"/>
                           <span class="none01">정보수정</span>
                         </a>
                     </li>
                     <li>
                         <a href="notice.php" class="menuText">
-                          <img src=img/icon_contact.png alt="문의하기아이콘"/>
+                          <img src=img/50_icon_contact.png alt="문의하기아이콘"/>
                           <span class="none01">문의하기</span>
                         </a>
                     </li>
