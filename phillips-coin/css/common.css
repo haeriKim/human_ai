@@ -1,0 +1,39 @@
+/*필립스css*/
+
+#wrap{
+    width:100%;
+}
+
+/* container */
+#container{
+    width:100%;
+}
+#container:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+/* input */
+input[type='text'],input[type='password'],input[type='tell'],input[type='email']{
+  border: none;
+  border-bottom: 1px solid #FFE106;
+  width: 200px;
+  padding-bottom: 4px;
+  font-size: 15px;
+}
+input[type='button'],input[type='submit']{
+  border-radius: 5px;
+  padding: 7px 30px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: none;
+  background-color: #FFE106;
+  cursor: pointer;
+}
+input[type='button']:hover,input[type='submit']:hover{
+  background-color:#DF2025;
+}
