@@ -1,6 +1,5 @@
 
 .join_box{
-  width:50%;
   text-align:center;
 }
 .join_box .join_inner{
@@ -12,6 +11,9 @@
   width:100px;
   padding:7px 10px;
   text-align: center;
+}
+.join_box .join_inner .user_id{
+  width:60%;
 }
 .join_box .join_inner .join_text{
   text-align:center;
