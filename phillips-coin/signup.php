@@ -29,6 +29,8 @@
     <!-- header End-->
 
     <div class="content join_content">
+      <h3 class='title'>회원가입</h3>
+      <div class="line"></div>
       <div class="join_box">
         <div class="join_inner">
           <form class="" action="#" method="post">

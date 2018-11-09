@@ -29,7 +29,7 @@
             <!-- header End-->
 
             <div class="content findPw_content">
-                <p class='title'>비밀번호 찾기</p>
+                <h3 class='title'>비밀번호 찾기</h3>
                 <div class="line"></div>
                 <form class="find_pw_form" action="#" method="post">
                     <input type="text" name="id" placeholder="회원아이디" autocomplete="off" class='id user_id'>

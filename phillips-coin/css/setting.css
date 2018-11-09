@@ -37,6 +37,7 @@
     width: 20%;
     padding: 6px 0;
     right: 6%;
+    min-width: 85px;
 }
 .changeInfo_content form input.changeInfo_btn{
     width: 94%;

@@ -29,13 +29,13 @@
 
             <!-- content -->
             <div class="content changeInfo_content">
-                <p class='title'>비밀번호 변경</p>
+                <h3 class='title'>비밀번호 변경</h3>
                 <div class="line"></div>
                 <form class="change_pw_form" action="#" method="post">
                     <input type="password" name="password" placeholder="현재 비밀번호" autocomplete="off" class='password user_pass'>
                     <input type="password" name="new_password" placeholder="새로운 비밀번호" autocomplete="off" class='new_password user_pass'>
                 </form>
-                <p class='title'>휴대폰번호 변경</p>
+                <h3 class='title'>휴대폰번호 변경</h3>
                 <div class="line"></div>
                 <form class="change_phone_form" action="#" method="post">
                     <select class="country_select" name="국가">

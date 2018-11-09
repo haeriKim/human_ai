@@ -20,7 +20,7 @@
 input{
   margin-bottom:4px;
 }
-input[type='text'],input[type='password'],input[type='email']{
+input[type='text'],input[type='password'],input[type='email'],input[type='number']{
   border: none;
   border-bottom: 1px solid #FFE106;
   width: 60%;
@@ -38,7 +38,7 @@ input[type='tell']{
 }
 input[type='button'],input[type='submit']{
   border-radius: 5px;
-  padding: 12px 30px;
+  padding: 7px 30px;
   font-weight: 600;
   font-size: 16px;
   box-sizing: border-box;
@@ -64,4 +64,31 @@ select{
 .copyright{
   font-size:12px;
   text-align: center;
+}
+
+/*select 화살표 이미지*/
+select::-ms-expand {
+    display: none;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url("../img/down_b.png") no-repeat 95% center;
+  background-size: 7px;
+  padding-left: 2px;
+  padding-right: 15px;
+}
+/*반응형*/
+@media (max-width:768px) {
+    #container .content .title,
+    #container .content form,
+    #container .content .text,
+    #container .content .main_menu,
+    #container .content .sendHistory{
+        width: 80%;
+    }
+    #container .content .main_menu ul li{
+        padding-top: 32%;
+    }
 }

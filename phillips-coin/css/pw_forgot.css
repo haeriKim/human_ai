@@ -40,6 +40,7 @@
     width: 20%;
     padding: 6px 0;
     right: 6%;
+    min-width: 85px;
 }
 .findPw_content form input.find_pw_btn{
     width: 94%;
