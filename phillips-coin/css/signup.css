@@ -1,8 +1,4 @@
 
-.join_content .title{
-    width: 500px;
-    margin: 20px auto;
-}
 .join_content .line{
     width: 100%;
     height: 1px;
@@ -12,6 +8,19 @@
 .join_content .join_box{
     width: 500px;
     margin: 0 auto;
+}
+.join_content input{
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+}
+.join_content select{
+    border-bottom: 1px solid #FFE106;
+    margin: 10px 0;
+    width: 94%;
+    color: #757575;
+    font-size: 15px;
+    padding: 10px;
 }
 .join_box{
   width:50%;
