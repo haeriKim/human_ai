@@ -35,7 +35,7 @@
                   <div class="my_coin_box">
                     <span class="my_coin">내잔고</span><span class='my_coin_number'>0 PLS</span>
                   </div>
-                  <input type='text' name="number" value="" placeholder="수량" required maxlength="100" minlength="1"  class='input_number' autocomplete="off"/>
+                  <input type='number' name="number" value="" placeholder="수량" required maxlength="100" minlength="1"  class='input_number' autocomplete="off"/>
                   <input type='text' name="limit_number" value="" placeholder="0.02" class="input_limit" disabled="disabled">
                   <input type='text' name="limit_number" value="" class="input_limit" disabled="disabled">
                   <input type="text" name="address" value="" placeholder="주소" required maxlength="100" class='address'>
