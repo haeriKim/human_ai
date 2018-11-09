@@ -12,3 +12,18 @@
     width: 500px;
     margin: 0 auto;
 }
+.sendHistory_content .sendHistory table{
+  border:1px solid #FFE106;
+}
+.sendHistory_content .sendHistory table tr{
+  border:1px solid #FFE106;
+
+}
+.sendHistory_content .sendHistory table th{
+  background:#FFE106;
+  color:#555;
+    padding:10px;
+}
+.sendHistory_content .sendHistory table td{
+  border-left:1px solid #FFE106;
+}

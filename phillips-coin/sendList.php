@@ -26,7 +26,29 @@
                 <p class='title'>보낸내역</p>
                 <div class="line"></div>
                 <div class="sendHistory">
-                    <p class='no_data'>보낸 내역이 없습니다.</p>
+                    <!--<p class='no_data'></p>-->
+                    <table>
+                      <colgroup>
+                        <col width="20%">
+                        <col width="80%">
+                      </colgroup>
+                      <tr>
+                       <th>주소</th>
+                       <td>지갑주소</td>
+                     </tr>
+                     <tr>
+                       <th>TXID</th>
+                       <td>ASBCEFGASDLFIAEHKS</td>
+                     </tr>
+                     <tr>
+                       <th>수량</th>
+                       <td>100000 IPC</td>
+                     </tr>
+                     <tr>
+                       <th>날짜</th>
+                       <td>2018/08/07 03:07:58</td>
+                     </tr>
+                    </table>
                 </div>
             </div><!-- content End-->
 

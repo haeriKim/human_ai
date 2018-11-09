@@ -7,46 +7,49 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/send_receive.css">
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/receive.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
 </head>
 <body>
-<div id="wrap">
+    <!-- wrap -->
+    <div id="wrap">
 
-  <!-- 컨테이너 -->
-  <div id="container">
+        <!-- container -->
+        <div id="container">
 
-    <!-- nav -->
-    <?php include "nav.php";?>
-    <!-- nav End-->
+            <!-- nav -->
+            <?php include "nav.php";?>
+            <!-- nav End-->
 
-    <!-- header -->
-    <?php include "header.php";?>
-    <!-- header End-->
+            <!-- header -->
+            <?php include "header.php";?>
+            <!-- header End-->
 
-    <div class="content output_content">
-      <div class="output_box">
-        <div class="output_inner">
-          <div class="my_coin_box">
-            <span class="my_coin">내잔고</span><span class='my_coin_number'>0 PLS</span>
-          </div>
+            <!-- content -->
+            <div class="content changeInfo_content">
+                <p class='title'>받기</p>
+                <div class="line"></div>
+                <form class="change_pw_form" action="#" method="post">
+                  <div class="my_coin_box">
+                    <span class="my_coin">내잔고</span><span class='my_coin_number'>0 PLS</span>
+                  </div>
 
-          <div class="output_text">
-            <input type="button" name="qrcode" value="QR코드 스캔">
+                  <div class="output_text">
+                    <input type="button" name="qrcode" value="QR코드 스캔">
 
-              <p><img src="img/qr_code.png" alt="qr코드"></p>
-              <p>0x777kyJeJjHIFdukLyVO69TLDCkn</p>
+                      <p><img src="img/qr_code.png" alt="qr코드"></p>
+                      <p>0x777kyJeJjHIFdukLyVO69TLDCkn</p>
 
-            <input type="submit" name="submit" value="보내기">
-            <p class="copyright">CRYPOCURRNCY PILIPS COIN SINCE 2018</p>
-          </div>
-        </div>
-      </div>
+                    <input type="submit" name="submit" value="보내기">
+                    <p class="copyright">CRYPOCURRNCY PILIPS COIN SINCE 2018</p>
+                  </div>
+                </form>
 
-    </div><!-- content End -->
-  </div><!-- container End -->
-</div><!--wrap End-->
+            </div><!-- content End-->
+
+        </div><!-- container End -->
+    </div><!-- wrap End -->
 </body>
 </html>

@@ -23,10 +23,33 @@
         <div id="container">
             <!-- content -->
             <div class="content sendHistory_content">
+              <p class='title'>받은내역</p>
+              <div class="line"></div>
 
                 <div class="sendHistory">
-                    <p class='no_data'>받은 내역이 없습니다.</p>
-                    <p class="copyright">CRYPOCURRNCY PILIPS COIN SINCE 2018</p>
+                    <!--<p class='no_data'>받은 내역이 없습니다.</p>-->
+                    <table>
+                      <colgroup>
+                        <col width="20%">
+                        <col width="80%">
+                      </colgroup>
+                      <tr>
+                       <th>받는사람</th>
+                       <td>홍길동</td>
+                     </tr>
+                     <tr>
+                       <th>TXID</th>
+                       <td>ASBCEFGASDLFIAEHKS</td>
+                     </tr>
+                     <tr>
+                       <th>수량</th>
+                       <td>100000 IPC</td>
+                     </tr>
+                     <tr>
+                       <th>날짜</th>
+                       <td>2018/08/07 03:07:58</td>
+                     </tr>
+                    </table>
                 </div>
             </div><!-- content End-->
 
