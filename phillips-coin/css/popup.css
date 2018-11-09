@@ -52,3 +52,51 @@
   height: 100%;
   z-index: 1;
 }
+@media all and (min-width:320px) and (max-width:768px){
+  #popupbox {
+      width: 100%;
+  }
+  .popup {
+    position: fixed;
+  top:50%;
+  left:0;
+  margin-left:0;
+  }
+  .box {
+      box-shadow: 0 1px 2px rgba(100,100,100,.2);
+      border-radius: 5px;
+      background-color: #fff;
+      box-sizing: border-box;
+  }
+  .popup .full_inner h2{
+    padding-bottom:20px;
+    border-bottom:1px solid #FFE106;
+  }
+  .popup .popupbox_text p{
+    margin:40px 0;
+  }
+  #full .ok_btn{
+    text-align:center;
+  }
+  #full .ok{
+    background: #FFE106;
+    border-radius: 5px;
+    padding: 7px 30px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  #full .ok:hover{
+    background-color:#DF2025;
+  }
+  #shadow{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+}

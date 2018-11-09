@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content=" width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/common.css">
@@ -17,14 +18,14 @@
 
       <div class="login_content">
         <div class="login_inner">
-        <p><img src="img/logo.png" alt="로고"></p>
+        <p><img src="img/logo.png" alt="로고" class="logo"></p>
 
         <div class="login_input">
           <div class="inputArea idArea">
-            <img src="img/icon_user_b.png" alt="아이디 아이콘"/><input type='text' name="user_id" value="" placeholder="아이디" required maxlength="30" minlength="8"  class='user_id' autocomplete="off"/>
+            <img src="img/icon_user_b.png" alt="아이디 아이콘"/ class="icon"><input type='text' name="user_id" value="" placeholder="아이디" required maxlength="30" minlength="8"  class='user_id' autocomplete="off"/>
           </div>
           <div class="inputArea pwArea">
-            <img src="img/icon_pwd_b.png" alt="패스워드 아이콘"/><input type="password" name="password" value="" placeholder="비밀번호" required maxlength="30" minlength="10" class='user_pass'/>
+            <img src="img/icon_pwd_b.png" alt="패스워드 아이콘"/ class="icon"><input type="password" name="password" value="" placeholder="비밀번호" required maxlength="30" minlength="10" class='user_pass'/>
           </div>
 
             <div class="login_box">
