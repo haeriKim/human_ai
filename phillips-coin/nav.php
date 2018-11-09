@@ -3,7 +3,7 @@
 <label id="m_navBtn" for="m_menu-toggle" >
     <span></span><span></span><span></span>
 </label>
-<div id="shadow"></div>
+<div id="nav_shadow"></div>
 <!-- Navigation Toggle Btn END -->
 
 <!-- nav -->
