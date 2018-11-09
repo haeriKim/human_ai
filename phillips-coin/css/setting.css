@@ -22,7 +22,7 @@
     padding: 10px;
 }
 .changeInfo_content select.country_select{
-    border-bottom: 1px solid #FFE106;
+    border: 1px solid #FFE106;
     margin: 10px 0;
     width: 94%;
     color: #757575;
