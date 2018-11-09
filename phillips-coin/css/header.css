@@ -1,0 +1,18 @@
+#headerWrap {
+  display: block;
+  background-color: #2C1F1B;
+  position: fixed;
+  top:0;
+  z-index: 10;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  height: 90px;
+  box-sizing: border-box;
+}
+#headerWrap h1 a {
+  display: inline-block;
+}
+#headerWrap h1 img {
+  width: 60px;
+}
