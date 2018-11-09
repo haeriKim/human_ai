@@ -15,12 +15,18 @@
 <body>
     <!-- wrap -->
     <div id="wrap">
-        <!-- header -->
-        <?php include "header.php";?>
-        <!-- header End-->
 
         <!-- container -->
         <div id="container">
+
+          <!-- nav -->
+          <?php include "nav.php";?>
+          <!-- nav End-->
+
+          <!-- header -->
+          <?php include "header.php";?>
+          <!-- header End-->
+          
             <!-- content -->
             <div class="content sendHistory_content">
                 <p class='title'>보낸내역</p>

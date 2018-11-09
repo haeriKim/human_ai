@@ -52,7 +52,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="notice.php" class="menuText">
+                        <a href="contact.php" class="menuText">
                           <img src=img/50_icon_contact.png alt="문의하기아이콘"/>
                           <span class="none01">문의하기</span>
                         </a>
