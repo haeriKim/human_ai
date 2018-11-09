@@ -41,3 +41,6 @@
 .findPw_content form input.find_pw_btn{
     width: 94%;
 }
+#full{
+  display:none;
+}

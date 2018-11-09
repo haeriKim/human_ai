@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/pw_forgot.css">
+    <link rel="stylesheet" href="css/popup.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/common.js"></script>
 </head>
 <body>
     <!-- wrap -->
@@ -51,5 +53,22 @@
 
         </div><!-- container End -->
     </div><!-- wrap End -->
+
+    <div id="full">
+                <!-- full_content -->
+                <div id="popupbox" class='box popup'>
+                  <div class="full_inner">
+                    <h2>인증번호 전송</h2>
+                    <div class="popupbox_text">
+                      <p>등록하신 휴대폰으로 인증번호를 발송하였습니다.</p>
+                    </div>
+                    <div class="ok_btn">
+                      <input type="button" name="" value="확인" class="ok">
+                    </div>
+
+                  </div>
+                </div><!-- full_content End-->
+                <div id="shadow"></div>
+    </div>
 </body>
 </html>
