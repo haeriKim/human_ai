@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/nav.css">
-  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="css/index.css">
   <script src="http://code.jquery.com/jquery-latest.js"></script>
 
 </head>
