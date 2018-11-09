@@ -77,7 +77,7 @@ input[type='checkbox'] + label#m_navBtn:before {
 #nav{
   display: block;
   background: #FFE106;
-  width:50%;
+  width:15%;
   height:100%;
   z-index:985;
   transition: all 0.6s;

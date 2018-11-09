@@ -6,9 +6,13 @@
 }
 .changeInfo_content .my_coin_box{
   overflow:hidden;
+  font-size: 25px;
+  margin-bottom: 20px;
 }
 .changeInfo_content .my_coin_box .my_coin{
   float:left;
+  display: block;
+  width: 100%;
 }
 .changeInfo_content .my_coin_box .my_coin_number{
   float:right;
@@ -20,7 +24,6 @@
 }
 .changeInfo_content form input{
     width: 98%;
-    padding: 10px;
     margin: 10px 0;
 }
 .changeInfo_content .output_text p{
