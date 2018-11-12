@@ -227,3 +227,77 @@
     width:82%;
 
 }
+/*tech_detail*/
+.technology_inner .tech_detail{
+  width:1200px;
+  margin:70px auto;
+}
+.technology_inner .tech_detail .tech_box{
+  overflow:hidden;
+  margin:0 auto;
+  margin-bottom:50px;
+}
+.technology_inner .tech_detail .tech_box img{
+  width:900px;
+}
+.technology_inner .tech_detail .tech_box span{
+  font-size:12px;
+  font-weight:500;
+}
+/*box_1*/
+.technology_inner .tech_detail .tech_box .left_box1{
+  width:300px;
+  height:100px;
+  float:left;
+  text-align:center;
+}
+.technology_inner .tech_detail .tech_box .left_box1 div{
+  border:1px solid #1b5ea9;
+  width:100px;
+  text-align: center;
+  margin-left:100px;
+  margin-bottom:10px;
+}
+.technology_inner .tech_detail .tech_box .left_box1 p{
+  font-weight:600;
+  font-size:20px;
+}
+.technology_inner .tech_detail .tech_box .right_box1{
+  float:right;
+  width:900px;
+  text-align:left;
+}
+.technology_inner .tech_detail .tech_box .right_box1 p{
+  padding-bottom:20px;
+  line-height:1.5em;
+}
+/*box_2*/
+.technology_inner .tech_detail .tech_box .right_box2{
+  width:300px;
+  height:100px;
+  float:right;
+  text-align: center;
+}
+.technology_inner .tech_detail .tech_box .right_box2 div{
+  border:1px solid #1b5ea9;
+  width:100px;
+  text-align: center;
+  margin-left:100px;
+  margin-bottom:10px;
+}
+.technology_inner .tech_detail .tech_box .right_box2 #right_box_div{
+  margin-left:100px;
+}
+.technology_inner .tech_detail .tech_box .right_box2 p{
+  font-weight:600;
+  font-size:20px;
+}
+.technology_inner .tech_detail .tech_box .left_box2{
+  float:left;
+  width:900px;
+  text-align:left;
+}
+.technology_inner .tech_detail .tech_box .left_box2 p{
+  padding-bottom:20px;
+  line-height:1.5em;
+}
