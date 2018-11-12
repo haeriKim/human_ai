@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content=" width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+<meta name="viewport" content=" width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+<title>Phillips-coin</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/nav.css">
+  <link rel="shortcut icon" href="img/favicon-16.png" type="image/x-icon">
+  <link rel="icon" href="img/favicon-16.png" type="image/x-icon">
+  <link rel="shortcut icon" href="img/favicon-32.png" type="image/x-icon">
+  <link rel="icon" href="img/favicon-32.png" type="image/x-icon">
   <link rel="stylesheet" href="css/index.css">
   <script src="http://code.jquery.com/jquery-latest.js"></script>
 

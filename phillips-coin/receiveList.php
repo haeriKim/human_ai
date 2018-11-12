@@ -3,12 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content=" width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
-    <title>Phillis-coin</title>
+    <title>Phillips-coin</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/sendReceiveList.css">
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="shortcut icon" href="img/favicon-16.png" type="image/x-icon">
+    <link rel="icon" href="img/favicon-16.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon-32.png" type="image/x-icon">
+    <link rel="icon" href="img/favicon-32.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
 </head>
