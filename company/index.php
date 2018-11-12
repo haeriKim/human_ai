@@ -38,6 +38,28 @@
     </div><!-- 컨테이너(container)End -->
 </div><!--wrap-->
 
+<div id="app_wrap">
+  <div id="app_container">
+    <div class="app_main_content">
+      <div class="app_main_text">
+        <p>더 나은 삶을 기대할 수 있는 기술</p>
+        <!--<span>미레를 대표하는 기술, 인공지능기업 휴먼앤에이아이를 소개합니다.</span>-->
+      </div>
+
+      <div class="app_main_title" onclick="location.href='h_sub_company.php'">
+        <p class="app_human">H U M A N & A I</p>
+
+        <div>
+          <span>Technology that can expect a better life<br/></span>
+          <span>Introduce technologies of Human & Ai</span>
+        </div>
+
+      </div><!--app_main_title End-->
+
+    </div><!--app_main_content-->
+  </div><!--app_container End-->
+</div><!--app_wrap End-->
+
 <script>
 
 var maintext = $(".main_title")
