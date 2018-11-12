@@ -91,7 +91,7 @@
                           <div class="key_area">
                             <form action="#" method="post" class="OTP_codebox">
 
-                              <input type="text" placeholder="OTP번호를 입력하세요." required maxlength="6" minlength="6" class="OTP_number user_otpNum">
+                              <input type="number" placeholder="OTP번호를 입력하세요." name='inputBox' required max="999999" min="999999" class="OTP_number user_otpNum">
                               <!--<p id='warning_message'>OTP번호가 일치하지 않습니다.</p>-->
 
                               <div id="OTP_complete">

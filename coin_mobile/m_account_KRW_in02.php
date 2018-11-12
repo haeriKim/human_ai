@@ -65,19 +65,19 @@
                         <p>입금할 금액</p>
 
                         <form>
-                          <input type="text" placeholder="0" class="send_money" maxlength="10" required><span>KRW</span>
+                          <input type="tel" placeholder="0" class="send_money" value="" autocomplete="off" required onchange="getNumber(this);" onkeyup="getNumber(this);"/><span>KRW</span>
                         </form>
 
                         <div class="KRW_unit">
-                          <input type="button" value="10만" class="priceBtn"/>
-                          <input type="button" value="50만" class="priceBtn"/>
-                          <input type="button" value="100만" class="priceBtn"/>
-                          <input type="button" value="1000만" class="priceBtn"/>
+                          <input type="button" value="+ 10만" class="priceBtn priceBtn_01"/>
+                          <input type="button" value="+ 50만" class="priceBtn priceBtn_02"/>
+                          <input type="button" value="+ 100만" class="priceBtn priceBtn_03"/>
+                          <input type="button" value="+ 1000만" class="priceBtn priceBtn_04"/>
                         </div>
 
                         <ul class="KRW_warning_list">
                           <li class="text">※ 등록된 계좌로 해당된 금액을 한번에 입금하셔야 합니다.</li>
-                          <li>- 최소 입금 금액: 1,000원</li>
+                          <li>- 최소 입금 금액: 없음</li>
                           <li>- 입금 수수료: 무료</li>
                           <li>- 최대 입금 금액: 무제한</li>
                           <li>- 입금 후 출금시간: 72시간</li>

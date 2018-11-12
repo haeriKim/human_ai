@@ -171,7 +171,7 @@
             <div class="buy_tab_content_row">
                 <dt>매수가격(KRW)</dt>
                 <dd>
-                    <input type='text' class='buy_price' maxlength="200" value=''/>
+                    <input type='text' class='buy_price' placeholder='0' autocomplete="off" required onchange="getNumber(this);" onkeyup="getNumber(this);" value=''/>
                     <p class="pl_ma">
                       <a href="#" class='minus_btn'>-</a>
                       <a href="#" class='plus_btn'>+</a>
@@ -181,7 +181,7 @@
             <div class="buy_tab_content_row">
                 <dt>매수수량(BTC)</dt>
                 <dd>
-                    <input type='text' class='buy_amount' maxlength="200" value=''/>
+                    <input type='text' class='buy_amount'  placeholder='0' value='' autocomplete="off" required onchange="getNumber(this);" onkeyup="getNumber(this);"/>
                     <div class="amount_dropbox">
                         <label for='percentage1'></label>
                         <select id="percentage1" name="percentage1">
@@ -232,7 +232,7 @@
               <div class="buy_tab_content_row">
                   <dt>매도가격(KRW)</dt>
                   <dd>
-                      <input type='text' class='buy_price' maxlength="200" value=''/>
+                      <input type='text' class='buy_price' placeholder='0' autocomplete="off" required onchange="getNumber(this);" onkeyup="getNumber(this);" value=''/>
                       <p class="pl_ma">
                         <a href="#" class='minus_btn'>-</a>
                         <a href="#" class='plus_btn'>+</a>
@@ -242,7 +242,7 @@
               <div class="buy_tab_content_row">
                   <dt>매도수량(BTC)</dt>
                   <dd>
-                      <input type='text' class='buy_amount' maxlength="200" value=''/>
+                      <input type='text' class='buy_amount' placeholder='0' value='' autocomplete="off" required onchange="getNumber(this);" onkeyup="getNumber(this);"/>
                       <div class="amount_dropbox">
                           <label for='percentage1'></label>
                           <select id="percentage1" name="percentage1">

@@ -54,7 +54,7 @@
                           보안 비밀번호
                       </th>
                       <td>
-                        <input type="password" name="" value="" placeholder="보안 비밀번호를 입력하세요." required maxlength="4" minlength="4" />
+                        <input type="number" pattern="[0-9]*" inputmode="numeric" placeholder="보안 비밀번호를 입력하세요." required maxlength="4" minlength="4" onkeypress='return lengthFix(this)'/>
                         <p id='warning_message'>보안 비밀번호가 일치하지 않습니다.</p>
                       </td>
                     </tr>

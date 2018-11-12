@@ -64,7 +64,7 @@
                         <p class="title">출금할 금액<a href="#" id='question_mark'><img src="img/m_question_15.png" alt="question"></a></p></p>
 
                         <form>
-                          <input type="text" placeholder="0" class="send_money" maxlength="10" required><span>BTC</span>
+                          <input type="text" placeholder="0" class="send_money" required value='' autocomplete="off" onchange="getNumber(this);" onkeyup="getNumber(this);"/><span>BTC</span>
 
 
                         <div class="coin_unit">

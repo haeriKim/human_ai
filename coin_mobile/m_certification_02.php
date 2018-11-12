@@ -54,7 +54,7 @@
                           <img src="img/m_question_15.png" class='question_img'>
                       </th>
                       <td>
-                        <input type="password" name="" value="" placeholder="새로운 보안 비밀번호를 입력하세요." required maxlength="4" minlength="4" />
+                        <input type="number" pattern="[0-9]*" inputmode="numeric" placeholder="새로운 보안 비밀번호를 입력하세요." required maxlength='4' minlength='4' onkeypress='return lengthFix(this)'/>
                         <div class="question_smallbox">
                           <div class="password_question_detail2">
                             <strong>
@@ -72,7 +72,7 @@
                     <tr>
                       <th>새로운 보안 비밀번호 확인</th>
                       <td>
-                        <input type="password" class='user_security' name="security" value="" placeholder="새로운 보안 비밀번호를 다시 입력하세요." maxlength="4" minlength='4' required/>
+                        <input type="number" pattern="[0-9]*" inputmode="numeric" class='user_security' name="security" placeholder="새로운 보안 비밀번호를 다시 입력하세요." maxlength="4" minlength='4' required onkeypress='return lengthFix(this)'/>
                         <p id='warning_message'>비밀번호가 일치하지 않습니다.</p>
                       </td>
                     </tr>

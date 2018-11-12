@@ -79,7 +79,7 @@
                           <tr>
                             <th>계좌번호</th>
                             <td>
-                              <input type="text" placeholder="숫자만 입력하세요." required class="user_account user_account_input">
+                              <input type="number" placeholder="숫자만 입력하세요." required class="user_account user_account_input">
                               <!--<span class="account_number_fixed">12-231-1234-23-123</span>-->
                               <!--<p id="warning_message">형식에 맞지 않는 번호입니다.</p>-->
                             </td>

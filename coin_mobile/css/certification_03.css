@@ -45,7 +45,8 @@
         position: absolute;
         padding-bottom: 3px;
     }
-    .certification_03_table tbody input[type='password']{
+    .certification_03_table tbody input[type='password'],
+    .certification_03_table tbody input[type='number']{
         border: none;
         background: none;
         border-bottom: 1px solid rgba(255,255,255,.6);
@@ -57,6 +58,9 @@
         text-align: left;
         color: #fff;
         padding-left: 5px;
+    }
+    .certification_03_table tbody input[type='number']{
+        -webkit-text-security:disc;
     }
     .certification_03_wrap .cancel_or_apply{
         text-align: center;
