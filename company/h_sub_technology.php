@@ -24,7 +24,24 @@
       <!--technology_content-->
       <div class="sub technology_content">
           <div class="technology_inner">
-            <h2>기술 소개</h2>
+            <div class="technology_header">
+              <ul>
+                <li>
+                  <a href="#te_intro_mission" id="te_mission" class="intro">목표</a>
+                </li>
+
+                <li>
+                  <a href="#te_intro_kind" id="te_kind" class="history">사업분야</a>
+                </li>
+
+                <li>
+                  <a href="#te_intro_story" id="te_story" class="map_fence">기술소개</a>
+                </li>
+
+              </ul>
+
+            </div>
+            <h2>사업 분야</h2>
             <!-- <ul>
                 <li class='ai_tech'>
                     <a href='#'>인공지능 기술</a>
@@ -33,14 +50,14 @@
                     <a href='#'>보안 기술</a>
                 </li>
             </ul> -->
-            <div class="ai_tech_content">
+          <!--  <div class="ai_tech_content">
                 <img src="img/ai_tech.jpg" alt="인공지능 기술 소개">
                 <p>더 나은 삶을 기대할 수 있는 기술</p>
                 <span>휴먼앤에이아이의 기술들을 소개합니다</span>
-            </div>
+            </div> -->
 
             <!-- tech_intro -->
-            <div class="tech_intro">
+            <div id="te_intro_mission" class="tech_intro">
               <p class='mini_title_human'>HUMAN</p>
               <span class='explain_human'>
                 기술의 끝없는 성장 속에서도 그 안에는 사람이 있습니다.<br/>
@@ -64,9 +81,10 @@
             </div> <!-- tech_intro End-->
 
             <!-- tech_content_wrap -->
-            <div class="tech_content_wrap">
+            <div id="te_intro_kind" class="tech_content_wrap">
+                <p class="tech_title">사업분야</p>
                 <h3>
-                    <p>사업분야</p>
+                    <p>Human & Ai Solution</p>
                     <span>휴먼앤에이아이의 독자적인 기술을 만나보세요.</span><br/>
                     <div class="tech_detail_bt">상세보기 →</div>
 
@@ -123,7 +141,8 @@
                 </div>
             </div><!-- tech_content_wrap End-->
 
-            <div class="tech_detail">
+            <div id="te_intro_story" class="tech_detail">
+              <p class="tech_title">기술소개</p>
 
               <div class="tech_box">
 
@@ -137,7 +156,7 @@
                   <div class="right_box1">
                     <p>블록체인을 적용한 주요 시스템의 하나인 암호화폐 거래소 전용 보안시스템으로, 블록체인 기술을 주요기술로 삼아
                      해쉬함수를 이용해 서버에 보관합니다. 또한 인공지능을 통한 검색기술을 적용하여 고객 정보의 해킹을 막고 암호화폐 탈취를 막는 인공지능 보안 시스템 입니다.</p>
-                     <p><img src="img/BCS.png" alt="BCS시스템"></p>
+                    <!-- <p><img src="img/BCS.png" alt="BCS시스템"></p> -->
                     </br>
                  </div>
 
@@ -145,18 +164,18 @@
 
               <div class="tech_box">
 
-                  <div class="right_box2">
+                  <div class="left_box1">
                     <div></div>
                     <p class="text_title">개인정보 보안시스템(PCS)<br/>
                     <span>Human-Ai Business Areas</span></p>
                     <br/>
                   </div>
 
-                  <div class="left_box2">
+                  <div class="right_box1">
                     <p>금융기관, 정부기관의 개인정보의 해킹을 막아 개인 주요정보가 범죄에 적용되지 않게하는 기술입니다. 이를 위해 초기 개인정보 입력 단계부터 주요 정보를 분산하고,
                        해쉬함수를 이용해 서로연결하여 서버 DB에 저장합니다. 개인정보 활용시 인공지능 검색기술을 적용함으로써 해커가 필요한 개인정보들을 확보하지 못하게 막습니다.
                        이 외에도 회사 핵심 기술의 외부 해킹을 막는 기술정보 보안시스템(TCS)개발이 가능합니다.</p>
-                       <p><img src="img/PCS.png" alt="PCS시스템"></p>
+                      <!-- <p><img src="img/PCS.png" alt="PCS시스템"></p> -->
                        <br/>
                   </div>
 
@@ -175,7 +194,7 @@
                   <p>과거 경험 사례를 체계적으로 데이터로 보관하고 신규업무 추진시 현재 상황과 유사한 사례를 찾아내어 가장 적합한 솔루션을 제시하는 시스템입니다.
                      대형설비의 유지보수, 전문분야(의사,변호사 등)의 코칭 시스템 등으로 활용 범위가 넓습니다.
                      실제로 이 기술을 대기업 건설사업에 적용하여 감리 합격율을 높여 원가 절약을 한 실적을 지니고 있습니다.</p>
-                     <p><img src="img/CBR.png" alt="CBR시스템"></p>
+                    <!-- <p><img src="img/CBR.png" alt="CBR시스템"></p> -->
                      <br/>
                 </div>
 
@@ -183,19 +202,19 @@
 
               <div class="tech_box">
 
-                <div class="right_box2">
+                <div class="left_box1">
                   <div id="right_box_div"></div>
                   <p class="text_title">AR,음성인식 활용한 인공지능 영어 교육 시스템<br/>
                   <span>Human-Ai Business Areas</span></p>
                   <br/>
                 </div>
 
-                <div class="left_box2">
+                <div class="right_box1">
                   <p>AR(증강현실)기술과 음성인식 기술을 활용하여 독자와 등장인물이 양방향으로 상호작용하는 교육기술입니다.
                      독자가 이야기 안에서 한명의 등장인물이 됨으로써 새로운 독서 경험을 제공합니다.
                      독자의 감정에 따라 캐릭터가 그에 맞는 답변을 제시하는 방식으로 교육이 진행됩니다.
                      휴대폰 어플을 통해 자연스럽고 간편하게 영어회화를 익히는 시스템으로, 영어를 공부가 아닌 놀이로 받아들여 즐겁게 배울 수 있는 신개념 교육기술입니다.  </p>
-                     <p><img src="img/AR.png" alt="AR시스템"></p>
+                    <!-- <p><img src="img/AR.png" alt="AR시스템"></p> -->
                      <br/>
                 </div>
 

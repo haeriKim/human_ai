@@ -23,10 +23,48 @@
     text-align: center;
     font-family:"Nanum Gothic",sans-serif;
 }
+.technology_inner .technology_header{
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    overflow: hidden;
+    position: absolute;
+    top: 150px;
+    left: 40.5%;
+}
+.technology_inner .technology_header ul{
+    overflow: hidden;
+    text-align: center;
+    width: 800px;
+    display: inline-block;
+    margin-bottom:150px;
+}
+.technology_inner .technology_header li{
+    float: left;
+    width: 25%;
+}
+.technology_inner .technology_header li a{
+    color:#222;
+    margin-bottom:2px;
+    font-weight: bold;
+    font-size:16px;
+    padding-bottom:5px;
+}
+.technology_inner .technology_header li:nth-child(1) a{
+    border-bottom:2px solid #222;
+}
+
 .technology_inner h2{
     font-size:30px;
     color:#222;
     margin-bottom:20px;
+}
+.technology_inner .tech_title{
+    font-size: 30px;
+    text-align: left;
+    padding-left: 60px;
+    padding-bottom:60px;
+    font-weight: 600;
 }
 /* .technology_inner ul{
     overflow: hidden;
@@ -51,9 +89,9 @@
     border-bottom:2px solid #222;
 } */
 .technology_inner .tech_intro{
-    margin: 90px auto;
+    margin: 150px auto;
     width: 1200px;
-    height: 800px;
+    height: 680px;
     position: relative;
 }
 .technology_inner .tech_intro p{
@@ -75,7 +113,7 @@
   width: 330px;
   height: 330px;
   position: absolute;
-  bottom: 28px;
+  top:500px;
   z-index: 3;
   right: 235px;
 }
@@ -83,7 +121,7 @@
     width: 486px;
     height: 732px;
     position: absolute;
-    top: -50px;
+    top: 0;
     right: -65px;
 }
 .technology_inner .ai_tech_content{
@@ -130,9 +168,9 @@
 .technology_inner .tech_content_wrap h3{
     color: #fff;
     position: absolute;
-    top: 98px;
+    top: 230px;
     text-align: right;
-    right: 4%;
+    right: 5%;
     z-index: 5;
 }
 .technology_inner .tech_content_wrap h3 p{
@@ -149,7 +187,7 @@
     display: inline-block;
     padding: 30px 50px;
     position: absolute;
-    top: 118px;
+    top: 230px;
     z-index: 2;
 }
 .technology_inner .tech_content_wrap ul li{
@@ -249,13 +287,11 @@
   width:300px;
   height:100px;
   float:left;
-  text-align:center;
+  text-align:left;
 }
 .technology_inner .tech_detail .tech_box .left_box1 div{
   border:1px solid #1b5ea9;
   width:100px;
-  text-align: center;
-  margin-left:100px;
   margin-bottom:10px;
 }
 .technology_inner .tech_detail .tech_box .left_box1 p{
