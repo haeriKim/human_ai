@@ -67,3 +67,8 @@
   margin-top: 5px;
   color: #BBCBD3;
 }
+
+/*모바일 ver*/
+@media all and (min-width:320px) and (max-width:768px){
+
+}

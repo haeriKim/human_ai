@@ -15,6 +15,10 @@
 <body>
 <div id="sub_wrap">
 
+    <!-- m_header -->
+    <?php include "m_header.php";?>
+    <!-- m_header End-->
+
     <!-- nav_wrap -->
     <?php include "nav.php";?>
     <!-- nav_wrap End-->
