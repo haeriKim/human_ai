@@ -61,7 +61,6 @@
     font-size:16px;
     padding-bottom:5px;
 }
-
 .technology_inner h2{
     font-size:30px;
     color:#222;
@@ -101,8 +100,9 @@
     width: 1200px;
     height: 680px;
     position: relative;
+    padding-top: 100px;
 }
-.technology_inner .tech_intro p{
+.technology_inner .tech_intro p:not(.tech_title){
   color: #222;
   font-size: 43px;
   text-align: left;
@@ -121,7 +121,7 @@
   width: 330px;
   height: 330px;
   position: absolute;
-  top:500px;
+  top:600px;
   z-index: 3;
   right: 235px;
 }
@@ -129,7 +129,7 @@
     width: 486px;
     height: 732px;
     position: absolute;
-    top: 0;
+    top: 100px;
     right: -65px;
 }
 .technology_inner .ai_tech_content{
@@ -159,6 +159,7 @@
     height: 800px;
     width: 1200px;
     margin: 0 auto;
+    padding-top: 130px;
 }
 .technology_inner .tech_content_wrap .tech_detail_bt{
   padding:5px 10px;
@@ -176,7 +177,7 @@
 .technology_inner .tech_content_wrap h3{
     color: #fff;
     position: absolute;
-    top: 230px;
+    top: 360px;
     text-align: right;
     right: 5%;
     z-index: 5;
@@ -195,7 +196,7 @@
     display: inline-block;
     padding: 30px 50px;
     position: absolute;
-    top: 230px;
+    top: 360px;
     z-index: 2;
 }
 .technology_inner .tech_content_wrap ul li{
@@ -345,4 +346,8 @@
 .technology_inner .tech_detail .tech_box .left_box2 p{
   padding-bottom:20px;
   line-height:1.5em;
+}
+#te_intro_story{
+    padding-top: 170px;
+    padding-bottom: 30px;
 }

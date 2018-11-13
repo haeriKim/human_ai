@@ -58,6 +58,7 @@
 
             <!-- tech_intro -->
             <div id="te_intro_mission" class="tech_intro target">
+              <p class="tech_title">목표</p>
               <p class='mini_title_human'>HUMAN</p>
               <span class='explain_human'>
                 기술의 끝없는 성장 속에서도 그 안에는 사람이 있습니다.<br/>
