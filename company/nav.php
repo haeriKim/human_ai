@@ -3,7 +3,6 @@
 <label id="m_navBtn" for="m_menu-toggle" >
     <span></span><span></span><span></span>
 </label>
-<div id="nav_shadow"></div>
 
 <!-- nav_wrap -->
 <div id="nav_wrap">

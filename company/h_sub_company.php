@@ -6,6 +6,7 @@
     <title>Human&Ai</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/m_header.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/h_sub_company.css">
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Fira+Sans|Nanum+Gothic|" rel="stylesheet">
@@ -15,13 +16,13 @@
 <body>
 <div id="sub_wrap">
 
-    <!-- m_header -->
-    <?php include "m_header.php";?>
-    <!-- m_header End-->
-
     <!-- nav_wrap -->
     <?php include "nav.php";?>
     <!-- nav_wrap End-->
+
+    <!-- m_header -->
+    <?php include "m_header.php";?>
+    <!-- m_header End-->
 
     <!-- 컨테이너 -->
     <div id="container">
