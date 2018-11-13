@@ -88,22 +88,22 @@
               </div><!-- co_intro_intro End -->
             </div>
             <div id="co_intro_history" class="co_intro_history target">
-              <p class="co_intro_title">
+              <h2 class="co_intro_title">
                 회사 연혁
-              </p>
+              </h2>
               <img src="img/co_history.png" alt="회사 연혁">
             </div><!-- co_intro_history End-->
             <div id="co_intro_map" class="co_intro_map target">
-              <p class="co_intro_title">
+              <h2 class="co_intro_title">
                 사업 조직도
-              </p>
+              </h2>
               <img src="img/co_map.png" alt="사업조직도">
             </div><!-- co_intro_map End -->
 
             <div id="co_vision" class="co_vision target">
-              <p class="co_intro_title">
+              <h2 class="co_intro_title">
                 비전
-              </p>
+              </h2>
               <div class="vision_bg">
                 <p><img src="img/vision2.png" alt="비전"></p>
                 <div class="vision_text">
