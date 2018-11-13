@@ -67,8 +67,110 @@
   margin-top: 5px;
   color: #BBCBD3;
 }
-
+input[type='checkbox'] {
+  display: none;
+}
 /*모바일 ver*/
 @media all and (min-width:320px) and (max-width:768px){
+  #m_menu-toggle{
+    display: block;
+  }
+  #m_menu-toggle {
+      display: none; /* input checkbox 숨김*/
+  }
+  #m_menu-toggle:checked{
+      display: none;
+  }
+  #m_menu-toggle:checked + #m_navBtn{
+      right: 5px;
+      width: 35px;
+      top: 72px;
+      position: fixed;
+  }
+  #m_menu-toggle:checked + #m_navBtn span{
+      width:60%;
+      height:4px;
+      background-color: #2C1F1B;
+  }
+  #m_menu-toggle:checked + #m_navBtn span:first-child{
+      transform: rotate(-45deg);
+      margin-top:10px;
+  }
+  #m_menu-toggle:checked + #m_navBtn span:nth-child(2){
+      display: none;
+  }
+  #m_menu-toggle:checked + #m_navBtn span:last-child{
+      transform: rotate(45deg);
+      margin-top:-4px;
+  }
+  #m_menu-toggle:checked + #m_navBtn ~ #nav {
+      right:0;
+  }
+  #m_menu-toggle:checked + #m_navBtn ~ #nav_shadow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: block;
+  }
+  #nav_wrap{
+    width:100%;
+    height:50px;
+    background:#fff;
+    top:0;
+  }
+  #nav{
+    margin-top:0;
+    text-align: center;
+    padding:0;
+  }
+  #nav h1{
+    margin-bottom:0;
+  }
+  #nav h1 a img{
+    width:35%;
+    margin-top:5px;
+  }
+    #nav ul{
+    display:block;
+    background:#fff;
+    width:100%;
+    float:right;
+    padding:20px 0;
+    margin:0;
+
+  }
+  #nav ul p{
+    font-size:12px;
+  }
+  #nav .footer{
+    display:none;
+  }
+
+  #m_navBtn{
+      display: block;
+      cursor: pointer;
+      position: fixed;
+      top:12px;
+      right:10px;
+      z-index: 999;
+      transition: all 0.7s;
+      width:30px;
+      line-height:1px;
+  }
+  #m_navBtn span{
+      transition: all 0.5s;
+      background-color: #1061A8;
+      width:70%;
+      height:4px;
+      display: block;
+      margin-top:4px;
+      border-radius:5px;
+  }
+
 
 }
