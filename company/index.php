@@ -52,12 +52,15 @@
 
       <div class="app_main_fence">
         <div class="app_main_title" onclick="location.href='h_sub_company.php'">
+          <p><img src="img/arrow.png" alt="화살표"></p>
           <p class="app_human">H U M A N & A I</p>
 
           <div class="app_main_story">
             <span>Technology that can expect a better life<br/></span>
             <span>Introduce technologies of Human & Ai</span>
+
           </div>
+
 
         </div><!--app_main_title End-->
       </div>
