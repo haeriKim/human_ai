@@ -97,8 +97,8 @@
     opacity:0.9;
   }
   #app_container .app_main_content .app_main_title p{
-    font-size:18px;
-    text-shadow:1px 1px 1px #fff;
+    font-size:22px;
+    font-weight:600;
     padding-bottom:5px;
   }
   #app_container .app_main_content .app_main_story{
