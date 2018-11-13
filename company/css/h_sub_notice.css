@@ -21,29 +21,7 @@
     padding-top:110px;
     font-size:30px;
     color:#222;
-    margin-bottom:20px;
-}
-.intro_inner ul{
-    overflow: hidden;
-    text-align: center;
-    width: 800px;
-    display: inline-block;
-    margin-bottom:20px;
-}
-.intro_inner ul li{
-    float: left;
-    width: 50%;
-}
-.intro_inner ul li a{
-    color:#222;
-    margin-bottom:2px;
-    font-weight: bold;
-    font-size:20px;
-    padding-bottom:2px;
-    display: inline-block;
-}
-.intro_inner ul li a.on{
-    border-bottom:2px solid #222;
+    margin-bottom:30px;
 }
 .intro_inner .co_notice_content .co_notice_table{
   width:100%;
@@ -85,6 +63,8 @@
   width:50%;
   padding: 10px;
   font-size:15px;
+  margin-top: 30px;
+  cursor: pointer;
 }
 .intro_inner .co_notice_content .more_table a{
   color:#5586b7;
@@ -98,7 +78,7 @@
   margin:0 auto;
 }
 .intro_inner .co_notice_content .co_notice_story .title{
-  border-top:2px solid blue;
+  border-top:2px solid #5586b7;
   border-bottom:1px solid #efefef;
   padding:10px 0;
   width:100%;
@@ -119,32 +99,43 @@
   padding:40px 40px;
   text-align:left;
   height:280px;
-  overflow-y:scroll;
-}
-.intro_inner .co_notice_content .co_notice_story .story span{
+  overflow-y:auto;
 }
 .intro_inner .co_notice_content .co_notice_story .next_story p{
   padding:10px 20px;
   font-size:13px;
   text-align:left;
 }
+.intro_inner .co_notice_content .co_notice_story .next_story_table{
+    border-top: 1px solid #efefef;
+}
+.intro_inner .co_notice_content .co_notice_story .next_story_table tr{
+    border-bottom: 1px solid #efefef;
+    height: 40px;
+    line-height: 40px;
+}
 .intro_inner .co_notice_content .co_notice_story .next_story_top{
   border-top:1px solid #efefef;
   border-bottom:1px solid #efefef;
 }
 .intro_inner .co_notice_content .co_notice_story .story_bt{
-  text-align:left;
-  display:block;
-  width:30%;
-  border:1px solid red;
+    text-align: left;
+    display: inline-block;
+    width: 10%;
+}
+.intro_inner .co_notice_content .co_notice_story .story_bt img{
+    padding-left: 5px;
 }
 .intro_inner .co_notice_content .co_notice_story .story_title{
-  text-align:right;
-  display:block;
-width:40%;
-border:1px solid red;
+    text-align: left;
+    display: inline-block;
+    width: 70%;
 }
-
+.intro_inner .co_notice_content .co_notice_story .story_date{
+    text-align: left;
+    display: inline-block;
+    width: 10%;
+}
 
 
 /*footer*/
