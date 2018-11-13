@@ -75,29 +75,6 @@
           <p class="copyright">Copyright ⓒ 2018 by Human & AI Co.,Ltd. <br />All right reserved.</p>
         </div>
 
-    <!--    <div id="app_nav">
-          <div class="app_nav_content">
-
-            <ul>
-              <li>
-                <a href="h_sub_company.php"><p>Company Intro</p><span>회사소개</span></a>
-              </li>
-
-              <li>
-                <a href="h_sub_technology.php"><p>Business Areas</p><span>사업분야</span></a>
-              </li>
-
-              <li>
-                <a href="h_sub_notice.php"><p>Notice</p><span>공지사항</span></a>
-              </li>
-
-              <li>
-                <a href="h_sub_contact.php"><p>Directions</p><span>오시는길</span></a>
-              </li>
-            </ul>
-          </div>
-        </div> -->
-
 
     </div>  <!-- nav End-->
 </div><!-- nav_wrap End-->
