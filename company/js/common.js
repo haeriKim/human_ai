@@ -34,7 +34,6 @@ $('.tech_content_wrap > ul > li > a').on('click',function(e){
   var num = $(window).scrollTop();
 
   if(num < vi){
-console.log("Aa");
       $(".company_header").css({"background":"none", "position":"absolute", "top":"150px","box-shadow":"none","left":"35%","width":"auto"}).fadeIn(300);
     }
     else if( num >= vi && num <= si){
@@ -81,4 +80,3 @@ $(document).ready(function(){
       $(".technology_header").css({"background":"rgba(255,255,255,.6)","position":"fixed", "top":"150px","box-shadow":"1px 1px 1px rgba(255, 255, 255, 0.5)","text-align":"right","width":"100%","left":"0"}).fadeIn(300);
     }
  });
-});
