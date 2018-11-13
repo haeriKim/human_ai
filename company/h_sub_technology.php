@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/h_sub_technology.css">
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Fira+Sans|Nanum+Gothic|" rel="stylesheet">
-    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="js/common.js"></script>
 </head>
 <body>
@@ -27,15 +27,15 @@
             <div class="technology_header">
               <ul>
                 <li>
-                  <a href="#te_intro_mission" id="te_mission" class="intro">목표</a>
+                  <a href="#te_intro_mission" id="te_mission" class="mission on">목표</a>
                 </li>
 
                 <li>
-                  <a href="#te_intro_kind" id="te_kind" class="history">사업분야</a>
+                  <a href="#te_intro_kind" id="te_kind" class="kind">사업분야</a>
                 </li>
 
                 <li>
-                  <a href="#te_intro_story" id="te_story" class="map_fence">기술소개</a>
+                  <a href="#te_intro_story" id="te_story" class="map_story">기술소개</a>
                 </li>
 
               </ul>
@@ -164,14 +164,14 @@
 
               <div class="tech_box">
 
-                  <div class="left_box1">
+                  <div class="right_box2">
                     <div></div>
                     <p class="text_title">개인정보 보안시스템(PCS)<br/>
                     <span>Human-Ai Business Areas</span></p>
                     <br/>
                   </div>
 
-                  <div class="right_box1">
+                  <div class="left_box2">
                     <p>금융기관, 정부기관의 개인정보의 해킹을 막아 개인 주요정보가 범죄에 적용되지 않게하는 기술입니다. 이를 위해 초기 개인정보 입력 단계부터 주요 정보를 분산하고,
                        해쉬함수를 이용해 서로연결하여 서버 DB에 저장합니다. 개인정보 활용시 인공지능 검색기술을 적용함으로써 해커가 필요한 개인정보들을 확보하지 못하게 막습니다.
                        이 외에도 회사 핵심 기술의 외부 해킹을 막는 기술정보 보안시스템(TCS)개발이 가능합니다.</p>
@@ -202,14 +202,14 @@
 
               <div class="tech_box">
 
-                <div class="left_box1">
+                <div class="right_box2">
                   <div id="right_box_div"></div>
                   <p class="text_title">AR,음성인식 활용한 인공지능 영어 교육 시스템<br/>
                   <span>Human-Ai Business Areas</span></p>
                   <br/>
                 </div>
 
-                <div class="right_box1">
+                <div class="left_box2">
                   <p>AR(증강현실)기술과 음성인식 기술을 활용하여 독자와 등장인물이 양방향으로 상호작용하는 교육기술입니다.
                      독자가 이야기 안에서 한명의 등장인물이 됨으로써 새로운 독서 경험을 제공합니다.
                      독자의 감정에 따라 캐릭터가 그에 맞는 답변을 제시하는 방식으로 교육이 진행됩니다.
