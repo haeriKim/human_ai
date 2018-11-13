@@ -10,8 +10,8 @@
 #container .main_content .main_text{
   text-align:right;
   padding:30px 80px;
-  width:100%;
-    font-family : "Nanum Gothic",sans-serif;
+  width:94%;
+  font-family : "Nanum Gothic",sans-serif;
 }
 #container .main_content .main_text p{
   font-size:30px;
@@ -69,12 +69,36 @@
     color:#fff;
   }
   #app_container .app_main_content .app_main_text{
-    border:1px solid yellow;
     text-align:center;
-    padding:50px;
+    padding:15%;
+
+  }
+  #app_container .app_main_content .app_main_text p{
+    font-size:95%;
+    text-shadow:1px 1px 1px #fff;
+  }
+  #app_container .app_main_content .app_main_text span{
+    font-size:85%;
+    opacity:0.5;
+  }
+  #app_container .app_main_content .app_main_fence{
+    width:100%;
+    position: absolute;
+    text-align: center;
+    margin:0 auto;
+    top:75%;
   }
   #app_container .app_main_content .app_main_title{
-    border:1px solid red;
+    text-align: center;
+    width:100%;
 
+  }
+  #app_container .app_main_content .app_main_title p{
+    font-size:18px;
+    text-shadow:1px 1px 1px #fff;
+    padding-bottom:5px;
+  }
+  #app_container .app_main_content .app_main_story{
+    font-size:12px;
   }
 }
