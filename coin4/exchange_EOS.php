@@ -558,7 +558,7 @@
                           <div class="buy_tab_content_row">
                               <dt>매수가격(KRW)</dt>
                               <dd>
-                                  <input type='text' class='buy_price' maxlength="200" value=''/>
+                                  <input type='text' class='buy_price'  value='' autocomplete="off" required onchange="getNumber(this);" onkeyup="getNumber(this);"/>
                                   <a href="#" class='minus_btn'>-</a>
                                   <a href="#" class='plus_btn'>+</a>
                               </dd>
@@ -566,7 +566,7 @@
                           <div class="buy_tab_content_row">
                               <dt>매수수량(BTC)</dt>
                               <dd>
-                                  <input type='text' class='buy_amount' maxlength="200" value=''/>
+                                  <input type='text' class='buy_amount'  value='' autocomplete="off" required onchange="getNumber(this);" onkeyup="getNumber(this);"/>
                                   <div class="amount_dropbox">
                                       <label for='percentage1'></label>
                                       <select id="percentage1" name="percentage1">
@@ -611,7 +611,7 @@
                           <div class="sell_tab_content_row">
                               <dt>매도가격(KRW)</dt>
                               <dd>
-                                  <input type='text' class='sell_price' maxlength="200" value=''/>
+                                  <input type='text' class='sell_price'  value='' autocomplete="off" required onchange="getNumber(this);" onkeyup="getNumber(this);"/>
                                   <a href="#" class='minus_btn'>-</a>
                                   <a href="#" class='plus_btn'>+</a>
                               </dd>
@@ -619,7 +619,7 @@
                           <div class="sell_tab_content_row">
                               <dt>매도수량(BTC)</dt>
                               <dd>
-                                  <input type='text' class='sell_amount' maxlength="200" value=''/>
+                                  <input type='text' class='sell_amount'  value='' autocomplete="off" required onchange="getNumber(this);" onkeyup="getNumber(this);"/>
                                   <div class="amount_dropbox">
                                       <label for='percentage2'></label>
                                       <select id="percentage2" name="percentage2">
@@ -1328,7 +1328,7 @@
                             <div class="buy_tab_content_row">
                                 <dt>매수가격(KRW)</dt>
                                 <dd>
-                                    <input type='text' class='buy_price buy_input01' maxlength="200" value=''/>
+                                    <input type='text' class='buy_price buy_input01'  value='' autocomplete="off" required onchange="getNumber(this);" onkeyup="getNumber(this);"/>
                                     <a href="#" class='minus_btn'>-</a>
                                     <a href="#" class='plus_btn'>+</a>
                                 </dd>
@@ -1336,7 +1336,7 @@
                             <div class="buy_tab_content_row">
                                 <dt>매수수량(BTC)</dt>
                                 <dd>
-                                    <input type='text' class='buy_amount buy_input02' maxlength="200" value=''/>
+                                    <input type='text' class='buy_amount buy_input02'  value='' autocomplete="off" required onchange="getNumber(this);" onkeyup="getNumber(this);"/>
                                     <div class="amount_dropbox">
                                         <label for='percentage1'></label>
                                         <select id="percentage1" name="percentage1">
@@ -1381,7 +1381,7 @@
                             <div class="sell_tab_content_row">
                                 <dt>매도가격(KRW)</dt>
                                 <dd>
-                                    <input type='text' class='sell_price buy_input01' maxlength="200" value=''/>
+                                    <input type='text' class='sell_price buy_input01'  value='' autocomplete="off" required onchange="getNumber(this);" onkeyup="getNumber(this);"/>
                                     <a href="#" class='minus_btn'>-</a>
                                     <a href="#" class='plus_btn'>+</a>
                                 </dd>
@@ -1389,7 +1389,7 @@
                             <div class="sell_tab_content_row">
                                 <dt>매도수량(BTC)</dt>
                                 <dd>
-                                    <input type='text' class='sell_amount buy_input02' maxlength="200" value=''/>
+                                    <input type='text' class='sell_amount buy_input02'  value='' autocomplete="off" required onchange="getNumber(this);" onkeyup="getNumber(this);"/>
                                     <div class="amount_dropbox">
                                         <label for='percentage2'></label>
                                         <select id="percentage2" name="percentage2">

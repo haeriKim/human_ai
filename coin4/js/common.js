@@ -994,19 +994,19 @@ $(document).ready(function(){
 });
 
 //이용약관,개인정보처리방침 탭
-$(function () {
-
-    $(".use_area_text").hide();
-    $(".use_area_text:first").show();
-
-    $("ul.cops li").click(function () {
-        $("ul.cops li").removeClass("use_active");
-        $(this).addClass("use_active");
-        $(".use_area_text").hide()
-        var activeTab = $(this).attr("rel");
-        $("#" + activeTab).show()
-    });
-});
+// $(function () {
+//
+//     $(".use_area_text").hide();
+//     $(".use_area_text:first").show();
+//
+//     $("ul.cops li").click(function () {
+//         $("ul.cops li").removeClass("use_active");
+//         $(this).addClass("use_active");
+//         $(".use_area_text").hide()
+//         var activeTab = $(this).attr("rel");
+//         $("#" + activeTab).show()
+//     });
+// });
 
 //파일 첨부 삭제
 function delAttach(form) {
@@ -1349,29 +1349,29 @@ $(".leave_member_agree_btn").click(function(){
 });
 });
 
-/*숫자 입력창에 숫자만 입력될 수 있게 */
-$(document).ready(function(){
-    function addCommas(x) {
-        return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+/*input창 숫자만 입력, 천단위마다 콤마(,) 실시간으로 입력*/
+var rgx1 = /\D/g;
+var rgx2 = /(\d+)(\d{3})/;
+function getNumber(obj){
+    var num01;
+    var num02;
+    num01 = obj.value;
+    num02 = num01.replace(rgx1,"");
+    num01 = setComma(num02);
+    obj.value = num01;
+}
+function setComma(inNum){
+    var outNum;
+    outNum = inNum;
+    while (rgx2.test(outNum)){
+        outNum = outNum.replace(rgx2,'$1'+','+'$2');
     }
-    function removeCommas(x) {
-        if(!x || x.length == 0) return "";
-        else return x.split(",").join("");
+    return outNum;
+}
+
+/*보안비밀번호 4자리수 입력*/
+function lengthFix(obj){
+    if(obj.value.length >= obj.maxLength){
+        return false;
     }
-    $("input:text[numberOnly]").on("focus", function() {
-        var x = $(this).val();
-        x = removeCommas(x);
-        $(this).val(x);
-    }).on("focusout", function() {
-        var x = $(this).val();
-        if(x && x.length > 0) {
-            if(!$.isNumeric(x)) {
-                x = x.replace(/[^0-9]/g,"");
-            }
-            x = addCommas(x);
-            $(this).val(x);
-        }
-    }).on("keyup", function() {
-        $(this).val($(this).val().replace(/[^0-9]/g,""));
-    });
-});
+}
