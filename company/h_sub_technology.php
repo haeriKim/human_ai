@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="css/h_sub_technology.css">
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Fira+Sans|Nanum+Gothic|" rel="stylesheet">
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="js/common.js"></script>
+    <script src="js/common.js"></script><!--//배너 슬라이더-->
 </head>
 <body>
-<div id="wrap">
+<div id="sub_wrap">
 
   <!-- nav_wrap -->
   <?php include "nav.php";?>
@@ -24,10 +24,10 @@
       <!--technology_content-->
       <div class="sub technology_content">
           <div class="technology_inner">
-            <div class="technology_header">
+            <div class="technology_header company_header">
               <ul>
                 <li>
-                  <a href="#te_intro_mission" id="te_mission" class="mission on">목표</a>
+                  <a href="#te_intro_mission" id="te_mission" class="mission intro">목표</a>
                 </li>
 
                 <li>
@@ -57,7 +57,7 @@
             </div> -->
 
             <!-- tech_intro -->
-            <div id="te_intro_mission" class="tech_intro">
+            <div id="te_intro_mission" class="tech_intro target">
               <p class='mini_title_human'>HUMAN</p>
               <span class='explain_human'>
                 기술의 끝없는 성장 속에서도 그 안에는 사람이 있습니다.<br/>
@@ -81,13 +81,12 @@
             </div> <!-- tech_intro End-->
 
             <!-- tech_content_wrap -->
-            <div id="te_intro_kind" class="tech_content_wrap">
+            <div id="te_intro_kind" class="tech_content_wrap target">
                 <p class="tech_title">사업분야</p>
                 <h3>
-                    <p>Human & Ai Solution</p>
+                    Human & Ai Solution
                     <span>휴먼앤에이아이의 독자적인 기술을 만나보세요.</span><br/>
-                    <div class="tech_detail_bt">상세보기 →</div>
-
+                    <!-- <div class="tech_detail_bt">상세보기 →</div> -->
                 </h3>
                 <ul>
                     <li class='on'><a href="#" class="hvr-underline-from-left"><div class="on_line"></div>인공지능 시스템 구축사업</a></li>
@@ -141,7 +140,7 @@
                 </div>
             </div><!-- tech_content_wrap End-->
 
-            <div id="te_intro_story" class="tech_detail">
+            <div id="te_intro_story" class="tech_detail target">
               <p class="tech_title">기술소개</p>
 
               <div class="tech_box">
@@ -157,7 +156,7 @@
                     <p>블록체인을 적용한 주요 시스템의 하나인 암호화폐 거래소 전용 보안시스템으로, 블록체인 기술을 주요기술로 삼아
                      해쉬함수를 이용해 서버에 보관합니다. 또한 인공지능을 통한 검색기술을 적용하여 고객 정보의 해킹을 막고 암호화폐 탈취를 막는 인공지능 보안 시스템 입니다.</p>
                     <!-- <p><img src="img/BCS.png" alt="BCS시스템"></p> -->
-                    </br>
+                    <br/>
                  </div>
 
               </div>
@@ -222,6 +221,8 @@
 
 
             </div>
+
+            <a href="#"><div id="top_bt" class="top_bt">Top</div></a>
 
 
           </div><!-- technology_inner End -->

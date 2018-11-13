@@ -12,16 +12,16 @@
                 });
        });
 
-//기술소개 탭부분
+//사업분야 탭부분
 $(document).ready(function(){
 $('.tech_content:gt(0)').hide();
 $('.tech_content_wrap > ul > li > a').on('click',function(e){
     e.preventDefault();
-    num=$(this).parent().index();
+    number=$(this).parent().index();
     $('.tech_content_wrap > ul > li.on').removeClass('on');
     $(this).parent().addClass('on');
     $('.tech_content:visible').hide();
-    $('.tech_content:eq('+(num)+')').stop().fadeOut(400).fadeIn(400);
+    $('.tech_content:eq('+(number)+')').stop().fadeOut(400).fadeIn(400);
     })
 });
 
@@ -38,7 +38,7 @@ $('.tech_content_wrap > ul > li > a').on('click',function(e){
     }
     else if( num >= vi && num <= si){
       console.log("an");
-      $(".company_header").css({"background":"rgba(255,255,255,.6)","position":"fixed", "top":"0","box-shadow":"1px 1px 1px rgba(255, 255, 255, 0.5)","text-align":"right","width":"100%","left":"0"}).fadeIn(300);
+      $(".company_header").css({"background":"rgba(255,255,255,.6)","position":"fixed", "top":"0","box-shadow":"1px 1px 1px rgba(255, 255, 255, 0.5)","text-align":"right","width":"100%","left":"0","z-index":"6"}).fadeIn(300);
     }
 });
 
