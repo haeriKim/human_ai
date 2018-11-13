@@ -10,9 +10,6 @@
 #header nav ul li:nth-child(2) a{
   color:#111;
 }
-#container{
-    overflow-y: scroll;
-}
 .sub{
   padding-left: 234px;
   margin: 0 auto;
@@ -30,7 +27,7 @@
     overflow: hidden;
     position: absolute;
     top: 150px;
-    left: 40.5%;
+    left: 35%;
 }
 .technology_inner .technology_header a{
   color:#000;
@@ -38,7 +35,7 @@
   padding-bottom: 5px;
 }
 .technology_inner .technology_header a.on{
-
+  border-bottom:2px solid #1b2f4a;
   display:inline;
   padding-top: 5px;
 }
@@ -55,7 +52,7 @@
 }
 .technology_inner .technology_header li{
     float: left;
-    width: 25%;
+    width: 33.3%;
 }
 .technology_inner .technology_header li a{
     color:#222;
@@ -63,9 +60,6 @@
     font-weight: bold;
     font-size:16px;
     padding-bottom:5px;
-}
-.technology_inner .technology_header li:nth-child(1) a{
-    border-bottom:2px solid #222;
 }
 
 .technology_inner h2{
@@ -187,13 +181,13 @@
     right: 5%;
     z-index: 5;
 }
-.technology_inner .tech_content_wrap h3 p{
+.technology_inner .tech_content_wrap h3{
     font-size: 40px;
-    margin-bottom: 20px;
 }
-
 .technology_inner .tech_content_wrap h3 span{
     font-size:22px;
+    display: block;
+    margin-top: 20px;
 }
 .technology_inner .tech_content_wrap ul{
     left: 5%;

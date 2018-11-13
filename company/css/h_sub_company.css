@@ -204,23 +204,6 @@
   color: #fff;
   text-decoration: underline;
 }
-.top_bt{
-  display:none;
-  width:50px;
-  height:50px;
-  font-size:12px;
-  background:rgba(16,97,168,0.5);
-  text-align:center;
-  line-height:30px;
-  position:fixed;
-  right:20px;
-  bottom:5%;
-  border-radius:50px;
-  cursor:pointer;
-  opacity:rgba(16,97,168,0.9);
-  color:#fff;
-  line-height:4em;
-}
 
 /*모바일 ver*/
 @media all and (min-width:320px) and (max-width:768px){
