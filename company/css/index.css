@@ -89,9 +89,12 @@
     top:75%;
   }
   #app_container .app_main_content .app_main_title{
+    cursor:pointer;
     text-align: center;
     width:100%;
-
+  }
+  #app_container .app_main_content .app_main_title:hover{
+    opacity:0.9;
   }
   #app_container .app_main_content .app_main_title p{
     font-size:18px;
