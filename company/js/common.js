@@ -62,21 +62,3 @@ $(document).ready(function(){
     $(this).addClass("on");
   });
 });
-
-//사업분야 헤더 스크롤
-
-//회사소개 헤더 스크롤
-   var ea = 500;  // 하단에 메뉴 표시할 스크롤 위치값 지정
-  var eb = 5000;
-
-   $(window).scroll(function(){
-    console.log("aa");
-   var zum = $(window).scrollTop();
-  if(zum < ea){
-      $(".technology_header").css({"background":"none", "position":"absolute", "top":"150px","box-shadow":"none","left":"35%","width":"auto"}).fadeIn(300);
-    }
-    else if( zum >= ea && zum <= eb){
-
-      $(".technology_header").css({"background":"rgba(255,255,255,.6)","position":"fixed", "top":"150px","box-shadow":"1px 1px 1px rgba(255, 255, 255, 0.5)","text-align":"right","width":"100%","left":"0"}).fadeIn(300);
-    }
- });
