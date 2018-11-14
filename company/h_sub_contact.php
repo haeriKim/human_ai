@@ -96,8 +96,7 @@
           <script charset="UTF-8">
             new daum.roughmap.Lander({
               "timestamp" : "1534832533323",
-              "key" : "pmg5",
-              "mapHeight" : "412"
+              "key" : "pmg5"
             }).render();
           </script>
         </div>
