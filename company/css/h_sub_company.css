@@ -302,7 +302,8 @@
     padding-left:11%;
     margin-bottom:40px;
     margin-top:0;
-    padding-top:50px;
+    padding-top:65px;
+    text-shadow:3px 2px 6px #555;
   }
   .co_intro_frame{
     width: 100%;
@@ -352,6 +353,7 @@
   .intro_inner .history_img2,
   .intro_inner .map_img2,
   .intro_inner .vision_img2{
+    width:300px;
     display:inline-block;
     text-align: center;
   }
@@ -363,7 +365,7 @@
     width:220px;
     height:420px;
     margin-top:50px;
-    display: block;
+    /*display: block;*/
   }
   .vision_bg{
     padding:0 11%;
@@ -374,7 +376,7 @@
     margin-bottom:200px;
   }
   .vision_text .vision_title{
-    font-size:20px;
+    font-size:15px;
     font-weight:600;
     color: #1061A8;
     margin-top: 20px;
@@ -390,5 +392,10 @@
     font-size:12px;
     margin-top:10px;
     display:block;
+  }
+}
+@media all and (min-width:320px) and (max-width:320px){
+  .intro_inner .vision_img2{
+    width:100%;
   }
 }

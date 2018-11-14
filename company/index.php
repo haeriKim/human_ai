@@ -71,7 +71,7 @@
 
 <script>
 
-var maintext = $(".main_title")
+var maintext = $(".main_title, .app_main_fence")
 maintext.fadeIn(2500);
 
 </script>
