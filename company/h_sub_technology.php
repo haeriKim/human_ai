@@ -6,6 +6,7 @@
     <title>Human&Ai</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/m_header.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/h_sub_technology.css">
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Fira+Sans|Nanum+Gothic|" rel="stylesheet">
@@ -18,6 +19,10 @@
   <!-- nav_wrap -->
   <?php include "nav.php";?>
   <!-- nav_wrap End-->
+
+  <!-- m_header -->
+  <?php include "m_header.php";?>
+  <!-- m_header End-->
 
     <!-- 컨테이너 -->
     <div id="container">
@@ -41,7 +46,22 @@
               </ul>
 
             </div>
-            <h2>사업 분야</h2>
+            <div class="bg_area">
+            <h2 class="bg_title">사업 분야</h2>
+
+            <div class="bg_text">
+              <p>Human friendly<br/>warm smart technology</p>
+              <b>Meet our unique skills.</b>
+              <br/>
+              <strong>
+                Human과 AI가 함께하는 기술
+              </strong>
+              <span>
+                  ㈜휴먼앤에이아이(Huaman&AI)는 사람과 인공지능이 공존하는 4차 산업혁명시대에 인공지능의 장점을 살려<br>인간의 삶에 도움을 주는 제품을 개발, 생산, 판매하는 회사입니다.
+              </span>
+
+
+            </div>
             <!-- <ul>
                 <li class='ai_tech'>
                     <a href='#'>인공지능 기술</a>
@@ -58,28 +78,35 @@
 
             <!-- tech_intro -->
             <div id="te_intro_mission" class="tech_intro target">
-              <p class="tech_title">목표</p>
-              <p class='mini_title_human'>HUMAN</p>
-              <span class='explain_human'>
-                기술의 끝없는 성장 속에서도 그 안에는 사람이 있습니다.<br/>
-                휴먼앤에이아이는 시대의 발전을 무작정 따라가기보다<br/>
-                사람과 동행하는 기업이 되고 싶습니다.
-              </span>
-              <p class='mini_title_ai'>AI</p>
-              <span class='explain_ai'>
-                미래를 대표하는 기술, 인공지능<br/>
-                올바르게 이용해야 유익한 기술이 됩니다.<br/>
-                독자적인 기술력을 갖춘 휴먼앤에이아이를 만나보세요.
-              </span>
-              <p class='mini_title_harmony'>HARMONY</p>
-              <span class='explain_harmony'>
-                편리하고 유용한 기술, 그리고 그 안에서 행복하게 살고 있는 사람<br/>
-                휴먼앤에이아이가 그리고자하는 미래입니다.<br/>
-                우리가 원하는 미래를 위해 언제나 노력하고 있습니다.
-              </span>
-              <img class='image_01' src="img/tech_01.jpg" alt="1">
-              <img class='image_02' src="img/tech_02.jpg" alt="2">
+              <div class="second_title1">사람이 만든 스마트 인공지능 기술</div>
+                <div class="tech_mission">
+                  <p class="tech_title">목표</p>
+                  <div class="circle"><img src="img/human.png" alt="사람"></div>
+                  <p class='mini_title_human'>HUMAN</p>
+                  <span class='explain_human'>
+                    기술의 끝없는 성장 속에서도 그 안에는 사람이 있습니다.<br/>
+                    휴먼앤에이아이는 시대의 발전을 무작정 따라가기보다<br/>
+                    사람과 동행하는 기업이 되고 싶습니다.
+                  </span>
+                  <div class="circle"><img src="img/ai.png" alt="로보또"></div>
+                  <p class='mini_title_ai'>AI</p>
+                  <span class='explain_ai'>
+                    미래를 대표하는 기술, 인공지능<br/>
+                    올바르게 이용해야 유익한 기술이 됩니다.<br/>
+                    독자적인 기술력을 갖춘 휴먼앤에이아이를 만나보세요.
+                  </span>
+                  <div class="circle"><img src="img/sassac.png" alt="새싹"></div>
+                  <p class='mini_title_harmony'>HARMONY</p>
+                  <span class='explain_harmony'>
+                    편리하고 유용한 기술, 그리고 그 안에서 행복하게 살고 있는 사람<br/>
+                    휴먼앤에이아이가 그리고자하는 미래입니다.<br/>
+                    우리가 원하는 미래를 위해 언제나 노력하고 있습니다.
+                  </span>
+                  <!--<img class='image_01' src="img/tech_01.jpg" alt="1">
+                  <img class='image_02' src="img/tech_02.jpg" alt="2">-->
+                </div>
             </div> <!-- tech_intro End-->
+          </div>
 
             <!-- tech_content_wrap -->
             <div id="te_intro_kind" class="tech_content_wrap target">

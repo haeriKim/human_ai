@@ -16,9 +16,37 @@
 }
 /*기술소개*/
 .technology_inner{
-    margin-top:110px;
     text-align: center;
     font-family:"Nanum Gothic",sans-serif;
+}
+.technology_inner .bg_area {
+  background: url(../img/tech_bg.png) no-repeat top right;
+  background-size: 100% 1400px;
+}
+.technology_inner .bg_text{
+  text-align: left;
+  margin: 0 auto 200px auto;
+  width: 1200px;
+  padding-left: 30px;
+  margin-top: 100px;
+}
+.technology_inner .bg_text p{
+  font : 600 80px/80px 'Noto Sans KR', sans-serif;
+}
+.technology_inner .bg_text b{
+  font : 600 40px/70px 'Noto Sans KR', sans-serif;
+}
+.technology_inner .bg_text strong{
+  display: block;
+  color: #000;
+  font-size: 26px;
+  font-weight: 600;
+  margin: 30px 0;
+}
+.technology_inner .bg_text span{
+  color: #666;
+  font-size: 18px;
+  line-height: 1.6;
 }
 .technology_inner .technology_header{
     height: 80px;
@@ -66,10 +94,13 @@
     color:#222;
     margin-bottom:20px;
 }
+.technology_inner .bg_title{
+  padding-top:110px;
+}
 .technology_inner .tech_title{
     font-size: 30px;
     text-align: left;
-    padding-left: 60px;
+    /*padding-left: 60px;*/
     padding-bottom:60px;
     font-weight: 600;
 }
@@ -96,23 +127,38 @@
     border-bottom:2px solid #222;
 } */
 .technology_inner .tech_intro{
-    margin: 150px auto;
-    width: 1200px;
-    height: 680px;
-    position: relative;
-    padding-top: 100px;
+  margin: 0 auto;
+  width: 1200px;
+  position: relative;
+}
+.technology_inner .tech_intro .second_title1{
+  color: white;
+  text-shadow: 2px 2px 10px rgba(0,0,0,.5);
+  font: 600 40px 'Noto Sans KR', sans-serif;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.technology_inner .tech_intro .tech_mission{
+  width: 1200px;
+  padding: 60px 100px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.technology_inner .tech_intro .tech_mission .circle img{
+  width:150px;
+  height:150px;border-radius:100px;border:1px solid #eee;
 }
 .technology_inner .tech_intro p:not(.tech_title){
   color: #222;
   font-size: 43px;
-  text-align: left;
+  /*text-align: left;*/
   margin-bottom:5px;
   font-family:"Fira Sans",sans-serif;
 }
 .technology_inner .tech_intro span{
   color: #222;
   font-size: 20px;
-  text-align: left;
+  /*text-align: left;*/
   display: block;
   margin-bottom: 75px;
   line-height: 1.5;
