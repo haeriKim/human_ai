@@ -13,7 +13,7 @@
 
 /*map*/
 .contact_content_inner{
-    padding-top: 8%;
+    padding-top: 110px;
     text-align: center;
     width: 1280px;
     margin: 0 auto;
@@ -22,7 +22,7 @@
 .contact_content h2{
     font-size: 30px;
     color: #222;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 .contact_content{
   padding-left: 234px;
@@ -36,7 +36,7 @@
   margin:0 auto;
   width:425px;
   height:445px;
-  background-color:#111111;
+  background-color:#222;
   color:#fff;
   float:left;
   text-align:left;
@@ -129,4 +129,59 @@
 .contact_content .footer p a{
   color: #fff;
   text-decoration: underline;
+}
+
+/*반응형*/
+@media (max-width: 768px) and (min-width: 320px){
+    html{
+        font-size:78%;
+    }
+    #container{
+        font-size: 110%;
+    }
+    .contact_content{
+        padding-left: 0;
+        margin: 0;
+    }
+    .contact_content_inner{
+        padding-top: 0;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        font-family: "Nanum Gothic",sans-serif;
+    }
+    .contact_inner{
+        height: 100%;
+        width: 100%;
+    }
+    .contact_content_inner h2{
+        margin-bottom: 15px;
+        font-size: 1.4rem;
+        padding-top: 90px;
+        letter-spacing: 2px;
+    }
+    .map_fence{
+        width: 90%;
+        padding-left: 0;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .contact_inner h3{
+        font-size: 1.4rem;
+        margin: 25px 0 25px 24px;
+    }
+    .contact_inner ul li.text{
+        margin-left: 0;
+    }
+    .map{
+        float: none;
+        overflow: hidden;
+        width: 90%;
+        margin: 0 auto 50px auto;
+        display: inline-block;
+    }
+    /*다음지도 핀 조정*/
+    .map .root_daum_roughmap_landing{
+        width: 100%;
+    }
 }

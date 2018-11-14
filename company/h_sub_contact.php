@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/h_sub_contact.css">
     <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/m_header.css">
     <link rel="shortcut icon" href="img/favicon-16.ico" type="image/x-icon">
     <link rel="icon" href="img/favicon-16.ico" type="image/x-icon">
     <link rel="shortcut icon" href="img/favicon-32.ico" type="image/x-icon">
@@ -21,11 +22,15 @@
     <script src="js/common.js"></script>
 </head>
 <body>
-<div id="wrap">
+<div id="sub_wrap">
 
   <!-- nav_wrap -->
   <?php include "nav.php";?>
   <!-- nav_wrap End-->
+
+  <!-- m_header -->
+  <?php include "m_header.php";?>
+  <!-- m_header End-->
 
     <!-- 컨테이너 -->
     <div id="container">
@@ -40,7 +45,7 @@
                 <h3>Human & AI</h3>
                     <!--placeholer-->
                     <ul>
-                      <li class="text1">
+                      <li class="text1 text">
                             <img src="img/placeholder.png" alt="좌표">
                             <p>서울특별시 서초구 신반포로 326-10</p>
                             <p>대종빌딩 305호 (주)휴먼앤에이아이</p>
@@ -53,7 +58,7 @@
                     <!--telephone-->
                     <ul>
 
-                      <li class="text2">
+                      <li class="text2 text">
                                 <img src="img/telephone.png" alt="전화기">
                                 <p>TEL : 02-2269-8777</p>
                                 <p>FAX : 070-7543-0023</p>
@@ -63,7 +68,7 @@
                     </ul><!--//telephone End-->
                     <!--arroba-->
                     <ul>
-                      <li class="text3">
+                      <li class="text3 text">
                           <img src="img/arroba.png" alt="이메일">
                           <p>ai-master@human-ai.co.kr</p>
 
@@ -71,7 +76,7 @@
                     </ul><!--//arroba End-->
                     <!--worldwide-->
                     <ul>
-                      <li class="text4">
+                      <li class="text4 text">
                           <img src="img/worldwide.png" alt="홈페이지">
                           <p>http://human-ai.co.kr</p>
 
@@ -84,22 +89,14 @@
 
         <!--지도-->
         <div class="map">
-          <!-- * Daum 지도 - 지도퍼가기 -->
-          <!-- 1. 지도 노드 -->
           <div id="daumRoughmapContainer1534832533323" class="root_daum_roughmap root_daum_roughmap_landing"></div>
 
-          <!--
-            2. 설치 스크립트
-            * 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
-          -->
           <script charset="UTF-8" class="daum_roughmap_loader_script" src="http://dmaps.daum.net/map_js_init/roughmapLoader.js"></script>
 
-          <!-- 3. 실행 스크립트 -->
           <script charset="UTF-8">
             new daum.roughmap.Lander({
               "timestamp" : "1534832533323",
               "key" : "pmg5",
-              "mapWidth" : "590",
               "mapHeight" : "412"
             }).render();
           </script>
