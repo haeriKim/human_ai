@@ -20,8 +20,8 @@
     font-family:"Nanum Gothic",sans-serif;
 }
 .technology_inner .bg_area {
-  background: url(../img/tech_bg.png) no-repeat top right;
-  background-size: 100% 1400px;
+  background: url(../img/tech_bg1.png) no-repeat top right;
+  background-size: 100% 1200px;
 }
 .technology_inner .bg_text{
   text-align: left;
