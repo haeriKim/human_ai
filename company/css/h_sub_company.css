@@ -249,11 +249,12 @@
   }
 
   .intro_inner .bg_area {
-    background-size: 100% 38%;
+    background-size: 100% 35%;
     margin-top: 80px;
   }
   .intro_inner .co_intro_h2{
     padding-left:11%;
+    padding-top:60px;
   }
   .intro_inner h2{
       padding-top:100px;
