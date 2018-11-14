@@ -26,6 +26,9 @@
   top: 150px;
   left: 35%;
 }
+.intro_inner .app_company_header{
+  display:none;
+}
 .intro_inner .company_header a{
   color:#000;
   font-size: 16px;
@@ -150,11 +153,19 @@
   width: 1200px;
   margin: 0 auto 200px auto;
 }
+.intro_inner .history_img1,
+.intro_inner .map_img1,
+.intro_inner .vision_img1{
+  display:inline-block;
+}
+.intro_inner .history_img2,
+.intro_inner .map_img2,
+.intro_inner .vision_img2{
+  display:none;
+}
 .co_vision{
   width: 1200px;
     margin: 0 auto 100px auto;
-}
-.vision_bg{
 }
 .vision_text{
   text-align: left;
@@ -208,68 +219,63 @@
 /*모바일 ver*/
 @media all and (min-width:320px) and (max-width:768px){
   .intro_inner{
-    text-align: center;
     margin-left: 0;
-    font-family: "Nanum Gothic",sans-serif;
+          overflow-x: hidden;
   }
   .intro_inner .company_header{
-    left: 7%;
-    top:110px;
-    width:100%;
+    display:none;
+    visibility: hidden;
   }
-  .intro_inner .company_header a{
-    color:#000;
+  .intro_inner .app_company_header{
+    display: block;
+    position: fixed;
+    top: 50px;
+    width: 100%;
+    background-color: #fff;
+    padding-top: 10px;
+    font-size:12px;
+    background-color:rgba(255,255,255,0.6);
+  }
+  .intro_inner .app_company_header a{
     font-size: 12px;
-    padding-bottom: 5px;
   }
-  .intro_inner .company_header a.on{
+  .intro_inner .app_company_header a.on{
     border-bottom:2px solid #1b2f4a;
     display:inline;
     padding-top: 5px;
   }
-  .intro_inner .company_header a:after{
+  .intro_inner .app_company_header a:after{
     border:1px solid red;
   }
 
   .intro_inner .bg_area {
-    background: url(../img/sub1_bg1.jpg) no-repeat top right;
     background-size: 100% 38%;
+    margin-top: 80px;
+  }
+  .intro_inner .co_intro_h2{
+    padding-left:11%;
   }
   .intro_inner h2{
       padding-top:100px;
-      padding-left:11%;
       text-align:left;
       font-size:20px;
-      color:#222;
-      margin-bottom:20px;
   }
   .intro_inner ul{
-      width:100%;
+      width:95%;
+      margin-bottom:0;
   }
   .intro_inner ul li{
-      width: 22%;
-  }
-  .intro_inner ul li a{
-      color:#222;
-      margin-bottom:2px;
-      font-weight: bold;
-      font-size:20px;
-      padding-bottom:2px;
-      display: inline-block;
+      width: 25%;
   }
   .intro_inner ul li:first-child a{
-      border-bottom:2px solid #222;
+    border:none;
   }
-
 
   /*컨텐츠 시작*/
   .co_intro{
-      padding-left: 11%;
-      margin-top: 80px;
+      margin-top: 0;
       margin-bottom:70px;
-  }
-  .intro_inner .co_intro .titleColor{
-    color:#1061A8;
+      padding: 0 11%;
   }
   .intro_inner .co_intro p{
     font: 600 21px/30px 'Noto Sans KR', sans-serif;
@@ -279,9 +285,7 @@
     display: block;
   }
   .intro_inner .co_intro strong{
-
     font-size: 15px;
-
   }
   .intro_inner .co_intro span{
     color:#fff;
@@ -289,33 +293,33 @@
     line-height: 1.6;
     width:22%;
     display:inline-block;
+    text-shadow: 1px 1px 1px #000;
   }
   .co_intro_intro .second_title1{
     font: 600 18px 'Noto Sans KR', sans-serif;
     text-align: left;
     padding-left:11%;
-    margin-bottom:0;
+    margin-bottom:40px;
     margin-top:0;
     padding-top:50px;
   }
   .co_intro_frame{
     width: 100%;
-    padding: 50px 11%;
+    padding: 0 11%;
+  }
+  .co_intro_history, .co_intro_map, .co_vision{
+    width: 100%;
+    padding: 10px 11%;
   }
   .co_intro_content {
-    word-break: break-all;
     font-size: 12px;
-    line-height: 24px;
-    text-align: left;
   }
   .co_intro_content p{
     margin-bottom: 10px;
   }
   .co_intro_title{
     font-size: 20px;
-    text-align: left;
     padding-top:0;
-    padding-left:11%;
     padding-bottom:0;
     padding-left:0;
     display:block;
@@ -326,7 +330,6 @@
   .first_indent{
     padding-top: 0;
     margin-left:0;
-    text-align: left;
     padding-left: 0;
     font-size: 20px;
     color: #222;
@@ -334,14 +337,35 @@
   }
   .co_intro_history,
   .co_intro_map{
-    width: 1200px;
-    margin: 0 auto 200px auto;
+    margin-bottom:10px;
   }
   .co_vision{
-    width: 1200px;
-      margin: 0 auto 100px auto;
+    padding:0 11%;
+    margin-bottom:0;
+  }
+  .intro_inner .history_img1,
+  .intro_inner .map_img1,
+  .intro_inner .vision_img1{
+    display:none;
+  }
+  .intro_inner .history_img2,
+  .intro_inner .map_img2,
+  .intro_inner .vision_img2{
+    display:inline-block;
+    text-align: center;
+  }
+  .intro_inner .history_img2{
+    width:70%;
+    height:100%;
+  }
+  .intro_inner .map_img2{
+    width:80%;
+    height:100%;
+    margin-top:50px;
+    display: block;
   }
   .vision_bg{
+    padding:0 11%;
   }
   .vision_text{
     text-align: left;
@@ -350,16 +374,19 @@
   }
   .vision_text .vision_title{
     font-size:20px;
+    font-weight:600;
     color: #1061A8;
     margin-top: 20px;
     letter-spacing: 2px;
   }
   .vision_text p{
-    font-weight:600;
-    font-size:18px;
+    font-weight:500;
+    font-size:15px;
     margin-bottom:5px;
+    line-height:1.5em;
   }
   .vision_text span{
+    font-size:12px;
     margin-top:10px;
     display:block;
   }

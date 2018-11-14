@@ -32,6 +32,7 @@ $('.tech_content_wrap > ul > li > a').on('click',function(e){
 
   $(window).scroll(function(){
 
+  var width_size = window.outerWidth;
   var num = $(window).scrollTop();
   // console.log(num)
 
@@ -52,23 +53,24 @@ $('.tech_content_wrap > ul > li > a').on('click',function(e){
       }
 });
 
+
 //회사소개 헤더 액티브
 $(document).ready(function(){
   $(window).on('scroll', function() {
       $('.target').each(function() {
           if($(window).scrollTop() >= $(this).offset().top) {
               var id = $(this).attr('id');
-              $('.company_header li a').removeClass('on');
-              $('.company_header li a[href=#'+ id +']').addClass('on');
+              $('.company_header li a, .app_company_header li a').removeClass('on');
+              $('.company_header li a[href=#'+ id +'] , .app_company_header li a[href=#'+ id +']').addClass('on');
           }
       });
   });
 });
 //회사소개 헤더 액티브
 $(document).ready(function(){
-  $(".company_header li a.intro").addClass("on");
-  $(".company_header li a").click(function(){
-    $('.company_header li a').removeClass("on");
+  $(".company_header li a.intro, .app_company_header li a.intro").addClass("on");
+  $(".company_header li a, .app_company_header li a").click(function(){
+    $('.company_header li a, .app_company_header li a').removeClass("on");
     $(this).addClass("on");
   });
 });

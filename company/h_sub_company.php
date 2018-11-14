@@ -49,9 +49,29 @@
                 </ul>
 
               </div>
+              <div class="app_company_header">
+                <ul>
+                  <li>
+                    <a href="#co_intro_intro" id="co_intro" class="intro">회사 개요</a>
+                  </li>
+
+                  <li>
+                    <a href="#co_intro_history" id="co_history" class="history">회사 연혁</a>
+                  </li>
+
+                  <li>
+                    <a href="#co_intro_map" id="co_map" class="map_fence">사업 조직도</a>
+                  </li>
+
+                  <li>
+                    <a href="#co_vision" id="co_vision1" class="vision">비전</a>
+                  </li>
+                </ul>
+              </div>
             <div class="bg_area">
-              <h2>회사 소개</h2>
+              <h2 class="co_intro_h2">회사 소개</h2>
               <div class="co_intro">
+
                   <p class="titleColor">We Develop <br />
                   Fundamental AI technology.</p>
                   <b class="titleColor">
@@ -91,21 +111,25 @@
               <h2 class="co_intro_title">
                 회사 연혁
               </h2>
-              <img src="img/co_history.png" alt="회사 연혁">
+              <img src="img/co_history.png" alt="회사 연혁" class="history_img1">
+              <img src="img/co_history_m.png" alt="앱 회사 연혁" class="history_img2">
             </div><!-- co_intro_history End-->
             <div id="co_intro_map" class="co_intro_map target">
               <h2 class="co_intro_title">
                 사업 조직도
               </h2>
-              <img src="img/co_map.png" alt="사업조직도">
+              <img src="img/co_map.png" alt="사업조직도" class="map_img1">
+            <img src="img/co_map_m.png" alt="앱 사업조직도" class="map_img2">
             </div><!-- co_intro_map End -->
 
             <div id="co_vision" class="co_vision target">
               <h2 class="co_intro_title">
                 비전
               </h2>
+            </div>
               <div class="vision_bg">
-                <p><img src="img/vision2.png" alt="비전"></p>
+                <img src="img/vision2.png" alt="비전" class="vision_img1">
+                <img src="img/app_vision.png" alt="앱 비젼" class="vision_img2">
                 <div class="vision_text">
                   <p class="vision_title">Vision</p>
                   <br/>
@@ -125,7 +149,7 @@
 
               </div>
 
-            </div>
+
 
             <a href="#"><div id="top_bt" class="top_bt">Top</div></a>
 
