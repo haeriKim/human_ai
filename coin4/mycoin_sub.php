@@ -890,7 +890,7 @@
 
                                                     <div class="send_info_02">
                                                         <label for="send_money">입금금액</label>
-                                                        <input type="text" name="send_money" id='send_money' placeholder="0" required>
+                                                        <input type="text" name="send_money" id='send_money' placeholder="0" required autocomplete="off">
                                                             <span class='unit_KRW_fixed'>KRW</span>
                                                         </input>
                                                         <span class='caution'>최소 입금 금액 : 없음</span>
