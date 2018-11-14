@@ -48,13 +48,13 @@
 
                         <tbody>
 
-                          <tr onclick="location.href='notice_con_02.php'">
-                            <th>[알림] Human&Ai 홈페이지 리뉴얼 오픈!</th>
+                          <tr>
+                            <th onclick="location.href='notice_con_02.php'">[알림] Human&Ai 홈페이지 리뉴얼 오픈!</th>
                             <td>18.11.13</td>
                           </tr>
 
-                          <tr onclick="location.href='notice_con_01.php'">
-                            <th>[알림] 가상화폐 거래소 출시 예정 안내</th>
+                          <tr>
+                            <th onclick="location.href='notice_con_01.php'">[알림] 가상화폐 거래소 출시 예정 안내</th>
                             <td>18.11.01</td>
                           </tr>
 

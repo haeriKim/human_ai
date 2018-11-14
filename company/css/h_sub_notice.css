@@ -26,7 +26,6 @@
 .intro_inner .co_notice_content .co_notice_table{
   width:100%;
   text-align: center;
-  height:500px;
 }
 .intro_inner .co_notice_content .co_notice_table table{
   width:51.2%;
@@ -50,7 +49,6 @@
   text-align: center;
   padding:0 50px;
   border-bottom:1px solid #efefef;
-  cursor : pointer;
 }
 .intro_inner .co_notice_content .more_table{
   border:2px solid #5586b7;
@@ -63,6 +61,7 @@
   font-size:15px;
   margin-top: 30px;
   cursor: pointer;
+  margin-bottom: 50px;
 }
 .intro_inner .co_notice_content .more_table a{
   color:#5586b7;
@@ -72,7 +71,6 @@
 
 .intro_inner .co_notice_content .co_notice_story{
   width:51.2%;
-  height:500px;
   margin:0 auto;
 }
 .intro_inner .co_notice_content .co_notice_story .title{
@@ -176,7 +174,7 @@
         font-size: 0.9rem;
     }
     .intro_inner .co_notice_content .co_notice_story .story_bt img{
-        vertical-align: -1px;
+        width: 8px;
     }
     .intro_inner .co_notice_content .co_notice_story .story_title{
         width: 65%;
