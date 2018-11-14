@@ -35,8 +35,6 @@
   border-top:2px solid #5586b7;
   background:#fff;
 }
-.intro_inner .co_notice_content .co_notice_table table tr{
-}
 .intro_inner .co_notice_content .co_notice_table table th{
   width:100%;
   text-align: left;
@@ -87,12 +85,12 @@
 .intro_inner .co_notice_content .co_notice_story .title strong{
   text-align:left;
   display:inline-block;
-  width:80%;
+  width:75%;
 }
 .intro_inner .co_notice_content .co_notice_story .title span{
   text-align:right;
   display:inline-block;
-  width:10%;
+  width:20%;
 }
 .intro_inner .co_notice_content .co_notice_story .story{
   font-size:14px;
@@ -100,6 +98,7 @@
   text-align:left;
   height:280px;
   overflow-y:auto;
+  line-height: 1.3;
 }
 .intro_inner .co_notice_content .co_notice_story .next_story p{
   padding:10px 20px;
@@ -130,38 +129,64 @@
     text-align: left;
     display: inline-block;
     width: 70%;
+    font-size: 15px;
+    cursor: pointer;
 }
 .intro_inner .co_notice_content .co_notice_story .story_date{
     text-align: left;
     display: inline-block;
     width: 10%;
+    font-size: 15px;
 }
 
-
-/*footer*/
-.sub .footer {
-  width: 100%;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  height: 70px;
-  background-color: #000;
-  padding: 20px 30px;
-  box-sizing: border-box;
-  color: #fff;
-  font-size: 13px;
-  opacity: .8;
-  overflow: hidden;
-}
-.sub .footer img {
-  float: left;
-  width: 75px;
-}
-.sub .footer p{
-  display: block;
-  text-align: right;
-}
-.sub .footer p a{
-  color: #fff;
-  text-decoration: underline;
+/*반응형*/
+@media (max-width: 768px) and (min-width: 320px){
+    html{
+        font-size:78%;
+    }
+    .intro_inner h2{
+        margin-bottom: 15px;
+        font-size: 1.4rem;
+        padding-top: 90px;
+    }
+    .intro_inner .co_notice_content .co_notice_table table,
+    .intro_inner .co_notice_content .co_notice_story{
+        width: 90%;
+    }
+    .intro_inner .co_notice_content .co_notice_table table th{
+        padding: 10px 3px;
+    }
+    .intro_inner .co_notice_content .co_notice_table table td{
+        padding: 0 5px;
+    }
+    .intro_inner .co_notice_content .more_table{
+        font-size: 1rem;
+        margin-top: 15px;
+    }
+    .intro_inner .co_notice_content .more_table img{
+        vertical-align: -1px;
+        margin-left: 3px;
+    }
+    .intro_inner .co_notice_content .co_notice_story .story{
+        font-size: 1rem;
+        padding: 8% 5%;
+    }
+    .intro_inner .co_notice_content .co_notice_story .story_bt{
+        width: 18%;
+        font-size: 0.9rem;
+    }
+    .intro_inner .co_notice_content .co_notice_story .story_bt img{
+        vertical-align: -1px;
+    }
+    .intro_inner .co_notice_content .co_notice_story .story_title{
+        width: 65%;
+        font-size: 1rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .intro_inner .co_notice_content .co_notice_story .story_date{
+        width: 15%;
+        font-size: 0.9rem;
+    }
 }

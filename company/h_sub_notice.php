@@ -6,6 +6,7 @@
     <title>Human&Ai</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/m_header.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/h_sub_notice.css">
     <link rel="shortcut icon" href="img/favicon-16.ico" type="image/x-icon">
@@ -25,6 +26,10 @@
   <!-- nav_wrap -->
   <?php include "nav.php";?>
   <!-- nav_wrap End-->
+
+  <!-- m_header -->
+  <?php include "m_header.php";?>
+  <!-- m_header End-->
 
     <!-- 컨테이너 -->
     <div id="container">
@@ -48,9 +53,9 @@
                             <td>18.11.13</td>
                           </tr>
 
-                          <tr>
-                            <th>&nbsp;</th>
-                            <td>&nbsp;</td>
+                          <tr onclick="location.href='notice_con_01.php'">
+                            <th>[알림] 가상화폐 거래소 출시 예정 안내</th>
+                            <td>18.11.01</td>
                           </tr>
 
                           <tr>
