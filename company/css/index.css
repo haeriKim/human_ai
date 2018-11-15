@@ -1,16 +1,15 @@
 /*회사메인 css*/
-#wrap{
+#wrap #container {
+  position: static;
+}
+#container .main_content{
+  color:#fff;
   background:url(../img/company_main.png) no-repeat 0 3%;
   background-size:cover;
 }
-#container .main_content{
-  padding:15px;
-  color:#fff;
-}
 #container .main_content .main_text{
   text-align:right;
-  padding:30px 80px;
-  width:94%;
+  padding:30px 50px;
   font-family : "Nanum Gothic",sans-serif;
 }
 #container .main_content .main_text p{
@@ -51,68 +50,69 @@
   text-align: right;
 }
 #container .main_content .map_area {
-    position: relative;
-    margin: 0 auto;
-    width: 1600px;
-    height: 1083px;
-    background: url(../img/worldmap.png) no-repeat 0 0;
-    margin: -15% auto 0 auto;
+  position: relative;
+  margin: -15% auto 0 auto;
+  width: 100%;
+}
+#container .main_content .map_area .map_img {
+  width: 88%;
+  margin: 0 7%;
 }
 #container .main_content .star{
-    position: absolute;
+  position: absolute;
 }
 #container .main_content .map_area .star_01{
-    animation: star 4s infinite;
-    top: 38%;
-    left: 41%;
+  animation: star 4s infinite;
+  top: 38%;
+  left: 41%;
 }
 #container .main_content .map_area .star_02{
-    transform: rotate(15deg);
-    -ms-transform: rotate(15deg);
-    -webkit-transform: rotate(15deg);
-    animation: star 3s infinite ;
-    top: 57%;
-    left: 4%;
+  transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  animation: star 3s infinite ;
+  top: 57%;
+  left: 4%;
 }
 #container .main_content .map_area .star_03{
-    transform: rotate(30deg);
-    -ms-transform: rotate(30deg);
-    -webkit-transform: rotate(30deg);
-    animation: star 4s infinite ;
-    top: 38%;
-    right: 14%;
+  transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  animation: star 4s infinite ;
+  top: 38%;
+  right: 14%;
 }
 #container .main_content .map_area .star_04{
-    transform: rotate(60deg);
-    -ms-transform: rotate(60deg);
-    -webkit-transform: rotate(60deg);
-    animation: star 3s infinite ;
-    top: 50%;
-    left: 30%;
+  transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  -webkit-transform: rotate(60deg);
+  animation: star 3s infinite ;
+  top: 50%;
+  left: 30%;
 }
 #container .main_content .map_area .star_05{
-    transform: rotate(44deg);
-    -ms-transform: rotate(44deg);
-    -webkit-transform: rotate(44deg);
-    animation: star 4s infinite ;
-    top: 77%;
-    left: 57%;
+  transform: rotate(44deg);
+  -ms-transform: rotate(44deg);
+  -webkit-transform: rotate(44deg);
+  animation: star 4s infinite ;
+  top: 77%;
+  left: 57%;
 }
 #container .main_content .map_area .star_06{
-    transform: rotate(20deg);
-    -ms-transform: rotate(20deg);
-    -webkit-transform: rotate(20deg);
-    animation: star 3s infinite ;
-    top: 78%;
-    right: 10%;
+  transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  -webkit-transform: rotate(20deg);
+  animation: star 3s infinite ;
+  top: 78%;
+  right: 10%;
 }
 #container .main_content .human .star_07{
-    transform: rotate(50deg);
-    -ms-transform: rotate(50deg);
-    -webkit-transform: rotate(50deg);
-    animation: star 3s infinite ;
-    top: -31px;
-    left: -38px;
+  transform: rotate(50deg);
+  -ms-transform: rotate(50deg);
+  -webkit-transform: rotate(50deg);
+  animation: star 3s infinite ;
+  top: -31px;
+  left: -38px;
 }
 @keyframes star{
   0%{

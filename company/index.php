@@ -33,6 +33,7 @@
           </div>
 
           <div class="map_area">
+            <img src="img/worldmap.png" class="map_img"/>
             <img src="img/star.png" alt="" width="129px" class='star star_01'>
             <img src="img/star.png" alt="" width="100px" class='star star_02'>
             <img src="img/star.png" alt="" width="100px" class='star star_03'>
