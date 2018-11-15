@@ -34,6 +34,15 @@
             </div>
           </div>
 
+          <div class="star_area">
+              <img src="img/star.png" alt="" width="129px" class='star star_01'>
+              <img src="img/star.png" alt="" width="100px" class='star star_02'>
+              <img src="img/star.png" alt="" width="100px" class='star star_03'>
+              <img src="img/star.png" alt="" width="110px" class='star star_04'>
+              <img src="img/star.png" alt="" width="80px" class='star star_05'>
+              <img src="img/star.png" alt="" width="70px" class='star star_06'>
+              <img src="img/star.png" alt="" width="90px" class='star star_07'>
+          </div>
       </div><!-- main_content End-->
     </div><!-- 컨테이너(container)End -->
 </div><!--wrap-->
@@ -71,7 +80,7 @@
 
 <script>
 
-var maintext = $(".main_title, .app_main_fence")
+var maintext = $(".main_title, .app_main_fence, .star_07")
 maintext.fadeIn(2500);
 
 </script>
