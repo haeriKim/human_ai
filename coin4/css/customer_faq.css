@@ -2,6 +2,10 @@
     color: #666;
     text-decoration: underline;
 }
+.faq_area .faq_list .no_search{
+  text-align:center;
+  padding: 149px 0;
+}
 .faq_area .faq_list h5{
     margin: 40px 0 30px 0;
     color: #1b2f4a;

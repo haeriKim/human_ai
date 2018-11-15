@@ -113,10 +113,15 @@
                                   <option value="faq_list_buy_sell">정보변경 및 인증</option>
                                   <option value="faq_list_etc">기타</option>
                               </select>
-                              <input type="text" title="검색영역" placeholder="검색어를 입력하세요"/>
+                              <input type="text" title="검색영역" placeholder="검색어를 입력하세요"/ class="faq_search">
                               <a class="search_btn" href="#" title="검색버튼"><img src="img/search.png" alt="검색버튼"/></a>
                           </p>
                           <div class="faq_list">
+
+                              <div class="no_search">
+                                <p>검색결과가 없습니다.</p>
+                              </div>
+
                             <section class='faq_list_join_cer faq_section'>
                                 <h5>[ 가입 및 탈퇴 ]</h5>
                                 <ul class="faq_ul">

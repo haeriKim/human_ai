@@ -65,9 +65,10 @@
                               <option value="">입출금</option>
                               <option value="">거래</option>
                           </select>
-                          <input type="search" title="검색영역" placeholder="검색어를 입력하세요"/>
+                          <input type="search" title="검색영역" placeholder="검색어를 입력하세요"/ class="notice_search">
                           <a class="search_btn" href="#" title="검색버튼"><img src="img/search.png" alt="검색버튼"/></a>
                       </p>
+
                       <table class="notice_list" id="notice_list">
                           <colgroup>
                               <col style="width:10%">
@@ -81,7 +82,7 @@
                               <th class="date">작성일</th>
                             </tr>
                           </thead>
-                          <tbody>
+                          <tbody class="notice_tbody">
                             <tr>
                                 <td class="important"><img src="img/notice.png" alt="확성기아이콘"/></td>
                                 <td class="title important_text"><a href='#'>[안내] 개인정보 처리방침 변경 안내</a></td>
@@ -133,6 +134,15 @@
                               <td class="date">2018-10-17</td>
                           </tr>
                           </tbody>
+
+                          <tbody class="no_search">
+                            <tr>
+                              <td></td>
+                              <td class="no_search_td">검색결과가 없습니다.</td>
+                              <td></td>
+                            </tr>
+                          </tbody>
+
                       </table><!-- 공지사항 리스트 END -->
 
                       <div class="contentBottom">

@@ -1375,3 +1375,17 @@ function lengthFix(obj){
         return false;
     }
 }
+
+//공지사항 검색결과
+$(document).ready(function(){
+  $(".no_search").hide();
+  var search_val = $(".notice_search, .faq_search");
+  search_val.on('keyup', function() {
+    $(".no_search").show();
+    $(".notice_tbody, .faq_section").hide();
+    if(search_val.val()==''){
+      $(".no_search").hide();
+      $(".notice_tbody, .faq_section").show();
+    }
+  });
+});
