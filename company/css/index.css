@@ -3,6 +3,7 @@
   position: static;
 }
 #container .main_content{
+  height: inherit;
   color:#fff;
   background:url(../img/company_main.png) no-repeat 0 3%;
   background-size:cover;
@@ -166,7 +167,7 @@
 
   }
   #app_container .app_main_content .app_main_text p{
-    font-size:95%;
+    font-size:15px;
   }
   #app_container .app_main_content .app_main_text span{
     font-size:85%;
@@ -191,7 +192,7 @@
     opacity:0.9;
   }
   #app_container .app_main_content .app_main_title p{
-    font-size:22px;
+    font-size:25px;
     font-weight:600;
     padding-bottom:5px;
   }
