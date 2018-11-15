@@ -1380,7 +1380,7 @@ function lengthFix(obj){
 $(document).ready(function(){
   $(".no_search").hide();
   var search_val = $(".notice_search, .faq_search");
-  search_val.click('keyup', function() {
+  search_val.click('click', function() {
     $(".no_search").show();
     $(".notice_tbody, .faq_section").hide();
     if(search_val.val()==''){
@@ -1402,4 +1402,15 @@ $(document).ready(function(){
 	$(".faq_search").keyup(function(){
     $(".search_val").text($(".faq_search").val());
 	});
+});
+
+//공지사항 검색결과
+$(document).ready(function(){
+  $(".no_search").hide();
+  $(".notice_search").click("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $(".notice_tbody tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+    });
+  });
 });

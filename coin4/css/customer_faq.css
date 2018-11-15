@@ -7,11 +7,11 @@
   padding: 149px 0;
 }
 .faq_area .faq_list .search_val {
-  color: #ff0000;
+  color: #EAAF69;
 }
 .faq_area .faq_list .search_val::before,.faq_area .faq_list .search_val::after {
   content: "'";
-  color: #ff0000;
+  color: #EAAF69;
 }
 .faq_area .faq_list h5{
     margin: 40px 0 30px 0;
