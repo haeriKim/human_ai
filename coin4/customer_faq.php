@@ -114,12 +114,13 @@
                                   <option value="faq_list_etc">기타</option>
                               </select>
                               <input type="text" title="검색영역" placeholder="검색어를 입력하세요"/ class="faq_search">
-                              <a class="search_btn" href="#" title="검색버튼"><img src="img/search.png" alt="검색버튼"/></a>
+                              <a class="search_btn" href="#" title="검색버튼"><img src="img/search.png" alt="검색버튼"/ class="faq_search"></a>
                           </p>
                           <div class="faq_list">
 
                               <div class="no_search">
-                                <p>검색결과가 없습니다.</p>
+                                <span class="search_val"></span>  <!--검색창에 쓴 TEXT-->
+                                <span>검색결과가 없습니다.</span>
                               </div>
 
                             <section class='faq_list_join_cer faq_section'>

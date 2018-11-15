@@ -43,8 +43,10 @@
 }
 .notice_area .no_search .no_search_td{
   padding:156px 0;
-  cursor:default;
+  padding-left:90px;
+  cursor:auto;
 }
+
 
 @media all and (min-width:320px) and (max-width:768px){
   .notice_content {

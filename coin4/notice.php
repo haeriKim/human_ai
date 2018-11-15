@@ -66,7 +66,7 @@
                               <option value="">거래</option>
                           </select>
                           <input type="search" title="검색영역" placeholder="검색어를 입력하세요"/ class="notice_search">
-                          <a class="search_btn" href="#" title="검색버튼"><img src="img/search.png" alt="검색버튼"/></a>
+                          <a class="search_btn" href="#" title="검색버튼"><img src="img/search.png" alt="검색버튼"/ onclick="getval()" class="search_img notice_search"></a>
                       </p>
 
                       <table class="notice_list" id="notice_list">
@@ -100,12 +100,12 @@
                           </tr>
                           <tr>
                               <td class="num">100</td>
-                              <td class="title"><a href='#'>[입출금] 월렛 업그레이드 8차 완료 (입금 주소 신규 발급 필수) - 전체 작업 완료</a></td>
+                              <td class="title"><a href='#'>[입출금] <span class="match_keyword">월렛</span> 업그레이드 8차 완료 (입금 주소 신규 발급 필수) - 전체 작업 완료</a></td>
                               <td class="date">2018-10-17</td>
                           </tr>
                           <tr>
                               <td class="num">99</td>
-                              <td class="title"><a href='#'>[입출금] 월렛 업그레이드 7차 완료 (입금 주소 신규 발급 필수)</a></td>
+                              <td class="title"><a href='#'>[입출금] <span class="match_keyword">월렛</span> 업그레이드 7차 완료 (입금 주소 신규 발급 필수)</a></td>
                               <td class="date">2018-10-17</td>
                           </tr>
                           <tr>
@@ -115,12 +115,12 @@
                           </tr>
                           <tr>
                               <td class="num">97</td>
-                              <td class="title"><a href='#'>[입출금] 월렛 업그레이드 6차 완료 (신규 입금 주소 발급 필요한 암호화폐 확인 필수)</a></td>
+                              <td class="title"><a href='#'>[입출금] <span class="match_keyword">월렛</span> 업그레이드 6차 완료 (신규 입금 주소 발급 필요한 암호화폐 확인 필수)</a></td>
                               <td class="date">2018-10-17</td>
                           </tr>
                           <tr>
                               <td class="num">96</td>
-                              <td class="title"><a href='#'>[입출금] 월렛 업그레이드 8차 완료 (입금 주소 신규 발급 필수) - 전체 작업 완료</a></td>
+                              <td class="title"><a href='#'>[입출금] <span class="match_keyword">월렛</span> 업그레이드 8차 완료 (입금 주소 신규 발급 필수) - 전체 작업 완료</a></td>
                               <td class="date">2018-10-17</td>
                           </tr>
                           <tr>
@@ -138,7 +138,9 @@
                           <tbody class="no_search">
                             <tr>
                               <td></td>
-                              <td class="no_search_td">검색결과가 없습니다.</td>
+                              <td class="no_search_td">
+                                <span>검색결과가 없습니다.</span>
+                              </td>
                               <td></td>
                             </tr>
                           </tbody>

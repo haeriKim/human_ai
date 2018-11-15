@@ -715,8 +715,8 @@ $(document).ready(function(){
 
 //공지사항 리스트
 $(document).ready(function(){
-  $("#notice_list tr").click(function(){
-      var listNum = $("#notice_list tr").index(this);
+  $(".notice_tbody tr").click(function(){
+      var listNum = $(".notice_tbody tr").index(this);
       location.href="notice_detail.php?"+listNum+"";
   });
 });
@@ -1376,11 +1376,11 @@ function lengthFix(obj){
     }
 }
 
-//공지사항 검색결과
+//공지사항,faq 검색결과
 $(document).ready(function(){
   $(".no_search").hide();
   var search_val = $(".notice_search, .faq_search");
-  search_val.on('keyup', function() {
+  search_val.click('keyup', function() {
     $(".no_search").show();
     $(".notice_tbody, .faq_section").hide();
     if(search_val.val()==''){
@@ -1388,4 +1388,18 @@ $(document).ready(function(){
       $(".notice_tbody, .faq_section").show();
     }
   });
+});
+
+//공지사항 검색결과 글나오기
+$(document).ready(function(){
+	$(".notice_search").keyup(function(){
+    $(".notice_search").text($(".notice_search_td").val());
+	});
+});
+
+//faq 검색결과 글나오기
+$(document).ready(function(){
+	$(".faq_search").keyup(function(){
+    $(".search_val").text($(".faq_search").val());
+	});
 });
