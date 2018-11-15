@@ -42,9 +42,23 @@
                 <li>
                   <a href="#te_intro_story" id="te_story" class="map_story">기술소개</a>
                 </li>
-
               </ul>
+            </div>
 
+            <div class="app_technology_header">
+                <ul>
+                  <li>
+                    <a href="#te_intro_mission" id="te_mission" class="mission intro">목표</a>
+                  </li>
+
+                  <li>
+                    <a href="#te_intro_kind" id="te_kind" class="kind">사업분야</a>
+                  </li>
+
+                  <li>
+                    <a href="#te_intro_story" id="te_story" class="map_story">기술소개</a>
+                  </li>
+                </ul>
             </div>
             <div class="bg_area">
             <h2 class="bg_title">사업 분야</h2>

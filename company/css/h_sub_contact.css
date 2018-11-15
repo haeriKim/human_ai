@@ -36,7 +36,7 @@
   margin:0 auto;
   width:425px;
   height:445px;
-  background-color:#111111;
+  background-color:#20639f;
   color:#fff;
   float:left;
   text-align:left;
@@ -83,6 +83,9 @@
   float:left;
   line-height:20px;
 }
+.contact_inner .text2 a{
+    color: #fff;
+}
 .contact_inner .text3{
   list-style:none;
   width:300px;
@@ -100,6 +103,9 @@
   margin-left:10px;
   float:left;
   line-height:30px;
+}
+.contact_inner .text4 a{
+    color: #fff;
 }
 .map{float:left;}
 

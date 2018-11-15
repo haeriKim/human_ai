@@ -60,7 +60,7 @@
 
                       <li class="text2 text">
                                 <img src="img/telephone.png" alt="전화기">
-                                <p>TEL : 02-2269-8777</p>
+                                <a href="tel:02-2269-8777">TEL : 02-2269-8777</a>
                                 <p>FAX : 070-7543-0023</p>
 
                       </li>
@@ -78,7 +78,7 @@
                     <ul>
                       <li class="text4 text">
                           <img src="img/worldwide.png" alt="홈페이지">
-                          <p>http://human-ai.co.kr</p>
+                          <p><a href="http://human-ai.co.kr" target="_blank">http://human-ai.co.kr</a></p>
 
                       </li>
                     </ul><!--//worldwide End-->

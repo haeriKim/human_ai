@@ -70,7 +70,6 @@
 .technology_inner .technology_header a:after{
   border:1px solid red;
 }
-
 .technology_inner .technology_header ul{
     overflow: hidden;
     text-align: center;
@@ -396,4 +395,25 @@
 #te_intro_story{
     padding-top: 120px;
     padding-bottom: 30px;
+}
+
+/*반응형*/
+@media all and (max-width: 768px) and (min-width: 320px){
+    .sub{
+        padding-left: 0;
+    }
+    .technology_inner .technology_header{
+        display: none;
+        visibility: hidden;
+    }
+    .technology_inner .app_technology_header{
+        display: block;
+        position: fixed;
+        top: 50px;
+        width: 100%;
+        background-color: #fff;
+        padding-top: 10px;
+        font-size: 12px;
+        background-color: rgba(255,255,255,0.6);
+    }
 }
