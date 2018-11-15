@@ -21,11 +21,9 @@
             미래를 대표하는 기술, 인공지능기업 휴먼앤에이아이를 소개합니다.</span>
           </div>
 
-          <div class="main_nullbox">
-          </div>
 
           <div class="main_title" onclick="location.href='h_sub_company.php'">
-            <p class="human">H U M A N & A I</p>
+            <p class="human">H U M A N & A I<img src="img/star.png" alt="" width="90px" class='star star_07'></p>
             <!-- <p class="solution">S O L U T I O N</p> -->
             <div>
               <span>Technology that can expect a better life<br/>
@@ -34,15 +32,17 @@
             </div>
           </div>
 
-          <div class="star_area">
-              <img src="img/star.png" alt="" width="129px" class='star star_01'>
-              <img src="img/star.png" alt="" width="100px" class='star star_02'>
-              <img src="img/star.png" alt="" width="100px" class='star star_03'>
-              <img src="img/star.png" alt="" width="110px" class='star star_04'>
-              <img src="img/star.png" alt="" width="80px" class='star star_05'>
-              <img src="img/star.png" alt="" width="70px" class='star star_06'>
-              <img src="img/star.png" alt="" width="90px" class='star star_07'>
-          </div>
+          <dl class="map_area">
+              <dt><img src="img/worldmap.png" alt="" class='worldmap'></dt>
+              <dd class='star_wrap_01'><img src="img/star.png" alt="" width="129px" class='star_01'></dd>
+              <dd class='star_wrap_02'><img src="img/star.png" alt="" width="100px" class='star_02'></dd>
+              <dd class='star_wrap_03'><img src="img/star.png" alt="" width="100px" class='star_03'></dd>
+              <dd class='star_wrap_04'><img src="img/star.png" alt="" width="110px" class='star_04'></dd>
+              <dd class='star_wrap_05'><img src="img/star.png" alt="" width="80px" class='star_05'></dd>
+              <dd class='star_wrap_06'><img src="img/star.png" alt="" width="70px" class='star_06'></dd>
+          </dl>
+
+
       </div><!-- main_content End-->
     </div><!-- 컨테이너(container)End -->
 </div><!--wrap-->
@@ -56,8 +56,6 @@
         <!--<span>미레를 대표하는 기술, 인공지능기업 휴먼앤에이아이를 소개합니다.</span>-->
       </div>
 
-      <div class="main_nullbox">
-      </div>
 
       <div class="app_main_fence">
         <div class="app_main_title" onclick="location.href='h_sub_company.php'">
@@ -80,7 +78,7 @@
 
 <script>
 
-var maintext = $(".main_title, .app_main_fence, .star_07")
+var maintext = $(".main_title, .app_main_fence")
 maintext.fadeIn(2500);
 
 </script>
