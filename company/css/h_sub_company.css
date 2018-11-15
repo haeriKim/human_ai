@@ -165,7 +165,7 @@
 }
 .co_vision{
   width: 1200px;
-    margin: 0 auto 100px auto;
+    margin: 0 auto 0 auto;
 }
 .vision_text{
   text-align: left;
@@ -220,7 +220,7 @@
 @media all and (min-width:320px) and (max-width:768px){
   .intro_inner{
     margin-left: 0;
-          overflow-x: hidden;
+    overflow-x: hidden;
   }
   .intro_inner .company_header{
     display:none;
