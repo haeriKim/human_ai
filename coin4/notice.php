@@ -139,7 +139,7 @@
                             <tr>
                               <td></td>
                               <td class="no_search_td">
-                                <span>검색결과가 없습니다.</span>
+                                <span>등록된 게시물이 없습니다.</span>
                               </td>
                               <td></td>
                             </tr>

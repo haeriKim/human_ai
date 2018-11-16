@@ -1377,7 +1377,7 @@ function lengthFix(obj){
 }
 
 //공지사항,faq 검색결과
-$(document).ready(function(){
+/*$(document).ready(function(){
   $(".no_search").hide();
   var search_val = $(".notice_search, .faq_search");
   search_val.click('click', function() {
@@ -1402,7 +1402,7 @@ $(document).ready(function(){
 	$(".faq_search").keyup(function(){
     $(".search_val").text($(".faq_search").val());
 	});
-});
+});*/
 
 //공지사항 검색결과
 $(document).ready(function(){
@@ -1411,6 +1411,9 @@ $(document).ready(function(){
     var value = $(this).val().toLowerCase();
     $(".notice_tbody tr").filter(function() {
       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+      $(".no_search").show();
+      /*$(".notice_search").text($(".notice_search_td").val());*/
+
     });
   });
 });
