@@ -1395,25 +1395,52 @@ $(document).ready(function(){
 	$(".notice_search").keyup(function(){
     $(".notice_search").text($(".notice_search_td").val());
 	});
-});
+});*/
 
 //faq 검색결과 글나오기
 $(document).ready(function(){
 	$(".faq_search").keyup(function(){
     $(".search_val").text($(".faq_search").val());
 	});
-});*/
+});
 
 //공지사항 검색결과
 $(document).ready(function(){
   $(".no_search").hide();
   $(".notice_search").click("keyup", function() {
+    if( $(".no_search").css("display") != "none" ) {
+      $(".no_search").hide();
+    } else {
+      $(".no_search").show()
+    }
     var value = $(this).val().toLowerCase();
+    var value2 = $(".no_search").val().toLowerCase();
     $(".notice_tbody tr").filter(function() {
       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
-      $(".no_search").show();
+      $(".no_search").toggle($(".no").text().toLowerCase().indexOf(value2) > 0);
       /*$(".notice_search").text($(".notice_search_td").val());*/
 
     });
   });
 });
+
+/*$(document).ready(function(){
+      $(".notice_search").keyup(function() {
+
+          if( $(".no_search").css("display") != "none" ) {
+            $(".no_search").hide();
+          } else {
+            $(".no_search").show()
+          }
+
+          var k = $(this).val();
+          $(".notice_tbody").hide();
+
+          $(".no_search").show();
+
+          var temp = $(".notice_list > .notice_tbody  > tr > td:contains('" + k + "')");
+
+          $(temp).parent().show();
+
+      });
+});*/

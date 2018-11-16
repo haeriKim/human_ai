@@ -1,0 +1,28 @@
+/*prime css*/
+
+.prime_area .prime_inner{
+  padding:20px 25px;
+  overflow:hidden;
+}
+
+.prime_area .prime_inner .theallsprime_img img{
+  text-align: center;
+  margin: 0 auto;
+  display:block;
+  padding-top:50px;
+  width:800px;
+}
+.prime_area .prime_inner .theallsprime_icon img{
+  width:800px;
+  height:200px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+.prime_area .prime_inner .theallsprime_icon p{
+  font-size:18px;
+  font-weight:600;
+  margin:20px 0;
+  color:#1b2f4a;
+  text-align: center;
+}
