@@ -15,13 +15,16 @@
   margin: 0 auto;
 }
 /*기술소개*/
+.technology_inner .app_technology_header{
+    display: none;
+}
 .technology_inner{
     text-align: center;
     font-family:"Nanum Gothic",sans-serif;
 }
 .technology_inner .bg_area {
   background: url(../img/tech_bg1.png) no-repeat top right;
-  background-size: 100% 1200px;
+  background-size: 100%;
 }
 .technology_inner .bg_text{
   text-align: left;
@@ -225,10 +228,8 @@
     top: 340px;
     text-align: right;
     right: 5%;
-    z-index: 5;
-}
-.technology_inner .tech_content_wrap h3{
     font-size: 40px;
+    z-index: 5;
 }
 .technology_inner .tech_content_wrap h3 span{
     font-size:22px;
@@ -399,6 +400,9 @@
 
 /*반응형*/
 @media all and (max-width: 768px) and (min-width: 320px){
+    html{
+        overflow-x: hidden;
+    }
     .sub{
         padding-left: 0;
     }
@@ -415,5 +419,233 @@
         padding-top: 10px;
         font-size: 12px;
         background-color: rgba(255,255,255,0.6);
+        z-index: 6;
+    }
+    .technology_inner .app_technology_header a{
+        font-size: 12px;
+        padding-bottom: 1px;
+    }
+    .technology_inner .app_technology_header a.on{
+        border-bottom:2px solid #1b2f4a;
+        display:inline;
+    }
+    .technology_inner .app_technology_header a:after{
+        border: 1px solid red;
+    }
+    .technology_inner .app_technology_header ul{
+        width: 100%;
+        margin-bottom: 0;
+        overflow: hidden;
+        text-align: center;
+        display: inline-block;
+    }
+    .technology_inner .app_technology_header ul li{
+        float: left;
+        width: 33.3%;
+        padding-bottom: 5px;
+    }
+    .technology_inner .bg_area{
+        background-size: 158%;
+        margin-top: 70px;
+        background-position: 47% 3%;
+    }
+    .technology_inner .bg_title{
+        padding-top: 60px;
+        padding-left: 11%;
+        text-align:left;
+        font-size:20px;
+    }
+    .technology_inner .bg_text p{
+        font: 600 20px/24px 'Noto Sans KR', sans-serif;
+    }
+    .technology_inner .bg_text{
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0 11%;
+    }
+    .technology_inner .bg_text b{
+        font: 600 13px/33px 'Noto Sans KR', sans-serif;
+    }
+    .technology_inner .bg_text strong{
+        font-size: 15px;
+    }
+    .technology_inner .bg_text span{
+        color: #111;
+        font-size: 12px;
+        line-height: 1.6;
+        width: 22%;
+        display: inline-block;
+        font-weight: 600;
+        text-shadow: 1px 1px 1px #ececec;
+    }
+    .technology_inner .tech_intro .second_title1{
+        font: 600 18px 'Noto Sans KR', sans-serif;
+        text-align: left;
+        padding-left: 10%;
+        margin-bottom: 40px;
+        margin-top: 8%;
+        text-shadow: 3px 2px 6px #555;
+    }
+    .technology_inner .tech_intro{
+        width: auto;
+        margin: 0;
+        position: static;
+    }
+    .technology_inner .tech_intro .tech_mission{
+        width: 100%;
+        padding: 0 1%;
+    }
+    .technology_inner .tech_title{
+        font-size: 20px;
+        padding-bottom: 40px;
+        padding-top: 50px;
+        padding-left: 11%;
+    }
+    .technology_inner .tech_intro .tech_mission .circle img{
+        width: 35%;
+        height: auto;
+        max-width: 150px;
+    }
+    .technology_inner .tech_intro p:not(.tech_title){
+        font-size: 20px;
+    }
+    .technology_inner .tech_intro span{
+        font-size: 12px;
+    }
+    .technology_inner .tech_content_wrap{
+        padding-top: 50px;
+        width: 100%;
+        height: auto;
+    }
+    .technology_inner .tech_content_wrap h3{
+        color: #1061A8;
+        top: 130px;
+        text-align: left;
+        left: 11%;
+        font-size: 16px;
+    }
+    .technology_inner .tech_content_wrap h3 span{
+        font-size: 13px;
+        margin-top: 5px;
+    }
+    .technology_inner .tech_content_wrap .tech_content{
+        height: auto;
+        margin-top: 30px;
+    }
+    .technology_inner .tech_content_wrap .tech_content img{
+        width: 100%;
+        height: auto;
+    }
+    .technology_inner .tech_content_wrap .tech_content::before{
+        height: 99%;
+    }
+    .technology_inner .tech_content_wrap ul{
+        top: 200px;
+        margin-left: 6%;
+        background: none;
+    }
+    .technology_inner .tech_content_wrap ul li{
+        font-size: 13px;
+    }
+    .technology_inner .tech_content_wrap ul li a{
+        color: #fff;
+    }
+    .technology_inner .tech_content_wrap ul li.on a{
+        font-size: 13px;
+        color: #fff;
+    }
+    .technology_inner .tech_content_wrap ul li.on a .on_line{
+        width: 8%;
+    }
+    .technology_inner .tech_content_wrap ul li.on a .on_line{
+        width: 8%;
+        border: 1px solid #fff;
+        position: absolute;
+        top: 49px;
+        left: 10px;
+        box-shadow: 0.5px 0.5px 0.5px #ccc;
+    }
+    .technology_inner .tech_content_wrap ul li.on a .on_line2{
+        top: 79px;
+    }
+    .technology_inner .tech_content_wrap ul li.on a .on_line3{
+        top: 109px;
+    }
+    .technology_inner .tech_content_wrap .tech_content p{
+        color: #666;
+        top: 114%;
+        left: 0;
+        font-size: 13px;
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    #te_intro_story{
+        margin-top: 600px;
+    }
+    .technology_inner .tech_detail{
+        width: 100%;
+    }
+    .technology_inner .tech_detail .tech_box{
+        overflow: auto;
+    }
+    .technology_inner .tech_detail .tech_box .title_box{
+        float: none;
+        width: 100%;
+    }
+    #container .technology_inner .tech_detail .title_bar{
+        width: 15%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    #container .technology_inner .tech_detail .tech_box .text_title{
+        font-size: 15px;
+    }
+    .technology_inner .tech_detail .tech_box .right_box2 #right_box_div{
+        margin-left: auto;
+    }
+    #container .technology_inner .tech_detail .tech_box .con_box{
+        float: none;
+        width: 90%;
+        margin-left: 5%;
+        font-size: 14px;
+    }
+}
+/*아이패드*/
+@media (max-width: 768px) and (min-width: 768px){
+    #container .technology_inner .bg_area{
+        background-size: 100%;
+        margin-top: 80px;
+        background-position: 0 0;
+    }
+    .technology_inner .tech_content_wrap ul{
+        margin-left: 0;
+        width: 150px;
+        height: 100px;
+        padding: 15px 41px;
+        background: rgba(255,255,255,0.8);
+        top: 216px;
+    }
+    .technology_inner .tech_content_wrap ul li a{
+        color: #222;
+    }
+    .technology_inner .tech_content_wrap ul li.on a{
+        color: #1b5ea9;
+    }
+    .technology_inner .tech_content_wrap ul li.on a .on_line{
+        top: 33px;
+        border:1px solid #1b5ea9;
+    }
+    .technology_inner .tech_content_wrap ul li.on a .on_line2{
+        top: 64px;
+    }
+    .technology_inner .tech_content_wrap ul li.on a .on_line3{
+        top: 94px;
+    }
+    .technology_inner .tech_content_wrap .tech_content p{
+        color: #fff;
+        top: 43%;
+    }
+    #te_intro_story{
+        margin-top: 46%;
     }
 }

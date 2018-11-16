@@ -14,7 +14,7 @@
     height: 50px;
     box-sizing: border-box;
     text-align: center;
-    box-shadow: 0px 1px 50px #BBCBD3;
+    box-shadow: 0px 1px 4px #efefef;
   }
   #m_headerWrap h1 a {
     display: inline-block;

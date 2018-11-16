@@ -29,7 +29,7 @@ $('.tech_content_wrap > ul > li > a').on('click',function(e){
 //회사소개 헤더 스크롤
   var vi = 500;  // 하단에 메뉴 표시할 스크롤 위치값 지정
   var si = 5000;
-  var bi = 250;
+  var bi = 400;
 
   $(window).scroll(function(){
 
