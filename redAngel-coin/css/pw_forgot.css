@@ -1,0 +1,31 @@
+.findPw_content form{
+    width: 500px;
+    margin: 0 auto;
+}
+.findPw_content form input{
+    width: 90%;
+    margin: 10px 0;
+}
+.findPw_content select.country_select{
+    width: 94%;
+    margin: 10px 0;
+}
+.findPw_content form div.phone_wrap{
+    position: relative;
+}
+.findPw_content form input.code_send{
+    position: absolute;
+    top: 0;
+    width: 20%;
+    right: 6%;
+    min-width: 85px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #F3E7B5;
+}
+.findPw_content form input.find_pw_btn{
+    width: 94%;
+}
+#full{
+  display:none;
+}

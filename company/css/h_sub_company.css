@@ -221,8 +221,9 @@
   }
 
   .intro_inner .bg_area {
-    background-size: 100% 450px;
-    margin-top: 80px;
+      background-size: 158% 30%;
+      margin-top: 80px;
+      background-position: 47% 0;
   }
   .intro_inner .co_intro_h2{
     padding-left:11%;

@@ -1,0 +1,42 @@
+.changeInfo_content form{
+    width: 500px;
+    margin: 0 auto;
+}
+.changeInfo_content form input{
+    width: 90%;
+    margin: 10px 0;
+}
+.changeInfo_content .second_title{
+    margin-top: 50px;
+}
+.changeInfo_content select{
+    border:none;
+    padding: 10px;
+}
+.changeInfo_content select.country_select{
+    margin: 10px 0;
+    width: 94%;
+    font-size: 15px;
+    border: 1px solid #F3E7B5;
+}
+.changeInfo_content form div.phone_wrap{
+    position: relative;
+}
+.changeInfo_content form input.code_send{
+    position: absolute;
+    top: 0;
+    width: 20%;
+    right: 6%;
+    min-width: 85px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #F3E7B5;
+
+}
+.changeInfo_content form input.changeInfo_btn{
+    width: 94%;
+}
+#full,
+#shadow{
+    display: none;
+}

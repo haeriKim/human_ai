@@ -1,0 +1,73 @@
+.main_content .title{
+    width: 500px;
+    margin: 20px auto;
+    overflow: hidden;
+    text-align: left;
+}
+.main_content .title .have_coin{
+    float: right;
+}
+.main_content .main_menu{
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.main_content .main_menu ul{
+    overflow: hidden;
+}
+.main_content .main_menu ul li{
+    width: 47%;
+    float: left;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 168px;
+    border: 3px solid #FFE106;
+    margin-right: 8px;
+    height: 220px;
+    box-sizing: border-box;
+}
+.main_content .main_menu ul li.send_li{
+    background: url(../img/180_icon_send_y.png) no-repeat center 20px / 61%;
+}
+.main_content .main_menu ul li.receive_li{
+    background: url(../img/180_icon_recive_y.png) no-repeat center 20px / 61%;
+}
+.main_content .main_menu ul li.sendList_li{
+    background: url(../img/180_icon_sendList_y.png) no-repeat center 20px / 61%;
+}
+.main_content .main_menu ul li.receiveList_li{
+    background: url(../img/180_icon_reciveList_y.png) no-repeat center 20px / 61%;
+}
+.main_content .main_menu ul li.setting_li{
+    background: url(../img/180_icon_setting_y.png) no-repeat center 20px / 61%;
+}
+.main_content .main_menu ul li.contact_li{
+    background: url(../img/180_icon_contact_y.png) no-repeat center 20px / 61%;
+}
+.main_content .main_menu ul li:hover{
+    cursor: pointer;
+    opacity: .5;
+}
+.main_content .main_menu ul li p{
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: 600;
+    color: #FFE106;
+}
+.main_content .main_menu ul li:hover p{
+    color:#FFE106;
+}
+
+@media (max-width:768px) {
+  .main_content .title {
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  .main_content .main_menu ul li {
+    margin-right: 7px;
+  }
+  .main_content .main_menu ul li p {
+    font-size: 16px;
+  }
+}
