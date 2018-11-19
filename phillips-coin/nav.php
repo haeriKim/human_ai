@@ -23,13 +23,13 @@
                 <ul>
                     <li>
                         <a href="send.php" class="menuText">
-                          <img src=img/50_icon_send_yb.png alt="보내기아이콘"/>
+                          <img src=img/50_icon_send.png alt="보내기아이콘"/>
                           <span class="none01">보내기</span>
                         </a>
                     </li>
                     <li>
                         <a href="receive.php" class="menuText">
-                          <img src=img/50_icon_recive_yb.png alt="받기아이콘"/>
+                          <img src=img/50_icon_recive.png alt="받기아이콘"/>
                           <span class="none01">받기</span>
                         </a>
                     </li>

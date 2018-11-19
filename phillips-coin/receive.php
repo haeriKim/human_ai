@@ -42,10 +42,10 @@
 
                   <div class="output_text">
                     <input type="button" name="qrcode" value="QR코드 스캔">
-
-                      <p><img src="img/qr_code.png" alt="qr코드"></p>
-                      <p>0x777kyJeJjHIFdukLyVO69TLDCkn</p>
-
+                      <div class="codeArea">
+                        <p><img src="img/qr_code.png" alt="qr코드"></p>
+                        <p>0x777kyJeJjHIFdukLyVO69TLDCkn</p>
+                      </div>
                     <input type="button" name="buttton" value="주소복사">
                     <p class="copyright">CRYPOCURRNCY PHILLIPS-COIN SINCE 2018</p>
                   </div>

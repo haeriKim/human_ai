@@ -38,7 +38,7 @@
       <div class="join_box">
         <div class="join_inner">
           <form class="" action="#" method="post">
-          <input type='tell' name="user_id" value="" placeholder="회원아이디" required maxlength="15" minlength="8"  class='user_id' autocomplete="off"/>
+          <input type='text' name="user_id" value="" placeholder="회원아이디" required maxlength="15" minlength="8"  class='user_id' autocomplete="off"/>
           <input type="password" name="password" value="" placeholder="비밀번호" required maxlength="30" minlength="10" class='user_pass'/>
           <input type="password" name="passowrd_again" value="" placeholder="비밀번호 확인" required maxlength="30" minlength="10" class='user_passChk'/>
           <select name="country" id="country" class="country_select">
@@ -51,7 +51,7 @@
               <input type="text" name="phone" placeholder="휴대폰번호" autocomplete="off" class='phone user_phone'>
               <input type="button" name="code_send" value="인증받기" class='request_number_bt'>
           </div>
-          <input type="text" name="sms_number" value="인증번호" required maxlength="6" minlength="6" class='request_number'/>
+          <input type="text" name="sms_number" placeholder="인증번호" required maxlength="6" minlength="6" class='request_number'/>
           <input type="email" name="user_email" value="" placeholder="이메일" required maxlength="30" minlength="8"  class='user_email' autocomplete="off"/>
 
 

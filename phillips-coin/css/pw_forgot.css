@@ -1,9 +1,3 @@
-.findPw_content .line{
-    width: 100%;
-    height: 1px;
-    background: #666;
-    margin: 20px 0;
-}
 .findPw_content form{
     width: 500px;
     margin: 0 auto;
@@ -23,9 +17,11 @@
     position: absolute;
     top: 0;
     width: 20%;
-    padding: 6px 0;
     right: 6%;
     min-width: 85px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #F3E7B5;
 }
 .findPw_content form input.find_pw_btn{
     width: 94%;

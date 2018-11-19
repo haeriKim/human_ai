@@ -1,9 +1,3 @@
-.sendReceiveHistory_content .line{
-    width: 100%;
-    height: 1px;
-    background: #666;
-    margin: 20px 0;
-}
 .sendReceiveHistory_content .receiveHistory,
 .sendReceiveHistory_content .sendHistory {
     width: 500px;

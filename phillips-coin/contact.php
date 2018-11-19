@@ -39,7 +39,7 @@
                 감사합니다.</p>
                 <form class="question_form" action="#" method="post">
                     <p>이메일주소</p>
-                    <input type="email" name="email" placeholder="이메일주소" autocomplete="off" class='user_mail'>
+                    <input type="email" name="email" placeholder="이메일주소를 입력해주세요." autocomplete="off" class='user_mail'>
                     <p>제목</p>
                     <input type="text" name="subject" placeholder="제목을 입력해주세요." autocomplete="off">
                     <p>내용</p>
