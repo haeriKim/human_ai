@@ -43,14 +43,14 @@
                   </div>
 
                   <div class="output_text">
-                    <input type="button" name="qrcode" value="QR코드 스캔">
                       <div class="codeArea">
                         <p><img src="img/qr_code.png" alt="qr코드"></p>
-                        <p>0x777kyJeJjHIFdukLyVO69TLDCkn</p>
+                        <p class="adr">0x777kyJeJjHIFdukLyVO69TLDCkn</p>
                       </div>
+                    <input type="button" name="qrcode" value="QR코드 스캔">
                     <input type="button" name="buttton" value="주소복사">
                     <p class="copyright">CRYPOCURRNCY REDANGEL-COIN SINCE 2018</p>
-                    <a href="#" class='go_thealls' target="_blank">디올스 거래소 바로가기</a>
+                    <a href="#" class='go_thealls' target="_blank">디올스(The Alls) 거래소 바로가기</a>
                   </div>
                 </form>
 

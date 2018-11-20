@@ -66,6 +66,7 @@ input, textarea, select {
     display: block;
     text-align: center;
     margin-top: 5px;
+    color: #ed1b23;
 }
 #container .go_thealls:hover{
     color: #999;

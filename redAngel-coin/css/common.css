@@ -124,18 +124,18 @@ h3.title {
 
 /* 표 디자인 */
 .sendReceiveHistory_content table tr{
-  border:1px solid #F3E7B5;
+  border:1px solid #ed1b23;
   height: 30px;
   line-height: 30px;
 }
 .sendReceiveHistory_content table th{
-  background:#F3E7B5;
-  color:#A40000;
+  background:#ed1b23;
+  color:#fff;
   padding:10px;
 }
 .sendReceiveHistory_content table td{
-  border-left:1px solid #F3E7B5;
-  color: #F3E7B5;
+  border-left:1px solid #ed1b23;
+  color: #464350;
 }
 
 /*index*/

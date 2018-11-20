@@ -1,12 +1,11 @@
 .changeInfo_content .my_coin_box{
-    overflow: hidden;
-    font-size: 25px;
-    margin-bottom: 20px;
-    color: #fff;
-    margin-right: 10px;
-    border-radius: 5px;
-    background: #f26065;
-    padding: 10px 0 10px 10px;
+  overflow: hidden;
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #ED1B23;
+  margin-right: 10px;
+  border: 2px solid #ED1B23;
+  padding: 10px 0 10px 10px;
 }
 .changeInfo_content .my_coin_box .my_coin{
   float:left;
@@ -29,7 +28,7 @@
 .changeInfo_content form input.borderNone {
   border: none;
   color: #fff;
-  background: #98969d;
+  background: rgba(0,0,0,.2);
 }
 .changeInfo_content select{
     border:none;
