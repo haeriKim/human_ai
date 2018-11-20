@@ -58,3 +58,6 @@ input, textarea, select {
   outline: none;
   font-family: 'Noto Sans KR', sans-serif;
 }
+option{
+    background-color:#620000;
+}

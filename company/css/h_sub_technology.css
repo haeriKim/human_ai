@@ -413,8 +413,7 @@
     .technology_inner .tech_intro,
     .technology_inner .tech_intro .tech_mission,
     .technology_inner .tech_content_wrap,
-    .technology_inner .tech_content_wrap .tech_content img,
-    .technology_inner .tech_detail{
+    .technology_inner .tech_content_wrap .tech_content img{
         width: 100%;
     }
     .sub{
