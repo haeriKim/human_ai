@@ -11,11 +11,6 @@
     <!-- nav_content -->
     <div class="nav_content">
 
-        <!-- nav_top -->
-        <div class="nav_top">
-            <button type="button" name="LOGOUT"><a href="index.php">로그아웃</a></button>
-        </div><!-- nav_top End-->
-
         <!-- nav_mid -->
         <div class="nav_mid">
             <!-- m_mainmenu -->
@@ -60,5 +55,11 @@
                 </ul>
             </div><!-- menu End-->
         </div><!-- nav_mid End-->
+
+        <!-- nav_bottom -->
+        <div class="nav_bottom">
+            <button type="button" name="LOGOUT"><a href="index.php">로그아웃</a></button>
+        </div><!-- nav_bottom End-->
+
     </div><!-- nav_content End-->
 </div><!-- nav End-->

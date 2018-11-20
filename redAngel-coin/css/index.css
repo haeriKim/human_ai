@@ -20,8 +20,6 @@
 }
 .login_content .login_inner .login_input .user_id,.login_content .login_inner .login_input .user_pass{
     width: 54%;
-    border-radius: 5px;
-    border-bottom: none;
 }
 .login_content .login_inner .login_input .login_box{
     width: 65%;
@@ -31,14 +29,20 @@
 .login_content .login_inner .login_input .login_bt{
     width: 90%;
     margin-bottom: 35px;
-    background-color: #ed1b23;
-    color: #fff;
 }
-.login_content .login_inner .login_input .password_bt{
-  width:45%;
+
+.login_content .login_inner .login_input .password_bt,.login_content .login_inner .login_input .join_bt{
+  width: 45%;
+  background: #fff;
+  border: 2px solid #ed1b23;
+  color: #ed1b23;
 }
 .login_content .login_inner .login_input .join_bt{
   width:43%;
+}
+.login_content .login_inner .login_input .password_bt:hover ,.login_content .login_inner .login_input .join_bt:hover {
+  background-color: #ed1b23;
+  color: #fff;
 }
 .login_content .login_inner .login_input p{
   margin-top:30px;
@@ -66,9 +70,8 @@
     margin-top: 11px;
   }
   .login_content .login_inner .login_input .user_id, .login_content .login_inner .login_input .user_pass{
-      width: 96%;
+      width: 92%;
       margin: 0;
-      border-radius: 5px;
   }
   .login_content .login_inner .login_input .login_box{
     width:102%;
