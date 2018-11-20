@@ -47,7 +47,7 @@ input[type='checkbox'] + label#m_navBtn:before {
 #m_menu-toggle:checked + #m_navBtn span{
     width:90%;
     height:4px;
-    background-color: #990000;
+    background-color: #ed1b23;
 }
 #m_menu-toggle:checked + #m_navBtn span:first-child{
     transform: rotate(-45deg);
@@ -96,7 +96,7 @@ input[type='checkbox'] + label#m_navBtn:before {
   height: 35px;
   line-height: 35px;
   border-radius: 5px;
-  background-color: #990000;
+  background-color: #ed1b23;
   border: none;
 }
 .nav_top button a {
@@ -114,8 +114,8 @@ input[type='checkbox'] + label#m_navBtn:before {
   width:100%;
   margin-top: 20px;
   padding: 15px 0;
-  border-top: 1px solid #990000;
-  border-bottom: 1px solid #990000;
+  border-top: 1px solid #ed1b23;
+  border-bottom: 1px solid #ed1b23;
 }
 .menu ul li{
   width: 100%;

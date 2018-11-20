@@ -1,6 +1,6 @@
 #headerWrap {
   display: block;
-  background-color: #990000;
+  background-color: #ed1b23;
   position: fixed;
   top:0;
   z-index: 10;
@@ -11,12 +11,18 @@
 }
 #headerWrap h1 a {
   display: inline-block;
+  line-height: 90px;
 }
 #headerWrap h1 img {
-  width: 60px;
+  width: 110px;
+  vertical-align: -10px;
 }
 /* mobile ver */
 @media all and (min-width:320px) and (max-width:768px){
+  #headerWrap h1 img {
+    width: 100px;
+    vertical-align: -10px;
+  }
   #headerWrap {
     text-align: center;
     padding-left: 0;

@@ -33,6 +33,8 @@ input[type='text'],input[type='password'],input[type='email'],input[type='number
 }
 input::placeholder{
     color: #fff;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 2px;
 }
 input[type='tell']{
   border: none;
@@ -50,7 +52,7 @@ input[type='button'],input[type='submit']{
   font-size: 16px;
   box-sizing: border-box;
   border: none;
-  background-color: #990000;
+  background-color: #ed1b23;
   cursor: pointer;
   color: #fff;
 }
@@ -88,6 +90,7 @@ select{
 .copyright{
   font-size:12px;
   text-align: center;
+  color: #464350;
 }
 
 /*select 화살표 이미지*/
