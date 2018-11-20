@@ -47,7 +47,7 @@
                         <p>0x777kyJeJjHIFdukLyVO69TLDCkn</p>
                       </div>
                     <input type="button" name="buttton" value="주소복사">
-                    <p class="copyright">CRYPOCURRNCY PHILLIPS-COIN SINCE 2018</p>
+                    <p class="copyright">CRYPTOCURRNCY PHILLIPS-COIN SINCE 2018</p>
                     <a href="#" class='go_thealls' target="_blank">디올스(The Alls) 거래소 바로가기</a>
                   </div>
                 </form>

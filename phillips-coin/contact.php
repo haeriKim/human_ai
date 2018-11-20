@@ -46,7 +46,7 @@
                     <textarea placeholder="내용을 입력해주세요."></textarea>
                     <input type="submit" name="submit" value="문의하기" class='question_btn'>
                 </form>
-                <p class="copyright">CRYPOCURRNCY PHILLIPS-COIN SINCE 2018</p>
+                <p class="copyright">CRYPTOCURRNCY PHILLIPS-COIN SINCE 2018</p>
                 <a href="#" class='go_thealls' target="_blank">디올스(The Alls) 거래소 바로가기</a>
             </div><!-- content End-->
 

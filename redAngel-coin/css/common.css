@@ -21,11 +21,11 @@ input{
   margin-bottom:4px;
 }
 input[type='text'],input[type='password'],input[type='email'],input[type='number'],input[type='tell']{
-  border: 1px solid rgba(0,0,0,.3);
+  border: 1px solid #464350;
   width: 70%;
   padding: 10px;
   font-size: 15px;
-  color:rgba(0,0,0,.5);
+  color:#333;
   margin:5px 0;
   background-color:#fff;
   border-radius: 50px;
@@ -48,30 +48,30 @@ input[type='button']:hover,input[type='submit']:hover{
   background-color: #464350;
 }
 ::-webkit-input-placeholder { /* 크롬 4–56 */
-    color: #ed1b23;
+    color: #464350;
 }
 :-moz-placeholder { /* 파이어폭스 4–18 */
-   color: #ed1b23;
+   color: #464350;
    opacity:  1;
 }
 ::-moz-placeholder { /* 파이어폭스 19–50 */
-   color: #ed1b23;
+   color: #464350;
    opacity:  1;
 }
 :-ms-input-placeholder { /* 인터넷 익스플로러 10+ */
-   color:  #ed1b23;
+   color:  #464350;
 }
 ::placeholder { /* 파이어폭스 51+, 크롬 57+ */
-   color: #ed1b23;
+   color: #464350;
    opacity:  1;
 }
 select{
-  border: 1px solid rgba(0,0,0,.3);
+  border: 1px solid #464350;
   border-radius: 50px;
   width: 63%;
   padding-bottom: 4px;
   font-size: 15px;
-  color:#ed1b23;
+  color:#464350;
   padding: 10px;
   margin-bottom:4px;
   padding-left:5px;
@@ -79,7 +79,7 @@ select{
 .copyright{
   font-size:12px;
   text-align: center;
-  color: #464350;
+  color: #fff;
 }
 
 /*select 화살표 이미지*/
@@ -90,7 +90,7 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: url("../img/down.png") no-repeat 95% center;
+  background: #fff url("../img/down.png") no-repeat 95% center;
   background-size: 7px;
   padding-left: 2px;
   padding-right: 15px;
@@ -112,7 +112,7 @@ h3.title {
     top: -25px;
     height: 65px;
     line-height: 65px;
-    background: rgba(0,0,0,.5);
+    background: #7f7f7f;
 }
 /* h3 밑에 라인 */
 .line {
@@ -124,20 +124,21 @@ h3.title {
 
 /* 표 디자인 */
 .sendReceiveHistory_content table tr{
-  border:1px solid #ed1b23;
+  border:1px solid #fff;
   height: 30px;
   line-height: 30px;
 }
 .sendReceiveHistory_content table th{
-    background: #ed1b23;
+    background: #464350;
     color: #fff;
     padding: 10px;
     width: 30%;
+    border: none;
     min-width: 57px;
 }
 .sendReceiveHistory_content table td{
-  border-left:1px solid #ed1b23;
-  color: #464350;
+  border-left:1px solid #fff;
+  color: #fff;
 }
 
 /*index*/
@@ -148,6 +149,7 @@ h3.title {
     text-align: center;
     margin-top: 5px;
     margin-bottom: 10px;
+    color:#fff;
 }
 #container .go_thealls:hover{
     color: #999;

@@ -48,7 +48,7 @@
                     <input type="submit" name="submit" value="보내기" class='changeInfo_btn'>
                   </div>
                 </form>
-                <p class="copyright">CRYPOCURRNCY PHILLIPS-COIN SINCE 2018</p>
+                <p class="copyright">CRYPTOCURRNCY PHILLIPS-COIN SINCE 2018</p>
                 <a href="#" class='go_thealls' target="_blank">디올스(The Alls) 거래소 바로가기</a>
             </div><!-- content End-->
 

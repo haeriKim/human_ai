@@ -4,30 +4,31 @@
     margin-bottom: 35px;
     font-size: 14px;
     text-align: center;
-    color: #464350;
+    color: #fff;
 }
 .question_content form{
     width: 500px;
     margin: 0 auto;
 }
 .question_content form p {
-  color: #ed1b23;
-  margin-top: 30px;
-  font-weight: 600;
+    color: #fff;
+    margin-top: 30px;
+    text-shadow: 1px 1px 1px #333;
+    font-weight: 600;
 }
 .question_content form input{
     width: 96%;
-    margin: 10px 0;    
+    margin: 10px 0;
 }
 .question_content textarea{
     resize: none;
     width: 95.6%;
     height: 300px;
     margin-top: 20px;
-    border: 1px solid rgba(0,0,0,.3);
+    border: 1px solid #464350;
     padding: 10px;
     font-size: 15px;
-    color: rgba(0,0,0,.5);
+    color: #333;
     margin: 5px 0;
     background-color: #fff;
     border-radius: 15px;

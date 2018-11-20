@@ -23,7 +23,7 @@
 
       <div class="login_content">
         <div class="login_inner">
-        <p><img src="img/logo.png" alt="로고" class="logo"></p>
+        <p class='logo_wrap'><img src="img/logo.png" alt="로고" class="logo"></p>
 
         <div class="login_input">
           <div class="inputArea idArea">
@@ -40,7 +40,7 @@
               <input type="button" name="password_bt" value="비밀번호 찾기" class="password_bt" onclick="location.href='pw_forgot.php'">
               <input type="button" name="join_bt" value="회원가입" class="join_bt" onclick="location.href='signup.php'">
 
-              <p class="copyright">CRYPOCURRNCY REDANGEL-COIN SINCE 2018</p>
+              <p class="copyright">CRYPTOCURRNCY REDANGEL-COIN SINCE 2018</p>
               <a href="#" class='go_thealls' target="_blank">디올스(The Alls) 거래소 바로가기</a>
             </div>
         </div>

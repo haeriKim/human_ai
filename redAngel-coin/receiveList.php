@@ -63,7 +63,7 @@
                      </tr>
                     </table>
                 </div>
-                <p class="copyright" style="margin-top:20px;">CRYPOCURRNCY REDANGEL-COIN SINCE 2018</p>
+                <p class="copyright" style="margin-top:20px;">CRYPTOCURRNCY REDANGEL-COIN SINCE 2018</p>
                 <a href="#" class='go_thealls' target="_blank">디올스(The Alls) 거래소 바로가기</a>
             </div><!-- content End-->
 

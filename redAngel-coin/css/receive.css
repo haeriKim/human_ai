@@ -1,11 +1,12 @@
 .changeInfo_content .my_coin_box{
-  overflow: hidden;
-  font-size: 25px;
-  margin-bottom: 20px;
-  color: #ED1B23;
-  margin-right: 10px;
-  border: 2px solid #ED1B23;
-  padding: 10px 0 10px 10px;
+    overflow: hidden;
+    font-size: 25px;
+    margin-bottom: 20px;
+    background: #fff;
+    color: #464350;
+    margin-right: 10px;
+    border: 2px solid #464350;
+    padding: 10px 0 10px 10px;
 }
 .changeInfo_content .my_coin_box .my_coin{
   float:left;
@@ -36,15 +37,15 @@
 .changeInfo_content .output_text p{
   text-align: center;
   margin-top:20px;
-  color: #464350;
+  color: #fff;
 }
 .changeInfo_content .output_text .adr {
-  background-color: rgba(0,0,0,.2);
-  color: #ED1B23;
-  width: 70%;
-  margin: 30px auto;
-  padding: 7px 0;
-  border-radius: 20px;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    width: 70%;
+    margin: 30px auto;
+    padding: 7px 0;
+    border-radius: 20px;
 }
 .changeInfo_content select{
     border:none;

@@ -25,8 +25,16 @@
     height: 40px;
     margin-left: 10px;
     margin-top: 5px;
-    line-height: 40px;
-    background-color: #ed1b23;
+    line-height: 36px;
+    background-color: #fff;
+    border: 2px solid #ed1b23;
+    color: #ed1b23;
+}
+.join_box .join_inner .request_number_bt:hover{
+    box-sizing: border-box;
+    border: none;
+    color: #fff;
+    background: #ed1b23;
 }
 .join_box .join_inner .user_id{
   width:70%;

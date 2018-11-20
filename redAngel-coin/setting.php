@@ -68,7 +68,7 @@
               <div class="btnArea">
                 <input type="submit" name="submit" value="회원정보수정" class='changeInfo_btn'>
               </div>
-              <p class="copyright">CRYPOCURRNCY REDANGEL-COIN SINCE 2018</p>
+              <p class="copyright">CRYPTOCURRNCY REDANGEL-COIN SINCE 2018</p>
               <a href="#" class='go_thealls' target="_blank">디올스(The Alls) 거래소 바로가기</a>
 
             </div><!-- content End-->

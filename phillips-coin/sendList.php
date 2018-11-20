@@ -60,7 +60,7 @@
                      </tr>
                     </table>
                 </div>
-                <p class="copyright" style="margin-top:20px;">CRYPOCURRNCY PHILLIPS-COIN SINCE 2018</p>
+                <p class="copyright" style="margin-top:20px;">CRYPTOCURRNCY PHILLIPS-COIN SINCE 2018</p>
             </div><!-- content End-->
 
         </div><!-- container End -->
