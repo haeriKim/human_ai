@@ -120,7 +120,7 @@ input[type='checkbox'] + label#m_navBtn:before {
 }
 .menu ul li img {
   vertical-align: middle;
-  width: 38px;
+  width: 45px;
 }
 .menu ul li span{
   color: #ed1b23;
@@ -139,9 +139,11 @@ input[type='checkbox'] + label#m_navBtn:before {
   width: 100px;
   height: 35px;
   line-height: 35px;
-  border-radius: 5px;
   background-color: #ed1b23;
   border: none;
+}
+.nav_bottom button:hover {
+  background-color: #464350;
 }
 .nav_bottom button a {
   color: #fff;

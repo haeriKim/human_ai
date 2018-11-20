@@ -11,12 +11,13 @@
     margin: 0 auto;
 }
 .question_content form p {
-  color: #464350;
+  color: #ed1b23;
   margin-top: 30px;
+  font-weight: 600;
 }
 .question_content form input{
     width: 96%;
-    margin: 10px 0;
+    margin: 10px 0;    
 }
 .question_content textarea{
     resize: none;

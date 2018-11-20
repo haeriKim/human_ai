@@ -1,3 +1,7 @@
+.changeInfo_content .changePn, .changeInfo_content .changePw {
+  width: 50%;
+  float: left;
+}
 .changeInfo_content form{
     width: 500px;
     margin: 0 auto;
@@ -5,9 +9,6 @@
 .changeInfo_content form input{
     width: 90%;
     margin: 10px 0;
-}
-.changeInfo_content .second_title{
-    margin-top: 50px;
 }
 .changeInfo_content select{
     border:none;
@@ -36,14 +37,24 @@
     line-height: 40px;
     background-color: #ed1b23;
 }
-.changeInfo_content form input.changeInfo_btn{
-    width: 94%;
+.changeInfo_content .btnArea {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.changeInfo_content .btnArea input.changeInfo_btn{
+  margin: 50px 0 20px 0;
+  width: 20%;
 }
 #full,
 #shadow{
     display: none;
 }
 @media all and (min-width:320px) and (max-width:768px){
+  .changeInfo_content .changePn, .changeInfo_content .changePw  {
+    width: 100%;
+    float: none;
+  }
     #container .changeInfo_content form input.code_send{
         font-size: 13px;
         width: 23%;
@@ -51,6 +62,13 @@
     }
     #container .changeInfo_content form input.user_phone{
         width: 64%;
+    }
+    h3.second_title {
+      margin-top: 50px;
+    }
+    .changeInfo_content .btnArea input.changeInfo_btn {
+      width: 45%;
+      margin: 20px 0 30px;
     }
      @media (min-width:768px){
         #wrap #container .changeInfo_content form input.user_phone{

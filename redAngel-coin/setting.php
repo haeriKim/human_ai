@@ -35,6 +35,7 @@
 
             <!-- content -->
             <div class="content changeInfo_content">
+              <div class="changePw">
                 <div class='title_wrap'>
                     <h3 class='title'>비밀번호 변경</h3>
                 </div>
@@ -42,7 +43,10 @@
                 <form class="change_pw_form" action="#" method="post">
                     <input type="password" name="password" placeholder="현재 비밀번호" autocomplete="off" class='password user_pass'>
                     <input type="password" name="new_password" placeholder="새로운 비밀번호" autocomplete="off" class='new_password user_pass'>
+                    <input type="password" name="new_password_confirm" placeholder="새로운 비밀번호 확인" autocomplete="off" class='new_password_confirm user_pass'>
                 </form>
+              </div>
+              <div class="changePn">
                 <div class='title_wrap'>
                     <h3 class='title second_title'>휴대폰번호 변경</h3>
                 </div>
@@ -59,10 +63,13 @@
                         <input type="button" name="code_send" value="인증받기" class='code_send'>
                     </div>
                     <input type="text" name="code" placeholder="인증번호" autocomplete="off" class='code'>
-                    <input type="submit" name="submit" value="회원정보수정" class='changeInfo_btn'>
                 </form>
-                    <p class="copyright">CRYPOCURRNCY REDANGEL-COIN SINCE 2018</p>
-                    <a href="#" class='go_thealls' target="_blank">디올스(The Alls) 거래소 바로가기</a>
+              </div>
+              <div class="btnArea">
+                <input type="submit" name="submit" value="회원정보수정" class='changeInfo_btn'>
+              </div>
+              <p class="copyright">CRYPOCURRNCY REDANGEL-COIN SINCE 2018</p>
+              <a href="#" class='go_thealls' target="_blank">디올스(The Alls) 거래소 바로가기</a>
 
             </div><!-- content End-->
 
