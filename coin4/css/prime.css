@@ -1,28 +1,33 @@
 /*prime css*/
 
 .prime_area .prime_inner{
-  padding:20px 25px;
+  width:1000px;
+  padding:3% 45px;
   overflow:hidden;
+  text-align: center;
+  display:inline-block;
 }
-
+.prime_area h2{
+  font-size:25px;
+  text-align: left;
+  margin-bottom:20px;
+}
 .prime_area .prime_inner .theallsprime_img img{
   text-align: center;
   margin: 0 auto;
   display:block;
-  padding-top:50px;
-  width:800px;
+  width:1000px;
 }
 .prime_area .prime_inner .theallsprime_icon img{
-  width:800px;
-  height:200px;
-  text-align: center;
+  width:600px;
+  height:160px;
+  text-align: left;
   margin: 0 auto;
-  display: block;
 }
 .prime_area .prime_inner .theallsprime_icon p{
   font-size:18px;
   font-weight:600;
   margin:20px 0;
   color:#1b2f4a;
-  text-align: center;
+  text-align: left;
 }

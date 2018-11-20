@@ -1,0 +1,32 @@
+/*prime css*/
+
+.greetings_area .greetings_inner{
+  padding:3% 45px;
+  margin-bottom:0;
+  overflow:hidden;
+}
+.greetings_area .greetings_inner h2{
+  font-size:25px;
+  text-align: left;
+  margin-bottom:20px;
+}
+.greetings_area .greetings_story{
+  text-align: center;
+  display: inline-block;
+}
+.greetings_inner .greetings_story .greetings_img{
+  width:905px;
+  height:300px;
+}
+.greetings_inner .greetings_story .greetings_sign{
+  width:220;
+  height:130px;
+}
+.greetings_inner .greetings_story .right_sign{
+  text-align: right;
+}
+.greetings_inner .greetings_text{
+
+  width:905px;
+  text-align:left;
+}

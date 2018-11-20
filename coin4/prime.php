@@ -45,30 +45,23 @@
           <!-- m_header End-->
 
 
-          <!-- header_wrap -->
-          <?php include "header.php";?>
-          <!-- header_wrap End-->
-
             <!-- content_wrap -->
             <div class="content_wrap">
                 <!-- main_content -->
-                <div class="content notice_content con_1000" id="content">
+                <div class="con_top" id="content">
 
                   <div class="box prime_area">
-                    <h3 class="title">The Alls Prime</h3>
+
                       <div class="prime_inner">
+                        <h2>The Alls Prime</h2>
 
                         <div class="theallsprime_img">
-                          <p><img src="img/theallsprime.png" alt="디올스프라임이미지"></p>
+                          <p><img src="img/prime_main.png" alt="거래소프라임메인"></p>
                         </div>
 
                         <div class="theallsprime_icon">
                           <p>암호화폐, 블록체인, 핀테크 기술로 디지털 금융 혁신을 주도하는 디올스의 가치관은 이렇게 생각합니다.</p>
-                          <p><img src="img/trust.png" alt="프라임아이콘1"></p>
-                          <p><img src="img/life.png" alt="프라임아이콘2"></p>
-                          <p><img src="img/lnitial.png" alt="프라임아이콘3"></p>
-                          <p><img src="img/think.png" alt="프라임아이콘4"></p>
-                          <p><img src="img/development.png" alt="프라임아이콘5"></p>
+
                         </div>
 
                       </div>
