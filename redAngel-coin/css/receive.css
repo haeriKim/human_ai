@@ -2,10 +2,8 @@
     overflow: hidden;
     font-size: 25px;
     margin-bottom: 20px;
-    background: #fff;
-    color: #464350;
+    color: #fff;
     margin-right: 10px;
-    border: 2px solid #464350;
     padding: 10px 0 10px 10px;
 }
 .changeInfo_content .my_coin_box .my_coin{
@@ -27,7 +25,6 @@
     margin: 10px 0;
 }
 .changeInfo_content .output_text .codeArea {
-  background-color: rgba(255,255,255,.2);
   padding: 10px 0;
   width: 98%;
 }

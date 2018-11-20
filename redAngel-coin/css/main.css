@@ -21,7 +21,7 @@
     text-align: center;
     margin-top: 30px;
     padding-top: 168px;
-    border: 3px solid #464350;
+    border: 3px solid #fff;
     margin-right: 8px;
     height: 230px;
     border-radius: 150px;
@@ -48,7 +48,7 @@
 .main_content .main_menu ul li:hover{
     cursor: pointer;
     /* opacity: .5; */
-    border: 5px solid #ed1b23;
+    border: 5px solid #464350;
 }
 .main_content .main_menu ul li p{
     font-size: 18px;

@@ -21,7 +21,7 @@ input{
   margin-bottom:4px;
 }
 input[type='text'],input[type='password'],input[type='email'],input[type='number'],input[type='tell']{
-  border: 1px solid #464350;
+  border: none;
   width: 70%;
   padding: 10px;
   font-size: 15px;
@@ -40,7 +40,7 @@ input[type='button'],input[type='submit']{
   font-size: 16px;
   box-sizing: border-box;
   border: none;
-  background-color: #ed1b23;
+  background-color: #999;
   cursor: pointer;
   color: #fff;
 }
@@ -48,30 +48,30 @@ input[type='button']:hover,input[type='submit']:hover{
   background-color: #464350;
 }
 ::-webkit-input-placeholder { /* 크롬 4–56 */
-    color: #464350;
+    color: #BB0000;
 }
 :-moz-placeholder { /* 파이어폭스 4–18 */
-   color: #464350;
+   color: #BB0000;
    opacity:  1;
 }
 ::-moz-placeholder { /* 파이어폭스 19–50 */
-   color: #464350;
+   color: #BB0000;
    opacity:  1;
 }
 :-ms-input-placeholder { /* 인터넷 익스플로러 10+ */
-   color:  #464350;
+   color:  #BB0000;
 }
 ::placeholder { /* 파이어폭스 51+, 크롬 57+ */
-   color: #464350;
+   color: #BB0000;
    opacity:  1;
 }
 select{
-  border: 1px solid #464350;
+  border: none;
   border-radius: 50px;
   width: 63%;
   padding-bottom: 4px;
   font-size: 15px;
-  color:#464350;
+  color:#bb0000;
   padding: 10px;
   margin-bottom:4px;
   padding-left:5px;
@@ -102,7 +102,7 @@ select {
 h3.title {
     text-align: left;
     font-size: 25px;
-    color: #fff;
+    color: #bb0000;
     width: 500px;
     margin: 0 auto;
 }
@@ -112,7 +112,7 @@ h3.title {
     top: -25px;
     height: 65px;
     line-height: 65px;
-    background: #7f7f7f;
+    background: #fff;
 }
 /* h3 밑에 라인 */
 .line {
@@ -129,8 +129,8 @@ h3.title {
   line-height: 30px;
 }
 .sendReceiveHistory_content table th{
-    background: #464350;
-    color: #fff;
+    background: #fff;
+    color: #bb0000;
     padding: 10px;
     width: 30%;
     border: none;

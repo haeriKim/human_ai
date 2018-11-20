@@ -138,10 +138,6 @@
             <?php include "footer.php";?>
             <!-- footer_wrap End-->
 
-            <!--sub_menu-->
-            <?php include "sub_menu.php";?>
-            <!--sub_menu End-->
-
         </div><!-- container End -->
     </div><!-- wrap End -->
 

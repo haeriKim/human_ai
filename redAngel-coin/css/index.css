@@ -44,14 +44,14 @@
 .login_content .login_inner .login_input .password_bt,.login_content .login_inner .login_input .join_bt{
   width: 45%;
   background: #fff;
-  border: 2px solid #ed1b23;
-  color: #ed1b23;
+  border: 2px solid #999;
+  color: #999;
 }
 .login_content .login_inner .login_input .join_bt{
   width:43%;
 }
 .login_content .login_inner .login_input .password_bt:hover ,.login_content .login_inner .login_input .join_bt:hover {
-  background-color: #ed1b23;
+  background-color: #999;
   color: #fff;
 }
 .login_content .login_inner .login_input p{
