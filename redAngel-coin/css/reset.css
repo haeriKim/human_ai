@@ -58,3 +58,15 @@ input, textarea, select {
   outline: none;
   font-family: 'Noto Sans KR', sans-serif;
 }
+
+/*index*/
+#container .go_thealls{
+    font-size: 12px;
+    text-decoration: underline;
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+}
+#container .go_thealls:hover{
+    color: #999;
+}

@@ -54,6 +54,7 @@
                     <input type="submit" name="submit" value="비밀번호 찾기" class='find_pw_btn'>
                 </form>
                 <p class="copyright">CRYPOCURRNCY REDANGEL-COIN SINCE 2018</p>
+                <a href="#" class='go_thealls' target="_blank">디올스 거래소 바로가기</a>
             </div><!-- content End-->
 
         </div><!-- container End -->

@@ -58,6 +58,8 @@
                     <input type="submit" name="submit" value="회원정보수정" class='changeInfo_btn'>
                 </form>
                     <p class="copyright">CRYPOCURRNCY REDANGEL-COIN SINCE 2018</p>
+                    <a href="#" class='go_thealls' target="_blank">디올스 거래소 바로가기</a>
+
             </div><!-- content End-->
 
         </div><!-- container End -->

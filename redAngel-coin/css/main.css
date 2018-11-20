@@ -21,41 +21,43 @@
     text-align: center;
     margin-top: 30px;
     padding-top: 168px;
-    border: 3px solid #FFE106;
+    border: 3px solid #464350;
     margin-right: 8px;
-    height: 220px;
+    height: 230px;
+    border-radius: 150px;
     box-sizing: border-box;
 }
 .main_content .main_menu ul li.send_li{
-    background: url(../img/180_icon_send_y.png) no-repeat center 20px / 61%;
+    background: url(../img/180_icon_send2.png) no-repeat center 33px / 61%;
 }
 .main_content .main_menu ul li.receive_li{
-    background: url(../img/180_icon_recive_y.png) no-repeat center 20px / 61%;
+    background: url(../img/180_icon_recive.png) no-repeat center 26px / 61%;
 }
 .main_content .main_menu ul li.sendList_li{
-    background: url(../img/180_icon_sendList_y.png) no-repeat center 20px / 61%;
+    background: url(../img/180_icon_sendList.png) no-repeat 55% 26px / 61%;
 }
 .main_content .main_menu ul li.receiveList_li{
-    background: url(../img/180_icon_reciveList_y.png) no-repeat center 20px / 61%;
+    background: url(../img/180_icon_reciveList.png) no-repeat 55% 26px / 61%;
 }
 .main_content .main_menu ul li.setting_li{
-    background: url(../img/180_icon_setting_y.png) no-repeat center 20px / 61%;
+    background: url(../img/180_icon_setting.png) no-repeat center 26px / 61%;
 }
 .main_content .main_menu ul li.contact_li{
-    background: url(../img/180_icon_contact_y.png) no-repeat center 20px / 61%;
+    background: url(../img/180_icon_contact.png) no-repeat center 22px / 61%;
 }
 .main_content .main_menu ul li:hover{
     cursor: pointer;
-    opacity: .5;
+    /* opacity: .5; */
+    border: 3px solid #ed1b23;
 }
 .main_content .main_menu ul li p{
     font-size: 18px;
     margin-top: 5px;
     font-weight: 600;
-    color: #FFE106;
+    color: #464350;
 }
 .main_content .main_menu ul li:hover p{
-    color:#FFE106;
+    color:#ed1b23;
 }
 
 @media (max-width:768px) {
@@ -64,7 +66,7 @@
     padding: 0 15px;
     box-sizing: border-box;
   }
-  .main_content .main_menu ul li {
+  #container .main_content .main_menu ul li {
     margin-right: 7px;
   }
   .main_content .main_menu ul li p {

@@ -64,6 +64,7 @@
           <div class="join_text">
             <input type="submit" name="join_bt" value="회원가입">
             <p class="copyright">CRYPOCURRNCY PILIPS COIN SINCE 2018</p>
+            <a href="#" class='go_thealls' target="_blank">디올스 거래소 바로가기</a>
           </div>
         </form>
         </div>

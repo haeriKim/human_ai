@@ -41,6 +41,7 @@
               <input type="button" name="join_bt" value="회원가입" class="join_bt" onclick="location.href='signup.php'">
 
               <p class="copyright">CRYPOCURRNCY REDANGEL-COIN SINCE 2018</p>
+              <a href="#" class='go_thealls' target="_blank">디올스 거래소 바로가기</a>
             </div>
         </div>
 
