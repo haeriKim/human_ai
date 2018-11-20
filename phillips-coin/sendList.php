@@ -52,7 +52,7 @@
                      </tr>
                      <tr>
                        <th>수량</th>
-                       <td>100000 IPC</td>
+                       <td>100000 PHS</td>
                      </tr>
                      <tr>
                        <th>날짜</th>

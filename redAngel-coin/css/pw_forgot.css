@@ -7,8 +7,10 @@
     margin: 10px 0;
 }
 .findPw_content select.country_select{
-    width: 94%;
+    width: 94.4%;
     margin: 10px 0;
+    padding: 10px;
+    padding-left: 0;
 }
 .findPw_content form div.phone_wrap{
     overflow: hidden;
@@ -34,10 +36,21 @@
 }
 
 @media (min-width:320px) and (max-width:768px){
+    #container .findPw_content select.country_select{
+        width: 97%;
+        max-width: 574.94px;
+    }
+    @media (max-width:320px){
+        #container .findPw_content select.country_select{
+            width: 252.39px;
+        }
+    }
     #container .findPw_content form input.user_phone{
-
+        width: 66%;
     }
     #container .findPw_content form input.code_send{
-
+        font-size: 13px;
+        width: 23%;
+        margin-left: 1%;
     }
 }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content=" width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
-    <title>REDANGEL-coin</title>
+    <title>RedAngel-coin</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
@@ -39,7 +39,7 @@
                 <!-- <div class="line"></div> -->
                 <form class="change_pw_form" action="#" method="post">
                   <div class="my_coin_box">
-                    <span class="my_coin">내잔고</span><span class='my_coin_number'>0 PHS</span>
+                    <span class="my_coin">내잔고</span><span class='my_coin_number'>0 RAC</span>
                   </div>
                   <input type='number' name="number" value="" placeholder="수량" required maxlength="100" minlength="1"  class='input_number' autocomplete="off"/>
                   <input type='text' name="limit_number" value="" placeholder="0.02" class="input_limit borderNone" disabled="disabled">

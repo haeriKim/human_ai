@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content=" width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
-<title>REDANGEL-coin</title>
+<title>RedAngel-coin</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/common.css">
@@ -41,7 +41,7 @@
               <input type="button" name="join_bt" value="회원가입" class="join_bt" onclick="location.href='signup.php'">
 
               <p class="copyright">CRYPOCURRNCY REDANGEL-COIN SINCE 2018</p>
-              <a href="#" class='go_thealls' target="_blank">디올스 거래소 바로가기</a>
+              <a href="#" class='go_thealls' target="_blank">디올스(The Alls) 거래소 바로가기</a>
             </div>
         </div>
 

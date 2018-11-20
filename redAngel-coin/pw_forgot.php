@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content=" width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
-    <title>REDANGEL-coin</title>
+    <title>RedAngel-coin</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
@@ -35,8 +35,10 @@
             <!-- header End-->
 
             <div class="content findPw_content">
-                <h3 class='title'>비밀번호 찾기</h3>
-                <div class="line"></div>
+                <div class='title_wrap'>
+                    <h3 class='title'>비밀번호 찾기</h3>
+                </div>
+                <!-- <div class="line"></div> -->
                 <form class="find_pw_form" action="#" method="post">
                     <input type="text" name="id" placeholder="회원아이디" autocomplete="off" class='id user_id'>
                     <select class="country_select" name="국가">
@@ -54,7 +56,7 @@
                     <input type="submit" name="submit" value="비밀번호 찾기" class='find_pw_btn'>
                 </form>
                 <p class="copyright">CRYPOCURRNCY REDANGEL-COIN SINCE 2018</p>
-                <a href="#" class='go_thealls' target="_blank">디올스 거래소 바로가기</a>
+                <a href="#" class='go_thealls' target="_blank">디올스(The Alls) 거래소 바로가기</a>
             </div><!-- content End-->
 
         </div><!-- container End -->

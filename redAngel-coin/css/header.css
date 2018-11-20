@@ -24,7 +24,8 @@
     vertical-align: -10px;
   }
   #headerWrap {
-    text-align: center;
-    padding-left: 0;
+      text-align: center;
+      padding-left: 0;
+      padding: 10px 0;
   }
 }

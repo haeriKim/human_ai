@@ -134,6 +134,15 @@ h3.title {
   color: #F3E7B5;
 }
 
+#container .go_thealls{
+    color: #fff;
+    font-size: 12px;
+    text-decoration: underline;
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
 
 /*반응형*/
 @media (max-width:768px) {

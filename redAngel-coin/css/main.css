@@ -28,7 +28,7 @@
     box-sizing: border-box;
 }
 .main_content .main_menu ul li.send_li{
-    background: url(../img/180_icon_send2.png) no-repeat center 33px / 61%;
+    background: url(../img/180_icon_send.png) no-repeat center 33px / 61%;
 }
 .main_content .main_menu ul li.receive_li{
     background: url(../img/180_icon_recive.png) no-repeat center 26px / 61%;
@@ -67,9 +67,29 @@
     box-sizing: border-box;
   }
   #container .main_content .main_menu ul li {
-    margin-right: 7px;
-  }
+      margin-right: 7px;
+      background-size: 55%;
+      border-radius: 60%;
+      padding-top: 30%;
+      background-position-y: 27%;
+      height: 150px;
+    }
   .main_content .main_menu ul li p {
     font-size: 16px;
+  }
+  /*아이폰 5*/
+  @media (max-width:320px) {
+    #wrap #container .main_content .main_menu ul li {
+        height: 123px;
+    }
+  }
+  @media (min-width:768px) and (max-width:768px) {
+      #container .main_content .main_menu ul li {
+        height: 270px;
+      }
+      #container .main_content .main_menu ul li p{
+          font-size: 20px;
+          margin-top: 25px;
+      }
   }
 }

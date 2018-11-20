@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content=" width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
-    <title>REDANGEL-coin</title>
+    <title>RedAngel-coin</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
@@ -35,14 +35,18 @@
 
             <!-- content -->
             <div class="content changeInfo_content">
-                <h3 class='title'>비밀번호 변경</h3>
-                <div class="line"></div>
+                <div class='title_wrap'>
+                    <h3 class='title'>비밀번호 변경</h3>
+                </div>
+                <!-- <div class="line"></div> -->
                 <form class="change_pw_form" action="#" method="post">
                     <input type="password" name="password" placeholder="현재 비밀번호" autocomplete="off" class='password user_pass'>
                     <input type="password" name="new_password" placeholder="새로운 비밀번호" autocomplete="off" class='new_password user_pass'>
                 </form>
-                <h3 class='title second_title'>휴대폰번호 변경</h3>
-                <div class="line"></div>
+                <div class='title_wrap'>
+                    <h3 class='title second_title'>휴대폰번호 변경</h3>
+                </div>
+                <!-- <div class="line"></div> -->
                 <form class="change_phone_form" action="#" method="post">
                     <select class="country_select" name="국가">
                         <option value="국가" disabled selected="selected">국가</option>
@@ -58,7 +62,7 @@
                     <input type="submit" name="submit" value="회원정보수정" class='changeInfo_btn'>
                 </form>
                     <p class="copyright">CRYPOCURRNCY REDANGEL-COIN SINCE 2018</p>
-                    <a href="#" class='go_thealls' target="_blank">디올스 거래소 바로가기</a>
+                    <a href="#" class='go_thealls' target="_blank">디올스(The Alls) 거래소 바로가기</a>
 
             </div><!-- content End-->
 

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content=" width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
-    <title>REDANGEL-coin</title>
+    <title>RedAngel-coin</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
@@ -33,8 +33,10 @@
 
             <!-- content -->
             <div class="content sendReceiveHistory_content">
-                <h3 class='title'>보낸내역</h3>
-                <div class="line"></div>
+                <div class='title_wrap'>
+                    <h3 class='title'>보낸내역</h3>
+                </div>
+                <!-- <div class="line"></div> -->
                 <div class="sendHistory">
                     <!--<p class='no_data'>보낸 내역이 없습니다.</p>-->
                     <table>
@@ -52,7 +54,7 @@
                      </tr>
                      <tr>
                        <th>수량</th>
-                       <td>100000 IPC</td>
+                       <td>100000 RAC</td>
                      </tr>
                      <tr>
                        <th>날짜</th>

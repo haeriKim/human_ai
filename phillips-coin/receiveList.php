@@ -53,7 +53,7 @@
                      </tr>
                      <tr>
                        <th>수량</th>
-                       <td>100000 IPC</td>
+                       <td>100000 PHS</td>
                      </tr>
                      <tr>
                        <th>날짜</th>
@@ -62,6 +62,7 @@
                     </table>
                 </div>
                 <p class="copyright" style="margin-top:20px;">CRYPOCURRNCY PHILLIPS-COIN SINCE 2018</p>
+                <a href="#" class='go_thealls' target="_blank">디올스(The Alls) 거래소 바로가기</a>
             </div><!-- content End-->
 
         </div><!-- container End -->

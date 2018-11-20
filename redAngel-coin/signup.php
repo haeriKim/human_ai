@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content=" width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
-    <title>REDANGEL-coin</title>
+    <title>RedAngel-coin</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
@@ -33,8 +33,10 @@
     <!-- header End-->
 
     <div class="content join_content">
-      <h3 class='title'>회원가입</h3>
-      <div class="line"></div>
+        <div class='title_wrap'>
+            <h3 class='title'>회원가입</h3>
+        </div>
+      <!-- <div class="line"></div> -->
       <div class="join_box">
         <div class="join_inner">
           <form class="" action="#" method="post">
@@ -64,7 +66,7 @@
           <div class="join_text">
             <input type="submit" name="join_bt" value="회원가입">
             <p class="copyright">CRYPOCURRNCY PILIPS COIN SINCE 2018</p>
-            <a href="#" class='go_thealls' target="_blank">디올스 거래소 바로가기</a>
+            <a href="#" class='go_thealls' target="_blank">디올스(The Alls) 거래소 바로가기</a>
           </div>
         </form>
         </div>

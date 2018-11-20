@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content=" width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
-    <title>REDANGEL-coin</title>
+    <title>RedAngel-coin</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
@@ -36,7 +36,7 @@
                 <div class="title_wrap">
                     <h3 class='title'>
                         내잔고
-                        <span class='have_coin'>0 PHS</span>
+                        <span class='have_coin'>0 RAC</span>
                     </h3>
                     <!-- <div class="line"></div> -->
                 </div>
@@ -67,7 +67,7 @@
                     </ul>
                 </div>
                 <p class="copyright">CRYPOCURRNCY REDANGEL-COIN SINCE 2018</p>
-                <a href="#" class='go_thealls' target="_blank">디올스 거래소 바로가기</a>
+                <a href="#" class='go_thealls' target="_blank">디올스(The Alls) 거래소 바로가기</a>
             </div><!-- content End-->
 
         </div><!-- container End -->

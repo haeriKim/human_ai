@@ -129,9 +129,11 @@ h3.title {
   line-height: 30px;
 }
 .sendReceiveHistory_content table th{
-  background:#ed1b23;
-  color:#fff;
-  padding:10px;
+    background: #ed1b23;
+    color: #fff;
+    padding: 10px;
+    width: 30%;
+    min-width: 57px;
 }
 .sendReceiveHistory_content table td{
   border-left:1px solid #ed1b23;
