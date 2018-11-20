@@ -31,7 +31,7 @@
 .login_content .login_inner .login_input .login_bt{
     width: 90%;
     margin-bottom: 35px;
-    background-color: #990000;
+    background-color: #ed1b23;
     color: #fff;
 }
 .login_content .login_inner .login_input .password_bt{
@@ -71,7 +71,7 @@
       border-radius: 5px;
   }
   .login_content .login_inner .login_input .login_box{
-    width:100%;
+    width:102%;
   }
   .login_content .login_inner .login_input .login_bt{
     width:100%;

@@ -28,8 +28,8 @@
 }
 .changeInfo_content form input.borderNone {
   border: none;
-  background-color: rgba(255,255,255,.2);
   color: #fff;
+  background: #98969d;
 }
 .changeInfo_content select{
     border:none;
@@ -62,5 +62,6 @@
 @media all and (min-width:320px) and (max-width:768px){
   .changeInfo_content .my_coin_box {
     font-size: 18px;
+    width: 97%;
   }
 }

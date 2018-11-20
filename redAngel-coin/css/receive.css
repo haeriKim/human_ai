@@ -66,8 +66,9 @@
 
 /* mobile ver */
 @media all and (min-width:320px) and (max-width:768px){
-  .changeInfo_content .my_coin_box {
+  #wrap .changeInfo_content .my_coin_box {
     font-size: 18px;
+    margin-right: 6px;
   }
   .changeInfo_content .output_text .codeArea img {
     width: 130px;
