@@ -1,33 +1,79 @@
 /*prime css*/
-
+.prime_area{
+  padding-bottom:100px;
+}
 .prime_area .prime_inner{
-  width:1000px;
-  padding:3% 45px;
   overflow:hidden;
   text-align: center;
   display:inline-block;
 }
-.prime_area h2{
-  font-size:25px;
-  text-align: left;
-  margin-bottom:20px;
-}
+
 .prime_area .prime_inner .theallsprime_img img{
   text-align: center;
   margin: 0 auto;
   display:block;
-  width:1000px;
+  width:100%;
+  height:100%;
+}
+/*icon1*/
+.prime_area .prime_inner .theallsprime_icon{
+  margin-top:0;
+  overflow:hidden;
+  padding:80px 50px 50px 50px;
+  display:inline-block;
+}
+.prime_area .prime_inner .theallsprime_icon .prime_text{
+  font-size:18px;
+  font-weight:500;
+  margin:20px 0;
+  color:#1b2f4a;
+  text-align: center;
+  padding:50px 50px 50px 0;
+  width:600px;
+  float:left;
+}
+.prime_area .prime_inner .theallsprime_icon .theallsprime_icon_img{
+  float:left;
 }
 .prime_area .prime_inner .theallsprime_icon img{
-  width:600px;
-  height:160px;
+  width:200px;
+  height:200px;
   text-align: left;
   margin: 0 auto;
 }
-.prime_area .prime_inner .theallsprime_icon p{
+.prime_area .prime_inner .theallsprime_icon p b{
+  font-size:25px;
+}
+
+/*icon2*/
+.prime_area .prime_inner .theallsprime_icon2{
+  margin-top:0;
+  text-align: center;
+  padding:80px 50px 50px 50px;
+  display:inline-block;
+}
+.prime_area .prime_inner .theallsprime_icon2 .prime_text{
   font-size:18px;
-  font-weight:600;
+  font-weight:500;
   margin:20px 0;
   color:#1b2f4a;
+  text-align: center;
+  padding:80px 50px 50px 0;
+  width:600px;
+  display:inline-block;
+}
+.prime_area .prime_inner .theallsprime_icon2 .theallsprime_icon_img{
+
+}
+.prime_area .prime_inner .theallsprime_icon2 img{
+  width:200px;
+  height:200px;
   text-align: left;
+  margin: 0 auto;
+}
+.prime_area .prime_inner .theallsprime_icon2 p b{
+  font-size:25px;
+}
+.prime_area .prime_inner .theallsprime_icon2 .left_text{
+
 }

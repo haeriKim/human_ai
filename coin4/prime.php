@@ -32,10 +32,6 @@
         <!-- container -->
         <div id="container">
 
-          <!-- nav_wrap -->
-          <?php include "nav.php";?>
-                    <!-- nav_wrap End-->
-
           <!-- m_nav-->
           <?php include "m_nav.php";?>
           <!-- m_nav End-->
@@ -46,25 +42,49 @@
 
 
             <!-- content_wrap -->
-            <div class="content_wrap">
+            <div class="content_wrap2">
                 <!-- main_content -->
                 <div class="con_top" id="content">
 
                   <div class="box prime_area">
 
                       <div class="prime_inner">
-                        <h2>The Alls Prime</h2>
 
-                        <div class="theallsprime_img">
-                          <p><img src="img/prime_main.png" alt="거래소프라임메인"></p>
-                        </div>
+                              <div class="theallsprime_img">
+                                <p><img src="img/prime_main2.png" alt="거래소프라임메인"></p>
+                              </div>
 
-                        <div class="theallsprime_icon">
-                          <p>암호화폐, 블록체인, 핀테크 기술로 디지털 금융 혁신을 주도하는 디올스의 가치관은 이렇게 생각합니다.</p>
+                              <div class="theallsprime_icon">
+                                <p class="prime_text"><span>암호화폐, 블록체인, 핀테크 기술로 디지털 금융 혁신</span>을 주도하는<br/> <b>'디올스의 가치관'</b>은 이렇게 생각합니다.</p>
 
-                        </div>
+                                  <div class="theallsprime_icon_img">
+                                    <img src="img/prime_idea.png" alt="프라임이미지">
+                                  </div>
+                              </div>
+
+                              <div class="theallsprime_number">
+                                <p><img src="img/prime.png" alt="프라임"></p>
+
+                              </div>
+
+                              <div class="theallsprime_icon2">
+                                <p class="prime_text"><b>'디올스 국제 거래소'</b>는 기축통화가 될 수 있도록 만들었다!!!</p>
+
+                                  <div class="theallsprime_icon_img">
+                                    <p><img src="img/prime_ex2.png" alt="프라임이미지"></p>
+                                    <p class="left_text"><strong>타 거래소</strong></p><br/>
+                                    <p>코인제조 → 코인판매 → 상장으로 마무리(전세계 모든 거래소) 특히 보안에 취약함</p>
+
+                                    <p><img src="img/prime_ex1.png" alt="프라임이미지"></p>
+                                    <p class="left_text"><strong>디올스 거래소</strong></p><br/>
+                                    <p>코인제조 → 코인판매 → 디올스 거래소를 통해 온라인 전자상거래가 포인트가 아닌 실시간의 코인가격으로 가능<br/>
+                                      → [QR코드] QR코드를 활용한 오프라인에서도 포인트 아닌 실시간 코인가격으로 사용가능</p>
+                                  </div>
+                              </div>
+
 
                       </div>
+
                   </div><!--coinInfo_area End-->
 
                 </div><!-- coninInfo_content End-->
@@ -74,9 +94,6 @@
             <?php include "footer.php";?>
             <!-- footer_wrap End-->
 
-            <!--sub_menu-->
-            <?php include "sub_menu.php";?>
-            <!--sub_menu End-->
 
         </div><!-- container End -->
     </div><!-- wrap End -->
