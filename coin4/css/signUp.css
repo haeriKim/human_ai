@@ -159,7 +159,7 @@
   padding:10px 30px;
   font-size:16px;
   font-weight:600;
-  margin:50px 0;
+  margin:50px 0 20px 0;
   text-align:center;
   width:400px;
   cursor:default;
@@ -172,6 +172,21 @@
 }
 #signUp_area .signUp_right_con .btn_area .sign_up_bt_on:hover{
     background-color: rgba(27,47,74,.9);
+}
+#signUp_area .signUp_right_con .btn_area .signUp_guide{
+    color: #1b2f4a;
+    text-decoration: none;
+    margin-bottom: 7px;
+    font-size: 13px;
+}
+#signUp_area .signUp_right_con .btn_area .signUp_guide:hover{
+    text-decoration: underline;
+    font-weight: 600;
+}
+#signUp_area .signUp_right_con .btn_area .signUp_guide img{
+    width: 18px;
+    vertical-align: -4px;
+    margin-right: 2px;
 }
 #signUp_area .signUp_right_con a{
     font-size: 12px;

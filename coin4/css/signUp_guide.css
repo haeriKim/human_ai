@@ -1,0 +1,93 @@
+body{
+    background: #efefef;
+    color: #333;
+}
+/*header*/
+#header_wrap{
+    border-bottom: 1px solid #ddd;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background: #f7f8f9;
+}
+body #header_wrap .header{
+    width: 1280px;
+    margin: 0 auto;
+    min-width: auto;
+}
+#header_wrap .logo{
+    margin: 10px 0;
+}
+#header_wrap .guide_text{
+    display: inline-block;
+    font-size: 25px;
+    vertical-align: 14px;
+    font-weight: 600;
+    color:#888;
+}
+
+/*main_content*/
+.main_content{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 130px;
+    padding-bottom: 100px;
+}
+.main_content .title{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 35px;
+    color: #333;
+    vertical-align: 10px;
+    margin-left: 5px;
+}
+.main_content .intro_text{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.main_content .step_box{
+
+}
+.main_content .step_box .step_li{
+    overflow: hidden;
+    border-radius: 50px;
+    padding: 20px;
+    width: 1200px;
+    background-color: rgba(27,47,74,.2);
+    border: 2px solid #112f55;
+    margin: 50px auto;
+}
+.main_content .step_box .step_li_01 img,
+.main_content .step_box .step_li_03 img,
+.main_content .step_box .step_li_04 img{
+    width: 579px;
+    float: left;
+    margin-left: 15px;
+}
+.main_content .step_box .step_li_02 img,
+.main_content .step_box .step_li_06 img{
+    width: 800px;
+    margin: 0 auto;
+    display: block;
+}
+.main_content .step_box .step_li_05 img{
+    margin-left: 35px;
+}
+.main_content .step_box .step_li .step_title{
+    font-size: 20px;
+    color: #c95b74;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.main_content .step_box .step_li .subscription{
+    display: inline-block;
+    margin-top: 20px;
+    line-height: 24px;
+    color: #222;
+    padding-left: 30px;
+}
+.main_content .step_box .step_li .subscription .level_01{
+    color:#c95b74;
+    font-weight: 600;
+}

@@ -743,6 +743,9 @@
                               <div class="btn_area">
                                   <input type="submit" name="sign_up" value="회원가입" class="join_btn sign_up_bt">
                                   <input type="submit" name="sign_up" value="회원가입" class="join_btn sign_up_bt_on">
+                                  <a href="signUp_guide.php" class='signUp_guide' target="_blank">
+                                      <img src="img/plus.png" alt="참고">이용 가이드 보기
+                                  </a>
                                   <a href="login.php">이미 The Alls 계정이 있으시다면? 로그인</a>
                               </div>
                           </div> <!-- signUp_right_con End-->
