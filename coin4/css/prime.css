@@ -7,20 +7,36 @@
   text-align: center;
   display:inline-block;
 }
+.prime_area .prime_inner h3{
+  font-size:30px;
+  color:rgba(234,175,105,.8);
+  margin-bottom:50px;
+}
+.prime_area .prime_inner .theallsprime_img{
+  position:relative;
+}
+.prime_area .prime_inner .theallsprime_img .text_img{
+  position: absolute;
+  top:21%;
+  left:58%;
 
-.prime_area .prime_inner .theallsprime_img img{
+}
+.prime_area .prime_inner .theallsprime_img .main_img{
   text-align: center;
   margin: 0 auto;
   display:block;
   width:100%;
   height:100%;
 }
-/*icon1*/
+
+/*value*/
 .prime_area .prime_inner .theallsprime_icon{
   margin-top:0;
   overflow:hidden;
-  padding:80px 50px 50px 50px;
+  padding:80px 0 50px 0;
   display:inline-block;
+  width:100%;
+  background-color:#eee;
 }
 .prime_area .prime_inner .theallsprime_icon .prime_text{
   font-size:18px;
@@ -28,29 +44,65 @@
   margin:20px 0;
   color:#1b2f4a;
   text-align: center;
-  padding:50px 50px 50px 0;
-  width:600px;
   float:left;
+  width:100%;
 }
-.prime_area .prime_inner .theallsprime_icon .theallsprime_icon_img{
+/*.prime_area .prime_inner .theallsprime_icon .theallsprime_icon_img{
   float:left;
+}*/
+.prime_area .prime_inner .theallsprime_number{
+  text-align: center;
+  display:inline-block;
+  margin-top:50px;
+  margin-bottom:50px;
 }
-.prime_area .prime_inner .theallsprime_icon img{
+.prime_area .prime_inner .theallsprime_number li{
+  width:900px;
+  overflow: hidden;
+  color:#1b2f4a;
+  font-size:15px;
+}
+.prime_area .prime_inner .theallsprime_number b{
+  display:inline-block;
+  margin-top:60px;
+
+  margin-bottom:10px;
+}
+.prime_area .prime_inner .theallsprime_number b span{
+  font-size:25px;
+}
+
+.prime_area .prime_inner .theallsprime_number p{
+  display:block;
+  line-height: 2em;
+}
+.prime_area .prime_inner .theallsprime_number img{
   width:200px;
   height:200px;
-  text-align: left;
-  margin: 0 auto;
+  border:2px solid rgba(234,175,105,.8);
+  padding:15px;
+  display:block;
+}
+.prime_area .prime_inner .theallsprime_number .left_img{
+  float: left;
+  margin-left:100px;
+}
+.prime_area .prime_inner .theallsprime_number .right_img{
+  float:right;
+  margin-right:100px;
 }
 .prime_area .prime_inner .theallsprime_icon p b{
   font-size:25px;
 }
 
-/*icon2*/
+/*service*/
 .prime_area .prime_inner .theallsprime_icon2{
   margin-top:0;
   text-align: center;
-  padding:80px 50px 50px 50px;
+  padding:80px 0 50px 0;
   display:inline-block;
+  width:100%;
+  background-color:#eee;
 }
 .prime_area .prime_inner .theallsprime_icon2 .prime_text{
   font-size:18px;
@@ -58,22 +110,92 @@
   margin:20px 0;
   color:#1b2f4a;
   text-align: center;
-  padding:80px 50px 50px 0;
-  width:600px;
-  display:inline-block;
 }
-.prime_area .prime_inner .theallsprime_icon2 .theallsprime_icon_img{
-
-}
-.prime_area .prime_inner .theallsprime_icon2 img{
+.prime_area .prime_inner .theallsprime_icon2 .prime_icon_img{
   width:200px;
   height:200px;
   text-align: left;
   margin: 0 auto;
+  padding:50px 0 50px 0;
 }
-.prime_area .prime_inner .theallsprime_icon2 p b{
+.prime_area .prime_inner .theallsprime_icon2 ul{
+  overflow:hidden;
+  text-align: center;
+  display: inline-block;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+.prime_area .prime_inner .theallsprime_icon2 li{
+  width:300px;
+  height:350px;
+  background:#000;
+  margin-right:30px;
+  float:left;
+  text-align: left;
+  position:relative;
+}
+.prime_area .prime_inner .theallsprime_icon2 li:nth-child(1){
+  background:url(../img/prime_coin.png) no-repeat 0 0; background-size:cover;
+}
+.prime_area .prime_inner .theallsprime_icon2 li:nth-child(2){
+  background:url(../img/prime_time.png) no-repeat 0 0; background-size:cover;
+}
+.prime_area .prime_inner .theallsprime_icon2 li:nth-child(3){
+  background:url(../img/prime_coin2.png) no-repeat 0 0; background-size:cover;
+}
+.prime_area .prime_inner .theallsprime_icon2 li b{
   font-size:25px;
 }
-.prime_area .prime_inner .theallsprime_icon2 .left_text{
+.prime_area .prime_inner .theallsprime_icon2 li strong{
+  color:#bbb;
+  text-align: center;
+  display:inline-block;
+  border:1px solid white;
+  width:260px;
+  height:310px;
+  position: absolute;
+  z-index: 10;
+  left:20px;
+  top:20px;
+  line-height: 18em;
+}
+.prime_area .prime_inner .theallsprime_icon2 li span{
+  width:300px;
+  height:350px;
+  left:0;
+  background-color:#000;
+  display:inline-block;
+  opacity: 0.5;
+  position: absolute;
+}
+.prime_area .prime_inner .theallsprime_number2 ul{
+  display:inline-block;
+  text-align: center;
+}
+.prime_area .prime_inner .theallsprime_number2 li{
+  border:2px solid rgba(234,175,105,.8);
+  margin-top:50px;
+  width:900px;
+  padding:20px;
+  overflow: hidden;
+}
+.prime_area .prime_inner .theallsprime_number2 li img{
+  width:200px;
+  height:200px;
+  text-align: left;
+  display: block;
+  margin-left:20px;
+  float:left;
+}
+.prime_area .prime_inner .theallsprime_number2 li p{
+  text-align: left;
+  padding-left:250px;
+  line-height: 2em;
+  color:#1b2f4a;
+}
+.prime_area .prime_inner .theallsprime_number2 li p span{
+  font-size:25px;
+}
+.prime_area .prime_inner .theallsprime_number2 li strong{
 
 }
