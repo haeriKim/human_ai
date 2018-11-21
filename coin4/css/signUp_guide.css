@@ -57,6 +57,9 @@ body #header_wrap .header{
     border: 2px solid #112f55;
     margin: 50px auto;
 }
+.main_content .step_box .step_li img{
+    border-radius: 5px;
+}
 .main_content .step_box .step_li_01 img,
 .main_content .step_box .step_li_03 img,
 .main_content .step_box .step_li_04 img{
