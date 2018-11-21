@@ -1,5 +1,5 @@
 body{
-    background: #efefef;
+    background: #fff;
     color: #333;
 }
 /*header*/
@@ -49,46 +49,96 @@ body #header_wrap .header{
 
 }
 .main_content .step_box .step_li{
-    overflow: hidden;
     border-radius: 50px;
     padding: 20px;
     width: 1200px;
-    background-color: rgba(27,47,74,.2);
-    border: 2px solid #112f55;
     margin: 50px auto;
 }
 .main_content .step_box .step_li img{
     border-radius: 5px;
-}
-.main_content .step_box .step_li_01 img,
-.main_content .step_box .step_li_03 img,
-.main_content .step_box .step_li_04 img{
-    float: left;
-    margin-left: 15px;
+    box-shadow: 3px 3px 15px #999;
+    margin-left: 18px;
 }
 .main_content .step_box .step_li_02 img,
-.main_content .step_box .step_li_06 img{
-    margin: 0 auto;
+.main_content .step_box .step_li_07 img,
+.main_content .step_box .step_li_08 img,
+.main_content .step_box .step_li_09 img{
     display: block;
-}
-.main_content .step_box .step_li_05 img{
-    margin-left: 35px;
 }
 .main_content .step_box .step_li .step_title{
     font-size: 20px;
-    color: #c95b74;
+    color: #1b2f4a;
     font-weight: 600;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    margin: 15px 15px 20px 15px;
+}
+.main_content .step_box .step_li .step_title .step_number{
+    font-size: 30px;
+    margin-right: 5px;
 }
 .main_content .step_box .step_li .subscription{
     display: inline-block;
     margin-top: 20px;
     line-height: 24px;
-    color: #222;
     padding-left: 30px;
 }
-.main_content .step_box .step_li .subscription .level_01{
-    color:#c95b74;
+.main_content .step_box .step_li .subscription .impact{
     font-weight: 600;
+    color:#c95b74;
+}
+
+/*반응형*/
+@media all and (min-width:320px) and (max-width:768px){
+    #container #header_wrap{
+        display: block;
+    }
+    body #container #header_wrap .header{
+        text-align: center;
+        width: 100%;
+    }
+    #container #header_wrap .logo{
+        max-width: 104px;
+        width: 20%;
+    }
+    #container .main_content{
+        width: 100%;
+        padding: 20% 5%;
+    }
+    .main_content .worker_img{
+        width: 12%;
+        max-width: 60px;
+    }
+    #container .main_content .step_box .step_li{
+        width: 100%;
+        margin: 30px auto;
+        padding: 0;
+    }
+
+}
+/*반응형 font-size*/
+@media all and (min-width:320px) and (max-width:620px){
+    #header_wrap .guide_text,
+    .main_content .title,
+    .main_content .intro_text,
+    .main_content .step_box .step_li .step_title,
+    .main_content .step_box .step_li .step_title .step_number{
+        font-size: 1em;
+    }
+}
+@media all and (min-width:621px) and (max-width:720px){
+    #header_wrap .guide_text,
+    .main_content .title,
+    .main_content .intro_text,
+    .main_content .step_box .step_li .step_title,
+    .main_content .step_box .step_li .step_title .step_number{
+        font-size: 1.2em;
+    }
+}
+@media all and (min-width:721px) and (max-width:768px){
+    #header_wrap .guide_text,
+    .main_content .title,
+    .main_content .intro_text,
+    .main_content .step_box .step_li .step_title,
+    .main_content .step_box .step_li .step_title .step_number{
+        font-size: 1.3em;
+    }
 }
