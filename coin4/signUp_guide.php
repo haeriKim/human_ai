@@ -47,7 +47,7 @@
 
                 <ul class="step_box">
                     <li class='step_li step_li_01'>
-                        <p class='step_title'>Step.1</p>
+                        <p class='step_title'>Step.1 이용약관 동의</p>
                         <img src="img/guide/01_signup_01.jpg" alt="1단계">
                         <img src="img/guide/01_signup_01_01.jpg" alt="1-1단계">
                         <p class='subscription'>
@@ -57,7 +57,7 @@
                         </p>
                     </li>
                     <li class='step_li step_li_02'>
-                        <p class='step_title'>Step.2</p>
+                        <p class='step_title'>Step.2 이메일주소 입력</p>
                         <img src="img/guide/01_signup_02.jpg" alt="2단계">
                         <p class='subscription'>
                             약관들을 동의하셨으면 거래소에서 이용하실 '이메일주소'를 정확하게 입력해 주세요.<br>
@@ -66,7 +66,7 @@
                         </p>
                     </li>
                     <li class='step_li step_li_03'>
-                        <p class='step_title'>Step.3-1</p>
+                        <p class='step_title'>Step.3-1 로그인 비밀번호 입력</p>
                         <img src="img/guide/01_signup_03.jpg" alt="3단계">
                         <img src="img/guide/01_signup_03_01.jpg" alt="3-1단계">
                         <p class='subscription'>
@@ -75,7 +75,7 @@
                         </p>
                     </li>
                     <li class='step_li step_li_04'>
-                        <p class='step_title'>Step.3-2</p>
+                        <p class='step_title'>Step.3-2 로그인 비밀번호 요건충족</p>
                         <img src="img/guide/01_signup_03_02.jpg" alt="3-2단계">
                         <img src="img/guide/01_signup_03_03.jpg" alt="3-3단계">
                         <p class='subscription'>
@@ -85,7 +85,7 @@
                         </p>
                     </li>
                     <li class='step_li step_li_05'>
-                        <p class='step_title'>Step.4</p>
+                        <p class='step_title'>Step.4 이메일 인증</p>
                         <img src="img/guide/01_signup_04.jpg" alt="4단계">
                         <img src="img/guide/01_signup_04_01.jpg" alt="4-1단계">
                         <p class='subscription'>
@@ -95,7 +95,7 @@
                         </p>
                     </li>
                     <li class='step_li step_li_06'>
-                        <p class='step_title'>Step.5</p>
+                        <p class='step_title'>Step.5 회원가입 완료</p>
                         <img src="img/guide/01_signup_05.jpg" alt="5단계">
                         <p class='subscription'>
                             이메일 인증까지 마치시면 회원가입이 완료됩니다. 회원님의 인증단계는 <span class='level_01'>Level 1</span>이 되며, Level 2(보안비밀번호 생성)단계를 바로 인증하실 수 있습니다.<br>

@@ -60,13 +60,11 @@ body #header_wrap .header{
 .main_content .step_box .step_li_01 img,
 .main_content .step_box .step_li_03 img,
 .main_content .step_box .step_li_04 img{
-    width: 579px;
     float: left;
     margin-left: 15px;
 }
 .main_content .step_box .step_li_02 img,
 .main_content .step_box .step_li_06 img{
-    width: 800px;
     margin: 0 auto;
     display: block;
 }
