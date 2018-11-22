@@ -1,4 +1,3 @@
-/*prime css*/
 
 .greetings_area .greetings_inner{
   padding:3% 45px;
@@ -9,14 +8,46 @@
   font-size:25px;
   text-align: left;
   margin-bottom:20px;
+  color: #1b2f4a;
 }
 .greetings_area .greetings_story{
   text-align: center;
   display: inline-block;
 }
+.greetings_inner .greetings_story .gr_title {
+  font-size: 25px;
+  color: #999;
+}
+.greetings_inner .greetings_story .gr_title img {
+  width: 40px;
+}
+.greetings_inner .greetings_story .gr_title span {
+  font-size: 27px;
+  color: #009CFF;
+  font-weight: 600;
+}
 .greetings_inner .greetings_story .greetings_img{
   width:905px;
   height:300px;
+  display: none;
+}
+.greetings_inner .greetings_story .textL .disTxt,.greetings_inner .greetings_story .textL .advTxt{
+  float: left;
+  width: 50%;
+}
+
+
+.greetings_inner .greetings_story .textR{
+  text-align: right;
+}
+
+.greetings_inner .greetings_story .textL .count {
+  width: 80px;
+}
+.greetings_inner .greetings_story .textL .import {
+  display: inline-block;
+  width: 80%;
+
 }
 .greetings_inner .greetings_story .greetings_sign{
   width:220;
