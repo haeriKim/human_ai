@@ -11,6 +11,18 @@
     transform: translateY(-50%);
     margin-left: -265px;
 }
+#content{
+    width: 1000px;
+    height: 900px;
+    background: #fff;
+    z-index: 9990;
+    padding: 20px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: -265px;
+}
 .full_inner{
     width: 90%;
     margin: 0 auto;
@@ -256,11 +268,6 @@
     padding-bottom:15px;
     border-bottom: 2px solid #071f45;
     margin: 0 auto;
-}
-.full_inner{
-    width: 90%;
-    margin: 0 auto;
-    overflow: hidden;
 }
 
 /* 이메일인증 팝업 */

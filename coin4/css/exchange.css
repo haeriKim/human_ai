@@ -1134,10 +1134,12 @@
  #buy_sell_tab .minimum_order_price{
      width: 50%;
      margin-left:0;
+     text-align: left;
  }
  #buy_sell_tab .charge{
-     width: 50%;
+     width: 49%;
      margin-left:0;
+     text-align: right;
  }
  #buy_sell_tab input[type='reset'].reset_buy, #buy_sell_tab input[type='reset'].reset_sell {
    width: 37%;
@@ -1225,4 +1227,12 @@
     margin-top: 5px;
 }
 
+}
+@media (min-width:320px) and (max-width:320px){
+    #container #buy_sell_tab .minimum_order_price{
+        width: 142px;
+    }
+    #container #buy_sell_tab .charge{
+        width: 100px;
+    }
 }

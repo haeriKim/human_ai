@@ -168,19 +168,6 @@ $(".coinSelect dt").click(function(){
 $(document).ready(function(){
     function closePopup(){
         $('#full_content').hide();
-        $('#shadow').hide();
-    }
-    function modalpopup(){
-        $('#shadow').css({
-            'width':'100%',
-            'height':'50%',
-            'position':'fixed'
-        })
-        $('#shadow').show();
-        $('#full_content').css({
-            'position':'fixed'
-        });
-        $('#full_content').show();
     }
     $('.close_btn').on('click',function(e){
         e.preventDefault();
