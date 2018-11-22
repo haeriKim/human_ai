@@ -11,7 +11,7 @@
     transform: translateY(-50%);
     margin-left: -265px;
 }
-#content{
+#greetings_content{
     width: 1000px;
     height: 900px;
     background: #fff;
@@ -64,7 +64,7 @@
     margin-top: 3px;
 }
 #full_content .close_btn,
-#content .close_btn{
+#greetings_content .close_btn{
     float: right;
     background: #7AABDF;
     text-align: center;

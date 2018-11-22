@@ -166,18 +166,18 @@ $(".coinSelect dt").click(function(){
 
 //메인 팝업
 $(document).ready(function(){
-    $('#content').hide();
+    $('#greetings_content').hide();
     function closePopup(){
         $('#full_content').hide();
-        $('#content').show();
+        $('#greetings_content').show();
     }
     $('#full_content .close_btn').on('click',function(e){
         e.preventDefault();
         closePopup();
     })
-    $('#content .close_btn').on('click',function(e){
+    $('#greetings_content .close_btn').on('click',function(e){
         e.preventDefault();
-        $('#content, #index_shadow').hide();
+        $('#greetings_content, #index_shadow').hide();
     })
 })
 

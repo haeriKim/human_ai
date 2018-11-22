@@ -270,7 +270,7 @@
                 </div>
             </div><!-- full_content End-->
 
-            <div class="con_top box" id="content">
+            <div class="con_top box" id="greetings_content">
 
               <div class="greetings_area">
 
