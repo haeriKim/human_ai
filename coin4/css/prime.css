@@ -168,34 +168,186 @@
   opacity: 0.5;
   position: absolute;
 }
+.prime_area .prime_inner .theallsprime_number2{
+  overflow:hidden;
+  text-align: center;
+  display: inline-block;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+.prime_area .prime_inner .theallsprime_number2 .company1{
+  float:left;
+  margin-right:100px;
+}
+.prime_area .prime_inner .theallsprime_number2 .company2{
+  float:left;
+}
 .prime_area .prime_inner .theallsprime_number2 ul{
   display:inline-block;
   text-align: center;
 }
-.prime_area .prime_inner .theallsprime_number2 li{
+.prime_area .prime_inner .theallsprime_number2 li:nth-child(1){
+  border:none;
+  width:200px;
+  height:200px;
+  text-align: center;
+  margin-left:20%;
+  font-size:15px;
+  margin-bottom:15%;
+}
+.prime_area .prime_inner .theallsprime_number2 .down_arrow{
+  margin:20px 0;
+  border:none;
+  text-align: center;
+  display: inline-block;
+}
+.prime_area .prime_inner .theallsprime_number2 .none_li{
   border:2px solid rgba(234,175,105,.8);
-  margin-top:50px;
-  width:900px;
+  width:300px;
   padding:20px;
   overflow: hidden;
+  color:#1b2f4a;
+  font-size:12px;
+}
+.prime_area .prime_inner .theallsprime_number2 li span{
+  font-weight:600;
 }
 .prime_area .prime_inner .theallsprime_number2 li img{
   width:200px;
   height:200px;
-  text-align: left;
+  text-align: center;
   display: block;
-  margin-left:20px;
   float:left;
 }
 .prime_area .prime_inner .theallsprime_number2 li p{
-  text-align: left;
-  padding-left:250px;
-  line-height: 2em;
   color:#1b2f4a;
+  font-weight:600;
 }
-.prime_area .prime_inner .theallsprime_number2 li p span{
+.prime_area .prime_inner .theallsprime_icon2 p b{
   font-size:25px;
 }
-.prime_area .prime_inner .theallsprime_number2 li strong{
 
+/*method*/
+.prime_area .prime_inner .theallsprime_icon3{
+  margin-top:0;
+  overflow:hidden;
+  padding:80px 0 50px 0;
+  display:inline-block;
+  width:100%;
+  background-color:#eee;
+}
+.prime_area .prime_inner .theallsprime_icon3 .prime_text{
+  font-size:18px;
+  font-weight:500;
+  margin:20px 0;
+  color:#1b2f4a;
+  text-align: center;
+  float:left;
+  width:100%;
+}
+.prime_area .prime_inner .theallsprime_icon3 p b{
+  font-size:25px;
+}
+.prime_area .prime_inner .theallsprime_number3{
+  display:block;
+  text-align: center;
+  margin-top:50px;
+  margin-bottom:200px;
+}
+.prime_area .prime_inner .theallsprime_number3 .wallet_inner{
+  width:100%;
+}
+.prime_area .prime_inner .theallsprime_number3 .wallet_box{
+  text-align: center;
+  display:inline-block;
+  margin-top:50px;
+  margin-bottom:50px;
+  width:900px;
+  border:2px solid rgba(234,175,105,.8);
+  padding:20px;
+  color:#1b2f4a;
+  font-size:15px;
+  line-height:2em;
+}
+.prime_area .prime_inner .theallsprime_number3 .wallet_box p span{
+  font-weight:600;
+}
+.prime_area .prime_inner .theallsprime_number3 ul{
+  overflow:hidden;
+  width:900px;
+  display:inline-block;
+  text-align: center;
+  padding:20px;
+}
+.prime_area .prime_inner .theallsprime_number3 li{
+  width:250px;
+  float:left;
+  color:#1b2f4a;
+  font-size:15px;
+  text-align: center;
+  display: block;
+  padding-left:4%;
+}
+.prime_area .prime_inner .theallsprime_number3 li p{
+  padding-left:10px;
+  font-size:12px;
+}
+.prime_area .prime_inner .theallsprime_number3 li:nth-child(1){
+  color:#f00;
+}
+.prime_area .prime_inner .theallsprime_number3 li:nth-child(2){
+  color:#ada20b;
+}
+.prime_area .prime_inner .theallsprime_number3 li:nth-child(3){
+  color:#00f;
+}
+.prime_area .prime_inner .theallsprime_number3 li img{
+  width:100px;
+  height:100px;
+}
+
+/*security*/
+.prime_area .prime_inner .theallsprime_icon4{
+  margin-top:0;
+  overflow:hidden;
+  padding:80px 0 50px 0;
+  display:inline-block;
+  width:100%;
+  background-color:#eee;
+}
+.prime_area .prime_inner .theallsprime_icon4 .prime_text{
+  font-size:18px;
+  font-weight:500;
+  margin:20px 0;
+  color:#1b2f4a;
+  text-align: center;
+  float:left;
+  width:100%;
+}
+.prime_area .prime_inner .theallsprime_icon4 p b{
+  font-size:25px;
+}
+.prime_area .prime_inner .theallsprime_number4{
+  display:block;
+  text-align: center;
+  margin-top:50px;
+  margin-bottom:200px;
+}
+.prime_area .prime_inner .theallsprime_number4 .security_inner{
+  width:100%;
+}
+.prime_area .prime_inner .theallsprime_number4 .security_box{
+  text-align: center;
+  display:inline-block;
+  margin-top:50px;
+  margin-bottom:50px;
+  width:900px;
+  border:2px solid rgba(234,175,105,.8);
+  padding:20px;
+  color:#1b2f4a;
+  font-size:15px;
+  line-height:2em;
+}
+.prime_area .prime_inner .theallsprime_number4 .security_box span{
+  font-weight:600;
 }

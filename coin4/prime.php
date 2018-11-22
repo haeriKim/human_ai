@@ -52,7 +52,7 @@
 
                           <div class="prime_main"> <!--프라임메인-->
                               <div class="theallsprime_img">
-                                <p><img src="img/prime_main2.png" alt="거래소프라임메인" class="main_img"></p>
+                                <p><img src="img/prime_main3.png" alt="거래소프라임메인" class="main_img"></p>
 
                               </div>
                           </div> <!--프라임메인 끝-->
@@ -115,44 +115,95 @@
                                 <li><strong>The Alls Service<b> 01</b></strong><span></span></li>
                                 <li><strong>The Alls Service<b> 02</b></strong><span></span></li>
                                 <li><strong>The Alls Service<b> 03</b></strong><span></span></li>
-                              <!--  <li class="prime_text"><b>'디올스 국제 거래소'</b>는<br/>
-                                </li>
 
-                                <li class="prime_text">기축통화가 될 수 있도록 만들었습니다.</li>
-
-                                <li class="prime_text">+</li>
-
-                                <li class="prime_text">상장되는 모든 코인은 실시간 가격으로 사용이 가능하고,
-                                <br/> 전자상거래 및 QR코드를 활용하여 직접 제품 주인에게 현금이 통장으로 입금됩니다.</li>
-
-                                <li class="prime_text">+</li>
-
-                                <li class="prime_text">상장기반 코인은 디올스,비트코인,비트코인캐시,이더리움,이더리움클래식,에이다,리플,이오스입니다.</li> -->
                               </ul>
                             </div>
 
                             <div class="theallsprime_number2">
-                                <ul>
-                                    <li><img src="img/prime_ex2.png" alt="프라임이미지" class="prime_icon_img">
+                                    <div class="company1">
+                                      <ul>
+                                        <li class="title_li"><img src="img/exchange1.png" alt="거래소이미지">
+                                            <p>기존 거래소</p>
+                                        </li>
 
-                                        <p><strong>타 거래소</strong></p>
-                                        <p>코인제조 → 코인판매 → 상장으로 마무리(전세계 모든 거래소) 특히 보안에 취약함</p>
-                                    </li>
+                                        <li class="none_li">코인제조</li>
+                                        <li class="down_arrow">↓</li>
+                                        <li class="none_li">코인판매</li>
+                                        <li class="down_arrow">↓</li>
+                                        <li class="none_li">상장으로 마무리(전세계 모든 거래소) <span>특히 보안에 취약함</span></li>
+                                      </ul>
+
+                                    </div>
                                   <!--  <p class="left_text"><strong>타 거래소</strong></p><br/>
                                     <p>코인제조 → 코인판매 → 상장으로 마무리(전세계 모든 거래소) 특히 보안에 취약함</p> -->
+                                    <div class="company2">
+                                      <ul>
+                                        <li class="title_li"><img src="img/exchange2.png" alt="거래소이미지">
+                                            <p>The Alls 거래소</p>
+                                        </li>
+                                        <li class="none_li">코인제조</li>
+                                        <li class="down_arrow">↓</li>
+                                        <li class="none_li">코인판매</li>
+                                        <li class="down_arrow">↓</li>
+                                        <li class="none_li">디올스 거래소를 통해 온라인 전자상거래가 포인트가 아닌 <span>실시간의 코인가격으로 가능</span></li>
+                                        <li class="down_arrow">↓</li>
+                                        <li class="none_li"><span>[QR코드] QR코드를 활용한 오프라인에서도 포인트가 아닌 실시간 코인가격으로 사용가능</span></li>
+                                        <li class="down_arrow">↓</li>
+                                        <li class="none_li"><span>[현금화] 모든 것은 코인이 현금화 되어 매도자 또는 제품주인 통장으로 현금이 입금됨</span></li>
+                                      </ul>
 
-                                    <li><img src="img/prime_ex1.png" alt="프라임이미지" class="prime_icon_img">
-
-                                      <p><strong>디올스 거래소</strong></p>
-                                      <p>코인제조 → 코인판매 → 디올스 거래소를 통해 온라인 전자상거래가 포인트가 아닌 실시간의 코인가격으로 가능</p>
-                                    </li>
-                              <!--       <p class="left_text"><strong>디올스 거래소</strong></p><br/>
-                                   <p>코인제조 → 코인판매 → 디올스 거래소를 통해 온라인 전자상거래가 포인트가 아닌 실시간의 코인가격으로 가능<br/>
+                                    </div>
+                                  <!--  <p class="left_text"><strong>디올스 거래소</strong></p><br/>
+                                    <p>코인제조 → 코인판매 → 디올스 거래소를 통해 온라인 전자상거래가 포인트가 아닌 실시간의 코인가격으로 가능<br/>
                                       → [QR코드] QR코드를 활용한 오프라인에서도 포인트 아닌 실시간 코인가격으로 사용가능</p> -->
                                 </ul>
                             </div>
 
                           </div><!--프라임서비스 끝-->
+
+
+                          <div class="prime_method"><!--프라임메소드-->
+                            <div class="theallsprime_icon3">
+                              <p><img src="img/prime_money.png" alt="프라임아이디어"></p>
+                              <h3>M E T H O D</h3>
+                              <p class="prime_text"><span><b>'디올스 국제거래소'</b>에 등록한 회원분들께 지갑을 직접 생성하여 지급해드립니다.</p>
+
+                            </div>
+
+                                <div class="theallsprime_number3">
+                                  <div class="wallet_inner">
+                                  <div class="wallet_box">
+                                    <p>지갑은 실제 사용하는 <span>빨강색지갑</span>과 에어드랍을 받는 <span>노랑색지갑</span> 그리고 어드바이저 등에게 지급하는
+                                    <span>청색지갑</span>으로<br/> 구분되어 코인사가 원할 경우 분할하여 지급됩니다. (같은 색상의 지갑과는 연동이 가능합니다.)</p>
+                                  </div>
+                                  </div>
+                                    <ul>
+                                      <li><img src="img/wallet_r2.png" alt="빨강지갑"><p>실제 사용하는 지갑</p></li>
+                                      <li><img src="img/wallet_y2.png" alt="노랑지갑"><p>에어드랍을 받는 지갑</p></li>
+                                      <li><img src="img/wallet_b2.png" alt="파랑지갑"><p>어드바이저에게 지급하는 지갑</p></li>
+                                    </ul>
+
+                                </div>
+                          </div><!--프라임메소드 끝-->
+
+                          <div class="prime_security"><!--프라임 보안-->
+                            <div class="theallsprime_icon4">
+                              <p><img src="img/prime_security.png" alt="프라임아이디어"></p>
+                              <h3>S E C U R I T Y</h3>
+                              <p class="prime_text"><span><b>'디올스 국제거래소'</b>는 철저한 보안서버를 바탕으로 고객서비스에 최선을 다하겠습니다.</p>
+                            </div>
+
+                            <div class="theallsprime_number4">
+                              <div class="security_inner">
+                              <div class="security_box">
+                                <p>거래소와 소비자가 코인거래시 정전되면 코인이 없어지므로 법정문제의 소지가 있습니다.<br/>
+                                <span>하지만</span> '디올스 국제거래소'는 전혀 그런 경우가 발생하지 않습니다.<br/> 완벽하게 소비자 중심 뿐만 아니라 기술적으로 정리하여 완성했습니다.</p>
+                              </div>
+                              </div>
+
+                            </div>
+
+                          </div><!--프라임 보안 끝-->
 
 
                       </div><!--prime_inner 끝-->
