@@ -7,6 +7,8 @@
     box-sizing: border-box;
     overflow: hidden;
     font-weight: 600;
+    display:block;
+    height: 90px;
 }
 #footer{
     padding-left: 190px;
@@ -73,9 +75,6 @@
 }
 .footer_menu .footer_nav ul li a.pp {
   color: #eaaf69;
-}
-#footer_wrap{
-  display:block;
 }
 #app_footer_wrap{
   display:none;

@@ -587,8 +587,8 @@
                           </div>
                       </dl>
                       <div class="mini_sub_info">
-                          <span class='sub_text minimum_order_price'>최소주문금액 : 2000 KRW</span>
-                          <span class='sub_text charge'>수수료 (부가세 포함) : 0.12%</span>
+                          <span class='sub_text minimum_order_price'>최소주문수량 : 0.0001 ADA</span>
+                          <span class='sub_text charge'>수수료 : 0.15%</span>
                       </div>
                       <div class="buy_tab_button">
                           <input type="reset" name="reset" value="초기화" class='reset reset_buy'>
@@ -640,8 +640,8 @@
                           </div>
                       </dl>
                       <div class="mini_sub_info">
-                          <span class='sub_text minimum_order_price'>최소주문금액 : 2000 KRW</span>
-                          <span class='sub_text charge'>수수료 (부가세 포함) : 0.12%</span>
+                          <span class='sub_text minimum_order_price'>최소주문수량 : 0.0001 ADA</span>
+                          <span class='sub_text charge'>수수료 : 0.15%</span>
                       </div>
 
                       <div class="buy_tab_button">
@@ -1357,8 +1357,8 @@
                             </div>
                         </dl>
                         <div class="mini_sub_info">
-                            <span class='sub_text minimum_order_price'>최소주문금액 : 2000 KRW</span>
-                            <span class='sub_text charge'>수수료 (부가세 포함) : 0.12%</span>
+                            <span class='sub_text minimum_order_price'>최소주문수량 : 0.0001 ADA</span>
+                            <span class='sub_text charge'>수수료 : 0.15%</span>
                         </div>
                         <div class="buy_tab_button">
                             <input type="reset" name="reset" value="초기화" class='reset reset_buy'>
@@ -1410,8 +1410,8 @@
                             </div>
                         </dl>
                         <div class="mini_sub_info">
-                            <span class='sub_text minimum_order_price'>최소주문금액 : 2000 KRW</span>
-                            <span class='sub_text charge'>수수료 (부가세 포함) : 0.12%</span>
+                            <span class='sub_text minimum_order_price'>최소주문수량 : 0.0001 ADA</span>
+                            <span class='sub_text charge'>수수료 : 0.15%</span>
                         </div>
 
                         <div class="buy_tab_button">

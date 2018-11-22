@@ -833,13 +833,16 @@ div.cancel_or_apply .if_you_all_agree:hover{
 /* 셀렉트박스&검색영역 */
 #look_method{
     border: 1px solid #1b2f4a;
-    width: 120px;
+    width: 140px;
     height: 32px;
     vertical-align: middle;
     margin-right: 5px;
     text-indent: 9px;
     float: left;
     color: #1b2f4a;
+}
+#look_method option{
+    border: 1px solid red;
 }
 .search{
     text-align: right;
@@ -1117,7 +1120,7 @@ box-shadow:none;
         background-color: #eaaf69;
         font-size: 12px;
         position: absolute;
-        bottom: 55%;
+        bottom: 47%;
         left: 50%;
         transform: translate(-50%,0);
         width: 80%;

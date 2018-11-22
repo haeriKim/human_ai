@@ -7,6 +7,7 @@
     box-sizing: border-box;
     overflow: hidden;
     font-weight: 600;
+    height: 90px;
 }
 #footer{
     padding-left: 190px;

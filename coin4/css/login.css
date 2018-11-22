@@ -75,9 +75,9 @@
     font-size:15px;
     font-weight: bold;
     position: absolute;
-    top:295px;
+    top:102%;
     left:50px;
-    display:none;
+    display: none;
     width: 300px;
     text-align: center;
     padding:10px 0;

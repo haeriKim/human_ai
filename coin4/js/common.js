@@ -1338,17 +1338,6 @@ $(document).ready(function(){
     });
 })
 
-//회원가입 인증번호창
-$(document).ready(function(){
-$(".join_request_number").click(function(){
-  $("#full2").show();
-  $('#shadow').show();
-});
-$(".leave_member_agree_btn").click(function(){
-  $("#full2").hide();
-});
-});
-
 /*input창 숫자만 입력, 천단위마다 콤마(,) 실시간으로 입력*/
 var rgx1 = /\D/g;
 var rgx2 = /(\d+)(\d{3})/;

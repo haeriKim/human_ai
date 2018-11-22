@@ -159,7 +159,7 @@
                                     <tr>
                                       <td><span class="number">4</span></td>
                                       <td>매수 및 매도</td>
-                                      <td id="left_text"><a href="customer_question_detail.php">더올스에서 이더리움 28,0000BTH를 매수했습니다.</a></td>
+                                      <td id="left_text"><a href="customer_question_detail.php">더올스에서 이더리움 280,000ETH를 매수했습니다.</a></td>
                                       <td>2018-09-12</td>
                                       <td>답변완료</td>
                                     </tr>

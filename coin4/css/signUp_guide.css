@@ -25,6 +25,10 @@ body #header_wrap .header{
     font-weight: 600;
     color:#888;
 }
+.mediate_size{
+    width: 579px;
+    height: 431px;
+}
 
 /*main_content*/
 .main_content{
@@ -45,9 +49,6 @@ body #header_wrap .header{
     font-size: 18px;
     margin-top: 20px;
 }
-.main_content .step_box{
-
-}
 .main_content .step_box .step_li{
     border-radius: 50px;
     padding: 20px;
@@ -67,7 +68,7 @@ body #header_wrap .header{
 }
 .main_content .step_box .step_li .step_title{
     font-size: 20px;
-    color: #1b2f4a;
+    color: #112f55;
     font-weight: 600;
     margin: 15px 15px 20px 15px;
 }
@@ -83,7 +84,7 @@ body #header_wrap .header{
 }
 .main_content .step_box .step_li .subscription .impact{
     font-weight: 600;
-    color:#c95b74;
+    color:#e04467;
 }
 
 /*반응형*/
@@ -112,7 +113,16 @@ body #header_wrap .header{
         margin: 30px auto;
         padding: 0;
     }
-
+    #container .mediate_size{
+        width: auto;
+        height: auto;
+    }
+    #container .main_content .step_box .step_li .subscription{
+        font-size: 12px;
+        margin-top: 10px;
+        line-height: 20px;
+        padding-left: 0;
+    }
 }
 /*반응형 font-size*/
 @media all and (min-width:320px) and (max-width:620px){

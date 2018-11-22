@@ -47,7 +47,7 @@
                 <ul class="step_box">
                     <li class='step_li step_li_01'>
                         <p class='step_title'><span class='step_number'>Step 1.</span> 이용약관 동의</p>
-                        <img src="img/guide/01_signup_01.jpg" alt="image1">
+                        <img src="img/guide/01_signup_01.jpg" alt="image1" class='mediate_size'>
                         <img src="img/guide/01_signup_3.jpg" alt="image2">
                         <p class='subscription'>
                             좌측의 이용약관들을 꼼꼼히 읽어보시고 <span class='impact'>'동의합니다'</span> 부분을 체크해주세요. 하단의 <span class='impact'>'모두 동의합니다'</span> 부분을 체크하시면 모든 동의항목에 체크가 됩니다.<br>
