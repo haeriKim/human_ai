@@ -3,11 +3,11 @@
 .withdrawal_area .withdrawal_text h4{
   font-weight:600;
   font-size:17px;
-  color:#1b2f4a;
+  color:#7AABDF;
 }
 .withdrawal_area .withdrawal_text strong{
   font-weight:600;
-  color:#1b2f4a;
+  color:#7AABDF;
   margin-bottom:20px;
   display:block;
 }
@@ -62,10 +62,10 @@
   padding:0 10px;
 }
 .withdrawal_area .withdrawal_text2 strong{
-  color:#1b2f4a;
+  color:#7AABDF;
   padding:10px 0;
   margin:30px 0;
-  border-bottom:2px solid #1b2f4a;
+  border-bottom:2px solid #7AABDF;
   display:block;
 }
 .withdrawal_area .withdrawal_text2 .withdrawal_text2_inner{
@@ -121,8 +121,8 @@
     display:block;
 }
 .withdrawal_area #withdrawal_text3 .cancel_or_apply .if_you_not_all_agree{
-    border: 1px solid #1b2f4a;
-    background: #1b2f4a;
+    border: 1px solid #7AABDF;
+    background: #7AABDF;
     cursor:pointer;
 }
 .withdrawal_area #withdrawal_text3 .cancel_or_apply .if_you_not_all_agree:hover {
@@ -134,17 +134,17 @@
     font-weight: 600;
 }
 .withdrawal_area #withdrawal_text4 select{
-    border: 1px solid #1b2f4a;
+    border: 1px solid #7AABDF;
     font-size: 15px;
     width: 500px;
     margin: 30px auto 0 auto;
     display: block;
-    color: #1b2f4a;
+    color: #7AABDF;
     font-weight: 600;
     height: 35px;
 }
 .withdrawal_area #withdrawal_text4 option{
-    color: #1b2f4a;
+    color: #7AABDF;
     font-weight: 600;
 }
 .withdrawal_area #withdrawal_text4 input[type='text']{
@@ -152,7 +152,7 @@
     margin: 0 auto;
     display: block;
     margin-top: 10px;
-    color: #1b2f4a;
+    color: #7AABDF;
     font-weight: 600;
     height: 35px;
     border: none;
@@ -167,7 +167,7 @@
     height: 145px;
     display: block;
     padding: 5px 0 0 5px;
-    border:1px solid #1b2f4a;
+    border:1px solid #7AABDF;
     font-size: 15px;
 }
 .withdrawal_area #withdrawal_text4 textarea::placeholder{
@@ -189,15 +189,15 @@
     line-height: 1.5;
 }
 .withdrawal_area #withdrawal_text3 .cofirm_number{
-    border: 1px solid #1b2f4a;
+    border: 1px solid #7AABDF;
     background: #fff;
-    color: #1b2f4a;
+    color: #7AABDF;
     padding: 3px 5px;
     cursor: pointer;
     font-size:15px;
 }
 .withdrawal_area #withdrawal_text3 .cofirm_number:hover{
-  background:#1b2f4a;
+  background:#7AABDF;
   color:#fff;
 }
 #full{
@@ -207,8 +207,8 @@
   margin-bottom:40px;
 }
 #full .leave_member_agree_btn{
-  background: #1b2f4a;
-  border: 1px solid #1b2f4a;
+  background: #7AABDF;
+  border: 1px solid #7AABDF;
   border-radius: 5px;
   padding: 7px 30px;
   color: #fff;

@@ -31,8 +31,8 @@
     color:#7e7e7f;
 }
 .mycoin_tab li.active {
-  color: #1b2f4a;
-  border-top: 3px solid #1b2f4a;
+  color: #7AABDF;
+  border-top: 3px solid #7AABDF;
   background-color:#fff;
 }
 
@@ -42,14 +42,14 @@
   overflow: hidden;
 }
 ul.tabs2 li, ul.tabs3 li, ul.tabs4 li {
-  color: #1b2f4a;
-  border:1px solid #1b2f4a;
+  color: #7AABDF;
+  border:1px solid #7AABDF;
   background-color: #fff;
 }
 ul.tabs2 li.active2, ul.tabs3 li.active2, ul.tabs4 li.active2 {
   color : #fff;
-  border: 1px solid #1b2f4a;
-  background-color :#1b2f4a;
+  border: 1px solid #7AABDF;
+  background-color :#7AABDF;
 }
 
 /*tab1*/
@@ -63,7 +63,7 @@ ul.tabs2 li.active2, ul.tabs3 li.active2, ul.tabs4 li.active2 {
     box-sizing: border-box;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid #1b2f4a;
+    border: 1px solid #7AABDF;
     background-color: rgba(27,47,74,.2);
     margin: 0 auto;
     margin-bottom: 35px;
@@ -84,7 +84,7 @@ ul.tabs2 li.active2, ul.tabs3 li.active2, ul.tabs4 li.active2 {
 }
 .mycoin_tab_content .mywallet_box1 strong{
     font-size:22px;
-    color: #1b2f4a;
+    color: #7AABDF;
 }
 .mycoin_tab_content .mywallet_box2{
     overflow: hidden;
@@ -129,14 +129,14 @@ table .mycoin_thead_deco th{
   font-weight: lighter;
   font-weight: 600;
   font-size:14px;
-  color: #1b2f4a;
+  color: #7AABDF;
   height:50px;
 }
 table .mycoin_thead_deco th a{
   font-weight: lighter;
   font-weight: 600;
   font-size:14px;
-  color: #1b2f4a;
+  color: #7AABDF;
 }
 table .mycoin_thead_deco th a:hover{
   opacity: 0.7;
@@ -208,15 +208,15 @@ table .mycoin_tbody_deco>tr>td>img{
 }
 .conclu_table thead th{
   padding:10px 0;
-  border-bottom:2px solid #1b2f4a;
+  border-bottom:2px solid #7AABDF;
   background-color:#f4f5f8;
   font-size: 14px;
-  color: #1b2f4a;
+  color: #7AABDF;
 }
 .conclu_table thead th select {
   height: 30px;
-    border: 1px solid #1b2f4a;
-    color: #1b2f4a;
+    border: 1px solid #7AABDF;
+    color: #7AABDF;
     font-weight: 600;
     font-size: 14px;
     background-color:#f4f5f8;
@@ -237,17 +237,17 @@ table .mycoin_tbody_deco>tr>td>img{
   width: 40px;
   height: 25px;
   background-color: #fff;
-  border: 1px solid #1b2f4a;
-  color: #1b2f4a;
+  border: 1px solid #7AABDF;
+  color: #7AABDF;
   cursor: pointer;
 }
 .conclu_table tbody tr td input[type="submit"]:hover {
-  background-color: #1b2f4a;
+  background-color: #7AABDF;
   color: #fff;
 }
 .user_security{
   border:none;
-  border-bottom:1px solid #1b2f4a;
+  border-bottom:1px solid #7AABDF;
   width:330px;
   padding-bottom:5px;
 }
@@ -282,7 +282,7 @@ table .mycoin_tbody_deco>tr>td>img{
     margin-bottom: 15px;
 }
 #input_KRW div.account_table_wrap > div > p{
-    color: #1b2f4a;
+    color: #7AABDF;
     font-weight: 600;
     margin-bottom: 15px;
 }
@@ -306,7 +306,7 @@ table .mycoin_tbody_deco>tr>td>img{
 #input_KRW div.send_info_01 .temporary_name{
     border-radius: 5px;
     background: #f4f5f9;
-    color: #1b2f4a;
+    color: #7AABDF;
     font-weight: 600;
     font-size: 22px;
     padding: 3px 90px;
@@ -342,8 +342,8 @@ table .mycoin_tbody_deco>tr>td>img{
     margin-left: 20px;
     margin-bottom: 13px;
     border: none;
-    border-bottom: 2px solid #1b2f4a;
-    color: #1b2f4a;
+    border-bottom: 2px solid #7AABDF;
+    color: #7AABDF;
     font-size: 22px;
     text-align: right;
     width: 229px;
@@ -386,10 +386,10 @@ table .mycoin_tbody_deco>tr>td>img{
     margin-top: 50px;
 }
 div.before_send_money_wrap > p{
-    color: #1b2f4a;
+    color: #7AABDF;
     font-weight: 600;
     margin-bottom: 12px;
-    border-bottom: 2px solid #1b2f4a;
+    border-bottom: 2px solid #7AABDF;
     padding-bottom: 8px;
     font-size:16px;
 }
@@ -433,7 +433,7 @@ div.before_send_money_wrap > p{
     margin-bottom: 15px;
 }
 #output_KRW div.account_table_wrap > div > p{
-    color: #1b2f4a;
+    color: #7AABDF;
     font-weight: 600;
     margin-bottom: 15px;
     font-size:16px;
@@ -481,10 +481,10 @@ div.before_send_money_wrap > p{
 }
 #output_KRW div.before_send_money_wrap .cancel_btn{
     background: #fff;
-    border: 1px solid #1b2f4a;
+    border: 1px solid #7AABDF;
     border-radius: 5px;
     padding: 7px 30px;
-    color: #1b2f4a;
+    color: #7AABDF;
     font-weight: 600;
     margin-left: 20px;
     font-size: 16px;
@@ -503,8 +503,8 @@ div.before_send_money_wrap > p{
     background-color: #666;
 }
 #output_KRW div.before_send_money_wrap .if_you_all_agree{
-  border: 1px solid #1b2f4a;
-  background-color: #1b2f4a;
+  border: 1px solid #7AABDF;
+  background-color: #7AABDF;
   cursor: pointer;
 }
 
@@ -547,12 +547,12 @@ div.before_send_money_wrap > p{
     margin-top: 16px;
     padding: 15px 0;
     margin-bottom: 15px;
-    border-top: 2px solid #1b2f4a;
+    border-top: 2px solid #7AABDF;
     padding-left: 16px;
     border-bottom: 1px solid #efefef;
 }
 #input_bitcoin div.BTC_input_address_wrap > p{
-    color: #1b2f4a;
+    color: #7AABDF;
     font-weight: 600;
     margin-bottom: 5px;
     font-size:16px;
@@ -570,8 +570,8 @@ div.before_send_money_wrap > p{
     width: 100px;
 }
 #input_bitcoin div.BTC_input_address_wrap input[type='button']{
-    border: 1px solid #1b2f4a;
-    background: #1b2f4a;
+    border: 1px solid #7AABDF;
+    background: #7AABDF;
     color: #fff;
     padding: 5px 25px;
     cursor: pointer;
@@ -600,10 +600,10 @@ div.before_send_money_wrap > p{
     margin-top: 50px;
 }
 #input_bitcoin div.before_send_money_wrap > p.before_send_money_paragraph{
-    color: #1b2f4a;
+    color: #7AABDF;
     font-weight: 600;
     margin-bottom: 12px;
-    border-bottom: 2px solid #1b2f4a;
+    border-bottom: 2px solid #7AABDF;
     padding-bottom: 8px;
     font-size:16px;
 }
@@ -659,7 +659,7 @@ div.before_send_money_wrap > p{
     margin-bottom: 15px;
 }
 #output_bitcoin div.account_table_wrap > div > p{
-    color: #1b2f4a;
+    color: #7AABDF;
     font-weight: 600;
     margin-bottom: 15px;
     font-size:16px;
@@ -714,10 +714,10 @@ div.before_send_money_wrap > p{
 }
 #output_bitcoin div.before_send_money_wrap .cancel_btn{
     background: #fff;
-    border: 1px solid #1b2f4a;
+    border: 1px solid #7AABDF;
     border-radius: 5px;
     padding: 7px 30px;
-    color: #1b2f4a;
+    color: #7AABDF;
     font-weight: 600;
     margin-left: 20px;
     font-size: 16px;
@@ -736,8 +736,8 @@ div.before_send_money_wrap > p{
     background-color: #666;
 }
 #output_bitcoin div.before_send_money_wrap .if_you_all_agree{
-  border: 1px solid #1b2f4a;
-  background-color: #1b2f4a;
+  border: 1px solid #7AABDF;
+  background-color: #7AABDF;
   cursor: pointer;
 }
 .before_send_money_01{
@@ -858,7 +858,7 @@ div.before_send_money_wrap > p{
   margin:0 5px;
   line-height:32px;
   font-weight: 600;
-  color: #1b2f4a;
+  color: #7AABDF;
 }
 .tab2_header .days div{
   float:left;
@@ -873,7 +873,7 @@ div.before_send_money_wrap > p{
   font-size:14px;
   height: 34px;
   text-indent: 3px;
-  border:1px solid #1b2f4a;
+  border:1px solid #7AABDF;
 }
 .table_top .tab2_header {
   overflow: hidden;
@@ -894,7 +894,7 @@ div.before_send_money_wrap > p{
   margin:0 5px;
   line-height:32px;
   font-weight: 600;
-  color: #1b2f4a;
+  color: #7AABDF;
 }
 table.mycoin_table{
   margin: 0 auto;
@@ -904,14 +904,14 @@ table .mycoin_thead_deco{
   background-color: #e8eaed;
 }
 table .mycoin_thead_deco tr{
-  border-bottom: 2px solid #1b2f4a;
+  border-bottom: 2px solid #7AABDF;
   background-color:#f4f5f8;
 }
 .mycoin_thead_deco th select {
   height: 30px;
   text-indent: 1px;
-  border: 1px solid #1b2f4a;
-  color: #1b2f4a;
+  border: 1px solid #7AABDF;
+  color: #7AABDF;
   font-weight: 600;
   font-size: 14px;
   background-color:#f4f5f8;
@@ -925,7 +925,7 @@ table .mycoin_tbody_deco>tr>td.coin_td {
 }
 table .mycoin_tbody_deco>tr>td .temporary_address_click {
   display: inline-block;
-  background: #1b2f4a;
+  background: #7AABDF;
   color: #fff;
   width:300px;
   border-radius: 5px;
@@ -942,7 +942,7 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
   margin-left: -5px;
   border-width: 7px;
   border-style: solid;
-  border-color:  transparent transparent #1b2f4a transparent;
+  border-color:  transparent transparent #7AABDF transparent;
 }
 
 /*입출금내역 버튼 영역*/
@@ -950,12 +950,12 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
   padding: 2px 8px;
   margin:0 2px;
   background-color: white;
-  color:#1b2f4a; border: 1px solid #1b2f4a;
+  color:#7AABDF; border: 1px solid #7AABDF;
   cursor:pointer;
 }
 .btn_small2:hover{
   color:white;
-  background-color: #1b2f4a;
+  background-color: #7AABDF;
 }
 
 /*입출금 페이지 준비가 안됐을 시에*/
@@ -973,14 +973,14 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
     padding-bottom: 50px;
 }
 #output_bitcoin .out_put_you_cannot p.we_are_ready{
-    color: #1b2f4a;
+    color: #7AABDF;
     font-weight: 600;
     /*margin: 50px 0 40px 0;*/
     font-size: 35px;
     padding-top:10px;
     /*padding-bottom: 10px;*/
     /*display: inline-block;*/
-    /*border-bottom: 5px solid #1b2f4a;*/
+    /*border-bottom: 5px solid #7AABDF;*/
 }
 
 /*인증팝업창*/
@@ -988,7 +988,7 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
   padding:20px 0;
 }
 #leave_member_agree_btn{
-  background:#1b2f4a;
+  background:#7AABDF;
   border-radius:5px;
   padding: 7px 30px;
   color: #fff;
@@ -1008,15 +1008,15 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
     color:red;
   }
   .account_table_wrap .cofirm_number{
-    border: 1px solid #1b2f4a;
+    border: 1px solid #7AABDF;
     background: #fff;
-    color: #1b2f4a;
+    color: #7AABDF;
     padding: 3px 5px;
     cursor: pointer;
     font-size:15px;
   }
   .account_table_wrap .cofirm_number:hover{
-    background:#1b2f4a;
+    background:#7AABDF;
     color:#fff;
   }
 
@@ -1029,8 +1029,8 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
     width: 350px;
 }
 #deal_orgin_transaction h3{
-    color:#1b2f4a;
-    border-bottom:3px solid #1b2f4a;
+    color:#7AABDF;
+    border-bottom:3px solid #7AABDF;
     padding:15px 20px 10px 20px;
 }
 #deal_orgin_transaction table{
@@ -1111,8 +1111,8 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
     width: 28.5%;
 }
 #mywallet_havecoin h3{
-    color:#1b2f4a;
-    border-bottom:3px solid #1b2f4a;
+    color:#7AABDF;
+    border-bottom:3px solid #7AABDF;
     padding:15px 20px 10px 20px;
 }
 #mywallet_havecoin form{
@@ -1137,7 +1137,7 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
 }
 #mywallet_havecoin thead th{
     padding-left:51px;
-    color:#1b2f4a;
+    color:#7AABDF;
 }
 #mywallet_havecoin thead th.coin_condition{
     padding-left:29px;
@@ -1197,12 +1197,12 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
   }
 #mywallet_havecoin .button_hover{
     margin-right:3px;
-    border:1px solid #1b2f4a;
-    color:#1b2f4a;
+    border:1px solid #7AABDF;
+    color:#7AABDF;
     padding: 5px 2px;
 }
 #mywallet_havecoin .button_hover:hover{
-    background:#1b2f4a;
+    background:#7AABDF;
     color:#fff;
     padding: 5px 2px;
 }

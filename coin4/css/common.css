@@ -64,7 +64,7 @@
 }
 .box h3.title {
   display: block;
-  background-color: #1b2f4a;
+  background-color: #7AABDF;
   color: #fff;
   padding: 17px 25px;
   border-radius: 5px 5px 0 0;
@@ -112,7 +112,7 @@
     color:#fff;
     font-size:20px;
     font-weight: 600;
-    background: #1b2f4a;
+    background: #7AABDF;
     border:none;
     border-radius:5px;
     padding:8px 0;
@@ -131,23 +131,23 @@
   padding: 2px 10px;
   margin:0 2px;
   background-color: white;
-  color:#1b2f4a; border: 1px solid #1b2f4a;
+  color:#7AABDF; border: 1px solid #7AABDF;
   cursor:pointer;
 }
 .btn_small:hover{
   color:white;
-  background-color: #1b2f4a;
+  background-color: #7AABDF;
 }
 
 /*거래소 등 h3 스타일*/
 .exchange_h3,
 .mywallet_h3{
-    border-bottom: 3px solid #1b2f4a;
+    border-bottom: 3px solid #7AABDF;
     text-align: left;
     padding: 15px 20px 10px 20px;
     font-size: 1.17em;
     font-weight: 600;
-    color: #1b2f4a;
+    color: #7AABDF;
 }
 
 /*thead 부분 서식 스타일*/
@@ -155,7 +155,7 @@
     background-color:#05080B;
 }
 .thead_deco a{
-    color:#1b2f4a;
+    color:#7AABDF;
 }
 .thead_deco a:hover{
     opacity:0.8;
@@ -202,7 +202,7 @@ input[type='checkbox']:checked + label:before{ /* 체크박스를 체크했을�
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
     font-size: 14px;
     font-weight:800;
-    color: #1b2f4a;
+    color: #7AABDF;
     text-align: center;
     line-height: 15px;
 }
@@ -241,7 +241,7 @@ input[type='checkbox']:checked + label:before{ /* 체크박스를 체크했을�
   -webkit-border-radius: 7px;
   border-radius: 10px;
   background: #ADADAD;
-  -webkit-box-shadow: inset 0 0 2px #1b2f4a;
+  -webkit-box-shadow: inset 0 0 2px #7AABDF;
 }
 
 /*말풍선*/
@@ -282,9 +282,9 @@ table.left_thick_table tbody tr{
 }
 table.left_thick_table tbody th{
     background-color: #f4f5f9;
-    border-left: 2px solid #1b2f4a;
+    border-left: 2px solid #7AABDF;
     padding: 5px 10px;
-    color: #1b2f4a;
+    color: #7AABDF;
     font-size: 14px;
     font-weight: 600;
     width:35%;
@@ -298,7 +298,7 @@ table.left_thick_table tbody td{
 p.recharge_coin{
     font-size: 17px;
     font-weight: 600;
-    color: #1b2f4a;
+    color: #7AABDF;
     margin-bottom: 11px;
 }
 div.my_coin_state {
@@ -306,7 +306,7 @@ div.my_coin_state {
     width: 800px;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid #1b2f4a;
+    border: 1px solid #7AABDF;
     background-color: rgba(27,47,74,.2);
     margin-bottom: 20px;
 }
@@ -329,7 +329,7 @@ div.my_coin_state ul li p.my_coin_state_title{
 }
 div.my_coin_state ul li p.my_coin_state_amount{
     text-align: right;
-    color: #1b2f4a;
+    color: #7AABDF;
     font-size: 22px;
     font-weight: 600;
     padding-right: 3px;
@@ -348,8 +348,8 @@ div.cancel_or_apply .agree_btn {
   font-weight: 600;
   font-size: 16px;
   box-sizing: border-box;
-  border: 1px solid #1b2f4a;
-  background-color: #1b2f4a;
+  border: 1px solid #7AABDF;
+  background-color: #7AABDF;
   cursor:pointer;
 }
 div.cancel_or_apply .agree_btn:hover{
@@ -363,8 +363,8 @@ div.cancel_or_apply .if_you_not_all_agree:hover{
     background-color: #666;
 }
 div.cancel_or_apply .if_you_all_agree{
-  border: 1px solid #1b2f4a;
-  background-color: #1b2f4a;
+  border: 1px solid #7AABDF;
+  background-color: #7AABDF;
   cursor: pointer;
 }
 div.cancel_or_apply .if_you_all_agree:hover{
@@ -373,10 +373,10 @@ div.cancel_or_apply .if_you_all_agree:hover{
 
  div.cancel_or_apply .cancel_btn{
     background: #fff;
-    border: 1px solid #1b2f4a;
+    border: 1px solid #7AABDF;
     border-radius: 5px;
     padding: 7px 30px;
-    color: #1b2f4a;
+    color: #7AABDF;
     font-weight: 600;
     margin-left: 20px;
     font-size: 16px;
@@ -404,18 +404,18 @@ div.cancel_or_apply .if_you_all_agree:hover{
     width: 150px;
     display: inline-block;
     padding: 10px 0;
-    color:#1b2f4a;
+    color:#7AABDF;
 }
 .tab3_header ul li + li {
   margin-left: 20px;
 }
 .tab3_header ul li{
-  border:1px solid #1b2f4a;
-  color:#1b2f4a;
+  border:1px solid #7AABDF;
+  color:#7AABDF;
 }
 .tab3_header ul li.active2{
-  border:1px solid #1b2f4a;
-  background-color:#1b2f4a;
+  border:1px solid #7AABDF;
+  background-color:#7AABDF;
 }
 .tab3_header ul li.active2 a{
     color:#fff;
@@ -462,7 +462,7 @@ div.cancel_or_apply .if_you_all_agree:hover{
   left: 0;
 }
 .cer_center .cer_level li strong {
-  color:#1B2F4A;
+  color:#7AABDF;
   display: block;
   font-size: 16px;
   margin: 7px 0;
@@ -511,7 +511,7 @@ div.cancel_or_apply .if_you_all_agree:hover{
     letter-spacing:1px;
     cursor:pointer;
     font-weight: 600;
-    color: #1b2f4a;
+    color: #7AABDF;
 }
 .coinSelect_area .coinSelect dt {
     background: url("../img/arrow_down_dg.png") no-repeat right 17px;
@@ -583,12 +583,12 @@ div.cancel_or_apply .if_you_all_agree:hover{
 }
 .coin_money_inner strong{
   font-size:20px;
-  color: #1b2f4a;
+  color: #7AABDF;
   font-weight: 600;
 }
 .coin_money_inner .coin_word{
   margin-left:5px;
-  color: #1b2f4a;
+  color: #7AABDF;
   font-weight: 600;
 }
 .coin_money_inner .price{
@@ -610,7 +610,7 @@ div.cancel_or_apply .if_you_all_agree:hover{
   cursor: pointer;
   font-size: 23px;
   font-weight: 600;
-  color: #1b2f4a;
+  color: #7AABDF;
 }
 .coin_money_inner .coin_prepare {
   font-size: 18px;
@@ -658,7 +658,7 @@ div.cancel_or_apply .if_you_all_agree:hover{
   width: 18%;
   margin-right: 2%;
   float: left;
-  background-color: #1b2f4a;
+  background-color: #7AABDF;
   border-radius: 5px;
   padding: 20px;
   box-sizing: border-box;
@@ -714,7 +714,7 @@ div.cancel_or_apply .if_you_all_agree:hover{
     padding: 40px 45px;
 }
 .mypage_content h4 {
-  color: #1b2f4a;
+  color: #7AABDF;
   font-size: 19px;
   margin-bottom: 15px;
 }
@@ -730,7 +730,7 @@ div.cancel_or_apply .if_you_all_agree:hover{
   font-size:14px;
   height: 30px;
   text-indent: 3px;
-  border:1px solid #1b2f4a;
+  border:1px solid #7AABDF;
 }
 .days ::-webkit-inner-spin-button {
      height: 30px;
@@ -748,7 +748,7 @@ div.cancel_or_apply .if_you_all_agree:hover{
   margin:0 5px;
   line-height:32px;
   font-weight: 600;
-  color: #1b2f4a;
+  color: #7AABDF;
 }
 .days div{
   float:left;
@@ -758,7 +758,7 @@ div.cancel_or_apply .if_you_all_agree:hover{
   width:50px;
   height:32px;
   margin-left:10px;
-  background-color:#1b2f4a;
+  background-color:#7AABDF;
   color:#fff;
   font-weight:600;
   cursor:pointer;
@@ -776,7 +776,7 @@ div.cancel_or_apply .if_you_all_agree:hover{
 .signUp_right_con > input
 {
     border: none;
-    border-bottom: 1px solid #1b2f4a;
+    border-bottom: 1px solid #7AABDF;
     width: 330px;
     padding-bottom: 4px;
     font-size:15px;
@@ -784,9 +784,9 @@ div.cancel_or_apply .if_you_all_agree:hover{
 #output_bitcoin table.left_thick_table tbody input[type='button'],
 #output_KRW table.left_thick_table tbody input[type='button'],
 #withdrawal_text3 table.left_thick_table tbody input[type='button']{
-    border: 1px solid #1b2f4a;
+    border: 1px solid #7AABDF;
     background: #fff;
-    color: #1b2f4a;
+    color: #7AABDF;
     padding: 3px 5px;
     cursor: pointer;
     font-size:15px;
@@ -794,8 +794,8 @@ div.cancel_or_apply .if_you_all_agree:hover{
 #output_bitcoin table.left_thick_table tbody input[type='button']:hover,
 #output_KRW table.left_thick_table tbody input[type='button']:hover,
 #withdrawal_text3 table.left_thick_table tbody input[type='button']:hover{
-    border: 1px solid #1b2f4a;
-    background: #1b2f4a;
+    border: 1px solid #7AABDF;
+    background: #7AABDF;
     color: #fff;
     padding: 3px 5px;
     cursor: pointer;
@@ -817,13 +817,13 @@ div.cancel_or_apply .if_you_all_agree:hover{
 /*완료창 레벨글씨 크기*/
 .complete_level{
   font-size:18px;
-  color:#1b2f4a;
+  color:#7AABDF;
 }
 
 /*인증센터 소제목 서식*/
 .center_bottom .content_title,
 .myinfo_sub_box .send_login_password .table_title{
-    color: #1b2f4a;
+    color: #7AABDF;
     font-weight: 600;
     margin-bottom: 42px;
     font-size: 18px;
@@ -831,14 +831,14 @@ div.cancel_or_apply .if_you_all_agree:hover{
 
 /* 셀렉트박스&검색영역 */
 #look_method{
-    border: 1px solid #1b2f4a;
+    border: 1px solid #7AABDF;
     width: 140px;
     height: 32px;
     vertical-align: middle;
     margin-right: 5px;
     text-indent: 9px;
     float: left;
-    color: #1b2f4a;
+    color: #7AABDF;
 }
 #look_method option{
     border: 1px solid red;
@@ -852,7 +852,7 @@ div.cancel_or_apply .if_you_all_agree:hover{
     width: 200px;
     height: 30px;
     border: none;
-    border-bottom: 2px solid #1b2f4a;
+    border-bottom: 2px solid #7AABDF;
     font-size: 12px;
     text-indent: 10px;
     margin-right: 45px;
@@ -864,7 +864,7 @@ div.cancel_or_apply .if_you_all_agree:hover{
     position:absolute;
     right:0;
     top: 6px;
-    border-bottom: 2px solid #1b2f4a;
+    border-bottom: 2px solid #7AABDF;
 }
 
 
@@ -917,7 +917,7 @@ box-shadow:none;
   }
   .con_640{
     width:100%;
-    background:#1b2f4a;
+    background:#7AABDF;
   }
 
   /* 컨텐츠 네비 */
@@ -974,7 +974,7 @@ box-shadow:none;
       box-sizing: border-box;
   }
   .content_nav_responsive li.on {
-    border-top: 2px solid #1b2f4a;
+    border-top: 2px solid #7AABDF;
     background-color: #fff;
   }
   .content_nav_responsive li a{
@@ -986,7 +986,7 @@ box-shadow:none;
     padding: 9px 0;
   }
   .content_nav_responsive li a.active{
-      color: #1b2f4a;
+      color: #7AABDF;
       font-weight: 600;
   }
   .mypage_content{
@@ -1003,13 +1003,13 @@ box-shadow:none;
   text-align: center;
   padding: 7px 0;
   font-weight: 600;
-  color: #1b2f4a;
-  border: 1px solid #1b2f4a;
+  color: #7AABDF;
+  border: 1px solid #7AABDF;
   background-color: #fff;
   display: inline-block;
   }
   .guide_responsive .guide_select span.clicked {
-    background-color: #1b2f4a;
+    background-color: #7AABDF;
     color: #fff;
   }
   .guide_responsive .guide_select span.marginTop {
@@ -1058,7 +1058,7 @@ box-shadow:none;
       padding: 20px;
   }
   .login_responsive .login_content #login_area_responsive h3{
-      color: #1B2F4A;
+      color: #7AABDF;
       font-size: 20px;
       padding-bottom: 20px;
   }
@@ -1082,7 +1082,7 @@ box-shadow:none;
       color: #fff;
       font-size: 15px;
       font-weight: 600;
-      background: #1b2f4a;
+      background: #7AABDF;
       border: none;
       border-radius: 5px;
       padding: 8px 0;

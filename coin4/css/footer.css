@@ -73,7 +73,7 @@
   display: inline-block;
 }
 .footer_menu .footer_nav ul li a.pp {
-  color: #1b2f4a;
+  color: #7AABDF;
   font-weight: 600;
 }
 #app_footer_wrap{
@@ -92,7 +92,7 @@
     padding:25px 10px;
     font-size:12px;
     line-height: 1.5em;
-    background-color:#1b2f4a;
+    background-color:#7AABDF;
     color:#fff;
   }
   #app_footer .app_footer_info .footer_logo{

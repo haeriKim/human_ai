@@ -1,9 +1,9 @@
 
 .common_table_content .common_table thead {
-    border-bottom: 2px solid #1b2f4a;
+    border-bottom: 2px solid #7AABDF;
     background-color: #f4f5f8;
     line-height: 50px;
-    color: #1b2f4a;
+    color: #7AABDF;
 }
 .common_table_content .common_table tbody tr th,
 .common_table_content .common_table tbody tr td{
@@ -15,7 +15,7 @@
     border-top: 1px solid #f4f5f9;
 }
 .common_table_content .common_table tbody tr th{
-    color: #1b2f4a;
+    color: #7AABDF;
     font-size: 15px;
     border-top: 1px solid #999;
     border-right: 1px solid #999;
@@ -24,7 +24,7 @@
     line-height: 1.3;
 }
 .common_table_content .common_table tbody tr.certification_method td{
-    color: #1b2f4a;
+    color: #7AABDF;
     font-weight: 600;
     font-size: 15px;
     border-top: none;

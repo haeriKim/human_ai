@@ -4,7 +4,7 @@
 }
 .cer_center .center_bottom .cText_left3 {
   float: left;
-  border-right: 1px solid #1B2F4A;
+  border-right: 1px solid #7AABDF;
   width: 45%;
   margin-right: 3%;
   height: 500px;
@@ -12,12 +12,12 @@
 }
 .center_bottom .cText_left3 strong{
   font-size:15px;
-  color:#1b2f4a;
+  color:#7AABDF;
   margin-bottom:20px;
   display:block;
 }
 .center_bottom .content_title{
-    color: #1b2f4a;
+    color: #7AABDF;
     font-weight: 600;
     margin-bottom: 20px;
     font-size: 18px;
@@ -38,7 +38,7 @@
   font-weight:600;
 }
 .cText_left3 li.app_text{
-  color:#1b2f4a;
+  color:#7AABDF;
   overflow: hidden;
 }
 
@@ -68,7 +68,7 @@
 }
 .cer_center .center_bottom .cText_right3 strong{
   font-size:15px;
-  color:#1b2f4a;
+  color:#7AABDF;
   margin-bottom:10px;
   display:block;
 }
@@ -79,7 +79,7 @@
   font-size:15px;
   font-weight:600;
   line-height:2.5em;
-  color:#1b2f4a;
+  color:#7AABDF;
 }
 .cText_right3 .qr_code_img{
   float:left;
@@ -99,7 +99,7 @@
   color:#c95b74;
 }
 .cText_right3 .qr_code_imgbox{
-  border:1px solid #1b2f4a;
+  border:1px solid #7AABDF;
   display:block;
   padding:15px;
   margin-bottom:55px;
@@ -111,7 +111,7 @@
 }
 .cText_right3 .qr_code_key2{
   margin-top:30px;
-  border:1px solid #1b2f4a;
+  border:1px solid #7AABDF;
   padding:5px 10px;
 }
 .cText_right3 .OTP_code{
@@ -131,7 +131,7 @@
   color:#a1a1a1;
   border:none;
   width:400px;
-  border-bottom:1px solid #1b2f4a;
+  border-bottom:1px solid #7AABDF;
   padding-bottom:5px;
   margin-bottom:10px;
 
@@ -148,8 +148,8 @@
     font-weight: 600;
     font-size: 16px;
     box-sizing: border-box;
-    border: 1px solid #1b2f4a;
-    background-color: #1b2f4a;
+    border: 1px solid #7AABDF;
+    background-color: #7AABDF;
     margin-top: 40px;
     cursor: pointer;
 }
@@ -160,11 +160,11 @@
   border-radius: 5px;
   padding: 7px 30px;
   width:100px;
-  color: #1b2f4a;
+  color: #7AABDF;
   font-weight: 600;
   font-size: 16px;
   box-sizing: border-box;
-  border: 1px solid #1b2f4a;
+  border: 1px solid #7AABDF;
   background-color: #fff;
   margin-top:20px;
   cursor: pointer;

@@ -19,7 +19,7 @@
 
 .coinInfo_area .text_area h4 {
   font-size: 17px;
-  color: #1b2f4a;
+  color: #7AABDF;
 }
 .coinInfo_area .text_area p {
    margin: 20px 0;
@@ -35,8 +35,8 @@
     height: 30px;
     line-height: 30px;
     display: inline-block;
-    border: 1px solid #1b2f4a;
-    color: #1b2f4a;
+    border: 1px solid #7AABDF;
+    color: #7AABDF;
     text-align: center;
     margin-left: 12px;
 }
@@ -45,7 +45,7 @@
 }
 .coinInfo_area p a:hover {
   color: #fff;
-  background-color: #1b2f4a;
+  background-color: #7AABDF;
 }
 .coninInfo_content .price_info {
     float: right;

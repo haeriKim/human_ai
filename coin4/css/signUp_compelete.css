@@ -8,13 +8,13 @@
 }
 #signUp_c_area .complete_text {
   text-align: center;
-  border-bottom: 1px solid #1B2F4A;
+  border-bottom: 1px solid #7AABDF;
   margin-bottom: 30px;
   padding-bottom: 20px;
 }
 #signUp_c_area .complete_text strong {
   display: block;
-  color: #1B2F4A;
+  color: #7AABDF;
   font-size: 19px;
   font-weight: 600;
   margin: 10px 0;
@@ -39,7 +39,7 @@
 }
 #signUp_c_area .cer_center .cer_level a {
   display: inline-block;
-  background-color: #1B2F4A;
+  background-color: #7AABDF;
   border-radius: 5px;
   color: #fff;
   padding: 4px 20px;
@@ -54,15 +54,15 @@
 }
 #signUp_c_area .btn_area a.look_around, #signUp_c_area .btn_area a.go_login {
   display: inline-block;
-  border: 1px solid #1B2F4A;
+  border: 1px solid #7AABDF;
   border-radius: 5px;
   width: 130px;
   padding: 7px 5px;;
   font-weight: 600;
-  color: #1B2F4A;
+  color: #7AABDF;
 }
 #signUp_c_area .btn_area a.go_login {
-  background: #1B2F4A;
+  background: #7AABDF;
   color: #fff;
 }
 #signUp_c_area .btn_area a.go_login:hover {
@@ -90,12 +90,12 @@
     margin-top:20px;
   }
   .loginC_content .loginC_story h4{
-    color:#1b2f4a;
+    color:#7AABDF;
     font-size:18px;
   }
   .loginC_content .loginC_story p{
     margin:20px 0;
-    color:#1b2f4a;
+    color:#7AABDF;
   }
   .loginC_content .loginC_story span{
     color:#c95b74;
@@ -103,8 +103,8 @@
   }
   .loginC_content .loginC_story input.home_bt{
   background:#fff;
-  border: 1px solid #1b2f4a;
-  color: #1b2f4a;
+  border: 1px solid #7AABDF;
+  color: #7AABDF;
   padding: 10px 0;
   font-size: 12px;
   width: 60%;
@@ -114,7 +114,7 @@
   margin-top: 10px;
   }
   .loginC_content .loginC_story input.login_bt{
-  background:#1b2f4a;
+  background:#7AABDF;
   border: none;
   color: #fff;
   padding: 10px 0;

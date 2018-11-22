@@ -23,7 +23,7 @@
     float: left;
     overflow: hidden;
     margin: 20px 0;
-    color: #1b2f4a;
+    color: #7AABDF;
 }
 
 .submenu_mypage_inner .profile #profile_name {
@@ -46,7 +46,7 @@
 
 .submenu_mypage_inner .submenu_mypage_info #submenu_mypage_select {
     width: 293px;
-    border: 1px solid #1b2f4a;
+    border: 1px solid #7AABDF;
     background-color: rgba(27,47,74,.2);
     padding: 10px 0;
     font-size: 15px;
@@ -65,14 +65,14 @@
 }
 
 .submenu_mypage_inner .submenu_mypage_info table th {
-    border-bottom: 1px solid #1b2f4a;
+    border-bottom: 1px solid #7AABDF;
     text-align: left;
     padding: 15px 0;
     font-size: 14px;
 }
 
 .submenu_mypage_inner .submenu_mypage_info table td {
-    border-bottom: 1px solid #1b2f4a;
+    border-bottom: 1px solid #7AABDF;
     text-align: right;
     width: 150px;
     color: #555;
@@ -101,7 +101,7 @@
 
 .submenu_mypage_inner .submenu_mypage_info .submenu_mypage_table_bottom p a {
     float: right;
-    color: #1b2f4a;
+    color: #7AABDF;
     font-weight: 600;
     cursor: pointer;
     margin-top: 2px;
@@ -112,7 +112,7 @@
 }
 
 .submenu_mypage_inner .submenu_mypage_info .submenu_mypage_table_bottom b {
-  color: #1b2f4a;
+  color: #7AABDF;
 }
 
 /*submenu_security*/
@@ -137,7 +137,7 @@
 
 .submenu_security_inner .submenu_security_title {
   font-size: 15px;
-  color: #1b2f4a;
+  color: #7AABDF;
   font-weight: 600;
   text-align: left;
   padding: 20px 0 0 100px;

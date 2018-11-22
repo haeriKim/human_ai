@@ -5,7 +5,7 @@
 }
 .cer_center .center_bottom .cText_left {
   float: left;
-  border-right: 1px solid #1B2F4A;
+  border-right: 1px solid #7AABDF;
   width: 51%;
   margin-right: 3%;
 }
@@ -13,14 +13,14 @@
   margin-bottom: 100px;
 }
 .cer_center .center_bottom .cText_left .current_level b {
-  color: #1B2F4A;
+  color: #7AABDF;
   font-size: 20px;
 }
 .cer_center .center_bottom .cText_left .current_level b .level_color {
   color: #c95b74;
 }
 .cer_center .center_bottom .cText_left strong {
-  color: #1B2F4A;
+  color: #7AABDF;
   display: block;
   margin-bottom: 20px;
 }
@@ -59,7 +59,7 @@
 }
 .cer_center .center_bottom .cText_right li p {
   display: inline-block;
-  color: #1B2F4A;
+  color: #7AABDF;
   font-weight: 600;
 }
 .cer_center .center_bottom .cText_right li p span {
@@ -76,7 +76,7 @@
   padding: 7px 0;
   box-sizing: border-box;
   color: #fff;
-  background-color: #1B2F4A;
+  background-color: #7AABDF;
   border-radius: 5px;
   text-align: center;
   font-size: 14px;

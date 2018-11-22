@@ -3,7 +3,7 @@
     box-sizing: border-box;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid #1b2f4a;
+    border: 1px solid #7AABDF;
     background-color: rgba(27,47,74,.2);
     margin: 0 auto;
     margin-bottom: 35px;
@@ -15,7 +15,7 @@ padding: 7px 60px 0px 10px
 }
 .myinfo_small_info_box .myinfo_box1 strong{
     font-size:22px;
-    color: #1b2f4a;
+    color: #7AABDF;
 }
 /*흰상자부분*/
 .myinfo_small_info_box .myinfo_box2{
@@ -86,20 +86,20 @@ padding: 7px 60px 0px 10px
 margin-left: 10px;
 }
 .myinfo_sub_box table.left_thick_table tr td b.complete {
-  color: #1b2f4a;
+  color: #7AABDF;
 }
 .myinfo_sub_box table.left_thick_table tbody input[type='button'], .myinfo_sub_box table.left_thick_table tbody input[type='submit']{
-    border: 1px solid #1b2f4a;
+    border: 1px solid #7AABDF;
     background: #fff;
-    color: #1b2f4a;
+    color: #7AABDF;
     padding: 3px 5px;
     cursor: pointer;
     margin-left: 5px;
     font-size:15px;
 }
 .myinfo_sub_box table.left_thick_table tbody input[type='button']:hover, .myinfo_sub_box table.left_thick_table tbody input[type='submit']:hover{
-    border: 1px solid #1b2f4a;
-    background: #1b2f4a;
+    border: 1px solid #7AABDF;
+    background: #7AABDF;
     color: #fff;
     padding: 3px 5px;
     cursor: pointer;
@@ -108,7 +108,7 @@ margin-left: 10px;
 .myinfo_sub_box table.left_thick_table tbody input[type='text'],
 .myinfo_sub_box table.left_thick_table tbody input[type='tel'] {
     border: none;
-    border-bottom: 1px solid #1b2f4a;
+    border-bottom: 1px solid #7AABDF;
     width: 330px;
     padding-bottom: 4px;
     font-size: 15px;
@@ -131,7 +131,7 @@ table .password_question_detail, table .password_question_detail2{
   box-sizing: border-box;
   padding:20px;
   color:white;
-  background-color:#1b2f4a; border-radius: 5px;
+  background-color:#7AABDF; border-radius: 5px;
   opacity:0.9; position:absolute;
   width:600px;
   top:40px;
@@ -150,7 +150,7 @@ table .password_question_detail:before,table .password_question_detail2:before {
   top: -10px;
   left: 50%;
   margin-left: -10px;
-  border-bottom:10px solid #1b2f4a;
+  border-bottom:10px solid #7AABDF;
   border-left:10px solid transparent;
   border-right:10px solid transparent;
   opacity:0.9;
@@ -170,7 +170,7 @@ table td div.question_smallbox:hover .password_question_detail2{
 }
 
 .myinfo_text_box h3{
-  color:#1b2f4a;
+  color:#7AABDF;
 }
 
 /*핸드폰,계좌변경,OTP변경 페이지 통일*/
@@ -253,7 +253,7 @@ font-weight: 600;
 font-size: 16px;
 box-sizing: border-box;
 border: none;
-background-color: #1b2f4a;
+background-color: #7AABDF;
 cursor: pointer;
 }
 .phone_change_box2 .cancel_btn_ok:hover{
@@ -282,9 +282,9 @@ cursor: pointer;
 }
 .change_OTP_table th{
   background-color: #f4f5f9;
-  border-left: 2px solid #1b2f4a;
+  border-left: 2px solid #7AABDF;
   padding: 5px 10px;
-  color: #1b2f4a;
+  color: #7AABDF;
   font-size: 14px;
   font-weight: 600;
   width: 35%;
@@ -295,38 +295,38 @@ cursor: pointer;
 }
 .change_OTP_table .input_your_sms_number{
   border: none;
-  border-bottom: 1px solid #1b2f4a;
+  border-bottom: 1px solid #7AABDF;
   width: 330px;
   padding-bottom: 4px;
   font-size: 15px;
 }
 .change_OTP_table .request_number{
-  border: 1px solid #1b2f4a;
+  border: 1px solid #7AABDF;
   background: #fff;
-  color: #1b2f4a;
+  color: #7AABDF;
   padding: 3px 5px;
   font-size:15px;
   cursor: pointer;
 }
 .change_OTP_table .request_number:hover{
-  border:1px solid #1b2f4a;
-  background:#1b2f4a;
+  border:1px solid #7AABDF;
+  background:#7AABDF;
   color:#fff;
   padding: 3px 5px;
   font-size:15px;
   cursor: pointer;
 }
 .change_OTP_table .cofirm_number{
-  border: 1px solid #1b2f4a;
+  border: 1px solid #7AABDF;
   background: #fff;
-  color: #1b2f4a;
+  color: #7AABDF;
   padding: 3px 5px;
   font-size:15px;
   cursor: pointer;
 }
 .change_OTP_table .cofirm_number:hover{
-  border:1px solid #1b2f4a;
-  background:#1b2f4a;
+  border:1px solid #7AABDF;
+  background:#7AABDF;
   color:#fff;
   padding: 3px 5px;
   font-size:15px;
@@ -352,6 +352,6 @@ cursor: pointer;
   font-size: 16px;
   box-sizing: border-box;
   border: none;
-  background-color: #1b2f4a;
+  background-color: #7AABDF;
   cursor: pointer;
 }

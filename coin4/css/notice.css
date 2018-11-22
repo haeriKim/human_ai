@@ -7,11 +7,11 @@
   font-size: 15px;
 }
 .notice_area .notice_list thead {
-  border-bottom: 2px solid #1b2f4a;
+  border-bottom: 2px solid #7AABDF;
   background-color: #f4f5f9;
   height: 45px;
   line-height: 45px;
-  color: #1b2f4a;
+  color: #7AABDF;
 }
 .notice_area .notice_list tr td{
     height:45px;
@@ -28,7 +28,7 @@
 }
 .notice_area .notice_list tr td.important_text {
   font-weight: 600;
-  color: #1b2f4a;
+  color: #7AABDF;
 }
 .notice_area .notice_list tr td.hot {
   color: #d60000;

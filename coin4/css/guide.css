@@ -2,7 +2,7 @@
 
 .guide_OTP_area .guide_OTP_inner .title_title{
   margin:40px 0 30px 0;
-  color:#1b2f4a;
+  color:#7AABDF;
   font-weight:600;
 }
 .guide_OTP_area .guide_OTP_p{
@@ -16,11 +16,11 @@
 }
 .guide_OTP_area .guide_OTP_table th{
     padding: 15px 20px;
-    border-left: 2px solid #1b2f4a;
+    border-left: 2px solid #7AABDF;
     border-bottom: 1px solid #efefef;
     background-color: #f4f5f8;
     font-size: 15px;
-    color: #1b2f4a;
+    color: #7AABDF;
     vertical-align: top;
     width:200px;
 }

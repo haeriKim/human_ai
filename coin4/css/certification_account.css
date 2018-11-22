@@ -10,14 +10,14 @@
   position: relative;
 }
 .center_bottom .content_title{
-    color: #1b2f4a;
+    color: #7AABDF;
     font-weight: 600;
     margin-bottom: 20px;
     font-size:18px;
 }
 .center_bottom strong{
   font-size:17px;
-  color:#1b2f4a;
+  color:#7AABDF;
   margin-bottom:25px;
   display:block;
 }
@@ -44,24 +44,24 @@
   float: left;
   width: 45%;
   padding-left:40px;
-  border-left:1px solid #1b2f4a;
+  border-left:1px solid #7AABDF;
 }
 .cText_right2 ul li{
   font-size:15px;
   font-weight:600;
   line-height:2.5em;
-  color:#1b2f4a;
+  color:#7AABDF;
 }
 .cText_right2 .account{
   overflow: hidden;
 }
 .cText_right2 .account span {
-  color: #1b2f4a;
+  color: #7AABDF;
 }
 .cText_right2 .account select {
-  border: 1px solid #1b2f4a;
+  border: 1px solid #7AABDF;
   width: 100%;
-  color: #1b2f4a;
+  color: #7AABDF;
   height: 25px;
 }
 .cText_right2 .account .bankselect_fixed{
@@ -72,7 +72,7 @@
 }
 .cText_right2 .account input[type="text"] {
   border: none;
-  border-bottom: 1px solid #1b2f4a;
+  border-bottom: 1px solid #7AABDF;
   padding-bottom: 4px;
   width: 100%;
 }
@@ -98,8 +98,8 @@
   background-color: #666;
 }
 .cText_right2 .bank_request input[type="submit"]{
-  border: 1px solid #1b2f4a;
-  background-color: #1b2f4a;
+  border: 1px solid #7AABDF;
+  background-color: #7AABDF;
   cursor: pointer;
 }
 .cText_right2 .code_area {
@@ -112,7 +112,7 @@
   background: #f4f5f9;
 }
 .cText_right2 .code_area p {
-  color: #1b2f4a;
+  color: #7AABDF;
 }
 .cText_right2 .code_area .code_text{
   border: none;
@@ -128,7 +128,7 @@
 }
 .cText_right2 .code_area input[type="text"]{
   border: none;
-  border-bottom: 1px solid #1b2f4a;
+  border-bottom: 1px solid #7AABDF;
   width: 100%;
   padding: 10px 0;
   background:#f4f5f9;
@@ -173,16 +173,16 @@
   background-color: #666;
 }
 .cText_right2 #bank_complete .chk_ok{
-  border: 1px solid #1b2f4a;
-  background-color: #1b2f4a;
+  border: 1px solid #7AABDF;
+  background-color: #7AABDF;
   cursor: pointer;
 }
 .cText_right2 #bank_complete .chk_ok:hover {
   background-color: rgba(27,47,74,.9);
 }
 .cText_right2 #bank_complete .bank_cancel{
-    color: #1b2f4a;
-    border: 1px solid #1b2f4a;
+    color: #7AABDF;
+    border: 1px solid #7AABDF;
     background-color: #fff;
     cursor: pointer;
 }
@@ -232,10 +232,10 @@
 }
 #full .delete_ok{
   border-radius: 5px;
-  background: #1b2f4a;
+  background: #7AABDF;
   font-size: 14px;
   font-weight: 600;
-  border: 1px solid #1b2f4a;
+  border: 1px solid #7AABDF;
   color: #fff;
   padding: 7px 20px;
   cursor: pointer;
@@ -283,6 +283,6 @@
   font-weight: 600;
   font-size: 16px;
   box-sizing: border-box;
-  border: 1px solid #1b2f4a;
-  background-color: #1b2f4a;
+  border: 1px solid #7AABDF;
+  background-color: #7AABDF;
 }

@@ -52,7 +52,7 @@
 #full_content ul li{
     margin:10px 0;
     line-height: 1.4;
-    color:#1b2f4a;
+    color:#7AABDF;
     background: url('../img/check.png') no-repeat 0 3px / 20px ;
     padding-left:25px;
     font-weight:600;
@@ -66,7 +66,7 @@
 #full_content .close_btn,
 #content .close_btn{
     float: right;
-    background: #1b2f4a;
+    background: #7AABDF;
     text-align: center;
     padding: 5px 0;
     width: 70px;
@@ -123,7 +123,7 @@
 }
 
 #question_mark_active .close_btn{
-    background: #1b2f4a;
+    background: #7AABDF;
     text-align: center;
     padding: 5px 20px;
     width: 70px;
@@ -149,7 +149,7 @@
 
 #popupbox p,
 #coin_withdrawal_box p{
-    color:#1b2f4a;
+    color:#7AABDF;
     font-size:16px;
     margin:15px 0;
     text-align: center;
@@ -205,9 +205,9 @@
 }
 #popupbox .popupbox_text table th{
   background-color: #f4f5f9;
-  border-left: 2px solid #1b2f4a;
+  border-left: 2px solid #7AABDF;
   padding: 5px 10px;
-  color: #1b2f4a;
+  color: #7AABDF;
   font-size: 14px;
   font-weight: 600;
   width: 35%;
@@ -218,7 +218,7 @@
 }
 
 #popupbox .popupbox_text b{
-  color:#1b2f4a;
+  color:#7AABDF;
   font-size: 16px;
   font-weight: 600;
 }
@@ -231,16 +231,16 @@
   background:none;
   font-size:14px;
   font-weight:600;
-  border:1px solid #1b2f4a;
-  color: #1b2f4a;
+  border:1px solid #7AABDF;
+  color: #7AABDF;
   padding:7px 20px;
   cursor: pointer;
   box-sizing: border-box;
 }
 .btn_area input[type="button"].ok,
 .btn_area input[type="submit"].ok{
-  border:1px solid #1b2f4a;
-  background-color:#1b2f4a;
+  border:1px solid #7AABDF;
+  background-color:#7AABDF;
   color:#fff;
 }
 .btn_area input[type="submit"].ok:hover,
@@ -288,7 +288,7 @@
 .email_pop input[type="text"] {
   width: 95%;
   border: none;
-  border-bottom: 1px solid #1b2f4a;
+  border-bottom: 1px solid #7AABDF;
   font-size: 16px;
   padding: 3px 5px;
 }
@@ -308,14 +308,14 @@
 }
 #full .email_pop .re_send p {
   float: left;
-  color: #1b2f4a;
+  color: #7AABDF;
   text-align: left;
   font-size: 14px;
   font-weight: 600;
 }
 #full .email_pop .re_send input[type="button"] {
   float: right;
-  background-color: #1b2f4a;
+  background-color: #7AABDF;
   border-radius: 5px;
   border: none;
   padding: 7px 5px ;
@@ -384,7 +384,7 @@
     box-sizing: border-box;
     padding: 20px;
     color: white;
-    background-color: #1b2f4a;
+    background-color: #7AABDF;
     border-radius: 5px;
     position: absolute;
     width: 400px;
@@ -401,7 +401,7 @@
     top: -9px;
     right: 16px;
     margin-left: -10px;
-    border-bottom: 10px solid #1b2f4a;
+    border-bottom: 10px solid #7AABDF;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
 }
@@ -423,7 +423,7 @@
 
 /* 보유코인 유의사항 */
 #question_mark_active p span.popup_important {
-  color: #1b2f4a;
+  color: #7AABDF;
   font-weight: 600;
 }
 /*인증레벨별 한도 보기팝업*/
@@ -459,7 +459,7 @@
     margin: 0 auto;
 }
 .common_table_content .close_btn{
-    background: #1b2f4a;
+    background: #7AABDF;
     text-align: center;
     padding: 5px 20px;
     width: 70px;
@@ -478,7 +478,7 @@
 }
 #full_second .full_inner input[type='button']{
     border-radius: 5px;
-    background: #1b2f4a;
+    background: #7AABDF;
     border: none;
     font-size: 14px;
     font-weight: 600;

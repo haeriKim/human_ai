@@ -44,7 +44,7 @@
     box-sizing: border-box;
     padding: 20px;
     color: white;
-    background-color: #1b2f4a;
+    background-color: #7AABDF;
     border-radius: 5px;
     opacity: 0.9;
     position: absolute;
@@ -60,7 +60,7 @@
     top: -10px;
     left: 50%;
     margin-left: -10px;
-    border-bottom: 10px solid #1b2f4a;
+    border-bottom: 10px solid #7AABDF;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     opacity: 0.9;

@@ -87,6 +87,7 @@
     position: absolute;
     top: -25px;
     left: 75px;
+    background-color: #fff;
 }
 #nav .login_info .alarmArea .alarm_desc:after {
   content: "";
@@ -103,9 +104,9 @@
 }
 #nav .login_info .alarmArea .alarm_desc dt {
   text-align: center;
-  color: #1b2f4a;
+  color: #7AABDF;
   font-weight: 600;
-  border-bottom: 2px solid #1b2f4a;
+  border-bottom: 2px solid #7AABDF;
   padding-bottom: 15px;
   margin-bottom: 15px;
 }
@@ -124,7 +125,7 @@
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  background-color: #1b2f4a;
+  background-color: #7AABDF;
   vertical-align: 4px;
   margin-right: 4px;
 } */
@@ -159,7 +160,7 @@
 }
 #nav .login_info .alarmArea .alarm_desc .alarAllBtn {
   display: inline-block;
-  color: #1b2f4a;
+  color: #7AABDF;
   float: right;
   font-size: 14px;
   font-weight: 600;
@@ -196,14 +197,14 @@
   letter-spacing: 0.8px;
 }
 .nav_list li:hover {
-  background: linear-gradient(to left, #4C5D71,#1b2f4a 35%);
+  background: linear-gradient(to left, #4C5D71,#7AABDF 35%);
 }
 .nav_list a{
   color:#fff;
   display: block;
 }
 .nav_list li.active{
-    background: linear-gradient(to left, #4C5D71,#1b2f4a 35%);
+    background: linear-gradient(to left, #4C5D71,#7AABDF 35%);
 }
 
 /* 모바일 hide */

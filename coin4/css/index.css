@@ -204,12 +204,12 @@
     color: #fff;
     border-radius: 5px;
     float: left;
-    border: 1px solid #1b2f4a;
+    border: 1px solid #7AABDF;
     box-shadow: 3px 2px 15px rgba(100,100,100,0.3);
 }
 .notice h4{
     width: 710px;
-    background: #1b2f4a;
+    background: #7AABDF;
     color: #fff;
     border-radius: 5px 5px 0 0;
     float: left;
@@ -241,7 +241,7 @@
 }
 .notice ul li a {
     width: inherit;
-    color: #1b2f4a;
+    color: #7AABDF;
     display: inline-block;
     font-size: 13px;
 }
@@ -259,7 +259,7 @@
     width: 5px;
     height: 5px;
     border-radius: 50%;
-    background-color: #1b2f4a;
+    background-color: #7AABDF;
     margin-right: 10px;
     vertical-align: 2px;
 }
@@ -326,7 +326,7 @@
     .app_main_content .app_main_step1{
       text-align: center;
       height:600px;
-      background:#1b2f4a;
+      background:#7AABDF;
     }
     .app_main_content .app_main_step1 span{
       color:#fff;
@@ -451,7 +451,7 @@
       width:100%;
     }
     .app_main_step3 .security_area p{
-      background:#1b2f4a;
+      background:#7AABDF;
     }
 
     .submenu_mypage,

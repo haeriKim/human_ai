@@ -40,8 +40,8 @@ p.login_m{
 }
 .content .info_table_wrap .info_table tbody th{
     background-color: #f4f5f9;
-    border-left: 2px solid #1b2f4a;
-    color: #1b2f4a;
+    border-left: 2px solid #7AABDF;
+    color: #7AABDF;
     font-size: 15px;
     font-weight: 600;
     text-align: left;
@@ -105,7 +105,7 @@ p.certification_m{
 .content .certification_number_wrap .code{
     border-radius: 5px;
     background: #f4f5f9;
-    color: #1b2f4a;
+    color: #7AABDF;
     font-weight: 600;
     font-size: 22px;
     padding: 11px 232px;

@@ -36,11 +36,11 @@
     font-weight: 600;
     font-size: 16px;
     margin-bottom: 8px;
-    color: #1b2f4a;
+    color: #7AABDF;
 }
 #signUp_area .signUp_left_con .agree_content_box .text_box{
     border-radius: 5px;
-    border: 1px solid #1B2F4A;
+    border: 1px solid #7AABDF;
     width: 400px;
     height: 100px;
     overflow-y: scroll;
@@ -51,7 +51,7 @@
 #signUp_area .signUp_left_con .all_agree_label{
     text-align: left;
     margin-top: 17px;
-  color: #1b2f4a;
+  color: #7AABDF;
 }
 
 /*오른쪽부분*/
@@ -62,27 +62,27 @@
 #signUp_area .signUp_right_con > input{
     width: 400px;
     font-size: 15px;
-    border-bottom: 2px solid #1b2f4a;
+    border-bottom: 2px solid #7AABDF;
     padding-left: 5px;
     margin-bottom: 50px;
 }
 #signUp_area .signUp_right_con > input.user_phone_number{
   width: 300px;
   font-size: 15px;
-  border-bottom: 1px solid #1b2f4a;
+  border-bottom: 1px solid #7AABDF;
   padding-left: 5px;
   margin-bottom: 50px;
 }
 #signUp_area .signUp_right_con .join_request_number{
-  border: 1px solid #1b2f4a;
+  border: 1px solid #7AABDF;
   background:none;
-  color: #1b2f4a;
+  color: #7AABDF;
   padding: 3px 5px;
   cursor: pointer;
   width:100px;
 }
 #signUp_area .signUp_right_con .join_request_number:hover{
-  background-color:#1b2f4a;
+  background-color:#7AABDF;
   color:#fff;
 }
 #signUp_area .signUp_right_con #warning_message{
@@ -140,11 +140,11 @@
 }
 #signUp_area .signUp_right_con .password_alarm_wrap .meet{
     display: none;
-    color: #1b2f4a;
+    color: #7AABDF;
 }
 #signUp_area .signUp_right_con input{
   border:none;
-  border-bottom:1px solid #1b2f4a;
+  border-bottom:1px solid #7AABDF;
 }
 #signUp_area .signUp_right_con .btn_area{
   position:absolute;
@@ -165,7 +165,7 @@
   cursor:default;
 }
 #signUp_area .signUp_right_con .btn_area .sign_up_bt_on{
-  background:#1b2f4a;
+  background:#7AABDF;
   color:#fff;
   display: none;
   cursor:pointer;
@@ -174,7 +174,7 @@
     background-color: rgba(27,47,74,.9);
 }
 #signUp_area .signUp_right_con .btn_area .signUp_guide{
-    color: #1b2f4a;
+    color: #7AABDF;
     text-decoration: none;
     margin-bottom: 7px;
     font-size: 13px;
@@ -220,8 +220,8 @@
   margin:10px 0;
 }
 #full2 .leave_member_agree_btn{
-  background: #1b2f4a;
-  border: 1px solid #1b2f4a;
+  background: #7AABDF;
+  border: 1px solid #7AABDF;
   border-radius: 5px;
   padding: 7px 30px;
   color: #fff;
@@ -270,7 +270,7 @@
     .responsive_h{
         display: block;
         font-size: 18px;
-        color: #1b2f4a;
+        color: #7AABDF;
         text-align: left;
         font-weight: 600;
         margin-top: 30px;

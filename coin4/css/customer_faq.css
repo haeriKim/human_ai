@@ -15,7 +15,7 @@
 }
 .faq_area .faq_list h5{
     margin: 40px 0 30px 0;
-    color: #1b2f4a;
+    color: #7AABDF;
     font-weight: 600;
     font-size: 16px;
 }
@@ -34,7 +34,7 @@
     cursor: pointer;
     border: none;
     background: #f4f5f8 url(../img/arrow_off.png) no-repeat 98% 10px / 20px 20px;
-    border-bottom: 2px solid #1b2f4a;
+    border-bottom: 2px solid #7AABDF;
     border-radius: 5px 5px 0 0;
 }
 .faq_area .faq_list ul li .on{
@@ -42,7 +42,7 @@
 }
 
 .faq_area .faq_list ul li .question span{
-    color: #1b2f4a;
+    color: #7AABDF;
     margin-left: 34px;
     font-weight:600;
 }

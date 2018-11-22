@@ -7,7 +7,7 @@
 .myinfo_main_box .myinfo .button_box .Q_and_A,
 .myinfo_main_box .myinfo .button_box .using_guide{
     border-radius: 5px;
-    background: #1b2f4a;
+    background: #7AABDF;
     color: #fff;
 }
 .myinfo_main_box .myinfo .button_box .Q_and_A:hover,
@@ -32,14 +32,14 @@
 .myinfo_sub_box .myinfo_table .btn_medium{
   width: 140px;
   cursor:pointer;
-  border:1px solid #1b2f4a;
+  border:1px solid #7AABDF;
   background-color: white;
   padding:2px 10px;
-  color: #1b2f4a;
+  color: #7AABDF;
 }
 .myinfo_sub_box .myinfo_table .btn_medium:hover{
   color:white;
-  background-color: #1b2f4a;
+  background-color: #7AABDF;
 }
 .myinfo_sub_box .myinfo_table th{
     width: 29%;
@@ -48,7 +48,7 @@
 .cer_center .cer_level .btn_large{
   cursor:pointer;
   border-radius: 5px;
-  background-color:#1b2f4a;
+  background-color:#7AABDF;
   color:white;
   border:none;
   padding:6px 20px;

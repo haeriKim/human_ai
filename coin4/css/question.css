@@ -8,10 +8,10 @@
 }
 .question_area .question_table th{
   padding: 15px 20px;
-  border-left: 2px solid #1b2f4a;
+  border-left: 2px solid #7AABDF;
   background-color: #f4f5f8;
   font-size: 15px;
-  color: #1b2f4a;
+  color: #7AABDF;
   vertical-align: middle;
   width:200px;
 }
@@ -27,7 +27,7 @@
   width:600px;
   height:25px;
   margin:20px;
-  border:1px solid #1b2f4a;
+  border:1px solid #7AABDF;
   background: url(../img/arrow_down_dg.png) no-repeat 98% center; background-size:7px;
   box-sizing: border-box;
 }
@@ -35,7 +35,7 @@
   width:600px;
   height:25px;
   margin:20px;
-  border:1px solid #1b2f4a;
+  border:1px solid #7AABDF;
   padding:0 2px;
   box-sizing: border-box;
 }
@@ -43,7 +43,7 @@
   width:600px;
   height:500px;
   margin:30px 20px;
-  border:1px solid #1b2f4a;
+  border:1px solid #7AABDF;
   overflow-y:auto;
   box-sizing: border-box;
 }
@@ -57,7 +57,7 @@
 }
 .question_area .question_table .filebox .file_input_textbox {
     float:left;
-    border: 1px solid #1b2f4a;
+    border: 1px solid #7AABDF;
     width: 350px;
     height: 25px;
     text-indent: 5px;
@@ -81,7 +81,7 @@
 }
 .question_area .question_table .filebox .file_choice{
   font-size:14px;
-  color:#1b2f4a;
+  color:#7AABDF;
   font-weight:600;
   float:left;
   margin-top:4px;
@@ -97,7 +97,7 @@
   margin-left: 10px;
   margin-top:9px;
   cursor: pointer;
-  color: #1b2f4a;
+  color: #7AABDF;
   font-size: 17px;
   font-weight: 600;
 }
@@ -120,11 +120,11 @@
 .question_area .question_inner .question_cancel{
   border-radius: 5px;
   padding: 7px 30px;
-  color: #1b2f4a;
+  color: #7AABDF;
   font-weight: 600;
   font-size: 16px;
   box-sizing: border-box;
-  border: 1px solid #1b2f4a;
+  border: 1px solid #7AABDF;
   background-color: #fff;
   cursor: pointer;
 }
@@ -135,8 +135,8 @@
   font-weight: 600;
   font-size: 16px;
   box-sizing: border-box;
-  border: 1px solid #1b2f4a;
-  background-color: #1b2f4a;
+  border: 1px solid #7AABDF;
+  background-color: #7AABDF;
   cursor: pointer;
 }
 .question_area .question_inner .send_btn:hover{
@@ -161,16 +161,16 @@
   width: 110px;
   padding: 5px 10px;
   margin-top: 5px;
-  border: 1px solid #1b2f4a;
-  color: #1b2f4a;
+  border: 1px solid #7AABDF;
+  color: #7AABDF;
 }
 .question_history_area .question_history_inner .question_list thead{
   background:#f4f5f8;
-  color:#1b2f4a;
+  color:#7AABDF;
 }
 .question_history_area .question_history_inner .question_list thead th{
   padding:10px 0;
-  border-bottom: 2px solid #1b2f4a;
+  border-bottom: 2px solid #7AABDF;
   font-size:15px;
 }
 .question_history_area .question_history_inner .question_list tbody td{
@@ -196,10 +196,10 @@
 }
 #full .cancel_btn_ok{
   background: #fff;
-  border: 1px solid #1b2f4a;
+  border: 1px solid #7AABDF;
   border-radius: 5px;
   padding: 7px 30px;
-  color: #1b2f4a;
+  color: #7AABDF;
   font-weight: 600;
   margin-left: 20px;
   font-size: 16px;
@@ -212,8 +212,8 @@
   font-weight: 600;
   font-size: 16px;
   box-sizing: border-box;
-  border: 1px solid #1b2f4a;
-  background-color: #1b2f4a;
+  border: 1px solid #7AABDF;
+  background-color: #7AABDF;
   cursor: pointer;
 }
 #full2{
@@ -229,16 +229,16 @@
   font-weight: 600;
   font-size: 16px;
   box-sizing: border-box;
-  border: 1px solid #1b2f4a;
-  background-color: #1b2f4a;
+  border: 1px solid #7AABDF;
+  background-color: #7AABDF;
   cursor: pointer;
 }
 #full2 .cancel_btn3{
   background: #fff;
-  border: 1px solid #1b2f4a;
+  border: 1px solid #7AABDF;
   border-radius: 5px;
   padding: 7px 30px;
-  color: #1b2f4a;
+  color: #7AABDF;
   font-weight: 600;
   margin-left: 20px;
   font-size: 16px;
@@ -252,12 +252,12 @@
   padding:35px 40px;
 }
 .question_detail .question_detail_inner .question_title_wrap{
-    border-bottom: 2px solid #1b2f4a;
+    border-bottom: 2px solid #7AABDF;
     padding: 10px 0;
     overflow: hidden;
 }
 .question_detail .question_detail_inner .question_title_wrap h4{
-  color:#1b2f4a;
+  color:#7AABDF;
   display: inline-block;
   float: left;
   font-size: 16px;
@@ -275,7 +275,7 @@
 }
 .question_detail .question_detail_inner .question_detail_inner_content p{
   font-size: 14px;
-  color: #1b2f4a;
+  color: #7AABDF;
   line-height: 1.5;
   font-weight:600;
 }
@@ -318,7 +318,7 @@
   width:850px;
   text-align:left;
   border-radius: 5px;
-  background:#1b2f4a;
+  background:#7AABDF;
   color:#fff;
   font-weight:600;
   margin-top:-10px;
@@ -331,7 +331,7 @@
   margin-left: 5px;
   border-width: 7px;
   border-style: solid;
-  border-color:  transparent transparent #1b2f4a transparent;
+  border-color:  transparent transparent #7AABDF transparent;
 }
 .question_detail .question_detail_inner .question_detail_inner_content .malpungsun_answer{
   font-size:15px;
@@ -382,7 +382,7 @@
   float:left;
   margin-left:-5px;
   padding: 0 10px;
-  color: #1b2f4a;
+  color: #7AABDF;
   cursor: pointer;
   display:block;
 }
@@ -391,15 +391,15 @@
   padding: 8px 20px;
   margin: 2px;
   background-color: white;
-  color: #1b2f4a;
-  border: 1px solid #1b2f4a;
+  color: #7AABDF;
+  border: 1px solid #7AABDF;
   cursor: pointer;
   font-weight: 600;
   font-size: 14px;
 }
 .question_detail .question_detail_inner .question_detail_inner_content .malpungsun_story .question_submit:hover{
   color:white;
-  background-color: #1b2f4a;
+  background-color: #7AABDF;
 }
 .question_detail .question_detail_inner .question_detail_inner_content textarea{
   font-size:15px;
@@ -409,7 +409,7 @@
   height:200px;
   text-align:left;
   color:#666;
-  border:1px solid #1b2f4a;
+  border:1px solid #7AABDF;
 }
 .question_detail .question_detail_inner .question_detail_inner_content .filebox2 {
   vertical-align: -18px;
@@ -426,7 +426,7 @@
 }
 .question_detail .question_detail_inner .question_detail_inner_content .filebox2 .file_input_textbox2 {
     float:left;
-    border: 1px solid #1b2f4a;
+    border: 1px solid #7AABDF;
     width: 350px;
     height: 25px;
     text-indent: 5px;
@@ -454,7 +454,7 @@
   float:left;
   width:55px;
   font-size:14px;
-  color:#1b2f4a;
+  color:#7AABDF;
   font-weight:600;
   margin-top:3px;
 }
@@ -468,7 +468,7 @@
   margin-top:9px;
   margin-left:5px;
   cursor: pointer;
-  color: #1b2f4a;
+  color: #7AABDF;
   font-size: 17px;
   font-weight: 600;
 }
@@ -493,7 +493,7 @@
     float: right;
     color: #fff;
     border-radius: 5px;
-    background-color: #1b2f4a;
+    background-color: #7AABDF;
     padding: 7px 25px;
     font-size: 14px;
     margin-top: 40px ;
@@ -650,7 +650,7 @@
     margin-top: 10px;
     padding: 5px 20px;
     width: 100%;
-    background-color: #1b2f4a;
+    background-color: #7AABDF;
     color: #fff;
   }
   .question_detail .question_detail_inner .question_detail_footer {

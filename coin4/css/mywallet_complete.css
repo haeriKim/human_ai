@@ -12,7 +12,7 @@
 .mywallet_complete p.complete_paragraph{
     font-size: 22px;
     font-weight: 600;
-    color: #1b2f4a;
+    color: #7AABDF;
     margin-top:10px;
     text-align: center;
 }
@@ -32,7 +32,7 @@
     margin-top: 60px;
 }
 .mywallet_complete div.account_table_wrap > div > p{
-    color: #1b2f4a;
+    color: #7AABDF;
     font-weight: 600;
     margin-bottom: 15px;
 }
@@ -53,7 +53,7 @@
 .mywallet_complete div.send_info_01 p.money_account{
     border-radius: 5px;
     background: #f4f5f9;
-    color: #1b2f4a;
+    color: #7AABDF;
     font-weight: 600;
     font-size: 20px;
     padding: 10px 15px 10px 141px;
@@ -71,8 +71,8 @@
     margin: 55px 0 30px 0;
 }
 .mywallet_complete input.button_style{
-    background: #1b2f4a;
-    border: 1px solid #1b2f4a;
+    background: #7AABDF;
+    border: 1px solid #7AABDF;
     border-radius: 5px;
     padding: 10px 20px;
     color: #fff;

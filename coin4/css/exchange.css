@@ -61,7 +61,7 @@
   cursor: pointer;
   font-size: 23px;
   font-weight: 600;
-  color: #1b2f4a;
+  color: #7AABDF;
 }
 .coin_money_inner .coin_prepare {
   font-size: 18px;
@@ -164,7 +164,7 @@
 #detail_all span a{
   font-size:12px;
   font-weight:600;
-  color:#1b2f4a;
+  color:#7AABDF;
   float:right;
   display:inline-block;
   padding:10px 0;
@@ -186,7 +186,7 @@
 .coin_name{
   width:100%;
   height:50px;
-  background-color:#1b2f4a;
+  background-color:#7AABDF;
   border-radius:5px 5px 0 0;
   color:#fff;
   float:left;
@@ -321,7 +321,7 @@
   color:#333333;
 }
 .table_h3{
-  border-bottom:3px solid #1b2f4a;
+  border-bottom:3px solid #7AABDF;
   text-align:left;
   padding: 10px 20px;
   font-size:1.17em;
