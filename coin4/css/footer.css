@@ -2,7 +2,7 @@
 #footer_wrap{
     position: absolute;
     bottom:0;
-    background: #e1e1e1;
+    background: #090D13;
     width: 100%;
     box-sizing: border-box;
     overflow: hidden;
@@ -73,7 +73,7 @@
   display: inline-block;
 }
 .footer_menu .footer_nav ul li a.pp {
-  color: #7AABDF;
+  color: #1b2f4a;
   font-weight: 600;
 }
 #app_footer_wrap{
@@ -92,7 +92,7 @@
     padding:25px 10px;
     font-size:12px;
     line-height: 1.5em;
-    background-color:#7AABDF;
+    background-color:#1b2f4a;
     color:#fff;
   }
   #app_footer .app_footer_info .footer_logo{
