@@ -18,7 +18,7 @@
     z-index: 9990;
     padding: 20px;
     position: fixed;
-    left: 50%;
+    left: 40%;
     top: 50%;
     transform: translateY(-50%);
     margin-left: -265px;
@@ -63,7 +63,8 @@
     float: left;
     margin-top: 3px;
 }
-#full_content .close_btn{
+#full_content .close_btn,
+#content .close_btn{
     float: right;
     background: #1b2f4a;
     text-align: center;
@@ -75,7 +76,7 @@
 #full_content .close_btn:hover{
   background-color: rgba(27,47,74,.9);
 }
-#shadow{
+#index_shadow{
     position: fixed;
     top:0;
     left:0;

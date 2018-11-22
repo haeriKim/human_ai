@@ -166,12 +166,18 @@ $(".coinSelect dt").click(function(){
 
 //메인 팝업
 $(document).ready(function(){
+    $('#content').hide();
     function closePopup(){
         $('#full_content').hide();
+        $('#content').show();
     }
-    $('.close_btn').on('click',function(e){
+    $('#full_content .close_btn').on('click',function(e){
         e.preventDefault();
         closePopup();
+    })
+    $('#content .close_btn').on('click',function(e){
+        e.preventDefault();
+        $('#content, #index_shadow').hide();
     })
 })
 

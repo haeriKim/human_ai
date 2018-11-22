@@ -1,8 +1,8 @@
 
 .greetings_area .greetings_inner{
-  padding:3% 45px;
-  margin-bottom:0;
-  overflow:hidden;
+    padding: 10px;
+    margin-bottom: 0;
+    width: 100%;
 }
 .greetings_area .greetings_inner h2{
   font-size:25px;
@@ -11,8 +11,11 @@
   color: #1b2f4a;
 }
 .greetings_area .greetings_story{
-  text-align: center;
-  display: inline-block;
+    text-align: left;
+    display: inline-block;
+    height: 800px;
+    padding: 10px 20px 10px 10px;
+    overflow-y: scroll;
 }
 .greetings_inner .greetings_story .gr_title {
   font-size: 25px;
@@ -31,33 +34,42 @@
   height:300px;
   display: none;
 }
-.greetings_inner .greetings_story .textL .disTxt,.greetings_inner .greetings_story .textL .advTxt{
-  float: left;
-  width: 50%;
+.greetings_inner .greetings_story .textL .advTxt b{
+    font-size: 25px;
+    margin-top: 30px;
+    display: block;
 }
 
-
 .greetings_inner .greetings_story .textR{
-  text-align: right;
+    text-align: left;
+    margin-top: 30px;
 }
 
 .greetings_inner .greetings_story .textL .count {
   width: 80px;
 }
 .greetings_inner .greetings_story .textL .import {
-  display: inline-block;
-  width: 80%;
-
+    display: inline-block;
+    width: 90%;
+    vertical-align: 18px;
+    font-weight: 600;
+    color: #009CFF;
+    font-size: 17px;
 }
 .greetings_inner .greetings_story .greetings_sign{
-  width:220;
   height:130px;
+  margin-bottom: 30px;
 }
 .greetings_inner .greetings_story .right_sign{
   text-align: right;
 }
 .greetings_inner .greetings_text{
-
-  width:905px;
-  text-align:left;
+    height: 130px;
+    margin-bottom: 20px;
+}
+#full #content .close_btn{
+    width: 100px;
+    float: none;
+    display: block;
+    margin: 0 auto;
 }

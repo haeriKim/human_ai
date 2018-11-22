@@ -323,7 +323,7 @@
                               <br/>
                             </div>
                             <div class="advTxt">
-                              <p><b>그러나 여기에는</b></p>
+                              <p><b>그러나, 여기에는</b></p>
                               <br/>
                               <img src="img/1.png" alt="첫번째" class="count">
                               <p class="import">현실의 꿈을 이루고 후대에 남겨야 할 우리의 자산이 여기에 있다는 사실.</p>
@@ -359,6 +359,7 @@
                         </div>
 
                       <p class="right_sign"><img src="img/companysign.png" alt="회사사인" class="greetings_sign"></p>
+                      <a href="#" class='close_btn'>닫기</a>
                       </div>
 
                     </div>
