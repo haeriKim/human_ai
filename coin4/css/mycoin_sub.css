@@ -7,8 +7,18 @@
 #left_mywallet_menu{
     float: left;
 }
+#wrap .days .search_btn{
+    color: #fff;
+    border: 1px solid #fff;
+}
+#wrap .chegyeol_header select{
+    background: url(../img/arrow_down_dg.png) no-repeat 95% center;
+    background-size: 7px;
+}
 #wrap .days .search_btn:hover{
-    color: #080D13;
+    color: #7AABDF;
+    border: 1px solid #7AABDF;
+    background: none;
 }
 /*tab*/
 .mycoin_fence{
@@ -126,7 +136,6 @@ ul.tabs2 li.active2, ul.tabs3 li.active2, ul.tabs4 li.active2 {
     padding-right: 3px;
 }
 table .mycoin_thead_deco th{
-  /*padding:15px 8px;*/
   font-weight: lighter;
   font-weight: 600;
   font-size:14px;
@@ -556,7 +565,7 @@ div.before_send_money_wrap > p{
     margin-bottom: 15px;
     border-top: 2px solid #7AABDF;
     padding-left: 16px;
-    border-bottom: 1px solid #efefef;
+    border-bottom: 2px solid #0E141C;
 }
 #input_bitcoin div.BTC_input_address_wrap > p{
     color: #7AABDF;
@@ -589,15 +598,15 @@ div.before_send_money_wrap > p{
     font-weight: 600;
 }
 #input_bitcoin div.BTC_input_address_wrap .emphasis{
-    color: #666;
+    color: #fff;
     font-weight: 600;
     font-size: 15px;
     margin: 5px 0;
 }
 #input_bitcoin div.BTC_input_address_wrap .temporary_address{
-    color: #666;
+    color: #7AABDF;
     font-weight: 600;
-    background: #f4f5f9;
+    background: none;
     padding: 5px 12px;
     display: inline-block;
     margin: 5px 0;
@@ -615,14 +624,14 @@ div.before_send_money_wrap > p{
     font-size:16px;
 }
 #input_bitcoin div.before_send_money_wrap .warning_notice_list{
-    border-bottom: 1px solid #efefef;
+    border-bottom: 2px solid #0E141C;
     padding-bottom: 12px;
 }
 #input_bitcoin div.before_send_money_wrap .warning_notice_list p{
     padding: 0px 33px 0 16px;
     margin-bottom: 3px;
     font-size: 13px;
-    color: #666;
+    color: #fff;
     font-weight: 600;
     line-height: 1.6;
 }
@@ -687,17 +696,17 @@ div.before_send_money_wrap > p{
     width: 300px;
 }
 #output_bitcoin table.left_thick_table .emphasis{
-    color: #666;
+    color: #fff;
 }
 #output_bitcoin table.left_thick_table .reality_won{
     color: #f35531;
     font-weight: 600;
 }
 #output_bitcoin table.left_thick_table .temporary_address{
-    color: #666;
+    color: #7AABDF;
     font-weight: 600;
-    background: #f4f5f9;
-    padding: 5px 12px;
+    background: none;
+    padding: 5px 0;
 }
 #output_bitcoin div.before_send_money_wrap{
     margin-left: 12px;
@@ -708,7 +717,7 @@ div.before_send_money_wrap > p{
     padding-left: 25px;
     margin-bottom: 3px;
     font-size: 13px;
-    color: #666;
+    color: #fff;
     font-weight: 600;
 }
 #output_bitcoin div.before_send_money_wrap label.all_agree{
@@ -720,7 +729,7 @@ div.before_send_money_wrap > p{
     text-align: center;
 }
 #output_bitcoin div.before_send_money_wrap .cancel_btn{
-    background: #fff;
+    background: #none;
     border: 1px solid #7AABDF;
     border-radius: 5px;
     padding: 7px 30px;
@@ -739,13 +748,15 @@ div.before_send_money_wrap > p{
   box-sizing: border-box;
 }
 #output_bitcoin div.before_send_money_wrap .if_you_not_all_agree{
-    border: 1px solid #666;
-    background-color: #666;
+    border: 1px solid #05080B;
+    background-color: #05080B;
+    color: #444;
 }
 #output_bitcoin div.before_send_money_wrap .if_you_all_agree{
-  border: 1px solid #7AABDF;
-  background-color: #7AABDF;
-  cursor: pointer;
+    border: 1px solid #7AABDF;
+    background-color: #7AABDF;
+    cursor: pointer;
+    color: #080D13;
 }
 .before_send_money_01{
   position:relative;
@@ -808,7 +819,7 @@ div.before_send_money_wrap > p{
 }
 #money_malpungsun3{
   color:#fff;
-  background-color:#eaaf69;
+  background-color:#7aabdf;
   font-size:15px;
   font-weight: bold;
   position: absolute;
@@ -829,7 +840,7 @@ div.before_send_money_wrap > p{
   margin-left: -5px;
   border-width: 7px;
   border-style: solid;
-  border-color:  transparent transparent #eaaf69 transparent;
+  border-color:  transparent transparent #7aabdf transparent;
 }
 
 /*입출금내역*/
@@ -877,10 +888,11 @@ div.before_send_money_wrap > p{
   padding:2px 0;
 }
 .selectAll select{
-  font-size:14px;
-  height: 34px;
-  text-indent: 3px;
-  border:1px solid #7AABDF;
+    font-size: 14px;
+    height: 34px;
+    color: #fff;
+    text-indent: 3px;
+    border: 1px solid #fff;
 }
 .table_top .tab2_header {
   overflow: hidden;
@@ -911,21 +923,22 @@ table.mycoin_table{
     font-size: 14px;
 }
 table .mycoin_thead_deco{
-  background-color: #e8eaed;
+
 }
 table .mycoin_thead_deco tr{
   border-bottom: 2px solid #7AABDF;
   background-color:#05080B;
 }
 .mycoin_thead_deco th select {
-  height: 30px;
-  text-indent: 1px;
-  border: 1px solid #7AABDF;
-  color: #7AABDF;
-  font-weight: 600;
-  font-size: 14px;
-  background-color:#f4f5f8;
-  margin:0 -2px;
+    height: 30px;
+    text-indent: 1px;
+    border: 1px solid #7AABDF;
+    color: #7AABDF;
+    font-weight: 600;
+    font-size: 14px;
+    background: url(../img/arrow_down_dg.png) no-repeat 95% center;
+    background-size: 7px;
+    margin: 0 -2px;
 }
 table .mycoin_thead_deco th.apply_date_th{
     padding-left: 20px;
@@ -964,8 +977,8 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
   cursor:pointer;
 }
 .btn_small2:hover{
-  color:white;
-  background-color: #7AABDF;
+    color: #080D13;
+    background-color: #7AABDF;
 }
 
 /*입출금 페이지 준비가 안됐을 시에*/
@@ -1015,11 +1028,11 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
     position:absolute;
     top:833px;
     right:340px;
-    color:red;
+    color:#f35531;
   }
   .account_table_wrap .cofirm_number{
     border: 1px solid #7AABDF;
-    background: #fff;
+    background: none;
     color: #7AABDF;
     padding: 3px 5px;
     cursor: pointer;
@@ -1027,7 +1040,7 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
   }
   .account_table_wrap .cofirm_number:hover{
     background:#7AABDF;
-    color:#fff;
+    color:#080D13;
   }
 
 /*원화거래*/
@@ -1169,10 +1182,10 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
     height: 50px;
 }
 #mywallet_havecoin tbody tr.active{
-    background: #c8eefb;
+    background: rgba(122,171,223,0.2);
 }
 #mywallet_havecoin tbody tr:hover{
-    background: #c8eefb;
+    background: rgba(122,171,223,0.2);
 }
 #mywallet_havecoin tbody p,
 #mywallet_havecoin tbody span{
@@ -1212,7 +1225,7 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
 }
 #mywallet_havecoin .button_hover:hover{
     background:#7AABDF;
-    color:#fff;
+    color:#080D13;
     padding: 5px 2px;
 }
 #mywallet_havecoin .ready_input_output{

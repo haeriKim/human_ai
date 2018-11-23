@@ -1271,6 +1271,7 @@
                                                     </div>
                                                 <!--tab2_header End-->
                                                 </div>
+                                                <div class='mycoin_table_wrap'>
                                                   <table class='mycoin_table' summary='코인, 요청일시, 금액(수량), 수수료, 입금은행, 계좌번호, 상세보기 버튼, 입금자명, 진행전체, 해당버튼 '>
                                                     <colgroup>
                                                         <col>
@@ -1419,6 +1420,7 @@
                                                             </tr>
                                                         </tbody>
                                                 </table>
+                                            </div>
                                                 <div class="contentBottom">
                                                   <div class="paging">
                                                     <a href="#" title="prev"><img src="img/p_first.png"></a>
