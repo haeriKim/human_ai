@@ -19,7 +19,10 @@
   .alarm_area .alarm_head #alarm_select option{
     background:#0E141C;
   }
-
+.alarm_area .alarm_list{
+  border:1px solid #7AABDF;
+  border-collapse: inherit;
+}
 .alarm_area .alarm_list thead{
   background:#05080B;
   color:#7AABDF;
@@ -69,6 +72,8 @@
 .alarm_area .alarm_setting .alarm_sangse_pyo1{
   width:500px;
   margin-left:100px;
+  border:1px solid #7AABDF;
+  border-collapse:inherit;
 }
 .alarm_area .alarm_setting .alarm_sangse_pyo1 th{
   padding:10px 10px;
