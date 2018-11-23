@@ -72,3 +72,9 @@
     display: block;
     margin: 0 auto;
 }
+#greetings_content .greetings_text{
+    color: #333;
+}
+#greetings_content .advTxt b{
+    color:#888;
+}

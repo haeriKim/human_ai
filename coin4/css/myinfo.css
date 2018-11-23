@@ -7,12 +7,14 @@
 .myinfo_main_box .myinfo .button_box .Q_and_A,
 .myinfo_main_box .myinfo .button_box .using_guide{
     border-radius: 5px;
-    background: #7AABDF;
-    color: #fff;
+    background: none;
+    color: #7AABDF;
+    border: 1px solid #7AABDF;
 }
 .myinfo_main_box .myinfo .button_box .Q_and_A:hover,
 .myinfo_main_box .myinfo .button_box .using_guide:hover{
-    background-color: rgba(27,47,74,.9);
+    background-color: #7AABDF;
+    color: #fff;
 }
 /* myinfo_table_wrap */
 .myinfo_sub_box .myinfo_table_wrap{
@@ -33,7 +35,7 @@
   width: 140px;
   cursor:pointer;
   border:1px solid #7AABDF;
-  background-color: white;
+  background: none;
   padding:2px 10px;
   color: #7AABDF;
 }
@@ -61,11 +63,11 @@
 /* quit_page */
 .myinfo_main_box .quit_page a{
   font-size:14px;
-  color:#999;
+  color:#efefef;
   text-decoration: underline;
 }
 .myinfo_main_box .quit_page a:hover{
-  color:#c95b74;
+  color:#30afb8;
 }
 .myinfo_sub_box .user_level{
     display: none;
@@ -214,8 +216,8 @@
   font-size:12px;
   margin-left:5px;
   text-decoration:underline;
-  color:#999;
+  color:#efefef;
 }
 .myinfo_sub_box .change_text:hover{
-  color:#c95b74;
+  color:#30afb8;
 }

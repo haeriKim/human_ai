@@ -3,7 +3,7 @@
   padding: 30px;
 }
 .mywallet_complete h3 {
-  color: #071f45;
+  color: #7AABDF;
   font-size: 24px;
   padding-bottom: 30px;
 }
@@ -20,7 +20,7 @@
   font-size:12px;
 }
 .mywallet_complete .hour{
-  color:#c95b74;
+  color:#30afb8;
 }
 .mywallet_complete div.account_table_wrap{
     width: 50%;
@@ -43,7 +43,7 @@
 }
 .mywallet_complete div.send_info_01 p.input_money{
     font-size: 16px;
-    color: #666;
+    color: #7AABDF;
     font-weight: 600;
     float: left;
     line-height: 50px;
@@ -52,16 +52,17 @@
 }
 .mywallet_complete div.send_info_01 p.money_account{
     border-radius: 5px;
-    background: #f4f5f9;
+    background: none;
     color: #7AABDF;
     font-weight: 600;
     font-size: 20px;
     padding: 10px 15px 10px 141px;
     margin-left: 28px;
     float: left;
+    border: 1px solid #7AABDF;
 }
 .mywallet_complete div.send_info_01 p.money_account span{
-    color: #666;
+    color: #fff;
     font-weight: 600;
     font-size: 15px;
     padding-left: 7px;
@@ -71,21 +72,22 @@
     margin: 55px 0 30px 0;
 }
 .mywallet_complete input.button_style{
-    background: #7AABDF;
+    background: none;
     border: 1px solid #7AABDF;
     border-radius: 5px;
     padding: 10px 20px;
-    color: #fff;
+    color: #7AABDF;
     font-weight: 600;
     font-size: 15px;
     cursor: pointer;
     text-align: center;
 }
 .mywallet_complete input.button_style:hover{
-    background-color: rgba(27,47,74,.9);
+    background: #7AABDF;
+    color:#fff;
 }
 .mywallet_complete .look_again{
-    color:#d60000;
+    color:#f35531;
 }
 
 /* 코인 출금 */

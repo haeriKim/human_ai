@@ -63,12 +63,13 @@
     box-sizing: border-box;
 }
 .box h3.title {
-  display: block;
-  background-color: #7AABDF;
-  color: #fff;
-  padding: 17px 25px;
-  border-radius: 5px 5px 0 0;
-  box-sizing: border-box;
+    display: block;
+    background: none;
+    color: #7aabdf;
+    padding: 17px 25px;
+    border-radius: 5px 5px 0 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #7aabdf;
 }
 
 /* content 넓이(가운데정렬) */
@@ -128,11 +129,14 @@
 
 /*동일 버튼 영역*/
 .btn_small{
-  padding: 2px 10px;
-  margin:0 2px;
-  background-color: white;
-  color:#7AABDF; border: 1px solid #7AABDF;
-  cursor:pointer;
+    padding: 2px 10px;
+    margin: 0 2px;
+    background: none;
+    border: 1px solid #7AABDF;
+    cursor: pointer;
+}
+#wrap .btn_small:link{
+    color:#7AABDF;
 }
 .btn_small:hover{
   color:white;
@@ -281,13 +285,13 @@ table.left_thick_table tbody tr{
     height: 40px;
 }
 table.left_thick_table tbody th{
-    background-color: #f4f5f9;
-    border-left: 2px solid #7AABDF;
+    background: #7AABDF;
     padding: 5px 10px;
-    color: #7AABDF;
+    color: #fff;
+    border: 1px solid #fff;
     font-size: 14px;
     font-weight: 600;
-    width:35%;
+    width: 35%;
 }
 table.left_thick_table tbody td{
     font-size: 14px;
@@ -473,7 +477,7 @@ div.cancel_or_apply .if_you_all_agree:hover{
 }
 .cer_center .cer_level li span {
   font-size: 12px;
-  color: #666;
+  color: #fff;
   font-weight: 600;
 }
 
@@ -648,27 +652,29 @@ div.cancel_or_apply .if_you_all_agree:hover{
 .question_area,
 .question_history_area,
 .question_detail_area {
-  float: left;
-  width:80%;
+    float: left;
+    width: 80%;
+    border: 1px solid #7aabdf;
 }
 .content_nav_responsive{
     display: none;
 }
 .content_nav {
-  width: 18%;
-  margin-right: 2%;
-  float: left;
-  background-color: #7AABDF;
-  border-radius: 5px;
-  padding: 20px;
-  box-sizing: border-box;
-  box-shadow: 0 1px 2px rgba(100,100,100,.2);
-  color: #fff;
+    width: 18%;
+    margin-right: 2%;
+    float: left;
+    background: #080D13;
+    border: 1px solid #7aabdf;
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 1px 2px rgba(100,100,100,.2);
+    color: #7aabdf;
 }
 .content_nav h4 {
   font-size: 20px;
   margin-bottom: 20px;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #7aabdf;
   padding-bottom: 20px;
 }
 .content_nav ul {
@@ -683,13 +689,13 @@ div.cancel_or_apply .if_you_all_agree:hover{
   padding: 7px 10px;
 }
 .content_nav li.on > a{
-  margin-bottom: 5px;
-  border-bottom: 1px solid #EAAF69;
-  color: #EAAF69;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #7aabdf;
+    color: #7aabdf;
 }
 .content_nav li.active a, .content_nav li .nav_dropdown dt.active a{
   background: url("../img/mapage_arrow.png") no-repeat 95% center;
-  color: #EAAF69;
+  color: #7AABDF;
   background-color: rgba(255,255,255,0.2);
   border-radius: 5px;
   font-weight: 600;

@@ -1,9 +1,8 @@
 <!-- nav_wrap -->
 <div id="nav_wrap">
     <!-- nav  -->
+    <h1><a href="index.php"><img src='img/logo.png' alt='로고'></a></h1>
     <div id="nav">
-        <h1><a href="index.php"><img src='img/logo.png' alt='로고'></a></h1>
-
         <div class="after_login login_info">
             <p>
                 <span class="user_mail">abc@naver.com</span>님
