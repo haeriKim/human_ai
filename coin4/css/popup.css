@@ -150,7 +150,7 @@
 
 #popupbox p,
 #coin_withdrawal_box p{
-    color:#333;
+    color:#fff;
     font-size:16px;
     margin:15px 0;
     text-align: center;
@@ -253,7 +253,8 @@
 
 /* 기본팝업(common) */
 .popup{
-    background: #fff;
+    background: #0E141C;
+    border:1px solid #7AABDF;
     z-index: 9999;
     padding: 30px 20px;
     position: fixed;
@@ -432,7 +433,7 @@
     position: relative;
 }
 .common_table_content{
-    background: #fff;
+    background: #0E141C;
     height: 85%;
     z-index: 9999;
     width: 1000px;
@@ -450,13 +451,13 @@
     overflow-y: auto;
 }
 .common_table_content h2.title{
-    color: #071f45;
+    color: #7AABDF;
     text-align: center;
     width: 90%;
     overflow: hidden;
     padding-top: 20px;
     padding-bottom: 15px;
-    border-bottom: 2px solid #071f45;
+    border-bottom: 2px solid #7AABDF;
     margin: 0 auto;
 }
 .common_table_content .close_btn{

@@ -1,7 +1,7 @@
 
 .common_table_content .common_table thead {
     border-bottom: 2px solid #7AABDF;
-    background: none;
+    background-color: #05080B;
     line-height: 50px;
     color: #7AABDF;
 }
@@ -13,7 +13,6 @@
     font-size: 14px;
     border-left: 1px solid #333;
     border-top: 1px solid #333;
-    color:#0E141C;
 }
 .common_table_content .common_table tbody tr th{
     color: #7AABDF;

@@ -27,6 +27,12 @@
 .myinfo_sub_box .myinfo_table_wrap .myinfo_table{
   width: 50%;
 }
+.myinfo_sub_box .myinfo_table_wrap .myinfo_table .change_phone_num{
+  color:#7AABDF;
+}
+.myinfo_sub_box .myinfo_table_wrap .myinfo_table .change_phone_num:hover{
+  color:#0E141C;
+}
 .myinfo_sub_box .myinfo_table_wrap .myinfo_table p.account_number{
   margin-right: 10px;
   display: inline-block;
