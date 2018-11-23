@@ -291,13 +291,13 @@ table.left_thick_table tbody th{
     padding: 5px 10px;
     color: #7aabdf;
     font-size: 14px;
+    text-align: center;
     font-weight: 600;
     border-right: 2px solid #7aabdf;
     width: 35%;
 }
 table.left_thick_table tbody td{
     font-size: 14px;
-    border: 1px solid #7AABDF;
     padding: 5px 8px;
 }
 
@@ -313,7 +313,6 @@ div.my_coin_state {
     width: 800px;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid #7AABDF;
     margin-bottom: 20px;
 }
 div.my_coin_state ul{
@@ -363,11 +362,9 @@ div.cancel_or_apply .agree_btn:hover{
   /* background-color: rgba(27,47,74,.9); */
 }
 div.cancel_or_apply .if_you_not_all_agree{
-    border: 1px solid #666;
-    background-color: #666;
-}
-div.cancel_or_apply .if_you_not_all_agree:hover{
-    background-color: #666;
+    border: 1px solid #05080B;
+    background-color: #05080B;
+    color: #444;
 }
 div.cancel_or_apply .if_you_all_agree{
   border: 1px solid #7AABDF;
@@ -786,15 +783,16 @@ div.cancel_or_apply .if_you_all_agree{
     border: none;
     border-bottom: 1px solid #7AABDF;
     width: 330px;
+    color: #7AABDF;
     padding-bottom: 4px;
-    font-size:15px;
+    font-size: 15px;
     background: none;
 }
 #output_bitcoin table.left_thick_table tbody input[type='button'],
 #output_KRW table.left_thick_table tbody input[type='button'],
 #withdrawal_text3 table.left_thick_table tbody input[type='button']{
     border: 1px solid #7AABDF;
-    background: #fff;
+    background: none;
     color: #7AABDF;
     padding: 3px 5px;
     cursor: pointer;
@@ -805,14 +803,14 @@ div.cancel_or_apply .if_you_all_agree{
 #withdrawal_text3 table.left_thick_table tbody input[type='button']:hover{
     border: 1px solid #7AABDF;
     background: #7AABDF;
-    color: #fff;
+    color: #080D13;
     padding: 3px 5px;
     cursor: pointer;
 }
 #output_bitcoin table.left_thick_table tbody input::placeholder,
 #output_KRW table.left_thick_table tbody input::placeholder,
 #withdrawal_text3 table.left_thick_table tbody input::placeholder{
-    color:#a1a1a1;
+    color:#fff;
     font-size:14px;
 }
 

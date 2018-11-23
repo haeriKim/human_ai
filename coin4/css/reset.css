@@ -45,11 +45,11 @@ a:link, a:visited {
   text-decoration: none;
   color: #7AABDF;
 }
-
 input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="submit"], input[type="reset"], input[type="file"], textarea, input[type="button"], button {
   -webkit-appearance: none;
   -webkit-border-radius: 0;
   outline: none;
+  background: none;
 }
 select::-ms-expand {
     display: none;
