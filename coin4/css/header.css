@@ -29,12 +29,13 @@
   width: 14.25%;
   box-sizing: border-box;
   text-align: center;
+  color: #0E141C;
 }
 #header .current_coin ul li .current_pri {
   font-weight: 600;
 }
 #header .current_coin li + li {
-  border-left: 1px solid rgba(239,239,239,.3);
+  border-left: 1px solid #0E141C;
 }
 #header .current_coin ul li b {
   display: inline-block;

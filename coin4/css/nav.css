@@ -176,13 +176,12 @@
 }
 .nav_bt{
   padding-bottom:20px;
-  border-bottom:1px solid rgba(255,255,255,.3);
   text-align: center;
-  color: #fff;
+  color: #0E141C;
   font-size: 15px;
 }
 .nav_bt a {
-  color: #fff;
+  color: #0E141C;
 }
 .nav_bt a:hover {
   opacity: .7;
@@ -193,20 +192,25 @@
 /* 네비게이션 메뉴 영역 */
 .nav_list li{
   width:190px;
+  padding: 0 20px;
+  box-sizing: border-box;
   height:80px;
-  border-bottom:1px solid rgba(255,255,255,.3);
   text-align:center;
   line-height:4.5em;
   font-size:18px;
   font-weight:600;
   letter-spacing: 0.8px;
 }
-.nav_list li:hover {
-  background: linear-gradient(to left, #4C5D71,#7AABDF 35%);
+.nav_list li:hover a {
+  color: #fff;
 }
 .nav_list a{
-  color:#fff;
+  color:#0E141C;
   display: block;
+  border-bottom: 1px solid #0E141C;
+}
+.nav_list li:nth-child(1) a {
+  border-top: 1px solid #0E141C;
 }
 .nav_list li.active{
     background: linear-gradient(to left, #4C5D71,#7AABDF 35%);
