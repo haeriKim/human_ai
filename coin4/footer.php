@@ -3,11 +3,11 @@
     <div id="footer">
       <div class="compnay_info">
           <span>㈜디올스<br/></span>
-          <p>서울특별시 서울특별시 강남구 언주로 640. 임피리얼 호텔 6층&nbsp;&nbsp; | &nbsp;&nbsp;대표 손용현&nbsp;&nbsp; | &nbsp;&nbsp;사업자등록번호 492-81-01041&nbsp;&nbsp; | &nbsp;&nbsp;통신판매업 제 2018-서울송파-1893호</p>
-          <p>Copyright@All rights reserved.</p>
+          <p>서울특별시 강남구 언주로 640 (임페리얼 호텔 6층)&nbsp;&nbsp; | &nbsp;&nbsp;대표 손용현&nbsp;&nbsp; | &nbsp;&nbsp;사업자등록번호 492-81-01041&nbsp;&nbsp; | &nbsp;&nbsp;통신판매업 제 2018-서울송파-1893호</p>
+          <p>팩스번호 0504-083-6879&nbsp;&nbsp; | &nbsp;&nbsp;Copyright@All rights reserved.</p>
       </div>
       <div class="footer_menu">
-          <strong>고객센터&nbsp;&nbsp; 0000-0000</strong>
+          <strong>고객센터&nbsp;&nbsp; 02-6013-6879</strong>
           <div class="footer_nav">
             <ul class='left'>
                 <li class="footer_link"><a href="greetings.php">인사말</a></li>

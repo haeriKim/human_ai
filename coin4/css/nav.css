@@ -88,12 +88,13 @@
     width: 480px;
     padding: 20px 30px;
     z-index: 5;
-    color: #666;
+    color: #080D13;
     text-align: left;
     position: absolute;
     top: -25px;
     left: 75px;
     background-color: #fff;
+    border: none;
 }
 #nav .login_info .alarmArea .alarm_desc:after {
   content: "";
@@ -123,7 +124,7 @@
   padding-left: 5px;
 }
 #nav .login_info .alarmArea .alarm_desc dd:hover{
-  background: rgba(122,171,223,0.2);
+  background: rgba(122,171,223,0.2)
 }
 /* #nav .login_info .alarmArea .alarm_desc dd .alarmType::before {
   content: '';
