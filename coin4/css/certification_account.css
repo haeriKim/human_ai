@@ -139,12 +139,16 @@
 }
 .cText_right2 .code_area .code_text2 {
   display: block;
-  color: #7AABDF;
+  color: #efefef;
   text-decoration: underline;
   font-size: 13px;
   margin-top: 20px;
   text-align:right;
   cursor: pointer;
+}
+.cText_right2 .code_area .code_text2:hover{
+  color:#30afb8;
+  cursor:pointer;
 }
 .cText_right2 .code_area .delete_icon{
   display: block;

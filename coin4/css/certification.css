@@ -63,19 +63,19 @@
   font-weight: 600;
 }
 .cer_center .center_bottom .cText_right li p span {
-  color: #c95b74;
+  color: #eaaf69;
   font-size: 12px;
   margin-left: 5px;
 }
 .cer_center .center_bottom .cText_right li p span.recommend {
-  color: #2a6972;
+  color: #808CE6;
 }
 .cer_center .center_bottom .cText_right li .c_btn {
   display: inline-block;
   width: 100px;
   padding: 7px 0;
   box-sizing: border-box;
-  color: #fff;
+  color: #0E141C;
   background-color: #7AABDF;
   border-radius: 5px;
   text-align: center;
@@ -83,13 +83,14 @@
   letter-spacing: 0.5px;
   float: right;
   vertical-align: middle;
+  font-weight:600;
 }
 .cer_center .center_bottom .cText_right li .go_cer:hover {
-  background-color: rgba(27,47,74,.9);
 }
 .cer_center .center_bottom .cText_right li span.c_complete {
   cursor: default;
-  background-color: #666;
+  color:#444;
+  background-color: #05080B;
 }
 .cer_center .center_bottom .cText_right li span.disable {
   background-color: #dfdfdf;
