@@ -31,11 +31,11 @@
   color: #7AABDF;
 }
 .notice_area .notice_list tr td.hot {
-  color: #d60000;
+  color: #f35531;
   font-weight: 600;
 }
 .notice_area .notice_list tr td.new {
-  color: #002dae;
+  color: #017eff;
   font-weight: 600;
 }
 .notice_area .search a.search_btn{

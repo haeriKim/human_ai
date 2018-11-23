@@ -69,7 +69,7 @@
     padding: 17px 25px;
     border-radius: 5px 5px 0 0;
     box-sizing: border-box;
-    border-bottom: 1px solid #7aabdf;
+    border-bottom: 2px solid #7aabdf;
 }
 
 /* content 넓이(가운데정렬) */
@@ -133,6 +133,7 @@
     margin: 0 2px;
     background: none;
     border: 1px solid #7AABDF;
+    color: #7AABDF;
     cursor: pointer;
 }
 #wrap .btn_small:link{
@@ -210,7 +211,9 @@ input[type='checkbox']:checked + label:before{ /* 체크박스를 체크했을�
     text-align: center;
     line-height: 15px;
 }
-
+#wrap input::placeholder{
+    color: #fff;
+}
 /* 페이징(공지사항, 체결/미체결) */
 .contentBottom{
   padding:20px 0;
@@ -280,17 +283,16 @@ table.left_thick_table{
     text-align: left;
 }
 table.left_thick_table tbody tr{
-    border: 1px solid #efefef;
     border-left: none;
     height: 40px;
 }
 table.left_thick_table tbody th{
-    background: #7AABDF;
+    background: #05080B;
     padding: 5px 10px;
-    color: #fff;
-    border: 1px solid #fff;
+    color: #7aabdf;
     font-size: 14px;
     font-weight: 600;
+    border-right: 2px solid #7aabdf;
     width: 35%;
 }
 table.left_thick_table tbody td{
@@ -353,11 +355,11 @@ div.cancel_or_apply .agree_btn {
   font-size: 16px;
   box-sizing: border-box;
   border: 1px solid #7AABDF;
-  background-color: #EAAF69;
+  background-color:#7AABDF;
   cursor:pointer;
 }
 div.cancel_or_apply .agree_btn:hover{
-  background-color: rgba(27,47,74,.9);
+  /* background-color: rgba(27,47,74,.9); */
 }
 div.cancel_or_apply .if_you_not_all_agree{
     border: 1px solid #666;
@@ -371,12 +373,9 @@ div.cancel_or_apply .if_you_all_agree{
   background-color: #7AABDF;
   cursor: pointer;
 }
-div.cancel_or_apply .if_you_all_agree:hover{
-  background-color: rgba(27,47,74,.9);
-}
 
  div.cancel_or_apply .cancel_btn{
-    background: #fff;
+    background:none;
     border: 1px solid #7AABDF;
     border-radius: 5px;
     padding: 7px 30px;
@@ -654,7 +653,6 @@ div.cancel_or_apply .if_you_all_agree:hover{
 .question_detail_area {
     float: left;
     width: 80%;
-    border: 1px solid #7aabdf;
 }
 .content_nav_responsive{
     display: none;
@@ -664,7 +662,6 @@ div.cancel_or_apply .if_you_all_agree:hover{
     margin-right: 2%;
     float: left;
     background: #080D13;
-    border: 1px solid #7aabdf;
     border-radius: 5px;
     padding: 20px;
     box-sizing: border-box;
@@ -674,7 +671,7 @@ div.cancel_or_apply .if_you_all_agree:hover{
 .content_nav h4 {
   font-size: 20px;
   margin-bottom: 20px;
-  border-bottom: 1px solid #7aabdf;
+  border-bottom: 2px solid #7aabdf;
   padding-bottom: 20px;
 }
 .content_nav ul {
@@ -817,7 +814,7 @@ div.cancel_or_apply .if_you_all_agree:hover{
 
 /*input 경고메세지 스타일*/
 #warning_message{
-  color: #f00;
+  color: #f35531;
   margin-top: 4px;
   font-size: 11px;
 }

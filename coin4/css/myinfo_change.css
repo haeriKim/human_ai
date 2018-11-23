@@ -9,9 +9,9 @@
     margin-bottom: 35px;
 }
 .myinfo_small_info_box .myinfo_box1{
-    color: #2b2b2b;
+    color: #fff;
     float:left;
-padding: 7px 60px 0px 10px
+    padding: 7px 60px 0px 10px
 }
 .myinfo_small_info_box .myinfo_box1 strong{
     font-size:22px;
@@ -25,13 +25,14 @@ padding: 7px 60px 0px 10px
 .myinfo_small_info_box .myinfo_box2 ul{
     float: left;
     width: 49%;
-    background: #fff;
+    background: #05080B;
+    border: 1px solid #7aabdf;
 }
 .myinfo_small_info_box .myinfo_box2 ul.list_1{
     margin-right:9px;
 }
 .myinfo_small_info_box .myinfo_box2 p.myinfo_title{
-    color:#666;
+    color:#7aabdf;
     font-weight: 600;
     font-size:14px;
 }
@@ -46,9 +47,9 @@ padding: 7px 60px 0px 10px
 
 .myinfo_small_info_box .myinfo_box2 ul li .myinfo_detail{
     text-align: right;
-    color: #2b2b2b;
+    color: #fff;
     font-size: 22px;
-    font-weight: 600;
+    font-weight: 500;
     padding-right: 3px;
 }
 /* 레벨3일때 */

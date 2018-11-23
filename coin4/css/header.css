@@ -47,10 +47,10 @@
   margin-top: 5px;
 }
 #header .current_coin ul li b.up {
-  color: #d60000;
+  color: #f35531;
 }
 #header .current_coin ul li b.down {
-  color: #002dae;
+  color: #017eff;
 }
 
 /* 모바일 hide */

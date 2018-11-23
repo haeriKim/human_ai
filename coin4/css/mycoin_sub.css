@@ -3,7 +3,6 @@
 .fl{float:left;}
 .cb{clear: both;}
 .cf:after{content: ''; clear:both; display:block; visibility:hidden; height:0;}
-.color_bk{color:black;}
 
 #left_mywallet_menu{
     float: left;
@@ -25,7 +24,7 @@
   font-size:20px;
   font-weight:600;
   cursor:pointer;
-  background-color:#f4f5f8;
+  background-color:#080D13;
 }
 .mycoin_tab li a{
     color:#7e7e7f;
@@ -33,7 +32,7 @@
 .mycoin_tab li.active {
   color: #7AABDF;
   border-top: 3px solid #7AABDF;
-  background-color:#fff;
+  background-color:#080D13;
 }
 
 /* 공통 */
@@ -54,7 +53,7 @@ ul.tabs2 li.active2, ul.tabs3 li.active2, ul.tabs4 li.active2 {
 
 /*tab1*/
 #mywallet_tab .mycoin_tab_content{
-    background: #fff;
+    background: #080D13;
     border-radius:0 0 5px 5px;
     width: 800px;
     display: block;
@@ -64,14 +63,13 @@ ul.tabs2 li.active2, ul.tabs3 li.active2, ul.tabs4 li.active2 {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #7AABDF;
-    background-color: rgba(27,47,74,.2);
     margin: 0 auto;
     margin-bottom: 35px;
 }
 .mycoin_tab_content .mycoin_notice{
   margin-bottom: 10px;
   float:right;
-  color:#666;
+  color:#fff;
   font-weight: 600;
   font-size:15px;
 }
@@ -79,7 +77,7 @@ ul.tabs2 li.active2, ul.tabs3 li.active2, ul.tabs4 li.active2 {
   vertical-align: -4px;
 }
 .mycoin_tab_content .mywallet_box1{
-    color: #2b2b2b;
+    color: #fff;
     padding: 15px 20px 0 10px;
 }
 .mycoin_tab_content .mywallet_box1 strong{
@@ -92,20 +90,21 @@ ul.tabs2 li.active2, ul.tabs3 li.active2, ul.tabs4 li.active2 {
 }
 .mycoin_tab_content .mywallet_box2 ul{
     float: left;
+    border: 1px solid #7AABDF;
     width: 49%;
-    background: #fff;
+    background: #05080B;
 }
 .mycoin_tab_content .mywallet_box2 ul.list_1{
-    margin-right:9px;
+    margin-right:7px;
 }
 .mycoin_tab_content .mywallet_box2 p.mywallet_title{
-    color:#666;
+    color:#7AABDF;
     font-weight: 600;
     font-size:14px;
 }
 .mycoin_tab_content .mywallet_box2 ul li{
     padding: 5px 5px 10px 5px;
-    border-bottom: 1px solid rgba(27,47,74,.2);
+    border-bottom: 1px solid #7aabdf;
     width: 90%;
     margin: 0 auto;
 }
@@ -113,13 +112,14 @@ ul.tabs2 li.active2, ul.tabs3 li.active2, ul.tabs4 li.active2 {
     border-bottom:none;
 }
 .mycoin_tab_content .mywallet_box2 ul li span{
-    font-size:15px;
-    padding-left:4px;
-    color:#666;
+    font-size: 15px;
+    padding-left: 4px;
+    color: #fff;
+    font-weight: 500;
 }
 .mycoin_tab_content .mywallet_box2 ul li .mywallet_amount{
     text-align: right;
-    color: #2b2b2b;
+    color: #fff;
     font-size: 22px;
     font-weight: 600;
     padding-right: 3px;
@@ -145,7 +145,7 @@ table .mycoin_thead_deco th.mycoin_kor a{
   /*margin-left:10px;*/
 }
 table .mycoin_tbody_deco tr{
-  border-bottom: 1px solid #efefef;
+  border-bottom:1px solid #7AABDF;
   height:45px;
 }
 table .mycoin_tbody_deco>tr>td>img{
@@ -157,7 +157,7 @@ table .mycoin_tbody_deco>tr>td>img{
   padding: 3px 10px;
 }
 .ready_data{
-  color:#d60000;
+  color:#f35531;
 }
 .mycoin_thead_deco .first_chart_icon{
    /*background: url(../img/side_arrow.png) no-repeat center right;*/
@@ -227,10 +227,10 @@ table .mycoin_tbody_deco>tr>td>img{
   font-size: 14px;ss
 }
 .conclu_table tbody tr td.buying {
-  color: #d60000;
+  color: #f35531;
 }
 .conclu_table tbody tr td.sell {
-  color: #002dae;
+  color: #017eff;
 }
 .conclu_table tbody tr td input[type="submit"] {
   border: none;
@@ -318,7 +318,7 @@ table .mycoin_tbody_deco>tr>td>img{
     font-size: 12px;
     margin-left: 85px;
     margin-top: 8px;
-    color: #d60000;
+    color: #f35531;
 }
 #input_KRW div.send_info_01 span.caution:before{
     content: '';
@@ -326,7 +326,7 @@ table .mycoin_tbody_deco>tr>td>img{
     width: 5px;
     height: 5px;
     border-radius: 50%;
-    background-color: #d60000;
+    background-color: #f35531;
     margin-right: 10px;
     vertical-align: 2px;
 }
@@ -683,7 +683,7 @@ div.before_send_money_wrap > p{
     color: #666;
 }
 #output_bitcoin table.left_thick_table .reality_won{
-    color: #d60000;
+    color: #f35531;
     font-weight: 600;
 }
 #output_bitcoin table.left_thick_table .temporary_address{
@@ -827,7 +827,7 @@ div.before_send_money_wrap > p{
 
 /*입출금내역*/
 .mycoin_tbody_deco td p.red{
-    color:#d60000;
+    color:#f35531;
 }
 .mycoin_thead_deco .apply_name_th{
   width:70px;
@@ -837,7 +837,7 @@ div.before_send_money_wrap > p{
     padding-left: 16px;
 }
 .mycoin_tbody_deco td p.bl{
-    color:#002dae;
+    color:#017eff;
 }
 .tab2_header .days{
   float:right;
@@ -897,15 +897,16 @@ div.before_send_money_wrap > p{
   color: #7AABDF;
 }
 table.mycoin_table{
-  margin: 0 auto;
-  font-size:14px;
+    margin: 0 auto;
+    font-size: 14px;
+    border: 1px solid #7AABDF;
 }
 table .mycoin_thead_deco{
   background-color: #e8eaed;
 }
 table .mycoin_thead_deco tr{
   border-bottom: 2px solid #7AABDF;
-  background-color:#f4f5f8;
+  background-color:#05080B;
 }
 .mycoin_thead_deco th select {
   height: 30px;
@@ -1081,6 +1082,7 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
 }
 #deal_orgin_transaction tbody p{
     font-weight: 600;
+    color: #fff;
     font-size:13px;
 }
 #deal_orgin_transaction tbody tr td:first-child{
@@ -1097,10 +1099,10 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
     font-size:13px;
 }
 #deal_orgin_transaction .money_up{
-    color:#d60000;
+    color:#f35531;
 }
 #deal_orgin_transaction .money_down{
-    color:#002dae;
+    color:#017eff;
 }
 /*보유코인*/
 #mywallet_havecoin{
@@ -1207,7 +1209,7 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
     padding: 5px 2px;
 }
 #mywallet_havecoin .ready_input_output{
-    color:#d60000;
+    color:#f35531;
 }
 /*thead 띄우기*/
 #mywallet_havecoin tbody{
