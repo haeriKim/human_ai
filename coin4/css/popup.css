@@ -247,14 +247,9 @@
 }
 .btn_area input[type="button"].ok,
 .btn_area input[type="submit"].ok{
-  border:1px solid #7AABDF;
-  background-color:#7AABDF;
-  color:#fff;
-}
-.btn_area input[type="submit"].ok:hover,
-.btn_area input[type="button"].ok:hover,
-#full .email_pop .re_send input[type="button"]:hover {
-    background-color: rgba(27,47,74,.9);
+    border: 1px solid #7AABDF;
+    background-color: #7AABDF;
+    color: #080D13;
 }
 
 
@@ -293,13 +288,18 @@
   font-weight: 600;
   padding: 5px 0 5px 10px;
   border-radius: 5px;
+  color: #7AABDF;
 }
 .email_pop input[type="text"] {
-  width: 95%;
-  border: none;
-  border-bottom: 1px solid #7AABDF;
-  font-size: 16px;
-  padding: 3px 5px;
+    width: 95%;
+    border: none;
+    border-bottom: 1px solid #7AABDF;
+    font-size: 16px;
+    padding: 3px 5px;
+    color: #7AABDF;
+}
+.email_pop input[type="text"]::placeholder {
+    color:#fff;
 }
 #full .email_pop span {
   color: #f35531;
@@ -309,11 +309,12 @@
   font-size: 12px;
 }
 #full .email_pop .re_send {
-  background-color: rgba(27,47,74,.2);
-  border-radius: 5px;
-  padding: 10px 20px;
-  overflow: hidden;
-  margin-top: 20px;
+    background-color: #05080B;
+    border-radius: 5px;
+    padding: 10px 20px;
+    overflow: hidden;
+    border: 1px solid #7AABDF;
+    margin-top: 20px;
 }
 #full .email_pop .re_send p {
   float: left;
@@ -323,14 +324,15 @@
   font-weight: 600;
 }
 #full .email_pop .re_send input[type="button"] {
-  float: right;
-  background-color: #7AABDF;
-  border-radius: 5px;
-  border: none;
-  padding: 7px 5px ;
-  color: #fff;
-  margin: 20px 0;
-  cursor: pointer;
+    float: right;
+    background: none;
+    border-radius: 5px;
+    border: none;
+    padding: 7px 4px;
+    border: 1px solid #7AABDF;
+    color: #7AABDF;
+    margin: 20px 0;
+    cursor: pointer;
 }
 
 
@@ -419,7 +421,7 @@
     visibility: visible;
 }
 #popupbox .wrong_info{
-  color:#f00;
+  color:#f35531;
   font-size:13px;
   text-align:left;
   margin-left:5px;
