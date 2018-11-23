@@ -133,13 +133,13 @@ var coin_s=0; // 코인선택 탭 클릭을 확인하는값
 $(".coinSelect dt").click(function(){
     if(coin_s===0){
         $(this).siblings().show();
-        $(this).parent().css({"backgroundColor":"#fff"});
+        $(this).parent().css({"backgroundColor":"#080D13"});
 
         // 코인별탭 마우스이벤트
         $(".coinSelect dd").mouseover(function(){
-            $(this).css({"backgroundColor":"#c8eefb"});
+            $(this).css({"backgroundColor":"#080D13"});
         }).mouseout(function(){
-            $(this).css({"background":"none"});
+            $(this).css({"background":"#080D13"});
         });
         // 코인별탭 클릭이벤트
         $(".coinSelect dd").click(function() {
@@ -148,7 +148,7 @@ $(".coinSelect dt").click(function(){
             $(".coinSelect dt a").children("img").attr("src", selectC);
             $(".coinSelect dt span").text(selectCName);
             $(".coinSelect dd").hide();
-            $(".coinSelect").css({"background-color":"#fff"});
+            $(".coinSelect").css({"background-color":"#080D13"});
             coin_s=0;
             return false;
         });
@@ -157,7 +157,7 @@ $(".coinSelect dt").click(function(){
     }else{
         // dt한번 더 클릭시 이벤트
         $(".coinSelect dd").hide();
-        $(".coinSelect").css({"background":"#fff"});
+        $(".coinSelect").css({"background":"#080D13"});
         coin_s=0;
         return false;
     }

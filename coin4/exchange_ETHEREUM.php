@@ -54,7 +54,7 @@
                     <!-- 코인선택 영역 -->
                     <div class="coinSelect_area">
                         <dl class="coinSelect">
-                            <dt><a href="#" title="이더리움"><img src="img/eth.png" alt="이더리움"/><span>이더리움 ETH/KRW</span>
+                            <dt><a href="#" title="이더리움"><img src="img/eth.png" alt="이더리움"/></a><span>이더리움 ETH/KRW</span>
                               <img src="img/sws-31-sq.png" alt="국기" class="flag"></dt>
                               <dd onclick="location.href='exchange_BITCOIN.php'"><a href="#" title="비트코인"><img src="img/bitcoin.png" alt="비트코인"/></a><span>비트코인 BTC/KRW</span>
                                 <img src="img/usa-31-sq.png" alt="국기" class="flag"></dd>
