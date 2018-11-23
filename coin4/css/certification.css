@@ -13,11 +13,11 @@
   margin-bottom: 100px;
 }
 .cer_center .center_bottom .cText_left .current_level b {
-  color: #7AABDF;
+  color: #fff;
   font-size: 20px;
 }
 .cer_center .center_bottom .cText_left .current_level b .level_color {
-  color: #c95b74;
+  color: #7AABDF;
 }
 .cer_center .center_bottom .cText_left strong {
   color: #7AABDF;
@@ -38,10 +38,10 @@
     display: none;
 }
 .cer_center .center_bottom .cText_left p.important {
-  color: #c95b74;
+  color: #fff;
 }
 .cer_center .center_bottom .cText_left p.important .underline{
-    border-bottom: 1px solid #c95b74;
+    border-bottom: 1px solid #7AABDF;
 }
 
 .cer_center .center_bottom .cText_right {

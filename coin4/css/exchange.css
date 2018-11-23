@@ -240,6 +240,7 @@
 }
 #deal_orgin_transaction tbody tr{
     height: 50px;
+    border-bottom:2px solid #0E141C;
 }
 #deal_orgin_transaction tbody tr:hover{
     background: #c8eefb;
@@ -306,7 +307,7 @@
 .bid_price td{
   width:80px;
   padding:5px;
-  border-bottom:1px solid #333;
+  border-bottom:2px solid #0E141C;
 }
 .bid_price tr{
   position:relative;
@@ -829,7 +830,6 @@
 #deal_all thead tr{
     height: 35px;
     font-size:13px;
-    border-bottom:1px solid #333;
 }
 #deal_all thead tr th:not(.deal_time){
     text-align: right;
@@ -838,7 +838,7 @@
 
 #deal_all tbody tr{
     height: 35px;
-    border-bottom:1px solid #333;
+    border-bottom:2px solid #0E141C;
 }
 
 #deal_all tbody .up_down_data{

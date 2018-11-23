@@ -28,7 +28,7 @@
 }
 .alarm_area .alarm_list tbody td{
   font-size:15px;
-  border-bottom:1px solid #333;
+  border-bottom:2px solid #0E141C;
   padding:10px 0;
 }
 .alarm_area .alarm_list tbody .culgm, .alarm_area .alarm_list tbody .mado{
@@ -76,7 +76,7 @@
 }
 .alarm_area .alarm_setting .alarm_sangse_pyo1 td{
   padding:10px 10px;
-  border-bottom:1px solid #efefef;
+  border-bottom:2px solid #0E141C;
   font-weight: 600;
 }
 /* .alarm_area .alarm_setting .alarm_sangse_pyo1 input{
@@ -179,7 +179,7 @@
 .alarm_area .alarm_setting .alarm_snagse_checkbox{
   width:500px;
   text-align:left;
-  border-top:1px solid #efefef;
+  border-top:1px solid #333;
   padding-top:10px;
   padding-bottom:50px;
   margin-left:100px;

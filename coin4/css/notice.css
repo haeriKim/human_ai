@@ -16,7 +16,7 @@
 .notice_area .notice_list tr td{
     height:45px;
     line-height: 45px;
-    border-bottom:1px solid #333;
+    border-bottom:2px solid #0E141C;
     box-sizing:border-box;
     cursor:pointer;
 }

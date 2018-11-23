@@ -33,7 +33,7 @@
     position: relative;
     cursor: pointer;
     border: none;
-    background: #0E141C url(../img/arrow_off.png) no-repeat 98% 10px / 20px 20px;
+    background: #05080B url(../img/arrow_off.png) no-repeat 98% 10px / 20px 20px;
     border-bottom: 2px solid #7AABDF;
     border-radius: 5px 5px 0 0;
 }
