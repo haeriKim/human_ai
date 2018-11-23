@@ -8,8 +8,8 @@
 }
 .question_area .question_table th{
   padding: 15px 20px;
-  border-left: 2px solid #7AABDF;
-  background-color: #080D13;
+  border-right: 2px solid #7AABDF;
+  background-color: #05080B;
   font-size: 15px;
   color: #7AABDF;
   vertical-align: middle;
@@ -40,7 +40,7 @@
   height:25px;
   margin:20px;
   background:none;
-  border:1px solid #7AABDF;
+  border:1px solid #fff;
   padding:0 2px;
   box-sizing: border-box;
   color:#fff;
@@ -50,7 +50,7 @@
   height:500px;
   margin:30px 20px;
   background:none;
-  border:1px solid #7AABDF;
+  border:1px solid #fff;
   color:#fff;
   overflow-y:auto;
   box-sizing: border-box;
@@ -65,7 +65,7 @@
 }
 .question_area .question_table .filebox .file_input_textbox {
     float:left;
-    border: 1px solid #7AABDF;
+    border: 1px solid #fff;
     color:#999;
     width: 350px;
     height: 25px;
@@ -212,7 +212,7 @@
   padding-bottom:30px;
 }
 #full .cancel_btn_ok{
-  background: #fff;
+  background: #080D13;
   border: 1px solid #7AABDF;
   border-radius: 5px;
   padding: 7px 30px;
@@ -225,7 +225,7 @@
 #full .question_ok{
   border-radius: 5px;
   padding: 7px 30px;
-  color: #fff;
+  color: #080D13;
   font-weight: 600;
   font-size: 16px;
   box-sizing: border-box;
@@ -251,7 +251,7 @@
   cursor: pointer;
 }
 #full2 .cancel_btn3{
-  background: #fff;
+  background: #080D13;
   border: 1px solid #7AABDF;
   border-radius: 5px;
   padding: 7px 30px;
@@ -292,7 +292,7 @@
 }
 .question_detail .question_detail_inner .question_detail_inner_content p{
   font-size: 14px;
-  color: #7AABDF;
+  color: #fff;
   line-height: 1.5;
   font-weight:600;
 }
@@ -336,7 +336,7 @@
   text-align:left;
   border-radius: 5px;
   background:#7AABDF;
-  color:#fff;
+  color:#080D13;
   font-weight:600;
   margin-top:-10px;
 }
@@ -362,6 +362,7 @@
   font-weight:500;
   margin-top:-10px;
   border:1px solid #7AABDF;
+  background: #05080B;
 }
 .question_detail .question_detail_inner .question_detail_inner_content .malpungsun_answer:after{
   content: "";
@@ -386,6 +387,7 @@
   position:relative;
   color:#fff;
   font-weight:600;
+  background: #05080B;
 }
 .question_detail .question_detail_inner .question_detail_inner_content .malpungsun_story:after{
   content: "";
@@ -409,7 +411,7 @@
   float: right;
   padding: 8px 20px;
   margin: 2px;
-  background-color: #080D13;
+  background-color: #05080B;
   color: #7AABDF;
   border: 1px solid #7AABDF;
   cursor: pointer;
@@ -428,8 +430,8 @@
   height:200px;
   text-align:left;
   color:#fff;
-  border:1px solid #7AABDF;
-  background:#080D13;
+  border:1px solid #fff;
+  background:#05080B;
 }
 .question_detail .question_detail_inner .question_detail_inner_content .filebox2 {
   vertical-align: -18px;
@@ -446,12 +448,12 @@
 }
 .question_detail .question_detail_inner .question_detail_inner_content .filebox2 .file_input_textbox2 {
     float:left;
-    border: 1px solid #7AABDF;
+    border: 1px solid #fff;
     width: 350px;
     height: 25px;
     text-indent: 5px;
     background:none;
-    color:#666;
+    color:#fff;
 }
 .question_detail .question_detail_inner .question_detail_inner_content .filebox2 .file_input_div2 {
     float:left;

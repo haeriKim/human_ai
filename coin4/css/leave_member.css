@@ -120,7 +120,7 @@
     padding:5px 10px;
     text-align:left;
     display:block;
-    border:1px solid #7AABDF;
+    background: #05080B;
 }
 .withdrawal_area #withdrawal_text3 .cancel_or_apply .if_you_not_all_agree{
     border: 1px solid #7AABDF;

@@ -32,7 +32,7 @@
     padding: 10px;
     position: relative;
     cursor: pointer;
-    border: 1px solid #7AABDF;
+    border-bottom: 2px solid #7AABDF;
     background: #05080B url(../img/arrow_off.png) no-repeat 98% 10px / 20px 20px;
     border-radius: 5px 5px 0 0;
 }
