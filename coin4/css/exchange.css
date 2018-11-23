@@ -243,7 +243,7 @@
     border-bottom:2px solid #0E141C;
 }
 #deal_orgin_transaction tbody tr:hover{
-    background: #c8eefb;
+    background: #5a5a5a1c;
     cursor: pointer;
 }
 #deal_orgin_transaction tbody .up_down_data{

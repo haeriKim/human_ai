@@ -92,17 +92,18 @@
 .cText_right2 .bank_request span.request,.cText_right2 .bank_request input[type="submit"] {
   border-radius: 5px;
   padding: 7px 30px;
-  color: #fff;
+  color: #444;
   font-weight: 600;
   font-size: 16px;
   box-sizing: border-box;
-  border: 1px solid #666;
-  background-color: #666;
+  border: 1px solid #05080B;
+  background-color: #05080B;
 }
 .cText_right2 .bank_request input[type="submit"]{
   border: 1px solid #7AABDF;
   background-color: #7AABDF;
   cursor: pointer;
+  color:#fff;
 }
 .cText_right2 .code_area {
   margin-top: 20px;
@@ -168,25 +169,25 @@
 .cText_right2 #bank_complete .account_complete, .cText_right2 #bank_complete .chk_ok, .cText_right2 #bank_complete .bank_cancel{
   border-radius: 5px;
   padding: 7px 30px;
-  color: #fff;
+  color: #444;
   font-weight: 600;
   font-size: 16px;
   box-sizing: border-box;
-  border: 1px solid #666;
-  background-color: #666;
+  border: 1px solid #05080B;
+  background-color: #05080B;
 }
 .cText_right2 #bank_complete .chk_ok{
   border: 1px solid #7AABDF;
   background-color: #7AABDF;
+  color:#fff;
   cursor: pointer;
 }
 .cText_right2 #bank_complete .chk_ok:hover {
-  background-color: rgba(27,47,74,.9);
 }
 .cText_right2 #bank_complete .bank_cancel{
     color: #7AABDF;
     border: 1px solid #7AABDF;
-    background-color: #fff;
+    background-color: none;
     cursor: pointer;
 }
 #account_malpungsun{

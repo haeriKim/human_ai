@@ -145,7 +145,7 @@
 .cText_right3 .OTP_complete{
     border-radius: 5px;
     padding: 7px 30px;
-    color: #fff;
+    color: #0E141C;
     font-weight: 600;
     font-size: 16px;
     box-sizing: border-box;
@@ -155,7 +155,6 @@
     cursor: pointer;
 }
 .cText_right3 .OTP_complete:hover {
-  background-color: rgba(27,47,74,.9);
 }
 .cText_right3 .cancel{
   border-radius: 5px;
@@ -166,7 +165,7 @@
   font-size: 16px;
   box-sizing: border-box;
   border: 1px solid #7AABDF;
-  background-color: #fff;
+  background:none;
   margin-top:20px;
   cursor: pointer;
 }

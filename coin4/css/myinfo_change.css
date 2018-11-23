@@ -91,7 +91,7 @@ margin-left: 10px;
 }
 .myinfo_sub_box table.left_thick_table tbody input[type='button'], .myinfo_sub_box table.left_thick_table tbody input[type='submit']{
     border: 1px solid #7AABDF;
-    background: #fff;
+    background: none;
     color: #7AABDF;
     padding: 3px 5px;
     cursor: pointer;
@@ -101,7 +101,7 @@ margin-left: 10px;
 .myinfo_sub_box table.left_thick_table tbody input[type='button']:hover, .myinfo_sub_box table.left_thick_table tbody input[type='submit']:hover{
     border: 1px solid #7AABDF;
     background: #7AABDF;
-    color: #fff;
+    color: #0E141C;
     padding: 3px 5px;
     cursor: pointer;
 }
@@ -113,6 +113,8 @@ margin-left: 10px;
     width: 330px;
     padding-bottom: 4px;
     font-size: 15px;
+    background:none;
+    color:#fff;
 }
 .myinfo_sub_box table.left_thick_table tbody input::placeholder{
         color:#a1a1a1;
@@ -274,7 +276,6 @@ cursor: pointer;
   margin-top:40px;
   margin-bottom:60px;
   text-align:left;
-  border: 1px solid #efefef;
   border-left: none;
   height: 40px;
 }
@@ -282,7 +283,7 @@ cursor: pointer;
   margin-top:40px;
 }
 .change_OTP_table th{
-  background-color: #f4f5f9;
+  background-color: #05080B;
   border-left: 2px solid #7AABDF;
   padding: 5px 10px;
   color: #7AABDF;
@@ -300,10 +301,12 @@ cursor: pointer;
   width: 330px;
   padding-bottom: 4px;
   font-size: 15px;
+  background:none;
+  color:#fff;
 }
 .change_OTP_table .request_number{
   border: 1px solid #7AABDF;
-  background: #fff;
+  background: none;
   color: #7AABDF;
   padding: 3px 5px;
   font-size:15px;
@@ -312,14 +315,14 @@ cursor: pointer;
 .change_OTP_table .request_number:hover{
   border:1px solid #7AABDF;
   background:#7AABDF;
-  color:#fff;
+  color:#0E141C;
   padding: 3px 5px;
   font-size:15px;
   cursor: pointer;
 }
 .change_OTP_table .cofirm_number{
   border: 1px solid #7AABDF;
-  background: #fff;
+  background: none;
   color: #7AABDF;
   padding: 3px 5px;
   font-size:15px;
@@ -328,7 +331,7 @@ cursor: pointer;
 .change_OTP_table .cofirm_number:hover{
   border:1px solid #7AABDF;
   background:#7AABDF;
-  color:#fff;
+  color:#0E141C;
   padding: 3px 5px;
   font-size:15px;
   cursor:pointer;
