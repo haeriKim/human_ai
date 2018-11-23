@@ -37,7 +37,7 @@
     border-radius: 5px 5px 0 0;
 }
 .faq_area .faq_list ul li .on{
-    background: none url(../img/arrow_on.png) no-repeat 98% 10px / 20px 20px;
+    background: #05080B url(../img/arrow_on.png) no-repeat 98% 10px / 20px 20px;
 }
 
 .faq_area .faq_list ul li .question span{

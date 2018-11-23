@@ -267,7 +267,7 @@
                                             </div>
 
                                           </div>
-
+                                        <div class='mycoin_table_wrap'>
                                           <table class='mycoin_table' summary='보유코인,보유수량,매수평균가,매수금액,평가금액,평가손익,입출금 버튼,준비중 상태확인 '>
                                             <colgroup>
                                                 <!--<col width='20%'/>
@@ -424,7 +424,7 @@
                                               </tr>
                                             </tbody>
                                           </table>
-
+                                      </div><!-- mycoin_table_wrap-->
                                       </div><!-- buy_tab_content End-->
                                     </form>
                                   </div><!-- mywallet_tab End-->

@@ -7,6 +7,9 @@
 #left_mywallet_menu{
     float: left;
 }
+#wrap .days .search_btn:hover{
+    color: #080D13;
+}
 /*tab*/
 .mycoin_fence{
     width: 899px;
@@ -143,7 +146,6 @@ table .mycoin_thead_deco th.mycoin_kor a{
   /*margin-left:10px;*/
 }
 table .mycoin_tbody_deco tr{
-    border-bottom: 2px solid #0E141C;
     height: 45px;
 }
 table .mycoin_tbody_deco p span.unit{
@@ -203,9 +205,10 @@ table .mycoin_tbody_deco>tr>td>img{
 
 /*chegyeol & michegyeol*/
 .conclu_table{
-  float:left;
-  width:800px;
-  font-size:12px;
+    float: left;
+    width: 800px;
+    border: 1px solid #7AABDF;
+    font-size: 12px;
 }
 .conclu_table thead th{
   padding:10px 0;
@@ -224,7 +227,6 @@ table .mycoin_tbody_deco>tr>td>img{
 }
 .conclu_table tbody tr td{
     height: 40px;
-    border-bottom: 2px solid #0E141C;
     font-size: 14px;
 }
 .conclu_table tbody tr td.buying {
@@ -472,7 +474,7 @@ div.before_send_money_wrap > p{
     padding-left: 25px;
     margin-bottom: 3px;
     font-size: 15px;
-    color: #666;
+    color: #fff;
     font-weight: 600;
 }
 #output_KRW div.before_send_money_wrap label.all_agree{
@@ -483,7 +485,7 @@ div.before_send_money_wrap > p{
 #output_KRW div.before_send_money_wrap .cancel_or_apply{
     text-align: center;
 }
-#output_KRW div.before_send_money_wrap .cancel_btn{
+/* #output_KRW div.before_send_money_wrap .cancel_btn{
     background: #fff;
     border: 1px solid #7AABDF;
     border-radius: 5px;
@@ -493,18 +495,19 @@ div.before_send_money_wrap > p{
     margin-left: 20px;
     font-size: 16px;
     cursor: pointer;
-}
+} */
 #output_KRW div.before_send_money_wrap .agree_btn {
-  border-radius: 5px;
-  padding: 7px 30px;
-  color: #fff;
-  font-weight: 600;
-  font-size: 16px;
-  box-sizing: border-box;
+    border-radius: 5px;
+    padding: 7px 30px;
+    color: #080D13;
+    font-weight: 600;
+    font-size: 16px;
+    box-sizing: border-box;
 }
 #output_KRW div.before_send_money_wrap .if_you_not_all_agree{
-    border: 1px solid #666;
-    background-color: #666;
+    border: 1px solid #05080B;
+    background-color: #05080B;
+    color: #444;
 }
 #output_KRW div.before_send_money_wrap .if_you_all_agree{
   border: 1px solid #7AABDF;
@@ -780,7 +783,7 @@ div.before_send_money_wrap > p{
 }
 #money_malpungsun2{
   color:#fff;
-  background-color:#eaaf69;
+  background-color:#7AABDF;
   font-size:15px;
   font-weight: bold;
   position: absolute;
@@ -801,7 +804,7 @@ div.before_send_money_wrap > p{
   margin-left: -5px;
   border-width: 7px;
   border-style: solid;
-  border-color:  transparent transparent #eaaf69 transparent;
+  border-color:  transparent transparent #7AABDF transparent;
 }
 #money_malpungsun3{
   color:#fff;
@@ -898,7 +901,10 @@ div.before_send_money_wrap > p{
   margin:0 5px;
   line-height:32px;
   font-weight: 600;
-  color: #7AABDF;
+  color: #fff;
+}
+div.mycoin_table_wrap{
+    border:1px solid #7AABDF;
 }
 table.mycoin_table{
     margin: 0 auto;
