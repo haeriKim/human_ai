@@ -123,7 +123,7 @@
   padding-left: 5px;
 }
 #nav .login_info .alarmArea .alarm_desc dd:hover{
-  background: #c8eefb;
+  background: rgba(122,171,223,0.2);
 }
 /* #nav .login_info .alarmArea .alarm_desc dd .alarmType::before {
   content: '';

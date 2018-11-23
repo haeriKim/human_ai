@@ -15,6 +15,9 @@
     background: url(../img/arrow_down_dg.png) no-repeat 95% center;
     background-size: 7px;
 }
+#wrap .chegyeol_header select option{
+    background: #05080B;
+}
 #wrap .days .search_btn:hover{
     color: #7AABDF;
     border: 1px solid #7AABDF;
@@ -228,7 +231,7 @@ table .mycoin_tbody_deco>tr>td>img{
   background:  #05080B;
 }
 .conclu_table thead th select {
-  height: 30px;
+    height: 30px;
     border: 1px solid #7AABDF;
     color: #7AABDF;
     font-weight: 600;
@@ -237,7 +240,6 @@ table .mycoin_tbody_deco>tr>td>img{
 .conclu_table tbody tr td{
     height: 40px;
     font-size: 14px;
-    border-bottom:1px solid #333;
 }
 .conclu_table tbody tr td.buying {
   color: #f35531;
@@ -895,6 +897,9 @@ div.before_send_money_wrap > p{
     text-indent: 3px;
     border: 1px solid #fff;
 }
+#io_list .selectAll select option{
+    background: #080D13;
+}
 .table_top .tab2_header {
   overflow: hidden;
 }
@@ -1096,7 +1101,7 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
     height: 50px;
 }
 #deal_orgin_transaction tbody tr:hover{
-    background: #c8eefb;
+    background: rgba(122,171,223,0.2);
     cursor: pointer;
 }
 #deal_orgin_transaction tbody .up_down_data{
