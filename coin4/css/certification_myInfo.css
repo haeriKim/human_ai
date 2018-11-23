@@ -38,7 +38,10 @@ margin-left: 10px;
     border-bottom: 1px solid #7AABDF;
     width: 330px;
     padding-bottom: 4px;
-    font-size: 15px;}
+    font-size: 15px;
+    background:none;
+    color:#fff;
+}
 
 .myinfo_sub_box table.left_thick_table tbody input::placeholder{
     color:#a1a1a1;

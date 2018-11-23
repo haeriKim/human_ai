@@ -18,7 +18,7 @@
   }
 
 .alarm_area .alarm_list thead{
-  background:#f4f5f8;
+  background:#05080B;
   color:#7AABDF;
 }
 .alarm_area .alarm_list thead th{
@@ -28,18 +28,18 @@
 }
 .alarm_area .alarm_list tbody td{
   font-size:15px;
-  border-bottom:1px solid #ededed;
+  border-bottom:1px solid #333;
   padding:10px 0;
 }
 .alarm_area .alarm_list tbody .culgm, .alarm_area .alarm_list tbody .mado{
-  color:#002dae;
+  color:#017eff;
 }
 .alarm_area .alarm_list tbody .ipgm, .alarm_area .alarm_list tbody .masu{
-  color:#d60000;
+  color:#f35531;
 }
 
 .alarm_area .alarm_list tbody .new{
-  color:#d60000;
+  color:#f35531;
   font-size:11px;
   vertical-align: 1px;
   margin-left:7px;
@@ -70,7 +70,7 @@
 .alarm_area .alarm_setting .alarm_sangse_pyo1 th{
   padding:10px 10px;
   color:#7AABDF;
-  background-color:#f4f5f9;
+  background-color:#05080B;
   border-bottom:2px solid #7AABDF;
   font-weight: 600;
 }

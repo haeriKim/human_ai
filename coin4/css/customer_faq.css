@@ -33,12 +33,12 @@
     position: relative;
     cursor: pointer;
     border: none;
-    background: #f4f5f8 url(../img/arrow_off.png) no-repeat 98% 10px / 20px 20px;
+    background: #0E141C url(../img/arrow_off.png) no-repeat 98% 10px / 20px 20px;
     border-bottom: 2px solid #7AABDF;
     border-radius: 5px 5px 0 0;
 }
 .faq_area .faq_list ul li .on{
-    background: #f4f5f8 url(../img/arrow_on.png) no-repeat 98% 10px / 20px 20px;
+    background: #0E141C url(../img/arrow_on.png) no-repeat 98% 10px / 20px 20px;
 }
 
 .faq_area .faq_list ul li .question span{
@@ -58,7 +58,7 @@
 }
 .faq_area .faq_list ul li .answer p{
     padding-left: 30px;
-    color:#2b2b2b;
+    color:#fff;
     font-size: 14px;
 }
 .faq_area .faq_list ul li .answer img{

@@ -42,7 +42,7 @@
 }
 .coin_money_inner .price{
   font-size:30px;
-  color:#012dae;
+  color:#017eff;
   font-weight:bold;
 }
 .coin_money_inner .won{
@@ -65,7 +65,7 @@
 }
 .coin_money_inner .coin_prepare {
   font-size: 18px;
-  color:#012dae;
+  color:#017eff;
   font-weight: 600;
 }
 .coin_money_inner .coin_prepare strong{
@@ -96,14 +96,14 @@
 }
 .coin_money_prepare .hl_price p{
   font-size:20px;
-  color:#d60000;
+  color:#f35531;
   display:inline-block;
   float:right;
   text-align: right;
   margin-top:-2px;
 }
 .coin_money_prepare .hl_price p .price_down{
-  color:#012dae;
+  color:#017eff;
 }
 .coin_money_prepare li .won{
   font-size:16px;
@@ -268,10 +268,10 @@
     font-size:13px;
 }
 #deal_orgin_transaction .money_up{
-    color:#d60000;
+    color:#f35531;
 }
 #deal_orgin_transaction .money_down{
-    color:#002dae;
+    color:#017eff;
 }
 /*chart_graf*/
 
@@ -360,16 +360,16 @@
   text-align:center;
 }
 .orderbg1{
-  background-color:#f8a33c61;
+  background-color:#017eff26;
 }
 .orderbg2{
-  background-color:#ff000636;
+  background-color:#f3553133;
 }
 .upprice{
-  color:#d60000;
+  color:#f35531;
 }
 .downprice{
-  color:#002dae;
+  color:#017eff;
 }
 .bid_price table tbody tr td{
   position:relative;
@@ -377,7 +377,7 @@
 .mado1 div{
   width:50px;
   height:15px;
-  background-color:#f8a33c61;
+  background-color:#017eff26;
   position:absolute;
   top:10px;
   left:85px;
@@ -386,7 +386,7 @@
 .mado2 div{
   width:50px;
   height:15px;
-  background-color:#f8a33c61;
+  background-color:#017eff26;
   position:absolute;
   top:10px;
   left:85px;
@@ -395,7 +395,7 @@
 .mado3 div{
   width:100px;
   height:15px;
-  background-color:#f8a33c61;
+  background-color:#017eff26;
   position:absolute;
   top:10px;
   left:30px;
@@ -404,7 +404,7 @@
 .mado4 div{
   width:20px;
   height:15px;
-  background-color:#f8a33c61;
+  background-color:#017eff26;
   position:absolute;
   top:10px;
   left:110px;
@@ -413,7 +413,7 @@
 .mado5 div{
   width:20px;
   height:15px;
-  background-color:#f8a33c61;
+  background-color:#017eff26;
   position:absolute;
   top:10px;
   left:110px;
@@ -422,7 +422,7 @@
 .mado6 div{
   width:20px;
   height:15px;
-  background-color:#f8a33c61;
+  background-color:#017eff26;
   position:absolute;
   top:10px;
   left:110px;
@@ -431,7 +431,7 @@
 .mado7 div{
   width:100px;
   height:15px;
-  background-color:#f8a33c61;
+  background-color:#017eff26;
   position:absolute;
   top:10px;
   left:30px;
@@ -440,7 +440,7 @@
 .mado8 div{
   width:80px;
   height:15px;
-  background-color:#f8a33c61;
+  background-color:#017eff26;
   position:absolute;
   top:10px;
   left:50px;
@@ -449,7 +449,7 @@
 .mado9 div{
   width:50px;
   height:15px;
-  background-color:#f8a33c61;
+  background-color:#017eff26;
   position:absolute;
   top:10px;
   left:85px;
@@ -458,7 +458,7 @@
 .mado10 div{
   width:50px;
   height:15px;
-  background-color:#f8a33c61;
+  background-color:#017eff26;
   position:absolute;
   top:10px;
   left:85px;
@@ -467,7 +467,7 @@
 .masu1 div{
   width:50px;
   height:15px;
-  background-color:#ff000636;
+  background-color:#f3553133;
   position:absolute;
   top:10px;
   right:106px;
@@ -476,7 +476,7 @@
 .masu2 div{
   width:50px;
   height:15px;
-  background-color:#ff000636;
+  background-color:#f3553133;
   position:absolute;
   top:10px;
   right:106px;
@@ -485,7 +485,7 @@
 .masu3 div{
   width:100px;
   height:15px;
-  background-color:#ff000636;
+  background-color:#f3553133;
   position:absolute;
   top:10px;
   right:56px;
@@ -494,7 +494,7 @@
 .masu4 div{
   width:20px;
   height:15px;
-  background-color:#ff000636;
+  background-color:#f3553133;
   position:absolute;
   top:10px;
   right:136px;
@@ -503,7 +503,7 @@
 .masu5 div{
   width:20px;
   height:15px;
-  background-color:#ff000636;
+  background-color:#f3553133;
   position:absolute;
   top:10px;
   right:136px;
@@ -512,7 +512,7 @@
 .masu6 div{
   width:20px;
   height:15px;
-  background-color:#ff000636;
+  background-color:#f3553133;
   position:absolute;
   top:10px;
   right:136px;
@@ -522,7 +522,7 @@
 .masu7 div{
   width:100px;
   height:15px;
-  background-color:#ff000636;
+  background-color:#f3553133;
   position:absolute;
   top:10px;
   right:56px;
@@ -532,7 +532,7 @@
 .masu8 div{
   width:80px;
   height:15px;
-  background-color:#ff000636;
+  background-color:#f3553133;
   position:absolute;
   top:10px;
   right:81px;
@@ -542,7 +542,7 @@
 .masu9 div{
   width:50px;
   height:15px;
-  background-color:#ff000636;
+  background-color:#f3553133;
   position:absolute;
   top:10px;
   right:106px;
@@ -552,7 +552,7 @@
 .masu10 div{
   width:50px;
   height:15px;
-  background-color:#ff000636;
+  background-color:#f3553133;
   position:absolute;
   top:10px;
   right:106px;
@@ -695,12 +695,12 @@
 }
 
 #buy_sell_tab .buy_all_amount p span.up_down_data{
-    color:#d60000;
+    color:#f35531;
     font-size:20px;
     margin-right:5px;
 }
 #buy_sell_tab .buy_all_amount p span.blue_color{
-    color:#002dae;
+    color:#017eff;
 }
 
 #buy_sell_tab .buy_tab_content .buy_tab_content_row.total_price{
@@ -734,13 +734,13 @@
     float: left;
 }
 #buy_sell_tab input[type='reset'].reset_buy {
-    border:1px solid #d60000;
-    color: #d60000;
+    border:1px solid #f35531;
+    color: #f35531;
     background:none;
 }
 #buy_sell_tab input[type='reset'].reset_sell {
-    border:1px solid #002dae;
-    color: #002dae;
+    border:1px solid #017eff;
+    color: #017eff;
     background:none;
 }
 #buy_sell_tab .buy_tab_button{
@@ -749,7 +749,7 @@
 }
 #buy_sell_tab .buy_big_btn{
     padding: 11px 125px;
-    background: #d60000;
+    background: #f35531;
     border-radius: 5px;
     border: none;
     font-size: 15px;
@@ -764,7 +764,7 @@
 }
 #buy_sell_tab .sell_big_btn{
     padding: 11px 125px;
-    background: #002dae;
+    background: #017eff;
     border-radius: 5px;
     border:none;
     font-size:15px;
@@ -785,18 +785,18 @@
     background: #080D13;
 }
 #buy_sell_tab .buy_sell_tab_title .buy_tab h3.on a{
-    color:#d60000;
+    color:#f35531;
     display: block;
-    border-top:3px solid #d60000;
+    border-top:3px solid #f35531;
     padding:8px 0;
     background-color: #080D13;
     border-radius: 5px 0 0 0;
 }
 
 #buy_sell_tab .buy_sell_tab_title .sell_tab h3.on a{
-    color:#002dae;
+    color:#017eff;
     display: block;
-    border-top:3px solid #002dae;
+    border-top:3px solid #017eff;
     padding:8px 0;
     background-color: #080D13;
     border-radius: 0 5px 0 0;
@@ -854,11 +854,11 @@
 }
 
 #deal_all .money_up{
-    color:#d60000;
+    color:#f35531;
 }
 
 #deal_all .money_down{
-    color:#002dae;
+    color:#017eff;
 }
 #deal_all .deal_table_tbody{
     display: block;

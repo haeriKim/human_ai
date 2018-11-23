@@ -75,6 +75,8 @@
   border-bottom: 1px solid #7AABDF;
   padding-bottom: 4px;
   width: 100%;
+  background:none;
+  color:#fff;
 }
 .cText_right2 p{
   font-size:13px;
@@ -109,7 +111,7 @@
   padding: 20px 20px;
   border-radius: 5px;
   /* float: left; */
-  background: #f4f5f9;
+  background: #05080B;
 }
 .cText_right2 .code_area p {
   color: #7AABDF;
@@ -119,7 +121,7 @@
   width: 100%;
   margin: 10px auto;
   padding: 10px 0;
-  background: #f4f5f9;
+  background: none;
   /* display: block; */
 }
 .cText_right2 .code_area p b {
@@ -131,11 +133,12 @@
   border-bottom: 1px solid #7AABDF;
   width: 100%;
   padding: 10px 0;
-  background:#f4f5f9;
+  background:none;
+  color:#fff;
 }
 .cText_right2 .code_area .code_text2 {
   display: block;
-  color: #999;
+  color: #7AABDF;
   text-decoration: underline;
   font-size: 13px;
   margin-top: 20px;
@@ -144,7 +147,7 @@
 }
 .cText_right2 .code_area .delete_icon{
   display: block;
-  color: #999;
+  color: #7AABDF;
   font-size: 13px;
   text-align:right;
   margin-top:5px;
