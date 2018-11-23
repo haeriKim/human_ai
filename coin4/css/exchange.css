@@ -149,6 +149,7 @@
   display:none;
   background:#080D13;
   z-index:4;
+  border: none;
 }
 #detail_all{
   padding:10px 25px;
@@ -163,15 +164,14 @@
 }
 #detail_all span a{
   font-size:12px;
-  font-weight:600;
-  color:#7AABDF;
+  color:#fff;
   float:right;
   display:inline-block;
   padding:10px 0;
   text-decoration:underline;
 }
 #detail_all span a:hover {
-  color:#c95b74;
+  color:#7AABDF;
 }
 .coin_money_detail::after {
   content: "";
@@ -179,17 +179,19 @@
   top: 22%;
   left: -7%;
   margin-left: -5px;
+  border: 1px solid #7AABDF;
   border-width: 17px;
   border-style: solid;
   border-color: transparent #080D13 transparent transparent;
 }
 .coin_name{
-  width:100%;
-  height:50px;
-  background-color:#7AABDF;
-  border-radius:5px 5px 0 0;
-  color:#fff;
-  float:left;
+  width: 100%;
+  height: 50px;
+  background-color: #080D13;
+  border-bottom: 2px solid #7AABDF;
+  border-radius: 5px 5px 0 0;
+  color: #7AABDF;
+  float: left;
 }
 .coin_name h4{
   padding:10px 15px;
@@ -301,7 +303,7 @@
   margin-right:20px;
 }
 .bid_price table{
-  width:450px;
+  width:448px;
   font-size:13px;
 }
 .bid_price td{
@@ -583,6 +585,7 @@
     width: 435px;
     background: #080D13;
     border-radius:0 0 5px 5px;
+    border: none;
 }
 .buy_tab_content{
     display: block;
@@ -622,7 +625,7 @@
 }
 #buy_sell_tab .buy_tab_content .buy_tab_content_row dd a,
 #buy_sell_tab .sell_tab_content .sell_tab_content_row dd a{
-    border:1px solid #7AABDF;
+    border:1px solid #fff;
     width: 30px;
     height: 30px;
     display: inline-block;
@@ -633,7 +636,7 @@
     text-align: center;
     line-height: 21px;
     background: none;
-    color:#7AABDF;
+    color:#fff;
 }
 #buy_sell_tab .buy_tab_content .buy_tab_content_row dd .minus_btn,
 #buy_sell_tab .sell_tab_content .sell_tab_content_row dd .minus_btn{
@@ -647,7 +650,7 @@
     top:9px;
 }
 #buy_sell_tab dd input[type='text']{
-    border:1px solid #7AABDF;
+    border:1px solid #fff;
     background:none;
     height: 30px;
     width: 200px;
@@ -655,7 +658,7 @@
     font-size:15px;
     padding-right:5px;
     font-weight: 600;
-    color:#333;
+    color:#fff;
     margin-right:70px;
 }
 
@@ -667,14 +670,16 @@
     position: absolute;
     top: 9px;
     right: 1px;
-    border: 1px solid #7AABDF;
+    border: 1px solid #fff;
     font-size: 15px;
     width: 66px;
     height: 32px;
     line-height: 30px;
-    color:#7AABDF;
-    background-color: #none;
+    color:#fff;
     text-indent: 5px;
+}
+#buy_sell_tab .amount_dropbox select option {
+  background-color: #080D13;
 }
 #buy_sell_tab .buy_all_amount_title{
     font-weight: 600;
@@ -685,7 +690,7 @@
     width: 278px;
     background: none;
     border-radius: 5px;
-    color:#333;
+    color:#fff;
     border:1px solid #7AABDF;
     height:47px;
 }
@@ -754,14 +759,11 @@
     border-radius: 5px;
     border: none;
     font-size: 15px;
-    color: #fff;
+    color: #080D13;
     font-weight: 600;
     cursor: pointer;
     margin-left: 2%;
     float: left;
-}
-#buy_sell_tab .buy_big_btn:hover {
-  background-color: rgba(255,35,35,.9);
 }
 #buy_sell_tab .sell_big_btn{
     padding: 11px 125px;
@@ -769,14 +771,11 @@
     border-radius: 5px;
     border:none;
     font-size:15px;
-    color:#fff;
+    color:#080D13;
     font-weight: 600;
     cursor:pointer;
     margin-left: 2%;
     float: left;
-}
-#buy_sell_tab .sell_big_btn:hover {
-  background-color: rgba(0,45,174,.9);
 }
 #buy_sell_tab .buy_sell_tab_title li h3 a{
     border-radius: 5px 0 0 0;
@@ -849,7 +848,7 @@
 
 #deal_all tbody p{
     font-size:13px;
-    color:#2b2b2b;
+    color:#444;
     font-weight: 500;
 }
 
