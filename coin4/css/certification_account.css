@@ -81,7 +81,7 @@
 .cText_right2 p{
   font-size:13px;
   font-weight:600;
-  color:#c95b74;
+  color:#eaaf69;
   margin-top:6px;
 }
 .cText_right2 .bank_request {
@@ -115,7 +115,7 @@
   background: #05080B;
 }
 .cText_right2 .code_area p {
-  color: #7AABDF;
+  color: #fff;
 }
 .cText_right2 .code_area .code_text{
   border: none;
@@ -126,7 +126,7 @@
   /* display: block; */
 }
 .cText_right2 .code_area p b {
-  color: #c95b74;
+  color: #eaaf69;
   font-size: 14px;
 }
 .cText_right2 .code_area input[type="text"]{
@@ -145,9 +145,10 @@
   margin-top: 20px;
   text-align:right;
   cursor: pointer;
+  font-weight:500;
 }
 .cText_right2 .code_area .code_text2:hover{
-  color:#30afb8;
+  color:#eaaf69;
   cursor:pointer;
 }
 .cText_right2 .code_area .delete_icon{
@@ -196,7 +197,7 @@
 }
 #account_malpungsun{
   color:#fff;
-  background-color:#eaaf69;
+  background-color:#7AABDF;
   font-size:15px;
   font-weight: bold;
   position: absolute;
@@ -217,7 +218,7 @@
   margin-left: -5px;
   border-width: 7px;
   border-style: solid;
-  border-color:  transparent transparent #eaaf69 transparent;
+  border-color:  transparent transparent #7AABDF transparent;
 }
 .warning_icon{
   vertical-align: -3px;

@@ -46,7 +46,7 @@
 
 .submenu_mypage_inner .submenu_mypage_info #submenu_mypage_select {
     width: 293px;
-    border: 1px solid #7AABDF;
+    border: 1px solid #fff;
     background-color: rgba(27,47,74,.2);
     padding: 10px 0;
     font-size: 15px;
@@ -54,6 +54,9 @@
     padding-left: 3px;
     color: #fff;
     margin-left: -1px;
+}
+.submenu_mypage_inner .submenu_mypage_info #submenu_mypage_select option{
+  background:#0E141C;
 }
 .submenu_mypage_inner .submenu_mypage_info #submenu_mypage_select .unit{
     font-weight: 600;
@@ -75,7 +78,7 @@
     border-bottom: 1px solid #7AABDF;
     text-align: right;
     width: 150px;
-    color: #555;
+    color: #7AABDF;
     font-weight: 600;
     font-size: 16px;
 }
@@ -108,7 +111,7 @@
 }
 
 .submenu_mypage_inner .submenu_mypage_info .submenu_mypage_table_bottom p a:hover {
-  color: #c95b74;
+  color: #eaaf69;
 }
 
 .submenu_mypage_inner .submenu_mypage_info .submenu_mypage_table_bottom b {

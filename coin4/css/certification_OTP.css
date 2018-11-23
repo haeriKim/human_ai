@@ -90,13 +90,13 @@
 .cText_right3 .qr_code a{
   font-size:12px;
   float:right;
-  color:#999;
+  color:#efefef;
   margin-top:60px;
   margin-right:25px;
   text-decoration:underline;
 }
 .cText_right3 .qr_code a:hover{
-  color:#c95b74;
+  color:#eaaf69;
 }
 .cText_right3 .qr_code_imgbox{
   border:1px solid #7AABDF;
@@ -120,7 +120,7 @@
 .cText_right3 .OTP_code .OTP_reset{
   font-size:12px;
   vertical-align: 2px;
-  color:#c95b74;
+  color:#eaaf69;
 }
 
 .cText_right3 .OTP_codebox{
