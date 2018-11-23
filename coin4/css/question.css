@@ -168,8 +168,8 @@
   width: 110px;
   padding: 5px 10px;
   margin-top: 5px;
-  border: 1px solid #7AABDF;
-  color: #7AABDF;
+  border: 1px solid #fff;
+  color: #fff;
 }
 .question_history_area .question_history_inner .question_list thead{
   background:#080D13;

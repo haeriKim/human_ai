@@ -61,6 +61,7 @@
     border-radius:5px;
     background-color: #080D13;
     box-sizing: border-box;
+    border:1px solid #7AABDF;
 }
 .box h3.title {
     display: block;
@@ -288,13 +289,13 @@ table.left_thick_table tbody tr{
 }
 table.left_thick_table tbody th{
     background: #05080B;
-    padding: 5px 10px;
+    padding: 5px 7px;
     color: #7aabdf;
     font-size: 14px;
-    text-align: center;
+    text-align: left;
     font-weight: 600;
     border-right: 2px solid #7aabdf;
-    width: 35%;
+    width: 36%;
 }
 table.left_thick_table tbody td{
     font-size: 14px;
@@ -731,9 +732,9 @@ div.cancel_or_apply .if_you_all_agree{
   font-size:14px;
   height: 30px;
   text-indent: 3px;
-  border:1px solid #7AABDF;
+  border:1px solid #fff;
   background:#080D13;
-  color:#7AABDF;
+  color:#fff;
 }
 .days ::-webkit-inner-spin-button {
      height: 30px;
@@ -769,7 +770,7 @@ div.cancel_or_apply .if_you_all_agree{
 }
 .days .search_btn:hover{
   background-color: #7AABDF;
-  color: #fff;
+  color: #0E141C;
 
 }
 
@@ -838,17 +839,18 @@ div.cancel_or_apply .if_you_all_agree{
 
 /* 셀렉트박스&검색영역 */
 #look_method{
-    border: 1px solid #7AABDF;
+    border: 1px solid #fff;
     width: 140px;
     height: 32px;
     vertical-align: middle;
     margin-right: 5px;
     text-indent: 9px;
     float: left;
-    color: #7AABDF;
+    color: #fff;
 }
 #look_method option{
     border: 1px solid red;
+    background:#0E141C;
 }
 .search{
     text-align: right;
@@ -859,7 +861,7 @@ div.cancel_or_apply .if_you_all_agree{
     width: 200px;
     height: 30px;
     border: none;
-    border-bottom: 2px solid #7AABDF;
+    border-bottom: 2px solid #fff;
     font-size: 12px;
     text-indent: 10px;
     margin-right: 45px;
@@ -873,7 +875,7 @@ div.cancel_or_apply .if_you_all_agree{
     position:absolute;
     right:0;
     top: 6px;
-    border-bottom: 2px solid #7AABDF;
+    border-bottom: 2px solid #fff;
 }
 
 

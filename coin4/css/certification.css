@@ -75,22 +75,25 @@
   width: 100px;
   padding: 7px 0;
   box-sizing: border-box;
-  color: #0E141C;
-  background-color: #7AABDF;
+  color: #7AABDF;
+  background:none;
   border-radius: 5px;
   text-align: center;
   font-size: 14px;
   letter-spacing: 0.5px;
   float: right;
   vertical-align: middle;
-  font-weight:600;
+  border:1px solid #7AABDF;
 }
 .cer_center .center_bottom .cText_right li .go_cer:hover {
+  background-color:#7AABDF;
+  color:#0E141C;
 }
 .cer_center .center_bottom .cText_right li span.c_complete {
   cursor: default;
   color:#444;
   background-color: #05080B;
+  border:none;
 }
 .cer_center .center_bottom .cText_right li span.disable {
   background-color: #dfdfdf;
