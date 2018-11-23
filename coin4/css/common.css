@@ -133,17 +133,16 @@
     margin: 0 2px;
     background: none;
     border: 1px solid #7AABDF;
-    color: #7AABDF;
+    color: #080D13;
     cursor: pointer;
 }
-#wrap .btn_small:link{
-    color:#7AABDF;
-}
 .btn_small:hover{
-  color:white;
+  color:#080D13;
   background-color: #7AABDF;
 }
-
+.btn_small:link {
+  color: #7AABDF;
+}
 /*거래소 등 h3 스타일*/
 .exchange_h3,
 .mywallet_h3{
@@ -450,11 +449,11 @@ div.cancel_or_apply .if_you_all_agree{
   margin-left: 20px;
 }
 .cer_center .cer_level li .img_area{
-  background-color: #F4F5F9;
+  background-color: #05080B;
   width: 130px;
   height: 130px;
   text-align: center;
-  box-shadow: 0px 6px 7px #657385;
+  /* box-shadow: 0px 6px 7px #657385; */
   margin: 0 auto;
   line-height: 195px;
   margin-bottom: 10px;
