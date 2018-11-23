@@ -131,9 +131,9 @@ table td div.question_smallbox{
 table .password_question_detail, table .password_question_detail2{
   box-sizing: border-box;
   padding:20px;
-  color:white;
+  color:#05080B;
   background-color:#7AABDF; border-radius: 5px;
-  opacity:0.9; position:absolute;
+  position:absolute;
   width:600px;
   top:40px;
   left:-290px;
@@ -249,16 +249,13 @@ table td div.question_smallbox:hover .password_question_detail2{
 .phone_change_box2 .cancel_btn_ok{
 border-radius: 5px;
 padding: 7px 30px;
-color: #fff;
+color: #080D13;
 font-weight: 600;
 font-size: 16px;
 box-sizing: border-box;
 border: none;
 background-color: #7AABDF;
 cursor: pointer;
-}
-.phone_change_box2 .cancel_btn_ok:hover{
-  background-color: rgba(27,47,74,.9);
 }
 #full{
   display:none;
@@ -282,7 +279,7 @@ cursor: pointer;
 }
 .change_OTP_table th{
   background-color: #05080B;
-  border-left: 2px solid #7AABDF;
+  border-right: 2px solid #7AABDF;
   padding: 5px 10px;
   color: #7AABDF;
   font-size: 14px;
@@ -349,7 +346,7 @@ cursor: pointer;
 #full .change_OTP_agree_btn{
   border-radius: 5px;
   padding: 7px 30px;
-  color: #fff;
+  color: #080D13;
   font-weight: 600;
   font-size: 16px;
   box-sizing: border-box;
