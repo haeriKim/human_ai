@@ -41,7 +41,7 @@
   color: #fff;
 }
 .cer_center .center_bottom .cText_left p.important .underline{
-    border-bottom: 1px solid #7AABDF;
+    border-bottom: 1px solid #eaaf69;
 }
 
 .cer_center .center_bottom .cText_right {
@@ -59,16 +59,16 @@
 }
 .cer_center .center_bottom .cText_right li p {
   display: inline-block;
-  color: #7AABDF;
+  color: #fff;
   font-weight: 600;
 }
 .cer_center .center_bottom .cText_right li p span {
-  color: #eaaf69;
+  color: #7AABDF;
   font-size: 12px;
   margin-left: 5px;
 }
 .cer_center .center_bottom .cText_right li p span.recommend {
-  color: #808CE6;
+  color: #eaaf69;
 }
 .cer_center .center_bottom .cText_right li .c_btn {
   display: inline-block;

@@ -15,7 +15,7 @@
   font-size:14px;
 }
 .withdrawal_area .withdrawal_text .bb{
-  color:#c95b74;
+  color:#eaaf69;
 }
 .withdrawal_area .withdrawal_text .withdrawal_span{
   font-size:13px;
@@ -23,7 +23,7 @@
 
 .withdrawal_area .withdrawal_text .withdrawal_bottom_line{
   padding-bottom:20px;
-  border-bottom:1px solid #eee;
+  border-bottom:1px solid #333;
   display:block;
 }
 .withdrawal_area .withdrawal_text #checkbox_text{
@@ -50,16 +50,17 @@
   width:900px;
   font-weight:600;
   font-size:25px;
-  color:#c95b74;
+  color:#eaaf69;
 }
 .withdrawal_area .withdrawal_text2 .my_all_money{
   width:300px;
   display:inline-block;
-  background:#eee;
-  border:1px solid #eee;
+  background:none;
+  border:1px solid #7AABDF;
   text-align:right;
   border-radius: 5px;
   padding:0 10px;
+  color:#7AABDF;
 }
 .withdrawal_area .withdrawal_text2 strong{
   color:#7AABDF;
@@ -112,13 +113,14 @@
   position:relative;
 }
 .withdrawal_area #withdrawal_text3 .get_rid_of_money{
-    color: #666;
+    color: #7AABDF;
     font-weight: 600;
-    background: #f4f5f9;
+    background: none;
     width:200px;
     padding:5px 10px;
     text-align:left;
     display:block;
+    border:1px solid #7AABDF;
 }
 .withdrawal_area #withdrawal_text3 .cancel_or_apply .if_you_not_all_agree{
     border: 1px solid #7AABDF;
@@ -134,17 +136,17 @@
     font-weight: 600;
 }
 .withdrawal_area #withdrawal_text4 select{
-    border: 1px solid #7AABDF;
+    border: 1px solid #fff;
     font-size: 15px;
     width: 500px;
     margin: 30px auto 0 auto;
     display: block;
-    color: #7AABDF;
+    color: #fff;
     font-weight: 600;
     height: 35px;
 }
 .withdrawal_area #withdrawal_text4 option{
-    color: #7AABDF;
+    background:#0E141C;
     font-weight: 600;
 }
 .withdrawal_area #withdrawal_text4 input[type='text']{
@@ -156,10 +158,10 @@
     font-weight: 600;
     height: 35px;
     border: none;
-    border: 1px solid #efefef;
+    border: 1px solid #7AABDF;
     font-size: 16px;
     padding-left: 4px;
-    background: #efefef;
+    background: none;
 }
 .withdrawal_area #withdrawal_text4 textarea{
     width: 495px;
@@ -169,6 +171,7 @@
     padding: 5px 0 0 5px;
     border:1px solid #7AABDF;
     font-size: 15px;
+    color:#fff;
 }
 .withdrawal_area #withdrawal_text4 textarea::placeholder{
     font-size: 14px;
@@ -190,7 +193,7 @@
 }
 .withdrawal_area #withdrawal_text3 .cofirm_number{
     border: 1px solid #7AABDF;
-    background: #fff;
+    background: none;
     color: #7AABDF;
     padding: 3px 5px;
     cursor: pointer;
@@ -198,7 +201,7 @@
 }
 .withdrawal_area #withdrawal_text3 .cofirm_number:hover{
   background:#7AABDF;
-  color:#fff;
+  color:#0E141C;
 }
 #full{
   display:none;
@@ -220,7 +223,7 @@
   position:absolute;
   top:9px;
   right:185px;
-  color:red;
+  color:#f35531;
   font-size:14px;
 }
 .warning_icon{

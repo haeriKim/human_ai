@@ -13,8 +13,11 @@
     width:100px;
     padding:5px 10px;
     margin-top:5px;
-    border: 1px solid #7AABDF;
-    color: #7AABDF;
+    border: 1px solid #fff;
+    color: #fff;
+  }
+  .alarm_area .alarm_head #alarm_select option{
+    background:#0E141C;
   }
 
 .alarm_area .alarm_list thead{

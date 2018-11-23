@@ -67,7 +67,7 @@
   text-decoration: underline;
 }
 .myinfo_main_box .quit_page a:hover{
-  color:#30afb8;
+  color:#eaaf69;
 }
 .myinfo_sub_box .user_level{
     display: none;
@@ -219,5 +219,5 @@
   color:#efefef;
 }
 .myinfo_sub_box .change_text:hover{
-  color:#30afb8;
+  color:#eaaf69;
 }

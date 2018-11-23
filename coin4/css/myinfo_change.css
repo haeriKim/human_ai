@@ -188,7 +188,7 @@ table td div.question_smallbox:hover .password_question_detail2{
 }
 
 .myinfo_main_box .cer_center .myinfo_text_box span{
-  color:#c95b74;
+  color:#eaaf69;
 }
 .myinfo_main_box .cer_center .cancel_or_apply{
     text-align: center;
@@ -197,12 +197,12 @@ table td div.question_smallbox:hover .password_question_detail2{
 }
 .send_login_password .forget_security_number a{
     font-size: 14px;
-    color: #999;
+    color: #efefef;
     text-decoration: underline;
 }
 .send_login_password .forget_security_number a:hover{
-    color: #c95b74;
-}
+    color: #eaaf69;
+  }
 .myinfo_main_box .myinfo_table_wrap2{
   margin-top:20px;
   margin-bottom:80px;

@@ -214,6 +214,9 @@ input[type='checkbox']:checked + label:before{ /* 체크박스를 체크했을�
 #wrap input::placeholder{
     color: #fff;
 }
+#wrap textarea::placeholder {
+  color:#fff;
+}
 /* 페이징(공지사항, 체결/미체결) */
 .contentBottom{
   padding:20px 0;
@@ -420,7 +423,7 @@ div.cancel_or_apply .if_you_all_agree{
   background-color:#7AABDF;
 }
 .tab3_header ul li.active2 a{
-    color:#fff;
+    color:#080D13;
 }
 .tab3_header .days{
   float:right;
@@ -488,7 +491,7 @@ div.cancel_or_apply .if_you_all_agree{
     z-index: 2;
 }
 .coinSelect_area {
-    width: 350px;
+    width: 348px;
     box-sizing: border-box;
 
 }
@@ -635,7 +638,7 @@ div.cancel_or_apply .if_you_all_agree{
 
 }
 .coin_money_detail #detail_all .coinInfo_table tbody tr td a{
-    color:#666;
+    color:#fff;
     text-decoration: underline;
 }
 
@@ -753,7 +756,7 @@ div.cancel_or_apply .if_you_all_agree{
   margin:0 5px;
   line-height:32px;
   font-weight: 600;
-  color: #7AABDF;
+  color: #fff;
 }
 .days div{
   float:left;
