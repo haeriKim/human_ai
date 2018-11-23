@@ -26,7 +26,7 @@
 }
 .greetings_inner .greetings_story .gr_title span {
   font-size: 27px;
-  color: #009CFF;
+  color: #7AABDF;
   font-weight: 600;
 }
 .greetings_inner .greetings_story .greetings_img{
@@ -53,12 +53,11 @@
     width: 90%;
     vertical-align: 18px;
     font-weight: 600;
-    color: #009CFF;
+    color: #7AABDF;
     font-size: 17px;
 }
 .greetings_inner .greetings_story .greetings_sign{
   height:130px;
-  margin-bottom: 30px;
 }
 .greetings_inner .greetings_story .right_sign{
   text-align: right;
