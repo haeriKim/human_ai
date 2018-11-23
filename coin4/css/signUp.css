@@ -18,7 +18,7 @@
   margin-right: 2%
 }
 #signUp_area .signUp_left_con label{
-    color: #666;
+    color: #fff;
     font-weight: 600;
     font-size: 14px;
     text-align: right;
@@ -29,7 +29,7 @@
     width: 416px;
 }
 #signUp_area .signUp_left_con .agree_content_box_3{
-    border-bottom: 1px solid #333;
+    border-bottom: 2px solid #0E141C;
 }
 #signUp_area .signUp_left_con .agree_content_box p:not(.text_box){
     color: #666;
@@ -45,13 +45,13 @@
     height: 100px;
     overflow-y: scroll;
     font-size: 14px;
-    color: #757575;
+    color: #fff;
     padding: 7px;
 }
 #signUp_area .signUp_left_con .all_agree_label{
     text-align: left;
     margin-top: 17px;
-  color: #7AABDF;
+  color: #fff;
 }
 
 /*오른쪽부분*/
@@ -153,26 +153,23 @@
   right: 80px;
 }
 #signUp_area .signUp_right_con .btn_area .join_btn {
-  background:#7AABDF;
-  border:none;
-  color:#fff;
-  border-radius:5px;
-  padding:10px 30px;
-  font-size:16px;
-  font-weight:600;
-  margin:50px 0 20px 0;
-  text-align:center;
-  width:400px;
-  cursor:default;
+    background: #05080B;
+    border: none;
+    color: #444;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 50px 0 20px 0;
+    text-align: center;
+    width: 400px;
+    cursor: default;
 }
 #signUp_area .signUp_right_con .btn_area .sign_up_bt_on{
-  background:#7AABDF;
-  color:#fff;
-  display: none;
-  cursor:pointer;
-}
-#signUp_area .signUp_right_con .btn_area .sign_up_bt_on:hover{
-    background-color: rgba(27,47,74,.9);
+    background: #7AABDF;
+    color: #080D13;
+    display: none;
+    cursor: pointer;
 }
 #signUp_area .signUp_right_con .btn_area .signUp_guide{
     color: #7AABDF;
@@ -194,12 +191,12 @@
     width: 400px;
     display: block;
     text-align: right;
-    color: #b1b1b1;
+    color: #fff;
     text-decoration: underline;
 }
 
 #signUp_area .signUp_right_con a:hover{
-    color: #c95b74;
+    color: #eaaf69;
 }
 #full,
 #signUp_area .signUp_right_con .password_alarm_wrap::after{

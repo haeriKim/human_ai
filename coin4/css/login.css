@@ -1,8 +1,17 @@
 /* login */
+#wrap #container .login_button{
+    background: none;
+    border:1px solid #7AABDF;
+    color: #7AABDF;
+}
+#wrap #container .login_button:hover{
+    background: #7AABDF;
+    color : #080D13;
+    border: 1px solid #080D13;
+}
 .login_content #login_area{
     position: relative;
 }
-
 .login_content #login_area form h3{
     color:#7AABDF;
     font-size:25px;
@@ -15,18 +24,19 @@
     margin-bottom:30px;
 }
 .login_content #login_area input{
-    border-style:none;
-    border-bottom:1px solid #2a3e5f;
-    font-size:15px;
-    padding-bottom:5px;
-    padding-left:5px;
+    border-style: none;
+    border-bottom: 1px solid #7AABDF;
+    font-size: 15px;
+    padding-bottom: 5px;
+    padding-left: 5px;
     display: block;
+    color: #7AABDF;
     width: 95%;
-    margin-bottom:25px;
+    margin-bottom: 25px;
 }
 
 .login_content #login_area .wrong_info{
-    color:red;
+    color:#f35531;
     font-size:13px;
     margin-left:5px;
     margin-bottom: 20px;
@@ -38,7 +48,7 @@
 }
 
 .login_content #login_area .login_info a{
-    color:#757575;
+    color:#fff;
     font-size:13px;
     float: left;
 }
@@ -63,15 +73,14 @@
 }
 
 .login_content #login_area .login_info ul li:nth-child(2){
-    margin-right:10px;
-    border-right:1px solid #6c6c6c;
-    padding-right:10px;
-
+    margin-right: 10px;
+    border-right: 1px solid #fff;
+    padding-right: 10px;
 }
 
 .login_content #login_area .login_info .e_mail_find{
     color:#fff;
-    background-color:#eaaf69;
+    background-color:#7AABDF;
     font-size:15px;
     font-weight: bold;
     position: absolute;
@@ -92,7 +101,7 @@
   margin-left: -5px;
   border-width: 7px;
   border-style: solid;
-  border-color:  transparent transparent #eaaf69 transparent;
+  border-color:  transparent transparent #7AABDF transparent;
 }
 /*'i'아이콘*/
 /*.login_content #login_area .login_info .notify_icon::before{

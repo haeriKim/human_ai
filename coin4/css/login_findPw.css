@@ -3,7 +3,7 @@
     position: relative;
 }
 .login_content #login_find_pw form h3{
-    color:#071f45;
+    color:#7AABDF;
     font-size:25px;
     padding-bottom:30px;
 }
@@ -16,11 +16,12 @@
 }
 .login_content #login_find_pw input{
     border-style:none;
-    border-bottom:1px solid #2a3e5f;
+    border-bottom:1px solid #7AABDF;
     font-size:15px;
     padding-bottom:5px;
     padding-left:5px;
     display: block;
+    color: #7AABDF;
     width: 95%;
     margin-bottom:25px;
 }
@@ -29,4 +30,17 @@
 }
 .login_content #login_find_pw .go_login{
     display: none;
+}
+.login_content #login_find_pw input::placeholder{
+    color:#fff;
+}
+#onepage_wrap #onepage_container .send_email_button{
+    background: none;
+    border: 1px solid #7AABDF;
+    color: #7AABDF;
+}
+#onepage_wrap #onepage_container .send_email_button:hover{
+    background: #7AABDF;
+    color: #080D13;
+    border: 1px solid #080D13;
 }

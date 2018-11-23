@@ -5,10 +5,13 @@
     width: 100%;
 }
 .greetings_area .greetings_inner h2{
-  font-size:25px;
-  text-align: left;
-  margin-bottom:20px;
-  color: #7AABDF;
+    font-size: 25px;
+    text-align: left;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #7AABDF;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #7AABDF;
 }
 .greetings_area .greetings_story{
     text-align: left;

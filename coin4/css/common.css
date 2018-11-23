@@ -233,8 +233,9 @@ input[type='checkbox']:checked + label:before{ /* 체크박스를 체크했을�
     text-align: center;
 }
 .contentBottom .paging .selected{
-  text-decoration:underline;
-  color:#7AABDF;
+    color: #7AABDF;
+    border-radius: 50%;
+    border: 1px solid #7AABDF;
 }
 .contentBottom .paging a img {
   width: 7px;
@@ -476,7 +477,7 @@ div.cancel_or_apply .if_you_all_agree{
   font-weight: 600;
 }
 .cer_center .cer_level li strong.gray_title{
-  color:#666;
+  color:#444;
 }
 .cer_center .cer_level li span {
   font-size: 12px;
@@ -775,9 +776,9 @@ div.cancel_or_apply .if_you_all_agree{
     border: 1px solid #fff;
 }
 .days .search_btn:hover{
-  background-color: #7AABDF;
-  color: #0E141C;
-
+  background-color: none;
+  color: #7AABDF;
+  border: 1px solid #7AABDF;
 }
 
 /**/
