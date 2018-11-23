@@ -5,17 +5,18 @@
   float: left;
   width: 190px;
   z-index: 999;
+  height: 100%;
 }
 #nav{
     background-image: linear-gradient(to right, #808CE6 0%, #A5ABDD 100%);
-    height: 510px;
-    border-radius: 3px 10px 10px 3px;
+    height: 100%;
     padding-top: 23px;
+    border-radius: 0 0 10px 0;
 }
 #nav_wrap h1 {
     text-align: center;
     padding: 0;
-    margin-top: 130px;
+    margin-bottom: 30px;
 }
 #nav_wrap h1 a {
   display: inline-block;
