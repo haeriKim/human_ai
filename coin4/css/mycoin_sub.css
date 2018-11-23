@@ -237,6 +237,7 @@ table .mycoin_tbody_deco>tr>td>img{
 .conclu_table tbody tr td{
     height: 40px;
     font-size: 14px;
+    border-bottom:1px solid #333;
 }
 .conclu_table tbody tr td.buying {
   color: #f35531;
