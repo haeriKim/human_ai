@@ -173,6 +173,13 @@
   border: 1px solid #fff;
   color: #fff;
 }
+.question_history_area .question_history_inner .question_history_head #question_select2 option{
+  background:#0E141C;
+}
+.question_history_area .question_history_inner .question_list{
+  border:1px solid #7AABDF;
+  border-collapse:inherit;
+}
 .question_history_area .question_history_inner .question_list thead{
   background:#080D13;
   color:#7AABDF;
