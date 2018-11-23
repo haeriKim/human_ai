@@ -1,7 +1,7 @@
 /*question_01*/
 
 .question_area .question_table{
-  border:1px solid #f4f5f8;
+  border:1px solid #333;
   text-align:left;
   margin-top:50px;
   width:100%;
@@ -9,14 +9,14 @@
 .question_area .question_table th{
   padding: 15px 20px;
   border-left: 2px solid #7AABDF;
-  background-color: #f4f5f8;
+  background-color: #080D13;
   font-size: 15px;
   color: #7AABDF;
   vertical-align: middle;
   width:200px;
 }
 .question_area .question_table td{
-  border-bottom:1px solid #f4f5f8;
+  border-bottom:1px solid #333;
 }
 .question_area .question_table input{
   margin-left:20px;
@@ -27,6 +27,7 @@
   width:600px;
   height:25px;
   margin:20px;
+  color:#7AABDF;
   border:1px solid #7AABDF;
   background: url(../img/arrow_down_dg.png) no-repeat 98% center; background-size:7px;
   box-sizing: border-box;
@@ -35,15 +36,19 @@
   width:600px;
   height:25px;
   margin:20px;
+  background:none;
   border:1px solid #7AABDF;
   padding:0 2px;
   box-sizing: border-box;
+  color:#fff;
 }
 .question_area .question_table .question_story{
   width:600px;
   height:500px;
   margin:30px 20px;
+  background:none;
   border:1px solid #7AABDF;
+  color:#fff;
   overflow-y:auto;
   box-sizing: border-box;
 }
@@ -58,9 +63,11 @@
 .question_area .question_table .filebox .file_input_textbox {
     float:left;
     border: 1px solid #7AABDF;
+    color:#999;
     width: 350px;
     height: 25px;
     text-indent: 5px;
+    background:none;
 }
 .question_area .question_table .filebox .file_input_div {
     position:relative;
@@ -165,7 +172,7 @@
   color: #7AABDF;
 }
 .question_history_area .question_history_inner .question_list thead{
-  background:#f4f5f8;
+  background:#080D13;
   color:#7AABDF;
 }
 .question_history_area .question_history_inner .question_list thead th{
@@ -175,8 +182,9 @@
 }
 .question_history_area .question_history_inner .question_list tbody td{
   font-size:15px;
-  border-bottom:1px solid #ededed;
+  border-bottom:1px solid #333;
   padding:10px 0;
+  color:#fff;
 }
 .question_history_area .question_history_inner .question_list tbody #left_text{
   cursor:pointer;
@@ -185,7 +193,7 @@
   color:#EAAF69;
 }
 .question_history_area .question_history_inner .question_list a{
-  color:#666;
+  color:#fff;
 }
 /*popup*/
 #full{
@@ -339,7 +347,7 @@
   width:850px;
   text-align:left;
   border-radius: 5px;
-  background:#c95b74;
+  background:#EAAF69;
   position:relative;
   color:#fff;
   font-weight:600;
@@ -363,7 +371,8 @@
   height:270px;
   text-align:left;
   border-radius: 5px;
-  background:#ccc;
+  background:#none;
+  border:1px solid #7AABDF;
   position:relative;
   color:#fff;
   font-weight:600;
@@ -376,7 +385,7 @@
   margin-left: 5px;
   border-width: 7px;
   border-style: solid;
-  border-color:  transparent transparent #ccc transparent;
+  border-color:  transparent transparent #7AABDF transparent;
 }
 .question_detail .question_detail_inner .question_detail_inner_content .malpungsun_story span{
   float:left;
@@ -390,7 +399,7 @@
   float: right;
   padding: 8px 20px;
   margin: 2px;
-  background-color: white;
+  background-color: #080D13;
   color: #7AABDF;
   border: 1px solid #7AABDF;
   cursor: pointer;
@@ -410,6 +419,7 @@
   text-align:left;
   color:#666;
   border:1px solid #7AABDF;
+  background:#080D13;
 }
 .question_detail .question_detail_inner .question_detail_inner_content .filebox2 {
   vertical-align: -18px;
@@ -430,6 +440,8 @@
     width: 350px;
     height: 25px;
     text-indent: 5px;
+    background:none;
+    color:#666;
 }
 .question_detail .question_detail_inner .question_detail_inner_content .filebox2 .file_input_div2 {
     float:left;

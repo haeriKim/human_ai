@@ -14,7 +14,7 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   height: 100%;
   letter-spacing: -0.5px;
-  color: #666;
+  color: #fff;
   background-color: #0E141C;
 }
 
@@ -43,7 +43,7 @@ a {
 
 a:link, a:visited {
   text-decoration: none;
-  color: #000;
+  color: #fff;
 }
 
 input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="submit"], input[type="reset"], input[type="file"], textarea, input[type="button"], button {

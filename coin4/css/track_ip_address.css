@@ -1,12 +1,12 @@
 .track_ip_address_area .track_ip_address table thead th{
     padding: 13px 43px;
     border-bottom: 2px solid #7AABDF;
-    background-color: #f4f5f8;
+    background-color: #080D13;
     font-size: 15px;
     color: #7AABDF;
 }
 .track_ip_address_area .track_ip_address table tbody td{
     height: 55px;
-    border-bottom: 1px solid #f4f5f8;
+    border-bottom: 1px solid #333;
     font-size: 15px;
 }

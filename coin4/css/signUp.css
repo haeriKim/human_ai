@@ -4,7 +4,7 @@
     position: relative;
 }
 #signUp_area h3 {
-  color: #071f45;
+  color: #7AABDF;
   font-size: 25px;
   padding-bottom: 30px;
 }
@@ -29,7 +29,7 @@
     width: 416px;
 }
 #signUp_area .signUp_left_con .agree_content_box_3{
-    border-bottom: 1px solid #efefef;
+    border-bottom: 1px solid #333;
 }
 #signUp_area .signUp_left_con .agree_content_box p:not(.text_box){
     color: #666;
@@ -145,6 +145,7 @@
 #signUp_area .signUp_right_con input{
   border:none;
   border-bottom:1px solid #7AABDF;
+  background:none;
 }
 #signUp_area .signUp_right_con .btn_area{
   position:absolute;
@@ -152,7 +153,7 @@
   right: 80px;
 }
 #signUp_area .signUp_right_con .btn_area .join_btn {
-  background:#666;
+  background:#7AABDF;
   border:none;
   color:#fff;
   border-radius:5px;

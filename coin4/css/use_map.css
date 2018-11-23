@@ -3,7 +3,7 @@
 }
 .use_content #use_tab_menu ul li.use_active{
   color:#7AABDF;
-  background-color:#fff;
+  background-color:#080D13;
   border-top:3px solid #7AABDF;
 }
 .use_content #use_tab_menu ul li{
@@ -14,8 +14,8 @@
   font-size:20px;
   font-weight:600;
   color:#7e7e7f;
-  background-color:#f4f5f8;
-  border-top:3px solid #f4f5f8;
+  background-color:#080D13;
+  border-top:3px solid #7e7e7f;
   cursor: pointer;
 }
 .use_content #use_area {
@@ -96,16 +96,16 @@
     color: #7AABDF;
     width: 10%;
     font-size: 15px;
-    border-top: 1px solid #999;
-    border-right: 1px solid #999;
+    border-top: 1px solid #333;
+    border-right: 1px solid #333;
 }
 .use_content #use_area .common_table tbody tr td{
     font-size: 14px;
     width: 64%;
     text-align: left;
     padding: 10px;
-    border-left: 1px solid #999;
-    border-top: 1px solid #999;
+    border-left: 1px solid #333;
+    border-top: 1px solid #333;
     line-height:1.7;
 }
 .use_content #use_area .use_area_text .use_map_table{

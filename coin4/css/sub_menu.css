@@ -14,7 +14,7 @@
     top: 150px;
     right: -350px;
     overflow: hidden;
-    background: #fff url(../img/blockchain5.png) no-repeat 100% 50%; background-size:32%;
+    background: #080D13 url(../img/blockchain5.png) no-repeat 100% 50%; background-size:32%;
 }
 
 .submenu_mypage_inner .profile {
@@ -52,7 +52,7 @@
     font-size: 15px;
     font-weight: 600;
     padding-left: 3px;
-    color: #333;
+    color: #fff;
     margin-left: -1px;
 }
 .submenu_mypage_inner .submenu_mypage_info #submenu_mypage_select .unit{
@@ -132,7 +132,7 @@
   overflow: hidden;
   background: url(../img/security.gif) no-repeat -50% 0;
   background-size: 70%;
-  background-color: #fff;
+  background-color: #080D13;
 }
 
 .submenu_security_inner .submenu_security_title {
@@ -145,7 +145,7 @@
 
 .submenu_security_inner .submenu_security_story {
   font-size: 12px;
-  color: #555;
+  color: #fff;
   padding: 30px 0 20px 20px;
 }
 
