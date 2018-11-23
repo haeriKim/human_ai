@@ -2,12 +2,13 @@
 #wrap #container .login_button{
     background: none;
     border:1px solid #7AABDF;
-    color: #7AABDF;
+    color: #080D13;
+    background: #7AABDF;
 }
 #wrap #container .login_button:hover{
-    background: #7AABDF;
-    color : #080D13;
-    border: 1px solid #080D13;
+    background: #080D13;
+    color : #7AABDF;
+    border: 1px solid #7AABDF;
 }
 .login_content #login_area{
     position: relative;
@@ -79,7 +80,7 @@
 }
 
 .login_content #login_area .login_info .e_mail_find{
-    color:#fff;
+    color:#05080B;
     background-color:#7AABDF;
     font-size:15px;
     font-weight: bold;

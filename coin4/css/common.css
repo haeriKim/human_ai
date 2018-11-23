@@ -111,11 +111,11 @@
 .login_content #login_change_pw .button_box,
 .login_content #login_find_pw .button_box,
 .login_content #login_c_change_pw .button_box {
-    color:#fff;
+    color:#080D13;
     font-size:20px;
     font-weight: 600;
+    border: 1px solid #7AABDF;
     background: #7AABDF;
-    border:none;
     border-radius:5px;
     padding:8px 0;
     cursor: pointer;
@@ -125,7 +125,9 @@
 .login_content #login_change_pw .button_box:hover,
 .login_content #login_find_pw .button_box:hover,
 .login_content #login_c_change_pw .button_box:hover{
-    background-color: rgba(27,47,74,.9);
+    border: 1px solid #7AABDF;
+    background: #080D13;
+    color: #7AABDF;
 }
 
 /*동일 버튼 영역*/

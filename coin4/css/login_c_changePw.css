@@ -4,12 +4,12 @@
 }
 
 .login_content #login_c_change_pw h3{
-    color:#071f45;
+    color:#7AABDF;
     font-size:25px;
     padding-bottom:30px;
 }
 .login_content #login_c_change_pw .text_area{
-  color: #666;
+  color: #fff;
   font-size: 15px;
   margin-bottom: 50px;
 }

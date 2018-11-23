@@ -37,10 +37,11 @@
 #onepage_wrap #onepage_container .send_email_button{
     background: none;
     border: 1px solid #7AABDF;
-    color: #7AABDF;
+    color: #080D13;
+    background: #7AABDF
 }
 #onepage_wrap #onepage_container .send_email_button:hover{
-    background: #7AABDF;
-    color: #080D13;
-    border: 1px solid #080D13;
+    background: #080D13;
+    color: #7AABDF;
+    border: 1px solid #7AABDF;
 }
