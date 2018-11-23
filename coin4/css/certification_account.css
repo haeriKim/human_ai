@@ -59,10 +59,13 @@
   color: #7AABDF;
 }
 .cText_right2 .account select {
-  border: 1px solid #7AABDF;
+  border: 1px solid #fff;
   width: 100%;
-  color: #7AABDF;
+  color: #fff;
   height: 25px;
+}
+.cText_right2 .account select option{
+  background:#0E141C;
 }
 .cText_right2 .account .bankselect_fixed{
   display:none;
@@ -103,7 +106,7 @@
   border: 1px solid #7AABDF;
   background-color: #7AABDF;
   cursor: pointer;
-  color:#fff;
+  color:#0E141C;
 }
 .cText_right2 .code_area {
   margin-top: 20px;
@@ -184,7 +187,7 @@
 .cText_right2 #bank_complete .chk_ok{
   border: 1px solid #7AABDF;
   background-color: #7AABDF;
-  color:#fff;
+  color:#0E141C;
   cursor: pointer;
 }
 .cText_right2 #bank_complete .chk_ok:hover {
@@ -264,7 +267,7 @@
   box-sizing: border-box;
 }
 #account_full .popup2{
-  background: #fff;
+  border:1px solid #7AABDF;
     z-index: 9999;
     padding: 30px 20px;
     position: fixed;
@@ -275,10 +278,10 @@
     text-align: center;
 }
 #account_full .popup2 h2{
-  color: #071f45;
+  color: #7AABDF;
   text-align: center;
   padding-bottom: 15px;
-  border-bottom: 2px solid #071f45;
+  border-bottom: 2px solid #7AABDF;
   margin: 0 auto;
 }
 #account_full .popup2 img{
