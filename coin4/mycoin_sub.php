@@ -295,9 +295,9 @@
                                                 <td class="mycoin_name">
                                                   <img src="img/won.png" alt="원화아이콘">
                                                   <p>
-                                                    <strong class="color_bk fl">원화</strong><br />
+                                                    <strong class=" fl">원화</strong><br/>
                                                     <span style='display:none;'>Korean Won</span>
-                                                    <span class='color_bk fl'>KRW</span>
+                                                    <span class='unit fl'>KRW</span>
                                                   </p>
                                                 </td>
                                                 <td><p class='mycoin_data fr'><span>0</span>KRW</p></td>
@@ -311,9 +311,9 @@
                                                 <td class="mycoin_name">
                                                   <img src="img/bitcoin.png" alt="비트코인아이콘">
                                                   <p>
-                                                    <strong class="color_bk fl">비트코인</strong><br />
+                                                    <strong class=" fl">비트코인</strong><br />
                                                     <span style='display:none;'>Bitcoin</span>
-                                                    <span class='color_bk fl'>BTC</span>
+                                                    <span class='unit fl'>BTC</span>
                                                   </p>
                                                 </td>
                                                 <td><p class='mycoin_data fr'><span>0</span>KRW</p></td>
@@ -327,9 +327,9 @@
                                                 <td class="mycoin_name">
                                                   <img src="img/bitcoincash.png" alt="비트코인캐시아이콘">
                                                   <p>
-                                                    <strong class="color_bk fl">비트코인캐시</strong><br />
+                                                    <strong class=" fl">비트코인캐시</strong><br />
                                                     <span style='display:none;'>bitcoincash</span>
-                                                    <span class='color_bk fl'>BCH</span>
+                                                    <span class='unit fl'>BCH</span>
                                                   </p>
                                                 </td>
                                                 <td><p class='mycoin_data fr'><span>0</span>KRW</p></td>
@@ -346,9 +346,9 @@
                                                 <td class="mycoin_name">
                                                   <img src="img/eth.png" alt="이더리움아이콘">
                                                   <p>
-                                                    <strong class="color_bk fl">이더리움</strong><br />
+                                                    <strong class=" fl">이더리움</strong><br />
                                                     <span style='display:none;'>Ethereum</span>
-                                                    <span class='color_bk fl'>ETH</span>
+                                                    <span class='unit fl'>ETH</span>
                                                   </p>
                                                 </td>
                                                 <td><p class='mycoin_data fr'><span>0</span>KRW</p></td>
@@ -362,9 +362,9 @@
                                                 <td class="mycoin_name">
                                                   <img src="img/etc.png" alt="이더리움 클래식 아이콘">
                                                   <p>
-                                                    <strong class="color_bk fl">이더리움 클래식</strong><br />
+                                                    <strong class=" fl">이더리움 클래식</strong><br />
                                                     <span style='display:none;'>Ethereum Classic</span>
-                                                    <span class='color_bk fl'>ETC</span>
+                                                    <span class='unit fl'>ETC</span>
                                                   </p>
                                                 </td>
                                                 <td><p class='mycoin_data fr'><span>0</span>KRW</p></td>
@@ -378,9 +378,9 @@
                                                 <td class="mycoin_name">
                                                   <img src="img/reaple.png" alt="리플 아이콘">
                                                   <p>
-                                                    <strong class="color_bk fl">리플</strong><br />
+                                                    <strong class=" fl">리플</strong><br />
                                                     <span style='display:none;'>Ripple</span>
-                                                    <span class='color_bk fl'>XRP</span>
+                                                    <span class='unit fl'>XRP</span>
                                                   </p>
                                                 </td>
                                                 <td><p class='mycoin_data fr'><span>0</span>KRW</p></td>
@@ -394,9 +394,9 @@
                                                 <td class="mycoin_name">
                                                   <img src="img/ada.png" alt="에이다 아이콘">
                                                   <p>
-                                                    <strong class="color_bk fl">에이다</strong><br />
+                                                    <strong class=" fl">에이다</strong><br />
                                                     <span style='display:none;'>Ada</span>
-                                                    <span class='color_bk fl'>ADA</span>
+                                                    <span class='unit fl'>ADA</span>
                                                   </p>
                                                 </td>
                                                 <td><p class='mycoin_data fr'><span>0</span>KRW</p></td>
@@ -410,9 +410,9 @@
                                                 <td class="mycoin_name">
                                                   <img src="img/eos.png" alt="이오스 아이콘">
                                                   <p>
-                                                    <strong class="color_bk fl">이오스</strong><br />
+                                                    <strong class=" fl">이오스</strong><br />
                                                     <span style='display:none;'>EOS</span>
-                                                    <span class='color_bk fl'>EOS</span>
+                                                    <span class='unit fl'>EOS</span>
                                                   </p>
                                                 </td>
                                                 <td><p class='mycoin_data fr'><span>0</span>KRW</p></td>

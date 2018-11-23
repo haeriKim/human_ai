@@ -43,7 +43,7 @@ a {
 
 a:link, a:visited {
   text-decoration: none;
-  color: #fff;
+  color: #7AABDF;
 }
 
 input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="submit"], input[type="reset"], input[type="file"], textarea, input[type="button"], button {
@@ -58,7 +58,7 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: url("../img/arrow_down_dg.png") no-repeat 95% center;
+  background: url("../img/arrow_down_white.png") no-repeat 95% center;
   background-size: 7px;
   padding-left: 2px;
   padding-right: 15px;
