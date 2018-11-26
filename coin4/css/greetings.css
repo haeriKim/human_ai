@@ -23,6 +23,7 @@
 .greetings_inner .greetings_story .gr_title {
   font-size: 25px;
   color: #999;
+  text-align: center;
 }
 .greetings_inner .greetings_story .gr_title img {
   width: 40px;

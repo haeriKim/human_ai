@@ -180,7 +180,7 @@
   color:#666666;
 }
 #popupbox .popupbox_text .hour{
-  color:#c95b74;
+  color:#eaaf69;
 }
 #popupbox .popupbox_text p {
   line-height: 1.5;
@@ -345,7 +345,7 @@
   font-size: 14px;
 }
 .popup a.join_btn:hover {
-  color: #c95b74;
+  color: #eaaf69;
 }
 /* 주소복사 팝업 */
 #qustion_mark_active_full .copy_pop .popupbox_text b {
