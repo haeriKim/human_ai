@@ -50,7 +50,7 @@
                   <!-- banner_slide-->
                   <div class="slide">
                     <ul class="panel">
-                      <li class="banner1"></li>
+                      <li class="banner1 on"></li>
                       <li class="banner2"></li>
                       <li class="banner3"></li>
                       <li class="banner4"></li>
@@ -249,8 +249,9 @@
             <!-- full_content -->
             <div id="full_content" class='box'>
                 <div class="full_inner">
-                    <h2>암호화폐 거래 안내</h2>
-                    <p>
+                    <!-- <h2>암호화폐 거래 안내</h2> -->
+                    <h2>알림</h2>
+                    <!-- <p>
                         최근 암호화폐에 대한 관심과 함께 무리한 투자에 대한 우려도 증가하고
                         있습니다. 안전하게 암호화폐를 거래할 수 있도록 아래 유의사항을 충분히
                         숙지하신 후 이용하시기 바랍니다.
@@ -262,7 +263,12 @@
                         <li>암호화폐에 대한 투자판단의 책임은 본인에게 있으며, 그에 따라
                             발생 가능한 손실도 투자자 본인에게 귀속됩니다.</li>
                     </ul>
-                    <p>암호화폐의 특성을 충분히 숙지하시고 신중하게 거래에 임해주시기 바랍니다.</p>
+                    <p>암호화폐의 특성을 충분히 숙지하시고 신중하게 거래에 임해주시기 바랍니다.</p> -->
+                    <p class='sorry_m'>
+                        빠른 시일 안에 마무리하여 품격있는 서비스를 제공하겠습니다ㆍ감사합니다ㆍ<br>
+                        디올스국제거래소 연구소일동드림
+                    </p>
+                    <img src="img/comingsoon.png" alt="comingSoon" class='coming_soon'>
                     <form class="" action="#" method="post">
                         <input type="checkbox" id='today_close' name='today_close'>
                         <label for='today_close'>오늘 하루 이 창 열지않기</label>
