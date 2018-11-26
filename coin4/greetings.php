@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/greetings.css">
+    <link rel="stylesheet" href="css/greetings_02.css">
     <link rel="stylesheet" href="css/sub_menu.css">
     <link rel="shortcut icon" href="img/favicon-16.ico" type="image/x-icon">
     <link rel="icon" href="img/favicon-16.ico" type="image/x-icon">
@@ -45,19 +46,20 @@
           <!-- m_header End-->
 
 
-
+          <!-- header_wrap -->
+          <?php include "header.php";?>
+          <!-- header_wrap End-->
 
             <!-- content_wrap -->
             <div class="content_wrap">
                 <!-- main_content -->
                 <div class="con_top" id="content">
 
-                  <div class="box greetings_area">
+                  <div class="box greetings_area con_1000">
 
                       <div class="greetings_inner">
-
+                        <h2>인사말</h2>
                         <div class="greetings_story">
-                          <h2>인사말</h2>
                           <p><img src="img/greeting_title.png" alt="인사말이미지" class="greetings_img"></p>
                           <p class="gr_title"><img src="img/dodol1.png" alt="따옴표"><span>디올스 국제 거래소</span>를 찾아주신 여러분들들께 진심으로 감사드립니다.<img src="img/dodol2.png" alt="따옴표"></p>
                           <br/>

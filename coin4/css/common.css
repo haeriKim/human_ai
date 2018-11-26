@@ -995,8 +995,9 @@ box-shadow:none;
       box-sizing: border-box;
   }
   .content_nav_responsive li.on {
-    border-top: 2px solid #7AABDF;
-    background-color: #fff;
+      border-top: 2px solid #7AABDF;
+      background-color: #080D13;
+      border-left: 1px solid #7AABDF;
   }
   .content_nav_responsive li a{
     display: inline-block;

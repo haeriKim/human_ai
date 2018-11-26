@@ -37,6 +37,7 @@ p.login_m{
     border: 1px solid #efefef;
     border-left: none;
     height: 40px;
+    color: #4c4c4c;
 }
 .content .info_table_wrap .info_table tbody th{
     background-color: #f4f5f9;
@@ -76,6 +77,7 @@ p.login_m{
     margin-top: 10px;
     line-height: 1.6;
     font-size: 15px;
+    color: #4c4c4c;
 }
 .content_footer p .cs_mail{
     color: #017eff;

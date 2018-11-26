@@ -848,7 +848,7 @@
 
 #deal_all tbody p{
     font-size:13px;
-    color:#444;
+    color:#fff;
     font-weight: 500;
 }
 
@@ -866,7 +866,7 @@
 #deal_all .deal_all_thead{
     background-color: #05080B;
     position: absolute;
-    width: 435px;
+    width: 433px;
     color:#7AABDF;
 }
 #deal_all .deal_table_tbody .deal_time{

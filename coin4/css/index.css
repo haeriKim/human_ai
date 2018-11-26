@@ -328,7 +328,7 @@
     .app_main_content .app_main_step1{
       text-align: center;
       height:600px;
-      background:#7AABDF;
+      background:#0E141C;
     }
     .app_main_content .app_main_step1 span{
       color:#fff;
@@ -353,7 +353,7 @@
     .app_main_content .app_main_step1 .phone_area input[type=button]{
       border: none;
       position:absolute;
-      color: #fff;
+      color: #0E141C;
       padding: 12px 0;
       width: 78%;
       border-radius: 50px;
@@ -363,16 +363,16 @@
       font-size: 14px;
     }
     .app_main_content .app_main_step1 .phone_area input[type=button].android_down {
-      background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
       top: 72%;
+      background: #7AABDF
     }
     .app_main_content .app_main_step1 .phone_area input[type=button].ios_down {
-      background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
       top:86%;
+      background: #7AABDF
     }
     .app_main_content .app_main_step1 .phone_area input[type=button].app_exchange_bt {
       top: 97%;
-      color: #30afb8;
+      color: #eaaf69;
       font-size: 13px;
       box-shadow: none;
       left: 55%;

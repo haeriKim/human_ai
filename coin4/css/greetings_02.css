@@ -1,0 +1,11 @@
+#content .greetings_area .greetings_story{
+    overflow-y: visible;
+    padding: 10px 20px;
+}
+#content .greetings_area .greetings_inner h2{
+    text-align: left;
+    padding: 17px 25px;
+}
+#content .greetings_area .greetings_inner{
+    padding: 0;
+}

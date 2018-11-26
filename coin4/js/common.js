@@ -1348,7 +1348,7 @@ function app_slide() {
       }, 5000);
     });
   }
-  // 이전 버튼 클릭시 조건 검사후 슬라이드 무브
+  //이전 버튼 클릭시 조건 검사후 슬라이드 무브
   function prevChkPlay() {
     if (app_now_num == 0) {
       app_now_num = app_slide_length - 1;
@@ -1386,6 +1386,11 @@ function app_slide() {
   init();
   slideEvent();
 }
+var st;
+function trigger(){
+    $('.app_next1').trigger('click');
+}
+st = setInterval(trigger,5000)
 });
 /*반응형 로그인 말풍선*/
 $(document).ready(function(){
