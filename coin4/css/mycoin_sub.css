@@ -744,7 +744,7 @@ div.before_send_money_wrap > p{
     text-align: center;
 }
 #output_bitcoin div.before_send_money_wrap .cancel_btn{
-    background: #none;
+    background: none;
     border: 1px solid #7AABDF;
     border-radius: 5px;
     padding: 7px 30px;
@@ -991,7 +991,8 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
   padding: 2px 8px;
   margin:0 2px;
   background-color: white;
-  color:#7AABDF; border: 1px solid #7AABDF;
+  color:#7AABDF;
+  border: 1px solid #7AABDF;
   cursor:pointer;
 }
 .btn_small2:hover{
