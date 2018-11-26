@@ -37,11 +37,19 @@
     text-align: center;
 }
 #full_content .full_inner .sorry_m_01{
-    margin: 20px 0;
+  margin: 20px 0;
+  font-size: 18px;
 }
 #full_content .full_inner .sorry_m_02{
-    margin:  50px 0 40px 0;
-}
+  margin: 50px 0 40px 0;
+  background: rgba(122,171,223,.7);
+  width: 65%;
+  padding: 5px 0;
+  border-radius: 15px;
+  color: #fff;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  }
 
 
 #full_content h2{

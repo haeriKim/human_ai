@@ -264,7 +264,7 @@
                             발생 가능한 손실도 투자자 본인에게 귀속됩니다.</li>
                     </ul>
                     <p>암호화폐의 특성을 충분히 숙지하시고 신중하게 거래에 임해주시기 바랍니다.</p> -->
-                    <p class='sorry_m sorry_m_01'>빠른 시일 안에 마무리하여 품격있는 서비스를 제공하겠습니다. <br>감사합니다</p>
+                    <p class='sorry_m sorry_m_01'>빠른 시일 안에 마무리하여 품격있는 서비스를 <br/>제공하겠습니다. 감사합니다.</p>
                     <img src="img/comingsoon.png" alt="comingSoon" class='coming_soon'>
                     <p class='sorry_m sorry_m_02'>디올스국제거래소 연구소일동드림</p>
                     <form class="" action="#" method="post">
