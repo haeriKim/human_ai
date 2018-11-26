@@ -141,8 +141,10 @@ $(document).ready(function(){
         if($('.slide .panel li.on').is(':animated')==false){
             var num = $(this).index();
             var currentNum = $('.slide .dot li.on').index();
-            if(num!=currentNum){
+            if(num > currentNum){
                 bannerset(num,'right')
+            }else if(num < currentNum){
+                bannerset(num,'left')
             }
         }
     })
@@ -170,7 +172,17 @@ $(document).ready(function(){
             bannerset(num,'right')
         }
     })
+    //이미지 호버시 자동슬라이드 멈춤
+    $('.slide .panel li').on('mouseenter',function(){
+        clearInterval(st);
+    })
+    //호버 안했을 때 다시 시작
+    $('.slide .panel li').on('mouseleave',function(){
+        setInterval(st);
+        st=setInterval(trigger,5000)
+    })
     var st;
+
     function trigger(){
         $('.arrow_area .next1').trigger('click');
     }
