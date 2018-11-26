@@ -140,7 +140,7 @@
                               <a href="www.thealls.net">www.Thealls.net , 한글 디올스.net</a>
                             </div>
 
-                          <p class="right_sign"><img src="img/companysign.png" alt="회사사인" class="greetings_sign"></p>
+                          <p class="right_sign"><img src="img/companysign2.png" alt="회사사인" class="greetings_sign"></p>
                           </div>
 
                         </div>
