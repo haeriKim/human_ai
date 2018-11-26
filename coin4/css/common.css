@@ -922,6 +922,7 @@ box-shadow:none;
   .content_wrap {
       height: auto;
       margin:0 auto;
+      background: #0E141C;
   }
   #container{
     background:#efefef;
@@ -989,16 +990,19 @@ box-shadow:none;
       float: left;
       text-align: center;
       height: inherit;
-      background-color: #f4f5f8;
+      background-color:#080D13;
       width: 25%;
+      border-bottom: 1px solid #7AABDF;
       padding: 16px 0;
       box-sizing: border-box;
-  }
+    }
   .content_nav_responsive li.on {
-      border-top: 2px solid #7AABDF;
+      border-top: 4px solid #7AABDF;
       background-color: #080D13;
       border-left: 1px solid #7AABDF;
-  }
+      border-right: 1px solid #7AABDF;
+      border-bottom: none;
+    }
   .content_nav_responsive li a{
     display: inline-block;
       color: #7e7e7f;
@@ -1015,24 +1019,27 @@ box-shadow:none;
       position: relative;
   }
   .guide_responsive{
-    display: block;
-    padding: 20px;
-  }
+      display: block;
+      padding: 20px;
+      background: #080D13;
+      border-left: 1px solid #7AABDF;
+      border-right: 1px solid #7AABDF;
+    }
   .guide_responsive .guide_select span {
-  width: 48%;
-  border-radius: 5px;
-  font-size: 12px;
-  text-align: center;
-  padding: 7px 0;
-  font-weight: 600;
-  color: #7AABDF;
-  border: 1px solid #7AABDF;
-  background-color: #fff;
-  display: inline-block;
+      width: 48%;
+      border-radius: 5px;
+      font-size: 12px;
+      text-align: center;
+      padding: 7px 0;
+      font-weight: 600;
+      color: #7AABDF;
+      border: 1px solid #7AABDF;
+      background: none;
+      display: inline-block;
   }
   .guide_responsive .guide_select span.clicked {
     background-color: #7AABDF;
-    color: #fff;
+    color: #080D13;
   }
   .guide_responsive .guide_select span.marginTop {
     margin-top: 7px;
@@ -1043,6 +1050,14 @@ box-shadow:none;
   /* 마이페이지 */
   .mypage_content {
     padding: 15px 20px;
+  }
+  #container .question_area,
+  #container .faq_area,
+  #container .guide_OTP_area,
+  #container .fees_area,
+  #container .question_history_area
+  {
+      border-top: none;
   }
   .mypage_content h4 {
     font-size: 14px;

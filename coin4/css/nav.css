@@ -312,7 +312,7 @@
     }
     #m_nav{
         display: block;
-        background: #0e141c;
+        background: #080D13;
         width:70%;
         height:100%;
         z-index:985;
@@ -414,18 +414,18 @@
     }
     .m_mainmenu ul .second_menu{
       height:50%;
-      background: #D1D5DB;
-      border-top: 1px solid #d9dcdc;
+      background: #0d121e;
+      border-top: 1px solid rgba(255,255,255,0.2);
     }
     .m_mainmenu ul .second_menu ul li{
       height: 40px;
       line-height: 40px;
-      border-bottom: 1px solid #d9dcdc;
+      border-bottom: 1px solid rgba(255,255,255,0.2);
       font-size: 13px;
       text-align: center;
     }
     .m_mainmenu ul .second_menu ul li a{
-      color: #0e141c;
+      color: #fff;
     }
     .m_nav_bottom{
         margin-top: 20px;

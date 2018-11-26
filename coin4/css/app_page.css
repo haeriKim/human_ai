@@ -38,17 +38,19 @@
   .app_page_content .app_page_story li{
     text-align: left;
     padding-left:15px;
+    color: #fff;
   }
   .app_page_content .app_page_story li.title {
-    color: #30afb8;
+    color: #7AABDF;
   }
   .app_page_content .app_page_story .star{
     color:#ffd000;
   }
   .app_page_content .app_page_story input.android_bt, .app_page_content .app_page_story input.ios_bt{
-    background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+    /* background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%); */
+    background: #7AABDF;
     border: none;
-    color: #fff;
+    color: #0E141C;
     padding: 10px 0;
     font-size: 13px;
     width: 90%;
