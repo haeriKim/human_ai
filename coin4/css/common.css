@@ -501,7 +501,7 @@ div.cancel_or_apply .if_you_all_agree{
 
 }
 .coinSelect_area .coinSelect {
-  width: 350px;
+  width: 348px;
   padding: 5px 10px;
   box-sizing: border-box;
   border-radius: 5px;
@@ -577,7 +577,8 @@ div.cancel_or_apply .if_you_all_agree{
 }
 .coin_money_inner{
   overflow: hidden;
-  margin-bottom:10px;}
+  margin-bottom:10px;
+}
 .coin_money_inner .img_area {
   width:80px;
   height:80px;
@@ -603,7 +604,6 @@ div.cancel_or_apply .if_you_all_agree{
 }
 .coin_money_inner .price{
   font-size:30px;
-  color:#012dae;
   font-weight:bold;
 }
 .coin_money_inner .won{
@@ -751,7 +751,8 @@ div.cancel_or_apply .if_you_all_agree{
  }
 .days ::-webkit-calendar-picker-indicator  {
      color: rgba(0, 0, 0, 0);
-     background: url(../img/cal.png) no-repeat 100%; background-size:cover;
+     background: url(../img/cal.png) no-repeat 100%;
+     background-size:cover;
      padding-left:10px;
   }
 
