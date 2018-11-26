@@ -35,9 +35,15 @@
 }
 #full_content .full_inner .sorry_m{
     text-align: center;
-    margin: 30px 20px;
-    line-height: 1.6;
 }
+#full_content .full_inner .sorry_m_01{
+    margin: 20px 0;
+}
+#full_content .full_inner .sorry_m_02{
+    margin:  50px 0 40px 0;
+}
+
+
 #full_content h2{
     color:#7AABDF;
     text-align: center;
@@ -98,7 +104,6 @@
 /*내 자산관리 물음표 클릭시*/
 #question_mark_active{
     width: 900px;
-    background: #fff;
     z-index: 9999;
     padding: 20px;
     position: fixed;
@@ -114,16 +119,16 @@
     overflow: hidden;
 }
 #question_mark_active h2{
-    color:#071f45;
+    color:#7AABDF;
     text-align: center;
     padding-top:20px;
     padding-bottom:15px;
-    border-bottom: 2px solid #071f45;
+    border-bottom: 2px solid #7AABDF;
     margin: 0 auto;
 }
 
 #question_mark_active p{
-    color: #222;
+    color: #fff;
     font-size: 15px;
     margin: 15px 0;
     line-height: 23px;
@@ -135,7 +140,7 @@
     text-align: center;
     padding: 5px 20px;
     width: 70px;
-    color: #fff;
+    color: #080D13;
     border-radius: 5px;
     display: block;
     margin: 0 auto;
@@ -173,7 +178,7 @@
 }
 #coin_withdrawal_box .check_your_money_again{
     font-weight: 600;
-    color: #071f45;
+    color: #7AABDF;
     font-size: 21px;
     text-indent:1px;
     margin-right: 2px;

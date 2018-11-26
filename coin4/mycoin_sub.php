@@ -1565,7 +1565,7 @@
     </div><!-- wrap End -->
     <div id="qustion_mark_active_full">
             <!-- question_mark_active -->
-            <div id="question_mark_active">
+            <div id="question_mark_active" class='box'>
                 <div class="question_mark_active_inner">
                     <h2>보유코인 유의사항</h2>
                     <p>
