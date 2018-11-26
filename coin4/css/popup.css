@@ -28,6 +28,16 @@
     margin: 0 auto;
     overflow: hidden;
 }
+#full_content .full_inner .coming_soon{
+    width: 45%;
+    display: block;
+    margin: 15px auto 30px auto;
+}
+#full_content .full_inner .sorry_m{
+    text-align: center;
+    margin: 30px 20px;
+    line-height: 1.6;
+}
 #full_content h2{
     color:#7AABDF;
     text-align: center;

@@ -20,12 +20,14 @@
   clear: both;
 }
 .panel>li {
-  width: 20%;
+  width: 100%;
   height: 300px;
   float: left;
   background-repeat: no-repeat;
   background-size: 100%;
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .panel .banner1 {
   background:url(../img/banner01.png) no-repeat 0 0; background-size:cover;

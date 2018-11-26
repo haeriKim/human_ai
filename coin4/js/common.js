@@ -1,4 +1,4 @@
-/*slide 슬라이드*/
+/*slide 슬라이드
 
 $(document).ready(function() {
   slide();
@@ -102,7 +102,80 @@ function slide() {
   init();
   slideEvent();
 }
-});
+});*/
+
+//메인 슬라이드 배너 수정본
+function bannerset(bn,dir){
+    if(dir=='right'){
+        $('.slide .dot li.on').removeClass('on');
+        $('.slide .dot li:eq('+bn+')').addClass('on');
+        $('.slide .panel li:eq('+bn+')').show();
+        $('.slide .panel li:eq('+bn+')').css('left','1300px');
+        $('.slide .panel li.on').animate({'left':'-1300px'},1000,function(){
+            $(this).hide();
+            $(this).removeClass('on')
+        })
+        $('.slide .panel li:eq('+bn+')').animate({'left':'0'},1000,function(){
+            $(this).addClass('on')
+        })
+    }else{
+        $('.slide .dot li.on').removeClass('on');
+        $('.slide .dot li:eq('+bn+')').addClass('on');
+        $('.slide .panel li:eq('+bn+')').show();
+        $('.slide .panel li:eq('+bn+')').css('left','-1300px');
+        $('.slide .panel li.on').animate({'left':'1300px'},1000,function(){
+            $(this).hide();
+            $(this).removeClass('on')
+        })
+        $('.slide .panel li:eq('+bn+')').animate({'left':'0'},1000,function(){
+            $(this).addClass('on')
+        })
+    }
+}
+
+$(document).ready(function(){
+    $('.slide .panel li:gt(0)').hide();
+    //동그라미 버튼 클릭했을 때
+    $('.slide .dot li').on('click',function(e){
+        e.preventDefault();
+        if($('.slide .panel li.on').is(':animated')==false){
+            var num = $(this).index();
+            var currentNum = $('.slide .dot li.on').index();
+            if(num!=currentNum){
+                bannerset(num,'right')
+            }
+        }
+    })
+    //이전버튼
+    $('.arrow_area .prev1').on('click',function(e){
+        e.preventDefault();
+        if($('.slide .panel li.on').is(':animated')==false){
+            var currentNum = $('.slide .dot li.on').index();
+            var num = currentNum-1;
+            if(num<0){
+                num = $('.dot li').length-1;
+            }
+            bannerset(num,'left')
+        }
+    })
+    //다음버튼
+    $('.arrow_area .next1').on('click',function(e){
+        e.preventDefault();
+        if($('.slide .panel li.on').is(':animated')==false){
+            var currentNum = $('.slide .dot li.on').index();
+            var num = currentNum+1;
+            if(num>$('.dot li').length-1){
+                num = 0;
+            }
+            bannerset(num,'right')
+        }
+    })
+    var st;
+    function trigger(){
+        $('.arrow_area .next1').trigger('click');
+    }
+    st = setInterval(trigger,5000)
+})
 
 //메인_카드현황
 $(document).ready(function(){
