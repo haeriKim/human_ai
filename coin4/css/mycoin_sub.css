@@ -28,30 +28,41 @@
 .mycoin_fence{
     width: 899px;
     float: left;
-    border: 1px solid #7AABDF;
+    border-top: none;
+    border: none;
 }
 .mycoin_tab ul {
   overflow: hidden;
 }
 .mycoin_tab li{
-  float:left;
-  width:299px;
-  text-align:center;
-  color:#7e7e7f;
-  padding:20px 0;
-  font-size:20px;
-  font-weight:600;
-  cursor:pointer;
-  background-color:#080D13;
+    float: left;
+    width: 299px;
+    text-align: center;
+    color: #7e7e7f;
+    padding: 20px 0;
+    font-size: 20px;
+    height: 31px;
+    border-bottom: 1px solid #7AABDF;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #080D13;
 }
 .mycoin_tab li a{
     color:#7e7e7f;
 }
 .mycoin_tab li.active {
-    color: #080D13;
-    background-color: #7AABDF;
+    color: #7AABDF;
+    background: none;
+    border: 1px solid #7AABDF;
+    border-bottom: none;
+    border-top: 4px solid #7AABDF;
+    border-radius: 5px 5px 0 0;
+    height: 27px;
 }
-
+.mycointab_container{
+    border:1px solid #7AABDF;
+    border-top: none;
+}
 /* 공통 */
 .tab_content {
   padding: 30px 50px;

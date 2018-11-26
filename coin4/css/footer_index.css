@@ -21,11 +21,10 @@
 }
 .compnay_info {
     float: left;
-    color: #888;
+    color: #fff;
     font-size: 13px;
 }
 .compnay_info span {
-  color: #ccc;
   line-height: 30px;
 }
 .compnay_info p {
@@ -70,7 +69,7 @@
   margin-left: 15px;
 }
 .footer_menu .footer_nav ul li a{
-  color: #888;
+  color: #fff;
   display: inline-block;
 }
 .footer_menu .footer_nav ul li a.pp {

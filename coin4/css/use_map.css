@@ -1,25 +1,35 @@
 .use_content #use_tab_menu{
   overflow:hidden;
 }
+#wrap .box{
+    border: none;
+}
 .use_content #use_tab_menu ul li.use_active{
-  color:#7AABDF;
-  background-color:#080D13;
-  border-top:3px solid #7AABDF;
+    color: #7AABDF;
+    background-color: #080D13;
+    border-radius: 5px 5px 0 0;
+    border: 1px solid #7AABDF;
+    border-top: 3px solid #7AABDF;
+    border-bottom: none;
+    height: 25px;
 }
 .use_content #use_tab_menu ul li{
-  float:left;
-  width:50%;
-  padding:20px 0;
-  text-align:center;
-  font-size:20px;
-  font-weight:600;
-  color:#7e7e7f;
-  background-color:#080D13;
-  border-top:3px solid #7e7e7f;
-  cursor: pointer;
+    float: left;
+    width: 49.9%;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #7e7e7f;
+    background-color: #080D13;
+    cursor: pointer;
+    border-bottom: 1px solid #7AABDF;
+    height: 27px;
 }
 .use_content #use_area {
-  padding: 30px 40px;
+    padding: 30px 40px;
+    border: 1px solid #7AABDF;
+    border-top: none;
 }
 .use_content #use_area .use_area_text{
   border-bottom:1px solid #f4f5f8;

@@ -38,10 +38,10 @@
     border: 1px solid #7AABDF;
     color: #7AABDF;
     text-align: center;
-    margin-left: 12px;
+    margin-left: 10px;
 }
 .coinInfo_area .text_area p a + a {
-  margin-left: 12px;
+  margin-left: 10px;
 }
 .coinInfo_area p a:hover {
   color: #0E141C;
