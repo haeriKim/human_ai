@@ -72,6 +72,8 @@ table .password_question_detail2{
     width:450px;
     left:-210px;
     z-index:15;
+    color:#0E141C;
+    opacity:1;
 }
 table .password_question_detail strong, table .password_question_detail2 strong {
   display: block;
