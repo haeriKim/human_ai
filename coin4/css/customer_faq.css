@@ -5,6 +5,7 @@
 .faq_area .faq_list .no_search{
   text-align:center;
   padding: 149px 0;
+  display:none;
 }
 .faq_area .faq_list .search_val {
   color: #EAAF69;

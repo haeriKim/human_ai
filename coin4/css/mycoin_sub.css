@@ -270,7 +270,7 @@ table .mycoin_tbody_deco>tr>td>img{
 }
 .conclu_table tbody tr td input[type="submit"]:hover {
   background-color: #7AABDF;
-  color: #fff;
+  color: #0E141C;
 }
 .user_security{
   border:none;
@@ -333,7 +333,7 @@ table .mycoin_tbody_deco>tr>td>img{
 }
 #input_KRW div.send_info_01 .temporary_name{
     border-radius: 5px;
-    background: none;
+    background: #05080B;
     color: #7AABDF;
     border: 1px solid #7AABDF;
     font-weight: 600;
@@ -967,7 +967,7 @@ table .mycoin_tbody_deco>tr>td.coin_td {
 table .mycoin_tbody_deco>tr>td .temporary_address_click {
   display: inline-block;
   background: #7AABDF;
-  color: #fff;
+  color: #0E141C;
   width:300px;
   border-radius: 5px;
   padding: 7px 10px;
@@ -1033,7 +1033,7 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
   background:#7AABDF;
   border-radius:5px;
   padding: 7px 30px;
-  color: #fff;
+  color: #0E141C;
   font-weight: 600;
   font-size: 16px;
   box-sizing: border-box;
