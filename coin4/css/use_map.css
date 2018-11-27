@@ -150,6 +150,7 @@
   }
   .use_content #use_tab_menu ul li {
     font-size: 14px;
+    width:49.6%;
     padding: 15px 0;
   }
   .use_content #use_area .use_area_text .title {
