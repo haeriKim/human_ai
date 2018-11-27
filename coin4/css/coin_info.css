@@ -68,15 +68,6 @@
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
-/*코인 정보 안 표*/
-#detail_all p{
-  font-size:12px;
-  font-weight:600;
-  color:#999;
-  display: inline-block;
-  float: right;
-  margin-top: 7px;
-}
 
 /*비트코인캐시*/
 .coin_money_detail #detail_all .bitcoincash_table tbody tr td{
@@ -96,7 +87,7 @@
 
 /*에이다*/
 .coin_money_detail #detail_all .ada_table tbody th{
-    padding: 5px 6px 5px 6px;
+    padding: 5px 6px;
 }
 .coin_money_detail #detail_all .ada_table tbody tr td{
     padding: 0 8px;
@@ -106,4 +97,81 @@
 .coin_money_detail #detail_all .ripple_table tbody tr td {
     font-size: 13px;
     padding: 0 18px;
+}
+
+@media all and (min-width:320px) and (max-width:768px){
+    #wrap .coninInfo_content{
+        margin: 28% auto;
+        font-size: 14px;
+    }
+    #wrap .coin_select,
+    #wrap .coinSelect_area,
+    #wrap .coinSelect_area .coinSelect,
+    #wrap .coninInfo_content .coinInfo_area
+    {
+        width: 100%;
+    }
+    #wrap .coinSelect_area .coinSelect{
+        font-size: 15px;
+    }
+    #wrap .box h3.title{
+        display: block;
+        font-size: 17px;
+        padding: 10px 15px;
+    }
+    #wrap .coinInfo_area .text_area h4{
+        font-size: 16px;
+    }
+    #wrap .coninInfo_content .coinInfo_area .text_area{
+        padding: 10px 15px;
+    }
+    #wrap .coinInfo_area .text_area p a{
+        width: 45%;
+        margin-bottom: 10px;
+        margin-left: 2.5%;
+    }
+    #wrap .coinInfo_area .text_area p a.bitcoin_mining,
+    #wrap .coinInfo_area .text_area p a.bitcoin_twitter,
+    #wrap .coinInfo_area .text_area p a.ethereum_mining{
+        margin-top: 0;
+    }
+    #wrap .coninInfo_content .coin_money{
+        width: 100%;
+        float: left;
+        margin: 20px 0;
+        padding: 20px 10px;
+    }
+    #wrap .coin_money_inner .img_area{
+        width: 20%;
+        height: auto;
+        max-width: 60px;
+        padding: 0;
+    }
+    #wrap .coninInfo_content .coin_money_inner{
+        padding-bottom: 10px;
+    }
+    #wrap .coin_money_inner ul{
+        transform: translateY(50%);
+        margin-left: 5px;
+    }
+    #wrap .coin_money_inner strong{
+        font-size: 18px;
+    }
+    .coin_money_inner ul li:nth-child(2),
+    .coin_money_inner ul li:nth-child(3){
+        display: none;
+    }
+
+    /*아이폰 5 */
+    @media all and (min-width:320px) and (max-width:320px){
+        #wrap table.left_thick_table tbody th{
+            width: 42%;
+            font-size: 13px;
+            text-align: left;
+        }
+        #wrap #ethuriumclassic_a_link,
+        #wrap .coin_money_detail #detail_all .coinInfo_table tbody tr td{
+            font-size: 12px;
+        }
+    }
 }

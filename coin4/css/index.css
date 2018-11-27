@@ -328,8 +328,9 @@
         display:none;
       }
 
-    .app_main_content{
+    #app_wrap .app_main_content{
       text-align: center;
+      border: none;
     }
     /*app_main_step1*/
     .app_main_content .app_main_step1{
@@ -459,10 +460,6 @@
     .app_main_step3 img{
       width:100%;
     }
-    .app_main_step3 .security_area p{
-      background:#7AABDF;
-    }
-
     .submenu_mypage,
     .submenu_security
     {

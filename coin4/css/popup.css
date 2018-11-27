@@ -22,6 +22,7 @@
     top: 50%;
     transform: translateY(-50%);
     margin-left: -265px;
+    display: none;
 }
 .full_inner{
     width: 90%;

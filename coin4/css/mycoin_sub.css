@@ -1137,7 +1137,7 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
     font-size:14px;
 }
 #deal_orgin_transaction .unit{
-    color:#666;
+    color:#aaa;
     font-size:13px;
 }
 #deal_orgin_transaction .money_up{
@@ -1220,7 +1220,7 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
     margin-left: 35px;
 }
 #mywallet_havecoin .unit{
-    color: #666;
+    color: #aaa;
     font-size: 14px;
     display: block;
 }

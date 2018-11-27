@@ -609,7 +609,7 @@ div.cancel_or_apply .if_you_all_agree{
 .coin_money_inner .won{
   font-size:16px;
   padding-left:5px;
-  color:#4c4c4c;
+  color:#aaa;
 }
 .coin_money_inner .question{
   position: absolute;
@@ -629,7 +629,7 @@ div.cancel_or_apply .if_you_all_agree{
 }
 .coin_money_inner .coin_prepare strong{
   font-size:15px;
-  color: #666;
+  color: #aaa;
 }
 .coin_money_inner .coin_prepare img.ud {
   margin-right: 3px;
@@ -645,6 +645,15 @@ div.cancel_or_apply .if_you_all_agree{
 .coin_money_detail #detail_all .coinInfo_table tbody tr td a{
     color:#fff;
     text-decoration: underline;
+}
+/*코인 정보 안 표*/
+#detail_all p{
+  font-size:12px;
+  font-weight:600;
+  color:#aaa;
+  display: inline-block;
+  float: right;
+  margin-top: 7px;
 }
 
 /* 컨텐츠 네비 */
@@ -939,7 +948,6 @@ box-shadow:none;
   }
   .con_640{
     width:100%;
-    background:#7AABDF;
   }
 
   /* 컨텐츠 네비 */
