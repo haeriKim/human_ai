@@ -3,16 +3,17 @@
     text-align: center;
   }
   .app_pagePC_content .app_pagePC_story{
-    display:inline-block;
-    width:80%;
-    font-size:80%;
-    font-weight:600;
-    margin:15px 0;
-    text-align: center;
-    overflow: hidden;
-    background:#fff;
-    border-radius: 5px;
-    box-shadow: 0 1px 2px rgba(100,100,100,.2);
+      display: inline-block;
+      width: 80%;
+      font-size: 80%;
+      font-weight: 600;
+      margin: 15px 0;
+      text-align: center;
+      overflow: hidden;
+      background: #080D13;
+      border: 1px solid #7AABDF;
+      border-radius: 5px;
+      box-shadow: 0 1px 2px rgba(100,100,100,.2);
   }
   .app_pagePC_content .app_pagePC_story img{
     width:30%;
@@ -33,7 +34,6 @@
   font-weight: 600;
   margin-left: 5px;
   margin: 20px 0;
-  box-shadow: 1px 2px 4px #555;
   }
 
 }

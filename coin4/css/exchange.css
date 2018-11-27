@@ -29,10 +29,6 @@
 .coin_money_inner img.bitcoin_icon{
   width: 100%;
 }
-.coin_money_inner ul{
-  float:left;
-  margin-left: 10px;
-}
 .coin_money_inner strong{
   font-size:20px;
 }
@@ -49,7 +45,7 @@
 .coin_money_inner .question3, .coin_money_inner .question4, .coin_money_inner .question5,
 .coin_money_inner .question6{
   position: absolute;
-  left: 92%;
+  right: 1%;
   top: 4px;
   width: 15px;
   height: 22px;
@@ -253,7 +249,7 @@
     font-size:14px;
 }
 #deal_orgin_transaction .unit{
-    color:#666;
+    color:#aaa;
     font-size:13px;
 }
 #deal_orgin_transaction .money_up{
@@ -905,7 +901,7 @@
 
   .con_1290{
     width: 90%;
-    margin: 28% auto;
+    margin: 100px auto;
   }
   .coin_select{
     width: 100%;
@@ -933,7 +929,6 @@
     border-bottom: 2px solid #efefef;
   }
   .coin_money_inner .img_area {
-    width: 23%;
     height: 60px;
     float: left;
     padding: 5px 0;
@@ -943,8 +938,8 @@
   }
   .coin_money_inner ul{
     float: left;
-    margin-left: 5%;
-    width:72%;
+    width:68%;
+    margin-left: 0;
   }
   .coin_money_inner strong{
     font-size:15px;
@@ -1090,19 +1085,37 @@
  #buy_sell_tab .buy_tab_content .buy_tab_content_row dd .minus_btn,
  #buy_sell_tab .sell_tab_content .sell_tab_content_row dd .minus_btn{
    top:10px;
-   right: 22px;
+   right: 9.8%;
  }
  #buy_sell_tab .buy_tab_content .buy_tab_content_row dd a,
  #buy_sell_tab .sell_tab_content .sell_tab_content_row dd a{
-    width:5%;
-    font-size:20px;
-  }
-
+     width: 9%;
+     max-width: 30px;
+     font-size: 20px;
+     line-height: initial;
+ }
+ /*input창 어긋나는 부분 보완*/
+ @media all and (min-width:412px) and (max-width:768px){
+     #buy_sell_tab dd input[type='text']{
+         width: 67%;
+     }
+     #buy_sell_tab .buy_tab_content .buy_tab_content_row dd .minus_btn,
+     #buy_sell_tab .sell_tab_content .sell_tab_content_row dd .minus_btn{
+         right: 35px;
+     }
+ }
+ /*ipad*/
+ @media all and (min-width:768px) and (max-width:768px){
+     #buy_sell_tab dd input[type='text']{
+         width: 348px;
+     }
+ }
  #buy_sell_tab .amount_dropbox select{
      font-size: 12px;
      top:10px;
-     width: 50px;
+     width: 19%;
      height: 32px;
+     max-width: 65px;
  }
  #buy_sell_tab .buy_all_amount_title{
      font-size:14px;

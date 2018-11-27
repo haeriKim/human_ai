@@ -58,7 +58,7 @@
                   <div class="app_pagePC_content">
 
                     <div class="app_pagePC_story">
-                      <img src="img/exclamation2.png" alt="컴퓨터아이콘">
+                      <img src="img/exclamation6.png" alt="컴퓨터아이콘">
                       <p>현재 페이지는 디올스 PC버전을 통해<br/>
                       이용하실수 있습니다.</p>
 

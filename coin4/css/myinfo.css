@@ -25,7 +25,8 @@
    float: left;
 }
 .myinfo_sub_box .myinfo_table_wrap .myinfo_table{
-  width: 50%;
+    width: 49%;
+    margin-left: 1%;
 }
 .myinfo_sub_box .myinfo_table_wrap .myinfo_table .change_phone_num{
   color:#7AABDF;

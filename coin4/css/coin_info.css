@@ -87,7 +87,7 @@
 
 /*에이다*/
 .coin_money_detail #detail_all .ada_table tbody th{
-    padding: 5px 6px;
+    padding: 5px 4px;
 }
 .coin_money_detail #detail_all .ada_table tbody tr td{
     padding: 0 8px;
@@ -151,7 +151,7 @@
         padding-bottom: 10px;
     }
     #wrap .coin_money_inner ul{
-        transform: translateY(50%);
+        transform: translateY(67%);
         margin-left: 5px;
     }
     #wrap .coin_money_inner strong{

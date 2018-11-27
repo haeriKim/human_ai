@@ -4,6 +4,15 @@ body{
 #container{
     width: 660px;
     margin: 10% auto;
+    background: #0E141C;
+    border-radius: 5px;
+    border: 1px solid #7AABDF;
+}
+#container h1{
+    padding: 20px 10px 10px 10px;
+}
+#container h1 img{
+    width: 104px;
 }
 p.congratuation_m,
 p.login_m{
@@ -18,7 +27,7 @@ p.login_m{
     padding: 20px 0 0 20px;
 }
 .content > p{
-    color: #4c4c4c;
+    color: #fff;
     font-weight: 600;
     line-height: 1.5;
 }
@@ -28,36 +37,39 @@ p.login_m{
 .content .info_table_wrap{
     margin: 45px 0;
 }
+.content .info_table_wrap .info_table{
+    width: 95%;
+    border: 1px solid #7AABDF;
+}
 .content .info_table_wrap p.table_title{
-    color: #4c4c4c;
+    color: #7AABDF;
     font-weight: 600;
     padding-bottom: 10px;
 }
 .content .info_table_wrap .info_table tbody tr{
-    border: 1px solid #efefef;
     border-left: none;
     height: 40px;
     color: #4c4c4c;
 }
 .content .info_table_wrap .info_table tbody th{
-    background-color: #f4f5f9;
-    border-left: 2px solid #7AABDF;
+    background-color: #05080B;
+    border-right: 2px solid #7AABDF;
     color: #7AABDF;
     font-size: 15px;
     font-weight: 600;
-    text-align: left;
+    text-align: center;
     width: 26%;
-    padding-left: 20px;
 }
 .content .info_table_wrap .info_table tbody td{
     text-align: left;
     padding-left: 40px;
+    color: #fff;
 }
 .content .text_eng{
     margin-top: 30px;
     display: block;
     font-weight: 600;
-    color: #999;
+    color: #fff;
 }
 .content .site a{
     margin-top: 5px;
@@ -70,14 +82,14 @@ p.login_m{
     text-align: center;
 }
 .content_footer{
-    background: #f4f5f8;
+    background: #090D13;
     padding: 20px 0 20px 20px;
 }
 .content_footer p{
     margin-top: 10px;
     line-height: 1.6;
     font-size: 15px;
-    color: #4c4c4c;
+    color: #fff;
 }
 .content_footer p .cs_mail{
     color: #017eff;
@@ -98,17 +110,17 @@ p.certification_m{
     line-height: 60px;
 }
 .content .certification_number_wrap .certification_number_name{
-    color: #4c4c4c;
+    color: #7AABDF;
     font-weight: 600;
-    line-height: 1.;
     font-size: 17px;
     margin-right: 10px;
 }
 .content .certification_number_wrap .code{
     border-radius: 5px;
-    background: #f4f5f9;
+    background: #05080B;
     color: #7AABDF;
     font-weight: 600;
     font-size: 22px;
     padding: 11px 232px;
+    border: 1px solid #7AABDF;
 }

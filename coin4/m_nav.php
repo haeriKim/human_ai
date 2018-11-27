@@ -48,6 +48,11 @@
                             <strong class="none01">공지사항</strong>
                         </a>
                     </li>
+                    <li>
+                        <a href="coin_info_bitcoin.php" class="m_menutext">
+                            <strong class="none01">코인정보</strong>
+                        </a>
+                    </li>
                     <li class='first_menu'>
                         <a href="#">
                             <strong class="customer1">고객지원</strong>

@@ -116,10 +116,9 @@
     z-index: 9999;
     padding: 20px;
     position: fixed;
-    left: 40%;
+    left: 50%;
     top: 50%;
-    margin-left: -265px;
-    transform: translateY(-50%);
+    transform: translate(-50%,-50%);
     display: none;
 }
 .question_mark_active_inner{
@@ -280,14 +279,13 @@
 /* 기본팝업(common) */
 .popup{
     background: #080D13;
-    border:1px solid #7AABDF;
+    border: 1px solid #7AABDF;
     z-index: 9999;
     padding: 30px 20px;
     position: fixed;
     left: 50%;
     top: 50%;
-    transform: translateY(-50%);
-    margin-left: -265px;
+    transform: translate(-50%,-50%);
     text-align: center;
     width: 455px;
 }
