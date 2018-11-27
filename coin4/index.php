@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko" class="no-js">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content=" width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
@@ -26,7 +26,6 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/common.js"></script>
-    <script src="js/fouc.js"></script>
 </head>
 <body>
     <!-- wrap -->
@@ -50,7 +49,7 @@
                   <!-- banner_slide-->
                   <div class="slide">
                     <ul class="panel">
-                      <li class="banner1 on"></li>
+                      <li class="banner1"></li>
                       <li class="banner2"></li>
                       <li class="banner3"></li>
                       <li class="banner4"></li>

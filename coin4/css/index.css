@@ -20,14 +20,21 @@
   clear: both;
 }
 .panel>li {
-  width: 100%;
+  /*width: 100%;
   height: 300px;
   float: left;
   background-repeat: no-repeat;
   background-size: 100%;
   position: absolute;
   top: 0;
-  left: 0;
+  left: 0;*/
+
+  width: 20%;
+  height: 300px;
+  float: left;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
 }
 .panel .banner1 {
   background:url(../img/banner01.png) no-repeat 0 0; background-size:cover;
@@ -364,11 +371,11 @@
     }
     .app_main_content .app_main_step1 .phone_area input[type=button].android_down {
       top: 72%;
-      background: #7AABDF
+      background: #7AABDF;
     }
     .app_main_content .app_main_step1 .phone_area input[type=button].ios_down {
       top:86%;
-      background: #7AABDF
+      background: #7AABDF;
     }
     .app_main_content .app_main_step1 .phone_area input[type=button].app_exchange_bt {
       top: 97%;
