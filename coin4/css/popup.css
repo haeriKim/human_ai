@@ -417,7 +417,7 @@
 .coin_withdrawal_box .more_coin_address_02{
     box-sizing: border-box;
     padding: 20px;
-    color: white;
+    color:#0E141C;
     background-color: #7AABDF;
     border-radius: 5px;
     position: absolute;
@@ -498,6 +498,7 @@
     padding: 5px 20px;
     width: 70px;
     color: #0E141C;
+    font-weight:600;
     border-radius: 5px;
     display: block;
     margin: 0 auto;
