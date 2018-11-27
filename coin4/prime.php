@@ -173,7 +173,7 @@
                             <div class="theallsprime_icon3">
                               <p><img src="img/prime_money.png" alt="프라임아이디어"></p>
                               <h3>M E T H O D</h3>
-                              <p class="prime_text"><span><b>'디올스 국제거래소'</b>에 등록한 회원분들께 지갑을 직접 생성하여 지급해드립니다.</p>
+                              <p class="prime_text"><b>'디올스 국제거래소'</b>에 등록한 회원분들께 지갑을 직접 생성하여 지급해드립니다.</p>
 
                             </div>
 
@@ -193,18 +193,61 @@
                                 </div>
                           </div><!--프라임메소드 끝-->
 
-                          <div class="prime_security"><!--프라임 보안-->
+
+                          <div class="prime_join"><!--프라임조인-->
                             <div class="theallsprime_icon4">
+                              <p><img src="img/prime_free.png" alt="프라임조인"></p>
+                              <h3>J O I N</h3>
+                              <p class="prime_text">회원등록 한 번으로 <b>'디올스 국제거래소'</b>에 등록된 모든 코인을 거래 할 수 있습니다.</p>
+
+                            </div>
+
+                                <div class="theallsprime_number4">
+
+
+                                </div>
+                          </div><!--프라임조인 끝-->
+
+
+
+                          <div class="prime_platform"><!--프라임플랫폼-->
+                            <div class="theallsprime_icon5">
+                              <p><img src="img/prime_platform.png" alt="프라임플랫폼"></p>
+                              <h3>P L A T F O R M</h3>
+                              <p class="prime_text"><b>'디올스 국제거래소'</b>는 안전한 거래를 위한 플랫폼을 준비 합니다.</p>
+
+                            </div>
+
+                                <div class="theallsprime_number5">
+
+                                    <div class="platform_inner">
+                                    <div class="platform_box">
+                                      <p>만약 거래소와 소비자간의 거래 시 정전이 되면 코인이 없어지므로 법정문제의 소지가 있습니다.<br/>
+                                      <span>하지만</span> '디올스 국제거래소'는 전혀 그런 경우가 발생하지 않습니다.<br/>
+                                      완벽하게 소비자 중심 뿐만 아니라 기술적으로 정리 하여 준비 했습니다.</p>
+                                    </div>
+                                    </div>
+
+
+                                </div>
+                          </div><!--프라임플랫폼 끝-->
+
+
+
+
+                          <div class="prime_security"><!--프라임 보안-->
+                            <div class="theallsprime_icon6">
                               <p><img src="img/prime_security.png" alt="프라임아이디어"></p>
                               <h3>S E C U R I T Y</h3>
                               <p class="prime_text"><span><b>'디올스 국제거래소'</b>는 철저한 보안서버를 바탕으로 고객서비스에 최선을 다하겠습니다.</p>
                             </div>
 
-                            <div class="theallsprime_number4">
+                            <div class="theallsprime_number6">
                               <div class="security_inner">
                               <div class="security_box">
-                                <p>거래소와 소비자가 코인거래시 정전되면 코인이 없어지므로 법정문제의 소지가 있습니다.<br/>
-                                <span>하지만</span> '디올스 국제거래소'는 전혀 그런 경우가 발생하지 않습니다.<br/> 완벽하게 소비자 중심 뿐만 아니라 기술적으로 정리하여 완성했습니다.</p>
+                                <p>인공지능AI로 보안시스템을 왜곡처리 시킵니다.<br/>
+                                인공지능 <span>AI,PCS,BCS,CBR</span>의 보안시스템을 이용하여 고객의 코인이나 타 다른 데이터베이스를<br/>
+                                왜곡처리 보관하여 정보유출을 해커로부터 완벽하게 방어 할 수 있습니다.</p>
                               </div>
                               </div>
 
