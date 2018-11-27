@@ -105,7 +105,7 @@
                         <div class="login_info">
                             <a href="signUp.php">회원가입</a>
                             <ul>
-                                <li><a href='#'>비밀번호 찾기</a></li>
+                                <li><a href='login_findPw.php'>비밀번호 찾기</a></li>
                                 <li class='email_find_btn'>
                                     <a href='#'>이메일 주소 찾기</a>
                                     <span class='partition'>|</span>

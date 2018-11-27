@@ -1512,3 +1512,19 @@ $(document).ready(function(){
 
       });
 });*/
+
+/*반응형 비밀번호 변경페이지 물음표*/
+$(document).ready(function(){
+  var pw_box = 1;
+  $(".password_question_detail2").hide();
+  $(".question_smallbox2").click(function(){
+    if(pw_box === 1){
+        $(".password_question_detail2").fadeIn(300);
+        pw_box = 0;
+    } else{
+        $(".password_question_detail2").fadeOut(300);
+        pw_box = 1;
+    }
+
+  });
+});

@@ -49,7 +49,7 @@
             <!-- header_wrap End-->
 
             <!-- content_wrap -->
-            <div class="content_wrap">
+            <div class="content_wrap login_con">
                 <!-- main_content -->
                 <div class="content login_content">
                   <div class="box con_410 login_c_changePw_wrap">
@@ -61,6 +61,25 @@
                   </div><!-- con_410 End-->
                 </div><!-- login_content End-->
             </div><!-- content_wrap End-->
+
+            <!-- login_responsive -->
+            <div class="login_responsive">
+                <!-- login_content -->
+                <div class="login_content">
+                  <!-- box -->
+                  <div class="box">
+                    <!-- 로그인폼 -->
+                    <div id="login_area_responsive">
+                      <h3>비밀번호 변경 완료</h3>
+                      <p class='text_area'>비밀번호 변경이 완료되었습니다.</p>
+                      <input type="button" name="button" value="로그인하기" class='button_box go_login' onclick="location.href='login.php'">
+                    </div><!-- 로그인폼 END -->
+
+                  </div><!-- box End-->
+                </div><!-- login_content End-->
+            </div><!-- login_responsive End-->
+
+            <div class="gray_box_c_changePw"></div>
 
             <!-- footer_wrap -->
             <?php include "footer.php";?>

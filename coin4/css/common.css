@@ -655,7 +655,6 @@ div.cancel_or_apply .if_you_all_agree{
   float: right;
   margin-top: 7px;
 }
-
 /* 컨텐츠 네비 */
 .certification_area,
 .track_ip_address_area,
@@ -934,7 +933,7 @@ box-shadow:none;
       background: #0E141C;
   }
   #container{
-    background:#efefef;
+    background:#0E141C;
   }
   #nav_wrap,#header_wrap,.submenu_mypage,.submenu_security,.submenu_mypage_inner{
     display:none;
@@ -1109,30 +1108,45 @@ box-shadow:none;
   }
   .login_responsive .login_content #login_area_responsive input{
       border-style: none;
-      border-bottom: 1px solid #2a3e5f;
+      border-bottom: 1px solid #7AABDF;
       font-size: 13px;
       padding-bottom: 5px;
       padding-left: 5px;
       display: block;
       width: 95%;
       margin-bottom: 25px;
+      color:#fff;
+  }
+  .login_responsive .login_content #login_area_responsive input::placeholder{
+    color:#fff;
   }
   .login_responsive .login_content #login_area_responsive .wrong_info{
-      color: red;
+      color: #f35531;
       font-size: 12px;
       margin-left: 5px;
       margin-bottom: 20px;
     }
+    .login_responsive .login_content #login_area_responsive .wrong_info img{
+      vertical-align: -2px;
+      margin-right:5px;
+    }
   .login_responsive .login_content #login_area_responsive .button_box{
-      color: #fff;
+      color: #0E141C;
       font-size: 15px;
       font-weight: 600;
       background: #7AABDF;
-      border: none;
+      border: 1px solid #7AABDF;
       border-radius: 5px;
       padding: 8px 0;
       cursor: pointer;
       width: 98%;
+    }
+    .login_responsive .login_content #login_area_responsive .button_box:hover{
+      background: none;
+      border: 1px solid #7AABDF;
+      color: #7AABDF;
+      font-size:15px;
+
     }
     .login_responsive .login_content #login_area_responsive .login_info{
         overflow: hidden;
@@ -1160,11 +1174,11 @@ box-shadow:none;
         margin-right: 7px;
     }
     .login_responsive .login_content #login_area_responsive .login_info ul li .e_mail_find{
-        color: #fff;
-        background-color: #eaaf69;
+        color: #0E141C;
+        background-color: #7AABDF;
         font-size: 12px;
         position: absolute;
-        bottom: 47%;
+        bottom: 49%;
         left: 50%;
         transform: translate(-50%,0);
         width: 80%;

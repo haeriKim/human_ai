@@ -49,7 +49,7 @@
             <!-- header_wrap End-->
 
             <!-- content_wrap -->
-            <div class="content_wrap">
+            <div class="content_wrap login_con">
                 <!-- main_content -->
                 <div class="content login_content">
                   <div class="box con_410 login_find_pw_wrap">
@@ -73,6 +73,29 @@
                 </div><!-- login_content End-->
             </div><!-- content_wrap End-->
 
+            <!-- login_responsive -->
+            <div class="login_responsive">
+                <!-- login_content -->
+                <div class="login_content">
+                  <!-- box -->
+                  <div class="box">
+                    <!-- 로그인폼 -->
+                    <div id="login_area_responsive">
+                        <form class="" action="#" method="post">
+                            <h3>비밀번호 복구</h3>
+                            <label for="e_mail_responsive" class='skip_label'>이메일주소</label>
+                            <input type="email" name="e_mail" value="" placeholder="이메일주소를 입력하세요." id='e_mail_responsive' required autocomplete="off" class='user_mail'>
+
+                            <input type="submit" name="submit" value="메일 보내기" class='button_box send_email_button'>
+                        </form>
+
+                    </div><!-- 로그인폼 END -->
+
+                  </div><!-- box End-->
+                </div><!-- login_content End-->
+            </div><!-- login_responsive End-->
+
+            <div class="gray_box_findPw"></div>
             <!-- footer_wrap -->
             <?php include "footer.php";?>
             <!-- footer_wrap End-->

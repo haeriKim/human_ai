@@ -26,6 +26,13 @@
     <script src="js/common.js"></script>
     <script src="js/fouc.js"></script>
 </head>
+
+<style>
+  .box{
+    background-color:#fff;
+  }
+</style>
+
 <body>
     <!-- wrap -->
     <div id="wrap">

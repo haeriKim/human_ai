@@ -69,3 +69,26 @@
   margin-bottom: 10px;
   display: block;
 }
+.gray_box_changePw{
+  height:50px;
+}
+
+@media all and (min-width:320px) and (max-width:768px){
+  #login_area_responsive{
+      position: relative;
+  }
+  #login_area_responsive .question_smallbox2{
+      position: absolute;
+      top: 3px;
+      right: 5%;
+      cursor: pointer;
+      width:25px;
+  }
+  #login_area_responsive .password_question_detail2{
+    width:95%;
+    font-size:12px;
+    line-height:1.5em;
+    margin-bottom:20px;
+    background:#080D13;
+  }
+}

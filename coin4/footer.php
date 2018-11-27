@@ -49,9 +49,10 @@
             <p>서울특별시 강남구 언주로 640. 임피리얼 호텔 6층<br/></p>
             <p>사업자등록번호 492-81-01041</p>
             <p>통신판매업 제 2018-서울송파-1893호</p>
+            <p>팩스번호 0504-083-6879</p>
             <!--<p>고객문의 : thealls_cs@thealls.co.kr</p>
             <p>제휴문의 : thealls_sales@thealls.co.kr</p>-->
-            <p class="centerNum">고객센터 : 0000-0000</p>
+            <p class="centerNum">고객센터 : 02-6013-6879</p>
             <p>Copyright@All rights reserved.</p>
           </div>
     </div>

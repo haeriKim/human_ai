@@ -13,3 +13,13 @@
   font-size: 15px;
   margin-bottom: 50px;
 }
+.gray_box_c_changePw{
+  height:50px;
+}
+@media all and (min-width:320px) and (max-width:768px){
+  .login_content #login_area_responsive .text_area{
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+}
