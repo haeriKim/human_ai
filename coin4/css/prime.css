@@ -1,6 +1,9 @@
 /*prime css*/
+.con_top{
+  margin-bottom:4.4%;
+}
 .prime_area{
-  padding-bottom:100px;
+
 }
 .prime_area .prime_inner{
   overflow:hidden;
@@ -228,7 +231,7 @@
   font-size:25px;
 }
 
-/*method*/
+/*join*/
 .prime_area .prime_inner .theallsprime_icon3{
   margin-top:0;
   overflow:hidden;
@@ -255,59 +258,8 @@
   margin-top:50px;
   margin-bottom:200px;
 }
-.prime_area .prime_inner .theallsprime_number3 .wallet_inner{
-  width:100%;
-}
-.prime_area .prime_inner .theallsprime_number3 .wallet_box{
-  text-align: center;
-  display:inline-block;
-  margin-top:50px;
-  margin-bottom:50px;
-  width:900px;
-  border:2px solid rgba(234,175,105,.8);
-  padding:20px;
-  color:#7AABDF;
-  font-size:15px;
-  line-height:2em;
-}
-.prime_area .prime_inner .theallsprime_number3 .wallet_box p span{
-  font-weight:600;
-}
-.prime_area .prime_inner .theallsprime_number3 ul{
-  overflow:hidden;
-  width:900px;
-  display:inline-block;
-  text-align: center;
-  padding:20px;
-}
-.prime_area .prime_inner .theallsprime_number3 li{
-  width:250px;
-  float:left;
-  color:#7AABDF;
-  font-size:15px;
-  text-align: center;
-  display: block;
-  padding-left:4%;
-}
-.prime_area .prime_inner .theallsprime_number3 li p{
-  padding-left:10px;
-  font-size:12px;
-}
-.prime_area .prime_inner .theallsprime_number3 li:nth-child(1){
-  color:#f00;
-}
-.prime_area .prime_inner .theallsprime_number3 li:nth-child(2){
-  color:#ada20b;
-}
-.prime_area .prime_inner .theallsprime_number3 li:nth-child(3){
-  color:#00f;
-}
-.prime_area .prime_inner .theallsprime_number3 li img{
-  width:100px;
-  height:100px;
-}
 
-/*join*/
+/*method*/
 .prime_area .prime_inner .theallsprime_icon4{
   margin-top:0;
   overflow:hidden;
@@ -333,6 +285,57 @@
   text-align: center;
   margin-top:50px;
   margin-bottom:200px;
+}
+.prime_area .prime_inner .theallsprime_number4 .wallet_inner{
+  width:100%;
+}
+.prime_area .prime_inner .theallsprime_number4 .wallet_box{
+  text-align: center;
+  display:inline-block;
+  margin-top:50px;
+  margin-bottom:50px;
+  width:900px;
+  border:2px solid rgba(234,175,105,.8);
+  padding:20px;
+  color:#7AABDF;
+  font-size:15px;
+  line-height:2em;
+}
+.prime_area .prime_inner .theallsprime_number4 .wallet_box p span{
+  font-weight:600;
+}
+.prime_area .prime_inner .theallsprime_number4 ul{
+  overflow:hidden;
+  width:900px;
+  display:inline-block;
+  text-align: center;
+  padding:20px;
+}
+.prime_area .prime_inner .theallsprime_number4 li{
+  width:250px;
+  float:left;
+  color:#7AABDF;
+  font-size:15px;
+  text-align: center;
+  display: block;
+  padding-left:4%;
+}
+.prime_area .prime_inner .theallsprime_number4 li p{
+  padding-left:10px;
+  font-size:12px;
+}
+.prime_area .prime_inner .theallsprime_number4 li:nth-child(1){
+  color:#f00;
+}
+.prime_area .prime_inner .theallsprime_number4 li:nth-child(2){
+  color:#ada20b;
+}
+.prime_area .prime_inner .theallsprime_number4 li:nth-child(3){
+  color:#00f;
+}
+.prime_area .prime_inner .theallsprime_number4 li img{
+  width:100px;
+  height:100px;
 }
 
 /*platform*/
@@ -464,4 +467,28 @@
 }
 .prime_area .prime_inner .theallsprime_number6 .security_box span{
   font-weight:600;
+}
+
+/*main_footer*/
+
+.main_footer{
+  width:100%;
+  height:200px;
+  background:linear-gradient(to bottom, #82e0d8 0%,#344b8c 100%);
+}
+.main_footer p{
+  font-size:20px;
+  font-weight:600;
+  padding-top:50px;
+}
+.main_footer input{
+  padding:10px 50px;
+  font-size:15px;
+  border-radius: 5px;
+  border:none;
+  border:1px solid #fff;
+  color:#fff;
+  font-weight:600;
+  margin-top:30px;
+  cursor:pointer;
 }

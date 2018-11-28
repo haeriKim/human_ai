@@ -169,15 +169,33 @@
                           </div><!--프라임서비스 끝-->
 
 
-                          <div class="prime_method"><!--프라임메소드-->
+                          <div class="prime_join"><!--프라임조인-->
                             <div class="theallsprime_icon3">
+                              <p><img src="img/prime_free.png" alt="프라임조인"></p>
+                              <h3>J O I N</h3>
+                              <p class="prime_text">회원등록 한 번으로 <b>'디올스 국제거래소'</b>에 등록된 모든 코인을 거래 할 수 있습니다.</p>
+
+                            </div>
+
+                                <div class="theallsprime_number3">
+
+
+                                </div>
+                          </div><!--프라임조인 끝-->
+
+
+
+
+
+                          <div class="prime_method"><!--프라임메소드-->
+                            <div class="theallsprime_icon4">
                               <p><img src="img/prime_money.png" alt="프라임아이디어"></p>
                               <h3>M E T H O D</h3>
                               <p class="prime_text"><b>'디올스 국제거래소'</b>에 등록한 회원분들께 지갑을 직접 생성하여 지급해드립니다.</p>
 
                             </div>
 
-                                <div class="theallsprime_number3">
+                                <div class="theallsprime_number4">
                                   <div class="wallet_inner">
                                   <div class="wallet_box">
                                     <p>지갑은 실제 사용하는 <span>빨강색지갑</span>과 에어드랍을 받는 <span>노랑색지갑</span> 그리고 어드바이저 등에게 지급하는
@@ -194,19 +212,7 @@
                           </div><!--프라임메소드 끝-->
 
 
-                          <div class="prime_join"><!--프라임조인-->
-                            <div class="theallsprime_icon4">
-                              <p><img src="img/prime_free.png" alt="프라임조인"></p>
-                              <h3>J O I N</h3>
-                              <p class="prime_text">회원등록 한 번으로 <b>'디올스 국제거래소'</b>에 등록된 모든 코인을 거래 할 수 있습니다.</p>
 
-                            </div>
-
-                                <div class="theallsprime_number4">
-
-
-                                </div>
-                          </div><!--프라임조인 끝-->
 
 
 
@@ -291,6 +297,11 @@
                             </div>
 
                           </div><!--프라임 보안 끝-->
+
+                          <div class="main_footer">
+                            <p>세계 기축통화 암호화폐 '디올스 국제거래소'를 이용해주셔서 감사합니다.</p>
+                            <input type='button' name="메인버튼" value="메인으로" onclick="location.href='index.php'" class="main_button">
+                          </div>
 
 
                       </div><!--prime_inner 끝-->
