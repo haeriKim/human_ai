@@ -20,7 +20,7 @@
   font-size:12px;
 }
 .mywallet_complete .hour{
-  color:#30afb8;
+  color:#7AABDF;
 }
 .mywallet_complete div.account_table_wrap{
     width: 50%;
@@ -51,8 +51,7 @@
     margin-left: 15px;
 }
 .mywallet_complete div.send_info_01 p.money_account{
-    border-radius: 5px;
-    background: none;
+    background: #05080B;
     color: #7AABDF;
     font-weight: 600;
     font-size: 20px;

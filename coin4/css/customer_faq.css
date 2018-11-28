@@ -68,7 +68,7 @@
 
 @media all and (min-width:320px) and (max-width:768px){
   .faq_area .faq_list h5 {
-    margin: 25px 0 20px;
+    margin: 25px 0 20px 0;
     font-size: 13px;
   }
   .faq_area .faq_list ul li .question img {

@@ -659,6 +659,7 @@
     line-height: 30px;
     color:#fff;
     text-indent: 5px;
+    background-position: 90%;
 }
 #buy_sell_tab .amount_dropbox select option {
   background-color: #080D13;
@@ -670,18 +671,16 @@
 }
 #buy_sell_tab .buy_all_amount{
     width: 278px;
-    background: none;
-    border-radius: 5px;
-    color:#fff;
-    border:1px solid #7AABDF;
-    height:47px;
+    background: #05080B;
+    color: #fff;
+    border: 1px solid #7AABDF;
+    height: 47px;
+    line-height: 47px;
 }
-
 #buy_sell_tab .buy_all_amount p{
     text-align: right;
     padding:0 12px;
 }
-
 #buy_sell_tab .buy_all_amount p span.up_down_data{
     color:#f35531;
     font-size:20px;
@@ -690,7 +689,6 @@
 #buy_sell_tab .buy_all_amount p span.blue_color{
     color:#017eff;
 }
-
 #buy_sell_tab .buy_tab_content .buy_tab_content_row.total_price{
     height: 50px;
     line-height: 50px;
@@ -1116,6 +1114,7 @@
      width: 19%;
      height: 32px;
      max-width: 65px;
+     background-position: 90%;
  }
  #buy_sell_tab .buy_all_amount_title{
      font-size:14px;

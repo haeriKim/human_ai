@@ -79,9 +79,9 @@
     margin:15px 0;
     text-align: center;
     overflow: hidden;
-    background:#fff;
+    background:#080D13;
+    border:1px solid #7AABDF;
     border-radius: 5px;
-    box-shadow: 0 1px 2px rgba(100,100,100,.2);
   }
   .loginC_content .loginC_story img{
     width:30%;
@@ -95,12 +95,17 @@
     margin:20px 0;
     color:#7AABDF;
   }
+  @media all and (min-width:320px) and (max-width:400px){
+      .loginC_content .loginC_story p{
+        font-size: 12px;
+      }
+  }
   .loginC_content .loginC_story span{
     color:#eaaf69;
     font-size:12px;
   }
   .loginC_content .loginC_story input.home_bt{
-  background:#fff;
+  background:#080D13;
   border: 1px solid #7AABDF;
   color: #7AABDF;
   padding: 10px 0;
@@ -123,7 +128,6 @@
   margin-top:10px;
   margin-left: 5px;
   margin-bottom:20px;
-  box-shadow: 1px 2px 4px #555;
   }
 
 }

@@ -29,7 +29,7 @@
   margin:20px;
   color:#fff;
   border:1px solid #fff;
-  background: url(../img/arrow_down_dg.png) no-repeat 98% center; background-size:7px;
+  background-position: 98%;
   box-sizing: border-box;
 }
 .question_area .question_table #question_select option{

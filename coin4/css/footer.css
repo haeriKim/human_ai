@@ -97,6 +97,7 @@
   }
   #app_footer .app_footer_info .footer_logo{
     width:40%;
+    max-width: 150px;
   }
     #app_footer .app_footer_info ul{
       text-align: center;

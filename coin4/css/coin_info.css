@@ -87,7 +87,7 @@
 
 /*에이다*/
 .coin_money_detail #detail_all .ada_table tbody th{
-    padding: 5px 4px;
+    padding: 5px 0;
 }
 .coin_money_detail #detail_all .ada_table tbody tr td{
     padding: 0 8px;
@@ -101,7 +101,7 @@
 
 @media all and (min-width:320px) and (max-width:768px){
     #wrap .coninInfo_content{
-        margin: 28% auto;
+        margin: 100px auto;
         font-size: 14px;
     }
     #wrap .coin_select,
@@ -163,15 +163,21 @@
     }
 
     /*아이폰 5 */
-    @media all and (min-width:320px) and (max-width:320px){
+    @media all and (min-width:320px) and (max-width:357px){
         #wrap table.left_thick_table tbody th{
             width: 42%;
             font-size: 13px;
-            text-align: left;
+            padding: 5px;
         }
-        #wrap #ethuriumclassic_a_link,
+        #wrap #ethuriumclassic_a_link{
+            font-size: 12px;
+        }
         #wrap .coin_money_detail #detail_all .coinInfo_table tbody tr td{
             font-size: 12px;
+            padding: 0 5px;
+        }
+        #wrap .coin_money_detail #detail_all .ada_table tbody tr td{
+            padding: 0 2px;
         }
     }
 }

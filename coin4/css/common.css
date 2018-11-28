@@ -943,7 +943,7 @@ box-shadow:none;
   }
   .con_1250{
     width: 90%;
-    margin: 28% auto;
+    margin: 100px auto;
   }
   .con_640{
     width:100%;
@@ -1024,6 +1024,12 @@ box-shadow:none;
   }
   .mypage_content{
       position: relative;
+      padding: 15px 20px;
+  }
+  @media all and (min-width:320px) and (max-width:359px){
+      .mypage_content{
+          padding: 15px 10px;
+      }
   }
   .guide_responsive{
       display: block;
@@ -1055,9 +1061,6 @@ box-shadow:none;
     display: none;
   }
   /* 마이페이지 */
-  .mypage_content {
-    padding: 15px 20px;
-  }
   #container .question_area,
   #container .faq_area,
   #container .guide_OTP_area,
