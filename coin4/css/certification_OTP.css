@@ -12,15 +12,12 @@
 }
 .center_bottom .cText_left3 strong{
   font-size:15px;
-  color:#7AABDF;
+  color:#fff;
   margin-bottom:20px;
   display:block;
 }
 .center_bottom .content_title{
-    color: #7AABDF;
-    font-weight: 600;
     margin-bottom: 20px;
-    font-size: 18px;
 }
 .center_bottom .cText_left3 strong span{
   font-size:25px;
@@ -68,7 +65,7 @@
 }
 .cer_center .center_bottom .cText_right3 strong{
   font-size:15px;
-  color:#7AABDF;
+  color:#fff;
   margin-bottom:10px;
   display:block;
 }

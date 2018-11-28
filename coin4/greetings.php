@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/greetings.css">
-    <link rel="stylesheet" href="css/greetings_02.css">
     <link rel="stylesheet" href="css/sub_menu.css">
     <link rel="shortcut icon" href="img/favicon-16.ico" type="image/x-icon">
     <link rel="icon" href="img/favicon-16.ico" type="image/x-icon">

@@ -1,83 +1,11 @@
-
-.greetings_area .greetings_inner{
-    padding: 10px;
-    margin-bottom: 0;
-    width: 100%;
+#content .greetings_area .greetings_story{
+    overflow-y: visible;
+    padding: 10px 20px;
 }
-.greetings_area .greetings_inner h2{
-    font-size: 25px;
-    text-align: center;
-    margin-bottom: 20px;
-    color: #7AABDF;
-    padding-bottom: 15px;
-    border-bottom: 2px solid #7AABDF;
-}
-.greetings_area .greetings_story{
+#content .greetings_area .greetings_inner h2{
     text-align: left;
-    display: inline-block;
-    height: 800px;
-    padding: 10px 20px 10px 10px;
-    overflow-y: scroll;
+    padding: 17px 25px;
 }
-.greetings_inner .greetings_story .gr_title {
-  font-size: 25px;
-  color: #999;
-  text-align: center;
-}
-.greetings_inner .greetings_story .gr_title img {
-  width: 40px;
-}
-.greetings_inner .greetings_story .gr_title span {
-  font-size: 27px;
-  color: #7AABDF;
-  font-weight: 600;
-}
-.greetings_inner .greetings_story .greetings_img{
-  width:905px;
-  height:300px;
-  display: none;
-}
-.greetings_inner .greetings_story .textL .advTxt b{
-    font-size: 25px;
-    margin-top: 30px;
-    display: block;
-}
-
-.greetings_inner .greetings_story .textR{
-    text-align: left;
-    margin-top: 30px;
-}
-
-.greetings_inner .greetings_story .textL .count {
-  width: 80px;
-}
-.greetings_inner .greetings_story .textL .import {
-    display: inline-block;
-    width: 90%;
-    vertical-align: 18px;
-    font-weight: 600;
-    color: #7AABDF;
-    font-size: 17px;
-}
-.greetings_inner .greetings_story .greetings_sign{
-  height:130px;
-}
-.greetings_inner .greetings_story .right_sign{
-  text-align: right;
-}
-.greetings_inner .greetings_text{
-    height: 130px;
-    margin-bottom: 20px;
-}
-#full #greetings_content .close_btn{
-    width: 100px;
-    float: none;
-    display: block;
-    margin: 0 auto;
-}
-#greetings_content .greetings_text{
-    color: #333;
-}
-#greetings_content .advTxt b{
-    color:#888;
+#content .greetings_area .greetings_inner{
+    padding: 0;
 }

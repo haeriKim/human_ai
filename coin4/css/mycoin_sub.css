@@ -57,7 +57,7 @@
     border-bottom: none;
     border-top: 4px solid #7AABDF;
     border-radius: 5px 5px 0 0;
-    height: 27px;
+    height: 28px;
 }
 .mycointab_container{
     border:1px solid #7AABDF;
@@ -426,9 +426,8 @@ div.before_send_money_wrap > p{
     display: block;
     padding-left: 25px;
     margin-bottom: 3px;
-    font-size: 15px;
+    font-size: 14px;
     color: #fff;
-    font-weight: 600;
 }
 .checkbox_list{
   overflow-y:scroll;
@@ -496,9 +495,8 @@ div.before_send_money_wrap > p{
     display: block;
     padding-left: 25px;
     margin-bottom: 3px;
-    font-size: 15px;
+    font-size: 14px;
     color: #fff;
-    font-weight: 600;
 }
 #output_KRW div.before_send_money_wrap label.all_agree{
     padding-top: 20px;
@@ -642,11 +640,10 @@ div.before_send_money_wrap > p{
     padding-bottom: 12px;
 }
 #input_bitcoin div.before_send_money_wrap .warning_notice_list p{
-    padding: 0px 33px 0 16px;
-    margin-bottom: 3px;
-    font-size: 13px;
+    padding: 0px 29px 0 16px;
+    margin-bottom: 2px;
+    font-size: 14px;
     color: #fff;
-    font-weight: 600;
     line-height: 1.6;
 }
 
@@ -730,9 +727,8 @@ div.before_send_money_wrap > p{
     display: block;
     padding-left: 25px;
     margin-bottom: 3px;
-    font-size: 13px;
+    font-size: 14px;
     color: #fff;
-    font-weight: 600;
 }
 #output_bitcoin div.before_send_money_wrap label.all_agree{
     padding-top: 20px;
