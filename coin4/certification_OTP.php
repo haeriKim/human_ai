@@ -174,7 +174,7 @@
                               <li class="qr_code_key2">NRSLK7JWICMZLXBAWEZ</li>
                             </ul>
 
-                            <a href="#"><span class="OTP_guide">OTP 설정이 처음이신가요?</span></a>
+                            <a href="customer_faq.php"><span class="OTP_guide">OTP 설정이 처음이신가요?</span></a>
                           </div>
 
                         <div class="OTP_code">
