@@ -184,7 +184,7 @@
             </tr>
             <tr>
                 <th>공식홈페이지</th>
-                <td><a href="https://www.cardano.org/en/home/" target="_blank">https://www.cardano.org/en/home/</a></td>
+                <td><a href="https://www.cardano.org/home/" target="_blank">https://www.cardano.org/home/</a></td>
             </tr>
         </tbody>
     </table><!-- left_thick_table End-->

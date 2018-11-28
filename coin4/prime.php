@@ -119,9 +119,9 @@
                               <p class="prime_text">암호화폐의 새로운 기준 <b>'디올스 국제거래소'</b>의 요점은 이렇습니다.</p>
                               <ul>
 
-                                <li><strong class="ss1">The Alls Service<b> 01</b></strong><span></span></li>
-                                <li><strong class="ss2">The Alls Service<b> 02</b></strong><span></span></li>
-                                <li><strong class="ss3">The Alls Service<b> 03</b></strong><span></span></li>
+                                <li><strong class="ss1">The Alls Service<b> 01</b></strong><span class="b_box"></span></li>
+                                <li><strong class="ss2">The Alls Service<b> 02</b></strong><span class="b_box"></span></li>
+                                <li><strong class="ss3">The Alls Service<b> 03</b></strong><span class="b_box"></span></li>
 
                               </ul>
 
@@ -181,7 +181,7 @@
                             <div class="theallsprime_icon3">
                               <p><img src="img/prime_free.png" alt="프라임조인"></p>
                               <h3>J O I N</h3>
-                              <p class="prime_text">회원등록 한 번으로 <b>'디올스 국제거래소'</b>에 등록된 모든 코인을 거래 할 수 있습니다.</p>
+                              <p class="prime_text">회원등록 한 번으로 <b>'디올스 국제거래소'</b>에 등록된 <b>모든 코인</b>을 거래 할 수 있습니다.</p>
 
                             </div>
 
@@ -206,8 +206,8 @@
                                 <div class="theallsprime_number4">
                                   <div class="wallet_inner">
                                   <div class="wallet_box">
-                                    <p>지갑은 실제 사용하는 <span>빨강색지갑</span>과 에어드랍을 받는 <span>노랑색지갑</span> 그리고 어드바이저 등에게 지급하는
-                                    <span>청색지갑</span>으로<br/> 구분되어 코인사가 원할 경우 분할하여 지급됩니다. (같은 색상의 지갑과는 연동이 가능합니다.)</p>
+                                    <p>지갑은 실제 사용하는 <span class="red">빨강색지갑</span>과 에어드랍을 받는 <span class="yellow">노랑색지갑</span> 그리고 어드바이저 등에게 지급하는
+                                    <span class="blue">청색지갑</span>으로<br/> 구분되어 코인사가 원할 경우 분할하여 지급됩니다. (같은 색상의 지갑과는 연동이 가능합니다.)</p>
                                   </div>
                                   </div>
                                     <ul>

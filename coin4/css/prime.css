@@ -11,7 +11,7 @@
   display:inline-block;
 }
 .prime_area .prime_inner h3{
-  font-size:30px;
+  font-size:45px;
   color:#eaaf69;
   margin-bottom:50px;
 }
@@ -45,7 +45,7 @@
   font-size:18px;
   font-weight:500;
   margin:20px 0;
-  color:#7AABDF;
+  color:#0E141C;
   text-align: center;
   float:left;
   width:100%;
@@ -62,19 +62,18 @@
 .prime_area .prime_inner .theallsprime_number li{
   width:900px;
   overflow: hidden;
-  color:#7AABDF;
+  color:#0E141C;
   font-size:15px;
 }
 .prime_area .prime_inner .theallsprime_number b{
+  font-size:18px;
   display:inline-block;
   margin-top:60px;
-
   margin-bottom:10px;
 }
 .prime_area .prime_inner .theallsprime_number b span{
   font-size:25px;
 }
-
 .prime_area .prime_inner .theallsprime_number p{
   display:block;
   line-height: 2em;
@@ -111,7 +110,7 @@
   font-size:18px;
   font-weight:500;
   margin:20px 0;
-  color:#7AABDF;
+  color:#0E141C;
   text-align: center;
 }
 .prime_area .prime_inner .theallsprime_icon2 .prime_icon_img{
@@ -170,6 +169,9 @@
   color:#fff;
   cursor:pointer;
 }
+.prime_area .prime_inner .theallsprime_icon2 li strong:hover .b_box{
+  display: none;
+}
 .prime_area .prime_inner .theallsprime_icon2 li span{
   width:300px;
   height:350px;
@@ -180,7 +182,7 @@
   position: absolute;
 }
 .prime_area .prime_inner .theallsprime_icon2 .service_text{
-  color:#7AABDF;
+  color:#0E141C;
   margin-top:20px;
 }
 .prime_area .prime_inner .theallsprime_icon2 .service_text span{
@@ -220,14 +222,14 @@
   border:none;
   text-align: center;
   display: inline-block;
-  color:#7AABDF;
+  color:#0E141C;
 }
 .prime_area .prime_inner .theallsprime_number2 .none_li{
   border:2px solid #eaaf69;
   width:300px;
   padding:20px;
   overflow: hidden;
-  color:#7AABDF;
+  color:#0E141C;
   font-size:12px;
 }
 .prime_area .prime_inner .theallsprime_number2 li span{
@@ -241,8 +243,9 @@
   float:left;
 }
 .prime_area .prime_inner .theallsprime_number2 li p{
-  color:#7AABDF;
+  color:#0E141C;
   font-weight:600;
+  font-size:18px;
 }
 .prime_area .prime_inner .theallsprime_icon2 p b{
   font-size:25px;
@@ -261,7 +264,7 @@
   font-size:18px;
   font-weight:500;
   margin:20px 0;
-  color:#7AABDF;
+  color:#0E141C;
   text-align: center;
   float:left;
   width:100%;
@@ -289,7 +292,7 @@
   font-size:18px;
   font-weight:500;
   margin:20px 0;
-  color:#7AABDF;
+  color:#0E141C;
   text-align: center;
   float:left;
   width:100%;
@@ -314,12 +317,21 @@
   width:900px;
   border:2px solid #eaaf69;
   padding:20px;
-  color:#7AABDF;
+  color:#0E141C;
   font-size:15px;
   line-height:2em;
 }
 .prime_area .prime_inner .theallsprime_number4 .wallet_box p span{
   font-weight:600;
+}
+.prime_area .prime_inner .theallsprime_number4 .wallet_box p .red{
+  color:#f00;
+}
+.prime_area .prime_inner .theallsprime_number4 .wallet_box p .yellow{
+  color:#ada20b;
+}
+.prime_area .prime_inner .theallsprime_number4 .wallet_box p .blue{
+  color:#00f;
 }
 .prime_area .prime_inner .theallsprime_number4 ul{
   overflow:hidden;
@@ -331,7 +343,7 @@
 .prime_area .prime_inner .theallsprime_number4 li{
   width:250px;
   float:left;
-  color:#7AABDF;
+  color:#0E141C;
   font-size:15px;
   text-align: center;
   display: block;
@@ -368,7 +380,7 @@
   font-size:18px;
   font-weight:500;
   margin:20px 0;
-  color:#7AABDF;
+  color:#0E141C;
   text-align: center;
   float:left;
   width:100%;
@@ -393,7 +405,7 @@
   width:900px;
   border:2px solid #eaaf69;
   padding:20px;
-  color:#7AABDF;
+  color:#0E141C;
   font-size:15px;
   line-height:2em;
 }
@@ -402,7 +414,7 @@
 }
 .prime_area .prime_inner .theallsprime_number5 .platform_img_box{
   text-align: center;
-  color:#7AABDF;
+  color:#0E141C;
   margin-top:50px;
 }
 .prime_area .prime_inner .theallsprime_number5 .platform_img_box .company1{
@@ -423,7 +435,7 @@
 .prime_area .prime_inner .theallsprime_number5 .platform_img_box .none_li{
   border: 2px solid rgba(234,175,105,.8);
   padding: 20px;
-  color: #7AABDF;
+  color: #0E141C;
   font-size: 12px;
   text-align: center;
   width:300px;
@@ -436,7 +448,7 @@
   margin: 20px 0;
   border: none;
   text-align: center;
-  color: #7AABDF;
+  color: #0E141C;
 }
 
 
@@ -453,7 +465,7 @@
   font-size:18px;
   font-weight:500;
   margin:20px 0;
-  color:#7AABDF;
+  color:#0E141C;
   text-align: center;
   float:left;
   width:100%;
@@ -478,7 +490,7 @@
   width:900px;
   border:2px solid rgba(234,175,105,.8);
   padding:20px;
-  color:#7AABDF;
+  color:#0E141C;
   font-size:15px;
   line-height:2em;
 }
