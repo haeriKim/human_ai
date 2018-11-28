@@ -277,7 +277,7 @@ table .mycoin_tbody_deco>tr>td>img{
   border-bottom:1px solid #7AABDF;
   width:330px;
   padding-bottom:5px;
-  color: #7AABDF;
+  color: #fff;
 }
 
 /*tab3*/
@@ -371,13 +371,12 @@ table .mycoin_tbody_deco>tr>td>img{
     margin-bottom: 13px;
     border: none;
     border-bottom: 2px solid #7AABDF;
-    color: #7AABDF;
+    color: #fff;
     font-size: 22px;
     text-align: right;
     width: 229px;
     font-weight: 600;
     float: left;
-    background: none;
     padding: 3px 5px;
     padding-right: 50px;
 }

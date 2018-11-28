@@ -708,6 +708,7 @@
                               <p id='warning_message'><img src="img/icon_ex.png" alt="경고아이콘" class="warning_icon">이미 등록된 이메일 주소입니다.</p>
                               <input type="password" name="password" value="" placeholder="로그인 비밀번호를 입력하세요." required maxlength="30" minlength="10" class='user_pass'/>
                               <input type="password" name="passowrd_again" value="" placeholder="로그인 비밀번호를 다시 입력하세요." required maxlength="30" minlength="10" class='user_passChk'/>
+                              <a href="signUp_guide.php" class='signUp_guide' target="_blank">이용 가이드 보기 </a>
                               <div class="password_alarm_wrap">
                                 <div class="password_alarm_text">
                                   <ul class='password_alarm_ul password_alarm_ul_01'>
@@ -743,7 +744,6 @@
                               <div class="btn_area">
                                   <input type="submit" name="sign_up" value="회원가입" class="join_btn sign_up_bt">
                                   <input type="submit" name="sign_up" value="회원가입" class="join_btn sign_up_bt_on">
-                                  <a href="signUp_guide.php" class='signUp_guide' target="_blank">이용 가이드 보기 </a>
                                   <a href="login.php">이미 The Alls 계정이 있으시다면? 로그인</a>
                               </div>
                           </div> <!-- signUp_right_con End-->

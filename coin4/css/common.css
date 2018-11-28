@@ -213,11 +213,9 @@ input[type='checkbox']:checked + label:before{ /* 체크박스를 체크했을�
     text-align: center;
     line-height: 15px;
 }
-#wrap input::placeholder{
+body input::placeholder,
+body textarea::placeholder {
     color: #fff;
-}
-#wrap textarea::placeholder {
-  color:#fff;
 }
 /* 페이징(공지사항, 체결/미체결) */
 .contentBottom{
@@ -802,7 +800,7 @@ div.cancel_or_apply .if_you_all_agree{
     border: none;
     border-bottom: 1px solid #7AABDF;
     width: 330px;
-    color: #7AABDF;
+    color: #fff;
     padding-bottom: 4px;
     font-size: 15px;
     background: none;

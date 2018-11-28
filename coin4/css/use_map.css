@@ -165,10 +165,15 @@
   .use_content #use_area .use_area_text .title_sub_title {
     font-size: 13px;
   }
-  .use_content #use_area .use_area_text p,.use_content #use_area .use_area_text dl, .use_content #use_area .use_area_text dt {
+  .use_content #use_area .use_area_text p,
+  .use_content #use_area .use_area_text dl,
+  .use_content #use_area .use_area_text dt {
     font-size: 12px;
   }
-  .use_content #use_area .common_table tbody tr th, .use_content #use_area .common_table tbody tr td, .use_content #use_area .use_area_text .use_map_table td, .use_content #use_area .use_area_text .use_map_table th  {
+  .use_content #use_area .common_table tbody tr th,
+  .use_content #use_area .common_table tbody tr td,
+  .use_content #use_area .use_area_text .use_map_table td,
+  .use_content #use_area .use_area_text .use_map_table th  {
     font-size: 12px;
   }
 }

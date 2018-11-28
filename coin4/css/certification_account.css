@@ -17,7 +17,7 @@
 }
 .center_bottom strong{
   font-size:17px;
-  color:#7AABDF;
+  color:#fff;
   margin-bottom:25px;
   display:block;
 }
@@ -168,7 +168,7 @@
   margin-right:2px;
 }
 .cText_right2 .code_area a:hover {
-  color: #eaaf69;
+  text-decoration: underline;
 }
 #bank_complete{
   text-align:center;
@@ -190,12 +190,10 @@
   color:#0E141C;
   cursor: pointer;
 }
-.cText_right2 #bank_complete .chk_ok:hover {
-}
 .cText_right2 #bank_complete .bank_cancel{
     color: #7AABDF;
     border: 1px solid #7AABDF;
-    background-color: none;
+    background: none;
     cursor: pointer;
 }
 #account_malpungsun{
@@ -267,15 +265,16 @@
   box-sizing: border-box;
 }
 #account_full .popup2{
-  border:1px solid #7AABDF;
+    border: 1px solid #7AABDF;
     z-index: 9999;
     padding: 30px 20px;
     position: fixed;
-    left:25%;
+    left: 25%;
     top: 50%;
     transform: translateY(-50%);
     margin-left: -265px;
     text-align: center;
+    background: #080D13;
 }
 #account_full .popup2 h2{
   color: #7AABDF;
@@ -289,12 +288,8 @@
   margin:20px 0;
 }
 #account_full .account_popup_ok{
-  border-radius: 5px;
   padding: 7px 30px;
-  color: #fff;
-  font-weight: 600;
+  color: #080D13;
   font-size: 16px;
-  box-sizing: border-box;
-  border: 1px solid #7AABDF;
   background-color: #7AABDF;
 }

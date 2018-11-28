@@ -62,7 +62,6 @@
 #signUp_area .signUp_right_con > input{
     width: 400px;
     font-size: 15px;
-    border-bottom: 2px solid #7AABDF;
     padding-left: 5px;
     margin-bottom: 50px;
 }
@@ -147,6 +146,9 @@
   border-bottom:1px solid #7AABDF;
   background:none;
 }
+#signUp_area .signUp_right_con input.user_passChk{
+    margin-bottom: 10px;
+}
 #signUp_area .signUp_right_con .btn_area{
   position:absolute;
   bottom:20px;
@@ -171,21 +173,6 @@
     display: none;
     cursor: pointer;
 }
-#signUp_area .signUp_right_con .btn_area .signUp_guide{
-    color: #7AABDF;
-    text-decoration: none;
-    margin-bottom: 7px;
-    font-size: 13px;
-}
-#signUp_area .signUp_right_con .btn_area .signUp_guide:hover{
-    text-decoration: underline;
-    font-weight: 600;
-}
-#signUp_area .signUp_right_con .btn_area .signUp_guide img{
-    width: 18px;
-    vertical-align: -4px;
-    margin-right: 2px;
-}
 #signUp_area .signUp_right_con a{
     font-size: 12px;
     width: 400px;
@@ -194,9 +181,19 @@
     color: #fff;
     text-decoration: underline;
 }
-
 #signUp_area .signUp_right_con a:hover{
     color: #eaaf69;
+}
+#signUp_area .signUp_right_con a.signUp_guide{
+    color: #7AABDF;
+    text-decoration: none;
+    margin-bottom: 7px;
+    width: 422px;
+    font-size: 13px;
+}
+#signUp_area .signUp_right_con a.signUp_guide:hover{
+    text-decoration: underline;
+    font-weight: 600;
 }
 #full,
 #signUp_area .signUp_right_con .password_alarm_wrap::after{
@@ -264,6 +261,11 @@
         font-size: 13px;
         margin-bottom: 0;
         margin-top: 40px;
+    }
+    #signUp_area .signUp_right_con a.signUp_guide{
+        width: 100%;
+        margin-top: 10px;
+        text-decoration: underline;
     }
     .responsive_h{
         display: block;

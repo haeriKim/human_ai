@@ -310,7 +310,7 @@
   font-weight: 600;
   padding: 5px 0 5px 10px;
   border-radius: 5px;
-  color: #fff;
+  color: #eaaf69;
 }
 .email_pop input[type="text"] {
     width: 95%;
@@ -318,7 +318,7 @@
     border-bottom: 1px solid #7AABDF;
     font-size: 16px;
     padding: 3px 5px;
-    color: #7AABDF;
+    color: #fff;
 }
 .email_pop input[type="text"]::placeholder {
     color:#fff;
