@@ -155,7 +155,7 @@ table .password_question_detail:before, table .password_question_detail2:before 
   font-size:14px;
   right:370px;
   margin-top:4.5px;
-  color:red;
+  color:#f35531;
 }
 .warning_icon{
   vertical-align: -3px;
