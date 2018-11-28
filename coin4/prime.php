@@ -221,11 +221,48 @@
                                 <div class="theallsprime_number5">
 
                                     <div class="platform_inner">
-                                    <div class="platform_box">
-                                      <p>만약 거래소와 소비자간의 거래 시 정전이 되면 코인이 없어지므로 법정문제의 소지가 있습니다.<br/>
-                                      <span>하지만</span> '디올스 국제거래소'는 전혀 그런 경우가 발생하지 않습니다.<br/>
-                                      완벽하게 소비자 중심 뿐만 아니라 기술적으로 정리 하여 준비 했습니다.</p>
-                                    </div>
+                                      <div class="platform_box">
+                                        <p>만약 거래소와 소비자간의 거래 시 정전이 되면 코인이 없어지므로 법정문제의 소지가 있습니다.<br/>
+                                          <span>하지만</span> '디올스 국제거래소'는 전혀 그런 경우가 발생하지 않습니다.<br/>
+                                          완벽하게 소비자 중심 뿐만 아니라 기술적으로 정리 하여 완성 했습니다.</p>
+                                      </div>
+
+                                      <div class="platform_img_box">
+                                        <div class="company1">
+                                          <ul>
+                                            <li class="title_li"><img src="img/prime_error.png" alt="거래소이미지">
+                                                <p>기존 거래소</p>
+                                            </li>
+                                            <li class="none_li">소비자 매도</li>
+                                            <li class="down_arrow">↓</li>
+                                            <li class="none_li">정전</li>
+                                            <li class="down_arrow">↓</li>
+                                            <li class="none_li">소비자가 코인을 전송</li>
+                                            <li class="down_arrow">↓</li>
+                                            <li class="none_li"><span>거래소에 코인이 도착 안함</span></li>
+
+                                          </ul>
+
+                                        </div>
+
+                                        <div class="company2">
+                                          <ul>
+                                            <li class="title_li"><img src="img/prime_success.png" alt="거래소이미지">
+                                                <p>The Alls 거래소</p>
+                                            </li>
+                                            <li class="none_li">소비자 매도</li>
+                                            <li class="down_arrow">↓</li>
+                                            <li class="none_li">정전</li>
+                                            <li class="down_arrow">↓</li>
+                                            <li class="none_li"><span>소비자가 코인을 재전송 가능</span></li>
+                                            <li class="down_arrow">↓</li>
+                                            <li class="none_li"><span>거래소에 코인이 도착함</span></li>
+
+                                          </ul>
+
+                                        </div>
+
+                                      </div>
                                     </div>
 
 

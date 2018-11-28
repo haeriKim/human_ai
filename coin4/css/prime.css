@@ -380,6 +380,45 @@
 .prime_area .prime_inner .theallsprime_number5 .platform_box span{
   font-weight:600;
 }
+.prime_area .prime_inner .theallsprime_number5 .platform_img_box{
+  text-align: center;
+  color:#7AABDF;
+  margin-top:50px;
+}
+.prime_area .prime_inner .theallsprime_number5 .platform_img_box .company1{
+  width:450px;
+  display: inline-block;
+  margin-right:30px;
+}
+.prime_area .prime_inner .theallsprime_number5 .platform_img_box .company2{
+  width:450px;
+  display: inline-block;
+}
+.prime_area .prime_inner .theallsprime_number5 .platform_img_box .title_li{
+  text-align: center;
+  font-size:15px;
+  font-weight:600;
+  margin-bottom:10%;
+}
+.prime_area .prime_inner .theallsprime_number5 .platform_img_box .none_li{
+  border: 2px solid rgba(234,175,105,.8);
+  padding: 20px;
+  color: #7AABDF;
+  font-size: 12px;
+  text-align: center;
+  width:300px;
+  display:inline-block;
+}
+.prime_area .prime_inner .theallsprime_number5 .platform_img_box .none_li span{
+  font-weight:600;
+}
+.prime_area .prime_inner .theallsprime_number5 .platform_img_box .down_arrow{
+  margin: 20px 0;
+  border: none;
+  text-align: center;
+  color: #7AABDF;
+}
+
 
 /*security*/
 .prime_area .prime_inner .theallsprime_icon6{
