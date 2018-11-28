@@ -153,7 +153,7 @@
 
                           <span class="withdrawal_span">보존 근거:전자상거래 등에서의 소비자보호에 관한 법률</span>
                           <br/>
-                          <span class="withdrawal_bottom_line withdrawal_span">보존기나:3년</span>
+                          <span class="withdrawal_bottom_line withdrawal_span">보존기간:3년</span>
 
 
                               <div id="checkbox_text">
