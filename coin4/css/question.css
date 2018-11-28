@@ -96,7 +96,6 @@
   float:left;
   margin-top:4px;
 }
-
 .question_area .question_table .filebox .file_input_div img {
   float: left;
   vertical-align:middle;
@@ -121,7 +120,6 @@
   font-size: 12px;
   margin-left: 5px;
 }
-
 .question_area .question_inner .question_button{
   text-align:center;
   margin-top:35px;
@@ -149,13 +147,8 @@
   background-color: #7AABDF;
   cursor: pointer;
 }
-.question_area .question_inner .send_btn:hover{
-}
-
-
 
 /*question_02*/
-
 .question_history_area .question_history_inner{
   overflow:hidden;
 }
@@ -383,7 +376,7 @@
   height:270px;
   text-align:left;
   border-radius: 5px;
-  background:#none;
+  background:none;
   border:1px solid #7AABDF;
   position:relative;
   color:#fff;
@@ -461,7 +454,6 @@
     overflow:hidden;
     position:relative;
 }
-
 .question_detail .question_detail_inner .question_detail_inner_content .filebox2 .file_input_div2 input[type="file"]{
   float:left;
   position:absolute;
@@ -483,7 +475,6 @@
   font-weight:600;
   margin-top:3px;
 }
-
 .question_detail .question_detail_inner .question_detail_inner_content .filebox2 .file_input_div2 img {
   float:left;
   margin-top:-1px;
@@ -524,9 +515,6 @@
     margin-top: 40px ;
     font-weight: 600;
 }
-.question_detail .question_detail_inner .question_detail_footer .go_back_notice:hover{
-}
-
 /*1:1문의 세부내용 End*/
 
 @media all and (min-width:320px) and (max-width:768px){
@@ -538,12 +526,13 @@
     margin-top: 20px;
     display: block;
     border: 1px solid #efefef;
-
   }
   .question_area .question_table tbody {
     display: block;
   }
-  .question_area .question_table #question_select, .question_area .question_table .question_title, .question_area .question_table .question_story  {
+  .question_area .question_table #question_select,
+  .question_area .question_table .question_title,
+  .question_area .question_table .question_story{
     width: 90%;
   }
   .question_area .question_table tr {
@@ -604,10 +593,14 @@
   .question_history_area .question_history_inner .question_list col:nth-child(3) {
     width: 8%;
   }
- .question_history_area .question_history_inner .question_list tr th:nth-child(1),.question_history_area .question_history_inner .question_list tr td:nth-child(1), .question_history_area .question_history_inner .question_list tr th:nth-child(4),.question_history_area .question_history_inner .question_list tr td:nth-child(4) {
+ .question_history_area .question_history_inner .question_list tr th:nth-child(1),
+ .question_history_area .question_history_inner .question_list tr td:nth-child(1),
+ .question_history_area .question_history_inner .question_list tr th:nth-child(4),
+ .question_history_area .question_history_inner .question_list tr td:nth-child(4) {
     display: none;
   }
-  .question_history_area .question_history_inner .question_list tr th, .question_history_area .question_history_inner .question_list tr td {
+  .question_history_area .question_history_inner .question_list tr th,
+  .question_history_area .question_history_inner .question_list tr td {
     font-size: 12px;
   }
   /* 문의내역 상세 */
@@ -633,12 +626,16 @@
     text-align: right;
     font-size: 12px;
   }
-  .question_detail .question_detail_inner .question_detail_inner_content .malpungsun_question,.question_detail .question_detail_inner .question_detail_inner_content .malpungsun_answer, .question_detail .question_detail_inner .question_detail_inner_content .malpungsun_story, .question_detail .question_detail_inner .question_detail_inner_content .question_admin {
+  .question_detail .question_detail_inner .question_detail_inner_content .malpungsun_question,
+  .question_detail .question_detail_inner .question_detail_inner_content .malpungsun_answer,
+  .question_detail .question_detail_inner .question_detail_inner_content .malpungsun_story,
+  .question_detail .question_detail_inner .question_detail_inner_content .question_admin {
     width: 100%;
     font-size: 13px;
     height: auto;
   }
-  .question_detail .question_detail_inner .question_detail_inner_content .question_ID p, .question_detail .question_detail_inner .question_detail_inner_content .question_admin p {
+  .question_detail .question_detail_inner .question_detail_inner_content .question_ID p,
+  .question_detail .question_detail_inner .question_detail_inner_content .question_admin p {
     font-size: 12px;
   }
   .question_detail .question_detail_inner .question_detail_inner_content textarea {
