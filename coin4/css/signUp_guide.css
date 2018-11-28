@@ -12,19 +12,22 @@ body{
 }
 body #header_wrap .header{
     width: 1280px;
+    padding:10px 0;
     margin: 0 auto;
     min-width: auto;
 }
 #header_wrap .logo{
     padding:10px;
     background:#0E141C;
+    width:100px;
+    vertical-align: -5px;
 }
 #header_wrap .guide_text{
     display: inline-block;
     font-size: 25px;
-    vertical-align: 14px;
+    vertical-align: 12px;
     font-weight: 600;
-    color:#888;
+    color:#0E141C;
 }
 .mediate_size{
     width: 579px;
