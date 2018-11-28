@@ -223,7 +223,7 @@ $(".coinSelect dt").click(function(){
 
         // 코인별탭 마우스이벤트
         $(".coinSelect dd").mouseover(function(){
-            $(this).css({"backgroundColor":"#080D13"});
+            $(this).css({"backgroundColor":"rgba(122,171,223,0.2)"});
         }).mouseout(function(){
             $(this).css({"background":"#080D13"});
         });
