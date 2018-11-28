@@ -11,7 +11,7 @@
           <div class="footer_nav">
             <ul class='left'>
                 <li class="footer_link"><a href="greetings.php">인사말</a></li>
-                <li class="footer_link"><a href="#">회사소개</a></li>
+                <li class="footer_link"><a href="prime.php">회사소개</a></li>
                 <li class="footer_link"><a href="use_map.php">이용약관</a></li>
                 <li><a href="use_info_process_law.php" class="pp">개인정보처리방침</a></li>
             </ul>
