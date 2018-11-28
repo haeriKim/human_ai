@@ -32,7 +32,8 @@ p.login_m{
     line-height: 1.5;
 }
 .content > p .user_mail{
-    color:#7AABDF;
+    color: #eaaf69;
+    font-weight: 600;
 }
 .content .info_table_wrap{
     margin: 45px 0;
