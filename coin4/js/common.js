@@ -1527,3 +1527,26 @@ $(document).ready(function(){
 
   });
 });
+
+/*프라임 서비스 구간*/
+$(document).ready(function(){
+  $(".st1").hide();
+  $(".ss1").click(function(){
+        $(".st1").show(300);
+      $(".st2").hide(300);
+      $(".st3").hide(300);
+    });
+
+    $(".st2").hide();
+    $(".ss2").click(function(){
+        $(".st2").show(300);
+      $(".st1").hide(300);
+      $(".st3").hide(300);
+  });
+      $(".st3").hide();
+      $(".ss3").click(function(){
+            $(".st3").show(300);
+        $(".st1").hide(300);
+        $(".st2").hide(300);
+  });
+});

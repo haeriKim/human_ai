@@ -16,7 +16,8 @@ body #header_wrap .header{
     min-width: auto;
 }
 #header_wrap .logo{
-    margin: 10px 0;
+    padding:10px;
+    background:#0E141C;
 }
 #header_wrap .guide_text{
     display: inline-block;
@@ -41,7 +42,7 @@ body #header_wrap .header{
     display: inline-block;
     font-weight: 500;
     font-size: 35px;
-    color: #333;
+    color: #0E141C;
     vertical-align: 10px;
     margin-left: 5px;
 }
@@ -68,7 +69,7 @@ body #header_wrap .header{
 }
 .main_content .step_box .step_li .step_title{
     font-size: 20px;
-    color: #112f55;
+    color: #0E141C;
     font-weight: 600;
     margin: 15px 15px 20px 15px;
 }

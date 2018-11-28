@@ -119,11 +119,19 @@
                               <p class="prime_text">암호화폐의 새로운 기준 <b>'디올스 국제거래소'</b>의 요점은 이렇습니다.</p>
                               <ul>
 
-                                <li><strong>The Alls Service<b> 01</b></strong><span></span></li>
-                                <li><strong>The Alls Service<b> 02</b></strong><span></span></li>
-                                <li><strong>The Alls Service<b> 03</b></strong><span></span></li>
+                                <li><strong class="ss1">The Alls Service<b> 01</b></strong><span></span></li>
+                                <li><strong class="ss2">The Alls Service<b> 02</b></strong><span></span></li>
+                                <li><strong class="ss3">The Alls Service<b> 03</b></strong><span></span></li>
 
                               </ul>
+
+                              <div class="service_text">
+                                <p class="st1"><span>Service01</span><br/>'디올스 국제거래소'는 해킹에 완벽하고 기축통화가 될 수 있도록 만들었습니다.</p>
+                                <p class="st2"><span>Service02</span><br/>'디올스 국제거래소'에 상장되는 모든 코인은 실시간 가격으로 사용이 가능하고,<br/>
+                                   전자상거래 및 QR코드를 활용하여 직접 제품 주인에게 현금이 통장으로 입금됩니다.</p>
+                                <p class="st3"><span>Service03</span><br/>상장기반 코인은 디올스,비트코인,비트코인캐시,이더리움,이더리움클래식,에이다,리플,이오스 입니다.</p>
+                              </div>
+
                             </div>
 
                             <div class="theallsprime_number2">

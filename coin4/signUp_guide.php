@@ -29,7 +29,7 @@
             <!-- header_wrap -->
             <div id="header_wrap">
                 <div class="header">
-                    <img src="img/logo_navy.png" alt="LOGO" class='logo'>
+                    <img src="img/logo.png" alt="LOGO" class='logo'>
                     <p class='guide_text'>이용 가이드</p>
                 </div>
             </div><!-- header_wrap End-->

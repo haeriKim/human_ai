@@ -12,7 +12,7 @@
 }
 .prime_area .prime_inner h3{
   font-size:30px;
-  color:rgba(234,175,105,.8);
+  color:#eaaf69;
   margin-bottom:50px;
 }
 .prime_area .prime_inner .theallsprime_img{
@@ -82,7 +82,7 @@
 .prime_area .prime_inner .theallsprime_number img{
   width:200px;
   height:200px;
-  border:2px solid rgba(234,175,105,.8);
+  border:2px solid #eaaf69;
   padding:15px;
   display:block;
 }
@@ -102,7 +102,7 @@
 .prime_area .prime_inner .theallsprime_icon2{
   margin-top:0;
   text-align: center;
-  padding:80px 0 50px 0;
+  padding:80px 0 100px 0;
   display:inline-block;
   width:100%;
   background-color:#eee;
@@ -136,6 +136,7 @@
   float:left;
   text-align: left;
   position:relative;
+
 }
 .prime_area .prime_inner .theallsprime_icon2 li:nth-child(1){
   background:url(../img/prime_coin.png) no-repeat 0 0; background-size:cover;
@@ -161,6 +162,13 @@
   left:20px;
   top:20px;
   line-height: 18em;
+  transition:0.6s ease-out;
+}
+.prime_area .prime_inner .theallsprime_icon2 li strong:hover{
+  transform:scale(1.2);
+  opacity:1;
+  color:#fff;
+  cursor:pointer;
 }
 .prime_area .prime_inner .theallsprime_icon2 li span{
   width:300px;
@@ -170,6 +178,15 @@
   display:inline-block;
   opacity: 0.5;
   position: absolute;
+}
+.prime_area .prime_inner .theallsprime_icon2 .service_text{
+  color:#7AABDF;
+  margin-top:20px;
+}
+.prime_area .prime_inner .theallsprime_icon2 .service_text span{
+  font-weight:600;
+  margin-bottom:10px;
+  display:inline-block;
 }
 .prime_area .prime_inner .theallsprime_number2{
   overflow:hidden;
@@ -206,7 +223,7 @@
   color:#7AABDF;
 }
 .prime_area .prime_inner .theallsprime_number2 .none_li{
-  border:2px solid rgba(234,175,105,.8);
+  border:2px solid #eaaf69;
   width:300px;
   padding:20px;
   overflow: hidden;
@@ -295,7 +312,7 @@
   margin-top:50px;
   margin-bottom:50px;
   width:900px;
-  border:2px solid rgba(234,175,105,.8);
+  border:2px solid #eaaf69;
   padding:20px;
   color:#7AABDF;
   font-size:15px;
@@ -374,7 +391,7 @@
   margin-top:50px;
   margin-bottom:50px;
   width:900px;
-  border:2px solid rgba(234,175,105,.8);
+  border:2px solid #eaaf69;
   padding:20px;
   color:#7AABDF;
   font-size:15px;

@@ -55,7 +55,7 @@
                     <div class="coinSelect_area">
                         <dl class="coinSelect">
                             <dt><a href="#" title="리플"><img src="img/reaple.png" alt="리플"/></a><span>리플 XRP/KRW</span>
-                              <img src="img/hk-31-sq.png" alt="국기" class="flag"></dt>
+                              <img src="img/usa-31-sq.png" alt="국기" class="flag"></dt>
                               <dd onclick="location.href='exchange_BITCOIN.php'"><a href="#" title="비트코인"><img src="img/bitcoin.png" alt="비트코인"/></a><span>비트코인 BTC/KRW</span>
                                 <img src="img/usa-31-sq.png" alt="국기" class="flag"></dd>
                               <dd onclick="location.href='exchange_BITCOINCASH.php'"><a href="#" title="비트코인캐시"><img src="img/bitcoincash.png" alt="비트코인캐시"/></a><span>비트코인캐시 BCH/KRW</span>
@@ -160,7 +160,7 @@
               </tr>
               <tr>
                   <th>시가총액</th>
-                  <td>26.3조원(18.08.27 기준)</td>
+                  <td>26.3조원</td>
               </tr>
               <tr>
                   <th>블록생성기</th>
@@ -180,7 +180,7 @@
               </tr>
               <tr>
                   <th>국가</th>
-                  <td>-</td>
+                  <td>미국</td>
               </tr>
               <tr>
                   <th>공식홈페이지</th>
