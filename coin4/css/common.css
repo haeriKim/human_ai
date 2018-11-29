@@ -979,11 +979,20 @@ div.cancel_or_apply .if_you_all_agree{
     height: 130px;
     margin-bottom: 20px;
 }
+#full #greetings_content .close_box{
+  overflow:hidden;
+  color:#333;
+}
+#full #greetings_content .close_box form{
+  float:left;
+  margin-left:20px;
+  padding-top:15px;
+}
 #full #greetings_content .close_btn{
     width: 100px;
-    float: none;
+    float: right;
     display: block;
-    margin: 0 auto;
+    margin:10px 10px 0 0;
 }
 #greetings_content .greetings_text{
     color: #333;

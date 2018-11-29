@@ -381,7 +381,7 @@
                         </div>
 
                       <p class="right_sign"><img src="img/companysign.png" alt="회사사인" class="greetings_sign"></p>
-                      <a href="#" class='close_btn'>닫기</a>
+
                       </div>
 
                     </div>
@@ -389,6 +389,15 @@
 
                   </div>
               </div><!--coinInfo_area End-->
+
+              <div class="close_box">
+                <form class="" action="#" method="post">
+                    <input type="checkbox" id='today_close2' name='today_close'>
+                    <label for='today_close2'>오늘 하루 이 창 열지않기</label>
+                </form>
+
+                <a href="#" class='close_btn'>닫기</a>
+              </div>
 
             </div><!-- coninInfo_content End-->
             <div id="index_shadow"></div>
