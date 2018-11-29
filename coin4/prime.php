@@ -186,8 +186,13 @@
                             </div>
 
                                 <div class="theallsprime_number3">
-                                  <p><img src="img/guide/info_online.png" alt="디올스이용"></p>
-                                  <p><img src="img/guide/info_offline.png" alt="디올스이용"></p>
+                                  <div class="join_inner">
+                                    <div class="join_box">
+                                      <p>회원가입 시 디올스에서 제공되는 <b>비트코인,비트코인캐시,이더리움,이더리움클래식,이오스,리플,에이다,레드엔젤,필립스,c3</b><br/>
+                                      코인을 모두 이용할 수 있으며 타 거래소와 거래도 가능합니다.</p>
+                                    </div>
+                                  </div>
+
 
                                 </div>
                           </div><!--프라임조인 끝-->

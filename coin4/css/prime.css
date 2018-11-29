@@ -282,6 +282,21 @@
 .prime_area .prime_inner .theallsprime_number3 img{
   width:500px;
 }
+.prime_area .prime_inner .theallsprime_number3 .join_inner{
+  width:100%;
+}
+.prime_area .prime_inner .theallsprime_number3 .join_box{
+  text-align: center;
+  display:inline-block;
+  margin-top:50px;
+  margin-bottom:50px;
+  width:900px;
+  border:2px solid #eaaf69;
+  padding:20px;
+  color:#0E141C;
+  font-size:15px;
+  line-height:2em;
+}
 
 /*method*/
 .prime_area .prime_inner .theallsprime_icon4{
