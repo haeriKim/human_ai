@@ -145,7 +145,7 @@
                                         <li class="down_arrow">↓</li>
                                         <li class="none_li">코인판매</li>
                                         <li class="down_arrow">↓</li>
-                                        <li class="none_li">상장으로 마무리(전세계 모든 거래소) <span>특히 보안에 취약함</span></li>
+                                        <li class="none_li">상장으로 마무리(전세계 모든 거래소) <span><br/>특히 보안에 취약함</span></li>
                                       </ul>
 
                                     </div>
@@ -160,7 +160,7 @@
                                         <li class="down_arrow">↓</li>
                                         <li class="none_li">코인판매</li>
                                         <li class="down_arrow">↓</li>
-                                        <li class="none_li">디올스 거래소를 통해 온라인 전자상거래가 포인트가 아닌 <span>실시간의 코인가격으로 가능</span></li>
+                                        <li class="none_li">디올스 거래소를 통해 온라인 전자상거래가<br/> 포인트가 아닌 <span>실시간의 코인가격으로 가능</span></li>
                                         <li class="down_arrow">↓</li>
                                         <li class="none_li"><span>[QR코드] QR코드를 활용한 오프라인에서도 포인트가 아닌 실시간 코인가격으로 사용가능</span></li>
                                         <li class="down_arrow">↓</li>
@@ -191,6 +191,18 @@
                                       <p>회원가입 시 디올스에서 제공되는 <b>비트코인,비트코인캐시,이더리움,이더리움클래식,이오스,리플,에이다,레드엔젤,필립스,c3</b><br/>
                                       코인을 모두 이용할 수 있으며 타 거래소와 거래도 가능합니다.</p>
                                     </div>
+                                  </div>
+
+                                  <div class="join_img">
+                                    <p>
+                                      <span>온라인 이용방법</span><br/>
+                                      <img src="img/guide/info_online.png" alt="디올스이미지">
+                                    </p>
+
+                                    <p>
+                                      <span>오프라인 이용방법</span><br/>
+                                      <img src="img/guide/info_offline.png" alt="디올스이미지">
+                                    </p>
                                   </div>
 
 
@@ -308,7 +320,26 @@
                               </div>
                               </div>
 
+                              <div class="security_img">
+                                <p>
+                                  <span>CBR</span><br/>
+                                  <img src="img/guide/info_server1.png" alt="디올스이미지">
+                                </p>
+
+                                <p>
+                                  <span>BCS</span><br/>
+                                  <img src="img/guide/info_defense.png" alt="디올스이미지">
+                                </p>
+
+                                <p>
+                                  <span>PCS</span><br/>
+                                  <img src="img/guide/info_server2.png" alt="디올스이미지">
+                                </p>
+                              </div>
+
                             </div>
+
+
 
                           </div><!--프라임 보안 끝-->
 

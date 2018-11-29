@@ -231,7 +231,7 @@
   padding:20px;
   overflow: hidden;
   color:#0E141C;
-  font-size:12px;
+  font-size:15px;
 }
 .prime_area .prime_inner .theallsprime_number2 li span{
   font-weight:600;
@@ -296,6 +296,15 @@
   color:#0E141C;
   font-size:15px;
   line-height:2em;
+}
+.prime_area .prime_inner .theallsprime_number3 .join_img p{
+  margin:20px 0;
+}
+.prime_area .prime_inner .theallsprime_number3 .join_img span{
+  color:#0E141C;
+  margin:20px 0;
+  font-weight:600;
+  display:inline-block;
 }
 
 /*method*/
@@ -370,7 +379,7 @@
 }
 .prime_area .prime_inner .theallsprime_number4 li p{
   padding-left:10px;
-  font-size:12px;
+  font-size:15px;
 }
 .prime_area .prime_inner .theallsprime_number4 li:nth-child(1){
   color:#f00;
@@ -455,7 +464,7 @@
   border: 2px solid rgba(234,175,105,.8);
   padding: 20px;
   color: #0E141C;
-  font-size: 12px;
+  font-size: 15px;
   text-align: center;
   width:300px;
   display:inline-block;
@@ -515,6 +524,19 @@
 }
 .prime_area .prime_inner .theallsprime_number6 .security_box span{
   font-weight:600;
+}
+.prime_area .prime_inner .theallsprime_number6 .security_img img{
+  width:800px;
+}
+.prime_area .prime_inner .theallsprime_number6 .security_img p{
+  margin:20px 0;
+}
+.prime_area .prime_inner .theallsprime_number6 .security_img span{
+  color:#0E141C;
+  margin:40px 0;
+  font-size:25px;
+  font-weight:600;
+  display:inline-block;
 }
 
 /*main_footer*/
