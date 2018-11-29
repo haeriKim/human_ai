@@ -108,21 +108,36 @@
                                 <div class="advTxt">
                                   <p><b>그러나 여기에는</b></p>
                                   <br/>
-                                  <img src="img/1.png" alt="첫번째" class="count">
-                                  <p class="import">현실의 꿈을 이루고 후대에 남겨야 할 우리의 자산이 여기에 있다는 사실.</p>
-                                  <br/>
-                                  <img src="img/2.png" alt="두번째" class="count">
-                                  <p class="import">블록체인의 수뇌가 모여 있는 것도 사실.</p>
-                                  <br/>
-                                  <img src="img/3.png" alt="세번째" class="count">
-                                  <p class="import">보안이 완벽하여 해킹을 방지할 수 있는 곳도 사실이며, 특히 어느 공공기관 및 사업체의 보안이 필요한 곳은 언제든지 저희 기술력으로 가능합니다.</p>
-                                  <br/>
-                                  <img src="img/4.png" alt="네번째" class="count">
-                                  <p class="import">기축통화를 부르짓고 있는 모든 인류의 사람들이 모인 곳도 사실.</p>
-                                  <br/>
-                                  <img src="img/5.png" alt="다섯번째" class="count">
-                                  <p class="import">잘못된 코인을 만들어 백서와 오픈소스가 맞지 않아 상장을 못하는 업체에 코인과 백서를 만들어 드립니다.</p>
-                                  <br/>
+
+                                  <table>
+
+                                      <tr>
+                                        <th><img src="img/1.png" alt="첫번째" class="count"></th>
+                                        <td><p class="import">현실의 꿈을 이루고 후대에 남겨야 할 우리의 자산이 여기에 있다는 사실.</p></td>
+                                      </tr>
+
+                                      <tr>
+                                        <th><img src="img/2.png" alt="두번째" class="count"></th>
+                                        <td><p class="import">블록체인의 수뇌가 모여 있는 것도 사실.</p></td>
+                                      </tr>
+
+                                      <tr>
+                                        <th><img src="img/3.png" alt="세번째" class="count"></th>
+                                        <td><p class="import import_text">보안이 완벽하여 해킹을 방지할 수 있는 곳도 사실이며, 특히 어느 공공기관 및 사업체의 보안이 필요한 곳은 언제든지 저희 기술력으로 가능합니다.</p></td>
+                                      </tr>
+
+                                      <tr>
+                                        <th><img src="img/4.png" alt="네번째" class="count"></th>
+                                        <td><p class="import">기축통화를 부르짓고 있는 모든 인류의 사람들이 모인 곳도 사실.</p></td>
+                                      </tr>
+
+                                      <tr>
+                                        <th><img src="img/5.png" alt="다섯번째" class="count"></th>
+                                        <td><p class="import import_text">잘못된 코인을 만들어 백서와 오픈소스가 맞지 않아 상장을 못하는 업체에 코인과 백서를 만들어 드립니다.</p></td>
+                                      </tr>
+
+                                  </table>
+
                                 </div>
                               </div>
                             </div>
