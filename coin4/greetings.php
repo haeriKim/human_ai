@@ -60,11 +60,13 @@
                         <h2>인사말</h2>
                         <div class="greetings_story">
                           <p><img src="img/greeting_title.png" alt="인사말이미지" class="greetings_img"></p>
-                          <p class="gr_title"><img src="img/dodol1.png" alt="따옴표"><span>디올스 국제 거래소</span>를 찾아주신 여러분들들께 진심으로 감사드립니다.<img src="img/dodol2.png" alt="따옴표"></p>
+                          <p class="gr_title"><img src="img/dodol1.png" alt="따옴표"><span>디올스 국제 거래소</span>를 찾아주신<br/> 여러분들들께 진심으로 감사드립니다.<img src="img/dodol2.png" alt="따옴표"></p>
                           <br/>
                           <br/>
                           <div class="greetings_text">
                             <div class="textL">
+                              <p class="greeting_S_title">*자체 개발된 디올스 THEALLS기반으로 한 디올스 국제거래소입니다.</p>
+                              <br/>
                               <p>4차 산업이라고 하는 블록체인화에 우린 기대성을 많이 하고 있습니다.</p>
                               <br/>
                               <p>하지만 그 기대가치에 비하면 현실은 무척이나 연약한 기반들입니다.</p>
