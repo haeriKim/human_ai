@@ -4,7 +4,7 @@
       <div class="compnay_info">
           <span>㈜디올스<br/></span>
           <p>서울특별시 강남구 언주로 640 (임페리얼 호텔 6층)&nbsp;&nbsp; | &nbsp;&nbsp;대표 손용현&nbsp;&nbsp; | &nbsp;&nbsp;사업자등록번호 492-81-01041&nbsp;&nbsp; | &nbsp;&nbsp;통신판매업 제 2018-서울송파-1893호</p>
-          <p>팩스번호 0504-083-6879&nbsp;&nbsp; | &nbsp;&nbsp;Copyright@All rights reserved.</p>
+          <p>팩스번호 0504-083-6879&nbsp;&nbsp; | &nbsp;&nbsp;Copyright&copy;All rights reserved.</p>
       </div>
       <div class="footer_menu">
           <strong>고객센터&nbsp;&nbsp; 02-6013-6879</strong>
@@ -53,7 +53,7 @@
             <!--<p>고객문의 : thealls_cs@thealls.co.kr</p>
             <p>제휴문의 : thealls_sales@thealls.co.kr</p>-->
             <p class="centerNum">고객센터 : 02-6013-6879</p>
-            <p>Copyright@All rights reserved.</p>
+            <p>Copyright&copy;All rights reserved.</p>
           </div>
     </div>
   </div>

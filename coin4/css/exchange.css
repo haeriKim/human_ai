@@ -673,7 +673,6 @@
     width: 278px;
     background: #05080B;
     color: #fff;
-    border: 1px solid #7AABDF;
     height: 47px;
     line-height: 47px;
 }
@@ -1023,6 +1022,10 @@
   table.left_thick_table tbody th,  table.left_thick_table tbody td{
     font-size: 12px;
   }
+  table.left_thick_table tbody th{
+      width: 36%;
+      padding: 5px;
+    }
 
   /*deal_orgin_transaction*/
  #deal_orgin_transaction{

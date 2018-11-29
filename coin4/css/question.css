@@ -604,6 +604,9 @@
     font-size: 12px;
   }
   /* 문의내역 상세 */
+  .question_detail{
+      border-top: none;
+  }
   .question_detail .question_detail_inner {
     padding: 15px 20px;
   }
@@ -628,11 +631,18 @@
   }
   .question_detail .question_detail_inner .question_detail_inner_content .malpungsun_question,
   .question_detail .question_detail_inner .question_detail_inner_content .malpungsun_answer,
-  .question_detail .question_detail_inner .question_detail_inner_content .malpungsun_story,
-  .question_detail .question_detail_inner .question_detail_inner_content .question_admin {
+  .question_detail .question_detail_inner .question_detail_inner_content .malpungsun_story{
     width: 100%;
     font-size: 13px;
     height: auto;
+  }
+  .question_detail .question_detail_inner .question_detail_inner_content .question_admin {
+    font-size: 13px;
+    width: 100%;
+    margin-left: 15px;
+  }
+  .question_detail .question_detail_inner .question_detail_inner_content .malpungsun_answer:after{
+      margin-right: 10px;
   }
   .question_detail .question_detail_inner .question_detail_inner_content .question_ID p,
   .question_detail .question_detail_inner .question_detail_inner_content .question_admin p {
@@ -672,7 +682,7 @@
     padding: 5px 20px;
     width: 100%;
     background-color: #7AABDF;
-    color: #fff;
+    color: #05080B;
   }
   .question_detail .question_detail_inner .question_detail_footer {
     float: none;

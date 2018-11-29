@@ -410,7 +410,6 @@ $(document).ready(function(){
 
 //거래소 매수매도버튼 클릭시 팝업
 $(document).ready(function(){
-    $('#success_buy_popup, #success_sell_popup, #fail_sell_popup, #shadow_second').hide();
     $('#buy_sell_tab .buy_tab_button .buy_big_btn').click(function(e){
         e.preventDefault();
         $('#success_buy_popup, #shadow_second').show();

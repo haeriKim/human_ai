@@ -531,10 +531,21 @@
     height: 100%;
     z-index: 999;
 }
+#success_buy_popup,
+#success_sell_popup,
+#fail_sell_popup,
+#shadow_second{
+    display: none;
+}
 /*반응형 팝업*/
 @media all and (min-width:320px) and (max-width:768px){
   #popupbox {
     width: 85%;
+}
+#success_buy_popup,
+#success_sell_popup,
+#fail_sell_popup{
+    width: 90%;
 }
 .popup {
     position: fixed;
