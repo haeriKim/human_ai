@@ -325,6 +325,10 @@
                 </div><!-- coninInfo_content End-->
             </div><!-- content_wrap End-->
 
+            <div class="main_icon">
+              <a href="index.php"><img src="img/home.png" alt="홈버튼"></a>
+            </div>
+
             <!-- footer_wrap -->
             <?php include "footer.php";?>
             <!-- footer_wrap End-->

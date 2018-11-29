@@ -540,3 +540,18 @@
   margin-top:30px;
   cursor:pointer;
 }
+/*메인홈버튼*/
+.main_icon{
+  position:fixed;
+  bottom:2%;
+  right:2%;
+  visibility: hidden;
+  overflow:hidden;
+  display:none;
+}
+.main_icon img{
+  border:1px solid #efefef;
+  border-radius:50px;
+  width:50px;
+  cursor:pointer;
+}

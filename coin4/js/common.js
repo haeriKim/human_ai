@@ -1586,3 +1586,18 @@ $(document).ready(function(){
     }
   });
 });
+
+/*프라임홈버튼*/
+var vi = 500;  // 하단에 메뉴 표시할 스크롤 위치값 지정
+var si = 8800;
+
+$(window).scroll(function(){
+
+var num = $(window).scrollTop();
+
+if(num < vi === num < si){
+  $(".main_icon").css("visibility","hidden").fadeOut(300);
+}else if( num >= vi && num <= si){
+    $(".main_icon").css("visibility","visible").fadeIn(300);
+    }
+});
