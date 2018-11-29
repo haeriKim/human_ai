@@ -1550,3 +1550,40 @@ $(document).ready(function(){
         $(".st2").hide(300);
   });
 });
+/*프라임 서비스 구간 호버*/
+$(document).ready(function(){
+  var hover = 1
+  $(".ss1").hover(function(){
+    if(hover === 1){
+      $(".b_box1").fadeOut(300);
+      hover = 0;
+    } else{
+      $(".b_box1").fadeIn(300);
+      hover = 1;
+    }
+  });
+});
+$(document).ready(function(){
+  var hover = 1
+  $(".ss2").hover(function(){
+    if(hover === 1){
+      $(".b_box2").fadeOut(300);
+      hover = 0;
+    } else{
+      $(".b_box2").fadeIn(300);
+      hover = 1;
+    }
+  });
+});
+$(document).ready(function(){
+  var hover = 1
+  $(".ss3").hover(function(){
+    if(hover === 1){
+      $(".b_box3").fadeOut(300);
+      hover = 0;
+    } else{
+      $(".b_box3").fadeIn(300);
+      hover = 1;
+    }
+  });
+});

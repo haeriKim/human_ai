@@ -12,13 +12,13 @@
     margin-left: -265px;
 }
 #greetings_content{
-    width: 1000px;
-    height: 900px;
+    width: 800px;
+    height: 800px;
     background: #fff;
     z-index: 9990;
     padding: 20px;
     position: fixed;
-    left: 40%;
+    left: 45%;
     top: 50%;
     transform: translateY(-50%);
     margin-left: -265px;
@@ -539,7 +539,6 @@
 .popup {
     position: fixed;
     top: 50%;
-    margin-left: -43%;
     width: 100%;
 }
 #full .question_ok {

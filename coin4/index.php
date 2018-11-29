@@ -282,11 +282,13 @@
                     <div class="greetings_story">
                       <h2>인사말</h2>
                       <p><img src="img/greeting_title.png" alt="인사말이미지" class="greetings_img"></p>
-                      <p class="gr_title"><img src="img/dodol1.png" alt="따옴표"><span>디올스 국제 거래소</span>를 찾아주신 여러분들들께 진심으로 감사드립니다.<img src="img/dodol2.png" alt="따옴표"></p>
+                      <p class="gr_title"><img src="img/dodol1.png" alt="따옴표"><span>디올스 국제 거래소</span>를 찾아주신<br/> 여러분들께 진심으로 감사드립니다.<img src="img/dodol2.png" alt="따옴표"></p>
                       <br/>
                       <br/>
                       <div class="greetings_text">
                         <div class="textL">
+                          <p class="greeting_S_title">*자체 개발된 디올스 THEALLS기반으로 한 디올스 국제거래소입니다.</p>
+                          <br/>
                           <p>4차 산업이라고 하는 블록체인화에 우린 기대성을 많이 하고 있습니다.</p>
                           <br/>
                           <p>하지만 그 기대가치에 비하면 현실은 무척이나 연약한 기반들입니다.</p>
@@ -316,7 +318,7 @@
                             <div class="disTxt">
                               <p>"첫 번째" 많은 인류가 허황된 꿈을 가지고 있다는 것입니다.</p>
                               <br/>
-                              <p>"두 번째" 기술의 능력이 없음에도 마치 모든 것을 하는 것처럼 잘못된 인식 속에있다는 사실.</p>
+                              <p>"두 번째" 기술의 능력이 없음에도 마치 모든 것을 하는 것처럼 잘못된 인식 속에 있다는 사실.</p>
                               <br/>
                               <p>"세 번째" 블록체인이면 뭐든 다 해결 된다는 잘못된 인식이 또 자리잡고 있다는 사실.</p>
                               <br/>
@@ -330,21 +332,36 @@
                             <div class="advTxt">
                               <p><b>그러나, 여기에는</b></p>
                               <br/>
-                              <img src="img/1.png" alt="첫번째" class="count">
-                              <p class="import">현실의 꿈을 이루고 후대에 남겨야 할 우리의 자산이 여기에 있다는 사실.</p>
-                              <br/>
-                              <img src="img/2.png" alt="두번째" class="count">
-                              <p class="import">블록체인의 수뇌가 모여 있는 것도 사실.</p>
-                              <br/>
-                              <img src="img/3.png" alt="세번째" class="count">
-                              <p class="import">보안이 완벽하여 해킹을 방지할 수 있는 곳도 사실이며, 특히 어느 공공기관 및 사업체의 보안이 필요한 곳은 언제든지 저희 기술력으로 가능합니다.</p>
-                              <br/>
-                              <img src="img/4.png" alt="네번째" class="count">
-                              <p class="import">기축통화를 부르짓고 있는 모든 인류의 사람들이 모인 곳도 사실.</p>
-                              <br/>
-                              <img src="img/5.png" alt="다섯번째" class="count">
-                              <p class="import">잘못된 코인을 만들어 백서와 오픈소스가 맞지 않아 상장을 못하는 업체에 코인과 백서를 만들어 드립니다.</p>
-                              <br/>
+
+                              <table>
+
+                                  <tr>
+                                    <th><img src="img/1.png" alt="첫번째" class="count"></th>
+                                    <td><p class="import">현실의 꿈을 이루고 후대에 남겨야 할 우리의 자산이 여기에 있다는 사실.</p></td>
+                                  </tr>
+
+                                  <tr>
+                                    <th><img src="img/2.png" alt="두번째" class="count"></th>
+                                    <td><p class="import">블록체인의 수뇌가 모여 있는 것도 사실.</p></td>
+                                  </tr>
+
+                                  <tr>
+                                    <th><img src="img/3.png" alt="세번째" class="count"></th>
+                                    <td><p class="import import_text">보안이 완벽하여 해킹을 방지할 수 있는 곳도 사실이며, 특히 어느 공공기관 및 사업체의 보안이 필요한 곳은 언제든지 저희 기술력으로 가능합니다.</p></td>
+                                  </tr>
+
+                                  <tr>
+                                    <th><img src="img/4.png" alt="네번째" class="count"></th>
+                                    <td><p class="import">기축통화를 부르짓고 있는 모든 인류의 사람들이 모인 곳도 사실.</p></td>
+                                  </tr>
+
+                                  <tr>
+                                    <th><img src="img/5.png" alt="다섯번째" class="count"></th>
+                                    <td><p class="import import_text">잘못된 코인을 만들어 백서와 오픈소스가 맞지 않아 상장을 못하는 업체에 코인과 백서를 만들어 드립니다.</p></td>
+                                  </tr>
+
+                              </table>
+
                             </div>
                           </div>
                         </div>
@@ -360,7 +377,7 @@
                           <br/>
                           <p class="right">주) 디올스 회장 최 기 재외 임직원 일동</p>
                           <br/>
-                          <a href="www.thealls.net" class="right">www.Thealls.net , 한글 디올스.net</a>
+                          <a href="www.thealls.net" class="right" style="color:#333">www.thealls.net , 디올스.net</a>
                         </div>
 
                       <p class="right_sign"><img src="img/companysign.png" alt="회사사인" class="greetings_sign"></p>

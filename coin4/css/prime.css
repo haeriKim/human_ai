@@ -168,6 +168,7 @@
   opacity:1;
   color:#fff;
   cursor:pointer;
+  text-shadow: 2px 1px 1px #000;
 }
 .prime_area .prime_inner .theallsprime_icon2 li strong:hover .b_box{
   display: none;
@@ -277,6 +278,9 @@
   text-align: center;
   margin-top:50px;
   margin-bottom:200px;
+}
+.prime_area .prime_inner .theallsprime_number3 img{
+  width:500px;
 }
 
 /*method*/

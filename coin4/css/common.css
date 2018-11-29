@@ -911,7 +911,7 @@ div.cancel_or_apply .if_you_all_agree{
 .greetings_area .greetings_story{
     text-align: left;
     display: inline-block;
-    height: 800px;
+    height: 700px;
     padding: 10px 20px 10px 10px;
     overflow-y: scroll;
 }
@@ -919,6 +919,7 @@ div.cancel_or_apply .if_you_all_agree{
   font-size: 25px;
   color: #999;
   text-align: center;
+  text-indent: -65px;
 }
 .greetings_inner .greetings_story .gr_title img {
   width: 40px;
@@ -933,28 +934,43 @@ div.cancel_or_apply .if_you_all_agree{
   height:300px;
   display: none;
 }
+.greetings_inner .greetings_story .textL .advTxt table{
+}
+.greetings_inner .greetings_story .textL .advTxt table th{
+  padding-top:10px;
+  padding-right:10px;
+}
+.greetings_inner .greetings_story .textL .advTxt table td{
+  padding-top:5px;
+  text-align: left;
+}
 .greetings_inner .greetings_story .textL .advTxt b{
     font-size: 25px;
     margin-top: 30px;
     display: block;
+}
+.greetings_inner .greetings_story .textL .greeting_S_title{
+  color:#7AABDF;
+  font-size:20px;
+  font-weight:600;
 }
 .greetings_inner .greetings_story .textR{
     text-align: left;
     margin-top: 30px;
 }
 .greetings_inner .greetings_story .textL .count {
-  width: 80px;
+  width: 50px;
 }
 .greetings_inner .greetings_story .textL .import {
     display: inline-block;
     width: 90%;
-    vertical-align: 18px;
     font-weight: 600;
     color: #7AABDF;
     font-size: 17px;
 }
 .greetings_inner .greetings_story .greetings_sign{
   height:130px;
+  margin-bottom:20px;
 }
 .greetings_inner .greetings_story .right_sign{
   text-align: right;

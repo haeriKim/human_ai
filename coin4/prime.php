@@ -119,9 +119,9 @@
                               <p class="prime_text">암호화폐의 새로운 기준 <b>'디올스 국제거래소'</b>의 요점은 이렇습니다.</p>
                               <ul>
 
-                                <li><strong class="ss1">The Alls Service<b> 01</b></strong><span class="b_box"></span></li>
-                                <li><strong class="ss2">The Alls Service<b> 02</b></strong><span class="b_box"></span></li>
-                                <li><strong class="ss3">The Alls Service<b> 03</b></strong><span class="b_box"></span></li>
+                                <li><strong class="ss1">The Alls Service<b> 01</b></strong><span class="b_box b_box1"></span></li>
+                                <li><strong class="ss2">The Alls Service<b> 02</b></strong><span class="b_box b_box2"></span></li>
+                                <li><strong class="ss3">The Alls Service<b> 03</b></strong><span class="b_box b_box3"></span></li>
 
                               </ul>
 
@@ -186,7 +186,8 @@
                             </div>
 
                                 <div class="theallsprime_number3">
-
+                                  <p><img src="img/guide/info_online.png" alt="디올스이용"></p>
+                                  <p><img src="img/guide/info_offline.png" alt="디올스이용"></p>
 
                                 </div>
                           </div><!--프라임조인 끝-->
