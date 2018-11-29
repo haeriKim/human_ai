@@ -194,14 +194,17 @@
                                   </div>
 
                                   <div class="join_img">
-                                    <p>
-                                      <span>온라인 이용방법</span><br/>
+                                    <p class="join_img_fence">
+                                      <strong>온라인 이용방법</strong><br/>
                                       <img src="img/guide/info_online.png" alt="디올스이미지">
+                                      <span>프랜차이점,백화점,일반가게 등에서 결재 시 현금,카드,대신<br/> 사용하여
+                                      제품 가격을 현금으로 처리되는 것을 말함</span>
                                     </p>
 
-                                    <p>
-                                      <span>오프라인 이용방법</span><br/>
+                                    <p class="join_img_fence">
+                                      <strong>오프라인 이용방법</strong><br/>
                                       <img src="img/guide/info_offline.png" alt="디올스이미지">
+                                      <span>디올스 국제거래소에서 거래되는 가격에 따라 실시간 금액으로 현금으로 입금됨</span>
                                     </p>
                                   </div>
 
@@ -322,17 +325,17 @@
 
                               <div class="security_img">
                                 <p>
-                                  <span>CBR</span><br/>
+                                  <span>CBR<br/>(사례기반 추론 시스템)</span><br/>
                                   <img src="img/guide/info_server1.png" alt="디올스이미지">
                                 </p>
 
                                 <p>
-                                  <span>BCS</span><br/>
+                                  <span>BCS<br/>(블록체인 보안시스템)</span><br/>
                                   <img src="img/guide/info_defense.png" alt="디올스이미지">
                                 </p>
 
                                 <p>
-                                  <span>PCS</span><br/>
+                                  <span>PCS<br/>(개인정보 보안시스템)</span><br/>
                                   <img src="img/guide/info_server2.png" alt="디올스이미지">
                                 </p>
                               </div>

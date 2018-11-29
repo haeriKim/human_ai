@@ -18,7 +18,7 @@ $(document).ready(function(){
         }
         $(".stock").append("<b class='stock_per'></b>");
         $(".stock_per").eq(1).text(mytxt[chkNum]);
-        $(".stock").animate({top:"-="+0},300,function(){
+        $(".stock").animate({top:"-="+3},300,function(){
           $(".stock_per").eq(0).remove();
           $(".stock").	css({top:0});
         });
@@ -43,7 +43,7 @@ $(document).ready(function(){
         }
         $(".stock2").append("<b class='stock_per2'></b>");
         $(".stock_per2").eq(1).text(mytxt[chkNum]);
-        $(".stock2").animate({top:"-="+0},300,function(){
+        $(".stock2").animate({top:"-="+3},300,function(){
           $(".stock_per2").eq(0).remove();
           $(".stock2").	css({top:0});
         });
@@ -68,7 +68,7 @@ $(document).ready(function(){
         }
         $(".stock3").append("<b class='stock_per3'></b>");
         $(".stock_per3").eq(1).text(mytxt[chkNum]);
-        $(".stock3").animate({top:"-="+0},300,function(){
+        $(".stock3").animate({top:"-="+3},300,function(){
           $(".stock_per3").eq(0).remove();
           $(".stock3").	css({top:0});
         });
@@ -93,7 +93,7 @@ $(document).ready(function(){
         }
         $(".stock4").append("<b class='stock_per4'></b>");
         $(".stock_per4").eq(1).text(mytxt[chkNum]);
-        $(".stock4").animate({top:"-="+0},300,function(){
+        $(".stock4").animate({top:"-="+3},300,function(){
           $(".stock_per4").eq(0).remove();
           $(".stock4").	css({top:0});
         });
@@ -118,7 +118,7 @@ $(document).ready(function(){
         }
         $(".stock5").append("<b class='stock_per5'></b>");
         $(".stock_per5").eq(1).text(mytxt[chkNum]);
-        $(".stock5").animate({top:"-="+0},300,function(){
+        $(".stock5").animate({top:"-="+3},300,function(){
           $(".stock_per5").eq(0).remove();
           $(".stock5").	css({top:0});
         });
@@ -143,7 +143,7 @@ $(document).ready(function(){
         }
         $(".stock6").append("<b class='stock_per6'></b>");
         $(".stock_per6").eq(1).text(mytxt[chkNum]);
-        $(".stock6").animate({top:"-="+0},300,function(){
+        $(".stock6").animate({top:"-="+3},300,function(){
           $(".stock_per6").eq(0).remove();
           $(".stock6").	css({top:0});
         });
@@ -168,7 +168,7 @@ $(document).ready(function(){
         }
         $(".stock7").append("<b class='stock_per7'></b>");
         $(".stock_per7").eq(1).text(mytxt[chkNum]);
-        $(".stock7").animate({top:"-="+0},300,function(){
+        $(".stock7").animate({top:"-="+3},300,function(){
           $(".stock_per7").eq(0).remove();
           $(".stock7").	css({top:0});
         });

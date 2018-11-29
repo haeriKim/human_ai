@@ -297,13 +297,24 @@
   font-size:15px;
   line-height:2em;
 }
-.prime_area .prime_inner .theallsprime_number3 .join_img p{
+.prime_area .prime_inner .theallsprime_number3 .join_img{
+  text-align: center;
+  display:inline-block;
+}
+.prime_area .prime_inner .theallsprime_number3 .join_img .join_img_fence{
   margin:20px 0;
+  width:900px;
+  padding:20px;
+}
+.prime_area .prime_inner .theallsprime_number3 .join_img strong{
+  color:#0E141C;
+  font-size:20px;
+  margin:20px 0;
+  display:inline-block;
 }
 .prime_area .prime_inner .theallsprime_number3 .join_img span{
   color:#0E141C;
   margin:20px 0;
-  font-weight:600;
   display:inline-block;
 }
 

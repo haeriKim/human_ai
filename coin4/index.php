@@ -79,11 +79,7 @@
                               <li>
                                   <p><img src="img/bitcoin.png" alt="비트코인아이콘"></p>
                                   <p>비트코인(BTC)</p>
-                                  <p class='percent_up'>
-                                    <span class='up_down_data'>
-                                      <img src="img/arrow_up_red.png" />7.5
-                                    </span>%
-                                    </p>
+                                  <p class='percent_up'><span class='up_down_data'><img src="img/arrow_up_red.png" />7.5</span>%</p>
                                   <p><span class='up_down_data'>450,000</span>원</p>
                                   <p>거래량 <span class='up_down_data'>260,000원</span></p>
                                   <div class="buy_sell_button">
