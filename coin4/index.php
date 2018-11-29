@@ -76,10 +76,16 @@
                       <div class="bitcoin_card">
                           <ul class="bitcoin_card_inner">
                             <!--bitcoin Card-->
-                              <li>
+                              <li class="card_li">
                                   <p><img src="img/bitcoin.png" alt="비트코인아이콘"></p>
                                   <p>비트코인(BTC)</p>
-                                  <p class='percent_up'><span class='up_down_data'><img src="img/arrow_up_red.png" />7.5</span>%</p>
+
+                                  <ul id="card_01" class="card">
+                                    <li><p class='percent_up'><span class='up_down_data'><img src="img/arrow_up_red.png" />7.5</span>%</p></li>
+                                    <li><p class='percent_up'><span class='up_down_data'><img src="img/arrow_up_red.png" />4.0</span>%</p></li>
+                                    <li><p class='percent_up'><span class='up_down_data'><img src="img/arrow_up_red.png" />5.5</span>%</p></li>
+                                  </ul>
+
                                   <p><span class='up_down_data'>450,000</span>원</p>
                                   <p>거래량 <span class='up_down_data'>260,000원</span></p>
                                   <div class="buy_sell_button">
@@ -90,7 +96,7 @@
                             <!--bitcoin Card End-->
 
                             <!--bitcoincash Card-->
-                              <li>
+                              <li class="card_li">
                                     <p><img src="img/bitcoincash.png" alt="비트코인캐시아이콘"></p>
                                     <p>비트코인캐시(BCH)</p>
                                     <p class='percent_down'><span class='up_down_data'><span style=font-size:12px;>▼</span> 10.5</span>%</p>
@@ -103,7 +109,7 @@
                             <!--bitcoincash Card End-->
 
                             <!--eth Card-->
-                              <li>
+                              <li class="card_li">
                                     <p><img src="img/eth.png" alt="이더리움아이콘"></p>
                                     <p>이더리움(ETH)</p>
                                     <p class='percent_down'><span class='up_down_data'><span style=font-size:12px;>▼</span> 10.5</span>%</p>
@@ -116,7 +122,7 @@
                               <!--eth Card End-->
 
                               <!--etc Card-->
-                                <li>
+                                <li class="card_li">
                                       <p><img src="img/etc.png" alt="이더리움클래식아이콘"></p>
                                       <p>이더리움클래식(ETC)</p>
                                       <p class='percent_down'><span class='up_down_data'><span style=font-size:12px;>▼</span> 10.5</span>%</p>
@@ -129,7 +135,7 @@
                                 <!--etc Card End-->
 
                                 <!--EOS Card-->
-                                  <li>
+                                  <li class="card_li">
                                         <p><img src="img/eos.png" alt="이오스아이콘"></p>
                                         <p>이오스(EOS)</p>
                                         <p class='percent_down'><span class='up_down_data'><span style=font-size:12px;>▼</span> 10.5</span>%</p>
@@ -142,7 +148,7 @@
                                   <!--EOS Card End-->
 
                                   <!--리플(XRP) Card-->
-                                    <li>
+                                    <li class="card_li">
                                           <p><img src="img/reaple.png" alt="리플아이콘"/></p>
                                           <p>리플(XRP)</p>
                                           <p class='percent_down'><span class='up_down_data'><span style=font-size:12px;>▼</span> 10.5</span>%</p>
@@ -155,7 +161,7 @@
                                     <!--리플(XRP) Card End-->
 
                                     <!--에이다(ADA) Card-->
-                                      <li>
+                                      <li class="card_li">
                                             <p><img src="img/ada.png" alt="에이다아이콘" class='coin_ADA'></p>
                                             <p>에이다(ADA)</p>
                                             <p class='percent_down'><span class='up_down_data'><span style=font-size:12px;>▼</span> 10.5</span>%</p>

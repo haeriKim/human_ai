@@ -117,14 +117,22 @@
   left: 0;
 }
 
-.main_content ul.bitcoin_card_inner li{
+.main_content ul.bitcoin_card_inner li.card_li{
     float: left;
     width: 200px;
     margin:0 20px;
     padding-top:15px;
     background-color: #05080B;
 }
-
+/*주가*/
+.main_content ul.bitcoin_card_inner li .card{
+  height:20px;
+  overflow: hidden;
+}
+.main_content ul.bitcoin_card_inner li .card li{
+    color:#f35531;
+}
+/*주가테스트*/
 
 .main_content ul.bitcoin_card_inner li p{
     color:#fff;
