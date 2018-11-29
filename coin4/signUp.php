@@ -61,7 +61,7 @@
                           <!-- signUp_left_con -->
                           <div class="signUp_left_con">
                             <div class="agree_content_box agree_content_box_1">
-                                <p>The Alls(디올스) 이용약관 동의 (필수)</p>
+                                <p>The Alls(디올스) 이용약관 동의 <span class='must'>(필수)</span></p>
                                 <p class="text_box">
                                     제1장 총칙
 
@@ -397,7 +397,7 @@
                                 <label for='agree_content_01'>동의합니다</label>
                             </div>
                             <div class="agree_content_box agree_content_box_2">
-                                <p>The Alls(디올스) 개인정보처리방침 동의 (필수)</p>
+                                <p>The Alls(디올스) 개인정보처리방침 동의 <span class='must'>(필수)</span></p>
                                 <p class="text_box">
                                     ㈜디올스(이하 "회사"라 함)는 고객의 개인정보를 중요시 하며, ‘정보통신망 이용촉진 및 정보보호 등에 관한 법률’, ‘전자상거래 등에서의 소비자보호에 관한 법률’, ‘통신비밀 보호법’, ‘전기통신사업법’, ‘개인정보 보호법’ 등에 관한 법률 및 행정기관의 행정지침을 준수하고, 관련 법령에 의거한 개인정보 처리방침을 정하여 이용자 권익을 보호하고 있습니다.
 
@@ -691,7 +691,7 @@
                                 <label for='agree_content_02'>동의합니다</label>
                             </div>
                             <div class="agree_content_box agree_content_box_3">
-                                <p>이벤트 등 프로모션 알림 메세지 수신에 대한 동의 (선택)</p>
+                                <p>이벤트 등 프로모션 알림 메세지 수신에 대한 동의 <span class='choice'>(선택)</span></p>
                                 <p class="text_box">
                                 </p>
                                 <input type="checkbox" id='agree_content_03' class="im_agree">

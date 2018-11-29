@@ -41,6 +41,9 @@ a {
   outline: none;
 }
 
+img{
+    border:0;
+}
 a:link, a:visited {
   text-decoration: none;
   color: #fff;

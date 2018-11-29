@@ -185,7 +185,7 @@
                   </tr>
                   <tr>
                       <th>공식홈페이지</th>
-                      <td><a href="https://ethereumclassic.github.io/" target="_blank">https://ethereumclassic.github.io/</a></td>
+                      <td><a href="https://ethereumclassic.github.io/" target="_blank">ethereumclassic.github.io/</a></td>
                   </tr>
               </tbody>
           </table><!-- left_thick_table End-->
@@ -994,7 +994,7 @@
                   </tr>
                   <tr>
                       <th>공식홈페이지</th>
-                      <td><a href="https://ethereumclassic.github.io/" target="_blank">https://ethereumclassic.github.io/</a></td>
+                      <td><a href="https://ethereumclassic.github.io/" target="_blank">ethereumclassic.github.io/</a></td>
                   </tr>
               </tbody>
           </table><!-- left_thick_table End-->

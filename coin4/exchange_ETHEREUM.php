@@ -185,7 +185,7 @@
                     </tr>
                     <tr>
                         <th>공식홈페이지</th>
-                        <td><a href="http://www.ethurium.org" target="_blank">http://www.ethurium.org</a></td>
+                        <td><a href="https://www.ethereum.org/" target="_blank">www.ethereum.org/</a></td>
                     </tr>
                 </tbody>
             </table><!-- left_thick_table End-->
@@ -991,7 +991,7 @@
                     </tr>
                     <tr>
                         <th>공식홈페이지</th>
-                        <td><a href="http://www.ethurium.org" target="_blank">http://www.ethurium.org</a></td>
+                        <td><a href="https://www.ethereum.org/" target="_blank">www.ethereum.org/</a></td>
                     </tr>
                 </tbody>
             </table><!-- left_thick_table End-->

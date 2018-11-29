@@ -2,7 +2,8 @@ body{
     background: #fff;
 }
 #container{
-    width: 660px;
+    max-width: 660px;
+    width: 100%;
     margin: 10% auto;
     background: #0E141C;
     border-radius: 5px;
@@ -21,10 +22,10 @@ p.login_m{
     height: 138px;
     font-weight: 600;
     font-size: 33px;
-    padding: 80px 0 0 20px;
+    padding: 80px 10px 0 20px;
 }
 .content{
-    padding: 20px 0 0 20px;
+    padding: 20px;
     font-size: 15px;
 }
 .content > p{
@@ -59,7 +60,7 @@ p.login_m{
     font-size: 15px;
     font-weight: 600;
     text-align: center;
-    width: 26%;
+    width: 30%;
 }
 .content .info_table_wrap .info_table tbody td{
     text-align: left;
@@ -78,14 +79,14 @@ p.login_m{
     color: #7AABDF;
 }
 .content p.sub_text{
-    margin: 50px 0 30px 0;
+    margin:50px 20px 30px 0;
     text-align: center;
     color: #aaa;
     font-size: 13px;
 }
 .content_footer{
     background: #090D13;
-    padding: 20px 0 20px 20px;
+    padding: 20px;
 }
 .content_footer p{
     margin-top: 10px;
@@ -122,6 +123,31 @@ p.certification_m{
     color: #7AABDF;
     font-weight: 600;
     font-size: 22px;
-    padding: 11px 232px;
+    padding: 11px 36%;
     border: 1px solid #7AABDF;
+}
+
+
+/*반응형*/
+@media screen and (max-width:420px){
+    p.congratuation_m,
+    p.login_m{
+        font-size: 24px;
+        height: 110px;
+    }
+    p.certification_m{
+        font-size: 24px;
+        height: 64px;
+        padding-top: 106px;
+    }
+    p.congratuation_m{
+        padding: 80px 10px 0 10px;
+    }
+}
+@media screen and (max-width:1024px){
+    p.certification_m,
+    p.congratuation_m,
+    p.login_m{
+        background-size: 100% 100%;
+    }
 }

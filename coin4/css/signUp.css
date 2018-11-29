@@ -13,6 +13,17 @@
     width: 48%;
     float: left;
 }
+/*필수,선택 색상값*/
+.must{
+    color:#eaaf69;
+    font-size: 14px;
+    font-weight: 500;
+}
+.choice{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
 /*왼쪽부분*/
 #signUp_area .signUp_left_con{
   margin-right: 2%

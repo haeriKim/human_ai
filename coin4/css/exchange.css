@@ -1026,7 +1026,9 @@
       width: 36%;
       padding: 5px;
     }
-
+  .coin_money_ethuriumClassic table.left_thick_table tbody th{
+      padding: 5px 2px;
+  }
   /*deal_orgin_transaction*/
  #deal_orgin_transaction{
      display:none;
@@ -1240,4 +1242,5 @@
     #container #buy_sell_tab .charge{
         width: 100px;
     }
+
 }

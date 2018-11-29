@@ -9,6 +9,7 @@
 }
 #nav{
     background-image: linear-gradient(to bottom, #73d3d7 0%, #6387D1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#73d3d7', endColorstr='#808CE6'); /*IE9 크로스브라우징*/
     height: 100%;
     padding-top: 23px;
     border-radius: 0 0 10px 0;

@@ -184,7 +184,7 @@
               </tr>
               <tr>
                   <th>공식홈페이지</th>
-                  <td><a href="https://ripple.com" target="_blank">https://ripple.com</a></td>
+                  <td><a href="https://ripple.com" target="_blank">ripple.com</a></td>
               </tr>
           </tbody>
       </table><!-- left_thick_table End-->
@@ -991,7 +991,7 @@
               </tr>
               <tr>
                   <th>공식홈페이지</th>
-                  <td><a href="https://ripple.com" target="_blank">https://ripple.com</a></td>
+                  <td><a href="https://ripple.com" target="_blank">ripple.com</a></td>
               </tr>
           </tbody>
       </table><!-- left_thick_table End-->

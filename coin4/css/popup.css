@@ -194,7 +194,7 @@
 /*나머지 팝업들*/
 
 #popupbox{
-  width:455px;
+  width:454px;
 }
 #popupbox .popupbox_text{
   padding-top: 20px;
@@ -286,7 +286,7 @@
     top: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
-    width: 455px;
+    width: 454px;
 }
 .popup h2{
     color: #7AABDF;
@@ -515,7 +515,7 @@
     border: none;
     font-size: 14px;
     font-weight: 600;
-    color: #fff;
+    color: #080D13;
     padding: 7px 20px;
     cursor: pointer;
     box-sizing: border-box;
