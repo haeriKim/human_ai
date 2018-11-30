@@ -45,13 +45,14 @@
 #header .current_coin ul li.stock_header .stock p{
   text-align: center;
   display: inline-block;
+
 }
 /*주가테스트*/
 
 #header .current_coin ul li .current_pri {
   font-weight: 600;
 }
-#header .current_coin li + li {
+#header .current_coin li.stock_header + li {
   border-left: 1px solid #0E141C;
 }
 #header .current_coin ul li b {
