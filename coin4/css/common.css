@@ -1196,7 +1196,7 @@ box-shadow:none;
   }
   .login_responsive{
       display: block;
-      padding: 5%;
+      padding: 0 5%;
       margin-top: 94px;
     }
   .login_responsive .login_content{
@@ -1206,7 +1206,7 @@ box-shadow:none;
   }
   .login_responsive .box{
       width: 100%;
-      margin: 0;
+      margin:100px auto;
       padding: 20px;
   }
   .login_responsive .login_content #login_area_responsive h3{

@@ -180,4 +180,8 @@
   .use_content #use_area .use_area_text .use_map_table th  {
     font-size: 12px;
   }
+  .use_content #use_area .common_table tbody tr th,
+  .use_content #use_area .use_area_text .use_map_table th  {
+      line-height: inherit;
+  }
 }

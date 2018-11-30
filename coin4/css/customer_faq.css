@@ -1,3 +1,9 @@
+body{
+    overflow-y: scroll;
+}
+.faq_area{
+    margin: 0 auto 120px auto;
+}
 .faq_area .faq_list .go_link{
     color: #7AABDF;
     text-decoration: underline;

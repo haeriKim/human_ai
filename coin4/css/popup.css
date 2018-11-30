@@ -115,6 +115,8 @@
     padding: 20px;
     position: fixed;
     left: 50%;
+    height: 836px;
+    overflow-y: auto;
     top: 50%;
     transform: translate(-50%,-50%);
     display: none;

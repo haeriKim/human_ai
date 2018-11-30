@@ -529,7 +529,7 @@
         font-size: 12px;
     }
     .technology_inner .tech_content_wrap{
-        padding-top: 50px;
+        padding-top: 100px;
         width: 100%;
     }
     .technology_inner .tech_content_wrap .tech_content::before{
@@ -537,7 +537,7 @@
     }
     .technology_inner .tech_content_wrap h3{
         color: #1061A8;
-        top: 125px;
+        top: 175px;
         text-align: left;
         left: 11%;
         font-size: 16px;
