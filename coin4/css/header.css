@@ -24,10 +24,10 @@
 #header .current_coin ul {
   display: block;
   overflow: hidden;
-  padding:9px 0;
+  padding:6px 0;
   text-align: left;
 }
-#header .current_coin ul li{
+#header .current_coin ul li.stock_header{
   float: left;
   font-size: 14px;
   width: 14.25%;
@@ -35,6 +35,19 @@
   text-align: center;
   color: #0E141C;
 }
+/*주가*/
+#header .current_coin ul li.stock_header .stock{
+  height:10px;
+  overflow: hidden;
+  text-align: center;
+  margin-top:-3px;
+}
+#header .current_coin ul li.stock_header .stock p{
+  text-align: center;
+  display: inline-block;
+}
+/*주가테스트*/
+
 #header .current_coin ul li .current_pri {
   font-weight: 600;
 }
