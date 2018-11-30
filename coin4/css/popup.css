@@ -102,7 +102,7 @@
     left:0;
     background-color: #000;
     opacity: 0.5;
-    width: 100%;
+    width: 120%;
     height: 100%;
     z-index: 999;
 }
@@ -570,10 +570,12 @@
     display: block;
     width: 95%;
     padding: 20px 20px 20px 5px;
+    min-height: 495px;
+    min-width: 305px;
 }
 .greetings_area .greetings_story{
     height: auto;
-    padding: 10px 5px;
+    padding: 0 5px 45px 5px;
 }
 .greetings_area .greetings_inner h2{
     font-size: 20px;
@@ -583,8 +585,31 @@
 }
 .greetings_inner .greetings_story .gr_title,
 .greetings_inner .greetings_story .gr_title span{
-    font-size: 15px;
+    font-size: 17px;
     text-indent: initial;
+}
+.greetings_inner .greetings_story .textL .greeting_S_title{
+    font-size: 15px;
+}
+.greetings_text p{
+    font-size: 14px;
+}
+#greetings_content .advTxt b{
+    font-size: 20px;
+}
+.greetings_inner .greetings_story .textL .import{
+    width: 100%;
+    font-size: 16px;
+}
+#full #greetings_content .close_box form{
+    font-size: 13px;
+}
+#full #greetings_content .close_btn{
+    width: 70px;
+    margin: 10px 0 0 0;
+}
+.greetings_inner .greetings_story .greetings_sign{
+    height: 150px;
 }
 /*회원가입 팝업반응형*/
 @media (max-width:768px) {
