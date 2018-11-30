@@ -252,7 +252,6 @@ $(".coinSelect dt").click(function(){
 
 //메인 팝업
 $(document).ready(function(){
-    $('#greetings_content').hide();
     function closePopup(){
         $('#full_content').hide();
         $('#greetings_content').show();

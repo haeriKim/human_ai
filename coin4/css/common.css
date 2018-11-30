@@ -163,6 +163,7 @@
 }
 .thead_deco a{
     color:#7AABDF;
+    cursor: pointer;
 }
 .thead_deco a:hover{
     opacity:0.8;

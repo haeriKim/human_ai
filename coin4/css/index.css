@@ -329,7 +329,7 @@
       #app_container{
           position: relative;
       }
-      #full{
+      #full_content{
         display:none;
       }
 
@@ -470,4 +470,5 @@
     {
         display: none;
     }
+
 }

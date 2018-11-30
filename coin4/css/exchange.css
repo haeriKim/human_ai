@@ -345,10 +345,10 @@
   text-align:center;
 }
 .orderbg1{
-  background-color:#017eff26;
+  background-color:rgba(1,126,255,0.2);
 }
 .orderbg2{
-  background-color:#f3553133;
+  background-color:rgba(243,85,49,0.2);
 }
 .upprice{
   color:#f35531;
@@ -362,97 +362,97 @@
 .mado1 div{
   width:50px;
   height:15px;
-  background-color:#017eff26;
+  background-color:rgba(1,126,255,0.2);
   position:absolute;
   top:10px;
-  left:85px;
+  left:79px;
   opacity:0.5;
 }
 .mado2 div{
   width:50px;
   height:15px;
-  background-color:#017eff26;
+  background-color:rgba(1,126,255,0.2);
   position:absolute;
   top:10px;
-  left:85px;
+  left:79px;
   opacity:0.5;
 }
 .mado3 div{
   width:100px;
   height:15px;
-  background-color:#017eff26;
+  background-color:rgba(1,126,255,0.2);
   position:absolute;
   top:10px;
-  left:30px;
+  left:29px;
   opacity:0.5;
 }
 .mado4 div{
   width:20px;
   height:15px;
-  background-color:#017eff26;
+  background-color:rgba(1,126,255,0.2);
   position:absolute;
   top:10px;
-  left:110px;
+  left:109px;
   opacity:0.5;
 }
 .mado5 div{
   width:20px;
   height:15px;
-  background-color:#017eff26;
+  background-color:rgba(1,126,255,0.2);
   position:absolute;
   top:10px;
-  left:110px;
+  left:109px;
   opacity:0.5;
 }
 .mado6 div{
   width:20px;
   height:15px;
-  background-color:#017eff26;
+  background-color:rgba(1,126,255,0.2);
   position:absolute;
   top:10px;
-  left:110px;
+  left:109px;
   opacity:0.5;
 }
 .mado7 div{
   width:100px;
   height:15px;
-  background-color:#017eff26;
+  background-color:rgba(1,126,255,0.2);
   position:absolute;
   top:10px;
-  left:30px;
+  left:29px;
   opacity:0.5;
 }
 .mado8 div{
   width:80px;
   height:15px;
-  background-color:#017eff26;
+  background-color:rgba(1,126,255,0.2);
   position:absolute;
   top:10px;
-  left:50px;
+  left:49px;
   opacity:0.5;
 }
 .mado9 div{
   width:50px;
   height:15px;
-  background-color:#017eff26;
+  background-color:rgba(1,126,255,0.2);
   position:absolute;
   top:10px;
-  left:85px;
+  left:79px;
   opacity:0.5;
 }
 .mado10 div{
   width:50px;
   height:15px;
-  background-color:#017eff26;
+  background-color:rgba(1,126,255,0.2);
   position:absolute;
   top:10px;
-  left:85px;
+  left:79px;
   opacity:0.5;
 }
 .masu1 div{
   width:50px;
   height:15px;
-  background-color:#f3553133;
+  background-color:rgba(243,85,49,0.2);
   position:absolute;
   top:10px;
   right:106px;
@@ -461,7 +461,7 @@
 .masu2 div{
   width:50px;
   height:15px;
-  background-color:#f3553133;
+  background-color:rgba(243,85,49,0.2);
   position:absolute;
   top:10px;
   right:106px;
@@ -470,7 +470,7 @@
 .masu3 div{
   width:100px;
   height:15px;
-  background-color:#f3553133;
+  background-color:rgba(243,85,49,0.2);
   position:absolute;
   top:10px;
   right:56px;
@@ -479,7 +479,7 @@
 .masu4 div{
   width:20px;
   height:15px;
-  background-color:#f3553133;
+  background-color:rgba(243,85,49,0.2);
   position:absolute;
   top:10px;
   right:136px;
@@ -488,7 +488,7 @@
 .masu5 div{
   width:20px;
   height:15px;
-  background-color:#f3553133;
+  background-color:rgba(243,85,49,0.2);
   position:absolute;
   top:10px;
   right:136px;
@@ -497,7 +497,7 @@
 .masu6 div{
   width:20px;
   height:15px;
-  background-color:#f3553133;
+  background-color:rgba(243,85,49,0.2);
   position:absolute;
   top:10px;
   right:136px;
@@ -507,7 +507,7 @@
 .masu7 div{
   width:100px;
   height:15px;
-  background-color:#f3553133;
+  background-color:rgba(243,85,49,0.2);
   position:absolute;
   top:10px;
   right:56px;
@@ -517,17 +517,17 @@
 .masu8 div{
   width:80px;
   height:15px;
-  background-color:#f3553133;
+  background-color:rgba(243,85,49,0.2);
   position:absolute;
   top:10px;
-  right:81px;
+  right:76px;
   opacity:0.5;
 }
 
 .masu9 div{
   width:50px;
   height:15px;
-  background-color:#f3553133;
+  background-color:rgba(243,85,49,0.2);
   position:absolute;
   top:10px;
   right:106px;
@@ -537,7 +537,7 @@
 .masu10 div{
   width:50px;
   height:15px;
-  background-color:#f3553133;
+  background-color:rgba(243,85,49,0.2);
   position:absolute;
   top:10px;
   right:106px;
@@ -1204,8 +1204,6 @@
     background: #fff;
     z-index: 9999;
     position: fixed;
-    left: 2.5%;
-    top: 49%;
     margin: 0 auto;
     height: auto;
 }
@@ -1214,19 +1212,19 @@
 }
 #main_full #full_content .full_inner h2{
     padding-top: 0;
-    font-size: 17px;
+    font-size: 20px;
     padding-bottom: 10px;
 }
 #main_full #full_content .full_inner p{
-    font-size: 12px;
+    font-size: 14px;
 }
 #main_full #full_content .full_inner ul li{
-    font-size: 13px;
+    font-size: 15px;
     background-size: 15px;
     padding-left: 21px;
 }
 #main_full #full_content .full_inner form{
-    font-size: 12px;
+    font-size: 13px;
     margin-top: 10px;
 }
 #main_full #full_content .full_inner .close_btn{
@@ -1242,5 +1240,14 @@
     #container #buy_sell_tab .charge{
         width: 100px;
     }
-
+    #main_full #full_content .full_inner h2{
+        font-size: 17px;
+    }
+    #main_full #full_content .full_inner p,
+    #main_full #full_content .full_inner form{
+        font-size: 12px;
+    }
+    #main_full #full_content .full_inner ul li{
+        font-size: 13px;
+    }
 }

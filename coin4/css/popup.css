@@ -8,8 +8,7 @@
     position: fixed;
     left: 50%;
     top: 50%;
-    transform: translateY(-50%);
-    margin-left: -265px;
+    transform: translate(-50%,-50%);
 }
 #greetings_content{
     width: 800px;
@@ -17,10 +16,9 @@
     z-index: 9990;
     padding: 20px;
     position: fixed;
-    left: 45%;
+    left: 50%;
     top: 50%;
-    transform: translateY(-50%);
-    margin-left: -265px;
+    transform: translate(-50%,-50%);
     display: none;
 }
 .full_inner{
@@ -567,6 +565,27 @@
     margin-left:0;
 }
 
+/*인사말 팝업 반응형*/
+#greetings_content{
+    display: block;
+    width: 95%;
+    padding: 20px 20px 20px 5px;
+}
+.greetings_area .greetings_story{
+    height: auto;
+    padding: 10px 5px;
+}
+.greetings_area .greetings_inner h2{
+    font-size: 20px;
+}
+.greetings_inner .greetings_story .gr_title img{
+    width: 20px;
+}
+.greetings_inner .greetings_story .gr_title,
+.greetings_inner .greetings_story .gr_title span{
+    font-size: 15px;
+    text-indent: initial;
+}
 /*회원가입 팝업반응형*/
 @media (max-width:768px) {
     #full .email_pop{
