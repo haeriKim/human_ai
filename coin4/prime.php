@@ -346,7 +346,25 @@
 
                           </div><!--프라임 보안 끝-->
 
+                          <div class="history">
+                            <div class="theallsprime_icon7">
+                              <p><img src="img/prime_step.png" alt="프라임아이디어"></p>
+                              <h3>H I S T O R Y</h3>
+                              <p class="prime_text"><span><b>'대한민국 암호화폐 마켓의 기준'</b>을 넘어서 세계로 나아가겠습니다.</p>
+                            </div>
+                              <div class="theallsprime_number7">
+                                <div class="history_inner">
+                                  <div class="history_box">
+                                    <p><img src="img/info_history.png" alt="히스토리이미지"></p>
+                                  </div>
+                                </div>
+                              </div>
+
+                          </div>
+
+
                           <div class="main_footer">
+                            <img src="img/logo.png" alt="디올스로고">
                             <p>세계 기축통화 암호화폐 '디올스 국제거래소'를 이용해주셔서 감사합니다.</p>
                             <input type='button' name="메인버튼" value="메인으로" onclick="location.href='index.php'" class="main_button">
                           </div>
