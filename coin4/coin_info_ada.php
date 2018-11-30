@@ -171,10 +171,6 @@
                                             <td>45,000,000,000</td>
                                         </tr>
                                         <tr>
-                                            <th>합의 프로토콜</th>
-                                            <td>Ouroboros</td>
-                                        </tr>
-                                        <tr>
                                             <th>채굴봉상량</th>
                                             <td>-</td>
                                         </tr>
