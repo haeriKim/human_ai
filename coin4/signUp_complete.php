@@ -6,7 +6,6 @@
     <title>The Alls</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/signUp_compelete.css">
-    <link rel="stylesheet" href="css/signUp_compelete.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/nav.css">
