@@ -164,7 +164,7 @@
                                         <li class="down_arrow">↓</li>
                                         <li class="none_li"><span>[QR코드] QR코드를 활용한 오프라인에서도 포인트가 아닌 실시간 코인가격으로 사용가능</span></li>
                                         <li class="down_arrow">↓</li>
-                                        <li class="none_li"><span>[현금화] 모든 것은 코인이 현금화 되어 매도자 또는 제품주인 통장으로 현금이 입금됨</span></li>
+                                        <li class="none_li"><span>[현금화] 디올스 코인이 현금화 되어 매도자<br/> 또는 제품주인 통장으로 현금이 입금됨</span></li>
                                       </ul>
 
                                     </div>

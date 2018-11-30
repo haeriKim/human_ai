@@ -788,7 +788,7 @@
                     </div>
                     <div class="btn_area responsive_btn">
                       <input type="button" name="" value="닫기" class="popupbt nextok">
-                      <input type="submit" name="" value="이메일인증" class="popupbt ok" onclick="location.href='signUp_compelete.php'">
+                      <input type="submit" name="" value="이메일인증" class="popupbt ok" onclick="location.href='signUp_complete.php'">
                     </div>
                 </div>
             </div><!-- full_content End-->

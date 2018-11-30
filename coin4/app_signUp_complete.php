@@ -80,6 +80,14 @@
                 </div><!-- common_table_wrap End-->
             </div><!-- content_wrap End-->
 
+            <!-- footer_wrap -->
+            <?php include "footer.php";?>
+            <!-- footer_wrap End-->
+
+            <!--sub_menu-->
+            <?php include "sub_menu.php";?>
+            <!--sub_menu End-->
+
         </div><!-- container End -->
     </div><!-- wrap End -->
 
