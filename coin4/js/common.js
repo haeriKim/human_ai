@@ -1528,7 +1528,7 @@ $(document).ready(function(){
 
 /*프라임 서비스 구간*/
 $(document).ready(function(){
-  $(".st1").hide();
+  $(".st1").show();
   $(".ss1").click(function(){
         $(".st1").show(300);
       $(".st2").hide(300);

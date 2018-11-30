@@ -119,9 +119,9 @@
                               <p class="prime_text">암호화폐의 새로운 기준 <b>'디올스 국제거래소'</b>의 요점은 이렇습니다.</p>
                               <ul>
 
-                                <li><strong class="ss1">The Alls Service<b> 01</b></strong><span class="b_box b_box1"></span></li>
-                                <li><strong class="ss2">The Alls Service<b> 02</b></strong><span class="b_box b_box2"></span></li>
-                                <li><strong class="ss3">The Alls Service<b> 03</b></strong><span class="b_box b_box3"></span></li>
+                                <li><strong class="ss1">The Alls Service<b> 01</b></strong><span class="b_box b_box1"></span><p class="more">더보기</p></li>
+                                <li><strong class="ss2">The Alls Service<b> 02</b></strong><span class="b_box b_box2"></span><p class="more">더보기</p></li>
+                                <li><strong class="ss3">The Alls Service<b> 03</b></strong><span class="b_box b_box3"></span><p class="more">더보기</p></li>
 
                               </ul>
 
@@ -197,14 +197,32 @@
                                     <p class="join_img_fence">
                                       <strong>온라인 이용방법</strong><br/>
                                       <img src="img/guide/info_online.png" alt="디올스이미지">
-                                      <span>프랜차이점,백화점,일반가게 등에서 결재 시 현금,카드,대신<br/> 사용하여
-                                      제품 가격을 현금으로 처리되는 것을 말함</span>
+                                      <span><b>디올스 국제 거래소를 활용한 블록체인 전자상거래란?</b><br/>
+                                        <br/>
+                                        코인 가격이 실시간으로 전자상거래에서 적용되어 거래가 됩니다.<br/>
+                                        <br/>
+                                        즉 현재 가격이 디올스 거래소에서 시세 가격이 1000원일 경우에 1000원을 사용하고 시세가 950원일 경우 950원이 사용됩니다.<br/>
+                                        <br/>
+                                        전자상거래 결재 수단인 모든 결재가 가능합니다.<br/>
+                                        <br/>
+                                        온라인게임, 온라인 타겟팅, 스포츠관람, 영화관람, 코인재정거래, 은행증권구입, 부동산거래 등 그 외 모든 전자상거래상으로 결재가 가능합니다.<br/>
+
+                                      </span>
                                     </p>
 
                                     <p class="join_img_fence">
                                       <strong>오프라인 이용방법</strong><br/>
                                       <img src="img/guide/info_offline.png" alt="디올스이미지">
-                                      <span>디올스 국제거래소에서 거래되는 가격에 따라 실시간 금액으로 현금으로 입금됨</span>
+                                      <span><b>디올스 국제거래소를 활용한 블록체인 오프라인 QR코드 결재 방법이란?</b><br/>
+                                      <br/>
+                                      프랜차이점, 백화점, 일반가게 등에서 결재 시 현금, 카드 대신 사용하여<br/>
+                                      제품 가격을 현금으로 처리되는 것을 말합니다.<br/>
+                                      <br/>
+                                      즉 카드 수수료 없이 직접 현금으로 처리되는 것 입니다.<br/>
+                                      <br/>
+                                      따라서 디올스 국제거래소에서는 포인트가 아닌 실제 코인 가격이 실시간 가격에 따라<br/>
+                                      그 가격으로 거래가 되는 프로그램입니다.
+                                      </span>
                                     </p>
                                   </div>
 

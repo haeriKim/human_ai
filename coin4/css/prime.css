@@ -138,7 +138,7 @@
 
 }
 .prime_area .prime_inner .theallsprime_icon2 li:nth-child(1){
-  background:url(../img/prime_coin.png) no-repeat 0 0; background-size:cover;
+  background:url(../img/prime_coin.png) no-repeat 0 50%; background-size:cover;
 }
 .prime_area .prime_inner .theallsprime_icon2 li:nth-child(2){
   background:url(../img/prime_time.png) no-repeat 0 0; background-size:cover;
@@ -173,7 +173,23 @@
 .prime_area .prime_inner .theallsprime_icon2 li strong:hover .b_box{
   display: none;
 }
-
+.prime_area .prime_inner .theallsprime_icon2 li p.more{
+  position:absolute;
+  top:185px;
+  left:45%;
+  text-shadow:1px 1px 1px #000;
+  text-decoration:underline;
+  display:none;
+}
+.prime_area .prime_inner .theallsprime_icon2 li:nth-child(1):hover p.more{
+  display:block;
+}
+.prime_area .prime_inner .theallsprime_icon2 li:nth-child(2):hover p.more{
+  display:block;
+}
+.prime_area .prime_inner .theallsprime_icon2 li:nth-child(3):hover p.more{
+  display:block;
+}
 .prime_area .prime_inner .theallsprime_icon2 li span{
   width:300px;
   height:350px;
@@ -315,8 +331,10 @@
 }
 .prime_area .prime_inner .theallsprime_number3 .join_img span{
   color:#0E141C;
-  margin:20px 0;
-  display:inline-block;
+  margin:30px 0;
+  display:block;
+  text-align: left;
+  padding:0 150px;
 }
 
 /*method*/
