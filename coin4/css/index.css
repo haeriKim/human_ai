@@ -446,7 +446,7 @@
     }
     .app_prev1 img{
       position:absolute;
-      top:50%;
+      top:45%;
       left:4%;
       width:30px;
       cursor:pointer;
@@ -454,7 +454,7 @@
     }
     .app_next1 img{
       position:absolute;
-      top:50%;
+      top:45%;
       right:4%;
       width:30px;
       cursor:pointer;
