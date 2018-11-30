@@ -791,7 +791,6 @@
 #deal_all{
   overflow-y: hidden;
   float:left;
-
 }
 #deal_all .deal_table_scroll{
     overflow-y: scroll;
@@ -839,8 +838,9 @@
     color:#017eff;
 }
 #deal_all .deal_table_tbody{
-    display: block;
+    display: inherit;
     margin-top: 36px;
+    width: 100%;
 }
 #deal_all .deal_all_thead{
     background-color: #05080B;

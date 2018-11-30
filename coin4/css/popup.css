@@ -15,6 +15,7 @@
     background: #fff;
     z-index: 9990;
     padding: 20px;
+    height: 750px;
     position: fixed;
     left: 50%;
     top: 50%;
@@ -572,6 +573,7 @@
     padding: 20px 20px 20px 5px;
     min-height: 495px;
     min-width: 305px;
+    height: auto;
 }
 .greetings_area .greetings_story{
     height: auto;

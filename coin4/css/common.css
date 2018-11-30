@@ -912,7 +912,7 @@ div.cancel_or_apply .if_you_all_agree{
 .greetings_area .greetings_story{
     text-align: left;
     display: inline-block;
-    height: 700px;
+    height: 600px;
     padding: 10px 20px 10px 10px;
     overflow-y: scroll;
 }

@@ -1246,8 +1246,9 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
 }
 /*thead 띄우기*/
 #mywallet_havecoin tbody{
-    display: block;
-    margin-top:35px;
+    display: inherit;
+    margin-top: 35px;
+    width: 100%;
 }
 #mywallet_havecoin .mywallet_havecoin_thead{
     width:100%;
