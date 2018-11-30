@@ -325,18 +325,21 @@
 
                               <div class="security_img">
                                 <p>
-                                  <span>CBR<br/>(사례기반 추론 시스템)</span><br/>
-                                  <img src="img/guide/info_server1.png" alt="디올스이미지">
+                                  <span class="s_title">CBR<br/>(사례기반 추론 시스템)</span><br/>
+                                  <span class="security_txt">왜곡된 기본 정보 CBR 검색 후 주요정보 확인</span>
+                                  <br/><img src="img/guide/info_server1.png" alt="디올스이미지">
                                 </p>
 
                                 <p>
-                                  <span>BCS<br/>(블록체인 보안시스템)</span><br/>
-                                  <img src="img/guide/info_defense.png" alt="디올스이미지">
+                                  <span class="s_title">BCS<br/>(블록체인 보안시스템)</span><br/>
+                                  <span class="security_txt">해커 침입시 해킹 방지,처리</span>
+                                  <br/><img src="img/guide/info_defense.png" alt="디올스이미지">
                                 </p>
 
                                 <p>
-                                  <span>PCS<br/>(개인정보 보안시스템)</span><br/>
-                                  <img src="img/guide/info_server2.png" alt="디올스이미지">
+                                  <span class="s_title">PCS<br/>(개인정보 보안시스템)</span><br/>
+                                  <span class="security_txt">개인 정보 검색 활용 후 재보안 처리</span>
+                                  <br/><img src="img/guide/info_server2.png" alt="디올스이미지">
                                 </p>
                               </div>
 

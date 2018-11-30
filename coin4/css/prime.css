@@ -403,8 +403,7 @@
   color:#00f;
 }
 .prime_area .prime_inner .theallsprime_number4 li img{
-  width:100px;
-  height:100px;
+  width:155px;
 }
 
 /*platform*/
@@ -543,12 +542,19 @@
 .prime_area .prime_inner .theallsprime_number6 .security_img p{
   margin:20px 0;
 }
-.prime_area .prime_inner .theallsprime_number6 .security_img span{
+.prime_area .prime_inner .theallsprime_number6 .security_img .s_title{
   color:#0E141C;
-  margin:40px 0;
+  margin-top:40px;
+  margin-bottom:10px;
   font-size:25px;
   font-weight:600;
   display:inline-block;
+}
+.prime_area .prime_inner .theallsprime_number6 .security_img .security_txt{
+  margin-bottom:20px;
+  font-size:15px;
+  color:#0e141c;
+  display:block;
 }
 
 /*history*/
