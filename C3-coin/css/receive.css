@@ -2,7 +2,7 @@
     overflow: hidden;
     font-size: 25px;
     margin-bottom: 20px;
-    color: #fff;
+    color: #90c31f;
     margin-right: 10px;
     padding: 10px 0 10px 10px;
 }
@@ -37,12 +37,13 @@
   color: #fff;
 }
 .changeInfo_content .output_text .adr {
-    background-color: rgba(0,0,0,.5);
+    border:1px solid #90c31f;
+    background-color: rgba(144,195,31,1);
     color: #fff;
     width: 70%;
     margin: 30px auto;
     padding: 7px 0;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 .changeInfo_content select{
     border:none;

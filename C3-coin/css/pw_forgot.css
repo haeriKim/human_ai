@@ -11,8 +11,8 @@
     margin: 10px 0;
     padding: 10px;
     padding-left: 0;
-    border: none;
-    color: #bb0000;
+    border: 1px solid #90c31f;
+    color: #be8116;
 }
 .findPw_content form div.phone_wrap{
     overflow: hidden;
@@ -29,11 +29,11 @@
     margin-left: 10px;
     line-height: 36px;
     background-color: #fff;
-    border: 2px solid #ed1b23;
-    color: #ed1b23;
+    border: 2px solid #90c31f;
+    color: #90c31f;
 }
 .findPw_content form input.code_send:hover{
-    background-color: #ed1b23;
+    background-color: #90c31f;
     color: #fff;
     border: none;
     box-sizing: border-box;

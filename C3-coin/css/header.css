@@ -8,19 +8,20 @@
   padding: 10px 15px;
   height: 90px;
   box-sizing: border-box;
+  border-bottom:1px solid #00abeb;
 }
 #headerWrap h1 a {
   display: inline-block;
   line-height: 90px;
 }
 #headerWrap h1 img {
-  width: 110px;
+  width: 160px;
   vertical-align: -10px;
 }
 /* mobile ver */
 @media all and (min-width:320px) and (max-width:768px){
   #headerWrap h1 img {
-    width: 100px;
+    width: 130px;
     vertical-align: -10px;
   }
   #headerWrap {

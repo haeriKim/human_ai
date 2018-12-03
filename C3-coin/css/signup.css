@@ -27,14 +27,14 @@
     margin-top: 5px;
     line-height: 36px;
     background-color: #fff;
-    border: 2px solid #ed1b23;
-    color: #ed1b23;
+    border: 2px solid #90c31f;
+    color: #90c31f;
 }
 .join_box .join_inner .request_number_bt:hover{
     box-sizing: border-box;
     border: none;
     color: #fff;
-    background: #ed1b23;
+    background: #90c31f;
 }
 .join_box .join_inner .user_id{
   width:70%;

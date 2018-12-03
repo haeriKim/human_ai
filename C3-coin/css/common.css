@@ -67,12 +67,12 @@ input[type='button']:hover,input[type='submit']:hover{
    opacity:  1;
 }
 select{
-  border: none;
-  border-radius: 50px;
+  border: 1px solid #90c31f;
+  border-radius: 5px;
   width: 63%;
   padding-bottom: 4px;
   font-size: 15px;
-  color:#bb0000;
+  color:#be8116;
   padding: 10px;
   margin-bottom:4px;
   padding-left:5px;
@@ -103,7 +103,7 @@ select {
 h3.title {
     text-align: left;
     font-size: 25px;
-    color: #bb0000;
+    color: #00abeb;
     width: 500px;
     margin: 0 auto;
 }
