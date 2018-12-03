@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content=" width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
-    <title>RedAngel-coin</title>
+    <title>C3-coin</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
@@ -62,7 +62,7 @@
                      </tr>
                     </table>
                 </div>
-                <p class="copyright" style="margin-top:20px;">CRYPTOCURRNCY REDANGEL-COIN SINCE 2018</p>
+                <p class="copyright" style="margin-top:20px;">CRYPTOCURRNCY C3-COIN SINCE 2018</p>
                 <a href="#" class='go_thealls' target="_blank">디올스(The Alls) 거래소 바로가기</a>
             </div><!-- content End-->
 

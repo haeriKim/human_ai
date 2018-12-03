@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content=" width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
-<title>RedAngel-coin</title>
+<title>C3-coin</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/common.css">

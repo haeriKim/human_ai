@@ -16,7 +16,7 @@
     margin: 10px 0;
     width: 94%;
     font-size: 15px;
-    border: 1px solid rgba(144,195,31,1);
+    border: 1px solid #90c31f;
 }
 .changeInfo_content form div.phone_wrap{
     overflow: hidden;
