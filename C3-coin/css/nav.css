@@ -76,7 +76,7 @@ input[type='checkbox'] + label#m_navBtn:before {
 } */
 #nav{
     display: block;
-    background: rgba(0,0,0,0.7);
+    background: rgba(0,0,0,0.6);
     width: 100%;
     height: 90px;
     z-index: 80;
@@ -152,6 +152,7 @@ input[type='checkbox'] + label#m_navBtn:before {
     height: 160%;
     top: 0;
     left: -100%;
+    background: rgba(0,0,0,0.7);
   }
   #m_navBtn{
     top: 22px;
