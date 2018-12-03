@@ -4,16 +4,15 @@
     margin-bottom: 35px;
     font-size: 14px;
     text-align: center;
-    color: #fff;
+    color: #333;
 }
 .question_content form{
     width: 500px;
     margin: 0 auto;
 }
 .question_content form p {
-    color: #fff;
+    color: #90c31f;
     margin-top: 30px;
-    text-shadow: 1px 1px 1px #333;
     font-weight: 600;
 }
 .question_content form input{
@@ -25,10 +24,10 @@
     width: 95.6%;
     height: 300px;
     margin-top: 20px;
-    border: none;
+    border: 1px solid #90c31f;
     padding: 10px;
     font-size: 15px;
-    color: #333;
+    color: #be8116;
     margin: 5px 0;
     background-color: #fff;
     border-radius: 15px;
