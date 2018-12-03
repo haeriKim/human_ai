@@ -1,22 +1,21 @@
 #headerWrap {
   display: block;
-  position: fixed;
+  position: absolute;
   top:0;
-  z-index: 10;
   width: 100%;
   padding: 10px 15px;
   height: 90px;
   box-sizing: border-box;
   border-bottom:1px solid #00abeb;
-  background:#fff;
 }
 #headerWrap h1 a {
   display: inline-block;
-  line-height: 90px;
 }
 #headerWrap h1 img {
-    width: 235px;
-    vertical-align: -11px;
+    width: 250px;
+    position: absolute;
+    top: 10px;
+    z-index: 999;
 }
 /* mobile ver */
 @media all and (min-width:320px) and (max-width:768px){
@@ -25,8 +24,6 @@
     vertical-align: -10px;
   }
   #headerWrap {
-      text-align: center;
-      padding-left: 0;
-      padding: 10px 0;
+      padding: 10px;
   }
 }

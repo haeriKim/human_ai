@@ -82,4 +82,7 @@
   .changeInfo_content .output_text .codeArea p {
     font-size: 14px;
   }
+  .changeInfo_content .output_text .codeArea p.adr{
+       width: 100%;
+  }
 }
