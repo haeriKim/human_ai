@@ -14,13 +14,13 @@
   line-height: 90px;
 }
 #headerWrap h1 img {
-    width: 205px;
+    width: 235px;
     vertical-align: -11px;
 }
 /* mobile ver */
 @media all and (min-width:320px) and (max-width:768px){
   #headerWrap h1 img {
-    width: 130px;
+    width: 200px;
     vertical-align: -10px;
   }
   #headerWrap {
