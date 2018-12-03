@@ -197,7 +197,7 @@ $(document).ready(function(){
         e.preventDefault();
         if($('.bitcoin_card_inner').is(':animated')==false){
             $('.bitcoin_card_inner').animate({left:'-240px'},1000,function(){
-                $('.bitcoin_card_inner').append($('.bitcoin_card_inner li:first'));
+                $('.bitcoin_card_inner').append($('.bitcoin_card_inner .card_li:first'));
                 $('.bitcoin_card_inner').css('left','0px');
             })
         }
@@ -206,8 +206,8 @@ $(document).ready(function(){
     $('.prev').on('click',function(e){
         e.preventDefault();
         if($('.bitcoin_card_inner').is(':animated')==false){
-            $('.bitcoin_card_inner').prepend($('.bitcoin_card_inner li:last'));
-            $('.bitcoin_card_inner').css('left','-240px');
+            $('.bitcoin_card_inner').prepend($('.bitcoin_card_inner .card_li:last'));
+            $('.bitcoin_card_inner').css('left','-240px','overflow','hidden');
             $('.bitcoin_card_inner').animate({left:'0px'},1000)
         }
     })
