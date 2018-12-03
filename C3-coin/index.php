@@ -23,7 +23,7 @@
 
       <div class="login_content">
         <div class="login_inner">
-        <p class='logo_wrap'><img src="img/logo.png" alt="로고" class="logo"></p>
+        <p class='logo_wrap'><img src="img/logo5.png" alt="로고" class="logo"></p>
 
         <div class="login_input">
           <div class="inputArea idArea">

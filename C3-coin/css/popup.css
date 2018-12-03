@@ -18,8 +18,9 @@
 
 .popup .full_inner h2{
   padding: 20px 0;
-  color: #fff;
-  background-color: #ed1b23;
+  color: #90c31f;
+  background-color: none;
+  border-bottom:2px solid #90c31f;
   border-radius: 5px 5px 0 0;
 }
 .popup .popupbox_text p{
@@ -30,7 +31,7 @@
   text-align:center;
 }
 #full .ok{
-  background: #ed1b23;
+  background: #90c31f;
   font-weight: 600;
   font-size: 16px;
   cursor: pointer;
@@ -39,7 +40,7 @@
   margin: 10px 0 20px;
 }
 #full .ok:hover{
-  background-color:#464350;
+  background-color:#90c31f;
 }
 #shadow{
   position: fixed;
