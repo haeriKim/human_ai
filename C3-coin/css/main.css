@@ -34,10 +34,10 @@
     background: #fff url(../img/180_icon_recive.png) no-repeat center 26px / 61%;
 }
 .main_content .main_menu ul li.sendList_li{
-    background: #fff url(../img/180_icon_sendList.png) no-repeat 55% 26px / 61%;
+    background: #fff url(../img/180_icon_reciveList.png) no-repeat 55% 26px / 61%;
 }
 .main_content .main_menu ul li.receiveList_li{
-    background: #fff url(../img/180_icon_reciveList.png) no-repeat 55% 26px / 61%;
+    background: #fff url(../img/180_icon_sendList.png) no-repeat 55% 26px / 61%;
 }
 .main_content .main_menu ul li.setting_li{
     background: #fff url(../img/180_icon_setting.png) no-repeat center 26px / 61%;
