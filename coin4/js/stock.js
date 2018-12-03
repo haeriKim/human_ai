@@ -12,8 +12,6 @@ $(document).ready(function(){
   function tick(){
     $("#stock_02 li:first").slideUp(function(){$(this).appendTo($("#stock_02")).slideDown();
     });
-    $("#stock_02 li:last").slideUp(function(){$(this).prependTo($("#stock_02")).slideDown();
-    });
   }
   setInterval(function(){tick ()}, 6000);
 });
