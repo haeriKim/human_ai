@@ -1,0 +1,38 @@
+.question_content .text{
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    font-size: 14px;
+    text-align: center;
+    color: #333;
+}
+.question_content form{
+    width: 500px;
+    margin: 0 auto;
+}
+.question_content form p {
+    color: #90c31f;
+    margin-top: 30px;
+    font-weight: 600;
+}
+.question_content form input{
+    width: 96%;
+    margin: 10px 0;
+}
+.question_content textarea{
+    resize: none;
+    width: 95.6%;
+    height: 300px;
+    margin-top: 20px;
+    border: 1px solid #90c31f;
+    padding: 10px;
+    font-size: 15px;
+    color: #be8116;
+    margin: 5px 0;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.question_content form input.question_btn{
+    width: 100%;
+    margin-top: 25px;
+}

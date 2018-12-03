@@ -1,0 +1,29 @@
+#headerWrap {
+  display: block;
+  position: absolute;
+  top:0;
+  width: 100%;
+  padding: 10px 15px;
+  height: 90px;
+  box-sizing: border-box;
+  border-bottom:1px solid #00abeb;
+}
+#headerWrap h1 a {
+  display: inline-block;
+}
+#headerWrap h1 img {
+    width: 250px;
+    position: absolute;
+    top: 10px;
+    z-index: 999;
+}
+/* mobile ver */
+@media all and (min-width:320px) and (max-width:768px){
+  #headerWrap h1 img {
+    width: 200px;
+    vertical-align: -10px;
+  }
+  #headerWrap {
+      padding: 10px;
+  }
+}
