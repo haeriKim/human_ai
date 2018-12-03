@@ -55,7 +55,7 @@
                      </tr>
                      <tr>
                        <th>수량</th>
-                       <td>100000 RAC</td>
+                       <td>100000 C3C</td>
                      </tr>
                      <tr>
                        <th>날짜</th>

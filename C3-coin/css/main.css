@@ -48,7 +48,7 @@
 .main_content .main_menu ul li:hover{
     cursor: pointer;
     /* opacity: .5; */
-    border: 5px solid #464350;
+    border: 5px solid #00abeb;
 }
 .main_content .main_menu ul li p{
     font-size: 18px;
@@ -57,7 +57,7 @@
     color: #464350;
 }
 .main_content .main_menu ul li:hover p{
-    color:#ed1b23;
+    color:#90c31f;
 }
 
 @media (max-width:768px) {

@@ -39,7 +39,7 @@
                 <!-- <div class="line"></div> -->
                 <form class="change_pw_form" action="#" method="post">
                   <div class="my_coin_box">
-                    <span class="my_coin">내잔고</span><span class='my_coin_number'>0 RAC</span>
+                    <span class="my_coin">내잔고</span><span class='my_coin_number'>0 C3C</span>
                   </div>
 
                   <div class="output_text">
