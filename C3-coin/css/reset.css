@@ -12,9 +12,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Noto Sans KR', sans-serif;
-  height: 100%;
-  color: #fff;
-  background-color: #BB0000;
+  color: #333;
+  background-color: #fff;
 }
 
 table {

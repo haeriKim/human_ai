@@ -1588,7 +1588,7 @@ $(document).ready(function(){
 
 /*프라임홈버튼*/
 var vi = 500;  // 하단에 메뉴 표시할 스크롤 위치값 지정
-var si = 12600;
+var si = 13200;
 
 $(window).scroll(function(){
 

@@ -21,14 +21,14 @@ input{
   margin-bottom:4px;
 }
 input[type='text'],input[type='password'],input[type='email'],input[type='number'],input[type='tell']{
-  border: none;
+  border: 1px solid #90c31f;
   width: 70%;
   padding: 10px;
   font-size: 15px;
-  color:#333;
+  color:#be8116;
   margin:5px 0;
-  background-color:#fff;
-  border-radius: 50px;
+  border-radius: 5px;
+  background:none;
 }
 input[type='tell']{
   width: 42%;
@@ -40,29 +40,30 @@ input[type='button'],input[type='submit']{
   font-size: 16px;
   box-sizing: border-box;
   border: none;
-  background-color: #999;
+  border-radius: 5px;
+  background-color: #00abeb;
   cursor: pointer;
   color: #fff;
 }
 input[type='button']:hover,input[type='submit']:hover{
-  background-color: #464350;
+  background-color: #00baff;
 }
 ::-webkit-input-placeholder { /* 크롬 4–56 */
-    color: #BB0000;
+    color: #be8116;
 }
 :-moz-placeholder { /* 파이어폭스 4–18 */
-   color: #BB0000;
+   color: #be8116;
    opacity:  1;
 }
 ::-moz-placeholder { /* 파이어폭스 19–50 */
-   color: #BB0000;
+   color: #be8116;
    opacity:  1;
 }
 :-ms-input-placeholder { /* 인터넷 익스플로러 10+ */
-   color:  #BB0000;
+   color:  #be8116;
 }
 ::placeholder { /* 파이어폭스 51+, 크롬 57+ */
-   color: #BB0000;
+   color: #be8116;
    opacity:  1;
 }
 select{
@@ -79,7 +80,7 @@ select{
 .copyright{
   font-size:12px;
   text-align: center;
-  color: #fff;
+  color: #999;
 }
 
 /*select 화살표 이미지*/
@@ -149,7 +150,7 @@ h3.title {
     text-align: center;
     margin-top: 5px;
     margin-bottom: 10px;
-    color:#fff;
+    color : #999;
 }
 #container .go_thealls:hover{
     color: #999;
