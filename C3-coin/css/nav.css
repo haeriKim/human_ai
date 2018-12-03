@@ -11,7 +11,7 @@ input[type='checkbox'] + label#m_navBtn:before {
     position: absolute;
     top: 27px;
     right: 35px;
-    z-index: 9999;
+    z-index: 999;
     transition: all 0.7s;
     width: 30px;
     line-height: 1px;
@@ -137,7 +137,7 @@ input[type='checkbox'] + label#m_navBtn:before {
   border: none;
 }
 .nav_bottom button:hover {
-  background-color: #464350;
+  background-color: #00baff;
   cursor: pointer;
 }
 .nav_bottom button a {

@@ -68,6 +68,7 @@
     text-align: center;
     margin-bottom: 10%;
     padding-top: 10%;
+    max-width: 250px;
   }
   .login_content .login_inner .login_input .inputArea {
     margin-bottom: 12px;
