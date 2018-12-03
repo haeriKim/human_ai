@@ -1,0 +1,5 @@
+.sendReceiveHistory_content .receiveHistory,
+.sendReceiveHistory_content .sendHistory {
+    width: 500px;
+    margin: 0 auto;
+}

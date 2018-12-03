@@ -1,0 +1,135 @@
+.join_content select{
+    margin: 5px 0;
+    width: 442px;
+}
+.join_box{
+  text-align:center;
+}
+.join_box .join_inner{
+  width:600px;
+  text-align: center;
+  margin:0 auto;
+}
+.join_box .join_inner .phone_wrap{
+    overflow: hidden;
+    width: 442px;
+    margin:0 auto;
+}
+.join_box .join_inner .user_phone{
+    float: left;
+    width: 74%;
+}
+.join_box .join_inner .request_number_bt{
+    float: left;
+    width: 18%;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 5px;
+    line-height: 36px;
+    background-color: #fff;
+    border: 2px solid #ed1b23;
+    color: #ed1b23;
+}
+.join_box .join_inner .request_number_bt:hover{
+    box-sizing: border-box;
+    border: none;
+    color: #fff;
+    background: #ed1b23;
+}
+.join_box .join_inner .user_id{
+  width:70%;
+}
+.join_box .join_inner .join_text{
+  text-align:center;
+  width:600px;
+}
+.join_box .join_inner .join_span span{
+  font-size:12px;
+  color:#fffsss;
+  width:380px;
+  display:inline-block;
+  text-align:center;
+  margin:20px;
+}
+.join_text input{
+  width:70%;
+  margin:10px 0;
+}
+.join_text p{
+  font-size:12px;
+}
+.join_text .copyright{
+  font-size:12px;
+}
+#full{
+  display:none;
+}
+@media all and (min-width:320px) and (max-width:768px){
+  #container .content .title, #container .content form, #container .content .text, #container .content .main_menu, #container .content .sendHistory{
+    width:100%;
+    text-align: center;
+    margin-bottom:10px;
+  }
+  #container .join_content select{
+    width: 75.2%;
+  }
+  @media (max-width:320px){
+      #container .join_content select{
+        width: 246px;
+      }
+  }
+  @media (min-width:768px){
+      #container .join_content select{
+        width: 72.864%;
+      }
+      #wrap #container .join_box .join_inner .phone_wrap{
+        width: 73%;
+      }
+      #container .join_box .join_inner .user_phone{
+        width: 71%;
+      }
+  }
+  .join_box{
+    width:100%;
+  }
+  .join_box .join_inner{
+    width:100%;
+    text-align: center;
+    margin:0 auto;
+  }
+  #container .join_box .join_inner .phone_wrap{
+    width: 75%;
+  }
+  .join_box .join_inner .request_number_bt{
+      font-size: 13px;
+      width: 23%;
+      margin-left: 1%;
+    }
+  .join_box .join_inner .join_text{
+    text-align:center;
+    width:100%;
+  }
+  .join_box .join_inner .user_id{
+    width:70%;
+  }
+  .join_box .join_inner .user_phone{
+    width:66%;
+  }
+  .join_box .join_inner .join_span span{
+    width:70%;
+    margin:5% 0;
+  }
+  .join_text input{
+    width:67%;
+  }
+  .join_text p{
+    font-size:12px;
+  }
+  .join_text .copyright{
+    font-size:12px;
+  }
+#full{
+    width:100%;
+  }
+
+}

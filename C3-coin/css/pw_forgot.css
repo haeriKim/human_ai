@@ -1,0 +1,66 @@
+.findPw_content form{
+    width: 500px;
+    margin: 0 auto;
+}
+.findPw_content form input{
+    width: 90%;
+    margin: 10px 0;
+}
+.findPw_content select.country_select{
+    width: 94.4%;
+    margin: 10px 0;
+    padding: 10px;
+    padding-left: 0;
+    border: none;
+    color: #bb0000;
+}
+.findPw_content form div.phone_wrap{
+    overflow: hidden;
+    width: 100%;
+}
+.findPw_content form input.user_phone{
+    float: left;
+    width: 70%;
+}
+.findPw_content form input.code_send{
+    float: left;
+    width: 18%;
+    height: 40px;
+    margin-left: 10px;
+    line-height: 36px;
+    background-color: #fff;
+    border: 2px solid #ed1b23;
+    color: #ed1b23;
+}
+.findPw_content form input.code_send:hover{
+    background-color: #ed1b23;
+    color: #fff;
+    border: none;
+    box-sizing: border-box;
+}
+.findPw_content form input.find_pw_btn{
+    width: 94%;
+}
+#full{
+  display:none;
+}
+
+@media (min-width:320px) and (max-width:768px){
+    #container .findPw_content select.country_select{
+        width: 97%;
+        max-width: 574.94px;
+    }
+    @media (max-width:320px){
+        #container .findPw_content select.country_select{
+            width: 252.39px;
+        }
+    }
+    #container .findPw_content form input.user_phone{
+        width: 66%;
+    }
+    #container .findPw_content form input.code_send{
+        font-size: 13px;
+        width: 23%;
+        margin-left: 1%;
+    }
+}

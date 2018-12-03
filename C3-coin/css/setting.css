@@ -1,0 +1,86 @@
+.changeInfo_content .changePn, .changeInfo_content .changePw {
+  width: 50%;
+  float: left;
+}
+.changeInfo_content form{
+    width: 500px;
+    margin: 0 auto;
+}
+.changeInfo_content form input{
+    width: 90%;
+    margin: 10px 0;
+}
+.changeInfo_content select{
+    border:none;
+    padding: 10px;
+}
+.changeInfo_content select.country_select{
+    margin: 10px 0;
+    width: 94%;
+    font-size: 15px;
+    border: 1px solid rgba(0,0,0,.3);
+}
+.changeInfo_content form div.phone_wrap{
+    overflow: hidden;
+    margin:0 auto;
+}
+.changeInfo_content form input.user_phone{
+    float: left;
+    width: 69%;
+}
+.changeInfo_content form input.code_send{
+    float: left;
+    width: 18%;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+    line-height: 36px;
+    background-color: #fff;
+    color: #ed1b23;
+    border: 2px solid #ed1b23;
+}
+.changeInfo_content form input.code_send:hover{
+    box-sizing: border-box;
+    border: none;
+    color: #fff;
+    background: #ed1b23;
+}
+.changeInfo_content .btnArea {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.changeInfo_content .btnArea input.changeInfo_btn{
+  margin: 50px 0 20px 0;
+  width: 20%;
+}
+#full,
+#shadow{
+    display: none;
+}
+@media all and (min-width:320px) and (max-width:768px){
+  .changeInfo_content .changePn, .changeInfo_content .changePw  {
+    width: 100%;
+    float: none;
+  }
+    #container .changeInfo_content form input.code_send{
+        font-size: 13px;
+        width: 23%;
+        margin-left: 1%;
+    }
+    #container .changeInfo_content form input.user_phone{
+        width: 64%;
+    }
+    h3.second_title {
+      margin-top: 50px;
+    }
+    .changeInfo_content .btnArea input.changeInfo_btn {
+      width: 45%;
+      margin: 20px 0 30px;
+    }
+     @media (min-width:768px){
+        #wrap #container .changeInfo_content form input.user_phone{
+            width: 66%;
+        }
+     }
+}

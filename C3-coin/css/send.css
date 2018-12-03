@@ -1,0 +1,67 @@
+.changeInfo_content .my_coin_box{
+    overflow: hidden;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #fff;
+    margin-right: 10px;
+    padding: 10px 0 10px 10px;
+}
+.changeInfo_content .my_coin_box .my_coin{
+  float:left;
+  display: block;
+  width: 100%;
+}
+.changeInfo_content .my_coin_box .my_coin_number{
+  float:right;
+  margin-right:10px;
+  font-weight: 600;
+}
+.changeInfo_content form{
+    width: 500px;
+    margin: 0 auto;
+}
+.changeInfo_content form input{
+    width: 94%;
+    margin: 10px 0;
+}
+.changeInfo_content form input.borderNone {
+    border: none;
+    background: rgba(0,0,0,.5);
+}
+.changeInfo_content form input.borderNone::placeholder {
+    color: #fff;
+}
+.changeInfo_content select{
+    border:none;
+    padding: 10px;
+}
+.changeInfo_content select.country_select{
+    border-bottom: 1px solid #FFE106;
+    margin: 10px 0;
+    width: 94%;
+    color: #757575;
+    font-size: 15px;
+}
+.changeInfo_content form div.phone_wrap{
+    position: relative;
+}
+.changeInfo_content form input.code_send{
+    position: absolute;
+    top: 0;
+    width: 20%;
+    padding: 6px 0;
+    right: 6%;
+}
+.changeInfo_content form .btnArea {
+  margin-top: 30px;
+}
+.changeInfo_content form input.changeInfo_btn{
+    width: 98%;
+}
+/* mobile ver */
+@media all and (min-width:320px) and (max-width:768px){
+  .changeInfo_content .my_coin_box {
+    font-size: 18px;
+    width: 97%;
+  }
+}

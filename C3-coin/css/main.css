@@ -1,0 +1,95 @@
+.main_content .title{
+    width: 500px;
+    margin: 20px auto;
+    overflow: hidden;
+    text-align: left;
+}
+.main_content .title .have_coin{
+    float: right;
+}
+.main_content .main_menu{
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.main_content .main_menu ul{
+    overflow: hidden;
+}
+.main_content .main_menu ul li{
+    width: 47%;
+    float: left;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 168px;
+    border: 3px solid #fff;
+    margin-right: 8px;
+    height: 230px;
+    border-radius: 150px;
+    box-sizing: border-box;
+}
+.main_content .main_menu ul li.send_li{
+    background: #fff url(../img/180_icon_send.png) no-repeat center 33px / 61%;
+}
+.main_content .main_menu ul li.receive_li{
+    background: #fff url(../img/180_icon_recive.png) no-repeat center 26px / 61%;
+}
+.main_content .main_menu ul li.sendList_li{
+    background: #fff url(../img/180_icon_sendList.png) no-repeat 55% 26px / 61%;
+}
+.main_content .main_menu ul li.receiveList_li{
+    background: #fff url(../img/180_icon_reciveList.png) no-repeat 55% 26px / 61%;
+}
+.main_content .main_menu ul li.setting_li{
+    background: #fff url(../img/180_icon_setting.png) no-repeat center 26px / 61%;
+}
+.main_content .main_menu ul li.contact_li{
+    background: #fff url(../img/180_icon_contact.png) no-repeat center 22px / 61%;
+}
+.main_content .main_menu ul li:hover{
+    cursor: pointer;
+    /* opacity: .5; */
+    border: 5px solid #464350;
+}
+.main_content .main_menu ul li p{
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: 600;
+    color: #464350;
+}
+.main_content .main_menu ul li:hover p{
+    color:#ed1b23;
+}
+
+@media (max-width:768px) {
+  .main_content .title {
+    padding: 0 15px;
+    width: 80%;
+    box-sizing: border-box;
+  }
+  #container .main_content .main_menu ul li {
+      margin-right: 7px;
+      background-size: 55%;
+      border-radius: 60%;
+      padding-top: 30%;
+      background-position-y: 27%;
+      height: 150px;
+    }
+  .main_content .main_menu ul li p {
+    font-size: 16px;
+  }
+  /*아이폰 5*/
+  @media (max-width:320px) {
+    #wrap #container .main_content .main_menu ul li {
+        height: 123px;
+    }
+  }
+  @media (min-width:768px) and (max-width:768px) {
+      #container .main_content .main_menu ul li {
+        height: 270px;
+      }
+      #container .main_content .main_menu ul li p{
+          font-size: 20px;
+          margin-top: 25px;
+      }
+  }
+}
