@@ -36,7 +36,7 @@
                 <div class="title_wrap">
                     <h3 class='title'>
                         내잔고
-                        <span class='have_coin'>0 RAC</span>
+                        <span class='have_coin'>0 C3C</span>
                     </h3>
                     <!-- <div class="line"></div> -->
                 </div>
