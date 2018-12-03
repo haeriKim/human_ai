@@ -1,6 +1,5 @@
 .changeInfo_content .changePn, .changeInfo_content .changePw {
-  width: 50%;
-  float: left;
+
 }
 .changeInfo_content form{
     width: 500px;
@@ -18,7 +17,7 @@
     margin: 10px 0;
     width: 94%;
     font-size: 15px;
-    border: 1px solid rgba(0,0,0,.3);
+    border: 1px solid rgba(144,195,31,1);
 }
 .changeInfo_content form div.phone_wrap{
     overflow: hidden;
@@ -36,14 +35,14 @@
     margin-top: 10px;
     line-height: 36px;
     background-color: #fff;
-    color: #ed1b23;
-    border: 2px solid #ed1b23;
+    color: #90c31f;
+    border: 2px solid #90c31f;
 }
 .changeInfo_content form input.code_send:hover{
     box-sizing: border-box;
     border: none;
     color: #fff;
-    background: #ed1b23;
+    background: #90c31f;
 }
 .changeInfo_content .btnArea {
   display: block;
