@@ -49,7 +49,7 @@
                   <!-- banner_slide-->
                   <div class="slide">
                     <ul class="panel">
-                      <li class="banner1"></li>
+                      <li class="banner1 on"></li>
                       <li class="banner2"></li>
                       <li class="banner3"></li>
                       <li class="banner4"></li>

@@ -8,33 +8,35 @@
 .slide {
   position: relative;
   overflow: hidden;
-  width:100%;
+  width:1300px;
   height:300px;
 }
 .panel {
-  width: 500%;
+  width: 1300px;
+  position: relative;
+  height: 300px;
 }
-.panel:after {
+/* .panel:after {
   content: "";
   display: block;
   clear: both;
-}
+} */
 .panel>li {
-  /*width: 100%;
+  width: 100%;
   height: 300px;
-  float: left;
-  background-repeat: no-repeat;
-  background-size: 100%;
+  /* float: left; */
+  /* background-repeat: no-repeat; */
+  /* background-size: 100%; */
   position: absolute;
   top: 0;
-  left: 0;*/
+  left: 0;
 
-  width: 20%;
+  /* width: 20%;
   height: 300px;
   float: left;
   background-repeat: no-repeat;
   background-size: 100%;
-  position: relative;
+  position: relative; */
 }
 .panel .banner1 {
   background:url(../img/banner01.png) no-repeat 0 0; background-size:cover;
@@ -51,11 +53,11 @@
 .panel .banner5 {
   background:url(../img/banner05.png) no-repeat 0 0; background-size:cover;
 }
-.dot:after {
+/* .dot:after {
   content: "";
   display: block;
   clear: both;
-}
+} */
 .dot {
   position: absolute;
   left: 46.5%;
@@ -319,7 +321,7 @@
   display:none;
 }
 
-@media all and (min-width:320px) and (max-width:768px){
+@media all and (min-width:320px) and (max-width:1023px){
       #wrap{
         display:none;
       }
@@ -449,7 +451,6 @@
       top:45%;
       left:4%;
       width:30px;
-      cursor:pointer;
       opacity: 0.5;
     }
     .app_next1 img{
@@ -457,7 +458,6 @@
       top:45%;
       right:4%;
       width:30px;
-      cursor:pointer;
       opacity: 0.5;
     }
 

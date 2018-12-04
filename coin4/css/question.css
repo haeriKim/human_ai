@@ -517,7 +517,7 @@
 }
 /*1:1문의 세부내용 End*/
 
-@media all and (min-width:320px) and (max-width:768px){
+@media all and (min-width:320px) and (max-width:1023px){
   /* 1:1 문의하기 */
   .question_inner .question_text {
     font-size: 13px;

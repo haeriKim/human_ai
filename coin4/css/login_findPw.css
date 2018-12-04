@@ -8,11 +8,11 @@
     padding-bottom:30px;
 }
 .login_content #login_find_pw p.notfiy_info{
-    color:red;
-    font-size:11px;
+    color:#f35531;
+    font-size:13px;
     margin-left:5px;
     margin-bottom: 20px;
-    display: none;
+    /* display: none; */
 }
 .login_content #login_find_pw input{
     border-style:none;

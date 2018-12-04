@@ -1,110 +1,110 @@
 //slide 슬라이드
 
-$(document).ready(function() {
-  slide();
+// $(document).ready(function() {
+//   slide();
+//
+// // 슬라이드
+// function slide() {
+//   var wid = 0;
+//   var now_num = 0;
+//   var slide_length = 0;
+//   var auto = null;
+//   var $dotli = $('.dot>li');
+//   var $panel = $('.panel');
+//   var $panelLi = $panel.children('li');
+//   var $arrowLi = $('.prev1 img,.next1 img');
+//   // 변수 초기화
+//   function init() {
+//     wid = $('.slide').width();
+//     now_num = $('.dot>li.on').index();
+//     slide_length = $dotli.length;
+//   }
+//   // 이벤트 묶음
+//   function slideEvent() {
+//     // 슬라이드 하단 dot버튼 클릭했을때
+//     $dotli.click(function() {
+//       now_num = $(this).index();
+//       slideMove();
+//     });
+//     // 이후 버튼 클릭했을때
+//     $('.next1').click(function() {
+//       nextChkPlay();
+//     });
+//     // 이전 버튼 클릭했을때
+//     $('.prev1').click(function() {
+//       prevChkPlay();
+//     });
+//     autoPlay();
+//     autoPlayStop();
+//     autoPlayRestart();
+//     resize();
+//   }
+//   // 자동실행 함수
+//   function autoPlay() {
+//     auto = setInterval(function() {
+//       nextChkPlay();
+//     }, 5000);
+//   }
+//   // 자동실행 멈춤
+//   function autoPlayStop() {
+//     $panelLi.mouseenter(function() {
+//       clearInterval(auto);
+//     });
+//   }
+//   $('.prev1, .next1, .dot').hover(function(){
+//     clearInterval(auto);
+//   }, function(){
+//     slide();
+//   })
+//   // 자동실행 멈췄다가 재실행
+//   function autoPlayRestart() {
+//     $panelLi.mouseleave(function() {
+//       auto = setInterval(function() {
+//         nextChkPlay();
+//       }, 5000);
+//     });
+//   }
+//   // 이전 버튼 클릭시 조건 검사후 슬라이드 무브
+//   function prevChkPlay() {
+//     if (now_num == 0) {
+//       now_num = slide_length - 1;
+//     } else {
+//       now_num--;
+//     }
+//     slideMove();
+//   }
+//   // 이후 버튼 클릭시 조건 검사후 슬라이드 무브
+//   function nextChkPlay() {
+//     if (now_num == slide_length - 1) {
+//       now_num = 0;
+//     } else {
+//       now_num++;
+//     }
+//     slideMove();
+//   }
+//   // 슬라이드 무브
+//   function slideMove() {
+//     $panel.stop().animate({
+//       'margin-left': -wid * now_num
+//     });
+//     $dotli.removeClass('on');
+//     $dotli.eq(now_num).addClass('on');
+//   }
+//   // 화면크기 조정시 화면 재설정
+//   function resize() {
+//     $(window).resize(function() {
+//       init();
+//       $panel.css({
+//         'margin-left': -wid * now_num
+//       });
+//     });
+//   }
+//   init();
+//   slideEvent();
+// }
+// });
 
-// 슬라이드
-function slide() {
-  var wid = 0;
-  var now_num = 0;
-  var slide_length = 0;
-  var auto = null;
-  var $dotli = $('.dot>li');
-  var $panel = $('.panel');
-  var $panelLi = $panel.children('li');
-  var $arrowLi = $('.prev1 img,.next1 img');
-  // 변수 초기화
-  function init() {
-    wid = $('.slide').width();
-    now_num = $('.dot>li.on').index();
-    slide_length = $dotli.length;
-  }
-  // 이벤트 묶음
-  function slideEvent() {
-    // 슬라이드 하단 dot버튼 클릭했을때
-    $dotli.click(function() {
-      now_num = $(this).index();
-      slideMove();
-    });
-    // 이후 버튼 클릭했을때
-    $('.next1').click(function() {
-      nextChkPlay();
-    });
-    // 이전 버튼 클릭했을때
-    $('.prev1').click(function() {
-      prevChkPlay();
-    });
-    autoPlay();
-    autoPlayStop();
-    autoPlayRestart();
-    resize();
-  }
-  // 자동실행 함수
-  function autoPlay() {
-    auto = setInterval(function() {
-      nextChkPlay();
-    }, 5000);
-  }
-  // 자동실행 멈춤
-  function autoPlayStop() {
-    $panelLi.mouseenter(function() {
-      clearInterval(auto);
-    });
-  }
-  $('.prev1, .next1, .dot').hover(function(){
-    clearInterval(auto);
-  }, function(){
-    slide();
-  })
-  // 자동실행 멈췄다가 재실행
-  function autoPlayRestart() {
-    $panelLi.mouseleave(function() {
-      auto = setInterval(function() {
-        nextChkPlay();
-      }, 5000);
-    });
-  }
-  // 이전 버튼 클릭시 조건 검사후 슬라이드 무브
-  function prevChkPlay() {
-    if (now_num == 0) {
-      now_num = slide_length - 1;
-    } else {
-      now_num--;
-    }
-    slideMove();
-  }
-  // 이후 버튼 클릭시 조건 검사후 슬라이드 무브
-  function nextChkPlay() {
-    if (now_num == slide_length - 1) {
-      now_num = 0;
-    } else {
-      now_num++;
-    }
-    slideMove();
-  }
-  // 슬라이드 무브
-  function slideMove() {
-    $panel.stop().animate({
-      'margin-left': -wid * now_num
-    });
-    $dotli.removeClass('on');
-    $dotli.eq(now_num).addClass('on');
-  }
-  // 화면크기 조정시 화면 재설정
-  function resize() {
-    $(window).resize(function() {
-      init();
-      $panel.css({
-        'margin-left': -wid * now_num
-      });
-    });
-  }
-  init();
-  slideEvent();
-}
-});
 
-/*
 //메인 슬라이드 배너 수정본
 function bannerset(bn,dir){
     if(dir=='right'){
@@ -188,7 +188,7 @@ $(document).ready(function(){
         $('.arrow_area .next1').trigger('click');
     }
     st = setInterval(trigger,5000)
-})*/
+})
 
 //메인_카드현황
 $(document).ready(function(){
@@ -1304,12 +1304,6 @@ $(document).ready(function() {
     }
     // 이벤트 묶음
     function slideEvent() {
-      // 슬라이드 하단 dot버튼 클릭했을때
-      $app_dotli.click(function() {
-        app_now_num = $(this).index();
-        slideMove();
-      });
-      // 이후 버튼 클릭했을때
       $('.app_next1').click(function() {
         nextChkPlay();
       });
@@ -1318,8 +1312,6 @@ $(document).ready(function() {
         prevChkPlay();
       });
       autoPlay();
-      autoPlayStop();
-      autoPlayRestart();
       resize();
     }
     // 자동실행 함수
@@ -1327,25 +1319,6 @@ $(document).ready(function() {
       app_auto = setInterval(function() {
         nextChkPlay();
       }, 5000);
-    }
-    // 자동실행 멈춤
-    function autoPlayStop() {
-      $app_panelLi.mouseenter(function() {
-        clearInterval(app_auto);
-      });
-    }
-    $('.app_prev1, .app_next1').hover(function(){
-      clearInterval(app_auto);
-    }, function(){
-      app_slide();
-    })
-    // 자동실행 멈췄다가 재실행
-    function autoPlayRestart() {
-      $app_panelLi.mouseleave(function() {
-        app_auto = setInterval(function() {
-          nextChkPlay();
-        }, 5000);
-      });
     }
     // 이전 버튼 클릭시 조건 검사후 슬라이드 무브
     function prevChkPlay() {
@@ -1367,8 +1340,8 @@ $(document).ready(function() {
     }
     // 슬라이드 무브
     function slideMove() {
-      $app_panel.stop().animate({
-        'margin-left': -app_wid * app_now_num
+      $app_panelLi.stop().animate({
+        'left': -app_wid * app_now_num
       });
       $app_dotli.removeClass('app_on');
       $app_dotli.eq(app_now_num).addClass('app_on');
@@ -1377,8 +1350,8 @@ $(document).ready(function() {
     function resize() {
       $(window).resize(function() {
         init();
-        $app_panel.css({
-          'margin-left': -app_wid * app_now_num
+        $app_panelLi.css({
+          'left': -app_wid * app_now_num
         });
       });
     }
@@ -1386,6 +1359,7 @@ $(document).ready(function() {
     slideEvent();
   }
   });
+
 /*반응형 로그인 말풍선*/
 $(document).ready(function(){
     var click_time = 1;

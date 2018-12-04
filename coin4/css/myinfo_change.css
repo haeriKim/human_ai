@@ -267,12 +267,13 @@ cursor: pointer;
 /*change_OTP*/
 
 .change_OTP_table{
-  width: 100%;
-  margin-top:40px;
-  margin-bottom:60px;
-  text-align:left;
-  border-left: none;
-  height: 40px;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    text-align: left;
+    border-left: none;
+    height: 40px;
+    border: 1px solid #7aabdf;
 }
 .change_OTP_table_text{
   margin-top:40px;
@@ -285,10 +286,11 @@ cursor: pointer;
   font-size: 14px;
   font-weight: 600;
   width: 35%;
+  text-align: center;
 }
 .change_OTP_table td{
-  position:relative;
-  padding:5px;
+    position: relative;
+    padding: 10px 20px 10px 16px;
 }
 .change_OTP_table .input_your_sms_number{
   border: none;
