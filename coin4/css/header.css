@@ -102,3 +102,13 @@
       display: none;
   }
 }
+
+/*PC 1024 - 1599*/
+@media all and (min-width:1024px) and (max-width:1599px){
+    #header_wrap{
+        left: 8%;
+    }
+    #header .current_coin ul li.stock_header{
+        font-size: 13px;
+    }
+}

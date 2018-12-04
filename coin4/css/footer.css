@@ -132,3 +132,40 @@
       font-size: 14px;
     }
 }
+/*PC 1024 - 1451*/
+@media all and (min-width:1024px) and (max-width:1467px){
+    #footer_wrap{
+        height: 150px;
+    }
+    #footer{
+        padding-left: 12%;
+    }
+    .compnay_info{
+        margin-right: 5%;
+    }
+    .footer_menu{
+        float: left;
+        text-align: left;
+    }
+    .footer_menu strong{
+        font-size: 13px;
+    }
+    .footer_menu .footer_nav ul.left{
+        margin-left: 0;
+    }
+    .footer_menu .footer_nav ul li{
+        font-size: 13px;
+    }
+    @media (min-width:1430px) and (max-width : 1467px){
+        .footer_menu strong{
+            font-size: 15px;
+        }
+        #footer_wrap{
+            height: 5%;
+        }
+        .footer_menu{
+            float: right;
+            text-align: right;
+        }
+    }
+}
