@@ -151,13 +151,13 @@
                                   </tr>
 
                                   <tr>
-                                    <th>새로운 보안 비밀번호</th>
+                                    <th>새로운 보안비밀번호</th>
                                     <td>
                                       <input type="password" name="" value="" placeholder="새로운 보안 비밀번호를 입력하세요." required maxlength="4" minlength="4" />
                                       <div class="question_smallbox"><img src="img/question.png">
                                         <div class="password_question_detail2">
                                               <strong>
-                                                안전한 비밀번호 작성법
+                                                안전한 보안비밀번호 작성법
                                               </strong>
                                               - 숫자로 이루어진 4자리 보안 비밀번호를 입력해주세요.<br/>
                                               - 해킹사고 방지를 위해 보안비밀번호를 자주 변경해주세요.<br/>
@@ -169,7 +169,7 @@
                                     </td>
                                   </tr>
                                   <tr>
-                                    <th>새로운 보안 비밀번호 확인</th>
+                                    <th>새로운 보안비밀번호 확인</th>
                                     <td>
                                       <input type="password" class='user_security' name="security" value="" placeholder="새로운 보안 비밀번호를 다시 입력하세요." maxlength="4" minlength='4' required/>
                                       <p id='warning_message'>비밀번호가 일치하지 않습니다.</p>

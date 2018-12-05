@@ -133,7 +133,7 @@
                                         <input type="password" name="" value="" placeholder="새로운 보안비밀번호를 입력하세요." required maxlength="4" minlength="4" />
                                         <div class="question_smallbox"><img src="img/question.png">
                                           <div class="password_question_detail2">
-                                                <strong>안전한 비밀번호 작성법</strong>
+                                                <strong>안전한 보안비밀번호 작성법</strong>
                                                 -숫자로 이루어진 4자리 보안 비밀번호를 입력해주세요.<br/>
                                                 -해킹사고 방지를 위해 보안비밀번호를 자주 변경해주세요.<br/>
                                                 -4자리의 중복 및 연속 숫자, 휴대폰 번호, 이메일 주소의 숫자,<br/>

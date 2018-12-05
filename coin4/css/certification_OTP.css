@@ -150,6 +150,7 @@
     background-color: #7AABDF;
     margin-top: 40px;
     cursor: pointer;
+    width: 100px;
 }
 .cText_right3 .OTP_complete:hover {
 }

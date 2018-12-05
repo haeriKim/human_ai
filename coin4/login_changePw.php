@@ -63,7 +63,7 @@
                             <div class="question_smallbox"><img src="img/question.png">
                               <div class="password_question_detail">
                                     <strong>
-                                      안전한 비밀번호 작성 법
+                                      안전한 로그인 비밀번호 작성법
                                     </strong>
                                     - 비밀번호는 영문 소문자, 대문자, 숫자, 특수문자를 포함하여 10자리 이상으로 만드셔야 합니다. <br />
                                     - 비밀번호는 최대한 길게 작성해주세요.<br />
@@ -101,7 +101,7 @@
                           </div>
                           <div class="password_question_detail2">
                                 <strong>
-                                  안전한 비밀번호 작성 법
+                                  안전한 로그인 비밀번호 작성법
                                 </strong><br/>
                                 <br/>
                                 - 비밀번호는 영문 소문자, 대문자, 숫자, 특수문자를 포함하여 10자리 이상으로 만드셔야 합니다. <br />
