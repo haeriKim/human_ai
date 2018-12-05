@@ -1264,3 +1264,7 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
 .delay{
     color: #EAAF69
 }
+/*PC 1024 - 1599*/
+@media all and (min-width:1024px) and (max-width:1599px){
+    
+}

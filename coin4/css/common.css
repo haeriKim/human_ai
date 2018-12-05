@@ -1302,3 +1302,14 @@ box-shadow:none;
         color: #fff;
     }
 }
+/*PC 1024 - 1599*/
+@media all and (min-width:1024px) and (max-width:1599px){
+    .content_wrap{
+        margin-left:10%;
+    }
+    #wrap .mycoin_tab li{
+        width: 33.3%;
+        box-sizing: border-box;
+        height: 76px;
+    }
+}

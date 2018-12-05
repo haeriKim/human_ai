@@ -363,7 +363,7 @@
   display: inline-block;
   text-decoration: underline;
   margin-top: 20px;
-  color: #666;
+  color: #fff;
   font-size: 14px;
 }
 .popup a.join_btn:hover {
@@ -385,7 +385,7 @@
 /*비트코인 출금신청 팝업창 표 서식*/
 .coin_withdrawal_box{
     width: 607px;
-    left: 47%;
+    left: 50%;
 }
 .coin_withdrawal_box .left_thick_table {
     margin-bottom: 30px;
