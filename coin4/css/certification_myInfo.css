@@ -161,3 +161,17 @@ table .password_question_detail:before, table .password_question_detail2:before 
   vertical-align: -3px;
   margin-right: 2px;
 }
+
+@media all and (min-width:1024px) and (max-width:1599px){
+  .myinfo_sub_box table.left_thick_table tbody input[type='password'],
+  .myinfo_sub_box table.left_thick_table tbody input[type='text']
+  {
+    width:300px;
+  }
+  table .password_question_detail2{
+    font-size:12px;
+  }
+  .myinfo_text_box{
+    font-size:12px;
+  }
+}

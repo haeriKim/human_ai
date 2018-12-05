@@ -293,3 +293,21 @@
   font-size: 16px;
   background-color: #7AABDF;
 }
+
+@media all and (min-width:1024px) and (max-width:1599px){
+  .center_bottom strong{
+    font-size:12px;
+  }
+  .cText_left2 ul li{
+    font-size:12px;
+  }
+  .cer_center .center_bottom .cText_left2{
+    width:43%;
+  }
+  .cText_left2 ul li.account_line{
+    width:250px;
+  }
+  .cText_right2 p{
+    font-size:12px;
+  }
+}

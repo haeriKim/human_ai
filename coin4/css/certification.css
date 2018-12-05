@@ -212,3 +212,33 @@
 .lv_05{
     display: inline-block;
 } */
+
+@media all and (min-width:1024px) and (max-width:1599px){
+
+  .cer_center .center_bottom .cText_left .current_level b{
+    font-size:15px;
+  }
+  .cer_center .center_bottom .cText_left strong{
+    font-size:12px;
+  }
+  .cer_center .center_bottom .cText_left p {
+    font-size:11px;
+  }
+  .cer_center .center_bottom .cText_right li img{
+    width:35px;
+  }
+  .cer_center .center_bottom .cText_right li p{
+    font-size:12px;
+  }
+  .cer_center .center_bottom .cText_right li .c_btn{
+    width:25%;
+    font-size:12px;
+  }
+  .cer_center .center_bottom .cText_left .current_level{
+    margin-bottom:30px;
+  }
+  .cer_center .center_bottom .cText_left{
+    margin-right:2%;
+    padding-right:1%;
+  }
+}

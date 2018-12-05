@@ -220,3 +220,35 @@
 #full .popupbox_text{
   margin-bottom:40px;
 }
+
+@media all and (min-width:1024px) and (max-width:1599px){
+  /*알람*/
+  .alarm_area .alarm_list thead th{
+    font-size:12px;
+  }
+  .alarm_area .alarm_list tbody td{
+    font-size:12px;
+  }
+  #left_text{
+    padding-left:1%;
+  }
+  /*알람setting*/
+  .alarm_area .alarm_setting{
+    margin-left:0;
+  }
+  .alarm_area .alarm_setting .alarm_sangse_pyo1{
+    width:50%;
+  }
+  .alarm_area .alarm_setting p.title{
+    margin:30px 14%;
+  }
+  .alarm_area .alarm_setting .alarm_sangse_pyo1 th{
+    font-size:12px;
+  }
+  .alarm_area .alarm_setting .alarm_sangse_pyo1 td{
+    font-size:12px;
+  }
+  .alarm_area .alarm_setting .alarm_sangse_pyo2{
+    font-size:12px;
+  }
+}

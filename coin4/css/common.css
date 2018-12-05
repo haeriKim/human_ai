@@ -1312,4 +1312,68 @@ box-shadow:none;
         box-sizing: border-box;
         height: 76px;
     }
+    .content{
+    }
+    .content_wrap{
+      margin-left:16%;
+    }
+    .con_1250{
+      width:80%;
+      padding:0;
+    }
+    .content_nav{
+      width: 15%;
+      margin-right: 1%;
+      padding:1%;
+    }
+    .content_nav h4 {
+      font-size:18px;
+    }
+    .content_nav li a {
+      font-size:13px;
+      padding: 7px 2px;
+    }
+    .content_nav li .nav_dropdown{
+      margin-top:10px;
+      margin-left:0;
+    }
+    .content_nav li .nav_dropdown dt a{
+      font-size:11px;
+    }
+
+    /*테이블*/
+    table.left_thick_table tbody th{
+      padding: 2px 7px;
+      font-size:12px;
+    }
+    table.left_thick_table tbody td{
+      font-size:12px;
+    }
+
+    /*인증센터 그림*/
+    .cer_center .cer_level{
+      padding-left:2%;
+    }
+    .cer_center .cer_level li {
+      width:17%;
+    }
+    .cer_center .cer_level li > img{
+      width:35px;
+    }
+    .cer_center .cer_level li .img_area{
+      width:100px;
+      height:100px;
+      line-height:140px;
+      margin:0 auto;
+    }
+    .cer_center .cer_level li .img_area img{
+      width:50px;
+    }
+    .cer_center .cer_level li strong{
+      font-size:13px;
+    }
+    .cer_center .cer_level li span{
+      font-size:11px;
+      font-weight:500;
+    }
 }
