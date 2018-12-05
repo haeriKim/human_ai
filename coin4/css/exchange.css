@@ -876,7 +876,7 @@
 #main_full{
     display: none;
 }
-@media all and (min-width:320px) and (max-width:1023px){
+@media all and (min-width:320px) and (max-width:1024px){
 #main_full{
     display: block;
 }
@@ -1098,7 +1098,7 @@
      line-height: initial;
  }
  /*input창 어긋나는 부분 보완*/
- @media all and (min-width:412px) and (max-width:1023px){
+ @media all and (min-width:412px) and (max-width:1024px){
      #buy_sell_tab dd input[type='text']{
          width: 67%;
      }
@@ -1108,7 +1108,7 @@
      }
  }
  /*ipad*/
- @media all and (min-width:1023px) and (max-width:1023px){
+ @media all and (min-width:1024px) and (max-width:1024px){
      #buy_sell_tab dd input[type='text']{
          width: 348px;
      }

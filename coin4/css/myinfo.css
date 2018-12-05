@@ -228,7 +228,7 @@
 .myinfo_sub_box .change_text:hover{
   color:#eaaf69;
 }
-@media all and (min-width:1024px) and (max-width:1599px){
+@media all and (min-width:1025px) and (max-width:1599px){
   .myinfo_sub_box .myinfo_table th{
     width:20%;
   }

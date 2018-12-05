@@ -221,7 +221,7 @@
   margin-bottom:40px;
 }
 
-@media all and (min-width:1024px) and (max-width:1599px){
+@media all and (min-width:1025px) and (max-width:1599px){
   /*알람*/
   .alarm_area .alarm_list thead th{
     font-size:12px;

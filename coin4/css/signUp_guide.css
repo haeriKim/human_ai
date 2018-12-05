@@ -92,7 +92,7 @@ body #header_wrap .header{
 }
 
 /*반응형*/
-@media all and (min-width:320px) and (max-width:1023px){
+@media all and (min-width:320px) and (max-width:1024px){
     #container #header_wrap{
         display: block;
     }
@@ -154,7 +154,7 @@ body #header_wrap .header{
         font-size: 1.2em;
     }
 }
-@media all and (min-width:721px) and (max-width:1023px){
+@media all and (min-width:721px) and (max-width:1024px){
     #header_wrap .guide_text,
     .main_content .title,
     .main_content .intro_text,

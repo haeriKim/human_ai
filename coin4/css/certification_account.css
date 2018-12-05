@@ -294,7 +294,7 @@
   background-color: #7AABDF;
 }
 
-@media all and (min-width:1024px) and (max-width:1599px){
+@media all and (min-width:1025px) and (max-width:1599px){
   .center_bottom strong{
     font-size:12px;
   }

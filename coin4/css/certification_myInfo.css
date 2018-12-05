@@ -162,7 +162,7 @@ table .password_question_detail:before, table .password_question_detail2:before 
   margin-right: 2px;
 }
 
-@media all and (min-width:1024px) and (max-width:1599px){
+@media all and (min-width:1025px) and (max-width:1599px){
   .myinfo_sub_box table.left_thick_table tbody input[type='password'],
   .myinfo_sub_box table.left_thick_table tbody input[type='text']
   {

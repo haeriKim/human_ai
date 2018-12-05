@@ -55,7 +55,7 @@
 }
 
 
-@media all and (min-width:320px) and (max-width:1023px){
+@media all and (min-width:320px) and (max-width:1024px){
   .notice_content {
     width: 90%;
     margin: 28% auto;
@@ -91,5 +91,17 @@
   }
   .notice_area .notice_list .hot{
     display:none;
+  }
+}
+
+@media all and (min-width:1025px) and (max-width:1599px){
+  .notice_area .notice_list tr td.important_text{
+    font-size:12px;
+  }
+  .notice_area .notice_list thead th{
+    font-size:12px;
+  }
+  .notice_area .notice_list tr td{
+    font-size:12px;
   }
 }

@@ -538,7 +538,7 @@
     display: none;
 }
 /*반응형 팝업*/
-@media all and (min-width:320px) and (max-width:1023px){
+@media all and (min-width:320px) and (max-width:1024px){
   #popupbox {
     width: 85%;
 }
@@ -616,7 +616,7 @@
     height: 150px;
 }
 /*회원가입 팝업반응형*/
-@media (max-width:1023px) {
+@media (max-width:1024px) {
     #full .email_pop{
         width: 90%;
         top: 50%;

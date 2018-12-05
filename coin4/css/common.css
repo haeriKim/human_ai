@@ -1022,7 +1022,7 @@ box-shadow:none;
     display: none;
 }
 
-@media (max-width:1023px) {
+@media (max-width:1024px) {
   #wrap{
       min-width: 310px;
   }
@@ -1316,6 +1316,9 @@ box-shadow:none;
     }
     .content_wrap{
       margin-left:16%;
+    }
+    .con_1000{
+      width:80%;
     }
     .con_1250{
       width:80%;
