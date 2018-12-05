@@ -1313,9 +1313,10 @@ box-shadow:none;
         height: 76px;
     }
     .content{
+      width:80%;
     }
     .content_wrap{
-      margin-left:16%;
+      margin-left:10%;
     }
     .con_1000{
       width:80%;
@@ -1324,8 +1325,11 @@ box-shadow:none;
       width:80%;
       padding:0;
     }
+    .con_1290{
+      width:80%;
+    }
     .content_nav{
-      width: 15%;
+      width: 17%;
       margin-right: 1%;
       padding:1%;
     }
@@ -1351,6 +1355,9 @@ box-shadow:none;
     }
     table.left_thick_table tbody td{
       font-size:12px;
+    }
+    .mypage_content{
+      padding:40px 20px;
     }
 
     /*인증센터 그림*/
@@ -1379,4 +1386,25 @@ box-shadow:none;
       font-size:11px;
       font-weight:500;
     }
+  /*거래소*/
+  .coin_select{
+    width:80%;
+  }
+  .coinSelect_area{
+  }
+  .coinSelect_area .coinSelect{
+    width:80%;
+  }
+  .coinSelect_area .coinSelect dt span{
+    font-size:12px;
+  }
+  .coinSelect_area .coinSelect dd span{
+    font-size:12px;
+  }
+  .coin_money{
+    width:80%;
+  }
+  .coin_money_inner .question{
+    left:90%;
+  }
 }

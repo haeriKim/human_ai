@@ -63,3 +63,17 @@
   }
 
 }
+@media all and (min-width:1024px) and (max-width:1599px){
+  .common_table_content .mypage_content .deal_fee, .common_table_content .mypage_content .input_output_fee{
+    font-size:12px;
+  }
+  .common_table_content .common_table tbody tr th{
+    font-size:12px;
+  }
+  .common_table_content .mypage_content .deal_fee tbody tr td{
+    font-size:12px;
+  }
+  .common_table_content .common_table tbody tr td{
+    font-size:12px;
+  }
+}

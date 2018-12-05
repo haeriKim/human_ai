@@ -174,4 +174,12 @@
   #footer_wrap{
     position:inherit;
   }
+  .compnay_info{
+    font-size:12px;
+    margin-right:0;
+  }
+  .footer_menu{
+
+    font-size:12px;
+  }
 }

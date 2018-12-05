@@ -11,10 +11,10 @@
 
 /*coin_money*/
 .coin_money{
-  position: relative;
+/*  position: relative;
   width:350px;
   padding: 20px;
-  margin: 75px 0 20px 0;
+  margin: 75px 0 20px 0;*/
 }
 .coin_money_inner{
   overflow: hidden;
@@ -1250,4 +1250,28 @@
     #main_full #full_content .full_inner ul li{
         font-size: 13px;
     }
+}
+
+@media all and (min-width:1024px) and (max-width:1599px){
+  #left_coin_menu{
+  }
+  /*코인주가부분*/
+  .coin_money{
+    width:80%;
+  }
+  .coin_money_inner img.bitcoin_icon{
+    width:100%;
+  }
+  .coin_money_inner .img_area{
+    width:10%;
+  }
+  /*원화거래*/
+  #deal_orgin_transaction{
+    width:80%;
+  }
+  /*그래프*/
+  #right_all_menu{
+    width:60%;
+    float:left;
+  }
 }

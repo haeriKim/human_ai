@@ -696,3 +696,51 @@
     float: none;
   }
 }
+@media all and (min-width:1024px) and (max-width:1599px){
+  /*문의*/
+  .question_text{
+    font-size:12px;
+  }
+  .question_area .question_table th{
+    font-size:12px;
+    width:100px;
+  }
+  .question_area .question_table #question_select{
+    width:90%;
+  }
+  .question_area .question_table .question_title{
+    width:90%;
+  }
+  .question_area .question_table .question_story{
+    width:90%;
+  }
+  /*문의내역*/
+  .question_history_area .question_history_inner .question_list thead th{
+    font-size:12px;
+  }
+  .question_history_area .question_history_inner .question_list tbody td{
+    font-size:12px;
+  }
+  /*문의내역상세*/
+  .question_detail .question_detail_inner .question_detail_inner_content .malpungsun_question{
+    width:100%;
+    font-size:12px;
+  }
+  .question_detail .question_detail_inner .question_detail_inner_content .question_admin{
+    width:102%;
+  }
+  .question_detail .question_detail_inner .question_detail_inner_content .malpungsun_answer{
+    width:100%;
+    font-size:12px;
+  }
+  .question_detail .question_detail_inner .question_detail_inner_content .malpungsun_answer:after{
+    right:4%;
+  }
+  .question_detail .question_detail_inner .question_detail_inner_content .malpungsun_story{
+    width:100%;
+  }
+  .question_detail .question_detail_inner .question_detail_inner_content textarea{
+    width:97.5%;
+  }
+
+}

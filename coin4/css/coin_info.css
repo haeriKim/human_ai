@@ -181,3 +181,44 @@
         }
     }
 }
+@media all and (min-width:1024px) and (max-width:1599px){
+  .coin_select{
+    width:32%;
+  }
+  .coinSelect_area{
+    width:100%;
+  }
+  .coinSelect_area .coinSelect{
+    width:98%;
+  }
+  .coinInfo_area .text_area p{
+    font-size:12px;
+  }
+  .coninInfo_content .coinInfo_area{
+    width:63%;
+  }
+  .coin_money{
+    width:35%;
+  }
+  .coin_money_inner .img_area{
+    width:25%;
+  }
+  .coinInfo_area .text_area p a{
+    font-size:12px;
+    width:22%;
+  }
+  .coin_money_inner ul{
+
+  }
+  table.left_thick_table tbody th{
+    padding:5px 7px;
+  }
+  .coinInfo_area .text_area p a + a{
+    margin-top:10px;
+    font-size:12px;
+  }
+  #ethuriumclassic_a_link{
+    width:22%;
+    font-size:12px;
+  }
+}
