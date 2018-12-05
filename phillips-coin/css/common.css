@@ -132,6 +132,7 @@ h3.title {
 .sendReceiveHistory_content table td{
   border-left:1px solid #F3E7B5;
   color: #F3E7B5;
+  padding:10px;
 }
 
 #container .go_thealls{

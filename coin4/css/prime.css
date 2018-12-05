@@ -1,6 +1,6 @@
 /*prime css*/
 .con_top{
-  margin-bottom:4.4%;
+  /*margin-bottom:4.4%;*/
 }
 .prime_area{
 
@@ -651,4 +651,10 @@
   border-radius:50px;
   width:50px;
   cursor:pointer;
+}
+
+@media all and (min-width:1025px) and (max-width:1599px){
+  #wrap{
+    overflow-x:hidden;
+  }
 }

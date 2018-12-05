@@ -1,5 +1,9 @@
 .sendReceiveHistory_content .receiveHistory,
 .sendReceiveHistory_content .sendHistory {
-    width: 500px;
-    margin: 0 auto;
+  width:500px;
+  text-overflow: ellipsis;
+  white-space: normal;
+  margin: 0 auto;
+  word-break: break-all;
+
 }

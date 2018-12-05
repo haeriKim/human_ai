@@ -39,25 +39,15 @@
                 <div class="receiveHistory">
                     <!--<p class='no_data'>받은 내역이 없습니다.</p>-->
                     <table>
-                      <colgroup>
-                        <col width="20%">
-                        <col width="80%">
-                      </colgroup>
                       <tr>
-                       <th>받는사람</th>
-                       <td>홍길동</td>
-                     </tr>
-                     <tr>
+                       <th>보낸주소</th>
                        <th>TXID</th>
-                       <td>ASBCEFGASDLFIAEHKS</td>
-                     </tr>
-                     <tr>
                        <th>수량</th>
-                       <td>100000 PHS</td>
                      </tr>
                      <tr>
-                       <th>날짜</th>
-                       <td>2018/08/07 03:07:58</td>
+                       <td>지갑주소</td>
+                       <td>ASBCEFGASDLFIAEHKS</td>
+                       <td>1000000 RAC</td>
                      </tr>
                     </table>
                 </div>

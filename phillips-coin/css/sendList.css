@@ -1,5 +1,5 @@
 .sendHistory_content .sendHistory{
-    width: 500px;
+    width: max-content;
     margin: 0 auto;
 }
 .sendHistory_content .sendHistory table{

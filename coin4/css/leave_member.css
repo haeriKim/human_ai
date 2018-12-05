@@ -230,3 +230,14 @@
   vertical-align: -3px;
   margin-right: 2px;
 }
+@media all and (min-width:1025px) and (max-width:1599px){
+  .withdrawal_area .withdrawal_text p{
+    font-size:12px;
+  }
+  .withdrawal_area .withdrawal_text2 .withdrawal_text2_inner label{
+    font-size:12px;
+  }
+  .withdrawal_area #withdrawal_text3 p{
+    font-size:12px;
+  }
+}

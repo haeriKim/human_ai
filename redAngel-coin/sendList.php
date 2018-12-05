@@ -40,26 +40,26 @@
                 <div class="sendHistory">
                     <!--<p class='no_data'>보낸 내역이 없습니다.</p>-->
                     <table>
-                      <colgroup>
-                        <col width="20%">
-                        <col width="80%">
-                      </colgroup>
+
                       <tr>
-                       <th>주소</th>
-                       <td>지갑주소</td>
-                     </tr>
-                     <tr>
+                       <th>보낸주소</th>
                        <th>TXID</th>
-                       <td>ASBCEFGASDLFIAEHKS</td>
-                     </tr>
-                     <tr>
                        <th>수량</th>
-                       <td>100000 RAC</td>
+
                      </tr>
                      <tr>
-                       <th>날짜</th>
-                       <td>2018/08/07 03:07:58</td>
+                       <td>지갑주소</td>
+                       <td>ASBCEFGASDLFIAEHKS</td>
+                       <td>1000000 RAC</td>
                      </tr>
+
+
+                   <tr>
+                     <td>지갑주소</td>
+                     <td>ASBCEFGASDLFIAEHKS</td>
+                     <td>1000000 RAC</td>
+                   </tr>
+
                     </table>
                 </div>
                 <p class="copyright" style="margin-top:20px;">CRYPTOCURRNCY REDANGEL-COIN SINCE 2018</p>
