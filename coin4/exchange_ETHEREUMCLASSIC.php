@@ -83,9 +83,9 @@
                   <div class="img_area">
                       <img src="img/etc_big.png" alt="이더리움클래식" class="bitcoin_icon">
                   </div>
-                  <ul>
+                  <ul class='eth_classic_text'>
                     <li>
-                        <strong>이더리움클랙식</strong>
+                        <strong>이더리움클래식</strong>
                         <b class="coin_word">ETC/KRW</b>
                     </li>
                     <li>
@@ -894,7 +894,7 @@
                 </div>
                 <ul>
                   <li>
-                      <strong>이더리움클랙식</strong>
+                      <strong>이더리움클래식</strong>
                       <b class="coin_word">ETC/KRW</b>
                   </li>
                   <li>

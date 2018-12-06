@@ -315,7 +315,7 @@
     <script type="text/javascript">
     new TradingView.widget(
     {
-      "width": 905,
+      "width": 100+"%",
      "height": 465,
     "symbol": "KORBIT:BTCKRW",
     "interval": "120",
@@ -1096,7 +1096,7 @@
     <script type="text/javascript">
     new TradingView.widget(
     {
-      "width": 905,
+      "width": 100+"%",
      "height": 465,
     "symbol": "KORBIT:BTCKRW",
     "interval": "120",
