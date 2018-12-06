@@ -1349,6 +1349,9 @@
   #wrap .coin_money_inner ul.eth_classic_text{
       margin-left: 0;
   }
+  #deal_all .deal_table_tbody td:not(.deal_time){
+      padding-left: 10px;
+  }
   @media (min-width:1441px) and (max-width:1599px){
       #deal_all .deal_all_thead{
           width: 33%;

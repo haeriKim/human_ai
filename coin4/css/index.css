@@ -39,19 +39,19 @@
   position: relative; */
 }
 .panel .banner1 {
-  background:url(../img/banner01.png) no-repeat 0 0; background-size:cover;
+  background:url(../img/banner01.png) no-repeat 0 0; background-size:100% 100%;
 }
 .panel .banner2 {
-  background:url(../img/banner02.png) no-repeat 0 0; background-size:cover;
+  background:url(../img/banner02.png) no-repeat 0 0; background-size:100% 100%;
 }
 .panel .banner3 {
-  background:url(../img/banner03.png) no-repeat 0 0; background-size:cover;
+  background:url(../img/banner03.png) no-repeat 0 0; background-size:100% 100%;
 }
 .panel .banner4 {
-  background:url(../img/banner04.png) no-repeat 0 0; background-size:cover;
+  background:url(../img/banner04.png) no-repeat 0 0; background-size:100% 100%;
 }
 .panel .banner5 {
-  background:url(../img/banner05.png) no-repeat 0 0; background-size:cover;
+  background:url(../img/banner05.png) no-repeat 0 0; background-size:100% 100%;
 }
 /* .dot:after {
   content: "";
@@ -470,5 +470,33 @@
     {
         display: none;
     }
-
+}
+@media all and (min-width:1025px) and (max-width:1649px){
+    #wrpa .content_wrap{
+        margin-left: 10%;
+    }
+    .main_content,
+    .panel{
+        width: 100%;
+    }
+    .slide{
+        width: 87%;
+    }
+    .notice{
+        width: 50%;
+    }
+    .notice h4{
+        width: 96%;
+    }
+    .notice ul li b{
+        width: 60%;
+    }
+    .use_guide{
+        width: 40%;
+        float: left;
+    }
+    .use_guide img{
+        width: 70%;
+        max-width: 68px;
+    }
 }

@@ -2,11 +2,12 @@
 //메인 슬라이드 배너 수정본
 function bannerset(bn,dir){
     if(dir=='right'){
+        var variable_width = $(".panel").width();
         $('.slide .dot li.on').removeClass('on');
         $('.slide .dot li:eq('+bn+')').addClass('on');
         $('.slide .panel li:eq('+bn+')').show();
-        $('.slide .panel li:eq('+bn+')').css('left','1300px');
-        $('.slide .panel li.on').animate({'left':'-1300px'},1000,function(){
+        $('.slide .panel li:eq('+bn+')').css('left',variable_width+"px");
+        $('.slide .panel li.on').animate({'left': "-"+variable_width+"px"},1000,function(){
             $(this).hide();
             $(this).removeClass('on')
         })
@@ -14,11 +15,12 @@ function bannerset(bn,dir){
             $(this).addClass('on')
         })
     }else{
+        var variable_width = $(".panel").width();
         $('.slide .dot li.on').removeClass('on');
         $('.slide .dot li:eq('+bn+')').addClass('on');
         $('.slide .panel li:eq('+bn+')').show();
-        $('.slide .panel li:eq('+bn+')').css('left','-1300px');
-        $('.slide .panel li.on').animate({'left':'1300px'},1000,function(){
+        $('.slide .panel li:eq('+bn+')').css('left',"-"+variable_width+"px");
+        $('.slide .panel li.on').animate({'left':variable_width+"px"},1000,function(){
             $(this).hide();
             $(this).removeClass('on')
         })
@@ -29,6 +31,7 @@ function bannerset(bn,dir){
 }
 
 $(document).ready(function(){
+    $('#full').hide();
     $('.slide .panel li:gt(0)').hide();
     //동그라미 버튼 클릭했을 때
     $('.slide .dot li').on('click',function(e){
