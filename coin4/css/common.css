@@ -1396,6 +1396,9 @@ box-shadow:none;
   .coin_money{
     width:80%;
   }
+  .coin_money_inner ul{
+    float:none;
+  }
   .coin_money_inner .question{
     left:90%;
   }
