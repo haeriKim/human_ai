@@ -600,44 +600,71 @@
   display:block;
   text-align: center;
   margin-top:50px;
-  margin-bottom:200px;
 }
 .prime_area .prime_inner .theallsprime_number7 .history_inner{
   width:100%;
 }
 .prime_area .prime_inner .theallsprime_number7 .history_box img{
   width:850px;
-  margin:50px 0;
+  margin:50px 0 200px 0;
 }
-
 
 /*main_footer*/
 
-.main_footer{
-  width:100%;
-  height:300px;
-  background:linear-gradient(to bottom, #82e0d8 0%,#344b8c 100%);
-  margin-bottom:60px;
-}
-.main_footer img{
-  padding-top:50px;
-}
-.main_footer p{
-  font-size:20px;
-  font-weight:600;
-  padding-top:20px;
-}
+
 .main_footer input{
   padding:10px 50px;
   font-size:15px;
   border-radius: 5px;
   border:none;
-  border:1px solid #fff;
-  color:#fff;
+  border:1px solid #0E141C;
+  color:#0E141C;
   font-weight:600;
   margin-top:30px;
   cursor:pointer;
 }
+.prime_area .prime_inner .theallsprime_icon8{
+  margin-top:0;
+  overflow:hidden;
+  padding:80px 0 50px 0;
+  display:inline-block;
+  width:100%;
+  background-color:#eee;
+}
+.prime_area .prime_inner .theallsprime_icon8 .prime_text{
+  font-size:18px;
+  font-weight:500;
+  margin:20px 0;
+  color:#0E141C;
+  text-align: center;
+  float:left;
+  width:100%;
+}
+.prime_area .prime_inner .theallsprime_icon8 p b{
+  font-size:25px;
+}
+
+
+/*more_thealls*/
+.more_thealls{
+  margin:100px 0 100px 0;
+  position: relative;
+  overflow: hidden;
+}
+.more_thealls .more_a{
+  width:230px;
+  color:#f00;
+  position:absolute;
+  display:block;
+  overflow:hidden;
+  text-indent:-9999px;
+  top:47%;
+  right:45%;
+}
+.more_thealls img{
+  width:40%;
+}
+
 /*메인홈버튼*/
 .main_icon{
   position:fixed;
@@ -658,8 +685,6 @@
   .main_footer{
     margin-bottom:10%;
   }
-  #footer_wrap{
-    position:absolute;
-  }
+  
 
 }

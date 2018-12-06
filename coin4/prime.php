@@ -368,11 +368,11 @@
 
                           </div><!--프라임 보안 끝-->
 
-                          <div class="history">
+                          <div class="history"><!--프라임 히스토리-->
                             <div class="theallsprime_icon7">
                               <p><img src="img/prime_step.png" alt="프라임아이디어"></p>
                               <h3>H I S T O R Y</h3>
-                              <p class="prime_text"><span><b>'대한민국 암호화폐 마켓의 기준'</b>을 넘어서 세계로 나아가겠습니다.</p>
+                              <p class="prime_text"><b>'대한민국 암호화폐 마켓의 기준'</b>을 넘어서 세계로 나아가겠습니다.</p>
                             </div>
                               <div class="theallsprime_number7">
                                 <div class="history_inner">
@@ -382,14 +382,27 @@
                                 </div>
                               </div>
 
-                          </div>
-
+                          </div><!--프라임 히스토리 끝-->
 
                           <div class="main_footer">
-                            <img src="img/logo.png" alt="디올스로고">
-                            <p>세계 기축통화 암호화폐 '디올스 국제거래소'를 이용해주셔서 감사합니다.</p>
-                            <input type='button' name="메인버튼" value="메인으로" onclick="location.href='index.php'" class="main_button">
+                            <div class="theallsprime_icon8">
+                              <p><img src="img/prime_gift.png" alt="디올스로고"></p>
+                              <h3>T H A N K &nbsp;Y O U</h3>
+                              <p class="prime_text"><b>세계 기축통화 암호화폐 '디올스 국제거래소'를 이용해주셔서 감사합니다.</b></p>
+                              <input type='button' name="메인버튼" value="메인으로" onclick="location.href='index.php'" class="main_button">
+                            </div>
+                            <!--<img src="img/logo.png" alt="디올스로고">-->
+
                           </div>
+
+
+                          <!--디올스 더보기-->
+                          <div class="more_thealls">
+                            <p><img src="img/more_thealls3.png" alt="디올스더보기"><a href="#" class="more_a">더올스 더보기</a></p>
+                          </div><!--디올스 더보기 끝-->
+
+
+
 
 
                       </div><!--prime_inner 끝-->
