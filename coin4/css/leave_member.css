@@ -240,4 +240,7 @@
   .withdrawal_area #withdrawal_text3 p{
     font-size:12px;
   }
+  .count_down{
+    left:300px;
+  }
 }

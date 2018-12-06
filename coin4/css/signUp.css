@@ -322,3 +322,32 @@
         margin-left: 0;
     }
 }
+
+@media all and (min-width:1025px) and (max-width:1599px){
+  #signUp_area .signUp_left_con .agree_content_box{
+    width:100%;
+  }
+  #signUp_area .signUp_left_con .agree_content_box .text_box{
+    width:100%;
+    font-size:12px;
+  }
+  #signUp_area .signUp_left_con label{
+    display:block;
+  }
+  #signUp_area .signUp_right_con > input{
+    width:80%;
+    margin-left:15%;
+    font-size:12px;
+  }
+  #signUp_area .signUp_right_con #warning_message{
+    left:50%;
+    right:15%;
+  }
+  #signUp_area .signUp_right_con a.signUp_guide{
+    width:98%;
+  }
+  #signUp_area .signUp_right_con .btn_area .join_btn{
+    width:50%;
+    margin-left:48%;
+  }
+}
