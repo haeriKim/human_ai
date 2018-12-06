@@ -93,9 +93,9 @@ $(document).ready(function(){
     $('.next').on('click',function(e){
         e.preventDefault();
         if($('.bitcoin_card_inner').is(':animated')==false){
-            $('.bitcoin_card_inner').animate({left:'-240px'},1000,function(){
+            $('.bitcoin_card_inner').animate({'left':'-20%'},1000,function(){
                 $('.bitcoin_card_inner').append($('.bitcoin_card_inner .card_li:first'));
-                $('.bitcoin_card_inner').css('left','0px');
+                $('.bitcoin_card_inner').css({'left':'0px'});
             })
         }
     })
@@ -104,8 +104,8 @@ $(document).ready(function(){
         e.preventDefault();
         if($('.bitcoin_card_inner').is(':animated')==false){
             $('.bitcoin_card_inner').prepend($('.bitcoin_card_inner .card_li:last'));
-            $('.bitcoin_card_inner').css('left','-240px','overflow','hidden');
-            $('.bitcoin_card_inner').animate({left:'0px'},1000)
+            $('.bitcoin_card_inner').css({'left':'-20%','overflow':'hidden'});
+            $('.bitcoin_card_inner').animate({'left':'0px'},1000)
         }
     })
 })
@@ -1457,7 +1457,7 @@ $(document).ready(function(){
 
 /*프라임홈버튼*/
 var vi = 500;  // 하단에 메뉴 표시할 스크롤 위치값 지정
-var si = 13200;
+var si = 14000;
 
 $(window).scroll(function(){
 
