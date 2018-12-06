@@ -151,7 +151,6 @@ ul.tabs2 li.active2, ul.tabs3 li.active2, ul.tabs4 li.active2 {
     padding-right: 3px;
 }
 table .mycoin_thead_deco th{
-  font-weight: lighter;
   font-weight: 600;
   font-size:14px;
   color: #7AABDF;
@@ -1063,7 +1062,7 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
     float: left;
     border: 1px solid #7AABDF;
     margin-left: 10px;
-    width: 350px;
+    width: 28.5%;
 }
 #deal_orgin_transaction h3{
     color:#7AABDF;
@@ -1264,7 +1263,70 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
 .delay{
     color: #EAAF69
 }
-/*PC 1024 - 1599*/
+/*PC 1025 - 1599*/
 @media all and (min-width:1025px) and (max-width:1599px){
-
+    #wrap .content_wrap{
+        margin-left: 14%;
+    }
+    #wrap .content{
+        width: 95%;
+        padding: 0;
+    }
+    #left_mywallet_menu{
+        width: 65%;
+    }
+    .mycoin_fence{
+        width: 100%;
+    }
+    .mycoin_name{
+        width: 142px;
+    }
+    #wrap #container .tab_content{
+        padding: 10px 20px;
+    }
+    #mywallet_tab .mycoin_tab_content,
+    .conclu_table{
+        width: 100%;
+    }
+    #wrap div.my_coin_state{
+        width: 100%;
+    }
+    #wrap div.my_coin_state ul li.my_coin_li_01{
+        margin: 0 1%;
+        width: 46%;
+    }
+    #wrap .thead_deco a{
+        font-size:12px;
+    }
+    #wrap .thead_deco a .change_arrow{
+        margin-left : 0;
+    }
+    #deal_orgin_transaction tbody tr td:first-child{
+        padding-left: 14px;
+    }
+    #deal_orgin_transaction thead tr th{
+        padding-right: 10px;
+    }
+    #deal_orgin_transaction{
+        min-width: 325px;
+        margin-left: 5px;
+    }
+    #input_KRW .send_info_02 input[type='text']{
+        width: 53%;
+    }
+    #mywallet_havecoin{
+        margin-right: 1%;
+        min-width: 350px;
+    }
+    #input_bitcoin{
+        width: 100%;
+    }
+    #input_bitcoin div.BTC_input_address_wrap img{
+        right: 5%;
+    }
+    @media (min-width:1025px) and (max-width:1279px){
+        #wrap .content{
+            overflow-x: scroll;
+        }
+    }
 }

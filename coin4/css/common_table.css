@@ -63,7 +63,7 @@
   }
 
 }
-@media all and (min-width:1024px) and (max-width:1599px){
+@media all and (min-width:1025px) and (max-width:1599px){
   .common_table_content .mypage_content .deal_fee, .common_table_content .mypage_content .input_output_fee{
     font-size:12px;
   }

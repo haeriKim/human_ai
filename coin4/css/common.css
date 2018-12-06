@@ -246,6 +246,7 @@ body textarea::placeholder {
 /* 스크롤바 디자인(크롬,사파리,오페라) */
 ::-webkit-scrollbar {
     width: 7px;
+    height: 7px;
 }
 ::-webkit-scrollbar-track{
 
@@ -1302,8 +1303,8 @@ box-shadow:none;
         color: #fff;
     }
 }
-/*PC 1024 - 1599*/
-@media all and (min-width:1024px) and (max-width:1599px){
+/*PC 1025 - 1599*/
+@media all and (min-width:1025px) and (max-width:1599px){
     .content_wrap{
         margin-left:10%;
     }
@@ -1312,21 +1313,14 @@ box-shadow:none;
         box-sizing: border-box;
         height: 76px;
     }
-    .content{
-      width:80%;
-    }
-    .content_wrap{
-      margin-left:10%;
-    }
-    .con_1000{
+    .content,
+    .con_1000,
+    .con_1290{
       width:80%;
     }
     .con_1250{
       width:80%;
       padding:0;
-    }
-    .con_1290{
-      width:80%;
     }
     .content_nav{
       width: 17%;
@@ -1389,8 +1383,6 @@ box-shadow:none;
   /*거래소*/
   .coin_select{
     width:80%;
-  }
-  .coinSelect_area{
   }
   .coinSelect_area .coinSelect{
     width:80%;

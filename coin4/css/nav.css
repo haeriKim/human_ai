@@ -465,7 +465,7 @@
 }
 
 /*PC 1024 - 1599*/
-@media all and (min-width:1024px) and (max-width:1599px){
+@media all and (min-width:1025px) and (max-width:1599px){
     #nav_wrap{
         width: 12%;
         min-width: 165px;

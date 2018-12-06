@@ -102,7 +102,7 @@ body{
   }
 }
 
-@media all and (min-width:1024px) and (max-width:1599px){
+@media all and (min-width:1025px) and (max-width:1599px){
   .faq_area .faq_list ul li .question span{
     font-size:12px;
   }

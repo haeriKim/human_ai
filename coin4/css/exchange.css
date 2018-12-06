@@ -16,19 +16,6 @@
   padding: 20px;
   margin: 75px 0 20px 0;*/
 }
-.coin_money_inner{
-  overflow: hidden;
-  margin-bottom:10px;
-}
-.coin_money_inner .img_area {
-  width:80px;
-  height:80px;
-  float:left;
-  padding: 10px 0;
-}
-.coin_money_inner img.bitcoin_icon{
-  width: 100%;
-}
 .coin_money_inner strong{
   font-size:20px;
 }
@@ -1252,16 +1239,18 @@
     }
 }
 
-@media all and (min-width:1024px) and (max-width:1599px){
+@media all and (min-width:1025px) and (max-width:1599px){
   #left_coin_menu{
+      width: 40%;
+      margin-right: -7%;
+  }
+  #wrap .coin_select{
+      width: 80%;
+  }
+  .coinSelect_area{
+
   }
   /*코인주가부분*/
-  .coin_money{
-    width:80%;
-  }
-  .coin_money_inner img.bitcoin_icon{
-    width:100%;
-  }
   .coin_money_inner .img_area{
     width:10%;
   }

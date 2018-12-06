@@ -133,7 +133,7 @@
     }
 }
 /*PC 1024 - 1451*/
-@media all and (min-width:1024px) and (max-width:1467px){
+@media all and (min-width:1025px) and (max-width:1467px){
     #footer_wrap{
         height: 150px;
     }
@@ -170,7 +170,7 @@
     }
 }
 
-@media all and (min-width:1024px) and (max-width:1599px){
+@media all and (min-width:1025px) and (max-width:1599px){
   #footer_wrap{
     position:inherit;
   }
