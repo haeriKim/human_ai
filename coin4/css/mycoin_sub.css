@@ -1324,9 +1324,4 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
     #input_bitcoin div.BTC_input_address_wrap img{
         right: 5%;
     }
-    @media (min-width:1025px) and (max-width:1279px){
-        #wrap .content{
-            overflow-x: scroll;
-        }
-    }
 }

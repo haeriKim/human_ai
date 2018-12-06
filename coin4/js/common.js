@@ -740,7 +740,7 @@ $(document).ready(function(){
 
     $(".submenu_mypage_back").click(function(e){
         e.preventDefault();
-      $(".submenu_mypage_inner").stop().animate({right:-350},300);
+      $(".submenu_mypage_inner").stop().animate({right:-360},300);
     });
 
     $(".submenu_mypage").click(function(e){
