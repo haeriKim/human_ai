@@ -9,3 +9,22 @@
 #content .greetings_area .greetings_inner{
     padding: 0;
 }
+#wrap{
+  display:block;
+}
+#app_wrap{
+  display:none;
+}
+@media all and (min-width:320px) and (max-width:1024px){
+  #app_wrap{
+    display:block;
+  }
+  #wrap{
+    display:none;
+  }
+}
+@media all and (min-width:1025px) and (max-width:1599px){
+  .greetings_inner .greetings_text p{
+    font-size:12px;
+  }
+}

@@ -680,11 +680,24 @@
   width:50px;
   cursor:pointer;
 }
-
+#wrap{
+  display:block;
+}
+#app_wrap{
+  display:none;
+}
+@media all and (min-width:320px) and (max-width:1024px){
+  #app_wrap{
+    display:block;
+  }
+  #wrap{
+    display:none;
+  }
+}
 @media all and (min-width:1025px) and (max-width:1599px){
   .main_footer{
     margin-bottom:10%;
   }
-  
+
 
 }
