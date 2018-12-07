@@ -513,4 +513,19 @@
         width: 70%;
         max-width: 68px;
     }
+    .main_content .bitcoin_card_wrap{
+      width:90%;
+    }
+    .main_content .bitcoin_card_wrap .bitcoin_card{
+      width:90%;
+    }
+    .main_content ul.bitcoin_card_inner{
+      width:233%;
+      left:-5px;
+    }
+    .main_content ul.bitcoin_card_inner li.card_li{
+      width:7%;
+      font-size:80%;
+    }
+
 }
