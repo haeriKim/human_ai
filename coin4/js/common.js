@@ -31,7 +31,6 @@ function bannerset(bn,dir){
 }
 
 $(document).ready(function(){
-    $('#full').hide();
     $('.slide .panel li:gt(0)').hide();
     //동그라미 버튼 클릭했을 때
     $('.slide .dot li').on('click',function(e){
@@ -86,6 +85,87 @@ $(document).ready(function(){
     }
     st = setInterval(trigger,5000)
 })
+
+
+//메인 슬라이드 배너 수정본 (반응형)
+function bannerset_a(bn_a,dir_a){
+    if(dir_a=='right'){
+        var variable_width_a = $(".app_slide").width();
+        $('.app_slide .app_dot li.on').removeClass('on');
+        $('.app_slide .app_dot li:eq('+bn_a+')').addClass('on');
+        $('.app_slide .app_panel li:eq('+bn_a+')').show();
+        $('.app_slide .app_panel li:eq('+bn_a+')').css('left',variable_width_a+"px");
+        $('.app_slide .app_panel li.on').animate({'left': "-"+variable_width_a+"px"},1000,function(){
+            $(this).hide();
+            $(this).removeClass('on')
+        })
+        $('.app_slide .app_panel li:eq('+bn_a+')').animate({'left':'0'},1000,function(){
+            $(this).addClass('on')
+        })
+    }else{
+        var variable_width_a = $(".app_slide").width();
+        $('.app_slide .app_dot li.on').removeClass('on');
+        $('.app_slide .app_dot li:eq('+bn_a+')').addClass('on');
+        $('.app_slide .app_panel li:eq('+bn_a+')').show();
+        $('.app_slide .app_panel li:eq('+bn_a+')').css('left',"-"+variable_width_a+"px");
+        $('.app_slide .app_panel li.on').animate({'left':variable_width_a+"px"},1000,function(){
+            $(this).hide();
+            $(this).removeClass('on')
+        })
+        $('.app_slide .app_panel li:eq('+bn_a+')').animate({'left':'0'},1000,function(){
+            $(this).addClass('on')
+        })
+    }
+}
+
+$(document).ready(function(){
+    $('.app_slide .app_panel li:gt(0)').hide();
+    //동그라미 버튼 클릭했을 때
+    $('.app_slide .app_dot li').on('click',function(e){
+        e.preventDefault();
+        if($('.app_slide .app_panel li.on').is(':animated')==false){
+            var num = $(this).index();
+            var currentNum = $('.app_slide .app_dot li.on').index();
+            if(num > currentNum){
+                bannerset_a(num,'right')
+            }else if(num < currentNum){
+                bannerset_a(num,'left')
+            }
+        }
+    })
+    //이전버튼
+    $('.app_prev1').on('click',function(e){
+        e.preventDefault();
+        if($('.app_slide .app_panel li.on').is(':animated')==false){
+            var currentNum = $('.app_slide .app_dot li.on').index();
+            var num = currentNum-1;
+            if(num<0){
+                num = $('.app_dot li').length-1;
+            }
+            bannerset_a(num,'left')
+        }
+    })
+    //다음버튼
+    $('.app_next1').on('click',function(e){
+        e.preventDefault();
+        if($('.app_slide .app_panel li.on').is(':animated')==false){
+            var currentNum = $('.app_slide .app_dot li.on').index();
+            var num = currentNum+1;
+            if(num>$('.app_dot li').length-1){
+                num = 0;
+            }
+            bannerset_a(num,'right')
+        }
+    })
+    var st_a;
+
+    function trigger_a(){
+        $('.app_next1').trigger('click');
+    }
+    st_a = setInterval(trigger_a,5000)
+})
+
+
 
 //메인_카드현황
 $(document).ready(function(){
@@ -1171,6 +1251,7 @@ $(document).ready(function(){
         $(".m_nav_bottom").stop().toggleClass('margin_on');
     })
 });*/
+
 /*반응형 햄버거 쉐도우 클릭했을때 사라지기*/
 $(document).ready(function(){
     $('#responsive_shadow').click(function(e){
@@ -1178,82 +1259,6 @@ $(document).ready(function(){
         $('#m_menu-toggle').prop('checked',false);
     })
 });
-
-$(document).ready(function() {
-  app_slide();
-
-  // 반응형 슬라이드
-  function app_slide() {
-    var app_wid = 0;
-    var app_now_num = 0;
-    var app_slide_length = 0;
-    var app_auto = null;
-    var $app_dotli = $('.app_dot>li');
-    var $app_panel = $('.app_panel');
-    var $app_panelLi = $app_panel.children('li');
-    // 변수 초기화
-    function init() {
-      app_wid = $('.app_slide').width();
-      app_now_num = $('.app_dot>li.app_on').index();
-      app_slide_length = $app_dotli.length;
-    }
-    // 이벤트 묶음
-    function slideEvent() {
-      $('.app_next1').click(function() {
-        nextChkPlay();
-      });
-      // 이전 버튼 클릭했을때
-      $('.app_prev1').click(function() {
-        prevChkPlay();
-      });
-      autoPlay();
-      resize();
-    }
-    // 자동실행 함수
-    function autoPlay() {
-      app_auto = setInterval(function() {
-        nextChkPlay();
-      }, 5000);
-    }
-    // 이전 버튼 클릭시 조건 검사후 슬라이드 무브
-    function prevChkPlay() {
-      if (app_now_num == 0) {
-        app_now_num = app_slide_length - 1;
-      } else {
-        app_now_num--;
-      }
-      slideMove();
-    }
-    // 이후 버튼 클릭시 조건 검사후 슬라이드 무브
-    function nextChkPlay() {
-      if (app_now_num == app_slide_length - 1) {
-        app_now_num = 0;
-      } else {
-        app_now_num++;
-      }
-      slideMove();
-    }
-    // 슬라이드 무브
-    function slideMove() {
-      $app_panelLi.stop().animate({
-        'left': -app_wid * app_now_num
-      });
-      $app_dotli.removeClass('app_on');
-      $app_dotli.eq(app_now_num).addClass('app_on');
-    }
-    // 화면크기 조정시 화면 재설정
-    function resize() {
-      $(window).resize(function() {
-        init();
-        $app_panelLi.css({
-          'left': -app_wid * app_now_num
-        });
-      });
-    }
-    init();
-    slideEvent();
-  }
-  });
 
 /*반응형 로그인 말풍선*/
 $(document).ready(function(){

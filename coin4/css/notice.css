@@ -58,7 +58,7 @@
 @media all and (min-width:320px) and (max-width:1024px){
   .notice_content {
     width: 90%;
-    margin: 28% auto;
+    margin: 100px auto;
   }
   .notice_area .n_list {
     padding: 20px;

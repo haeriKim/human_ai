@@ -400,23 +400,20 @@
     .app_slide {
       position: relative;
       overflow: hidden;
-      width:inherit;
-      height:540px;
+      width:100%;
+      height:-webkit-fill-available;
     }
     .app_panel {
-      width: 500%;
-    }
-    .app_panel:after {
-      content: "";
-      display: block;
-      clear: both;
+        width: 100%;
+        position: relative;
+        height: -webkit-fill-available;
     }
     .app_panel>li {
-      width: 20%;
-      height: 540px;
-      float: left;
-      background-repeat: no-repeat;
-      position: relative;
+        left: 0;
+        width: 100%;
+        height: -webkit-fill-available;
+        position: absolute;
+        top: 0;
     }
     .app_panel .app_banner1 {
       background:url(../img/m_banner01.png) no-repeat 0 0;

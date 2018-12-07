@@ -482,7 +482,7 @@
                      <!-- banner_slide-->
                      <div class="app_slide">
                        <ul class="app_panel">
-                         <li class="app_banner1"></li>
+                         <li class="app_banner1 on"></li>
                          <li class="app_banner2"></li>
                          <li class="app_banner3"></li>
                          <li class="app_banner4"></li>
@@ -490,7 +490,7 @@
 
                        </ul>
                        <ul class="app_dot">
-                         <li class="app_on"></li>
+                         <li class="app_on on"></li>
                          <li></li>
                          <li></li>
                          <li></li>
