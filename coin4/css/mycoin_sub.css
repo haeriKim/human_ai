@@ -1282,7 +1282,7 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
 /*PC 1025 - 1599*/
 @media all and (min-width:1025px) and (max-width:1599px){
     #wrap .content_wrap{
-        margin-left: 14%;
+        margin-left: 18%;
     }
     #wrap .content{
         width: 95%;
@@ -1330,14 +1330,141 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
     #input_KRW .send_info_02 input[type='text']{
         width: 53%;
     }
-    #mywallet_havecoin{
-        margin-right: 1%;
-        min-width: 350px;
-    }
     #input_bitcoin{
         width: 100%;
     }
     #input_bitcoin div.BTC_input_address_wrap img{
         right: 5%;
     }
+    .mycoin_tab_content .mycoin_notice{
+      font-size:13px;
+    }
+
+
+
+
+    /*deal_orgin_transaction부분*/
+    #deal_orgin_transaction{
+      width:300px;
+    }
+    #deal_orgin_transaction tbody p{
+      font-size:12px;
+    }
+    #deal_orgin_transaction tbody .up_down_data{
+      font-size:12px;
+    }
+
+    /*table*/
+    .mycoin_tab_content .mywallet_box2 ul li .mywallet_amount{
+      font-size:15px;
+    }
+    table .mycoin_thead_deco th{
+      font-size:12px;
+    }
+    .mycoin_name p{
+      font-size:12px;
+    }
+    .fr{
+      font-size:12px;
+    }
+    .ready_data{
+      font-size:12px;
+    }
+
+    .conclu_table thead th{
+      font-size:12px;
+    }
+    .conclu_table tbody tr td{
+      font-size:12px;
+    }
+    table .mycoin_tbody_deco tr{
+      font-size:12px;
+    }
+
+    /*보유코인부분*/
+    #mywallet_havecoin{
+        margin-right: 1%;
+        min-width: 335px;
+    }
+    #mywallet_havecoin thead th{
+      font-size:12px;
+    }
+    #mywallet_havecoin .have_coin_amount p{
+      font-size:12px;
+    }
+    #mywallet_havecoin .unit{
+      font-size:12px;
+    }
+    #mywallet_havecoin .style_bold{
+      font-size:12px;
+    }
+    #mywallet_havecoin thead th.coin_condition{
+      padding-left:18px;
+    }
+    #mywallet_havecoin .ready_input_output{
+      font-size:12px;
+    }
+
+    /*원화입금부분*/
+    #input_KRW div.before_send_money_wrap label{
+      font-size:12px;
+    }
+    div.my_coin_state ul li p.my_coin_state_amount{
+      font-size:15px;
+    }
+    #input_KRW div.send_info_01, #input_KRW div.send_info_02{
+      width:80%;
+      margin:10px 15%;
+    }
+
+    /*원화출금부분*/
+    #output_KRW .left_thick_table tbody th{
+      font-size:12px;
+    }
+    #output_KRW .left_thick_table tbody td{
+      font-size:12px;
+    }
+    #output_KRW div.before_send_money_wrap label{
+      font-size:12px;
+    }
+
+    /*코인입금부분*/
+    #input_bitcoin div.BTC_input_address_wrap > span{
+      font-size:12px;
+    }
+    #input_bitcoin div.my_coin_state ul li.my_coin_li_01 p.my_coin_state_amount{
+      font-size:15px;
+    }
+    #input_bitcoin div.BTC_input_address_wrap .temporary_address{
+      font-size:12px;
+    }
+    #input_bitcoin div.before_send_money_wrap .warning_notice_list p{
+      font-size:12px;
+    }
+    /*코인출금부분*/
+    #output_bitcoin div.my_coin_state ul li.my_coin_li_01 p.my_coin_state_amount{
+      font-size:15px;
+    }
+    #output_bitcoin .left_thick_table tbody th{
+      font-size:12px;
+    }
+    #output_bitcoin .left_thick_table tbody td{
+      font-size:12px;
+    }
+    #output_bitcoin table.left_thick_table tbody p{
+      font-size:12px;
+    }
+    #output_bitcoin div.before_send_money_wrap label{
+      font-size:12px;
+    }
+
+    /*출금한도팝업*/
+    .common_table_wrap .common_table_content{
+      left:30%;
+    }
+    .count_down{
+      position: inherit;
+    }
+
+
 }
