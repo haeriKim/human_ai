@@ -399,7 +399,7 @@
 
                           <!--디올스 더보기-->
                           <div class="more_thealls">
-                            <p><img src="img/more_thealls3.png" alt="디올스더보기"><a href="#" class="more_a">더올스 더보기</a></p>
+                            <p><img src="img/more_thealls.png" alt="디올스더보기"><a href="#" class="more_a">더올스 더보기</a></p>
                           </div><!--디올스 더보기 끝-->
 
 

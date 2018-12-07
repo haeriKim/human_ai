@@ -49,7 +49,7 @@
                   <!-- banner_slide-->
                   <div class="slide">
                     <ul class="panel">
-                      <li class="banner1 on"></li>
+                      <li class="banner1 on"><a href="#" class="a_link">디올스 국제거래소 기술적 보안 백 보러 가기</a></li>
                       <li class="banner2"></li>
                       <li class="banner3"></li>
                       <li class="banner4"></li>
@@ -268,6 +268,9 @@
                         </ul>
                       </div>
                     </div><!-- Notice&use_guide End-->
+
+                      <p onclick="location.href='prime.php'"><img src="img/prime.png" alt="프라임버튼" class="prime_bt"></p>
+
                 </div><!-- main_content End-->
             </div><!-- content_wrap End-->
 

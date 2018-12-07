@@ -648,21 +648,25 @@
 /*more_thealls*/
 .more_thealls{
   margin:100px 0 100px 0;
-  position: relative;
   overflow: hidden;
 }
+.more_thealls p{
+  position: relative;
+}
 .more_thealls .more_a{
-  width:230px;
+  width:10%;
+  height:50px;
   color:#f00;
   position:absolute;
   display:block;
   overflow:hidden;
   text-indent:-9999px;
-  top:47%;
-  right:45%;
+  top:33%;
+  right:30%;
 }
 .more_thealls img{
-  width:40%;
+  width:50%;
+  margin: 0 0 150px 0;
 }
 
 /*메인홈버튼*/

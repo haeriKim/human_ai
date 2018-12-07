@@ -16,6 +16,16 @@
   position: relative;
   height: 300px;
 }
+.a_link{
+  position:absolute;
+  font-size:22px;
+  top:73%;
+  left:33.5%;
+  padding-top:5px;
+  overflow: hidden;
+  text-indent: -9999px;
+  width:432px;
+}
 /* .panel:after {
   content: "";
   display: block;
@@ -319,6 +329,13 @@
 }
 #app_wrap{
   display:none;
+}
+.prime_bt{
+  position:absolute;
+  top:90%;
+  right:-8%;
+  width:10%;
+  cursor:pointer;
 }
 
 @media all and (min-width:320px) and (max-width:1024px){

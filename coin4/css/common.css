@@ -1353,6 +1353,9 @@ box-shadow:none;
     .mypage_content{
       padding:40px 20px;
     }
+    .coin_money_detail #detail_all .coinInfo_table tbody tr td{
+      font-size:12px;
+    }
 
     /*인증센터 그림*/
     .cer_center .cer_level{

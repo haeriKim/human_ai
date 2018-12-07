@@ -131,3 +131,12 @@
   background: url(../img/arrow_off.png) no-repeat 95% center;
   background-size: 10px;
 }
+}
+@media all and (min-width:1025px) and (max-width:1599px){
+  .notice_detail .notice_detail_inner .notice_detail_inner_content p{
+    font-size:12px;
+  }
+  .notice_detail .notice_detail_inner .notice_detail_footer .notice_preview li p{
+    font-size:12px;
+  }
+}
