@@ -1,3 +1,42 @@
+/*PC버젼*/
+.app_pagePC_content{
+  text-align: center;
+}
+.app_pagePC_content .app_pagePC_story{
+    display: inline-block;
+    width: 30%;
+    font-size: 80%;
+    font-weight: 600;
+    margin: 15px 0;
+    text-align: center;
+    overflow: hidden;
+    background: #080D13;
+    border: 1px solid #7AABDF;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(100,100,100,.2);
+}
+.app_pagePC_content .app_pagePC_story img{
+  width:80px;
+  margin-top:20px;
+}
+.app_pagePC_content .app_pagePC_story p{
+  margin:20px 0;
+  color:#7AABDF;
+}
+.app_pagePC_content .app_pagePC_story .app_bt{
+background:#7AABDF;
+border: none;
+color: #fff;
+padding: 10px 0;
+font-size: 12px;
+width: 60%;
+border-radius: 5px;
+font-weight: 600;
+margin-left: 5px;
+margin: 20px 0;
+}
+
+
 @media all and (min-width:320px) and (max-width:1024px){
   .app_pagePC_content{
     text-align: center;
@@ -16,7 +55,7 @@
       box-shadow: 0 1px 2px rgba(100,100,100,.2);
   }
   .app_pagePC_content .app_pagePC_story img{
-    width:30%;
+    width:80px;
     margin-top:20px;
   }
   .app_pagePC_content .app_pagePC_story p{

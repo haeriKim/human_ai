@@ -14,6 +14,20 @@
     border-bottom: 2px solid #0E141C;
     font-size: 15px;
 }
+#wrap{
+  display:block;
+}
+#app_wrap{
+  display:none;
+}
+@media all and (min-width:320px) and (max-width:1024px){
+  #app_wrap{
+    display:block;
+  }
+  #wrap{
+    display:none;
+  }
+}
 @media all and (min-width:1025px) and (max-width:1599px){
   .track_ip_address_area .track_ip_address table thead th{
     font-size:12px;

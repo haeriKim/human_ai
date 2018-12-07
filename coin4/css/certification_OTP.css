@@ -177,7 +177,20 @@
 .cer_center .center_bottom .cText_right li .lv5_ing {
   display: none;
 }
-
+#wrap{
+  display:block;
+}
+#app_wrap{
+  display:none;
+}
+@media all and (min-width:320px) and (max-width:1024px){
+  #app_wrap{
+    display:block;
+  }
+  #wrap{
+    display:none;
+  }
+}
 @media all and (min-width:1025px) and (max-width:1599px){
   .center_bottom .cText_left3 strong{
     font-size:12px;

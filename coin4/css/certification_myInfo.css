@@ -161,7 +161,20 @@ table .password_question_detail:before, table .password_question_detail2:before 
   vertical-align: -3px;
   margin-right: 2px;
 }
-
+#wrap{
+  display:block;
+}
+#app_wrap{
+  display:none;
+}
+@media all and (min-width:320px) and (max-width:1024px){
+  #app_wrap{
+    display:block;
+  }
+  #wrap{
+    display:none;
+  }
+}
 @media all and (min-width:1025px) and (max-width:1599px){
   .myinfo_sub_box table.left_thick_table tbody input[type='password'],
   .myinfo_sub_box table.left_thick_table tbody input[type='text']

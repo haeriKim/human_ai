@@ -356,6 +356,20 @@ cursor: pointer;
   background-color: #7AABDF;
   cursor: pointer;
 }
+#wrap{
+  display:block;
+}
+#app_wrap{
+  display:none;
+}
+@media all and (min-width:320px) and (max-width:1024px){
+  #app_wrap{
+    display:block;
+  }
+  #wrap{
+    display:none;
+  }
+}
 @media all and (min-width:1025px) and (max-width:1599px){
 .myinfo_small_info_box .myinfo_box1{
   font-size:12px;
@@ -380,5 +394,11 @@ table .password_question_detail2{
 }
 table .password_question_detail:before, table .password_question_detail2:before{
   left:59%;
+}
+.change_OTP_table_text{
+  font-size:12px;
+}
+.change_OTP_table .input_your_sms_number{
+  width:300px;
 }
 }
