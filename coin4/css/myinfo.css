@@ -28,10 +28,12 @@
     width: 49%;
     margin-left: 1%;
 }
-.myinfo_sub_box .myinfo_table_wrap .myinfo_table .change_phone_num{
+.myinfo_sub_box .myinfo_table_wrap .myinfo_table .change_phone_num,
+.myinfo_sub_box .myinfo_table_tr .certify_realname{
   color:#7AABDF;
 }
-.myinfo_sub_box .myinfo_table_wrap .myinfo_table .change_phone_num:hover{
+.myinfo_sub_box .myinfo_table_wrap .myinfo_table .change_phone_num:hover,
+.myinfo_sub_box .myinfo_table_tr .certify_realname:hover{
   color:#0E141C;
 }
 .myinfo_sub_box .myinfo_table_wrap .myinfo_table p.account_number{
@@ -55,16 +57,16 @@
 }
 /* cer_level */
 .cer_center .cer_level .btn_large{
-  cursor:pointer;
-  border-radius: 5px;
-  background-color:#7AABDF;
-  color:white;
-  border:none;
-  padding:6px 20px;
-  margin-top:10px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #7AABDF;
+    border: 1px solid #7AABDF;
+    padding: 6px 20px;
+    margin-top: 10px;
 }
 .cer_center .cer_level .btn_large:hover{
-    background-color: rgba(27,47,74,.9);
+    background-color: #7AABDF;
+    color: #0E141C;
 }
 
 /* quit_page */

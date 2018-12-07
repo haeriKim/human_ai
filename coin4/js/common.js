@@ -889,7 +889,7 @@ $(document).ready(function(){
 //휴대폰변경 완료창
 $(document).ready(function(){
   $(".request_number, .cofirm_number").click(function(){
-      $("#full").show();
+      $("#full, .change_OTP_count_down").show();
   });
   $(".phone2_ok").click(function(){
     $("#full").hide();

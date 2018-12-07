@@ -336,7 +336,7 @@ cursor: pointer;
 .change_OTP_table .change_OTP_count_down{
   position: absolute;
   font-size: 14px;
-  right: 260px;
+  right: 245px;
   margin-top: 4.5px;
   color:#f35531;
   display:none;
