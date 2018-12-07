@@ -1223,7 +1223,8 @@ $(document).ready(function(){
 $(document).ready(function(){
   var select = 0;
   $(".customer2").hide();
-  $(".customer1,.customer2").click(function(){
+  $(".customer1,.customer2").click(function(e){
+      e.preventDefault();
     if(select === 0) {
         $(".customer2").show();
         $(".customer1").hide();
@@ -1239,7 +1240,8 @@ $(document).ready(function(){
 $(document).ready(function(){
   var select = 0;
   $(".second_menu").hide();
-  $(".customer1,.customer2").click(function(){
+  $(".customer1,.customer2").click(function(e){
+      e.preventDefault();
         $(".second_menu").stop().slideToggle(500);
   });
 });
