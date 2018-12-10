@@ -42,19 +42,15 @@ margin-left: 10px;
     background:none;
     color:#fff;
 }
-
 .myinfo_sub_box table.left_thick_table tbody input::placeholder{
     color:#fff;
     font-size:14px;
 }
-
-
 table td div.question_smallbox{
   display: inline-block;
   position:relative;
   cursor:pointer;
 }
-
 table .password_question_detail, table .password_question_detail2{
   box-sizing: border-box;
   padding:20px;
@@ -67,6 +63,7 @@ table .password_question_detail, table .password_question_detail2{
   left:-290px;
   line-height: 25px;
   visibility: hidden;
+  cursor: auto;
 }
 table .password_question_detail2{
     width:450px;

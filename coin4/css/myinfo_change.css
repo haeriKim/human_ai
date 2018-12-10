@@ -139,6 +139,7 @@ table .password_question_detail, table .password_question_detail2{
   left:-290px;
   line-height: 25px;
   visibility: hidden;
+  cursor: auto;
 }
 table .password_question_detail2{
     left:-210px;
@@ -163,6 +164,7 @@ table .password_question_detail strong, table .password_question_detail2 strong{
 table td div.question_smallbox:hover .password_question_detail,
 table td div.question_smallbox:hover .password_question_detail2{
   visibility: visible;
+  cursor: auto;
 }
 
 /*cancel_or_apply*/
