@@ -156,7 +156,7 @@
                             <p>Um an der internationalen Börse wie oben aufgeführt notiert zu sein, schließen beide Parteien und bewahren zwei Kopien auf, um die Vertraulichkeit zu gewährleisten</p>
                             <br><br>
                             <p class="title_sub_title">Beigefügte Dokumente für den Vertrag erforderlich</p><br>
-                            <p>- Kopie der Unternehmensregistrierung, Unternehmenszertifikat, Versandzertifikat, Zertifikat des Firmensiegels</p>
+                            <p>- Kopie der Unternehmensregistrierung, Unternehmenszertifikat, Versandzertifikat, Zertifikat des Firmensiegels,</p>
                             <br><br><br>
                             <p>20 _____ Monat ____ Tag ____</p>
                             <br>

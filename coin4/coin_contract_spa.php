@@ -156,7 +156,7 @@
                             <p>Para ser incluidos en el intercambio internacional como se indica anteriormente, ambas partes contratan y conservan dos copias para garantizar la confidencialidad.</p>
                             <br><br>
                             <p class="title_sub_title">Documentos adjuntos requeridos para el contrato</p><br>
-                            <p>- Copia del registro corporativo, certificado de registro comercial, certificado de pedido por correo, certificado de sello corporativo</p>
+                            <p>- Copia del registro corporativo, certificado de registro comercial, certificado de pedido por correo, certificado de sello corporativo,</p>
                             <br><br><br>
                             <p>20 _____ mes ____ día____</p>
                             <br>

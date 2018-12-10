@@ -72,7 +72,7 @@
                                 <li>
                                     <a href='#'>
                                         이메일 주소 찾기
-                                        <p class='e_mail_find'>당사 고객센터(1644-4272)로 연락주시면<br/>확인하여 안내드릴 수 있도록 하겠습니다.</p>
+                                        <p class='e_mail_find'>당사 고객센터(02-6013-6879)로 연락주시면<br/>확인하여 안내드릴 수 있도록 하겠습니다.</p>
                                     </a>
                                 </li>
                             </ul>
@@ -109,7 +109,7 @@
                                 <li class='email_find_btn'>
                                     <a href='#'>이메일 주소 찾기</a>
                                     <span class='partition'>|</span>
-                                    <p class='e_mail_find'>당사 고객센터(1644-4272)로 연락주시면<br/>확인하여 안내드릴 수 있도록 하겠습니다.</p>
+                                    <p class='e_mail_find'>당사 고객센터(02-6013-6879)로 연락주시면<br/>확인하여 안내드릴 수 있도록 하겠습니다.</p>
                                 </li>
                             </ul>
                         </div>    <!-- login_info End-->

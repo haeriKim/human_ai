@@ -538,7 +538,10 @@
       margin:0 0.7%;
     }
     .main_content .bitcoin_card_btn .next{
-      right:3%;
+      right:1%;
+    }
+    .main_content .bitcoin_card_btn .prev{
+        left:0;
     }
     .use_guide li{
       margin-left:3.2%;

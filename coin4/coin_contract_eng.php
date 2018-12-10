@@ -155,7 +155,7 @@
                             <p>In order to list on the international exchange as above, both parties contract and keep two copies in order to secure confidentiality</p>
                             <br><br>
                             <p class="title_sub_title">Attached documents required for contract</p><br>
-                            <p>- Copy of corporate registration, business registration certificate, mail order certificate, corporate seal certificate</p>
+                            <p>- Copy of corporate registration, business registration certificate, mail order certificate, corporate seal certificate,</p>
                             <br><br><br>
                             <p>20 ____     month ____   day____</p>
                             <br>
