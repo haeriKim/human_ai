@@ -1352,6 +1352,30 @@
   #deal_all .deal_table_tbody td:not(.deal_time){
       padding-left: 10px;
   }
+  #deal_orgin_transaction thead tr{
+    font-size:12px;
+  }
+  #deal_orgin_transaction thead tr th{
+    font-size:12px;
+    padding:inherit;
+  }
+  #deal_orgin_transaction thead tr th.coin_kor, #deal_orgin_transaction thead tr th.coin_eng{
+    padding-left:10px;
+  }
+  #deal_orgin_transaction tbody p{
+    font-size:12px;
+  }
+  #deal_orgin_transaction tbody tr td:first-child{
+    padding-left:10px;
+  }
+  #deal_orgin_transaction tbody .up_down_data{
+    font-size:12px;
+  }
+  #deal_all thead tr{
+    font-size:12px;
+  }
+}
+
   @media (min-width:1441px) and (max-width:1599px){
       #deal_all .deal_all_thead{
           width: 33%;
