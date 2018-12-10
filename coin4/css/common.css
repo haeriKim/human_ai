@@ -1408,6 +1408,6 @@ box-shadow:none;
 }
 @media (min-width:1025px) and (max-width:1279px){
     #wrap .content{
-        overflow-x: auto;
+        overflow-x: hidden;
     }
 }

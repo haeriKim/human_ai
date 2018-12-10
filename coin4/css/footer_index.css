@@ -130,3 +130,34 @@
       font-size: 14px;
     }
 }
+@media all and (min-width:1576px) and (max-width:1599px){
+  .footer_menu .footer_nav ul li + li{
+    margin-left:0;
+  }
+}
+@media all and (min-width:1025px) and (max-width:1575px){
+  .compnay_info{
+    font-size:12px;
+  }
+  .footer_menu .footer_nav{
+
+  }
+  .footer_menu strong{
+    font-size:12px;
+    margin-bottom:0;
+    line-height: 30px;
+  }
+  .footer_menu{
+    float:none;
+  }
+  .footer_menu .footer_nav ul.left{
+    margin-left:0;
+    float:right;
+  }
+  .footer_menu .footer_nav ul li{
+    font-size:12px;
+  }
+  .footer_menu .footer_nav ul li + li{
+    margin-left:6px;
+  }
+}

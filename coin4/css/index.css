@@ -514,7 +514,7 @@
         max-width: 68px;
     }
     .main_content .bitcoin_card_wrap{
-      width:90%;
+      width:88%;
     }
     .main_content .bitcoin_card_wrap .bitcoin_card{
       width:90%;
@@ -524,9 +524,27 @@
       left:-5px;
     }
     .main_content ul.bitcoin_card_inner li.card_li{
-      width:7%;
+      width:7.1%;
       font-size:80%;
-      margin:0 0.8%;
+      margin:0 0.7%;
+    }
+    .main_content .bitcoin_card_btn .next{
+      right:3%;
+    }
+    .use_guide li{
+      margin-left:3.2%;
+    }
+    .use_guide ul p{
+      font-size:80%;
+    }
+    .notice ul li b{
+      font-size:12px;
+    }
+    .notice ul li span{
+      font-size:12px;
+    }
+    .notice ul{
+      margin-left:3%;
     }
 
 
