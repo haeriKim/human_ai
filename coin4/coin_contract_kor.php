@@ -53,16 +53,44 @@
             <div class="content_wrap">
                 <!-- main_content -->
                 <div class="content use_content">
-                  <div class="box con_1000">
+                  <div class="box con_1000 coin_contract">
                     <!--use_tab_menu-->
                     <div id="use_tab_menu">
                       <ul class="cops">
-                          <li class="use_active">한국어</li>
-                          <li onclick="location.href='coin_contract_eng.php'">영어</li>
-                          <li onclick="location.href='coin_contract_chi.php'">중국어</li>
-                          <li onclick="location.href='coin_contract_ger.php'">독일어</li>
-                          <li onclick="location.href='coin_contract_rus.php'">러시아어</li>
-                          <li onclick="location.href='coin_contract_spa.php'">스페인어</li>
+                          <li class='lan_kor use_active'>
+                              <p>한국어</p>
+                              <img src="img/kor-31-cir.png" alt="한국국기">
+                          </li>
+                          <li onclick="location.href='coin_contract_eng.php'">
+                              <p>영어<br>
+                              <span>English</span></p>
+                              <img src="img/usa-31-cir.png" alt="미국국기">
+                          </li>
+                          <li onclick="location.href='coin_contract_chi.php'" >
+                              <p>중국어<br>
+                              <span>中文</span></p>
+                              <img src="img/china-31-cir.png" alt="중국국기">
+                          </li>
+                          <li onclick="location.href='coin_contract_ger.php'">
+                              <p>독일어<br>
+                              <span>Deutsch</span></p>
+                              <img src="img/german-31.png" alt="독일국기">
+                          </li>
+                          <li onclick="location.href='coin_contract_rus.php'">
+                              <p>러시아어<br>
+                              <span>Русский</span></p>
+                              <img src="img/russia-31-cir.png" alt="러시아국기">
+                          </li>
+                          <li onclick="location.href='coin_contract_spa.php'">
+                              <p>스페인어<br>
+                              <span>español</span></p>
+                              <img src="img/spain-31-cir.png" alt="스페인국기">
+                          </li>
+                          <li onclick="location.href='coin_contract_fra.php'">
+                              <p>프랑스어<br>
+                              <span>français</span></p>
+                              <img src="img/france-31-cir.png" alt="프랑스국기">
+                          </li>
                       </ul>
                     </div>
                     <!-- 이용약관방침 / 개인정보처리방침 -->
@@ -70,7 +98,9 @@
 
                         <div class="use_area_text">
 
-                            <p class="title">상장(등록)계약서 - 한국어</p>
+                            <p class="title">
+                                상장(등록)계약서 - 한국어<img src="img/kor-31-cir.png" alt="한국국기">
+                            </p>
                             <br/>
                             <p class="title_title">상장(등록)계약서</p>
                             <br/>
@@ -79,7 +109,7 @@
                             목적: “갑”의 거래소에 “을”의 코인을 상장 시킨다. 다만 “갑”이 필요한 모든 자료를 “을”이 제공하여 쌍방의 수익을 창출하는데 그 목적이 있다.</p>
                             <br/><br/>
                             <p class="title_sub_title">제1조 <쌍방의무></p><br>
-                            <p>1) 쌍방은 각각의 주어진 의무에 충실해야 하다.</p>
+                            <p>1) 쌍방은 각각의 주어진 의무에 충실해야 한다.</p>
                             <p>2) 쌍방은 서로 정한 의무를 다 해야 한다.</p>
                             <p>3) 쌍방은 서로 정한 대로 하되 문제 발생시 기본적인 유예기간을 두고 협의 한다. 단, 1회에 한한다.</p>
                             <br>
@@ -157,7 +187,7 @@
                             <br><br><br>
                             <p>20<span class='space'>년<span class='space'>월<span class='space'>일</p>
                             <br>
-                            <p>작성자 “갑” 주식회사 디올스 www.Thealls.net  한글주소: 디올스.net</p>
+                            <p>작성자 “갑” 주식회사 디올스 <a href="http://www.thealls.net/" target="_blank" class='thealls_site'>www.Thealls.net</a> 한글주소: 디올스.net</p>
                             <br>
                             <p>대표이사<span class='space_02'>인</p>
                             <br><br><br>

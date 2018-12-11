@@ -53,16 +53,44 @@
             <div class="content_wrap">
                 <!-- main_content -->
                 <div class="content use_content">
-                  <div class="box con_1000">
+                  <div class="box con_1000 coin_contract">
                     <!--use_tab_menu-->
                     <div id="use_tab_menu">
                       <ul class="cops">
-                        <li onclick="location.href='coin_contract_kor.php'">한국어</li>
-                        <li onclick="location.href='coin_contract_eng.php'">영어</li>
-                        <li class="use_active">중국어</li>
-                        <li onclick="location.href='coin_contract_ger.php'">독일어</li>
-                        <li onclick="location.href='coin_contract_rus.php'">러시아어</li>
-                        <li onclick="location.href='coin_contract_spa.php'">스페인어</li>
+                          <li onclick="location.href='coin_contract_kor.php'" class='lan_kor'>
+                              <p>한국어</p>
+                              <img src="img/kor-31-cir.png" alt="한국국기">
+                          </li>
+                          <li onclick="location.href='coin_contract_eng.php'">
+                              <p>영어<br>
+                              <span>English</span></p>
+                              <img src="img/usa-31-cir.png" alt="미국국기">
+                          </li>
+                          <li class="use_active" >
+                              <p>중국어<br>
+                              <span>中文</span></p>
+                              <img src="img/china-31-cir.png" alt="중국국기">
+                          </li>
+                          <li onclick="location.href='coin_contract_ger.php'">
+                              <p>독일어<br>
+                              <span>Deutsch</span></p>
+                              <img src="img/german-31.png" alt="독일국기">
+                          </li>
+                          <li onclick="location.href='coin_contract_rus.php'">
+                              <p>러시아어<br>
+                              <span>Русский</span></p>
+                              <img src="img/russia-31-cir.png" alt="러시아국기">
+                          </li>
+                          <li onclick="location.href='coin_contract_spa.php'">
+                              <p>스페인어<br>
+                              <span>español</span></p>
+                              <img src="img/spain-31-cir.png" alt="스페인국기">
+                          </li>
+                          <li onclick="location.href='coin_contract_fra.php'">
+                              <p>프랑스어<br>
+                              <span>français</span></p>
+                              <img src="img/france-31-cir.png" alt="프랑스국기">
+                          </li>
                       </ul>
                     </div>
                     <!-- 이용약관방침 / 개인정보처리방침 -->
@@ -70,12 +98,14 @@
 
                         <div class="use_area_text">
 
-                            <p class="title">상장(등록)계약서 - 중국어</p>
+                            <p class="title">
+                                상장(등록)계약서 - 중국어(中文)<img src="img/china-31-cir.png" alt="중국국기">
+                            </p>
                             <br>
                             <p class="title_title">上市（注册）合同</p>
                             <br/>
                             <p>经营国际交易所的机构 'The Alls' 被称为“A”，要求上市的公司被称为“B”
-                            双方正在将“B”的硬币列入由“A”运营的国际交易所 'The Alls'。双方准备以下合同，以追求经济利益并促进第四次上市发展 'The Alls” 上的“B”硬币，由“A”运营的国际交易所。<br>
+                            双方正在将“B”的硬币列入由“A”运营的国际交易所 'The Alls'。双方准备以下合同，以追求经济利益并促进第四次上市发展 'The Alls' 上的“B”硬币，由“A”运营的国际交易所。<br>
                             目的：B”的硬币列在“A”的国际交换中。 但是，“A”所需的所有材料的目的是由“B”提供以创造双方的收入
                             </p><br/>
                             <br/>
@@ -159,7 +189,7 @@
                             <br><br><br>
                             <p>20 _____个月____天_____</p>
                             <br>
-                            <p>作者“A”International Exchange The Alls Co.，Ltd。www.Thealls.net Hangul地址：디올스.net</p>
+                            <p>作者“A”International Exchange The Alls Co.，Ltd。<a href="http://www.thealls.net/" target="_blank" class='thealls_site'>www.Thealls.net</a> Hangul地址：디올스.넷</p>
                             <br>
                             <p>CEO _______________签名_________。</p>
                             <br><br><br>

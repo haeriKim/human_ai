@@ -1264,19 +1264,24 @@ $(document).ready(function(){
 
 /*반응형 로그인 말풍선*/
 $(document).ready(function(){
-    var click_time = 1;
-    $('#login_area_responsive .e_mail_find').hide();
+    var click_time = 0;
     $('#login_area_responsive .email_find_btn a').on('click',function(e){
         e.preventDefault();
-        if (click_time === 1) {
+        if (click_time === 0) {
             $('#login_area_responsive .e_mail_find').show();
-            click_time = 0;
+            click_time = 1;
         }else{
             $('#login_area_responsive .e_mail_find').hide();
-            click_time = 1;
+            click_time = 0;
         }
     });
-})
+    $('body').click(function(e){
+        if(!$(".email_find_btn").has(e.target).length){
+            $("#login_area_responsive .e_mail_find").hide();
+            click_time = 0;
+        }
+    });
+});
 
 /*원화 출금 신청 버튼 클릭시 확인팝업*/
 $(document).ready(function(){
