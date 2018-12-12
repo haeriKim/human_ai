@@ -1,0 +1,1384 @@
+/*  코인선택 영역(coinSelect_area) */
+#left_coin_menu{
+  float:left;
+  width:350px;
+  /* position: fixed; */
+  position: relative;
+}
+#left_coin_menu.scroll_fixed {
+  position: fixed;
+}
+
+/*coin_money*/
+.coin_money{
+/*  position: relative;
+  width:350px;
+  padding: 20px;
+  margin: 75px 0 20px 0;*/
+}
+.coin_money_inner strong{
+  font-size:20px;
+}
+.coin_money_inner .coin_word{
+  margin-left:5px;
+  color:#aaa;
+}
+.coin_money_inner .price{
+  font-size:30px;
+  color:#017eff;
+  font-weight:bold;
+}
+.coin_money_inner .question, .coin_money_inner .question1, .coin_money_inner .question2,
+.coin_money_inner .question3, .coin_money_inner .question4, .coin_money_inner .question5,
+.coin_money_inner .question6{
+  position: absolute;
+  right: 1%;
+  top: 4px;
+  width: 15px;
+  height: 22px;
+  cursor: pointer;
+  font-size: 23px;
+  font-weight: 600;
+  color: #7AABDF;
+}
+.coin_money_inner .coin_prepare {
+  font-size: 18px;
+  color:#017eff;
+  font-weight: 600;
+}
+.coin_money_inner .coin_prepare img.ud {
+  margin-right: 3px;
+  vertical-align: 1px;
+}
+
+/*coin_money_prepare*/
+.coin_money_prepare{
+  padding:10px 0;
+  border-bottom:2px solid #333;
+}
+.coin_money_prepare .hl_price{
+  font-size:15px;
+  color:#fff;
+  font-weight:600;
+  margin: 0 10px;
+  overflow: hidden;
+}
+.coin_money_prepare .hl_price .hl_title{
+  float:left;
+  height: 27px;
+  line-height: 27px;
+}
+.coin_money_prepare .hl_price p{
+  font-size:20px;
+  color:#f35531;
+  display:inline-block;
+  float:right;
+  text-align: right;
+  margin-top:-2px;
+}
+.coin_money_prepare .hl_price p .price_down{
+  color:#017eff;
+}
+.coin_money_prepare li .won{
+  font-size:16px;
+  color:#aaa;
+  margin-left: 10px;
+}
+
+/*************************************************************/
+.coin_money_volume{
+  padding:10px 0;
+}
+.coin_money_volume .hl_volume{
+  font-size:15px;
+  color:#fff;
+  font-weight:600;
+  margin:  0 10px;
+  overflow: hidden;
+}
+.coin_money_volume .hl_volume .hl_title{
+  float:left;
+  height: 27px;
+  line-height: 27px;
+  display: block;
+  width: 100%
+}
+.coin_money_volume .hl_volume p{
+  font-size:20px;
+  color:#aaa;
+  float:right;
+  margin-top:-2px;
+}
+.coin_money_volume li .unit{
+  font-size:16px;
+  padding-left:10px;
+}
+
+/*coin_money_detail*/
+.coin_money_detail{
+  width: 350px;
+  position:absolute;
+  left:370px;
+  top:0;
+  display:none;
+  background:#080D13;
+  z-index:4;
+  border: none;
+}
+#detail_all{
+  padding:10px 25px;
+}
+#detail_all p{
+  padding: 10px 0;
+}
+#detail_all span a{
+  font-size:12px;
+  color:#fff;
+  float:right;
+  display:inline-block;
+  padding:10px 0;
+  text-decoration:underline;
+}
+#detail_all span a:hover {
+  color:#7AABDF;
+}
+.coin_money_detail::after {
+  content: "";
+  position: absolute;
+  top: 19%;
+  left: -7%;
+  margin-left: -5px;
+  border: 1px solid #7AABDF;
+  border-width: 17px;
+  border-style: solid;
+  border-color: transparent #080D13 transparent transparent;
+}
+.coin_name{
+  width: 100%;
+  height: 50px;
+  background-color: #080D13;
+  border-bottom: 2px solid #7AABDF;
+  border-radius: 5px 5px 0 0;
+  color: #7AABDF;
+  float: left;
+}
+.coin_name h4{
+  padding:10px 15px;
+  font-size:20px;
+  font-weight:500;
+}
+
+/*deal_orgin_transaction*/
+#deal_orgin_transaction{
+    overflow-y:auto;
+    padding: 0;
+    float:left;
+    width:350px;
+}
+#deal_orgin_transaction table{
+    font-size:13px;
+}
+#deal_orgin_transaction thead tr th.coin_kor,
+#deal_orgin_transaction thead tr th.coin_eng{
+    text-align: left;
+    padding-left:20px;
+    padding-right:0;
+    /*background: url(../img/side_arrow.png) no-repeat 70px 13px;*/
+}
+#deal_orgin_transaction thead tr th:nth-child(3){
+    /*background: url(../img/up_down_default.png) no-repeat 58px 13px;*/
+    /* background: url(../img/up_down_up.png) no-repeat 55px 14px; */
+    /* background: url(../img/up_down_down.png) no-repeat 55px 14px; */
+}
+#deal_orgin_transaction thead tr th:nth-child(4){
+    /* background: url(../img/up_down_default.png) no-repeat 55px 14px; */
+    /*background: url(../img/up_down_up.png) no-repeat 59px 13px;*/
+    /* background: url(../img/up_down_down.png) no-repeat 55px 14px; */
+}
+#deal_orgin_transaction thead tr th:nth-child(5){
+    /* background: url(../img/up_down_default.png) no-repeat 55px 14px; */
+    /* background: url(../img/up_down_up.png) no-repeat 55px 14px; */
+    /*background: url(../img/up_down_down.png) no-repeat 62px 13px;*/
+}
+#deal_orgin_transaction thead tr{
+    height: 35px;
+    color:#666;
+    font-size:13px;
+}
+#deal_orgin_transaction thead tr th{
+    text-align: center;
+    padding-right:15px;
+}
+#deal_orgin_transaction tbody tr{
+    height: 50px;
+    border-bottom:2px solid #0E141C;
+}
+#deal_orgin_transaction tbody tr:hover{
+    background: rgba(122,171,223,0.2);
+    cursor: pointer;
+}
+#deal_orgin_transaction tbody .up_down_data{
+    text-align: center;
+    display: block;
+    padding-right:15px;
+}
+#deal_orgin_transaction tbody p{
+    font-weight: 600;
+    font-size:13px;
+}
+#deal_orgin_transaction tbody tr td:first-child{
+    text-align: left;
+    padding-left:20px;
+    color:#fff;
+}
+#deal_orgin_transaction tbody tr td:nth-child(2){
+    font-weight: 600;
+    font-size:14px;
+}
+#deal_orgin_transaction .unit{
+    color:#aaa;
+    font-size:13px;
+}
+#deal_orgin_transaction .money_up{
+    color:#f35531;
+}
+#deal_orgin_transaction .money_down{
+    color:#017eff;
+}
+/*chart_graf*/
+
+#right_all_menu{
+  float:right;
+  margin-top: 77px;
+  width:920px;
+}
+#right_coin_menu1{
+  float:left;
+}
+/* .chart {
+  width: 905px;
+  height: 465px;
+} */
+
+/*bid_price*/
+#right_coin_menu2{
+  float:left;
+  margin-top:20px;
+  width:920px;
+}
+.bid_price{
+  width:450px;
+  float:left;
+  margin-right:20px;
+}
+.bid_price table{
+  width:448px;
+  font-size:13px;
+}
+.bid_price td{
+  width:80px;
+  padding:5px;
+  border-bottom:2px solid #0E141C;
+}
+.bid_price tr{
+  position:relative;
+  height:35px;
+}
+.bid_price th{
+  background-color:#05080B;
+  padding:5px;
+  font-size:13px;
+  color:#7AABDF;
+}
+.table_h3{
+  border-bottom:3px solid #7AABDF;
+  text-align:left;
+  padding: 10px 20px;
+  font-size:1.17em;
+  font-weight:600;
+  color:#2b2b2b;
+}
+.mado_amount{
+  width:150px;
+}
+.masu_amount{
+  width:130px;
+}
+.mado_right{
+  text-align:right;
+  padding-right:10px;
+}
+.masu_left{
+  padding-left:10px;
+  text-align:left;
+}
+.all_amount{
+  text-align:center;
+}
+.center{
+  text-align:center;
+}
+.high_up{
+  text-align:center;
+  padding-top:20px;
+  line-height:0.5em;
+}
+.low_down{
+  text-align:center;
+  padding-top:20px;
+  line-height:0.5em;
+}
+.orderbg1,.orderbg2{
+  text-align:center;
+}
+.orderbg1{
+  background-color:rgba(1,126,255,0.2);
+}
+.orderbg2{
+  background-color:rgba(243,85,49,0.2);
+}
+.upprice{
+  color:#f35531;
+}
+.downprice{
+  color:#017eff;
+}
+.bid_price table tbody tr td{
+  position:relative;
+}
+.mado1 div{
+  width:50px;
+  height:15px;
+  background-color:rgba(1,126,255,0.2);
+  position:absolute;
+  top:10px;
+  left:79px;
+  opacity:0.5;
+}
+.mado2 div{
+  width:50px;
+  height:15px;
+  background-color:rgba(1,126,255,0.2);
+  position:absolute;
+  top:10px;
+  left:79px;
+  opacity:0.5;
+}
+.mado3 div{
+  width:100px;
+  height:15px;
+  background-color:rgba(1,126,255,0.2);
+  position:absolute;
+  top:10px;
+  left:29px;
+  opacity:0.5;
+}
+.mado4 div{
+  width:20px;
+  height:15px;
+  background-color:rgba(1,126,255,0.2);
+  position:absolute;
+  top:10px;
+  left:109px;
+  opacity:0.5;
+}
+.mado5 div{
+  width:20px;
+  height:15px;
+  background-color:rgba(1,126,255,0.2);
+  position:absolute;
+  top:10px;
+  left:109px;
+  opacity:0.5;
+}
+.mado6 div{
+  width:20px;
+  height:15px;
+  background-color:rgba(1,126,255,0.2);
+  position:absolute;
+  top:10px;
+  left:109px;
+  opacity:0.5;
+}
+.mado7 div{
+  width:100px;
+  height:15px;
+  background-color:rgba(1,126,255,0.2);
+  position:absolute;
+  top:10px;
+  left:29px;
+  opacity:0.5;
+}
+.mado8 div{
+  width:80px;
+  height:15px;
+  background-color:rgba(1,126,255,0.2);
+  position:absolute;
+  top:10px;
+  left:49px;
+  opacity:0.5;
+}
+.mado9 div{
+  width:50px;
+  height:15px;
+  background-color:rgba(1,126,255,0.2);
+  position:absolute;
+  top:10px;
+  left:79px;
+  opacity:0.5;
+}
+.mado10 div{
+  width:50px;
+  height:15px;
+  background-color:rgba(1,126,255,0.2);
+  position:absolute;
+  top:10px;
+  left:79px;
+  opacity:0.5;
+}
+.masu1 div{
+  width:50px;
+  height:15px;
+  background-color:rgba(243,85,49,0.2);
+  position:absolute;
+  top:10px;
+  right:106px;
+  opacity:0.5;
+}
+.masu2 div{
+  width:50px;
+  height:15px;
+  background-color:rgba(243,85,49,0.2);
+  position:absolute;
+  top:10px;
+  right:106px;
+  opacity:0.5;
+}
+.masu3 div{
+  width:100px;
+  height:15px;
+  background-color:rgba(243,85,49,0.2);
+  position:absolute;
+  top:10px;
+  right:56px;
+  opacity:0.5;
+}
+.masu4 div{
+  width:20px;
+  height:15px;
+  background-color:rgba(243,85,49,0.2);
+  position:absolute;
+  top:10px;
+  right:136px;
+  opacity:0.5;
+}
+.masu5 div{
+  width:20px;
+  height:15px;
+  background-color:rgba(243,85,49,0.2);
+  position:absolute;
+  top:10px;
+  right:136px;
+  opacity:0.5;
+}
+.masu6 div{
+  width:20px;
+  height:15px;
+  background-color:rgba(243,85,49,0.2);
+  position:absolute;
+  top:10px;
+  right:136px;
+  opacity:0.5;
+}
+
+.masu7 div{
+  width:100px;
+  height:15px;
+  background-color:rgba(243,85,49,0.2);
+  position:absolute;
+  top:10px;
+  right:56px;
+  opacity:0.5;
+}
+
+.masu8 div{
+  width:80px;
+  height:15px;
+  background-color:rgba(243,85,49,0.2);
+  position:absolute;
+  top:10px;
+  right:76px;
+  opacity:0.5;
+}
+
+.masu9 div{
+  width:50px;
+  height:15px;
+  background-color:rgba(243,85,49,0.2);
+  position:absolute;
+  top:10px;
+  right:106px;
+  opacity:0.5;
+}
+
+.masu10 div{
+  width:50px;
+  height:15px;
+  background-color:rgba(243,85,49,0.2);
+  position:absolute;
+  top:10px;
+  right:106px;
+  opacity:0.5;
+}
+
+/*buy_sell_tab*/
+
+#buy_sell_tab{
+  float:left;
+}
+
+#buy_sell_tab .buy_sell_tab_title{
+    width: 435px;
+    overflow: hidden;
+
+}
+#buy_sell_tab .buy_sell_tab_title li{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+#buy_sell_tab .buy_tab_content,
+#buy_sell_tab .sell_tab_content{
+    padding:30px 20px 20px 20px;
+    width: 435px;
+    background: #080D13;
+    border-radius:0 0 5px 5px;
+    border: none;
+}
+.buy_tab_content{
+    display: block;
+}
+.sell_tab_content{
+    display: none;
+}
+
+#buy_sell_tab .buy_tab_content .buy_tab_content_row,
+#buy_sell_tab .sell_tab_content .sell_tab_content_row{
+    overflow:hidden;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+}
+#buy_sell_tab .buy_tab_content .buy_tab_content_row dt,
+#buy_sell_tab .sell_tab_content .sell_tab_content_row dt{
+    font-size:14px;
+    font-weight: 600;
+    float:left;
+}
+#buy_sell_tab .buy_tab_content .buy_tab_content_row dd,
+#buy_sell_tab .sell_tab_content .sell_tab_content_row dd{
+    float:right;
+}
+
+#buy_sell_tab .buy_tab_content .buy_tab_content_row dd strong,
+#buy_sell_tab .sell_tab_content .sell_tab_content_row dd strong{
+    font-size:20px;
+}
+#buy_sell_tab .buy_tab_content .buy_tab_content_row dd span,
+#buy_sell_tab .sell_tab_content .sell_tab_content_row dd span{
+    font-size:15px;
+    font-weight: 600;
+    color:#aaa;
+    margin-right:3px;
+}
+#buy_sell_tab .buy_tab_content .buy_tab_content_row dd a,
+#buy_sell_tab .sell_tab_content .sell_tab_content_row dd a{
+    border:1px solid #fff;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    font-size:30px;
+    position: absolute;
+    top:0;
+    right:0;
+    text-align: center;
+    line-height: 21px;
+    background: none;
+    color:#fff;
+}
+#buy_sell_tab .buy_tab_content .buy_tab_content_row dd .minus_btn,
+#buy_sell_tab .sell_tab_content .sell_tab_content_row dd .minus_btn{
+    right:35px;
+    top:9px;
+}
+
+#buy_sell_tab .buy_tab_content .buy_tab_content_row dd .plus_btn,
+#buy_sell_tab .sell_tab_content .sell_tab_content_row dd .plus_btn{
+    right:1px;
+    top:9px;
+}
+#buy_sell_tab dd input[type='text']{
+    border:1px solid #fff;
+    background:none;
+    height: 30px;
+    width: 200px;
+    text-align: right;
+    font-size:15px;
+    padding-right:5px;
+    font-weight: 600;
+    color:#fff;
+    margin-right:70px;
+}
+
+#buy_sell_tab dd input.buy_amount{
+    margin-right:70px;
+}
+
+#buy_sell_tab .amount_dropbox select{
+    position: absolute;
+    top: 9px;
+    right: 1px;
+    border: 1px solid #fff;
+    font-size: 15px;
+    width: 66px;
+    height: 32px;
+    line-height: 30px;
+    color:#fff;
+    text-indent: 5px;
+    background-position: 90%;
+}
+#buy_sell_tab .amount_dropbox select option {
+  background-color: #080D13;
+}
+#buy_sell_tab .buy_all_amount_title{
+    font-weight: 600;
+    font-size:16px;
+    color:#7AABDF;
+}
+#buy_sell_tab .buy_all_amount{
+    width: 278px;
+    background: #05080B;
+    color: #fff;
+    height: 47px;
+    line-height: 47px;
+}
+#buy_sell_tab .buy_all_amount p{
+    text-align: right;
+    padding:0 12px;
+}
+#buy_sell_tab .buy_all_amount p span.up_down_data{
+    color:#f35531;
+    font-size:20px;
+    margin-right:5px;
+}
+#buy_sell_tab .buy_all_amount p span.blue_color{
+    color:#017eff;
+}
+#buy_sell_tab .buy_tab_content .buy_tab_content_row.total_price{
+    height: 50px;
+    line-height: 50px;
+}
+#buy_sell_tab .mini_sub_info{
+    width: 100%;
+    overflow: hidden;
+}
+#buy_sell_tab .sub_text{
+    margin: 10px 0 15px 0;
+    font-size: 12px;
+    float: left;
+}
+#buy_sell_tab .minimum_order_price{
+    width: 36%;
+    margin-left: 168px;
+}
+#buy_sell_tab .charge{
+    margin-left: 4px;
+    width: 20%;
+}
+#buy_sell_tab input[type='reset']{
+    background:#fff;
+    padding:10px 30px;
+    border-radius: 5px;
+    font-size:15px;
+    font-weight: 600;
+    cursor:pointer;
+    float: left;
+}
+#buy_sell_tab input[type='reset'].reset_buy {
+    border:1px solid #f35531;
+    color: #f35531;
+    background:none;
+}
+#buy_sell_tab input[type='reset'].reset_sell {
+    border:1px solid #017eff;
+    color: #017eff;
+    background:none;
+}
+#buy_sell_tab .buy_tab_button{
+    width: 100%;
+    overflow: hidden;
+}
+#buy_sell_tab .buy_big_btn{
+    padding: 11px 125px;
+    background: #f35531;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    color: #080D13;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 2%;
+    float: left;
+}
+#buy_sell_tab .sell_big_btn{
+    padding: 11px 125px;
+    background: #017eff;
+    border-radius: 5px;
+    border:none;
+    font-size:15px;
+    color:#080D13;
+    font-weight: 600;
+    cursor:pointer;
+    margin-left: 2%;
+    float: left;
+}
+#buy_sell_tab .buy_sell_tab_title li h3 a{
+    border-radius: 5px 0 0 0;
+    padding:8px 0 11px 0;
+    display: block;
+    color:#777;
+    background: #080D13;
+}
+#buy_sell_tab .buy_sell_tab_title .buy_tab h3.on a{
+    color:#f35531;
+    display: block;
+    border-top:3px solid #f35531;
+    padding:8px 0;
+    background-color: #080D13;
+    border-radius: 5px 0 0 0;
+}
+
+#buy_sell_tab .buy_sell_tab_title .sell_tab h3.on a{
+    color:#017eff;
+    display: block;
+    border-top:3px solid #017eff;
+    padding:8px 0;
+    background-color: #080D13;
+    border-radius: 0 5px 0 0;
+}
+
+/*deal_all*/
+
+.con_435{
+    width:435px;
+    margin:20px 0;
+    height: 428px;
+}
+#deal_all{
+  overflow-y: hidden;
+  float:left;
+}
+#deal_all .deal_table_scroll{
+    overflow-y: scroll;
+    height:380px;
+}
+#deal_all thead tr th.deal_time{
+    text-align: left;
+    padding-left:28px;
+}
+#deal_all table{
+    font-size:13px;
+}
+#deal_all thead tr{
+    height: 35px;
+    font-size:13px;
+}
+#deal_all thead tr th:not(.deal_time){
+    text-align: right;
+    padding-left: 28px;
+}
+#deal_all tbody tr{
+    height: 35px;
+    border-bottom:2px solid #0E141C;
+}
+#deal_all tbody .up_down_data{
+    text-align: right;
+    display: block;
+    padding-right: 14px;
+}
+#deal_all tbody p{
+    font-size:13px;
+    color:#fff;
+    font-weight: 500;
+}
+#deal_all .money_up{
+    color:#f35531;
+}
+#deal_all .money_down{
+    color:#017eff;
+}
+#deal_all .deal_table_tbody{
+    display: inherit;
+    margin-top: 36px;
+    width: 100%;
+}
+#deal_all .deal_all_thead{
+    background-color: #05080B;
+    position: absolute;
+    width: 433px;
+    color:#7AABDF;
+}
+#deal_all .deal_table_tbody .deal_time{
+    padding-left:29px;
+}
+#deal_all .deal_table_tbody .deal_time span{
+    color:#9e9e9e;
+}
+#deal_all .deal_table_tbody td:not(.deal_time){
+    padding-left:35px;
+}
+#deal_all .deal_table_tbody td.deal_price_KRW_data{
+    padding-left:48px;
+}
+#deal_all .deal_table_tbody td.deal_amount_data{
+    padding-left: 21px;
+    padding-right: 13px;
+}
+#full{
+  display:none;
+}
+#wrap{
+  display:block;
+}
+#app_wrap{
+  display:none;
+}
+#main_full{
+    display: none;
+}
+.chart{
+    width: 905px;
+}
+@media all and (min-width:320px) and (max-width:1024px){
+#main_full{
+    display: block;
+}
+  #wrap{
+    display:none;
+  }
+  #app_wrap{
+    display:block;
+  }
+  /*  코인선택 영역(coinSelect_area) */
+  #left_coin_menu{
+    float: left;
+    width: 100%;
+    position: relative;
+  }
+  #left_coin_menu.scroll_fixed {
+    position: fixed;
+  }
+
+  .con_1290{
+    width: 90%;
+    margin: 100px auto;
+  }
+  .coin_select{
+    width: 100%;
+  }
+  .coinSelect_area{
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .coinSelect_area .coinSelect {
+    width: 100%;
+    padding: 0 10px;
+    font-size: 14px;
+  }
+  .coinSelect_area .coinSelect dd {
+    font-size: 14px;
+  }
+  /*coin_money*/
+  .coin_money{
+    width: 100%;
+    margin-top: 60px;
+    padding: 20px 15px;
+  }
+  .coin_money_inner{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #efefef;
+  }
+  .coin_money_inner .img_area {
+    height: 60px;
+    float: left;
+    padding: 5px 0;
+}
+  .coin_money_inner img.bitcoin_icon{
+    width: 60px;
+  }
+  .coin_money_inner ul{
+    float: left;
+    width:68%;
+    margin-left: 0;
+  }
+  .coin_money_inner strong{
+    font-size:15px;
+  }
+  .coin_money_inner .coin_word{
+    font-size: 15px;
+  }
+  .coin_money_inner .price{
+    font-size: 18px;
+  }
+  .coin_money_inner .won{
+    font-size:15px;
+  }
+  .coin_money_inner .question{
+    left: 92%;
+    top: 4px;
+    font-size: 20px;
+  }
+
+  .coin_money_inner .coin_prepare {
+    font-size: 15px;
+  }
+  .coin_money_inner .coin_prepare strong{
+    font-size:13px;
+  }
+  .coin_money_inner .coin_prepare img.ud {
+    margin-right: 3px;
+    vertical-align: 1px;
+  }
+
+  /*coin_money_prepare*/
+  .coin_money_prepare{
+    padding-top: 0;
+  }
+  .coin_money_prepare .hl_price{
+    font-size:14px;
+  }
+  .coin_money_prepare .hl_price p {
+    font-size: 17px;
+  }
+  .coin_money_prepare li .won {
+    font-size: 14px;
+  }
+
+  .coin_money_volume {
+    padding-bottom: 0;
+  }
+  .coin_money_volume .hl_volume {
+    font-size: 14px;
+  }
+  .coin_money_volume .hl_volume p {
+    font-size: 17px;
+  }
+  .coin_money_volume li .unit {
+    font-size: 14px;
+  }
+  /*************************************************************/
+
+
+  /*coin_money_detail*/
+  .coin_money_detail{
+      width: 93%;
+      left: 3%;
+      top: 100px;
+      border: 1px solid #7AABDF;
+    }
+  .coin_money_detail::after {
+    display: none;
+  }
+  .coin_name {
+    height: 45px;
+  }
+  .coin_name h4 {
+    padding: 7px 15px;
+  }
+  #detail_all{
+    padding:10px 15px;
+  }
+  #detail_all p {
+    font-size: 11px;
+    padding: 7px 0;
+  }
+  table.left_thick_table tbody th,  table.left_thick_table tbody td{
+    font-size: 12px;
+  }
+  table.left_thick_table tbody th{
+      width: 36%;
+      padding: 5px;
+    }
+  .coin_money_ethuriumClassic table.left_thick_table tbody th{
+      padding: 5px 2px;
+  }
+  /*deal_orgin_transaction*/
+ #deal_orgin_transaction{
+     display:none;
+ }
+
+ /*chart_graf*/
+
+ .app_chart{
+   width:100%;
+   height: 800px;
+ }
+
+ /*bid_price*/
+
+ .bid_price{
+   width:100%;
+   margin-top:20px;
+   margin-bottom:20px;
+ }
+ .bid_price table{
+   width:100%;
+ }
+
+ /*buy_sell_tab*/
+
+ #buy_sell_tab{
+   width:100%;
+ }
+ #buy_sell_tab .buy_sell_tab_title{
+     width: 100%;
+ }
+ #buy_sell_tab .buy_tab_content,
+ #buy_sell_tab .sell_tab_content{
+     padding:20px;
+     width: 100%;
+     padding-top: 0;
+ }
+ #buy_sell_tab .buy_tab_content .buy_tab_content_row dd,
+ #buy_sell_tab .sell_tab_content .sell_tab_content_row dd{
+   width:65%;
+   text-align: right;
+ }
+ #buy_sell_tab .buy_tab_content .buy_tab_content_row dt,
+ #buy_sell_tab .sell_tab_content .sell_tab_content_row dt{
+     font-size:12px;
+     width: 33%;
+ }
+ #buy_sell_tab dd input[type='text']{
+     width: 64%;
+     text-align: right;
+     font-size:12px;
+ }
+ #buy_sell_tab .buy_tab_content .buy_tab_content_row dd .plus_btn,
+ #buy_sell_tab .sell_tab_content .sell_tab_content_row dd .plus_btn{
+   top:10px;
+ }
+ #buy_sell_tab .buy_tab_content .buy_tab_content_row dd .minus_btn,
+ #buy_sell_tab .sell_tab_content .sell_tab_content_row dd .minus_btn{
+   top:10px;
+   right: 9.8%;
+ }
+ #buy_sell_tab .buy_tab_content .buy_tab_content_row dd a,
+ #buy_sell_tab .sell_tab_content .sell_tab_content_row dd a{
+     width: 9%;
+     max-width: 30px;
+     font-size: 20px;
+     line-height: initial;
+ }
+ /*input창 어긋나는 부분 보완*/
+ @media all and (min-width:412px) and (max-width:1024px){
+     #buy_sell_tab dd input[type='text']{
+         width: 67%;
+     }
+     #buy_sell_tab .buy_tab_content .buy_tab_content_row dd .minus_btn,
+     #buy_sell_tab .sell_tab_content .sell_tab_content_row dd .minus_btn{
+         right: 35px;
+     }
+ }
+ /*ipad*/
+ @media all and (min-width:1024px) and (max-width:1024px){
+     #buy_sell_tab dd input[type='text']{
+         width: 348px;
+     }
+ }
+ #buy_sell_tab .amount_dropbox select{
+     font-size: 12px;
+     top:10px;
+     width: 19%;
+     height: 32px;
+     max-width: 65px;
+     background-position: 90%;
+ }
+ #buy_sell_tab .buy_all_amount_title{
+     font-size:14px;
+ }
+ #buy_sell_tab .buy_all_amount{
+     width: 60%;
+ }
+ #buy_sell_tab .sell_all_amount{
+     width: 60%;
+ }
+ #buy_sell_tab .buy_all_amount p {
+  height: 45px;
+  line-height: 45px;
+  font-size: 14px;
+ }
+ #buy_sell_tab .buy_all_amount p span.up_down_data{
+     font-size:16px;
+ }
+ #buy_sell_tab .minimum_order_price{
+     width: 50%;
+     margin-left:0;
+     text-align: left;
+ }
+ #buy_sell_tab .charge{
+     width: 49%;
+     margin-left:0;
+     text-align: right;
+ }
+ #buy_sell_tab input[type='reset'].reset_buy, #buy_sell_tab input[type='reset'].reset_sell {
+   width: 37%;
+   padding: 10px 0;
+ }
+  #buy_sell_tab .buy_big_btn, #buy_sell_tab .sell_big_btn{
+     padding: 11px 0;
+     width: 61%;
+ }
+  .exchange_h3 {
+    font-size: 17px;
+    padding: 10px 15px;
+  }
+
+ /*deal_all*/
+
+ .con_435{
+     width:100%;
+     height: auto;
+ }
+ #deal_all .deal_table_scroll{
+     height:100%;
+     overflow-y: visible;
+ }
+ #deal_all thead tr th.deal_time{
+  text-align: center;
+ }
+ #deal_all .deal_all_thead{
+    width: 100%;
+    position: static;
+ }
+  #deal_all .deal_all_thead th {
+    text-align: center;
+  }
+ #deal_all .deal_table_tbody {
+   display: table-footer-group;
+ }
+ #deal_all tbody .up_down_data {
+   padding-right: 10px;
+ }
+ #deal_all .deal_table_tbody .deal_time, #deal_all .deal_table_tbody td.deal_price_KRW_data,#deal_all .deal_table_tbody td.deal_amount_data, #deal_all .deal_table_tbody td:not(.deal_time), #deal_all thead tr th.deal_time, #deal_all thead tr th:not(.deal_time) {
+   padding: 0;
+   text-align: center;
+ }
+ #deal_all .deal_table_tbody .deal_time {
+   padding-left: 3px;
+ }
+ .submenu_mypage_inner{
+   display:none;
+ }
+
+/*거래소 메인팝업*/
+#main_full #full_content{
+    width: 95%;
+    background: #fff;
+    z-index: 9999;
+    position: fixed;
+    margin: 0 auto;
+    height: auto;
+}
+#main_full #full_content .full_inner{
+    width: 98%;
+}
+#main_full #full_content .full_inner h2{
+    padding-top: 0;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+#main_full #full_content .full_inner p{
+    font-size: 14px;
+}
+#main_full #full_content .full_inner ul li{
+    font-size: 15px;
+    background-size: 15px;
+    padding-left: 21px;
+}
+#main_full #full_content .full_inner form{
+    font-size: 13px;
+    margin-top: 10px;
+}
+#main_full #full_content .full_inner .close_btn{
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+}
+@media (min-width:320px) and (max-width:320px){
+    #container #buy_sell_tab .minimum_order_price{
+        width: 142px;
+    }
+    #container #buy_sell_tab .charge{
+        width: 100px;
+    }
+    #main_full #full_content .full_inner h2{
+        font-size: 17px;
+    }
+    #main_full #full_content .full_inner p,
+    #main_full #full_content .full_inner form{
+        font-size: 12px;
+    }
+    #main_full #full_content .full_inner ul li{
+        font-size: 13px;
+    }
+}
+
+@media all and (min-width:1025px) and (max-width:1599px){
+  #left_coin_menu{
+      width: 40%;
+      margin-right: -7%;
+  }
+  #wrap .coin_select{
+      width: 80%;
+  }
+  #wrap .coinSelect_area{
+      width: 100%;
+  }
+  .coinSelect_area .coinSelect{
+      width: 95%;
+  }
+  /*코인주가부분*/
+  .coin_money_inner .img_area{
+    width:18%;
+  }
+  /*원화거래*/
+  #deal_orgin_transaction{
+    width:80%;
+  }
+  /*그래프*/
+  #right_all_menu{
+    width:60%;
+    float:left;
+  }
+  #right_coin_menu1{
+    width: 100%;
+  }
+  .chart{
+      width: 125%;
+      overflow: hidden;
+  }
+  #right_coin_menu2{
+      width: 127%;
+  }
+  .bid_price{
+      width: 45%;
+      margin-right: 10px;
+  }
+  .bid_price table{
+      width: 100%;
+  }
+  #buy_sell_tab{
+      width: 32%;
+  }
+  #buy_sell_tab .buy_sell_tab_title,
+  #buy_sell_tab .buy_tab_content,
+  #buy_sell_tab .sell_tab_content{
+      width: 163%;
+  }
+  #buy_sell_tab .buy_tab_content,
+  #buy_sell_tab .sell_tab_content{
+    padding: 30px 15px 20px 15px;
+  }
+  #buy_sell_tab dd input[type='text']{
+    width: 60%;
+    margin-right: 1%;
+  }
+  #buy_sell_tab .buy_tab_content .buy_tab_content_row dd,
+  #buy_sell_tab .sell_tab_content .sell_tab_content_row dd,
+  #buy_sell_tab .buy_all_amount{
+    width: 65%;
+  }
+  #buy_sell_tab .buy_tab_content .buy_tab_content_row:first-child dd,
+  #buy_sell_tab .sell_tab_content .sell_tab_content_row:first-child dd{
+      text-align: right;
+  }
+  #buy_sell_tab .minimum_order_price{
+      width: 47%;
+      margin-left: 0;
+  }
+  #buy_sell_tab .charge{
+      margin-left: 25%;
+      width: 26%;
+      text-align: right;
+  }
+  #buy_sell_tab input[type='reset']{
+    padding: 10px 8%;
+  }
+  #buy_sell_tab .buy_big_btn,
+  #buy_sell_tab .sell_big_btn{
+    padding: 11px 28%;
+    margin-left: 2%;
+    float: right;
+  }
+  #deal_all{
+    width: 52%;
+    height: 440px;
+  }
+  #deal_all .deal_all_thead{
+    width: 32%;
+  }
+  #deal_all thead tr th.deal_time{
+      padding-left:15px;
+      min-width: 50px;
+  }
+  #deal_all thead tr th:not(.deal_time){
+    padding: 0 0 0 9%;
+  }
+  #deal_all .deal_table_tbody .deal_time{
+      padding-left: 9px;
+  }
+  #wrap .coin_money{
+      padding: 2%;
+  }
+  .coin_money_detail{
+    left: 85%;
+  }
+  #wrap .coin_money_inner ul.eth_classic_text{
+      margin-left: 0;
+  }
+  #deal_all .deal_table_tbody td:not(.deal_time){
+      padding-left: 10px;
+  }
+  #deal_orgin_transaction thead tr{
+    font-size:12px;
+  }
+  #deal_orgin_transaction thead tr th{
+    font-size:12px;
+    padding:inherit;
+  }
+  #deal_orgin_transaction thead tr th.coin_kor, #deal_orgin_transaction thead tr th.coin_eng{
+    padding-left:10px;
+  }
+  #deal_orgin_transaction tbody p{
+    font-size:12px;
+  }
+  #deal_orgin_transaction tbody tr td:first-child{
+    padding-left:10px;
+  }
+  #deal_orgin_transaction tbody .up_down_data{
+    font-size:12px;
+  }
+  #deal_all thead tr{
+    font-size:12px;
+  }
+}
+
+  @media (min-width:1441px) and (max-width:1599px){
+      #deal_all .deal_all_thead{
+          width: 33%;
+      }
+  }
+}

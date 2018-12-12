@@ -93,6 +93,7 @@
     padding:10px 0;
     line-height: 1.5;
     border-radius: 5px;
+    cursor: auto;
 }
 .login_content #login_area .login_info .e_mail_find:after {
   content: "";

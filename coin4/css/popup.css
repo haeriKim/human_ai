@@ -274,8 +274,9 @@
     background-color: #7AABDF;
     color: #080D13;
 }
-
-
+.cancel_deal p{
+    margin: 80px 0;
+}
 /* 기본팝업(common) */
 .popup{
     background: #080D13;
@@ -464,7 +465,6 @@
     position: relative;
 }
 .common_table_content{
-    background: #0E141C;
     height: 85%;
     z-index: 9999;
     width: 1000px;
@@ -534,7 +534,8 @@
 #success_buy_popup,
 #success_sell_popup,
 #fail_sell_popup,
-#shadow_second{
+#shadow_second,
+.cancel_deal{
     display: none;
 }
 /*반응형 팝업*/

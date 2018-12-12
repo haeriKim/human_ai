@@ -384,7 +384,15 @@ $(document).ready(function(){
     }
   });
 });
-
+//미체결 취소버튼 클릭시 팝업
+$(document).ready(function(){
+    $(".cancel_michegyeol").click(function(){
+        $(".cancel_deal,#shadow").show();
+    })
+    $(".cancel_deal .cancel_or_apply input").click(function(){
+        $(".cancel_deal,#shadow").hide();
+    })
+})
 //거래소 매수매도버튼 클릭시 팝업
 $(document).ready(function(){
     $('#buy_sell_tab .buy_tab_button .buy_big_btn').click(function(e){
@@ -865,7 +873,7 @@ $(document).ready(function(){
       }
   });
 });
-// 핍업 취소 버튼 클릭시 팝업 꺼짐
+// 팝업 취소 버튼 클릭시 팝업 꺼짐
 $(document).ready(function(){
   $(".phone_change_box2").hide();
   $(".request_btn").click(function(){

@@ -89,7 +89,7 @@
                                   <p><span class='up_down_data'>450,000</span>원</p>
                                   <p>거래량 <span class='up_down_data'>260,000원</span></p>
                                   <div class="buy_sell_button">
-                                      <a href='#' class="buy_button">매수</a><a href='#' class="sell_button">매도</a>
+                                      <a href='exchange_BITCOIN.php' class="buy_button">매수</a><a href='exchange_BITCOIN.php' class="sell_button">매도</a>
                                   </div>
 
                               </li>
@@ -109,7 +109,7 @@
                                     <p><span class='up_down_data'>70,000</span>원</p>
                                     <p>거래량 <span class='up_down_data'>260,000원</span></p>
                                     <div class="buy_sell_button">
-                                        <a href='#' class="buy_button">매수</a><a href='#' class="sell_button">매도</a>
+                                        <a href='exchange_BITCOINCASH.php' class="buy_button">매수</a><a href='exchange_BITCOINCASH.php' class="sell_button">매도</a>
                                     </div>
                               </li>
                             <!--bitcoincash Card End-->
@@ -128,7 +128,7 @@
                                     <p><span class='up_down_data'>70,000</span>원</p>
                                     <p>거래량 <span class='up_down_data'>260,000원</span></p>
                                     <div class="buy_sell_button">
-                                        <a href='#' class="buy_button">매수</a><a href='#' class="sell_button">매도</a>
+                                        <a href='exchange_ETHEREUM.php' class="buy_button">매수</a><a href='exchange_ETHEREUM.php' class="sell_button">매도</a>
                                     </div>
                               </li>
                               <!--eth Card End-->
@@ -147,7 +147,7 @@
                                       <p><span class='up_down_data'>70,000</span>원</p>
                                       <p>거래량 <span class='up_down_data'>260,000원</span></p>
                                       <div class="buy_sell_button">
-                                          <a href='#' class="buy_button">매수</a><a href='#' class="sell_button">매도</a>
+                                          <a href='exchange_ETHEREUMCLASSIC.php' class="buy_button">매수</a><a href='exchange_ETHEREUMCLASSIC.php' class="sell_button">매도</a>
                                       </div>
                                 </li>
                                 <!--etc Card End-->
@@ -166,7 +166,7 @@
                                         <p><span class='up_down_data'>70,000</span>원</p>
                                         <p>거래량 <span class='up_down_data'>260,000원</span></p>
                                         <div class="buy_sell_button">
-                                            <a href='#' class="buy_button">매수</a><a href='#' class="sell_button">매도</a>
+                                            <a href='exchange_EOS.php' class="buy_button">매수</a><a href='exchange_EOS.php' class="sell_button">매도</a>
                                         </div>
                                   </li>
                                   <!--EOS Card End-->
@@ -185,7 +185,7 @@
                                           <p><span class='up_down_data'>70,000</span>원</p>
                                           <p>거래량 <span class='up_down_data'>260,000원</span></p>
                                           <div class="buy_sell_button">
-                                              <a href='#' class="buy_button">매수</a><a href='#' class="sell_button">매도</a>
+                                              <a href='exchange_RIPPLE.php' class="buy_button">매수</a><a href='exchange_RIPPLE.php' class="sell_button">매도</a>
                                           </div>
                                     </li>
                                     <!--리플(XRP) Card End-->
@@ -204,7 +204,7 @@
                                             <p><span class='up_down_data'>70,000</span>원</p>
                                             <p>거래량 <span class='up_down_data'>260,000원</span></p>
                                             <div class="buy_sell_button">
-                                                <a href='#' class="buy_button">매수</a><a href='#' class="sell_button">매도</a>
+                                                <a href='exchange_ADA.php' class="buy_button">매수</a><a href='exchange_ADA.php' class="sell_button">매도</a>
                                             </div>
                                       </li>
                                       <!--에이다(ADA) Card End-->

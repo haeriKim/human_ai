@@ -638,7 +638,7 @@
                                             <td><span>0</span>KRW</td>
                                             <td><span>0</span>KRW</td>
                                             <td>
-                                              <input type="submit" value="취소" />
+                                              <input type="submit" value="취소" class='cancel_michegyeol'/>
                                             </td>
                                           </tr>
 
@@ -651,7 +651,7 @@
                                             <td><span>0</span>KRW</td>
                                             <td><span>0</span>KRW</td>
                                             <td><span>0</span>KRW</td>
-                                            <td><input type="submit" value="취소" /></td>
+                                            <td><input type="submit" value="취소" class='cancel_michegyeol'/></td>
                                           </tr>
 
                                           <tr>
@@ -751,8 +751,8 @@
 
                                     <div class="contentBottom">
                                         <div class="paging">
-                                            <a href="#" title="prev"><img src="img/p_first.png"></a>
-                                            <a href="#" title="prev"><img src="img/p_prev.png"></a>
+                                            <a href="#" title="prev" onclick="alert('첫번째 페이지입니다.')"><img src="img/p_first.png"></a>
+                                            <a href="#" title="prev" onclick="alert('첫번째 페이지입니다.')"><img src="img/p_prev.png"></a>
 
                                             <a href="#" title="1page" class="selected">1</a>
                                             <a href="#" title="2page">2</a>
@@ -760,8 +760,8 @@
                                             <a href="#" title="4page">4</a>
                                             <a href="#" title="5page">5</a>
 
-                                            <a href="#" title="next"><img src="img/p_next.png"></a>
-                                            <a href="#" title="next"><img src="img/p_end.png"></a>
+                                            <a href="#" title="next" onclick="alert('마지막 페이지입니다.')"><img src="img/p_next.png"></a>
+                                            <a href="#" title="next" onclick="alert('마지막 페이지입니다.')"><img src="img/p_end.png"></a>
                                         </div>
                                     </div><!-- 페이징 -->
 
@@ -1415,15 +1415,15 @@
                                             </div>
                                                 <div class="contentBottom">
                                                   <div class="paging">
-                                                    <a href="#" title="prev"><img src="img/p_first.png"></a>
-                                                    <a href="#" title="prev"><img src="img/p_prev.png"></a>
+                                                    <a href="#" title="prev" onclick="alert('첫번째 페이지입니다.')"><img src="img/p_first.png"></a>
+                                                    <a href="#" title="prev" onclick="alert('첫번째 페이지입니다.')"><img src="img/p_prev.png"></a>
                                                     <a href="#" title="1page" class="selected">1</a>
                                                     <a href="#" title="2page">2</a>
                                                     <a href="#" title="3page">3</a>
                                                     <a href="#" title="4page">4</a>
                                                     <a href="#" title="5page">5</a>
-                                                    <a href="#" title="next"><img src="img/p_next.png"></a>
-                                                    <a href="#" title="next"><img src="img/p_end.png"></a>
+                                                    <a href="#" title="next" onclick="alert('마지막 페이지입니다.')"><img src="img/p_next.png"></a>
+                                                    <a href="#" title="next" onclick="alert('마지막 페이지입니다.')"><img src="img/p_end.png"></a>
                                                   </div>
                                                 </div>
                                             </form>
@@ -1659,7 +1659,7 @@
             <div class="common_table_wrap">
 
               <!-- common_table_content -->
-              <div class="common_table_content">
+              <div class="common_table_content box">
                   <h2 class='title'>인증 레벨별 한도</h2>
                   <div class="mypage_content">
                           <table class="common_table">
@@ -1839,6 +1839,21 @@
                                 <div class="cancel_or_apply">
                                     <input type="reset" name="" value="취소" class='cancel_btn'>
                                     <input type="button" name="" value="출금신청" class='agree_btn' onclick="location.href='mywallet_output_complete_KRW.php'">
+                                </div>
+                            </form>
+                        </div>
+                    </div><!-- full_content End-->
+                    <div class='box popup cancel_deal'>
+                        <div class="full_inner">
+                            <form class="" action="#" method="post">
+                                <h2>미체결 주문 취소</h2>
+                                <p>
+                                    선택하신 미체결 주문을 취소하시겠습니까?<br>
+                                    취소하신 주문건은 되돌릴 수 없습니다.
+                                </p>
+                                <div class="cancel_or_apply">
+                                    <input type="reset" name="" value="아니요" class='cancel_btn'>
+                                    <input type="button" name="" value="예, 취소합니다" class='agree_btn'>
                                 </div>
                             </form>
                         </div>
