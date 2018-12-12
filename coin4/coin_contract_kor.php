@@ -195,7 +195,9 @@
                             <br>
                             <p>대표이사<span class='space_02'>인</p>
                         </div>
-
+                        <p class='download_title'>상장의뢰서 다운로드</p>
+                        <a href="http://ssicago91.com/test/test1.zip" download class='download_file'>국문</a><br>
+                        <a href="http://ssicago91.com/test/test1.zip" download class='download_file'>국영 혼용</a>
                     </div>
                   </div><!-- con_1000 End-->
                 </div>

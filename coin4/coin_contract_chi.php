@@ -197,7 +197,8 @@
                             <br>
                             <p>CEO _________________签名_________。</p>
                         </div>
-
+                        <p class='download_title'>全国情报局上市申请表</p>
+                        <a href="http://ssicago91.com/test/test1.zip" download class='download_file'>下載</a><br>
                     </div>
                   </div><!-- con_1000 End-->
                 </div>

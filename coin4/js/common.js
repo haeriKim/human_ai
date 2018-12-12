@@ -69,6 +69,7 @@ $(document).ready(function(){
             bannerset(num,'right')
         }
     })
+
     //이미지 호버시 자동슬라이드 멈춤
     $('.slide').on('mouseenter',function(){
         clearInterval(st);
@@ -81,13 +82,13 @@ $(document).ready(function(){
     var st;
 
     function trigger(){
-        $('.arrow_area .next1').trigger('click');
+        $('.arrow_area .next1').triggerHandler('click');
     }
     st = setInterval(trigger,5000)
 })
 
 
-//메인 슬라이드 배너 수정본 (반응형)
+// 메인 슬라이드 배너 수정본 (반응형)
 function bannerset_a(bn_a,dir_a){
     if(dir_a=='right'){
         var variable_width_a = $(".app_slide").width();
@@ -160,7 +161,7 @@ $(document).ready(function(){
     var st_a;
 
     function trigger_a(){
-        $('.app_next1').trigger('click');
+        $('.app_next1').triggerHandler('click');
     }
     st_a = setInterval(trigger_a,5000)
 })
