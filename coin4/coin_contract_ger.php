@@ -150,8 +150,8 @@
                             <p>1) Der internationale Austausch ist "A" und entspricht der Politik von "A".</p>
                             <p>2) Wenn kein Transaktionsvolumen vorliegt, wird die Kotierung gemäß der Politik von "A" für einen Zeitraum von etwa drei Monaten aufgehoben.</p>
                             <p>3) Die Münznote wird nach der Regel "A" bestimmt.</p>
-                            <p>4) Sie müssen ($         ) bezahlen, um an der "The Alls" der International Exchange notiert zu werden. Preisänderungen und Ratenzahlungen sind in gegenseitigem Einvernehmen zulässig.</p>
-                            <p>5) Die Betriebskosten müssen jährlich an die internationale Börse gezahlt werden. Sie zahlen ($         ) pro Jahr. Das erste Jahr zahlt (     %). Die Kosten betragen jedoch ($         ) pro Jahr.</p>
+                            <p>4) Sie müssen ($<span class='space'></span>) bezahlen, um an der "The Alls" der International Exchange notiert zu werden. Preisänderungen und Ratenzahlungen sind in gegenseitigem Einvernehmen zulässig.</p>
+                            <p>5) Die Betriebskosten müssen jährlich an die internationale Börse gezahlt werden. Sie zahlen ($<span class='space'></span>) pro Jahr. Das erste Jahr zahlt (<span class='space'></span>%). Die Kosten betragen jedoch ($<span class='space'></span>) pro Jahr.</p>
                             <br>
                             <br>
                             <p class="title_sub_title">Artikel 7 [Kündigungsbedingungen]</p><br>
@@ -179,7 +179,7 @@
                             <p>7) Bei der Überprüfung der Noten muss "B" den Bestimmungen von "A" entsprechen.</p>
                             <p>8) Wenn "A" aufgrund fehlender Daten nicht erhöht wird, umfasst die Produktionskosten die bereits geleistete Anzahlung, wenn "B" die Münzenproduktion anfordert. Die Herstellungskosten sind separat und die angegebenen Kosten sind separat</p>
                             <p>9) Zusätzliche Inhalte werden mit ihrem Fortschritt angefügt.</p>
-                            <p>10) "B" zahlt (   %) der Anzahlung, (   % ) der mittleren Zahlung fünf Tage vor der Notierung, (  %) der ausgegebenen Münzen innerhalb von fünf Tagen nach der Notierung und 3,5% des Erlöses für "A". Münzenbrieftaschen können jedoch separat für (rot), Airdrop-Brieftasche, Berater (gelb) und Executive-Brieftasche (blau) bezahlt werden. Die Gebühr wird jedoch separat verlangt.</p>
+                            <p>10) "B" zahlt (<span class='space'></span>%) der Anzahlung, (<span class='space'></span>%) der mittleren Zahlung fünf Tage vor der Notierung, (<span class='space'></span>%) der ausgegebenen Münzen innerhalb von fünf Tagen nach der Notierung und 3,5% des Erlöses für "A". Münzenbrieftaschen können jedoch separat für (rot), Airdrop-Brieftasche, Berater (gelb) und Executive-Brieftasche (blau) bezahlt werden. Die Gebühr wird jedoch separat verlangt.</p>
                             <p>11) Wenn Sie eine separate Münze machen möchten, müssen Sie einen separaten Betrag zahlen. Die Kosten für die Notierung sind gesondert.</p>
                             <p>12) Anhänge:</p><br><br>
                             <p>* Münzlistenbasis: The Alls. Bitmünze, Bitmünzgeld, Ethereum, Ethereum Classic, Welligkeit, EOS und Ada.</p>

@@ -95,7 +95,6 @@
 .use_content #use_area .download_file{
     text-decoration: underline;
     color: #7AABDF;
-    font-size: 18px;
 }
 @media all and (min-width:320px) and (max-width:1024px){
   .content_wrap .use_content {
@@ -119,7 +118,7 @@
   .use_content #use_area .use_area_text .title {
     font-size: 15px;
     text-align: center;
-    margin: 0;
+    margin: 0 -10px;
     padding-bottom: 0;
   }
   .use_content #use_area .use_area_text .title_title {

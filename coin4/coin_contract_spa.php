@@ -149,8 +149,8 @@
                             <p>1) El funcionamiento de la central internacional es "A" y cumple con la política de "A".</p>
                             <p>2) Si no hay volumen de transacciones, la lista se eliminará de acuerdo con la política de "A" por un período de gracia de aproximadamente tres meses.</p>
                             <p>3) El grado de la moneda se determina de acuerdo con la regla "A".</p>
-                            <p>4) Usted tiene que pagar ($            ) para ser incluido en la "Thealla", el Intercambio Internacional. Se permite realizar ajustes de precios y pagos a plazos de mutuo acuerdo.</p>
-                            <p>5) Los gastos operativos deben ser pagados al intercambio internacional anualmente. Ellos pagan ($            ) al año. El primer año paga el (     %) por ciento. Sin embargo, el costo es de ($        ) por año.</p>
+                            <p>4) Usted tiene que pagar ($<span class='space'></span>) para ser incluido en la "Thealla", el Intercambio Internacional. Se permite realizar ajustes de precios y pagos a plazos de mutuo acuerdo.</p>
+                            <p>5) Los gastos operativos deben ser pagados al intercambio internacional anualmente. Ellos pagan ($<span class='space'></span>) al año. El primer año paga el (<span class='space'></span>%) por ciento. Sin embargo, el costo es de ($<span class='space'></span>) por año.</p>
                             <br>
                             <br>
                             <p class="title_sub_title">Artículo 7 [Términos y Condiciones de Terminación]</p><br>
@@ -178,7 +178,7 @@
                             <p>7) Al revisar las calificaciones, "B" cumplirá con las disposiciones de "A".</p>
                             <p>8) Si "A" no logra aumentar debido a la falta de datos, el costo de producción incluye el depósito ya pagado si "B" solicita la producción de monedas. Los costos de manufactura son separados y los costos listados son separados</p>
                             <p>9) Se adjuntarán contenidos adicionales a medida que progresen.</p>
-                            <p>10) "B" pagará el (    %) del depósito, el (    %) del pago medio cinco días antes del listado, el (   % )de las monedas emitidas dentro de los cinco días posteriores al listado y el (   %) del producto a "A". Sin embargo, la billetera de venta de monedas se puede pagar por separado para (rojo), billetera lanzadera, asesor (amarillo) y billetera ejecutiva (azul), pero el cargo se solicita por separado.</p>
+                            <p>10) "B" pagará el (<span class='space'></span>%) del depósito, el (<span class='space'></span>%) del pago medio cinco días antes del listado, el (<span class='space'></span>%)de las monedas emitidas dentro de los cinco días posteriores al listado y el (<span class='space'></span>%) del producto a "A". Sin embargo, la billetera de venta de monedas se puede pagar por separado para (rojo), billetera lanzadera, asesor (amarillo) y billetera ejecutiva (azul), pero el cargo se solicita por separado.</p>
                             <p>11) Si desea hacer una moneda por separado, debe pagar un monto por separado y el costo del listado es separado.</p>
                             <p>12) Archivos adjuntos:</p>
                             <p>* Base de cotización de monedas: The Alls. Bit Coin, Bit Coin Cash, Ethereum, Ethereum Classic, Ripple, EOS y Ada.</p>

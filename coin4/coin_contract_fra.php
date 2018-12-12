@@ -148,8 +148,8 @@
                             <p>1) Le fonctionnement du commutateur international est "A" et est conforme à la politique de "A".</p>
                             <p>2) S'il n'y a pas de volume de transaction, la liste doit être supprimée conformément à la politique "A" pour une période de grâce d'environ trois mois.</p>
                             <p>3) La qualité de la pièce est déterminée conformément à la règle "A".</p>
-                            <p>4) Vous devez payer ($        ) pour figurer sur les "The Alls", la bourse internationale. Il permet des ajustements de prix et des paiements échelonnés par accord mutuel.</p>
-                            <p>5) Les frais de fonctionnement doivent payer l’échange international chaque année. Ils paient ($       ) par an. La première année paie  (     %) . Cependant, le coût est de ($       ) par an.</p>
+                            <p>4) Vous devez payer ($<span class='space'></span>) pour figurer sur les "The Alls", la bourse internationale. Il permet des ajustements de prix et des paiements échelonnés par accord mutuel.</p>
+                            <p>5) Les frais de fonctionnement doivent payer l’échange international chaque année. Ils paient ($<span class='space'></span>) par an. La première année paie  (<span class='space'></span>%) . Cependant, le coût est de ($<span class='space'></span>) par an.</p>
                             <br>
                             <br>
                             <p class="title_sub_title">Article 7 [Conditions de résiliation]</p><br>
@@ -177,7 +177,7 @@
                             <p>7) Lors de la révision des notes, "B" doit être conforme aux dispositions de "A".</p>
                             <p>8) Si "A" ne parvient pas à augmenter en raison d'un manque de données, le coût de production comprend le dépôt déjà payé si "B" demande la production de pièces. Les coûts de fabrication sont séparés et les coûts listés sont séparés</p>
                             <p>9) Des contenus supplémentaires doivent être joints au fur et à mesure de leur progression.</p>
-                            <p>10) "B" versera (   %) du dépôt, (   %) du paiement médian cinq jours avant l'inscription, (  %) des pièces émises dans les cinq jours suivant l'inscription et (  %) du produit de la vente pour "A ". Toutefois, les portefeuilles à pièces de monnaie peuvent payer séparément pour (rouge), les portefeuilles goutte à goutte, le conseiller (jaune) et le portefeuille de direction (bleu), mais les frais sont facturés séparément.</p>
+                            <p>10) "B" versera (<span class='space'></span>%) du dépôt, (<span class='space'></span>%) du paiement médian cinq jours avant l'inscription, (<span class='space'></span>%) des pièces émises dans les cinq jours suivant l'inscription et (<span class='space'></span>%) du produit de la vente pour "A ". Toutefois, les portefeuilles à pièces de monnaie peuvent payer séparément pour (rouge), les portefeuilles goutte à goutte, le conseiller (jaune) et le portefeuille de direction (bleu), mais les frais sont facturés séparément.</p>
                             <p>11) Si vous voulez faire une pièce de monnaie distincte, vous devez payer un montant séparé et le coût de l'inscription est séparé.</p>
                             <p>12) Pièces jointes:</p><br><br>
                             <p>* Base de listage des pièces: Alls, Bit Coin, Bit Coin Cash, Ethereum, Ethereum Classic, Ripple, EOS et Ada.</p>

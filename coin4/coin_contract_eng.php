@@ -148,8 +148,8 @@
                             <p>1) The operation of the international exchange is "A" and complies with the policy of "A".</p>
                             <p>2) If there is no transaction volume, the listing shall abolish in accordance with the policy of "A" for a grace period of about three months.</p>
                             <p>3) The Coin grade is determined according to the "A" rule.</p>
-                            <p>4) You have to pay ($            ) to be listed on the ‘The Alls’, the International Exchange. It allows price adjustments and payment in installments by mutual agreement.</p>
-                            <p>5) Operating expenses must pay the international exchange annually. They pay ($              ) a year. The first year pays 50 per cent. However, the cost is ($                 ) per year.</p>
+                            <p>4) You have to pay ($<span class='space'></span>) to be listed on the ‘The Alls’, the International Exchange. It allows price adjustments and payment in installments by mutual agreement.</p>
+                            <p>5) Operating expenses must pay the international exchange annually. They pay ($<span class='space'></span>) a year. The first year pays 50 per cent. However, the cost is ($<span class='space'></span>) per year.</p>
                             <br>
                             <br>
                             <p class="title_sub_title">Article 7 [Terms and Conditions of Termination]</p><br>
@@ -177,7 +177,7 @@
                             <p>7) In reviewing grades, "B" shall comply with the provisions of "A".</p>
                             <p>8) If "A" fails to raise due to lack of data, the production cost includes the deposit already paid if "B" requests coin production. Manufacturing costs are separate and listed costs are separate</p>
                             <p>9) Additional contents shall attach as they progress.</p>
-                            <p>10) "B" shall pay(  %) of the deposit, (  %) of the median payment five days prior to listing, (  %) of the issuing coins within five days after listing, and (  %) of the proceeds to "A". However, coin-selling wallet can pay separately for (red), airdrop wallet, advisor (yellow), and executive wallet (blue), but the charge requests separately.</p>
+                            <p>10) "B" shall pay(<span class='space'></span>%) of the deposit, (<span class='space'></span>%) of the median payment five days prior to listing, (<span class='space'></span>%) of the issuing coins within five days after listing, and (<span class='space'></span>%) of the proceeds to "A". However, coin-selling wallet can pay separately for (red), airdrop wallet, advisor (yellow), and executive wallet (blue), but the charge requests separately.</p>
                             <p>11) If you want to make a separate coin, you must pay a separate amount and the cost of listing is separate.</p>
                             <p>12) Attachments:</p><br><br>
                             <p>*Coin listing base: The Alls, Bit Coin, Bit Coin Cash, Ethereum, Ethereum Classic, Ripple, EOS and Ada.</p>
