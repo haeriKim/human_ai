@@ -526,10 +526,11 @@
       width:88%;
     }
     .main_content .bitcoin_card_wrap .bitcoin_card{
-      width:90%;
+      width:95%;
+      left: -8px;
     }
     .main_content ul.bitcoin_card_inner{
-      width:233%;
+      width:235%;
       left:-5px;
     }
     .main_content ul.bitcoin_card_inner li.card_li{
@@ -538,10 +539,10 @@
       margin:0 0.7%;
     }
     .main_content .bitcoin_card_btn .next{
-      right:3%;
+      right:0;
     }
     .main_content .bitcoin_card_btn .prev{
-        left:1%;
+        left:-1.5%;
     }
     .use_guide li{
       margin-left:3.2%;
