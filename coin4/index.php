@@ -50,14 +50,16 @@
                   <div class="slide">
                     <ul class="panel">
                       <li class="banner1 on"><a href="#" class="a_link">디올스 국제거래소 기술적 보안 백 보러 가기</a></li>
-                      <li class="banner2"></li>
+                      <li class="banner2"><a href="prime.php" class="a_link2">디올스 국제거래소 기술적 보안 백 보러 가기</a></li></li>
                       <li class="banner3"></li>
                       <li class="banner4"></li>
                       <li class="banner5"></li>
+                      <li class="banner6"></li>
 
                     </ul>
                     <ul class="dot">
                       <li class="on"></li>
+                      <li></li>
                       <li></li>
                       <li></li>
                       <li></li>
