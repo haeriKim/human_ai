@@ -266,6 +266,7 @@
     }
     #signUp_area .signUp_left_con .agree_content_box .text_box{
         width: auto;
+        font-size:12px;
     }
     #signUp_area .signUp_right_con > input{
         width: 98%;
@@ -349,5 +350,12 @@
   #signUp_area .signUp_right_con .btn_area .join_btn{
     width:50%;
     margin-left:48%;
+  }
+  #signUp_area .signUp_right_con .password_alarm_wrap{
+    left:7%;
+  }
+  #signUp_area .signUp_right_con .password_alarm_wrap ul li span{
+    font-size:6px;
+    padding:10px 0 10px 7%;
   }
 }
