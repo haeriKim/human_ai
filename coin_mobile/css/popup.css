@@ -41,10 +41,11 @@
     background: #fff;
     z-index: 9999;
     position: fixed;
-    left: 2.5%;
-    top: 10%;
+    left: 50%;
+    top: 50%;
     margin: 0 auto;
     border-radius: 5px;
+    transform: translate(-50%,-50%);
 }
 #full_content .full_inner{
     width: 90%;
