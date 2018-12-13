@@ -459,18 +459,22 @@
       background-size: 100% 100%;
     }
     .app_panel .app_banner2 {
-      background:url(../img/m_banner02.png) no-repeat 0 0;
+      background:url(../img/m_banner00.png) no-repeat 0 0;
       background-size: 100% 100%;
     }
     .app_panel .app_banner3 {
-      background:url(../img/m_banner03.png) no-repeat 0 0;
+      background:url(../img/m_banner02.png) no-repeat 0 0;
       background-size: 100% 100%;
     }
     .app_panel .app_banner4 {
-      background:url(../img/m_banner04.png) no-repeat 0 0;
+      background:url(../img/m_banner03.png) no-repeat 0 0;
       background-size: 100% 100%;
     }
     .app_panel .app_banner5 {
+      background:url(../img/m_banner04.png) no-repeat 0 0;
+      background-size: 100% 100%;
+    }
+    .app_panel .app_banner6 {
       background:url(../img/m_banner05.png) no-repeat 0 0;
       background-size: 100% 100%;
     }

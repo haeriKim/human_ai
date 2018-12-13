@@ -492,10 +492,12 @@
                          <li class="app_banner3"></li>
                          <li class="app_banner4"></li>
                          <li class="app_banner5"></li>
+                         <li class="app_banner6"></li>
 
                        </ul>
                        <ul class="app_dot">
                          <li class="app_on on"></li>
+                         <li></li>
                          <li></li>
                          <li></li>
                          <li></li>
