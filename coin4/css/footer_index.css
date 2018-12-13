@@ -50,7 +50,7 @@
   text-align: right;
 }
 .footer_menu .footer_nav ul.left {
-    margin-left: 80px;
+    margin-left: 104px;
 }
 .footer_menu .footer_nav ul.right {
   float: right;
@@ -99,13 +99,18 @@
   }
     #app_footer .app_footer_info ul{
       text-align: center;
-      padding:10px 0;
       display:inline-block;
       overflow:hidden;
     }
+    #app_footer .app_footer_info ul.footer_ul1{
+        margin-top: 20px;
+    }
+    #app_footer .app_footer_info ul.footer_ul2{
+        margin-bottom: 20px;
+    }
     #app_footer .app_footer_info li{
       float:left;
-      padding:10px 5px;
+      padding:2px 5px;
     }
     #app_footer .app_footer_info li.pointColor a {
       color: #eaaf69;

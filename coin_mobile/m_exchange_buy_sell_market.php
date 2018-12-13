@@ -273,7 +273,7 @@
 
               <div class="buy_tab_button">
                 <input type="reset" name="reset" value="초기화" class='reset reset_buy'>
-                <input type="submit" name="submit" value="매수" class='buy_big_btn'>
+                <input type="submit" name="submit" value="매도" class='buy_big_btn'>
               </div>
             </div><!-- buy_tab_content End-->
 

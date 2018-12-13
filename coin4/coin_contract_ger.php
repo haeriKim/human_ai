@@ -58,10 +58,6 @@
                     <!--use_tab_menu-->
                     <div id="use_tab_menu">
                       <ul class="cops">
-                          <li class='lan_kor' onclick="location.href='coin_contract_kor.php'">
-                              <p>한국어</p>
-                              <img src="img/kor-31-cir.png" alt="한국국기">
-                          </li>
                           <li onclick="location.href='coin_contract_eng.php'">
                               <p>영어<br>
                               <span>English</span></p>

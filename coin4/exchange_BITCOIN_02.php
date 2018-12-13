@@ -1892,7 +1892,7 @@
             <div id="shadow"></div>
     </div>  <!-- full End-->
 
-    <div id="main_full">
+    <div id="main_full"  style="display:none;">
             <!-- full_content -->
             <div id="full_content" class='box'>
                 <div class="full_inner">
@@ -1917,7 +1917,7 @@
                     <a href="#" class='close_btn'>닫기</a>
                 </div>
             </div><!-- full_content End-->
-            <div id="shadow"></div>
+            <div id="shadow" style="display:none;"></div>
     </div>  <!-- main_full End-->
 
 

@@ -288,7 +288,7 @@
   width:60%;
 }
 #full_content .full_inner .bt_area .bt_area_box a{
-  margin-left:8%;
+  margin-left:6%;
 }
 #full_content .full_inner p{
   text-align: center;
@@ -314,6 +314,7 @@
   padding: 5px 0;
   color: #fff;
   font-size: 13px;
+  min-width: 90px;
   background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
   border-radius: 5px;
   height: 25px;

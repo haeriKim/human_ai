@@ -15,11 +15,11 @@
     border-top: 3px solid #7AABDF;
     border-bottom: none;
     height: 68px;
-    box-sizing: border-box;
 }
 .use_content #use_tab_menu ul li{
     float: left;
-    width: 13.425%;
+    box-sizing: border-box;
+    width: 16.666%;
     padding: 20px 0 20px 10px;
     text-align: left;
     font-size: 20px;
@@ -29,7 +29,8 @@
     background-color: #080D13;
     cursor: pointer;
     border-bottom: 1px solid #7AABDF;
-    height: 27px;
+    box-sizing: border-box;
+    height: 68px;
     position: relative;
 }
 .use_content #use_tab_menu ul li.lan_kor{
@@ -109,8 +110,8 @@
   }
   .use_content #use_tab_menu ul li {
     font-size: 14px;
-    width:14.285%;
     padding: 15px 0;
+    height: 58px;
   }
   .use_content #use_tab_menu ul li.use_active{
       height: 58px;

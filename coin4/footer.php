@@ -19,7 +19,8 @@
                 <li class="footer_link"><a href="customer_FAQ.php">FAQ</a></li>
                 <li class="footer_link"><a href="customer_question.php">1:1 문의</a></li>
                 <li class="footer_link"><a href="guide_security.php">인증자료 제출안내</a></li>
-                <li><a href="fee_table.php">수수료 안내</a></li>
+                <li class="footer_link"><a href="fee_table.php">수수료 안내</a></li>
+                <li><a href="coin_contract_eng.php">상장 계약서</a></li>
             </ul>
           </div>
       </div>
@@ -35,6 +36,10 @@
               <li><a href="greetings.php">인사말</a></li>
               <li> | </li>
               <li><a href="prime.php">회사소개</a></li>
+              <li> | </li>
+              <li><a href="use_map.php">이용약관</a></li>
+              <li> | </li>
+              <li class="pointColor"><a href="use_info_process_law.php">개인정보처리방침</a></li>
             </ul>
           </div>
 
@@ -42,9 +47,7 @@
             <ul class="footer_ul2">
               <li><a href="customer_FAQ.php">고객지원</a></li>
               <li> | </li>
-              <li><a href="use_map.php">이용약관</a></li>
-              <li> | </li>
-              <li class="pointColor"><a href="use_info_process_law.php">개인정보처리방침</a></li>
+              <li><a href="coin_contract_eng.php">상장 계약서</a></li>
             </ul>
           </div>
 

@@ -1419,11 +1419,39 @@
 
               <!--chart_graf-->
 
-              <div class="box chart_graf">
-
+              <div class="box app_chart">
+                <div class="tradingview-widget-container">
+    <div id="tradingview_6f622"></div>
+    <div class="tradingview-widget-copyright">TradingView 제공 <a href="https://kr.tradingview.com/symbols/KORBIT-BTCKRW/" rel="noopener" target="_blank"><span class="blue-text">BTCKRW 차트</span></a></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+    <script type="text/javascript">
+    new TradingView.widget(
+    {
+      "width": 100+"%",
+     "height": 465,
+    "symbol": "KORBIT:BTCKRW",
+    "interval": "120",
+    "timezone": "Etc/UTC",
+    "theme": "Light",
+    "style": "1",
+    "locale": "kr",
+    "toolbar_bg": "#f1f3f6",
+    "enable_publishing": false,
+    "hide_legend": true,
+    "studies": [
+      "MAWeighted@tv-basicstudies",
+      "Volume@tv-basicstudies",
+      "MAVolumeWeighted@tv-basicstudies",
+      "DoubleEMA@tv-basicstudies",
+      "MOM@tv-basicstudies"
+    ],
+    "container_id": "tradingview_6f622"
+  }
+    );
+    </script>
+  </div>
 
               </div><!--chart_graf End-->
-
 
               <!--bid_price-->
               <div class="box bid_price">

@@ -134,7 +134,6 @@
 .gnb_tab{
   overflow: hidden;
   font-size:14px;
-  box-shadow: 0 1px 2px rgba(100,100,100,.4);
   position:fixed;
   top:120px;
   left:0;
@@ -144,24 +143,30 @@
 }
 .gnb_tab li{
   float:left;
-  width:19.9%;
+  width:20%;
   text-align:center;
   height: 40px;
   line-height:40px;
   box-sizing: border-box;
+  border-bottom: 1px solid #30afb8;
 }
 .gnb_tab li.tab_KRW {
   width: 100%;
 }
-.gnb_tab li.on {
-  border-top: 3px solid #30afb8;
-
-  font-weight: 600;
+.gnb_tab li.on,
+.gnb_tab2 li.on {
+    border: 1px solid #30afb8;
+    border-bottom: none;
+    border-top: 3px solid #30afb8;
+    font-weight: 600;
 }
-.gnb_tab li a{
+.gnb_tab li a,
+.gnb_tab2 li a{
   color:#30afb8;
 }
-.gnb_tab li:not(.on) a{
+.gnb_tab li:not(.on) a,
+.gnb_tab2 li:not(.on) a
+{
   color:rgba(255,255,255,.3);
 }
 
@@ -170,7 +175,6 @@
 .gnb_tab2{
   overflow: hidden;
   font-size:14px;
-  box-shadow: 0 1px 2px rgba(100,100,100,.4);
   position: fixed;
   top:45px;
   left:0;
@@ -185,16 +189,7 @@
   height: 40px;
   line-height:40px;
   box-sizing: border-box;
-}
-.gnb_tab2 li.on {
-  border-top: 3px solid #30afb8;
-  font-weight: 600;
-}
-.gnb_tab2 li a{
-  color:#30afb8;
-}
-.gnb_tab2 li:not(.on) a{
-  color:rgba(255,255,255,.3);
+  border-bottom: 1px solid #30afb8;
 }
 
 /* 이용약관/개인정보처리방침 탭 */
