@@ -440,17 +440,17 @@
       position: relative;
       overflow: hidden;
       width:100%;
-      height:-webkit-fill-available;
+      height:500px;
     }
     .app_panel {
         width: 100%;
         position: relative;
-        height: -webkit-fill-available;
+        height:500px;
     }
     .app_panel>li {
         left: 0;
         width: 100%;
-        height: -webkit-fill-available;
+        height:500px;
         position: absolute;
         top: 0;
     }
