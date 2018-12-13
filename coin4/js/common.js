@@ -1496,9 +1496,9 @@ if(num < vi === num < si){
 $(function() {
   $('ul.tab li').click(function() {
     var activeTab = $(this).attr('data-tab');
-    $('ul.tab li').removeClass('current').css({color:"#7AABDF",fontWeight:"500"});
+    $('ul.tab li').removeClass('current');
     $('.tabcontent').removeClass('current');
-    $(this).addClass('current').css({color:"#fff",fontWeight:"600"});
+    $(this).addClass('current');
     $('#' + activeTab).addClass('current');
   })
 });
