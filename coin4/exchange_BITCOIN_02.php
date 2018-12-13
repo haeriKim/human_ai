@@ -354,6 +354,36 @@
                             <td><span class='up_down_data money_up'>+0.00%</span></td>
                             <td><span class='up_down_data'>7,000,000</span></td>
                         </tr>
+                        <tr>
+                            <td class='coin_kor'><span>&nbsp;</span></td>
+                            <td><span>&nbsp;</span></td>
+                            <td><span>&nbsp;</span></td>
+                            <td><span>&nbsp;</span></td>
+                        </tr>
+                        <tr>
+                            <td class='coin_kor'><span>&nbsp;</span></td>
+                            <td><span>&nbsp;</span></td>
+                            <td><span>&nbsp;</span></td>
+                            <td><span>&nbsp;</span></td>
+                        </tr>
+                        <tr>
+                            <td class='coin_kor'><span>&nbsp;</span></td>
+                            <td><span>&nbsp;</span></td>
+                            <td><span>&nbsp;</span></td>
+                            <td><span>&nbsp;</span></td>
+                        </tr>
+                        <tr>
+                            <td class='coin_kor'><span>&nbsp;</span></td>
+                            <td><span>&nbsp;</span></td>
+                            <td><span>&nbsp;</span></td>
+                            <td><span>&nbsp;</span></td>
+                        </tr>
+                        <tr>
+                            <td class='coin_kor'><span>&nbsp;</span></td>
+                            <td><span>&nbsp;</span></td>
+                            <td><span>&nbsp;</span></td>
+                            <td><span>&nbsp;</span></td>
+                        </tr>
 
                       </tbody>
                     </table>
@@ -426,6 +456,18 @@
                             <td><span class='up_down_data money_nochange'>800,000</span></td>
                             <td><span class='up_down_data'>+0.00%</span></td>
                             <td><span class='up_down_data'>700,000</span></td>
+                        </tr>
+                        <tr>
+                            <td class='coin_kor'><span>&nbsp;</span></td>
+                            <td><span>&nbsp;</span></td>
+                            <td><span>&nbsp;</span></td>
+                            <td><span>&nbsp;</span></td>
+                        </tr>
+                        <tr>
+                            <td class='coin_kor'><span>&nbsp;</span></td>
+                            <td><span>&nbsp;</span></td>
+                            <td><span>&nbsp;</span></td>
+                            <td><span>&nbsp;</span></td>
                         </tr>
                         <tr>
                             <td class='coin_kor'><span>&nbsp;</span></td>
