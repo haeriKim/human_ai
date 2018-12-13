@@ -16,12 +16,43 @@
   display:none;
 }
 @media all and (min-width:320px) and (max-width:1024px){
-  #app_wrap{
-    display:block;
+  .con_1000{
+    width:90%;
+    margin:100px auto;
   }
-  #wrap{
+  .greetings_inner h2{
     display:none;
   }
+  .greetings_inner .greetings_story .gr_title span{
+    font-size:20px;
+  }
+  .greetings_inner .greetings_story .gr_title{
+    font-size:15px;
+    text-indent : -5px;
+  }
+  .greetings_inner .greetings_story .gr_title img{
+    width:25px;
+  }
+  .greetings_inner .greetings_story .textL .greeting_S_title{
+    font-size:15px;
+  }
+  .greetings_inner .greetings_story .textL p{
+    font-size:12px;
+  }
+  .greetings_inner .greetings_story .textL .advTxt b{
+    font-size:20px;
+  }
+  .greetings_inner .greetings_story .textL .count{
+    width:30px;
+  }
+  .greetings_inner .greetings_story .textL .import{
+    font-size:15px;
+  }
+  .greetings_inner .greetings_story .textR p{
+    font-size:12px;
+  }
+
+
 }
 @media all and (min-width:1025px) and (max-width:1599px){
   .greetings_inner .greetings_text p{

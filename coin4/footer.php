@@ -31,7 +31,15 @@
     <div class="app_footer_info">
         <p><img src="img/logo.png" alt="로고" class="footer_logo"></p>
           <div class="footer_nav">
-            <ul>
+            <ul class="footer_ul1">
+              <li><a href="greetings.php">인사말</a></li>
+              <li> | </li>
+              <li><a href="prime.php">회사소개</a></li>
+            </ul>
+          </div>
+
+          <div class="footer_nav2">
+            <ul class="footer_ul2">
               <li><a href="customer_FAQ.php">고객지원</a></li>
               <li> | </li>
               <li><a href="use_map.php">이용약관</a></li>
