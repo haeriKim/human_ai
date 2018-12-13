@@ -1490,3 +1490,30 @@ if(num < vi === num < si){
     $(".main_icon").css("visibility","visible").fadeIn(300);
     }
 });
+
+/*거래소 탭메뉴*/
+
+$(function() {
+  $('ul.tab li').click(function() {
+    var activeTab = $(this).attr('data-tab');
+    $('ul.tab li').removeClass('current').css({color:"#7AABDF",fontWeight:"500"});
+    $('.tabcontent').removeClass('current');
+    $(this).addClass('current').css({color:"#fff",fontWeight:"600"});
+    $('#' + activeTab).addClass('current');
+  })
+});
+
+// $(function () {
+//
+//     $("#deal_orgin_transaction").hide();
+//     $("#deal_orgin_transaction:first").show();
+//
+//     $("ul.tab li").click(function () {
+//         $("ul.tab li").removeClass("active").css("color", "#f00");
+//         //$(this).addClass("active").css({"color": "darkred","font-weight": "bolder"});
+//         $(this).addClass("active").css("color", "darkpink");
+//         $("#deal_orgin_transaction").hide()
+//         var activeTab = $(this).attr("rel");
+//         $("#" + activeTab).fadeIn()
+//     });
+// });

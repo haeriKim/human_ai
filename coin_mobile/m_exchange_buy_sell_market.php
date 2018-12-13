@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/exchange22.css">
+  <link rel="stylesheet" href="css/popup.css">
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/common.js"></script>
 
@@ -316,6 +317,7 @@
                                 </div>
                                 <a href="m_mycoin_deal_list.php" class='view_all'>전체 내역 보기 ></a>
                                 <input type="button" name="delete" value="주문취소" class='delete'>
+                                <p class="shadow_bt">주문취소</p>
                             </form>
                         </div>
                     </div><!-- tab3 End -->
@@ -333,6 +335,28 @@
                 <?php include "nav.php";?>
                 <!-- nav_wrap End-->
               </div><!--//wrap 끝-->
+
+              <div id="full">
+                      <!-- full_content -->
+                      <div id="full_content" class='box'>
+                          <div class="full_inner">
+                              <h2>미체결 주문 취소</h2>
+                              <div class='full_inner_p'>
+                                <p>선택하신 미체결 주문을 취소하시겠습니까?</p>
+                                <p>취소하신 주문건은 되돌릴 수 없습니다.</p>
+                              </div>
+
+                              <div class="bt_area">
+                                <div class="bt_area_box">
+                                  <a href="#" class='close_no'>닫기</a>
+                                  <a href="#" class="close_ok">예, 취소합니다</a>
+                                </div>
+                              </div>
+
+                          </div>
+                      </div><!-- full_content End-->
+                      <div id="shadow"></div>
+              </div>  <!-- full End-->
 
             </body>
             </html>

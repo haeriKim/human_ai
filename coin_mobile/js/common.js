@@ -31,8 +31,10 @@ $(document).ready(function(){
        if(chk == true && pre == $(this).val()){
            $(this).prop('checked',false);
            $("input[name='"+name+"']").data("previous",'');
+           $(".shadow_bt").show();
        }else{
            if(chk == true) $("input[name='"+name+"']").data("previous",$(this).val());
+           $(".shadow_bt").hide();
        }
    });
 
@@ -211,3 +213,23 @@ function lengthFix(obj){
         return false;
     }
 }
+
+/*미체결취소버튼*/
+
+$(document).ready(function(){
+  $(".delete").click(function(){
+    $("#full").show();
+  });
+});
+
+$(document).ready(function(){
+   $(".close_no").click(function(){
+     $("#full").hide();
+   });
+});
+
+$(document).ready(function(){
+   $(".close_ok").click(function(){
+     $("#full").hide();
+   });
+});

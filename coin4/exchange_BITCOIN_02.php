@@ -203,7 +203,15 @@
 
 
               <div class="box" id='deal_orgin_transaction'>
-                  <h3 class='exchange_h3'>원화거래</h3>
+
+                <ul class="tab">
+                  <li class="current exchange_h3_tab" data-tab="tab1">원화거래</li>
+                  <li data-tab="tab2" class='exchange_h3_tab'>BTC</li>
+                  <li data-tab="tab3" class='exchange_h3_tab'>ETH</li>
+                </ul>
+
+                <!--tab1--><!--tab1--><!--tab1-->
+                <div id="tab1" class="tabcontent current">
                   <table class='deal_table'>
                     <!-- <colgroup>
                         <col style="width:33%;"/>
@@ -297,6 +305,140 @@
                         </tr>
                     </tbody>
                   </table>
+                </div>
+                <!--tab1--><!--tab1--><!--tab1끝-->
+
+
+
+                <!--tab2--><!--tab2--><!--tab2-->
+                <div id="tab2" class="tabcontent">
+
+                  <table class='deal_table'>
+                    <!-- <colgroup>
+                        <col style="width:33%;"/>
+                        <col style="width:23%;"/>
+                        <col style="width:22%;"/>
+                        <col style="width:22%;"/>
+                    </colgroup> -->
+                    <thead class='thead_deco'>
+                        <tr>
+                            <th class='coin_kor'>
+                              <a class="coinName">
+                                <span>한글명</span>
+                                <img src="img/side_arrow.png" alt="화살표" class="change_arrow">
+                              </a>
+                            </th>
+                            <th><a>현재가<img src="img/up_down_default.png" alt="화살표"></a></th>
+                            <th><a>전일대비<img src="img/up_down_down.png" alt="화살표"></a></th>
+                            <th><a>거래대금<img src="img/up_down_up.png" alt="화살표"></a></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p class="kor_name">비트코인</p>
+                                <p style='display:none;' class="eng_name">Bitcoin</p>
+                                <span class='unit'>BTC/KRW</span>
+                            </td>
+                            <td><span class='up_down_data money_up'>7,500,000</span></td>
+                            <td><span class='up_down_data money_up'>+1.20%</span></td>
+                            <td><span class='up_down_data'>74,000,000</span></td>
+                        </tr>
+                        <tr>
+                            <td class='coin_kor'>
+                                <p class="kor_name">비트코인캐시</p>
+                                <p style='display:none;' class="eng_name">Bitcoin Cash</p>
+                                <span class='unit'>BCH/KRW</span>
+                            </td>
+                            <td><span class='up_down_data money_up'>599,000</span></td>
+                            <td><span class='up_down_data money_up'>+0.00%</span></td>
+                            <td><span class='up_down_data'>7,000,000</span></td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+
+                </div>
+                <!--tab2--><!--tab2--><!--tab2끝-->
+
+
+
+
+                <!--tab3--><!--tab3--><!--tab3-->
+                <div id="tab3" class="tabcontent">
+                  <table class='deal_table'>
+                    <!-- <colgroup>
+                        <col style="width:33%;"/>
+                        <col style="width:23%;"/>
+                        <col style="width:22%;"/>
+                        <col style="width:22%;"/>
+                    </colgroup> -->
+                    <thead class='thead_deco'>
+                        <tr>
+                            <th class='coin_kor'>
+                              <a class="coinName">
+                                <span>한글명</span>
+                                <img src="img/side_arrow.png" alt="화살표" class="change_arrow">
+                              </a>
+                            </th>
+                            <th><a>현재가<img src="img/up_down_default.png" alt="화살표"></a></th>
+                            <th><a>전일대비<img src="img/up_down_down.png" alt="화살표"></a></th>
+                            <th><a>거래대금<img src="img/up_down_up.png" alt="화살표"></a></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p class="kor_name">비트코인</p>
+                                <p style='display:none;' class="eng_name">Bitcoin</p>
+                                <span class='unit'>BTC/KRW</span>
+                            </td>
+                            <td><span class='up_down_data money_up'>7,500,000</span></td>
+                            <td><span class='up_down_data money_up'>+1.20%</span></td>
+                            <td><span class='up_down_data'>74,000,000</span></td>
+                        </tr>
+                        <tr>
+                            <td class='coin_kor'>
+                                <p class="kor_name">비트코인캐시</p>
+                                <p style='display:none;' class="eng_name">Bitcoin Cash</p>
+                                <span class='unit'>BCH/KRW</span>
+                            </td>
+                            <td><span class='up_down_data money_up'>599,000</span></td>
+                            <td><span class='up_down_data money_up'>+0.00%</span></td>
+                            <td><span class='up_down_data'>7,000,000</span></td>
+                        </tr>
+                        <tr>
+                            <td class='coin_kor'>
+                                <p class="kor_name">이더리움</p>
+                                <p style='display:none;' class="eng_name">Ethereum</p>
+                                <span class='unit'>ETH/KRW</span>
+                            </td>
+                            <td><span class='up_down_data money_up'>800,000</span></td>
+                            <td><span class='up_down_data money_up'>+1.20%</span></td>
+                            <td><span class='up_down_data'>700,000</span></td>
+                        </tr>
+                        <tr>
+                            <td class='coin_kor'>
+                                <p class="kor_name">이더리움클래식</p>
+                                <p style='display:none;' class="eng_name">Ethereum Classic</p>
+                                <span class='unit'>ETC/KRW</span>
+                            </td>
+                            <td><span class='up_down_data money_nochange'>800,000</span></td>
+                            <td><span class='up_down_data'>+0.00%</span></td>
+                            <td><span class='up_down_data'>700,000</span></td>
+                        </tr>
+                        <tr>
+                            <td class='coin_kor'><span>&nbsp;</span></td>
+                            <td><span>&nbsp;</span></td>
+                            <td><span>&nbsp;</span></td>
+                            <td><span>&nbsp;</span></td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+                </div>
+                <!--tab3--><!--tab3--><!--tab3끝-->
+
               </div><!-- con_410 End-->
 
             </div><!--left_coin_menu End-->

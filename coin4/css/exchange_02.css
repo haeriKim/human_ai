@@ -245,6 +245,36 @@
 #deal_orgin_transaction .money_down{
     color:#017eff;
 }
+#deal_orgin_transaction .tab{
+  overflow:hidden;
+}
+#deal_orgin_transaction .tab li{
+  width: 76px;
+  text-align: center;
+  display:table-cell;
+  cursor:pointer;
+}
+#deal_orgin_transaction .tab li:nth-child(1){
+  color:#fff;
+  font-weight:600;
+}
+#deal_orgin_transaction .tab li a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.17em;
+  font-weight: 500;
+  color: #7aabdf;
+}
+#deal_orgin_transaction .tabcontent {
+  display: none;
+}
+#deal_orgin_transaction ul.tab li.current{
+}
+#deal_orgin_transaction .tabcontent.current {
+  display: block;
+}
+
 /*chart_graf*/
 
 #right_all_menu{

@@ -671,3 +671,12 @@
 
     /*거래소 메인 팝업*/
 }
+@media all and (min-width:1025px) and (max-width:1599px){
+  #question_mark_active{
+    width:67%;
+  }
+
+  #question_mark_active p{
+    font-size:12px;
+  }
+}
