@@ -697,11 +697,100 @@
   #wrap{
     display:none;
   }
+  .content_wrap2{
+    width:100vw;
+    overflow:hidden;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+    color:#0E141C;
+  }
+  .prime_main{
+  width:100%;
+  background: url(../img/m_banner00.png) no-repeat center center fixed;
+  -webkit-background-size: 100%;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: -webkit-fill-available;
+  overflow: hidden;
+}
+  .prime_area .prime_inner .theallsprime_icon, .prime_area .prime_inner .theallsprime_icon2,.prime_area .prime_inner .theallsprime_icon3, .prime_area .prime_inner .theallsprime_icon4, .prime_area .prime_inner .theallsprime_icon5, .prime_area .prime_inner .theallsprime_icon5, .prime_area .prime_inner .theallsprime_icon6, .prime_area .prime_inner .theallsprime_icon7, .prime_area .prime_inner .theallsprime_icon8{
+    width:100vw;
+    overflow: hidden;
+    display: block;
+}
+  .prime_area .prime_inner .theallsprime_number3 .join_box, .prime_area .prime_inner .theallsprime_number4 .wallet_box, .prime_area .prime_inner .theallsprime_number5 .platform_box, .prime_area .prime_inner .theallsprime_number6 .security_box{
+    width:80%;
+}
+  .prime_inner{
+    width:100%;
+}
+  .prime_area .prime_inner h3 {
+    font-size: 2.0em;
+    color: #eaaf69;
+}
+.theallsprime_icon{
+    margin-bottom: 30px;
+}
+.prime_area .prime_inner .theallsprime_number1 li{
+  width:100%;
+  position:relative;
+}
+.prime_area .prime_inner .theallsprime_number1 img{
+  border:none;
+  margin-bottom:20px;
+  border-radius:50%;
+
+}
+.prime_area .prime_inner .theallsprime_number1 .value_letter{
+  position:absolute;
+  width:80%;
+  padding:20px;
+  background-color:#c5e1ff;
+  margin: 0 auto;
+}
+.prime_area .prime_inner .theallsprime_number2 ul {
+    margin-bottom: 40px;
+}
+.prime_area .prime_inner .theallsprime_number3 img {
+    width: 100%;
+    max-width: 650px;
+    margin-bottom:20px;
+    display: inline-block;
+}
+.prime_area .prime_inner .theallsprime_number3 .join_img .join_img_fence {
+    margin:0;
+    width: 100%;
+    padding: 0;
+}
+.prime_area .prime_inner .theallsprime_number3 .join_img span{
+    margin:20px;
+    padding:0 20px;
+}
+  .prime_area .prime_inner .theallsprime_number4{
+    margin-bottom:30px;
+}
+  .prime_area .prime_inner .theallsprime_number4 .wallet_box{
+  margin-top:0;
+  margin-bottom:0;
+}
+.prime_area .prime_inner .theallsprime_number6 .security_img img {
+    max-width: 800px;
+    width: 95%;
+}
+.prime_area .prime_inner .theallsprime_number7 .history_box img{
+  width:90%;
+  max-width:750px;
+  margin:0 20px;
+}
+.more_thealls img, .prime_area .prime_inner .theallsprime_number4 ul, .platform_img_box{
+  width:80%;
+  max-width: 800px;
+  margin:0 auto;
 }
 @media all and (min-width:1025px) and (max-width:1599px){
   .main_footer{
     margin-bottom:10%;
   }
-
-
 }
