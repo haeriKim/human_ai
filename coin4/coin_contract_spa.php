@@ -195,6 +195,8 @@
                             <br>
                             <p>CEO _________________ firma_________.</p>
                         </div>
+                        <p class='download_title'>La solicitud de cotización de Alls International Exchange</p>
+                        <a href="http://ssicago91.com/test/contract_Spain.zip" download class='download_file'>Descargar</a><br>
 
                     </div>
                   </div><!-- con_1000 End-->

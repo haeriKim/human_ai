@@ -1,7 +1,7 @@
 //회사소개 top 버튼
     $(function(){
       $(window).scroll(function(){
-          if($(this).scrollTop() > 200){
+          if($(this).scrollTop() = 0){
           	$("#top_bt").fadeIn("fast");
           		}else{
           			$("#top_bt").fadeOut("fast");

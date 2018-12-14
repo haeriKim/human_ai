@@ -195,6 +195,8 @@
                             <br>
                             <p>Генеральный директор _________________ подпись _________________.</p>
                         </div>
+                        <p class='download_title'>Запрос листинга международной биржи Alls</p>
+                        <a href="http://ssicago91.com/test/contract_Russia.zip" download class='download_file'>Скачать</a><br>
 
                     </div>
                   </div><!-- con_1000 End-->

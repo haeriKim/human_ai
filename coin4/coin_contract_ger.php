@@ -197,7 +197,7 @@
                             <p>CEO _________________ Unterschrift_________.</p>
                         </div>
                         <p class='download_title'>Alles International Exchange Listing Request</p>
-                        <a href="http://ssicago91.com/test/test1.zip" download class='download_file'>herunterladen</a><br>
+                        <a href="http://ssicago91.com/test/contract_Germany.zip" download class='download_file'>herunterladen</a><br>
                     </div>
                   </div><!-- con_1000 End-->
                 </div>

@@ -194,6 +194,8 @@
                             <br>
                             <p>PDG _________________ signature_________.</p>
                         </div>
+                        <p class='download_title'>La demande d'inscription à la liste d'échange d'Alls International</p>
+                        <a href="http://ssicago91.com/test/contract_France.zip" download class='download_file'>Télécharger</a><br>
 
                     </div>
                   </div><!-- con_1000 End-->

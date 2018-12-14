@@ -661,8 +661,8 @@
   display:block;
   overflow:hidden;
   text-indent:-9999px;
-  top:33%;
-  right:30%;
+  top:46%;
+  right:42%;
 }
 .more_thealls img{
   width:50%;
@@ -679,6 +679,21 @@
   display:none;
 }
 .main_icon img{
+  border:1px solid #efefef;
+  border-radius:50px;
+  width:50px;
+  cursor:pointer;
+}
+/*메인탑버튼*/
+.main_top{
+  position:fixed;
+  bottom:8%;
+  right:2%;
+  visibility: hidden;
+  overflow:hidden;
+  display:none;
+}
+.main_top img{
   border:1px solid #efefef;
   border-radius:50px;
   width:50px;
@@ -707,51 +722,189 @@
   }
   .prime_main{
   width:100%;
-  background: url(../img/m_banner00.png) no-repeat center center fixed;
+  background: url(../img/m_main.png) no-repeat center center;
   -webkit-background-size: 100%;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: -webkit-fill-available;
+  height: 500px;
   overflow: hidden;
+  margin-top:14%;
 }
-  .prime_area .prime_inner .theallsprime_icon, .prime_area .prime_inner .theallsprime_icon2,.prime_area .prime_inner .theallsprime_icon3, .prime_area .prime_inner .theallsprime_icon4, .prime_area .prime_inner .theallsprime_icon5, .prime_area .prime_inner .theallsprime_icon5, .prime_area .prime_inner .theallsprime_icon6, .prime_area .prime_inner .theallsprime_icon7, .prime_area .prime_inner .theallsprime_icon8{
+  .prime_area .prime_inner .theallsprime_icon,
+   .prime_area .prime_inner .theallsprime_icon2,
+   .prime_area .prime_inner .theallsprime_icon3,
+    .prime_area .prime_inner .theallsprime_icon4,
+     .prime_area .prime_inner .theallsprime_icon5,
+      .prime_area .prime_inner .theallsprime_icon5,
+       .prime_area .prime_inner .theallsprime_icon6,
+        .prime_area .prime_inner .theallsprime_icon7,
+         .prime_area .prime_inner .theallsprime_icon8{
     width:100vw;
     overflow: hidden;
     display: block;
 }
-  .prime_area .prime_inner .theallsprime_number3 .join_box, .prime_area .prime_inner .theallsprime_number4 .wallet_box, .prime_area .prime_inner .theallsprime_number5 .platform_box, .prime_area .prime_inner .theallsprime_number6 .security_box{
-    width:80%;
+  .prime_area .prime_inner .theallsprime_number3 .join_box,
+   .prime_area .prime_inner .theallsprime_number4 .wallet_box,
+    .prime_area .prime_inner .theallsprime_number5 .platform_box,
+     .prime_area .prime_inner .theallsprime_number6 .security_box{
+    width:70%;
 }
   .prime_inner{
     width:100%;
 }
-  .prime_area .prime_inner h3 {
+
+/*value*/
+
+.prime_area .prime_inner h3 {
     font-size: 2.0em;
-    color: #eaaf69;
+    margin-bottom:0;
+}
+.prime_area .prime_inner .theallsprime_icon .prime_text{
+  font-size:12px;
+  width:auto;
+  padding:0 10px;
+}
+.prime_area .prime_inner .theallsprime_icon p b{
+  font-size:15px;
 }
 .theallsprime_icon{
     margin-bottom: 30px;
 }
-.prime_area .prime_inner .theallsprime_number1 li{
-  width:100%;
-  position:relative;
+.prime_area .prime_inner .theallsprime_number1 li.value_letter{
+  width:70%;
+  overflow:hidden;
+  padding:20px;
+  font-size:12px;
+  border:2px solid #eaaf69;
+  margin: 0 auto;
+}
+.prime_area .prime_inner .theallsprime_number1 li.value_img{
+  margin-top:20px;
 }
 .prime_area .prime_inner .theallsprime_number1 img{
   border:none;
   margin-bottom:20px;
   border-radius:50%;
+  width:30%;
+}
+/*service*/
 
-}
-.prime_area .prime_inner .theallsprime_number1 .value_letter{
-  position:absolute;
-  width:80%;
-  padding:20px;
-  background-color:#c5e1ff;
-  margin: 0 auto;
-}
 .prime_area .prime_inner .theallsprime_number2 ul {
-    margin-bottom: 40px;
+}
+.prime_area .prime_inner .theallsprime_icon2{
+  padding:100px 0 80px 0;
+  position: relative;
+  overflow:hidden;
+}
+.prime_area .prime_inner .theallsprime_icon2 ul{
+  margin:0;
+}
+.prime_area .prime_inner .theallsprime_icon2 .prime_text{
+  font-size:12px;
+}
+.prime_area .prime_inner .theallsprime_icon2 p b{
+  font-size:15px;
+}
+.prime_area .prime_inner .theallsprime_icon2 li{
+  width:200px;
+  height:200px;
+  margin-right:0;
+  margin-bottom:20px;
+  float:none;
+}
+.prime_area .prime_inner .theallsprime_icon2 li:nth-child(1){
+  background:none;
+}
+.prime_area .prime_inner .theallsprime_icon2 .prime_ul01 li{
+  background:url(../img/prime_coin.png) no-repeat 0 50%; background-size:cover;
+}
+.prime_area .prime_inner .theallsprime_icon2 .prime_ul02 li{
+  background:url(../img/prime_time.png) no-repeat 0 0; background-size:cover;
+}
+.prime_area .prime_inner .theallsprime_icon2 .prime_ul03 li{
+  background:url(../img/prime_coin2.png) no-repeat 0 0; background-size:cover;
+}
+.prime_area .prime_inner .theallsprime_icon2 li strong{
+  width:79%;
+  height:80%;
+  line-height:13em;
+  font-size:12px;
+}
+.prime_area .prime_inner .theallsprime_icon2 li strong b{
+  font-size:15px;
+}
+.prime_area .prime_inner .theallsprime_icon2 li strong:hover{
+  transform: scale(1.25);
+}
+.prime_area .prime_inner .theallsprime_icon2 li strong:hover .more{
+  display:none;
+}
+.prime_area .prime_inner .theallsprime_icon2 li span{
+  width:200px;
+  height:200px;
+}
+.prime_area .prime_inner .theallsprime_icon2 li p.more{
+  display:block;
+  font-size:12px;
+  color:#fff;
+  top:55%;
+}
+.prime_area .prime_inner .theallsprime_icon2 .st_text{
+  margin-bottom:20px;
+  padding:0 9%;
+  font-size:12px;
+}
+.prime_area .prime_inner .theallsprime_number2{
+  overflow:hidden;
+  margin-top:0;
+}
+.prime_area .prime_inner .theallsprime_number2 li p{
+  font-size:15px;
+}
+.prime_area .prime_inner .theallsprime_number2 .app_company1 li:nth-child(1){
+  margin-left:9%;
+}
+.prime_area .prime_inner .theallsprime_number2 .app_company1 .none_li{
+  font-size:12px;
+  width:190px;
+}
+.prime_area .prime_inner .theallsprime_number2 .app_company2{
+  margin-top:20px;
+}
+.prime_area .prime_inner .theallsprime_number2 .app_company2 li:nth-child(1){
+  margin-left:9%;
+}
+.prime_area .prime_inner .theallsprime_number2 .app_company2 .none_li{
+  font-size:12px;
+  width:190px;
+  margin:0 auto;
+}
+
+/*join*/
+.prime_area .prime_inner .theallsprime_icon3 p b{
+  font-size:15px;
+}
+.prime_area .prime_inner .theallsprime_icon3 .prime_text{
+  font-size:12px;
+}
+.prime_area .prime_inner .theallsprime_number3 .join_box{
+  font-size:12px;
+}
+.prime_area .prime_inner .theallsprime_number3 .join_img strong{
+  font-size:15px;
+}
+.prime_area .prime_inner .theallsprime_number3 .join_img span{
+  font-size:12px;
+  margin:20px;
+  padding:0 20px;
+}
+.prime_area .prime_inner .theallsprime_number3 .join_img span b{
+  font-size:15px;
+}
+.prime_area .prime_inner .theallsprime_number3{
+  margin-top:0;
+  margin-bottom:20%;
 }
 .prime_area .prime_inner .theallsprime_number3 img {
     width: 100%;
@@ -764,30 +917,135 @@
     width: 100%;
     padding: 0;
 }
-.prime_area .prime_inner .theallsprime_number3 .join_img span{
-    margin:20px;
-    padding:0 20px;
+
+/*method*/
+.prime_area .prime_inner .theallsprime_icon4 p b{
+  font-size:15px;
+}
+.prime_area .prime_inner .theallsprime_icon4 .prime_text{
+  font-size:12px;
+}
+.prime_area .prime_inner .theallsprime_number4 .wallet_box{
+  font-size:12px;
+  margin-top:0;
+  margin-bottom:0;
+}
+.prime_area .prime_inner .theallsprime_number4 table{
+  margin-top:10%;
+  margin-left:10%;
+}
+.prime_area .prime_inner .theallsprime_number4 table th{
+  width:30%;
+}
+.prime_area .prime_inner .theallsprime_number4 table th img{
+  width:60%;
+}
+.prime_area .prime_inner .theallsprime_number4 table td{
+  font-size:12px;
+  text-align:left;
 }
   .prime_area .prime_inner .theallsprime_number4{
     margin-bottom:30px;
 }
-  .prime_area .prime_inner .theallsprime_number4 .wallet_box{
-  margin-top:0;
-  margin-bottom:0;
+.prime_area .prime_inner .theallsprime_number4 li img{
+  width:30%;
+}
+/*platform*/
+.prime_area .prime_inner .theallsprime_icon5 p b{
+  font-size:15px;
+}
+.prime_area .prime_inner .theallsprime_icon5 .prime_text{
+  font-size:12px;
+}
+.prime_area .prime_inner .theallsprime_number5{
+  margin-bottom:50px;
+}
+.prime_area .prime_inner .theallsprime_number5 .platform_box{
+  font-size:12px;
+  margin:0;
+}
+.prime_area .prime_inner .theallsprime_number5 .platform_img_box .title_li img{
+  width:80%;
+}
+.prime_area .prime_inner .theallsprime_number5 .platform_img_box .none_li{
+  font-size:12px;
+  width:190px;
+}
+.prime_area .prime_inner .theallsprime_number5 .app_company2{
+  margin-top:20px;
+}
+
+/*security*/
+.prime_area .prime_inner .theallsprime_icon6 p b{
+  font-size:15px;
+}
+.prime_area .prime_inner .theallsprime_icon6 .prime_text{
+  font-size:12px;
+}
+.prime_area .prime_inner .theallsprime_number6{
+  margin-bottom:50px;
+}
+.prime_area .prime_inner .theallsprime_number6 .security_box{
+  margin:0;
+  font-size:12px;
+}
+.prime_area .prime_inner .theallsprime_number6 .security_img .s_title{
+  font-size:15px;
+}
+.prime_area .prime_inner .theallsprime_number6 .security_img .security_txt{
+  font-size:12px;
 }
 .prime_area .prime_inner .theallsprime_number6 .security_img img {
     max-width: 800px;
     width: 95%;
+}
+/*history*/
+
+.prime_area .prime_inner .theallsprime_icon7 p b{
+  font-size:15px;
+}
+.prime_area .prime_inner .theallsprime_icon7 .prime_text{
+  font-size:12px;
+}
+.prime_area .prime_inner .theallsprime_number7{
+  margin-bottom:50px;
+}
+
+/*thank you*/
+
+.prime_area .prime_inner .theallsprime_icon8 p b{
+  font-size:15px;
 }
 .prime_area .prime_inner .theallsprime_number7 .history_box img{
   width:90%;
   max-width:750px;
   margin:0 20px;
 }
-.more_thealls img, .prime_area .prime_inner .theallsprime_number4 ul, .platform_img_box{
+.prime_area .prime_inner .theallsprime_number4 ul, .platform_img_box{
   width:80%;
   max-width: 800px;
   margin:0 auto;
+}
+.more_thealls img{
+  width:125%;
+  margin-bottom:20px;
+}
+.more_thealls p{
+  left:-12%;
+}
+.more_thealls .more_a{
+  width:30%;
+  height:30px;
+  top:60%;
+  right:15%;
+}
+/*top버튼*/
+.main_top{
+  bottom:1%;
+  right:-19.5%;
+}
+.main_top img{
+  width:30%;
 }
 @media all and (min-width:1025px) and (max-width:1599px){
   .main_footer{

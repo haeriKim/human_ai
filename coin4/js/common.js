@@ -1491,6 +1491,49 @@ if(num < vi === num < si){
     }
 });
 
+/*프라임탑버튼*/
+var vi = 500;  // 하단에 메뉴 표시할 스크롤 위치값 지정
+var si = 14000;
+
+$(window).scroll(function(){
+
+var num = $(window).scrollTop();
+
+if(num < vi === num < si){
+  $(".main_top").css("visibility","hidden").fadeOut(300);
+}else if( num >= vi && num <= si){
+    $(".main_top").css("visibility","visible").fadeIn(300);
+    }
+});
+
+var vi = 500;  // 하단에 메뉴 표시할 스크롤 위치값 지정
+var si = 11000;
+
+$(window).scroll(function(){
+
+var num = $(window).scrollTop();
+
+if(num < vi === num < si){
+  $("#app_wrap .main_top").css("visibility","hidden").fadeOut(300);
+}else if( num >= vi && num <= si){
+    $("#app_wrap .main_top").css("visibility","visible").fadeIn(300);
+    }
+});
+
+$(function(){
+  $(window).scroll(function(){
+      if($(this).scrollTop() = 0){
+        $(".main_top").fadeIn("fast");
+          }else{
+          	$(".main_top").fadeOut("fast");
+          	}
+          });
+        $(".main_top").click(function(){
+            $("html,body").animate({scrollTop:0},500);
+            return false;
+            });
+    });
+
 /*거래소 탭메뉴*/
 
 $(function() {
