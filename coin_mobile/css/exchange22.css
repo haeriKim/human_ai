@@ -243,7 +243,6 @@
 .tab_container #tab3 .delete{
     background: none;
     border: 1px solid rgba(255,255,255,.3);
-    width: 100%;
     color: rgba(255,255,255,.3);
     height: 30px;
     margin-top: 35px;
@@ -251,12 +250,16 @@
     width: 80%;
     margin-left: 10%;
 }
-.tab_container #tab3 .on{
+.tab_container #tab3 .delete_on{
     background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
-    width: 100%;
     color: #fff;
     border: none;
+    height: 30px;
+    margin-top: 35px;
+    border-radius: 50px;
     width: 80%;
+    display: none;
+    margin-left: 10%;
 }
 .tab_container #tab3 .apply_buy{
     color: #f35531;

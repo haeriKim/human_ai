@@ -185,6 +185,7 @@
 
                 <!--tab1--><!--tab1--><!--tab1-->
                 <div id="tab1" class="tabcontent current">
+                 <div class='deal_table_scroll'>
                   <table class='deal_table'>
                     <!-- <colgroup>
                         <col style="width:33%;"/>
@@ -278,6 +279,7 @@
                         </tr>
                     </tbody>
                   </table>
+                 </div>
                 </div>
                 <!--tab1--><!--tab1--><!--tab1끝-->
 

@@ -32,19 +32,9 @@
     <div id="wrap">
         <!-- container -->
         <div id="container">
-
           <!-- nav_wrap -->
           <?php include "nav.php";?>
                     <!-- nav_wrap End-->
-
-          <!-- m_nav-->
-          <?php include "m_nav.php";?>
-          <!-- m_nav End-->
-
-          <!-- m_header-->
-          <?php include "m_header.php";?>
-          <!-- m_header End-->
-
 
           <!-- header_wrap -->
           <?php include "header.php";?>
@@ -173,6 +163,10 @@
             <?php include "footer.php";?>
             <!-- footer_wrap End-->
 
+            <!--sub_menu-->
+            <?php include "sub_menu.php";?>
+            <!--sub_menu End-->
+
         </div><!-- container End -->
     </div><!-- wrap End -->
 
@@ -180,11 +174,6 @@
     <div id="app_wrap">
         <!-- container -->
         <div id="container">
-
-          <!-- nav_wrap -->
-          <?php include "nav.php";?>
-          <!-- nav_wrap End-->
-
           <!-- m_nav-->
           <?php include "m_nav.php";?>
           <!-- m_nav End-->
@@ -192,11 +181,6 @@
           <!-- m_header-->
           <?php include "m_header.php";?>
           <!-- m_header End-->
-
-
-          <!-- header_wrap -->
-          <?php include "header.php";?>
-          <!-- header_wrap End-->
 
             <!-- content_wrap -->
             <div class="content_wrap">
@@ -227,10 +211,6 @@
             <!-- footer_wrap -->
             <?php include "footer.php";?>
             <!-- footer_wrap End-->
-
-            <!--sub_menu-->
-            <?php include "sub_menu.php";?>
-            <!--sub_menu End-->
 
         </div><!-- container End -->
     </div><!-- wrap End -->

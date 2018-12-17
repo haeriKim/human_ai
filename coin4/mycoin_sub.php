@@ -888,7 +888,7 @@
                                                         <span class='caution'>최소 입금 금액 : 없음</span>
                                                         <span class='caution sub_02'>입금 수수료 : 무료</span>
                                                         <span class='caution'>최대 입금 금액 : 무제한</span>
-                                                        <span class='caution sub_04'>최초 입금 후 출금시간 : 72시간</span>
+                                                        <span class='caution sub_04'>출금 신청시 대기시간: 최대 72시간</span>
                                                     </div>
 
                                                     <!-- before_send_money_wrap -->
@@ -896,15 +896,15 @@
                                                         <p>입금신청 주의사항</p>
                                                         <div class="checkbox_list">
                                                             <input type="checkbox" id='number_01' class="agree_check_01">
-                                                            <label for='number_01'>KRW를 처음 입금하시는 경우 3영업일(72시간) 동안 KRW 및 암호화폐의 출금이 제한됩니다.</label>
+                                                            <label for='number_01'>인증하신 계좌에서만 입금이 가능합니다. 또한, 인증하신 계좌로 입금하더라도 입금자명을 다르게 입력하면 처리가 되지 않을 수 있으니 주의하시기 바랍니다.</label>
                                                             <input type="checkbox" id='number_02' class="agree_check_01">
-                                                            <label for='number_02'>최소 입금 금액은 따로 없습니다.</label>
+                                                            <label for='number_02'>인터넷 뱅킹, 모바일 뱅킹, ATM기기를 통해 입금이 가능합니다.(ATM기기의 경우 체크카드로만 거래가 가능합니다.)</label>
                                                             <input type="checkbox" id='number_03' class="agree_check_01">
-                                                            <label for='number_03'>입금시 KRW는 1:1 비율로 입금됩니다. (100,000원 입금 → 100,000KRW 입금)</label>
+                                                            <label for='number_03'>은행 창구, 텔레뱅킹, 토스 및 카카오페이 등을 통한 입금은 불가능합니다.</label>
                                                             <input type="checkbox" id='number_04' class="agree_check_01">
-                                                            <label for='number_04'>은행점검 시간에는 입금이 불가능하거나 지연될 수 있습니다.</label>
+                                                            <label for='number_04'>입금시 KRW는 1:1 비율로 입금됩니다. (100,000원 입금 → 100,000KRW 입금)</label>
                                                             <input type="checkbox" id='number_05' class="agree_check_01">
-                                                            <label for='number_05'>은행점검 시간 : 매일(KST 23:00 ~ 01:05) / 매달 3째주 월요일 00:00 ~ 05:00</label>
+                                                            <label for='number_05'>출금 신청시 심사가 진행되며, 최대 72시간 지연될 수 있습니다. 부정거래가 의심될 경우 출금이 제한될 수 있습니다.</label>
 
                                                             <input type="checkbox" id='number_06' class="allAgree_01">
                                                             <label for='number_06' class='all_agree_01'>위의 입금시 주의사항에 모두 동의합니다.</label>
@@ -1017,9 +1017,9 @@
                                                         <p>출금신청 주의사항</p>
                                                         <div class="checkbox_list">
                                                             <input type="checkbox" id='number_07' class="agree_check_02">
-                                                            <label for='number_07'>KRW를 처음 입금하시는 경우 3영업일(72시간) 동안 KRW 및 암호화폐의 출금이 제한됩니다.</label>
+                                                            <label for='number_07'>출금 신청시 심사가 진행되며, 최대 72시간 지연될 수 있습니다. 부정거래가 의심될 경우 출금이 제한될 수 있습니다.</label>
                                                             <input type="checkbox" id='number_08' class="agree_check_02">
-                                                            <label for='number_08'>출금 신청 완료 후, 약 5-30분 이내에 등록하신 은행계좌로 출금됩니다.</label>
+                                                            <label for='number_08'>은행별 점검시간에는 출금이 제한됩니다.</label>
                                                             <input type="checkbox" id='number_09' class="agree_check_02">
                                                             <label for='number_09'>은행점검 시간에는 입금이 불가능하거나 지연될 수 있습니다.</label>
                                                             <input type="checkbox" id='number_10' class="agree_check_02">

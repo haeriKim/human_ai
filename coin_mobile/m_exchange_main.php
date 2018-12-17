@@ -160,7 +160,7 @@
     <div id="full">
             <!-- full_content -->
             <div id="full_content" class='box'>
-                <div class="full_inner">
+                <div class="full_inner notification_popup">
                     <h2>암호화폐 거래 안내</h2>
                     <p>
                         최근 암호화폐에 대한 관심과 함께 무리한 투자에 대한 우려도 증가하고

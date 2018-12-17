@@ -10,9 +10,9 @@ $(function () {
         $("table.tabs td span").removeClass("tabOn");
         $(this).addClass("tab_active");
         $(this).children("span").addClass("tabOn");
-        $(".tab_content").hide()
+        $(".tab_content").hide();
         var activeTab = $(this).attr("rel");
-        $("#" + activeTab).fadeIn()
+        $("#" + activeTab).fadeIn();
     });
 });
 
@@ -40,9 +40,12 @@ $(document).ready(function(){
 
    $(".not_yet_deal_content .check").click(function(){
        if($(this).filter(":checked").length == 0){
-           $(".not_yet_deal .delete").removeClass('on');
+           $(".not_yet_deal .delete_on").hide();
+           $(".not_yet_deal .delete").show();
        }else{
-           $(".not_yet_deal .delete").addClass('on');
+           $(".not_yet_deal .delete_on").show();
+           $(".not_yet_deal .delete").hide();
+
        }
    });
 });
@@ -139,6 +142,7 @@ $(document).ready(function(){
 
 //메인 팝업
 $(document).ready(function(){
+    $(".notification_popup").show();
     $('#full_content .close_btn').click(function(e){
         e.preventDefault();
         $('#full').hide();
@@ -217,19 +221,30 @@ function lengthFix(obj){
 /*미체결취소버튼*/
 
 $(document).ready(function(){
-  $(".delete").click(function(){
-    $("#full").show();
+  $(".delete_on").click(function(){
+    $("#full, .cancel_deal_popup").show();
+    $(".apply_buy_popup, .apply_sell_popup").hide();
+  });
+  $(".close_no").click(function(){
+    $("#full").hide();
+  });
+  $(".close_ok").click(function(){
+    $("#full").hide();
   });
 });
 
+/*매수버튼 클릭시 나오는 팝업*/
 $(document).ready(function(){
-   $(".close_no").click(function(){
-     $("#full").hide();
-   });
+    $('#tab1 .buy_big_btn').click(function(){
+        $("#full, .apply_buy_popup").show();
+        $(".cancel_deal_popup, .apply_sell_popup").hide();
+    });
 });
 
+/*매도버튼 클릭시 나오는 팝업*/
 $(document).ready(function(){
-   $(".close_ok").click(function(){
-     $("#full").hide();
-   });
+    $('#tab2 .buy_big_btn').click(function(){
+        $("#full, .apply_sell_popup").show();
+        $(".cancel_deal_popup, .apply_buy_popup").hide();
+    });
 });

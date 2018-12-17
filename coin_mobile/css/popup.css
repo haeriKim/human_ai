@@ -50,6 +50,7 @@
 #full_content .full_inner{
     width: 90%;
     margin: 0 auto;
+    display: none;
 }
 #full_content .full_inner h2{
     color: #30afb8;
@@ -64,6 +65,10 @@
     color: #333;
     font-size: 12px;
     margin-top: 10px;
+}
+#full_content .full_inner p span.emphasis{
+    color: #30afb8;
+    font-weight: 600;
 }
 #full_content .full_inner b{
     color:#30afb8;

@@ -206,8 +206,8 @@
             </dl>
 
             <div class="mini_sub_info">
-              <p class='sub_text minimum_order_price'>최소주문금액 : 2000 KRW</p>
-              <p class='sub_text charge'>수수료 (부가세 포함) : 0.12%</p>
+              <p class='sub_text minimum_order_price'>최소주문금액 : 없음</p>
+              <p class='sub_text charge'>수수료 : 0.12%</p>
             </div>
 
             <div class="buy_tab_button">
@@ -267,8 +267,8 @@
               </dl>
 
               <div class="mini_sub_info">
-                <p class='sub_text minimum_order_price'>최소주문금액 : 2000 KRW</p>
-                <p class='sub_text charge'>수수료 (부가세 포함) : 0.12%</p>
+                <p class='sub_text minimum_order_price'>최소주문금액 : 없음</p>
+                <p class='sub_text charge'>수수료 : 0.12%</p>
               </div>
 
               <div class="buy_tab_button">
@@ -317,7 +317,7 @@
                                 </div>
                                 <a href="m_mycoin_deal_list.php" class='view_all'>전체 내역 보기 ></a>
                                 <input type="button" name="delete" value="주문취소" class='delete'>
-                                <p class="shadow_bt">주문취소</p>
+                                <input type="button" name="delete" value="주문취소" class='delete_on'>
                             </form>
                         </div>
                     </div><!-- tab3 End -->
@@ -339,7 +339,7 @@
               <div id="full">
                       <!-- full_content -->
                       <div id="full_content" class='box'>
-                          <div class="full_inner">
+                          <div class="full_inner cancel_deal_popup">
                               <h2>미체결 주문 취소</h2>
                               <div class='full_inner_p'>
                                 <p>선택하신 미체결 주문을 취소하시겠습니까?</p>
@@ -354,6 +354,35 @@
                               </div>
 
                           </div>
+
+                          <div class="full_inner apply_buy_popup">
+                            <h2>매수</h2>
+                            <div class="full_inner_p">
+                                <p><span class='emphasis'>1000 KRW</span>로 약 <span class='emphasis'>0.1 BTC</span>를 매수합니다.</p>
+                            </div>
+
+                            <div class="bt_area">
+                              <div class="bt_area_box">
+                                <a href="#" class='close_no'>취소</a>
+                                <a href="#" class="close_ok">매수</a>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="full_inner apply_sell_popup">
+                            <h2>매도</h2>
+                            <div class="full_inner_p">
+                                <p><span class='emphasis'>0.1 BTC</span>판매 후 약<span class='emphasis'>1000 KRW</span>를 수령합니다.</p>
+                            </div>
+
+                            <div class="bt_area">
+                              <div class="bt_area_box">
+                                <a href="#" class='close_no'>취소</a>
+                                <a href="#" class="close_ok">매도</a>
+                              </div>
+                            </div>
+                          </div>
+
                       </div><!-- full_content End-->
                       <div id="shadow"></div>
               </div>  <!-- full End-->

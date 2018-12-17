@@ -180,8 +180,23 @@
     border: none;
     max-width: 350px;
 }
+#deal_orgin_transaction .deal_table_scroll{
+    height: 320px;
+    overflow-y: auto;
+}
 #deal_orgin_transaction table{
     font-size:13px;
+}
+#wrap #deal_orgin_transaction .thead_deco{
+    background-color: #05080B;
+    position: absolute;
+    width: 99.5%;
+    display: inherit;
+}
+#wrap #deal_orgin_transaction tbody{
+    margin-top: 35px;
+    display: inherit;
+    width: 100%;
 }
 #deal_orgin_transaction thead tr th.coin_kor,
 #deal_orgin_transaction thead tr th.coin_eng{
