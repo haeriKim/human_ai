@@ -29,7 +29,7 @@
   font-size: 13px;
 }
 .certification_success_area .certification_success_bt input.chk_ok{
-  background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+  background: linear-gradient(to right, #06908c 0%, #0d566c 100%);
   border: none;
   color: #fff;
   padding: 8px 0;
@@ -40,7 +40,7 @@
   margin-left: 5px;
 }
 .certification_success_area .certification_success_bt input.certification_btn{
-  background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+  background: linear-gradient(to right, #06908c 0%, #0d566c 100%);
   border: none;
   color: #fff;
   padding: 8px 0;

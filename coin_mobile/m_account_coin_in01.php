@@ -43,7 +43,7 @@
                         <ul class="asset all_assets">
                           <li class='border_bottom_none'>
                               <p class='mywallet_title'>총 보유자산</p>
-                              <p class="up_down_data mywallet_amount">374,92.60<span>BTC</span></p>
+                              <p class="up_down_data mywallet_amount">37,492.60<span>BTC</span></p>
                               <div class='notification_wrap'>
                                   <p class='notification notification_01'>거래대기</p>
                                   <p class='notification notification_a_01'>1,002.32 BTC</p>
@@ -83,8 +83,8 @@
                         <div class="coin_warning">
                           <p><img src="img/m_check.png" alt="체크아이콘">입금신청 주의사항</p>
                           <ul>
-                            <li>- KRW를 처음 입금하시는 경우 3영업일(72시간) 동안 KRW 및 암호화폐의 출금이 제한됩니다.</li>
-                            <li>- 외부 지갑으로부터 위의 주소로 암호화폐를 전송하게되면 회원님의 전자지갑에 반영됩니다.</li>
+                            <li>- 소액 입금시, 입금 수수료가 부과됩니다.</li>
+                            <li>- 소액입금 기준 : 비트코인 - 0.005 BTC 이하 / 비트코인 캐시 - 0.03 BHC 이하</li>
                             <li>- 입금받는 지갑에서 입금내역을 확인하기까지 30분~1시간 정도의 시간이 소요되며, 상황에 따라 지연이 발생할 수 있습니다.</li>
                             <li>- 다른 거래소 지갑으로 송금하는 경우, 해당 거래소 정책의 영향을 받을 수 있습니다.</li>
                             <li>- 암호화폐는 전송 후 되돌릴 수 없기 때문에 지갑 주소를 반드시 확인하고 전달해 주세요. 지갑 주소 혼동으로 발생하는 문제나 손실에 대해서는 Tha Alls는 책임지지 않습니다.</li>

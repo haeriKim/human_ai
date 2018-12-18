@@ -76,7 +76,7 @@
       font-size: 13px;
     }
     .certification_03_wrap .cancel_or_apply .agree_btn{
-      background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+      background: linear-gradient(to right, #06908c 0%, #0d566c 100%);
       border: none;
       color: #fff;
       padding: 8px 0;

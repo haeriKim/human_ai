@@ -206,8 +206,8 @@
             </dl>
 
             <div class="mini_sub_info">
-              <p class='sub_text minimum_order_price'>최소주문금액 : 없음</p>
-              <p class='sub_text charge'>수수료 : 0.12%</p>
+              <p class='sub_text minimum_order_price'>최소주문수량 : 0.0001 BTC</p>
+              <p class='sub_text charge'>수수료 : 0.25%</p>
             </div>
 
             <div class="buy_tab_button">
@@ -267,8 +267,8 @@
               </dl>
 
               <div class="mini_sub_info">
-                <p class='sub_text minimum_order_price'>최소주문금액 : 없음</p>
-                <p class='sub_text charge'>수수료 : 0.12%</p>
+                <p class='sub_text minimum_order_price'>최소주문수량 : 0.0001 BTC</p>
+                <p class='sub_text charge'>수수료 : 0.25%</p>
               </div>
 
               <div class="buy_tab_button">

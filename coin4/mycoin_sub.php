@@ -965,7 +965,7 @@
                                                                     <tr>
                                                                         <th>1회 출금한도</th>
                                                                         <td>
-                                                                            <p class='limit_output'>100,000,000 KRW</p>
+                                                                            <p class='limit_output'>50,000,000 KRW</p>
                                                                             <input type="button" value="출금한도조회" class='certification_level_table'>
                                                                         </td>
                                                                     </tr>
@@ -1096,7 +1096,7 @@
                                                              <p class='before_send_money_paragraph'>입금신청 주의사항</p>
                                                              <div class="warning_notice_list">
                                                                  <p>소액 입금시, 입금 수수료가 부과됩니다.</p>
-                                                                 <p>소액입금 기준 : 비트코인 - 0.005 BTC 비트코인 캐시 - 0.03 BHC</p>
+                                                                 <p>소액입금 기준 : 비트코인 - 0.005 BTC 이하 / 비트코인 캐시 - 0.03 BHC 이하</p>
                                                                  <p>입금받는 지갑에서 입금내역을 확인하기까지 30분~1시간 정도의 시간이 소요되며, 상황에 따라 지연이 발생할 수 있습니다.</p>
                                                                  <p>다른 거래소 지갑으로 송금하는 경우, 해당 거래소 정책의 영향을 받을 수 있습니다.</p>
                                                                  <p>암호화폐는 전송 후 되돌릴 수 없기 때문에 지갑 주소를 반드시 확인하고 전달해 주세요. 지갑 주소 혼동으로 발생하는
@@ -1165,11 +1165,11 @@
                                                                              </tr>
                                                                              <tr>
                                                                                  <th>출금 수수료</th>
-                                                                                 <td class='emphasis'>0.0005 BTC</td>
+                                                                                 <td class='emphasis'>0.001 BTC</td>
                                                                              </tr>
                                                                              <tr>
                                                                                  <th>실제 출금금액</th>
-                                                                                 <td class='reality_won'>-0.0005 BTC</td>
+                                                                                 <td class='reality_won'>-0.001 BTC</td>
                                                                              </tr>
                                                                              <tr>
                                                                                  <th>보안 비밀번호</th>

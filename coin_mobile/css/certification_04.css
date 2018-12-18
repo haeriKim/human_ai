@@ -98,7 +98,7 @@
   text-align: center;
 }
 .certification_account_area .account_input_area .bank_request input{
-  background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+  background: linear-gradient(to right, #06908c 0%, #0d566c 100%);
   border: none;
   color: #fff;
   padding: 7px 0;
@@ -153,7 +153,7 @@
   margin-top:40px;
 }
 .certification_account_area #bank_complete input.chk_ok{
-  background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+  background: linear-gradient(to right, #06908c 0%, #0d566c 100%);
   border: none;
   color: #fff;
   padding: 8px 0;
@@ -217,7 +217,7 @@
   text-align: right;
 }
 .certification_account_area .account_delete #delete_complete input.chk_ok{
-  background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+  background: linear-gradient(to right, #06908c 0%, #0d566c 100%);
   border: none;
   color: #fff;
   padding: 8px 0;

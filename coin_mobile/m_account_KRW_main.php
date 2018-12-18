@@ -81,7 +81,7 @@
                             </li>
                             <li onclick="location.href='m_account_KRW_detailF.php'">
                                 <div class="list_li_row">
-                                    <p class='list_condition'>출금 <span class='fail'>실패</span></p>
+                                    <p class='list_condition'>입금 <span class='fail'>실패</span></p>
                                     <p class='list_amount'>1,000 KRW</p>
                                 </div>
                                 <div class="list_li_row">
@@ -97,7 +97,7 @@
                                 </div>
                                 <div class="list_li_row">
                                     <p class='list_time'>2018-09-05 11:23:45</p>
-                                    <p class='list_charge'>수수료 0 KRW</p>
+                                    <p class='list_charge'>수수료 1,000 KRW</p>
                                 </div>
                                 <img src="img/more_view4.png" alt="자세히" width="20px" height="20px">
                             </li>

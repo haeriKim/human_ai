@@ -92,7 +92,7 @@
   text-align:center;
 }
 .notice_inner .notice_bt_area .next_bt{
-  background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+  background: linear-gradient(to right, #06908c 0%, #0d566c 100%);
   border: none;
   color: #fff;
   padding: 7px 0;

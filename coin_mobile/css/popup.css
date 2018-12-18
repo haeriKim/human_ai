@@ -25,7 +25,7 @@
 }
 .popup_area .popup_box .btn_area input{
   margin-top:30px;
-  background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+  background: linear-gradient(to right, #06908c 0%, #0d566c 100%);
   border: none;
   color: #fff;
   padding: 7px 0;
@@ -109,7 +109,7 @@
     padding: 5px 0;
     color: #fff;
     font-size: 13px;
-    background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+    background: linear-gradient(to right, #06908c 0%, #0d566c 100%);
     border-radius: 5px;
     height: 25px;
     line-height: 25px;

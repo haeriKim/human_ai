@@ -128,10 +128,12 @@
   color: rgba(255,255,255,.3);
   margin-top: 20px;
   font-size: 12px;
+  width: 110%;
 }
 .my_assets_KRW02 .KRW_input_outout .KRW_warning_list li{
-  float:left;
-  width:50%;
+    float: left;
+    width: 47%;
+    word-break: keep-all;
 }
 .my_assets_KRW02 .KRW_input_outout .KRW_warning_list li.text {
   width: 100%;

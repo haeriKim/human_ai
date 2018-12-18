@@ -133,7 +133,7 @@
                                   <th colspan="2" class='thead_th'>출금 수수료</th>
                                 </tr>
                                 <tr>
-                                    <th>소액 내부 입금</th>
+                                    <th>소액 입금 기준</th>
                                     <th>소액 외부 입금</th>
                                     <th>내부 출금</th>
                                     <th class='thead_th'>외부 출금</th>
@@ -156,7 +156,7 @@
                                         <p>비트코인</p>
                                         <p>(BTC)</p>
                                     </th>
-                                    <td>0.005 BTC</td>
+                                    <td>0.005 BTC 이하</td>
                                     <td>0.001 BTC</td>
                                     <td>0.001 BTC</td>
                                 </tr>
@@ -165,7 +165,7 @@
                                         <p>비트코인캐시</p>
                                         <p>(BCH)</p>
                                     </th>
-                                    <td>0.03 BCH</td>
+                                    <td>0.03 BCH 이하</td>
                                     <td>0.001 BCH</td>
                                     <td>0.001 BCH</td>
                                 </tr>
@@ -194,7 +194,7 @@
                                     </th>
                                     <td>-</td>
                                     <td>무료</td>
-                                    <td>-</td>
+                                    <td>0.1 EOS</td>
                                 </tr>
                                 <tr>
                                     <th class='long_th'>
@@ -203,7 +203,7 @@
                                     </th>
                                     <td>-</td>
                                     <td>무료</td>
-                                    <td>-</td>
+                                    <td>1 XRP</td>
                                 </tr>
                                 <tr>
                                     <th class='long_th'>

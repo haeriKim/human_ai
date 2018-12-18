@@ -252,7 +252,7 @@ $(document).ready(function(){
 /*매도매수버튼 클릭시 완료 팝업*/
 $(document).ready(function(){
   $(".apply_complete_popup").hide();
-    $('.close_ok').click(function(){
+    $('.apply_sell_popup .close_ok, .apply_buy_popup .close_ok').click(function(){
         $("#full, .apply_complete_popup").show();
         $(".cancel_deal_popup, .apply_buy_popup, .apply_sell_popup").hide();
     });

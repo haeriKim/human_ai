@@ -46,7 +46,7 @@
 
                             <tr>
                               <th>구분</th>
-                              <td>원화(KRW) 입금</td>
+                              <td>원화(KRW) 출금</td>
                             </tr>
 
                             <tr>
@@ -60,16 +60,16 @@
                             </tr>
 
                             <tr>
-                              <th>입금자명</th>
-                              <td class='waiting'>가나다1234</td>
+                              <th>예금주</th>
+                              <td class='waiting'>가나다</td>
                             </tr>
 
                             <tr>
-                              <th>입금신청금액</th>
+                              <th>출금신청금액</th>
                               <td>12,000 KRW</td>
                             </tr>
 
-                            <tr>
+                            <!-- <tr>
                               <th>입금할 계좌정보</th>
                               <td class='waiting'>신한은행 555-666-777888</td>
                             </tr>
@@ -77,11 +77,11 @@
                             <tr>
                               <th>예금주</th>
                               <td>디올스</td>
-                            </tr>
+                            </tr> -->
 
                             <tr>
                               <th>수수료</th>
-                              <td>0 KRW</td>
+                              <td>1,000 KRW</td>
                             </tr>
                         </tbody>
 
@@ -89,7 +89,7 @@
 
 
                         <div class="KRW_warning">
-                          <p>※ 반드시 발급된 입금자명으로 입금해주세요.</p>
+                          <!-- <p>※ 반드시 발급된 입금자명으로 입금해주세요.</p> -->
                         </div>
                       </div>
 
