@@ -111,7 +111,7 @@
                               <tbody>
                                   <tr>
                                       <td>기본수수료</td>
-                                      <td>0.12%</td>
+                                      <td>0.25%</td>
                                   </tr>
                               </tbody>
                           </table>

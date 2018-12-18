@@ -530,7 +530,7 @@
                      <td class="orderbg1 upprice">+2.05%</td>
                      <td rowspan="2">고가</td>
 
-                     <td rowspan="2" class="high upprice">10,250 <p>(+0.12%)</p></td>
+                     <td rowspan="2" class="high upprice">10,250 <p>(+0.25%)</p></td>
 
                    </tr>
 
@@ -748,7 +748,7 @@
                       </dl>
                       <div class="mini_sub_info">
                           <span class='sub_text minimum_order_price'>최소주문수량 : 0.0001 ETC</span>
-                          <span class='sub_text charge'>수수료 : 0.12%</span>
+                          <span class='sub_text charge'>수수료 : 0.25%</span>
                       </div>
                       <div class="buy_tab_button">
                           <input type="reset" name="reset" value="초기화" class='reset reset_buy'>
@@ -801,7 +801,7 @@
                       </dl>
                       <div class="mini_sub_info">
                           <span class='sub_text minimum_order_price'>최소주문수량 : 0.0001 ETC</span>
-                          <span class='sub_text charge'>수수료 : 0.12%</span>
+                          <span class='sub_text charge'>수수료 : 0.25%</span>
                       </div>
 
                       <div class="buy_tab_button">
@@ -1700,7 +1700,7 @@ new TradingView.widget(
                         </dl>
                         <div class="mini_sub_info">
                             <span class='sub_text minimum_order_price'>최소주문수량 : 0.0001 ETC</span>
-                            <span class='sub_text charge'>수수료 : 0.12%</span>
+                            <span class='sub_text charge'>수수료 : 0.25%</span>
                         </div>
                         <div class="buy_tab_button">
                             <input type="reset" name="reset" value="초기화" class='reset reset_buy'>
@@ -1753,7 +1753,7 @@ new TradingView.widget(
                         </dl>
                         <div class="mini_sub_info">
                             <span class='sub_text minimum_order_price'>최소주문수량 : 0.0001 ETC</span>
-                            <span class='sub_text charge'>수수료 : 0.12%</span>
+                            <span class='sub_text charge'>수수료 : 0.25%</span>
                         </div>
 
                         <div class="buy_tab_button">

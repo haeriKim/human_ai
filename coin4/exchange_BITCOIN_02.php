@@ -750,7 +750,7 @@
                       </dl>
                       <div class="mini_sub_info">
                           <span class='sub_text minimum_order_price'>최소주문수량 : 0.0001 BTC</span>
-                          <span class='sub_text charge'>수수료 : 0.12%</span>
+                          <span class='sub_text charge'>수수료 : 0.25%</span>
                       </div>
                       <div class="buy_tab_button">
                           <input type="reset" name="reset" value="초기화" class='reset reset_buy'>
@@ -803,7 +803,7 @@
                       </dl>
                       <div class="mini_sub_info">
                           <span class='sub_text minimum_order_price'>최소주문수량 : 0.0001 BTC</span>
-                          <span class='sub_text charge'>수수료 : 0.12%</span>
+                          <span class='sub_text charge'>수수료 : 0.25%</span>
                       </div>
 
                       <div class="buy_tab_button">
@@ -1679,7 +1679,7 @@
                         </dl>
                         <div class="mini_sub_info">
                             <span class='sub_text minimum_order_price'>최소주문수량 : 0.0001 BTC</span>
-                            <span class='sub_text charge'>수수료 : 0.12%</span>
+                            <span class='sub_text charge'>수수료 : 0.25%</span>
                         </div>
                         <div class="buy_tab_button">
                             <input type="reset" name="reset" value="초기화" class='reset reset_buy'>
@@ -1732,7 +1732,7 @@
                         </dl>
                         <div class="mini_sub_info">
                             <span class='sub_text minimum_order_price'>최소주문수량 : 0.0001 BTC</span>
-                            <span class='sub_text charge'>수수료 : 0.12%</span>
+                            <span class='sub_text charge'>수수료 : 0.25%</span>
                         </div>
 
                         <div class="buy_tab_button">

@@ -787,20 +787,20 @@ $(document).ready(function(){
 
 //scroll_fixed
 
-  $(document).ready(function() {
-  	var floatPosition = $("#left_coin_menu").scrollTop();
-    //console.log(floatPosition);
-  	$(window).scroll(function() {
-  		var scrollTop = $(window).scrollTop();
-        //console.log(scrollTop);
-  		var newPosition = scrollTop + floatPosition + "px";
-      if(scrollTop < 530){
-        $("#left_coin_menu").stop().animate({
-          "top" : newPosition
-        }, 500);
-      }
-  	}).scroll();
-  });
+  // $(document).ready(function() {
+  // 	var floatPosition = $("#left_coin_menu").scrollTop();
+  //   //console.log(floatPosition);
+  // 	$(window).scroll(function() {
+  // 		var scrollTop = $(window).scrollTop();
+  //       //console.log(scrollTop);
+  // 		var newPosition = scrollTop + floatPosition + "px";
+  //     if(scrollTop < 530){
+  //       $("#left_coin_menu").stop().animate({
+  //         "top" : newPosition
+  //       }, 500);
+  //     }
+  // 	}).scroll();
+  // });
 
   /*계좌등록체크박스*/
 

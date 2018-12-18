@@ -974,7 +974,7 @@
                                                                         <td>200,000,000 KRW</td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <th>출금요청액</th>
+                                                                        <th>출금신청액</th>
                                                                         <td>
                                                                             <input class='withdrawal_price' type="text" name="" value="" placeholder="0" required>
                                                                         </td>
@@ -1019,13 +1019,13 @@
                                                             <input type="checkbox" id='number_07' class="agree_check_02">
                                                             <label for='number_07'>출금 신청시 심사가 진행되며, 최대 72시간 지연될 수 있습니다. 부정거래가 의심될 경우 출금이 제한될 수 있습니다.</label>
                                                             <input type="checkbox" id='number_08' class="agree_check_02">
-                                                            <label for='number_08'>은행별 점검시간에는 출금이 제한됩니다.</label>
+                                                            <label for='number_08'>최소 출금 금액은 5,000 KRW 입니다.</label>
                                                             <input type="checkbox" id='number_09' class="agree_check_02">
-                                                            <label for='number_09'>은행점검 시간에는 입금이 불가능하거나 지연될 수 있습니다.</label>
+                                                            <label for='number_09'>인증하신 계좌로만 출금신청이 가능합니다.</label>
                                                             <input type="checkbox" id='number_10' class="agree_check_02">
-                                                            <label for='number_10'>은행점검 시간 : 매일(KST 23:00 ~ 01:05) / 매달 3째주 월요일 00:00 ~ 05:00</label>
+                                                            <label for='number_10'>출금 수수료는 1,000 KRW 입니다.</label>
                                                             <input type="checkbox" id='number_11' class="agree_check_02">
-                                                            <label for='number_11'>부정 거래가 의심되는 경우, 출금이 제한될 수 있습니다.</label>
+                                                            <label for='number_11'>은행별 점검시간에는 출금이 제한됩니다.</label>
 
                                                             <input type="checkbox" id='number_12' class="allAgree_02">
                                                             <label for='number_12' class='all_agree_02'>위의 출금시 주의사항에 모두 동의합니다.</label>
@@ -1095,8 +1095,8 @@
                                                          <div class="before_send_money_wrap">
                                                              <p class='before_send_money_paragraph'>입금신청 주의사항</p>
                                                              <div class="warning_notice_list">
-                                                                 <p>KRW 처음 입금할 경우, 72시간(3일) 동안 가상화폐 출금 제한됩니다. (KRW 출금은 제한되지 않습니다.</p>
-                                                                 <p>외부 지갑으로부터 위의 주소로 암호화폐를 전송하게되면 회원님의 전자지갑에 반영됩니다.</p>
+                                                                 <p>소액 입금시, 입금 수수료가 부과됩니다.</p>
+                                                                 <p>소액입금 기준 : 비트코인 - 0.005 BTC 비트코인 캐시 - 0.03 BHC</p>
                                                                  <p>입금받는 지갑에서 입금내역을 확인하기까지 30분~1시간 정도의 시간이 소요되며, 상황에 따라 지연이 발생할 수 있습니다.</p>
                                                                  <p>다른 거래소 지갑으로 송금하는 경우, 해당 거래소 정책의 영향을 받을 수 있습니다.</p>
                                                                  <p>암호화폐는 전송 후 되돌릴 수 없기 때문에 지갑 주소를 반드시 확인하고 전달해 주세요. 지갑 주소 혼동으로 발생하는
@@ -1195,13 +1195,13 @@
                                                                  <p>출금신청 주의사항</p>
                                                                  <div class="checkbox_list">
                                                                      <input type="checkbox" id='number_13' class="agree_check_03">
-                                                                     <label for='number_13'>회원님의 전자지갑으로부터 외부 전자지갑으로 암호화폐를 출금합니다.</label>
+                                                                     <label for='number_13'>출금 신청시 심사가 진행되며, 최대 72시간 지연될 수 있습니다. 부정거래가 의심될 경우 출금이 제한될 수 있습니다.</label>
                                                                      <input type="checkbox" id='number_14' class="agree_check_03">
-                                                                     <label for='number_14'>각 암호화폐의 입출금 이후 과정은 블록체인 네트워크에서 자동으로 처리 되므로 The Alls에서 별도의 조취를 취할 수 없습니다.</label>
+                                                                     <label for='number_14'>출금 수수료 : 0.001 BTC / 출금 최소 금액 : 0.002 BTC</label>
                                                                      <input type="checkbox" id='number_15' class="agree_check_03">
-                                                                     <label for='number_15'>위 사항 미준수 시 환급은 주말/휴일 제외 1주일 이상 걸림을 유의하시기 바랍니다.</label>
+                                                                     <label for='number_15'>실제 전송되는 수량은 총 출금 암호화폐에서 출금수수료를 제외한 수량이 전송됩니다.</label>
                                                                      <input type="checkbox" id='number_16' class="agree_check_03">
-                                                                     <label for='number_16'>실제 전송되는 수량은 총 출금 암호화폐에서 출금수수료를 제외한 수량이 전송됩니다.</label>
+                                                                     <label for='number_16'>각 암호화폐의 입출금 이후 과정은 블록체인 네트워크에서 자동으로 처리 되므로 The Alls에서 별도의 조취를 취할 수 없습니다.</label>
                                                                      <input type="checkbox" id='number_17' class="agree_check_03">
                                                                      <label for='number_17'>암호화폐의 지갑 주소 오기재로 인한 출금의 경우 The Alls에서 책임지지 않습니다. 지갑주소를 반드시 확인하시기 바랍니다.</label>
 
@@ -1818,7 +1818,7 @@
                         <div class="full_inner">
                             <form class="" action="#" method="post">
                                 <h2>출금신청</h2>
-                                <p><b class='check_your_money_again'><span class="withdrawal_price">1,000,000 </span> KRW</b>를</p>
+                                <p>출금신청액 : <b class='check_your_money_again'><span class="withdrawal_price">1,000,000 </span> KRW</b></p>
                                 <table class='left_thick_table'>
                                     <tbody>
                                         <tr>
@@ -1835,7 +1835,7 @@
                                         </tr>
                                     </tbody>
                                 </table>
-                                <p>현재 계좌에서 출금하시겠습니까?</p>
+                                <p>출금신청을 하시겠습니까?</p>
                                 <div class="cancel_or_apply">
                                     <input type="reset" name="" value="취소" class='cancel_btn'>
                                     <input type="button" name="" value="출금신청" class='agree_btn' onclick="location.href='mywallet_output_complete_KRW.php'">
