@@ -463,6 +463,13 @@
       background:url(../img/m_banner00.png) no-repeat 0 0;
       background-size: 100% 100%;
     }
+    .app_prime_bt{
+      width:58%;
+      height:5%;
+      position:absolute;
+      top:72%;
+      left:20%;
+    }
     .app_panel .app_banner3 {
       background:url(../img/m_banner02.png) no-repeat 0 0;
       background-size: 100% 100%;

@@ -488,7 +488,7 @@
                      <div class="app_slide">
                        <ul class="app_panel">
                          <li class="app_banner1 on"></li>
-                         <li class="app_banner2"></li>
+                         <li class="app_banner2"><a href="prime.php" class="app_prime_bt"></a></li>
                          <li class="app_banner3"></li>
                          <li class="app_banner4"></li>
                          <li class="app_banner5"></li>
