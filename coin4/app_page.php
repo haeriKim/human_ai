@@ -82,6 +82,10 @@
                 </div><!-- common_table_wrap End-->
             </div><!-- content_wrap End-->
 
+            <!-- footer_wrap -->
+            <?php include "footer.php";?>
+            <!-- footer_wrap End-->
+
         </div><!-- container End -->
     </div><!-- wrap End -->
 
