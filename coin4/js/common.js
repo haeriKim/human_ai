@@ -1521,7 +1521,7 @@ if(num < vi === num < si){
 });
 
 $(function(){
-  $(window).scroll(function(){
+  $("body").scroll(function(){
       if($(this).scrollTop() = 0){
         $(".main_top").fadeIn("fast");
           }else{
