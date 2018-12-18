@@ -324,6 +324,19 @@
   line-height: 25px;
   float:left;
 }
+#full_content .full_inner .close_ok2{
+  width:50%;
+  text-align:center;
+  display: inline-block;
+  padding: 5px 0;
+  color: #fff;
+  font-size: 13px;
+  min-width: 90px;
+  background-image: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+  border-radius: 5px;
+  height: 25px;
+  line-height: 25px;
+}
 .shadow_bt{
   position: absolute;
   top: 81%;
@@ -331,4 +344,7 @@
   left: 47%;
   height: 7%;
   text-indent: -9999px;
+}
+#full .apply_complete_popup{
+  display:none;
 }

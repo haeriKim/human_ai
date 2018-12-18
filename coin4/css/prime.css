@@ -164,7 +164,7 @@
   transition:0.6s ease-out;
 }
 .prime_area .prime_inner .theallsprime_icon2 li strong:hover{
-  transform:scale(1.2);
+  transform:scale(1.15);
   opacity:1;
   color:#fff;
   cursor:pointer;

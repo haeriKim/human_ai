@@ -383,6 +383,19 @@
                             </div>
                           </div>
 
+                          <div class="full_inner apply_complete_popup">
+                            <h2>주문 접수</h2>
+                            <div class="full_inner_p">
+                                <p>주문이 정상적으로 접수되었습니다.</p>
+                            </div>
+
+                            <div class="bt_area">
+                              <div class="bt_area_box">
+                                <a href="#" class='close_ok2'>확인</a>
+                              </div>
+                            </div>
+                          </div>
+
                       </div><!-- full_content End-->
                       <div id="shadow"></div>
               </div>  <!-- full End-->

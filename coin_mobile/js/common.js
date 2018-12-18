@@ -228,7 +228,7 @@ $(document).ready(function(){
   $(".close_no").click(function(){
     $("#full").hide();
   });
-  $(".close_ok").click(function(){
+  $(".close_ok, .close_ok2").click(function(){
     $("#full").hide();
   });
 });
@@ -237,7 +237,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $('#tab1 .buy_big_btn').click(function(){
         $("#full, .apply_buy_popup").show();
-        $(".cancel_deal_popup, .apply_sell_popup").hide();
+        $(".cancel_deal_popup, .apply_sell_popup, .apply_complete_popup").hide();
     });
 });
 
@@ -245,6 +245,15 @@ $(document).ready(function(){
 $(document).ready(function(){
     $('#tab2 .buy_big_btn').click(function(){
         $("#full, .apply_sell_popup").show();
-        $(".cancel_deal_popup, .apply_buy_popup").hide();
+        $(".cancel_deal_popup, .apply_buy_popup, .apply_complete_popup").hide();
+    });
+});
+
+/*매도매수버튼 클릭시 완료 팝업*/
+$(document).ready(function(){
+  $(".apply_complete_popup").hide();
+    $('.close_ok').click(function(){
+        $("#full, .apply_complete_popup").show();
+        $(".cancel_deal_popup, .apply_buy_popup, .apply_sell_popup").hide();
     });
 });
