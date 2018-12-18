@@ -16,7 +16,7 @@
                 <li><a href="use_info_process_law.php" class="pp">개인정보처리방침</a></li>
             </ul>
             <ul class="right">
-                <li class="footer_link"><a href="customer_FAQ.php">FAQ</a></li>
+                <li class="footer_link"><a href="customer_faq.php">FAQ</a></li>
                 <li class="footer_link"><a href="customer_question.php">1:1 문의</a></li>
                 <li class="footer_link"><a href="guide_security.php">인증자료 제출안내</a></li>
                 <li class="footer_link"><a href="fee_table.php">수수료 안내</a></li>
