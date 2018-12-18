@@ -1507,7 +1507,7 @@ if(num < vi === num < si){
 });
 
 var vi = 500;  // 하단에 메뉴 표시할 스크롤 위치값 지정
-var si = 11000;
+var si = 14000;
 
 $(window).scroll(function(){
 
