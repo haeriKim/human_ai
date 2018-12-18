@@ -45,7 +45,7 @@
 
                             <tr>
                               <th>구분</th>
-                              <td>비트코인(KRW) 입금</td>
+                              <td>비트코인(KRW) 출금</td>
                             </tr>
 
                             <tr>
@@ -69,7 +69,7 @@
                             </tr>
 
                             <tr>
-                              <th>입금신청금액</th>
+                              <th>출금신청금액</th>
                               <td>10 BTC</td>
                             </tr>
 
@@ -85,7 +85,7 @@
 
                             <tr>
                               <th>수수료</th>
-                              <td>0 BTC</td>
+                              <td>0.001 BTC</td>
                             </tr>
                         </tbody>
 

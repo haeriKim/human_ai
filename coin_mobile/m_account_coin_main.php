@@ -70,7 +70,7 @@
                         <ul class='list_ul'>
                             <li onclick="location.href='m_account_coin_detail.php'">
                                 <div class="list_li_row">
-                                    <p class='list_condition'>입금 <span class='waiting'>대기중</span></p>
+                                    <p class='list_condition'>출금 <span class='waiting'>대기중</span></p>
                                     <p class='list_amount'>10 BTC</p>
                                 </div>
                                 <div class="list_li_row">
