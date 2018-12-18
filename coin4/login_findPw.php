@@ -85,6 +85,11 @@
                             <h3>비밀번호 복구</h3>
                             <label for="e_mail_responsive" class='skip_label'>이메일주소</label>
                             <input type="email" name="e_mail" value="" placeholder="이메일주소를 입력하세요." id='e_mail_responsive' required autocomplete="off" class='user_mail'>
+                            <p class='notfiy_info'>
+                                <img src="img/icon_ex.png" alt="알림">
+                                입력한 주소로 이메일이 발송되었습니다.<br/>
+                                메일의 링크를 통해 비밀번호 변경을 완료해주세요.
+                            </p>
 
                             <input type="submit" name="submit" value="메일 보내기" class='button_box send_email_button'>
                         </form>

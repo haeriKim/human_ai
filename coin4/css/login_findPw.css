@@ -48,3 +48,12 @@
 .gray_box_findPw{
   height:50px;
 }
+
+@media all and (min-width:320px) and (max-width:1024px){
+  p.notfiy_info{
+  color: #f35531;
+  font-size: 12px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+  }
+}
