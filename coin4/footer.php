@@ -45,7 +45,7 @@
 
           <div class="footer_nav2">
             <ul class="footer_ul2">
-              <li><a href="customer_FAQ.php">고객지원</a></li>
+              <li><a href="customer_faq.php">고객지원</a></li>
               <li> | </li>
               <li><a href="coin_contract_eng.php">상장 계약서</a></li>
             </ul>
@@ -57,7 +57,7 @@
           </div>
           <div class="app_company_info">
             <p><span>㈜디올스</span> | </span><span>대표 손용현</span></p>
-            <p>서울특별시 강남구 언주로 640. 임피리얼 호텔 6층<br/></p>
+            <p>서울특별시 강남구 언주로 640. 임페리얼 호텔 6층<br/></p>
             <p>사업자등록번호 492-81-01041</p>
             <p>통신판매업 제 2018-서울송파-1893호</p>
             <p>팩스번호 0504-083-6879</p>
