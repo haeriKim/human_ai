@@ -223,7 +223,7 @@ function lengthFix(obj){
 $(document).ready(function(){
   $(".delete_on").click(function(){
     $("#full, .cancel_deal_popup").show();
-    $(".apply_buy_popup, .apply_sell_popup").hide();
+    $(".apply_buy_popup, .apply_sell_popup, .apply_complete_popup").hide();
   });
   $(".close_no").click(function(){
     $("#full").hide();
