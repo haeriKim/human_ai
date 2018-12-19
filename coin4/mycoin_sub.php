@@ -1153,6 +1153,7 @@
                                                                                  <th>비트코인 출금 주소</th>
                                                                                  <td>
                                                                                      <input type="text" name="" value="" placeholder="주소를 입력해주세요." required>
+                                                                                     <input type="button" value="인증" class="certification_address_bt">
                                                                                  </td>
                                                                              </tr>
                                                                              <tr>
@@ -1857,6 +1858,34 @@
                                 </div>
                             </form>
                         </div>
+                    </div><!-- full_content End-->
+
+                    <!-- full_content -->
+                    <div id="popupbox" class='box popup certification_address'>
+                      <div class="full_inner">
+                        <h2>주소 인증 성공</h2>
+                        <div class="popupbox_text">
+                          <p>입력하신 코인 주소가 유효합니다.</p>
+                        </div>
+                        <div class="cancel_or_apply">
+                          <input type="button" name="" value="확인"  id="leave_member_agree_btn" class="leave_member_agree_btn">
+                        </div>
+
+                      </div>
+                    </div><!-- full_content End-->
+
+                    <!-- full_content -->
+                    <div id="popupbox" class='box popup certification_address2' style="display:none;">
+                      <div class="full_inner">
+                        <h2>주소 인증 실패</h2>
+                        <div class="popupbox_text">
+                          <p>입력하신 코인 주소가 유효하지 않습니다.</p>
+                        </div>
+                        <div class="cancel_or_apply">
+                          <input type="button" name="" value="확인"  id="leave_member_agree_btn" class="leave_member_agree_btn">
+                        </div>
+
+                      </div>
                     </div><!-- full_content End-->
             <div id="shadow"></div>
     </div>  <!-- full End-->

@@ -1560,3 +1560,15 @@ $(function() {
 //         $("#" + activeTab).fadeIn()
 //     });
 // });
+
+/*코인주소인증 팝업*/
+
+$(document).ready(function(){
+  $(".certification_address").hide();
+    $(".certification_address_bt").click(function(){
+      $(".certification_address, #shadow").show();
+    })
+    $(".leave_member_agree_btn").click(function(){
+      $(".certification_address, #shadow").hide();
+    })
+});

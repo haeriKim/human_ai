@@ -1055,6 +1055,11 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
     color:#080D13;
   }
 
+/*코인주소인증 팝업창*/
+.certification_address .popupbox_text p{
+  padding:20px 0;
+}
+
 /*원화거래*/
 #deal_orgin_transaction{
     overflow-y: auto;
