@@ -590,7 +590,13 @@
       margin-left:3%;
     }
 }
-
+@media all and (min-width:1650px) and (max-width:1750px){
+  .prime_bt{
+    top:95%;
+    right:0%;
+    width:7%;
+  }
+}
 .floating{
 	animation-duration: 1.5s;
 	-webkit-animation-duration: 1.5s;

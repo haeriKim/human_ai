@@ -20,6 +20,9 @@
 .coinInfo_area .text_area p {
    margin: 20px 0;
 }
+.coinInfo_area .text_area small{
+  color:#aaa;
+}
 .coinInfo_area .text_area p a.bitcoin_mining,
 .coinInfo_area .text_area p a.bitcoin_twitter,
 .coinInfo_area .text_area p a.ethereum_mining{
@@ -94,6 +97,14 @@
 .coin_money_detail #detail_all .ripple_table tbody tr td {
     font-size: 13px;
     padding: 0 18px;
+}
+
+/*트위터*/
+.twitter{
+  width: 350px;
+  float: right;
+  border-radius: 5px;
+  position: relative;
 }
 
 @media all and (min-width:320px) and (max-width:1024px){

@@ -271,7 +271,9 @@
                       </div>
                     </div><!-- Notice&use_guide End-->
 
+                    <div class="prime_img">
                       <p onclick="location.href='prime.php'"><img src="img/prime.png" alt="프라임버튼" class="prime_bt"></p>
+                    </div>
 
                 </div><!-- main_content End-->
             </div><!-- content_wrap End-->
