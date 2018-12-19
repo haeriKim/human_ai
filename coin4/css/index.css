@@ -346,7 +346,7 @@
 }
 .prime_bt{
   position:absolute;
-  top:90%;
+  bottom:-10%;
   right:-8%;
   width:10%;
   cursor:pointer;
@@ -592,7 +592,7 @@
 }
 @media all and (min-width:1650px) and (max-width:1750px){
   .prime_bt{
-    bottom:
+    bottom:0;
     right:0%;
     width:7%;
   }
