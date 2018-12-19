@@ -1546,20 +1546,6 @@ $(function() {
   })
 });
 
-// $(function () {
-//
-//     $("#deal_orgin_transaction").hide();
-//     $("#deal_orgin_transaction:first").show();
-//
-//     $("ul.tab li").click(function () {
-//         $("ul.tab li").removeClass("active").css("color", "#f00");
-//         //$(this).addClass("active").css({"color": "darkred","font-weight": "bolder"});
-//         $(this).addClass("active").css("color", "darkpink");
-//         $("#deal_orgin_transaction").hide()
-//         var activeTab = $(this).attr("rel");
-//         $("#" + activeTab).fadeIn()
-//     });
-// });
 
 /*코인주소인증 팝업*/
 
@@ -1584,16 +1570,6 @@ $(document).ready(function(){
 //     })
 // });
 //
-// /*매수오류 팝업*/
-// $(document).ready(function(){
-//   $(".masu_popup").hide();
-//     $(".sell_big_btn").click(function(){
-//       $(".masu_popup, #shadow").show();
-//     })
-//     $(".popupbt").click(function(){
-//       $(".masu_popup, #shadow").hide();
-//     })
-//});
 
 /*IE9 크로스브라우징*/
 $(document).ready(function(){
@@ -1607,3 +1583,25 @@ $(document).ready(function(){
         $("#mywallet_havecoin thead th:not(.coin_name1)").css({'padding-left':'0'});
     }
 });
+
+/*코인정보 트위터 토클*/
+$(document).ready(function(){
+    $('.twitter_ul .twitter_object').hide();
+    var acodian = {
+      click: function(target) {
+        var $target = $(target);
+        $target.on('click', function() {
+          if ($(this).hasClass('on')) {
+            slideUp($target);
+          } else {
+            slideUp($target);
+            $(this).addClass('on').next().stop().slideDown();
+          }
+          function slideUp($target) {
+            $target.removeClass('on').next().stop().slideUp();
+          }
+        });
+      }
+    };
+    acodian.click('.twitter_ul li .twitter_toggle');
+})

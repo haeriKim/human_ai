@@ -7,7 +7,7 @@
   border-right: 1px solid #7AABDF;
   width: 45%;
   margin-right: 3%;
-  height: 500px;
+  height: 800px;
   padding-right:40px;
 }
 .center_bottom .cText_left3 strong{
@@ -100,11 +100,12 @@
   display:block;
   padding:15px;
   margin-bottom:55px;
+  width:250px;
 }
 .cText_right3 .qr_code_key{
   float:left;
   text-align:center;
-  margin-left:30px;
+  margin-left:100px;
 }
 .cText_right3 .qr_code_key2{
   margin-top:30px;

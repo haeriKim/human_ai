@@ -100,6 +100,24 @@
 }
 
 /*트위터*/
+.twitter_toggle{
+  padding-left:10px;
+  padding-bottom:5px;
+  text-align:left;
+  color:#7AABDF;
+  border-bottom:2px solid #7AABDF;
+  font-size:12px;
+  background:url(../img/arrow_off.png) no-repeat 98% 1px / 0 0; background-size:4%;
+  cursor:pointer;
+}
+.twitter_toggle img{
+  width:20px;
+  vertical-align: -5px;
+  margin-right:7px;
+}
+.twitter_ul li .on{
+  background:url(../img/arrow_on.png) no-repeat 98% 1px / 0 0; background-size:4%;
+}
 .twitter{
   width: 350px;
   float: right;
@@ -225,5 +243,11 @@
   #ethuriumclassic_a_link{
     width:22%;
     font-size:12px;
+  }
+  small{
+    font-size:11px;
+  }
+  .twitter{
+    width:35%;
   }
 }

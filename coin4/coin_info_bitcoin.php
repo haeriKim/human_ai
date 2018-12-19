@@ -113,6 +113,10 @@
                             <p>
                               나카모토 사토시(가명)
                             </p>
+                            <small>위 정보는 코인에 대한 이해를 돕기 위해 제공하는 것으로, 투자 권유를 목적으로 하지 않습니다.<br/>
+                            제공되는 정보는 누락과 지연이 발생할 수 있으며, TheAlls는 제공된 정보에 의한 투자결과에 대해 법적인 책임을 지지 않습니다.
+                            </small>
+
                           </div>
                         </div>
                       </div><!--coinInfo_area End-->
@@ -190,6 +194,24 @@
                               </div>
                          </div><!--coin_money_detail End-->
                     </div>
+
+                    <div class="twitter">
+
+                      <ul class="twitter_ul">
+                        <li>
+                            <p class="twitter_toggle">
+                              <span><img src="img/twitter.png" alt="트위터 아이콘">Twitter 정보보기</span>
+                            </p>
+                            <div class="twitter_object">
+                              <blockquote class="twitter-tweet"><p lang="en" dir="ltr">
+                               <a href="https://t.co/rQv0qIiBfn"></a></p>
+                               <a href="https://twitter.com/Bitcoin/status/1001306047926095873?ref_src=twsrc%5Etfw"></a></blockquote>
+                               <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </div>
+                        </li>
+                      </ul>
+                   </div>
+
                 </div><!-- coninInfo_content End-->
             </div><!-- content_wrap End-->
 
