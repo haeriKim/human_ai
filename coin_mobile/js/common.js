@@ -150,24 +150,14 @@ $(document).ready(function(){
 });
 //자산관리팝업
 $(document).ready(function(){
-  $('.question_mark').click(function(){
-    $('#full').show();
+  $('.question_mark, #question_mark').click(function(){
+    $('#full, #full .noticePopup').show();
   });
   $('#full_content .close_btn').click(function(e){
     e.preventDefault();
     $('#full').hide();
   })
-})
-//원화 출금한도 팝업
-$(document).ready(function(){
-  $('#question_mark').click(function(){
-    $('#full').show();
-  });
-  $('#full_content .close_btn').click(function(e){
-    e.preventDefault();
-    $('#full').hide();
-  })
-})
+});
 
 //고객지원 아코디언
 $(document).ready(function(){

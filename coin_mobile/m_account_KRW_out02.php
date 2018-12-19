@@ -117,7 +117,7 @@
     <div id="full">
             <!-- full_content -->
             <div id="full_content" class='box'>
-                <div class="full_inner">
+                <div class="full_inner noticePopup">
                     <h2>인증 레벨별 한도</h2>
 
                     <div class="full_table">

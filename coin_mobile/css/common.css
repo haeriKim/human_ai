@@ -211,10 +211,13 @@
   height: 40px;
   line-height:40px;
   box-sizing: border-box;
+  border-bottom: 1px solid #30afb8;
 }
 .gnb_tab4 li.on {
-  border-top: 3px solid #30afb8;
-  font-weight: 600;
+    border: 1px solid #30afb8;
+    border-top: 3px solid #30afb8;
+    font-weight: 600;
+    border-bottom: none;
 }
 .gnb_tab4 li a{
   color:#30afb8;

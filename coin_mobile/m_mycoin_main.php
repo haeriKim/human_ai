@@ -269,7 +269,7 @@
     <div id="full">
             <!-- full_content -->
             <div id="full_content" class='box'>
-                <div class="full_inner">
+                <div class="full_inner noticePopup">
                     <h2>보유코인 유의사항</h2>
 
                     <div class="full_scroll">
