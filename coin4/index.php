@@ -467,7 +467,7 @@
 
                    <div class="app_main_step1">
                      <div class="logo_area">
-                       <p><img src="img/logo.png" alt="로고"></p>
+                       <p><img src="img/logo.png" alt="메인로고"></p>
                        <span>The best crytocurrency exchange</span>
                      </div>
 
