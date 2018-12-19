@@ -60,7 +60,7 @@ select::-ms-expand {
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none;
+  -ms-appearance: none;
   background: url("../img/arrow_down_white.png") no-repeat 95% center;
   background-size: 7px;
   padding-left: 2px;

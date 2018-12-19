@@ -1593,4 +1593,11 @@ $(document).ready(function(){
 //     $(".popupbt").click(function(){
 //       $(".masu_popup, #shadow").hide();
 //     })
+//});
+
+/*IE9 크로스브라우징*/
+$(document).ready(function(){
+    if(navigator.userAgent.indexOf('9.0') == 30) {
+
+    }
 });
