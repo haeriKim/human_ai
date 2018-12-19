@@ -61,8 +61,7 @@
                             <div class="theallsprime_icon">
                               <p><img src="img/prime_idea.png" alt="프라임아이디어"></p>
                               <h3>V A L U E</h3>
-                              <p class="prime_text"><span>암호화폐, 블록체인, 핀테크 기술로 디지털 금융 혁신</span>을 주도하는
-                              <br/> <b>'디올스의 가치관'</b>은 이렇게 생각합니다.</p>
+                              <p class="prime_text"><span>암호화폐, 블록체인, 핀테크 기술로 디지털 금융 혁신</span>을 주도하는<b>'디올스의 가치관'</b>은 이렇게 생각합니다.</p>
                                 <!--  <div class="theallsprime_icon_img">
                                     <img src="img/prime_idea.png" alt="프라임이미지">
                                   </div> -->
@@ -463,7 +462,7 @@
                             <div class="theallsprime_icon">
                               <p><img src="img/prime_idea.png" alt="프라임아이디어" style="display: none;"></p>
                               <h3>V A L U E</h3>
-                              <p class="prime_text"><span>암호화폐, 블록체인, 핀테크 기술로 디지털 금융 혁신</span>을 주도하는 <b>'디올스의 가치관'</b>은 이렇게 생각합니다.</p>
+                              <p class="prime_text"><span>암호화폐, 블록체인, 핀테크 기술로 디지털 금융 혁신</span>을 주도하는<br/> <b>'디올스의 가치관'</b>은 이렇게 생각합니다.</p>
                                 <!--  <div class="theallsprime_icon_img">
                                     <img src="img/prime_idea.png" alt="프라임이미지">
                                   </div> -->

@@ -132,7 +132,8 @@ table .password_question_detail, table .password_question_detail2{
   box-sizing: border-box;
   padding:20px;
   color:#05080B;
-  background-color:#7AABDF; border-radius: 5px;
+  background-color:#7AABDF;
+  border-radius: 5px;
   position:absolute;
   width:600px;
   top:40px;

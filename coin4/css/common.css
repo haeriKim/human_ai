@@ -344,7 +344,7 @@ div.my_coin_state ul li{
     border: 1px solid #7AABDF;
 }
 div.my_coin_state ul li.my_coin_li_01{
-    margin: 0 9px
+    margin: 0 9px;
 }
 div.my_coin_state ul li p.my_coin_state_title{
     color: #7AABDF;
