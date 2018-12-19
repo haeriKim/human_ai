@@ -1572,3 +1572,25 @@ $(document).ready(function(){
       $(".certification_address, #shadow").hide();
     })
 });
+
+// /*거래소 로그인페이지*/
+// $(document).ready(function(){
+//   $(".login_popup").hide();
+//     $(".buy_big_btn").click(function(){
+//       $(".login_popup, #shadow").show();
+//     })
+//     $(".popupbt").click(function(){
+//       $(".login_popup, #shadow").hide();
+//     })
+// });
+//
+// /*매수오류 팝업*/
+// $(document).ready(function(){
+//   $(".masu_popup").hide();
+//     $(".sell_big_btn").click(function(){
+//       $(".masu_popup, #shadow").show();
+//     })
+//     $(".popupbt").click(function(){
+//       $(".masu_popup, #shadow").hide();
+//     })
+});
