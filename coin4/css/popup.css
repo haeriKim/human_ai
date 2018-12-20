@@ -470,10 +470,9 @@
     width: 1000px;
     padding: 10px 20px;
     position: fixed;
-    left: 40%;
+    left: 50%;
     top: 50%;
-    margin-left: -220px;
-    transform: translateY(-50%);
+    transform: translate(-50%,-50%);
     display: none;
     min-height: 300px;
 }
@@ -510,6 +509,10 @@
 #full_second .full_inner p{
     margin: 20px 0 30px 0;
 }
+#full_second .full_inner p span.emphasis{
+    color: #eaaf69;
+    font-weight: 600;
+}
 #full_second .full_inner input[type='button']{
     border-radius: 5px;
     background: #7AABDF;
@@ -520,6 +523,11 @@
     padding: 7px 20px;
     cursor: pointer;
     box-sizing: border-box;
+}
+#full_second .full_inner input.cancel{
+    border: 1px solid #7AABDF;
+    background: none;
+    color: #7AABDF;
 }
 #shadow_second{
     position: fixed;
@@ -533,7 +541,10 @@
 }
 #success_buy_popup,
 #success_sell_popup,
+#fail_buy_popup,
 #fail_sell_popup,
+#apply_buy_popup,
+#apply_sell_popup,
 #shadow_second,
 .cancel_deal{
     display: none;
@@ -543,9 +554,7 @@
   #popupbox {
     width: 85%;
 }
-#success_buy_popup,
-#success_sell_popup,
-#fail_sell_popup{
+#full_second > div:not(#shadow_second){
     width: 90%;
 }
 .popup {
@@ -670,13 +679,4 @@
     }
 
     /*거래소 메인 팝업*/
-}
-@media all and (min-width:1025px) and (max-width:1599px){
-  #question_mark_active{
-    width:67%;
-  }
-
-  #question_mark_active p{
-    font-size:12px;
-  }
 }

@@ -23,7 +23,7 @@
                     <div class="popupbox_text">
 
 
-                      <p>주문가능 금액이 부족합니다.</p>
+                      <p>주문가능 수량이 부족합니다.</p>
                     </div>
                     <div class="btn_area">
                       <input type="button" name="submit" value="확인" class="popupbt ok" onclick="location.href='exchange_BITCOIN.php'">

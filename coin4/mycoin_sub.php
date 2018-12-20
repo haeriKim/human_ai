@@ -1711,97 +1711,160 @@
                                     <td>무제한</td>
                                 </tr>
                                 <tr>
-                                    <th rowspan="9">출금한도</th>
+                                    <th rowspan="16">출금한도</th>
                                     <th rowspan="2" class='long_th'>
                                         <p>원화</p>
                                         <p>(KRW)</p>
                                     </th>
-                                    <th>1회</th>
-                                    <td>0원</td>
-                                    <td>0원</td>
-                                    <td>0원</td>
-                                    <td>0원</td>
-                                    <td>50,000,000원</td>
-                                </tr>
-                                <tr>
                                     <th>1일</th>
                                     <td>0원</td>
                                     <td>0원</td>
                                     <td>0원</td>
                                     <td>0원</td>
-                                    <td>200,000,000원</td>
+                                    <td>300,000,000원</td>
                                 </tr>
                                 <tr>
-                                    <th colspan="2" class='long_th'>
+                                    <th>월</th>
+                                    <td>0원</td>
+                                    <td>0원</td>
+                                    <td>0원</td>
+                                    <td>0원</td>
+                                    <td>1,000,000,000원</td>
+                                </tr>
+                                <tr>
+                                    <th rowspan="2" class='long_th'>
                                         <p>비트코인</p>
                                         <p>(BTC)</p>
                                     </th>
+                                    <th>1일</th>
                                     <td>0 BTC</td>
                                     <td>0 BTC</td>
                                     <td>0 BTC</td>
                                     <td>0 BTC</td>
-                                    <td>50 BTC</td>
+                                    <td>500 BTC</td>
                                 </tr>
                                 <tr>
-                                    <th colspan="2" class='long_th'>
+                                    <th>월</th>
+                                    <td>0 BTC</td>
+                                    <td>0 BTC</td>
+                                    <td>0 BTC</td>
+                                    <td>0 BTC</td>
+                                    <td>2,000 BTC</td>
+                                </tr>
+                                <tr>
+                                    <th rowspan="2" class='long_th'>
                                         <p>비트코인캐시</p>
                                         <p>(BCH)</p>
                                     </th>
+                                    <th>1일</th>
                                     <td>0 BCH</td>
                                     <td>0 BCH</td>
                                     <td>0 BCH</td>
                                     <td>0 BCH</td>
-                                    <td>600 BCH</td>
+                                    <td>1,200 BCH</td>
                                 </tr>
                                 <tr>
-                                    <th colspan="2" class='long_th'>
+                                    <th>월</th>
+                                    <td>0 BCH</td>
+                                    <td>0 BCH</td>
+                                    <td>0 BCH</td>
+                                    <td>0 BCH</td>
+                                    <td>5,000 BCH</td>
+                                </tr>
+                                <tr>
+                                    <th rowspan="2" class='long_th'>
                                         <p>이더리움</p>
                                         <p>(ETH)</p>
                                     </th>
+                                    <th>1일</th>
                                     <td>0 ETH</td>
                                     <td>0 ETH</td>
                                     <td>0 ETH</td>
                                     <td>0 ETH</td>
-                                    <td>1,000 ETH</td>
+                                    <td>5,000 ETH</td>
                                 </tr>
                                 <tr>
-                                    <th colspan="2" class='long_th'>
+                                    <th>월</th>
+                                    <td>0 ETH</td>
+                                    <td>0 ETH</td>
+                                    <td>0 ETH</td>
+                                    <td>0 ETH</td>
+                                    <td>20,000 ETH</td>
+                                </tr>
+                                <tr>
+                                    <th rowspan="2" class='long_th'>
                                         <p>이더리움클래식</p>
                                         <p>(ETC)</p>
                                     </th>
+                                    <th>1일</th>
                                     <td>0 ETC</td>
                                     <td>0 ETC</td>
                                     <td>0 ETC</td>
                                     <td>0 ETC</td>
-                                    <td>5,000 ETC</td>
+                                    <td>150,000 ETC</td>
                                 </tr>
                                 <tr>
-                                    <th colspan="2" class='long_th'>
+                                    <th>월</th>
+                                    <td>0 ETC</td>
+                                    <td>0 ETC</td>
+                                    <td>0 ETC</td>
+                                    <td>0 ETC</td>
+                                    <td>600,000 ETC</td>
+                                </tr>
+                                <tr>
+                                    <th rowspan="2" class='long_th'>
                                         <p>이오스</p>
                                         <p>(EOS)</p>
                                     </th>
+                                    <th>1일</th>
                                     <td>0 EOS</td>
                                     <td>0 EOS</td>
                                     <td>0 EOS</td>
                                     <td>0 EOS</td>
-                                    <td>50,000 EOS</td>
+                                    <td>240,000 EOS</td>
                                 </tr>
                                 <tr>
-                                    <th colspan="2" class='long_th'>
+                                    <th>월</th>
+                                    <td>0 EOS</td>
+                                    <td>0 EOS</td>
+                                    <td>0 EOS</td>
+                                    <td>0 EOS</td>
+                                    <td>990,000 EOS</td>
+                                </tr>
+                                <tr>
+                                    <th rowspan="2" class='long_th'>
                                         <p>리플</p>
                                         <p>(XRP)</p>
                                     </th>
+                                    <th>1일</th>
                                     <td>0 XRP</td>
                                     <td>0 XRP</td>
                                     <td>0 XRP</td>
                                     <td>0 XRP</td>
-                                    <td>30,000 XRP</td>
+                                    <td>4,000,000 XRP</td>
                                 </tr>
                                 <tr>
-                                    <th colspan="2" class='long_th'>
+                                    <th>월</th>
+                                    <td>0 XRP</td>
+                                    <td>0 XRP</td>
+                                    <td>0 XRP</td>
+                                    <td>0 XRP</td>
+                                    <td>16,000,000 XRP</td>
+                                </tr>
+                                <tr>
+                                    <th rowspan="2" class='long_th'>
                                         <p>에이다</p>
                                         <p>(ADA)</p>
                                     </th>
+                                    <th>1일</th>
+                                    <td>0 ADA</td>
+                                    <td>0 ADA</td>
+                                    <td>0 ADA</td>
+                                    <td>0 ADA</td>
+                                    <td>100,000 ADA</td>
+                                </tr>
+                                <tr>
+                                    <th>월</th>
                                     <td>0 ADA</td>
                                     <td>0 ADA</td>
                                     <td>0 ADA</td>

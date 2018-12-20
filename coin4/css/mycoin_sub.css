@@ -1464,9 +1464,6 @@ table .mycoin_tbody_deco>tr>td .temporary_address_click:after {
     }
 
     /*출금한도팝업*/
-    .common_table_wrap .common_table_content{
-      left:30%;
-    }
     .count_down{
       position: inherit;
     }

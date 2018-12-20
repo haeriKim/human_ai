@@ -16,9 +16,6 @@
   padding: 20px;
   margin: 75px 0 20px 0;*/
 }
-.coin_money_inner strong{
-  font-size:20px;
-}
 .coin_money_inner .coin_word{
   margin-left:5px;
   color:#aaa;
@@ -1345,9 +1342,6 @@
   }
   .coin_money_detail{
     left: 85%;
-  }
-  #wrap .coin_money_inner ul.eth_classic_text{
-      margin-left: 0;
   }
   #deal_all .deal_table_tbody td:not(.deal_time){
       padding-left: 10px;

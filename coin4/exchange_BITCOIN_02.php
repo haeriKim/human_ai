@@ -944,26 +944,53 @@
 
         </div><!-- container End -->
     </div><!-- wrap End -->
-
-    <div id="full">
-            <!-- full_content -->
-            <div id="popupbox" class='box popup masu_fail'>
-                <div class="full_inner">
-                    <h2>매수주문 실패</h2>
-                    <div class="popupbox_text">
-
-
-                      <p>주문가능 금액이 부족합니다.</p>
-                    </div>
-                    <div class="btn_area">
-                      <input type="button" name="submit" value="확인" class="popupbt ok">
-                    </div>
-                </div>
-            </div><!-- full_content End-->
-            <div id="shadow"></div>
-    </div>  <!-- full End-->
-
-
+    <div id="full_second">
+        <div id="success_buy_popup"  class='popup box'>
+            <div class="full_inner">
+                <h2>매수주문 접수</h2>
+                <p>매수주문이 정상 접수되었습니다.</p>
+                <input type="button" name="confirm" value="확인" class='popupbt end_ok'>
+            </div>
+        </div>
+        <div id="fail_buy_popup"  class='popup box'>
+            <div class="full_inner">
+                <h2>매수주문 실패</h2>
+                <p>주문가능 금액이 부족합니다.</p>
+                <input type="button" name="confirm" value="확인" class='popupbt end_ok'>
+            </div>
+        </div>
+        <div id="success_sell_popup" class='popup box'>
+            <div class="full_inner">
+                <h2>매도주문 접수</h2>
+                <p>매도주문이 정상 접수되었습니다.</p>
+                <input type="button" name="confirm" value="확인" class='popupbt end_ok'>
+            </div>
+        </div>
+        <div id='fail_sell_popup' class='popup box'>
+            <div class="full_inner">
+                <h2>매도주문 실패</h2>
+                <p>주문가능 수량이 부족합니다.</p>
+                <input type="button" name="confirm" value="확인" class='popupbt end_ok'>
+            </div>
+        </div>
+        <div id='apply_buy_popup' class='popup box'>
+            <div class="full_inner">
+                <h2>매수주문</h2>
+                <p><span class='emphasis'>1,000 KRW</span>로 <span class='emphasis'>10 BTC</span>를 매수합니다.</p>
+                <input type="button" name="confirm" value="취소" class='popupbt cancel'>
+                <input type="button" name="confirm" value="매수" class='popupbt ok'>
+            </div>
+        </div>
+        <div id='apply_sell_popup' class='popup box'>
+            <div class="full_inner">
+                <h2>매도주문</h2>
+                <p><span class='emphasis'>10 BTC</span>판매 후 <span class='emphasis'>1,000 KRW</span>를 수령합니다.</p>
+                <input type="button" name="confirm" value="취소" class='popupbt cancel'>
+                <input type="button" name="confirm" value="매도" class='popupbt ok'>
+            </div>
+        </div>
+        <div id="shadow_second"></div>
+    </div>
     <!---반응형 마크업---------------------------------------------------------------------------------------------------------------------------------->
     <!---반응형 마크업---------------------------------------------------------------------------------------------------------------------------------->
     <!---반응형 마크업---------------------------------------------------------------------------------------------------------------------------------->
@@ -1875,24 +1902,6 @@
 
         </div><!-- container End -->
     </div><!-- wrap End -->
-
-    <div id="full">
-            <!-- full_content -->
-            <div id="popupbox" class='box popup masu_fail'>
-                <div class="full_inner">
-                    <h2>매수주문 실패</h2>
-                    <div class="popupbox_text">
-
-
-                      <p>주문가능 금액이 부족합니다.</p>
-                    </div>
-                    <div class="btn_area">
-                      <input type="button" name="submit" value="확인" class="popupbt ok">
-                    </div>
-                </div>
-            </div><!-- full_content End-->
-            <div id="shadow"></div>
-    </div>  <!-- full End-->
 
     <div id="main_full"  style="display:none;">
             <!-- full_content -->

@@ -150,6 +150,16 @@
   box-sizing: border-box;
   border-bottom: 1px solid #30afb8;
 }
+#wrap .gnb_tab li:first-child,
+#wrap .gnb_tab2 li:first-child,
+#wrap .gnb_tab4 li:first-child{
+    border-left: none;
+}
+#wrap .gnb_tab li:last-child,
+#wrap .gnb_tab2 li:last-child,
+#wrap .gnb_tab4 li:last-child{
+    border-right: none;
+}
 .gnb_tab li.tab_KRW {
   width: 100%;
 }
@@ -196,7 +206,6 @@
 .gnb_tab4{
   overflow: hidden;
   font-size:14px;
-  box-shadow: 0 1px 2px rgba(100,100,100,.4);
   position: fixed;
   top:45px;
   left:0;
@@ -229,38 +238,6 @@
 
 .assets_area{
   margin:85px auto 0;
-}
-
-/*gnb3_입출금페이지 탭메뉴*/
-
-.gnb_tab3{
-  overflow: hidden;
-  font-size:14px;
-  box-shadow: 0 1px 2px rgba(100,100,100,.4);
-  position: fixed;
-  top:45px;
-  left:0;
-  width:100%;
-  background:#0F1926;
-  z-index: 5;
-}
-.gnb_tab3 li{
-  float:left;
-  width:20%;
-  text-align:center;
-  height: 40px;
-  line-height:40px;
-  box-sizing: border-box;
-}
-.gnb_tab3 li.on {
-  border-top: 3px solid #30afb8;
-  font-weight: 600;
-}
-.gnb_tab3 li a{
-  color:#30afb8;
-}
-.gnb_tab3 li:not(.on) a{
-  color:rgba(255,255,255,.3);
 }
 
 /*조회창*/

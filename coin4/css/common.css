@@ -1411,11 +1411,20 @@ box-shadow:none;
   .coin_money{
     width:80%;
   }
-  .coin_money_inner ul{
-    float:none;
+  .coin_money_inner strong{
+      font-size: 18px;
   }
   .coin_money_inner .question{
     left:90%;
+  }
+  .common_table_wrap .common_table_content .mypage_content{
+      height: 65%;
+  }
+  #qustion_mark_active_full #question_mark_active{
+    height: 95%;
+  }
+  #qustion_mark_active_full #question_mark_active p{
+    font-size:12px;
   }
 }
 @media (min-width:1025px) and (max-width:1279px){

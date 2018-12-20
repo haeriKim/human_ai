@@ -358,7 +358,7 @@
                           <div class="full_inner apply_buy_popup">
                             <h2>매수</h2>
                             <div class="full_inner_p">
-                                <p><span class='emphasis'>1000 KRW</span>로 약 <span class='emphasis'>0.1 BTC</span>를 매수합니다.</p>
+                                <p><span class='emphasis'>1,000 KRW</span>로 <span class='emphasis'>0.1 BTC</span>를 매수합니다.</p>
                             </div>
 
                             <div class="bt_area">
@@ -372,7 +372,7 @@
                           <div class="full_inner apply_sell_popup">
                             <h2>매도</h2>
                             <div class="full_inner_p">
-                                <p><span class='emphasis'>0.1 BTC</span>판매 후 약<span class='emphasis'>1000 KRW</span>를 수령합니다.</p>
+                                <p><span class='emphasis'>0.1 BTC</span>판매 후 약<span class='emphasis'>1,000 KRW</span>를 수령합니다.</p>
                             </div>
 
                             <div class="bt_area">

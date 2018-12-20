@@ -397,15 +397,22 @@ $(document).ready(function(){
 $(document).ready(function(){
     $('#buy_sell_tab .buy_tab_button .buy_big_btn').click(function(e){
         e.preventDefault();
-        $('#success_buy_popup, #shadow_second').show();
+        $('#apply_buy_popup, #shadow_second').show();
+    })
+    $('#apply_buy_popup .ok').click(function(){
+        $('#apply_buy_popup').hide();
+        $('#success_buy_popup').show();
     })
     $('#buy_sell_tab .sell_tab_content .sell_big_btn').click(function(e){
         e.preventDefault();
-        $('#fail_sell_popup, #shadow_second').show();
+        $('#apply_sell_popup, #shadow_second').show();
     })
-    $('#full_second .popupbt').click(function(e){
-        e.preventDefault();
-        $('#success_buy_popup, #success_sell_popup, #fail_sell_popup, #shadow_second').hide();
+    $('#apply_sell_popup .ok').click(function(){
+        $('#apply_sell_popup').hide();
+        $('#fail_sell_popup').show();
+    })
+    $('#full_second .end_ok, #full_second .cancel').click(function(){
+        $('#full_second .popup, #shadow_second').hide();
     })
 })
 //내 자산관리 전체탭
