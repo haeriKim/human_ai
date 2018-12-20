@@ -211,7 +211,8 @@ function lengthFix(obj){
 /*미체결취소버튼*/
 
 $(document).ready(function(){
-  $(".delete_on").click(function(){
+  $("#full, .cancel_deal_popup").hide();
+  $(".delete_on, .cancel").click(function(){
     $("#full, .cancel_deal_popup").show();
     $(".apply_buy_popup, .apply_sell_popup, .apply_complete_popup").hide();
   });
