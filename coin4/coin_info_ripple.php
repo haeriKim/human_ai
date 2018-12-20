@@ -201,10 +201,15 @@
                               <span><img src="img/twitter.png" alt="트위터 아이콘">Twitter 정보보기</span>
                             </p>
                             <div class="twitter_object">
-                              <blockquote class="twitter-tweet"><p lang="en" dir="ltr">
-                              <a href="https://t.co/5eOQfBSwhJ">https://t.co/5eOQfBSwhJ</a></p>
-                              <a href="https://twitter.com/block_one_/status/1075285054232776704?ref_src=twsrc%5Etfw"></a>
+                              <blockquote class="twitter-tweet">
+                              <p lang="en" dir="ltr">
+                              <a href="https://t.co/k2vDlF6x36">https://t.co/k2vDlF6x36</a>
+                              <a href="https://t.co/x5bIlQFHVr"></a>
+                              </p>
+                              <a href="https://twitter.com/Ripple/status/1075535298493181952?ref_src=twsrc%5Etfw">
+                              </a>
                               </blockquote>
+                              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                               <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                             </div>
                         </li>
