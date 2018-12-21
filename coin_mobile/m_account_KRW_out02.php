@@ -87,9 +87,9 @@
 
                         <ul class="KRW_warning_list">
                           <li>- 1회 출금한도 : 50,000,000</li>
-                          <li>- 수수료 : 1,000 KRW</li>
+                          <li>- 수수료 : 1,000 </li>
                           <li>- 1일 잔여한도 : 200,000,000</li>
-                          <li>- 최소 출금 금액 : 5,000 KRW</li>
+                          <li>- 최소 출금 금액 : 5,000 </li>
                         </ul>
                       </div>
 
@@ -113,6 +113,7 @@
         <!-- nav_wrap -->
         <!-- nav_wrap End-->
     </div><!-- wrap End -->
+    <p class='send_sms system_popup'>휴대폰으로 인증번호를 전송했습니다.</p>
 
     <div id="full">
             <!-- full_content -->

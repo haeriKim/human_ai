@@ -80,7 +80,7 @@
 
                             <tr>
                               <th>코인 출금주소</th>
-                              <td>ewearch&sm=top_hty&fbm=1%ie-itf8query1654848468654564=</td>
+                              <td>ewearch&sm=top_hty&fbm=1%ie-i</td>
                             </tr>
 
                             <tr>

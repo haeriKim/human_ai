@@ -94,7 +94,7 @@
 
     }
     /*level 1일때 */
-    .certification_main_wrap .user_level_part b span.lv_01{
+    /* .certification_main_wrap .user_level_part b span.lv_01{
         display: inline-block;
     }
     .certification_main_wrap .certi_level_02 .certi_success,
@@ -104,7 +104,7 @@
     .certification_main_wrap img.certi_off
    {
         display: none;
-    }
+    } */
 
     /*level 2일때 */
     /* .certification_main_wrap .user_level_part b span.lv_02{
@@ -137,7 +137,7 @@
         display: none;
     } */
     /*level 5일때 */
-    /* .certification_main_wrap .user_level_part b span.lv_05{
+    .certification_main_wrap .user_level_part b span.lv_05{
         display: inline-block;
     }
     .certification_main_wrap .user_level_part .level_max{
@@ -151,7 +151,7 @@
     .certification_main_wrap img.certi_off
     {
         display: none;
-    } */
+    }
 }
 .none_box{
   height:50px;

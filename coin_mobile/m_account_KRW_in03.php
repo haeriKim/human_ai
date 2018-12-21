@@ -84,6 +84,11 @@
                             </tr>
 
                             <tr>
+                              <th>수수료</th>
+                              <td>0 KRW</td>
+                            </tr>
+
+                            <tr>
                               <th>입금자명</th>
                               <td class="KRW_in_userName">홍길동1234</td>
                             </tr>
@@ -101,6 +106,7 @@
                       </div>
 
                       <div class="KRW_bt_area">
+                        <input type="button" name='button' onclick="location.href='m_account_KRW_main.php'" value="취소" class="no_cancel_bt">
                         <input type="button" name='button' onclick="location.href='m_account_KRW_main.php'" value="입금 신청" class="next_bt">
                       </div>
 

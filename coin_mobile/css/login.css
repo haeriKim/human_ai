@@ -1,5 +1,8 @@
 /*로그인창*/
 @media all and (min-width:320px) and (max-width:768px){
+#container{
+    position: relative;
+}
 .see_more{
   overflow:hidden;
   width:100%;
@@ -57,5 +60,10 @@
   margin:0 5px;
   color:#30afb8;
   display:inline-block;
+}
+
+.wrong_data{
+    top: 120%;
+    transform: translate(-50%,-120%);
 }
 }

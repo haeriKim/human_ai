@@ -50,7 +50,7 @@
 #full_content .full_inner{
     width: 90%;
     margin: 0 auto;
-    display: none;
+    display: block;
 }
 #full_content .full_inner h2{
     color: #30afb8;

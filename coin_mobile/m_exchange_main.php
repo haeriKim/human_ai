@@ -157,7 +157,7 @@
         <!-- nav_wrap -->
         <!-- nav_wrap End-->
     </div><!-- wrap End -->
-    <div id="full">
+    <div id="main_full">
             <!-- full_content -->
             <div id="full_content" class='box'>
                 <div class="full_inner notification_popup">

@@ -42,6 +42,7 @@
             <span>신규 회원가입</span>
           </div>
 
+          <p class='wrong_data system_popup'>이메일 혹은 비밀번호가 일치하지 않습니다.</p>
         </div><!-- container End -->
         <!-- nav_wrap -->
         <!-- nav_wrap End-->

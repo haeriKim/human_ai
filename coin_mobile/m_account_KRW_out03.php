@@ -83,6 +83,11 @@
                               <td>0 KRW</td>
                             </tr>
 
+                            <tr>
+                              <th>수수료</th>
+                              <td>1,000 KRW</td>
+                            </tr>
+
                           </tbody>
 
                         </table>
@@ -95,6 +100,7 @@
                       </div>
 
                       <div class="KRW_bt_area">
+                        <input type="button" name='button' onclick="location.href='m_account_KRW_main.php'" value="취소" class="no_cancel_bt">
                         <input type="button" name='button' onclick="location.href='m_account_KRW_main.php'" value="출금 신청" class="next_bt">
                       </div>
 

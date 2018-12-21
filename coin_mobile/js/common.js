@@ -145,7 +145,7 @@ $(document).ready(function(){
     $(".notification_popup").show();
     $('#full_content .close_btn').click(function(e){
         e.preventDefault();
-        $('#full').hide();
+        $('#main_full').hide();
     })
 });
 //자산관리팝업
@@ -158,7 +158,12 @@ $(document).ready(function(){
     $('#full').hide();
   })
 });
-
+//인증필요 팝업
+$(document).ready(function(){
+  $('.do_nextime').click(function(){
+    $('#limit_full').hide();
+  })
+});
 //고객지원 아코디언
 $(document).ready(function(){
     $('.moreView_cs .second_menu').hide();
@@ -247,4 +252,11 @@ $(document).ready(function(){
         $("#full, .apply_complete_popup").show();
         $(".cancel_deal_popup, .apply_buy_popup, .apply_sell_popup").hide();
     });
+});
+
+/*코인입금에서 주소 복사하기 버튼 클릭시 알림*/
+$(document).ready(function(){
+    $('.copy_bt input, #request_count').click(function(){
+        $('.system_popup').stop().fadeIn(100).delay(4000).fadeOut(100);
+    })
 });

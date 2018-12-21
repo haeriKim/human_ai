@@ -78,8 +78,7 @@
   text-align: center;
 }
 .my_assets_coin01 .coin_inout .qr_code img{
-  width:100px;
-  height:100px;
+  width:250px;
   padding:10px;
   border:1px solid rgba(255,255,255,.2);
   margin-bottom:10px;
@@ -268,6 +267,12 @@
   position: absolute;
   top: 20px;
   right: 3%;
+}
+.copy_address{
+    bottom: 12%;
+    position: fixed;
+    transform: translate(-50%,-12%);
+    display: none;
 }
 }
 .none_box{

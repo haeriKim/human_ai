@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/account_money_main.css">
+    <link rel="stylesheet" href="css/popup.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/common.js"></script>
@@ -115,5 +116,22 @@
         <!-- nav_wrap -->
         <!-- nav_wrap End-->
     </div><!-- wrap End -->
+    <div id="limit_full">
+        <!-- full_content -->
+        <div id="full_content" class='box'>
+            <div class="full_inner">
+                <h2>서비스 이용 제한</h2>
+                  <p>회원님의 현재 보안등급은 <b>Level <span class="user_level">3</span></b>입니다.</p>
+                  <p>서비스를 이용하려면 <b>계좌인증(Level 4)</b>이 필요합니다.</p>
+                  <p>확인버튼을 누르면 인증센터로 이동합니다.</p>
+                <div class="btn_area">
+                  <input type="button" name="cancel" value="다음에 하기" class="do_nextime">
+                  <input type="button" name="submit" value="확인" class="go_certification" onclick="location.href='m_certification_main.php'">
+                </div>
+            </div>
+        </div><!-- full_content End-->
+        <div id="shadow"></div>
+    </div>  <!-- full End-->
+
 </body>
 </html>

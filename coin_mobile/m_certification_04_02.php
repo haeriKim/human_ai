@@ -88,7 +88,7 @@
                         <div id="delete_complete">
                           <input type="button" name="취소" value="취소" onclick="" class="delete_cancel">
                           <!--<span class="account_complete">인증</span>-->
-                          <input type="submit" name="삭제" value="삭제" class="chk_ok" onclick=""/>
+                          <input type="submit" name="삭제" value="삭제" class="chk_ok" onclick="location.href='m_certification_04.php'"/>
                         </div>
 
                       </div>

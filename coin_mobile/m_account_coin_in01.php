@@ -108,5 +108,6 @@
         <!-- nav_wrap -->
         <!-- nav_wrap End-->
     </div><!-- wrap End -->
+    <p class='copy_address system_popup'>코인주소가 복사되었습니다.</p>
 </body>
 </html>

@@ -63,34 +63,41 @@
 
 /*qr_code_area*/
 .certification_OTP_area .OTP_inner .qr_code_area{
-  overflow:hidden;
-  margin-top:10px;
-  border:1px solid rgba(255, 255, 255, 0.2);
-  padding:10px 5%;
+    overflow: hidden;
+    margin-top: 10px;
+    padding: 10px 1%;
 }
 .certification_OTP_area .OTP_inner .qr_code_img{
-  float:left;
-  width:45%;
-  text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0 20px 0;
 }
 .certification_OTP_area .OTP_inner .qr_code_img li.qr_code_text{
-  display: inline-block;
-  margin-bottom:10px;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 14px;
 }
 .certification_OTP_area .OTP_inner .qr_code_img .qr_code_imgbox{
+    width: 250px;
 }
 /*--------------------------*/
 .certification_OTP_area .OTP_inner .qr_code_key{
-  float:left;
-  width:50%;
-  margin-left:5%;
-  text-align: center;
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
 }
 .certification_OTP_area .OTP_inner .qr_code_key li.qr_code_number{
-  text-align: center;
+    text-align: center;
+    font-size: 14px;
 }
 .certification_OTP_area .OTP_inner .qr_code_key2{
-  margin-top:30px;
+    margin-top: 10px;
+    font-size: 15px;
 }
 
 /*key_area*/

@@ -55,4 +55,16 @@
     opacity: 0.6;
     margin-right: 8%;
 }
+#limit_full #full_content .go_certification{
+    border-radius: 5px;
+    background: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+    font-weight: 500;
+}
+#limit_full #full_content .do_nextime{
+    border-radius: 5px;
+    background:none;
+    font-weight: 500;
+    border:1px solid #30afb8;
+    color: #30afb8;
+}
 }

@@ -64,18 +64,13 @@
                           <tbody>
 
                             <tr class='coin_address'>
-                              <th>코인 주소</th>
+                              <th>나의 코인주소</th>
                               <td>3K7pN35WjZf79jfqqx4JmRJ</td>
                             </tr>
 
                             <tr class='coin_address'>
-                              <th>출금 주소</th>
+                              <th>코인 출금주소</th>
                               <td>3K7pN35WjZf79jfqqx4JmRJ</td>
-                            </tr>
-
-                            <tr>
-                              <th>출금날짜</th>
-                              <td>2018-09-21 17:00:05</td>
                             </tr>
 
                             <tr>
@@ -83,7 +78,11 @@
                               <td>11,000,000 BTC</td>
                             </tr>
 
-                          </tbody>
+                            <tr>
+                              <th>수수료</th>
+                              <td>0.001 BTC</td>
+                            </tr>
+                        </tbody>
 
                         </table>
 
@@ -95,7 +94,8 @@
                       </div>
 
                       <div class="coin_bt_area">
-                        <input type="button" name='button' onclick="location.href='m_account_coin_main.php'" value="출금신쳥" class="next_bt">
+                        <input type="button" name='button' onclick="location.href='m_account_coin_main.php'" value="취소" class="no_cancel_bt">
+                        <input type="button" name='button' onclick="location.href='m_account_coin_main.php'" value="출금신청" class="next_bt">
                       </div>
 
 
