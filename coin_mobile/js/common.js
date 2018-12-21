@@ -151,7 +151,7 @@ $(document).ready(function(){
 //자산관리팝업
 $(document).ready(function(){
   $('.question_mark, #question_mark').click(function(){
-    $('#full, #full .noticePopup').show();
+    $('#full, #full .noticePopup, #full .full_inner').show();
   });
   $('#full_content .close_btn').click(function(e){
     e.preventDefault();

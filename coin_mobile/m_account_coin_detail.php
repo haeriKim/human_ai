@@ -45,12 +45,7 @@
 
                             <tr>
                               <th>구분</th>
-                              <td>비트코인(KRW) 출금</td>
-                            </tr>
-
-                            <tr>
-                              <th>시간</th>
-                              <td>2018-09-06 23:11:11</td>
+                              <td>비트코인(BTC) 출금</td>
                             </tr>
 
                             <tr>
@@ -58,6 +53,10 @@
                               <td class='waiting'>대기중</td>
                             </tr>
 
+                            <tr>
+                              <th>요청일시</th>
+                              <td>2018-09-06 23:11:11</td>
+                            </tr>
                             <!-- <tr>
                               <th>등록한 계좌정보</th>
                               <td>신한은행 111-222-333444</td>
@@ -69,8 +68,13 @@
                             </tr> -->
 
                             <tr>
-                              <th>코인 입금주소</th>
+                              <th>나의 코인주소</th>
                               <td>ewearch&sm=top_hty&fbm=1%ie-itf8query1654848468654564=</td>
+                            </tr>
+
+                            <tr>
+                              <th>코인 출금주소</th>
+                              <td>ewearch&sm=top_hty&fbm=1%ie-i</td>
                             </tr>
 
                             <tr>

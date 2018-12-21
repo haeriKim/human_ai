@@ -50,13 +50,18 @@
                             </tr>
 
                             <tr>
-                              <th>시간</th>
-                              <td>2018-09-06 23:11:11</td>
+                              <th>상태</th>
+                              <td class='success'>완료</td>
                             </tr>
 
                             <tr>
-                              <th>상태</th>
-                              <td class='success'>완료</td>
+                              <th>요청일시</th>
+                              <td>2018-09-05 10:51:45</td>
+                            </tr>
+
+                            <tr>
+                              <th>처리일시</th>
+                              <td>2018-09-05 11:23:45</td>
                             </tr>
 
                             <tr>

@@ -45,17 +45,17 @@
 
                             <tr>
                               <th>구분</th>
-                              <td>비트코인(KRW) 입금</td>
-                            </tr>
-
-                            <tr>
-                              <th>시간</th>
-                              <td>2018-09-06 23:11:11</td>
+                              <td>비트코인(BTC) 입금</td>
                             </tr>
 
                             <tr>
                               <th>상태</th>
                               <td class='success'>완료</td>
+                            </tr>
+
+                            <tr>
+                              <th>처리일시</th>
+                              <td>2018-09-05 11:23:45</td>
                             </tr>
 
                             <!-- <tr>
@@ -69,13 +69,13 @@
                             </tr> -->
 
                             <tr>
-                              <th>코인 입금주소</th>
+                              <th>나의 코인주소</th>
                               <td>ewearch&sm=top_hty&fbm=1%ie-itf8query1654848468654564=</td>
                             </tr>
 
                             <tr>
-                              <th>입금신청금액</th>
-                              <td>0.017 BTC</td>
+                              <th>거래금액</th>
+                              <td>0.1 BTC</td>
                             </tr>
 
                             <!-- <tr>

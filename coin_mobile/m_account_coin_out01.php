@@ -65,16 +65,16 @@
 
                             <tr>
                               <th>1회 출금한도</th>
-                              <td>50 BTC</td>
+                              <td>30.00100000 BTC</td>
                             </tr>
 
                             <tr>
-                              <th>잔여한도</th>
-                              <td>3,000 KRW</td>
+                              <th>1일 잔여한도</th>
+                              <td>500 BTC</td>
                             </tr>
 
                             <tr>
-                              <th>코인 주소</th>
+                              <th>나의 코인주소</th>
                               <td>adlkjlwlqrkrhtlveki@sdaasd</td>
                             </tr>
 

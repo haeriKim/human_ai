@@ -75,7 +75,7 @@
                                 </div>
                                 <div class="list_li_row">
                                     <p class='list_time'>2018-09-06 23:11:11</p>
-                                    <p class='list_charge'>수수료 0 BTC</p>
+                                    <p class='list_charge'>수수료 0.001 BTC</p>
                                 </div>
                                 <img src="img/more_view4.png" alt="자세히" width="20px" height="20px">
                             </li>
@@ -86,14 +86,14 @@
                                 </div>
                                 <div class="list_li_row">
                                     <p class='list_time'>2018-09-05 11:23:45</p>
-                                    <p class='list_charge'>수수료 0 BTC</p>
+                                    <p class='list_charge'>수수료 0.001 BTC</p>
                                 </div>
                                 <img src="img/more_view4.png" alt="자세히" width="20px" height="20px">
                             </li>
                             <li onclick="location.href='m_account_coin_detailS.php'">
                                 <div class="list_li_row">
-                                    <p class='list_condition'>출금 <span class='success'>완료</span></p>
-                                    <p class='list_amount'>0.017 BTC</p>
+                                    <p class='list_condition'>입금 <span class='success'>완료</span></p>
+                                    <p class='list_amount'>0.1 BTC</p>
                                 </div>
                                 <div class="list_li_row">
                                     <p class='list_time'>2018-09-05 11:23:45</p>

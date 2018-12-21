@@ -45,17 +45,22 @@
 
                             <tr>
                               <th>구분</th>
-                              <td>비트코인(KRW) 입금</td>
-                            </tr>
-
-                            <tr>
-                              <th>시간</th>
-                              <td>2018-09-06 23:11:11</td>
+                              <td>비트코인(BTC) 출금</td>
                             </tr>
 
                             <tr>
                               <th>상태</th>
                               <td class='fail'>실패</td>
+                            </tr>
+
+                            <tr>
+                              <th>요청일시</th>
+                              <td>2018-09-04 09:10:10</td>
+                            </tr>
+
+                            <tr>
+                              <th>처리일시</th>
+                              <td>2018-09-05 11:23:45</td>
                             </tr>
 
                             <!-- <tr>
@@ -69,12 +74,17 @@
                             </tr> -->
 
                             <tr>
-                              <th>코인 입금주소</th>
+                              <th>나의 코인주소</th>
                               <td>ewearch&sm=top_hty&fbm=1%ie-itf8query1654848468654564=</td>
                             </tr>
 
                             <tr>
-                              <th>입금신청금액</th>
+                              <th>코인 출금주소</th>
+                              <td>ewearch&sm=top_hty&fbm=1%ie-itf8query1654848468654564=</td>
+                            </tr>
+
+                            <tr>
+                              <th>출금신청금액</th>
                               <td>0.003 BTC</td>
                             </tr>
 
@@ -90,7 +100,12 @@
 
                             <tr>
                               <th>수수료</th>
-                              <td>0 BTC</td>
+                              <td>0.001 BTC</td>
+                            </tr>
+
+                            <tr>
+                              <th>실패사유</th>
+                              <td>-</td>
                             </tr>
                         </tbody>
 

@@ -49,13 +49,13 @@
                             </tr>
 
                             <tr>
-                              <th>시간</th>
-                              <td>2018-09-06 23:11:11</td>
+                              <th>상태</th>
+                              <td class='waiting'>대기중</td>
                             </tr>
 
                             <tr>
-                              <th>상태</th>
-                              <td class='waiting'>대기중</td>
+                              <th>요청일시</th>
+                              <td>2018-09-06 23:11:11</td>
                             </tr>
 
                             <tr>
