@@ -1581,7 +1581,7 @@ $(document).ready(function(){
 /*IE9 크로스브라우징*/
 $(document).ready(function(){
     if(navigator.userAgent.indexOf('9.0') == 30) {
-        $("#deal_orgin_transaction .tab li").css({'width':'32.3%'}); // 거래소 좌측 코인박스
+        $("#deal_orgin_transaction .tab li").css({'width':'49.2%'}); // 거래소 좌측 코인박스
 
         $("#wrap #deal_all .deal_all_thead").css({'position':'static'}); //거래소 전체체결
         $("#deal_all thead tr th:not(.deal_time)").css({'text-align':'center','padding-left':'0'});
