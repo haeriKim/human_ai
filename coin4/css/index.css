@@ -76,6 +76,9 @@
 .panel .banner6 {
   background:url(../img/banner05.png) no-repeat 0 0; background-size:100% 100%;
 }
+.panel .banner7 {
+  background:url(../img/banner06.png) no-repeat 0 0; background-size:100% 100%;
+}
 /* .dot:after {
   content: "";
   display: block;

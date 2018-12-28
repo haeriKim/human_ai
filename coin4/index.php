@@ -55,10 +55,12 @@
                       <li class="banner4"></li>
                       <li class="banner5"></li>
                       <li class="banner6"></li>
+                      <li class="banner7"></li>
 
                     </ul>
                     <ul class="dot">
                       <li class="on"></li>
+                      <li></li>
                       <li></li>
                       <li></li>
                       <li></li>
