@@ -539,6 +539,15 @@
     height: 100%;
     z-index: 999;
 }
+.full_inner .deal_check_table{
+    margin: 15px 0;
+}
+.buy_color{
+    color: #f35531;
+}
+.sell_color{
+    color: #017eff;
+}
 #success_buy_popup,
 #success_sell_popup,
 #fail_buy_popup,

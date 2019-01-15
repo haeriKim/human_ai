@@ -815,17 +815,71 @@
         <div id='apply_buy_popup' class='popup box'>
             <div class="full_inner">
                 <h2>매수주문</h2>
-                <p><span class='emphasis'>1,000 KRW</span>로 <span class='emphasis'>10 ADA</span>를 매수합니다.</p>
+                <table class='left_thick_table deal_check_table'>
+                    <tbody>
+                        <tr>
+                            <th>거래자산</th>
+                            <td>ADA / KRW</td>
+                        </tr>
+                        <tr>
+                            <th>주문구분</th>
+                            <td>지정가 / <span class='buy_color'>매수</span></td>
+                        </tr>
+                        <tr>
+                            <th>매수가격</th>
+                            <td>1,000 KRW</td>
+                        </tr>
+                        <tr>
+                            <th>매수수량</th>
+                            <td>10 ADA</td>
+                        </tr>
+                        <tr>
+                            <th>수수료</th>
+                            <td>0.025 ADA</td>
+                        </tr>
+                        <tr>
+                            <th>정산금액</th>
+                            <td>10,000 KRW</td>
+                        </tr>
+                    </tbody>
+                </table>
                 <input type="button" name="confirm" value="취소" class='popupbt cancel'>
-                <input type="button" name="confirm" value="매수" class='popupbt ok'>
+                <input type="button" name="confirm" value="매수주문" class='popupbt ok'>
             </div>
         </div>
         <div id='apply_sell_popup' class='popup box'>
             <div class="full_inner">
                 <h2>매도주문</h2>
-                <p><span class='emphasis'>10 ADA</span>판매 후 <span class='emphasis'>1,000 KRW</span>를 수령합니다.</p>
+                <table class='left_thick_table deal_check_table'>
+                    <tbody>
+                        <tr>
+                            <th>거래자산</th>
+                            <td>ADA / KRW</td>
+                        </tr>
+                        <tr>
+                            <th>주문구분</th>
+                            <td>지정가 / <span class='sell_color'>매도</span></td>
+                        </tr>
+                        <tr>
+                            <th>매도가격</th>
+                            <td>1,000 KRW</td>
+                        </tr>
+                        <tr>
+                            <th>매도수량</th>
+                            <td>10 ADA</td>
+                        </tr>
+                        <tr>
+                            <th>수수료</th>
+                            <td>25 KRW</td>
+                        </tr>
+                        <tr>
+                            <th>정산금액</th>
+                            <td>9,975 KRW</td>
+                        </tr>
+                    </tbody>
+                </table>
                 <input type="button" name="confirm" value="취소" class='popupbt cancel'>
-                <input type="button" name="confirm" value="매도" class='popupbt ok'>
+                <input type="button" name="confirm" value="매도주문" class='popupbt ok'>
             </div>
         </div>
         <div id="shadow_second"></div>

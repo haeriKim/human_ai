@@ -125,6 +125,21 @@
     z-index: 999;
 }
 
+/*거래소 매수도매도 팝업*/
+.deal_check_table tr th{
+    border: 1px solid #06908c;
+    color: #fff;
+    font-size: 13px;
+    background: #30afb8;
+    height: 30px;
+}
+.deal_check_table tr td{
+    color: #333;
+    font-size: 13px;
+    border: 1px solid #06908c;
+    text-align: left;
+    padding-left: 10px;
+}
 /*회원가입시 이메일 인증 팝업*/
 #full_content .popupbox_text .send_mail_text{
     line-height: 1.5;
