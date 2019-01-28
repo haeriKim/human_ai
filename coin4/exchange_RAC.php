@@ -54,9 +54,8 @@
                     <!-- 코인선택 영역 -->
                     <div class="coinSelect_area">
                         <dl class="coinSelect">
-                          <dt><a href="#" title="비트코인"><img src="img/bitcoin.png" alt="비트코인"/></a><span>비트코인 BTC/KRW</span>
-                            <img src="img/usa-31-sq.png" alt="국기" class="flag"></dt>
-                            <dd onclick="location.href='#'"><a href="#" title="비트코인"><img src="img/bitcoin.png" alt="비트코인"/></a><span>비트코인 BTC/KRW</span>
+                          <dt><a href="#" title="레드엔젤"><img src="img/redangel.png" alt="레드엔젤"/></a><span>레드엔젤 RAC/KRW</span></dt>
+                            <dd onclick="location.href='exchange_BITCOIN.php'"><a href="#" title="비트코인"><img src="img/bitcoin.png" alt="비트코인"/></a><span>비트코인 BTC/KRW</span>
                               <img src="img/usa-31-sq.png" alt="국기" class="flag"></dd>
                             <dd onclick="location.href='exchange_BITCOINCASH.php'"><a href="#" title="비트코인캐시"><img src="img/bitcoincash.png" alt="비트코인캐시"/></a><span>비트코인캐시 BCH/KRW</span>
                               <img src="img/usa-31-sq.png" alt="국기" class="flag"></dd>
@@ -70,7 +69,7 @@
                               <img src="img/usa-31-sq.png" alt="국기" class="flag"></dd>
                             <dd onclick="location.href='exchange_ADA.php'"><a href="#" title="에이다"><img src="img/ada.png" alt="에이다"/></a><span>에이다 ADA/KRW</span>
                               <img src="img/sws-31-sq.png" alt="국기" class="flag"></dd>
-                            <dd onclick="location.href='exchange_RAC.php'"><a href="#" title="레드엔젤"><img src="img/redangel.png" alt="레드엔젤"/></a><span>레드엔젤 RAC/KRW</span></dd>
+                            <dd><a href="#" title="레드엔젤"><img src="img/redangel.png" alt="레드엔젤"/></a><span>레드엔젤 RAC/KRW</span></dd>
                         </dl>
                     </div>
                   </div>
@@ -82,12 +81,12 @@
 
                 <div class="coin_money_inner">
                   <div class="img_area">
-                      <img src="img/bitcoin_big.png" alt="비트코인아이콘" class="bitcoin_icon">
+                      <img src="img/redangel_big.png" alt="레드엔젤아이콘" class="bitcoin_icon">
                   </div>
                   <ul>
                     <li>
-                        <strong>비트코인</strong>
-                        <b class="coin_word">BTC/KRW</b>
+                        <strong>레드엔젤</strong>
+                        <b class="coin_word">RAC/KRW</b>
                     </li>
                     <li>
                       <span class="price">7,400,000<b class="won">KRW</b>
@@ -119,7 +118,7 @@
 
                   <li class="hl_volume">
                     <span class="hl_title">거래량<small>(24H)</small></span>
-                      <p><span class="volume">3,225.800</span><b class="unit BTC">BTC</b></p>
+                      <p><span class="volume">3,225.800</span><b class="unit BTC">RAC</b></p>
                   </li>
                   <li class="hl_volume">
                     <span class="hl_title">거래대금<small>(24H)</small></span>
@@ -138,7 +137,7 @@
               <!--coin_money_detail / coin_money_bitcoin-->
 
               <div class="box coin_money_detail coin_money_bitcoin">
-                <div class="coin_name"><h4>Bitcoin</h4></div>
+                <div class="coin_name"><h4>RedAngel</h4></div>
               <div id="detail_all">
                 <p>(정보기준일:2018.08.28)</p>
                 <!-- left_thick_table -->
@@ -177,7 +176,7 @@
                         </tr>
                         <tr>
                             <th>채굴봉상량</th>
-                            <td>현재 12.5 BTC</td>
+                            <td>현재 12.5 RAC</td>
                         </tr>
                         <tr>
                             <th>국가</th>
@@ -185,7 +184,7 @@
                         </tr>
                         <tr>
                             <th>공식홈페이지</th>
-                            <td><a href="https://bitcoin.org/ko/" target="_blank">bitcoin.org/ko/</a></td>
+                            <td>-</td>
                         </tr>
                     </tbody>
                 </table><!-- left_thick_table End-->
@@ -602,7 +601,7 @@
                           </div>
                       </dl>
                       <div class="mini_sub_info">
-                          <span class='sub_text minimum_order_price'>최소주문수량 : 0.0001 BTC</span>
+                          <span class='sub_text minimum_order_price'>최소주문수량 : 0.0001 RAC</span>
                           <span class='sub_text charge'>수수료 : 0.25%</span>
                       </div>
                       <div class="buy_tab_button">
@@ -618,7 +617,7 @@
                               <dt>주문가능</dt>
                               <dd>
                                   <strong class='up_down_data'>0</strong>
-                                  <span>BTC</span>
+                                  <span>RAC</span>
                               </dd>
                           </div>
                           <div class="sell_tab_content_row">
@@ -630,7 +629,7 @@
                               </dd>
                           </div>
                           <div class="sell_tab_content_row">
-                              <dt>매도수량(BTC)</dt>
+                              <dt>매도수량(RAC)</dt>
                               <dd>
                                   <input type='text' class='sell_amount' value='' autocomplete="off" required onchange="getNumber(this);" onkeyup="getNumber(this);"/>
                                   <div class="amount_dropbox">
@@ -655,7 +654,7 @@
                           </div>
                       </dl>
                       <div class="mini_sub_info">
-                          <span class='sub_text minimum_order_price'>최소주문수량 : 0.0001 BTC</span>
+                          <span class='sub_text minimum_order_price'>최소주문수량 : 0.0001 RAC</span>
                           <span class='sub_text charge'>수수료 : 0.25%</span>
                       </div>
 
@@ -682,7 +681,7 @@
                         <tr>
                             <th class='deal_time'>체결시간</th>
                             <th class='deal_price_KRW'>체결가격(KRW)</th>
-                            <th>체결량(BTC)</th>
+                            <th>체결량(RAC)</th>
                             <th>체결금액(KRW)</th>
                         </tr>
                     </thead>
@@ -934,9 +933,8 @@
                     <!-- 코인선택 영역 -->
                     <div class="coinSelect_area">
                       <dl class="coinSelect">
-                        <dt><a href="#" title="비트코인"><img src="img/bitcoin.png" alt="비트코인"/></a><span>비트코인 BTC/KRW</span>
-                          <img src="img/usa-31-sq.png" alt="국기" class="flag"></dt>
-                          <dd onclick="location.href='#'"><a href="#" title="비트코인"><img src="img/bitcoin.png" alt="비트코인"/></a><span>비트코인 BTC/KRW</span>
+                        <dt><a href="#" title="레드엔젤"><img src="img/redangel_big.png" alt="레드엔젤"/></a><span>레드엔젤 RAC/KRW</span></dt>
+                          <dd onclick="location.href='exchange_BITCOIN.php'"><a href="#" title="비트코인"><img src="img/bitcoin.png" alt="비트코인"/></a><span>비트코인 BTC/KRW</span>
                             <img src="img/usa-31-sq.png" alt="국기" class="flag"></dd>
                           <dd onclick="location.href='exchange_BITCOINCASH.php'"><a href="#" title="비트코인캐시"><img src="img/bitcoincash.png" alt="비트코인캐시"/></a><span>비트코인캐시 BCH/KRW</span>
                             <img src="img/usa-31-sq.png" alt="국기" class="flag"></dd>
@@ -950,7 +948,7 @@
                             <img src="img/usa-31-sq.png" alt="국기" class="flag"></dd>
                           <dd onclick="location.href='exchange_ADA.php'"><a href="#" title="에이다"><img src="img/ada.png" alt="에이다"/></a><span>에이다 ADA/KRW</span>
                             <img src="img/sws-31-sq.png" alt="국기" class="flag"></dd>
-                            <dd onclick="location.href='exchange_RAC.php'"><a href="#" title="레드엔젤"><img src="img/redangel.png" alt="레드엔젤"/></a><span>레드엔젤 RAC/KRW</span></dd>
+                            <dd><a href="#" title="레드엔젤"><img src="img/redangel.png" alt="레드엔젤"/></a><span>레드엔젤 RAC/KRW</span></dd>
                       </dl>
                     </div>
                   </div>
@@ -962,12 +960,12 @@
 
                 <div class="coin_money_inner">
                   <div class="img_area">
-                      <img src="img/bitcoin_big.png" alt="비트코인아이콘" class="bitcoin_icon">
+                      <img src="img/redangel_big.png" alt="레드엔젤아이콘" class="bitcoin_icon">
                   </div>
                   <ul>
                     <li>
-                        <strong>비트코인</strong>
-                        <b class="coin_word">BTC/KRW</b>
+                        <strong>레드엔젤</strong>
+                        <b class="coin_word">RAC/KRW</b>
                     </li>
                     <li>
                       <span class="price">7,400,000<b class="won">KRW</b>
@@ -999,7 +997,7 @@
 
                   <li class="hl_volume">
                     <span class="hl_title">거래량<small>(24H)</small></span>
-                      <p><span class="volume">3,225.800</span><b class="unit BTC">BTC</b></p>
+                      <p><span class="volume">3,225.800</span><b class="unit BTC">RAC</b></p>
                   </li>
                   <li class="hl_volume">
                     <span class="hl_title">거래대금<small>(24H)</small></span>
@@ -1018,7 +1016,7 @@
               <!--coin_money_detail / coin_money_bitcoin-->
 
               <div class="box coin_money_detail coin_money_bitcoin">
-                <div class="coin_name"><h4>Bitcoin</h4></div>
+                <div class="coin_name"><h4>RedAngel</h4></div>
               <div id="detail_all">
                 <p>(정보기준일:2018.08.28)</p>
                 <!-- left_thick_table -->
@@ -1065,7 +1063,7 @@
                         </tr>
                         <tr>
                             <th>공식홈페이지</th>
-                            <td><a href="https://bitcoin.org/ko/" target="_blank">bitcoin.org/ko/</a></td>
+                            <td>-</td>
                         </tr>
                     </tbody>
                 </table><!-- left_thick_table End-->
@@ -1462,7 +1460,7 @@
                             </div>
                         </dl>
                         <div class="mini_sub_info">
-                            <span class='sub_text minimum_order_price'>최소주문수량 : 0.0001 BTC</span>
+                            <span class='sub_text minimum_order_price'>최소주문수량 : 0.0001 RAC</span>
                             <span class='sub_text charge'>수수료 : 0.25%</span>
                         </div>
                         <div class="buy_tab_button">
@@ -1478,7 +1476,7 @@
                                 <dt>주문가능</dt>
                                 <dd>
                                     <strong class='up_down_data'>0</strong>
-                                    <span>BTC</span>
+                                    <span>RAC</span>
                                 </dd>
                             </div>
                             <div class="sell_tab_content_row">
@@ -1490,7 +1488,7 @@
                                 </dd>
                             </div>
                             <div class="sell_tab_content_row">
-                                <dt>매도수량(BTC)</dt>
+                                <dt>매도수량(RAC)</dt>
                                 <dd>
                                     <input type='text' class='sell_amount buy_input02' value='' autocomplete="off" required onchange="getNumber(this);" onkeyup="getNumber(this);"/>
                                     <div class="amount_dropbox">
@@ -1515,7 +1513,7 @@
                             </div>
                         </dl>
                         <div class="mini_sub_info">
-                            <span class='sub_text minimum_order_price'>최소주문수량 : 0.0001 BTC</span>
+                            <span class='sub_text minimum_order_price'>최소주문수량 : 0.0001 RAC</span>
                             <span class='sub_text charge'>수수료 : 0.25%</span>
                         </div>
 
@@ -1543,7 +1541,7 @@
                           <tr>
                               <th class='deal_time'>체결시간</th>
                               <th class='deal_price_KRW'>체결가격(KRW)</th>
-                              <th>체결량(BTC)</th>
+                              <th>체결량(RAC)</th>
                               <th>체결금액(KRW)</th>
                           </tr>
                       </thead>
