@@ -275,6 +275,16 @@
               <td><span class='up_down_data money_down'>-1.20%</span></td>
               <td><span class='up_down_data'>700,000</span></td>
           </tr>
+          <tr onclick="location.href='exchange_RAC_02.php'">
+              <td class='coin_kor'>
+                  <p class="kor_name">레드엔젤</p>
+                  <p style='display:none;' class="eng_name">RedAngel</p>
+                  <span class='unit'>RAC/KRW</span>
+              </td>
+              <td><span class='up_down_data money_down'>600,000</span></td>
+              <td><span class='up_down_data money_down'>-1.20%</span></td>
+              <td><span class='up_down_data'>700,000</span></td>
+          </tr>
       </tbody>
     </table>
   </div>
@@ -371,6 +381,16 @@
                   <p class="kor_name">이오스</p>
                   <p style='display:none;' class="eng_name">EOS</p>
                   <span class='unit'>EOS/USDT</span>
+              </td>
+              <td><span class='up_down_data money_down'>600,000</span></td>
+              <td><span class='up_down_data money_down'>-1.20%</span></td>
+              <td><span class='up_down_data'>700,000</span></td>
+          </tr>
+          <tr onclick="location.href='exchange_RAC_02.php'">
+              <td class='coin_kor'>
+                  <p class="kor_name">레드엔젤</p>
+                  <p style='display:none;' class="eng_name">RedAngel</p>
+                  <span class='unit'>RAC/USDT</span>
               </td>
               <td><span class='up_down_data money_down'>600,000</span></td>
               <td><span class='up_down_data money_down'>-1.20%</span></td>
@@ -739,7 +759,7 @@
                               </dd>
                           </div>
                           <div class="buy_tab_content_row">
-                              <dt>매수수량(BTC)</dt>
+                              <dt>매수수량(XRP)</dt>
                               <dd>
                                   <input type='text' class='buy_amount'  value='' autocomplete="off" required onchange="getNumber(this);" onkeyup="getNumber(this);"/>
                                   <div class="amount_dropbox">
@@ -780,7 +800,7 @@
                               <dt>주문가능</dt>
                               <dd>
                                   <strong class='up_down_data'>0</strong>
-                                  <span>BTC</span>
+                                  <span>XRP</span>
                               </dd>
                           </div>
                           <div class="sell_tab_content_row">
@@ -792,7 +812,7 @@
                               </dd>
                           </div>
                           <div class="sell_tab_content_row">
-                              <dt>매도수량(BTC)</dt>
+                              <dt>매도수량(XRP)</dt>
                               <dd>
                                   <input type='text' class='sell_amount'  value='' autocomplete="off" required onchange="getNumber(this);" onkeyup="getNumber(this);"/>
                                   <div class="amount_dropbox">
@@ -1190,6 +1210,16 @@
                                 <td><span class='up_down_data money_down'>-1.20%</span></td>
                                 <td><span class='up_down_data'>700,000</span></td>
                             </tr>
+                            <tr onclick="location.href='exchange_RAC_02.php'">
+                                <td class='coin_kor'>
+                                    <p class="kor_name">레드엔젤</p>
+                                    <p style='display:none;' class="eng_name">RedAngel</p>
+                                    <span class='unit'>RAC/KRW</span>
+                                </td>
+                                <td><span class='up_down_data money_down'>600,000</span></td>
+                                <td><span class='up_down_data money_down'>-1.20%</span></td>
+                                <td><span class='up_down_data'>700,000</span></td>
+                            </tr>
                         </tbody>
                       </table>
                     </div>
@@ -1286,6 +1316,16 @@
                                     <p class="kor_name">이오스</p>
                                     <p style='display:none;' class="eng_name">EOS</p>
                                     <span class='unit'>EOS/USDT</span>
+                                </td>
+                                <td><span class='up_down_data money_down'>600,000</span></td>
+                                <td><span class='up_down_data money_down'>-1.20%</span></td>
+                                <td><span class='up_down_data'>700,000</span></td>
+                            </tr>
+                            <tr onclick="location.href='exchange_RAC_02.php'">
+                                <td class='coin_kor'>
+                                    <p class="kor_name">레드엔젤</p>
+                                    <p style='display:none;' class="eng_name">RedAngel</p>
+                                    <span class='unit'>RAC/USDT</span>
                                 </td>
                                 <td><span class='up_down_data money_down'>600,000</span></td>
                                 <td><span class='up_down_data money_down'>-1.20%</span></td>
@@ -1765,7 +1805,7 @@
                                 </dd>
                             </div>
                             <div class="buy_tab_content_row">
-                                <dt>매수수량(BTC)</dt>
+                                <dt>매수수량(XRP)</dt>
                                 <dd>
                                     <input type='text' class='buy_amount buy_input02'  value='' autocomplete="off" required onchange="getNumber(this);" onkeyup="getNumber(this);"/>
                                     <div class="amount_dropbox">
@@ -1806,7 +1846,7 @@
                                 <dt>주문가능</dt>
                                 <dd>
                                     <strong class='up_down_data'>0</strong>
-                                    <span>BTC</span>
+                                    <span>XRP</span>
                                 </dd>
                             </div>
                             <div class="sell_tab_content_row">
@@ -1818,7 +1858,7 @@
                                 </dd>
                             </div>
                             <div class="sell_tab_content_row">
-                                <dt>매도수량(BTC)</dt>
+                                <dt>매도수량(XRP)</dt>
                                 <dd>
                                     <input type='text' class='sell_amount buy_input02'  value='' autocomplete="off" required onchange="getNumber(this);" onkeyup="getNumber(this);"/>
                                     <div class="amount_dropbox">

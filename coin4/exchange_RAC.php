@@ -139,7 +139,7 @@
               <div class="box coin_money_detail coin_money_bitcoin">
                 <div class="coin_name"><h4>RedAngel</h4></div>
               <div id="detail_all">
-                <p>(정보기준일:2018.08.28)</p>
+                <p>(정보기준일:2019.01.28)</p>
                 <!-- left_thick_table -->
                 <table class='left_thick_table coinInfo_table'>
                   <thead>
@@ -148,39 +148,39 @@
                     <tbody>
                         <tr>
                             <th>최초발행</th>
-                            <td>2009년 1월</td>
+                            <td>-</td>
                         </tr>
                         <tr>
                             <th>코인/토큰</th>
-                            <td>코인</td>
+                            <td>-</td>
                         </tr>
                         <tr>
                             <th>시총순위</th>
-                            <td>1위</td>
+                            <td>-</td>
                         </tr>
                         <tr>
                             <th>시가총액</th>
-                            <td>48.8조원(18.08.27 기준)</td>
+                            <td>-</td>
                         </tr>
                         <tr>
                             <th>블록생성기</th>
-                            <td>10분</td>
+                            <td>-</td>
                         </tr>
                         <tr>
                             <th>유통량</th>
-                            <td>16,956,512</td>
+                            <td>-</td>
                         </tr>
                         <tr>
                             <th>총발행한도</th>
-                            <td>21,000,000</td>
+                            <td>-</td>
                         </tr>
                         <tr>
                             <th>채굴봉상량</th>
-                            <td>현재 12.5 RAC</td>
+                            <td>-</td>
                         </tr>
                         <tr>
                             <th>국가</th>
-                            <td>미국</td>
+                            <td>대한민국</td>
                         </tr>
                         <tr>
                             <th>공식홈페이지</th>
@@ -188,7 +188,7 @@
                         </tr>
                     </tbody>
                 </table><!-- left_thick_table End-->
-                  <span><a href="coin_info_bitcoin.php">상세보기</a></span>
+                  <span><a href="#">상세보기</a></span>
               </div>
 
 
@@ -298,7 +298,7 @@
                         <tr>
                             <td class='coin_kor'>
                                 <p class="kor_name">레드엔젤</p>
-                                <p style='display:none;' class="eng_name">RAC</p>
+                                <p style='display:none;' class="eng_name">RedAngel</p>
                                 <span class='unit'>RAC/KRW</span>
                             </td>
                             <td><span class='up_down_data money_down'>15,000</span></td>
@@ -576,7 +576,7 @@
                               </dd>
                           </div>
                           <div class="buy_tab_content_row">
-                              <dt>매수수량(BTC)</dt>
+                              <dt>매수수량(RAC)</dt>
                               <dd>
                                   <input type='text' class='buy_amount' value='' autocomplete="off" required onchange="getNumber(this);" onkeyup="getNumber(this);"/>
                                   <div class="amount_dropbox">
@@ -833,7 +833,7 @@
                     <tbody>
                         <tr>
                             <th>거래자산</th>
-                            <td>BTC / KRW</td>
+                            <td>RAC / KRW</td>
                         </tr>
                         <tr>
                             <th>주문구분</th>
@@ -845,11 +845,11 @@
                         </tr>
                         <tr>
                             <th>매수수량</th>
-                            <td>10 BTC</td>
+                            <td>10 RAC</td>
                         </tr>
                         <tr>
                             <th>수수료</th>
-                            <td>0.025 BTC</td>
+                            <td>0.025 RAC</td>
                         </tr>
                         <tr>
                             <th>정산금액</th>
@@ -868,7 +868,7 @@
                     <tbody>
                         <tr>
                             <th>거래자산</th>
-                            <td>BTC / KRW</td>
+                            <td>RAC / KRW</td>
                         </tr>
                         <tr>
                             <th>주문구분</th>
@@ -880,7 +880,7 @@
                         </tr>
                         <tr>
                             <th>매도수량</th>
-                            <td>10 BTC</td>
+                            <td>10 RAC</td>
                         </tr>
                         <tr>
                             <th>수수료</th>
@@ -1018,7 +1018,7 @@
               <div class="box coin_money_detail coin_money_bitcoin">
                 <div class="coin_name"><h4>RedAngel</h4></div>
               <div id="detail_all">
-                <p>(정보기준일:2018.08.28)</p>
+                <p>(정보기준일:2019.01.28)</p>
                 <!-- left_thick_table -->
                 <table class='left_thick_table coinInfo_table'>
                   <thead>
@@ -1027,39 +1027,39 @@
                     <tbody>
                         <tr>
                             <th>최초발행</th>
-                            <td>2009년 1월</td>
+                            <td>-</td>
                         </tr>
                         <tr>
                             <th>코인/토큰</th>
-                            <td>코인</td>
+                            <td>-</td>
                         </tr>
                         <tr>
                             <th>시총순위</th>
-                            <td>1위</td>
+                            <td>-</td>
                         </tr>
                         <tr>
                             <th>시가총액</th>
-                            <td>48.8조원(18.08.27 기준)</td>
+                            <td>-</td>
                         </tr>
                         <tr>
                             <th>블록생성기</th>
-                            <td>10분</td>
+                            <td>-</td>
                         </tr>
                         <tr>
                             <th>유통량</th>
-                            <td>각 코인정보기재</td>
+                            <td>-</td>
                         </tr>
                         <tr>
                             <th>총발행한도</th>
-                            <td>21,000,000</td>
+                            <td>-</td>
                         </tr>
                         <tr>
                             <th>채굴봉상량</th>
-                            <td>각 코인 정보 기재</td>
+                            <td>-</td>
                         </tr>
                         <tr>
                             <th>국가</th>
-                            <td>각 코인 정보 기재</td>
+                            <td>대한민국</td>
                         </tr>
                         <tr>
                             <th>공식홈페이지</th>
@@ -1067,7 +1067,7 @@
                         </tr>
                     </tbody>
                 </table><!-- left_thick_table End-->
-                  <span><a href="coin_info_bitcoin.php">상세보기</a></span>
+                  <span><a href="#">상세보기</a></span>
               </div>
 
 
@@ -1435,7 +1435,7 @@
                                 </dd>
                             </div>
                             <div class="buy_tab_content_row">
-                                <dt>매수수량(BTC)</dt>
+                                <dt>매수수량(RAC)</dt>
                                 <dd>
                                     <input type='text' class='buy_amount buy_input02' value='' autocomplete="off" required onchange="getNumber(this);" onkeyup="getNumber(this);"/>
                                     <div class="amount_dropbox">
@@ -1657,34 +1657,6 @@
 
         </div><!-- container End -->
     </div><!-- wrap End -->
-
-    <div id="main_full">
-            <!-- full_content -->
-            <div id="full_content" class='box'>
-                <div class="full_inner">
-                    <h2>암호화폐 거래 안내</h2>
-                    <p>
-                        최근 암호화폐에 대한 관심과 함께 무리한 투자에 대한 우려도 증가하고
-                        있습니다. 안전하게 암호화폐를 거래할 수 있도록 아래 유의사항을 충분히
-                        숙지하신 후 이용하시기 바랍니다.
-                    </p>
-                    <ul>
-                        <li>암호화폐는 법정화폐가 아니며, 특정 주체가 가치를 보장하지 않습니다.</li>
-                        <li>암호화폐는 365일, 24시간 전 세계에서 거래되며, 투기적 수요 및
-                            국내외 규제 환경 등에 따라 급격한 시세 변동에 노출될 수 있습니다.</li>
-                        <li>암호화폐에 대한 투자판단의 책임은 본인에게 있으며, 그에 따라
-                            발생 가능한 손실도 투자자 본인에게 귀속됩니다.</li>
-                    </ul>
-                    <p>암호화폐의 특성을 충분히 숙지하시고 신중하게 거래에 임해주시기 바랍니다.</p>
-                    <form class="" action="#" method="post">
-                        <input type="checkbox" id='today_close' name='today_close'>
-                        <label for='today_close'>오늘 하루 이 창 열지않기</label>
-                    </form>
-                    <a href="#" class='close_btn'>닫기</a>
-                </div>
-            </div><!-- full_content End-->
-            <div id="shadow"></div>
-    </div>  <!-- main_full End-->
 
     <!--로그인팝업창-->
     <div id="login_full" style="display:none;">

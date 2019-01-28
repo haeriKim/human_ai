@@ -70,6 +70,7 @@
                                 <img src="img/usa-31-sq.png" alt="국기" class="flag"></dd>
                               <dd onclick="location.href='exchange_ADA.php'"><a href="#" title="에이다"><img src="img/ada.png" alt="에이다"/></a><span>에이다 ADA/KRW</span>
                                 <img src="img/sws-31-sq.png" alt="국기" class="flag"></dd>
+                              <dd onclick="location.href='exchange_RAC.php'"><a href="#" title="레드엔젤"><img src="img/redangel.png" alt="레드엔젤"/></a><span>레드엔젤 RAC/KRW</span></dd>
                         </dl>
                     </div>
                   </div>
@@ -294,6 +295,16 @@
                             <td><span class='up_down_data money_down'>621,024</span></td>
                             <td><span class='up_down_data money_down'>-8.20%</span></td>
                             <td><span class='up_down_data'>700,000</span></td>
+                        </tr>
+                        <tr>
+                            <td class='coin_kor'>
+                                <p class="kor_name">레드엔젤</p>
+                                <p style='display:none;' class="eng_name">RAC</p>
+                                <span class='unit'>RAC/KRW</span>
+                            </td>
+                            <td><span class='up_down_data money_down'>15,000</span></td>
+                            <td><span class='up_down_data money_down'>-0.10%</span></td>
+                            <td><span class='up_down_data'>450,000</span></td>
                         </tr>
                     </tbody>
                   </table>
@@ -564,7 +575,7 @@
                               </dd>
                           </div>
                           <div class="buy_tab_content_row">
-                              <dt>매수수량(BTC)</dt>
+                              <dt>매수수량(BCH)</dt>
                               <dd>
                                   <input type='text' class='buy_amount'  value='' autocomplete="off" required onchange="getNumber(this);" onkeyup="getNumber(this);"/>
                                   <div class="amount_dropbox">
@@ -605,7 +616,7 @@
                               <dt>주문가능</dt>
                               <dd>
                                   <strong class='up_down_data'>0</strong>
-                                  <span>BTC</span>
+                                  <span>BCH</span>
                               </dd>
                           </div>
                           <div class="sell_tab_content_row">
@@ -617,7 +628,7 @@
                               </dd>
                           </div>
                           <div class="sell_tab_content_row">
-                              <dt>매도수량(BTC)</dt>
+                              <dt>매도수량(BCH)</dt>
                               <dd>
                                   <input type='text' class='sell_amount'  value='' autocomplete="off" required onchange="getNumber(this);" onkeyup="getNumber(this);"/>
                                   <div class="amount_dropbox">
@@ -929,6 +940,7 @@
                               <img src="img/usa-31-sq.png" alt="국기" class="flag"></dd>
                             <dd onclick="location.href='exchange_ADA.php'"><a href="#" title="에이다"><img src="img/ada.png" alt="에이다"/></a><span>에이다 ADA/KRW</span>
                               <img src="img/sws-31-sq.png" alt="국기" class="flag"></dd>
+                            <dd onclick="location.href='exchange_RAC.php'"><a href="#" title="레드엔젤"><img src="img/redangel.png" alt="레드엔젤"/></a><span>레드엔젤 RAC/KRW</span></dd>
                       </dl>
                     </div>
                   </div>
@@ -1387,7 +1399,7 @@
                                 </dd>
                             </div>
                             <div class="buy_tab_content_row">
-                                <dt>매수수량(BTC)</dt>
+                                <dt>매수수량(BCH)</dt>
                                 <dd>
                                     <input type='text' class='buy_amount buy_input02'  value='' autocomplete="off" required onchange="getNumber(this);" onkeyup="getNumber(this);"/>
                                     <div class="amount_dropbox">
@@ -1428,7 +1440,7 @@
                                 <dt>주문가능</dt>
                                 <dd>
                                     <strong class='up_down_data'>0</strong>
-                                    <span>BTC</span>
+                                    <span>BCH</span>
                                 </dd>
                             </div>
                             <div class="sell_tab_content_row">
@@ -1440,7 +1452,7 @@
                                 </dd>
                             </div>
                             <div class="sell_tab_content_row">
-                                <dt>매도수량(BTC)</dt>
+                                <dt>매도수량(BCH)</dt>
                                 <dd>
                                     <input type='text' class='sell_amount buy_input02'  value='' autocomplete="off" required onchange="getNumber(this);" onkeyup="getNumber(this);"/>
                                     <div class="amount_dropbox">
