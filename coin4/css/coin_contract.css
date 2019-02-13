@@ -36,13 +36,17 @@
 .use_content #use_tab_menu ul li.lan_kor{
     line-height: 37px;
 }
+.use_content #use_tab_menu ul li p{
+    position: absolute;
+    left: 35%;
+}
 .use_content #use_tab_menu ul li span{
     font-size: 15px;
 }
 .use_content #use_tab_menu ul li img{
     position: absolute;
     top: 35%;
-    right: 8%;
+    left: 8%;
 }
 .use_content #use_area {
     padding: 30px 40px;

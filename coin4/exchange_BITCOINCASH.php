@@ -70,7 +70,7 @@
                                 <img src="img/usa-31-sq.png" alt="국기" class="flag"></dd>
                               <dd onclick="location.href='exchange_ADA.php'"><a href="#" title="에이다"><img src="img/ada.png" alt="에이다"/></a><span>에이다 ADA/KRW</span>
                                 <img src="img/sws-31-sq.png" alt="국기" class="flag"></dd>
-                              <dd onclick="location.href='exchange_RAC.php'"><a href="#" title="레드엔젤"><img src="img/redangel.png" alt="레드엔젤"/></a><span>레드엔젤 RAC/KRW</span></dd>
+                              <dd onclick="location.href='exchange_RAC.php'"><a href="#" title="레드엔젤"><img src="img/redangel.png" alt="레드엔젤"/></a><span>레드엔젤 RAC/KRW</span><img src="img/kor-31-sq.png" alt="국기" class="flag"></dd>
                         </dl>
                     </div>
                   </div>
@@ -940,7 +940,7 @@
                               <img src="img/usa-31-sq.png" alt="국기" class="flag"></dd>
                             <dd onclick="location.href='exchange_ADA.php'"><a href="#" title="에이다"><img src="img/ada.png" alt="에이다"/></a><span>에이다 ADA/KRW</span>
                               <img src="img/sws-31-sq.png" alt="국기" class="flag"></dd>
-                            <dd onclick="location.href='exchange_RAC.php'"><a href="#" title="레드엔젤"><img src="img/redangel.png" alt="레드엔젤"/></a><span>레드엔젤 RAC/KRW</span></dd>
+                            <dd onclick="location.href='exchange_RAC.php'"><a href="#" title="레드엔젤"><img src="img/redangel.png" alt="레드엔젤"/></a><span>레드엔젤 RAC/KRW</span><img src="img/kor-31-sq.png" alt="국기" class="flag"></dd>
                       </dl>
                     </div>
                   </div>

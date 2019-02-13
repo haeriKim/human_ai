@@ -54,7 +54,8 @@
                     <!-- 코인선택 영역 -->
                     <div class="coinSelect_area">
                         <dl class="coinSelect">
-                          <dt><a href="#" title="레드엔젤"><img src="img/redangel.png" alt="레드엔젤"/></a><span>레드엔젤 RAC/KRW</span></dt>
+                          <dt><a href="#" title="레드엔젤"><img src="img/redangel.png" alt="레드엔젤"/></a><span>레드엔젤 RAC/KRW</span>
+                          <img src="img/kor-31-sq.png" alt="국기" class="flag"></dt>
                             <dd onclick="location.href='exchange_BITCOIN.php'"><a href="#" title="비트코인"><img src="img/bitcoin.png" alt="비트코인"/></a><span>비트코인 BTC/KRW</span>
                               <img src="img/usa-31-sq.png" alt="국기" class="flag"></dd>
                             <dd onclick="location.href='exchange_BITCOINCASH.php'"><a href="#" title="비트코인캐시"><img src="img/bitcoincash.png" alt="비트코인캐시"/></a><span>비트코인캐시 BCH/KRW</span>
@@ -69,7 +70,7 @@
                               <img src="img/usa-31-sq.png" alt="국기" class="flag"></dd>
                             <dd onclick="location.href='exchange_ADA.php'"><a href="#" title="에이다"><img src="img/ada.png" alt="에이다"/></a><span>에이다 ADA/KRW</span>
                               <img src="img/sws-31-sq.png" alt="국기" class="flag"></dd>
-                            <dd><a href="#" title="레드엔젤"><img src="img/redangel.png" alt="레드엔젤"/></a><span>레드엔젤 RAC/KRW</span></dd>
+                            <dd><a href="#" title="레드엔젤"><img src="img/redangel.png" alt="레드엔젤"/></a><span>레드엔젤 RAC/KRW</span><img src="img/kor-31-sq.png" alt="국기" class="flag"></dd>
                         </dl>
                     </div>
                   </div>
@@ -933,7 +934,8 @@
                     <!-- 코인선택 영역 -->
                     <div class="coinSelect_area">
                       <dl class="coinSelect">
-                        <dt><a href="#" title="레드엔젤"><img src="img/redangel_big.png" alt="레드엔젤"/></a><span>레드엔젤 RAC/KRW</span></dt>
+                        <dt><a href="#" title="레드엔젤"><img src="img/redangel_big.png" alt="레드엔젤"/></a><span>레드엔젤 RAC/KRW</span>
+                        <img src="img/kor-31-sq.png" alt="국기" class="flag"></dt>
                           <dd onclick="location.href='exchange_BITCOIN.php'"><a href="#" title="비트코인"><img src="img/bitcoin.png" alt="비트코인"/></a><span>비트코인 BTC/KRW</span>
                             <img src="img/usa-31-sq.png" alt="국기" class="flag"></dd>
                           <dd onclick="location.href='exchange_BITCOINCASH.php'"><a href="#" title="비트코인캐시"><img src="img/bitcoincash.png" alt="비트코인캐시"/></a><span>비트코인캐시 BCH/KRW</span>
@@ -948,7 +950,7 @@
                             <img src="img/usa-31-sq.png" alt="국기" class="flag"></dd>
                           <dd onclick="location.href='exchange_ADA.php'"><a href="#" title="에이다"><img src="img/ada.png" alt="에이다"/></a><span>에이다 ADA/KRW</span>
                             <img src="img/sws-31-sq.png" alt="국기" class="flag"></dd>
-                            <dd><a href="#" title="레드엔젤"><img src="img/redangel.png" alt="레드엔젤"/></a><span>레드엔젤 RAC/KRW</span></dd>
+                            <dd><a href="#" title="레드엔젤"><img src="img/redangel.png" alt="레드엔젤"/></a><span>레드엔젤 RAC/KRW</span><img src="img/kor-31-sq.png" alt="국기" class="flag"></dd>
                       </dl>
                     </div>
                   </div>
