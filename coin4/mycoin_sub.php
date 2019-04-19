@@ -477,28 +477,28 @@
                                       </thead>
                                       <tbody>
                                         <tr>
-                                          <td>2018-09-05<br/>
-                                            11 : 23 : 45
+                                          <td>2019-01-29<br/>
+                                            09 : 23 : 45
                                           </br/></td>
-                                          <td>비트코인</td>
+                                          <td>레드엔젤</td>
                                           <td class="buying">매수</td>
-                                          <td>0</td>
-                                          <td><span>0</span>KRW</td>
-                                          <td><span>0</span>KRW</td>
-                                          <td><span>0</span>KRW</td>
-                                          <td><span>0</span>KRW</td>
+                                          <td>25</td>
+                                          <td><span>100</span>KRW</td>
+                                          <td><span>2,500</span>KRW</td>
+                                          <td><span>0.025</span>KRW</td>
+                                          <td><span>2,562.2</span>KRW</td>
                                         </tr>
 
                                         <tr>
-                                          <td>2018-08-31<br/>
-                                            08 : 47 : 26</td>
-                                          <td>이더리움</td>
+                                          <td>2018-01-29<br/>
+                                            09 : 20 : 26</td>
+                                          <td>레드엔젤</td>
                                           <td class="sell">매도</td>
-                                          <td>0</td>
-                                          <td><span>0</span>KRW</td>
-                                          <td><span>0</span>KRW</td>
-                                          <td><span>0</span>KRW</td>
-                                          <td><span>0</span>KRW</td>
+                                          <td>17</td>
+                                          <td><span>900</span>KRW</td>
+                                          <td><span>15,300</span>KRW</td>
+                                          <td><span>0.025</span>KRW</td>
+                                          <td><span>15,628.5</span>KRW</td>
                                         </tr>
 
                                         <tr>

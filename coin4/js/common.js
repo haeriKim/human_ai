@@ -409,7 +409,7 @@ $(document).ready(function(){
     })
     $('#apply_sell_popup .ok').click(function(){
         $('#apply_sell_popup').hide();
-        $('#fail_sell_popup').show();
+        $('#success_sell_popup').show();
     })
     $('#full_second .end_ok, #full_second .cancel').click(function(){
         $('#full_second .popup, #shadow_second').hide();
