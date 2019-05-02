@@ -211,7 +211,7 @@
   .intro_inner .app_company_header a{
     font-size: 12px;
   }
-  .intro_inner .app_company_header a.on{
+  .intro_inner .app_company_header a.app_on{
     border-bottom:2px solid #1b2f4a;
     display:inline;
     padding-top: 5px;
