@@ -48,15 +48,15 @@
             <div class="app_technology_header app_company_header">
                 <ul>
                   <li>
-                    <a href="#te_intro_mission" id="te_mission" class="intro">목표</a>
+                    <a href="#te_intro_mission" id="te_mission_m" class="intro">목표</a>
                   </li>
 
                   <li>
-                    <a href="#te_intro_kind" id="te_kind" class="kind">사업분야</a>
+                    <a href="#te_intro_kind" id="te_kind_m" class="kind">사업분야</a>
                   </li>
 
                   <li>
-                    <a href="#te_intro_story" id="te_story" class="map_story">기술소개</a>
+                    <a href="#te_intro_story" id="te_story_m" class="map_story">기술소개</a>
                   </li>
                 </ul>
             </div>
@@ -91,7 +91,7 @@
             </div> -->
 
             <!-- tech_intro -->
-            <div id="te_intro_mission" class="tech_intro target">
+            <div id="te_intro_mission" class="tech_intro target target_mobile">
               <div class="second_title1">사람이 만든 스마트 인공지능 기술</div>
                 <div class="tech_mission">
                   <p class="tech_title">목표</p>
@@ -123,7 +123,7 @@
           </div>
 
             <!-- tech_content_wrap -->
-            <div id="te_intro_kind" class="tech_content_wrap target">
+            <div id="te_intro_kind" class="tech_content_wrap target target_mobile">
                 <p class="tech_title">사업분야</p>
                 <h3>
                     Human & Ai Solution
@@ -182,7 +182,7 @@
                 </div>
             </div><!-- tech_content_wrap End-->
 
-            <div id="te_intro_story" class="tech_detail target">
+            <div id="te_intro_story" class="tech_detail target target_mobile">
               <p class="tech_title">기술소개</p>
 
               <div class="tech_box">

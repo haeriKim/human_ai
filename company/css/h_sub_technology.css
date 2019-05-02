@@ -439,7 +439,7 @@
         font-size: 12px;
         padding-bottom: 1px;
     }
-    .technology_inner .app_technology_header ul li a.on{
+    .technology_inner .app_technology_header ul li a.app_on{
         border-bottom:2px solid #1b2f4a;
         display:inline;
         padding-top: 5px;
@@ -513,7 +513,7 @@
     #container .technology_inner .tech_title{
         font-size: 20px;
         padding-bottom: 40px;
-        padding-top: 12%;
+        padding-top: 9%;
         padding-left: 11%;
         top: 0;
     }
