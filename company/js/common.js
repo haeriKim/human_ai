@@ -83,3 +83,19 @@ $(document).ready(function(){
       }
   });
 });
+
+//사업분야 리스트 반응형작업
+$(function(){
+    var imgH=txtH=0;
+
+    menuResize();
+    $(window).resize(function(){
+        menuResize();
+    });
+    function menuResize(){
+        imgH = $('.tech_content').innerHeight();
+        txtH = $('#te_intro_kind>ul').innerHeight();
+
+        $('#te_intro_kind>ul').css({top:(imgH-txtH)/2});
+    }
+});
