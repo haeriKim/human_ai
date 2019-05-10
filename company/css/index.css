@@ -126,9 +126,11 @@
       opacity: 1;
   }
 }
-#app_wrap{
+#app_wrap,
+.app_main_fence{
   display:none;
 }
+
 @media all and (min-width:320px) and (max-width:768px){
   #wrap{
     display:none;
@@ -154,9 +156,6 @@
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     background-position: 0 0;
-  }
-  .app_main_fence{
-    display:none;
   }
   #app_container .app_main_content{
     color:#fff;
