@@ -46,6 +46,8 @@
 .intro_inner .bg_area {
   background: url(../img/sub1_bg1.jpg) no-repeat top right;
   background-size: 100% 1400px;
+  transition: all 0.3s;
+  min-width: 1300px;
 }
 .intro_inner h2{
     padding-top:110px;
@@ -221,9 +223,10 @@
   }
 
   .intro_inner .bg_area {
-      background-size: 158% 30%;
+      background-size: 125%;
       margin-top: 80px;
-      background-position: 47% 0;
+      background-position: -57px 1%;
+      min-width:initial;
   }
   .intro_inner .co_intro_h2{
     padding-left:11%;
@@ -248,7 +251,7 @@
   /*컨텐츠 시작*/
   .co_intro{
       margin-top: 0;
-      margin-bottom:70px;
+      margin-bottom:0;
       padding: 0 11%;
   }
   .intro_inner .co_intro p{
@@ -303,7 +306,7 @@
     width:100px;
   }
   .first_indent{
-    padding-top: 0;
+    padding-top: 6%;
     margin-left:0;
     padding-left: 0;
     font-size: 20px;
@@ -371,4 +374,10 @@
   .intro_inner .vision_img2{
     width:100%;
   }
+}
+@media all and (min-width:320px) and (max-width:440px){
+    .intro_inner .bg_area{
+        background-size: 140%;
+        background-position: -57px 2%;
+    }
 }

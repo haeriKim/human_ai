@@ -94,7 +94,7 @@
             <div id="te_intro_mission" class="tech_intro target target_mobile">
               <div class="second_title1">사람이 만든 스마트 인공지능 기술</div>
                 <div class="tech_mission">
-                  <p class="tech_title">목표</p>
+                  <p class="tech_title_0 tech_title">목표</p>
                   <div class="circle"><img src="img/human.png" alt="사람"></div>
                   <p class='mini_title_human'>HUMAN</p>
                   <span class='explain_human'>
