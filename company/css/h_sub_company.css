@@ -226,7 +226,7 @@
       background-size: 125%;
       margin-top: 80px;
       background-position: -57px 1%;
-      min-width:initial;
+      min-width:auto;
   }
   .intro_inner .co_intro_h2{
     padding-left:11%;

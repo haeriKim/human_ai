@@ -462,7 +462,7 @@
         margin-top: 80px;
         background-size: 125%;
         background-position: -57px 1%;
-        min-width: initial;
+        min-width: auto;
     }
     .technology_inner .bg_title{
         padding-top: 60px;

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content=" width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
     <title>Human&Ai</title>
+    <!--[if IE 9]><link rel='stylesheet' type='text/css' href='css/ie9.css'/><![endif]--> 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/m_header.css">
